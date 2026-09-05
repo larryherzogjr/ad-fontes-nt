@@ -70,3 +70,5 @@ For integration tests, point `DATABASE_URL` at an isolated database named **afnt
 ## GitHub and host updates
 
 See [private GitHub workflow](docs/GitHub-Workflow.md) for Mac push and host pull/rebuild commands. Pulling source does not restart the running app. Credentials, personal notes and database backups stay outside Git.
+
+The reader includes a collapsed **Related Ordinary Means resources** section below the reading material when relevant links exist. The initial 12 studies/articles open in new tabs; their prose is not copied into Ad Fontes NT. [Inventory and mapping boundaries](docs/M4-Resource-Links.md).

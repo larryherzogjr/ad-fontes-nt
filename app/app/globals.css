@@ -319,6 +319,13 @@ h2 {
 .publisher-notes details p {
   font-size: 16px;
 }
+.related-resources { margin: 1.5rem 0; padding-top: 1rem; border-top: 1px solid var(--border); font: .95rem/1.6 Arial, sans-serif; }
+.related-resources summary { cursor: pointer; color: var(--primary); }
+.related-resources summary span, .related-resources p, .resource-kind { color: var(--muted-foreground); }
+.related-resources p { margin: .5rem 0; }
+.related-resources ul { padding-left: 1.3rem; margin: .5rem 0; }
+.related-resources li { margin: .65rem 0; overflow-wrap: anywhere; }
+.resource-kind { display: block; font-size: .85rem; }
 .chapter-nav {
   display: flex;
   align-items: center;

@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import StudyPanel from './study-panel';
 import PersonalNotes from './personal-notes';
+import RelatedResources from './related-resources';
 import ReadingSelection from './reading-selection';
 import ReviewedMarkers, { InlineReviewedMarkers, useReviewedUnits } from './reviewed-markers';
 import { reviewedAt, verseAnchors } from '@/lib/domain/reviewed-markers';
@@ -769,6 +770,7 @@ export default function Reader() {
                 )}
               </section>
             ))}
+            <RelatedResources ranges={ranges} />
             <nav className="chapter-nav" aria-label="Chapter navigation">
               <button
                 disabled={!previous}
