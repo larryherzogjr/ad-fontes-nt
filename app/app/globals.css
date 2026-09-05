@@ -838,3 +838,5 @@ button.greek-token.chosen {
 .notes-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0; }
 .personal-notes button, .account-page button { overflow-wrap: anywhere; }
 .personal-notes textarea { resize: vertical; }
+.personal-notes .notes-filter { display: flex; align-items: center; gap: .6rem; width: fit-content; min-height: 44px; cursor: pointer; }
+.personal-notes .notes-filter input[type=checkbox] { appearance: auto; flex: 0 0 18px; width: 18px; height: 18px; min-width: 0; min-height: 0; margin: 0; padding: 0; accent-color: var(--primary); }

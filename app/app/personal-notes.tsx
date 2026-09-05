@@ -154,7 +154,7 @@ export default function PersonalNotes({
               Reload saved notes
             </button>
           </div>
-          <label>
+          <label className="notes-filter">
             <input
               type="checkbox"
               checked={all}
