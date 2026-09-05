@@ -1,0 +1,36 @@
+{
+  "unitId": "candidate-24",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-3/candidate-24-RETURNED-2026-09-05.md",
+  "returnedSha256": "b94e9fb5fff2fc09e5d82407e97e5fd2eafaac71dceaa4d445a88e25a423d8ab",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, referenced source records, approved related links and exact partial-verse boundaries; optional D is archival only.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": [
+    [
+      "Nothing is added and nothing is dropped; the same three verses stand in a different position.",
+      "The doxology is present in all seven editions, but its position differs. There are also smaller wording differences; Nestle 1904 has an additional “of the ages” at the end of verse 27 compared with Robinson–Pierpont and Boyd."
+    ],
+    [
+      "Because the words are the same, nothing in the doxology's content is in question. What placement changes is what the doxology closes. At the end of chapter 16 it seals the whole letter, following the greetings and the final benediction. After 14:23 it falls at the end of Paul's argument about the weak and the strong, and the letter then continues for two more chapters.",
+      "This note concerns the doxology’s placement; smaller wording differences are a separate question. At the end of chapter 16 it closes the letter after the greetings. After 14:23 it comes before the continuation of Paul’s discussion of the weak and the strong in chapter 15, and the letter continues for two more chapters."
+    ],
+    [
+      "that its wording is not in dispute,",
+      "that it is present in every edition compared here,"
+    ],
+    [
+      "as though something had been added or removed — nothing has —",
+      "as though the doxology were absent from one of these editions"
+    ]
+  ],
+  "correctionApproval": "Larry Herzog Jr.: Approve all proposed corrections (2026-09-05)",
+  "approvedContentHash": "6ed96e1ea5863cc31e9737396fe986dc062ab1329605a725288c81dec99bf7bf"
+}

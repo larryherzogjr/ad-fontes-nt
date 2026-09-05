@@ -1,0 +1,983 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/2CO.usj#content/160",
+      "runs": [
+        {
+          "text": "Examine Yourselves",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/161",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "2CO.13.1",
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "text": "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+          "anchor": "2CO.13.1",
+          "marks": [],
+          "originalText": "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "noteId": "2CO.13.note.29",
+          "anchor": "2CO.13.1",
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/162",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.1",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "2CO.13.2",
+          "anchors": [
+            "2CO.13.2"
+          ],
+          "sourceAnchor": "2CO.13.2"
+        },
+        {
+          "text": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone,",
+          "anchor": "2CO.13.2",
+          "marks": [],
+          "originalText": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone, ",
+          "anchors": [
+            "2CO.13.2"
+          ],
+          "sourceAnchor": "2CO.13.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "2CO.13.3",
+          "anchors": [
+            "2CO.13.3"
+          ],
+          "sourceAnchor": "2CO.13.3"
+        },
+        {
+          "text": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you but is powerful among you.",
+          "anchor": "2CO.13.3",
+          "marks": [],
+          "originalText": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you but is powerful among you. ",
+          "anchors": [
+            "2CO.13.3"
+          ],
+          "sourceAnchor": "2CO.13.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "2CO.13.4",
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        },
+        {
+          "text": "For He was indeed crucified in weakness, yet He lives by God’s power. For we are also weak in Him, yet by God’s power we will live with Him concerning you.",
+          "anchor": "2CO.13.4",
+          "marks": [],
+          "originalText": "For He was indeed crucified in weakness, yet He lives by God’s power. For we are also weak in Him, yet by God’s power we will live with Him concerning you.",
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/163",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "2CO.13.5",
+          "anchors": [
+            "2CO.13.5"
+          ],
+          "sourceAnchor": "2CO.13.5"
+        },
+        {
+          "text": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Jesus Christ is in you—unless you fail the test?",
+          "anchor": "2CO.13.5",
+          "marks": [],
+          "originalText": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Jesus Christ is in you — unless you fail the test? ",
+          "anchors": [
+            "2CO.13.5"
+          ],
+          "sourceAnchor": "2CO.13.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "2CO.13.6",
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        },
+        {
+          "text": "And I hope you will realize that we have not failed the test.",
+          "anchor": "2CO.13.6",
+          "marks": [],
+          "originalText": "And I hope you will realize that we have not failed the test.",
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/164",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "2CO.13.7",
+          "anchors": [
+            "2CO.13.7"
+          ],
+          "sourceAnchor": "2CO.13.7"
+        },
+        {
+          "text": "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed.",
+          "anchor": "2CO.13.7",
+          "marks": [],
+          "originalText": "Now we pray to God that you will not do anything wrong — not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed. ",
+          "anchors": [
+            "2CO.13.7"
+          ],
+          "sourceAnchor": "2CO.13.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "2CO.13.8",
+          "anchors": [
+            "2CO.13.8"
+          ],
+          "sourceAnchor": "2CO.13.8"
+        },
+        {
+          "text": "For we cannot do anything against the truth, but only for the truth.",
+          "anchor": "2CO.13.8",
+          "marks": [],
+          "originalText": "For we cannot do anything against the truth, but only for the truth. ",
+          "anchors": [
+            "2CO.13.8"
+          ],
+          "sourceAnchor": "2CO.13.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "2CO.13.9",
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        },
+        {
+          "text": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.",
+          "anchor": "2CO.13.9",
+          "marks": [],
+          "originalText": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.",
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/165",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "2CO.13.10",
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        },
+        {
+          "text": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.",
+          "anchor": "2CO.13.10",
+          "marks": [],
+          "originalText": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.",
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/2CO.usj#content/166",
+      "runs": [
+        {
+          "text": "Benediction and Farewell",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/167",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "2CO.13.11",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "text": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another,",
+          "anchor": "2CO.13.11",
+          "marks": [],
+          "originalText": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another,",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "noteId": "2CO.13.note.30",
+          "anchor": "2CO.13.11",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "text": " be of one mind, live in peace. And the God of love and peace will be with you.",
+          "anchor": "2CO.13.11",
+          "marks": [],
+          "originalText": " be of one mind, live in peace. And the God of love and peace will be with you.",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/168",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "2CO.13.12",
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        },
+        {
+          "text": "Greet one another with a holy kiss.",
+          "anchor": "2CO.13.12",
+          "marks": [],
+          "originalText": "Greet one another with a holy kiss.",
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/169",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "2CO.13.13",
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        },
+        {
+          "text": "All the saints send you greetings.",
+          "anchor": "2CO.13.13",
+          "marks": [],
+          "originalText": "All the saints send you greetings.",
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/2CO.usj#content/170",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "2CO.13.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "2CO.13.14",
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        },
+        {
+          "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+          "anchor": "2CO.13.14",
+          "marks": [],
+          "originalText": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        },
+        {
+          "noteId": "2CO.13.note.31",
+          "anchor": "2CO.13.14",
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "2CO.13.1",
+      "sourceId": "bsb_usj/2CO.usj#content/161/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "2CO.13.1"
+      ],
+      "mappingType": "exact",
+      "text": "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+      "originalStructuredText": "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”\n ",
+      "sourceRef": "2CO.13.1"
+    },
+    {
+      "id": "2CO.13.2",
+      "sourceId": "bsb_usj/2CO.usj#content/162/content/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "2CO.13.2"
+      ],
+      "mappingType": "exact",
+      "text": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone,",
+      "originalStructuredText": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone, ",
+      "sourceRef": "2CO.13.2"
+    },
+    {
+      "id": "2CO.13.3",
+      "sourceId": "bsb_usj/2CO.usj#content/162/content/3",
+      "sourceLabel": "3",
+      "anchors": [
+        "2CO.13.3"
+      ],
+      "mappingType": "exact",
+      "text": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you but is powerful among you.",
+      "originalStructuredText": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you but is powerful among you. ",
+      "sourceRef": "2CO.13.3"
+    },
+    {
+      "id": "2CO.13.4",
+      "sourceId": "bsb_usj/2CO.usj#content/162/content/5",
+      "sourceLabel": "4",
+      "anchors": [
+        "2CO.13.4"
+      ],
+      "mappingType": "exact",
+      "text": "For He was indeed crucified in weakness, yet He lives by God’s power. For we are also weak in Him, yet by God’s power we will live with Him concerning you.",
+      "originalStructuredText": "For He was indeed crucified in weakness, yet He lives by God’s power. For we are also weak in Him, yet by God’s power we will live with Him concerning you.\n ",
+      "sourceRef": "2CO.13.4"
+    },
+    {
+      "id": "2CO.13.5",
+      "sourceId": "bsb_usj/2CO.usj#content/163/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "2CO.13.5"
+      ],
+      "mappingType": "exact",
+      "text": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Jesus Christ is in you—unless you fail the test?",
+      "originalStructuredText": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Jesus Christ is in you — unless you fail the test? ",
+      "sourceRef": "2CO.13.5"
+    },
+    {
+      "id": "2CO.13.6",
+      "sourceId": "bsb_usj/2CO.usj#content/163/content/3",
+      "sourceLabel": "6",
+      "anchors": [
+        "2CO.13.6"
+      ],
+      "mappingType": "exact",
+      "text": "And I hope you will realize that we have not failed the test.",
+      "originalStructuredText": "And I hope you will realize that we have not failed the test.\n ",
+      "sourceRef": "2CO.13.6"
+    },
+    {
+      "id": "2CO.13.7",
+      "sourceId": "bsb_usj/2CO.usj#content/164/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "2CO.13.7"
+      ],
+      "mappingType": "exact",
+      "text": "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed.",
+      "originalStructuredText": "Now we pray to God that you will not do anything wrong — not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed. ",
+      "sourceRef": "2CO.13.7"
+    },
+    {
+      "id": "2CO.13.8",
+      "sourceId": "bsb_usj/2CO.usj#content/164/content/3",
+      "sourceLabel": "8",
+      "anchors": [
+        "2CO.13.8"
+      ],
+      "mappingType": "exact",
+      "text": "For we cannot do anything against the truth, but only for the truth.",
+      "originalStructuredText": "For we cannot do anything against the truth, but only for the truth. ",
+      "sourceRef": "2CO.13.8"
+    },
+    {
+      "id": "2CO.13.9",
+      "sourceId": "bsb_usj/2CO.usj#content/164/content/5",
+      "sourceLabel": "9",
+      "anchors": [
+        "2CO.13.9"
+      ],
+      "mappingType": "exact",
+      "text": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.",
+      "originalStructuredText": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection.\n ",
+      "sourceRef": "2CO.13.9"
+    },
+    {
+      "id": "2CO.13.10",
+      "sourceId": "bsb_usj/2CO.usj#content/165/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "2CO.13.10"
+      ],
+      "mappingType": "exact",
+      "text": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.",
+      "originalStructuredText": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down.\n ",
+      "sourceRef": "2CO.13.10"
+    },
+    {
+      "id": "2CO.13.11",
+      "sourceId": "bsb_usj/2CO.usj#content/167/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "2CO.13.11"
+      ],
+      "mappingType": "exact",
+      "text": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you.",
+      "originalStructuredText": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you.\n ",
+      "sourceRef": "2CO.13.11"
+    },
+    {
+      "id": "2CO.13.12",
+      "sourceId": "bsb_usj/2CO.usj#content/168/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "2CO.13.12"
+      ],
+      "mappingType": "exact",
+      "text": "Greet one another with a holy kiss.",
+      "originalStructuredText": "Greet one another with a holy kiss.\n ",
+      "sourceRef": "2CO.13.12"
+    },
+    {
+      "id": "2CO.13.13",
+      "sourceId": "bsb_usj/2CO.usj#content/169/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "2CO.13.13"
+      ],
+      "mappingType": "exact",
+      "text": "All the saints send you greetings.",
+      "originalStructuredText": "All the saints send you greetings.\n ",
+      "sourceRef": "2CO.13.13"
+    },
+    {
+      "id": "2CO.13.14",
+      "sourceId": "bsb_usj/2CO.usj#content/170/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "2CO.13.14"
+      ],
+      "mappingType": "exact",
+      "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+      "originalStructuredText": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+      "sourceRef": "2CO.13.14"
+    }
+  ],
+  "notes": [
+    {
+      "id": "2CO.13.note.29",
+      "anchor": "2CO.13.1",
+      "sourceId": "bsb_usj/2CO.usj#content/161/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "13:1 Deuteronomy 19:15",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "13:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "DEU 19:15",
+                "content": [
+                  "Deuteronomy 19:15"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2CO.13.note.30",
+      "anchor": "2CO.13.11",
+      "sourceId": "bsb_usj/2CO.usj#content/167/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "13:11 Or listen to my appeal",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "13:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "listen to my appeal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2CO.13.note.31",
+      "anchor": "2CO.13.14",
+      "sourceId": "bsb_usj/2CO.usj#content/170/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "13:14 Texts vary in verse numbering for the last three verses of this chapter. BYZ ends with Amen.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "13:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Texts vary in verse numbering for the last three verses of this chapter. BYZ ends with "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Amen"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "2CO.13.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "2CO.13.note.29"
+      ],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.1",
+          "sourceRef": "2CO.13.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.2",
+          "sourceRef": "2CO.13.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.3",
+          "sourceRef": "2CO.13.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.4",
+          "sourceRef": "2CO.13.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.5",
+          "sourceRef": "2CO.13.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.6",
+          "sourceRef": "2CO.13.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.7",
+          "sourceRef": "2CO.13.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.8",
+          "sourceRef": "2CO.13.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.9",
+          "sourceRef": "2CO.13.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.10",
+          "sourceRef": "2CO.13.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "2CO.13.note.30"
+      ],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.11",
+          "sourceRef": "2CO.13.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.12",
+          "sourceRef": "2CO.13.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.13",
+          "sourceRef": "2CO.13.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "2CO.13.note.31"
+      ],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.14",
+          "sourceRef": "2CO.13.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

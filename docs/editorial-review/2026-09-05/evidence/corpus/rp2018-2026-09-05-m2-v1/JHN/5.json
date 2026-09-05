@@ -1,0 +1,2632 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=168",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "JHN.5.1",
+          "anchors": [
+            "JHN.5.1"
+          ],
+          "sourceAnchor": "JHN.5.1"
+        },
+        {
+          "text": "Μετὰ ταῦτα ἦν ἡ ἑορτὴ τῶν Ἰουδαίων, καὶ ἀνέβη ὁ Ἰησοῦς εἰς Ἱεροσόλυμα.",
+          "anchor": "JHN.5.1",
+          "marks": [],
+          "anchors": [
+            "JHN.5.1"
+          ],
+          "sourceAnchor": "JHN.5.1"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.1",
+          "marks": [],
+          "anchors": [
+            "JHN.5.1"
+          ],
+          "sourceAnchor": "JHN.5.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=169",
+      "runs": [
+        {
+          "verse": "2",
+          "anchor": "JHN.5.2",
+          "anchors": [
+            "JHN.5.2"
+          ],
+          "sourceAnchor": "JHN.5.2"
+        },
+        {
+          "text": "Ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα, ἡ ἐπιλεγομένη Ἑβραϊστὶ Βηθεσδά, πέντε στοὰς ἔχουσα.",
+          "anchor": "JHN.5.2",
+          "marks": [],
+          "anchors": [
+            "JHN.5.2"
+          ],
+          "sourceAnchor": "JHN.5.2"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.2",
+          "marks": [],
+          "anchors": [
+            "JHN.5.2"
+          ],
+          "sourceAnchor": "JHN.5.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "JHN.5.3",
+          "anchors": [
+            "JHN.5.3"
+          ],
+          "sourceAnchor": "JHN.5.3"
+        },
+        {
+          "text": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν.",
+          "anchor": "JHN.5.3",
+          "marks": [],
+          "anchors": [
+            "JHN.5.3"
+          ],
+          "sourceAnchor": "JHN.5.3"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.3",
+          "marks": [],
+          "anchors": [
+            "JHN.5.3"
+          ],
+          "sourceAnchor": "JHN.5.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "JHN.5.4",
+          "anchors": [
+            "JHN.5.4"
+          ],
+          "sourceAnchor": "JHN.5.4"
+        },
+        {
+          "text": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσεν τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι.",
+          "anchor": "JHN.5.4",
+          "marks": [],
+          "anchors": [
+            "JHN.5.4"
+          ],
+          "sourceAnchor": "JHN.5.4"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.4",
+          "marks": [],
+          "anchors": [
+            "JHN.5.4"
+          ],
+          "sourceAnchor": "JHN.5.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "JHN.5.5",
+          "anchors": [
+            "JHN.5.5"
+          ],
+          "sourceAnchor": "JHN.5.5"
+        },
+        {
+          "text": "Ἦν δέ τις ἄνθρωπος ἐκεῖ τριάκοντα ὀκτὼ ἔτη ἔχων ἐν τῇ ἀσθενείᾳ.",
+          "anchor": "JHN.5.5",
+          "marks": [],
+          "anchors": [
+            "JHN.5.5"
+          ],
+          "sourceAnchor": "JHN.5.5"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.5",
+          "marks": [],
+          "anchors": [
+            "JHN.5.5"
+          ],
+          "sourceAnchor": "JHN.5.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "JHN.5.6",
+          "anchors": [
+            "JHN.5.6"
+          ],
+          "sourceAnchor": "JHN.5.6"
+        },
+        {
+          "text": "Τοῦτον ἰδὼν ὁ Ἰησοῦς κατακείμενον, καὶ γνοὺς ὅτι πολὺν ἤδη χρόνον ἔχει, λέγει αὐτῷ, Θέλεις ὑγιὴς γενέσθαι;",
+          "anchor": "JHN.5.6",
+          "marks": [],
+          "anchors": [
+            "JHN.5.6"
+          ],
+          "sourceAnchor": "JHN.5.6"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.6",
+          "marks": [],
+          "anchors": [
+            "JHN.5.6"
+          ],
+          "sourceAnchor": "JHN.5.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "JHN.5.7",
+          "anchors": [
+            "JHN.5.7"
+          ],
+          "sourceAnchor": "JHN.5.7"
+        },
+        {
+          "text": "Ἀπεκρίθη αὐτῷ ὁ ἀσθενῶν, Κύριε, ἄνθρωπον οὐκ ἔχω ἵνα, ὅταν ταραχθῇ τὸ ὕδωρ, βάλῃ με εἰς τὴν κολυμβήθραν· ἐν ᾧ δὲ ἔρχομαι ἐγώ, ἄλλος πρὸ ἐμοῦ καταβαίνει.",
+          "anchor": "JHN.5.7",
+          "marks": [],
+          "anchors": [
+            "JHN.5.7"
+          ],
+          "sourceAnchor": "JHN.5.7"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.7",
+          "marks": [],
+          "anchors": [
+            "JHN.5.7"
+          ],
+          "sourceAnchor": "JHN.5.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "JHN.5.8",
+          "anchors": [
+            "JHN.5.8"
+          ],
+          "sourceAnchor": "JHN.5.8"
+        },
+        {
+          "text": "Λέγει αὐτῷ ὁ Ἰησοῦς, Ἔγειραι, ἆρον τὸν κράββατόν σου, καὶ περιπάτει.",
+          "anchor": "JHN.5.8",
+          "marks": [],
+          "anchors": [
+            "JHN.5.8"
+          ],
+          "sourceAnchor": "JHN.5.8"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.8",
+          "marks": [],
+          "anchors": [
+            "JHN.5.8"
+          ],
+          "sourceAnchor": "JHN.5.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "JHN.5.9",
+          "anchors": [
+            "JHN.5.9"
+          ],
+          "sourceAnchor": "JHN.5.9"
+        },
+        {
+          "text": "Καὶ εὐθέως ἐγένετο ὑγιὴς ὁ ἄνθρωπος, καὶ ἦρεν τὸν κράββατον αὐτοῦ καὶ περιεπάτει. Ἦν δὲ σάββατον ἐν ἐκείνῃ τῇ ἡμέρᾳ.",
+          "anchor": "JHN.5.9",
+          "marks": [],
+          "anchors": [
+            "JHN.5.9"
+          ],
+          "sourceAnchor": "JHN.5.9"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.9",
+          "marks": [],
+          "anchors": [
+            "JHN.5.9"
+          ],
+          "sourceAnchor": "JHN.5.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=177",
+      "runs": [
+        {
+          "verse": "10",
+          "anchor": "JHN.5.10",
+          "anchors": [
+            "JHN.5.10"
+          ],
+          "sourceAnchor": "JHN.5.10"
+        },
+        {
+          "text": "Ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ, Σάββατόν ἐστιν· οὐκ ἔξεστίν σοι ἆραι τὸν κράββατον.",
+          "anchor": "JHN.5.10",
+          "marks": [],
+          "anchors": [
+            "JHN.5.10"
+          ],
+          "sourceAnchor": "JHN.5.10"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.10",
+          "marks": [],
+          "anchors": [
+            "JHN.5.10"
+          ],
+          "sourceAnchor": "JHN.5.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "JHN.5.11",
+          "anchors": [
+            "JHN.5.11"
+          ],
+          "sourceAnchor": "JHN.5.11"
+        },
+        {
+          "text": "Ἀπεκρίθη αὐτοῖς, Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν, Ἆρον τὸν κράββατόν σου καὶ περιπάτει.",
+          "anchor": "JHN.5.11",
+          "marks": [],
+          "anchors": [
+            "JHN.5.11"
+          ],
+          "sourceAnchor": "JHN.5.11"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.11",
+          "marks": [],
+          "anchors": [
+            "JHN.5.11"
+          ],
+          "sourceAnchor": "JHN.5.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "JHN.5.12",
+          "anchors": [
+            "JHN.5.12"
+          ],
+          "sourceAnchor": "JHN.5.12"
+        },
+        {
+          "text": "Ἠρώτησαν οὖν αὐτόν, Τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι, Ἆρον τὸν κράββατόν σου καὶ περιπάτει;",
+          "anchor": "JHN.5.12",
+          "marks": [],
+          "anchors": [
+            "JHN.5.12"
+          ],
+          "sourceAnchor": "JHN.5.12"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.12",
+          "marks": [],
+          "anchors": [
+            "JHN.5.12"
+          ],
+          "sourceAnchor": "JHN.5.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "JHN.5.13",
+          "anchors": [
+            "JHN.5.13"
+          ],
+          "sourceAnchor": "JHN.5.13"
+        },
+        {
+          "text": "Ὁ δὲ ἰαθεὶς οὐκ ᾔδει τίς ἐστιν· ὁ γὰρ Ἰησοῦς ἐξένευσεν, ὄχλου ὄντος ἐν τῷ τόπῳ.",
+          "anchor": "JHN.5.13",
+          "marks": [],
+          "anchors": [
+            "JHN.5.13"
+          ],
+          "sourceAnchor": "JHN.5.13"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.13",
+          "marks": [],
+          "anchors": [
+            "JHN.5.13"
+          ],
+          "sourceAnchor": "JHN.5.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "JHN.5.14",
+          "anchors": [
+            "JHN.5.14"
+          ],
+          "sourceAnchor": "JHN.5.14"
+        },
+        {
+          "text": "Μετὰ ταῦτα εὑρίσκει αὐτὸν ὁ Ἰησοῦς ἐν τῷ ἱερῷ, καὶ εἶπεν αὐτῷ, Ἴδε ὑγιὴς γέγονας· μηκέτι ἁμάρτανε, ἵνα μὴ χεῖρόν τί σοι γένηται.",
+          "anchor": "JHN.5.14",
+          "marks": [],
+          "anchors": [
+            "JHN.5.14"
+          ],
+          "sourceAnchor": "JHN.5.14"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.14",
+          "marks": [],
+          "anchors": [
+            "JHN.5.14"
+          ],
+          "sourceAnchor": "JHN.5.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "JHN.5.15",
+          "anchors": [
+            "JHN.5.15"
+          ],
+          "sourceAnchor": "JHN.5.15"
+        },
+        {
+          "text": "Ἀπῆλθεν ὁ ἄνθρωπος, καὶ ἀνήγγειλεν τοῖς Ἰουδαίοις ὅτι Ἰησοῦς ἐστιν ὁ ποιήσας αὐτὸν ὑγιῆ.",
+          "anchor": "JHN.5.15",
+          "marks": [],
+          "anchors": [
+            "JHN.5.15"
+          ],
+          "sourceAnchor": "JHN.5.15"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.15",
+          "marks": [],
+          "anchors": [
+            "JHN.5.15"
+          ],
+          "sourceAnchor": "JHN.5.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "JHN.5.16",
+          "anchors": [
+            "JHN.5.16"
+          ],
+          "sourceAnchor": "JHN.5.16"
+        },
+        {
+          "text": "Καὶ διὰ τοῦτο ἐδίωκον τὸν Ἰησοῦν οἱ Ἰουδαῖοι, καὶ ἐζήτουν αὐτὸν ἀποκτεῖναι, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ.",
+          "anchor": "JHN.5.16",
+          "marks": [],
+          "anchors": [
+            "JHN.5.16"
+          ],
+          "sourceAnchor": "JHN.5.16"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.16",
+          "marks": [],
+          "anchors": [
+            "JHN.5.16"
+          ],
+          "sourceAnchor": "JHN.5.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "JHN.5.17",
+          "anchors": [
+            "JHN.5.17"
+          ],
+          "sourceAnchor": "JHN.5.17"
+        },
+        {
+          "text": "Ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς, Ὁ πατήρ μου ἕως ἄρτι ἐργάζεται, κἀγὼ ἐργάζομαι.",
+          "anchor": "JHN.5.17",
+          "marks": [],
+          "anchors": [
+            "JHN.5.17"
+          ],
+          "sourceAnchor": "JHN.5.17"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.17",
+          "marks": [],
+          "anchors": [
+            "JHN.5.17"
+          ],
+          "sourceAnchor": "JHN.5.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "JHN.5.18",
+          "anchors": [
+            "JHN.5.18"
+          ],
+          "sourceAnchor": "JHN.5.18"
+        },
+        {
+          "text": "Διὰ τοῦτο οὖν μᾶλλον ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι, ὅτι οὐ μόνον ἔλυεν τὸ σάββατον, ἀλλὰ καὶ πατέρα ἴδιον ἔλεγεν τὸν θεόν, ἴσον ἑαυτὸν ποιῶν τῷ θεῷ.",
+          "anchor": "JHN.5.18",
+          "marks": [],
+          "anchors": [
+            "JHN.5.18"
+          ],
+          "sourceAnchor": "JHN.5.18"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.18",
+          "marks": [],
+          "anchors": [
+            "JHN.5.18"
+          ],
+          "sourceAnchor": "JHN.5.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=186",
+      "runs": [
+        {
+          "verse": "19",
+          "anchor": "JHN.5.19",
+          "anchors": [
+            "JHN.5.19"
+          ],
+          "sourceAnchor": "JHN.5.19"
+        },
+        {
+          "text": "Ἀπεκρίνατο οὖν ὁ Ἰησοῦς καὶ εἶπεν αὐτοῖς, Ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ’ ἑαυτοῦ οὐδέν, ἐὰν μή τι βλέπῃ τὸν πατέρα ποιοῦντα· ἃ γὰρ ἂν ἐκεῖνος ποιῇ, ταῦτα καὶ ὁ υἱὸς ὁμοίως ποιεῖ.",
+          "anchor": "JHN.5.19",
+          "marks": [],
+          "anchors": [
+            "JHN.5.19"
+          ],
+          "sourceAnchor": "JHN.5.19"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.19",
+          "marks": [],
+          "anchors": [
+            "JHN.5.19"
+          ],
+          "sourceAnchor": "JHN.5.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "JHN.5.20",
+          "anchors": [
+            "JHN.5.20"
+          ],
+          "sourceAnchor": "JHN.5.20"
+        },
+        {
+          "text": "Ὁ γὰρ πατὴρ φιλεῖ τὸν υἱόν, καὶ πάντα δείκνυσιν αὐτῷ ἃ αὐτὸς ποιεῖ· καὶ μείζονα τούτων δείξει αὐτῷ ἔργα, ἵνα ὑμεῖς θαυμάζητε.",
+          "anchor": "JHN.5.20",
+          "marks": [],
+          "anchors": [
+            "JHN.5.20"
+          ],
+          "sourceAnchor": "JHN.5.20"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.20",
+          "marks": [],
+          "anchors": [
+            "JHN.5.20"
+          ],
+          "sourceAnchor": "JHN.5.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "JHN.5.21",
+          "anchors": [
+            "JHN.5.21"
+          ],
+          "sourceAnchor": "JHN.5.21"
+        },
+        {
+          "text": "Ὥσπερ γὰρ ὁ πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ υἱὸς οὓς θέλει ζῳοποιεῖ.",
+          "anchor": "JHN.5.21",
+          "marks": [],
+          "anchors": [
+            "JHN.5.21"
+          ],
+          "sourceAnchor": "JHN.5.21"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.21",
+          "marks": [],
+          "anchors": [
+            "JHN.5.21"
+          ],
+          "sourceAnchor": "JHN.5.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "JHN.5.22",
+          "anchors": [
+            "JHN.5.22"
+          ],
+          "sourceAnchor": "JHN.5.22"
+        },
+        {
+          "text": "Οὐδὲ γὰρ ὁ πατὴρ κρίνει οὐδένα, ἀλλὰ τὴν κρίσιν πᾶσαν δέδωκεν τῷ υἱῷ·",
+          "anchor": "JHN.5.22",
+          "marks": [],
+          "anchors": [
+            "JHN.5.22"
+          ],
+          "sourceAnchor": "JHN.5.22"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.22",
+          "marks": [],
+          "anchors": [
+            "JHN.5.22"
+          ],
+          "sourceAnchor": "JHN.5.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "JHN.5.23",
+          "anchors": [
+            "JHN.5.23"
+          ],
+          "sourceAnchor": "JHN.5.23"
+        },
+        {
+          "text": "ἵνα πάντες τιμῶσιν τὸν υἱόν, καθὼς τιμῶσιν τὸν πατέρα. Ὁ μὴ τιμῶν τὸν υἱόν, οὐ τιμᾷ τὸν πατέρα τὸν πέμψαντα αὐτόν.",
+          "anchor": "JHN.5.23",
+          "marks": [],
+          "anchors": [
+            "JHN.5.23"
+          ],
+          "sourceAnchor": "JHN.5.23"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.23",
+          "marks": [],
+          "anchors": [
+            "JHN.5.23"
+          ],
+          "sourceAnchor": "JHN.5.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "JHN.5.24",
+          "anchors": [
+            "JHN.5.24"
+          ],
+          "sourceAnchor": "JHN.5.24"
+        },
+        {
+          "text": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ὁ τὸν λόγον μου ἀκούων, καὶ πιστεύων τῷ πέμψαντί με, ἔχει ζωὴν αἰώνιον· καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβέβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν.",
+          "anchor": "JHN.5.24",
+          "marks": [],
+          "anchors": [
+            "JHN.5.24"
+          ],
+          "sourceAnchor": "JHN.5.24"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.24",
+          "marks": [],
+          "anchors": [
+            "JHN.5.24"
+          ],
+          "sourceAnchor": "JHN.5.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "JHN.5.25",
+          "anchors": [
+            "JHN.5.25"
+          ],
+          "sourceAnchor": "JHN.5.25"
+        },
+        {
+          "text": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἔρχεται ὥρα καὶ νῦν ἐστιν, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ υἱοῦ τοῦ θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται.",
+          "anchor": "JHN.5.25",
+          "marks": [],
+          "anchors": [
+            "JHN.5.25"
+          ],
+          "sourceAnchor": "JHN.5.25"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.25",
+          "marks": [],
+          "anchors": [
+            "JHN.5.25"
+          ],
+          "sourceAnchor": "JHN.5.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "JHN.5.26",
+          "anchors": [
+            "JHN.5.26"
+          ],
+          "sourceAnchor": "JHN.5.26"
+        },
+        {
+          "text": "Ὥσπερ γὰρ ὁ πατὴρ ἔχει ζωὴν ἐν ἑαυτῷ, οὕτως ἔδωκεν καὶ τῷ υἱῷ ζωὴν ἔχειν ἐν ἑαυτῷ·",
+          "anchor": "JHN.5.26",
+          "marks": [],
+          "anchors": [
+            "JHN.5.26"
+          ],
+          "sourceAnchor": "JHN.5.26"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.26",
+          "marks": [],
+          "anchors": [
+            "JHN.5.26"
+          ],
+          "sourceAnchor": "JHN.5.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "JHN.5.27",
+          "anchors": [
+            "JHN.5.27"
+          ],
+          "sourceAnchor": "JHN.5.27"
+        },
+        {
+          "text": "καὶ ἐξουσίαν ἔδωκεν αὐτῷ καὶ κρίσιν ποιεῖν, ὅτι υἱὸς ἀνθρώπου ἐστίν.",
+          "anchor": "JHN.5.27",
+          "marks": [],
+          "anchors": [
+            "JHN.5.27"
+          ],
+          "sourceAnchor": "JHN.5.27"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.27",
+          "marks": [],
+          "anchors": [
+            "JHN.5.27"
+          ],
+          "sourceAnchor": "JHN.5.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "JHN.5.28",
+          "anchors": [
+            "JHN.5.28"
+          ],
+          "sourceAnchor": "JHN.5.28"
+        },
+        {
+          "text": "Μὴ θαυμάζετε τοῦτο· ὅτι ἔρχεται ὥρα, ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσονται τῆς φωνῆς αὐτοῦ,",
+          "anchor": "JHN.5.28",
+          "marks": [],
+          "anchors": [
+            "JHN.5.28"
+          ],
+          "sourceAnchor": "JHN.5.28"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.28",
+          "marks": [],
+          "anchors": [
+            "JHN.5.28"
+          ],
+          "sourceAnchor": "JHN.5.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "JHN.5.29",
+          "anchors": [
+            "JHN.5.29"
+          ],
+          "sourceAnchor": "JHN.5.29"
+        },
+        {
+          "text": "καὶ ἐκπορεύσονται, οἱ τὰ ἀγαθὰ ποιήσαντες, εἰς ἀνάστασιν ζωῆς· οἱ δὲ τὰ φαῦλα πράξαντες, εἰς ἀνάστασιν κρίσεως.",
+          "anchor": "JHN.5.29",
+          "marks": [],
+          "anchors": [
+            "JHN.5.29"
+          ],
+          "sourceAnchor": "JHN.5.29"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.29",
+          "marks": [],
+          "anchors": [
+            "JHN.5.29"
+          ],
+          "sourceAnchor": "JHN.5.29"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=197",
+      "runs": [
+        {
+          "verse": "30",
+          "anchor": "JHN.5.30",
+          "anchors": [
+            "JHN.5.30"
+          ],
+          "sourceAnchor": "JHN.5.30"
+        },
+        {
+          "text": "Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν· καθὼς ἀκούω, κρίνω· καὶ ἡ κρίσις ἡ ἐμὴ δικαία ἐστίν· ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμόν, ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με πατρός.",
+          "anchor": "JHN.5.30",
+          "marks": [],
+          "anchors": [
+            "JHN.5.30"
+          ],
+          "sourceAnchor": "JHN.5.30"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.30",
+          "marks": [],
+          "anchors": [
+            "JHN.5.30"
+          ],
+          "sourceAnchor": "JHN.5.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "JHN.5.31",
+          "anchors": [
+            "JHN.5.31"
+          ],
+          "sourceAnchor": "JHN.5.31"
+        },
+        {
+          "text": "Ἐὰν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἡ μαρτυρία μου οὐκ ἔστιν ἀληθής.",
+          "anchor": "JHN.5.31",
+          "marks": [],
+          "anchors": [
+            "JHN.5.31"
+          ],
+          "sourceAnchor": "JHN.5.31"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.31",
+          "marks": [],
+          "anchors": [
+            "JHN.5.31"
+          ],
+          "sourceAnchor": "JHN.5.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "JHN.5.32",
+          "anchors": [
+            "JHN.5.32"
+          ],
+          "sourceAnchor": "JHN.5.32"
+        },
+        {
+          "text": "Ἄλλος ἐστὶν ὁ μαρτυρῶν περὶ ἐμοῦ, καὶ οἶδα ὅτι ἀληθής ἐστιν ἡ μαρτυρία ἣν μαρτυρεῖ περὶ ἐμοῦ.",
+          "anchor": "JHN.5.32",
+          "marks": [],
+          "anchors": [
+            "JHN.5.32"
+          ],
+          "sourceAnchor": "JHN.5.32"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.32",
+          "marks": [],
+          "anchors": [
+            "JHN.5.32"
+          ],
+          "sourceAnchor": "JHN.5.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "JHN.5.33",
+          "anchors": [
+            "JHN.5.33"
+          ],
+          "sourceAnchor": "JHN.5.33"
+        },
+        {
+          "text": "Ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάννην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ.",
+          "anchor": "JHN.5.33",
+          "marks": [],
+          "anchors": [
+            "JHN.5.33"
+          ],
+          "sourceAnchor": "JHN.5.33"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.33",
+          "marks": [],
+          "anchors": [
+            "JHN.5.33"
+          ],
+          "sourceAnchor": "JHN.5.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "JHN.5.34",
+          "anchors": [
+            "JHN.5.34"
+          ],
+          "sourceAnchor": "JHN.5.34"
+        },
+        {
+          "text": "Ἐγὼ δὲ οὐ παρὰ ἀνθρώπου τὴν μαρτυρίαν λαμβάνω, ἀλλὰ ταῦτα λέγω ἵνα ὑμεῖς σωθῆτε.",
+          "anchor": "JHN.5.34",
+          "marks": [],
+          "anchors": [
+            "JHN.5.34"
+          ],
+          "sourceAnchor": "JHN.5.34"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.34",
+          "marks": [],
+          "anchors": [
+            "JHN.5.34"
+          ],
+          "sourceAnchor": "JHN.5.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "JHN.5.35",
+          "anchors": [
+            "JHN.5.35"
+          ],
+          "sourceAnchor": "JHN.5.35"
+        },
+        {
+          "text": "Ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος καὶ φαίνων, ὑμεῖς δὲ ἠθελήσατε ἀγαλλιαθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ.",
+          "anchor": "JHN.5.35",
+          "marks": [],
+          "anchors": [
+            "JHN.5.35"
+          ],
+          "sourceAnchor": "JHN.5.35"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.35",
+          "marks": [],
+          "anchors": [
+            "JHN.5.35"
+          ],
+          "sourceAnchor": "JHN.5.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "JHN.5.36",
+          "anchors": [
+            "JHN.5.36"
+          ],
+          "sourceAnchor": "JHN.5.36"
+        },
+        {
+          "text": "Ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου· τὰ γὰρ ἔργα ἃ ἔδωκέν μοι ὁ πατὴρ ἵνα τελειώσω αὐτά, αὐτὰ τὰ ἔργα ἃ ἐγὼ ποιῶ, μαρτυρεῖ περὶ ἐμοῦ ὅτι ὁ πατήρ με ἀπέσταλκεν.",
+          "anchor": "JHN.5.36",
+          "marks": [],
+          "anchors": [
+            "JHN.5.36"
+          ],
+          "sourceAnchor": "JHN.5.36"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.36",
+          "marks": [],
+          "anchors": [
+            "JHN.5.36"
+          ],
+          "sourceAnchor": "JHN.5.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "JHN.5.37",
+          "anchors": [
+            "JHN.5.37"
+          ],
+          "sourceAnchor": "JHN.5.37"
+        },
+        {
+          "text": "Καὶ ὁ πέμψας με πατήρ, αὐτὸς μεμαρτύρηκεν περὶ ἐμοῦ. Οὔτε φωνὴν αὐτοῦ ἀκηκόατε πώποτε, οὔτε εἶδος αὐτοῦ ἑωράκατε.",
+          "anchor": "JHN.5.37",
+          "marks": [],
+          "anchors": [
+            "JHN.5.37"
+          ],
+          "sourceAnchor": "JHN.5.37"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.37",
+          "marks": [],
+          "anchors": [
+            "JHN.5.37"
+          ],
+          "sourceAnchor": "JHN.5.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "JHN.5.38",
+          "anchors": [
+            "JHN.5.38"
+          ],
+          "sourceAnchor": "JHN.5.38"
+        },
+        {
+          "text": "Καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε μένοντα ἐν ὑμῖν, ὅτι ὃν ἀπέστειλεν ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε.",
+          "anchor": "JHN.5.38",
+          "marks": [],
+          "anchors": [
+            "JHN.5.38"
+          ],
+          "sourceAnchor": "JHN.5.38"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.38",
+          "marks": [],
+          "anchors": [
+            "JHN.5.38"
+          ],
+          "sourceAnchor": "JHN.5.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "JHN.5.39",
+          "anchors": [
+            "JHN.5.39"
+          ],
+          "sourceAnchor": "JHN.5.39"
+        },
+        {
+          "text": "Ἐρευνᾶτε τὰς γραφάς, ὅτι ὑμεῖς δοκεῖτε ἐν αὐταῖς ζωὴν αἰώνιον ἔχειν, καὶ ἐκεῖναί εἰσιν αἱ μαρτυροῦσαι περὶ ἐμοῦ·",
+          "anchor": "JHN.5.39",
+          "marks": [],
+          "anchors": [
+            "JHN.5.39"
+          ],
+          "sourceAnchor": "JHN.5.39"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.39",
+          "marks": [],
+          "anchors": [
+            "JHN.5.39"
+          ],
+          "sourceAnchor": "JHN.5.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "JHN.5.40",
+          "anchors": [
+            "JHN.5.40"
+          ],
+          "sourceAnchor": "JHN.5.40"
+        },
+        {
+          "text": "καὶ οὐ θέλετε ἐλθεῖν πρός με, ἵνα ζωὴν ἔχητε.",
+          "anchor": "JHN.5.40",
+          "marks": [],
+          "anchors": [
+            "JHN.5.40"
+          ],
+          "sourceAnchor": "JHN.5.40"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.40",
+          "marks": [],
+          "anchors": [
+            "JHN.5.40"
+          ],
+          "sourceAnchor": "JHN.5.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "JHN.5.41",
+          "anchors": [
+            "JHN.5.41"
+          ],
+          "sourceAnchor": "JHN.5.41"
+        },
+        {
+          "text": "Δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω·",
+          "anchor": "JHN.5.41",
+          "marks": [],
+          "anchors": [
+            "JHN.5.41"
+          ],
+          "sourceAnchor": "JHN.5.41"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.41",
+          "marks": [],
+          "anchors": [
+            "JHN.5.41"
+          ],
+          "sourceAnchor": "JHN.5.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "JHN.5.42",
+          "anchors": [
+            "JHN.5.42"
+          ],
+          "sourceAnchor": "JHN.5.42"
+        },
+        {
+          "text": "ἀλλ’ ἔγνωκα ὑμᾶς, ὅτι τὴν ἀγάπην τοῦ θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς.",
+          "anchor": "JHN.5.42",
+          "marks": [],
+          "anchors": [
+            "JHN.5.42"
+          ],
+          "sourceAnchor": "JHN.5.42"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.42",
+          "marks": [],
+          "anchors": [
+            "JHN.5.42"
+          ],
+          "sourceAnchor": "JHN.5.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "JHN.5.43",
+          "anchors": [
+            "JHN.5.43"
+          ],
+          "sourceAnchor": "JHN.5.43"
+        },
+        {
+          "text": "Ἐγὼ ἐλήλυθα ἐν τῷ ὀνόματι τοῦ πατρός μου, καὶ οὐ λαμβάνετέ με· ἐὰν ἄλλος ἔλθῃ ἐν τῷ ὀνόματι τῷ ἰδίῳ, ἐκεῖνον λήψεσθε.",
+          "anchor": "JHN.5.43",
+          "marks": [],
+          "anchors": [
+            "JHN.5.43"
+          ],
+          "sourceAnchor": "JHN.5.43"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.43",
+          "marks": [],
+          "anchors": [
+            "JHN.5.43"
+          ],
+          "sourceAnchor": "JHN.5.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "JHN.5.44",
+          "anchors": [
+            "JHN.5.44"
+          ],
+          "sourceAnchor": "JHN.5.44"
+        },
+        {
+          "text": "Πῶς δύνασθε ὑμεῖς πιστεῦσαι, δόξαν παρὰ ἀλλήλων λαμβάνοντες, καὶ τὴν δόξαν τὴν παρὰ τοῦ μόνου θεοῦ οὐ ζητεῖτε;",
+          "anchor": "JHN.5.44",
+          "marks": [],
+          "anchors": [
+            "JHN.5.44"
+          ],
+          "sourceAnchor": "JHN.5.44"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.44",
+          "marks": [],
+          "anchors": [
+            "JHN.5.44"
+          ],
+          "sourceAnchor": "JHN.5.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "JHN.5.45",
+          "anchors": [
+            "JHN.5.45"
+          ],
+          "sourceAnchor": "JHN.5.45"
+        },
+        {
+          "text": "Μὴ δοκεῖτε ὅτι ἐγὼ κατηγορήσω ὑμῶν πρὸς τὸν πατέρα· ἔστιν ὁ κατηγορῶν ὑμῶν, Μωσῆς, εἰς ὃν ὑμεῖς ἠλπίκατε.",
+          "anchor": "JHN.5.45",
+          "marks": [],
+          "anchors": [
+            "JHN.5.45"
+          ],
+          "sourceAnchor": "JHN.5.45"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.45",
+          "marks": [],
+          "anchors": [
+            "JHN.5.45"
+          ],
+          "sourceAnchor": "JHN.5.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "JHN.5.46",
+          "anchors": [
+            "JHN.5.46"
+          ],
+          "sourceAnchor": "JHN.5.46"
+        },
+        {
+          "text": "Εἰ γὰρ ἐπιστεύετε Μωσῇ, ἐπιστεύετε ἂν ἐμοί· περὶ γὰρ ἐμοῦ ἐκεῖνος ἔγραψεν.",
+          "anchor": "JHN.5.46",
+          "marks": [],
+          "anchors": [
+            "JHN.5.46"
+          ],
+          "sourceAnchor": "JHN.5.46"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.46",
+          "marks": [],
+          "anchors": [
+            "JHN.5.46"
+          ],
+          "sourceAnchor": "JHN.5.46"
+        },
+        {
+          "verse": "47",
+          "anchor": "JHN.5.47",
+          "anchors": [
+            "JHN.5.47"
+          ],
+          "sourceAnchor": "JHN.5.47"
+        },
+        {
+          "text": "Εἰ δὲ τοῖς ἐκείνου γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασιν πιστεύσετε;",
+          "anchor": "JHN.5.47",
+          "marks": [],
+          "anchors": [
+            "JHN.5.47"
+          ],
+          "sourceAnchor": "JHN.5.47"
+        },
+        {
+          "text": " ",
+          "anchor": "JHN.5.47",
+          "marks": [],
+          "anchors": [
+            "JHN.5.47"
+          ],
+          "sourceAnchor": "JHN.5.47"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "JHN.5.1",
+      "sourceRef": "JHN.5.1",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=168",
+      "sourceLabel": "1",
+      "anchors": [
+        "JHN.5.1"
+      ],
+      "mappingType": "exact",
+      "text": "Μετὰ ταῦτα ἦν ἡ ἑορτὴ τῶν Ἰουδαίων, καὶ ἀνέβη ὁ Ἰησοῦς εἰς Ἱεροσόλυμα.",
+      "sourceText": "Μετὰ ταῦτα ἦν ἡ ἑορτὴ τῶν Ἰουδαίων, καὶ ἀνέβη ὁ Ἰησοῦς εἰς Ἱεροσόλυμα.",
+      "originalText": "Μετὰ ταῦτα ἦν ἡ ἑορτὴ τῶν Ἰουδαίων, καὶ ἀνέβη ὁ Ἰησοῦς εἰς Ἱεροσόλυμα. \n"
+    },
+    {
+      "id": "JHN.5.2",
+      "sourceRef": "JHN.5.2",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=169",
+      "sourceLabel": "2",
+      "anchors": [
+        "JHN.5.2"
+      ],
+      "mappingType": "exact",
+      "text": "Ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα, ἡ ἐπιλεγομένη Ἑβραϊστὶ Βηθεσδά, πέντε στοὰς ἔχουσα.",
+      "sourceText": "¶Ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα, ἡ ἐπιλεγομένη Ἑβραϊστὶ Βηθεσδά, πέντε στοὰς ἔχουσα.",
+      "originalText": "Ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα, ἡ ἐπιλεγομένη Ἑβραϊστὶ Βηθεσδά, πέντε στοὰς ἔχουσα. "
+    },
+    {
+      "id": "JHN.5.3",
+      "sourceRef": "JHN.5.3",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=170",
+      "sourceLabel": "3",
+      "anchors": [
+        "JHN.5.3"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν.",
+      "sourceText": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν.",
+      "originalText": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν. "
+    },
+    {
+      "id": "JHN.5.4",
+      "sourceRef": "JHN.5.4",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=171",
+      "sourceLabel": "4",
+      "anchors": [
+        "JHN.5.4"
+      ],
+      "mappingType": "exact",
+      "text": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσεν τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι.",
+      "sourceText": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσεν τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι.",
+      "originalText": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσεν τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι. "
+    },
+    {
+      "id": "JHN.5.5",
+      "sourceRef": "JHN.5.5",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=172",
+      "sourceLabel": "5",
+      "anchors": [
+        "JHN.5.5"
+      ],
+      "mappingType": "exact",
+      "text": "Ἦν δέ τις ἄνθρωπος ἐκεῖ τριάκοντα ὀκτὼ ἔτη ἔχων ἐν τῇ ἀσθενείᾳ.",
+      "sourceText": "Ἦν δέ τις ἄνθρωπος ἐκεῖ τριάκοντα ὀκτὼ ἔτη ἔχων ἐν τῇ ἀσθενείᾳ.",
+      "originalText": "Ἦν δέ τις ἄνθρωπος ἐκεῖ τριάκοντα ὀκτὼ ἔτη ἔχων ἐν τῇ ἀσθενείᾳ. "
+    },
+    {
+      "id": "JHN.5.6",
+      "sourceRef": "JHN.5.6",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=173",
+      "sourceLabel": "6",
+      "anchors": [
+        "JHN.5.6"
+      ],
+      "mappingType": "exact",
+      "text": "Τοῦτον ἰδὼν ὁ Ἰησοῦς κατακείμενον, καὶ γνοὺς ὅτι πολὺν ἤδη χρόνον ἔχει, λέγει αὐτῷ, Θέλεις ὑγιὴς γενέσθαι;",
+      "sourceText": "Τοῦτον ἰδὼν ὁ Ἰησοῦς κατακείμενον, καὶ γνοὺς ὅτι πολὺν ἤδη χρόνον ἔχει, λέγει αὐτῷ, Θέλεις ὑγιὴς γενέσθαι;",
+      "originalText": "Τοῦτον ἰδὼν ὁ Ἰησοῦς κατακείμενον, καὶ γνοὺς ὅτι πολὺν ἤδη χρόνον ἔχει, λέγει αὐτῷ, Θέλεις ὑγιὴς γενέσθαι; "
+    },
+    {
+      "id": "JHN.5.7",
+      "sourceRef": "JHN.5.7",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=174",
+      "sourceLabel": "7",
+      "anchors": [
+        "JHN.5.7"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀπεκρίθη αὐτῷ ὁ ἀσθενῶν, Κύριε, ἄνθρωπον οὐκ ἔχω ἵνα, ὅταν ταραχθῇ τὸ ὕδωρ, βάλῃ με εἰς τὴν κολυμβήθραν· ἐν ᾧ δὲ ἔρχομαι ἐγώ, ἄλλος πρὸ ἐμοῦ καταβαίνει.",
+      "sourceText": "Ἀπεκρίθη αὐτῷ ὁ ἀσθενῶν, Κύριε, ἄνθρωπον οὐκ ἔχω ἵνα, ὅταν ταραχθῇ τὸ ὕδωρ, βάλῃ με εἰς τὴν κολυμβήθραν· ἐν ᾧ δὲ ἔρχομαι ἐγώ, ἄλλος πρὸ ἐμοῦ καταβαίνει.",
+      "originalText": "Ἀπεκρίθη αὐτῷ ὁ ἀσθενῶν, Κύριε, ἄνθρωπον οὐκ ἔχω ἵνα, ὅταν ταραχθῇ τὸ ὕδωρ, βάλῃ με εἰς τὴν κολυμβήθραν· ἐν ᾧ δὲ ἔρχομαι ἐγώ, ἄλλος πρὸ ἐμοῦ καταβαίνει. "
+    },
+    {
+      "id": "JHN.5.8",
+      "sourceRef": "JHN.5.8",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=175",
+      "sourceLabel": "8",
+      "anchors": [
+        "JHN.5.8"
+      ],
+      "mappingType": "exact",
+      "text": "Λέγει αὐτῷ ὁ Ἰησοῦς, Ἔγειραι, ἆρον τὸν κράββατόν σου, καὶ περιπάτει.",
+      "sourceText": "Λέγει αὐτῷ ὁ Ἰησοῦς, Ἔγειραι, ἆρον τὸν κράββατόν σου, καὶ περιπάτει.",
+      "originalText": "Λέγει αὐτῷ ὁ Ἰησοῦς, Ἔγειραι, ἆρον τὸν κράββατόν σου, καὶ περιπάτει. "
+    },
+    {
+      "id": "JHN.5.9",
+      "sourceRef": "JHN.5.9",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=176",
+      "sourceLabel": "9",
+      "anchors": [
+        "JHN.5.9"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθέως ἐγένετο ὑγιὴς ὁ ἄνθρωπος, καὶ ἦρεν τὸν κράββατον αὐτοῦ καὶ περιεπάτει. Ἦν δὲ σάββατον ἐν ἐκείνῃ τῇ ἡμέρᾳ.",
+      "sourceText": "Καὶ εὐθέως ἐγένετο ὑγιὴς ὁ ἄνθρωπος, καὶ ἦρεν τὸν κράββατον αὐτοῦ καὶ περιεπάτει. Ἦν δὲ σάββατον ἐν ἐκείνῃ τῇ ἡμέρᾳ.",
+      "originalText": "Καὶ εὐθέως ἐγένετο ὑγιὴς ὁ ἄνθρωπος, καὶ ἦρεν τὸν κράββατον αὐτοῦ καὶ περιεπάτει. Ἦν δὲ σάββατον ἐν ἐκείνῃ τῇ ἡμέρᾳ. \n"
+    },
+    {
+      "id": "JHN.5.10",
+      "sourceRef": "JHN.5.10",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=177",
+      "sourceLabel": "10",
+      "anchors": [
+        "JHN.5.10"
+      ],
+      "mappingType": "exact",
+      "text": "Ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ, Σάββατόν ἐστιν· οὐκ ἔξεστίν σοι ἆραι τὸν κράββατον.",
+      "sourceText": "¶Ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ, Σάββατόν ἐστιν· οὐκ ἔξεστίν σοι ἆραι τὸν κράββατον.",
+      "originalText": "Ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ, Σάββατόν ἐστιν· οὐκ ἔξεστίν σοι ἆραι τὸν κράββατον. "
+    },
+    {
+      "id": "JHN.5.11",
+      "sourceRef": "JHN.5.11",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=178",
+      "sourceLabel": "11",
+      "anchors": [
+        "JHN.5.11"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀπεκρίθη αὐτοῖς, Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν, Ἆρον τὸν κράββατόν σου καὶ περιπάτει.",
+      "sourceText": "Ἀπεκρίθη αὐτοῖς, Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν, Ἆρον τὸν κράββατόν σου καὶ περιπάτει.",
+      "originalText": "Ἀπεκρίθη αὐτοῖς, Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν, Ἆρον τὸν κράββατόν σου καὶ περιπάτει. "
+    },
+    {
+      "id": "JHN.5.12",
+      "sourceRef": "JHN.5.12",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=179",
+      "sourceLabel": "12",
+      "anchors": [
+        "JHN.5.12"
+      ],
+      "mappingType": "exact",
+      "text": "Ἠρώτησαν οὖν αὐτόν, Τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι, Ἆρον τὸν κράββατόν σου καὶ περιπάτει;",
+      "sourceText": "Ἠρώτησαν οὖν αὐτόν, Τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι, Ἆρον τὸν κράββατόν σου καὶ περιπάτει;",
+      "originalText": "Ἠρώτησαν οὖν αὐτόν, Τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι, Ἆρον τὸν κράββατόν σου καὶ περιπάτει; "
+    },
+    {
+      "id": "JHN.5.13",
+      "sourceRef": "JHN.5.13",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=180",
+      "sourceLabel": "13",
+      "anchors": [
+        "JHN.5.13"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ ἰαθεὶς οὐκ ᾔδει τίς ἐστιν· ὁ γὰρ Ἰησοῦς ἐξένευσεν, ὄχλου ὄντος ἐν τῷ τόπῳ.",
+      "sourceText": "Ὁ δὲ ἰαθεὶς οὐκ ᾔδει τίς ἐστιν· ὁ γὰρ Ἰησοῦς ἐξένευσεν, ὄχλου ὄντος ἐν τῷ τόπῳ.",
+      "originalText": "Ὁ δὲ ἰαθεὶς οὐκ ᾔδει τίς ἐστιν· ὁ γὰρ Ἰησοῦς ἐξένευσεν, ὄχλου ὄντος ἐν τῷ τόπῳ. "
+    },
+    {
+      "id": "JHN.5.14",
+      "sourceRef": "JHN.5.14",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=181",
+      "sourceLabel": "14",
+      "anchors": [
+        "JHN.5.14"
+      ],
+      "mappingType": "exact",
+      "text": "Μετὰ ταῦτα εὑρίσκει αὐτὸν ὁ Ἰησοῦς ἐν τῷ ἱερῷ, καὶ εἶπεν αὐτῷ, Ἴδε ὑγιὴς γέγονας· μηκέτι ἁμάρτανε, ἵνα μὴ χεῖρόν τί σοι γένηται.",
+      "sourceText": "Μετὰ ταῦτα εὑρίσκει αὐτὸν ὁ Ἰησοῦς ἐν τῷ ἱερῷ, καὶ εἶπεν αὐτῷ, Ἴδε ὑγιὴς γέγονας· μηκέτι ἁμάρτανε, ἵνα μὴ χεῖρόν τί σοι γένηται.",
+      "originalText": "Μετὰ ταῦτα εὑρίσκει αὐτὸν ὁ Ἰησοῦς ἐν τῷ ἱερῷ, καὶ εἶπεν αὐτῷ, Ἴδε ὑγιὴς γέγονας· μηκέτι ἁμάρτανε, ἵνα μὴ χεῖρόν τί σοι γένηται. "
+    },
+    {
+      "id": "JHN.5.15",
+      "sourceRef": "JHN.5.15",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=182",
+      "sourceLabel": "15",
+      "anchors": [
+        "JHN.5.15"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀπῆλθεν ὁ ἄνθρωπος, καὶ ἀνήγγειλεν τοῖς Ἰουδαίοις ὅτι Ἰησοῦς ἐστιν ὁ ποιήσας αὐτὸν ὑγιῆ.",
+      "sourceText": "Ἀπῆλθεν ὁ ἄνθρωπος, καὶ ἀνήγγειλεν τοῖς Ἰουδαίοις ὅτι Ἰησοῦς ἐστιν ὁ ποιήσας αὐτὸν ὑγιῆ.",
+      "originalText": "Ἀπῆλθεν ὁ ἄνθρωπος, καὶ ἀνήγγειλεν τοῖς Ἰουδαίοις ὅτι Ἰησοῦς ἐστιν ὁ ποιήσας αὐτὸν ὑγιῆ. "
+    },
+    {
+      "id": "JHN.5.16",
+      "sourceRef": "JHN.5.16",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=183",
+      "sourceLabel": "16",
+      "anchors": [
+        "JHN.5.16"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ διὰ τοῦτο ἐδίωκον τὸν Ἰησοῦν οἱ Ἰουδαῖοι, καὶ ἐζήτουν αὐτὸν ἀποκτεῖναι, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ.",
+      "sourceText": "Καὶ διὰ τοῦτο ἐδίωκον τὸν Ἰησοῦν οἱ Ἰουδαῖοι, καὶ ἐζήτουν αὐτὸν ἀποκτεῖναι, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ.",
+      "originalText": "Καὶ διὰ τοῦτο ἐδίωκον τὸν Ἰησοῦν οἱ Ἰουδαῖοι, καὶ ἐζήτουν αὐτὸν ἀποκτεῖναι, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ. "
+    },
+    {
+      "id": "JHN.5.17",
+      "sourceRef": "JHN.5.17",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=184",
+      "sourceLabel": "17",
+      "anchors": [
+        "JHN.5.17"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς, Ὁ πατήρ μου ἕως ἄρτι ἐργάζεται, κἀγὼ ἐργάζομαι.",
+      "sourceText": "Ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς, Ὁ πατήρ μου ἕως ἄρτι ἐργάζεται, κἀγὼ ἐργάζομαι.",
+      "originalText": "Ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς, Ὁ πατήρ μου ἕως ἄρτι ἐργάζεται, κἀγὼ ἐργάζομαι. "
+    },
+    {
+      "id": "JHN.5.18",
+      "sourceRef": "JHN.5.18",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=185",
+      "sourceLabel": "18",
+      "anchors": [
+        "JHN.5.18"
+      ],
+      "mappingType": "exact",
+      "text": "Διὰ τοῦτο οὖν μᾶλλον ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι, ὅτι οὐ μόνον ἔλυεν τὸ σάββατον, ἀλλὰ καὶ πατέρα ἴδιον ἔλεγεν τὸν θεόν, ἴσον ἑαυτὸν ποιῶν τῷ θεῷ.",
+      "sourceText": "Διὰ τοῦτο οὖν μᾶλλον ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι, ὅτι οὐ μόνον ἔλυεν τὸ σάββατον, ἀλλὰ καὶ πατέρα ἴδιον ἔλεγεν τὸν θεόν, ἴσον ἑαυτὸν ποιῶν τῷ θεῷ.",
+      "originalText": "Διὰ τοῦτο οὖν μᾶλλον ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι, ὅτι οὐ μόνον ἔλυεν τὸ σάββατον, ἀλλὰ καὶ πατέρα ἴδιον ἔλεγεν τὸν θεόν, ἴσον ἑαυτὸν ποιῶν τῷ θεῷ. \n"
+    },
+    {
+      "id": "JHN.5.19",
+      "sourceRef": "JHN.5.19",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=186",
+      "sourceLabel": "19",
+      "anchors": [
+        "JHN.5.19"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀπεκρίνατο οὖν ὁ Ἰησοῦς καὶ εἶπεν αὐτοῖς, Ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ’ ἑαυτοῦ οὐδέν, ἐὰν μή τι βλέπῃ τὸν πατέρα ποιοῦντα· ἃ γὰρ ἂν ἐκεῖνος ποιῇ, ταῦτα καὶ ὁ υἱὸς ὁμοίως ποιεῖ.",
+      "sourceText": "¶Ἀπεκρίνατο οὖν ὁ Ἰησοῦς καὶ εἶπεν αὐτοῖς, Ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ’ ἑαυτοῦ οὐδέν, ἐὰν μή τι βλέπῃ τὸν πατέρα ποιοῦντα· ἃ γὰρ ἂν ἐκεῖνος ποιῇ, ταῦτα καὶ ὁ υἱὸς ὁμοίως ποιεῖ.",
+      "originalText": "Ἀπεκρίνατο οὖν ὁ Ἰησοῦς καὶ εἶπεν αὐτοῖς, Ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ’ ἑαυτοῦ οὐδέν, ἐὰν μή τι βλέπῃ τὸν πατέρα ποιοῦντα· ἃ γὰρ ἂν ἐκεῖνος ποιῇ, ταῦτα καὶ ὁ υἱὸς ὁμοίως ποιεῖ. "
+    },
+    {
+      "id": "JHN.5.20",
+      "sourceRef": "JHN.5.20",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=187",
+      "sourceLabel": "20",
+      "anchors": [
+        "JHN.5.20"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ γὰρ πατὴρ φιλεῖ τὸν υἱόν, καὶ πάντα δείκνυσιν αὐτῷ ἃ αὐτὸς ποιεῖ· καὶ μείζονα τούτων δείξει αὐτῷ ἔργα, ἵνα ὑμεῖς θαυμάζητε.",
+      "sourceText": "Ὁ γὰρ πατὴρ φιλεῖ τὸν υἱόν, καὶ πάντα δείκνυσιν αὐτῷ ἃ αὐτὸς ποιεῖ· καὶ μείζονα τούτων δείξει αὐτῷ ἔργα, ἵνα ὑμεῖς θαυμάζητε.",
+      "originalText": "Ὁ γὰρ πατὴρ φιλεῖ τὸν υἱόν, καὶ πάντα δείκνυσιν αὐτῷ ἃ αὐτὸς ποιεῖ· καὶ μείζονα τούτων δείξει αὐτῷ ἔργα, ἵνα ὑμεῖς θαυμάζητε. "
+    },
+    {
+      "id": "JHN.5.21",
+      "sourceRef": "JHN.5.21",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=188",
+      "sourceLabel": "21",
+      "anchors": [
+        "JHN.5.21"
+      ],
+      "mappingType": "exact",
+      "text": "Ὥσπερ γὰρ ὁ πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ υἱὸς οὓς θέλει ζῳοποιεῖ.",
+      "sourceText": "Ὥσπερ γὰρ ὁ πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ υἱὸς οὓς θέλει ζῳοποιεῖ.",
+      "originalText": "Ὥσπερ γὰρ ὁ πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ υἱὸς οὓς θέλει ζῳοποιεῖ. "
+    },
+    {
+      "id": "JHN.5.22",
+      "sourceRef": "JHN.5.22",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=189",
+      "sourceLabel": "22",
+      "anchors": [
+        "JHN.5.22"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐδὲ γὰρ ὁ πατὴρ κρίνει οὐδένα, ἀλλὰ τὴν κρίσιν πᾶσαν δέδωκεν τῷ υἱῷ·",
+      "sourceText": "Οὐδὲ γὰρ ὁ πατὴρ κρίνει οὐδένα, ἀλλὰ τὴν κρίσιν πᾶσαν δέδωκεν τῷ υἱῷ·",
+      "originalText": "Οὐδὲ γὰρ ὁ πατὴρ κρίνει οὐδένα, ἀλλὰ τὴν κρίσιν πᾶσαν δέδωκεν τῷ υἱῷ· "
+    },
+    {
+      "id": "JHN.5.23",
+      "sourceRef": "JHN.5.23",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=190",
+      "sourceLabel": "23",
+      "anchors": [
+        "JHN.5.23"
+      ],
+      "mappingType": "exact",
+      "text": "ἵνα πάντες τιμῶσιν τὸν υἱόν, καθὼς τιμῶσιν τὸν πατέρα. Ὁ μὴ τιμῶν τὸν υἱόν, οὐ τιμᾷ τὸν πατέρα τὸν πέμψαντα αὐτόν.",
+      "sourceText": "ἵνα πάντες τιμῶσιν τὸν υἱόν, καθὼς τιμῶσιν τὸν πατέρα. Ὁ μὴ τιμῶν τὸν υἱόν, οὐ τιμᾷ τὸν πατέρα τὸν πέμψαντα αὐτόν.",
+      "originalText": "ἵνα πάντες τιμῶσιν τὸν υἱόν, καθὼς τιμῶσιν τὸν πατέρα. Ὁ μὴ τιμῶν τὸν υἱόν, οὐ τιμᾷ τὸν πατέρα τὸν πέμψαντα αὐτόν. "
+    },
+    {
+      "id": "JHN.5.24",
+      "sourceRef": "JHN.5.24",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=191",
+      "sourceLabel": "24",
+      "anchors": [
+        "JHN.5.24"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ὁ τὸν λόγον μου ἀκούων, καὶ πιστεύων τῷ πέμψαντί με, ἔχει ζωὴν αἰώνιον· καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβέβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν.",
+      "sourceText": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ὁ τὸν λόγον μου ἀκούων, καὶ πιστεύων τῷ πέμψαντί με, ἔχει ζωὴν αἰώνιον· καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβέβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν.",
+      "originalText": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ὁ τὸν λόγον μου ἀκούων, καὶ πιστεύων τῷ πέμψαντί με, ἔχει ζωὴν αἰώνιον· καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβέβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν. "
+    },
+    {
+      "id": "JHN.5.25",
+      "sourceRef": "JHN.5.25",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=192",
+      "sourceLabel": "25",
+      "anchors": [
+        "JHN.5.25"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἔρχεται ὥρα καὶ νῦν ἐστιν, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ υἱοῦ τοῦ θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται.",
+      "sourceText": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἔρχεται ὥρα καὶ νῦν ἐστιν, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ υἱοῦ τοῦ θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται.",
+      "originalText": "Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἔρχεται ὥρα καὶ νῦν ἐστιν, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ υἱοῦ τοῦ θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται. "
+    },
+    {
+      "id": "JHN.5.26",
+      "sourceRef": "JHN.5.26",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=193",
+      "sourceLabel": "26",
+      "anchors": [
+        "JHN.5.26"
+      ],
+      "mappingType": "exact",
+      "text": "Ὥσπερ γὰρ ὁ πατὴρ ἔχει ζωὴν ἐν ἑαυτῷ, οὕτως ἔδωκεν καὶ τῷ υἱῷ ζωὴν ἔχειν ἐν ἑαυτῷ·",
+      "sourceText": "Ὥσπερ γὰρ ὁ πατὴρ ἔχει ζωὴν ἐν ἑαυτῷ, οὕτως ἔδωκεν καὶ τῷ υἱῷ ζωὴν ἔχειν ἐν ἑαυτῷ·",
+      "originalText": "Ὥσπερ γὰρ ὁ πατὴρ ἔχει ζωὴν ἐν ἑαυτῷ, οὕτως ἔδωκεν καὶ τῷ υἱῷ ζωὴν ἔχειν ἐν ἑαυτῷ· "
+    },
+    {
+      "id": "JHN.5.27",
+      "sourceRef": "JHN.5.27",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=194",
+      "sourceLabel": "27",
+      "anchors": [
+        "JHN.5.27"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐξουσίαν ἔδωκεν αὐτῷ καὶ κρίσιν ποιεῖν, ὅτι υἱὸς ἀνθρώπου ἐστίν.",
+      "sourceText": "καὶ ἐξουσίαν ἔδωκεν αὐτῷ καὶ κρίσιν ποιεῖν, ὅτι υἱὸς ἀνθρώπου ἐστίν.",
+      "originalText": "καὶ ἐξουσίαν ἔδωκεν αὐτῷ καὶ κρίσιν ποιεῖν, ὅτι υἱὸς ἀνθρώπου ἐστίν. "
+    },
+    {
+      "id": "JHN.5.28",
+      "sourceRef": "JHN.5.28",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=195",
+      "sourceLabel": "28",
+      "anchors": [
+        "JHN.5.28"
+      ],
+      "mappingType": "exact",
+      "text": "Μὴ θαυμάζετε τοῦτο· ὅτι ἔρχεται ὥρα, ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσονται τῆς φωνῆς αὐτοῦ,",
+      "sourceText": "Μὴ θαυμάζετε τοῦτο· ὅτι ἔρχεται ὥρα, ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσονται τῆς φωνῆς αὐτοῦ,",
+      "originalText": "Μὴ θαυμάζετε τοῦτο· ὅτι ἔρχεται ὥρα, ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσονται τῆς φωνῆς αὐτοῦ, "
+    },
+    {
+      "id": "JHN.5.29",
+      "sourceRef": "JHN.5.29",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=196",
+      "sourceLabel": "29",
+      "anchors": [
+        "JHN.5.29"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐκπορεύσονται, οἱ τὰ ἀγαθὰ ποιήσαντες, εἰς ἀνάστασιν ζωῆς· οἱ δὲ τὰ φαῦλα πράξαντες, εἰς ἀνάστασιν κρίσεως.",
+      "sourceText": "καὶ ἐκπορεύσονται, οἱ τὰ ἀγαθὰ ποιήσαντες, εἰς ἀνάστασιν ζωῆς· οἱ δὲ τὰ φαῦλα πράξαντες, εἰς ἀνάστασιν κρίσεως.",
+      "originalText": "καὶ ἐκπορεύσονται, οἱ τὰ ἀγαθὰ ποιήσαντες, εἰς ἀνάστασιν ζωῆς· οἱ δὲ τὰ φαῦλα πράξαντες, εἰς ἀνάστασιν κρίσεως. \n"
+    },
+    {
+      "id": "JHN.5.30",
+      "sourceRef": "JHN.5.30",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=197",
+      "sourceLabel": "30",
+      "anchors": [
+        "JHN.5.30"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν· καθὼς ἀκούω, κρίνω· καὶ ἡ κρίσις ἡ ἐμὴ δικαία ἐστίν· ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμόν, ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με πατρός.",
+      "sourceText": "¶Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν· καθὼς ἀκούω, κρίνω· καὶ ἡ κρίσις ἡ ἐμὴ δικαία ἐστίν· ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμόν, ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με πατρός.",
+      "originalText": "Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν· καθὼς ἀκούω, κρίνω· καὶ ἡ κρίσις ἡ ἐμὴ δικαία ἐστίν· ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμόν, ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με πατρός. "
+    },
+    {
+      "id": "JHN.5.31",
+      "sourceRef": "JHN.5.31",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=198",
+      "sourceLabel": "31",
+      "anchors": [
+        "JHN.5.31"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐὰν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἡ μαρτυρία μου οὐκ ἔστιν ἀληθής.",
+      "sourceText": "Ἐὰν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἡ μαρτυρία μου οὐκ ἔστιν ἀληθής.",
+      "originalText": "Ἐὰν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἡ μαρτυρία μου οὐκ ἔστιν ἀληθής. "
+    },
+    {
+      "id": "JHN.5.32",
+      "sourceRef": "JHN.5.32",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=199",
+      "sourceLabel": "32",
+      "anchors": [
+        "JHN.5.32"
+      ],
+      "mappingType": "exact",
+      "text": "Ἄλλος ἐστὶν ὁ μαρτυρῶν περὶ ἐμοῦ, καὶ οἶδα ὅτι ἀληθής ἐστιν ἡ μαρτυρία ἣν μαρτυρεῖ περὶ ἐμοῦ.",
+      "sourceText": "Ἄλλος ἐστὶν ὁ μαρτυρῶν περὶ ἐμοῦ, καὶ οἶδα ὅτι ἀληθής ἐστιν ἡ μαρτυρία ἣν μαρτυρεῖ περὶ ἐμοῦ.",
+      "originalText": "Ἄλλος ἐστὶν ὁ μαρτυρῶν περὶ ἐμοῦ, καὶ οἶδα ὅτι ἀληθής ἐστιν ἡ μαρτυρία ἣν μαρτυρεῖ περὶ ἐμοῦ. "
+    },
+    {
+      "id": "JHN.5.33",
+      "sourceRef": "JHN.5.33",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=200",
+      "sourceLabel": "33",
+      "anchors": [
+        "JHN.5.33"
+      ],
+      "mappingType": "exact",
+      "text": "Ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάννην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ.",
+      "sourceText": "Ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάννην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ.",
+      "originalText": "Ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάννην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ. "
+    },
+    {
+      "id": "JHN.5.34",
+      "sourceRef": "JHN.5.34",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=201",
+      "sourceLabel": "34",
+      "anchors": [
+        "JHN.5.34"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγὼ δὲ οὐ παρὰ ἀνθρώπου τὴν μαρτυρίαν λαμβάνω, ἀλλὰ ταῦτα λέγω ἵνα ὑμεῖς σωθῆτε.",
+      "sourceText": "Ἐγὼ δὲ οὐ παρὰ ἀνθρώπου τὴν μαρτυρίαν λαμβάνω, ἀλλὰ ταῦτα λέγω ἵνα ὑμεῖς σωθῆτε.",
+      "originalText": "Ἐγὼ δὲ οὐ παρὰ ἀνθρώπου τὴν μαρτυρίαν λαμβάνω, ἀλλὰ ταῦτα λέγω ἵνα ὑμεῖς σωθῆτε. "
+    },
+    {
+      "id": "JHN.5.35",
+      "sourceRef": "JHN.5.35",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=202",
+      "sourceLabel": "35",
+      "anchors": [
+        "JHN.5.35"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος καὶ φαίνων, ὑμεῖς δὲ ἠθελήσατε ἀγαλλιαθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ.",
+      "sourceText": "Ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος καὶ φαίνων, ὑμεῖς δὲ ἠθελήσατε ἀγαλλιαθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ.",
+      "originalText": "Ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος καὶ φαίνων, ὑμεῖς δὲ ἠθελήσατε ἀγαλλιαθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ. "
+    },
+    {
+      "id": "JHN.5.36",
+      "sourceRef": "JHN.5.36",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=203",
+      "sourceLabel": "36",
+      "anchors": [
+        "JHN.5.36"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου· τὰ γὰρ ἔργα ἃ ἔδωκέν μοι ὁ πατὴρ ἵνα τελειώσω αὐτά, αὐτὰ τὰ ἔργα ἃ ἐγὼ ποιῶ, μαρτυρεῖ περὶ ἐμοῦ ὅτι ὁ πατήρ με ἀπέσταλκεν.",
+      "sourceText": "Ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου· τὰ γὰρ ἔργα ἃ ἔδωκέν μοι ὁ πατὴρ ἵνα τελειώσω αὐτά, αὐτὰ τὰ ἔργα ἃ ἐγὼ ποιῶ, μαρτυρεῖ περὶ ἐμοῦ ὅτι ὁ πατήρ με ἀπέσταλκεν.",
+      "originalText": "Ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου· τὰ γὰρ ἔργα ἃ ἔδωκέν μοι ὁ πατὴρ ἵνα τελειώσω αὐτά, αὐτὰ τὰ ἔργα ἃ ἐγὼ ποιῶ, μαρτυρεῖ περὶ ἐμοῦ ὅτι ὁ πατήρ με ἀπέσταλκεν. "
+    },
+    {
+      "id": "JHN.5.37",
+      "sourceRef": "JHN.5.37",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=204",
+      "sourceLabel": "37",
+      "anchors": [
+        "JHN.5.37"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ὁ πέμψας με πατήρ, αὐτὸς μεμαρτύρηκεν περὶ ἐμοῦ. Οὔτε φωνὴν αὐτοῦ ἀκηκόατε πώποτε, οὔτε εἶδος αὐτοῦ ἑωράκατε.",
+      "sourceText": "Καὶ ὁ πέμψας με πατήρ, αὐτὸς μεμαρτύρηκεν περὶ ἐμοῦ. Οὔτε φωνὴν αὐτοῦ ἀκηκόατε πώποτε, οὔτε εἶδος αὐτοῦ ἑωράκατε.",
+      "originalText": "Καὶ ὁ πέμψας με πατήρ, αὐτὸς μεμαρτύρηκεν περὶ ἐμοῦ. Οὔτε φωνὴν αὐτοῦ ἀκηκόατε πώποτε, οὔτε εἶδος αὐτοῦ ἑωράκατε. "
+    },
+    {
+      "id": "JHN.5.38",
+      "sourceRef": "JHN.5.38",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=205",
+      "sourceLabel": "38",
+      "anchors": [
+        "JHN.5.38"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε μένοντα ἐν ὑμῖν, ὅτι ὃν ἀπέστειλεν ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε.",
+      "sourceText": "Καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε μένοντα ἐν ὑμῖν, ὅτι ὃν ἀπέστειλεν ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε.",
+      "originalText": "Καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε μένοντα ἐν ὑμῖν, ὅτι ὃν ἀπέστειλεν ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε. "
+    },
+    {
+      "id": "JHN.5.39",
+      "sourceRef": "JHN.5.39",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=206",
+      "sourceLabel": "39",
+      "anchors": [
+        "JHN.5.39"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐρευνᾶτε τὰς γραφάς, ὅτι ὑμεῖς δοκεῖτε ἐν αὐταῖς ζωὴν αἰώνιον ἔχειν, καὶ ἐκεῖναί εἰσιν αἱ μαρτυροῦσαι περὶ ἐμοῦ·",
+      "sourceText": "Ἐρευνᾶτε τὰς γραφάς, ὅτι ὑμεῖς δοκεῖτε ἐν αὐταῖς ζωὴν αἰώνιον ἔχειν, καὶ ἐκεῖναί εἰσιν αἱ μαρτυροῦσαι περὶ ἐμοῦ·",
+      "originalText": "Ἐρευνᾶτε τὰς γραφάς, ὅτι ὑμεῖς δοκεῖτε ἐν αὐταῖς ζωὴν αἰώνιον ἔχειν, καὶ ἐκεῖναί εἰσιν αἱ μαρτυροῦσαι περὶ ἐμοῦ· "
+    },
+    {
+      "id": "JHN.5.40",
+      "sourceRef": "JHN.5.40",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=207",
+      "sourceLabel": "40",
+      "anchors": [
+        "JHN.5.40"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ οὐ θέλετε ἐλθεῖν πρός με, ἵνα ζωὴν ἔχητε.",
+      "sourceText": "καὶ οὐ θέλετε ἐλθεῖν πρός με, ἵνα ζωὴν ἔχητε.",
+      "originalText": "καὶ οὐ θέλετε ἐλθεῖν πρός με, ἵνα ζωὴν ἔχητε. "
+    },
+    {
+      "id": "JHN.5.41",
+      "sourceRef": "JHN.5.41",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=208",
+      "sourceLabel": "41",
+      "anchors": [
+        "JHN.5.41"
+      ],
+      "mappingType": "exact",
+      "text": "Δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω·",
+      "sourceText": "Δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω·",
+      "originalText": "Δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω· "
+    },
+    {
+      "id": "JHN.5.42",
+      "sourceRef": "JHN.5.42",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=209",
+      "sourceLabel": "42",
+      "anchors": [
+        "JHN.5.42"
+      ],
+      "mappingType": "exact",
+      "text": "ἀλλ’ ἔγνωκα ὑμᾶς, ὅτι τὴν ἀγάπην τοῦ θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς.",
+      "sourceText": "ἀλλ’ ἔγνωκα ὑμᾶς, ὅτι τὴν ἀγάπην τοῦ θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς.",
+      "originalText": "ἀλλ’ ἔγνωκα ὑμᾶς, ὅτι τὴν ἀγάπην τοῦ θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς. "
+    },
+    {
+      "id": "JHN.5.43",
+      "sourceRef": "JHN.5.43",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=210",
+      "sourceLabel": "43",
+      "anchors": [
+        "JHN.5.43"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγὼ ἐλήλυθα ἐν τῷ ὀνόματι τοῦ πατρός μου, καὶ οὐ λαμβάνετέ με· ἐὰν ἄλλος ἔλθῃ ἐν τῷ ὀνόματι τῷ ἰδίῳ, ἐκεῖνον λήψεσθε.",
+      "sourceText": "Ἐγὼ ἐλήλυθα ἐν τῷ ὀνόματι τοῦ πατρός μου, καὶ οὐ λαμβάνετέ με· ἐὰν ἄλλος ἔλθῃ ἐν τῷ ὀνόματι τῷ ἰδίῳ, ἐκεῖνον λήψεσθε.",
+      "originalText": "Ἐγὼ ἐλήλυθα ἐν τῷ ὀνόματι τοῦ πατρός μου, καὶ οὐ λαμβάνετέ με· ἐὰν ἄλλος ἔλθῃ ἐν τῷ ὀνόματι τῷ ἰδίῳ, ἐκεῖνον λήψεσθε. "
+    },
+    {
+      "id": "JHN.5.44",
+      "sourceRef": "JHN.5.44",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=211",
+      "sourceLabel": "44",
+      "anchors": [
+        "JHN.5.44"
+      ],
+      "mappingType": "exact",
+      "text": "Πῶς δύνασθε ὑμεῖς πιστεῦσαι, δόξαν παρὰ ἀλλήλων λαμβάνοντες, καὶ τὴν δόξαν τὴν παρὰ τοῦ μόνου θεοῦ οὐ ζητεῖτε;",
+      "sourceText": "Πῶς δύνασθε ὑμεῖς πιστεῦσαι, δόξαν παρὰ ἀλλήλων λαμβάνοντες, καὶ τὴν δόξαν τὴν παρὰ τοῦ μόνου θεοῦ οὐ ζητεῖτε;",
+      "originalText": "Πῶς δύνασθε ὑμεῖς πιστεῦσαι, δόξαν παρὰ ἀλλήλων λαμβάνοντες, καὶ τὴν δόξαν τὴν παρὰ τοῦ μόνου θεοῦ οὐ ζητεῖτε; "
+    },
+    {
+      "id": "JHN.5.45",
+      "sourceRef": "JHN.5.45",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=212",
+      "sourceLabel": "45",
+      "anchors": [
+        "JHN.5.45"
+      ],
+      "mappingType": "exact",
+      "text": "Μὴ δοκεῖτε ὅτι ἐγὼ κατηγορήσω ὑμῶν πρὸς τὸν πατέρα· ἔστιν ὁ κατηγορῶν ὑμῶν, Μωσῆς, εἰς ὃν ὑμεῖς ἠλπίκατε.",
+      "sourceText": "Μὴ δοκεῖτε ὅτι ἐγὼ κατηγορήσω ὑμῶν πρὸς τὸν πατέρα· ἔστιν ὁ κατηγορῶν ὑμῶν, Μωσῆς, εἰς ὃν ὑμεῖς ἠλπίκατε.",
+      "originalText": "Μὴ δοκεῖτε ὅτι ἐγὼ κατηγορήσω ὑμῶν πρὸς τὸν πατέρα· ἔστιν ὁ κατηγορῶν ὑμῶν, Μωσῆς, εἰς ὃν ὑμεῖς ἠλπίκατε. "
+    },
+    {
+      "id": "JHN.5.46",
+      "sourceRef": "JHN.5.46",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=213",
+      "sourceLabel": "46",
+      "anchors": [
+        "JHN.5.46"
+      ],
+      "mappingType": "exact",
+      "text": "Εἰ γὰρ ἐπιστεύετε Μωσῇ, ἐπιστεύετε ἂν ἐμοί· περὶ γὰρ ἐμοῦ ἐκεῖνος ἔγραψεν.",
+      "sourceText": "Εἰ γὰρ ἐπιστεύετε Μωσῇ, ἐπιστεύετε ἂν ἐμοί· περὶ γὰρ ἐμοῦ ἐκεῖνος ἔγραψεν.",
+      "originalText": "Εἰ γὰρ ἐπιστεύετε Μωσῇ, ἐπιστεύετε ἂν ἐμοί· περὶ γὰρ ἐμοῦ ἐκεῖνος ἔγραψεν. "
+    },
+    {
+      "id": "JHN.5.47",
+      "sourceRef": "JHN.5.47",
+      "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=214",
+      "sourceLabel": "47",
+      "anchors": [
+        "JHN.5.47"
+      ],
+      "mappingType": "exact",
+      "text": "Εἰ δὲ τοῖς ἐκείνου γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασιν πιστεύσετε;",
+      "sourceText": "Εἰ δὲ τοῖς ἐκείνου γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασιν πιστεύσετε;",
+      "originalText": "Εἰ δὲ τοῖς ἐκείνου γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασιν πιστεύσετε; "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "JHN.5.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.1",
+          "sourceRef": "JHN.5.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.2",
+          "sourceRef": "JHN.5.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.3",
+          "sourceRef": "JHN.5.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.4",
+          "sourceRef": "JHN.5.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.5",
+          "sourceRef": "JHN.5.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.6",
+          "sourceRef": "JHN.5.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.7",
+          "sourceRef": "JHN.5.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.8",
+          "sourceRef": "JHN.5.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.9",
+          "sourceRef": "JHN.5.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.10",
+          "sourceRef": "JHN.5.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.11",
+          "sourceRef": "JHN.5.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.12",
+          "sourceRef": "JHN.5.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.13",
+          "sourceRef": "JHN.5.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.14",
+          "sourceRef": "JHN.5.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.15",
+          "sourceRef": "JHN.5.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.16",
+          "sourceRef": "JHN.5.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.17",
+          "sourceRef": "JHN.5.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.18",
+          "sourceRef": "JHN.5.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.19",
+          "sourceRef": "JHN.5.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.20",
+          "sourceRef": "JHN.5.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.21",
+          "sourceRef": "JHN.5.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.22",
+          "sourceRef": "JHN.5.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.23",
+          "sourceRef": "JHN.5.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.24",
+          "sourceRef": "JHN.5.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.25",
+          "sourceRef": "JHN.5.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.26",
+          "sourceRef": "JHN.5.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.27",
+          "sourceRef": "JHN.5.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.28",
+          "sourceRef": "JHN.5.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.29",
+          "sourceRef": "JHN.5.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.30",
+          "sourceRef": "JHN.5.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.31",
+          "sourceRef": "JHN.5.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.32",
+          "sourceRef": "JHN.5.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.33",
+          "sourceRef": "JHN.5.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.34",
+          "sourceRef": "JHN.5.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.35",
+          "sourceRef": "JHN.5.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.36",
+          "sourceRef": "JHN.5.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.37",
+          "sourceRef": "JHN.5.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.38",
+          "sourceRef": "JHN.5.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.39",
+          "sourceRef": "JHN.5.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.40",
+          "sourceRef": "JHN.5.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.41",
+          "sourceRef": "JHN.5.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.42",
+          "sourceRef": "JHN.5.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.43",
+          "sourceRef": "JHN.5.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.44",
+          "sourceRef": "JHN.5.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.45",
+          "sourceRef": "JHN.5.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.46",
+          "sourceRef": "JHN.5.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.5.47",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 5,
+          "segmentId": "JHN.5.47",
+          "sourceRef": "JHN.5.47",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

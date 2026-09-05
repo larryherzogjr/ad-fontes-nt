@@ -1,0 +1,57 @@
+{
+  "name": "Robinson–Pierpont 2018",
+  "language": "grc",
+  "group": "Byzantine Majority",
+  "description": "Named Byzantine Greek edition. Separate publisher alternatives are retained for John 7:53–8:11 and Acts 24:6–8.",
+  "editionLabel": "Robinson–Pierpont 2018; official repository v3.3.2, commit 27a45ff1b7be6c17ccbfeac414f3f55732ae8e28; README text state 2023-07-20.",
+  "authority": "Official csv-unicode/ccat/no-variants main text. PA.csv and ACT24.csv remain separate alternatives; ¶ is a paragraph marker.",
+  "url": "https://github.com/byztxt/byzantine-majority-text",
+  "rightsUrl": "https://github.com/byztxt/byzantine-majority-text/blob/27a45ff1b7be6c17ccbfeac414f3f55732ae8e28/README.md",
+  "rights": "Official repository dedicates its code and text to the public domain.",
+  "included": [
+    "NT Unicode Greek main text",
+    "paragraph markers",
+    "explicit PA and ACT24 alternatives"
+  ],
+  "excluded": [
+    "morphology/Strong’s enrichment",
+    "remaining apparatus",
+    "essays",
+    "fonts",
+    "English alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/rp2018/raw/rp-v3.3.2.zip",
+      "url": "https://api.github.com/repos/byztxt/byzantine-majority-text/zipball/27a45ff1b7be6c17ccbfeac414f3f55732ae8e28",
+      "sha256": "348355a5dc9afc4f12ad572ef7b153e6a5c5a0470645cb342b67fca4df72f29e",
+      "bytes": 4495032
+    }
+  ],
+  "editionId": "RP2018",
+  "releaseId": "rp2018-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [
+    "LUK.17.36",
+    "ACT.8.37",
+    "ACT.15.34",
+    "ACT.24.7"
+  ],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/rp2018/evidence/README.md",
+      "sha256": "e392e0b871e515bdc347933e12484e7a3b4a7002db760b0fc91ecefe6278a9b1"
+    },
+    {
+      "path": "sources/rp2018/evidence/csv-unicode-README.md",
+      "sha256": "12f59eb8ab053a69f5d5e53899722d6ce51c424f369ddfd71a9949e3577db981"
+    },
+    {
+      "path": "sources/rp2018/evidence/source-README.md",
+      "sha256": "8f9fe05bcb9eb172ecdf4a14275ef17a1c2bcbe5c947e339fb07e7a5f21b47cb"
+    }
+  ]
+}

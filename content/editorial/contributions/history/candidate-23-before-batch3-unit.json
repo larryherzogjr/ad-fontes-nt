@@ -1,0 +1,197 @@
+{
+  "id": "candidate-23",
+  "title": "Romans 16:24 and a Blessing Given Twice",
+  "ranges": [
+    {
+      "start": "ROM.16.24",
+      "end": "ROM.16.24"
+    }
+  ],
+  "status": "approved",
+  "assignedReviewerId": "larry-herzog-jr",
+  "contentType": "Ordinary Means commentary",
+  "readings": [
+    {
+      "editionId": "BSB",
+      "releaseId": "bsb-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "BLB",
+      "releaseId": "blb-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "MSB",
+      "releaseId": "msb-2026-09-05-m2-v2",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ROM.16.24",
+          "start": 0,
+          "end": 61,
+          "text": "May the grace of our Lord Jesus Christ be with you all. Amen."
+        }
+      ]
+    },
+    {
+      "editionId": "YLT",
+      "releaseId": "ylt-2026-09-05-m2-v1",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ROM.16.24",
+          "start": 0,
+          "end": 59,
+          "text": "the grace of our Lord Jesus Christ [be] with you all. Amen."
+        }
+      ]
+    },
+    {
+      "editionId": "N1904",
+      "releaseId": "n1904-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "RP2018",
+      "releaseId": "rp2018-2026-09-05-m2-v1",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ROM.16.24",
+          "start": 0,
+          "end": 61,
+          "text": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν."
+        }
+      ]
+    },
+    {
+      "editionId": "TR-BOYD",
+      "releaseId": "tr-boyd-2026-09-05-m2-v1",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ROM.16.24",
+          "start": 0,
+          "end": 61,
+          "text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν."
+        }
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "editionId": "BSB",
+      "releaseId": "bsb-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ROM.16.24",
+      "url": "https://berean.bible/"
+    },
+    {
+      "editionId": "BLB",
+      "releaseId": "blb-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ROM.16.24",
+      "url": "https://literalbible.com/"
+    },
+    {
+      "editionId": "MSB",
+      "releaseId": "msb-2026-09-05-m2-v2",
+      "sourceId": "ROM.usj#content/393/content/4",
+      "url": "https://majoritybible.com/"
+    },
+    {
+      "editionId": "YLT",
+      "releaseId": "ylt-2026-09-05-m2-v1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"ROM\"]/p[37]/v[46]",
+      "url": "https://ebible.org/engylt/"
+    },
+    {
+      "editionId": "N1904",
+      "releaseId": "n1904-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ROM.16.24",
+      "url": "https://github.com/biblicalhumanities/Nestle1904"
+    },
+    {
+      "editionId": "RP2018",
+      "releaseId": "rp2018-2026-09-05-m2-v1",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=434",
+      "url": "https://github.com/byztxt/byzantine-majority-text"
+    },
+    {
+      "editionId": "TR-BOYD",
+      "releaseId": "tr-boyd-2026-09-05-m2-v1",
+      "sourceId": "grctr_usfx.xml#book[@id=\"ROM\"]/p[228]/v[0]",
+      "url": "https://ebible.org/grctr/"
+    }
+  ],
+  "attestations": [],
+  "significance": {
+    "sourceObservation": "Paul blesses the Roman church at 16:20 — the grace of our Lord Jesus Christ be with you — and then returns to greetings from Gaius, Erastus and Quartus. In some Bibles a second, nearly identical blessing follows at verse 24. The Majority Standard Bible, Young's Literal Translation, Robinson–Pierpont and Boyd's Textus Receptus print it [S3, S4, S6, S7]. The Berean Standard Bible, the Berean Literal Bible and Nestle's 1904 Greek edition do not [S1, S2, S5]. The two are close but not identical: verse 24 adds \"all.\" In Robinson–Pierpont it also adds an Amen; Boyd's text already has an Amen at verse 20 [C2].\n\nHere the usual shorthand breaks down, and the publishers are the ones who say so. BSB's footnote attributes the verse to \"SBL, BYZ, and TR\"; MSB's to \"SBL, MT, and TR,\" adding that other critical editions omit it [S1, S3]. SBL is itself a modern critical edition. So this is not a case of the critical editions on one side and the traditional text on the other — modern editors differ among themselves [C3].",
+    "interpretation": "As Larry Herzog Jr. observes in *Ad Fontes – Volume One*, this is a benediction doubling one Paul has already given a few verses earlier, and its pastoral weight is essentially nil [C5]. That is the right size for it. The blessing is not in question: it stands at 16:20 in all seven editions on this list [C2]. What differs is whether the closing section of the letter gives it a second time.\n\nThe reason it is worth a note anyway is the company it keeps. The publishers report a disagreement among modern critical editions here, and that is more instructive than the verse itself. A reader who has learned to sort Bibles into two camps — old manuscripts against the traditional text — will find the sorting fails here. Editors weigh evidence and reach different judgments, and an edition is a set of decisions rather than a side in a dispute.\n\nWhat cannot be said from this comparison is which way the doubling ran. That the same blessing appears twice is an observation; explaining how it came to appear twice requires evidence of a kind seven printed editions do not supply."
+  },
+  "author": "Larry Herzog Jr.",
+  "rights": "cleared",
+  "provenance": "Ordinary Means explanation adopted by Larry Herzog Jr. Batch-2 returned worksheet candidate-23, rev-2, contains the contribution history, permission, review decision and exclusions. A–C supplied prose preserved; optional teacher material, book corroboration and witness discussion are not part of this public record. Factual corrections approved by Larry Herzog Jr. in the project conversation on 2026-09-05; exact changes retained in the batch-2 reconciliation.",
+  "byline": "Ordinary Means",
+  "explanationSources": [
+    {
+      "id": "S1",
+      "label": "Berean Standard Bible",
+      "locator": "ROM.16.24; release bsb-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://berean.bible/"
+    },
+    {
+      "id": "S2",
+      "label": "Berean Literal Bible — publisher draft",
+      "locator": "ROM.16.24; release blb-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://literalbible.com/"
+    },
+    {
+      "id": "S3",
+      "label": "Majority Standard Bible",
+      "locator": "ROM.16.24; release msb-2026-09-05-m2-v2. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://majoritybible.com/"
+    },
+    {
+      "id": "S4",
+      "label": "Young’s Literal Translation (1898)",
+      "locator": "ROM.16.24; release ylt-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://ebible.org/engylt/"
+    },
+    {
+      "id": "S5",
+      "label": "Nestle 1904 — historical critical Greek",
+      "locator": "ROM.16.24; release n1904-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://github.com/biblicalhumanities/Nestle1904"
+    },
+    {
+      "id": "S6",
+      "label": "Robinson–Pierpont 2018",
+      "locator": "ROM.16.24; release rp2018-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://github.com/byztxt/byzantine-majority-text"
+    },
+    {
+      "id": "S7",
+      "label": "Textus Receptus — Boyd compilation (2022)",
+      "locator": "ROM.16.24; release tr-boyd-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+      "url": "https://ebible.org/grctr/"
+    },
+    {
+      "id": "C2",
+      "label": "Ad Fontes NT pinned chapter snapshots",
+      "locator": "Romans 16:20 and 16:24 in all seven pinned releases. Verse 20 is present in all seven. RP2018 and TR-BOYD both add πάντων (“all”) in verse 24. RP2018 adds Amen there; TR-BOYD already prints Amen at verse 20, with a separate source note. These are edition-specific observations."
+    },
+    {
+      "id": "C3",
+      "label": "Ad Fontes NT pinned chapter snapshots",
+      "locator": "BSB note ROM.16.note.99 at anchor ROM.16.23 (\"SBL, BYZ, and TR include\"); MSB note ROM.16.24.note.168 at anchor ROM.16.24 (\"SBL, MT, and TR; other CT do not include verse 24\"). Direct observation of the note bodies. These remain publisher claims about other editions, attributed as such; SBLGNT itself was not consulted."
+    },
+    {
+      "id": "C5",
+      "label": "Larry Herzog Jr., Ad Fontes – Volume One: New Testament Textual Criticism for the Laity, 2nd ed. (September 2026), ISBN 979-8-25-947926-5",
+      "locator": "p. 376, \"Romans 16:24 — The Doubled Benediction\". Paraphrase. Self-citation, disclosed: the author of this note is the author of the cited book, and the prose names him. Cited for the judgment that the pastoral weight is nil, which the packet evidence fully supports."
+    }
+  ]
+}

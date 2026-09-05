@@ -1,0 +1,129 @@
+{
+  "sourceId": "berean-official-usj",
+  "editionId": "BSB",
+  "releaseId": "bsb-2026-09-05-53acad65d590",
+  "title": "Berean Standard Bible",
+  "editionLabel": "Current, updated to 3rd Printing (publisher download listing)",
+  "language": "en",
+  "textualGrouping": "Critical/Eclectic",
+  "basis": "Publisher consultation of multiple editions; no claim of identity with one Greek edition",
+  "publisher": "Berean Bible Translation Committee",
+  "retrievedAt": "2026-09-05",
+  "upstreamRelease": "No semantic release supplied; ZIP entry timestamps 2026-03-08; snapshot identified by SHA-256",
+  "artifacts": [
+    {
+      "path": "sources/bsb/raw/bsb_usj.zip",
+      "url": "https://bereanbible.com/bsb_usj.zip",
+      "sha256": "53acad65d590f5bc8cded3e14b37b7b02916f6a365211bcf60ea733ecd800e8f"
+    },
+    {
+      "path": "sources/bsb/raw/bsb.txt",
+      "url": "https://bereanbible.com/bsb.txt",
+      "sha256": "2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96"
+    },
+    {
+      "path": "sources/bsb/evidence/terms.html",
+      "url": "https://berean.bible/terms.htm",
+      "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d"
+    },
+    {
+      "path": "sources/bsb/evidence/downloads.html",
+      "url": "https://berean.bible/downloads.htm",
+      "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca"
+    }
+  ],
+  "licenseUrl": "https://berean.bible/terms.htm",
+  "rights": "Public-domain dedication effective April 30, 2023; all uses freely permitted, including commercial reproduction and adaptation.",
+  "territorialScope": "No territorial restriction stated in publisher terms",
+  "attribution": "The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee.",
+  "includedLayers": [
+    "NT Scripture",
+    "publisher paragraph and poetry structure",
+    "publisher headings and cross-reference headings",
+    "publisher footnotes from official USJ"
+  ],
+  "excludedLayers": [
+    "OT application data",
+    "audio",
+    "artwork",
+    "fonts",
+    "translation tables",
+    "independent commentary"
+  ],
+  "reviewStatus": "BSB official artifacts checked for local M1; reconciliation required on every build",
+  "importerVersion": "bsb-usj-v1",
+  "transformations": [
+    "USJ content paths retained; strings preserved in reading runs",
+    "whitespace collapsed only for search and independent text comparison",
+    "NT-only extraction; source archive unchanged",
+    "Align USJ runs to authoritative bsb.txt per verse using character alignment; retain originalText on each run",
+    "200 reviewed differences after paragraph whitespace joining: 188 whitespace-only, 12 converter artifacts; see reviewed-differences.json"
+  ],
+  "verifiedGaps": {
+    "ACT.8.37": {
+      "noteAnchor": "ACT.8.36",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "ACT.15.34": {
+      "noteAnchor": "ACT.15.33",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "ACT.24.7": {
+      "noteAnchor": "ACT.24.6",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "ACT.28.29": {
+      "noteAnchor": "ACT.28.28",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "JHN.5.4": {
+      "noteAnchor": "JHN.5.3",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "LUK.17.36": {
+      "noteAnchor": "LUK.17.35",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "LUK.23.17": {
+      "noteAnchor": "LUK.23.16",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MAT.17.21": {
+      "noteAnchor": "MAT.17.20",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MAT.18.11": {
+      "noteAnchor": "MAT.18.10",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MAT.23.14": {
+      "noteAnchor": "MAT.23.13",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MRK.7.16": {
+      "noteAnchor": "MRK.7.15",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MRK.9.44": {
+      "noteAnchor": "MRK.9.43",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MRK.9.46": {
+      "noteAnchor": "MRK.9.45",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MRK.11.26": {
+      "noteAnchor": "MRK.11.25",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "MRK.15.28": {
+      "noteAnchor": "MRK.15.27",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    },
+    "ROM.16.24": {
+      "noteAnchor": "ROM.16.23",
+      "evidence": "USJ verse inventory and publisher note; also absent from official plain-text main text"
+    }
+  },
+  "textAuthority": "Official bsb.txt supplies verbatim Scripture; official USJ supplies structure, headings and notes. Exact reviewed alignment differences retained separately."
+}

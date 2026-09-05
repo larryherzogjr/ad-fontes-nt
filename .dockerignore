@@ -1,0 +1,11 @@
+**/node_modules
+**/.env*
+**/.git
+**/.DS_Store
+app/dist
+app/.wrangler
+app/.vinext
+**/*.tsbuildinfo
+**/__pycache__
+/Ad Fontes - Volume One.pdf
+deployment/backups

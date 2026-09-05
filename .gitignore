@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+app/dist/
+app/.wrangler/
+app/.vinext/
+.env*
+*.tsbuildinfo
+deployment/backups/
+/.next/
+/next-env.d.ts
+/Ad Fontes - Volume One.pdf
+app/public/corpus/
+app/public/analysis/
+app/public/editorial/
+*.dump
+*.key
+*.pem

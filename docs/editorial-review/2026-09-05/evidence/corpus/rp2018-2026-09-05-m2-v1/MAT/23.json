@@ -1,0 +1,2220 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=776",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MAT.23.1",
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "text": "Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ,",
+          "anchor": "MAT.23.1",
+          "marks": [],
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.1",
+          "marks": [],
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.23.2",
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "text": "λέγων, Ἐπὶ τῆς Μωσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι·",
+          "anchor": "MAT.23.2",
+          "marks": [],
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.2",
+          "marks": [],
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.23.3",
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "text": "πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν τηρεῖν, τηρεῖτε καὶ ποιεῖτε· κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσιν γὰρ καὶ οὐ ποιοῦσιν.",
+          "anchor": "MAT.23.3",
+          "marks": [],
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.3",
+          "marks": [],
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.23.4",
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "text": "Δεσμεύουσιν γὰρ φορτία βαρέα καὶ δυσβάστακτα, καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, τῷ δὲ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά.",
+          "anchor": "MAT.23.4",
+          "marks": [],
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.4",
+          "marks": [],
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.23.5",
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "text": "Πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσιν δὲ τὰ φυλακτήρια αὐτῶν, καὶ μεγαλύνουσιν τὰ κράσπεδα τῶν ἱματίων αὐτῶν·",
+          "anchor": "MAT.23.5",
+          "marks": [],
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.5",
+          "marks": [],
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.23.6",
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "text": "φιλοῦσίν τε τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις, καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς,",
+          "anchor": "MAT.23.6",
+          "marks": [],
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.6",
+          "marks": [],
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.23.7",
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "text": "καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς, καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων, Ῥαββί, ῥαββί·",
+          "anchor": "MAT.23.7",
+          "marks": [],
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.7",
+          "marks": [],
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.23.8",
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "text": "ὑμεῖς δὲ μὴ κληθῆτε Ῥαββί· εἷς γάρ ἐστιν ὑμῶν ὁ καθηγητής, ὁ χριστός· πάντες δὲ ὑμεῖς ἀδελφοί ἐστε.",
+          "anchor": "MAT.23.8",
+          "marks": [],
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.8",
+          "marks": [],
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.23.9",
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "text": "Καὶ πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς· εἷς γάρ ἐστιν ὁ πατὴρ ὑμῶν, ὁ ἐν τοῖς οὐρανοῖς.",
+          "anchor": "MAT.23.9",
+          "marks": [],
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.9",
+          "marks": [],
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.23.10",
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "text": "Μηδὲ κληθῆτε καθηγηταί· εἷς γὰρ ὑμῶν ἐστιν ὁ καθηγητής, ὁ χριστός.",
+          "anchor": "MAT.23.10",
+          "marks": [],
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.10",
+          "marks": [],
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.23.11",
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "text": "Ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.",
+          "anchor": "MAT.23.11",
+          "marks": [],
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.11",
+          "marks": [],
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.23.12",
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        },
+        {
+          "text": "Ὅστις δὲ ὑψώσει ἑαυτόν, ταπεινωθήσεται· καὶ ὅστις ταπεινώσει ἑαυτόν, ὑψωθήσεται.",
+          "anchor": "MAT.23.12",
+          "marks": [],
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.12",
+          "marks": [],
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=788",
+      "runs": [
+        {
+          "verse": "13",
+          "anchor": "MAT.23.13",
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "text": "Οὐαὶ δὲ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα.",
+          "anchor": "MAT.23.13",
+          "marks": [],
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.13",
+          "marks": [],
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.23.14",
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν.",
+          "anchor": "MAT.23.14",
+          "marks": [],
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.14",
+          "marks": [],
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=790",
+      "runs": [
+        {
+          "verse": "15",
+          "anchor": "MAT.23.15",
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι περιάγετε τὴν θάλασσαν καὶ τὴν ξηρὰν ποιῆσαι ἕνα προσήλυτον, καὶ ὅταν γένηται, ποιεῖτε αὐτὸν υἱὸν γεέννης διπλότερον ὑμῶν.",
+          "anchor": "MAT.23.15",
+          "marks": [],
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.15",
+          "marks": [],
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=791",
+      "runs": [
+        {
+          "verse": "16",
+          "anchor": "MAT.23.16",
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοί, οἱ λέγοντες, Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει.",
+          "anchor": "MAT.23.16",
+          "marks": [],
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.16",
+          "marks": [],
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.23.17",
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "text": "Μωροὶ καὶ τυφλοί· τίς γὰρ μείζων ἐστίν, ὁ χρυσός, ἢ ὁ ναὸς ὁ ἁγιάζων τὸν χρυσόν;",
+          "anchor": "MAT.23.17",
+          "marks": [],
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.17",
+          "marks": [],
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.23.18",
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "text": "Καί, Ὃς ἐὰν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ, ὀφείλει.",
+          "anchor": "MAT.23.18",
+          "marks": [],
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.18",
+          "marks": [],
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.23.19",
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "text": "Μωροὶ καὶ τυφλοί· τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;",
+          "anchor": "MAT.23.19",
+          "marks": [],
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.19",
+          "marks": [],
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.23.20",
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "text": "Ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσιν τοῖς ἐπάνω αὐτοῦ·",
+          "anchor": "MAT.23.20",
+          "marks": [],
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.20",
+          "marks": [],
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.23.21",
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "text": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικήσαντι αὐτόν·",
+          "anchor": "MAT.23.21",
+          "marks": [],
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.21",
+          "marks": [],
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.23.22",
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        },
+        {
+          "text": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+          "anchor": "MAT.23.22",
+          "marks": [],
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.22",
+          "marks": [],
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=798",
+      "runs": [
+        {
+          "verse": "23",
+          "anchor": "MAT.23.23",
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸν ἔλεον καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι, κἀκεῖνα μὴ ἀφιέναι.",
+          "anchor": "MAT.23.23",
+          "marks": [],
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.23",
+          "marks": [],
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.23.24",
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        },
+        {
+          "text": "Ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα, τὴν δὲ κάμηλον καταπίνοντες.",
+          "anchor": "MAT.23.24",
+          "marks": [],
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.24",
+          "marks": [],
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=800",
+      "runs": [
+        {
+          "verse": "25",
+          "anchor": "MAT.23.25",
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι καθαρίζετε τὸ ἔξωθεν τοῦ ποτηρίου καὶ τῆς παροψίδος, ἔσωθεν δὲ γέμουσιν ἐξ ἁρπαγῆς καὶ ἀδικίας.",
+          "anchor": "MAT.23.25",
+          "marks": [],
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.25",
+          "marks": [],
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.23.26",
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        },
+        {
+          "text": "Φαρισαῖε τυφλέ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸ ἐκτὸς αὐτῶν καθαρόν.",
+          "anchor": "MAT.23.26",
+          "marks": [],
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.26",
+          "marks": [],
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=802",
+      "runs": [
+        {
+          "verse": "27",
+          "anchor": "MAT.23.27",
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης ἀκαθαρσίας.",
+          "anchor": "MAT.23.27",
+          "marks": [],
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.27",
+          "marks": [],
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.23.28",
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        },
+        {
+          "text": "Οὕτως καὶ ὑμεῖς ἔξωθεν μὲν φαίνεσθε τοῖς ἀνθρώποις δίκαιοι, ἔσωθεν δὲ μεστοί ἐστε ὑποκρίσεως καὶ ἀνομίας.",
+          "anchor": "MAT.23.28",
+          "marks": [],
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.28",
+          "marks": [],
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=804",
+      "runs": [
+        {
+          "verse": "29",
+          "anchor": "MAT.23.29",
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι οἰκοδομεῖτε τοὺς τάφους τῶν προφητῶν, καὶ κοσμεῖτε τὰ μνημεῖα τῶν δικαίων,",
+          "anchor": "MAT.23.29",
+          "marks": [],
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.29",
+          "marks": [],
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.23.30",
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "text": "καὶ λέγετε, Εἰ ἦμεν ἐν ταῖς ἡμέραις τῶν πατέρων ἡμῶν, οὐκ ἂν ἦμεν κοινωνοὶ αὐτῶν ἐν τῷ αἵματι τῶν προφητῶν.",
+          "anchor": "MAT.23.30",
+          "marks": [],
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.30",
+          "marks": [],
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.23.31",
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "text": "Ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας·",
+          "anchor": "MAT.23.31",
+          "marks": [],
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.31",
+          "marks": [],
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.23.32",
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "text": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν.",
+          "anchor": "MAT.23.32",
+          "marks": [],
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.32",
+          "marks": [],
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.23.33",
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "text": "Ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+          "anchor": "MAT.23.33",
+          "marks": [],
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.33",
+          "marks": [],
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.23.34",
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "text": "Διὰ τοῦτο, ἰδού, ἐγὼ ἀποστέλλω πρὸς ὑμᾶς προφήτας καὶ σοφοὺς καὶ γραμματεῖς· καὶ ἐξ αὐτῶν ἀποκτενεῖτε καὶ σταυρώσετε, καὶ ἐξ αὐτῶν μαστιγώσετε ἐν ταῖς συναγωγαῖς ὑμῶν καὶ διώξετε ἀπὸ πόλεως εἰς πόλιν·",
+          "anchor": "MAT.23.34",
+          "marks": [],
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.34",
+          "marks": [],
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MAT.23.35",
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "text": "ὅπως ἔλθῃ ἐφ’ ὑμᾶς πᾶν αἷμα δίκαιον ἐκχυνόμενον ἐπὶ τῆς γῆς, ἀπὸ τοῦ αἵματος Ἄβελ τοῦ δικαίου ἕως τοῦ αἵματος Ζαχαρίου υἱοῦ Βαραχίου, ὃν ἐφονεύσατε μεταξὺ τοῦ ναοῦ καὶ τοῦ θυσιαστηρίου.",
+          "anchor": "MAT.23.35",
+          "marks": [],
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.35",
+          "marks": [],
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MAT.23.36",
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        },
+        {
+          "text": "Ἀμὴν λέγω ὑμῖν ὅτι ἥξει πάντα ταῦτα ἐπὶ τὴν γενεὰν ταύτην.",
+          "anchor": "MAT.23.36",
+          "marks": [],
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.36",
+          "marks": [],
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=812",
+      "runs": [
+        {
+          "verse": "37",
+          "anchor": "MAT.23.37",
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "text": "Ἱερουσαλήμ, Ἱερουσαλήμ, ἡ ἀποκτένουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν, ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου, ὃν τρόπον ἐπισυνάγει ὄρνις τὰ νοσσία ἑαυτῆς ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε.",
+          "anchor": "MAT.23.37",
+          "marks": [],
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.37",
+          "marks": [],
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MAT.23.38",
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "text": "Ἰδού, ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος.",
+          "anchor": "MAT.23.38",
+          "marks": [],
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.38",
+          "marks": [],
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MAT.23.39",
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        },
+        {
+          "text": "Λέγω γὰρ ὑμῖν, οὐ μή με ἴδητε ἀπ’ ἄρτι ἕως ἂν εἴπητε, Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου.",
+          "anchor": "MAT.23.39",
+          "marks": [],
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.23.39",
+          "marks": [],
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.23.1",
+      "sourceRef": "MAT.23.1",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=776",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.23.1"
+      ],
+      "mappingType": "exact",
+      "text": "Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ,",
+      "sourceText": "Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ,",
+      "originalText": "Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ, "
+    },
+    {
+      "id": "MAT.23.2",
+      "sourceRef": "MAT.23.2",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=777",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.23.2"
+      ],
+      "mappingType": "exact",
+      "text": "λέγων, Ἐπὶ τῆς Μωσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι·",
+      "sourceText": "λέγων, Ἐπὶ τῆς Μωσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι·",
+      "originalText": "λέγων, Ἐπὶ τῆς Μωσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι· "
+    },
+    {
+      "id": "MAT.23.3",
+      "sourceRef": "MAT.23.3",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=778",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.23.3"
+      ],
+      "mappingType": "exact",
+      "text": "πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν τηρεῖν, τηρεῖτε καὶ ποιεῖτε· κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσιν γὰρ καὶ οὐ ποιοῦσιν.",
+      "sourceText": "πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν τηρεῖν, τηρεῖτε καὶ ποιεῖτε· κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσιν γὰρ καὶ οὐ ποιοῦσιν.",
+      "originalText": "πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν τηρεῖν, τηρεῖτε καὶ ποιεῖτε· κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσιν γὰρ καὶ οὐ ποιοῦσιν. "
+    },
+    {
+      "id": "MAT.23.4",
+      "sourceRef": "MAT.23.4",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=779",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.23.4"
+      ],
+      "mappingType": "exact",
+      "text": "Δεσμεύουσιν γὰρ φορτία βαρέα καὶ δυσβάστακτα, καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, τῷ δὲ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά.",
+      "sourceText": "Δεσμεύουσιν γὰρ φορτία βαρέα καὶ δυσβάστακτα, καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, τῷ δὲ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά.",
+      "originalText": "Δεσμεύουσιν γὰρ φορτία βαρέα καὶ δυσβάστακτα, καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, τῷ δὲ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά. "
+    },
+    {
+      "id": "MAT.23.5",
+      "sourceRef": "MAT.23.5",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=780",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.23.5"
+      ],
+      "mappingType": "exact",
+      "text": "Πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσιν δὲ τὰ φυλακτήρια αὐτῶν, καὶ μεγαλύνουσιν τὰ κράσπεδα τῶν ἱματίων αὐτῶν·",
+      "sourceText": "Πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσιν δὲ τὰ φυλακτήρια αὐτῶν, καὶ μεγαλύνουσιν τὰ κράσπεδα τῶν ἱματίων αὐτῶν·",
+      "originalText": "Πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσιν δὲ τὰ φυλακτήρια αὐτῶν, καὶ μεγαλύνουσιν τὰ κράσπεδα τῶν ἱματίων αὐτῶν· "
+    },
+    {
+      "id": "MAT.23.6",
+      "sourceRef": "MAT.23.6",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=781",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.23.6"
+      ],
+      "mappingType": "exact",
+      "text": "φιλοῦσίν τε τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις, καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς,",
+      "sourceText": "φιλοῦσίν τε τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις, καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς,",
+      "originalText": "φιλοῦσίν τε τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις, καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς, "
+    },
+    {
+      "id": "MAT.23.7",
+      "sourceRef": "MAT.23.7",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=782",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.23.7"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς, καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων, Ῥαββί, ῥαββί·",
+      "sourceText": "καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς, καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων, Ῥαββί, ῥαββί·",
+      "originalText": "καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς, καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων, Ῥαββί, ῥαββί· "
+    },
+    {
+      "id": "MAT.23.8",
+      "sourceRef": "MAT.23.8",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=783",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.23.8"
+      ],
+      "mappingType": "exact",
+      "text": "ὑμεῖς δὲ μὴ κληθῆτε Ῥαββί· εἷς γάρ ἐστιν ὑμῶν ὁ καθηγητής, ὁ χριστός· πάντες δὲ ὑμεῖς ἀδελφοί ἐστε.",
+      "sourceText": "ὑμεῖς δὲ μὴ κληθῆτε Ῥαββί· εἷς γάρ ἐστιν ὑμῶν ὁ καθηγητής, ὁ χριστός· πάντες δὲ ὑμεῖς ἀδελφοί ἐστε.",
+      "originalText": "ὑμεῖς δὲ μὴ κληθῆτε Ῥαββί· εἷς γάρ ἐστιν ὑμῶν ὁ καθηγητής, ὁ χριστός· πάντες δὲ ὑμεῖς ἀδελφοί ἐστε. "
+    },
+    {
+      "id": "MAT.23.9",
+      "sourceRef": "MAT.23.9",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=784",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.23.9"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς· εἷς γάρ ἐστιν ὁ πατὴρ ὑμῶν, ὁ ἐν τοῖς οὐρανοῖς.",
+      "sourceText": "Καὶ πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς· εἷς γάρ ἐστιν ὁ πατὴρ ὑμῶν, ὁ ἐν τοῖς οὐρανοῖς.",
+      "originalText": "Καὶ πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς· εἷς γάρ ἐστιν ὁ πατὴρ ὑμῶν, ὁ ἐν τοῖς οὐρανοῖς. "
+    },
+    {
+      "id": "MAT.23.10",
+      "sourceRef": "MAT.23.10",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=785",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.23.10"
+      ],
+      "mappingType": "exact",
+      "text": "Μηδὲ κληθῆτε καθηγηταί· εἷς γὰρ ὑμῶν ἐστιν ὁ καθηγητής, ὁ χριστός.",
+      "sourceText": "Μηδὲ κληθῆτε καθηγηταί· εἷς γὰρ ὑμῶν ἐστιν ὁ καθηγητής, ὁ χριστός.",
+      "originalText": "Μηδὲ κληθῆτε καθηγηταί· εἷς γὰρ ὑμῶν ἐστιν ὁ καθηγητής, ὁ χριστός. "
+    },
+    {
+      "id": "MAT.23.11",
+      "sourceRef": "MAT.23.11",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=786",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.23.11"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.",
+      "sourceText": "Ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.",
+      "originalText": "Ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος. "
+    },
+    {
+      "id": "MAT.23.12",
+      "sourceRef": "MAT.23.12",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=787",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.23.12"
+      ],
+      "mappingType": "exact",
+      "text": "Ὅστις δὲ ὑψώσει ἑαυτόν, ταπεινωθήσεται· καὶ ὅστις ταπεινώσει ἑαυτόν, ὑψωθήσεται.",
+      "sourceText": "Ὅστις δὲ ὑψώσει ἑαυτόν, ταπεινωθήσεται· καὶ ὅστις ταπεινώσει ἑαυτόν, ὑψωθήσεται.",
+      "originalText": "Ὅστις δὲ ὑψώσει ἑαυτόν, ταπεινωθήσεται· καὶ ὅστις ταπεινώσει ἑαυτόν, ὑψωθήσεται. \n"
+    },
+    {
+      "id": "MAT.23.13",
+      "sourceRef": "MAT.23.13",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=788",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.23.13"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ δὲ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα.",
+      "sourceText": "¶Οὐαὶ δὲ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα.",
+      "originalText": "Οὐαὶ δὲ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα. "
+    },
+    {
+      "id": "MAT.23.14",
+      "sourceRef": "MAT.23.14",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=789",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.23.14"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν.",
+      "sourceText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν.",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν. \n"
+    },
+    {
+      "id": "MAT.23.15",
+      "sourceRef": "MAT.23.15",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=790",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.23.15"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι περιάγετε τὴν θάλασσαν καὶ τὴν ξηρὰν ποιῆσαι ἕνα προσήλυτον, καὶ ὅταν γένηται, ποιεῖτε αὐτὸν υἱὸν γεέννης διπλότερον ὑμῶν.",
+      "sourceText": "¶Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι περιάγετε τὴν θάλασσαν καὶ τὴν ξηρὰν ποιῆσαι ἕνα προσήλυτον, καὶ ὅταν γένηται, ποιεῖτε αὐτὸν υἱὸν γεέννης διπλότερον ὑμῶν.",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι περιάγετε τὴν θάλασσαν καὶ τὴν ξηρὰν ποιῆσαι ἕνα προσήλυτον, καὶ ὅταν γένηται, ποιεῖτε αὐτὸν υἱὸν γεέννης διπλότερον ὑμῶν. \n"
+    },
+    {
+      "id": "MAT.23.16",
+      "sourceRef": "MAT.23.16",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=791",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.23.16"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοί, οἱ λέγοντες, Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει.",
+      "sourceText": "¶Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοί, οἱ λέγοντες, Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει.",
+      "originalText": "Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοί, οἱ λέγοντες, Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει. "
+    },
+    {
+      "id": "MAT.23.17",
+      "sourceRef": "MAT.23.17",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=792",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.23.17"
+      ],
+      "mappingType": "exact",
+      "text": "Μωροὶ καὶ τυφλοί· τίς γὰρ μείζων ἐστίν, ὁ χρυσός, ἢ ὁ ναὸς ὁ ἁγιάζων τὸν χρυσόν;",
+      "sourceText": "Μωροὶ καὶ τυφλοί· τίς γὰρ μείζων ἐστίν, ὁ χρυσός, ἢ ὁ ναὸς ὁ ἁγιάζων τὸν χρυσόν;",
+      "originalText": "Μωροὶ καὶ τυφλοί· τίς γὰρ μείζων ἐστίν, ὁ χρυσός, ἢ ὁ ναὸς ὁ ἁγιάζων τὸν χρυσόν; "
+    },
+    {
+      "id": "MAT.23.18",
+      "sourceRef": "MAT.23.18",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=793",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.23.18"
+      ],
+      "mappingType": "exact",
+      "text": "Καί, Ὃς ἐὰν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ, ὀφείλει.",
+      "sourceText": "Καί, Ὃς ἐὰν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ, ὀφείλει.",
+      "originalText": "Καί, Ὃς ἐὰν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν· ὃς δ’ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ, ὀφείλει. "
+    },
+    {
+      "id": "MAT.23.19",
+      "sourceRef": "MAT.23.19",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=794",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.23.19"
+      ],
+      "mappingType": "exact",
+      "text": "Μωροὶ καὶ τυφλοί· τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;",
+      "sourceText": "Μωροὶ καὶ τυφλοί· τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;",
+      "originalText": "Μωροὶ καὶ τυφλοί· τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον; "
+    },
+    {
+      "id": "MAT.23.20",
+      "sourceRef": "MAT.23.20",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=795",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.23.20"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσιν τοῖς ἐπάνω αὐτοῦ·",
+      "sourceText": "Ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσιν τοῖς ἐπάνω αὐτοῦ·",
+      "originalText": "Ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσιν τοῖς ἐπάνω αὐτοῦ· "
+    },
+    {
+      "id": "MAT.23.21",
+      "sourceRef": "MAT.23.21",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=796",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.23.21"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικήσαντι αὐτόν·",
+      "sourceText": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικήσαντι αὐτόν·",
+      "originalText": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικήσαντι αὐτόν· "
+    },
+    {
+      "id": "MAT.23.22",
+      "sourceRef": "MAT.23.22",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=797",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.23.22"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+      "sourceText": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+      "originalText": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ. \n"
+    },
+    {
+      "id": "MAT.23.23",
+      "sourceRef": "MAT.23.23",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=798",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.23.23"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸν ἔλεον καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι, κἀκεῖνα μὴ ἀφιέναι.",
+      "sourceText": "¶Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸν ἔλεον καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι, κἀκεῖνα μὴ ἀφιέναι.",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸν ἔλεον καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι, κἀκεῖνα μὴ ἀφιέναι. "
+    },
+    {
+      "id": "MAT.23.24",
+      "sourceRef": "MAT.23.24",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=799",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.23.24"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα, τὴν δὲ κάμηλον καταπίνοντες.",
+      "sourceText": "Ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα, τὴν δὲ κάμηλον καταπίνοντες.",
+      "originalText": "Ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα, τὴν δὲ κάμηλον καταπίνοντες. \n"
+    },
+    {
+      "id": "MAT.23.25",
+      "sourceRef": "MAT.23.25",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=800",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.23.25"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι καθαρίζετε τὸ ἔξωθεν τοῦ ποτηρίου καὶ τῆς παροψίδος, ἔσωθεν δὲ γέμουσιν ἐξ ἁρπαγῆς καὶ ἀδικίας.",
+      "sourceText": "¶Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι καθαρίζετε τὸ ἔξωθεν τοῦ ποτηρίου καὶ τῆς παροψίδος, ἔσωθεν δὲ γέμουσιν ἐξ ἁρπαγῆς καὶ ἀδικίας.",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι καθαρίζετε τὸ ἔξωθεν τοῦ ποτηρίου καὶ τῆς παροψίδος, ἔσωθεν δὲ γέμουσιν ἐξ ἁρπαγῆς καὶ ἀδικίας. "
+    },
+    {
+      "id": "MAT.23.26",
+      "sourceRef": "MAT.23.26",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=801",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.23.26"
+      ],
+      "mappingType": "exact",
+      "text": "Φαρισαῖε τυφλέ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸ ἐκτὸς αὐτῶν καθαρόν.",
+      "sourceText": "Φαρισαῖε τυφλέ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸ ἐκτὸς αὐτῶν καθαρόν.",
+      "originalText": "Φαρισαῖε τυφλέ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸ ἐκτὸς αὐτῶν καθαρόν. \n"
+    },
+    {
+      "id": "MAT.23.27",
+      "sourceRef": "MAT.23.27",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=802",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.23.27"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης ἀκαθαρσίας.",
+      "sourceText": "¶Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης ἀκαθαρσίας.",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης ἀκαθαρσίας. "
+    },
+    {
+      "id": "MAT.23.28",
+      "sourceRef": "MAT.23.28",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=803",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.23.28"
+      ],
+      "mappingType": "exact",
+      "text": "Οὕτως καὶ ὑμεῖς ἔξωθεν μὲν φαίνεσθε τοῖς ἀνθρώποις δίκαιοι, ἔσωθεν δὲ μεστοί ἐστε ὑποκρίσεως καὶ ἀνομίας.",
+      "sourceText": "Οὕτως καὶ ὑμεῖς ἔξωθεν μὲν φαίνεσθε τοῖς ἀνθρώποις δίκαιοι, ἔσωθεν δὲ μεστοί ἐστε ὑποκρίσεως καὶ ἀνομίας.",
+      "originalText": "Οὕτως καὶ ὑμεῖς ἔξωθεν μὲν φαίνεσθε τοῖς ἀνθρώποις δίκαιοι, ἔσωθεν δὲ μεστοί ἐστε ὑποκρίσεως καὶ ἀνομίας. \n"
+    },
+    {
+      "id": "MAT.23.29",
+      "sourceRef": "MAT.23.29",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=804",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.23.29"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι οἰκοδομεῖτε τοὺς τάφους τῶν προφητῶν, καὶ κοσμεῖτε τὰ μνημεῖα τῶν δικαίων,",
+      "sourceText": "¶Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι οἰκοδομεῖτε τοὺς τάφους τῶν προφητῶν, καὶ κοσμεῖτε τὰ μνημεῖα τῶν δικαίων,",
+      "originalText": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι οἰκοδομεῖτε τοὺς τάφους τῶν προφητῶν, καὶ κοσμεῖτε τὰ μνημεῖα τῶν δικαίων, "
+    },
+    {
+      "id": "MAT.23.30",
+      "sourceRef": "MAT.23.30",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=805",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.23.30"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ λέγετε, Εἰ ἦμεν ἐν ταῖς ἡμέραις τῶν πατέρων ἡμῶν, οὐκ ἂν ἦμεν κοινωνοὶ αὐτῶν ἐν τῷ αἵματι τῶν προφητῶν.",
+      "sourceText": "καὶ λέγετε, Εἰ ἦμεν ἐν ταῖς ἡμέραις τῶν πατέρων ἡμῶν, οὐκ ἂν ἦμεν κοινωνοὶ αὐτῶν ἐν τῷ αἵματι τῶν προφητῶν.",
+      "originalText": "καὶ λέγετε, Εἰ ἦμεν ἐν ταῖς ἡμέραις τῶν πατέρων ἡμῶν, οὐκ ἂν ἦμεν κοινωνοὶ αὐτῶν ἐν τῷ αἵματι τῶν προφητῶν. "
+    },
+    {
+      "id": "MAT.23.31",
+      "sourceRef": "MAT.23.31",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=806",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.23.31"
+      ],
+      "mappingType": "exact",
+      "text": "Ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας·",
+      "sourceText": "Ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας·",
+      "originalText": "Ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας· "
+    },
+    {
+      "id": "MAT.23.32",
+      "sourceRef": "MAT.23.32",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=807",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.23.32"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν.",
+      "sourceText": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν.",
+      "originalText": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν. "
+    },
+    {
+      "id": "MAT.23.33",
+      "sourceRef": "MAT.23.33",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=808",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.23.33"
+      ],
+      "mappingType": "exact",
+      "text": "Ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+      "sourceText": "Ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+      "originalText": "Ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης; "
+    },
+    {
+      "id": "MAT.23.34",
+      "sourceRef": "MAT.23.34",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=809",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.23.34"
+      ],
+      "mappingType": "exact",
+      "text": "Διὰ τοῦτο, ἰδού, ἐγὼ ἀποστέλλω πρὸς ὑμᾶς προφήτας καὶ σοφοὺς καὶ γραμματεῖς· καὶ ἐξ αὐτῶν ἀποκτενεῖτε καὶ σταυρώσετε, καὶ ἐξ αὐτῶν μαστιγώσετε ἐν ταῖς συναγωγαῖς ὑμῶν καὶ διώξετε ἀπὸ πόλεως εἰς πόλιν·",
+      "sourceText": "Διὰ τοῦτο, ἰδού, ἐγὼ ἀποστέλλω πρὸς ὑμᾶς προφήτας καὶ σοφοὺς καὶ γραμματεῖς· καὶ ἐξ αὐτῶν ἀποκτενεῖτε καὶ σταυρώσετε, καὶ ἐξ αὐτῶν μαστιγώσετε ἐν ταῖς συναγωγαῖς ὑμῶν καὶ διώξετε ἀπὸ πόλεως εἰς πόλιν·",
+      "originalText": "Διὰ τοῦτο, ἰδού, ἐγὼ ἀποστέλλω πρὸς ὑμᾶς προφήτας καὶ σοφοὺς καὶ γραμματεῖς· καὶ ἐξ αὐτῶν ἀποκτενεῖτε καὶ σταυρώσετε, καὶ ἐξ αὐτῶν μαστιγώσετε ἐν ταῖς συναγωγαῖς ὑμῶν καὶ διώξετε ἀπὸ πόλεως εἰς πόλιν· "
+    },
+    {
+      "id": "MAT.23.35",
+      "sourceRef": "MAT.23.35",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=810",
+      "sourceLabel": "35",
+      "anchors": [
+        "MAT.23.35"
+      ],
+      "mappingType": "exact",
+      "text": "ὅπως ἔλθῃ ἐφ’ ὑμᾶς πᾶν αἷμα δίκαιον ἐκχυνόμενον ἐπὶ τῆς γῆς, ἀπὸ τοῦ αἵματος Ἄβελ τοῦ δικαίου ἕως τοῦ αἵματος Ζαχαρίου υἱοῦ Βαραχίου, ὃν ἐφονεύσατε μεταξὺ τοῦ ναοῦ καὶ τοῦ θυσιαστηρίου.",
+      "sourceText": "ὅπως ἔλθῃ ἐφ’ ὑμᾶς πᾶν αἷμα δίκαιον ἐκχυνόμενον ἐπὶ τῆς γῆς, ἀπὸ τοῦ αἵματος Ἄβελ τοῦ δικαίου ἕως τοῦ αἵματος Ζαχαρίου υἱοῦ Βαραχίου, ὃν ἐφονεύσατε μεταξὺ τοῦ ναοῦ καὶ τοῦ θυσιαστηρίου.",
+      "originalText": "ὅπως ἔλθῃ ἐφ’ ὑμᾶς πᾶν αἷμα δίκαιον ἐκχυνόμενον ἐπὶ τῆς γῆς, ἀπὸ τοῦ αἵματος Ἄβελ τοῦ δικαίου ἕως τοῦ αἵματος Ζαχαρίου υἱοῦ Βαραχίου, ὃν ἐφονεύσατε μεταξὺ τοῦ ναοῦ καὶ τοῦ θυσιαστηρίου. "
+    },
+    {
+      "id": "MAT.23.36",
+      "sourceRef": "MAT.23.36",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=811",
+      "sourceLabel": "36",
+      "anchors": [
+        "MAT.23.36"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀμὴν λέγω ὑμῖν ὅτι ἥξει πάντα ταῦτα ἐπὶ τὴν γενεὰν ταύτην.",
+      "sourceText": "Ἀμὴν λέγω ὑμῖν ὅτι ἥξει πάντα ταῦτα ἐπὶ τὴν γενεὰν ταύτην.",
+      "originalText": "Ἀμὴν λέγω ὑμῖν ὅτι ἥξει πάντα ταῦτα ἐπὶ τὴν γενεὰν ταύτην. \n"
+    },
+    {
+      "id": "MAT.23.37",
+      "sourceRef": "MAT.23.37",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=812",
+      "sourceLabel": "37",
+      "anchors": [
+        "MAT.23.37"
+      ],
+      "mappingType": "exact",
+      "text": "Ἱερουσαλήμ, Ἱερουσαλήμ, ἡ ἀποκτένουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν, ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου, ὃν τρόπον ἐπισυνάγει ὄρνις τὰ νοσσία ἑαυτῆς ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε.",
+      "sourceText": "¶Ἱερουσαλήμ, Ἱερουσαλήμ, ἡ ἀποκτένουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν, ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου, ὃν τρόπον ἐπισυνάγει ὄρνις τὰ νοσσία ἑαυτῆς ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε.",
+      "originalText": "Ἱερουσαλήμ, Ἱερουσαλήμ, ἡ ἀποκτένουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν, ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου, ὃν τρόπον ἐπισυνάγει ὄρνις τὰ νοσσία ἑαυτῆς ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε. "
+    },
+    {
+      "id": "MAT.23.38",
+      "sourceRef": "MAT.23.38",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=813",
+      "sourceLabel": "38",
+      "anchors": [
+        "MAT.23.38"
+      ],
+      "mappingType": "exact",
+      "text": "Ἰδού, ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος.",
+      "sourceText": "Ἰδού, ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος.",
+      "originalText": "Ἰδού, ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος. "
+    },
+    {
+      "id": "MAT.23.39",
+      "sourceRef": "MAT.23.39",
+      "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=814",
+      "sourceLabel": "39",
+      "anchors": [
+        "MAT.23.39"
+      ],
+      "mappingType": "exact",
+      "text": "Λέγω γὰρ ὑμῖν, οὐ μή με ἴδητε ἀπ’ ἄρτι ἕως ἂν εἴπητε, Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου.",
+      "sourceText": "Λέγω γὰρ ὑμῖν, οὐ μή με ἴδητε ἀπ’ ἄρτι ἕως ἂν εἴπητε, Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου.",
+      "originalText": "Λέγω γὰρ ὑμῖν, οὐ μή με ἴδητε ἀπ’ ἄρτι ἕως ἂν εἴπητε, Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου. "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MAT.23.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.1",
+          "sourceRef": "MAT.23.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.2",
+          "sourceRef": "MAT.23.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.3",
+          "sourceRef": "MAT.23.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.4",
+          "sourceRef": "MAT.23.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.5",
+          "sourceRef": "MAT.23.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.6",
+          "sourceRef": "MAT.23.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.7",
+          "sourceRef": "MAT.23.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.8",
+          "sourceRef": "MAT.23.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.9",
+          "sourceRef": "MAT.23.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.10",
+          "sourceRef": "MAT.23.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.11",
+          "sourceRef": "MAT.23.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.12",
+          "sourceRef": "MAT.23.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.13",
+          "sourceRef": "MAT.23.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.14",
+          "sourceRef": "MAT.23.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.15",
+          "sourceRef": "MAT.23.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.16",
+          "sourceRef": "MAT.23.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.17",
+          "sourceRef": "MAT.23.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.18",
+          "sourceRef": "MAT.23.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.19",
+          "sourceRef": "MAT.23.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.20",
+          "sourceRef": "MAT.23.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.21",
+          "sourceRef": "MAT.23.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.22",
+          "sourceRef": "MAT.23.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.23",
+          "sourceRef": "MAT.23.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.24",
+          "sourceRef": "MAT.23.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.25",
+          "sourceRef": "MAT.23.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.26",
+          "sourceRef": "MAT.23.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.27",
+          "sourceRef": "MAT.23.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.28",
+          "sourceRef": "MAT.23.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.29",
+          "sourceRef": "MAT.23.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.30",
+          "sourceRef": "MAT.23.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.31",
+          "sourceRef": "MAT.23.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.32",
+          "sourceRef": "MAT.23.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.33",
+          "sourceRef": "MAT.23.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.34",
+          "sourceRef": "MAT.23.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.35",
+          "sourceRef": "MAT.23.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.36",
+          "sourceRef": "MAT.23.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.37",
+          "sourceRef": "MAT.23.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.38",
+          "sourceRef": "MAT.23.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.39",
+          "sourceRef": "MAT.23.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

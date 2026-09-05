@@ -1,0 +1,41 @@
+# Batch 6 reconciliation — 2026-09-05
+
+## Result and authorization
+
+Four rev-2 returns are locally published: **04 (Matthew 23:13–14), 11 (Mark 16:9–20), 17 (John 7:53–8:11), 27 (1 John 5:7–8)**. Larry Herzog Jr. explicitly replied “Approve all proposed corrections” to the question identifying this batch’s [exact replacements](PROPOSED-CORRECTIONS.md). Candidate 04’s A–C is unchanged; 11/17/27 match the returns plus those replacements exactly. [Approval](CORRECTION-APPROVAL.md), original returns, contribution provenance and exact content hashes are retained. Review dates have date-only precision; no clock time was invented.
+
+**Current queue: 26 approved and locally published, 4 in review (05/13/22/25, batch 4), 0 drafts.** The returned handoff’s total of 30 counts returned-document approvals, not approval of all proposed application corrections. Batch 4 remains withheld. M3 is not complete.
+
+Ordinary Means is the public byline; Larry is author of record. Claude’s initial drafting and Larry’s adoption/permission remain recorded. Optional D/F stays archival. There are no new structured manuscript attestations or public deployments.
+
+## Intake integrity
+
+The original archive is preserved at `../batch-6-original.zip`. Its SHA-256 is `c6566bce6dc7e2260c5eb2e17832f4283d15eacfaea872384baa624227f6e1be`. [receipt.json](receipt.json) records all five member hashes. All four candidate hashes match the handoff, their supplied evidence sections match the original worksheets, and all 253 frozen packet files match their manifest. No source corpus, canonical registry, frozen packet or original return was edited.
+
+## Source reconciliation
+
+- **04:** comparison now includes both Matthew 23:13 and 14, rebuilt through each local adapter. BSB/BLB/N1904 have mixed range coverage (present 13, absent 14); the other four have both verses. MSB/RP place the widow-house charge in source 13 and the shut-kingdom charge in source 14; YLT/Boyd use the reverse order. Exact source text and numbering remain intact. Boyd’s preserved USFX introduction confirms its majority-of-three compilation method and ST = Stephanus 1550; the notes report contrary order. An independent Stephanus print was not inspected. Mark 12:40 and Luke 20:47 were checked in all seven local editions. Approved links now connect 04/12/23 reciprocally; 23 retains its link to 24. Predecessor payloads, contributions and review events for 12/23 are archived under `content/editorial/contributions/history/`; their unchanged prose and updated links have new approved hashes.
+- **11:** all seven include the twelve main-text verses. Nestle encloses the long passage with double square brackets; other editions can still contain supplied-word brackets. Nestle also preserves the shorter ending as separate appended publisher-alternative blocks, visible under “Edition’s separate alternatives.” BSB/MSB report it in publisher notes at verse 8. These are distinct from the selected main text at 9–20; use Read in context to inspect the preceding notes. Exact editorial meaning of Nestle’s markers is not independently established. Wording/Amen differences remain visible, without claiming identical wording. The public account separates Greek codices from versional witnesses and carries an adjacent verification limit.
+- **17:** all seven cover the twelve canonical anchors, with source-specific segmentation: YLT joins some material under 7:53. Nestle encloses the passage in paired angle markers. BSB has four notes (three textual, one rendering); MSB has thirteen (twelve textual, one rendering); Boyd separately has one. The seventeen Berean notes are not seventeen independent variants or a measure of manuscript instability. Greek wording at 8:11 differs (Nestle/Boyd κατακρίνω; RP κρίνω), and MSB has two notes at 8:11. The approved prose describes shared statements without claiming identical or note-free wording. The unsupported no-break/marker/space sentence and blanket Alexandrinus/Ephraemi assertion are withheld.
+- **27:** all whole-verse coverage remains present. The reviewed longer clause is separately absent in BSB/BLB/MSB/N1904/RP, present in Boyd, and enclosed in literal square markers in YLT. Exact excerpts run from part of verse 7 through part of verse 8; neither entire verse is marked absent. Validation now recognizes a continuous, balanced source square-bracket pair as well as angle markers; a missing closing marker is rejected. BSB/MSB publisher notes remain distinct. The doctrine-first ordering is preserved. Approved witness prose removes the absolute earliest-in-any-form claim, Ephraemi and the Ravianus/exemplar assertion; no substitute witness or historical account is added.
+
+## Book and confessional limits
+
+The supplied *Ad Fontes – Volume One*, second edition, was visually checked at printed pp. **133, 166, 199** (PDF pages 147, 180, 213). This verifies attribution, not independent manuscript, apparatus or patristic evidence. Public 11/17/27 accounts explicitly retain that distinction. Permission is candidate-specific, as previously with 26; it is not blanket verification. No restricted Scripture quotations from the PDF were imported.
+
+[CSNTM’s Alexandrinus catalog](https://manuscripts.csntm.org/manuscript/Group/GA_02) lists a John 6-to-8:52 gap in its page sequence; that catalog cannot establish what missing leaves contained. [Its Ephraemi catalog](https://manuscripts.csntm.org/manuscript/Group/GA_04) likewise does not establish the proposed passage readings. No manuscript images or reconstructed missing text were used to replace the withheld assertions. The Ravianus production/exemplar question remains unresolved here; no secondary-source replacement was adopted. Eusebius/Jerome, datings, versional relationships and manuscript independence remain the attributed book account, not independently inspected primary readings.
+
+Article-level confessional summaries were checked against CPH’s [Augsburg Confession I](https://bookofconcord.cph.org/en/augsburg-confession/chief_articles/article_i/), [Athanasian Creed](https://bookofconcord.cph.org/en/ecumenical-creeds/athanasian-creed/), and [Formula of Concord, Epitome V](https://bookofconcord.cph.org/en/formula-of-concord-epitome/v_the_law_and_the_gospel/). These support the cited Trinity and law/gospel distinctions. The specific Kolb–Wengert print edition was not inspected, and no complete confessional text was imported. The supplied handoff’s inventory of revisions outside this archive does not automatically replace earlier live notes.
+
+## Verification
+
+- Offline import reproduced all seven corpus releases and separate Greek analysis. **32 Node test groups, 11 Python fidelity tests, typecheck and production build passed.**
+- New tests verify exact returned-plus-approved prose, contribution hashes, reciprocal trio links, mixed Matthew coverage, continuous 1 John excerpts, and rejection of an unbalanced source bracket claim.
+- Browser checks loaded all four explanations and seven edition cards. Matthew’s two-verse source order and absence states were inspected. Keyboard navigation from Matthew to Luke showed the reciprocal links.
+- Mark’s separate shorter ending opened by keyboard, and C6 focused its citation. John showed the cross-chapter text, YLT’s source segmentation, Nestle markers and the exact publisher-note counts.
+- 1 John showed the two exact longer-clause excerpts with whole-verse context, clause-only absence elsewhere, and visible verification limits. C6 keyboard navigation and Escape worked; Escape restored the reading control. Reopening the direct passage URL preserved the selected note.
+- At 320px, the dialog and all edition cards had no horizontal overflow; the screenshot showed readable stacked controls. Desktop restored to 1280px. These are focused browser checks, not physical-device testing or accessibility certification.
+
+## Next
+
+Resolve the four pending batch-4 proposed corrections and complete their live acceptance checks, then the remaining M3 qualified source/analysis review and broader inline-marker acceptance. **M4 — local personal notes and verified passage-linked Ordinary Means resources (AFNT-022–025)** follows M3 acceptance. This remains a local engineering preview.

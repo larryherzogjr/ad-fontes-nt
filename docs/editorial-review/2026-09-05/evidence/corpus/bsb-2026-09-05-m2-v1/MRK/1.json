@@ -1,0 +1,3627 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/8",
+      "runs": [
+        {
+          "text": "The Mission of John the Baptist",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/9",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Isaiah 40:1–5",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 3:1–17",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 3:1–22",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 1:19–34",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/10",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MRK.1.1",
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        },
+        {
+          "text": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+          "anchor": "MRK.1.1",
+          "marks": [],
+          "originalText": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        },
+        {
+          "noteId": "MRK.1.note.1",
+          "anchor": "MRK.1.1",
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MRK.1.2",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "text": "As it is written in Isaiah the prophet:",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "originalText": "As it is written in Isaiah the prophet:",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "noteId": "MRK.1.note.2",
+          "anchor": "MRK.1.2",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/11",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/12",
+      "runs": [
+        {
+          "text": " “Behold, I will send My messenger ahead of You,",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "originalText": "“Behold, I will send My messenger ahead of You,",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/13",
+      "runs": [
+        {
+          "text": " who will prepare Your way.”",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "originalText": "who will prepare Your way.”",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "noteId": "MRK.1.note.3",
+          "anchor": "MRK.1.2",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/14",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.1.3",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "text": "“A voice of one calling in the wilderness,",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "originalText": "“A voice of one calling in the wilderness,",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/15",
+      "runs": [
+        {
+          "text": " ‘Prepare the way for the Lord,",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "originalText": "‘Prepare the way for the Lord,",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/16",
+      "runs": [
+        {
+          "text": " make straight paths for Him.’”",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "originalText": "make straight paths for Him.’”",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "noteId": "MRK.1.note.4",
+          "anchor": "MRK.1.3",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/17",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.1.4",
+          "anchors": [
+            "MRK.1.4"
+          ],
+          "sourceAnchor": "MRK.1.4"
+        },
+        {
+          "text": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.",
+          "anchor": "MRK.1.4",
+          "marks": [],
+          "originalText": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. ",
+          "anchors": [
+            "MRK.1.4"
+          ],
+          "sourceAnchor": "MRK.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.1.5",
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        },
+        {
+          "text": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+          "anchor": "MRK.1.5",
+          "marks": [],
+          "originalText": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/18",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.1.6",
+          "anchors": [
+            "MRK.1.6"
+          ],
+          "sourceAnchor": "MRK.1.6"
+        },
+        {
+          "text": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.",
+          "anchor": "MRK.1.6",
+          "marks": [],
+          "originalText": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey. ",
+          "anchors": [
+            "MRK.1.6"
+          ],
+          "sourceAnchor": "MRK.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.1.7",
+          "anchors": [
+            "MRK.1.7"
+          ],
+          "sourceAnchor": "MRK.1.7"
+        },
+        {
+          "text": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.",
+          "anchor": "MRK.1.7",
+          "marks": [],
+          "originalText": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie. ",
+          "anchors": [
+            "MRK.1.7"
+          ],
+          "sourceAnchor": "MRK.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.1.8",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "text": "I baptize you with water,",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "originalText": "I baptize you with water,",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "noteId": "MRK.1.note.5",
+          "anchor": "MRK.1.8",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "text": " but He will baptize you with the Holy Spirit.",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "originalText": " but He will baptize you with the Holy Spirit.",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "noteId": "MRK.1.note.6",
+          "anchor": "MRK.1.8",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "text": "”",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "originalText": "”",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/19",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MRK.1.9",
+          "anchors": [
+            "MRK.1.9"
+          ],
+          "sourceAnchor": "MRK.1.9"
+        },
+        {
+          "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+          "anchor": "MRK.1.9",
+          "marks": [],
+          "originalText": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. ",
+          "anchors": [
+            "MRK.1.9"
+          ],
+          "sourceAnchor": "MRK.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.1.10",
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "text": "As soon as Jesus came up out of the water, He saw",
+          "anchor": "MRK.1.10",
+          "marks": [],
+          "originalText": "As soon as Jesus came up out of the water, He saw",
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "noteId": "MRK.1.note.7",
+          "anchor": "MRK.1.10",
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "text": " the heavens breaking open and the Spirit descending on Him like a dove.",
+          "anchor": "MRK.1.10",
+          "marks": [],
+          "originalText": " the heavens breaking open and the Spirit descending on Him like a dove. ",
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.1.11",
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        },
+        {
+          "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+          "anchor": "MRK.1.11",
+          "marks": [],
+          "originalText": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/20",
+      "runs": [
+        {
+          "text": "The Temptation and Preaching of Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/21",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 4:1–17",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 4:1–15",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/22",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MRK.1.12",
+          "anchors": [
+            "MRK.1.12"
+          ],
+          "sourceAnchor": "MRK.1.12"
+        },
+        {
+          "text": "At once the Spirit drove Jesus into the wilderness,",
+          "anchor": "MRK.1.12",
+          "marks": [],
+          "originalText": "At once the Spirit drove Jesus into the wilderness, ",
+          "anchors": [
+            "MRK.1.12"
+          ],
+          "sourceAnchor": "MRK.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.1.13",
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        },
+        {
+          "text": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+          "anchor": "MRK.1.13",
+          "marks": [],
+          "originalText": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/23",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MRK.1.14",
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "text": "After the arrest of John, Jesus went into Galilee and proclaimed the gospel of God.",
+          "anchor": "MRK.1.14",
+          "marks": [],
+          "originalText": "After the arrest of John, Jesus went into Galilee and proclaimed the gospel of God.",
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "noteId": "MRK.1.note.8",
+          "anchor": "MRK.1.14",
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "text": "",
+          "anchor": "MRK.1.14",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.1.15",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "text": "“The time is fulfilled,”",
+          "anchor": "MRK.1.15",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“The time is fulfilled,”",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "text": " He said, ",
+          "anchor": "MRK.1.15",
+          "marks": [],
+          "originalText": " He said, ",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "text": "“and the kingdom of God is near. Repent and believe in the gospel!”",
+          "anchor": "MRK.1.15",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“and the kingdom of God is near. Repent and believe in the gospel!”",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/24",
+      "runs": [
+        {
+          "text": "The First Disciples",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/25",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 4:18–22",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 5:1–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 1:35–42",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/26",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.15",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MRK.1.16",
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "text": "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen.",
+          "anchor": "MRK.1.16",
+          "marks": [],
+          "originalText": "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen. ",
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "text": "",
+          "anchor": "MRK.1.16",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.1.17",
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "text": "“Come, follow Me,”",
+          "anchor": "MRK.1.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Come, follow Me,”",
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "text": " Jesus said, ",
+          "anchor": "MRK.1.17",
+          "marks": [],
+          "originalText": " Jesus said, ",
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "text": "“and I will make you fishers of men.”",
+          "anchor": "MRK.1.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“and I will make you fishers of men.”",
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.1.18",
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        },
+        {
+          "text": "And at once they left their nets and followed Him.",
+          "anchor": "MRK.1.18",
+          "marks": [],
+          "originalText": "And at once they left their nets and followed Him.",
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/27",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.1.19",
+          "anchors": [
+            "MRK.1.19"
+          ],
+          "sourceAnchor": "MRK.1.19"
+        },
+        {
+          "text": "Going on a little farther, He saw James son of Zebedee and his brother John. They were in a boat, mending their nets.",
+          "anchor": "MRK.1.19",
+          "marks": [],
+          "originalText": "Going on a little farther, He saw James son of Zebedee and his brother John. They were in a boat, mending their nets. ",
+          "anchors": [
+            "MRK.1.19"
+          ],
+          "sourceAnchor": "MRK.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.1.20",
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        },
+        {
+          "text": "Immediately Jesus called them, and they left their father Zebedee in the boat with the hired men and followed Him.",
+          "anchor": "MRK.1.20",
+          "marks": [],
+          "originalText": "Immediately Jesus called them, and they left their father Zebedee in the boat with the hired men and followed Him.",
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/28",
+      "runs": [
+        {
+          "text": "Jesus Expels an Unclean Spirit",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/29",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 4:31–37",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/30",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MRK.1.21",
+          "anchors": [
+            "MRK.1.21"
+          ],
+          "sourceAnchor": "MRK.1.21"
+        },
+        {
+          "text": "Then Jesus and His companions went to Capernaum, and right away Jesus entered the synagogue on the Sabbath and began to teach.",
+          "anchor": "MRK.1.21",
+          "marks": [],
+          "originalText": "Then Jesus and His companions went to Capernaum, and right away Jesus entered the synagogue on the Sabbath and began to teach. ",
+          "anchors": [
+            "MRK.1.21"
+          ],
+          "sourceAnchor": "MRK.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MRK.1.22",
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        },
+        {
+          "text": "The people were astonished at His teaching, because He taught as one who had authority, and not as the scribes.",
+          "anchor": "MRK.1.22",
+          "marks": [],
+          "originalText": "The people were astonished at His teaching, because He taught as one who had authority, and not as the scribes.",
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/31",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.22",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MRK.1.23",
+          "anchors": [
+            "MRK.1.23"
+          ],
+          "sourceAnchor": "MRK.1.23"
+        },
+        {
+          "text": "Suddenly a man with an unclean spirit cried out in the synagogue:",
+          "anchor": "MRK.1.23",
+          "marks": [],
+          "originalText": "Suddenly a man with an unclean spirit cried out in the synagogue: ",
+          "anchors": [
+            "MRK.1.23"
+          ],
+          "sourceAnchor": "MRK.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MRK.1.24",
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        },
+        {
+          "text": "“What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!”",
+          "anchor": "MRK.1.24",
+          "marks": [],
+          "originalText": "“What do You  want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are — the Holy One of God!”",
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/32",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.24",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MRK.1.25",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": "But Jesus rebuked the spirit. ",
+          "anchor": "MRK.1.25",
+          "marks": [],
+          "originalText": "But Jesus rebuked the spirit. ",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": "“Be silent!”",
+          "anchor": "MRK.1.25",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Be silent!”",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": " He said. ",
+          "anchor": "MRK.1.25",
+          "marks": [],
+          "originalText": " He said. ",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": "“Come out of him!”",
+          "anchor": "MRK.1.25",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Come out of him!”",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MRK.1.26",
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        },
+        {
+          "text": "At this, the unclean spirit threw the man into convulsions and came out with a loud shriek.",
+          "anchor": "MRK.1.26",
+          "marks": [],
+          "originalText": "At this, the unclean spirit threw the man into convulsions and came out with a loud shriek.",
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/33",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.26",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MRK.1.27",
+          "anchors": [
+            "MRK.1.27"
+          ],
+          "sourceAnchor": "MRK.1.27"
+        },
+        {
+          "text": "All the people were amazed and began to ask one another, “What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!”",
+          "anchor": "MRK.1.27",
+          "marks": [],
+          "originalText": "All the people were amazed and began to ask one another, “What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!” ",
+          "anchors": [
+            "MRK.1.27"
+          ],
+          "sourceAnchor": "MRK.1.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MRK.1.28",
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        },
+        {
+          "text": "And the news about Jesus spread quickly through the whole region of Galilee.",
+          "anchor": "MRK.1.28",
+          "marks": [],
+          "originalText": "And the news about Jesus spread quickly through the whole region of Galilee.",
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/34",
+      "runs": [
+        {
+          "text": "Jesus Heals at Peter’s House",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/35",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 8:14–17",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 4:38–41",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/36",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.28",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MRK.1.29",
+          "anchors": [
+            "MRK.1.29"
+          ],
+          "sourceAnchor": "MRK.1.29"
+        },
+        {
+          "text": "As soon as Jesus and His companions had left the synagogue, they went with James and John to the home of Simon and Andrew.",
+          "anchor": "MRK.1.29",
+          "marks": [],
+          "originalText": "As soon as Jesus and His companions had left the synagogue, they went with James and John to the home of Simon and Andrew. ",
+          "anchors": [
+            "MRK.1.29"
+          ],
+          "sourceAnchor": "MRK.1.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MRK.1.30",
+          "anchors": [
+            "MRK.1.30"
+          ],
+          "sourceAnchor": "MRK.1.30"
+        },
+        {
+          "text": "Simon’s mother-in-law was sick in bed with a fever, and they promptly told Jesus about her.",
+          "anchor": "MRK.1.30",
+          "marks": [],
+          "originalText": "Simon’s mother-in-law was sick in bed with a fever, and they promptly told Jesus about her. ",
+          "anchors": [
+            "MRK.1.30"
+          ],
+          "sourceAnchor": "MRK.1.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MRK.1.31",
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        },
+        {
+          "text": "So He went to her, took her by the hand, and helped her up. The fever left her, and she began to serve them.",
+          "anchor": "MRK.1.31",
+          "marks": [],
+          "originalText": "So He went to her, took her by the hand, and helped her up. The fever left her, and she began to serve them.",
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/37",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.31",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MRK.1.32",
+          "anchors": [
+            "MRK.1.32"
+          ],
+          "sourceAnchor": "MRK.1.32"
+        },
+        {
+          "text": "That evening, after sunset, people brought to Jesus all the sick and demon-possessed,",
+          "anchor": "MRK.1.32",
+          "marks": [],
+          "originalText": "That evening, after sunset, people brought to Jesus all the sick and demon-possessed, ",
+          "anchors": [
+            "MRK.1.32"
+          ],
+          "sourceAnchor": "MRK.1.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MRK.1.33",
+          "anchors": [
+            "MRK.1.33"
+          ],
+          "sourceAnchor": "MRK.1.33"
+        },
+        {
+          "text": "and the whole town gathered at the door.",
+          "anchor": "MRK.1.33",
+          "marks": [],
+          "originalText": "and the whole town gathered at the door. ",
+          "anchors": [
+            "MRK.1.33"
+          ],
+          "sourceAnchor": "MRK.1.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MRK.1.34",
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        },
+        {
+          "text": "And He healed many who were ill with various diseases and drove out many demons. But He would not allow the demons to speak, because they knew who He was.",
+          "anchor": "MRK.1.34",
+          "marks": [],
+          "originalText": "And He healed many who were ill with various diseases and drove out many demons. But He would not allow the demons to speak, because they knew who He was.",
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/38",
+      "runs": [
+        {
+          "text": "Jesus Prays and Preaches",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/39",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 4:42–44",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/40",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.34",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MRK.1.35",
+          "anchors": [
+            "MRK.1.35"
+          ],
+          "sourceAnchor": "MRK.1.35"
+        },
+        {
+          "text": "Early in the morning, while it was still dark, Jesus got up and went out to a solitary place to pray.",
+          "anchor": "MRK.1.35",
+          "marks": [],
+          "originalText": "Early in the morning, while it was still dark, Jesus got up and went out to a solitary place to pray. ",
+          "anchors": [
+            "MRK.1.35"
+          ],
+          "sourceAnchor": "MRK.1.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MRK.1.36",
+          "anchors": [
+            "MRK.1.36"
+          ],
+          "sourceAnchor": "MRK.1.36"
+        },
+        {
+          "text": "Simon and his companions went to look for Him,",
+          "anchor": "MRK.1.36",
+          "marks": [],
+          "originalText": "Simon and his companions went to look for Him, ",
+          "anchors": [
+            "MRK.1.36"
+          ],
+          "sourceAnchor": "MRK.1.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MRK.1.37",
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        },
+        {
+          "text": "and when they found Him, they said, “Everyone is looking for You!”",
+          "anchor": "MRK.1.37",
+          "marks": [],
+          "originalText": "and when they found Him, they said, “Everyone is looking for You!”",
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/41",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.37",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MRK.1.38",
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "text": "But Jesus answered, ",
+          "anchor": "MRK.1.38",
+          "marks": [],
+          "originalText": "But Jesus answered, ",
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "text": "“Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.”",
+          "anchor": "MRK.1.38",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.”",
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MRK.1.39",
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        },
+        {
+          "text": "So He went throughout Galilee, preaching in their synagogues and driving out demons.",
+          "anchor": "MRK.1.39",
+          "marks": [],
+          "originalText": "So He went throughout Galilee, preaching in their synagogues and driving out demons.",
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/42",
+      "runs": [
+        {
+          "text": "The Leper’s Prayer",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/43",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Leviticus 14:1–32",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 8:1–4",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 5:12–16",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/44",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.39",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "MRK.1.40",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "text": "Then a leper",
+          "anchor": "MRK.1.40",
+          "marks": [],
+          "originalText": "Then a leper",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "noteId": "MRK.1.note.9",
+          "anchor": "MRK.1.40",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "text": " came to Jesus, begging on his knees: “If You are willing, You can make me clean.”",
+          "anchor": "MRK.1.40",
+          "marks": [],
+          "originalText": " came to Jesus, begging on his knees: “If You are willing, You can make me clean.”",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/45",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.40",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "MRK.1.41",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": "Moved with compassion,",
+          "anchor": "MRK.1.41",
+          "marks": [],
+          "originalText": "Moved with compassion,",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "noteId": "MRK.1.note.10",
+          "anchor": "MRK.1.41",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": " Jesus reached out His hand and touched the man. ",
+          "anchor": "MRK.1.41",
+          "marks": [],
+          "originalText": " Jesus reached out His hand and touched the man. ",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": "“I am willing,”",
+          "anchor": "MRK.1.41",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I am willing,”",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": " He said. ",
+          "anchor": "MRK.1.41",
+          "marks": [],
+          "originalText": " He said. ",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": "“Be clean!”",
+          "anchor": "MRK.1.41",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Be clean!”",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "MRK.1.42",
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        },
+        {
+          "text": "And immediately the leprosy left him, and the man was cleansed.",
+          "anchor": "MRK.1.42",
+          "marks": [],
+          "originalText": "And immediately the leprosy left him, and the man was cleansed.",
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/46",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.42",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "MRK.1.43",
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "text": "Jesus promptly sent him away with a stern warning:",
+          "anchor": "MRK.1.43",
+          "marks": [],
+          "originalText": "Jesus promptly sent him away with a stern warning: ",
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "text": "",
+          "anchor": "MRK.1.43",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "MRK.1.44",
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "text": "“See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
+          "anchor": "MRK.1.44",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "noteId": "MRK.1.note.11",
+          "anchor": "MRK.1.44",
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/47",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.1.44",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "MRK.1.45",
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        },
+        {
+          "text": "But the man went out and openly began to proclaim and spread the news.",
+          "anchor": "MRK.1.45",
+          "marks": [],
+          "originalText": "But the man went out and openly began to proclaim and spread the news.",
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/48",
+      "runs": [
+        {
+          "text": " Consequently, Jesus could no longer enter a town in plain view, but He stayed out in solitary places. Yet people came to Him from every quarter.",
+          "anchor": "MRK.1.45",
+          "marks": [],
+          "originalText": "Consequently, Jesus could no longer enter a town in plain view, but He stayed out in solitary places. Yet people came to Him from every quarter.",
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.1.1",
+      "sourceId": "bsb_usj/MRK.usj#content/10/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+      "originalStructuredText": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+      "sourceRef": "MRK.1.1"
+    },
+    {
+      "id": "MRK.1.2",
+      "sourceId": "bsb_usj/MRK.usj#content/10/content/4",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”",
+      "originalStructuredText": "As it is written in Isaiah the prophet:\n\n“Behold, I will send My messenger ahead of You,\nwho will prepare Your way.”\n ",
+      "sourceRef": "MRK.1.2"
+    },
+    {
+      "id": "MRK.1.3",
+      "sourceId": "bsb_usj/MRK.usj#content/14/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”",
+      "originalStructuredText": "“A voice of one calling in the wilderness,\n‘Prepare the way for the Lord,\nmake straight paths for Him.’”\n ",
+      "sourceRef": "MRK.1.3"
+    },
+    {
+      "id": "MRK.1.4",
+      "sourceId": "bsb_usj/MRK.usj#content/17/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.",
+      "originalStructuredText": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. ",
+      "sourceRef": "MRK.1.4"
+    },
+    {
+      "id": "MRK.1.5",
+      "sourceId": "bsb_usj/MRK.usj#content/17/content/3",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+      "originalStructuredText": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.\n ",
+      "sourceRef": "MRK.1.5"
+    },
+    {
+      "id": "MRK.1.6",
+      "sourceId": "bsb_usj/MRK.usj#content/18/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.",
+      "originalStructuredText": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey. ",
+      "sourceRef": "MRK.1.6"
+    },
+    {
+      "id": "MRK.1.7",
+      "sourceId": "bsb_usj/MRK.usj#content/18/content/3",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.",
+      "originalStructuredText": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie. ",
+      "sourceRef": "MRK.1.7"
+    },
+    {
+      "id": "MRK.1.8",
+      "sourceId": "bsb_usj/MRK.usj#content/18/content/5",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "I baptize you with water, but He will baptize you with the Holy Spirit.”",
+      "originalStructuredText": "I baptize you with water, but He will baptize you with the Holy Spirit.”\n ",
+      "sourceRef": "MRK.1.8"
+    },
+    {
+      "id": "MRK.1.9",
+      "sourceId": "bsb_usj/MRK.usj#content/19/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+      "originalStructuredText": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. ",
+      "sourceRef": "MRK.1.9"
+    },
+    {
+      "id": "MRK.1.10",
+      "sourceId": "bsb_usj/MRK.usj#content/19/content/3",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove.",
+      "originalStructuredText": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove. ",
+      "sourceRef": "MRK.1.10"
+    },
+    {
+      "id": "MRK.1.11",
+      "sourceId": "bsb_usj/MRK.usj#content/19/content/7",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+      "originalStructuredText": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”\n ",
+      "sourceRef": "MRK.1.11"
+    },
+    {
+      "id": "MRK.1.12",
+      "sourceId": "bsb_usj/MRK.usj#content/22/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "At once the Spirit drove Jesus into the wilderness,",
+      "originalStructuredText": "At once the Spirit drove Jesus into the wilderness, ",
+      "sourceRef": "MRK.1.12"
+    },
+    {
+      "id": "MRK.1.13",
+      "sourceId": "bsb_usj/MRK.usj#content/22/content/3",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+      "originalStructuredText": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.\n ",
+      "sourceRef": "MRK.1.13"
+    },
+    {
+      "id": "MRK.1.14",
+      "sourceId": "bsb_usj/MRK.usj#content/23/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "After the arrest of John, Jesus went into Galilee and proclaimed the gospel of God.",
+      "originalStructuredText": "After the arrest of John, Jesus went into Galilee and proclaimed the gospel of God. ",
+      "sourceRef": "MRK.1.14"
+    },
+    {
+      "id": "MRK.1.15",
+      "sourceId": "bsb_usj/MRK.usj#content/23/content/4/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "“The time is fulfilled,” He said, “and the kingdom of God is near. Repent and believe in the gospel!”",
+      "originalStructuredText": "“The time is fulfilled,” He said, “and the kingdom of God is near. Repent and believe in the gospel!”\n ",
+      "sourceRef": "MRK.1.15"
+    },
+    {
+      "id": "MRK.1.16",
+      "sourceId": "bsb_usj/MRK.usj#content/26/content/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen.",
+      "originalStructuredText": "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen.  ",
+      "sourceRef": "MRK.1.16"
+    },
+    {
+      "id": "MRK.1.17",
+      "sourceId": "bsb_usj/MRK.usj#content/26/content/3/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "“Come, follow Me,” Jesus said, “and I will make you fishers of men.”",
+      "originalStructuredText": "“Come, follow Me,” Jesus said, “and I will make you fishers of men.”",
+      "sourceRef": "MRK.1.17"
+    },
+    {
+      "id": "MRK.1.18",
+      "sourceId": "bsb_usj/MRK.usj#content/26/content/6",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "And at once they left their nets and followed Him.",
+      "originalStructuredText": "And at once they left their nets and followed Him.\n ",
+      "sourceRef": "MRK.1.18"
+    },
+    {
+      "id": "MRK.1.19",
+      "sourceId": "bsb_usj/MRK.usj#content/27/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "Going on a little farther, He saw James son of Zebedee and his brother John. They were in a boat, mending their nets.",
+      "originalStructuredText": "Going on a little farther, He saw James son of Zebedee and his brother John. They were in a boat, mending their nets. ",
+      "sourceRef": "MRK.1.19"
+    },
+    {
+      "id": "MRK.1.20",
+      "sourceId": "bsb_usj/MRK.usj#content/27/content/3",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "Immediately Jesus called them, and they left their father Zebedee in the boat with the hired men and followed Him.",
+      "originalStructuredText": "Immediately Jesus called them, and they left their father Zebedee in the boat with the hired men and followed Him.\n ",
+      "sourceRef": "MRK.1.20"
+    },
+    {
+      "id": "MRK.1.21",
+      "sourceId": "bsb_usj/MRK.usj#content/30/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "MRK.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus and His companions went to Capernaum, and right away Jesus entered the synagogue on the Sabbath and began to teach.",
+      "originalStructuredText": "Then Jesus and His companions went to Capernaum, and right away Jesus entered the synagogue on the Sabbath and began to teach. ",
+      "sourceRef": "MRK.1.21"
+    },
+    {
+      "id": "MRK.1.22",
+      "sourceId": "bsb_usj/MRK.usj#content/30/content/3",
+      "sourceLabel": "22",
+      "anchors": [
+        "MRK.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "The people were astonished at His teaching, because He taught as one who had authority, and not as the scribes.",
+      "originalStructuredText": "The people were astonished at His teaching, because He taught as one who had authority, and not as the scribes.\n ",
+      "sourceRef": "MRK.1.22"
+    },
+    {
+      "id": "MRK.1.23",
+      "sourceId": "bsb_usj/MRK.usj#content/31/content/1",
+      "sourceLabel": "23",
+      "anchors": [
+        "MRK.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "Suddenly a man with an unclean spirit cried out in the synagogue:",
+      "originalStructuredText": "Suddenly a man with an unclean spirit cried out in the synagogue: ",
+      "sourceRef": "MRK.1.23"
+    },
+    {
+      "id": "MRK.1.24",
+      "sourceId": "bsb_usj/MRK.usj#content/31/content/3",
+      "sourceLabel": "24",
+      "anchors": [
+        "MRK.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "“What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!”",
+      "originalStructuredText": "“What do You  want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are — the Holy One of God!”\n ",
+      "sourceRef": "MRK.1.24"
+    },
+    {
+      "id": "MRK.1.25",
+      "sourceId": "bsb_usj/MRK.usj#content/32/content/1",
+      "sourceLabel": "25",
+      "anchors": [
+        "MRK.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus rebuked the spirit. “Be silent!” He said. “Come out of him!”",
+      "originalStructuredText": "But Jesus rebuked the spirit. “Be silent!” He said. “Come out of him!”",
+      "sourceRef": "MRK.1.25"
+    },
+    {
+      "id": "MRK.1.26",
+      "sourceId": "bsb_usj/MRK.usj#content/32/content/6",
+      "sourceLabel": "26",
+      "anchors": [
+        "MRK.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "At this, the unclean spirit threw the man into convulsions and came out with a loud shriek.",
+      "originalStructuredText": "At this, the unclean spirit threw the man into convulsions and came out with a loud shriek.\n ",
+      "sourceRef": "MRK.1.26"
+    },
+    {
+      "id": "MRK.1.27",
+      "sourceId": "bsb_usj/MRK.usj#content/33/content/1",
+      "sourceLabel": "27",
+      "anchors": [
+        "MRK.1.27"
+      ],
+      "mappingType": "exact",
+      "text": "All the people were amazed and began to ask one another, “What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!”",
+      "originalStructuredText": "All the people were amazed and began to ask one another, “What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!” ",
+      "sourceRef": "MRK.1.27"
+    },
+    {
+      "id": "MRK.1.28",
+      "sourceId": "bsb_usj/MRK.usj#content/33/content/3",
+      "sourceLabel": "28",
+      "anchors": [
+        "MRK.1.28"
+      ],
+      "mappingType": "exact",
+      "text": "And the news about Jesus spread quickly through the whole region of Galilee.",
+      "originalStructuredText": "And the news about Jesus spread quickly through the whole region of Galilee.\n ",
+      "sourceRef": "MRK.1.28"
+    },
+    {
+      "id": "MRK.1.29",
+      "sourceId": "bsb_usj/MRK.usj#content/36/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "MRK.1.29"
+      ],
+      "mappingType": "exact",
+      "text": "As soon as Jesus and His companions had left the synagogue, they went with James and John to the home of Simon and Andrew.",
+      "originalStructuredText": "As soon as Jesus and His companions had left the synagogue, they went with James and John to the home of Simon and Andrew. ",
+      "sourceRef": "MRK.1.29"
+    },
+    {
+      "id": "MRK.1.30",
+      "sourceId": "bsb_usj/MRK.usj#content/36/content/3",
+      "sourceLabel": "30",
+      "anchors": [
+        "MRK.1.30"
+      ],
+      "mappingType": "exact",
+      "text": "Simon’s mother-in-law was sick in bed with a fever, and they promptly told Jesus about her.",
+      "originalStructuredText": "Simon’s mother-in-law was sick in bed with a fever, and they promptly told Jesus about her. ",
+      "sourceRef": "MRK.1.30"
+    },
+    {
+      "id": "MRK.1.31",
+      "sourceId": "bsb_usj/MRK.usj#content/36/content/5",
+      "sourceLabel": "31",
+      "anchors": [
+        "MRK.1.31"
+      ],
+      "mappingType": "exact",
+      "text": "So He went to her, took her by the hand, and helped her up. The fever left her, and she began to serve them.",
+      "originalStructuredText": "So He went to her, took her by the hand, and helped her up. The fever left her, and she began to serve them.\n ",
+      "sourceRef": "MRK.1.31"
+    },
+    {
+      "id": "MRK.1.32",
+      "sourceId": "bsb_usj/MRK.usj#content/37/content/1",
+      "sourceLabel": "32",
+      "anchors": [
+        "MRK.1.32"
+      ],
+      "mappingType": "exact",
+      "text": "That evening, after sunset, people brought to Jesus all the sick and demon-possessed,",
+      "originalStructuredText": "That evening, after sunset, people brought to Jesus all the sick and demon-possessed, ",
+      "sourceRef": "MRK.1.32"
+    },
+    {
+      "id": "MRK.1.33",
+      "sourceId": "bsb_usj/MRK.usj#content/37/content/3",
+      "sourceLabel": "33",
+      "anchors": [
+        "MRK.1.33"
+      ],
+      "mappingType": "exact",
+      "text": "and the whole town gathered at the door.",
+      "originalStructuredText": "and the whole town gathered at the door. ",
+      "sourceRef": "MRK.1.33"
+    },
+    {
+      "id": "MRK.1.34",
+      "sourceId": "bsb_usj/MRK.usj#content/37/content/5",
+      "sourceLabel": "34",
+      "anchors": [
+        "MRK.1.34"
+      ],
+      "mappingType": "exact",
+      "text": "And He healed many who were ill with various diseases and drove out many demons. But He would not allow the demons to speak, because they knew who He was.",
+      "originalStructuredText": "And He healed many who were ill with various diseases and drove out many demons. But He would not allow the demons to speak, because they knew who He was.\n ",
+      "sourceRef": "MRK.1.34"
+    },
+    {
+      "id": "MRK.1.35",
+      "sourceId": "bsb_usj/MRK.usj#content/40/content/1",
+      "sourceLabel": "35",
+      "anchors": [
+        "MRK.1.35"
+      ],
+      "mappingType": "exact",
+      "text": "Early in the morning, while it was still dark, Jesus got up and went out to a solitary place to pray.",
+      "originalStructuredText": "Early in the morning, while it was still dark, Jesus got up and went out to a solitary place to pray. ",
+      "sourceRef": "MRK.1.35"
+    },
+    {
+      "id": "MRK.1.36",
+      "sourceId": "bsb_usj/MRK.usj#content/40/content/3",
+      "sourceLabel": "36",
+      "anchors": [
+        "MRK.1.36"
+      ],
+      "mappingType": "exact",
+      "text": "Simon and his companions went to look for Him,",
+      "originalStructuredText": "Simon and his companions went to look for Him, ",
+      "sourceRef": "MRK.1.36"
+    },
+    {
+      "id": "MRK.1.37",
+      "sourceId": "bsb_usj/MRK.usj#content/40/content/5",
+      "sourceLabel": "37",
+      "anchors": [
+        "MRK.1.37"
+      ],
+      "mappingType": "exact",
+      "text": "and when they found Him, they said, “Everyone is looking for You!”",
+      "originalStructuredText": "and when they found Him, they said, “Everyone is looking for You!”\n ",
+      "sourceRef": "MRK.1.37"
+    },
+    {
+      "id": "MRK.1.38",
+      "sourceId": "bsb_usj/MRK.usj#content/41/content/1",
+      "sourceLabel": "38",
+      "anchors": [
+        "MRK.1.38"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus answered, “Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.”",
+      "originalStructuredText": "But Jesus answered, “Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.”",
+      "sourceRef": "MRK.1.38"
+    },
+    {
+      "id": "MRK.1.39",
+      "sourceId": "bsb_usj/MRK.usj#content/41/content/4",
+      "sourceLabel": "39",
+      "anchors": [
+        "MRK.1.39"
+      ],
+      "mappingType": "exact",
+      "text": "So He went throughout Galilee, preaching in their synagogues and driving out demons.",
+      "originalStructuredText": "So He went throughout Galilee, preaching in their synagogues and driving out demons.\n ",
+      "sourceRef": "MRK.1.39"
+    },
+    {
+      "id": "MRK.1.40",
+      "sourceId": "bsb_usj/MRK.usj#content/44/content/1",
+      "sourceLabel": "40",
+      "anchors": [
+        "MRK.1.40"
+      ],
+      "mappingType": "exact",
+      "text": "Then a leper came to Jesus, begging on his knees: “If You are willing, You can make me clean.”",
+      "originalStructuredText": "Then a leper came to Jesus, begging on his knees: “If You are willing, You can make me clean.”\n ",
+      "sourceRef": "MRK.1.40"
+    },
+    {
+      "id": "MRK.1.41",
+      "sourceId": "bsb_usj/MRK.usj#content/45/content/1",
+      "sourceLabel": "41",
+      "anchors": [
+        "MRK.1.41"
+      ],
+      "mappingType": "exact",
+      "text": "Moved with compassion, Jesus reached out His hand and touched the man. “I am willing,” He said. “Be clean!”",
+      "originalStructuredText": "Moved with compassion, Jesus reached out His hand and touched the man. “I am willing,” He said. “Be clean!”",
+      "sourceRef": "MRK.1.41"
+    },
+    {
+      "id": "MRK.1.42",
+      "sourceId": "bsb_usj/MRK.usj#content/45/content/8",
+      "sourceLabel": "42",
+      "anchors": [
+        "MRK.1.42"
+      ],
+      "mappingType": "exact",
+      "text": "And immediately the leprosy left him, and the man was cleansed.",
+      "originalStructuredText": "And immediately the leprosy left him, and the man was cleansed.\n ",
+      "sourceRef": "MRK.1.42"
+    },
+    {
+      "id": "MRK.1.43",
+      "sourceId": "bsb_usj/MRK.usj#content/46/content/1",
+      "sourceLabel": "43",
+      "anchors": [
+        "MRK.1.43"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus promptly sent him away with a stern warning:",
+      "originalStructuredText": "Jesus promptly sent him away with a stern warning:  ",
+      "sourceRef": "MRK.1.43"
+    },
+    {
+      "id": "MRK.1.44",
+      "sourceId": "bsb_usj/MRK.usj#content/46/content/3/content/1",
+      "sourceLabel": "44",
+      "anchors": [
+        "MRK.1.44"
+      ],
+      "mappingType": "exact",
+      "text": "“See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
+      "originalStructuredText": "“See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”\n ",
+      "sourceRef": "MRK.1.44"
+    },
+    {
+      "id": "MRK.1.45",
+      "sourceId": "bsb_usj/MRK.usj#content/47/content/1",
+      "sourceLabel": "45",
+      "anchors": [
+        "MRK.1.45"
+      ],
+      "mappingType": "exact",
+      "text": "But the man went out and openly began to proclaim and spread the news. Consequently, Jesus could no longer enter a town in plain view, but He stayed out in solitary places. Yet people came to Him from every quarter.",
+      "originalStructuredText": "But the man went out and openly began to proclaim and spread the news.\nConsequently, Jesus could no longer enter a town in plain view, but He stayed out in solitary places. Yet people came to Him from every quarter.",
+      "sourceRef": "MRK.1.45"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MRK.1.note.1",
+      "anchor": "MRK.1.1",
+      "sourceId": "bsb_usj/MRK.usj#content/10/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:1 ECM, NE, BYZ, and TR; SBL and WH the beginning of the gospel of Jesus Christ.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ECM, NE, BYZ, and TR; SBL and WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the beginning of the gospel of Jesus Christ."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.2",
+      "anchor": "MRK.1.2",
+      "sourceId": "bsb_usj/MRK.usj#content/10/content/6",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:2 BYZ and TR in the prophets:",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in the prophets:"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.3",
+      "anchor": "MRK.1.2",
+      "sourceId": "bsb_usj/MRK.usj#content/13/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:2 Malachi 3:1",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "MAL 3:1",
+                "content": [
+                  "Malachi 3:1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.4",
+      "anchor": "MRK.1.3",
+      "sourceId": "bsb_usj/MRK.usj#content/16/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:3 Isaiah 40:3 (see also LXX)",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:3 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "ISA 40:3",
+                "content": [
+                  "Isaiah 40:3"
+                ]
+              },
+              " (see also LXX)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.5",
+      "anchor": "MRK.1.8",
+      "sourceId": "bsb_usj/MRK.usj#content/18/content/7",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:8 Or in water",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in water"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.6",
+      "anchor": "MRK.1.8",
+      "sourceId": "bsb_usj/MRK.usj#content/18/content/9",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:8 Or in the Holy Spirit",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in the Holy Spirit"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.7",
+      "anchor": "MRK.1.10",
+      "sourceId": "bsb_usj/MRK.usj#content/19/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:10 Or he saw; see John 1:32–33",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "he saw"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "JHN 1:32-33",
+                "content": [
+                  "John 1:32–33"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.8",
+      "anchor": "MRK.1.14",
+      "sourceId": "bsb_usj/MRK.usj#content/23/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:14 BYZ and TR the gospel of the kingdom of God ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the gospel of the kingdom of God "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.9",
+      "anchor": "MRK.1.40",
+      "sourceId": "bsb_usj/MRK.usj#content/44/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:40 A leper was one afflicted with a skin disease. See Leviticus 13.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:40 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "A "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "leper "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "was one afflicted with a skin disease. See Leviticus 13."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.10",
+      "anchor": "MRK.1.41",
+      "sourceId": "bsb_usj/MRK.usj#content/45/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:41 SBL Moved with indignation",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:41 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "SBL "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Moved with indignation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.1.note.11",
+      "anchor": "MRK.1.44",
+      "sourceId": "bsb_usj/MRK.usj#content/46/content/3/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:44 See Leviticus 14:1–32.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:44 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "LEV 14:1-32",
+                "content": [
+                  "Leviticus 14:1–32"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MRK.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.1"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.1",
+          "sourceRef": "MRK.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.2",
+        "MRK.1.note.3"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.2",
+          "sourceRef": "MRK.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.4"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.3",
+          "sourceRef": "MRK.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.4",
+          "sourceRef": "MRK.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.5",
+          "sourceRef": "MRK.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.6",
+          "sourceRef": "MRK.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.7",
+          "sourceRef": "MRK.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.5",
+        "MRK.1.note.6"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.8",
+          "sourceRef": "MRK.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.9",
+          "sourceRef": "MRK.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.7"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.10",
+          "sourceRef": "MRK.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.11",
+          "sourceRef": "MRK.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.12",
+          "sourceRef": "MRK.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.13",
+          "sourceRef": "MRK.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.8"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.14",
+          "sourceRef": "MRK.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.15",
+          "sourceRef": "MRK.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.16",
+          "sourceRef": "MRK.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.17",
+          "sourceRef": "MRK.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.18",
+          "sourceRef": "MRK.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.19",
+          "sourceRef": "MRK.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.20",
+          "sourceRef": "MRK.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.21",
+          "sourceRef": "MRK.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.22",
+          "sourceRef": "MRK.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.23",
+          "sourceRef": "MRK.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.24",
+          "sourceRef": "MRK.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.25",
+          "sourceRef": "MRK.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.26",
+          "sourceRef": "MRK.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.27",
+          "sourceRef": "MRK.1.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.28",
+          "sourceRef": "MRK.1.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.29",
+          "sourceRef": "MRK.1.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.30",
+          "sourceRef": "MRK.1.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.31",
+          "sourceRef": "MRK.1.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.32",
+          "sourceRef": "MRK.1.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.33",
+          "sourceRef": "MRK.1.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.34",
+          "sourceRef": "MRK.1.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.35",
+          "sourceRef": "MRK.1.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.36",
+          "sourceRef": "MRK.1.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.37",
+          "sourceRef": "MRK.1.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.38",
+          "sourceRef": "MRK.1.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.39",
+          "sourceRef": "MRK.1.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.9"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.40",
+          "sourceRef": "MRK.1.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.10"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.41",
+          "sourceRef": "MRK.1.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.42",
+          "sourceRef": "MRK.1.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.43",
+          "sourceRef": "MRK.1.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.1.note.11"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.44",
+          "sourceRef": "MRK.1.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.45",
+          "sourceRef": "MRK.1.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

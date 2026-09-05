@@ -1,0 +1,41 @@
+{
+  "unitId": "candidate-23",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-2/candidate-23-RETURNED-2026-09-05.md",
+  "returnedSha256": "dead7cc8a73b3b87a36350946f4de5169536a98e118a77e6a059883cb62427c9",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C and corresponding source references. D and manuscript/early-witness discussion not imported.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": {
+    "decision": "approved",
+    "reviewer": "Larry Herzog Jr.",
+    "date": "2026-09-05",
+    "response": "Approve all proposed corrections",
+    "proposal": "docs/editorial-review/returns/2026-09-05/batch-2/PROPOSED-CORRECTIONS.md",
+    "replacements": [
+      [
+        "The two are close but not identical: the second adds \"all\" and an Amen [C2].",
+        "The two are close but not identical: verse 24 adds \"all.\" In Robinson–Pierpont it also adds an Amen; Boyd's text already has an Amen at verse 20 [C2]."
+      ],
+      [
+        "What differs is whether Paul closed the letter by giving it a second time.",
+        "What differs is whether the closing section of the letter gives it a second time."
+      ],
+      [
+        "This is the one place in this collection where the modern critical editions do not agree with each other, and that is more instructive than the verse itself.",
+        "The publishers report a disagreement among modern critical editions here, and that is more instructive than the verse itself."
+      ]
+    ]
+  },
+  "approvedContentHash": "acc65a2b251ccfa9d41a90685a60d383aec8ecebf12befc407ecaf120077eb90",
+  "integrationVerification": "docs/editorial-review/returns/2026-09-05/batch-2/RECONCILIATION.md",
+  "relatedLinksApproval": "Batch-3 handoff explicitly approves reciprocal 12/23 and 23/24 links. Existing approved prose unchanged.",
+  "batch6LinkApproval": "Batch-6 handoff and candidate-04 explicitly approve reciprocal links among 04/12/23. Prior prose and source metadata unchanged; predecessor payload, contribution and reviews archived."
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "slot": "Critical/Eclectic English — Berean Standard Bible",
+    "editionId": "BSB",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "bsb/m2-manifest.json",
+    "releaseId": "bsb-2026-09-05-m2-v1"
+  },
+  {
+    "slot": "Critical/Eclectic English — Berean Literal Bible — publisher draft",
+    "editionId": "BLB",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "blb/m2-manifest.json",
+    "releaseId": "blb-2026-09-05-m2-v1"
+  },
+  {
+    "slot": "Byzantine Majority English — Majority Standard Bible",
+    "editionId": "MSB",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "msb/m2-manifest.json",
+    "releaseId": "msb-2026-09-05-m2-v2"
+  },
+  {
+    "slot": "Textus Receptus English — Young’s Literal Translation (1898)",
+    "editionId": "YLT",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "ylt/m2-manifest.json",
+    "releaseId": "ylt-2026-09-05-m2-v1"
+  },
+  {
+    "slot": "Critical/Eclectic Greek — Nestle 1904 — historical critical Greek",
+    "editionId": "N1904",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "nestle1904/m2-manifest.json",
+    "releaseId": "n1904-2026-09-05-m2-v1"
+  },
+  {
+    "slot": "Byzantine Majority Greek — Robinson–Pierpont 2018",
+    "editionId": "RP2018",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "rp2018/m2-manifest.json",
+    "releaseId": "rp2018-2026-09-05-m2-v1"
+  },
+  {
+    "slot": "Textus Receptus Greek — Textus Receptus — Boyd compilation (2022)",
+    "editionId": "TR-BOYD",
+    "status": "verified-local-M2; public textual review pending",
+    "manifest": "boyd/m2-manifest.json",
+    "releaseId": "tr-boyd-2026-09-05-m2-v1"
+  }
+]

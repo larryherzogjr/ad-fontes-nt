@@ -1,0 +1,3588 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/JHN.usj#content/213",
+      "runs": [
+        {
+          "text": "Jesus Teaches at the Feast",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/214",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "JHN.7.1",
+          "anchors": [
+            "JHN.7.1"
+          ],
+          "sourceAnchor": "JHN.7.1"
+        },
+        {
+          "text": "After this, Jesus traveled throughout Galilee. He did not want to travel in Judea, because the Jews there were trying to kill Him.",
+          "anchor": "JHN.7.1",
+          "marks": [],
+          "originalText": "After this, Jesus traveled throughout Galilee. He did not want to travel in Judea, because the Jews there were trying to kill Him. ",
+          "anchors": [
+            "JHN.7.1"
+          ],
+          "sourceAnchor": "JHN.7.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "JHN.7.2",
+          "anchors": [
+            "JHN.7.2"
+          ],
+          "sourceAnchor": "JHN.7.2"
+        },
+        {
+          "text": "However, the Jewish Feast of Tabernacles",
+          "anchor": "JHN.7.2",
+          "marks": [],
+          "originalText": "However, the Jewish Feast of Tabernacles",
+          "anchors": [
+            "JHN.7.2"
+          ],
+          "sourceAnchor": "JHN.7.2"
+        },
+        {
+          "noteId": "JHN.7.note.39",
+          "anchor": "JHN.7.2",
+          "anchors": [
+            "JHN.7.2"
+          ],
+          "sourceAnchor": "JHN.7.2"
+        },
+        {
+          "text": " was near.",
+          "anchor": "JHN.7.2",
+          "marks": [],
+          "originalText": " was near. ",
+          "anchors": [
+            "JHN.7.2"
+          ],
+          "sourceAnchor": "JHN.7.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "JHN.7.3",
+          "anchors": [
+            "JHN.7.3"
+          ],
+          "sourceAnchor": "JHN.7.3"
+        },
+        {
+          "text": "So Jesus’ brothers said to Him, “Leave here and go to Judea, so that Your disciples there may see the works You are doing.",
+          "anchor": "JHN.7.3",
+          "marks": [],
+          "originalText": "So Jesus’ brothers said to Him, “Leave here and go to Judea, so that Your disciples there may see the works You are doing. ",
+          "anchors": [
+            "JHN.7.3"
+          ],
+          "sourceAnchor": "JHN.7.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "JHN.7.4",
+          "anchors": [
+            "JHN.7.4"
+          ],
+          "sourceAnchor": "JHN.7.4"
+        },
+        {
+          "text": "For no one who wants to be known publicly acts in secret. Since You are doing these things, show Yourself to the world.”",
+          "anchor": "JHN.7.4",
+          "marks": [],
+          "originalText": "For no one who wants to be known publicly acts in secret. Since You are doing these things, show Yourself to the world.” ",
+          "anchors": [
+            "JHN.7.4"
+          ],
+          "sourceAnchor": "JHN.7.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "JHN.7.5",
+          "anchors": [
+            "JHN.7.5"
+          ],
+          "sourceAnchor": "JHN.7.5"
+        },
+        {
+          "text": "For even His own brothers did not believe in Him.",
+          "anchor": "JHN.7.5",
+          "marks": [],
+          "originalText": "For even His own brothers did not believe in Him.",
+          "anchors": [
+            "JHN.7.5"
+          ],
+          "sourceAnchor": "JHN.7.5"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/215",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.5"
+          ],
+          "sourceAnchor": "JHN.7.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "JHN.7.6",
+          "anchors": [
+            "JHN.7.6"
+          ],
+          "sourceAnchor": "JHN.7.6"
+        },
+        {
+          "text": "Therefore Jesus told them, ",
+          "anchor": "JHN.7.6",
+          "marks": [],
+          "originalText": "Therefore Jesus told them, ",
+          "anchors": [
+            "JHN.7.6"
+          ],
+          "sourceAnchor": "JHN.7.6"
+        },
+        {
+          "text": "“Although your time is always at hand, My time has not yet come.",
+          "anchor": "JHN.7.6",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Although your time is always at hand, My time has not yet come. ",
+          "anchors": [
+            "JHN.7.6"
+          ],
+          "sourceAnchor": "JHN.7.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "JHN.7.7",
+          "anchors": [
+            "JHN.7.7"
+          ],
+          "sourceAnchor": "JHN.7.7"
+        },
+        {
+          "text": "The world cannot hate you, but it hates Me, because I testify that its works are evil.",
+          "anchor": "JHN.7.7",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "The world cannot hate you, but it hates Me, because I testify that its works are evil. ",
+          "anchors": [
+            "JHN.7.7"
+          ],
+          "sourceAnchor": "JHN.7.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "JHN.7.8",
+          "anchors": [
+            "JHN.7.8"
+          ],
+          "sourceAnchor": "JHN.7.8"
+        },
+        {
+          "text": "Go up to the feast on your own. I am not",
+          "anchor": "JHN.7.8",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Go up to the feast on your own. I am not",
+          "anchors": [
+            "JHN.7.8"
+          ],
+          "sourceAnchor": "JHN.7.8"
+        },
+        {
+          "noteId": "JHN.7.note.40",
+          "anchor": "JHN.7.8",
+          "anchors": [
+            "JHN.7.8"
+          ],
+          "sourceAnchor": "JHN.7.8"
+        },
+        {
+          "text": " going up to this feast, because My time has not yet come.”",
+          "anchor": "JHN.7.8",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " going up to this feast, because My time has not yet come.”",
+          "anchors": [
+            "JHN.7.8"
+          ],
+          "sourceAnchor": "JHN.7.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/216",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.8"
+          ],
+          "sourceAnchor": "JHN.7.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "JHN.7.9",
+          "anchors": [
+            "JHN.7.9"
+          ],
+          "sourceAnchor": "JHN.7.9"
+        },
+        {
+          "text": "Having said this, Jesus remained in Galilee.",
+          "anchor": "JHN.7.9",
+          "marks": [],
+          "originalText": "Having said this, Jesus remained in Galilee. ",
+          "anchors": [
+            "JHN.7.9"
+          ],
+          "sourceAnchor": "JHN.7.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "JHN.7.10",
+          "anchors": [
+            "JHN.7.10"
+          ],
+          "sourceAnchor": "JHN.7.10"
+        },
+        {
+          "text": "But after His brothers had gone up to the feast, He also went—not publicly, but in secret.",
+          "anchor": "JHN.7.10",
+          "marks": [],
+          "originalText": "But after His brothers had gone up to the feast, He also went — not publicly, but in secret.",
+          "anchors": [
+            "JHN.7.10"
+          ],
+          "sourceAnchor": "JHN.7.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/217",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.10"
+          ],
+          "sourceAnchor": "JHN.7.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "JHN.7.11",
+          "anchors": [
+            "JHN.7.11"
+          ],
+          "sourceAnchor": "JHN.7.11"
+        },
+        {
+          "text": "So the Jews were looking for Him at the feast and asking, “Where is He?”",
+          "anchor": "JHN.7.11",
+          "marks": [],
+          "originalText": "So the Jews were looking for Him at the feast and asking, “Where is He?”",
+          "anchors": [
+            "JHN.7.11"
+          ],
+          "sourceAnchor": "JHN.7.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/218",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.11"
+          ],
+          "sourceAnchor": "JHN.7.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "JHN.7.12",
+          "anchors": [
+            "JHN.7.12"
+          ],
+          "sourceAnchor": "JHN.7.12"
+        },
+        {
+          "text": "Many in the crowds were whispering about Him. Some said, “He is a good man.”",
+          "anchor": "JHN.7.12",
+          "marks": [],
+          "originalText": "Many in the crowds were whispering about Him. Some said, “He is a good man.”",
+          "anchors": [
+            "JHN.7.12"
+          ],
+          "sourceAnchor": "JHN.7.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/219",
+      "runs": [
+        {
+          "text": " But others replied, “No, He deceives the people.”",
+          "anchor": "JHN.7.12",
+          "marks": [],
+          "originalText": "But others replied, “No, He deceives the people.”",
+          "anchors": [
+            "JHN.7.12"
+          ],
+          "sourceAnchor": "JHN.7.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/220",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.12"
+          ],
+          "sourceAnchor": "JHN.7.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "JHN.7.13",
+          "anchors": [
+            "JHN.7.13"
+          ],
+          "sourceAnchor": "JHN.7.13"
+        },
+        {
+          "text": "Yet no one would speak publicly about Him for fear of the Jews.",
+          "anchor": "JHN.7.13",
+          "marks": [],
+          "originalText": "Yet no one would speak publicly about Him for fear of the Jews.",
+          "anchors": [
+            "JHN.7.13"
+          ],
+          "sourceAnchor": "JHN.7.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/221",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.13"
+          ],
+          "sourceAnchor": "JHN.7.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "JHN.7.14",
+          "anchors": [
+            "JHN.7.14"
+          ],
+          "sourceAnchor": "JHN.7.14"
+        },
+        {
+          "text": "About halfway through the feast, Jesus went up to the temple courts",
+          "anchor": "JHN.7.14",
+          "marks": [],
+          "originalText": "About halfway through the feast, Jesus went up to the temple courts",
+          "anchors": [
+            "JHN.7.14"
+          ],
+          "sourceAnchor": "JHN.7.14"
+        },
+        {
+          "noteId": "JHN.7.note.41",
+          "anchor": "JHN.7.14",
+          "anchors": [
+            "JHN.7.14"
+          ],
+          "sourceAnchor": "JHN.7.14"
+        },
+        {
+          "text": " and began to teach.",
+          "anchor": "JHN.7.14",
+          "marks": [],
+          "originalText": " and began to teach. ",
+          "anchors": [
+            "JHN.7.14"
+          ],
+          "sourceAnchor": "JHN.7.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "JHN.7.15",
+          "anchors": [
+            "JHN.7.15"
+          ],
+          "sourceAnchor": "JHN.7.15"
+        },
+        {
+          "text": "The Jews were amazed and asked, “How did this man attain such learning without having studied?”",
+          "anchor": "JHN.7.15",
+          "marks": [],
+          "originalText": "The Jews were amazed and asked, “How did this man attain such learning without having studied?”",
+          "anchors": [
+            "JHN.7.15"
+          ],
+          "sourceAnchor": "JHN.7.15"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/222",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.15",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.15"
+          ],
+          "sourceAnchor": "JHN.7.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "JHN.7.16",
+          "anchors": [
+            "JHN.7.16"
+          ],
+          "sourceAnchor": "JHN.7.16"
+        },
+        {
+          "text": "“My teaching is not My own,”",
+          "anchor": "JHN.7.16",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“My teaching is not My own,”",
+          "anchors": [
+            "JHN.7.16"
+          ],
+          "sourceAnchor": "JHN.7.16"
+        },
+        {
+          "text": " Jesus replied. ",
+          "anchor": "JHN.7.16",
+          "marks": [],
+          "originalText": " Jesus replied. ",
+          "anchors": [
+            "JHN.7.16"
+          ],
+          "sourceAnchor": "JHN.7.16"
+        },
+        {
+          "text": "“It comes from Him who sent Me.",
+          "anchor": "JHN.7.16",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“It comes from Him who sent Me. ",
+          "anchors": [
+            "JHN.7.16"
+          ],
+          "sourceAnchor": "JHN.7.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "JHN.7.17",
+          "anchors": [
+            "JHN.7.17"
+          ],
+          "sourceAnchor": "JHN.7.17"
+        },
+        {
+          "text": "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own.",
+          "anchor": "JHN.7.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own. ",
+          "anchors": [
+            "JHN.7.17"
+          ],
+          "sourceAnchor": "JHN.7.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "JHN.7.18",
+          "anchors": [
+            "JHN.7.18"
+          ],
+          "sourceAnchor": "JHN.7.18"
+        },
+        {
+          "text": "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood.",
+          "anchor": "JHN.7.18",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood. ",
+          "anchors": [
+            "JHN.7.18"
+          ],
+          "sourceAnchor": "JHN.7.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "JHN.7.19",
+          "anchors": [
+            "JHN.7.19"
+          ],
+          "sourceAnchor": "JHN.7.19"
+        },
+        {
+          "text": "Has not Moses given you the law? Yet not one of you keeps it. Why are you trying to kill Me?”",
+          "anchor": "JHN.7.19",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Has not Moses given you the law? Yet not one of you keeps it. Why are you trying to kill Me?”",
+          "anchors": [
+            "JHN.7.19"
+          ],
+          "sourceAnchor": "JHN.7.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/223",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.19"
+          ],
+          "sourceAnchor": "JHN.7.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "JHN.7.20",
+          "anchors": [
+            "JHN.7.20"
+          ],
+          "sourceAnchor": "JHN.7.20"
+        },
+        {
+          "text": "“You have a demon,” the crowd replied. “Who is trying to kill You?”",
+          "anchor": "JHN.7.20",
+          "marks": [],
+          "originalText": "“You have a demon,” the crowd replied. “Who is trying to kill You?”",
+          "anchors": [
+            "JHN.7.20"
+          ],
+          "sourceAnchor": "JHN.7.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/224",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.20"
+          ],
+          "sourceAnchor": "JHN.7.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "JHN.7.21",
+          "anchors": [
+            "JHN.7.21"
+          ],
+          "sourceAnchor": "JHN.7.21"
+        },
+        {
+          "text": "Jesus answered them, ",
+          "anchor": "JHN.7.21",
+          "marks": [],
+          "originalText": "Jesus answered them, ",
+          "anchors": [
+            "JHN.7.21"
+          ],
+          "sourceAnchor": "JHN.7.21"
+        },
+        {
+          "text": "“I did one miracle, and you are all amazed.",
+          "anchor": "JHN.7.21",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I did one miracle, and you are all amazed. ",
+          "anchors": [
+            "JHN.7.21"
+          ],
+          "sourceAnchor": "JHN.7.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "JHN.7.22",
+          "anchors": [
+            "JHN.7.22"
+          ],
+          "sourceAnchor": "JHN.7.22"
+        },
+        {
+          "text": "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.)",
+          "anchor": "JHN.7.22",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.) ",
+          "anchors": [
+            "JHN.7.22"
+          ],
+          "sourceAnchor": "JHN.7.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "JHN.7.23",
+          "anchors": [
+            "JHN.7.23"
+          ],
+          "sourceAnchor": "JHN.7.23"
+        },
+        {
+          "text": "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath?",
+          "anchor": "JHN.7.23",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath? ",
+          "anchors": [
+            "JHN.7.23"
+          ],
+          "sourceAnchor": "JHN.7.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "JHN.7.24",
+          "anchors": [
+            "JHN.7.24"
+          ],
+          "sourceAnchor": "JHN.7.24"
+        },
+        {
+          "text": "Stop judging by outward appearances, and start judging justly.”",
+          "anchor": "JHN.7.24",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Stop judging by outward appearances, and start judging justly.”",
+          "anchors": [
+            "JHN.7.24"
+          ],
+          "sourceAnchor": "JHN.7.24"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/JHN.usj#content/225",
+      "runs": [
+        {
+          "text": "Is Jesus the Christ?",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/226",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.24",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.24"
+          ],
+          "sourceAnchor": "JHN.7.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "JHN.7.25",
+          "anchors": [
+            "JHN.7.25"
+          ],
+          "sourceAnchor": "JHN.7.25"
+        },
+        {
+          "text": "Then some of the people of Jerusalem began to say, “Isn’t this the man they are trying to kill?",
+          "anchor": "JHN.7.25",
+          "marks": [],
+          "originalText": "Then some of the people of Jerusalem began to say, “Isn’t this the man they are trying to kill? ",
+          "anchors": [
+            "JHN.7.25"
+          ],
+          "sourceAnchor": "JHN.7.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "JHN.7.26",
+          "anchors": [
+            "JHN.7.26"
+          ],
+          "sourceAnchor": "JHN.7.26"
+        },
+        {
+          "text": "Yet here He is, speaking publicly, and they are not saying anything to Him. Have the rulers truly recognized that this is the Christ?",
+          "anchor": "JHN.7.26",
+          "marks": [],
+          "originalText": "Yet here He is, speaking publicly, and they are not saying anything to Him. Have the rulers truly recognized that this is the Christ? ",
+          "anchors": [
+            "JHN.7.26"
+          ],
+          "sourceAnchor": "JHN.7.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "JHN.7.27",
+          "anchors": [
+            "JHN.7.27"
+          ],
+          "sourceAnchor": "JHN.7.27"
+        },
+        {
+          "text": "But we know where this man is from. When the Christ comes, no one will know where He is from.”",
+          "anchor": "JHN.7.27",
+          "marks": [],
+          "originalText": "But we know where this man is from. When the Christ comes, no one will know where He is from.”",
+          "anchors": [
+            "JHN.7.27"
+          ],
+          "sourceAnchor": "JHN.7.27"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/227",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.27",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.27"
+          ],
+          "sourceAnchor": "JHN.7.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "JHN.7.28",
+          "anchors": [
+            "JHN.7.28"
+          ],
+          "sourceAnchor": "JHN.7.28"
+        },
+        {
+          "text": "Then Jesus, still teaching in the temple courts, cried out, ",
+          "anchor": "JHN.7.28",
+          "marks": [],
+          "originalText": "Then Jesus, still teaching in the temple courts, cried out, ",
+          "anchors": [
+            "JHN.7.28"
+          ],
+          "sourceAnchor": "JHN.7.28"
+        },
+        {
+          "text": "“You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him,",
+          "anchor": "JHN.7.28",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him, ",
+          "anchors": [
+            "JHN.7.28"
+          ],
+          "sourceAnchor": "JHN.7.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "JHN.7.29",
+          "anchors": [
+            "JHN.7.29"
+          ],
+          "sourceAnchor": "JHN.7.29"
+        },
+        {
+          "text": "but I know Him, because I am from Him and He sent Me.”",
+          "anchor": "JHN.7.29",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "but I know Him, because I am from Him and He sent Me.”",
+          "anchors": [
+            "JHN.7.29"
+          ],
+          "sourceAnchor": "JHN.7.29"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/228",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.29",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.29"
+          ],
+          "sourceAnchor": "JHN.7.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "JHN.7.30",
+          "anchors": [
+            "JHN.7.30"
+          ],
+          "sourceAnchor": "JHN.7.30"
+        },
+        {
+          "text": "So they tried to seize Him, but no one laid a hand on Him, because His hour had not yet come.",
+          "anchor": "JHN.7.30",
+          "marks": [],
+          "originalText": "So they tried to seize Him, but no one laid a hand on Him, because His hour had not yet come. ",
+          "anchors": [
+            "JHN.7.30"
+          ],
+          "sourceAnchor": "JHN.7.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "JHN.7.31",
+          "anchors": [
+            "JHN.7.31"
+          ],
+          "sourceAnchor": "JHN.7.31"
+        },
+        {
+          "text": "Many in the crowd, however, believed in Him and said, “When the Christ comes, will He perform more signs than this man?”",
+          "anchor": "JHN.7.31",
+          "marks": [],
+          "originalText": "Many in the crowd, however, believed in Him and said, “When the Christ comes, will He perform more signs than this man?”",
+          "anchors": [
+            "JHN.7.31"
+          ],
+          "sourceAnchor": "JHN.7.31"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/229",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.31",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.31"
+          ],
+          "sourceAnchor": "JHN.7.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "JHN.7.32",
+          "anchors": [
+            "JHN.7.32"
+          ],
+          "sourceAnchor": "JHN.7.32"
+        },
+        {
+          "text": "When the Pharisees heard the crowd whispering these things about Jesus, they and the chief priests sent officers to arrest Him.",
+          "anchor": "JHN.7.32",
+          "marks": [],
+          "originalText": "When the Pharisees heard the crowd whispering these things about Jesus, they and the chief priests sent officers to arrest Him. ",
+          "anchors": [
+            "JHN.7.32"
+          ],
+          "sourceAnchor": "JHN.7.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "JHN.7.33",
+          "anchors": [
+            "JHN.7.33"
+          ],
+          "sourceAnchor": "JHN.7.33"
+        },
+        {
+          "text": "So Jesus said, ",
+          "anchor": "JHN.7.33",
+          "marks": [],
+          "originalText": "So Jesus said, ",
+          "anchors": [
+            "JHN.7.33"
+          ],
+          "sourceAnchor": "JHN.7.33"
+        },
+        {
+          "text": "“I am with you only a little while longer, and then I am going to the One who sent Me.",
+          "anchor": "JHN.7.33",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I am with you only a little while longer, and then I am going to the One who sent Me. ",
+          "anchors": [
+            "JHN.7.33"
+          ],
+          "sourceAnchor": "JHN.7.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "JHN.7.34",
+          "anchors": [
+            "JHN.7.34"
+          ],
+          "sourceAnchor": "JHN.7.34"
+        },
+        {
+          "text": "You will look for Me, but you will not find Me; and where I am, you cannot come.”",
+          "anchor": "JHN.7.34",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "You will look for Me, but you will not find Me; and where I am, you cannot come.”",
+          "anchors": [
+            "JHN.7.34"
+          ],
+          "sourceAnchor": "JHN.7.34"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/230",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.34",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.34"
+          ],
+          "sourceAnchor": "JHN.7.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "JHN.7.35",
+          "anchors": [
+            "JHN.7.35"
+          ],
+          "sourceAnchor": "JHN.7.35"
+        },
+        {
+          "text": "At this, the Jews said to one another, “Where does He intend to go that we will not find Him? Will He go where the Jews are dispersed among the Greeks,",
+          "anchor": "JHN.7.35",
+          "marks": [],
+          "originalText": "At this, the Jews said to one another, “Where does He intend to go that we will not find Him? Will He go where the Jews are dispersed among the Greeks,",
+          "anchors": [
+            "JHN.7.35"
+          ],
+          "sourceAnchor": "JHN.7.35"
+        },
+        {
+          "noteId": "JHN.7.note.42",
+          "anchor": "JHN.7.35",
+          "anchors": [
+            "JHN.7.35"
+          ],
+          "sourceAnchor": "JHN.7.35"
+        },
+        {
+          "text": " and teach the Greeks?",
+          "anchor": "JHN.7.35",
+          "marks": [],
+          "originalText": " and teach the Greeks? ",
+          "anchors": [
+            "JHN.7.35"
+          ],
+          "sourceAnchor": "JHN.7.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "JHN.7.36",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "text": "What does He mean by saying, ",
+          "anchor": "JHN.7.36",
+          "marks": [],
+          "originalText": "What does He mean by saying, ",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "text": "‘You will look for Me, but you will not find Me,’",
+          "anchor": "JHN.7.36",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "‘You will look for Me, but you will not find Me,’",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "text": " and, ",
+          "anchor": "JHN.7.36",
+          "marks": [],
+          "originalText": " and, ",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "text": "‘Where I am, you cannot come’",
+          "anchor": "JHN.7.36",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "‘Where I am, you cannot come’",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "text": "?”",
+          "anchor": "JHN.7.36",
+          "marks": [],
+          "originalText": "?”",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/JHN.usj#content/231",
+      "runs": [
+        {
+          "text": "Living Water",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/232",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.36",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.36"
+          ],
+          "sourceAnchor": "JHN.7.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "JHN.7.37",
+          "anchors": [
+            "JHN.7.37"
+          ],
+          "sourceAnchor": "JHN.7.37"
+        },
+        {
+          "text": "On the last and greatest day of the feast, Jesus stood up and called out in a loud voice, ",
+          "anchor": "JHN.7.37",
+          "marks": [],
+          "originalText": "On the last and greatest day of the feast, Jesus stood up and called out in a loud voice, ",
+          "anchors": [
+            "JHN.7.37"
+          ],
+          "sourceAnchor": "JHN.7.37"
+        },
+        {
+          "text": "“If anyone is thirsty, let him come to Me and drink.",
+          "anchor": "JHN.7.37",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“If anyone is thirsty, let him come to Me and drink. ",
+          "anchors": [
+            "JHN.7.37"
+          ],
+          "sourceAnchor": "JHN.7.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "JHN.7.38",
+          "anchors": [
+            "JHN.7.38"
+          ],
+          "sourceAnchor": "JHN.7.38"
+        },
+        {
+          "text": "Whoever believes in Me, as the Scripture has said: ‘Streams of living water will flow from within him.’”",
+          "anchor": "JHN.7.38",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Whoever believes in Me, as the Scripture has said: ‘Streams of living water will flow from within him.’”",
+          "anchors": [
+            "JHN.7.38"
+          ],
+          "sourceAnchor": "JHN.7.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "JHN.7.39",
+          "anchors": [
+            "JHN.7.39"
+          ],
+          "sourceAnchor": "JHN.7.39"
+        },
+        {
+          "text": "He was speaking about the Spirit, whom those who believed in Him were later to receive. For the Spirit had not yet been given,",
+          "anchor": "JHN.7.39",
+          "marks": [],
+          "originalText": "He was speaking about the Spirit, whom those who believed in Him were later to receive. For the Spirit had not yet been given,",
+          "anchors": [
+            "JHN.7.39"
+          ],
+          "sourceAnchor": "JHN.7.39"
+        },
+        {
+          "noteId": "JHN.7.note.43",
+          "anchor": "JHN.7.39",
+          "anchors": [
+            "JHN.7.39"
+          ],
+          "sourceAnchor": "JHN.7.39"
+        },
+        {
+          "text": " because Jesus had not yet been glorified.",
+          "anchor": "JHN.7.39",
+          "marks": [],
+          "originalText": " because Jesus had not yet been glorified.",
+          "anchors": [
+            "JHN.7.39"
+          ],
+          "sourceAnchor": "JHN.7.39"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/JHN.usj#content/233",
+      "runs": [
+        {
+          "text": "Division over Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/234",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.39",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.39"
+          ],
+          "sourceAnchor": "JHN.7.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "JHN.7.40",
+          "anchors": [
+            "JHN.7.40"
+          ],
+          "sourceAnchor": "JHN.7.40"
+        },
+        {
+          "text": "On hearing these words, some of the people said, “This is truly the Prophet.”",
+          "anchor": "JHN.7.40",
+          "marks": [],
+          "originalText": "On hearing these words, some of the people said, “This is truly the Prophet.”",
+          "anchors": [
+            "JHN.7.40"
+          ],
+          "sourceAnchor": "JHN.7.40"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/235",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.40",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.40"
+          ],
+          "sourceAnchor": "JHN.7.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "JHN.7.41",
+          "anchors": [
+            "JHN.7.41"
+          ],
+          "sourceAnchor": "JHN.7.41"
+        },
+        {
+          "text": "Others declared, “This is the Christ.”",
+          "anchor": "JHN.7.41",
+          "marks": [],
+          "originalText": "Others declared, “This is the Christ.”",
+          "anchors": [
+            "JHN.7.41"
+          ],
+          "sourceAnchor": "JHN.7.41"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/236",
+      "runs": [
+        {
+          "text": " But still others asked, “How can the Christ come from Galilee?",
+          "anchor": "JHN.7.41",
+          "marks": [],
+          "originalText": "But still others asked, “How can the Christ come from Galilee? ",
+          "anchors": [
+            "JHN.7.41"
+          ],
+          "sourceAnchor": "JHN.7.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "JHN.7.42",
+          "anchors": [
+            "JHN.7.42"
+          ],
+          "sourceAnchor": "JHN.7.42"
+        },
+        {
+          "text": "Doesn’t the Scripture say that the Christ will come from the line of David and from Bethlehem, the village where David lived?",
+          "anchor": "JHN.7.42",
+          "marks": [],
+          "originalText": "Doesn’t the Scripture say that the Christ will come from the line of David and from Bethlehem, the village where David lived?",
+          "anchors": [
+            "JHN.7.42"
+          ],
+          "sourceAnchor": "JHN.7.42"
+        },
+        {
+          "noteId": "JHN.7.note.44",
+          "anchor": "JHN.7.42",
+          "anchors": [
+            "JHN.7.42"
+          ],
+          "sourceAnchor": "JHN.7.42"
+        },
+        {
+          "text": "”",
+          "anchor": "JHN.7.42",
+          "marks": [],
+          "originalText": "”",
+          "anchors": [
+            "JHN.7.42"
+          ],
+          "sourceAnchor": "JHN.7.42"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/237",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.42",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.42"
+          ],
+          "sourceAnchor": "JHN.7.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "JHN.7.43",
+          "anchors": [
+            "JHN.7.43"
+          ],
+          "sourceAnchor": "JHN.7.43"
+        },
+        {
+          "text": "So there was division in the crowd because of Jesus.",
+          "anchor": "JHN.7.43",
+          "marks": [],
+          "originalText": "So there was division in the crowd because of Jesus. ",
+          "anchors": [
+            "JHN.7.43"
+          ],
+          "sourceAnchor": "JHN.7.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "JHN.7.44",
+          "anchors": [
+            "JHN.7.44"
+          ],
+          "sourceAnchor": "JHN.7.44"
+        },
+        {
+          "text": "Some of them wanted to seize Him, but no one laid a hand on Him.",
+          "anchor": "JHN.7.44",
+          "marks": [],
+          "originalText": "Some of them wanted to seize Him, but no one laid a hand on Him.",
+          "anchors": [
+            "JHN.7.44"
+          ],
+          "sourceAnchor": "JHN.7.44"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/JHN.usj#content/238",
+      "runs": [
+        {
+          "text": "The Unbelief of the Jewish Leaders",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/239",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.44",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.44"
+          ],
+          "sourceAnchor": "JHN.7.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "JHN.7.45",
+          "anchors": [
+            "JHN.7.45"
+          ],
+          "sourceAnchor": "JHN.7.45"
+        },
+        {
+          "text": "Then the officers returned to the chief priests and Pharisees, who asked them, “Why didn’t you bring Him in?”",
+          "anchor": "JHN.7.45",
+          "marks": [],
+          "originalText": "Then the officers returned to the chief priests and Pharisees, who asked them, “Why didn’t you bring Him in?”",
+          "anchors": [
+            "JHN.7.45"
+          ],
+          "sourceAnchor": "JHN.7.45"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/240",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.45",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.45"
+          ],
+          "sourceAnchor": "JHN.7.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "JHN.7.46",
+          "anchors": [
+            "JHN.7.46"
+          ],
+          "sourceAnchor": "JHN.7.46"
+        },
+        {
+          "text": "“Never has anyone spoken like this man!” the officers answered.",
+          "anchor": "JHN.7.46",
+          "marks": [],
+          "originalText": "“Never has anyone spoken like this man!” the officers answered.",
+          "anchors": [
+            "JHN.7.46"
+          ],
+          "sourceAnchor": "JHN.7.46"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/241",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.46",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.46"
+          ],
+          "sourceAnchor": "JHN.7.46"
+        },
+        {
+          "verse": "47",
+          "anchor": "JHN.7.47",
+          "anchors": [
+            "JHN.7.47"
+          ],
+          "sourceAnchor": "JHN.7.47"
+        },
+        {
+          "text": "“Have you also been deceived?” replied the Pharisees.",
+          "anchor": "JHN.7.47",
+          "marks": [],
+          "originalText": "“Have you also been deceived?” replied the Pharisees. ",
+          "anchors": [
+            "JHN.7.47"
+          ],
+          "sourceAnchor": "JHN.7.47"
+        },
+        {
+          "verse": "48",
+          "anchor": "JHN.7.48",
+          "anchors": [
+            "JHN.7.48"
+          ],
+          "sourceAnchor": "JHN.7.48"
+        },
+        {
+          "text": "“Have any of the rulers or Pharisees believed in Him?",
+          "anchor": "JHN.7.48",
+          "marks": [],
+          "originalText": "“Have any of the rulers or Pharisees believed in Him? ",
+          "anchors": [
+            "JHN.7.48"
+          ],
+          "sourceAnchor": "JHN.7.48"
+        },
+        {
+          "verse": "49",
+          "anchor": "JHN.7.49",
+          "anchors": [
+            "JHN.7.49"
+          ],
+          "sourceAnchor": "JHN.7.49"
+        },
+        {
+          "text": "But this crowd that does not know the law—they are under a curse.”",
+          "anchor": "JHN.7.49",
+          "marks": [],
+          "originalText": "But this crowd that does not know the law— they are under a curse.”",
+          "anchors": [
+            "JHN.7.49"
+          ],
+          "sourceAnchor": "JHN.7.49"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/242",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.49",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.49"
+          ],
+          "sourceAnchor": "JHN.7.49"
+        },
+        {
+          "verse": "50",
+          "anchor": "JHN.7.50",
+          "anchors": [
+            "JHN.7.50"
+          ],
+          "sourceAnchor": "JHN.7.50"
+        },
+        {
+          "text": "Nicodemus, who had gone to Jesus earlier and who himself was one of them, asked,",
+          "anchor": "JHN.7.50",
+          "marks": [],
+          "originalText": "Nicodemus, who had gone to Jesus earlier and who himself was one of them, asked, ",
+          "anchors": [
+            "JHN.7.50"
+          ],
+          "sourceAnchor": "JHN.7.50"
+        },
+        {
+          "verse": "51",
+          "anchor": "JHN.7.51",
+          "anchors": [
+            "JHN.7.51"
+          ],
+          "sourceAnchor": "JHN.7.51"
+        },
+        {
+          "text": "“Does our law convict a man without first hearing from him to determine what he has done?”",
+          "anchor": "JHN.7.51",
+          "marks": [],
+          "originalText": "“Does our law convict a man without first hearing from him to determine what he has done?”",
+          "anchors": [
+            "JHN.7.51"
+          ],
+          "sourceAnchor": "JHN.7.51"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/243",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.51",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.51"
+          ],
+          "sourceAnchor": "JHN.7.51"
+        },
+        {
+          "verse": "52",
+          "anchor": "JHN.7.52",
+          "anchors": [
+            "JHN.7.52"
+          ],
+          "sourceAnchor": "JHN.7.52"
+        },
+        {
+          "text": "“Aren’t you also from Galilee?” they replied. “Look into it, and you will see that no prophet comes out of Galilee.”",
+          "anchor": "JHN.7.52",
+          "marks": [],
+          "originalText": "“Aren’t you also from Galilee?” they replied. “Look into it, and you will see that no prophet comes out of Galilee.”",
+          "anchors": [
+            "JHN.7.52"
+          ],
+          "sourceAnchor": "JHN.7.52"
+        },
+        {
+          "noteId": "JHN.7.note.45",
+          "anchor": "JHN.7.52",
+          "anchors": [
+            "JHN.7.52"
+          ],
+          "sourceAnchor": "JHN.7.52"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/JHN.usj#content/244",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "JHN.7.52",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "JHN.7.52"
+          ],
+          "sourceAnchor": "JHN.7.52"
+        },
+        {
+          "verse": "53",
+          "anchor": "JHN.7.53",
+          "anchors": [
+            "JHN.7.53"
+          ],
+          "sourceAnchor": "JHN.7.53"
+        },
+        {
+          "text": "Then each went to his own home.",
+          "anchor": "JHN.7.53",
+          "marks": [],
+          "originalText": "Then each went to his own home.",
+          "anchors": [
+            "JHN.7.53"
+          ],
+          "sourceAnchor": "JHN.7.53"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "JHN.7.1",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "JHN.7.1"
+      ],
+      "mappingType": "exact",
+      "text": "After this, Jesus traveled throughout Galilee. He did not want to travel in Judea, because the Jews there were trying to kill Him.",
+      "originalStructuredText": "After this, Jesus traveled throughout Galilee. He did not want to travel in Judea, because the Jews there were trying to kill Him. ",
+      "sourceRef": "JHN.7.1"
+    },
+    {
+      "id": "JHN.7.2",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/3",
+      "sourceLabel": "2",
+      "anchors": [
+        "JHN.7.2"
+      ],
+      "mappingType": "exact",
+      "text": "However, the Jewish Feast of Tabernacles was near.",
+      "originalStructuredText": "However, the Jewish Feast of Tabernacles was near. ",
+      "sourceRef": "JHN.7.2"
+    },
+    {
+      "id": "JHN.7.3",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/7",
+      "sourceLabel": "3",
+      "anchors": [
+        "JHN.7.3"
+      ],
+      "mappingType": "exact",
+      "text": "So Jesus’ brothers said to Him, “Leave here and go to Judea, so that Your disciples there may see the works You are doing.",
+      "originalStructuredText": "So Jesus’ brothers said to Him, “Leave here and go to Judea, so that Your disciples there may see the works You are doing. ",
+      "sourceRef": "JHN.7.3"
+    },
+    {
+      "id": "JHN.7.4",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/9",
+      "sourceLabel": "4",
+      "anchors": [
+        "JHN.7.4"
+      ],
+      "mappingType": "exact",
+      "text": "For no one who wants to be known publicly acts in secret. Since You are doing these things, show Yourself to the world.”",
+      "originalStructuredText": "For no one who wants to be known publicly acts in secret. Since You are doing these things, show Yourself to the world.” ",
+      "sourceRef": "JHN.7.4"
+    },
+    {
+      "id": "JHN.7.5",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/11",
+      "sourceLabel": "5",
+      "anchors": [
+        "JHN.7.5"
+      ],
+      "mappingType": "exact",
+      "text": "For even His own brothers did not believe in Him.",
+      "originalStructuredText": "For even His own brothers did not believe in Him.\n ",
+      "sourceRef": "JHN.7.5"
+    },
+    {
+      "id": "JHN.7.6",
+      "sourceId": "bsb_usj/JHN.usj#content/215/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "JHN.7.6"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore Jesus told them, “Although your time is always at hand, My time has not yet come.",
+      "originalStructuredText": "Therefore Jesus told them, “Although your time is always at hand, My time has not yet come. ",
+      "sourceRef": "JHN.7.6"
+    },
+    {
+      "id": "JHN.7.7",
+      "sourceId": "bsb_usj/JHN.usj#content/215/content/3/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "JHN.7.7"
+      ],
+      "mappingType": "exact",
+      "text": "The world cannot hate you, but it hates Me, because I testify that its works are evil.",
+      "originalStructuredText": "The world cannot hate you, but it hates Me, because I testify that its works are evil. ",
+      "sourceRef": "JHN.7.7"
+    },
+    {
+      "id": "JHN.7.8",
+      "sourceId": "bsb_usj/JHN.usj#content/215/content/3/content/3",
+      "sourceLabel": "8",
+      "anchors": [
+        "JHN.7.8"
+      ],
+      "mappingType": "exact",
+      "text": "Go up to the feast on your own. I am not going up to this feast, because My time has not yet come.”",
+      "originalStructuredText": "Go up to the feast on your own. I am not going up to this feast, because My time has not yet come.”\n ",
+      "sourceRef": "JHN.7.8"
+    },
+    {
+      "id": "JHN.7.9",
+      "sourceId": "bsb_usj/JHN.usj#content/216/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "JHN.7.9"
+      ],
+      "mappingType": "exact",
+      "text": "Having said this, Jesus remained in Galilee.",
+      "originalStructuredText": "Having said this, Jesus remained in Galilee. ",
+      "sourceRef": "JHN.7.9"
+    },
+    {
+      "id": "JHN.7.10",
+      "sourceId": "bsb_usj/JHN.usj#content/216/content/3",
+      "sourceLabel": "10",
+      "anchors": [
+        "JHN.7.10"
+      ],
+      "mappingType": "exact",
+      "text": "But after His brothers had gone up to the feast, He also went—not publicly, but in secret.",
+      "originalStructuredText": "But after His brothers had gone up to the feast, He also went — not publicly, but in secret.\n ",
+      "sourceRef": "JHN.7.10"
+    },
+    {
+      "id": "JHN.7.11",
+      "sourceId": "bsb_usj/JHN.usj#content/217/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "JHN.7.11"
+      ],
+      "mappingType": "exact",
+      "text": "So the Jews were looking for Him at the feast and asking, “Where is He?”",
+      "originalStructuredText": "So the Jews were looking for Him at the feast and asking, “Where is He?”\n ",
+      "sourceRef": "JHN.7.11"
+    },
+    {
+      "id": "JHN.7.12",
+      "sourceId": "bsb_usj/JHN.usj#content/218/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "JHN.7.12"
+      ],
+      "mappingType": "exact",
+      "text": "Many in the crowds were whispering about Him. Some said, “He is a good man.” But others replied, “No, He deceives the people.”",
+      "originalStructuredText": "Many in the crowds were whispering about Him. Some said, “He is a good man.”\nBut others replied, “No, He deceives the people.”\n ",
+      "sourceRef": "JHN.7.12"
+    },
+    {
+      "id": "JHN.7.13",
+      "sourceId": "bsb_usj/JHN.usj#content/220/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "JHN.7.13"
+      ],
+      "mappingType": "exact",
+      "text": "Yet no one would speak publicly about Him for fear of the Jews.",
+      "originalStructuredText": "Yet no one would speak publicly about Him for fear of the Jews.\n ",
+      "sourceRef": "JHN.7.13"
+    },
+    {
+      "id": "JHN.7.14",
+      "sourceId": "bsb_usj/JHN.usj#content/221/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "JHN.7.14"
+      ],
+      "mappingType": "exact",
+      "text": "About halfway through the feast, Jesus went up to the temple courts and began to teach.",
+      "originalStructuredText": "About halfway through the feast, Jesus went up to the temple courts and began to teach. ",
+      "sourceRef": "JHN.7.14"
+    },
+    {
+      "id": "JHN.7.15",
+      "sourceId": "bsb_usj/JHN.usj#content/221/content/5",
+      "sourceLabel": "15",
+      "anchors": [
+        "JHN.7.15"
+      ],
+      "mappingType": "exact",
+      "text": "The Jews were amazed and asked, “How did this man attain such learning without having studied?”",
+      "originalStructuredText": "The Jews were amazed and asked, “How did this man attain such learning without having studied?”\n ",
+      "sourceRef": "JHN.7.15"
+    },
+    {
+      "id": "JHN.7.16",
+      "sourceId": "bsb_usj/JHN.usj#content/222/content/0/content/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "JHN.7.16"
+      ],
+      "mappingType": "exact",
+      "text": "“My teaching is not My own,” Jesus replied. “It comes from Him who sent Me.",
+      "originalStructuredText": "“My teaching is not My own,” Jesus replied. “It comes from Him who sent Me. ",
+      "sourceRef": "JHN.7.16"
+    },
+    {
+      "id": "JHN.7.17",
+      "sourceId": "bsb_usj/JHN.usj#content/222/content/2/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "JHN.7.17"
+      ],
+      "mappingType": "exact",
+      "text": "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own.",
+      "originalStructuredText": "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own. ",
+      "sourceRef": "JHN.7.17"
+    },
+    {
+      "id": "JHN.7.18",
+      "sourceId": "bsb_usj/JHN.usj#content/222/content/2/content/3",
+      "sourceLabel": "18",
+      "anchors": [
+        "JHN.7.18"
+      ],
+      "mappingType": "exact",
+      "text": "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood.",
+      "originalStructuredText": "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood. ",
+      "sourceRef": "JHN.7.18"
+    },
+    {
+      "id": "JHN.7.19",
+      "sourceId": "bsb_usj/JHN.usj#content/222/content/2/content/5",
+      "sourceLabel": "19",
+      "anchors": [
+        "JHN.7.19"
+      ],
+      "mappingType": "exact",
+      "text": "Has not Moses given you the law? Yet not one of you keeps it. Why are you trying to kill Me?”",
+      "originalStructuredText": "Has not Moses given you the law? Yet not one of you keeps it. Why are you trying to kill Me?”\n ",
+      "sourceRef": "JHN.7.19"
+    },
+    {
+      "id": "JHN.7.20",
+      "sourceId": "bsb_usj/JHN.usj#content/223/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "JHN.7.20"
+      ],
+      "mappingType": "exact",
+      "text": "“You have a demon,” the crowd replied. “Who is trying to kill You?”",
+      "originalStructuredText": "“You have a demon,” the crowd replied. “Who is trying to kill You?”\n ",
+      "sourceRef": "JHN.7.20"
+    },
+    {
+      "id": "JHN.7.21",
+      "sourceId": "bsb_usj/JHN.usj#content/224/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "JHN.7.21"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus answered them, “I did one miracle, and you are all amazed.",
+      "originalStructuredText": "Jesus answered them, “I did one miracle, and you are all amazed. ",
+      "sourceRef": "JHN.7.21"
+    },
+    {
+      "id": "JHN.7.22",
+      "sourceId": "bsb_usj/JHN.usj#content/224/content/3/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "JHN.7.22"
+      ],
+      "mappingType": "exact",
+      "text": "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.)",
+      "originalStructuredText": "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.) ",
+      "sourceRef": "JHN.7.22"
+    },
+    {
+      "id": "JHN.7.23",
+      "sourceId": "bsb_usj/JHN.usj#content/224/content/3/content/3",
+      "sourceLabel": "23",
+      "anchors": [
+        "JHN.7.23"
+      ],
+      "mappingType": "exact",
+      "text": "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath?",
+      "originalStructuredText": "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath? ",
+      "sourceRef": "JHN.7.23"
+    },
+    {
+      "id": "JHN.7.24",
+      "sourceId": "bsb_usj/JHN.usj#content/224/content/3/content/5",
+      "sourceLabel": "24",
+      "anchors": [
+        "JHN.7.24"
+      ],
+      "mappingType": "exact",
+      "text": "Stop judging by outward appearances, and start judging justly.”",
+      "originalStructuredText": "Stop judging by outward appearances, and start judging justly.”\n ",
+      "sourceRef": "JHN.7.24"
+    },
+    {
+      "id": "JHN.7.25",
+      "sourceId": "bsb_usj/JHN.usj#content/226/content/1",
+      "sourceLabel": "25",
+      "anchors": [
+        "JHN.7.25"
+      ],
+      "mappingType": "exact",
+      "text": "Then some of the people of Jerusalem began to say, “Isn’t this the man they are trying to kill?",
+      "originalStructuredText": "Then some of the people of Jerusalem began to say, “Isn’t this the man they are trying to kill? ",
+      "sourceRef": "JHN.7.25"
+    },
+    {
+      "id": "JHN.7.26",
+      "sourceId": "bsb_usj/JHN.usj#content/226/content/3",
+      "sourceLabel": "26",
+      "anchors": [
+        "JHN.7.26"
+      ],
+      "mappingType": "exact",
+      "text": "Yet here He is, speaking publicly, and they are not saying anything to Him. Have the rulers truly recognized that this is the Christ?",
+      "originalStructuredText": "Yet here He is, speaking publicly, and they are not saying anything to Him. Have the rulers truly recognized that this is the Christ? ",
+      "sourceRef": "JHN.7.26"
+    },
+    {
+      "id": "JHN.7.27",
+      "sourceId": "bsb_usj/JHN.usj#content/226/content/5",
+      "sourceLabel": "27",
+      "anchors": [
+        "JHN.7.27"
+      ],
+      "mappingType": "exact",
+      "text": "But we know where this man is from. When the Christ comes, no one will know where He is from.”",
+      "originalStructuredText": "But we know where this man is from. When the Christ comes, no one will know where He is from.”\n ",
+      "sourceRef": "JHN.7.27"
+    },
+    {
+      "id": "JHN.7.28",
+      "sourceId": "bsb_usj/JHN.usj#content/227/content/1",
+      "sourceLabel": "28",
+      "anchors": [
+        "JHN.7.28"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus, still teaching in the temple courts, cried out, “You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him,",
+      "originalStructuredText": "Then Jesus, still teaching in the temple courts, cried out, “You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him, ",
+      "sourceRef": "JHN.7.28"
+    },
+    {
+      "id": "JHN.7.29",
+      "sourceId": "bsb_usj/JHN.usj#content/227/content/3/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "JHN.7.29"
+      ],
+      "mappingType": "exact",
+      "text": "but I know Him, because I am from Him and He sent Me.”",
+      "originalStructuredText": "but I know Him, because I am from Him and He sent Me.”\n ",
+      "sourceRef": "JHN.7.29"
+    },
+    {
+      "id": "JHN.7.30",
+      "sourceId": "bsb_usj/JHN.usj#content/228/content/1",
+      "sourceLabel": "30",
+      "anchors": [
+        "JHN.7.30"
+      ],
+      "mappingType": "exact",
+      "text": "So they tried to seize Him, but no one laid a hand on Him, because His hour had not yet come.",
+      "originalStructuredText": "So they tried to seize Him, but no one laid a hand on Him, because His hour had not yet come. ",
+      "sourceRef": "JHN.7.30"
+    },
+    {
+      "id": "JHN.7.31",
+      "sourceId": "bsb_usj/JHN.usj#content/228/content/3",
+      "sourceLabel": "31",
+      "anchors": [
+        "JHN.7.31"
+      ],
+      "mappingType": "exact",
+      "text": "Many in the crowd, however, believed in Him and said, “When the Christ comes, will He perform more signs than this man?”",
+      "originalStructuredText": "Many in the crowd, however, believed in Him and said, “When the Christ comes, will He perform more signs than this man?”\n ",
+      "sourceRef": "JHN.7.31"
+    },
+    {
+      "id": "JHN.7.32",
+      "sourceId": "bsb_usj/JHN.usj#content/229/content/1",
+      "sourceLabel": "32",
+      "anchors": [
+        "JHN.7.32"
+      ],
+      "mappingType": "exact",
+      "text": "When the Pharisees heard the crowd whispering these things about Jesus, they and the chief priests sent officers to arrest Him.",
+      "originalStructuredText": "When the Pharisees heard the crowd whispering these things about Jesus, they and the chief priests sent officers to arrest Him. ",
+      "sourceRef": "JHN.7.32"
+    },
+    {
+      "id": "JHN.7.33",
+      "sourceId": "bsb_usj/JHN.usj#content/229/content/3",
+      "sourceLabel": "33",
+      "anchors": [
+        "JHN.7.33"
+      ],
+      "mappingType": "exact",
+      "text": "So Jesus said, “I am with you only a little while longer, and then I am going to the One who sent Me.",
+      "originalStructuredText": "So Jesus said, “I am with you only a little while longer, and then I am going to the One who sent Me. ",
+      "sourceRef": "JHN.7.33"
+    },
+    {
+      "id": "JHN.7.34",
+      "sourceId": "bsb_usj/JHN.usj#content/229/content/5/content/1",
+      "sourceLabel": "34",
+      "anchors": [
+        "JHN.7.34"
+      ],
+      "mappingType": "exact",
+      "text": "You will look for Me, but you will not find Me; and where I am, you cannot come.”",
+      "originalStructuredText": "You will look for Me, but you will not find Me; and where I am, you cannot come.”\n ",
+      "sourceRef": "JHN.7.34"
+    },
+    {
+      "id": "JHN.7.35",
+      "sourceId": "bsb_usj/JHN.usj#content/230/content/1",
+      "sourceLabel": "35",
+      "anchors": [
+        "JHN.7.35"
+      ],
+      "mappingType": "exact",
+      "text": "At this, the Jews said to one another, “Where does He intend to go that we will not find Him? Will He go where the Jews are dispersed among the Greeks, and teach the Greeks?",
+      "originalStructuredText": "At this, the Jews said to one another, “Where does He intend to go that we will not find Him? Will He go where the Jews are dispersed among the Greeks, and teach the Greeks? ",
+      "sourceRef": "JHN.7.35"
+    },
+    {
+      "id": "JHN.7.36",
+      "sourceId": "bsb_usj/JHN.usj#content/230/content/5",
+      "sourceLabel": "36",
+      "anchors": [
+        "JHN.7.36"
+      ],
+      "mappingType": "exact",
+      "text": "What does He mean by saying, ‘You will look for Me, but you will not find Me,’ and, ‘Where I am, you cannot come’?”",
+      "originalStructuredText": "What does He mean by saying, ‘You will look for Me, but you will not find Me,’ and, ‘Where I am, you cannot come’?”\n ",
+      "sourceRef": "JHN.7.36"
+    },
+    {
+      "id": "JHN.7.37",
+      "sourceId": "bsb_usj/JHN.usj#content/232/content/1",
+      "sourceLabel": "37",
+      "anchors": [
+        "JHN.7.37"
+      ],
+      "mappingType": "exact",
+      "text": "On the last and greatest day of the feast, Jesus stood up and called out in a loud voice, “If anyone is thirsty, let him come to Me and drink.",
+      "originalStructuredText": "On the last and greatest day of the feast, Jesus stood up and called out in a loud voice, “If anyone is thirsty, let him come to Me and drink. ",
+      "sourceRef": "JHN.7.37"
+    },
+    {
+      "id": "JHN.7.38",
+      "sourceId": "bsb_usj/JHN.usj#content/232/content/3/content/1",
+      "sourceLabel": "38",
+      "anchors": [
+        "JHN.7.38"
+      ],
+      "mappingType": "exact",
+      "text": "Whoever believes in Me, as the Scripture has said: ‘Streams of living water will flow from within him.’”",
+      "originalStructuredText": "Whoever believes in Me, as the Scripture has said: ‘Streams of living water will flow from within him.’”",
+      "sourceRef": "JHN.7.38"
+    },
+    {
+      "id": "JHN.7.39",
+      "sourceId": "bsb_usj/JHN.usj#content/232/content/4",
+      "sourceLabel": "39",
+      "anchors": [
+        "JHN.7.39"
+      ],
+      "mappingType": "exact",
+      "text": "He was speaking about the Spirit, whom those who believed in Him were later to receive. For the Spirit had not yet been given, because Jesus had not yet been glorified.",
+      "originalStructuredText": "He was speaking about the Spirit, whom those who believed in Him were later to receive. For the Spirit had not yet been given, because Jesus had not yet been glorified.\n ",
+      "sourceRef": "JHN.7.39"
+    },
+    {
+      "id": "JHN.7.40",
+      "sourceId": "bsb_usj/JHN.usj#content/234/content/1",
+      "sourceLabel": "40",
+      "anchors": [
+        "JHN.7.40"
+      ],
+      "mappingType": "exact",
+      "text": "On hearing these words, some of the people said, “This is truly the Prophet.”",
+      "originalStructuredText": "On hearing these words, some of the people said, “This is truly the Prophet.”\n ",
+      "sourceRef": "JHN.7.40"
+    },
+    {
+      "id": "JHN.7.41",
+      "sourceId": "bsb_usj/JHN.usj#content/235/content/1",
+      "sourceLabel": "41",
+      "anchors": [
+        "JHN.7.41"
+      ],
+      "mappingType": "exact",
+      "text": "Others declared, “This is the Christ.” But still others asked, “How can the Christ come from Galilee?",
+      "originalStructuredText": "Others declared, “This is the Christ.”\nBut still others asked, “How can the Christ come from Galilee? ",
+      "sourceRef": "JHN.7.41"
+    },
+    {
+      "id": "JHN.7.42",
+      "sourceId": "bsb_usj/JHN.usj#content/236/content/1",
+      "sourceLabel": "42",
+      "anchors": [
+        "JHN.7.42"
+      ],
+      "mappingType": "exact",
+      "text": "Doesn’t the Scripture say that the Christ will come from the line of David and from Bethlehem, the village where David lived?”",
+      "originalStructuredText": "Doesn’t the Scripture say that the Christ will come from the line of David and from Bethlehem, the village where David lived?”\n ",
+      "sourceRef": "JHN.7.42"
+    },
+    {
+      "id": "JHN.7.43",
+      "sourceId": "bsb_usj/JHN.usj#content/237/content/1",
+      "sourceLabel": "43",
+      "anchors": [
+        "JHN.7.43"
+      ],
+      "mappingType": "exact",
+      "text": "So there was division in the crowd because of Jesus.",
+      "originalStructuredText": "So there was division in the crowd because of Jesus. ",
+      "sourceRef": "JHN.7.43"
+    },
+    {
+      "id": "JHN.7.44",
+      "sourceId": "bsb_usj/JHN.usj#content/237/content/3",
+      "sourceLabel": "44",
+      "anchors": [
+        "JHN.7.44"
+      ],
+      "mappingType": "exact",
+      "text": "Some of them wanted to seize Him, but no one laid a hand on Him.",
+      "originalStructuredText": "Some of them wanted to seize Him, but no one laid a hand on Him.\n ",
+      "sourceRef": "JHN.7.44"
+    },
+    {
+      "id": "JHN.7.45",
+      "sourceId": "bsb_usj/JHN.usj#content/239/content/1",
+      "sourceLabel": "45",
+      "anchors": [
+        "JHN.7.45"
+      ],
+      "mappingType": "exact",
+      "text": "Then the officers returned to the chief priests and Pharisees, who asked them, “Why didn’t you bring Him in?”",
+      "originalStructuredText": "Then the officers returned to the chief priests and Pharisees, who asked them, “Why didn’t you bring Him in?”\n ",
+      "sourceRef": "JHN.7.45"
+    },
+    {
+      "id": "JHN.7.46",
+      "sourceId": "bsb_usj/JHN.usj#content/240/content/1",
+      "sourceLabel": "46",
+      "anchors": [
+        "JHN.7.46"
+      ],
+      "mappingType": "exact",
+      "text": "“Never has anyone spoken like this man!” the officers answered.",
+      "originalStructuredText": "“Never has anyone spoken like this man!” the officers answered.\n ",
+      "sourceRef": "JHN.7.46"
+    },
+    {
+      "id": "JHN.7.47",
+      "sourceId": "bsb_usj/JHN.usj#content/241/content/1",
+      "sourceLabel": "47",
+      "anchors": [
+        "JHN.7.47"
+      ],
+      "mappingType": "exact",
+      "text": "“Have you also been deceived?” replied the Pharisees.",
+      "originalStructuredText": "“Have you also been deceived?” replied the Pharisees. ",
+      "sourceRef": "JHN.7.47"
+    },
+    {
+      "id": "JHN.7.48",
+      "sourceId": "bsb_usj/JHN.usj#content/241/content/3",
+      "sourceLabel": "48",
+      "anchors": [
+        "JHN.7.48"
+      ],
+      "mappingType": "exact",
+      "text": "“Have any of the rulers or Pharisees believed in Him?",
+      "originalStructuredText": "“Have any of the rulers or Pharisees believed in Him? ",
+      "sourceRef": "JHN.7.48"
+    },
+    {
+      "id": "JHN.7.49",
+      "sourceId": "bsb_usj/JHN.usj#content/241/content/5",
+      "sourceLabel": "49",
+      "anchors": [
+        "JHN.7.49"
+      ],
+      "mappingType": "exact",
+      "text": "But this crowd that does not know the law—they are under a curse.”",
+      "originalStructuredText": "But this crowd that does not know the law— they are under a curse.”\n ",
+      "sourceRef": "JHN.7.49"
+    },
+    {
+      "id": "JHN.7.50",
+      "sourceId": "bsb_usj/JHN.usj#content/242/content/1",
+      "sourceLabel": "50",
+      "anchors": [
+        "JHN.7.50"
+      ],
+      "mappingType": "exact",
+      "text": "Nicodemus, who had gone to Jesus earlier and who himself was one of them, asked,",
+      "originalStructuredText": "Nicodemus, who had gone to Jesus earlier and who himself was one of them, asked, ",
+      "sourceRef": "JHN.7.50"
+    },
+    {
+      "id": "JHN.7.51",
+      "sourceId": "bsb_usj/JHN.usj#content/242/content/3",
+      "sourceLabel": "51",
+      "anchors": [
+        "JHN.7.51"
+      ],
+      "mappingType": "exact",
+      "text": "“Does our law convict a man without first hearing from him to determine what he has done?”",
+      "originalStructuredText": "“Does our law convict a man without first hearing from him to determine what he has done?”\n ",
+      "sourceRef": "JHN.7.51"
+    },
+    {
+      "id": "JHN.7.52",
+      "sourceId": "bsb_usj/JHN.usj#content/243/content/1",
+      "sourceLabel": "52",
+      "anchors": [
+        "JHN.7.52"
+      ],
+      "mappingType": "exact",
+      "text": "“Aren’t you also from Galilee?” they replied. “Look into it, and you will see that no prophet comes out of Galilee.”",
+      "originalStructuredText": "“Aren’t you also from Galilee?” they replied. “Look into it, and you will see that no prophet comes out of Galilee.”\n ",
+      "sourceRef": "JHN.7.52"
+    },
+    {
+      "id": "JHN.7.53",
+      "sourceId": "bsb_usj/JHN.usj#content/244/content/1",
+      "sourceLabel": "53",
+      "anchors": [
+        "JHN.7.53"
+      ],
+      "mappingType": "exact",
+      "text": "Then each went to his own home.",
+      "originalStructuredText": "Then each went to his own home.",
+      "sourceRef": "JHN.7.53"
+    }
+  ],
+  "notes": [
+    {
+      "id": "JHN.7.note.39",
+      "anchor": "JHN.7.2",
+      "sourceId": "bsb_usj/JHN.usj#content/214/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:2 That is, Sukkot, the autumn feast of pilgrimage to Jerusalem; also translated as the Feast of Booths or the Feast of Shelters and originally called the Feast of Ingathering(see Exodus 23:16 and Exodus 34:22).",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "That is, Sukkot, the autumn feast of pilgrimage to Jerusalem; also translated as "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Feast of Booths "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Feast of Shelters "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "and originally called "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Feast of Ingathering"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "(see ",
+              {
+                "type": "ref",
+                "loc": "EXO 23:16",
+                "content": [
+                  "Exodus 23:16"
+                ]
+              },
+              " and Exodus 34:22)."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.40",
+      "anchor": "JHN.7.8",
+      "sourceId": "bsb_usj/JHN.usj#content/215/content/3/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:8 NE, WH, BYZ, and TR I am not yet",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NE, WH, BYZ, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "I am not yet"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.41",
+      "anchor": "JHN.7.14",
+      "sourceId": "bsb_usj/JHN.usj#content/221/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:14 Literally the temple; also in verse 28",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the temple"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; also in verse 28"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.42",
+      "anchor": "JHN.7.35",
+      "sourceId": "bsb_usj/JHN.usj#content/230/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:35 Literally Will He go to the Diaspora among the Greeks; the Jewish people living outside the land of Israel since the Babylonian exile were referred to as the Diaspora.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:35 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Will He go to the Diaspora among the Greeks"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; the Jewish people living outside the land of Israel since the Babylonian exile were referred to as "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Diaspora"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.43",
+      "anchor": "JHN.7.39",
+      "sourceId": "bsb_usj/JHN.usj#content/232/content/6",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:39 Literally the Spirit was not yet; BYZ and TR the Holy Spirit was not yet",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:39 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Spirit was not yet"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Holy Spirit was not yet"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.44",
+      "anchor": "JHN.7.42",
+      "sourceId": "bsb_usj/JHN.usj#content/236/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:42 See Micah 5:2.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:42 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "MIC 5:2",
+                "content": [
+                  "Micah 5:2"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHN.7.note.45",
+      "anchor": "JHN.7.52",
+      "sourceId": "bsb_usj/JHN.usj#content/243/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "7:52 Some early manuscripts do not include John 7:53 through John 8:11.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:52 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some early manuscripts do not include ",
+              {
+                "type": "ref",
+                "loc": "JHN 7:53",
+                "content": [
+                  "John 7:53"
+                ]
+              },
+              " through John 8:11."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "JHN.7.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.1",
+          "sourceRef": "JHN.7.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.39"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.2",
+          "sourceRef": "JHN.7.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.3",
+          "sourceRef": "JHN.7.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.4",
+          "sourceRef": "JHN.7.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.5",
+          "sourceRef": "JHN.7.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.6",
+          "sourceRef": "JHN.7.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.7",
+          "sourceRef": "JHN.7.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.40"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.8",
+          "sourceRef": "JHN.7.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.9",
+          "sourceRef": "JHN.7.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.10",
+          "sourceRef": "JHN.7.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.11",
+          "sourceRef": "JHN.7.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.12",
+          "sourceRef": "JHN.7.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.13",
+          "sourceRef": "JHN.7.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.41"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.14",
+          "sourceRef": "JHN.7.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.15",
+          "sourceRef": "JHN.7.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.16",
+          "sourceRef": "JHN.7.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.17",
+          "sourceRef": "JHN.7.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.18",
+          "sourceRef": "JHN.7.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.19",
+          "sourceRef": "JHN.7.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.20",
+          "sourceRef": "JHN.7.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.21",
+          "sourceRef": "JHN.7.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.22",
+          "sourceRef": "JHN.7.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.23",
+          "sourceRef": "JHN.7.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.24",
+          "sourceRef": "JHN.7.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.25",
+          "sourceRef": "JHN.7.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.26",
+          "sourceRef": "JHN.7.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.27",
+          "sourceRef": "JHN.7.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.28",
+          "sourceRef": "JHN.7.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.29",
+          "sourceRef": "JHN.7.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.30",
+          "sourceRef": "JHN.7.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.31",
+          "sourceRef": "JHN.7.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.32",
+          "sourceRef": "JHN.7.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.33",
+          "sourceRef": "JHN.7.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.34",
+          "sourceRef": "JHN.7.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.42"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.35",
+          "sourceRef": "JHN.7.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.36",
+          "sourceRef": "JHN.7.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.37",
+          "sourceRef": "JHN.7.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.38",
+          "sourceRef": "JHN.7.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.43"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.39",
+          "sourceRef": "JHN.7.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.40",
+          "sourceRef": "JHN.7.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.41",
+          "sourceRef": "JHN.7.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.44"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.42",
+          "sourceRef": "JHN.7.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.43",
+          "sourceRef": "JHN.7.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.44",
+          "sourceRef": "JHN.7.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.45",
+          "sourceRef": "JHN.7.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.46",
+          "sourceRef": "JHN.7.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.47",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.47",
+          "sourceRef": "JHN.7.47",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.48",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.48",
+          "sourceRef": "JHN.7.48",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.49",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.49",
+          "sourceRef": "JHN.7.49",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.50",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.50",
+          "sourceRef": "JHN.7.50",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.51",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.51",
+          "sourceRef": "JHN.7.51",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.52",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "JHN.7.note.45"
+      ],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.52",
+          "sourceRef": "JHN.7.52",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.7.53",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 7,
+          "segmentId": "JHN.7.53",
+          "sourceRef": "JHN.7.53",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

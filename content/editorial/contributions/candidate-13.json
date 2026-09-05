@@ -1,0 +1,24 @@
+{
+  "unitId": "candidate-13",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-4/candidate-13-RETURNED-2026-09-05.md",
+  "returnedSha256": "7a7381dd646a2acf3951a757ea62d42d4d511ed5955a9068bf5ab8d886dfb157",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C plus exact approved factual replacements, reconciled source locators and the specified presentation metadata. D and independent manuscript attestations remain excluded.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "proposedCorrections": "docs/editorial-review/returns/2026-09-05/batch-4/proposed-corrections.json",
+  "correctionApproval": {
+    "date": "2026-09-05",
+    "reply": "Approve all proposed corrections",
+    "scope": "docs/editorial-review/returns/2026-09-05/batch-4/PROPOSED-CORRECTIONS.md",
+    "proposalSha256": "354449f9b23579e29e975212112d398e5e332c5231a40f1b1ba171f2a1ae0ff4"
+  },
+  "approvedContentHash": "f616711fdc35121e74e9488253ae86af1d12cf27c19a8c808ced66e9b5389561"
+}

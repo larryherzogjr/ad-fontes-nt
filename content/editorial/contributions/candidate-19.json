@@ -1,0 +1,24 @@
+{
+  "unitId": "candidate-19",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-3/candidate-19-RETURNED-2026-09-05.md",
+  "returnedSha256": "3c3170136f3dd48e51059950aaa28e334660872c2a3c3b346c2f8fed750537a2",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, referenced source records, approved related links and exact partial-verse boundaries; optional D is archival only.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": [
+    [
+      "Two different kinds of difference in one note; only the second concerns whether a whole sentence stood in Luke's account.",
+      "The wording difference at verse 33 and the presence of verse 34 are separate textual matters; the latter concerns whether a whole sentence stood in Luke's account."
+    ]
+  ],
+  "correctionApproval": "Larry Herzog Jr.: Approve all proposed corrections (2026-09-05)",
+  "approvedContentHash": "a1bfa544c5a9da34e5233386b6ce3fee33cd6faad24260a30872d390f9f5fe3c"
+}

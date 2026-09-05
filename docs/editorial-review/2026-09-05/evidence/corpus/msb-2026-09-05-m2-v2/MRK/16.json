@@ -1,0 +1,2410 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/615",
+      "runs": [
+        {
+          "text": "The Resurrection",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/616",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 28:1–10",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 24:1–12",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 20:1–9",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/617",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MRK.16.1",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": "When the Sabbath was over, Mary Magdalene, Mary the ",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": "When the Sabbath was over, Mary Magdalene, Mary the ",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": "mother",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": "mother",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": " of James, and Salome bought spices so they could go ",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": " of James, and Salome bought spices so they could go ",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": " anoint ",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": " anoint ",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": "the body of Jesus",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": "the body of Jesus",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.16.1",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MRK.16.1"
+          ],
+          "sourceAnchor": "MRK.16.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MRK.16.2",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "text": "Very early on the first ",
+          "anchor": "MRK.16.2",
+          "marks": [],
+          "originalText": "Very early on the first ",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "text": "day",
+          "anchor": "MRK.16.2",
+          "marks": [],
+          "originalText": "day",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "text": " of the week,",
+          "anchor": "MRK.16.2",
+          "marks": [],
+          "originalText": " of the week,",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "noteId": "MRK.16.2.note.328",
+          "anchor": "MRK.16.2",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "text": " just after sunrise, they went to the tomb.",
+          "anchor": "MRK.16.2",
+          "marks": [],
+          "originalText": " just after sunrise, they went to the tomb. ",
+          "anchors": [
+            "MRK.16.2"
+          ],
+          "sourceAnchor": "MRK.16.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.16.3",
+          "anchors": [
+            "MRK.16.3"
+          ],
+          "sourceAnchor": "MRK.16.3"
+        },
+        {
+          "text": "They were asking one another, “Who will roll away the stone from the entrance of the tomb?”",
+          "anchor": "MRK.16.3",
+          "marks": [],
+          "originalText": "They were asking one another, “Who will roll away the stone from the entrance of the tomb?” ",
+          "anchors": [
+            "MRK.16.3"
+          ],
+          "sourceAnchor": "MRK.16.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.16.4",
+          "anchors": [
+            "MRK.16.4"
+          ],
+          "sourceAnchor": "MRK.16.4"
+        },
+        {
+          "text": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large.",
+          "anchor": "MRK.16.4",
+          "marks": [],
+          "originalText": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large.",
+          "anchors": [
+            "MRK.16.4"
+          ],
+          "sourceAnchor": "MRK.16.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/618",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.4"
+          ],
+          "sourceAnchor": "MRK.16.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.16.5",
+          "anchors": [
+            "MRK.16.5"
+          ],
+          "sourceAnchor": "MRK.16.5"
+        },
+        {
+          "text": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed.",
+          "anchor": "MRK.16.5",
+          "marks": [],
+          "originalText": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed. ",
+          "anchors": [
+            "MRK.16.5"
+          ],
+          "sourceAnchor": "MRK.16.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.16.6",
+          "anchors": [
+            "MRK.16.6"
+          ],
+          "sourceAnchor": "MRK.16.6"
+        },
+        {
+          "text": "But he said to them, “",
+          "anchor": "MRK.16.6",
+          "marks": [],
+          "originalText": "But he said to them, “",
+          "anchors": [
+            "MRK.16.6"
+          ],
+          "sourceAnchor": "MRK.16.6"
+        },
+        {
+          "text": "Do",
+          "anchor": "MRK.16.6",
+          "marks": [],
+          "originalText": "Do",
+          "anchors": [
+            "MRK.16.6"
+          ],
+          "sourceAnchor": "MRK.16.6"
+        },
+        {
+          "text": " not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him.",
+          "anchor": "MRK.16.6",
+          "marks": [],
+          "originalText": " not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him. ",
+          "anchors": [
+            "MRK.16.6"
+          ],
+          "sourceAnchor": "MRK.16.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.16.7",
+          "anchors": [
+            "MRK.16.7"
+          ],
+          "sourceAnchor": "MRK.16.7"
+        },
+        {
+          "text": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”",
+          "anchor": "MRK.16.7",
+          "marks": [],
+          "originalText": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”",
+          "anchors": [
+            "MRK.16.7"
+          ],
+          "sourceAnchor": "MRK.16.7"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/619",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.7",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.7"
+          ],
+          "sourceAnchor": "MRK.16.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.16.8",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": "So ",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": "So ",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": "the women",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": "the women",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": " left the tomb and ran away,",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": " left the tomb and ran away,",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "noteId": "MRK.16.8.note.329",
+          "anchor": "MRK.16.8",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": " trembling and bewildered. And in their fear they did not say ",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": " trembling and bewildered. And in their fear they did not say ",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": "a word to anyone",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": "a word to anyone",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": ".",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "noteId": "MRK.16.8.note.330",
+          "anchor": "MRK.16.8",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/620",
+      "runs": [
+        {
+          "text": "Jesus Appears to Mary Magdalene",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/621",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 20:10–18",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/622",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.8"
+          ],
+          "sourceAnchor": "MRK.16.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MRK.16.9",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": "Early ",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": "Early ",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": "on the",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": "on the",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": " first ",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": " first ",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": "day",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": "day",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": " of the week, after ",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": " of the week, after ",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": " had risen,",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": " had risen,",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "noteId": "MRK.16.9.note.331",
+          "anchor": "MRK.16.9",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "text": " He appeared first to Mary Magdalene, from whom He had driven out seven demons.",
+          "anchor": "MRK.16.9",
+          "marks": [],
+          "originalText": " He appeared first to Mary Magdalene, from whom He had driven out seven demons. ",
+          "anchors": [
+            "MRK.16.9"
+          ],
+          "sourceAnchor": "MRK.16.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.16.10",
+          "anchors": [
+            "MRK.16.10"
+          ],
+          "sourceAnchor": "MRK.16.10"
+        },
+        {
+          "text": "She went ",
+          "anchor": "MRK.16.10",
+          "marks": [],
+          "originalText": "She went ",
+          "anchors": [
+            "MRK.16.10"
+          ],
+          "sourceAnchor": "MRK.16.10"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.16.10",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.16.10"
+          ],
+          "sourceAnchor": "MRK.16.10"
+        },
+        {
+          "text": " told those who had been with Him, who were mourning and weeping.",
+          "anchor": "MRK.16.10",
+          "marks": [],
+          "originalText": " told those who had been with Him, who were mourning and weeping. ",
+          "anchors": [
+            "MRK.16.10"
+          ],
+          "sourceAnchor": "MRK.16.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.16.11",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "text": "And when they heard that ",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": "And when they heard that ",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "text": " was alive and she had seen Him, they did not believe ",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": " was alive and she had seen Him, they did not believe ",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "text": "it",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": ".",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/623",
+      "runs": [
+        {
+          "text": "Jesus Appears to Two Disciples",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/624",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 24:13–35",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/625",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.11"
+          ],
+          "sourceAnchor": "MRK.16.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MRK.16.12",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": "After ",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": "After ",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": "this",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": "this",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": ", ",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": ", ",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": " appeared in a different form to two of them as they walked along in ",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": " appeared in a different form to two of them as they walked along in ",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "text": " country.",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": " country.",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/626",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.12"
+          ],
+          "sourceAnchor": "MRK.16.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.16.13",
+          "anchors": [
+            "MRK.16.13"
+          ],
+          "sourceAnchor": "MRK.16.13"
+        },
+        {
+          "text": "And they went back and reported ",
+          "anchor": "MRK.16.13",
+          "marks": [],
+          "originalText": "And they went back and reported ",
+          "anchors": [
+            "MRK.16.13"
+          ],
+          "sourceAnchor": "MRK.16.13"
+        },
+        {
+          "text": "it",
+          "anchor": "MRK.16.13",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MRK.16.13"
+          ],
+          "sourceAnchor": "MRK.16.13"
+        },
+        {
+          "text": " to the rest, but they did not believe them either.",
+          "anchor": "MRK.16.13",
+          "marks": [],
+          "originalText": " to the rest, but they did not believe them either.",
+          "anchors": [
+            "MRK.16.13"
+          ],
+          "sourceAnchor": "MRK.16.13"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/627",
+      "runs": [
+        {
+          "text": "The Great Commission",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/628",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 28:16–20",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/629",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.13"
+          ],
+          "sourceAnchor": "MRK.16.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MRK.16.14",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        },
+        {
+          "text": "Later, as they were eating, ",
+          "anchor": "MRK.16.14",
+          "marks": [],
+          "originalText": "Later, as they were eating, ",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.16.14",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        },
+        {
+          "text": " appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.",
+          "anchor": "MRK.16.14",
+          "marks": [],
+          "originalText": " appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        },
+        {
+          "noteId": "MRK.16.14.note.332",
+          "anchor": "MRK.16.14",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/630",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.14"
+          ],
+          "sourceAnchor": "MRK.16.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.16.15",
+          "anchors": [
+            "MRK.16.15"
+          ],
+          "sourceAnchor": "MRK.16.15"
+        },
+        {
+          "text": "And He said to them, ",
+          "anchor": "MRK.16.15",
+          "marks": [],
+          "originalText": "And He said to them, ",
+          "anchors": [
+            "MRK.16.15"
+          ],
+          "sourceAnchor": "MRK.16.15"
+        },
+        {
+          "text": "“Go into all the world ",
+          "anchor": "MRK.16.15",
+          "marks": [],
+          "originalText": "“Go into all the world ",
+          "anchors": [
+            "MRK.16.15"
+          ],
+          "sourceAnchor": "MRK.16.15"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.16.15",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.16.15"
+          ],
+          "sourceAnchor": "MRK.16.15"
+        },
+        {
+          "text": " preach the gospel to every creature.",
+          "anchor": "MRK.16.15",
+          "marks": [],
+          "originalText": " preach the gospel to every creature. ",
+          "anchors": [
+            "MRK.16.15"
+          ],
+          "sourceAnchor": "MRK.16.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MRK.16.16",
+          "anchors": [
+            "MRK.16.16"
+          ],
+          "sourceAnchor": "MRK.16.16"
+        },
+        {
+          "text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.",
+          "anchor": "MRK.16.16",
+          "marks": [],
+          "originalText": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned. ",
+          "anchors": [
+            "MRK.16.16"
+          ],
+          "sourceAnchor": "MRK.16.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.16.17",
+          "anchors": [
+            "MRK.16.17"
+          ],
+          "sourceAnchor": "MRK.16.17"
+        },
+        {
+          "text": "And these signs will accompany",
+          "anchor": "MRK.16.17",
+          "marks": [],
+          "originalText": "And these signs will accompany",
+          "anchors": [
+            "MRK.16.17"
+          ],
+          "sourceAnchor": "MRK.16.17"
+        },
+        {
+          "noteId": "MRK.16.17.note.333",
+          "anchor": "MRK.16.17",
+          "anchors": [
+            "MRK.16.17"
+          ],
+          "sourceAnchor": "MRK.16.17"
+        },
+        {
+          "text": " those who believe: In My name they will drive out demons; they will speak in new tongues;",
+          "anchor": "MRK.16.17",
+          "marks": [],
+          "originalText": " those who believe: In My name they will drive out demons; they will speak in new tongues;",
+          "anchors": [
+            "MRK.16.17"
+          ],
+          "sourceAnchor": "MRK.16.17"
+        },
+        {
+          "noteId": "MRK.16.17.note.334",
+          "anchor": "MRK.16.17",
+          "anchors": [
+            "MRK.16.17"
+          ],
+          "sourceAnchor": "MRK.16.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.16.18",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": "they will pick up snakes,",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": "they will pick up snakes,",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "noteId": "MRK.16.18.note.335",
+          "anchor": "MRK.16.18",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": " and if they drink any deadly poison, it will not harm them; they will lay ",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": " and if they drink any deadly poison, it will not harm them; they will lay ",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": "their",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": "their",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": " hands on ",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": " hands on ",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "text": " sick, and they will be made well.”",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": " sick, and they will be made well.”",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/631",
+      "runs": [
+        {
+          "text": "The Ascension",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/632",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 24:50–53",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Acts 1:6–11",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/633",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.18"
+          ],
+          "sourceAnchor": "MRK.16.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.16.19",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "text": "After the Lord",
+          "anchor": "MRK.16.19",
+          "marks": [],
+          "originalText": "After the Lord",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "noteId": "MRK.16.19.note.336",
+          "anchor": "MRK.16.19",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "text": " had spoken to them, He was taken up into heaven and sat down at ",
+          "anchor": "MRK.16.19",
+          "marks": [],
+          "originalText": " had spoken to them, He was taken up into heaven and sat down at ",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.16.19",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "text": " right hand of God.",
+          "anchor": "MRK.16.19",
+          "marks": [],
+          "originalText": " right hand of God.",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/634",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.16.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.16.19"
+          ],
+          "sourceAnchor": "MRK.16.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.16.20",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "And they went out ",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "And they went out ",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": " preached everywhere, ",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": " preached everywhere, ",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": " the Lord worked through ",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": " the Lord worked through ",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "them",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "them",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": ", confirming ",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": ", confirming ",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "His",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "His",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": " word by the signs that accompanied ",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": " word by the signs that accompanied ",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": "it",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "text": ". Amen.",
+          "anchor": "MRK.16.20",
+          "marks": [],
+          "originalText": ". Amen.",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        },
+        {
+          "noteId": "MRK.16.20.note.337",
+          "anchor": "MRK.16.20",
+          "anchors": [
+            "MRK.16.20"
+          ],
+          "sourceAnchor": "MRK.16.20"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.16.1",
+      "sourceRef": "MRK.16.1",
+      "sourceId": "MRK.usj#content/617/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.16.1"
+      ],
+      "mappingType": "exact",
+      "text": "When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could go and anoint the body of Jesus.",
+      "originalText": "When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could go and anoint the body of Jesus.",
+      "originalStructuredText": "When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could go and anoint the body of Jesus. ",
+      "textSourceId": "msb.txt#line=24878"
+    },
+    {
+      "id": "MRK.16.2",
+      "sourceRef": "MRK.16.2",
+      "sourceId": "MRK.usj#content/617/content/9",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.16.2"
+      ],
+      "mappingType": "exact",
+      "text": "Very early on the first day of the week, just after sunrise, they went to the tomb.",
+      "originalText": "Very early on the first day of the week, just after sunrise, they went to the tomb.",
+      "originalStructuredText": "Very early on the first day of the week, just after sunrise, they went to the tomb. ",
+      "textSourceId": "msb.txt#line=24879"
+    },
+    {
+      "id": "MRK.16.3",
+      "sourceRef": "MRK.16.3",
+      "sourceId": "MRK.usj#content/617/content/15",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.16.3"
+      ],
+      "mappingType": "exact",
+      "text": "They were asking one another, “Who will roll away the stone from the entrance of the tomb?”",
+      "originalText": "They were asking one another, “Who will roll away the stone from the entrance of the tomb?”",
+      "originalStructuredText": "They were asking one another, “Who will roll away the stone from the entrance of the tomb?” ",
+      "textSourceId": "msb.txt#line=24880"
+    },
+    {
+      "id": "MRK.16.4",
+      "sourceRef": "MRK.16.4",
+      "sourceId": "MRK.usj#content/617/content/17",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.16.4"
+      ],
+      "mappingType": "exact",
+      "text": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large.",
+      "originalText": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large.",
+      "originalStructuredText": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large.\n ",
+      "textSourceId": "msb.txt#line=24881"
+    },
+    {
+      "id": "MRK.16.5",
+      "sourceRef": "MRK.16.5",
+      "sourceId": "MRK.usj#content/618/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.16.5"
+      ],
+      "mappingType": "exact",
+      "text": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed.",
+      "originalText": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed.",
+      "originalStructuredText": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed. ",
+      "textSourceId": "msb.txt#line=24882"
+    },
+    {
+      "id": "MRK.16.6",
+      "sourceRef": "MRK.16.6",
+      "sourceId": "MRK.usj#content/618/content/3",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.16.6"
+      ],
+      "mappingType": "exact",
+      "text": "But he said to them, “Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him.",
+      "originalText": "But he said to them, “Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him.",
+      "originalStructuredText": "But he said to them, “Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him. ",
+      "textSourceId": "msb.txt#line=24883"
+    },
+    {
+      "id": "MRK.16.7",
+      "sourceRef": "MRK.16.7",
+      "sourceId": "MRK.usj#content/618/content/7",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.16.7"
+      ],
+      "mappingType": "exact",
+      "text": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”",
+      "originalText": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”",
+      "originalStructuredText": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”\n ",
+      "textSourceId": "msb.txt#line=24884"
+    },
+    {
+      "id": "MRK.16.8",
+      "sourceRef": "MRK.16.8",
+      "sourceId": "MRK.usj#content/619/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.16.8"
+      ],
+      "mappingType": "exact",
+      "text": "So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone.",
+      "originalText": "So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone.",
+      "originalStructuredText": "So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone.\n ",
+      "textSourceId": "msb.txt#line=24885"
+    },
+    {
+      "id": "MRK.16.9",
+      "sourceRef": "MRK.16.9",
+      "sourceId": "MRK.usj#content/622/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.16.9"
+      ],
+      "mappingType": "exact",
+      "text": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons.",
+      "originalText": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons.",
+      "originalStructuredText": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons. ",
+      "textSourceId": "msb.txt#line=24886"
+    },
+    {
+      "id": "MRK.16.10",
+      "sourceRef": "MRK.16.10",
+      "sourceId": "MRK.usj#content/622/content/11",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.16.10"
+      ],
+      "mappingType": "exact",
+      "text": "She went and told those who had been with Him, who were mourning and weeping.",
+      "originalText": "She went and told those who had been with Him, who were mourning and weeping.",
+      "originalStructuredText": "She went and told those who had been with Him, who were mourning and weeping. ",
+      "textSourceId": "msb.txt#line=24887"
+    },
+    {
+      "id": "MRK.16.11",
+      "sourceRef": "MRK.16.11",
+      "sourceId": "MRK.usj#content/622/content/15",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.16.11"
+      ],
+      "mappingType": "exact",
+      "text": "And when they heard that Jesus was alive and she had seen Him, they did not believe it.",
+      "originalText": "And when they heard that Jesus was alive and she had seen Him, they did not believe it.",
+      "originalStructuredText": "And when they heard that Jesus was alive and she had seen Him, they did not believe it.\n ",
+      "textSourceId": "msb.txt#line=24888"
+    },
+    {
+      "id": "MRK.16.12",
+      "sourceRef": "MRK.16.12",
+      "sourceId": "MRK.usj#content/625/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.16.12"
+      ],
+      "mappingType": "exact",
+      "text": "After this, Jesus appeared in a different form to two of them as they walked along in the country.",
+      "originalText": "After this, Jesus appeared in a different form to two of them as they walked along in the country.",
+      "originalStructuredText": "After this, Jesus appeared in a different form to two of them as they walked along in the country.\n ",
+      "textSourceId": "msb.txt#line=24889"
+    },
+    {
+      "id": "MRK.16.13",
+      "sourceRef": "MRK.16.13",
+      "sourceId": "MRK.usj#content/626/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.16.13"
+      ],
+      "mappingType": "exact",
+      "text": "And they went back and reported it to the rest, but they did not believe them either.",
+      "originalText": "And they went back and reported it to the rest, but they did not believe them either.",
+      "originalStructuredText": "And they went back and reported it to the rest, but they did not believe them either.\n ",
+      "textSourceId": "msb.txt#line=24890"
+    },
+    {
+      "id": "MRK.16.14",
+      "sourceRef": "MRK.16.14",
+      "sourceId": "MRK.usj#content/629/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.16.14"
+      ],
+      "mappingType": "exact",
+      "text": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.",
+      "originalText": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.",
+      "originalStructuredText": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.\n ",
+      "textSourceId": "msb.txt#line=24891"
+    },
+    {
+      "id": "MRK.16.15",
+      "sourceRef": "MRK.16.15",
+      "sourceId": "MRK.usj#content/630/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.16.15"
+      ],
+      "mappingType": "exact",
+      "text": "And He said to them, “Go into all the world and preach the gospel to every creature.",
+      "originalText": "And He said to them, “Go into all the world and preach the gospel to every creature.",
+      "originalStructuredText": "And He said to them, “Go into all the world and preach the gospel to every creature. ",
+      "textSourceId": "msb.txt#line=24892"
+    },
+    {
+      "id": "MRK.16.16",
+      "sourceRef": "MRK.16.16",
+      "sourceId": "MRK.usj#content/630/content/3/content/3",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.16.16"
+      ],
+      "mappingType": "exact",
+      "text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.",
+      "originalText": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.",
+      "originalStructuredText": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned. ",
+      "textSourceId": "msb.txt#line=24893"
+    },
+    {
+      "id": "MRK.16.17",
+      "sourceRef": "MRK.16.17",
+      "sourceId": "MRK.usj#content/630/content/3/content/5",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.16.17"
+      ],
+      "mappingType": "exact",
+      "text": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;",
+      "originalText": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;",
+      "originalStructuredText": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;",
+      "textSourceId": "msb.txt#line=24894"
+    },
+    {
+      "id": "MRK.16.18",
+      "sourceRef": "MRK.16.18",
+      "sourceId": "MRK.usj#content/630/content/3/content/10",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.16.18"
+      ],
+      "mappingType": "exact",
+      "text": "they will pick up snakes, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”",
+      "originalText": "they will pick up snakes, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”",
+      "originalStructuredText": "they will pick up snakes, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”\n ",
+      "textSourceId": "msb.txt#line=24895"
+    },
+    {
+      "id": "MRK.16.19",
+      "sourceRef": "MRK.16.19",
+      "sourceId": "MRK.usj#content/633/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.16.19"
+      ],
+      "mappingType": "exact",
+      "text": "After the Lord had spoken to them, He was taken up into heaven and sat down at the right hand of God.",
+      "originalText": "After the Lord had spoken to them, He was taken up into heaven and sat down at the right hand of God.",
+      "originalStructuredText": "After the Lord had spoken to them, He was taken up into heaven and sat down at the right hand of God.\n ",
+      "textSourceId": "msb.txt#line=24896"
+    },
+    {
+      "id": "MRK.16.20",
+      "sourceRef": "MRK.16.20",
+      "sourceId": "MRK.usj#content/634/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.16.20"
+      ],
+      "mappingType": "exact",
+      "text": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it. Amen.",
+      "originalText": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it. Amen.",
+      "originalStructuredText": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it. Amen.",
+      "textSourceId": "msb.txt#line=24897"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MRK.16.2.note.328",
+      "anchor": "MRK.16.2",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/617/content/13",
+      "body": "16:2 Literally And very early on the first of the Sabbaths,",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "And very early on the first of the Sabbaths,"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.8.note.329",
+      "anchor": "MRK.16.8",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/619/content/5",
+      "body": "16:8 TR ran away quickly",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "ran away quickly"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.8.note.330",
+      "anchor": "MRK.16.8",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/619/content/9",
+      "body": "16:8 Some manuscripts end the Gospel of Mark after verse 8. Other manuscripts contain only a short ending, a version of the following: 9But they quickly reported all these instructions to Peter’s companions. Afterward, Jesus Himself, through them, sent out from east to west the sacred and imperishable proclamation of eternal salvation. Amen.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some manuscripts end the Gospel of Mark after verse 8. Other manuscripts contain only a short ending, a version of the following: "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              {
+                "type": "char",
+                "marker": "fv",
+                "content": [
+                  "9"
+                ]
+              },
+              "But they quickly reported all these instructions to Peter’s companions. Afterward, Jesus Himself, through them, sent out from east to west the sacred and imperishable proclamation of eternal salvation. Amen."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.9.note.331",
+      "anchor": "MRK.16.9",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/622/content/9",
+      "body": "16:9 Or After Jesus had risen early on the first day of the week",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "After Jesus had risen early on the first day of the week"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.14.note.332",
+      "anchor": "MRK.16.14",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/629/content/5",
+      "body": "16:14 WH risen from the dead",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "risen from the dead"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.17.note.333",
+      "anchor": "MRK.16.17",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/630/content/3/content/7",
+      "body": "16:17 TH and WH will follow",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:17 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TH and WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "will follow"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.17.note.334",
+      "anchor": "MRK.16.17",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/630/content/3/content/9",
+      "body": "16:17 TH and WH in tongues",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:17 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TH and WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in tongues"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.18.note.335",
+      "anchor": "MRK.16.18",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/630/content/3/content/12",
+      "body": "16:18 CT includes with their hands.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:18 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT includes "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "with their hands"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.19.note.336",
+      "anchor": "MRK.16.19",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/633/content/3",
+      "body": "16:19 Most CT After the Lord Jesus",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:19 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Most CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "After the Lord Jesus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.16.20.note.337",
+      "anchor": "MRK.16.20",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/634/content/13",
+      "body": "16:20 CT does not include Amen.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "16:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Amen."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MRK.16.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.1",
+          "sourceRef": "MRK.16.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.2.note.328"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.2",
+          "sourceRef": "MRK.16.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.3",
+          "sourceRef": "MRK.16.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.4",
+          "sourceRef": "MRK.16.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.5",
+          "sourceRef": "MRK.16.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.6",
+          "sourceRef": "MRK.16.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.7",
+          "sourceRef": "MRK.16.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.8.note.329",
+        "MRK.16.8.note.330"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.8",
+          "sourceRef": "MRK.16.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.9.note.331"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.9",
+          "sourceRef": "MRK.16.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.10",
+          "sourceRef": "MRK.16.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.11",
+          "sourceRef": "MRK.16.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.12",
+          "sourceRef": "MRK.16.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.13",
+          "sourceRef": "MRK.16.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.14.note.332"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.14",
+          "sourceRef": "MRK.16.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.15",
+          "sourceRef": "MRK.16.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.16",
+          "sourceRef": "MRK.16.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.17.note.333",
+        "MRK.16.17.note.334"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.17",
+          "sourceRef": "MRK.16.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.18.note.335"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.18",
+          "sourceRef": "MRK.16.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.19.note.336"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.19",
+          "sourceRef": "MRK.16.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.16.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.16.20.note.337"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 16,
+          "segmentId": "MRK.16.20",
+          "sourceRef": "MRK.16.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

@@ -1,0 +1,23 @@
+{
+  "unitId": "candidate-29",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-5/candidate-29-RETURNED-2026-09-05.md",
+  "returnedSha256": "88660b35cd5d1ec1701afb7630ad35b610a547cf92525db77ad39d4105b89824",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J. Codex staged the separately documented factual corrections.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, reconciled source references, requested cross-links and all exact proposed corrections explicitly approved in the conversation on 2026-09-05. D/F remain archival.",
+  "integrationState": "approved for local publication",
+  "proposedCorrections": "docs/editorial-review/returns/2026-09-05/batch-5/proposed-corrections.json",
+  "independentVerification": "All 253 frozen files and five supplied-evidence sections match; all seven local edition readings and notes checked. Book attribution checked at cited printed pages; this does not independently verify manuscript claims.",
+  "correctionApproval": {
+    "date": "2026-09-05",
+    "reply": "Approve all proposed corrections",
+    "source": "Explicit user reply to batch-5 correction question"
+  },
+  "approvedContentHash": "e69289d7f6318965309f6b6aa36bf60ff6bc4a27698b23bd79fce0b2f3b06fd4"
+}

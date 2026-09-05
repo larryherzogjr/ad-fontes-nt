@@ -1,0 +1,35 @@
+{
+  "unitId": "candidate-09",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-2/candidate-09-RETURNED-2026-09-05.md",
+  "returnedSha256": "23ed192668f2849264e2837bbb049d362aab3a433d039cdf3cedfd51ae6d813a",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C and corresponding source references. D and manuscript/early-witness discussion not imported.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": {
+    "decision": "approved",
+    "reviewer": "Larry Herzog Jr.",
+    "date": "2026-09-05",
+    "response": "Approve all proposed corrections",
+    "proposal": "docs/editorial-review/returns/2026-09-05/batch-2/PROPOSED-CORRECTIONS.md",
+    "replacements": [
+      [
+        "the two Greek editions in the comparison that print verse 26 and the two that do not",
+        "the two Greek editions in the comparison that print verse 26 and the one that does not"
+      ],
+      [
+        "stands in all seven editions compared here, without a footnote anywhere [C2].",
+        "stands in all seven editions compared here [C2]. MSB records a wording difference and a literal rendering in its notes, but none of these seven editions omits the verse."
+      ]
+    ]
+  },
+  "approvedContentHash": "343d75e28744ec617b8b2b03f44845bd6319d80ba2d77ff1c556c12d784dcf50",
+  "integrationVerification": "docs/editorial-review/returns/2026-09-05/batch-2/RECONCILIATION.md"
+}

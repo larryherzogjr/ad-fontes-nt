@@ -1,0 +1,546 @@
+[
+  {
+    "name": ".github",
+    "path": ".github",
+    "sha": "bb174cef7b06750998f0e2e77eb527aaa08ac343",
+    "size": 0,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/.github?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/tree/main/.github",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/bb174cef7b06750998f0e2e77eb527aaa08ac343",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/.github?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/bb174cef7b06750998f0e2e77eb527aaa08ac343",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/tree/main/.github"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "ae9562dbedda8408664876dd0533d623157ed1d9",
+    "size": 5005,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ae9562dbedda8408664876dd0533d623157ed1d9",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ae9562dbedda8408664876dd0533d623157ed1d9",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "ef8ee40abd0e403521f2d3bf1fd63ab838031051",
+    "size": 2798,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ef8ee40abd0e403521f2d3bf1fd63ab838031051",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ef8ee40abd0e403521f2d3bf1fd63ab838031051",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "LICENSING_INFO.md",
+    "path": "LICENSING_INFO.md",
+    "sha": "91e727906932f7783832ee01d0c4b2ab19bc50ba",
+    "size": 6934,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/LICENSING_INFO.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/LICENSING_INFO.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/91e727906932f7783832ee01d0c4b2ab19bc50ba",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/LICENSING_INFO.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/LICENSING_INFO.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/91e727906932f7783832ee01d0c4b2ab19bc50ba",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/LICENSING_INFO.md"
+    }
+  },
+  {
+    "name": "MAKEFILE_UPDATES.md",
+    "path": "MAKEFILE_UPDATES.md",
+    "sha": "59443ff82f1873814d4a4754a60ee7a7759fcccf",
+    "size": 4726,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/MAKEFILE_UPDATES.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/MAKEFILE_UPDATES.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/59443ff82f1873814d4a4754a60ee7a7759fcccf",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/MAKEFILE_UPDATES.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/MAKEFILE_UPDATES.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/59443ff82f1873814d4a4754a60ee7a7759fcccf",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/MAKEFILE_UPDATES.md"
+    }
+  },
+  {
+    "name": "MULTI_SOURCE_ADAPTATION.md",
+    "path": "MULTI_SOURCE_ADAPTATION.md",
+    "sha": "25fbaebd138619e95c2c19dac74ab24060c8c023",
+    "size": 4293,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/MULTI_SOURCE_ADAPTATION.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/MULTI_SOURCE_ADAPTATION.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/25fbaebd138619e95c2c19dac74ab24060c8c023",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/MULTI_SOURCE_ADAPTATION.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/MULTI_SOURCE_ADAPTATION.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/25fbaebd138619e95c2c19dac74ab24060c8c023",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/MULTI_SOURCE_ADAPTATION.md"
+    }
+  },
+  {
+    "name": "Makefile",
+    "path": "Makefile",
+    "sha": "aa24e16e91c0810129551f4a3d10ca6a51579cb5",
+    "size": 7754,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/Makefile?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/Makefile",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/aa24e16e91c0810129551f4a3d10ca6a51579cb5",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/Makefile",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/Makefile?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/aa24e16e91c0810129551f4a3d10ca6a51579cb5",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/Makefile"
+    }
+  },
+  {
+    "name": "NAVIGATION_GUIDE.md",
+    "path": "NAVIGATION_GUIDE.md",
+    "sha": "6534921a3288f63e20da31913e9beb4a81d253ee",
+    "size": 4932,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/NAVIGATION_GUIDE.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/NAVIGATION_GUIDE.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/6534921a3288f63e20da31913e9beb4a81d253ee",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/NAVIGATION_GUIDE.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/NAVIGATION_GUIDE.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/6534921a3288f63e20da31913e9beb4a81d253ee",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/NAVIGATION_GUIDE.md"
+    }
+  },
+  {
+    "name": "PARATEXT_ADAPTATIONS.md",
+    "path": "PARATEXT_ADAPTATIONS.md",
+    "sha": "0bd4105fecc7378ddc7466905516a5ab660de997",
+    "size": 8239,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/PARATEXT_ADAPTATIONS.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/PARATEXT_ADAPTATIONS.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/0bd4105fecc7378ddc7466905516a5ab660de997",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/PARATEXT_ADAPTATIONS.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/PARATEXT_ADAPTATIONS.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/0bd4105fecc7378ddc7466905516a5ab660de997",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/PARATEXT_ADAPTATIONS.md"
+    }
+  },
+  {
+    "name": "QUICKSTART.md",
+    "path": "QUICKSTART.md",
+    "sha": "015f2f455e103f015e3387cd993887f1f14c7090",
+    "size": 3389,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/QUICKSTART.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/QUICKSTART.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/015f2f455e103f015e3387cd993887f1f14c7090",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/QUICKSTART.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/QUICKSTART.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/015f2f455e103f015e3387cd993887f1f14c7090",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/QUICKSTART.md"
+    }
+  },
+  {
+    "name": "QUICK_START_ZIPS.txt",
+    "path": "QUICK_START_ZIPS.txt",
+    "sha": "d4d9c98a72dcc634642fb54f6cc03f276c669765",
+    "size": 2820,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/QUICK_START_ZIPS.txt?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/QUICK_START_ZIPS.txt",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/d4d9c98a72dcc634642fb54f6cc03f276c669765",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/QUICK_START_ZIPS.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/QUICK_START_ZIPS.txt?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/d4d9c98a72dcc634642fb54f6cc03f276c669765",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/QUICK_START_ZIPS.txt"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "ebf0decff9cb999e9bce3ea0de3e800d74e21f71",
+    "size": 6878,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ebf0decff9cb999e9bce3ea0de3e800d74e21f71",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/ebf0decff9cb999e9bce3ea0de3e800d74e21f71",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README.md"
+    }
+  },
+  {
+    "name": "README_developer.md",
+    "path": "README_developer.md",
+    "sha": "e8b4d243b4c3e6b1598cdce40000c6a14dcc348d",
+    "size": 14478,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README_developer.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README_developer.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/e8b4d243b4c3e6b1598cdce40000c6a14dcc348d",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/README_developer.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README_developer.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/e8b4d243b4c3e6b1598cdce40000c6a14dcc348d",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README_developer.md"
+    }
+  },
+  {
+    "name": "README_zips.md",
+    "path": "README_zips.md",
+    "sha": "2522450bf74cbe18edf3caa76e2fd3d7e47f6197",
+    "size": 4761,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README_zips.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README_zips.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/2522450bf74cbe18edf3caa76e2fd3d7e47f6197",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/README_zips.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/README_zips.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/2522450bf74cbe18edf3caa76e2fd3d7e47f6197",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/README_zips.md"
+    }
+  },
+  {
+    "name": "RELEASE_NOTES.md",
+    "path": "RELEASE_NOTES.md",
+    "sha": "f13496ff88b4bfdb4e87c2e327cb76999285e79a",
+    "size": 6545,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/RELEASE_NOTES.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/RELEASE_NOTES.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/f13496ff88b4bfdb4e87c2e327cb76999285e79a",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/RELEASE_NOTES.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/RELEASE_NOTES.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/f13496ff88b4bfdb4e87c2e327cb76999285e79a",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/RELEASE_NOTES.md"
+    }
+  },
+  {
+    "name": "SETUP.md",
+    "path": "SETUP.md",
+    "sha": "c5063b97956b68d6164af6a74b91c31a1f17f19e",
+    "size": 12603,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/SETUP.md?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/SETUP.md",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/c5063b97956b68d6164af6a74b91c31a1f17f19e",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/SETUP.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/SETUP.md?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/c5063b97956b68d6164af6a74b91c31a1f17f19e",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/SETUP.md"
+    }
+  },
+  {
+    "name": "UNLICENSE",
+    "path": "UNLICENSE",
+    "sha": "24301264902934b77b597e38fbd78dad730b0ab2",
+    "size": 1405,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/UNLICENSE?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/UNLICENSE",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/24301264902934b77b597e38fbd78dad730b0ab2",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/UNLICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/UNLICENSE?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/24301264902934b77b597e38fbd78dad730b0ab2",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/UNLICENSE"
+    }
+  },
+  {
+    "name": "VERSION",
+    "path": "VERSION",
+    "sha": "95ee81a411792c5d968d8b3f783e35e690aaeaed",
+    "size": 4,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/VERSION?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/VERSION",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/95ee81a411792c5d968d8b3f783e35e690aaeaed",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/VERSION",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/VERSION?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/95ee81a411792c5d968d8b3f783e35e690aaeaed",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/VERSION"
+    }
+  },
+  {
+    "name": "adapt_usfm_for_paratext.py",
+    "path": "adapt_usfm_for_paratext.py",
+    "sha": "b4b0a50862930a1803024f272aa7c459703bfe0a",
+    "size": 19503,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/adapt_usfm_for_paratext.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/adapt_usfm_for_paratext.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/b4b0a50862930a1803024f272aa7c459703bfe0a",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/adapt_usfm_for_paratext.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/adapt_usfm_for_paratext.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/b4b0a50862930a1803024f272aa7c459703bfe0a",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/adapt_usfm_for_paratext.py"
+    }
+  },
+  {
+    "name": "adapt_usx_for_DBL.py",
+    "path": "adapt_usx_for_DBL.py",
+    "sha": "581d1cea3b528eb53bdaa8913dffa9fca539c96d",
+    "size": 6523,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/adapt_usx_for_DBL.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/adapt_usx_for_DBL.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/581d1cea3b528eb53bdaa8913dffa9fca539c96d",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/adapt_usx_for_DBL.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/adapt_usx_for_DBL.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/581d1cea3b528eb53bdaa8913dffa9fca539c96d",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/adapt_usx_for_DBL.py"
+    }
+  },
+  {
+    "name": "bsb2usfm.py",
+    "path": "bsb2usfm.py",
+    "sha": "1522cd40fcb835b10cc091aa84c7aed914c05b9e",
+    "size": 24736,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/bsb2usfm.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/bsb2usfm.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/1522cd40fcb835b10cc091aa84c7aed914c05b9e",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/bsb2usfm.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/bsb2usfm.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/1522cd40fcb835b10cc091aa84c7aed914c05b9e",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/bsb2usfm.py"
+    }
+  },
+  {
+    "name": "check_release.sh",
+    "path": "check_release.sh",
+    "sha": "207d0744664a5753014adaaf5aaa21d7801815d5",
+    "size": 6268,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/check_release.sh?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/check_release.sh",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/207d0744664a5753014adaaf5aaa21d7801815d5",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/check_release.sh",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/check_release.sh?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/207d0744664a5753014adaaf5aaa21d7801815d5",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/check_release.sh"
+    }
+  },
+  {
+    "name": "create_github_release.sh",
+    "path": "create_github_release.sh",
+    "sha": "5be462acfc885729c57398027a5ac7ddd3a34268",
+    "size": 2502,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/create_github_release.sh?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/create_github_release.sh",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/5be462acfc885729c57398027a5ac7ddd3a34268",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/create_github_release.sh",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/create_github_release.sh?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/5be462acfc885729c57398027a5ac7ddd3a34268",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/create_github_release.sh"
+    }
+  },
+  {
+    "name": "create_zips.py",
+    "path": "create_zips.py",
+    "sha": "95df1328a1ea8ea42ce0f01003d0ae5da1d30e26",
+    "size": 10828,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/create_zips.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/create_zips.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/95df1328a1ea8ea42ce0f01003d0ae5da1d30e26",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/create_zips.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/create_zips.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/95df1328a1ea8ea42ce0f01003d0ae5da1d30e26",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/create_zips.py"
+    }
+  },
+  {
+    "name": "demo_data",
+    "path": "demo_data",
+    "sha": "2f1df0958895801c0822f246151af942439cea5e",
+    "size": 0,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/demo_data?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/tree/main/demo_data",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/2f1df0958895801c0822f246151af942439cea5e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/demo_data?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/2f1df0958895801c0822f246151af942439cea5e",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/tree/main/demo_data"
+    }
+  },
+  {
+    "name": "fix_msb.py",
+    "path": "fix_msb.py",
+    "sha": "b93f872425bde5e8aa649e99e0da67e554bf3666",
+    "size": 5523,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/fix_msb.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/fix_msb.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/b93f872425bde5e8aa649e99e0da67e554bf3666",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/fix_msb.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/fix_msb.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/b93f872425bde5e8aa649e99e0da67e554bf3666",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/fix_msb.py"
+    }
+  },
+  {
+    "name": "getirefs.py",
+    "path": "getirefs.py",
+    "sha": "90915adff9d2d7dc488272c50d0e5ee3cc4e16ec",
+    "size": 858,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/getirefs.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/getirefs.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/90915adff9d2d7dc488272c50d0e5ee3cc4e16ec",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/getirefs.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/getirefs.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/90915adff9d2d7dc488272c50d0e5ee3cc4e16ec",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/getirefs.py"
+    }
+  },
+  {
+    "name": "mirror_bsb_ot_to_msb.py",
+    "path": "mirror_bsb_ot_to_msb.py",
+    "sha": "83a398f89c059a318f5d73c7963848b0a8ea1062",
+    "size": 2293,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/mirror_bsb_ot_to_msb.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/mirror_bsb_ot_to_msb.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/83a398f89c059a318f5d73c7963848b0a8ea1062",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/mirror_bsb_ot_to_msb.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/mirror_bsb_ot_to_msb.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/83a398f89c059a318f5d73c7963848b0a8ea1062",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/mirror_bsb_ot_to_msb.py"
+    }
+  },
+  {
+    "name": "prepare_release.sh",
+    "path": "prepare_release.sh",
+    "sha": "c17069140bc1869b3ffbe8d8811ca9983eec1097",
+    "size": 4931,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/prepare_release.sh?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/prepare_release.sh",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/c17069140bc1869b3ffbe8d8811ca9983eec1097",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/prepare_release.sh",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/prepare_release.sh?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/c17069140bc1869b3ffbe8d8811ca9983eec1097",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/prepare_release.sh"
+    }
+  },
+  {
+    "name": "render",
+    "path": "render",
+    "sha": "216fd7203a4faa19f87c96a9c67c5b6a3e49c2d2",
+    "size": 0,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/render?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/tree/main/render",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/216fd7203a4faa19f87c96a9c67c5b6a3e49c2d2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/render?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/216fd7203a4faa19f87c96a9c67c5b6a3e49c2d2",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/tree/main/render"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "requirements.txt",
+    "sha": "db230586925da63280716feee495f6ab5c47ee36",
+    "size": 74,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/requirements.txt?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/requirements.txt",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/db230586925da63280716feee495f6ab5c47ee36",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/requirements.txt?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/db230586925da63280716feee495f6ab5c47ee36",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/requirements.txt"
+    }
+  },
+  {
+    "name": "temp",
+    "path": "temp",
+    "sha": "202ac50d1463c34e8864e3ccb91b67d409efd567",
+    "size": 0,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/temp?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/tree/main/temp",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/202ac50d1463c34e8864e3ccb91b67d409efd567",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/temp?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/202ac50d1463c34e8864e3ccb91b67d409efd567",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/tree/main/temp"
+    }
+  },
+  {
+    "name": "usx_cleanup.py",
+    "path": "usx_cleanup.py",
+    "sha": "3db0051862a5c51f21f24bf018eca296a56a7af6",
+    "size": 9105,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/usx_cleanup.py?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/blob/main/usx_cleanup.py",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/3db0051862a5c51f21f24bf018eca296a56a7af6",
+    "download_url": "https://raw.githubusercontent.com/BSB-publishing/bsb2usfm/main/usx_cleanup.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/usx_cleanup.py?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/blobs/3db0051862a5c51f21f24bf018eca296a56a7af6",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/blob/main/usx_cleanup.py"
+    }
+  },
+  {
+    "name": "web_service",
+    "path": "web_service",
+    "sha": "5a8024599b8e34505cc50202e8ac6de326abb956",
+    "size": 0,
+    "url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/web_service?ref=main",
+    "html_url": "https://github.com/BSB-publishing/bsb2usfm/tree/main/web_service",
+    "git_url": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/5a8024599b8e34505cc50202e8ac6de326abb956",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/BSB-publishing/bsb2usfm/contents/web_service?ref=main",
+      "git": "https://api.github.com/repos/BSB-publishing/bsb2usfm/git/trees/5a8024599b8e34505cc50202e8ac6de326abb956",
+      "html": "https://github.com/BSB-publishing/bsb2usfm/tree/main/web_service"
+    }
+  }
+]

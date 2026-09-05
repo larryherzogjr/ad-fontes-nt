@@ -1,0 +1,1501 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=846",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "ACT.24.1",
+          "anchors": [
+            "ACT.24.1"
+          ],
+          "sourceAnchor": "ACT.24.1"
+        },
+        {
+          "text": "Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἀνανίας μετὰ τῶν πρεσβυτέρων καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου.",
+          "anchor": "ACT.24.1",
+          "marks": [],
+          "anchors": [
+            "ACT.24.1"
+          ],
+          "sourceAnchor": "ACT.24.1"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.1",
+          "marks": [],
+          "anchors": [
+            "ACT.24.1"
+          ],
+          "sourceAnchor": "ACT.24.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "ACT.24.2",
+          "anchors": [
+            "ACT.24.2"
+          ],
+          "sourceAnchor": "ACT.24.2"
+        },
+        {
+          "text": "Κληθέντος δὲ αὐτοῦ, ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων, ¶Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ, καὶ κατορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας,",
+          "anchor": "ACT.24.2",
+          "marks": [],
+          "anchors": [
+            "ACT.24.2"
+          ],
+          "sourceAnchor": "ACT.24.2"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.2",
+          "marks": [],
+          "anchors": [
+            "ACT.24.2"
+          ],
+          "sourceAnchor": "ACT.24.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "ACT.24.3",
+          "anchors": [
+            "ACT.24.3"
+          ],
+          "sourceAnchor": "ACT.24.3"
+        },
+        {
+          "text": "πάντῃ τε καὶ πανταχοῦ ἀποδεχόμεθα, κράτιστε Φῆλιξ, μετὰ πάσης εὐχαριστίας.",
+          "anchor": "ACT.24.3",
+          "marks": [],
+          "anchors": [
+            "ACT.24.3"
+          ],
+          "sourceAnchor": "ACT.24.3"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.3",
+          "marks": [],
+          "anchors": [
+            "ACT.24.3"
+          ],
+          "sourceAnchor": "ACT.24.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "ACT.24.4",
+          "anchors": [
+            "ACT.24.4"
+          ],
+          "sourceAnchor": "ACT.24.4"
+        },
+        {
+          "text": "Ἵνα δὲ μὴ ἐπὶ πλεῖόν σε ἐγκόπτω, παρακαλῶ ἀκοῦσαί σε ἡμῶν συντόμως τῇ σῇ ἐπιεικείᾳ.",
+          "anchor": "ACT.24.4",
+          "marks": [],
+          "anchors": [
+            "ACT.24.4"
+          ],
+          "sourceAnchor": "ACT.24.4"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.4",
+          "marks": [],
+          "anchors": [
+            "ACT.24.4"
+          ],
+          "sourceAnchor": "ACT.24.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "ACT.24.5",
+          "anchors": [
+            "ACT.24.5"
+          ],
+          "sourceAnchor": "ACT.24.5"
+        },
+        {
+          "text": "Εὑρόντες γὰρ τὸν ἄνδρα τοῦτον λοιμόν, καὶ κινοῦντα στάσιν πᾶσιν τοῖς Ἰουδαίοις τοῖς κατὰ τὴν οἰκουμένην, πρωτοστάτην τε τῆς τῶν Ναζωραίων αἱρέσεως·",
+          "anchor": "ACT.24.5",
+          "marks": [],
+          "anchors": [
+            "ACT.24.5"
+          ],
+          "sourceAnchor": "ACT.24.5"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.5",
+          "marks": [],
+          "anchors": [
+            "ACT.24.5"
+          ],
+          "sourceAnchor": "ACT.24.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "ACT.24.6",
+          "anchors": [
+            "ACT.24.6"
+          ],
+          "sourceAnchor": "ACT.24.6"
+        },
+        {
+          "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν·",
+          "anchor": "ACT.24.6",
+          "marks": [],
+          "anchors": [
+            "ACT.24.6"
+          ],
+          "sourceAnchor": "ACT.24.6"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.6",
+          "marks": [],
+          "anchors": [
+            "ACT.24.6"
+          ],
+          "sourceAnchor": "ACT.24.6"
+        },
+        {
+          "verse": "8",
+          "anchor": "ACT.24.8",
+          "anchors": [
+            "ACT.24.8"
+          ],
+          "sourceAnchor": "ACT.24.8"
+        },
+        {
+          "text": "παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ.",
+          "anchor": "ACT.24.8",
+          "marks": [],
+          "anchors": [
+            "ACT.24.8"
+          ],
+          "sourceAnchor": "ACT.24.8"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.8",
+          "marks": [],
+          "anchors": [
+            "ACT.24.8"
+          ],
+          "sourceAnchor": "ACT.24.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "ACT.24.9",
+          "anchors": [
+            "ACT.24.9"
+          ],
+          "sourceAnchor": "ACT.24.9"
+        },
+        {
+          "text": "Συνεπέθεντο δὲ καὶ οἱ Ἰουδαῖοι, φάσκοντες ταῦτα οὕτως ἔχειν.",
+          "anchor": "ACT.24.9",
+          "marks": [],
+          "anchors": [
+            "ACT.24.9"
+          ],
+          "sourceAnchor": "ACT.24.9"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.9",
+          "marks": [],
+          "anchors": [
+            "ACT.24.9"
+          ],
+          "sourceAnchor": "ACT.24.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=854",
+      "runs": [
+        {
+          "verse": "10",
+          "anchor": "ACT.24.10",
+          "anchors": [
+            "ACT.24.10"
+          ],
+          "sourceAnchor": "ACT.24.10"
+        },
+        {
+          "text": "Ἀπεκρίθη δὲ ὁ Παῦλος, νεύσαντος αὐτῷ τοῦ ἡγεμόνος λέγειν, ¶Ἐκ πολλῶν ἐτῶν ὄντα σε κριτὴν τῷ ἔθνει τούτῳ ἐπιστάμενος, εὐθυμότερον τὰ περὶ ἐμαυτοῦ ἀπολογοῦμαι,",
+          "anchor": "ACT.24.10",
+          "marks": [],
+          "anchors": [
+            "ACT.24.10"
+          ],
+          "sourceAnchor": "ACT.24.10"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.10",
+          "marks": [],
+          "anchors": [
+            "ACT.24.10"
+          ],
+          "sourceAnchor": "ACT.24.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "ACT.24.11",
+          "anchors": [
+            "ACT.24.11"
+          ],
+          "sourceAnchor": "ACT.24.11"
+        },
+        {
+          "text": "δυναμένου σου γνῶναι ὅτι οὐ πλείους εἰσίν μοι ἡμέραι δεκαδύο, ἀφ’ ἧς ἀνέβην προσκυνήσων ἐν Ἱερουσαλήμ·",
+          "anchor": "ACT.24.11",
+          "marks": [],
+          "anchors": [
+            "ACT.24.11"
+          ],
+          "sourceAnchor": "ACT.24.11"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.11",
+          "marks": [],
+          "anchors": [
+            "ACT.24.11"
+          ],
+          "sourceAnchor": "ACT.24.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "ACT.24.12",
+          "anchors": [
+            "ACT.24.12"
+          ],
+          "sourceAnchor": "ACT.24.12"
+        },
+        {
+          "text": "καὶ οὔτε ἐν τῷ ἱερῷ εὗρόν με πρός τινα διαλεγόμενον ἢ ἐπισύστασιν ποιοῦντα ὄχλου, οὔτε ἐν ταῖς συναγωγαῖς, οὔτε κατὰ τὴν πόλιν.",
+          "anchor": "ACT.24.12",
+          "marks": [],
+          "anchors": [
+            "ACT.24.12"
+          ],
+          "sourceAnchor": "ACT.24.12"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.12",
+          "marks": [],
+          "anchors": [
+            "ACT.24.12"
+          ],
+          "sourceAnchor": "ACT.24.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "ACT.24.13",
+          "anchors": [
+            "ACT.24.13"
+          ],
+          "sourceAnchor": "ACT.24.13"
+        },
+        {
+          "text": "Οὔτε παραστῆσαί με δύνανται περὶ ὧν νῦν κατηγοροῦσίν μου.",
+          "anchor": "ACT.24.13",
+          "marks": [],
+          "anchors": [
+            "ACT.24.13"
+          ],
+          "sourceAnchor": "ACT.24.13"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.13",
+          "marks": [],
+          "anchors": [
+            "ACT.24.13"
+          ],
+          "sourceAnchor": "ACT.24.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "ACT.24.14",
+          "anchors": [
+            "ACT.24.14"
+          ],
+          "sourceAnchor": "ACT.24.14"
+        },
+        {
+          "text": "Ὁμολογῶ δὲ τοῦτό σοι, ὅτι κατὰ τὴν ὁδὸν ἣν λέγουσιν αἵρεσιν, οὕτως λατρεύω τῷ πατρῴῳ θεῷ, πιστεύων πᾶσιν τοῖς κατὰ τὸν νόμον καὶ τοῖς προφήταις γεγραμμένοις·",
+          "anchor": "ACT.24.14",
+          "marks": [],
+          "anchors": [
+            "ACT.24.14"
+          ],
+          "sourceAnchor": "ACT.24.14"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.14",
+          "marks": [],
+          "anchors": [
+            "ACT.24.14"
+          ],
+          "sourceAnchor": "ACT.24.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "ACT.24.15",
+          "anchors": [
+            "ACT.24.15"
+          ],
+          "sourceAnchor": "ACT.24.15"
+        },
+        {
+          "text": "ἐλπίδα ἔχων εἰς τὸν θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι νεκρῶν, δικαίων τε καὶ ἀδίκων.",
+          "anchor": "ACT.24.15",
+          "marks": [],
+          "anchors": [
+            "ACT.24.15"
+          ],
+          "sourceAnchor": "ACT.24.15"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.15",
+          "marks": [],
+          "anchors": [
+            "ACT.24.15"
+          ],
+          "sourceAnchor": "ACT.24.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "ACT.24.16",
+          "anchors": [
+            "ACT.24.16"
+          ],
+          "sourceAnchor": "ACT.24.16"
+        },
+        {
+          "text": "Ἐν τούτῳ δὲ αὐτὸς ἀσκῶ, ἀπρόσκοπον συνείδησιν ἔχων πρὸς τὸν θεὸν καὶ τοὺς ἀνθρώπους διὰ παντός.",
+          "anchor": "ACT.24.16",
+          "marks": [],
+          "anchors": [
+            "ACT.24.16"
+          ],
+          "sourceAnchor": "ACT.24.16"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.16",
+          "marks": [],
+          "anchors": [
+            "ACT.24.16"
+          ],
+          "sourceAnchor": "ACT.24.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "ACT.24.17",
+          "anchors": [
+            "ACT.24.17"
+          ],
+          "sourceAnchor": "ACT.24.17"
+        },
+        {
+          "text": "Δι’ ἐτῶν δὲ πλειόνων παρεγενόμην ἐλεημοσύνας ποιήσων εἰς τὸ ἔθνος μου καὶ προσφοράς·",
+          "anchor": "ACT.24.17",
+          "marks": [],
+          "anchors": [
+            "ACT.24.17"
+          ],
+          "sourceAnchor": "ACT.24.17"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.17",
+          "marks": [],
+          "anchors": [
+            "ACT.24.17"
+          ],
+          "sourceAnchor": "ACT.24.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "ACT.24.18",
+          "anchors": [
+            "ACT.24.18"
+          ],
+          "sourceAnchor": "ACT.24.18"
+        },
+        {
+          "text": "ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι·",
+          "anchor": "ACT.24.18",
+          "marks": [],
+          "anchors": [
+            "ACT.24.18"
+          ],
+          "sourceAnchor": "ACT.24.18"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.18",
+          "marks": [],
+          "anchors": [
+            "ACT.24.18"
+          ],
+          "sourceAnchor": "ACT.24.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "ACT.24.19",
+          "anchors": [
+            "ACT.24.19"
+          ],
+          "sourceAnchor": "ACT.24.19"
+        },
+        {
+          "text": "οὓς δεῖ ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρός με.",
+          "anchor": "ACT.24.19",
+          "marks": [],
+          "anchors": [
+            "ACT.24.19"
+          ],
+          "sourceAnchor": "ACT.24.19"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.19",
+          "marks": [],
+          "anchors": [
+            "ACT.24.19"
+          ],
+          "sourceAnchor": "ACT.24.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "ACT.24.20",
+          "anchors": [
+            "ACT.24.20"
+          ],
+          "sourceAnchor": "ACT.24.20"
+        },
+        {
+          "text": "Ἢ αὐτοὶ οὗτοι εἰπάτωσαν, τί εὗρον ἐν ἐμοὶ ἀδίκημα, στάντος μου ἐπὶ τοῦ συνεδρίου,",
+          "anchor": "ACT.24.20",
+          "marks": [],
+          "anchors": [
+            "ACT.24.20"
+          ],
+          "sourceAnchor": "ACT.24.20"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.20",
+          "marks": [],
+          "anchors": [
+            "ACT.24.20"
+          ],
+          "sourceAnchor": "ACT.24.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "ACT.24.21",
+          "anchors": [
+            "ACT.24.21"
+          ],
+          "sourceAnchor": "ACT.24.21"
+        },
+        {
+          "text": "ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ’ ὑμῶν.",
+          "anchor": "ACT.24.21",
+          "marks": [],
+          "anchors": [
+            "ACT.24.21"
+          ],
+          "sourceAnchor": "ACT.24.21"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.21",
+          "marks": [],
+          "anchors": [
+            "ACT.24.21"
+          ],
+          "sourceAnchor": "ACT.24.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=866",
+      "runs": [
+        {
+          "verse": "22",
+          "anchor": "ACT.24.22",
+          "anchors": [
+            "ACT.24.22"
+          ],
+          "sourceAnchor": "ACT.24.22"
+        },
+        {
+          "text": "Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἰπών, Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ, διαγνώσομαι τὰ καθ’ ὑμᾶς·",
+          "anchor": "ACT.24.22",
+          "marks": [],
+          "anchors": [
+            "ACT.24.22"
+          ],
+          "sourceAnchor": "ACT.24.22"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.22",
+          "marks": [],
+          "anchors": [
+            "ACT.24.22"
+          ],
+          "sourceAnchor": "ACT.24.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "ACT.24.23",
+          "anchors": [
+            "ACT.24.23"
+          ],
+          "sourceAnchor": "ACT.24.23"
+        },
+        {
+          "text": "διαταξάμενός τε τῷ ἑκατοντάρχῃ τηρεῖσθαι τὸν Παῦλον, ἔχειν τε ἄνεσιν, καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν ἢ προσέρχεσθαι αὐτῷ.",
+          "anchor": "ACT.24.23",
+          "marks": [],
+          "anchors": [
+            "ACT.24.23"
+          ],
+          "sourceAnchor": "ACT.24.23"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.23",
+          "marks": [],
+          "anchors": [
+            "ACT.24.23"
+          ],
+          "sourceAnchor": "ACT.24.23"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=868",
+      "runs": [
+        {
+          "verse": "24",
+          "anchor": "ACT.24.24",
+          "anchors": [
+            "ACT.24.24"
+          ],
+          "sourceAnchor": "ACT.24.24"
+        },
+        {
+          "text": "Μετὰ δὲ ἡμέρας τινάς, παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ γυναικὶ οὔσῃ Ἰουδαίᾳ, μετεπέμψατο τὸν Παῦλον, καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς χριστὸν πίστεως.",
+          "anchor": "ACT.24.24",
+          "marks": [],
+          "anchors": [
+            "ACT.24.24"
+          ],
+          "sourceAnchor": "ACT.24.24"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.24",
+          "marks": [],
+          "anchors": [
+            "ACT.24.24"
+          ],
+          "sourceAnchor": "ACT.24.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "ACT.24.25",
+          "anchors": [
+            "ACT.24.25"
+          ],
+          "sourceAnchor": "ACT.24.25"
+        },
+        {
+          "text": "Διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔσεσθαι, ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη, Τὸ νῦν ἔχον πορεύου· καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε·",
+          "anchor": "ACT.24.25",
+          "marks": [],
+          "anchors": [
+            "ACT.24.25"
+          ],
+          "sourceAnchor": "ACT.24.25"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.25",
+          "marks": [],
+          "anchors": [
+            "ACT.24.25"
+          ],
+          "sourceAnchor": "ACT.24.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "ACT.24.26",
+          "anchors": [
+            "ACT.24.26"
+          ],
+          "sourceAnchor": "ACT.24.26"
+        },
+        {
+          "text": "ἅμα καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου, ὅπως λύσῃ αὐτόν· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ.",
+          "anchor": "ACT.24.26",
+          "marks": [],
+          "anchors": [
+            "ACT.24.26"
+          ],
+          "sourceAnchor": "ACT.24.26"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.26",
+          "marks": [],
+          "anchors": [
+            "ACT.24.26"
+          ],
+          "sourceAnchor": "ACT.24.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "ACT.24.27",
+          "anchors": [
+            "ACT.24.27"
+          ],
+          "sourceAnchor": "ACT.24.27"
+        },
+        {
+          "text": "Διετίας δὲ πληρωθείσης, ἔλαβεν διάδοχον ὁ Φῆλιξ Πόρκιον Φῆστον· θέλων τε χάριτας καταθέσθαι τοῖς Ἰουδαίοις ὁ Φῆλιξ κατέλιπεν τὸν Παῦλον δεδεμένον.",
+          "anchor": "ACT.24.27",
+          "marks": [],
+          "anchors": [
+            "ACT.24.27"
+          ],
+          "sourceAnchor": "ACT.24.27"
+        },
+        {
+          "text": " ",
+          "anchor": "ACT.24.27",
+          "marks": [],
+          "anchors": [
+            "ACT.24.27"
+          ],
+          "sourceAnchor": "ACT.24.27"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "ACT.24.1",
+      "sourceRef": "ACT.24.1",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=846",
+      "sourceLabel": "1",
+      "anchors": [
+        "ACT.24.1"
+      ],
+      "mappingType": "exact",
+      "text": "Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἀνανίας μετὰ τῶν πρεσβυτέρων καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου.",
+      "sourceText": "Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἀνανίας μετὰ τῶν πρεσβυτέρων καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου.",
+      "originalText": "Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἀνανίας μετὰ τῶν πρεσβυτέρων καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου. "
+    },
+    {
+      "id": "ACT.24.2",
+      "sourceRef": "ACT.24.2",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=847",
+      "sourceLabel": "2",
+      "anchors": [
+        "ACT.24.2"
+      ],
+      "mappingType": "exact",
+      "text": "Κληθέντος δὲ αὐτοῦ, ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων, ¶Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ, καὶ κατορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας,",
+      "sourceText": "Κληθέντος δὲ αὐτοῦ, ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων, ¶Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ, καὶ κατορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας,",
+      "originalText": "Κληθέντος δὲ αὐτοῦ, ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων, ¶Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ, καὶ κατορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας, "
+    },
+    {
+      "id": "ACT.24.3",
+      "sourceRef": "ACT.24.3",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=848",
+      "sourceLabel": "3",
+      "anchors": [
+        "ACT.24.3"
+      ],
+      "mappingType": "exact",
+      "text": "πάντῃ τε καὶ πανταχοῦ ἀποδεχόμεθα, κράτιστε Φῆλιξ, μετὰ πάσης εὐχαριστίας.",
+      "sourceText": "πάντῃ τε καὶ πανταχοῦ ἀποδεχόμεθα, κράτιστε Φῆλιξ, μετὰ πάσης εὐχαριστίας.",
+      "originalText": "πάντῃ τε καὶ πανταχοῦ ἀποδεχόμεθα, κράτιστε Φῆλιξ, μετὰ πάσης εὐχαριστίας. "
+    },
+    {
+      "id": "ACT.24.4",
+      "sourceRef": "ACT.24.4",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=849",
+      "sourceLabel": "4",
+      "anchors": [
+        "ACT.24.4"
+      ],
+      "mappingType": "exact",
+      "text": "Ἵνα δὲ μὴ ἐπὶ πλεῖόν σε ἐγκόπτω, παρακαλῶ ἀκοῦσαί σε ἡμῶν συντόμως τῇ σῇ ἐπιεικείᾳ.",
+      "sourceText": "Ἵνα δὲ μὴ ἐπὶ πλεῖόν σε ἐγκόπτω, παρακαλῶ ἀκοῦσαί σε ἡμῶν συντόμως τῇ σῇ ἐπιεικείᾳ.",
+      "originalText": "Ἵνα δὲ μὴ ἐπὶ πλεῖόν σε ἐγκόπτω, παρακαλῶ ἀκοῦσαί σε ἡμῶν συντόμως τῇ σῇ ἐπιεικείᾳ. "
+    },
+    {
+      "id": "ACT.24.5",
+      "sourceRef": "ACT.24.5",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=850",
+      "sourceLabel": "5",
+      "anchors": [
+        "ACT.24.5"
+      ],
+      "mappingType": "exact",
+      "text": "Εὑρόντες γὰρ τὸν ἄνδρα τοῦτον λοιμόν, καὶ κινοῦντα στάσιν πᾶσιν τοῖς Ἰουδαίοις τοῖς κατὰ τὴν οἰκουμένην, πρωτοστάτην τε τῆς τῶν Ναζωραίων αἱρέσεως·",
+      "sourceText": "Εὑρόντες γὰρ τὸν ἄνδρα τοῦτον λοιμόν, καὶ κινοῦντα στάσιν πᾶσιν τοῖς Ἰουδαίοις τοῖς κατὰ τὴν οἰκουμένην, πρωτοστάτην τε τῆς τῶν Ναζωραίων αἱρέσεως·",
+      "originalText": "Εὑρόντες γὰρ τὸν ἄνδρα τοῦτον λοιμόν, καὶ κινοῦντα στάσιν πᾶσιν τοῖς Ἰουδαίοις τοῖς κατὰ τὴν οἰκουμένην, πρωτοστάτην τε τῆς τῶν Ναζωραίων αἱρέσεως· "
+    },
+    {
+      "id": "ACT.24.6",
+      "sourceRef": "ACT.24.6",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=851",
+      "sourceLabel": "6",
+      "anchors": [
+        "ACT.24.6"
+      ],
+      "mappingType": "exact",
+      "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν·",
+      "sourceText": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν·",
+      "originalText": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν· "
+    },
+    {
+      "id": "ACT.24.8",
+      "sourceRef": "ACT.24.8",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=852",
+      "sourceLabel": "8",
+      "anchors": [
+        "ACT.24.8"
+      ],
+      "mappingType": "exact",
+      "text": "παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ.",
+      "sourceText": "παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ.",
+      "originalText": "παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ. "
+    },
+    {
+      "id": "ACT.24.9",
+      "sourceRef": "ACT.24.9",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=853",
+      "sourceLabel": "9",
+      "anchors": [
+        "ACT.24.9"
+      ],
+      "mappingType": "exact",
+      "text": "Συνεπέθεντο δὲ καὶ οἱ Ἰουδαῖοι, φάσκοντες ταῦτα οὕτως ἔχειν.",
+      "sourceText": "Συνεπέθεντο δὲ καὶ οἱ Ἰουδαῖοι, φάσκοντες ταῦτα οὕτως ἔχειν.",
+      "originalText": "Συνεπέθεντο δὲ καὶ οἱ Ἰουδαῖοι, φάσκοντες ταῦτα οὕτως ἔχειν. \n"
+    },
+    {
+      "id": "ACT.24.10",
+      "sourceRef": "ACT.24.10",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=854",
+      "sourceLabel": "10",
+      "anchors": [
+        "ACT.24.10"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀπεκρίθη δὲ ὁ Παῦλος, νεύσαντος αὐτῷ τοῦ ἡγεμόνος λέγειν, ¶Ἐκ πολλῶν ἐτῶν ὄντα σε κριτὴν τῷ ἔθνει τούτῳ ἐπιστάμενος, εὐθυμότερον τὰ περὶ ἐμαυτοῦ ἀπολογοῦμαι,",
+      "sourceText": "¶Ἀπεκρίθη δὲ ὁ Παῦλος, νεύσαντος αὐτῷ τοῦ ἡγεμόνος λέγειν, ¶Ἐκ πολλῶν ἐτῶν ὄντα σε κριτὴν τῷ ἔθνει τούτῳ ἐπιστάμενος, εὐθυμότερον τὰ περὶ ἐμαυτοῦ ἀπολογοῦμαι,",
+      "originalText": "Ἀπεκρίθη δὲ ὁ Παῦλος, νεύσαντος αὐτῷ τοῦ ἡγεμόνος λέγειν, ¶Ἐκ πολλῶν ἐτῶν ὄντα σε κριτὴν τῷ ἔθνει τούτῳ ἐπιστάμενος, εὐθυμότερον τὰ περὶ ἐμαυτοῦ ἀπολογοῦμαι, "
+    },
+    {
+      "id": "ACT.24.11",
+      "sourceRef": "ACT.24.11",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=855",
+      "sourceLabel": "11",
+      "anchors": [
+        "ACT.24.11"
+      ],
+      "mappingType": "exact",
+      "text": "δυναμένου σου γνῶναι ὅτι οὐ πλείους εἰσίν μοι ἡμέραι δεκαδύο, ἀφ’ ἧς ἀνέβην προσκυνήσων ἐν Ἱερουσαλήμ·",
+      "sourceText": "δυναμένου σου γνῶναι ὅτι οὐ πλείους εἰσίν μοι ἡμέραι δεκαδύο, ἀφ’ ἧς ἀνέβην προσκυνήσων ἐν Ἱερουσαλήμ·",
+      "originalText": "δυναμένου σου γνῶναι ὅτι οὐ πλείους εἰσίν μοι ἡμέραι δεκαδύο, ἀφ’ ἧς ἀνέβην προσκυνήσων ἐν Ἱερουσαλήμ· "
+    },
+    {
+      "id": "ACT.24.12",
+      "sourceRef": "ACT.24.12",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=856",
+      "sourceLabel": "12",
+      "anchors": [
+        "ACT.24.12"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ οὔτε ἐν τῷ ἱερῷ εὗρόν με πρός τινα διαλεγόμενον ἢ ἐπισύστασιν ποιοῦντα ὄχλου, οὔτε ἐν ταῖς συναγωγαῖς, οὔτε κατὰ τὴν πόλιν.",
+      "sourceText": "καὶ οὔτε ἐν τῷ ἱερῷ εὗρόν με πρός τινα διαλεγόμενον ἢ ἐπισύστασιν ποιοῦντα ὄχλου, οὔτε ἐν ταῖς συναγωγαῖς, οὔτε κατὰ τὴν πόλιν.",
+      "originalText": "καὶ οὔτε ἐν τῷ ἱερῷ εὗρόν με πρός τινα διαλεγόμενον ἢ ἐπισύστασιν ποιοῦντα ὄχλου, οὔτε ἐν ταῖς συναγωγαῖς, οὔτε κατὰ τὴν πόλιν. "
+    },
+    {
+      "id": "ACT.24.13",
+      "sourceRef": "ACT.24.13",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=857",
+      "sourceLabel": "13",
+      "anchors": [
+        "ACT.24.13"
+      ],
+      "mappingType": "exact",
+      "text": "Οὔτε παραστῆσαί με δύνανται περὶ ὧν νῦν κατηγοροῦσίν μου.",
+      "sourceText": "Οὔτε παραστῆσαί με δύνανται περὶ ὧν νῦν κατηγοροῦσίν μου.",
+      "originalText": "Οὔτε παραστῆσαί με δύνανται περὶ ὧν νῦν κατηγοροῦσίν μου. "
+    },
+    {
+      "id": "ACT.24.14",
+      "sourceRef": "ACT.24.14",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=858",
+      "sourceLabel": "14",
+      "anchors": [
+        "ACT.24.14"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁμολογῶ δὲ τοῦτό σοι, ὅτι κατὰ τὴν ὁδὸν ἣν λέγουσιν αἵρεσιν, οὕτως λατρεύω τῷ πατρῴῳ θεῷ, πιστεύων πᾶσιν τοῖς κατὰ τὸν νόμον καὶ τοῖς προφήταις γεγραμμένοις·",
+      "sourceText": "Ὁμολογῶ δὲ τοῦτό σοι, ὅτι κατὰ τὴν ὁδὸν ἣν λέγουσιν αἵρεσιν, οὕτως λατρεύω τῷ πατρῴῳ θεῷ, πιστεύων πᾶσιν τοῖς κατὰ τὸν νόμον καὶ τοῖς προφήταις γεγραμμένοις·",
+      "originalText": "Ὁμολογῶ δὲ τοῦτό σοι, ὅτι κατὰ τὴν ὁδὸν ἣν λέγουσιν αἵρεσιν, οὕτως λατρεύω τῷ πατρῴῳ θεῷ, πιστεύων πᾶσιν τοῖς κατὰ τὸν νόμον καὶ τοῖς προφήταις γεγραμμένοις· "
+    },
+    {
+      "id": "ACT.24.15",
+      "sourceRef": "ACT.24.15",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=859",
+      "sourceLabel": "15",
+      "anchors": [
+        "ACT.24.15"
+      ],
+      "mappingType": "exact",
+      "text": "ἐλπίδα ἔχων εἰς τὸν θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι νεκρῶν, δικαίων τε καὶ ἀδίκων.",
+      "sourceText": "ἐλπίδα ἔχων εἰς τὸν θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι νεκρῶν, δικαίων τε καὶ ἀδίκων.",
+      "originalText": "ἐλπίδα ἔχων εἰς τὸν θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι νεκρῶν, δικαίων τε καὶ ἀδίκων. "
+    },
+    {
+      "id": "ACT.24.16",
+      "sourceRef": "ACT.24.16",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=860",
+      "sourceLabel": "16",
+      "anchors": [
+        "ACT.24.16"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐν τούτῳ δὲ αὐτὸς ἀσκῶ, ἀπρόσκοπον συνείδησιν ἔχων πρὸς τὸν θεὸν καὶ τοὺς ἀνθρώπους διὰ παντός.",
+      "sourceText": "Ἐν τούτῳ δὲ αὐτὸς ἀσκῶ, ἀπρόσκοπον συνείδησιν ἔχων πρὸς τὸν θεὸν καὶ τοὺς ἀνθρώπους διὰ παντός.",
+      "originalText": "Ἐν τούτῳ δὲ αὐτὸς ἀσκῶ, ἀπρόσκοπον συνείδησιν ἔχων πρὸς τὸν θεὸν καὶ τοὺς ἀνθρώπους διὰ παντός. "
+    },
+    {
+      "id": "ACT.24.17",
+      "sourceRef": "ACT.24.17",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=861",
+      "sourceLabel": "17",
+      "anchors": [
+        "ACT.24.17"
+      ],
+      "mappingType": "exact",
+      "text": "Δι’ ἐτῶν δὲ πλειόνων παρεγενόμην ἐλεημοσύνας ποιήσων εἰς τὸ ἔθνος μου καὶ προσφοράς·",
+      "sourceText": "Δι’ ἐτῶν δὲ πλειόνων παρεγενόμην ἐλεημοσύνας ποιήσων εἰς τὸ ἔθνος μου καὶ προσφοράς·",
+      "originalText": "Δι’ ἐτῶν δὲ πλειόνων παρεγενόμην ἐλεημοσύνας ποιήσων εἰς τὸ ἔθνος μου καὶ προσφοράς· "
+    },
+    {
+      "id": "ACT.24.18",
+      "sourceRef": "ACT.24.18",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=862",
+      "sourceLabel": "18",
+      "anchors": [
+        "ACT.24.18"
+      ],
+      "mappingType": "exact",
+      "text": "ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι·",
+      "sourceText": "ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι·",
+      "originalText": "ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι· "
+    },
+    {
+      "id": "ACT.24.19",
+      "sourceRef": "ACT.24.19",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=863",
+      "sourceLabel": "19",
+      "anchors": [
+        "ACT.24.19"
+      ],
+      "mappingType": "exact",
+      "text": "οὓς δεῖ ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρός με.",
+      "sourceText": "οὓς δεῖ ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρός με.",
+      "originalText": "οὓς δεῖ ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρός με. "
+    },
+    {
+      "id": "ACT.24.20",
+      "sourceRef": "ACT.24.20",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=864",
+      "sourceLabel": "20",
+      "anchors": [
+        "ACT.24.20"
+      ],
+      "mappingType": "exact",
+      "text": "Ἢ αὐτοὶ οὗτοι εἰπάτωσαν, τί εὗρον ἐν ἐμοὶ ἀδίκημα, στάντος μου ἐπὶ τοῦ συνεδρίου,",
+      "sourceText": "Ἢ αὐτοὶ οὗτοι εἰπάτωσαν, τί εὗρον ἐν ἐμοὶ ἀδίκημα, στάντος μου ἐπὶ τοῦ συνεδρίου,",
+      "originalText": "Ἢ αὐτοὶ οὗτοι εἰπάτωσαν, τί εὗρον ἐν ἐμοὶ ἀδίκημα, στάντος μου ἐπὶ τοῦ συνεδρίου, "
+    },
+    {
+      "id": "ACT.24.21",
+      "sourceRef": "ACT.24.21",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=865",
+      "sourceLabel": "21",
+      "anchors": [
+        "ACT.24.21"
+      ],
+      "mappingType": "exact",
+      "text": "ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ’ ὑμῶν.",
+      "sourceText": "ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ’ ὑμῶν.",
+      "originalText": "ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ’ ὑμῶν. \n"
+    },
+    {
+      "id": "ACT.24.22",
+      "sourceRef": "ACT.24.22",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=866",
+      "sourceLabel": "22",
+      "anchors": [
+        "ACT.24.22"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἰπών, Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ, διαγνώσομαι τὰ καθ’ ὑμᾶς·",
+      "sourceText": "¶Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἰπών, Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ, διαγνώσομαι τὰ καθ’ ὑμᾶς·",
+      "originalText": "Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἰπών, Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ, διαγνώσομαι τὰ καθ’ ὑμᾶς· "
+    },
+    {
+      "id": "ACT.24.23",
+      "sourceRef": "ACT.24.23",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=867",
+      "sourceLabel": "23",
+      "anchors": [
+        "ACT.24.23"
+      ],
+      "mappingType": "exact",
+      "text": "διαταξάμενός τε τῷ ἑκατοντάρχῃ τηρεῖσθαι τὸν Παῦλον, ἔχειν τε ἄνεσιν, καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν ἢ προσέρχεσθαι αὐτῷ.",
+      "sourceText": "διαταξάμενός τε τῷ ἑκατοντάρχῃ τηρεῖσθαι τὸν Παῦλον, ἔχειν τε ἄνεσιν, καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν ἢ προσέρχεσθαι αὐτῷ.",
+      "originalText": "διαταξάμενός τε τῷ ἑκατοντάρχῃ τηρεῖσθαι τὸν Παῦλον, ἔχειν τε ἄνεσιν, καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν ἢ προσέρχεσθαι αὐτῷ. \n"
+    },
+    {
+      "id": "ACT.24.24",
+      "sourceRef": "ACT.24.24",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=868",
+      "sourceLabel": "24",
+      "anchors": [
+        "ACT.24.24"
+      ],
+      "mappingType": "exact",
+      "text": "Μετὰ δὲ ἡμέρας τινάς, παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ γυναικὶ οὔσῃ Ἰουδαίᾳ, μετεπέμψατο τὸν Παῦλον, καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς χριστὸν πίστεως.",
+      "sourceText": "¶Μετὰ δὲ ἡμέρας τινάς, παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ γυναικὶ οὔσῃ Ἰουδαίᾳ, μετεπέμψατο τὸν Παῦλον, καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς χριστὸν πίστεως.",
+      "originalText": "Μετὰ δὲ ἡμέρας τινάς, παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ γυναικὶ οὔσῃ Ἰουδαίᾳ, μετεπέμψατο τὸν Παῦλον, καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς χριστὸν πίστεως. "
+    },
+    {
+      "id": "ACT.24.25",
+      "sourceRef": "ACT.24.25",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=869",
+      "sourceLabel": "25",
+      "anchors": [
+        "ACT.24.25"
+      ],
+      "mappingType": "exact",
+      "text": "Διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔσεσθαι, ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη, Τὸ νῦν ἔχον πορεύου· καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε·",
+      "sourceText": "Διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔσεσθαι, ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη, Τὸ νῦν ἔχον πορεύου· καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε·",
+      "originalText": "Διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔσεσθαι, ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη, Τὸ νῦν ἔχον πορεύου· καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε· "
+    },
+    {
+      "id": "ACT.24.26",
+      "sourceRef": "ACT.24.26",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=870",
+      "sourceLabel": "26",
+      "anchors": [
+        "ACT.24.26"
+      ],
+      "mappingType": "exact",
+      "text": "ἅμα καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου, ὅπως λύσῃ αὐτόν· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ.",
+      "sourceText": "ἅμα καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου, ὅπως λύσῃ αὐτόν· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ.",
+      "originalText": "ἅμα καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου, ὅπως λύσῃ αὐτόν· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ. "
+    },
+    {
+      "id": "ACT.24.27",
+      "sourceRef": "ACT.24.27",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=871",
+      "sourceLabel": "27",
+      "anchors": [
+        "ACT.24.27"
+      ],
+      "mappingType": "exact",
+      "text": "Διετίας δὲ πληρωθείσης, ἔλαβεν διάδοχον ὁ Φῆλιξ Πόρκιον Φῆστον· θέλων τε χάριτας καταθέσθαι τοῖς Ἰουδαίοις ὁ Φῆλιξ κατέλιπεν τὸν Παῦλον δεδεμένον.",
+      "sourceText": "Διετίας δὲ πληρωθείσης, ἔλαβεν διάδοχον ὁ Φῆλιξ Πόρκιον Φῆστον· θέλων τε χάριτας καταθέσθαι τοῖς Ἰουδαίοις ὁ Φῆλιξ κατέλιπεν τὸν Παῦλον δεδεμένον.",
+      "originalText": "Διετίας δὲ πληρωθείσης, ἔλαβεν διάδοχον ὁ Φῆλιξ Πόρκιον Φῆστον· θέλων τε χάριτας καταθέσθαι τοῖς Ἰουδαίοις ὁ Φῆλιξ κατέλιπεν τὸν Παῦλον δεδεμένον. "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "ACT.24.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.1",
+          "sourceRef": "ACT.24.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.2",
+          "sourceRef": "ACT.24.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.3",
+          "sourceRef": "ACT.24.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.4",
+          "sourceRef": "ACT.24.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.5",
+          "sourceRef": "ACT.24.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.6",
+          "sourceRef": "ACT.24.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.7",
+      "dataState": "available",
+      "textState": "absent",
+      "publisherNoteIds": [],
+      "placements": [],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.8",
+          "sourceRef": "ACT.24.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.9",
+          "sourceRef": "ACT.24.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.10",
+          "sourceRef": "ACT.24.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.11",
+          "sourceRef": "ACT.24.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.12",
+          "sourceRef": "ACT.24.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.13",
+          "sourceRef": "ACT.24.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.14",
+          "sourceRef": "ACT.24.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.15",
+          "sourceRef": "ACT.24.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.16",
+          "sourceRef": "ACT.24.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.17",
+          "sourceRef": "ACT.24.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.18",
+          "sourceRef": "ACT.24.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.19",
+          "sourceRef": "ACT.24.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.20",
+          "sourceRef": "ACT.24.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.21",
+          "sourceRef": "ACT.24.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.22",
+          "sourceRef": "ACT.24.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.23",
+          "sourceRef": "ACT.24.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.24",
+          "sourceRef": "ACT.24.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.25",
+          "sourceRef": "ACT.24.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.26",
+          "sourceRef": "ACT.24.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.24.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 24,
+          "segmentId": "ACT.24.27",
+          "sourceRef": "ACT.24.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "alternatives": [
+    {
+      "label": "Byzantine alternative: Acts 24:6–8",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT24.csv#row=2",
+      "sourceRef": "ACT.24.6",
+      "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν· καὶ κατὰ τὸν ἡμέτερον νόμον ἠθελήσαμεν κρῖναι.",
+      "originalText": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν· καὶ κατὰ τὸν ἡμέτερον νόμον ἠθελήσαμεν κρῖναι."
+    },
+    {
+      "label": "Byzantine alternative: Acts 24:6–8",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT24.csv#row=3",
+      "sourceRef": "ACT.24.7",
+      "text": "Παρελθὼν δὲ Λυσίας ὁ χιλίαρχος μετὰ πολλῆς βίας ἐκ τῶν χειρῶν ἡμῶν ἀπήγαγεν,",
+      "originalText": "Παρελθὼν δὲ Λυσίας ὁ χιλίαρχος μετὰ πολλῆς βίας ἐκ τῶν χειρῶν ἡμῶν ἀπήγαγεν,"
+    },
+    {
+      "label": "Byzantine alternative: Acts 24:6–8",
+      "sourceId": "csv-unicode/ccat/no-variants/ACT24.csv#row=4",
+      "sourceRef": "ACT.24.8",
+      "text": "κελεύσας τοὺς κατηγόρους αὐτοῦ ἔρχεσθαι ἐπὶ παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ.",
+      "originalText": "κελεύσας τοὺς κατηγόρους αὐτοῦ ἔρχεσθαι ἐπὶ παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

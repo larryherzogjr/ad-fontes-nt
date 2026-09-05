@@ -1,0 +1,217 @@
+{
+  "variant": {
+    "id": "candidate-12",
+    "title": "Luke 17:36 and a Verse the Received Text Does Not Agree On",
+    "ranges": [
+      {
+        "start": "LUK.17.36",
+        "end": "LUK.17.36"
+      }
+    ],
+    "status": "approved",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.17.36",
+            "start": 0,
+            "end": 75,
+            "text": "two men shall be in the field, the one shall be taken, and the other left.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.17.36",
+            "start": 0,
+            "end": 70,
+            "text": "Δύο ἔσονται ἐν τῷ ἀγρῷ· ὁ εἷς παραληφθήσεται, καὶ ὁ ἕτερος ἀφεθήσεται."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"LUK\"]/p[39]/v[70]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"LUK\"]/p[301]/v[255]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "After the two women grinding grain, some Bibles add a matching line about two men in a field, one taken and one left. Only two of the seven editions compared here print it: Young's Literal Translation and Boyd's Greek Textus Receptus compilation [S4, S7]. The Berean Standard Bible, the Berean Literal Bible, Nestle's 1904 Greek edition, **the Majority Standard Bible and the Robinson–Pierpont Byzantine text** all lack it [S1, S2, S3, S5, S6].\n\nThat last pairing is worth pausing on. Readers often picture two camps — old manuscripts on one side, the traditional text on the other — but here the Byzantine editions stand with the critical ones. Both Berean footnotes say so precisely: they attribute the verse to the Textus Receptus alone, not to the Byzantine text [S1, S3]. Both also point to Matthew 24:40, where a similar line appears in the Olivet discourse [C4].\n\nBoyd's edition goes further and divides the Textus Receptus itself. His footnote records that of the three printed editions he collates, Stephanus' of 1550 does not have the verse, while Elzevir's and Scrivener's do [C2].",
+      "interpretation": "So \"the Textus Receptus reads\" is, at this verse, an incomplete sentence. Three printed editions all called by that name do not agree, and a reader comparing a King James Bible with a Greek text labelled Textus Receptus may find them differing for that reason alone. An edition is a set of decisions by an editor, not a fixed thing a Bible either follows or departs from.\n\nThe saying itself is not in doubt as a saying of Jesus. Verse 35 and verse 37 stand in all seven editions [C3], and both publishers note that a similar line appears in Matthew's version of the discourse. What differs is whether Luke recorded the field alongside the mill.\n\nA teacher can show the class the footnote in Boyd's edition and let the point make itself: even inside the tradition most associated with a single received text, editors have disagreed. What a teacher cannot do from this comparison is say which edition preserves what Luke wrote. That is a question about manuscripts, and none has been examined here."
+    },
+    "author": "Larry Herzog Jr.",
+    "rights": "cleared",
+    "provenance": "Ordinary Means explanation adopted and approved by Larry Herzog Jr. in batch-3 candidate-12 rev-2, 2026-09-05. Claude drafting history, permission, original return and source limits retained in the contribution record. Public A–C only; approved factual corrections recorded separately. Exact partial-verse units and related links follow the returned integration decisions.",
+    "byline": "Ordinary Means",
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "LUK.17.36; release bsb-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "LUK.17.36; release blb-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "LUK.17.36; release msb-2026-09-05-m2-v2. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "LUK.17.36; release ylt-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "LUK.17.36; release n1904-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "LUK.17.36; release rp2018-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "LUK.17.36; release tr-boyd-2026-09-05-m2-v1. Main text, coverage and linked publisher notes; source roles remain distinct.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C2",
+        "label": "(a) TR-BOYD note `LUK.17.36.note.37`, source locator `grctr_usfx.xml#book[@id=\"LUK\"]/p[301]/f[256]`; (b) Robert Adam Boyd, introduction to the Greek Textus Receptus (grctr), eBible.org",
+        "locator": "(a) note body \"Δύο ἔσονται ἐν τῷ ἀγρῷ· ὁ εἷς παραληφθήσεται, καὶ ὁ ἕτερος ἀφεθήσεται. ¦ — ST\"; (b) Introduction, §\"Introduction\" and §\"Abbreviations\" (ST = Stephanus' TR 3rd ed. 1550). Direct observation of the note, plus the publisher's documented method for reading it. A claim about printed editions, not manuscripts.",
+        "url": "https://ebible.org/grctr/INT01.htm"
+      },
+      {
+        "id": "C3",
+        "label": "Bundled snapshots",
+        "locator": "Segments LUK.17.35 and LUK.17.37 in all seven releases. Direct observation."
+      },
+      {
+        "id": "C4",
+        "label": "Bundled snapshots",
+        "locator": "BSB note LUK.17.note.94 at anchor LUK.17.35; MSB note LUK.17.35.note.286 at anchor LUK.17.35. Direct observation of the notes. Matthew 24:40 itself was not verified — Matthew 24 is not among the bundled chapters. Publisher claim, attributed."
+      }
+    ],
+    "relatedUnits": [
+      "candidate-23"
+    ]
+  },
+  "contribution": {
+    "unitId": "candidate-12",
+    "returnedRevision": "rev-2",
+    "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-3/candidate-12-RETURNED-2026-09-05.md",
+    "returnedSha256": "75d8ea2e7a6b29ba233926b247d9c1acc23ffa2a9fd337934661d0fae47cf145",
+    "reviewDate": "2026-09-05",
+    "reviewTimezone": "America/Chicago",
+    "reviewTimePrecision": "date only; no clock time supplied",
+    "authorOfRecord": "Larry Herzog Jr.",
+    "publicByline": "Ordinary Means",
+    "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+    "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+    "approvalScope": "Returned A–C, referenced source records, approved related links and exact partial-verse boundaries; optional D is archival only.",
+    "integrationState": "approved for local publication",
+    "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+    "factualCorrections": [],
+    "correctionApproval": null,
+    "approvedContentHash": "aa3544e86f96d24d49b89057a8b3f141f9cab5395f5ebf9186ba0320e38932a1"
+  },
+  "reviews": [
+    {
+      "unitId": "candidate-12",
+      "reviewerId": "larry-herzog-jr",
+      "contentHash": "aa3544e86f96d24d49b89057a8b3f141f9cab5395f5ebf9186ba0320e38932a1",
+      "reviewedAt": "2026-09-05",
+      "decision": "approved"
+    }
+  ]
+}

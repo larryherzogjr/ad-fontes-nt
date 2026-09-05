@@ -1,0 +1,20 @@
+{
+  "unitId": "candidate-12",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-3/candidate-12-RETURNED-2026-09-05.md",
+  "returnedSha256": "75d8ea2e7a6b29ba233926b247d9c1acc23ffa2a9fd337934661d0fae47cf145",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, referenced source records, approved related links and exact partial-verse boundaries; optional D is archival only.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": [],
+  "correctionApproval": null,
+  "approvedContentHash": "5058e6edb899649622faf1fe494a9a9d4ff07561bd957534f2b8f63db53c169a",
+  "batch6LinkApproval": "Batch-6 handoff and candidate-04 explicitly approve reciprocal links among 04/12/23. Prior prose and source metadata unchanged; predecessor payload, contribution and reviews archived."
+}

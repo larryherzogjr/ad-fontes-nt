@@ -1,0 +1,810 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=245",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "2CO.13.1",
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "text": "Τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς. Ἐπὶ στόματος δύο μαρτύρων καὶ τριῶν σταθήσεται πᾶν ῥῆμα.",
+          "anchor": "2CO.13.1",
+          "marks": [],
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.1",
+          "marks": [],
+          "anchors": [
+            "2CO.13.1"
+          ],
+          "sourceAnchor": "2CO.13.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "2CO.13.2",
+          "anchors": [
+            "2CO.13.2"
+          ],
+          "sourceAnchor": "2CO.13.2"
+        },
+        {
+          "text": "Προείρηκα καὶ προλέγω, ὡς παρὼν τὸ δεύτερον, καὶ ἀπὼν νῦν γράφω τοῖς προημαρτηκόσιν καὶ τοῖς λοιποῖς πᾶσιν, ὅτι ἐὰν ἔλθω εἰς τὸ πάλιν, οὐ φείσομαι·",
+          "anchor": "2CO.13.2",
+          "marks": [],
+          "anchors": [
+            "2CO.13.2"
+          ],
+          "sourceAnchor": "2CO.13.2"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.2",
+          "marks": [],
+          "anchors": [
+            "2CO.13.2"
+          ],
+          "sourceAnchor": "2CO.13.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "2CO.13.3",
+          "anchors": [
+            "2CO.13.3"
+          ],
+          "sourceAnchor": "2CO.13.3"
+        },
+        {
+          "text": "ἐπεὶ δοκιμὴν ζητεῖτε τοῦ ἐν ἐμοὶ λαλοῦντος χριστοῦ, ὃς εἰς ὑμᾶς οὐκ ἀσθενεῖ, ἀλλὰ δυνατεῖ ἐν ὑμῖν·",
+          "anchor": "2CO.13.3",
+          "marks": [],
+          "anchors": [
+            "2CO.13.3"
+          ],
+          "sourceAnchor": "2CO.13.3"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.3",
+          "marks": [],
+          "anchors": [
+            "2CO.13.3"
+          ],
+          "sourceAnchor": "2CO.13.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "2CO.13.4",
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        },
+        {
+          "text": "καὶ γὰρ εἰ ἐσταυρώθη ἐξ ἀσθενείας, ἀλλὰ ζῇ ἐκ δυνάμεως θεοῦ. Καὶ γὰρ ἡμεῖς ἀσθενοῦμεν ἐν αὐτῷ, ἀλλὰ ζησόμεθα σὺν αὐτῷ ἐκ δυνάμεως θεοῦ εἰς ὑμᾶς.",
+          "anchor": "2CO.13.4",
+          "marks": [],
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.4",
+          "marks": [],
+          "anchors": [
+            "2CO.13.4"
+          ],
+          "sourceAnchor": "2CO.13.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "2CO.13.5",
+          "anchors": [
+            "2CO.13.5"
+          ],
+          "sourceAnchor": "2CO.13.5"
+        },
+        {
+          "text": "Ἑαυτοὺς πειράζετε εἰ ἐστὲ ἐν τῇ πίστει, ἑαυτοὺς δοκιμάζετε. Ἢ οὐκ ἐπιγινώσκετε ἑαυτούς, ὅτι Ἰησοῦς χριστὸς ἐν ὑμῖν ἐστίν; Εἰ μήτι ἀδόκιμοί ἐστε.",
+          "anchor": "2CO.13.5",
+          "marks": [],
+          "anchors": [
+            "2CO.13.5"
+          ],
+          "sourceAnchor": "2CO.13.5"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.5",
+          "marks": [],
+          "anchors": [
+            "2CO.13.5"
+          ],
+          "sourceAnchor": "2CO.13.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "2CO.13.6",
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        },
+        {
+          "text": "Ἐλπίζω δὲ ὅτι γνώσεσθε ὅτι ἡμεῖς οὐκ ἐσμὲν ἀδόκιμοι.",
+          "anchor": "2CO.13.6",
+          "marks": [],
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.6",
+          "marks": [],
+          "anchors": [
+            "2CO.13.6"
+          ],
+          "sourceAnchor": "2CO.13.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "2CO.13.7",
+          "anchors": [
+            "2CO.13.7"
+          ],
+          "sourceAnchor": "2CO.13.7"
+        },
+        {
+          "text": "Εὔχομαι δὲ πρὸς τὸν θεόν, μὴ ποιῆσαι ὑμᾶς κακὸν μηδέν, οὐχ ἵνα ἡμεῖς δόκιμοι φανῶμεν, ἀλλ’ ἵνα ὑμεῖς τὸ καλὸν ποιῆτε, ἡμεῖς δὲ ὡς ἀδόκιμοι ὦμεν.",
+          "anchor": "2CO.13.7",
+          "marks": [],
+          "anchors": [
+            "2CO.13.7"
+          ],
+          "sourceAnchor": "2CO.13.7"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.7",
+          "marks": [],
+          "anchors": [
+            "2CO.13.7"
+          ],
+          "sourceAnchor": "2CO.13.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "2CO.13.8",
+          "anchors": [
+            "2CO.13.8"
+          ],
+          "sourceAnchor": "2CO.13.8"
+        },
+        {
+          "text": "Οὐ γὰρ δυνάμεθά τι κατὰ τῆς ἀληθείας, ἀλλ’ ὑπὲρ τῆς ἀληθείας.",
+          "anchor": "2CO.13.8",
+          "marks": [],
+          "anchors": [
+            "2CO.13.8"
+          ],
+          "sourceAnchor": "2CO.13.8"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.8",
+          "marks": [],
+          "anchors": [
+            "2CO.13.8"
+          ],
+          "sourceAnchor": "2CO.13.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "2CO.13.9",
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        },
+        {
+          "text": "Χαίρομεν γὰρ ὅταν ἡμεῖς ἀσθενῶμεν, ὑμεῖς δὲ δυνατοὶ ἦτε· τοῦτο δὲ καὶ εὐχόμεθα, τὴν ὑμῶν κατάρτισιν.",
+          "anchor": "2CO.13.9",
+          "marks": [],
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.9",
+          "marks": [],
+          "anchors": [
+            "2CO.13.9"
+          ],
+          "sourceAnchor": "2CO.13.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "2CO.13.10",
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        },
+        {
+          "text": "Διὰ τοῦτο ταῦτα ἀπὼν γράφω, ἵνα παρὼν μὴ ἀποτόμως χρήσωμαι, κατὰ τὴν ἐξουσίαν ἣν ἔδωκέν μοι ὁ κύριος εἰς οἰκοδομήν, καὶ οὐκ εἰς καθαίρεσιν.",
+          "anchor": "2CO.13.10",
+          "marks": [],
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.10",
+          "marks": [],
+          "anchors": [
+            "2CO.13.10"
+          ],
+          "sourceAnchor": "2CO.13.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=255",
+      "runs": [
+        {
+          "verse": "11",
+          "anchor": "2CO.13.11",
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "text": "Λοιπόν, ἀδελφοί, χαίρετε· καταρτίζεσθε, παρακαλεῖσθε, τὸ αὐτὸ φρονεῖτε, εἰρηνεύετε· καὶ ὁ θεὸς τῆς ἀγάπης καὶ εἰρήνης ἔσται μεθ’ ὑμῶν.",
+          "anchor": "2CO.13.11",
+          "marks": [],
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.11",
+          "marks": [],
+          "anchors": [
+            "2CO.13.11"
+          ],
+          "sourceAnchor": "2CO.13.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "2CO.13.12",
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        },
+        {
+          "text": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.",
+          "anchor": "2CO.13.12",
+          "marks": [],
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.12",
+          "marks": [],
+          "anchors": [
+            "2CO.13.12"
+          ],
+          "sourceAnchor": "2CO.13.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=257",
+      "runs": [
+        {
+          "verse": "13",
+          "anchor": "2CO.13.13",
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        },
+        {
+          "text": "Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.",
+          "anchor": "2CO.13.13",
+          "marks": [],
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.13",
+          "marks": [],
+          "anchors": [
+            "2CO.13.13"
+          ],
+          "sourceAnchor": "2CO.13.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=258",
+      "runs": [
+        {
+          "verse": "14",
+          "anchor": "2CO.13.14",
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        },
+        {
+          "text": "Ἡ χάρις τοῦ κυρίου Ἰησοῦ χριστοῦ, καὶ ἡ ἀγάπη τοῦ θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν.",
+          "anchor": "2CO.13.14",
+          "marks": [],
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        },
+        {
+          "text": " ",
+          "anchor": "2CO.13.14",
+          "marks": [],
+          "anchors": [
+            "2CO.13.14"
+          ],
+          "sourceAnchor": "2CO.13.14"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "2CO.13.1",
+      "sourceRef": "2CO.13.1",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=245",
+      "sourceLabel": "1",
+      "anchors": [
+        "2CO.13.1"
+      ],
+      "mappingType": "exact",
+      "text": "Τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς. Ἐπὶ στόματος δύο μαρτύρων καὶ τριῶν σταθήσεται πᾶν ῥῆμα.",
+      "sourceText": "Τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς. Ἐπὶ στόματος δύο μαρτύρων καὶ τριῶν σταθήσεται πᾶν ῥῆμα.",
+      "originalText": "Τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς. Ἐπὶ στόματος δύο μαρτύρων καὶ τριῶν σταθήσεται πᾶν ῥῆμα. "
+    },
+    {
+      "id": "2CO.13.2",
+      "sourceRef": "2CO.13.2",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=246",
+      "sourceLabel": "2",
+      "anchors": [
+        "2CO.13.2"
+      ],
+      "mappingType": "exact",
+      "text": "Προείρηκα καὶ προλέγω, ὡς παρὼν τὸ δεύτερον, καὶ ἀπὼν νῦν γράφω τοῖς προημαρτηκόσιν καὶ τοῖς λοιποῖς πᾶσιν, ὅτι ἐὰν ἔλθω εἰς τὸ πάλιν, οὐ φείσομαι·",
+      "sourceText": "Προείρηκα καὶ προλέγω, ὡς παρὼν τὸ δεύτερον, καὶ ἀπὼν νῦν γράφω τοῖς προημαρτηκόσιν καὶ τοῖς λοιποῖς πᾶσιν, ὅτι ἐὰν ἔλθω εἰς τὸ πάλιν, οὐ φείσομαι·",
+      "originalText": "Προείρηκα καὶ προλέγω, ὡς παρὼν τὸ δεύτερον, καὶ ἀπὼν νῦν γράφω τοῖς προημαρτηκόσιν καὶ τοῖς λοιποῖς πᾶσιν, ὅτι ἐὰν ἔλθω εἰς τὸ πάλιν, οὐ φείσομαι· "
+    },
+    {
+      "id": "2CO.13.3",
+      "sourceRef": "2CO.13.3",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=247",
+      "sourceLabel": "3",
+      "anchors": [
+        "2CO.13.3"
+      ],
+      "mappingType": "exact",
+      "text": "ἐπεὶ δοκιμὴν ζητεῖτε τοῦ ἐν ἐμοὶ λαλοῦντος χριστοῦ, ὃς εἰς ὑμᾶς οὐκ ἀσθενεῖ, ἀλλὰ δυνατεῖ ἐν ὑμῖν·",
+      "sourceText": "ἐπεὶ δοκιμὴν ζητεῖτε τοῦ ἐν ἐμοὶ λαλοῦντος χριστοῦ, ὃς εἰς ὑμᾶς οὐκ ἀσθενεῖ, ἀλλὰ δυνατεῖ ἐν ὑμῖν·",
+      "originalText": "ἐπεὶ δοκιμὴν ζητεῖτε τοῦ ἐν ἐμοὶ λαλοῦντος χριστοῦ, ὃς εἰς ὑμᾶς οὐκ ἀσθενεῖ, ἀλλὰ δυνατεῖ ἐν ὑμῖν· "
+    },
+    {
+      "id": "2CO.13.4",
+      "sourceRef": "2CO.13.4",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=248",
+      "sourceLabel": "4",
+      "anchors": [
+        "2CO.13.4"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ γὰρ εἰ ἐσταυρώθη ἐξ ἀσθενείας, ἀλλὰ ζῇ ἐκ δυνάμεως θεοῦ. Καὶ γὰρ ἡμεῖς ἀσθενοῦμεν ἐν αὐτῷ, ἀλλὰ ζησόμεθα σὺν αὐτῷ ἐκ δυνάμεως θεοῦ εἰς ὑμᾶς.",
+      "sourceText": "καὶ γὰρ εἰ ἐσταυρώθη ἐξ ἀσθενείας, ἀλλὰ ζῇ ἐκ δυνάμεως θεοῦ. Καὶ γὰρ ἡμεῖς ἀσθενοῦμεν ἐν αὐτῷ, ἀλλὰ ζησόμεθα σὺν αὐτῷ ἐκ δυνάμεως θεοῦ εἰς ὑμᾶς.",
+      "originalText": "καὶ γὰρ εἰ ἐσταυρώθη ἐξ ἀσθενείας, ἀλλὰ ζῇ ἐκ δυνάμεως θεοῦ. Καὶ γὰρ ἡμεῖς ἀσθενοῦμεν ἐν αὐτῷ, ἀλλὰ ζησόμεθα σὺν αὐτῷ ἐκ δυνάμεως θεοῦ εἰς ὑμᾶς. "
+    },
+    {
+      "id": "2CO.13.5",
+      "sourceRef": "2CO.13.5",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=249",
+      "sourceLabel": "5",
+      "anchors": [
+        "2CO.13.5"
+      ],
+      "mappingType": "exact",
+      "text": "Ἑαυτοὺς πειράζετε εἰ ἐστὲ ἐν τῇ πίστει, ἑαυτοὺς δοκιμάζετε. Ἢ οὐκ ἐπιγινώσκετε ἑαυτούς, ὅτι Ἰησοῦς χριστὸς ἐν ὑμῖν ἐστίν; Εἰ μήτι ἀδόκιμοί ἐστε.",
+      "sourceText": "Ἑαυτοὺς πειράζετε εἰ ἐστὲ ἐν τῇ πίστει, ἑαυτοὺς δοκιμάζετε. Ἢ οὐκ ἐπιγινώσκετε ἑαυτούς, ὅτι Ἰησοῦς χριστὸς ἐν ὑμῖν ἐστίν; Εἰ μήτι ἀδόκιμοί ἐστε.",
+      "originalText": "Ἑαυτοὺς πειράζετε εἰ ἐστὲ ἐν τῇ πίστει, ἑαυτοὺς δοκιμάζετε. Ἢ οὐκ ἐπιγινώσκετε ἑαυτούς, ὅτι Ἰησοῦς χριστὸς ἐν ὑμῖν ἐστίν; Εἰ μήτι ἀδόκιμοί ἐστε. "
+    },
+    {
+      "id": "2CO.13.6",
+      "sourceRef": "2CO.13.6",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=250",
+      "sourceLabel": "6",
+      "anchors": [
+        "2CO.13.6"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐλπίζω δὲ ὅτι γνώσεσθε ὅτι ἡμεῖς οὐκ ἐσμὲν ἀδόκιμοι.",
+      "sourceText": "Ἐλπίζω δὲ ὅτι γνώσεσθε ὅτι ἡμεῖς οὐκ ἐσμὲν ἀδόκιμοι.",
+      "originalText": "Ἐλπίζω δὲ ὅτι γνώσεσθε ὅτι ἡμεῖς οὐκ ἐσμὲν ἀδόκιμοι. "
+    },
+    {
+      "id": "2CO.13.7",
+      "sourceRef": "2CO.13.7",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=251",
+      "sourceLabel": "7",
+      "anchors": [
+        "2CO.13.7"
+      ],
+      "mappingType": "exact",
+      "text": "Εὔχομαι δὲ πρὸς τὸν θεόν, μὴ ποιῆσαι ὑμᾶς κακὸν μηδέν, οὐχ ἵνα ἡμεῖς δόκιμοι φανῶμεν, ἀλλ’ ἵνα ὑμεῖς τὸ καλὸν ποιῆτε, ἡμεῖς δὲ ὡς ἀδόκιμοι ὦμεν.",
+      "sourceText": "Εὔχομαι δὲ πρὸς τὸν θεόν, μὴ ποιῆσαι ὑμᾶς κακὸν μηδέν, οὐχ ἵνα ἡμεῖς δόκιμοι φανῶμεν, ἀλλ’ ἵνα ὑμεῖς τὸ καλὸν ποιῆτε, ἡμεῖς δὲ ὡς ἀδόκιμοι ὦμεν.",
+      "originalText": "Εὔχομαι δὲ πρὸς τὸν θεόν, μὴ ποιῆσαι ὑμᾶς κακὸν μηδέν, οὐχ ἵνα ἡμεῖς δόκιμοι φανῶμεν, ἀλλ’ ἵνα ὑμεῖς τὸ καλὸν ποιῆτε, ἡμεῖς δὲ ὡς ἀδόκιμοι ὦμεν. "
+    },
+    {
+      "id": "2CO.13.8",
+      "sourceRef": "2CO.13.8",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=252",
+      "sourceLabel": "8",
+      "anchors": [
+        "2CO.13.8"
+      ],
+      "mappingType": "exact",
+      "text": "Οὐ γὰρ δυνάμεθά τι κατὰ τῆς ἀληθείας, ἀλλ’ ὑπὲρ τῆς ἀληθείας.",
+      "sourceText": "Οὐ γὰρ δυνάμεθά τι κατὰ τῆς ἀληθείας, ἀλλ’ ὑπὲρ τῆς ἀληθείας.",
+      "originalText": "Οὐ γὰρ δυνάμεθά τι κατὰ τῆς ἀληθείας, ἀλλ’ ὑπὲρ τῆς ἀληθείας. "
+    },
+    {
+      "id": "2CO.13.9",
+      "sourceRef": "2CO.13.9",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=253",
+      "sourceLabel": "9",
+      "anchors": [
+        "2CO.13.9"
+      ],
+      "mappingType": "exact",
+      "text": "Χαίρομεν γὰρ ὅταν ἡμεῖς ἀσθενῶμεν, ὑμεῖς δὲ δυνατοὶ ἦτε· τοῦτο δὲ καὶ εὐχόμεθα, τὴν ὑμῶν κατάρτισιν.",
+      "sourceText": "Χαίρομεν γὰρ ὅταν ἡμεῖς ἀσθενῶμεν, ὑμεῖς δὲ δυνατοὶ ἦτε· τοῦτο δὲ καὶ εὐχόμεθα, τὴν ὑμῶν κατάρτισιν.",
+      "originalText": "Χαίρομεν γὰρ ὅταν ἡμεῖς ἀσθενῶμεν, ὑμεῖς δὲ δυνατοὶ ἦτε· τοῦτο δὲ καὶ εὐχόμεθα, τὴν ὑμῶν κατάρτισιν. "
+    },
+    {
+      "id": "2CO.13.10",
+      "sourceRef": "2CO.13.10",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=254",
+      "sourceLabel": "10",
+      "anchors": [
+        "2CO.13.10"
+      ],
+      "mappingType": "exact",
+      "text": "Διὰ τοῦτο ταῦτα ἀπὼν γράφω, ἵνα παρὼν μὴ ἀποτόμως χρήσωμαι, κατὰ τὴν ἐξουσίαν ἣν ἔδωκέν μοι ὁ κύριος εἰς οἰκοδομήν, καὶ οὐκ εἰς καθαίρεσιν.",
+      "sourceText": "Διὰ τοῦτο ταῦτα ἀπὼν γράφω, ἵνα παρὼν μὴ ἀποτόμως χρήσωμαι, κατὰ τὴν ἐξουσίαν ἣν ἔδωκέν μοι ὁ κύριος εἰς οἰκοδομήν, καὶ οὐκ εἰς καθαίρεσιν.",
+      "originalText": "Διὰ τοῦτο ταῦτα ἀπὼν γράφω, ἵνα παρὼν μὴ ἀποτόμως χρήσωμαι, κατὰ τὴν ἐξουσίαν ἣν ἔδωκέν μοι ὁ κύριος εἰς οἰκοδομήν, καὶ οὐκ εἰς καθαίρεσιν. \n"
+    },
+    {
+      "id": "2CO.13.11",
+      "sourceRef": "2CO.13.11",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=255",
+      "sourceLabel": "11",
+      "anchors": [
+        "2CO.13.11"
+      ],
+      "mappingType": "exact",
+      "text": "Λοιπόν, ἀδελφοί, χαίρετε· καταρτίζεσθε, παρακαλεῖσθε, τὸ αὐτὸ φρονεῖτε, εἰρηνεύετε· καὶ ὁ θεὸς τῆς ἀγάπης καὶ εἰρήνης ἔσται μεθ’ ὑμῶν.",
+      "sourceText": "¶Λοιπόν, ἀδελφοί, χαίρετε· καταρτίζεσθε, παρακαλεῖσθε, τὸ αὐτὸ φρονεῖτε, εἰρηνεύετε· καὶ ὁ θεὸς τῆς ἀγάπης καὶ εἰρήνης ἔσται μεθ’ ὑμῶν.",
+      "originalText": "Λοιπόν, ἀδελφοί, χαίρετε· καταρτίζεσθε, παρακαλεῖσθε, τὸ αὐτὸ φρονεῖτε, εἰρηνεύετε· καὶ ὁ θεὸς τῆς ἀγάπης καὶ εἰρήνης ἔσται μεθ’ ὑμῶν. "
+    },
+    {
+      "id": "2CO.13.12",
+      "sourceRef": "2CO.13.12",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=256",
+      "sourceLabel": "12",
+      "anchors": [
+        "2CO.13.12"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.",
+      "sourceText": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.",
+      "originalText": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι. \n"
+    },
+    {
+      "id": "2CO.13.13",
+      "sourceRef": "2CO.13.13",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=257",
+      "sourceLabel": "13",
+      "anchors": [
+        "2CO.13.13"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.",
+      "sourceText": "¶Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.",
+      "originalText": "Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες. \n"
+    },
+    {
+      "id": "2CO.13.14",
+      "sourceRef": "2CO.13.14",
+      "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=258",
+      "sourceLabel": "14",
+      "anchors": [
+        "2CO.13.14"
+      ],
+      "mappingType": "exact",
+      "text": "Ἡ χάρις τοῦ κυρίου Ἰησοῦ χριστοῦ, καὶ ἡ ἀγάπη τοῦ θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν.",
+      "sourceText": "¶Ἡ χάρις τοῦ κυρίου Ἰησοῦ χριστοῦ, καὶ ἡ ἀγάπη τοῦ θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν.",
+      "originalText": "Ἡ χάρις τοῦ κυρίου Ἰησοῦ χριστοῦ, καὶ ἡ ἀγάπη τοῦ θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν. "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "2CO.13.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.1",
+          "sourceRef": "2CO.13.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.2",
+          "sourceRef": "2CO.13.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.3",
+          "sourceRef": "2CO.13.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.4",
+          "sourceRef": "2CO.13.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.5",
+          "sourceRef": "2CO.13.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.6",
+          "sourceRef": "2CO.13.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.7",
+          "sourceRef": "2CO.13.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.8",
+          "sourceRef": "2CO.13.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.9",
+          "sourceRef": "2CO.13.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.10",
+          "sourceRef": "2CO.13.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.11",
+          "sourceRef": "2CO.13.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.12",
+          "sourceRef": "2CO.13.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.13",
+          "sourceRef": "2CO.13.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "2CO.13.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "2CO",
+          "chapter": 13,
+          "segmentId": "2CO.13.14",
+          "sourceRef": "2CO.13.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

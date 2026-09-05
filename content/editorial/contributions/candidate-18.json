@@ -1,0 +1,42 @@
+{
+  "unitId": "candidate-18",
+  "returnedRevision": "rev-3",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-1/candidate-18-RETURNED-2026-09-05.md",
+  "returnedSha256": "b3764f8d5fe7a6ae57e22b77bae946b00f52e13ab931dbf4a02f1cef359ec71a",
+  "correctionProposal": "docs/editorial-review/returns/2026-09-05/candidate-18-PROPOSED-PUBLIC-TEXT-2026-09-05.md",
+  "correctionProposalSha256": "dcccb30f0ad4b22d673fc0918eb9e5280e9224d1a10098ee59dd47f4d2ffcc75",
+  "correctionApprovalQuote": "I approve your corrections.  And am agreeable to your fact checking in general. :)",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; clock time not supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Initial A–D prose drafted by Claude (Anthropic); Larry adopted it in rev-2. Codex prepared the two corrections in the preserved proposal; Larry approved them in the project conversation.",
+  "permission": "Granted in rev-2 H, including commercial use; Ordinary Means commentary attribution; preserve contribution history.",
+  "publicScope": "Returned A–C with the two earlier user-approved factual corrections retained. No D teacher material or F attestation included.",
+  "factCheckingPreference": "User welcomes fact checking. This does not waive exact-content approval for future substantive theological or textual revisions.",
+  "bookVerification": {
+    "path": "Ad Fontes - Volume One.pdf",
+    "sha256": "44f0d6eeac1ba89ad73f3302344f6d3f3e602cb2b1eecf88c3039aacd592331e",
+    "edition": "Second edition, September 2026; ISBN 979-8-25-947926-5 confirmed in front matter",
+    "printedPagesInspected": [
+      342,
+      348,
+      372,
+      373,
+      374,
+      381
+    ],
+    "pdfPagesInspected": [
+      356,
+      362,
+      386,
+      387,
+      388,
+      395
+    ],
+    "method": "Rendered pages visually inspected because the PDF text layer is corrupted for much of the chapter. C6 paraphrase matches the author’s argument at pp. 342/373; this verifies attribution, not independent patristic/manuscript evidence. Book remains outside app/public."
+  },
+  "previousContribution": "content/editorial/contributions/history/candidate-18-rev2-corrected-contribution.json",
+  "approvedContentHash": "d0816511351dd32a70a658be5dc3530763cacc9a3ee58cfbc8000ab63653249e"
+}

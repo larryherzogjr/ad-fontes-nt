@@ -1,0 +1,28 @@
+{
+  "unitId": "candidate-03",
+  "returnedRevision": "rev-2a",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-1/candidate-03-RETURNED-2026-09-05.md",
+  "returnedSha256": "bfce9426e95aebf2149063e23926f8445eb14f8e2139936f376e343d9fcc9fa6",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C and corresponding source references. D and manuscript/early-witness discussion not imported.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "corrections": [
+    {
+      "original": "The editions that omit it do not conceal it.",
+      "replacement": "BSB also records the omitted sentence."
+    },
+    {
+      "original": "that verse is in every printed Bible in ordinary use",
+      "replacement": "that verse is present in all seven editions compared here"
+    }
+  ],
+  "correctionApprovalQuote": "Approve these two factual clarifications",
+  "approvedContentHash": "0f6f2adff71f9a99fb8b8f8551928ebddc83e85b826f5e4f97ebe9b41a8282f5"
+}

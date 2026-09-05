@@ -1,0 +1,954 @@
+'use client';
+import { useEffect, useRef, useState } from 'react';
+import StudyPanel from './study-panel';
+import PersonalNotes from './personal-notes';
+import ReadingSelection from './reading-selection';
+import ReviewedMarkers, { InlineReviewedMarkers, useReviewedUnits } from './reviewed-markers';
+import { reviewedAt, verseAnchors } from '@/lib/domain/reviewed-markers';
+import type { Variant } from '@/lib/domain/variants';
+import PublisherNoteLabel from './publisher-note-label';
+import { analysisInfo } from '@/lib/domain/greek';
+import { NativeSelect } from '@/components/ui/native-select';
+import {
+  books,
+  address,
+  chapterRange,
+  chapterNeighbor,
+  resolveReference,
+  passageUrl,
+  expand,
+  type PassageRange,
+} from '@/lib/domain/references';
+import {
+  getCorpus,
+  editions,
+  type Chapter,
+  type SearchHit,
+} from '@/lib/domain/corpus';
+const initial = chapterRange('JHN', 1);
+function get(k: string) {
+  try {
+    return localStorage.getItem(k);
+  } catch {
+    return null;
+  }
+}
+function noteContent(x: unknown, i = 0): React.ReactNode {
+  if (typeof x === 'string') return x;
+  if (!x || typeof x !== 'object') return null;
+  const n = x as { marker?: string; content?: unknown[] };
+  const c = n.content?.map((v, j) => noteContent(v, j));
+  return n.marker === 'fv' ? (
+    <sup key={i}>{c} </sup>
+  ) : n.marker === 'fqa' ? (
+    <i key={i}>{c}</i>
+  ) : (
+    <span key={i}>{c}</span>
+  );
+}
+export default function Reader() {
+  const reviewed = useReviewedUnits();
+  const [noteSelection,setNoteSelection] = useState<PassageRange[] | null>(null);
+  const openReviewed = (unit: Variant, focusId: string) => openStudy(unit.presentation === 'publisher-note' ? 'notes' : 'compare', unit.ranges, focusId, unit.id);
+  const [ranges, setRanges] = useState<PassageRange[]>([initial]),
+    [chapters, setChapters] = useState<Chapter[]>([]),
+    [mode, setMode] = useState('read'),
+    [edition, setEdition] = useState('BSB'),
+    [explicitPassage, setExplicitPassage] = useState(false),
+    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | null>(null),
+    [input, setInput] = useState(''),
+    [query, setQuery] = useState(''),
+    [filter, setFilter] = useState(''),
+    [page, setPage] = useState(1),
+    [results, setResults] = useState<{
+      hits: SearchHit[];
+      total: number;
+      page: number;
+    } | null>(null),
+    [error, setError] = useState(''),
+    [loading, setLoading] = useState(true),
+    [size, setSize] = useState(21),
+    [storageError, setStorageError] = useState('');
+  const editionMeta =
+    editions.find((e) => e.editionId === edition) || editions[0];
+  const link = (rs: PassageRange[]) => passageUrl(rs, edition);
+  const request = useRef(0),
+    focusAfter = useRef(false),
+    restoration = useRef<number | null>(null),
+    selection = useRef(new Set<string>()),
+    main = useRef<HTMLElement>(null);
+  function verseLink(ch: Chapter, anchor: string, source?: string) {
+    const segment = ch.segments.find((s) => s.sourceRef === (source || anchor));
+    const anchors =
+      segment?.mappingType === 'join' &&
+      (ch.book === '3JN' || ch.book === '2CO')
+        ? segment.anchors
+        : [anchor];
+    return link([{ start: anchors[0], end: anchors[anchors.length - 1] }]);
+  }
+  function coverageNotices(ch: Chapter) {
+    const out: { coverage: Chapter['coverage'][number]; anchors: string[] }[] =
+      [];
+    for (const c of ch.coverage.filter(
+      (c) =>
+        (selection.current.has(c.anchor) || (!explicitPassage && c.textState === 'absent' && reviewedAt(reviewed.units, [c.anchor]).length > 0)) &&
+        (c.textState !== 'present' ||
+          c.placements?.some((p) => p.mappingType !== 'exact')),
+    )) {
+      const last = out[out.length - 1];
+      if (
+        c.textState === 'bracketed' &&
+        last?.coverage.textState === 'bracketed' &&
+        address(last.anchors[last.anchors.length - 1]).verse + 1 ===
+          address(c.anchor).verse
+      )
+        last.anchors.push(c.anchor);
+      else out.push({ coverage: c, anchors: [c.anchor] });
+    }
+    return out;
+  }
+  function save(k: string, v: string) {
+    try {
+      localStorage.setItem(k, v);
+    } catch {
+      setStorageError('Reading preferences could not be saved on this device.');
+    }
+  }
+  function navigate(url: string) {
+    try {
+      sessionStorage.setItem('afnt-focus-reading', '1');
+    } catch {}
+    location.assign(url);
+  }
+  useEffect(() => {
+    try {
+      focusAfter.current = sessionStorage.getItem('afnt-focus-reading') === '1';
+      sessionStorage.removeItem('afnt-focus-reading');
+    } catch {}
+    const storedSize = Number(get('afnt-text-size'));
+    if (storedSize >= 18 && storedSize <= 32) setSize(storedSize);
+    const saved = get('afnt-position');
+    if (saved)
+      try {
+        const p = JSON.parse(saved);
+        if (typeof p.url === 'string' && p.url.startsWith('/read/')) {
+          if (location.pathname === '/') {
+            history.replaceState({}, '', p.url);
+            restoration.current = Number(p.y) || 0;
+          } else if (location.pathname + location.search === p.url)
+            restoration.current = Number(p.y) || 0;
+        }
+      } catch {}
+    try {
+      const raw =
+        sessionStorage.getItem('afnt-reading-return') ||
+        sessionStorage.getItem('afnt-study-origin');
+      sessionStorage.removeItem('afnt-reading-return');
+      if (raw) {
+        const state = JSON.parse(raw);
+        if (
+          state.url === location.pathname + location.search &&
+          Number.isFinite(state.y)
+        ) {
+          restoration.current = state.y;
+          sessionStorage.removeItem('afnt-study-origin');
+          sessionStorage.setItem('afnt-study-return', state.focusId);
+          focusAfter.current = true;
+        }
+      }
+    } catch {}
+    function route() {
+      const token = ++request.current;
+      setError('');
+      setLoading(true);
+      setChapters([]);
+      setResults(null);
+      const url = new URL(location.href);
+      const panel = url.searchParams.get('panel');
+      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' ? panel : null);
+      let adapter;
+      try {
+        adapter = getCorpus(url.searchParams.get('translation') || 'BSB');
+        setEdition(adapter.editionId);
+      } catch (e) {
+        setError((e as Error).message);
+        setLoading(false);
+        return;
+      }
+      if (url.pathname === '/about/sources') {
+        setMode('sources');
+        setLoading(false);
+        setTimeout(() => {
+          if (focusAfter.current) main.current?.focus();
+          window.scrollTo(0, 0);
+        }, 80);
+        return;
+      }
+      if (url.pathname === '/search') {
+        setMode('search');
+        const q = url.searchParams.get('q') || '',
+          f = url.searchParams.get('book') || '',
+          p = Number(url.searchParams.get('page') || 1);
+        setQuery(q);
+        setInput(q);
+        setFilter(f);
+        setPage(p);
+        adapter
+          .searchText(q, f, p)
+          .then((r) => {
+            if (token === request.current) {
+              setResults(r);
+              setPage(r.page);
+              setTimeout(() => {
+                if (focusAfter.current) main.current?.focus();
+                window.scrollTo(0, 0);
+              }, 80);
+            }
+          })
+          .catch((e) => {
+            if (token === request.current) setError(e.message);
+          })
+          .finally(() => {
+            if (token === request.current) setLoading(false);
+          });
+        return;
+      }
+      setMode('read');
+      try {
+        const m = /^\/read\/([A-Z0-9]{3})\/(\d+)$/.exec(url.pathname);
+        if (url.pathname !== '/' && !m)
+          throw new Error('That reading link is not valid.');
+        let rs = m ? [chapterRange(m[1], +m[2])] : [initial];
+        const p = url.searchParams.get('passage'),
+          verses = url.searchParams.get('verses');
+        if (p) rs = resolveReference(p);
+        else if (verses && m)
+          rs = resolveReference(`${m[1]} ${m[2]}:${verses}`);
+        setRanges(rs);
+        setExplicitPassage(Boolean(p || verses));
+        selection.current = new Set(p || verses ? rs.flatMap(expand) : []);
+        (p || verses
+          ? adapter.getReadingChapters(rs)
+          : Promise.all(
+              rs.map((r) => {
+                const a = address(r.start);
+                return adapter.getChapter(a.book.code, a.chapter);
+              }),
+            )
+        )
+          .then((data) => {
+            if (token !== request.current) return;
+            setChapters(data);
+            setLoading(false);
+            setInput('');
+            setTimeout(() => {
+              if (focusAfter.current) {
+                let returnId: string | null = null;
+                try {
+                  returnId = sessionStorage.getItem('afnt-study-return');
+                  sessionStorage.removeItem('afnt-study-return');
+                } catch {}
+                if (returnId) {
+                  document.getElementById(returnId)?.focus();
+                } else main.current?.focus();
+                focusAfter.current = false;
+              }
+              const anchor =
+                p || verses
+                  ? document.getElementById(rs[0].start) ||
+                    document.querySelector<HTMLElement>('.scripture .selected')
+                  : null;
+              if (restoration.current !== null) {
+                window.scrollTo(0, restoration.current);
+                restoration.current = null;
+              } else if (anchor) anchor.scrollIntoView({ block: 'center' });
+              else window.scrollTo(0, 0);
+              save(
+                'afnt-position',
+                JSON.stringify({
+                  url: location.pathname + location.search,
+                  y: window.scrollY,
+                }),
+              );
+            }, 80);
+          })
+          .catch((e) => {
+            if (token === request.current) {
+              setError(e.message);
+              setLoading(false);
+            }
+          });
+      } catch (e) {
+        setError((e as Error).message);
+        setLoading(false);
+      }
+    }
+    route();
+    window.addEventListener('popstate', route);
+    let timer: ReturnType<typeof setTimeout>;
+    const scroll = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        if (location.pathname.startsWith('/read/') || location.pathname === '/')
+          save(
+            'afnt-position',
+            JSON.stringify({
+              url:
+                location.pathname === '/'
+                  ? '/read/JHN/1'
+                  : location.pathname + location.search,
+              y: window.scrollY,
+            }),
+          );
+      }, 180);
+    };
+    window.addEventListener('scroll', scroll);
+    return () => {
+      request.current++;
+      clearTimeout(timer);
+      window.removeEventListener('popstate', route);
+      window.removeEventListener('scroll', scroll);
+    };
+  }, []);
+  const current = address(ranges[0].start),
+    previous = chapterNeighbor(current.book.code, current.chapter, -1),
+    last = address(ranges[ranges.length - 1].end),
+    next = chapterNeighbor(last.book.code, last.chapter, 1);
+  function goBook(b: string, c: number) {
+    navigate(`/read/${b}/${c}?translation=${encodeURIComponent(edition)}`);
+  }
+  function submit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!input.trim()) return;
+    try {
+      navigate(link(resolveReference(input)));
+    } catch (err) {
+      if (/\d/.test(input) && !input.startsWith('"'))
+        setError((err as Error).message);
+      else
+        navigate(
+          `/search?q=${encodeURIComponent(input)}&translation=${encodeURIComponent(edition)}`,
+        );
+    }
+  }
+  function searchPage(p: number, f = filter) {
+    navigate(
+      `/search?q=${encodeURIComponent(query)}&translation=${encodeURIComponent(edition)}&book=${f}&page=${p}`,
+    );
+  }
+  function openStudy(
+    mode: 'compare' | 'greek' | 'notes',
+    chosen?: PassageRange[],
+    focusId?: string,
+    unitId?: string,
+  ) {
+    try {
+      sessionStorage.setItem(
+        'afnt-study-origin',
+        JSON.stringify({
+          url: location.pathname + location.search,
+          y: window.scrollY,
+          focusId: focusId || `open-${mode}`,
+        }),
+      );
+    } catch {}
+    const selected =
+      chosen ||
+      (explicitPassage
+        ? ranges
+        : [{ start: ranges[0].start, end: ranges[0].start }]);
+    navigate(`${passageUrl(selected, edition)}&panel=${mode}${unitId ? `&unit=${encodeURIComponent(unitId)}` : ''}`);
+  }
+  function closeStudy() {
+    try {
+      const raw = sessionStorage.getItem('afnt-study-origin');
+      sessionStorage.removeItem('afnt-study-origin');
+      if (raw) {
+        const state = JSON.parse(raw);
+        if (
+          typeof state.url === 'string' &&
+          (state.url === '/' || state.url.startsWith('/read/')) &&
+          !state.url.includes('panel=')
+        ) {
+          sessionStorage.setItem('afnt-reading-return', raw);
+          navigate(state.url);
+          return;
+        }
+      }
+    } catch {}
+    try {
+      sessionStorage.setItem(
+        'afnt-study-return',
+        study === 'greek' ? 'open-greek' : 'open-compare',
+      );
+    } catch {}
+    const url = new URL(location.href);
+    url.searchParams.delete('panel');
+    url.searchParams.delete('token');
+    url.searchParams.delete('unit');
+    navigate(url.pathname + url.search);
+  }
+  function jumpNote(id: string) {
+    const el = document.getElementById(id) as HTMLDetailsElement | null;
+    if (el) {
+      el.open = true;
+      el.querySelector('summary')?.focus();
+      el.scrollIntoView({ block: 'center' });
+    }
+  }
+  return (
+    <>
+      <a className="skip" href="#reading">
+        Skip to reading
+      </a>
+      <header className="masthead">
+        <a
+          className="brand"
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            goBook(current.book.code, current.chapter);
+          }}
+        >
+          Ad Fontes NT
+          <span>A New Testament study environment from Ordinary Means.</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="/account">My account</a>
+          <a
+            className={mode === 'read' ? 'active' : ''}
+            href={`/read/${current.book.code}/${current.chapter}`}
+            onClick={(e) => {
+              e.preventDefault();
+              goBook(current.book.code, current.chapter);
+            }}
+          >
+            Read
+          </a>
+          <a
+            href="/about/sources"
+            onClick={(e) => {
+              e.preventDefault();
+              navigate(
+                `/about/sources?translation=${encodeURIComponent(edition)}`,
+              );
+            }}
+          >
+            Sources &amp; Editions
+          </a>
+        </nav>
+      </header>
+      <div className="toolbar">
+        <form onSubmit={submit} className="passage-form">
+          <label htmlFor="reference">Passage or English text</label>
+          <div className="input-row">
+            <input
+              id="reference"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="Romans 3:23 or grace"
+              autoComplete="off"
+            />
+            <button type="submit">Go</button>
+          </div>
+        </form>
+        <label className="edition-picker">
+          Edition
+          <NativeSelect
+            aria-label="Edition"
+            value={edition}
+            onChange={(e) => {
+              const chosen = e.target.value;
+              if (mode === 'search')
+                navigate(
+                  `/search?q=${encodeURIComponent(query)}&translation=${encodeURIComponent(chosen)}&book=${filter}`,
+                );
+              else if (mode === 'sources')
+                navigate(
+                  `/about/sources?translation=${encodeURIComponent(chosen)}`,
+                );
+              else
+                navigate(
+                  explicitPassage
+                    ? passageUrl(ranges, chosen)
+                    : `/read/${current.book.code}/${current.chapter}?translation=${encodeURIComponent(chosen)}`,
+                );
+            }}
+          >
+            <optgroup label="English">
+              {editions
+                .filter((e) => e.language === 'en')
+                .map((e) => (
+                  <option key={e.editionId} value={e.editionId}>
+                    {e.name}
+                  </option>
+                ))}
+            </optgroup>
+            <optgroup label="Greek">
+              {editions
+                .filter((e) => e.language === 'grc')
+                .map((e) => (
+                  <option key={e.editionId} value={e.editionId}>
+                    {e.name}
+                  </option>
+                ))}
+            </optgroup>
+          </NativeSelect>
+        </label>
+        <div className="pickers">
+          <label>
+            Book
+            <NativeSelect
+              aria-label="Book"
+              value={current.book.code}
+              onChange={(e) => goBook(e.target.value, 1)}
+            >
+              {books.map((b) => (
+                <option key={b.code} value={b.code}>
+                  {b.name}
+                </option>
+              ))}
+            </NativeSelect>
+          </label>
+          <label>
+            Chapter
+            <NativeSelect
+              aria-label="Chapter"
+              value={current.chapter}
+              onChange={(e) => goBook(current.book.code, +e.target.value)}
+            >
+              {current.book.verses.map((_, i) => (
+                <option key={i + 1}>{i + 1}</option>
+              ))}
+            </NativeSelect>
+          </label>
+        </div>
+      </div>
+      <main id="reading" ref={main} tabIndex={-1}>
+        <div aria-live="polite">
+          {loading && <p className="notice">Loading local {edition} text…</p>}
+          {storageError && <p className="notice">{storageError}</p>}
+        </div>
+        {error && (
+          <div role="alert" className="error">
+            <h1>Unable to open this request</h1>
+            <p>{error}</p>
+            <button onClick={() => goBook('JHN', 1)}>Open John 1</button>
+          </div>
+        )}
+        {!loading && !error && mode === 'read' && (
+          <>
+            <div className="reading-top">
+              <div>
+                <p className="eyebrow">NEW TESTAMENT · SCRIPTURE</p>
+                <p className="edition">
+                  {editionMeta.name} <span>{edition}</span>
+                </p>
+              </div>
+              <div className="type-size" aria-label="Text size">
+                <button
+                  disabled={size <= 18}
+                  aria-label="Decrease text size"
+                  onClick={() => {
+                    setSize(size - 1);
+                    save('afnt-text-size', String(size - 1));
+                  }}
+                >
+                  A−
+                </button>
+                <output aria-label="Current text size">{size}</output>
+                <button
+                  disabled={size >= 32}
+                  aria-label="Increase text size"
+                  onClick={() => {
+                    setSize(size + 1);
+                    save('afnt-text-size', String(size + 1));
+                  }}
+                >
+                  A+
+                </button>
+              </div>
+            </div>
+            <p className="edition-description">{editionMeta.description}</p>
+            <div className="study-actions">
+              <button id="open-compare" onClick={() => openStudy('compare')}>
+                Compare editions
+              </button>
+              <button id="open-greek" onClick={() => openStudy('greek')}>
+                Explore Greek
+              </button>
+              <small>
+                {explicitPassage
+                  ? 'Study the selected passage'
+                  : 'Tap a verse number or highlight Scripture to study it here.'}
+              </small>
+            </div>
+            <PersonalNotes ranges={ranges} edition={edition} selection={noteSelection} />
+            {!study && <ReadingSelection onOpen={openStudy} onNote={setNoteSelection} />}
+            {study && (
+              <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />
+            )}
+            {chapters.map((ch) => (
+              <section key={`${ch.book}.${ch.chapter}`} className="chapter">
+                <h1>
+                  {books.find((b) => b.code === ch.book)?.name}{' '}
+                  <span>{ch.chapter}</span>
+                </h1>
+                <ReviewedMarkers book={ch.book} chapter={ch.chapter} units={reviewed.units} error={reviewed.error} onOpen={openReviewed} />
+                {coverageNotices(ch).map(({ coverage: c, anchors }) => (
+                  <aside
+                    key={c.anchor}
+                    id={c.textState === 'absent' ? c.anchor : undefined}
+                    className="notice"
+                  >
+                    <strong>
+                      {anchors.length === 1
+                        ? c.anchor
+                        : `${anchors[0]}–${anchors[anchors.length - 1]}`}
+                    </strong>{' '}
+                    {c.textState === 'absent'
+                      ? `is not in the ${edition} main text. Context follows. `
+                      : c.textState === 'bracketed'
+                        ? 'is within brackets in this source. The original brackets are retained. '
+                        : 'has an edition-specific numbering or placement relationship. '}
+                    {c.textState !== 'bracketed' && !!c.placements?.length && (
+                      <span>
+                        Source:{' '}
+                        {c.placements.map((p) => p.sourceRef).join(', ')}.{' '}
+                        {c.textState === 'relocated'
+                          ? 'The source chapter is included below. '
+                          : 'Joined or split verses are shown in their full source context. '}
+                      </span>
+                    )}
+                    <InlineReviewedMarkers units={reviewed.units} anchors={anchors} idPrefix={`coverage-commentary-${ch.book}-${ch.chapter}-${c.anchor}`} onOpen={openReviewed} />
+                    {c.publisherNoteIds.map((id) => (
+                      <button key={id} onClick={() => jumpNote(id)}>
+                        Read publisher note
+                      </button>
+                    ))}
+                  </aside>
+                ))}
+                <article
+                  className="scripture"
+                  lang={editionMeta.language}
+                  style={{ fontSize: `${size / 16}rem` }}
+                  aria-label={`${ch.book} ${ch.chapter} Scripture`}
+                >
+                  {ch.blocks.map((b, i) => {
+                    const content = b.runs.map((r, j) =>
+                      r.verse ? (
+                        <sup key={j} id={r.anchor}>
+                          <a
+                            id={`study-verse-${ch.book}-${ch.chapter}-${i}-${j}`}
+                            aria-label={`Study ${r.anchor}`}
+                            data-study-reference={
+                              new URL(
+                                verseLink(ch, r.anchor!, r.sourceAnchor),
+                                'http://local',
+                              ).searchParams.get('passage') || r.anchor
+                            }
+                            href={verseLink(ch, r.anchor!, r.sourceAnchor)}
+                          >
+                            {r.verse}
+                          </a>
+                          <InlineReviewedMarkers units={reviewed.units} anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? [] : verseAnchors(ch, r)} idPrefix={`verse-commentary-${ch.book}-${ch.chapter}-${i}-${j}`} onOpen={openReviewed} />
+                        </sup>
+                      ) : r.noteId ? (
+                        <button
+                          key={j}
+                          id={`marker-${r.noteId}`}
+                          className="note-marker"
+                          aria-label={`${edition} publisher note for ${r.anchor}`}
+                          onClick={() => jumpNote(r.noteId!)}
+                        >
+                          †
+                        </button>
+                      ) : (
+                        <span
+                          key={j}
+                          data-study-anchors={
+                            (r.anchors || (r.anchor ? [r.anchor] : [])).join(
+                              ' ',
+                            ) || undefined
+                          }
+                          data-study-focus={(() => {
+                            for (let k = i; k >= 0; k--) {
+                              const runs = ch.blocks[k].runs;
+                              for (
+                                let n = k === i ? j - 1 : runs.length - 1;
+                                n >= 0;
+                                n--
+                              )
+                                if (runs[n].verse)
+                                  return `study-verse-${ch.book}-${ch.chapter}-${k}-${n}`;
+                            }
+                            return 'reading';
+                          })()}
+                          className={
+                            (r.anchors || (r.anchor ? [r.anchor] : [])).some(
+                              (a) => selection.current.has(a),
+                            )
+                              ? 'selected'
+                              : undefined
+                          }
+                        >
+                          {r.text}
+                        </span>
+                      ),
+                    );
+                    return b.role === 'publisher-heading' ? (
+                      <div
+                        key={i}
+                        className={`publisher-heading ${b.marker}`}
+                        aria-label={`${edition} publisher heading or subscription`}
+                      >
+                        {content}
+                      </div>
+                    ) : b.role === 'publisher-alternative' ? (
+                      <div key={i} className="edition-alternative">
+                        <small>Edition’s appended alternative</small>
+                        <p>{content}</p>
+                      </div>
+                    ) : (
+                      <p key={i} className={`text-block ${b.marker}`}>
+                        {content}
+                      </p>
+                    );
+                  })}
+                </article>
+                {!!ch.alternatives?.length && (
+                  <details className="edition-alternatives">
+                    <summary>Edition’s alternative readings</summary>
+                    <p>
+                      These are separate alternatives supplied with{' '}
+                      {editionMeta.name}.
+                    </p>
+                    {ch.alternatives.map((a) => (
+                      <p key={a.sourceId}>
+                        <small>
+                          {a.label} · {a.sourceRef}
+                        </small>
+                        <br />
+                        <span lang="grc" className="greek-alternative">
+                          {a.text}
+                        </span>
+                      </p>
+                    ))}
+                  </details>
+                )}
+                {ch.notes.length > 0 && (
+                  <section
+                    className="publisher-notes"
+                    aria-label={`${edition} publisher notes`}
+                  >
+                    <h2>{edition} publisher’s notes</h2>
+                    {ch.notes.map((n) => (
+                      <details id={n.id} key={n.id}>
+                        <summary>
+                          {n.anchor
+                            .replace(`${ch.book}.`, '')
+                            .replace('.', ':')}{' '}
+                          · Publisher note
+                        </summary>
+                        <PublisherNoteLabel releaseId={ch.releaseId} note={n} />
+                        <p>{noteContent(n.original)}</p>
+                        <button
+                          onClick={() => {
+                            const marker = document.getElementById(
+                              `marker-${n.id}`,
+                            );
+                            marker?.focus();
+                            marker?.scrollIntoView({ block: 'center' });
+                          }}
+                        >
+                          Return to verse
+                        </button>
+                      </details>
+                    ))}
+                  </section>
+                )}
+              </section>
+            ))}
+            <nav className="chapter-nav" aria-label="Chapter navigation">
+              <button
+                disabled={!previous}
+                onClick={() =>
+                  previous && goBook(previous.book, previous.chapter)
+                }
+              >
+                ← Previous chapter
+              </button>
+              <button
+                disabled={!next}
+                onClick={() => next && goBook(next.book, next.chapter)}
+              >
+                Next chapter →
+              </button>
+            </nav>
+            <p className="local-status">
+              Reading position and text size are saved on this device. The
+              address bar is your passage link.
+            </p>
+          </>
+        )}
+        {!loading && !error && mode === 'search' && (
+          <section className="search-results">
+            <p className="eyebrow">{edition} · SCRIPTURE SEARCH</p>
+            <h1>Search the New Testament</h1>
+            <p>
+              Whole words, or an exact phrase in quotation marks. Publisher
+              notes are excluded.
+            </p>
+            <label>
+              Search within
+              <NativeSelect
+                aria-label="Search within book"
+                value={filter}
+                onChange={(e) => searchPage(1, e.target.value)}
+              >
+                <option value="">All 27 books</option>
+                {books.map((b) => (
+                  <option key={b.code} value={b.code}>
+                    {b.name}
+                  </option>
+                ))}
+              </NativeSelect>
+            </label>
+            <p role="status">
+              {results?.total || 0} results for “{query}”
+            </p>
+            {results?.hits.map((h) => (
+              <article key={h.anchor}>
+                <a
+                  href={link([{ start: h.anchor, end: h.anchor }])}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate(link([{ start: h.anchor, end: h.anchor }]));
+                  }}
+                >
+                  {books.find((b) => b.code === h.book)?.name}{' '}
+                  {h.anchor.split('.').slice(1).join(':')}
+                </a>
+                <p>{h.text}</p>
+              </article>
+            ))}
+            {results?.total === 0 && <p>Try another word, phrase, or book.</p>}
+            <nav className="chapter-nav" aria-label="Search pages">
+              <button disabled={page <= 1} onClick={() => searchPage(page - 1)}>
+                Previous results
+              </button>
+              <span>
+                Page {page} of{' '}
+                {Math.max(1, Math.ceil((results?.total || 0) / 20))}
+              </span>
+              <button
+                disabled={page * 20 >= (results?.total || 0)}
+                onClick={() => searchPage(page + 1)}
+              >
+                Next results
+              </button>
+            </nav>
+          </section>
+        )}
+        {!loading && !error && mode === 'sources' && (
+          <section className="sources">
+            <p className="eyebrow">SOURCES &amp; EDITIONS</p>
+            <h1>Read with a known source.</h1>
+            <p>
+              All editions contain the 27 New Testament books and are stored
+              locally. Textual groupings help organize comparison; they do not
+              imply uniform texts or word alignment.
+            </p>
+            {editions.map((e) => (
+              <section key={e.editionId} className="source-edition">
+                <h2>{e.name}</h2>
+                <p>
+                  {e.group} · {e.language === 'en' ? 'English' : 'Greek'}
+                </p>
+                <p>{e.description}</p>
+                <dl>
+                  <dt>Edition and source release</dt>
+                  <dd>{e.editionLabel}</dd>
+                  <dt>Local release</dt>
+                  <dd>{e.releaseId}</dd>
+                  <dt>Text authority</dt>
+                  <dd>{e.authority}</dd>
+                  <dt>Included layers</dt>
+                  <dd>{e.included.join('; ')}</dd>
+                  <dt>Excluded layers</dt>
+                  <dd>{e.excluded.join('; ')}</dd>
+                </dl>
+                <p>{e.rights}</p>
+                <p>
+                  <a href={e.url}>Source publisher or repository</a> ·{' '}
+                  <a href={e.rightsUrl}>Rights evidence</a> ·{' '}
+                  <a href={`/corpus/${e.releaseId}/manifest.json`}>
+                    Manifest and checksums
+                  </a>
+                </p>
+              </section>
+            ))}
+            <h2>About this environment</h2>
+            <p>
+              Ad Fontes NT is a New Testament study environment from Ordinary
+              Means, with a Lutheran/confessional identity. No confessional
+              background is needed to begin reading.
+            </p>
+            <p>
+              Scripture is the main reading text. Section headings and
+              publisher’s notes come from the selected edition. Ordinary Means
+              commentary, confessional sources, personal notes, and future AI
+              material are separate content categories; none is mixed into this
+              Scripture text.
+            </p>
+            <h2>Greek word analysis</h2>
+            <p>
+              Nestle 1904 morphology and lemmas by Ulrik Sandborg-Petersen, v1.3
+              (2017), under CC0. Analysis is attached only where the complete
+              Greek word sequence matches the selected source text:{' '}
+              {analysisInfo.coverage.matchedVerses.toLocaleString()} verses,{' '}
+              {analysisInfo.coverage.tokens.toLocaleString()} tokens. Two
+              apostrophe-shape discrepancies remain explicitly unavailable.
+            </p>
+            <p>
+              Contextual glosses come from the pinned Berean Interlinear
+              extract, with its public-domain dedication. Glosses are shown only
+              for matching verse word sequences. The separate historical lexical
+              aid is James Strong’s Greek Dictionary (1890), Ulrik Petersen XML
+              v1.4 (2007), explicitly identified as public domain in that
+              artifact. No English word alignment is assumed.
+            </p>
+            <p>
+              <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
+                Analysis sources, rights, checksums and coverage
+              </a>
+            </p>
+            <h2>M3 in progress</h2>
+            <p>
+              Edition comparison and Greek exploration are working. Larry Herzog
+              Jr. is assigned to the textual review queue; individual
+              explanations require recorded approval. Approved Ordinary Means
+              explanations appear with passage links and source citations. This is not the
+              finished MVP.
+            </p>
+          </section>
+        )}
+      </main>
+      <footer>
+        <span>Ordinary Means</span>
+        <span>Ad Fontes NT · M3 in progress</span>
+        <a
+          href="/about/sources"
+          onClick={(e) => {
+            e.preventDefault();
+            navigate(
+              `/about/sources?translation=${encodeURIComponent(edition)}`,
+            );
+          }}
+        >
+          Source information
+        </a>
+      </footer>
+    </>
+  );
+}

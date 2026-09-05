@@ -1,0 +1,2777 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/380",
+      "runs": [
+        {
+          "text": "The Triumphal Entry",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/381",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Zechariah 9:9–13",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 21:1–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 19:28–40",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 12:12–19",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/382",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MRK.11.1",
+          "anchors": [
+            "MRK.11.1"
+          ],
+          "sourceAnchor": "MRK.11.1"
+        },
+        {
+          "text": "As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples",
+          "anchor": "MRK.11.1",
+          "marks": [],
+          "originalText": "As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples ",
+          "anchors": [
+            "MRK.11.1"
+          ],
+          "sourceAnchor": "MRK.11.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MRK.11.2",
+          "anchors": [
+            "MRK.11.2"
+          ],
+          "sourceAnchor": "MRK.11.2"
+        },
+        {
+          "text": "and said to them, ",
+          "anchor": "MRK.11.2",
+          "marks": [],
+          "originalText": "and said to them, ",
+          "anchors": [
+            "MRK.11.2"
+          ],
+          "sourceAnchor": "MRK.11.2"
+        },
+        {
+          "text": "“Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here.",
+          "anchor": "MRK.11.2",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here. ",
+          "anchors": [
+            "MRK.11.2"
+          ],
+          "sourceAnchor": "MRK.11.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.11.3",
+          "anchors": [
+            "MRK.11.3"
+          ],
+          "sourceAnchor": "MRK.11.3"
+        },
+        {
+          "text": "If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”",
+          "anchor": "MRK.11.3",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”",
+          "anchors": [
+            "MRK.11.3"
+          ],
+          "sourceAnchor": "MRK.11.3"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/383",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.3"
+          ],
+          "sourceAnchor": "MRK.11.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.11.4",
+          "anchors": [
+            "MRK.11.4"
+          ],
+          "sourceAnchor": "MRK.11.4"
+        },
+        {
+          "text": "So they went and found the colt outside in the street, tied at a doorway. They untied it,",
+          "anchor": "MRK.11.4",
+          "marks": [],
+          "originalText": "So they went and found the colt outside in the street, tied at a doorway. They untied it, ",
+          "anchors": [
+            "MRK.11.4"
+          ],
+          "sourceAnchor": "MRK.11.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.11.5",
+          "anchors": [
+            "MRK.11.5"
+          ],
+          "sourceAnchor": "MRK.11.5"
+        },
+        {
+          "text": "and some who were standing there asked, “Why are you untying the colt?”",
+          "anchor": "MRK.11.5",
+          "marks": [],
+          "originalText": "and some who were standing there asked, “Why are you untying the colt?”",
+          "anchors": [
+            "MRK.11.5"
+          ],
+          "sourceAnchor": "MRK.11.5"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/384",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.5"
+          ],
+          "sourceAnchor": "MRK.11.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.11.6",
+          "anchors": [
+            "MRK.11.6"
+          ],
+          "sourceAnchor": "MRK.11.6"
+        },
+        {
+          "text": "The disciples answered as Jesus had instructed them, and the people gave them permission.",
+          "anchor": "MRK.11.6",
+          "marks": [],
+          "originalText": "The disciples answered as Jesus had instructed them, and the people gave them permission. ",
+          "anchors": [
+            "MRK.11.6"
+          ],
+          "sourceAnchor": "MRK.11.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.11.7",
+          "anchors": [
+            "MRK.11.7"
+          ],
+          "sourceAnchor": "MRK.11.7"
+        },
+        {
+          "text": "Then they led the colt to Jesus and threw their cloaks over it, and He sat on it.",
+          "anchor": "MRK.11.7",
+          "marks": [],
+          "originalText": "Then they led the colt to Jesus and threw their cloaks over it, and He sat on it.",
+          "anchors": [
+            "MRK.11.7"
+          ],
+          "sourceAnchor": "MRK.11.7"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/385",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.7",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.7"
+          ],
+          "sourceAnchor": "MRK.11.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.11.8",
+          "anchors": [
+            "MRK.11.8"
+          ],
+          "sourceAnchor": "MRK.11.8"
+        },
+        {
+          "text": "Many in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields.",
+          "anchor": "MRK.11.8",
+          "marks": [],
+          "originalText": "Many  in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields. ",
+          "anchors": [
+            "MRK.11.8"
+          ],
+          "sourceAnchor": "MRK.11.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MRK.11.9",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        },
+        {
+          "text": "The ones who went ahead and those who followed were shouting:",
+          "anchor": "MRK.11.9",
+          "marks": [],
+          "originalText": "The ones who went ahead and those who followed were shouting:",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/386",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/387",
+      "runs": [
+        {
+          "text": " “Hosanna!”",
+          "anchor": "MRK.11.9",
+          "marks": [],
+          "originalText": "“Hosanna!”",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        },
+        {
+          "noteId": "MRK.11.note.71",
+          "anchor": "MRK.11.9",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/388",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/389",
+      "runs": [
+        {
+          "text": " “Blessed is He who comes in the name of the Lord!”",
+          "anchor": "MRK.11.9",
+          "marks": [],
+          "originalText": "“Blessed is He who comes in the name of the Lord!”",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        },
+        {
+          "noteId": "MRK.11.note.72",
+          "anchor": "MRK.11.9",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/390",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/391",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.9"
+          ],
+          "sourceAnchor": "MRK.11.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.11.10",
+          "anchors": [
+            "MRK.11.10"
+          ],
+          "sourceAnchor": "MRK.11.10"
+        },
+        {
+          "text": "“Blessed is the coming kingdom of our father David!”",
+          "anchor": "MRK.11.10",
+          "marks": [],
+          "originalText": "“Blessed is the coming kingdom of our father David!”",
+          "anchors": [
+            "MRK.11.10"
+          ],
+          "sourceAnchor": "MRK.11.10"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/392",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/393",
+      "runs": [
+        {
+          "text": " “Hosanna in the highest!”",
+          "anchor": "MRK.11.10",
+          "marks": [],
+          "originalText": "“Hosanna in the highest!”",
+          "anchors": [
+            "MRK.11.10"
+          ],
+          "sourceAnchor": "MRK.11.10"
+        },
+        {
+          "noteId": "MRK.11.note.73",
+          "anchor": "MRK.11.10",
+          "anchors": [
+            "MRK.11.10"
+          ],
+          "sourceAnchor": "MRK.11.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/394",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.10"
+          ],
+          "sourceAnchor": "MRK.11.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.11.11",
+          "anchors": [
+            "MRK.11.11"
+          ],
+          "sourceAnchor": "MRK.11.11"
+        },
+        {
+          "text": "Then Jesus entered Jerusalem and went into the temple courts.",
+          "anchor": "MRK.11.11",
+          "marks": [],
+          "originalText": "Then Jesus entered Jerusalem and went into the temple courts.",
+          "anchors": [
+            "MRK.11.11"
+          ],
+          "sourceAnchor": "MRK.11.11"
+        },
+        {
+          "noteId": "MRK.11.note.74",
+          "anchor": "MRK.11.11",
+          "anchors": [
+            "MRK.11.11"
+          ],
+          "sourceAnchor": "MRK.11.11"
+        },
+        {
+          "text": " He looked around at everything, but since it was already late, He went out to Bethany with the Twelve.",
+          "anchor": "MRK.11.11",
+          "marks": [],
+          "originalText": " He looked around at everything, but since it was already late, He went out to Bethany with the Twelve.",
+          "anchors": [
+            "MRK.11.11"
+          ],
+          "sourceAnchor": "MRK.11.11"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/395",
+      "runs": [
+        {
+          "text": "Jesus Curses the Fig Tree",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/396",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 21:18–22",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 11:20–25",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/397",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.11"
+          ],
+          "sourceAnchor": "MRK.11.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MRK.11.12",
+          "anchors": [
+            "MRK.11.12"
+          ],
+          "sourceAnchor": "MRK.11.12"
+        },
+        {
+          "text": "The next day, when they had left Bethany, Jesus was hungry.",
+          "anchor": "MRK.11.12",
+          "marks": [],
+          "originalText": "The next day, when they had left Bethany, Jesus was hungry. ",
+          "anchors": [
+            "MRK.11.12"
+          ],
+          "sourceAnchor": "MRK.11.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.11.13",
+          "anchors": [
+            "MRK.11.13"
+          ],
+          "sourceAnchor": "MRK.11.13"
+        },
+        {
+          "text": "Seeing in the distance a fig tree in leaf, He went to see if there was any fruit on it. But when He reached it, He found nothing on it except leaves, since it was not the season for figs.",
+          "anchor": "MRK.11.13",
+          "marks": [],
+          "originalText": "Seeing in the distance a fig tree in leaf, He went to see if there was any fruit on it. But when He reached it, He found nothing on it except leaves, since it was not the season for figs. ",
+          "anchors": [
+            "MRK.11.13"
+          ],
+          "sourceAnchor": "MRK.11.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MRK.11.14",
+          "anchors": [
+            "MRK.11.14"
+          ],
+          "sourceAnchor": "MRK.11.14"
+        },
+        {
+          "text": "Then He said to the tree, ",
+          "anchor": "MRK.11.14",
+          "marks": [],
+          "originalText": "Then He said to the tree, ",
+          "anchors": [
+            "MRK.11.14"
+          ],
+          "sourceAnchor": "MRK.11.14"
+        },
+        {
+          "text": "“May no one ever eat of your fruit again.”",
+          "anchor": "MRK.11.14",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“May no one ever eat of your fruit again.”",
+          "anchors": [
+            "MRK.11.14"
+          ],
+          "sourceAnchor": "MRK.11.14"
+        },
+        {
+          "text": " And His disciples heard this statement.",
+          "anchor": "MRK.11.14",
+          "marks": [],
+          "originalText": " And His disciples heard this statement.",
+          "anchors": [
+            "MRK.11.14"
+          ],
+          "sourceAnchor": "MRK.11.14"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/398",
+      "runs": [
+        {
+          "text": "Jesus Cleanses the Temple",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/399",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 21:12–17",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 19:45–48",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 2:12–25",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/400",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.14"
+          ],
+          "sourceAnchor": "MRK.11.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.11.15",
+          "anchors": [
+            "MRK.11.15"
+          ],
+          "sourceAnchor": "MRK.11.15"
+        },
+        {
+          "text": "When they arrived in Jerusalem, Jesus entered the temple courts and began to drive out those who were buying and selling there. He overturned the tables of the money changers and the seats of those selling doves.",
+          "anchor": "MRK.11.15",
+          "marks": [],
+          "originalText": "When they arrived in Jerusalem, Jesus entered the temple courts and began to drive out those who were buying and selling there. He overturned the tables of the money changers and the seats of those selling doves. ",
+          "anchors": [
+            "MRK.11.15"
+          ],
+          "sourceAnchor": "MRK.11.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MRK.11.16",
+          "anchors": [
+            "MRK.11.16"
+          ],
+          "sourceAnchor": "MRK.11.16"
+        },
+        {
+          "text": "And He would not allow anyone to carry merchandise through the temple courts.",
+          "anchor": "MRK.11.16",
+          "marks": [],
+          "originalText": "And He would not allow anyone to carry merchandise through the temple courts. ",
+          "anchors": [
+            "MRK.11.16"
+          ],
+          "sourceAnchor": "MRK.11.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.11.17",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "text": "Then Jesus began to teach them, and He declared, ",
+          "anchor": "MRK.11.17",
+          "marks": [],
+          "originalText": "Then Jesus began to teach them, and He declared, ",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "text": "“Is it not written: ‘My house will be called a house of prayer for all the nations’",
+          "anchor": "MRK.11.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Is it not written: ‘My house will be called a house of prayer for all the nations’",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "noteId": "MRK.11.note.75",
+          "anchor": "MRK.11.17",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "text": "? But you have made it ‘a den of robbers.’",
+          "anchor": "MRK.11.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "? But you have made it ‘a den of robbers.’",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "noteId": "MRK.11.note.76",
+          "anchor": "MRK.11.17",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "text": "”",
+          "anchor": "MRK.11.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "”",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/401",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.17",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.17"
+          ],
+          "sourceAnchor": "MRK.11.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.11.18",
+          "anchors": [
+            "MRK.11.18"
+          ],
+          "sourceAnchor": "MRK.11.18"
+        },
+        {
+          "text": "When the chief priests and scribes heard this, they looked for a way to kill Him. For they were afraid of Him, because the whole crowd was astonished at His teaching.",
+          "anchor": "MRK.11.18",
+          "marks": [],
+          "originalText": "When the chief priests and scribes heard this, they looked for a way to kill Him. For they were afraid of Him, because the whole crowd was astonished at His teaching.",
+          "anchors": [
+            "MRK.11.18"
+          ],
+          "sourceAnchor": "MRK.11.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/402",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.18"
+          ],
+          "sourceAnchor": "MRK.11.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.11.19",
+          "anchors": [
+            "MRK.11.19"
+          ],
+          "sourceAnchor": "MRK.11.19"
+        },
+        {
+          "text": "And when evening came, Jesus and His disciples went",
+          "anchor": "MRK.11.19",
+          "marks": [],
+          "originalText": "And when evening came, Jesus and His disciples went",
+          "anchors": [
+            "MRK.11.19"
+          ],
+          "sourceAnchor": "MRK.11.19"
+        },
+        {
+          "noteId": "MRK.11.note.77",
+          "anchor": "MRK.11.19",
+          "anchors": [
+            "MRK.11.19"
+          ],
+          "sourceAnchor": "MRK.11.19"
+        },
+        {
+          "text": " out of the city.",
+          "anchor": "MRK.11.19",
+          "marks": [],
+          "originalText": " out of the city.",
+          "anchors": [
+            "MRK.11.19"
+          ],
+          "sourceAnchor": "MRK.11.19"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/403",
+      "runs": [
+        {
+          "text": "The Withered Fig Tree",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/404",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 21:18–22",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 11:12–14",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/405",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.19"
+          ],
+          "sourceAnchor": "MRK.11.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.11.20",
+          "anchors": [
+            "MRK.11.20"
+          ],
+          "sourceAnchor": "MRK.11.20"
+        },
+        {
+          "text": "As they were walking back in the morning, they saw the fig tree withered from its roots.",
+          "anchor": "MRK.11.20",
+          "marks": [],
+          "originalText": "As they were walking back in the morning, they saw the fig tree withered from its roots. ",
+          "anchors": [
+            "MRK.11.20"
+          ],
+          "sourceAnchor": "MRK.11.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MRK.11.21",
+          "anchors": [
+            "MRK.11.21"
+          ],
+          "sourceAnchor": "MRK.11.21"
+        },
+        {
+          "text": "Peter remembered it and said, “Look, Rabbi! The fig tree You cursed has withered.”",
+          "anchor": "MRK.11.21",
+          "marks": [],
+          "originalText": "Peter remembered it and said, “Look, Rabbi! The fig tree You cursed has withered.”",
+          "anchors": [
+            "MRK.11.21"
+          ],
+          "sourceAnchor": "MRK.11.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/406",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.21",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.21"
+          ],
+          "sourceAnchor": "MRK.11.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MRK.11.22",
+          "anchors": [
+            "MRK.11.22"
+          ],
+          "sourceAnchor": "MRK.11.22"
+        },
+        {
+          "text": "“Have faith in God,”",
+          "anchor": "MRK.11.22",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Have faith in God,”",
+          "anchors": [
+            "MRK.11.22"
+          ],
+          "sourceAnchor": "MRK.11.22"
+        },
+        {
+          "text": " Jesus said to them.",
+          "anchor": "MRK.11.22",
+          "marks": [],
+          "originalText": " Jesus said to them. ",
+          "anchors": [
+            "MRK.11.22"
+          ],
+          "sourceAnchor": "MRK.11.22"
+        },
+        {
+          "text": "",
+          "anchor": "MRK.11.22",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.22"
+          ],
+          "sourceAnchor": "MRK.11.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MRK.11.23",
+          "anchors": [
+            "MRK.11.23"
+          ],
+          "sourceAnchor": "MRK.11.23"
+        },
+        {
+          "text": "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him.",
+          "anchor": "MRK.11.23",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him. ",
+          "anchors": [
+            "MRK.11.23"
+          ],
+          "sourceAnchor": "MRK.11.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MRK.11.24",
+          "anchors": [
+            "MRK.11.24"
+          ],
+          "sourceAnchor": "MRK.11.24"
+        },
+        {
+          "text": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+          "anchor": "MRK.11.24",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+          "anchors": [
+            "MRK.11.24"
+          ],
+          "sourceAnchor": "MRK.11.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/407",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.24",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.24"
+          ],
+          "sourceAnchor": "MRK.11.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MRK.11.25",
+          "anchors": [
+            "MRK.11.25"
+          ],
+          "sourceAnchor": "MRK.11.25"
+        },
+        {
+          "text": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.",
+          "anchor": "MRK.11.25",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.",
+          "anchors": [
+            "MRK.11.25"
+          ],
+          "sourceAnchor": "MRK.11.25"
+        },
+        {
+          "noteId": "MRK.11.note.78",
+          "anchor": "MRK.11.25",
+          "anchors": [
+            "MRK.11.25"
+          ],
+          "sourceAnchor": "MRK.11.25"
+        },
+        {
+          "text": "”",
+          "anchor": "MRK.11.25",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "”",
+          "anchors": [
+            "MRK.11.25"
+          ],
+          "sourceAnchor": "MRK.11.25"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/408",
+      "runs": [
+        {
+          "text": "Jesus’ Authority Challenged",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/409",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 21:23–27",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 20:1–8",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/410",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.25",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.25"
+          ],
+          "sourceAnchor": "MRK.11.25"
+        },
+        {
+          "verse": "27",
+          "anchor": "MRK.11.27",
+          "anchors": [
+            "MRK.11.27"
+          ],
+          "sourceAnchor": "MRK.11.27"
+        },
+        {
+          "text": "After their return to Jerusalem, Jesus was walking in the temple courts, and the chief priests, scribes, and elders came up to Him.",
+          "anchor": "MRK.11.27",
+          "marks": [],
+          "originalText": "After their return to Jerusalem, Jesus was walking in the temple courts, and the chief priests, scribes, and elders came up to Him. ",
+          "anchors": [
+            "MRK.11.27"
+          ],
+          "sourceAnchor": "MRK.11.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MRK.11.28",
+          "anchors": [
+            "MRK.11.28"
+          ],
+          "sourceAnchor": "MRK.11.28"
+        },
+        {
+          "text": "“By what authority are You doing these things?” they asked. “And who gave You the authority to do them?”",
+          "anchor": "MRK.11.28",
+          "marks": [],
+          "originalText": "“By what authority are You doing these things?” they asked. “And who gave You the authority to do them?”",
+          "anchors": [
+            "MRK.11.28"
+          ],
+          "sourceAnchor": "MRK.11.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/411",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.28",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.28"
+          ],
+          "sourceAnchor": "MRK.11.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MRK.11.29",
+          "anchors": [
+            "MRK.11.29"
+          ],
+          "sourceAnchor": "MRK.11.29"
+        },
+        {
+          "text": "“I will ask you one question,”",
+          "anchor": "MRK.11.29",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I will ask you one question,”",
+          "anchors": [
+            "MRK.11.29"
+          ],
+          "sourceAnchor": "MRK.11.29"
+        },
+        {
+          "text": " Jesus replied, ",
+          "anchor": "MRK.11.29",
+          "marks": [],
+          "originalText": " Jesus replied, ",
+          "anchors": [
+            "MRK.11.29"
+          ],
+          "sourceAnchor": "MRK.11.29"
+        },
+        {
+          "text": "“and if you answer Me, I will tell you by what authority I am doing these things.",
+          "anchor": "MRK.11.29",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“and if you answer Me, I will tell you by what authority I am doing these things. ",
+          "anchors": [
+            "MRK.11.29"
+          ],
+          "sourceAnchor": "MRK.11.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MRK.11.30",
+          "anchors": [
+            "MRK.11.30"
+          ],
+          "sourceAnchor": "MRK.11.30"
+        },
+        {
+          "text": "John’s baptism—was it from heaven or from men? Answer Me!”",
+          "anchor": "MRK.11.30",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "John’s baptism — was it from heaven or from men? Answer Me!”",
+          "anchors": [
+            "MRK.11.30"
+          ],
+          "sourceAnchor": "MRK.11.30"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/412",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.11.30",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.11.30"
+          ],
+          "sourceAnchor": "MRK.11.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MRK.11.31",
+          "anchors": [
+            "MRK.11.31"
+          ],
+          "sourceAnchor": "MRK.11.31"
+        },
+        {
+          "text": "They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’",
+          "anchor": "MRK.11.31",
+          "marks": [],
+          "originalText": "They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’ ",
+          "anchors": [
+            "MRK.11.31"
+          ],
+          "sourceAnchor": "MRK.11.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MRK.11.32",
+          "anchors": [
+            "MRK.11.32"
+          ],
+          "sourceAnchor": "MRK.11.32"
+        },
+        {
+          "text": "But if we say, ‘From men’...” they were afraid of the people, for they all held that John truly was a prophet.",
+          "anchor": "MRK.11.32",
+          "marks": [],
+          "originalText": "But if we say, ‘From men’ ...” they were afraid of the people, for they all held that John truly was a prophet. ",
+          "anchors": [
+            "MRK.11.32"
+          ],
+          "sourceAnchor": "MRK.11.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MRK.11.33",
+          "anchors": [
+            "MRK.11.33"
+          ],
+          "sourceAnchor": "MRK.11.33"
+        },
+        {
+          "text": "So they answered, “We do not know.”",
+          "anchor": "MRK.11.33",
+          "marks": [],
+          "originalText": "So they answered, “We do not know.”",
+          "anchors": [
+            "MRK.11.33"
+          ],
+          "sourceAnchor": "MRK.11.33"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/413",
+      "runs": [
+        {
+          "text": " And Jesus replied, ",
+          "anchor": "MRK.11.33",
+          "marks": [],
+          "originalText": "And Jesus replied, ",
+          "anchors": [
+            "MRK.11.33"
+          ],
+          "sourceAnchor": "MRK.11.33"
+        },
+        {
+          "text": "“Neither will I tell you by what authority I am doing these things.”",
+          "anchor": "MRK.11.33",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Neither will I tell you by what authority I am doing these things.”",
+          "anchors": [
+            "MRK.11.33"
+          ],
+          "sourceAnchor": "MRK.11.33"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.11.1",
+      "sourceId": "bsb_usj/MRK.usj#content/382/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.11.1"
+      ],
+      "mappingType": "exact",
+      "text": "As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples",
+      "originalStructuredText": "As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples ",
+      "sourceRef": "MRK.11.1"
+    },
+    {
+      "id": "MRK.11.2",
+      "sourceId": "bsb_usj/MRK.usj#content/382/content/3",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.11.2"
+      ],
+      "mappingType": "exact",
+      "text": "and said to them, “Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here.",
+      "originalStructuredText": "and said to them, “Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here. ",
+      "sourceRef": "MRK.11.2"
+    },
+    {
+      "id": "MRK.11.3",
+      "sourceId": "bsb_usj/MRK.usj#content/382/content/5/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.11.3"
+      ],
+      "mappingType": "exact",
+      "text": "If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”",
+      "originalStructuredText": "If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”\n ",
+      "sourceRef": "MRK.11.3"
+    },
+    {
+      "id": "MRK.11.4",
+      "sourceId": "bsb_usj/MRK.usj#content/383/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.11.4"
+      ],
+      "mappingType": "exact",
+      "text": "So they went and found the colt outside in the street, tied at a doorway. They untied it,",
+      "originalStructuredText": "So they went and found the colt outside in the street, tied at a doorway. They untied it, ",
+      "sourceRef": "MRK.11.4"
+    },
+    {
+      "id": "MRK.11.5",
+      "sourceId": "bsb_usj/MRK.usj#content/383/content/3",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.11.5"
+      ],
+      "mappingType": "exact",
+      "text": "and some who were standing there asked, “Why are you untying the colt?”",
+      "originalStructuredText": "and some who were standing there asked, “Why are you untying the colt?”\n ",
+      "sourceRef": "MRK.11.5"
+    },
+    {
+      "id": "MRK.11.6",
+      "sourceId": "bsb_usj/MRK.usj#content/384/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.11.6"
+      ],
+      "mappingType": "exact",
+      "text": "The disciples answered as Jesus had instructed them, and the people gave them permission.",
+      "originalStructuredText": "The disciples answered as Jesus had instructed them, and the people gave them permission. ",
+      "sourceRef": "MRK.11.6"
+    },
+    {
+      "id": "MRK.11.7",
+      "sourceId": "bsb_usj/MRK.usj#content/384/content/3",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.11.7"
+      ],
+      "mappingType": "exact",
+      "text": "Then they led the colt to Jesus and threw their cloaks over it, and He sat on it.",
+      "originalStructuredText": "Then they led the colt to Jesus and threw their cloaks over it, and He sat on it.\n ",
+      "sourceRef": "MRK.11.7"
+    },
+    {
+      "id": "MRK.11.8",
+      "sourceId": "bsb_usj/MRK.usj#content/385/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.11.8"
+      ],
+      "mappingType": "exact",
+      "text": "Many in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields.",
+      "originalStructuredText": "Many  in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields. ",
+      "sourceRef": "MRK.11.8"
+    },
+    {
+      "id": "MRK.11.9",
+      "sourceId": "bsb_usj/MRK.usj#content/385/content/3",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.11.9"
+      ],
+      "mappingType": "exact",
+      "text": "The ones who went ahead and those who followed were shouting: “Hosanna!” “Blessed is He who comes in the name of the Lord!”",
+      "originalStructuredText": "The ones who went ahead and those who followed were shouting:\n\n“Hosanna!”\n\n“Blessed is He who comes in the name of the Lord!”\n\n ",
+      "sourceRef": "MRK.11.9"
+    },
+    {
+      "id": "MRK.11.10",
+      "sourceId": "bsb_usj/MRK.usj#content/391/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.11.10"
+      ],
+      "mappingType": "exact",
+      "text": "“Blessed is the coming kingdom of our father David!” “Hosanna in the highest!”",
+      "originalStructuredText": "“Blessed is the coming kingdom of our father David!”\n\n“Hosanna in the highest!”\n ",
+      "sourceRef": "MRK.11.10"
+    },
+    {
+      "id": "MRK.11.11",
+      "sourceId": "bsb_usj/MRK.usj#content/394/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.11.11"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus entered Jerusalem and went into the temple courts. He looked around at everything, but since it was already late, He went out to Bethany with the Twelve.",
+      "originalStructuredText": "Then Jesus entered Jerusalem and went into the temple courts. He looked around at everything, but since it was already late, He went out to Bethany with the Twelve.\n ",
+      "sourceRef": "MRK.11.11"
+    },
+    {
+      "id": "MRK.11.12",
+      "sourceId": "bsb_usj/MRK.usj#content/397/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.11.12"
+      ],
+      "mappingType": "exact",
+      "text": "The next day, when they had left Bethany, Jesus was hungry.",
+      "originalStructuredText": "The next day, when they had left Bethany, Jesus was hungry. ",
+      "sourceRef": "MRK.11.12"
+    },
+    {
+      "id": "MRK.11.13",
+      "sourceId": "bsb_usj/MRK.usj#content/397/content/3",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.11.13"
+      ],
+      "mappingType": "exact",
+      "text": "Seeing in the distance a fig tree in leaf, He went to see if there was any fruit on it. But when He reached it, He found nothing on it except leaves, since it was not the season for figs.",
+      "originalStructuredText": "Seeing in the distance a fig tree in leaf, He went to see if there was any fruit on it. But when He reached it, He found nothing on it except leaves, since it was not the season for figs. ",
+      "sourceRef": "MRK.11.13"
+    },
+    {
+      "id": "MRK.11.14",
+      "sourceId": "bsb_usj/MRK.usj#content/397/content/5",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.11.14"
+      ],
+      "mappingType": "exact",
+      "text": "Then He said to the tree, “May no one ever eat of your fruit again.” And His disciples heard this statement.",
+      "originalStructuredText": "Then He said to the tree, “May no one ever eat of your fruit again.” And His disciples heard this statement.\n ",
+      "sourceRef": "MRK.11.14"
+    },
+    {
+      "id": "MRK.11.15",
+      "sourceId": "bsb_usj/MRK.usj#content/400/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.11.15"
+      ],
+      "mappingType": "exact",
+      "text": "When they arrived in Jerusalem, Jesus entered the temple courts and began to drive out those who were buying and selling there. He overturned the tables of the money changers and the seats of those selling doves.",
+      "originalStructuredText": "When they arrived in Jerusalem, Jesus entered the temple courts and began to drive out those who were buying and selling there. He overturned the tables of the money changers and the seats of those selling doves. ",
+      "sourceRef": "MRK.11.15"
+    },
+    {
+      "id": "MRK.11.16",
+      "sourceId": "bsb_usj/MRK.usj#content/400/content/3",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.11.16"
+      ],
+      "mappingType": "exact",
+      "text": "And He would not allow anyone to carry merchandise through the temple courts.",
+      "originalStructuredText": "And He would not allow anyone to carry merchandise through the temple courts. ",
+      "sourceRef": "MRK.11.16"
+    },
+    {
+      "id": "MRK.11.17",
+      "sourceId": "bsb_usj/MRK.usj#content/400/content/5",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.11.17"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus began to teach them, and He declared, “Is it not written: ‘My house will be called a house of prayer for all the nations’? But you have made it ‘a den of robbers.’”",
+      "originalStructuredText": "Then Jesus began to teach them, and He declared, “Is it not written: ‘My house will be called a house of prayer for all the nations’? But you have made it ‘a den of robbers.’”\n ",
+      "sourceRef": "MRK.11.17"
+    },
+    {
+      "id": "MRK.11.18",
+      "sourceId": "bsb_usj/MRK.usj#content/401/content/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.11.18"
+      ],
+      "mappingType": "exact",
+      "text": "When the chief priests and scribes heard this, they looked for a way to kill Him. For they were afraid of Him, because the whole crowd was astonished at His teaching.",
+      "originalStructuredText": "When the chief priests and scribes heard this, they looked for a way to kill Him. For they were afraid of Him, because the whole crowd was astonished at His teaching.\n ",
+      "sourceRef": "MRK.11.18"
+    },
+    {
+      "id": "MRK.11.19",
+      "sourceId": "bsb_usj/MRK.usj#content/402/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.11.19"
+      ],
+      "mappingType": "exact",
+      "text": "And when evening came, Jesus and His disciples went out of the city.",
+      "originalStructuredText": "And when evening came, Jesus and His disciples went out of the city.\n ",
+      "sourceRef": "MRK.11.19"
+    },
+    {
+      "id": "MRK.11.20",
+      "sourceId": "bsb_usj/MRK.usj#content/405/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.11.20"
+      ],
+      "mappingType": "exact",
+      "text": "As they were walking back in the morning, they saw the fig tree withered from its roots.",
+      "originalStructuredText": "As they were walking back in the morning, they saw the fig tree withered from its roots. ",
+      "sourceRef": "MRK.11.20"
+    },
+    {
+      "id": "MRK.11.21",
+      "sourceId": "bsb_usj/MRK.usj#content/405/content/3",
+      "sourceLabel": "21",
+      "anchors": [
+        "MRK.11.21"
+      ],
+      "mappingType": "exact",
+      "text": "Peter remembered it and said, “Look, Rabbi! The fig tree You cursed has withered.”",
+      "originalStructuredText": "Peter remembered it and said, “Look, Rabbi! The fig tree You cursed has withered.”\n ",
+      "sourceRef": "MRK.11.21"
+    },
+    {
+      "id": "MRK.11.22",
+      "sourceId": "bsb_usj/MRK.usj#content/406/content/0/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "MRK.11.22"
+      ],
+      "mappingType": "exact",
+      "text": "“Have faith in God,” Jesus said to them.",
+      "originalStructuredText": "“Have faith in God,” Jesus said to them.  ",
+      "sourceRef": "MRK.11.22"
+    },
+    {
+      "id": "MRK.11.23",
+      "sourceId": "bsb_usj/MRK.usj#content/406/content/2/content/1",
+      "sourceLabel": "23",
+      "anchors": [
+        "MRK.11.23"
+      ],
+      "mappingType": "exact",
+      "text": "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him.",
+      "originalStructuredText": "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him. ",
+      "sourceRef": "MRK.11.23"
+    },
+    {
+      "id": "MRK.11.24",
+      "sourceId": "bsb_usj/MRK.usj#content/406/content/2/content/3",
+      "sourceLabel": "24",
+      "anchors": [
+        "MRK.11.24"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+      "originalStructuredText": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.\n ",
+      "sourceRef": "MRK.11.24"
+    },
+    {
+      "id": "MRK.11.25",
+      "sourceId": "bsb_usj/MRK.usj#content/407/content/1",
+      "sourceLabel": "25",
+      "anchors": [
+        "MRK.11.25"
+      ],
+      "mappingType": "exact",
+      "text": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.”",
+      "originalStructuredText": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.”\n ",
+      "sourceRef": "MRK.11.25"
+    },
+    {
+      "id": "MRK.11.27",
+      "sourceId": "bsb_usj/MRK.usj#content/410/content/1",
+      "sourceLabel": "27",
+      "anchors": [
+        "MRK.11.27"
+      ],
+      "mappingType": "exact",
+      "text": "After their return to Jerusalem, Jesus was walking in the temple courts, and the chief priests, scribes, and elders came up to Him.",
+      "originalStructuredText": "After their return to Jerusalem, Jesus was walking in the temple courts, and the chief priests, scribes, and elders came up to Him. ",
+      "sourceRef": "MRK.11.27"
+    },
+    {
+      "id": "MRK.11.28",
+      "sourceId": "bsb_usj/MRK.usj#content/410/content/3",
+      "sourceLabel": "28",
+      "anchors": [
+        "MRK.11.28"
+      ],
+      "mappingType": "exact",
+      "text": "“By what authority are You doing these things?” they asked. “And who gave You the authority to do them?”",
+      "originalStructuredText": "“By what authority are You doing these things?” they asked. “And who gave You the authority to do them?”\n ",
+      "sourceRef": "MRK.11.28"
+    },
+    {
+      "id": "MRK.11.29",
+      "sourceId": "bsb_usj/MRK.usj#content/411/content/0/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "MRK.11.29"
+      ],
+      "mappingType": "exact",
+      "text": "“I will ask you one question,” Jesus replied, “and if you answer Me, I will tell you by what authority I am doing these things.",
+      "originalStructuredText": "“I will ask you one question,” Jesus replied, “and if you answer Me, I will tell you by what authority I am doing these things. ",
+      "sourceRef": "MRK.11.29"
+    },
+    {
+      "id": "MRK.11.30",
+      "sourceId": "bsb_usj/MRK.usj#content/411/content/2/content/1",
+      "sourceLabel": "30",
+      "anchors": [
+        "MRK.11.30"
+      ],
+      "mappingType": "exact",
+      "text": "John’s baptism—was it from heaven or from men? Answer Me!”",
+      "originalStructuredText": "John’s baptism — was it from heaven or from men? Answer Me!”\n ",
+      "sourceRef": "MRK.11.30"
+    },
+    {
+      "id": "MRK.11.31",
+      "sourceId": "bsb_usj/MRK.usj#content/412/content/1",
+      "sourceLabel": "31",
+      "anchors": [
+        "MRK.11.31"
+      ],
+      "mappingType": "exact",
+      "text": "They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’",
+      "originalStructuredText": "They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’ ",
+      "sourceRef": "MRK.11.31"
+    },
+    {
+      "id": "MRK.11.32",
+      "sourceId": "bsb_usj/MRK.usj#content/412/content/3",
+      "sourceLabel": "32",
+      "anchors": [
+        "MRK.11.32"
+      ],
+      "mappingType": "exact",
+      "text": "But if we say, ‘From men’...” they were afraid of the people, for they all held that John truly was a prophet.",
+      "originalStructuredText": "But if we say, ‘From men’ ...” they were afraid of the people, for they all held that John truly was a prophet. ",
+      "sourceRef": "MRK.11.32"
+    },
+    {
+      "id": "MRK.11.33",
+      "sourceId": "bsb_usj/MRK.usj#content/412/content/5",
+      "sourceLabel": "33",
+      "anchors": [
+        "MRK.11.33"
+      ],
+      "mappingType": "exact",
+      "text": "So they answered, “We do not know.” And Jesus replied, “Neither will I tell you by what authority I am doing these things.”",
+      "originalStructuredText": "So they answered, “We do not know.”\nAnd Jesus replied, “Neither will I tell you by what authority I am doing these things.”",
+      "sourceRef": "MRK.11.33"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MRK.11.note.71",
+      "anchor": "MRK.11.9",
+      "sourceId": "bsb_usj/MRK.usj#content/387/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:9 Hosanna is a transliteration of the Hebrew Hosia-na, meaning Save, we pray or Save now, which became a shout of praise; see Psalm 118:25.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Hosanna "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "is a transliteration of the Hebrew "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Hosia-na"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              ", meaning "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Save, we pray "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Save now"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              ", which became a shout of praise; see ",
+              {
+                "type": "ref",
+                "loc": "PSA 118:25",
+                "content": [
+                  "Psalm 118:25"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.72",
+      "anchor": "MRK.11.9",
+      "sourceId": "bsb_usj/MRK.usj#content/389/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:9 Psalm 118:26",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "PSA 118:26",
+                "content": [
+                  "Psalm 118:26"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.73",
+      "anchor": "MRK.11.10",
+      "sourceId": "bsb_usj/MRK.usj#content/393/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:10 Or “Hosanna in the highest heaven!”See Psalm 118:25 and Psalm 148:1.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "“Hosanna in the highest heaven!”"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "PSA 118:25",
+                "content": [
+                  "Psalm 118:25"
+                ]
+              },
+              " and Psalm 148:1."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.74",
+      "anchor": "MRK.11.11",
+      "sourceId": "bsb_usj/MRK.usj#content/394/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:11 Literally the temple; also in verses 15, 16, and 27",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the temple"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; also in verses 15, 16, and 27"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.75",
+      "anchor": "MRK.11.17",
+      "sourceId": "bsb_usj/MRK.usj#content/400/content/7/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:17 Isaiah 56:7",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:17 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "ISA 56:7",
+                "content": [
+                  "Isaiah 56:7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.76",
+      "anchor": "MRK.11.17",
+      "sourceId": "bsb_usj/MRK.usj#content/400/content/7/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:17 Jeremiah 7:11",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:17 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "JER 7:11",
+                "content": [
+                  "Jeremiah 7:11"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.77",
+      "anchor": "MRK.11.19",
+      "sourceId": "bsb_usj/MRK.usj#content/402/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:19 Literally they went; BYZ and TR He went",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:19 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "they went"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "He went"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.11.note.78",
+      "anchor": "MRK.11.25",
+      "sourceId": "bsb_usj/MRK.usj#content/407/content/2/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "11:25 BYZ and TR include 26But if you do not forgive, neither will your Father in heaven forgive your trespasses; see Matthew 6:15.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "11:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              {
+                "type": "char",
+                "marker": "fv",
+                "content": [
+                  "26"
+                ]
+              },
+              "But if you do not forgive, neither will your Father in heaven forgive your trespasses"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "MAT 6:15",
+                "content": [
+                  "Matthew 6:15"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MRK.11.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.1",
+          "sourceRef": "MRK.11.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.2",
+          "sourceRef": "MRK.11.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.3",
+          "sourceRef": "MRK.11.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.4",
+          "sourceRef": "MRK.11.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.5",
+          "sourceRef": "MRK.11.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.6",
+          "sourceRef": "MRK.11.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.7",
+          "sourceRef": "MRK.11.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.8",
+          "sourceRef": "MRK.11.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.71",
+        "MRK.11.note.72"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.9",
+          "sourceRef": "MRK.11.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.73"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.10",
+          "sourceRef": "MRK.11.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.74"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.11",
+          "sourceRef": "MRK.11.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.12",
+          "sourceRef": "MRK.11.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.13",
+          "sourceRef": "MRK.11.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.14",
+          "sourceRef": "MRK.11.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.15",
+          "sourceRef": "MRK.11.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.16",
+          "sourceRef": "MRK.11.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.75",
+        "MRK.11.note.76"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.17",
+          "sourceRef": "MRK.11.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.18",
+          "sourceRef": "MRK.11.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.77"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.19",
+          "sourceRef": "MRK.11.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.20",
+          "sourceRef": "MRK.11.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.21",
+          "sourceRef": "MRK.11.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.22",
+          "sourceRef": "MRK.11.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.23",
+          "sourceRef": "MRK.11.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.24",
+          "sourceRef": "MRK.11.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.11.note.78"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.25",
+          "sourceRef": "MRK.11.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.26",
+      "dataState": "available",
+      "textState": "absent",
+      "publisherNoteIds": [
+        "MRK.11.note.78"
+      ],
+      "placements": [],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.27",
+          "sourceRef": "MRK.11.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.28",
+          "sourceRef": "MRK.11.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.29",
+          "sourceRef": "MRK.11.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.30",
+          "sourceRef": "MRK.11.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.31",
+          "sourceRef": "MRK.11.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.32",
+          "sourceRef": "MRK.11.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.11.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 11,
+          "segmentId": "MRK.11.33",
+          "sourceRef": "MRK.11.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+name: ad-fontes
+services:
+  db:
+    image: postgres:16-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: adfontes
+      POSTGRES_PASSWORD: ${POSTGRES_ADMIN_PASSWORD:?Configure deployment/.env}
+      AFNT_DATABASE_PASSWORD: ${AFNT_DATABASE_PASSWORD:?Configure deployment/.env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/01-afnt.sh:ro
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U postgres -d adfontes']
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks: [private]
+  web:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    restart: unless-stopped
+    init: true
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      NODE_ENV: production
+      PORT: '3000'
+      APP_ORIGIN: https://ad-fontes.app
+      DATABASE_URL: postgresql://afnt:${AFNT_DATABASE_PASSWORD}@db:5432/adfontes
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:?Configure Google OAuth}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:?Configure Google OAuth}
+      REGISTRATION_PASSWORD_HASH: ${REGISTRATION_PASSWORD_HASH:?Configure registration password}
+    ports: ['127.0.0.1:8135:3000']
+    networks: [private, egress]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+volumes:
+  pgdata:
+networks:
+  private: {internal: true}
+  egress:

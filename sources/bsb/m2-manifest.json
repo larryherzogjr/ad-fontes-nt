@@ -1,0 +1,78 @@
+{
+  "editionId": "BSB",
+  "name": "Berean Standard Bible",
+  "language": "en",
+  "group": "Critical/Eclectic",
+  "description": "Readable contemporary English; the foundational reading edition.",
+  "editionLabel": "Current, updated to 3rd Printing (publisher download listing)",
+  "authority": "Official bsb.txt supplies verbatim Scripture; official USJ supplies structure, headings and notes. Exact reviewed alignment differences retained separately.",
+  "url": "https://berean.bible/",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "rights": "Public-domain dedication effective April 30, 2023; all uses freely permitted, including commercial reproduction and adaptation.",
+  "attribution": "The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee.",
+  "included": [
+    "NT Scripture",
+    "source paragraphs and headings",
+    "publisher notes"
+  ],
+  "excluded": [
+    "OT",
+    "word alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/bsb/raw/bsb_usj.zip",
+      "url": "https://bereanbible.com/bsb_usj.zip",
+      "sha256": "53acad65d590f5bc8cded3e14b37b7b02916f6a365211bcf60ea733ecd800e8f"
+    },
+    {
+      "path": "sources/bsb/raw/bsb.txt",
+      "url": "https://bereanbible.com/bsb.txt",
+      "sha256": "2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96"
+    },
+    {
+      "path": "sources/bsb/evidence/terms.html",
+      "url": "https://berean.bible/terms.htm",
+      "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d"
+    },
+    {
+      "path": "sources/bsb/evidence/downloads.html",
+      "url": "https://berean.bible/downloads.htm",
+      "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca"
+    }
+  ],
+  "predecessorRelease": "bsb-2026-09-05-53acad65d590",
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [
+    "MAT.17.21",
+    "MAT.18.11",
+    "MAT.23.14",
+    "MRK.7.16",
+    "MRK.9.44",
+    "MRK.9.46",
+    "MRK.11.26",
+    "MRK.15.28",
+    "LUK.17.36",
+    "LUK.23.17",
+    "JHN.5.4",
+    "ACT.8.37",
+    "ACT.15.34",
+    "ACT.24.7",
+    "ACT.28.29",
+    "ROM.16.24"
+  ],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/bsb/evidence/downloads.html",
+      "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca"
+    },
+    {
+      "path": "sources/bsb/evidence/terms.html",
+      "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d"
+    }
+  ]
+}

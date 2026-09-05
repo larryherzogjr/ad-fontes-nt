@@ -1,0 +1,32 @@
+{
+  "unitId": "candidate-16",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-3/candidate-16-RETURNED-2026-09-05.md",
+  "returnedSha256": "a3d1c3c4cc1828b07f969b171652952905432b59353f52feefa17d927af2c265",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J for full history.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, referenced source records, approved related links and exact partial-verse boundaries; optional D is archival only.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "Supplied evidence matches frozen worksheet; chapter coverage and publisher notes reconciled. Relevant cross-references checked in full local NT, which includes chapters absent from the review packet.",
+  "factualCorrections": [
+    [
+      "The Berean Standard Bible and the Berean Literal Bible print none of it, ending verse 3 at \"the paralyzed\" and going straight to verse 5 [S1, S2].",
+      "The Berean Standard Bible and the Berean Literal Bible print none of it, ending verse 3 with the list of the sick and going straight to verse 5 [S1, S2]."
+    ],
+    [
+      "That is a third option — neither adopting nor removing, but flagging.",
+      "The material is present and marked; the markers’ precise editorial meaning is not established by these chapter extracts."
+    ],
+    [
+      "and that account is identical across all seven editions.",
+      "and all seven editions report that healing, though their wording is not identical."
+    ]
+  ],
+  "correctionApproval": "Larry Herzog Jr.: Approve all proposed corrections (2026-09-05)",
+  "approvedContentHash": "e96ae382653be210f45467b1b4c648ee671ac5952a0f1b874401d8159c2bbe1f"
+}

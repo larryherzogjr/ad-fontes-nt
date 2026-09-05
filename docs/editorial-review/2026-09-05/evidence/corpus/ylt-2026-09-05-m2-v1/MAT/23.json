@@ -1,0 +1,2125 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MAT.23.1",
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "text": "Then Jesus spake to the multitudes, and to his disciples,\n",
+          "anchor": "MAT.23.1",
+          "marks": [],
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.1",
+          "marks": [],
+          "anchors": [
+            "MAT.23.1"
+          ],
+          "sourceAnchor": "MAT.23.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.23.2",
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "text": "saying, 'On the seat of Moses sat down the scribes and the Pharisees;\n",
+          "anchor": "MAT.23.2",
+          "marks": [],
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.2",
+          "marks": [],
+          "anchors": [
+            "MAT.23.2"
+          ],
+          "sourceAnchor": "MAT.23.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.23.3",
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "text": "all, then, as much as they may say to you to observe, observe and do, but according to their works do not, for they say, and do not;\n",
+          "anchor": "MAT.23.3",
+          "marks": [],
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.3",
+          "marks": [],
+          "anchors": [
+            "MAT.23.3"
+          ],
+          "sourceAnchor": "MAT.23.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.23.4",
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "text": "for they bind together burdens heavy and grievous to be borne, and lay upon the shoulders of men, but with their finger they will not move them.\n",
+          "anchor": "MAT.23.4",
+          "marks": [],
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.4",
+          "marks": [],
+          "anchors": [
+            "MAT.23.4"
+          ],
+          "sourceAnchor": "MAT.23.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.23.5",
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "text": "'And all their works they do to be seen by men, and they make broad their phylacteries, and enlarge the fringes of their garments,\n",
+          "anchor": "MAT.23.5",
+          "marks": [],
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.5",
+          "marks": [],
+          "anchors": [
+            "MAT.23.5"
+          ],
+          "sourceAnchor": "MAT.23.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.23.6",
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "text": "they love also the chief couches in the supper, and the chief seats in the synagogues,\n",
+          "anchor": "MAT.23.6",
+          "marks": [],
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.6",
+          "marks": [],
+          "anchors": [
+            "MAT.23.6"
+          ],
+          "sourceAnchor": "MAT.23.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.23.7",
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "text": "and the salutations in the market-places, and to be called by men, Rabbi, Rabbi.\n",
+          "anchor": "MAT.23.7",
+          "marks": [],
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.7",
+          "marks": [],
+          "anchors": [
+            "MAT.23.7"
+          ],
+          "sourceAnchor": "MAT.23.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.23.8",
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "text": "'And ye — ye may not be called Rabbi, for one is your director — the Christ, and all ye are brethren;\n",
+          "anchor": "MAT.23.8",
+          "marks": [],
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.8",
+          "marks": [],
+          "anchors": [
+            "MAT.23.8"
+          ],
+          "sourceAnchor": "MAT.23.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.23.9",
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "text": "and ye may not call [any] your father on the earth, for one is your Father, who is in the heavens,\n",
+          "anchor": "MAT.23.9",
+          "marks": [],
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.9",
+          "marks": [],
+          "anchors": [
+            "MAT.23.9"
+          ],
+          "sourceAnchor": "MAT.23.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.23.10",
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "text": "nor may ye be called directors, for one is your director — the Christ.\n",
+          "anchor": "MAT.23.10",
+          "marks": [],
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.10",
+          "marks": [],
+          "anchors": [
+            "MAT.23.10"
+          ],
+          "sourceAnchor": "MAT.23.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.23.11",
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "text": "And the greater of you shall be your ministrant,\n",
+          "anchor": "MAT.23.11",
+          "marks": [],
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.11",
+          "marks": [],
+          "anchors": [
+            "MAT.23.11"
+          ],
+          "sourceAnchor": "MAT.23.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.23.12",
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        },
+        {
+          "text": "and whoever shall exalt himself shall be humbled, and whoever shall humble himself shall be exalted.\n",
+          "anchor": "MAT.23.12",
+          "marks": [],
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.12",
+          "marks": [],
+          "anchors": [
+            "MAT.23.12"
+          ],
+          "sourceAnchor": "MAT.23.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.23.13",
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye shut up the reign of the heavens before men, for ye do not go in, nor those going in do ye suffer to enter.\n",
+          "anchor": "MAT.23.13",
+          "marks": [],
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.13",
+          "marks": [],
+          "anchors": [
+            "MAT.23.13"
+          ],
+          "sourceAnchor": "MAT.23.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.23.14",
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye eat up the houses of the widows, and for a pretence make long prayers, because of this ye shall receive more abundant judgment.\n",
+          "anchor": "MAT.23.14",
+          "marks": [],
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.14",
+          "marks": [],
+          "anchors": [
+            "MAT.23.14"
+          ],
+          "sourceAnchor": "MAT.23.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.23.15",
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye go round the sea and the dry land to make one proselyte, and whenever it may happen — ye make him a son of gehenna twofold more than yourselves.\n",
+          "anchor": "MAT.23.15",
+          "marks": [],
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.15",
+          "marks": [],
+          "anchors": [
+            "MAT.23.15"
+          ],
+          "sourceAnchor": "MAT.23.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.23.16",
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "text": "'Woe to you, blind guides, who are saying, Whoever may swear by the sanctuary, it is nothing, but whoever may swear by the gold of the sanctuary — is debtor!\n",
+          "anchor": "MAT.23.16",
+          "marks": [],
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.16",
+          "marks": [],
+          "anchors": [
+            "MAT.23.16"
+          ],
+          "sourceAnchor": "MAT.23.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.23.17",
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "text": "Fools and blind! for which [is] greater, the gold, or the sanctuary that is sanctifying the gold?\n",
+          "anchor": "MAT.23.17",
+          "marks": [],
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.17",
+          "marks": [],
+          "anchors": [
+            "MAT.23.17"
+          ],
+          "sourceAnchor": "MAT.23.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.23.18",
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "text": "'And, whoever may swear by the altar, it is nothing; but whoever may swear by the gift that is upon it — is debtor!\n",
+          "anchor": "MAT.23.18",
+          "marks": [],
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.18",
+          "marks": [],
+          "anchors": [
+            "MAT.23.18"
+          ],
+          "sourceAnchor": "MAT.23.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.23.19",
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "text": "Fools and blind! for which [is] greater, the gift, or the altar that is sanctifying the gift?\n",
+          "anchor": "MAT.23.19",
+          "marks": [],
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.19",
+          "marks": [],
+          "anchors": [
+            "MAT.23.19"
+          ],
+          "sourceAnchor": "MAT.23.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.23.20",
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "text": "'He therefore who did swear by the altar, doth swear by it, and by all things on it;\n",
+          "anchor": "MAT.23.20",
+          "marks": [],
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.20",
+          "marks": [],
+          "anchors": [
+            "MAT.23.20"
+          ],
+          "sourceAnchor": "MAT.23.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.23.21",
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "text": "and he who did swear by the sanctuary, doth swear by it, and by Him who is dwelling in it;\n",
+          "anchor": "MAT.23.21",
+          "marks": [],
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.21",
+          "marks": [],
+          "anchors": [
+            "MAT.23.21"
+          ],
+          "sourceAnchor": "MAT.23.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.23.22",
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        },
+        {
+          "text": "and he who did swear by the heaven, doth swear by the throne of God, and by Him who is sitting upon it.\n",
+          "anchor": "MAT.23.22",
+          "marks": [],
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.22",
+          "marks": [],
+          "anchors": [
+            "MAT.23.22"
+          ],
+          "sourceAnchor": "MAT.23.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.23.23",
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye give tithe of the mint, and the dill, and the cumin, and did neglect the weightier things of the Law — the judgment, and the kindness, and the faith; these it behoved [you] to do, and those not to neglect.\n",
+          "anchor": "MAT.23.23",
+          "marks": [],
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.23",
+          "marks": [],
+          "anchors": [
+            "MAT.23.23"
+          ],
+          "sourceAnchor": "MAT.23.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.23.24",
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        },
+        {
+          "text": "'Blind guides! who are straining out the gnat, and the camel are swallowing.\n",
+          "anchor": "MAT.23.24",
+          "marks": [],
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.24",
+          "marks": [],
+          "anchors": [
+            "MAT.23.24"
+          ],
+          "sourceAnchor": "MAT.23.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.23.25",
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye make clean the outside of the cup and the plate, and within they are full of rapine and incontinence.\n",
+          "anchor": "MAT.23.25",
+          "marks": [],
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.25",
+          "marks": [],
+          "anchors": [
+            "MAT.23.25"
+          ],
+          "sourceAnchor": "MAT.23.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.23.26",
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        },
+        {
+          "text": "'Blind Pharisee! cleanse first the inside of the cup and the plate, that the outside of them also may become clean.\n",
+          "anchor": "MAT.23.26",
+          "marks": [],
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.26",
+          "marks": [],
+          "anchors": [
+            "MAT.23.26"
+          ],
+          "sourceAnchor": "MAT.23.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.23.27",
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye are like to whitewashed sepulchres, which outwardly indeed do appear beautiful, and within are full of bones of dead men, and of all uncleanness;\n",
+          "anchor": "MAT.23.27",
+          "marks": [],
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.27",
+          "marks": [],
+          "anchors": [
+            "MAT.23.27"
+          ],
+          "sourceAnchor": "MAT.23.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.23.28",
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        },
+        {
+          "text": "so also ye outwardly indeed do appear to men righteous, and within ye are full of hypocrisy and lawlessness.\n",
+          "anchor": "MAT.23.28",
+          "marks": [],
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.28",
+          "marks": [],
+          "anchors": [
+            "MAT.23.28"
+          ],
+          "sourceAnchor": "MAT.23.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MAT.23.29",
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye build the sepulchres of the prophets, and adorn the tombs of the righteous,\n",
+          "anchor": "MAT.23.29",
+          "marks": [],
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.29",
+          "marks": [],
+          "anchors": [
+            "MAT.23.29"
+          ],
+          "sourceAnchor": "MAT.23.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.23.30",
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "text": "and say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets.\n",
+          "anchor": "MAT.23.30",
+          "marks": [],
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.30",
+          "marks": [],
+          "anchors": [
+            "MAT.23.30"
+          ],
+          "sourceAnchor": "MAT.23.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.23.31",
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "text": "So that ye testify to yourselves, that ye are sons of them who did murder the prophets;\n",
+          "anchor": "MAT.23.31",
+          "marks": [],
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.31",
+          "marks": [],
+          "anchors": [
+            "MAT.23.31"
+          ],
+          "sourceAnchor": "MAT.23.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.23.32",
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "text": "and ye — ye fill up the measure of your fathers.\n",
+          "anchor": "MAT.23.32",
+          "marks": [],
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.32",
+          "marks": [],
+          "anchors": [
+            "MAT.23.32"
+          ],
+          "sourceAnchor": "MAT.23.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.23.33",
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "text": "'Serpents! brood of vipers! how may ye escape from the judgment of the gehenna?\n",
+          "anchor": "MAT.23.33",
+          "marks": [],
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.33",
+          "marks": [],
+          "anchors": [
+            "MAT.23.33"
+          ],
+          "sourceAnchor": "MAT.23.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.23.34",
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "text": "'Because of this, lo, I send to you prophets, and wise men, and scribes, and of them ye will kill and crucify, and of them ye will scourge in your synagogues, and will pursue from city to city;\n",
+          "anchor": "MAT.23.34",
+          "marks": [],
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.34",
+          "marks": [],
+          "anchors": [
+            "MAT.23.34"
+          ],
+          "sourceAnchor": "MAT.23.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MAT.23.35",
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "text": "that on you may come all the righteous blood being poured out on the earth from the blood of Abel the righteous, unto the blood of Zacharias son of Barachias, whom ye slew between the sanctuary and the altar:\n",
+          "anchor": "MAT.23.35",
+          "marks": [],
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.35",
+          "marks": [],
+          "anchors": [
+            "MAT.23.35"
+          ],
+          "sourceAnchor": "MAT.23.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MAT.23.36",
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        },
+        {
+          "text": "verily I say to you, all these things shall come upon this generation.\n",
+          "anchor": "MAT.23.36",
+          "marks": [],
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.36",
+          "marks": [],
+          "anchors": [
+            "MAT.23.36"
+          ],
+          "sourceAnchor": "MAT.23.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MAT.23.37",
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "text": "'Jerusalem, Jerusalem, that art killing the prophets, and stoning those sent unto thee, how often did I will to gather thy children together, as a hen doth gather her own chickens under the wings, and ye did not will.\n",
+          "anchor": "MAT.23.37",
+          "marks": [],
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.37",
+          "marks": [],
+          "anchors": [
+            "MAT.23.37"
+          ],
+          "sourceAnchor": "MAT.23.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MAT.23.38",
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "text": "Lo, left desolate to you is your house;\n",
+          "anchor": "MAT.23.38",
+          "marks": [],
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.38",
+          "marks": [],
+          "anchors": [
+            "MAT.23.38"
+          ],
+          "sourceAnchor": "MAT.23.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MAT.23.39",
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        },
+        {
+          "text": "for I say to you, ye may not see me henceforth, till ye may say, Blessed [is] he who is coming in the name of the Lord.'\n",
+          "anchor": "MAT.23.39",
+          "marks": [],
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.23.39",
+          "marks": [],
+          "anchors": [
+            "MAT.23.39"
+          ],
+          "sourceAnchor": "MAT.23.39"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.23.1",
+      "sourceRef": "MAT.23.1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[0]",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.23.1"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus spake to the multitudes, and to his disciples,",
+      "originalText": "Then Jesus spake to the multitudes, and to his disciples,\n\n"
+    },
+    {
+      "id": "MAT.23.2",
+      "sourceRef": "MAT.23.2",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[2]",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.23.2"
+      ],
+      "mappingType": "exact",
+      "text": "saying, 'On the seat of Moses sat down the scribes and the Pharisees;",
+      "originalText": "saying, 'On the seat of Moses sat down the scribes and the Pharisees;\n\n"
+    },
+    {
+      "id": "MAT.23.3",
+      "sourceRef": "MAT.23.3",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[4]",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.23.3"
+      ],
+      "mappingType": "exact",
+      "text": "all, then, as much as they may say to you to observe, observe and do, but according to their works do not, for they say, and do not;",
+      "originalText": "all, then, as much as they may say to you to observe, observe and do, but according to their works do not, for they say, and do not;\n\n"
+    },
+    {
+      "id": "MAT.23.4",
+      "sourceRef": "MAT.23.4",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[6]",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.23.4"
+      ],
+      "mappingType": "exact",
+      "text": "for they bind together burdens heavy and grievous to be borne, and lay upon the shoulders of men, but with their finger they will not move them.",
+      "originalText": "for they bind together burdens heavy and grievous to be borne, and lay upon the shoulders of men, but with their finger they will not move them.\n\n"
+    },
+    {
+      "id": "MAT.23.5",
+      "sourceRef": "MAT.23.5",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[8]",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.23.5"
+      ],
+      "mappingType": "exact",
+      "text": "'And all their works they do to be seen by men, and they make broad their phylacteries, and enlarge the fringes of their garments,",
+      "originalText": "'And all their works they do to be seen by men, and they make broad their phylacteries, and enlarge the fringes of their garments,\n\n"
+    },
+    {
+      "id": "MAT.23.6",
+      "sourceRef": "MAT.23.6",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[10]",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.23.6"
+      ],
+      "mappingType": "exact",
+      "text": "they love also the chief couches in the supper, and the chief seats in the synagogues,",
+      "originalText": "they love also the chief couches in the supper, and the chief seats in the synagogues,\n\n"
+    },
+    {
+      "id": "MAT.23.7",
+      "sourceRef": "MAT.23.7",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[12]",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.23.7"
+      ],
+      "mappingType": "exact",
+      "text": "and the salutations in the market-places, and to be called by men, Rabbi, Rabbi.",
+      "originalText": "and the salutations in the market-places, and to be called by men, Rabbi, Rabbi.\n\n"
+    },
+    {
+      "id": "MAT.23.8",
+      "sourceRef": "MAT.23.8",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[14]",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.23.8"
+      ],
+      "mappingType": "exact",
+      "text": "'And ye — ye may not be called Rabbi, for one is your director — the Christ, and all ye are brethren;",
+      "originalText": "'And ye — ye may not be called Rabbi, for one is your director — the Christ, and all ye are brethren;\n\n"
+    },
+    {
+      "id": "MAT.23.9",
+      "sourceRef": "MAT.23.9",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[16]",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.23.9"
+      ],
+      "mappingType": "exact",
+      "text": "and ye may not call [any] your father on the earth, for one is your Father, who is in the heavens,",
+      "originalText": "and ye may not call [any] your father on the earth, for one is your Father, who is in the heavens,\n\n"
+    },
+    {
+      "id": "MAT.23.10",
+      "sourceRef": "MAT.23.10",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[18]",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.23.10"
+      ],
+      "mappingType": "exact",
+      "text": "nor may ye be called directors, for one is your director — the Christ.",
+      "originalText": "nor may ye be called directors, for one is your director — the Christ.\n\n"
+    },
+    {
+      "id": "MAT.23.11",
+      "sourceRef": "MAT.23.11",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[20]",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.23.11"
+      ],
+      "mappingType": "exact",
+      "text": "And the greater of you shall be your ministrant,",
+      "originalText": "And the greater of you shall be your ministrant,\n\n"
+    },
+    {
+      "id": "MAT.23.12",
+      "sourceRef": "MAT.23.12",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[22]",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.23.12"
+      ],
+      "mappingType": "exact",
+      "text": "and whoever shall exalt himself shall be humbled, and whoever shall humble himself shall be exalted.",
+      "originalText": "and whoever shall exalt himself shall be humbled, and whoever shall humble himself shall be exalted.\n\n"
+    },
+    {
+      "id": "MAT.23.13",
+      "sourceRef": "MAT.23.13",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[24]",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.23.13"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye shut up the reign of the heavens before men, for ye do not go in, nor those going in do ye suffer to enter.",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye shut up the reign of the heavens before men, for ye do not go in, nor those going in do ye suffer to enter.\n\n"
+    },
+    {
+      "id": "MAT.23.14",
+      "sourceRef": "MAT.23.14",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[26]",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.23.14"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye eat up the houses of the widows, and for a pretence make long prayers, because of this ye shall receive more abundant judgment.",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye eat up the houses of the widows, and for a pretence make long prayers, because of this ye shall receive more abundant judgment.\n\n"
+    },
+    {
+      "id": "MAT.23.15",
+      "sourceRef": "MAT.23.15",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[28]",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.23.15"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye go round the sea and the dry land to make one proselyte, and whenever it may happen — ye make him a son of gehenna twofold more than yourselves.",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye go round the sea and the dry land to make one proselyte, and whenever it may happen — ye make him a son of gehenna twofold more than yourselves.\n\n"
+    },
+    {
+      "id": "MAT.23.16",
+      "sourceRef": "MAT.23.16",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[30]",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.23.16"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, blind guides, who are saying, Whoever may swear by the sanctuary, it is nothing, but whoever may swear by the gold of the sanctuary — is debtor!",
+      "originalText": "'Woe to you, blind guides, who are saying, Whoever may swear by the sanctuary, it is nothing, but whoever may swear by the gold of the sanctuary — is debtor!\n\n"
+    },
+    {
+      "id": "MAT.23.17",
+      "sourceRef": "MAT.23.17",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[32]",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.23.17"
+      ],
+      "mappingType": "exact",
+      "text": "Fools and blind! for which [is] greater, the gold, or the sanctuary that is sanctifying the gold?",
+      "originalText": "Fools and blind! for which [is] greater, the gold, or the sanctuary that is sanctifying the gold?\n\n"
+    },
+    {
+      "id": "MAT.23.18",
+      "sourceRef": "MAT.23.18",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[34]",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.23.18"
+      ],
+      "mappingType": "exact",
+      "text": "'And, whoever may swear by the altar, it is nothing; but whoever may swear by the gift that is upon it — is debtor!",
+      "originalText": "'And, whoever may swear by the altar, it is nothing; but whoever may swear by the gift that is upon it — is debtor!\n\n"
+    },
+    {
+      "id": "MAT.23.19",
+      "sourceRef": "MAT.23.19",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[36]",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.23.19"
+      ],
+      "mappingType": "exact",
+      "text": "Fools and blind! for which [is] greater, the gift, or the altar that is sanctifying the gift?",
+      "originalText": "Fools and blind! for which [is] greater, the gift, or the altar that is sanctifying the gift?\n\n"
+    },
+    {
+      "id": "MAT.23.20",
+      "sourceRef": "MAT.23.20",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[38]",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.23.20"
+      ],
+      "mappingType": "exact",
+      "text": "'He therefore who did swear by the altar, doth swear by it, and by all things on it;",
+      "originalText": "'He therefore who did swear by the altar, doth swear by it, and by all things on it;\n\n"
+    },
+    {
+      "id": "MAT.23.21",
+      "sourceRef": "MAT.23.21",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[40]",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.23.21"
+      ],
+      "mappingType": "exact",
+      "text": "and he who did swear by the sanctuary, doth swear by it, and by Him who is dwelling in it;",
+      "originalText": "and he who did swear by the sanctuary, doth swear by it, and by Him who is dwelling in it;\n\n"
+    },
+    {
+      "id": "MAT.23.22",
+      "sourceRef": "MAT.23.22",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[42]",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.23.22"
+      ],
+      "mappingType": "exact",
+      "text": "and he who did swear by the heaven, doth swear by the throne of God, and by Him who is sitting upon it.",
+      "originalText": "and he who did swear by the heaven, doth swear by the throne of God, and by Him who is sitting upon it.\n\n"
+    },
+    {
+      "id": "MAT.23.23",
+      "sourceRef": "MAT.23.23",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[44]",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.23.23"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye give tithe of the mint, and the dill, and the cumin, and did neglect the weightier things of the Law — the judgment, and the kindness, and the faith; these it behoved [you] to do, and those not to neglect.",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye give tithe of the mint, and the dill, and the cumin, and did neglect the weightier things of the Law — the judgment, and the kindness, and the faith; these it behoved [you] to do, and those not to neglect.\n\n"
+    },
+    {
+      "id": "MAT.23.24",
+      "sourceRef": "MAT.23.24",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[46]",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.23.24"
+      ],
+      "mappingType": "exact",
+      "text": "'Blind guides! who are straining out the gnat, and the camel are swallowing.",
+      "originalText": "'Blind guides! who are straining out the gnat, and the camel are swallowing.\n\n"
+    },
+    {
+      "id": "MAT.23.25",
+      "sourceRef": "MAT.23.25",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[48]",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.23.25"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye make clean the outside of the cup and the plate, and within they are full of rapine and incontinence.",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye make clean the outside of the cup and the plate, and within they are full of rapine and incontinence.\n\n"
+    },
+    {
+      "id": "MAT.23.26",
+      "sourceRef": "MAT.23.26",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[50]",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.23.26"
+      ],
+      "mappingType": "exact",
+      "text": "'Blind Pharisee! cleanse first the inside of the cup and the plate, that the outside of them also may become clean.",
+      "originalText": "'Blind Pharisee! cleanse first the inside of the cup and the plate, that the outside of them also may become clean.\n\n"
+    },
+    {
+      "id": "MAT.23.27",
+      "sourceRef": "MAT.23.27",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[52]",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.23.27"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye are like to whitewashed sepulchres, which outwardly indeed do appear beautiful, and within are full of bones of dead men, and of all uncleanness;",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye are like to whitewashed sepulchres, which outwardly indeed do appear beautiful, and within are full of bones of dead men, and of all uncleanness;\n\n"
+    },
+    {
+      "id": "MAT.23.28",
+      "sourceRef": "MAT.23.28",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[54]",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.23.28"
+      ],
+      "mappingType": "exact",
+      "text": "so also ye outwardly indeed do appear to men righteous, and within ye are full of hypocrisy and lawlessness.",
+      "originalText": "so also ye outwardly indeed do appear to men righteous, and within ye are full of hypocrisy and lawlessness.\n\n"
+    },
+    {
+      "id": "MAT.23.29",
+      "sourceRef": "MAT.23.29",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[56]",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.23.29"
+      ],
+      "mappingType": "exact",
+      "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye build the sepulchres of the prophets, and adorn the tombs of the righteous,",
+      "originalText": "'Woe to you, Scribes and Pharisees, hypocrites! because ye build the sepulchres of the prophets, and adorn the tombs of the righteous,\n\n"
+    },
+    {
+      "id": "MAT.23.30",
+      "sourceRef": "MAT.23.30",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[58]",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.23.30"
+      ],
+      "mappingType": "exact",
+      "text": "and say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets.",
+      "originalText": "and say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets.\n\n"
+    },
+    {
+      "id": "MAT.23.31",
+      "sourceRef": "MAT.23.31",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[60]",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.23.31"
+      ],
+      "mappingType": "exact",
+      "text": "So that ye testify to yourselves, that ye are sons of them who did murder the prophets;",
+      "originalText": "So that ye testify to yourselves, that ye are sons of them who did murder the prophets;\n\n"
+    },
+    {
+      "id": "MAT.23.32",
+      "sourceRef": "MAT.23.32",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[62]",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.23.32"
+      ],
+      "mappingType": "exact",
+      "text": "and ye — ye fill up the measure of your fathers.",
+      "originalText": "and ye — ye fill up the measure of your fathers.\n\n"
+    },
+    {
+      "id": "MAT.23.33",
+      "sourceRef": "MAT.23.33",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[64]",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.23.33"
+      ],
+      "mappingType": "exact",
+      "text": "'Serpents! brood of vipers! how may ye escape from the judgment of the gehenna?",
+      "originalText": "'Serpents! brood of vipers! how may ye escape from the judgment of the gehenna?\n\n"
+    },
+    {
+      "id": "MAT.23.34",
+      "sourceRef": "MAT.23.34",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[66]",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.23.34"
+      ],
+      "mappingType": "exact",
+      "text": "'Because of this, lo, I send to you prophets, and wise men, and scribes, and of them ye will kill and crucify, and of them ye will scourge in your synagogues, and will pursue from city to city;",
+      "originalText": "'Because of this, lo, I send to you prophets, and wise men, and scribes, and of them ye will kill and crucify, and of them ye will scourge in your synagogues, and will pursue from city to city;\n\n"
+    },
+    {
+      "id": "MAT.23.35",
+      "sourceRef": "MAT.23.35",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[68]",
+      "sourceLabel": "35",
+      "anchors": [
+        "MAT.23.35"
+      ],
+      "mappingType": "exact",
+      "text": "that on you may come all the righteous blood being poured out on the earth from the blood of Abel the righteous, unto the blood of Zacharias son of Barachias, whom ye slew between the sanctuary and the altar:",
+      "originalText": "that on you may come all the righteous blood being poured out on the earth from the blood of Abel the righteous, unto the blood of Zacharias son of Barachias, whom ye slew between the sanctuary and the altar:\n\n"
+    },
+    {
+      "id": "MAT.23.36",
+      "sourceRef": "MAT.23.36",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[70]",
+      "sourceLabel": "36",
+      "anchors": [
+        "MAT.23.36"
+      ],
+      "mappingType": "exact",
+      "text": "verily I say to you, all these things shall come upon this generation.",
+      "originalText": "verily I say to you, all these things shall come upon this generation.\n\n"
+    },
+    {
+      "id": "MAT.23.37",
+      "sourceRef": "MAT.23.37",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[72]",
+      "sourceLabel": "37",
+      "anchors": [
+        "MAT.23.37"
+      ],
+      "mappingType": "exact",
+      "text": "'Jerusalem, Jerusalem, that art killing the prophets, and stoning those sent unto thee, how often did I will to gather thy children together, as a hen doth gather her own chickens under the wings, and ye did not will.",
+      "originalText": "'Jerusalem, Jerusalem, that art killing the prophets, and stoning those sent unto thee, how often did I will to gather thy children together, as a hen doth gather her own chickens under the wings, and ye did not will.\n\n"
+    },
+    {
+      "id": "MAT.23.38",
+      "sourceRef": "MAT.23.38",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[74]",
+      "sourceLabel": "38",
+      "anchors": [
+        "MAT.23.38"
+      ],
+      "mappingType": "exact",
+      "text": "Lo, left desolate to you is your house;",
+      "originalText": "Lo, left desolate to you is your house;\n\n"
+    },
+    {
+      "id": "MAT.23.39",
+      "sourceRef": "MAT.23.39",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[76]",
+      "sourceLabel": "39",
+      "anchors": [
+        "MAT.23.39"
+      ],
+      "mappingType": "exact",
+      "text": "for I say to you, ye may not see me henceforth, till ye may say, Blessed [is] he who is coming in the name of the Lord.'",
+      "originalText": "for I say to you, ye may not see me henceforth, till ye may say, Blessed [is] he who is coming in the name of the Lord.'\n\n"
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MAT.23.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.1",
+          "sourceRef": "MAT.23.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.2",
+          "sourceRef": "MAT.23.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.3",
+          "sourceRef": "MAT.23.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.4",
+          "sourceRef": "MAT.23.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.5",
+          "sourceRef": "MAT.23.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.6",
+          "sourceRef": "MAT.23.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.7",
+          "sourceRef": "MAT.23.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.8",
+          "sourceRef": "MAT.23.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.9",
+          "sourceRef": "MAT.23.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.10",
+          "sourceRef": "MAT.23.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.11",
+          "sourceRef": "MAT.23.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.12",
+          "sourceRef": "MAT.23.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.13",
+          "sourceRef": "MAT.23.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.14",
+          "sourceRef": "MAT.23.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.15",
+          "sourceRef": "MAT.23.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.16",
+          "sourceRef": "MAT.23.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.17",
+          "sourceRef": "MAT.23.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.18",
+          "sourceRef": "MAT.23.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.19",
+          "sourceRef": "MAT.23.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.20",
+          "sourceRef": "MAT.23.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.21",
+          "sourceRef": "MAT.23.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.22",
+          "sourceRef": "MAT.23.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.23",
+          "sourceRef": "MAT.23.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.24",
+          "sourceRef": "MAT.23.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.25",
+          "sourceRef": "MAT.23.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.26",
+          "sourceRef": "MAT.23.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.27",
+          "sourceRef": "MAT.23.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.28",
+          "sourceRef": "MAT.23.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.29",
+          "sourceRef": "MAT.23.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.30",
+          "sourceRef": "MAT.23.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.31",
+          "sourceRef": "MAT.23.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.32",
+          "sourceRef": "MAT.23.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.33",
+          "sourceRef": "MAT.23.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.34",
+          "sourceRef": "MAT.23.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.35",
+          "sourceRef": "MAT.23.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.36",
+          "sourceRef": "MAT.23.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.37",
+          "sourceRef": "MAT.23.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.38",
+          "sourceRef": "MAT.23.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.23.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 23,
+          "segmentId": "MAT.23.39",
+          "sourceRef": "MAT.23.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "ylt-2026-09-05-m2-v1"
+}

@@ -1,0 +1,2015 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/7",
+      "runs": [
+        {
+          "text": "A Greeting from the Elder",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/8",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "2 John 1:1–3",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/9",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "3JN.1.1",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        },
+        {
+          "text": "The elder,",
+          "anchor": "3JN.1.1",
+          "marks": [],
+          "originalText": "The elder,",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/10",
+      "runs": [
+        {
+          "text": " To the beloved Gaius, whom I love in ",
+          "anchor": "3JN.1.1",
+          "marks": [],
+          "originalText": "To the beloved Gaius, whom I love in ",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        },
+        {
+          "text": "the",
+          "anchor": "3JN.1.1",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        },
+        {
+          "text": " truth:",
+          "anchor": "3JN.1.1",
+          "marks": [],
+          "originalText": " truth:",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/11",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.1",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.1"
+          ],
+          "sourceAnchor": "3JN.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "3JN.1.2",
+          "anchors": [
+            "3JN.1.2"
+          ],
+          "sourceAnchor": "3JN.1.2"
+        },
+        {
+          "text": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul ",
+          "anchor": "3JN.1.2",
+          "marks": [],
+          "originalText": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul ",
+          "anchors": [
+            "3JN.1.2"
+          ],
+          "sourceAnchor": "3JN.1.2"
+        },
+        {
+          "text": "also",
+          "anchor": "3JN.1.2",
+          "marks": [],
+          "originalText": "also",
+          "anchors": [
+            "3JN.1.2"
+          ],
+          "sourceAnchor": "3JN.1.2"
+        },
+        {
+          "text": " prospers.",
+          "anchor": "3JN.1.2",
+          "marks": [],
+          "originalText": " prospers. ",
+          "anchors": [
+            "3JN.1.2"
+          ],
+          "sourceAnchor": "3JN.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "3JN.1.3",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "text": "For I was overjoyed ",
+          "anchor": "3JN.1.3",
+          "marks": [],
+          "originalText": "For I was overjoyed ",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "text": "when the",
+          "anchor": "3JN.1.3",
+          "marks": [],
+          "originalText": "when the",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "text": " brothers came and testified about your devotion to the truth, in ",
+          "anchor": "3JN.1.3",
+          "marks": [],
+          "originalText": " brothers came and testified about your devotion to the truth, in ",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "text": "which",
+          "anchor": "3JN.1.3",
+          "marks": [],
+          "originalText": "which",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "text": " you continue to walk.",
+          "anchor": "3JN.1.3",
+          "marks": [],
+          "originalText": " you continue to walk. ",
+          "anchors": [
+            "3JN.1.3"
+          ],
+          "sourceAnchor": "3JN.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "3JN.1.4",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "text": "I have no greater joy",
+          "anchor": "3JN.1.4",
+          "marks": [],
+          "originalText": "I have no greater joy",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "noteId": "3JN.1.4.note.1",
+          "anchor": "3JN.1.4",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "text": " than to hear ",
+          "anchor": "3JN.1.4",
+          "marks": [],
+          "originalText": " than to hear ",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "text": "that",
+          "anchor": "3JN.1.4",
+          "marks": [],
+          "originalText": "that",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "text": " my children are walking in truth.",
+          "anchor": "3JN.1.4",
+          "marks": [],
+          "originalText": " my children are walking in truth.",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "noteId": "3JN.1.4.note.2",
+          "anchor": "3JN.1.4",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/12",
+      "runs": [
+        {
+          "text": "Gaius Commended for Hospitality",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/13",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.4"
+          ],
+          "sourceAnchor": "3JN.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "3JN.1.5",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "text": "Beloved, you are faithful in what you are doing for the brothers and for those who are",
+          "anchor": "3JN.1.5",
+          "marks": [],
+          "originalText": "Beloved, you are faithful in what you are doing for the brothers and for those who are",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "noteId": "3JN.1.5.note.3",
+          "anchor": "3JN.1.5",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "text": " strangers ",
+          "anchor": "3JN.1.5",
+          "marks": [],
+          "originalText": " strangers ",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "text": "to you",
+          "anchor": "3JN.1.5",
+          "marks": [],
+          "originalText": "to you",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "text": ".",
+          "anchor": "3JN.1.5",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "3JN.1.5"
+          ],
+          "sourceAnchor": "3JN.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "3JN.1.6",
+          "anchors": [
+            "3JN.1.6"
+          ],
+          "sourceAnchor": "3JN.1.6"
+        },
+        {
+          "text": "They",
+          "anchor": "3JN.1.6",
+          "marks": [],
+          "originalText": "They",
+          "anchors": [
+            "3JN.1.6"
+          ],
+          "sourceAnchor": "3JN.1.6"
+        },
+        {
+          "text": " have testified to ",
+          "anchor": "3JN.1.6",
+          "marks": [],
+          "originalText": " have testified to ",
+          "anchors": [
+            "3JN.1.6"
+          ],
+          "sourceAnchor": "3JN.1.6"
+        },
+        {
+          "text": "the",
+          "anchor": "3JN.1.6",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "3JN.1.6"
+          ],
+          "sourceAnchor": "3JN.1.6"
+        },
+        {
+          "text": " church about your love. You will do well to send them on their way in a manner worthy of God.",
+          "anchor": "3JN.1.6",
+          "marks": [],
+          "originalText": " church about your love. You will do well to send them on their way in a manner worthy of God. ",
+          "anchors": [
+            "3JN.1.6"
+          ],
+          "sourceAnchor": "3JN.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "3JN.1.7",
+          "anchors": [
+            "3JN.1.7"
+          ],
+          "sourceAnchor": "3JN.1.7"
+        },
+        {
+          "text": "For they went out on behalf of the Name,",
+          "anchor": "3JN.1.7",
+          "marks": [],
+          "originalText": "For they went out on behalf of the Name,",
+          "anchors": [
+            "3JN.1.7"
+          ],
+          "sourceAnchor": "3JN.1.7"
+        },
+        {
+          "noteId": "3JN.1.7.note.4",
+          "anchor": "3JN.1.7",
+          "anchors": [
+            "3JN.1.7"
+          ],
+          "sourceAnchor": "3JN.1.7"
+        },
+        {
+          "text": " accepting nothing from the Gentiles.",
+          "anchor": "3JN.1.7",
+          "marks": [],
+          "originalText": " accepting nothing from the Gentiles. ",
+          "anchors": [
+            "3JN.1.7"
+          ],
+          "sourceAnchor": "3JN.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "3JN.1.8",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "text": "Therefore we ought to receive",
+          "anchor": "3JN.1.8",
+          "marks": [],
+          "originalText": "Therefore we ought to receive",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "noteId": "3JN.1.8.note.5",
+          "anchor": "3JN.1.8",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "text": " such ",
+          "anchor": "3JN.1.8",
+          "marks": [],
+          "originalText": " such ",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "text": "men",
+          "anchor": "3JN.1.8",
+          "marks": [],
+          "originalText": "men",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "text": ", so that we may be fellow workers for the truth.",
+          "anchor": "3JN.1.8",
+          "marks": [],
+          "originalText": ", so that we may be fellow workers for the truth.",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/14",
+      "runs": [
+        {
+          "text": "Diotrephes and Demetrius",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/15",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.8"
+          ],
+          "sourceAnchor": "3JN.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "3JN.1.9",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": "I have written to the church ",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": "I have written to the church ",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": "about this",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": "about this",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": ",",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": ",",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "noteId": "3JN.1.9.note.6",
+          "anchor": "3JN.1.9",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": " but Diotrephes, who loves to be first, will not accept our ",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": " but Diotrephes, who loves to be first, will not accept our ",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": "instruction",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": "instruction",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "text": ".",
+          "anchor": "3JN.1.9",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "3JN.1.9"
+          ],
+          "sourceAnchor": "3JN.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "3JN.1.10",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": "So if I come, I will call attention to ",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": "So if I come, I will call attention to ",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": "his",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": " malicious slander ",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": " malicious slander ",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": "against",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": "against",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": " us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting ",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": " us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting ",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": "them",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": "them",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "text": " out of the church.",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": " out of the church.",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/16",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.10"
+          ],
+          "sourceAnchor": "3JN.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "3JN.1.11",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "Beloved, ",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "Beloved, ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "do",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": " not imitate what ",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " not imitate what ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "is",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": " evil, but what ",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " evil, but what ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "is",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": " good. The ",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " good. The ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "one who",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": " does good is of God; the ",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " does good is of God; the ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": "one who",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "text": " does evil has not seen God.",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " does evil has not seen God.",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/17",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.11"
+          ],
+          "sourceAnchor": "3JN.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "3JN.1.12",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "text": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify ",
+          "anchor": "3JN.1.12",
+          "marks": [],
+          "originalText": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify ",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "text": "for him",
+          "anchor": "3JN.1.12",
+          "marks": [],
+          "originalText": "for him",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "text": ", and you know",
+          "anchor": "3JN.1.12",
+          "marks": [],
+          "originalText": ", and you know",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "noteId": "3JN.1.12.note.7",
+          "anchor": "3JN.1.12",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "text": " that our testimony is true.",
+          "anchor": "3JN.1.12",
+          "marks": [],
+          "originalText": " that our testimony is true.",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/18",
+      "runs": [
+        {
+          "text": "Conclusion",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "3JN.usj#content/19",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "2 John 1:12–13",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/20",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "3JN.1.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "3JN.1.12"
+          ],
+          "sourceAnchor": "3JN.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "3JN.1.13",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "text": "I have many things to write,",
+          "anchor": "3JN.1.13",
+          "marks": [],
+          "originalText": "I have many things to write,",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "noteId": "3JN.1.13.note.8",
+          "anchor": "3JN.1.13",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "text": " but I would prefer not ",
+          "anchor": "3JN.1.13",
+          "marks": [],
+          "originalText": " but I would prefer not ",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "text": "to do so",
+          "anchor": "3JN.1.13",
+          "marks": [],
+          "originalText": "to do so",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "text": " with pen and ink.",
+          "anchor": "3JN.1.13",
+          "marks": [],
+          "originalText": " with pen and ink. ",
+          "anchors": [
+            "3JN.1.13"
+          ],
+          "sourceAnchor": "3JN.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "3JN.1.14",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "Instead, I hope to see you soon and speak ",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "Instead, I hope to see you soon and speak ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "with you",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "with you",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": " face",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "face",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": " to ",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": " to ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "face",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "face",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": ".",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": ".",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "noteId": "3JN.1.14.note.9",
+          "anchor": "3JN.1.14",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/21",
+      "runs": [
+        {
+          "text": " Peace to you.",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "Peace to you.",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/22",
+      "runs": [
+        {
+          "text": " The friends ",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "The friends ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "here",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "here ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": " send you greetings.",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": " send you greetings.",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "3JN.usj#content/23",
+      "runs": [
+        {
+          "text": " Greet ",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "Greet ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "each of our",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "each of our",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": " friends ",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": " friends ",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": "there",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": "there",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        },
+        {
+          "text": " by name.",
+          "anchor": "3JN.1.14",
+          "marks": [],
+          "originalText": " by name.",
+          "anchors": [
+            "3JN.1.14",
+            "3JN.1.15"
+          ],
+          "sourceAnchor": "3JN.1.14"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "3JN.1.1",
+      "sourceRef": "3JN.1.1",
+      "sourceId": "3JN.usj#content/9/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "3JN.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "The elder, To the beloved Gaius, whom I love in the truth:",
+      "originalText": "The elder, To the beloved Gaius, whom I love in the truth:",
+      "originalStructuredText": "The elder,\nTo the beloved Gaius, whom I love in the truth:\n ",
+      "textSourceId": "msb.txt#line=30663"
+    },
+    {
+      "id": "3JN.1.2",
+      "sourceRef": "3JN.1.2",
+      "sourceId": "3JN.usj#content/11/content/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "3JN.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers.",
+      "originalText": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers.",
+      "originalStructuredText": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers. ",
+      "textSourceId": "msb.txt#line=30664"
+    },
+    {
+      "id": "3JN.1.3",
+      "sourceRef": "3JN.1.3",
+      "sourceId": "3JN.usj#content/11/content/5",
+      "sourceLabel": "3",
+      "anchors": [
+        "3JN.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk.",
+      "originalText": "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk.",
+      "originalStructuredText": "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk. ",
+      "textSourceId": "msb.txt#line=30665"
+    },
+    {
+      "id": "3JN.1.4",
+      "sourceRef": "3JN.1.4",
+      "sourceId": "3JN.usj#content/11/content/11",
+      "sourceLabel": "4",
+      "anchors": [
+        "3JN.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "I have no greater joy than to hear that my children are walking in truth.",
+      "originalText": "I have no greater joy than to hear that my children are walking in truth.",
+      "originalStructuredText": "I have no greater joy than to hear that my children are walking in truth.\n ",
+      "textSourceId": "msb.txt#line=30666"
+    },
+    {
+      "id": "3JN.1.5",
+      "sourceRef": "3JN.1.5",
+      "sourceId": "3JN.usj#content/13/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "3JN.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "Beloved, you are faithful in what you are doing for the brothers and for those who are strangers to you.",
+      "originalText": "Beloved, you are faithful in what you are doing for the brothers and for those who are strangers to you.",
+      "originalStructuredText": "Beloved, you are faithful in what you are doing for the brothers and for those who are strangers to you. ",
+      "textSourceId": "msb.txt#line=30667"
+    },
+    {
+      "id": "3JN.1.6",
+      "sourceRef": "3JN.1.6",
+      "sourceId": "3JN.usj#content/13/content/7",
+      "sourceLabel": "6",
+      "anchors": [
+        "3JN.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God.",
+      "originalText": "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God.",
+      "originalStructuredText": "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God. ",
+      "textSourceId": "msb.txt#line=30668"
+    },
+    {
+      "id": "3JN.1.7",
+      "sourceRef": "3JN.1.7",
+      "sourceId": "3JN.usj#content/13/content/12",
+      "sourceLabel": "7",
+      "anchors": [
+        "3JN.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "For they went out on behalf of the Name, accepting nothing from the Gentiles.",
+      "originalText": "For they went out on behalf of the Name, accepting nothing from the Gentiles.",
+      "originalStructuredText": "For they went out on behalf of the Name, accepting nothing from the Gentiles. ",
+      "textSourceId": "msb.txt#line=30669"
+    },
+    {
+      "id": "3JN.1.8",
+      "sourceRef": "3JN.1.8",
+      "sourceId": "3JN.usj#content/13/content/16",
+      "sourceLabel": "8",
+      "anchors": [
+        "3JN.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore we ought to receive such men, so that we may be fellow workers for the truth.",
+      "originalText": "Therefore we ought to receive such men, so that we may be fellow workers for the truth.",
+      "originalStructuredText": "Therefore we ought to receive such men, so that we may be fellow workers for the truth.\n ",
+      "textSourceId": "msb.txt#line=30670"
+    },
+    {
+      "id": "3JN.1.9",
+      "sourceRef": "3JN.1.9",
+      "sourceId": "3JN.usj#content/15/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "3JN.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "I have written to the church about this, but Diotrephes, who loves to be first, will not accept our instruction.",
+      "originalText": "I have written to the church about this, but Diotrephes, who loves to be first, will not accept our instruction.",
+      "originalStructuredText": "I have written to the church about this, but Diotrephes, who loves to be first, will not accept our instruction. ",
+      "textSourceId": "msb.txt#line=30671"
+    },
+    {
+      "id": "3JN.1.10",
+      "sourceRef": "3JN.1.10",
+      "sourceId": "3JN.usj#content/15/content/9",
+      "sourceLabel": "10",
+      "anchors": [
+        "3JN.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church.",
+      "originalText": "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church.",
+      "originalStructuredText": "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church.\n ",
+      "textSourceId": "msb.txt#line=30672"
+    },
+    {
+      "id": "3JN.1.11",
+      "sourceRef": "3JN.1.11",
+      "sourceId": "3JN.usj#content/16/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "3JN.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.",
+      "originalText": "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.",
+      "originalStructuredText": "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.\n ",
+      "textSourceId": "msb.txt#line=30673"
+    },
+    {
+      "id": "3JN.1.12",
+      "sourceRef": "3JN.1.12",
+      "sourceId": "3JN.usj#content/17/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "3JN.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true.",
+      "originalText": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true.",
+      "originalStructuredText": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true.\n ",
+      "textSourceId": "msb.txt#line=30674"
+    },
+    {
+      "id": "3JN.1.13",
+      "sourceRef": "3JN.1.13",
+      "sourceId": "3JN.usj#content/20/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "3JN.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "I have many things to write, but I would prefer not to do so with pen and ink.",
+      "originalText": "I have many things to write, but I would prefer not to do so with pen and ink.",
+      "originalStructuredText": "I have many things to write, but I would prefer not to do so with pen and ink. ",
+      "textSourceId": "msb.txt#line=30675"
+    },
+    {
+      "id": "3JN.1.14",
+      "sourceRef": "3JN.1.14",
+      "sourceId": "3JN.usj#content/20/content/7",
+      "sourceLabel": "14",
+      "anchors": [
+        "3JN.1.14",
+        "3JN.1.15"
+      ],
+      "mappingType": "join",
+      "text": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name.",
+      "originalText": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name.",
+      "originalStructuredText": "Instead, I hope to see you soon and speak with youface to face.\nPeace to you.\nThe friends here  send you greetings.\nGreet each of our friends there by name.",
+      "textSourceId": "msb.txt#line=30676"
+    }
+  ],
+  "notes": [
+    {
+      "id": "3JN.1.4.note.1",
+      "anchor": "3JN.1.4",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/11/content/13",
+      "body": "1:4 WH grace",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "grace"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.4.note.2",
+      "anchor": "3JN.1.4",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/11/content/17",
+      "body": "1:4 CT in the truth",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in the truth"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.5.note.3",
+      "anchor": "3JN.1.5",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/13/content/3",
+      "body": "1:5 CT even though they are",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:5 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "even though they are"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.7.note.4",
+      "anchor": "3JN.1.7",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/13/content/14",
+      "body": "1:7 Scrivener TR His name",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:7 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Scrivener TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "His name"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.8.note.5",
+      "anchor": "3JN.1.8",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/13/content/18",
+      "body": "1:8 CT to support",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "to support"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.9.note.6",
+      "anchor": "3JN.1.9",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/15/content/5",
+      "body": "1:9 Literally I have written to the church; CT I have written something to the church",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "I have written to the church"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "I have written something to the church"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.12.note.7",
+      "anchor": "3JN.1.12",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/17/content/5",
+      "body": "1:12 F35 we know",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:12 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "F35 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "we know"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.13.note.8",
+      "anchor": "3JN.1.13",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/20/content/3",
+      "body": "1:13 CT to write to you",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:13 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "to write to you"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3JN.1.14.note.9",
+      "anchor": "3JN.1.14",
+      "type": "publisher-note",
+      "sourceId": "3JN.usj#content/20/content/14",
+      "body": "1:14 Literally and we will speak mouth to mouth; some translators begin a new verse (15) after face to face.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and we will speak mouth to mouth"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; some translators begin a new verse (15) after "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "face to face."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "3JN.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.1",
+          "sourceRef": "3JN.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.2",
+          "sourceRef": "3JN.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.3",
+          "sourceRef": "3JN.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.4.note.1",
+        "3JN.1.4.note.2"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.4",
+          "sourceRef": "3JN.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.5.note.3"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.5",
+          "sourceRef": "3JN.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.6",
+          "sourceRef": "3JN.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.7.note.4"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.7",
+          "sourceRef": "3JN.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.8.note.5"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.8",
+          "sourceRef": "3JN.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.9.note.6"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.9",
+          "sourceRef": "3JN.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.10",
+          "sourceRef": "3JN.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.11",
+          "sourceRef": "3JN.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.12.note.7"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.12",
+          "sourceRef": "3JN.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.13.note.8"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.13",
+          "sourceRef": "3JN.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "3JN.1.14.note.9"
+      ],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.14",
+          "sourceRef": "3JN.1.14",
+          "mappingType": "join"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "3JN.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "3JN",
+          "chapter": 1,
+          "segmentId": "3JN.1.14",
+          "sourceRef": "3JN.1.14",
+          "mappingType": "join"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

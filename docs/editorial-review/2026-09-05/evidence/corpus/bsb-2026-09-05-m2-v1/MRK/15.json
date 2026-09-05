@@ -1,0 +1,3900 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/568",
+      "runs": [
+        {
+          "text": "Jesus Delivered to Pilate",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/569",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:1–2",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/570",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MRK.15.1",
+          "anchors": [
+            "MRK.15.1"
+          ],
+          "sourceAnchor": "MRK.15.1"
+        },
+        {
+          "text": "Early in the morning, the chief priests, elders, scribes, and the whole Sanhedrin",
+          "anchor": "MRK.15.1",
+          "marks": [],
+          "originalText": "Early in the morning, the chief priests, elders, scribes, and the whole Sanhedrin",
+          "anchors": [
+            "MRK.15.1"
+          ],
+          "sourceAnchor": "MRK.15.1"
+        },
+        {
+          "noteId": "MRK.15.note.113",
+          "anchor": "MRK.15.1",
+          "anchors": [
+            "MRK.15.1"
+          ],
+          "sourceAnchor": "MRK.15.1"
+        },
+        {
+          "text": " devised a plan. They bound Jesus, led Him away, and handed Him over to Pilate.",
+          "anchor": "MRK.15.1",
+          "marks": [],
+          "originalText": " devised a plan. They bound Jesus, led Him away, and handed Him over to Pilate.",
+          "anchors": [
+            "MRK.15.1"
+          ],
+          "sourceAnchor": "MRK.15.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/571",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.1",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.1"
+          ],
+          "sourceAnchor": "MRK.15.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MRK.15.2",
+          "anchors": [
+            "MRK.15.2"
+          ],
+          "sourceAnchor": "MRK.15.2"
+        },
+        {
+          "text": "So Pilate questioned Him, “Are You the King of the Jews?”",
+          "anchor": "MRK.15.2",
+          "marks": [],
+          "originalText": "So Pilate questioned Him, “Are You the King of the Jews?”",
+          "anchors": [
+            "MRK.15.2"
+          ],
+          "sourceAnchor": "MRK.15.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/572",
+      "runs": [
+        {
+          "text": " “You have said so,”",
+          "anchor": "MRK.15.2",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“You have said so,”",
+          "anchors": [
+            "MRK.15.2"
+          ],
+          "sourceAnchor": "MRK.15.2"
+        },
+        {
+          "text": " Jesus replied.",
+          "anchor": "MRK.15.2",
+          "marks": [],
+          "originalText": " Jesus replied.",
+          "anchors": [
+            "MRK.15.2"
+          ],
+          "sourceAnchor": "MRK.15.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/573",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.2"
+          ],
+          "sourceAnchor": "MRK.15.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.15.3",
+          "anchors": [
+            "MRK.15.3"
+          ],
+          "sourceAnchor": "MRK.15.3"
+        },
+        {
+          "text": "And the chief priests began to accuse Him of many things.",
+          "anchor": "MRK.15.3",
+          "marks": [],
+          "originalText": "And the chief priests began to accuse Him of many things.",
+          "anchors": [
+            "MRK.15.3"
+          ],
+          "sourceAnchor": "MRK.15.3"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/574",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.3"
+          ],
+          "sourceAnchor": "MRK.15.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.15.4",
+          "anchors": [
+            "MRK.15.4"
+          ],
+          "sourceAnchor": "MRK.15.4"
+        },
+        {
+          "text": "Then Pilate questioned Him again, “Have You no answer? Look how many charges they are bringing against You!”",
+          "anchor": "MRK.15.4",
+          "marks": [],
+          "originalText": "Then Pilate questioned Him again, “Have You no answer? Look how many charges they are bringing against You!”",
+          "anchors": [
+            "MRK.15.4"
+          ],
+          "sourceAnchor": "MRK.15.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/575",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.4"
+          ],
+          "sourceAnchor": "MRK.15.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.15.5",
+          "anchors": [
+            "MRK.15.5"
+          ],
+          "sourceAnchor": "MRK.15.5"
+        },
+        {
+          "text": "But to Pilate’s amazement, Jesus made no further reply.",
+          "anchor": "MRK.15.5",
+          "marks": [],
+          "originalText": "But to Pilate’s amazement, Jesus made no further reply.",
+          "anchors": [
+            "MRK.15.5"
+          ],
+          "sourceAnchor": "MRK.15.5"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/576",
+      "runs": [
+        {
+          "text": "The Crowd Chooses Barabbas",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/577",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:15–23",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 23:13–25",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/578",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.5"
+          ],
+          "sourceAnchor": "MRK.15.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.15.6",
+          "anchors": [
+            "MRK.15.6"
+          ],
+          "sourceAnchor": "MRK.15.6"
+        },
+        {
+          "text": "Now it was Pilate’s custom at the feast to release to the people",
+          "anchor": "MRK.15.6",
+          "marks": [],
+          "originalText": "Now it was Pilate’s custom at the feast to release to the people",
+          "anchors": [
+            "MRK.15.6"
+          ],
+          "sourceAnchor": "MRK.15.6"
+        },
+        {
+          "noteId": "MRK.15.note.114",
+          "anchor": "MRK.15.6",
+          "anchors": [
+            "MRK.15.6"
+          ],
+          "sourceAnchor": "MRK.15.6"
+        },
+        {
+          "text": " a prisoner of their choosing.",
+          "anchor": "MRK.15.6",
+          "marks": [],
+          "originalText": " a prisoner of their choosing. ",
+          "anchors": [
+            "MRK.15.6"
+          ],
+          "sourceAnchor": "MRK.15.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.15.7",
+          "anchors": [
+            "MRK.15.7"
+          ],
+          "sourceAnchor": "MRK.15.7"
+        },
+        {
+          "text": "And a man named Barabbas was imprisoned with the rebels who had committed murder during the insurrection.",
+          "anchor": "MRK.15.7",
+          "marks": [],
+          "originalText": "And a man named Barabbas was imprisoned with the rebels who had committed murder during the insurrection. ",
+          "anchors": [
+            "MRK.15.7"
+          ],
+          "sourceAnchor": "MRK.15.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.15.8",
+          "anchors": [
+            "MRK.15.8"
+          ],
+          "sourceAnchor": "MRK.15.8"
+        },
+        {
+          "text": "So the crowd went up and began asking Pilate to keep his custom.",
+          "anchor": "MRK.15.8",
+          "marks": [],
+          "originalText": "So the crowd went up and began asking Pilate to keep his custom.",
+          "anchors": [
+            "MRK.15.8"
+          ],
+          "sourceAnchor": "MRK.15.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/579",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.8"
+          ],
+          "sourceAnchor": "MRK.15.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MRK.15.9",
+          "anchors": [
+            "MRK.15.9"
+          ],
+          "sourceAnchor": "MRK.15.9"
+        },
+        {
+          "text": "“Do you want me to release to you the King of the Jews?” Pilate asked.",
+          "anchor": "MRK.15.9",
+          "marks": [],
+          "originalText": "“Do you want me to release to you the King of the Jews?” Pilate asked. ",
+          "anchors": [
+            "MRK.15.9"
+          ],
+          "sourceAnchor": "MRK.15.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.15.10",
+          "anchors": [
+            "MRK.15.10"
+          ],
+          "sourceAnchor": "MRK.15.10"
+        },
+        {
+          "text": "For he knew it was out of envy that the chief priests had handed Jesus over.",
+          "anchor": "MRK.15.10",
+          "marks": [],
+          "originalText": "For he knew it was out of envy that the chief priests had handed Jesus over.",
+          "anchors": [
+            "MRK.15.10"
+          ],
+          "sourceAnchor": "MRK.15.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/580",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.10"
+          ],
+          "sourceAnchor": "MRK.15.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.15.11",
+          "anchors": [
+            "MRK.15.11"
+          ],
+          "sourceAnchor": "MRK.15.11"
+        },
+        {
+          "text": "But the chief priests stirred up the crowd to have him release Barabbas to them instead.",
+          "anchor": "MRK.15.11",
+          "marks": [],
+          "originalText": "But the chief priests stirred up the crowd to have him release Barabbas to them instead.",
+          "anchors": [
+            "MRK.15.11"
+          ],
+          "sourceAnchor": "MRK.15.11"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/581",
+      "runs": [
+        {
+          "text": "Pilate Delivers Up Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/582",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:24–26",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/583",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.11"
+          ],
+          "sourceAnchor": "MRK.15.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MRK.15.12",
+          "anchors": [
+            "MRK.15.12"
+          ],
+          "sourceAnchor": "MRK.15.12"
+        },
+        {
+          "text": "So Pilate asked them again, “What then do you want me to do with the One you call the King of the Jews?”",
+          "anchor": "MRK.15.12",
+          "marks": [],
+          "originalText": "So Pilate asked them again, “What then do you want me to do with the One you call the King of the Jews?”",
+          "anchors": [
+            "MRK.15.12"
+          ],
+          "sourceAnchor": "MRK.15.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/584",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.12"
+          ],
+          "sourceAnchor": "MRK.15.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.15.13",
+          "anchors": [
+            "MRK.15.13"
+          ],
+          "sourceAnchor": "MRK.15.13"
+        },
+        {
+          "text": "And they shouted back, “Crucify Him!”",
+          "anchor": "MRK.15.13",
+          "marks": [],
+          "originalText": "And they shouted back, “Crucify Him!”",
+          "anchors": [
+            "MRK.15.13"
+          ],
+          "sourceAnchor": "MRK.15.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/585",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.13"
+          ],
+          "sourceAnchor": "MRK.15.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MRK.15.14",
+          "anchors": [
+            "MRK.15.14"
+          ],
+          "sourceAnchor": "MRK.15.14"
+        },
+        {
+          "text": "“Why?” asked Pilate. “What evil has He done?”",
+          "anchor": "MRK.15.14",
+          "marks": [],
+          "originalText": "“Why?” asked Pilate. “What evil has He done?”",
+          "anchors": [
+            "MRK.15.14"
+          ],
+          "sourceAnchor": "MRK.15.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/586",
+      "runs": [
+        {
+          "text": " But they shouted all the louder, “Crucify Him!”",
+          "anchor": "MRK.15.14",
+          "marks": [],
+          "originalText": "But they shouted all the louder, “Crucify Him!”",
+          "anchors": [
+            "MRK.15.14"
+          ],
+          "sourceAnchor": "MRK.15.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/587",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.14"
+          ],
+          "sourceAnchor": "MRK.15.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.15.15",
+          "anchors": [
+            "MRK.15.15"
+          ],
+          "sourceAnchor": "MRK.15.15"
+        },
+        {
+          "text": "And wishing to satisfy the crowd, Pilate released Barabbas to them. But he had Jesus flogged, and handed Him over to be crucified.",
+          "anchor": "MRK.15.15",
+          "marks": [],
+          "originalText": "And wishing to satisfy the crowd, Pilate released Barabbas to them. But he had Jesus flogged, and handed Him over to be crucified.",
+          "anchors": [
+            "MRK.15.15"
+          ],
+          "sourceAnchor": "MRK.15.15"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/588",
+      "runs": [
+        {
+          "text": "The Soldiers Mock Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/589",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Isaiah 50:4–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:27–31",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 22:63–65",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 19:1–15",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/590",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.15",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.15"
+          ],
+          "sourceAnchor": "MRK.15.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MRK.15.16",
+          "anchors": [
+            "MRK.15.16"
+          ],
+          "sourceAnchor": "MRK.15.16"
+        },
+        {
+          "text": "Then the soldiers led Jesus away into the palace (that is, the Praetorium) and called the whole company together.",
+          "anchor": "MRK.15.16",
+          "marks": [],
+          "originalText": "Then the soldiers led Jesus away into the palace (that is, the Praetorium) and called the whole company together. ",
+          "anchors": [
+            "MRK.15.16"
+          ],
+          "sourceAnchor": "MRK.15.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.15.17",
+          "anchors": [
+            "MRK.15.17"
+          ],
+          "sourceAnchor": "MRK.15.17"
+        },
+        {
+          "text": "They dressed Him in a purple robe, twisted together a crown of thorns, and set it on His head.",
+          "anchor": "MRK.15.17",
+          "marks": [],
+          "originalText": "They dressed Him in a purple robe, twisted together a crown of thorns, and set it on His head. ",
+          "anchors": [
+            "MRK.15.17"
+          ],
+          "sourceAnchor": "MRK.15.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.15.18",
+          "anchors": [
+            "MRK.15.18"
+          ],
+          "sourceAnchor": "MRK.15.18"
+        },
+        {
+          "text": "And they began to salute Him: “Hail, King of the Jews!”",
+          "anchor": "MRK.15.18",
+          "marks": [],
+          "originalText": "And they began to salute Him: “Hail, King of the Jews!”",
+          "anchors": [
+            "MRK.15.18"
+          ],
+          "sourceAnchor": "MRK.15.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/591",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.18"
+          ],
+          "sourceAnchor": "MRK.15.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.15.19",
+          "anchors": [
+            "MRK.15.19"
+          ],
+          "sourceAnchor": "MRK.15.19"
+        },
+        {
+          "text": "They kept striking His head with a staff and spitting on Him. And they knelt down and bowed before Him.",
+          "anchor": "MRK.15.19",
+          "marks": [],
+          "originalText": "They kept striking His head with a staff and spitting on Him. And they knelt down and bowed before Him. ",
+          "anchors": [
+            "MRK.15.19"
+          ],
+          "sourceAnchor": "MRK.15.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.15.20",
+          "anchors": [
+            "MRK.15.20"
+          ],
+          "sourceAnchor": "MRK.15.20"
+        },
+        {
+          "text": "After they had mocked Him, they removed the purple robe and put His own clothes back on Him. Then they led Him out to crucify Him.",
+          "anchor": "MRK.15.20",
+          "marks": [],
+          "originalText": "After they had mocked Him, they removed the purple robe and put His own clothes back on Him. Then they led Him out to crucify Him.",
+          "anchors": [
+            "MRK.15.20"
+          ],
+          "sourceAnchor": "MRK.15.20"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/592",
+      "runs": [
+        {
+          "text": "The Crucifixion",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/593",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Psalm 22:1–31",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:32–44",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 23:26–43",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 19:16–27",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/594",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.20"
+          ],
+          "sourceAnchor": "MRK.15.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MRK.15.21",
+          "anchors": [
+            "MRK.15.21"
+          ],
+          "sourceAnchor": "MRK.15.21"
+        },
+        {
+          "text": "Now Simon of Cyrene, the father of Alexander and Rufus, was passing by on his way in from the country, and the soldiers forced him to carry the cross of Jesus.",
+          "anchor": "MRK.15.21",
+          "marks": [],
+          "originalText": "Now Simon of Cyrene, the father of Alexander and Rufus, was passing by on his way in from the country, and the soldiers forced him to carry the cross of Jesus.",
+          "anchors": [
+            "MRK.15.21"
+          ],
+          "sourceAnchor": "MRK.15.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/595",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.21",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.21"
+          ],
+          "sourceAnchor": "MRK.15.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MRK.15.22",
+          "anchors": [
+            "MRK.15.22"
+          ],
+          "sourceAnchor": "MRK.15.22"
+        },
+        {
+          "text": "They brought Jesus to a place called Golgotha, which means The Place of the Skull.",
+          "anchor": "MRK.15.22",
+          "marks": [],
+          "originalText": "They brought Jesus to a place called Golgotha, which means The Place of the Skull. ",
+          "anchors": [
+            "MRK.15.22"
+          ],
+          "sourceAnchor": "MRK.15.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MRK.15.23",
+          "anchors": [
+            "MRK.15.23"
+          ],
+          "sourceAnchor": "MRK.15.23"
+        },
+        {
+          "text": "There they offered Him wine mixed with myrrh, but He did not take it.",
+          "anchor": "MRK.15.23",
+          "marks": [],
+          "originalText": "There they offered Him wine mixed with myrrh, but He did not take it.",
+          "anchors": [
+            "MRK.15.23"
+          ],
+          "sourceAnchor": "MRK.15.23"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/596",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.23"
+          ],
+          "sourceAnchor": "MRK.15.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MRK.15.24",
+          "anchors": [
+            "MRK.15.24"
+          ],
+          "sourceAnchor": "MRK.15.24"
+        },
+        {
+          "text": "And they crucified Him.",
+          "anchor": "MRK.15.24",
+          "marks": [],
+          "originalText": "And they crucified Him.",
+          "anchors": [
+            "MRK.15.24"
+          ],
+          "sourceAnchor": "MRK.15.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/597",
+      "runs": [
+        {
+          "text": " They also divided His garments by casting lots to decide what each of them would take.",
+          "anchor": "MRK.15.24",
+          "marks": [],
+          "originalText": "They also divided His garments by casting lots to decide what each of them would take.",
+          "anchors": [
+            "MRK.15.24"
+          ],
+          "sourceAnchor": "MRK.15.24"
+        },
+        {
+          "noteId": "MRK.15.note.115",
+          "anchor": "MRK.15.24",
+          "anchors": [
+            "MRK.15.24"
+          ],
+          "sourceAnchor": "MRK.15.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/598",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.24",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.24"
+          ],
+          "sourceAnchor": "MRK.15.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MRK.15.25",
+          "anchors": [
+            "MRK.15.25"
+          ],
+          "sourceAnchor": "MRK.15.25"
+        },
+        {
+          "text": "It was the third hour",
+          "anchor": "MRK.15.25",
+          "marks": [],
+          "originalText": "It was the third hour",
+          "anchors": [
+            "MRK.15.25"
+          ],
+          "sourceAnchor": "MRK.15.25"
+        },
+        {
+          "noteId": "MRK.15.note.116",
+          "anchor": "MRK.15.25",
+          "anchors": [
+            "MRK.15.25"
+          ],
+          "sourceAnchor": "MRK.15.25"
+        },
+        {
+          "text": " when they crucified Him.",
+          "anchor": "MRK.15.25",
+          "marks": [],
+          "originalText": " when they crucified Him. ",
+          "anchors": [
+            "MRK.15.25"
+          ],
+          "sourceAnchor": "MRK.15.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MRK.15.26",
+          "anchors": [
+            "MRK.15.26"
+          ],
+          "sourceAnchor": "MRK.15.26"
+        },
+        {
+          "text": "And the charge inscribed against Him read:",
+          "anchor": "MRK.15.26",
+          "marks": [],
+          "originalText": "And the charge inscribed against Him read:",
+          "anchors": [
+            "MRK.15.26"
+          ],
+          "sourceAnchor": "MRK.15.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/599",
+      "runs": []
+    },
+    {
+      "marker": "pc",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/600",
+      "runs": [
+        {
+          "text": " THE KING OF THE JEWS.",
+          "anchor": "MRK.15.26",
+          "marks": [],
+          "originalText": "THE KING OF THE JEWS.",
+          "anchors": [
+            "MRK.15.26"
+          ],
+          "sourceAnchor": "MRK.15.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/601",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.26",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.26"
+          ],
+          "sourceAnchor": "MRK.15.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MRK.15.27",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        },
+        {
+          "text": "Along with Jesus, they crucified two robbers,",
+          "anchor": "MRK.15.27",
+          "marks": [],
+          "originalText": "Along with Jesus, they crucified two robbers,",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        },
+        {
+          "noteId": "MRK.15.note.117",
+          "anchor": "MRK.15.27",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        },
+        {
+          "text": " one on His right and one on His left.",
+          "anchor": "MRK.15.27",
+          "marks": [],
+          "originalText": " one on His right and one on His left.",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        },
+        {
+          "noteId": "MRK.15.note.118",
+          "anchor": "MRK.15.27",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/602",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.27",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.27"
+          ],
+          "sourceAnchor": "MRK.15.27"
+        },
+        {
+          "verse": "29",
+          "anchor": "MRK.15.29",
+          "anchors": [
+            "MRK.15.29"
+          ],
+          "sourceAnchor": "MRK.15.29"
+        },
+        {
+          "text": "And those who passed by heaped abuse on Him, shaking their heads and saying, “Aha! You who are going to destroy the temple and rebuild it in three days,",
+          "anchor": "MRK.15.29",
+          "marks": [],
+          "originalText": "And those who passed by heaped abuse on Him, shaking their heads and saying, “Aha! You who are going to destroy the temple and rebuild it in three days, ",
+          "anchors": [
+            "MRK.15.29"
+          ],
+          "sourceAnchor": "MRK.15.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MRK.15.30",
+          "anchors": [
+            "MRK.15.30"
+          ],
+          "sourceAnchor": "MRK.15.30"
+        },
+        {
+          "text": "come down from the cross and save Yourself!”",
+          "anchor": "MRK.15.30",
+          "marks": [],
+          "originalText": "come down from the cross and save Yourself!”",
+          "anchors": [
+            "MRK.15.30"
+          ],
+          "sourceAnchor": "MRK.15.30"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/603",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.30",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.30"
+          ],
+          "sourceAnchor": "MRK.15.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MRK.15.31",
+          "anchors": [
+            "MRK.15.31"
+          ],
+          "sourceAnchor": "MRK.15.31"
+        },
+        {
+          "text": "In the same way, the chief priests and scribes mocked Him among themselves, saying, “He saved others, but He cannot save Himself!",
+          "anchor": "MRK.15.31",
+          "marks": [],
+          "originalText": "In the same way, the chief priests and scribes mocked Him among themselves, saying, “He saved others, but He cannot save Himself! ",
+          "anchors": [
+            "MRK.15.31"
+          ],
+          "sourceAnchor": "MRK.15.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MRK.15.32",
+          "anchors": [
+            "MRK.15.32"
+          ],
+          "sourceAnchor": "MRK.15.32"
+        },
+        {
+          "text": "Let the Christ, the King of Israel, come down now from the cross, so that we may see and believe!” And even those who were crucified with Him berated Him.",
+          "anchor": "MRK.15.32",
+          "marks": [],
+          "originalText": "Let the Christ, the King of Israel, come down now from the cross, so that we may see and believe!” And even those who were crucified with Him berated Him.",
+          "anchors": [
+            "MRK.15.32"
+          ],
+          "sourceAnchor": "MRK.15.32"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/604",
+      "runs": [
+        {
+          "text": "The Death of Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/605",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Psalm 22:1–31",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:45–56",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 23:44–49",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 19:28–30",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/606",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.32",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.32"
+          ],
+          "sourceAnchor": "MRK.15.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MRK.15.33",
+          "anchors": [
+            "MRK.15.33"
+          ],
+          "sourceAnchor": "MRK.15.33"
+        },
+        {
+          "text": "From the sixth hour until the ninth hour",
+          "anchor": "MRK.15.33",
+          "marks": [],
+          "originalText": "From the sixth hour until the ninth hour",
+          "anchors": [
+            "MRK.15.33"
+          ],
+          "sourceAnchor": "MRK.15.33"
+        },
+        {
+          "noteId": "MRK.15.note.119",
+          "anchor": "MRK.15.33",
+          "anchors": [
+            "MRK.15.33"
+          ],
+          "sourceAnchor": "MRK.15.33"
+        },
+        {
+          "text": " darkness came over all the land.",
+          "anchor": "MRK.15.33",
+          "marks": [],
+          "originalText": " darkness came over all the land. ",
+          "anchors": [
+            "MRK.15.33"
+          ],
+          "sourceAnchor": "MRK.15.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MRK.15.34",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "text": "At the ninth hour, Jesus cried out in a loud voice, ",
+          "anchor": "MRK.15.34",
+          "marks": [],
+          "originalText": "At the ninth hour, Jesus cried out in a loud voice, ",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "text": "“Eloi, Eloi, lema sabachthani?”",
+          "anchor": "MRK.15.34",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Eloi, Eloi, lema sabachthani?”",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "text": " which means, ",
+          "anchor": "MRK.15.34",
+          "marks": [],
+          "originalText": " which means, ",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "text": "“My God, My God, why have You forsaken Me?”",
+          "anchor": "MRK.15.34",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“My God, My God, why have You forsaken Me?”",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "noteId": "MRK.15.note.120",
+          "anchor": "MRK.15.34",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/607",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.34",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.34"
+          ],
+          "sourceAnchor": "MRK.15.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MRK.15.35",
+          "anchors": [
+            "MRK.15.35"
+          ],
+          "sourceAnchor": "MRK.15.35"
+        },
+        {
+          "text": "When some of those standing nearby heard this, they said, “Behold, He is calling Elijah.”",
+          "anchor": "MRK.15.35",
+          "marks": [],
+          "originalText": "When some of those standing nearby heard this, they said, “Behold, He is calling Elijah.”",
+          "anchors": [
+            "MRK.15.35"
+          ],
+          "sourceAnchor": "MRK.15.35"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/608",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.35",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.35"
+          ],
+          "sourceAnchor": "MRK.15.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MRK.15.36",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "text": "And someone ran and filled a sponge with sour wine.",
+          "anchor": "MRK.15.36",
+          "marks": [],
+          "originalText": "And someone ran and filled a sponge with sour wine.",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "noteId": "MRK.15.note.121",
+          "anchor": "MRK.15.36",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "text": " He put it on a reed and held it up for Jesus to drink,",
+          "anchor": "MRK.15.36",
+          "marks": [],
+          "originalText": " He put it on a reed and held it up for Jesus to drink,",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "noteId": "MRK.15.note.122",
+          "anchor": "MRK.15.36",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "text": " saying, “Leave Him alone. Let us see if Elijah comes to take Him down.”",
+          "anchor": "MRK.15.36",
+          "marks": [],
+          "originalText": " saying, “Leave Him alone. Let us see if Elijah comes to take Him down.”",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/609",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.36",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.36"
+          ],
+          "sourceAnchor": "MRK.15.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MRK.15.37",
+          "anchors": [
+            "MRK.15.37"
+          ],
+          "sourceAnchor": "MRK.15.37"
+        },
+        {
+          "text": "But Jesus let out a loud cry and breathed His last.",
+          "anchor": "MRK.15.37",
+          "marks": [],
+          "originalText": "But Jesus let out a loud cry and breathed His last. ",
+          "anchors": [
+            "MRK.15.37"
+          ],
+          "sourceAnchor": "MRK.15.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MRK.15.38",
+          "anchors": [
+            "MRK.15.38"
+          ],
+          "sourceAnchor": "MRK.15.38"
+        },
+        {
+          "text": "And the veil of the temple was torn in two from top to bottom.",
+          "anchor": "MRK.15.38",
+          "marks": [],
+          "originalText": "And the veil of the temple was torn in two from top to bottom.",
+          "anchors": [
+            "MRK.15.38"
+          ],
+          "sourceAnchor": "MRK.15.38"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/610",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.38",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.38"
+          ],
+          "sourceAnchor": "MRK.15.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MRK.15.39",
+          "anchors": [
+            "MRK.15.39"
+          ],
+          "sourceAnchor": "MRK.15.39"
+        },
+        {
+          "text": "When the centurion standing there in front of Jesus saw how He had breathed His last,",
+          "anchor": "MRK.15.39",
+          "marks": [],
+          "originalText": "When the centurion standing there in front of Jesus saw how He had breathed His last,",
+          "anchors": [
+            "MRK.15.39"
+          ],
+          "sourceAnchor": "MRK.15.39"
+        },
+        {
+          "noteId": "MRK.15.note.123",
+          "anchor": "MRK.15.39",
+          "anchors": [
+            "MRK.15.39"
+          ],
+          "sourceAnchor": "MRK.15.39"
+        },
+        {
+          "text": " he said, “Truly this man was the Son of God!”",
+          "anchor": "MRK.15.39",
+          "marks": [],
+          "originalText": " he said, “Truly this man was the Son of God!”",
+          "anchors": [
+            "MRK.15.39"
+          ],
+          "sourceAnchor": "MRK.15.39"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/611",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.39",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.39"
+          ],
+          "sourceAnchor": "MRK.15.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "MRK.15.40",
+          "anchors": [
+            "MRK.15.40"
+          ],
+          "sourceAnchor": "MRK.15.40"
+        },
+        {
+          "text": "And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses,",
+          "anchor": "MRK.15.40",
+          "marks": [],
+          "originalText": "And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses,",
+          "anchors": [
+            "MRK.15.40"
+          ],
+          "sourceAnchor": "MRK.15.40"
+        },
+        {
+          "noteId": "MRK.15.note.124",
+          "anchor": "MRK.15.40",
+          "anchors": [
+            "MRK.15.40"
+          ],
+          "sourceAnchor": "MRK.15.40"
+        },
+        {
+          "text": " and Salome.",
+          "anchor": "MRK.15.40",
+          "marks": [],
+          "originalText": " and Salome. ",
+          "anchors": [
+            "MRK.15.40"
+          ],
+          "sourceAnchor": "MRK.15.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "MRK.15.41",
+          "anchors": [
+            "MRK.15.41"
+          ],
+          "sourceAnchor": "MRK.15.41"
+        },
+        {
+          "text": "These women had followed Jesus and ministered to Him while He was in Galilee, and there were many other women who had come up to Jerusalem with Him.",
+          "anchor": "MRK.15.41",
+          "marks": [],
+          "originalText": "These women had followed Jesus and ministered to Him while He was in Galilee, and there were many other women who had come up to Jerusalem with Him.",
+          "anchors": [
+            "MRK.15.41"
+          ],
+          "sourceAnchor": "MRK.15.41"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/612",
+      "runs": [
+        {
+          "text": "The Burial of Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MRK.usj#content/613",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Isaiah 53:9–12",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:57–61",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 23:50–56",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 19:38–42",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/614",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.41",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.41"
+          ],
+          "sourceAnchor": "MRK.15.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "MRK.15.42",
+          "anchors": [
+            "MRK.15.42"
+          ],
+          "sourceAnchor": "MRK.15.42"
+        },
+        {
+          "text": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath),",
+          "anchor": "MRK.15.42",
+          "marks": [],
+          "originalText": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath ), ",
+          "anchors": [
+            "MRK.15.42"
+          ],
+          "sourceAnchor": "MRK.15.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "MRK.15.43",
+          "anchors": [
+            "MRK.15.43"
+          ],
+          "sourceAnchor": "MRK.15.43"
+        },
+        {
+          "text": "Joseph of Arimathea, a prominent Council member who himself was waiting for the kingdom of God, boldly went to Pilate to ask for the body of Jesus.",
+          "anchor": "MRK.15.43",
+          "marks": [],
+          "originalText": "Joseph of Arimathea, a prominent Council member who himself was waiting for the kingdom of God, boldly went to Pilate to ask for the body of Jesus.",
+          "anchors": [
+            "MRK.15.43"
+          ],
+          "sourceAnchor": "MRK.15.43"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/615",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.43",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.43"
+          ],
+          "sourceAnchor": "MRK.15.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "MRK.15.44",
+          "anchors": [
+            "MRK.15.44"
+          ],
+          "sourceAnchor": "MRK.15.44"
+        },
+        {
+          "text": "Pilate was surprised to hear that Jesus was already dead, so he summoned the centurion to ask if this was so.",
+          "anchor": "MRK.15.44",
+          "marks": [],
+          "originalText": "Pilate was surprised to hear that Jesus was already dead, so he summoned the centurion to ask if this was so. ",
+          "anchors": [
+            "MRK.15.44"
+          ],
+          "sourceAnchor": "MRK.15.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "MRK.15.45",
+          "anchors": [
+            "MRK.15.45"
+          ],
+          "sourceAnchor": "MRK.15.45"
+        },
+        {
+          "text": "When Pilate had confirmed it with the centurion, he granted the body to Joseph.",
+          "anchor": "MRK.15.45",
+          "marks": [],
+          "originalText": "When Pilate had confirmed it with the centurion, he granted the body to Joseph.",
+          "anchors": [
+            "MRK.15.45"
+          ],
+          "sourceAnchor": "MRK.15.45"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MRK.usj#content/616",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.15.45",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.15.45"
+          ],
+          "sourceAnchor": "MRK.15.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "MRK.15.46",
+          "anchors": [
+            "MRK.15.46"
+          ],
+          "sourceAnchor": "MRK.15.46"
+        },
+        {
+          "text": "So Joseph bought a linen cloth, took down the body of Jesus, wrapped it in the cloth, and placed it in a tomb that had been cut out of the rock. Then he rolled a stone against the entrance to the tomb.",
+          "anchor": "MRK.15.46",
+          "marks": [],
+          "originalText": "So Joseph bought a linen cloth, took down the body of Jesus, wrapped it in the cloth, and placed it in a tomb that had been cut out of the rock. Then he rolled a stone against the entrance to the tomb. ",
+          "anchors": [
+            "MRK.15.46"
+          ],
+          "sourceAnchor": "MRK.15.46"
+        },
+        {
+          "verse": "47",
+          "anchor": "MRK.15.47",
+          "anchors": [
+            "MRK.15.47"
+          ],
+          "sourceAnchor": "MRK.15.47"
+        },
+        {
+          "text": "Mary Magdalene and Mary the mother of Joseph",
+          "anchor": "MRK.15.47",
+          "marks": [],
+          "originalText": "Mary Magdalene and Mary the mother of Joseph",
+          "anchors": [
+            "MRK.15.47"
+          ],
+          "sourceAnchor": "MRK.15.47"
+        },
+        {
+          "noteId": "MRK.15.note.125",
+          "anchor": "MRK.15.47",
+          "anchors": [
+            "MRK.15.47"
+          ],
+          "sourceAnchor": "MRK.15.47"
+        },
+        {
+          "text": " saw where His body was placed.",
+          "anchor": "MRK.15.47",
+          "marks": [],
+          "originalText": " saw where His body was placed.",
+          "anchors": [
+            "MRK.15.47"
+          ],
+          "sourceAnchor": "MRK.15.47"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.15.1",
+      "sourceId": "bsb_usj/MRK.usj#content/570/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.15.1"
+      ],
+      "mappingType": "exact",
+      "text": "Early in the morning, the chief priests, elders, scribes, and the whole Sanhedrin devised a plan. They bound Jesus, led Him away, and handed Him over to Pilate.",
+      "originalStructuredText": "Early in the morning, the chief priests, elders, scribes, and the whole Sanhedrin devised a plan. They bound Jesus, led Him away, and handed Him over to Pilate.\n ",
+      "sourceRef": "MRK.15.1"
+    },
+    {
+      "id": "MRK.15.2",
+      "sourceId": "bsb_usj/MRK.usj#content/571/content/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.15.2"
+      ],
+      "mappingType": "exact",
+      "text": "So Pilate questioned Him, “Are You the King of the Jews?” “You have said so,” Jesus replied.",
+      "originalStructuredText": "So Pilate questioned Him, “Are You the King of the Jews?”\n“You have said so,” Jesus replied.\n ",
+      "sourceRef": "MRK.15.2"
+    },
+    {
+      "id": "MRK.15.3",
+      "sourceId": "bsb_usj/MRK.usj#content/573/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.15.3"
+      ],
+      "mappingType": "exact",
+      "text": "And the chief priests began to accuse Him of many things.",
+      "originalStructuredText": "And the chief priests began to accuse Him of many things.\n ",
+      "sourceRef": "MRK.15.3"
+    },
+    {
+      "id": "MRK.15.4",
+      "sourceId": "bsb_usj/MRK.usj#content/574/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.15.4"
+      ],
+      "mappingType": "exact",
+      "text": "Then Pilate questioned Him again, “Have You no answer? Look how many charges they are bringing against You!”",
+      "originalStructuredText": "Then Pilate questioned Him again, “Have You no answer? Look how many charges they are bringing against You!”\n ",
+      "sourceRef": "MRK.15.4"
+    },
+    {
+      "id": "MRK.15.5",
+      "sourceId": "bsb_usj/MRK.usj#content/575/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.15.5"
+      ],
+      "mappingType": "exact",
+      "text": "But to Pilate’s amazement, Jesus made no further reply.",
+      "originalStructuredText": "But to Pilate’s amazement, Jesus made no further reply.\n ",
+      "sourceRef": "MRK.15.5"
+    },
+    {
+      "id": "MRK.15.6",
+      "sourceId": "bsb_usj/MRK.usj#content/578/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.15.6"
+      ],
+      "mappingType": "exact",
+      "text": "Now it was Pilate’s custom at the feast to release to the people a prisoner of their choosing.",
+      "originalStructuredText": "Now it was Pilate’s custom at the feast to release to the people a prisoner of their choosing. ",
+      "sourceRef": "MRK.15.6"
+    },
+    {
+      "id": "MRK.15.7",
+      "sourceId": "bsb_usj/MRK.usj#content/578/content/5",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.15.7"
+      ],
+      "mappingType": "exact",
+      "text": "And a man named Barabbas was imprisoned with the rebels who had committed murder during the insurrection.",
+      "originalStructuredText": "And a man named Barabbas was imprisoned with the rebels who had committed murder during the insurrection. ",
+      "sourceRef": "MRK.15.7"
+    },
+    {
+      "id": "MRK.15.8",
+      "sourceId": "bsb_usj/MRK.usj#content/578/content/7",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.15.8"
+      ],
+      "mappingType": "exact",
+      "text": "So the crowd went up and began asking Pilate to keep his custom.",
+      "originalStructuredText": "So the crowd went up and began asking Pilate to keep his custom.\n ",
+      "sourceRef": "MRK.15.8"
+    },
+    {
+      "id": "MRK.15.9",
+      "sourceId": "bsb_usj/MRK.usj#content/579/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.15.9"
+      ],
+      "mappingType": "exact",
+      "text": "“Do you want me to release to you the King of the Jews?” Pilate asked.",
+      "originalStructuredText": "“Do you want me to release to you the King of the Jews?” Pilate asked. ",
+      "sourceRef": "MRK.15.9"
+    },
+    {
+      "id": "MRK.15.10",
+      "sourceId": "bsb_usj/MRK.usj#content/579/content/3",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.15.10"
+      ],
+      "mappingType": "exact",
+      "text": "For he knew it was out of envy that the chief priests had handed Jesus over.",
+      "originalStructuredText": "For he knew it was out of envy that the chief priests had handed Jesus over.\n ",
+      "sourceRef": "MRK.15.10"
+    },
+    {
+      "id": "MRK.15.11",
+      "sourceId": "bsb_usj/MRK.usj#content/580/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.15.11"
+      ],
+      "mappingType": "exact",
+      "text": "But the chief priests stirred up the crowd to have him release Barabbas to them instead.",
+      "originalStructuredText": "But the chief priests stirred up the crowd to have him release Barabbas to them instead.\n ",
+      "sourceRef": "MRK.15.11"
+    },
+    {
+      "id": "MRK.15.12",
+      "sourceId": "bsb_usj/MRK.usj#content/583/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.15.12"
+      ],
+      "mappingType": "exact",
+      "text": "So Pilate asked them again, “What then do you want me to do with the One you call the King of the Jews?”",
+      "originalStructuredText": "So Pilate asked them again, “What then do you want me to do with the One you call the King of the Jews?”\n ",
+      "sourceRef": "MRK.15.12"
+    },
+    {
+      "id": "MRK.15.13",
+      "sourceId": "bsb_usj/MRK.usj#content/584/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.15.13"
+      ],
+      "mappingType": "exact",
+      "text": "And they shouted back, “Crucify Him!”",
+      "originalStructuredText": "And they shouted back, “Crucify Him!”\n ",
+      "sourceRef": "MRK.15.13"
+    },
+    {
+      "id": "MRK.15.14",
+      "sourceId": "bsb_usj/MRK.usj#content/585/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.15.14"
+      ],
+      "mappingType": "exact",
+      "text": "“Why?” asked Pilate. “What evil has He done?” But they shouted all the louder, “Crucify Him!”",
+      "originalStructuredText": "“Why?” asked Pilate. “What evil has He done?”\nBut they shouted all the louder, “Crucify Him!”\n ",
+      "sourceRef": "MRK.15.14"
+    },
+    {
+      "id": "MRK.15.15",
+      "sourceId": "bsb_usj/MRK.usj#content/587/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.15.15"
+      ],
+      "mappingType": "exact",
+      "text": "And wishing to satisfy the crowd, Pilate released Barabbas to them. But he had Jesus flogged, and handed Him over to be crucified.",
+      "originalStructuredText": "And wishing to satisfy the crowd, Pilate released Barabbas to them. But he had Jesus flogged, and handed Him over to be crucified.\n ",
+      "sourceRef": "MRK.15.15"
+    },
+    {
+      "id": "MRK.15.16",
+      "sourceId": "bsb_usj/MRK.usj#content/590/content/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.15.16"
+      ],
+      "mappingType": "exact",
+      "text": "Then the soldiers led Jesus away into the palace (that is, the Praetorium) and called the whole company together.",
+      "originalStructuredText": "Then the soldiers led Jesus away into the palace (that is, the Praetorium) and called the whole company together. ",
+      "sourceRef": "MRK.15.16"
+    },
+    {
+      "id": "MRK.15.17",
+      "sourceId": "bsb_usj/MRK.usj#content/590/content/3",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.15.17"
+      ],
+      "mappingType": "exact",
+      "text": "They dressed Him in a purple robe, twisted together a crown of thorns, and set it on His head.",
+      "originalStructuredText": "They dressed Him in a purple robe, twisted together a crown of thorns, and set it on His head. ",
+      "sourceRef": "MRK.15.17"
+    },
+    {
+      "id": "MRK.15.18",
+      "sourceId": "bsb_usj/MRK.usj#content/590/content/5",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.15.18"
+      ],
+      "mappingType": "exact",
+      "text": "And they began to salute Him: “Hail, King of the Jews!”",
+      "originalStructuredText": "And they began to salute Him: “Hail, King of the Jews!”\n ",
+      "sourceRef": "MRK.15.18"
+    },
+    {
+      "id": "MRK.15.19",
+      "sourceId": "bsb_usj/MRK.usj#content/591/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.15.19"
+      ],
+      "mappingType": "exact",
+      "text": "They kept striking His head with a staff and spitting on Him. And they knelt down and bowed before Him.",
+      "originalStructuredText": "They kept striking His head with a staff and spitting on Him. And they knelt down and bowed before Him. ",
+      "sourceRef": "MRK.15.19"
+    },
+    {
+      "id": "MRK.15.20",
+      "sourceId": "bsb_usj/MRK.usj#content/591/content/3",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.15.20"
+      ],
+      "mappingType": "exact",
+      "text": "After they had mocked Him, they removed the purple robe and put His own clothes back on Him. Then they led Him out to crucify Him.",
+      "originalStructuredText": "After they had mocked Him, they removed the purple robe and put His own clothes back on Him. Then they led Him out to crucify Him.\n ",
+      "sourceRef": "MRK.15.20"
+    },
+    {
+      "id": "MRK.15.21",
+      "sourceId": "bsb_usj/MRK.usj#content/594/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "MRK.15.21"
+      ],
+      "mappingType": "exact",
+      "text": "Now Simon of Cyrene, the father of Alexander and Rufus, was passing by on his way in from the country, and the soldiers forced him to carry the cross of Jesus.",
+      "originalStructuredText": "Now Simon of Cyrene, the father of Alexander and Rufus, was passing by on his way in from the country, and the soldiers forced him to carry the cross of Jesus.\n ",
+      "sourceRef": "MRK.15.21"
+    },
+    {
+      "id": "MRK.15.22",
+      "sourceId": "bsb_usj/MRK.usj#content/595/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "MRK.15.22"
+      ],
+      "mappingType": "exact",
+      "text": "They brought Jesus to a place called Golgotha, which means The Place of the Skull.",
+      "originalStructuredText": "They brought Jesus to a place called Golgotha, which means The Place of the Skull. ",
+      "sourceRef": "MRK.15.22"
+    },
+    {
+      "id": "MRK.15.23",
+      "sourceId": "bsb_usj/MRK.usj#content/595/content/3",
+      "sourceLabel": "23",
+      "anchors": [
+        "MRK.15.23"
+      ],
+      "mappingType": "exact",
+      "text": "There they offered Him wine mixed with myrrh, but He did not take it.",
+      "originalStructuredText": "There they offered Him wine mixed with myrrh, but He did not take it.\n ",
+      "sourceRef": "MRK.15.23"
+    },
+    {
+      "id": "MRK.15.24",
+      "sourceId": "bsb_usj/MRK.usj#content/596/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "MRK.15.24"
+      ],
+      "mappingType": "exact",
+      "text": "And they crucified Him. They also divided His garments by casting lots to decide what each of them would take.",
+      "originalStructuredText": "And they crucified Him.\nThey also divided His garments by casting lots to decide what each of them would take.\n ",
+      "sourceRef": "MRK.15.24"
+    },
+    {
+      "id": "MRK.15.25",
+      "sourceId": "bsb_usj/MRK.usj#content/598/content/1",
+      "sourceLabel": "25",
+      "anchors": [
+        "MRK.15.25"
+      ],
+      "mappingType": "exact",
+      "text": "It was the third hour when they crucified Him.",
+      "originalStructuredText": "It was the third hour when they crucified Him. ",
+      "sourceRef": "MRK.15.25"
+    },
+    {
+      "id": "MRK.15.26",
+      "sourceId": "bsb_usj/MRK.usj#content/598/content/5",
+      "sourceLabel": "26",
+      "anchors": [
+        "MRK.15.26"
+      ],
+      "mappingType": "exact",
+      "text": "And the charge inscribed against Him read: THE KING OF THE JEWS.",
+      "originalStructuredText": "And the charge inscribed against Him read:\n\nTHE KING OF THE JEWS.\n ",
+      "sourceRef": "MRK.15.26"
+    },
+    {
+      "id": "MRK.15.27",
+      "sourceId": "bsb_usj/MRK.usj#content/601/content/1",
+      "sourceLabel": "27",
+      "anchors": [
+        "MRK.15.27"
+      ],
+      "mappingType": "exact",
+      "text": "Along with Jesus, they crucified two robbers, one on His right and one on His left.",
+      "originalStructuredText": "Along with Jesus, they crucified two robbers, one on His right and one on His left.\n ",
+      "sourceRef": "MRK.15.27"
+    },
+    {
+      "id": "MRK.15.29",
+      "sourceId": "bsb_usj/MRK.usj#content/602/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "MRK.15.29"
+      ],
+      "mappingType": "exact",
+      "text": "And those who passed by heaped abuse on Him, shaking their heads and saying, “Aha! You who are going to destroy the temple and rebuild it in three days,",
+      "originalStructuredText": "And those who passed by heaped abuse on Him, shaking their heads and saying, “Aha! You who are going to destroy the temple and rebuild it in three days, ",
+      "sourceRef": "MRK.15.29"
+    },
+    {
+      "id": "MRK.15.30",
+      "sourceId": "bsb_usj/MRK.usj#content/602/content/3",
+      "sourceLabel": "30",
+      "anchors": [
+        "MRK.15.30"
+      ],
+      "mappingType": "exact",
+      "text": "come down from the cross and save Yourself!”",
+      "originalStructuredText": "come down from the cross and save Yourself!”\n ",
+      "sourceRef": "MRK.15.30"
+    },
+    {
+      "id": "MRK.15.31",
+      "sourceId": "bsb_usj/MRK.usj#content/603/content/1",
+      "sourceLabel": "31",
+      "anchors": [
+        "MRK.15.31"
+      ],
+      "mappingType": "exact",
+      "text": "In the same way, the chief priests and scribes mocked Him among themselves, saying, “He saved others, but He cannot save Himself!",
+      "originalStructuredText": "In the same way, the chief priests and scribes mocked Him among themselves, saying, “He saved others, but He cannot save Himself! ",
+      "sourceRef": "MRK.15.31"
+    },
+    {
+      "id": "MRK.15.32",
+      "sourceId": "bsb_usj/MRK.usj#content/603/content/3",
+      "sourceLabel": "32",
+      "anchors": [
+        "MRK.15.32"
+      ],
+      "mappingType": "exact",
+      "text": "Let the Christ, the King of Israel, come down now from the cross, so that we may see and believe!” And even those who were crucified with Him berated Him.",
+      "originalStructuredText": "Let the Christ, the King of Israel, come down now from the cross, so that we may see and believe!” And even those who were crucified with Him berated Him.\n ",
+      "sourceRef": "MRK.15.32"
+    },
+    {
+      "id": "MRK.15.33",
+      "sourceId": "bsb_usj/MRK.usj#content/606/content/1",
+      "sourceLabel": "33",
+      "anchors": [
+        "MRK.15.33"
+      ],
+      "mappingType": "exact",
+      "text": "From the sixth hour until the ninth hour darkness came over all the land.",
+      "originalStructuredText": "From the sixth hour until the ninth hour darkness came over all the land. ",
+      "sourceRef": "MRK.15.33"
+    },
+    {
+      "id": "MRK.15.34",
+      "sourceId": "bsb_usj/MRK.usj#content/606/content/5",
+      "sourceLabel": "34",
+      "anchors": [
+        "MRK.15.34"
+      ],
+      "mappingType": "exact",
+      "text": "At the ninth hour, Jesus cried out in a loud voice, “Eloi, Eloi, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”",
+      "originalStructuredText": "At the ninth hour, Jesus cried out in a loud voice, “Eloi, Eloi, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”\n ",
+      "sourceRef": "MRK.15.34"
+    },
+    {
+      "id": "MRK.15.35",
+      "sourceId": "bsb_usj/MRK.usj#content/607/content/1",
+      "sourceLabel": "35",
+      "anchors": [
+        "MRK.15.35"
+      ],
+      "mappingType": "exact",
+      "text": "When some of those standing nearby heard this, they said, “Behold, He is calling Elijah.”",
+      "originalStructuredText": "When some of those standing nearby heard this, they said, “Behold, He is calling Elijah.”\n ",
+      "sourceRef": "MRK.15.35"
+    },
+    {
+      "id": "MRK.15.36",
+      "sourceId": "bsb_usj/MRK.usj#content/608/content/1",
+      "sourceLabel": "36",
+      "anchors": [
+        "MRK.15.36"
+      ],
+      "mappingType": "exact",
+      "text": "And someone ran and filled a sponge with sour wine. He put it on a reed and held it up for Jesus to drink, saying, “Leave Him alone. Let us see if Elijah comes to take Him down.”",
+      "originalStructuredText": "And someone ran and filled a sponge with sour wine. He put it on a reed and held it up for Jesus to drink, saying, “Leave Him alone. Let us see if Elijah comes to take Him down.”\n ",
+      "sourceRef": "MRK.15.36"
+    },
+    {
+      "id": "MRK.15.37",
+      "sourceId": "bsb_usj/MRK.usj#content/609/content/1",
+      "sourceLabel": "37",
+      "anchors": [
+        "MRK.15.37"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus let out a loud cry and breathed His last.",
+      "originalStructuredText": "But Jesus let out a loud cry and breathed His last. ",
+      "sourceRef": "MRK.15.37"
+    },
+    {
+      "id": "MRK.15.38",
+      "sourceId": "bsb_usj/MRK.usj#content/609/content/3",
+      "sourceLabel": "38",
+      "anchors": [
+        "MRK.15.38"
+      ],
+      "mappingType": "exact",
+      "text": "And the veil of the temple was torn in two from top to bottom.",
+      "originalStructuredText": "And the veil of the temple was torn in two from top to bottom.\n ",
+      "sourceRef": "MRK.15.38"
+    },
+    {
+      "id": "MRK.15.39",
+      "sourceId": "bsb_usj/MRK.usj#content/610/content/1",
+      "sourceLabel": "39",
+      "anchors": [
+        "MRK.15.39"
+      ],
+      "mappingType": "exact",
+      "text": "When the centurion standing there in front of Jesus saw how He had breathed His last, he said, “Truly this man was the Son of God!”",
+      "originalStructuredText": "When the centurion standing there in front of Jesus saw how He had breathed His last, he said, “Truly this man was the Son of God!”\n ",
+      "sourceRef": "MRK.15.39"
+    },
+    {
+      "id": "MRK.15.40",
+      "sourceId": "bsb_usj/MRK.usj#content/611/content/1",
+      "sourceLabel": "40",
+      "anchors": [
+        "MRK.15.40"
+      ],
+      "mappingType": "exact",
+      "text": "And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome.",
+      "originalStructuredText": "And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome. ",
+      "sourceRef": "MRK.15.40"
+    },
+    {
+      "id": "MRK.15.41",
+      "sourceId": "bsb_usj/MRK.usj#content/611/content/5",
+      "sourceLabel": "41",
+      "anchors": [
+        "MRK.15.41"
+      ],
+      "mappingType": "exact",
+      "text": "These women had followed Jesus and ministered to Him while He was in Galilee, and there were many other women who had come up to Jerusalem with Him.",
+      "originalStructuredText": "These women had followed Jesus and ministered to Him while He was in Galilee, and there were many other women who had come up to Jerusalem with Him.\n ",
+      "sourceRef": "MRK.15.41"
+    },
+    {
+      "id": "MRK.15.42",
+      "sourceId": "bsb_usj/MRK.usj#content/614/content/1",
+      "sourceLabel": "42",
+      "anchors": [
+        "MRK.15.42"
+      ],
+      "mappingType": "exact",
+      "text": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath),",
+      "originalStructuredText": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath ), ",
+      "sourceRef": "MRK.15.42"
+    },
+    {
+      "id": "MRK.15.43",
+      "sourceId": "bsb_usj/MRK.usj#content/614/content/3",
+      "sourceLabel": "43",
+      "anchors": [
+        "MRK.15.43"
+      ],
+      "mappingType": "exact",
+      "text": "Joseph of Arimathea, a prominent Council member who himself was waiting for the kingdom of God, boldly went to Pilate to ask for the body of Jesus.",
+      "originalStructuredText": "Joseph of Arimathea, a prominent Council member who himself was waiting for the kingdom of God, boldly went to Pilate to ask for the body of Jesus.\n ",
+      "sourceRef": "MRK.15.43"
+    },
+    {
+      "id": "MRK.15.44",
+      "sourceId": "bsb_usj/MRK.usj#content/615/content/1",
+      "sourceLabel": "44",
+      "anchors": [
+        "MRK.15.44"
+      ],
+      "mappingType": "exact",
+      "text": "Pilate was surprised to hear that Jesus was already dead, so he summoned the centurion to ask if this was so.",
+      "originalStructuredText": "Pilate was surprised to hear that Jesus was already dead, so he summoned the centurion to ask if this was so. ",
+      "sourceRef": "MRK.15.44"
+    },
+    {
+      "id": "MRK.15.45",
+      "sourceId": "bsb_usj/MRK.usj#content/615/content/3",
+      "sourceLabel": "45",
+      "anchors": [
+        "MRK.15.45"
+      ],
+      "mappingType": "exact",
+      "text": "When Pilate had confirmed it with the centurion, he granted the body to Joseph.",
+      "originalStructuredText": "When Pilate had confirmed it with the centurion, he granted the body to Joseph.\n ",
+      "sourceRef": "MRK.15.45"
+    },
+    {
+      "id": "MRK.15.46",
+      "sourceId": "bsb_usj/MRK.usj#content/616/content/1",
+      "sourceLabel": "46",
+      "anchors": [
+        "MRK.15.46"
+      ],
+      "mappingType": "exact",
+      "text": "So Joseph bought a linen cloth, took down the body of Jesus, wrapped it in the cloth, and placed it in a tomb that had been cut out of the rock. Then he rolled a stone against the entrance to the tomb.",
+      "originalStructuredText": "So Joseph bought a linen cloth, took down the body of Jesus, wrapped it in the cloth, and placed it in a tomb that had been cut out of the rock. Then he rolled a stone against the entrance to the tomb. ",
+      "sourceRef": "MRK.15.46"
+    },
+    {
+      "id": "MRK.15.47",
+      "sourceId": "bsb_usj/MRK.usj#content/616/content/3",
+      "sourceLabel": "47",
+      "anchors": [
+        "MRK.15.47"
+      ],
+      "mappingType": "exact",
+      "text": "Mary Magdalene and Mary the mother of Joseph saw where His body was placed.",
+      "originalStructuredText": "Mary Magdalene and Mary the mother of Joseph saw where His body was placed.",
+      "sourceRef": "MRK.15.47"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MRK.15.note.113",
+      "anchor": "MRK.15.1",
+      "sourceId": "bsb_usj/MRK.usj#content/570/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:1 Or the whole Council",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the whole Council"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.114",
+      "anchor": "MRK.15.6",
+      "sourceId": "bsb_usj/MRK.usj#content/578/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:6 Literally Now at the feast he would release to them",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:6 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Now at the feast he would release to them"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.115",
+      "anchor": "MRK.15.24",
+      "sourceId": "bsb_usj/MRK.usj#content/597/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:24 See Psalm 22:18.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:24 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "PSA 22:18",
+                "content": [
+                  "Psalm 22:18"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.116",
+      "anchor": "MRK.15.25",
+      "sourceId": "bsb_usj/MRK.usj#content/598/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:25 That is, nine in the morning",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "That is, nine in the morning"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.117",
+      "anchor": "MRK.15.27",
+      "sourceId": "bsb_usj/MRK.usj#content/601/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:27 Or insurrectionists",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:27 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "insurrectionists"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.118",
+      "anchor": "MRK.15.27",
+      "sourceId": "bsb_usj/MRK.usj#content/601/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:27 BYZ and TR include 28So the Scripture was fulfilled that says, “And He was numbered with the transgressors.”See Isaiah 53:12 and Luke 22:37.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:27 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              {
+                "type": "char",
+                "marker": "fv",
+                "content": [
+                  "28"
+                ]
+              },
+              "So the Scripture was fulfilled that says, “And He was numbered with the transgressors.”"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "ISA 53:12",
+                "content": [
+                  "Isaiah 53:12"
+                ]
+              },
+              " and Luke 22:37."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.119",
+      "anchor": "MRK.15.33",
+      "sourceId": "bsb_usj/MRK.usj#content/606/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:33 That is, from noon until three in the afternoon",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:33 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "That is, from noon until three in the afternoon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.120",
+      "anchor": "MRK.15.34",
+      "sourceId": "bsb_usj/MRK.usj#content/606/content/10",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:34 Psalm 22:1",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:34 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "PSA 22:1",
+                "content": [
+                  "Psalm 22:1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.121",
+      "anchor": "MRK.15.36",
+      "sourceId": "bsb_usj/MRK.usj#content/608/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:36 Or a sponge with wine vinegar",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:36 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "a sponge with wine vinegar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.122",
+      "anchor": "MRK.15.36",
+      "sourceId": "bsb_usj/MRK.usj#content/608/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:36 See Psalm 69:21.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:36 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "PSA 69:21",
+                "content": [
+                  "Psalm 69:21"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.123",
+      "anchor": "MRK.15.39",
+      "sourceId": "bsb_usj/MRK.usj#content/610/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:39 BYZ and TR saw how, having cried out, He had breathed His last",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:39 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "saw how, having cried out, He had breathed His last"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.124",
+      "anchor": "MRK.15.40",
+      "sourceId": "bsb_usj/MRK.usj#content/611/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:40 Joses is a variant of Joseph; see Matthew 27:56.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:40 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Joses "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "is a variant of "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Joseph"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "MAT 27:56",
+                "content": [
+                  "Matthew 27:56"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.15.note.125",
+      "anchor": "MRK.15.47",
+      "sourceId": "bsb_usj/MRK.usj#content/616/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "15:47 Or Joses",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "15:47 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Joses"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MRK.15.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.113"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.1",
+          "sourceRef": "MRK.15.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.2",
+          "sourceRef": "MRK.15.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.3",
+          "sourceRef": "MRK.15.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.4",
+          "sourceRef": "MRK.15.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.5",
+          "sourceRef": "MRK.15.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.114"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.6",
+          "sourceRef": "MRK.15.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.7",
+          "sourceRef": "MRK.15.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.8",
+          "sourceRef": "MRK.15.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.9",
+          "sourceRef": "MRK.15.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.10",
+          "sourceRef": "MRK.15.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.11",
+          "sourceRef": "MRK.15.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.12",
+          "sourceRef": "MRK.15.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.13",
+          "sourceRef": "MRK.15.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.14",
+          "sourceRef": "MRK.15.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.15",
+          "sourceRef": "MRK.15.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.16",
+          "sourceRef": "MRK.15.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.17",
+          "sourceRef": "MRK.15.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.18",
+          "sourceRef": "MRK.15.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.19",
+          "sourceRef": "MRK.15.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.20",
+          "sourceRef": "MRK.15.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.21",
+          "sourceRef": "MRK.15.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.22",
+          "sourceRef": "MRK.15.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.23",
+          "sourceRef": "MRK.15.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.115"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.24",
+          "sourceRef": "MRK.15.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.116"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.25",
+          "sourceRef": "MRK.15.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.26",
+          "sourceRef": "MRK.15.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.117",
+        "MRK.15.note.118"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.27",
+          "sourceRef": "MRK.15.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.28",
+      "dataState": "available",
+      "textState": "absent",
+      "publisherNoteIds": [
+        "MRK.15.note.117",
+        "MRK.15.note.118"
+      ],
+      "placements": [],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.29",
+          "sourceRef": "MRK.15.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.30",
+          "sourceRef": "MRK.15.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.31",
+          "sourceRef": "MRK.15.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.32",
+          "sourceRef": "MRK.15.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.119"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.33",
+          "sourceRef": "MRK.15.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.120"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.34",
+          "sourceRef": "MRK.15.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.35",
+          "sourceRef": "MRK.15.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.121",
+        "MRK.15.note.122"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.36",
+          "sourceRef": "MRK.15.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.37",
+          "sourceRef": "MRK.15.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.38",
+          "sourceRef": "MRK.15.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.123"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.39",
+          "sourceRef": "MRK.15.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.124"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.40",
+          "sourceRef": "MRK.15.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.41",
+          "sourceRef": "MRK.15.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.42",
+          "sourceRef": "MRK.15.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.43",
+          "sourceRef": "MRK.15.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.44",
+          "sourceRef": "MRK.15.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.45",
+          "sourceRef": "MRK.15.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.46",
+          "sourceRef": "MRK.15.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.15.47",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.15.note.125"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 15,
+          "segmentId": "MRK.15.47",
+          "sourceRef": "MRK.15.47",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Textus Receptus — Boyd compilation (2022)",
+  "language": "grc",
+  "group": "Textus Receptus",
+  "description": "Boyd’s named compilation of Stephanus, Elzevir and Scrivener readings. This is not Scrivener 1894.",
+  "editionLabel": "Robert Adam Boyd, September 2022 compilation; eBible grctr source/export 2026-09-03, retrieved 2026-09-05.",
+  "authority": "eBible grctr USFX, independently reconciled against its verse-per-line export. Subscriptions and comparison notes remain separate from verse text.",
+  "url": "https://ebible.org/grctr/",
+  "rightsUrl": "https://ebible.org/bible/details.php?id=grctr&all=1",
+  "rights": "eBible identifies the Greek text as Public Domain and expressly records Adam Boyd’s public-domain dedication of manuscript comparison footnotes.",
+  "included": [
+    "NT Greek Scripture",
+    "source paragraphing",
+    "publisher comparison notes",
+    "separately labeled subscriptions"
+  ],
+  "excluded": [
+    "morphology/Strong’s enrichment",
+    "unreviewed introduction in reading surface",
+    "fonts",
+    "English alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/boyd/raw/grctr_usfx.zip",
+      "url": "https://ebible.org/Scriptures/grctr_usfx.zip",
+      "sha256": "531e3d928676231382f6309cfdd7d25207ff842f7c40b6e1a445bb1b84871de7",
+      "bytes": 741245
+    },
+    {
+      "path": "sources/boyd/raw/grctr_vpl.zip",
+      "url": "https://ebible.org/Scriptures/grctr_vpl.zip",
+      "sha256": "05f91f65f031246ccadb89ca53abc29716f95a52d3286ee02f583cf9a4283c69",
+      "bytes": 1414526
+    }
+  ],
+  "editionId": "TR-BOYD",
+  "releaseId": "tr-boyd-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/boyd/evidence/copr.htm",
+      "sha256": "b40d7726f86490d37ce8fd235855a9b3cfec2b4fcf2c3ce4b8e84f8edf369a2a"
+    },
+    {
+      "path": "sources/boyd/evidence/details.html",
+      "sha256": "3a968c564ce1b9164cd4e8eb879a0acb4bf07efb2e38c998aa0200dd12121fee"
+    },
+    {
+      "path": "sources/boyd/evidence/grctrmetadata.xml",
+      "sha256": "f13ba5b02ba885928e2de753ef1bb49ba66b12252fb0f2862630e7ba1debbd11"
+    }
+  ]
+}

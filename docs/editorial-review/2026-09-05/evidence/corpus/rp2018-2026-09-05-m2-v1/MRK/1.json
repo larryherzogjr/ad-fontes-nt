@@ -1,0 +1,2564 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=2",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MRK.1.1",
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        },
+        {
+          "text": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ.",
+          "anchor": "MRK.1.1",
+          "marks": [],
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.1",
+          "marks": [],
+          "anchors": [
+            "MRK.1.1"
+          ],
+          "sourceAnchor": "MRK.1.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=3",
+      "runs": [
+        {
+          "verse": "2",
+          "anchor": "MRK.1.2",
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "text": "Ὡς γέγραπται ἐν τοῖς προφήταις, Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.2",
+          "marks": [],
+          "anchors": [
+            "MRK.1.2"
+          ],
+          "sourceAnchor": "MRK.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.1.3",
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "text": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ, Ἑτοιμάσατε τὴν ὁδὸν κυρίου· εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.3",
+          "marks": [],
+          "anchors": [
+            "MRK.1.3"
+          ],
+          "sourceAnchor": "MRK.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.1.4",
+          "anchors": [
+            "MRK.1.4"
+          ],
+          "sourceAnchor": "MRK.1.4"
+        },
+        {
+          "text": "Ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ, καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν.",
+          "anchor": "MRK.1.4",
+          "marks": [],
+          "anchors": [
+            "MRK.1.4"
+          ],
+          "sourceAnchor": "MRK.1.4"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.4",
+          "marks": [],
+          "anchors": [
+            "MRK.1.4"
+          ],
+          "sourceAnchor": "MRK.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.1.5",
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        },
+        {
+          "text": "Καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα, καὶ οἱ Ἱεροσολυμῖται, καὶ ἐβαπτίζοντο πάντες ἐν τῷ Ἰορδάνῃ ποταμῷ ὑπ’ αὐτοῦ, ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν.",
+          "anchor": "MRK.1.5",
+          "marks": [],
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.5",
+          "marks": [],
+          "anchors": [
+            "MRK.1.5"
+          ],
+          "sourceAnchor": "MRK.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.1.6",
+          "anchors": [
+            "MRK.1.6"
+          ],
+          "sourceAnchor": "MRK.1.6"
+        },
+        {
+          "text": "Ἦν δὲ ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον.",
+          "anchor": "MRK.1.6",
+          "marks": [],
+          "anchors": [
+            "MRK.1.6"
+          ],
+          "sourceAnchor": "MRK.1.6"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.6",
+          "marks": [],
+          "anchors": [
+            "MRK.1.6"
+          ],
+          "sourceAnchor": "MRK.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.1.7",
+          "anchors": [
+            "MRK.1.7"
+          ],
+          "sourceAnchor": "MRK.1.7"
+        },
+        {
+          "text": "Καὶ ἐκήρυσσεν, λέγων, Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ.",
+          "anchor": "MRK.1.7",
+          "marks": [],
+          "anchors": [
+            "MRK.1.7"
+          ],
+          "sourceAnchor": "MRK.1.7"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.7",
+          "marks": [],
+          "anchors": [
+            "MRK.1.7"
+          ],
+          "sourceAnchor": "MRK.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.1.8",
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "text": "Ἐγὼ μὲν ἐβάπτισα ὑμᾶς ἐν ὕδατι· αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ.",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.8",
+          "marks": [],
+          "anchors": [
+            "MRK.1.8"
+          ],
+          "sourceAnchor": "MRK.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=10",
+      "runs": [
+        {
+          "verse": "9",
+          "anchor": "MRK.1.9",
+          "anchors": [
+            "MRK.1.9"
+          ],
+          "sourceAnchor": "MRK.1.9"
+        },
+        {
+          "text": "Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ὑπὸ Ἰωάννου εἰς τὸν Ἰορδάνην.",
+          "anchor": "MRK.1.9",
+          "marks": [],
+          "anchors": [
+            "MRK.1.9"
+          ],
+          "sourceAnchor": "MRK.1.9"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.9",
+          "marks": [],
+          "anchors": [
+            "MRK.1.9"
+          ],
+          "sourceAnchor": "MRK.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.1.10",
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "text": "Καὶ εὐθέως ἀναβαίνων ἀπὸ τοῦ ὕδατος, εἶδεν σχιζομένους τοὺς οὐρανούς, καὶ τὸ πνεῦμα ὡσεὶ περιστερὰν καταβαῖνον ἐπ’ αὐτόν·",
+          "anchor": "MRK.1.10",
+          "marks": [],
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.10",
+          "marks": [],
+          "anchors": [
+            "MRK.1.10"
+          ],
+          "sourceAnchor": "MRK.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.1.11",
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        },
+        {
+          "text": "καὶ φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν, Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα.",
+          "anchor": "MRK.1.11",
+          "marks": [],
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.11",
+          "marks": [],
+          "anchors": [
+            "MRK.1.11"
+          ],
+          "sourceAnchor": "MRK.1.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=13",
+      "runs": [
+        {
+          "verse": "12",
+          "anchor": "MRK.1.12",
+          "anchors": [
+            "MRK.1.12"
+          ],
+          "sourceAnchor": "MRK.1.12"
+        },
+        {
+          "text": "Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον.",
+          "anchor": "MRK.1.12",
+          "marks": [],
+          "anchors": [
+            "MRK.1.12"
+          ],
+          "sourceAnchor": "MRK.1.12"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.12",
+          "marks": [],
+          "anchors": [
+            "MRK.1.12"
+          ],
+          "sourceAnchor": "MRK.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.1.13",
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        },
+        {
+          "text": "Καὶ ἦν ἐκεῖ ἐν τῇ ἐρήμῳ ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.",
+          "anchor": "MRK.1.13",
+          "marks": [],
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.13",
+          "marks": [],
+          "anchors": [
+            "MRK.1.13"
+          ],
+          "sourceAnchor": "MRK.1.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=15",
+      "runs": [
+        {
+          "verse": "14",
+          "anchor": "MRK.1.14",
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "text": "Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην, ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν, κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας τοῦ θεοῦ,",
+          "anchor": "MRK.1.14",
+          "marks": [],
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.14",
+          "marks": [],
+          "anchors": [
+            "MRK.1.14"
+          ],
+          "sourceAnchor": "MRK.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.1.15",
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "text": "καὶ λέγων ὅτι Πεπλήρωται ὁ καιρός, καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε, καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.",
+          "anchor": "MRK.1.15",
+          "marks": [],
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.15",
+          "marks": [],
+          "anchors": [
+            "MRK.1.15"
+          ],
+          "sourceAnchor": "MRK.1.15"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=17",
+      "runs": [
+        {
+          "verse": "16",
+          "anchor": "MRK.1.16",
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "text": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ τοῦ Σίμωνος βάλλοντας ἀμφίβληστρον ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς.",
+          "anchor": "MRK.1.16",
+          "marks": [],
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.16",
+          "marks": [],
+          "anchors": [
+            "MRK.1.16"
+          ],
+          "sourceAnchor": "MRK.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.1.17",
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "text": "Καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς, Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων.",
+          "anchor": "MRK.1.17",
+          "marks": [],
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.17",
+          "marks": [],
+          "anchors": [
+            "MRK.1.17"
+          ],
+          "sourceAnchor": "MRK.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.1.18",
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        },
+        {
+          "text": "Καὶ εὐθέως ἀφέντες τὰ δίκτυα αὐτῶν, ἠκολούθησαν αὐτῷ.",
+          "anchor": "MRK.1.18",
+          "marks": [],
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.18",
+          "marks": [],
+          "anchors": [
+            "MRK.1.18"
+          ],
+          "sourceAnchor": "MRK.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.1.19",
+          "anchors": [
+            "MRK.1.19"
+          ],
+          "sourceAnchor": "MRK.1.19"
+        },
+        {
+          "text": "Καὶ προβὰς ἐκεῖθεν ὀλίγον, εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα.",
+          "anchor": "MRK.1.19",
+          "marks": [],
+          "anchors": [
+            "MRK.1.19"
+          ],
+          "sourceAnchor": "MRK.1.19"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.19",
+          "marks": [],
+          "anchors": [
+            "MRK.1.19"
+          ],
+          "sourceAnchor": "MRK.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.1.20",
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        },
+        {
+          "text": "Καὶ εὐθέως ἐκάλεσεν αὐτούς· καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ.",
+          "anchor": "MRK.1.20",
+          "marks": [],
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.20",
+          "marks": [],
+          "anchors": [
+            "MRK.1.20"
+          ],
+          "sourceAnchor": "MRK.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=22",
+      "runs": [
+        {
+          "verse": "21",
+          "anchor": "MRK.1.21",
+          "anchors": [
+            "MRK.1.21"
+          ],
+          "sourceAnchor": "MRK.1.21"
+        },
+        {
+          "text": "Καὶ εἰσπορεύονται εἰς Καπερναούμ· καὶ εὐθέως τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγήν, ἐδίδασκεν.",
+          "anchor": "MRK.1.21",
+          "marks": [],
+          "anchors": [
+            "MRK.1.21"
+          ],
+          "sourceAnchor": "MRK.1.21"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.21",
+          "marks": [],
+          "anchors": [
+            "MRK.1.21"
+          ],
+          "sourceAnchor": "MRK.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MRK.1.22",
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        },
+        {
+          "text": "Καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ· ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων, καὶ οὐχ ὡς οἱ γραμματεῖς.",
+          "anchor": "MRK.1.22",
+          "marks": [],
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.22",
+          "marks": [],
+          "anchors": [
+            "MRK.1.22"
+          ],
+          "sourceAnchor": "MRK.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MRK.1.23",
+          "anchors": [
+            "MRK.1.23"
+          ],
+          "sourceAnchor": "MRK.1.23"
+        },
+        {
+          "text": "Καὶ ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ, καὶ ἀνέκραξεν,",
+          "anchor": "MRK.1.23",
+          "marks": [],
+          "anchors": [
+            "MRK.1.23"
+          ],
+          "sourceAnchor": "MRK.1.23"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.23",
+          "marks": [],
+          "anchors": [
+            "MRK.1.23"
+          ],
+          "sourceAnchor": "MRK.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MRK.1.24",
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        },
+        {
+          "text": "λέγων, Ἔα, τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; Ἦλθες ἀπολέσαι ἡμᾶς; Οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ θεοῦ.",
+          "anchor": "MRK.1.24",
+          "marks": [],
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.24",
+          "marks": [],
+          "anchors": [
+            "MRK.1.24"
+          ],
+          "sourceAnchor": "MRK.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MRK.1.25",
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": "Καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων, Φιμώθητι, καὶ ἔξελθε ἐξ αὐτοῦ.",
+          "anchor": "MRK.1.25",
+          "marks": [],
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.25",
+          "marks": [],
+          "anchors": [
+            "MRK.1.25"
+          ],
+          "sourceAnchor": "MRK.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MRK.1.26",
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        },
+        {
+          "text": "Καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ κράξαν φωνῇ μεγάλῃ, ἐξῆλθεν ἐξ αὐτοῦ.",
+          "anchor": "MRK.1.26",
+          "marks": [],
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.26",
+          "marks": [],
+          "anchors": [
+            "MRK.1.26"
+          ],
+          "sourceAnchor": "MRK.1.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MRK.1.27",
+          "anchors": [
+            "MRK.1.27"
+          ],
+          "sourceAnchor": "MRK.1.27"
+        },
+        {
+          "text": "Καὶ ἐθαμβήθησαν πάντες, ὥστε συζητεῖν πρὸς ἑαυτούς, λέγοντας, Τί ἐστιν τοῦτο; Τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ’ ἐξουσίαν καὶ τοῖς πνεύμασιν τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ;",
+          "anchor": "MRK.1.27",
+          "marks": [],
+          "anchors": [
+            "MRK.1.27"
+          ],
+          "sourceAnchor": "MRK.1.27"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.27",
+          "marks": [],
+          "anchors": [
+            "MRK.1.27"
+          ],
+          "sourceAnchor": "MRK.1.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MRK.1.28",
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        },
+        {
+          "text": "Ἐξῆλθεν δὲ ἡ ἀκοὴ αὐτοῦ εὐθὺς εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας.",
+          "anchor": "MRK.1.28",
+          "marks": [],
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.28",
+          "marks": [],
+          "anchors": [
+            "MRK.1.28"
+          ],
+          "sourceAnchor": "MRK.1.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=30",
+      "runs": [
+        {
+          "verse": "29",
+          "anchor": "MRK.1.29",
+          "anchors": [
+            "MRK.1.29"
+          ],
+          "sourceAnchor": "MRK.1.29"
+        },
+        {
+          "text": "Καὶ εὐθέως ἐκ τῆς συναγωγῆς ἐξελθόντες, ἦλθον εἰς τὴν οἰκίαν Σίμωνος καὶ Ἀνδρέου, μετὰ Ἰακώβου καὶ Ἰωάννου.",
+          "anchor": "MRK.1.29",
+          "marks": [],
+          "anchors": [
+            "MRK.1.29"
+          ],
+          "sourceAnchor": "MRK.1.29"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.29",
+          "marks": [],
+          "anchors": [
+            "MRK.1.29"
+          ],
+          "sourceAnchor": "MRK.1.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MRK.1.30",
+          "anchors": [
+            "MRK.1.30"
+          ],
+          "sourceAnchor": "MRK.1.30"
+        },
+        {
+          "text": "Ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα, καὶ εὐθέως λέγουσιν αὐτῷ περὶ αὐτῆς·",
+          "anchor": "MRK.1.30",
+          "marks": [],
+          "anchors": [
+            "MRK.1.30"
+          ],
+          "sourceAnchor": "MRK.1.30"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.30",
+          "marks": [],
+          "anchors": [
+            "MRK.1.30"
+          ],
+          "sourceAnchor": "MRK.1.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MRK.1.31",
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        },
+        {
+          "text": "καὶ προσελθὼν ἤγειρεν αὐτήν, κρατήσας τῆς χειρὸς αὐτῆς· καὶ ἀφῆκεν αὐτὴν ὁ πυρετὸς εὐθέως, καὶ διηκόνει αὐτοῖς.",
+          "anchor": "MRK.1.31",
+          "marks": [],
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.31",
+          "marks": [],
+          "anchors": [
+            "MRK.1.31"
+          ],
+          "sourceAnchor": "MRK.1.31"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=33",
+      "runs": [
+        {
+          "verse": "32",
+          "anchor": "MRK.1.32",
+          "anchors": [
+            "MRK.1.32"
+          ],
+          "sourceAnchor": "MRK.1.32"
+        },
+        {
+          "text": "Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος, ἔφερον πρὸς αὐτὸν πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους·",
+          "anchor": "MRK.1.32",
+          "marks": [],
+          "anchors": [
+            "MRK.1.32"
+          ],
+          "sourceAnchor": "MRK.1.32"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.32",
+          "marks": [],
+          "anchors": [
+            "MRK.1.32"
+          ],
+          "sourceAnchor": "MRK.1.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MRK.1.33",
+          "anchors": [
+            "MRK.1.33"
+          ],
+          "sourceAnchor": "MRK.1.33"
+        },
+        {
+          "text": "καὶ ἡ πόλις ὅλη ἐπισυνηγμένη ἦν πρὸς τὴν θύραν.",
+          "anchor": "MRK.1.33",
+          "marks": [],
+          "anchors": [
+            "MRK.1.33"
+          ],
+          "sourceAnchor": "MRK.1.33"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.33",
+          "marks": [],
+          "anchors": [
+            "MRK.1.33"
+          ],
+          "sourceAnchor": "MRK.1.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MRK.1.34",
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        },
+        {
+          "text": "Καὶ ἐθεράπευσεν πολλοὺς κακῶς ἔχοντας ποικίλαις νόσοις, καὶ δαιμόνια πολλὰ ἐξέβαλεν, καὶ οὐκ ἤφιεν λαλεῖν τὰ δαιμόνια, ὅτι ᾔδεισαν αὐτόν.",
+          "anchor": "MRK.1.34",
+          "marks": [],
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.34",
+          "marks": [],
+          "anchors": [
+            "MRK.1.34"
+          ],
+          "sourceAnchor": "MRK.1.34"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=36",
+      "runs": [
+        {
+          "verse": "35",
+          "anchor": "MRK.1.35",
+          "anchors": [
+            "MRK.1.35"
+          ],
+          "sourceAnchor": "MRK.1.35"
+        },
+        {
+          "text": "Καὶ πρωῒ ἔννυχον λίαν ἀναστὰς ἐξῆλθεν, καὶ ἀπῆλθεν εἰς ἔρημον τόπον, κἀκεῖ προσηύχετο.",
+          "anchor": "MRK.1.35",
+          "marks": [],
+          "anchors": [
+            "MRK.1.35"
+          ],
+          "sourceAnchor": "MRK.1.35"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.35",
+          "marks": [],
+          "anchors": [
+            "MRK.1.35"
+          ],
+          "sourceAnchor": "MRK.1.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MRK.1.36",
+          "anchors": [
+            "MRK.1.36"
+          ],
+          "sourceAnchor": "MRK.1.36"
+        },
+        {
+          "text": "Καὶ κατεδίωξαν αὐτὸν ὁ Σίμων καὶ οἱ μετ’ αὐτοῦ·",
+          "anchor": "MRK.1.36",
+          "marks": [],
+          "anchors": [
+            "MRK.1.36"
+          ],
+          "sourceAnchor": "MRK.1.36"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.36",
+          "marks": [],
+          "anchors": [
+            "MRK.1.36"
+          ],
+          "sourceAnchor": "MRK.1.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MRK.1.37",
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        },
+        {
+          "text": "καὶ εὑρόντες αὐτὸν λέγουσιν αὐτῷ ὅτι Πάντες σε ζητοῦσιν.",
+          "anchor": "MRK.1.37",
+          "marks": [],
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.37",
+          "marks": [],
+          "anchors": [
+            "MRK.1.37"
+          ],
+          "sourceAnchor": "MRK.1.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MRK.1.38",
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "text": "Καὶ λέγει αὐτοῖς, Ἄγωμεν εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξελήλυθα.",
+          "anchor": "MRK.1.38",
+          "marks": [],
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.38",
+          "marks": [],
+          "anchors": [
+            "MRK.1.38"
+          ],
+          "sourceAnchor": "MRK.1.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MRK.1.39",
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        },
+        {
+          "text": "Καὶ ἦν κηρύσσων ἐν ταῖς συναγωγαῖς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν, καὶ τὰ δαιμόνια ἐκβάλλων.",
+          "anchor": "MRK.1.39",
+          "marks": [],
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.39",
+          "marks": [],
+          "anchors": [
+            "MRK.1.39"
+          ],
+          "sourceAnchor": "MRK.1.39"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=41",
+      "runs": [
+        {
+          "verse": "40",
+          "anchor": "MRK.1.40",
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "text": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρός, παρακαλῶν αὐτὸν καὶ γονυπετῶν αὐτόν, καὶ λέγων αὐτῷ ὅτι Ἐὰν θέλῃς, δύνασαί με καθαρίσαι.",
+          "anchor": "MRK.1.40",
+          "marks": [],
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.40",
+          "marks": [],
+          "anchors": [
+            "MRK.1.40"
+          ],
+          "sourceAnchor": "MRK.1.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "MRK.1.41",
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": "Ὁ δὲ Ἰησοῦς σπλαγχνισθείς, ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ, καὶ λέγει αὐτῷ, Θέλω, καθαρίσθητι.",
+          "anchor": "MRK.1.41",
+          "marks": [],
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.41",
+          "marks": [],
+          "anchors": [
+            "MRK.1.41"
+          ],
+          "sourceAnchor": "MRK.1.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "MRK.1.42",
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        },
+        {
+          "text": "Καὶ εἰπόντος αὐτοῦ εὐθέως ἀπῆλθεν ἀπ’ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.",
+          "anchor": "MRK.1.42",
+          "marks": [],
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.42",
+          "marks": [],
+          "anchors": [
+            "MRK.1.42"
+          ],
+          "sourceAnchor": "MRK.1.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "MRK.1.43",
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "text": "Καὶ ἐμβριμησάμενος αὐτῷ, εὐθέως ἐξέβαλεν αὐτόν,",
+          "anchor": "MRK.1.43",
+          "marks": [],
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.43",
+          "marks": [],
+          "anchors": [
+            "MRK.1.43"
+          ],
+          "sourceAnchor": "MRK.1.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "MRK.1.44",
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "text": "καὶ λέγει αὐτῷ, Ὅρα μηδενὶ μηδὲν εἴπῃς· ἀλλ’ ὕπαγε, σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωσῆς, εἰς μαρτύριον αὐτοῖς.",
+          "anchor": "MRK.1.44",
+          "marks": [],
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.44",
+          "marks": [],
+          "anchors": [
+            "MRK.1.44"
+          ],
+          "sourceAnchor": "MRK.1.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "MRK.1.45",
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        },
+        {
+          "text": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ’ ἔξω ἐν ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πανταχόθεν.",
+          "anchor": "MRK.1.45",
+          "marks": [],
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        },
+        {
+          "text": " ",
+          "anchor": "MRK.1.45",
+          "marks": [],
+          "anchors": [
+            "MRK.1.45"
+          ],
+          "sourceAnchor": "MRK.1.45"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.1.1",
+      "sourceRef": "MRK.1.1",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=2",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ.",
+      "sourceText": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ.",
+      "originalText": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ. \n"
+    },
+    {
+      "id": "MRK.1.2",
+      "sourceRef": "MRK.1.2",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=3",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "Ὡς γέγραπται ἐν τοῖς προφήταις, Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.",
+      "sourceText": "¶Ὡς γέγραπται ἐν τοῖς προφήταις, Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.",
+      "originalText": "Ὡς γέγραπται ἐν τοῖς προφήταις, Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου. "
+    },
+    {
+      "id": "MRK.1.3",
+      "sourceRef": "MRK.1.3",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=4",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ, Ἑτοιμάσατε τὴν ὁδὸν κυρίου· εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+      "sourceText": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ, Ἑτοιμάσατε τὴν ὁδὸν κυρίου· εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.",
+      "originalText": "Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ, Ἑτοιμάσατε τὴν ὁδὸν κυρίου· εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ. "
+    },
+    {
+      "id": "MRK.1.4",
+      "sourceRef": "MRK.1.4",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=5",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ, καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν.",
+      "sourceText": "Ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ, καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν.",
+      "originalText": "Ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ, καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν. "
+    },
+    {
+      "id": "MRK.1.5",
+      "sourceRef": "MRK.1.5",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=6",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα, καὶ οἱ Ἱεροσολυμῖται, καὶ ἐβαπτίζοντο πάντες ἐν τῷ Ἰορδάνῃ ποταμῷ ὑπ’ αὐτοῦ, ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν.",
+      "sourceText": "Καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα, καὶ οἱ Ἱεροσολυμῖται, καὶ ἐβαπτίζοντο πάντες ἐν τῷ Ἰορδάνῃ ποταμῷ ὑπ’ αὐτοῦ, ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν.",
+      "originalText": "Καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα, καὶ οἱ Ἱεροσολυμῖται, καὶ ἐβαπτίζοντο πάντες ἐν τῷ Ἰορδάνῃ ποταμῷ ὑπ’ αὐτοῦ, ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. "
+    },
+    {
+      "id": "MRK.1.6",
+      "sourceRef": "MRK.1.6",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=7",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "Ἦν δὲ ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον.",
+      "sourceText": "Ἦν δὲ ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον.",
+      "originalText": "Ἦν δὲ ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον. "
+    },
+    {
+      "id": "MRK.1.7",
+      "sourceRef": "MRK.1.7",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=8",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐκήρυσσεν, λέγων, Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ.",
+      "sourceText": "Καὶ ἐκήρυσσεν, λέγων, Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ.",
+      "originalText": "Καὶ ἐκήρυσσεν, λέγων, Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ. "
+    },
+    {
+      "id": "MRK.1.8",
+      "sourceRef": "MRK.1.8",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=9",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγὼ μὲν ἐβάπτισα ὑμᾶς ἐν ὕδατι· αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ.",
+      "sourceText": "Ἐγὼ μὲν ἐβάπτισα ὑμᾶς ἐν ὕδατι· αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ.",
+      "originalText": "Ἐγὼ μὲν ἐβάπτισα ὑμᾶς ἐν ὕδατι· αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ. \n"
+    },
+    {
+      "id": "MRK.1.9",
+      "sourceRef": "MRK.1.9",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=10",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ὑπὸ Ἰωάννου εἰς τὸν Ἰορδάνην.",
+      "sourceText": "¶Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ὑπὸ Ἰωάννου εἰς τὸν Ἰορδάνην.",
+      "originalText": "Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ὑπὸ Ἰωάννου εἰς τὸν Ἰορδάνην. "
+    },
+    {
+      "id": "MRK.1.10",
+      "sourceRef": "MRK.1.10",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=11",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθέως ἀναβαίνων ἀπὸ τοῦ ὕδατος, εἶδεν σχιζομένους τοὺς οὐρανούς, καὶ τὸ πνεῦμα ὡσεὶ περιστερὰν καταβαῖνον ἐπ’ αὐτόν·",
+      "sourceText": "Καὶ εὐθέως ἀναβαίνων ἀπὸ τοῦ ὕδατος, εἶδεν σχιζομένους τοὺς οὐρανούς, καὶ τὸ πνεῦμα ὡσεὶ περιστερὰν καταβαῖνον ἐπ’ αὐτόν·",
+      "originalText": "Καὶ εὐθέως ἀναβαίνων ἀπὸ τοῦ ὕδατος, εἶδεν σχιζομένους τοὺς οὐρανούς, καὶ τὸ πνεῦμα ὡσεὶ περιστερὰν καταβαῖνον ἐπ’ αὐτόν· "
+    },
+    {
+      "id": "MRK.1.11",
+      "sourceRef": "MRK.1.11",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=12",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν, Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα.",
+      "sourceText": "καὶ φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν, Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα.",
+      "originalText": "καὶ φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν, Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα. \n"
+    },
+    {
+      "id": "MRK.1.12",
+      "sourceRef": "MRK.1.12",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=13",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον.",
+      "sourceText": "¶Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον.",
+      "originalText": "Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον. "
+    },
+    {
+      "id": "MRK.1.13",
+      "sourceRef": "MRK.1.13",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=14",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἦν ἐκεῖ ἐν τῇ ἐρήμῳ ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.",
+      "sourceText": "Καὶ ἦν ἐκεῖ ἐν τῇ ἐρήμῳ ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.",
+      "originalText": "Καὶ ἦν ἐκεῖ ἐν τῇ ἐρήμῳ ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ. \n"
+    },
+    {
+      "id": "MRK.1.14",
+      "sourceRef": "MRK.1.14",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=15",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην, ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν, κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας τοῦ θεοῦ,",
+      "sourceText": "¶Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην, ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν, κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας τοῦ θεοῦ,",
+      "originalText": "Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην, ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν, κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας τοῦ θεοῦ, "
+    },
+    {
+      "id": "MRK.1.15",
+      "sourceRef": "MRK.1.15",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=16",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ λέγων ὅτι Πεπλήρωται ὁ καιρός, καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε, καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.",
+      "sourceText": "καὶ λέγων ὅτι Πεπλήρωται ὁ καιρός, καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε, καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.",
+      "originalText": "καὶ λέγων ὅτι Πεπλήρωται ὁ καιρός, καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε, καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ. \n"
+    },
+    {
+      "id": "MRK.1.16",
+      "sourceRef": "MRK.1.16",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=17",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ τοῦ Σίμωνος βάλλοντας ἀμφίβληστρον ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς.",
+      "sourceText": "¶Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ τοῦ Σίμωνος βάλλοντας ἀμφίβληστρον ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς.",
+      "originalText": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ τοῦ Σίμωνος βάλλοντας ἀμφίβληστρον ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς. "
+    },
+    {
+      "id": "MRK.1.17",
+      "sourceRef": "MRK.1.17",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=18",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς, Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων.",
+      "sourceText": "Καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς, Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων.",
+      "originalText": "Καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς, Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων. "
+    },
+    {
+      "id": "MRK.1.18",
+      "sourceRef": "MRK.1.18",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=19",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθέως ἀφέντες τὰ δίκτυα αὐτῶν, ἠκολούθησαν αὐτῷ.",
+      "sourceText": "Καὶ εὐθέως ἀφέντες τὰ δίκτυα αὐτῶν, ἠκολούθησαν αὐτῷ.",
+      "originalText": "Καὶ εὐθέως ἀφέντες τὰ δίκτυα αὐτῶν, ἠκολούθησαν αὐτῷ. "
+    },
+    {
+      "id": "MRK.1.19",
+      "sourceRef": "MRK.1.19",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=20",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ προβὰς ἐκεῖθεν ὀλίγον, εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα.",
+      "sourceText": "Καὶ προβὰς ἐκεῖθεν ὀλίγον, εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα.",
+      "originalText": "Καὶ προβὰς ἐκεῖθεν ὀλίγον, εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα. "
+    },
+    {
+      "id": "MRK.1.20",
+      "sourceRef": "MRK.1.20",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=21",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθέως ἐκάλεσεν αὐτούς· καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ.",
+      "sourceText": "Καὶ εὐθέως ἐκάλεσεν αὐτούς· καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ.",
+      "originalText": "Καὶ εὐθέως ἐκάλεσεν αὐτούς· καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ. \n"
+    },
+    {
+      "id": "MRK.1.21",
+      "sourceRef": "MRK.1.21",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=22",
+      "sourceLabel": "21",
+      "anchors": [
+        "MRK.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εἰσπορεύονται εἰς Καπερναούμ· καὶ εὐθέως τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγήν, ἐδίδασκεν.",
+      "sourceText": "¶Καὶ εἰσπορεύονται εἰς Καπερναούμ· καὶ εὐθέως τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγήν, ἐδίδασκεν.",
+      "originalText": "Καὶ εἰσπορεύονται εἰς Καπερναούμ· καὶ εὐθέως τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγήν, ἐδίδασκεν. "
+    },
+    {
+      "id": "MRK.1.22",
+      "sourceRef": "MRK.1.22",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=23",
+      "sourceLabel": "22",
+      "anchors": [
+        "MRK.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ· ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων, καὶ οὐχ ὡς οἱ γραμματεῖς.",
+      "sourceText": "Καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ· ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων, καὶ οὐχ ὡς οἱ γραμματεῖς.",
+      "originalText": "Καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ· ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων, καὶ οὐχ ὡς οἱ γραμματεῖς. "
+    },
+    {
+      "id": "MRK.1.23",
+      "sourceRef": "MRK.1.23",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=24",
+      "sourceLabel": "23",
+      "anchors": [
+        "MRK.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ, καὶ ἀνέκραξεν,",
+      "sourceText": "Καὶ ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ, καὶ ἀνέκραξεν,",
+      "originalText": "Καὶ ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ, καὶ ἀνέκραξεν, "
+    },
+    {
+      "id": "MRK.1.24",
+      "sourceRef": "MRK.1.24",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=25",
+      "sourceLabel": "24",
+      "anchors": [
+        "MRK.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "λέγων, Ἔα, τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; Ἦλθες ἀπολέσαι ἡμᾶς; Οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ θεοῦ.",
+      "sourceText": "λέγων, Ἔα, τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; Ἦλθες ἀπολέσαι ἡμᾶς; Οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ θεοῦ.",
+      "originalText": "λέγων, Ἔα, τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; Ἦλθες ἀπολέσαι ἡμᾶς; Οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ θεοῦ. "
+    },
+    {
+      "id": "MRK.1.25",
+      "sourceRef": "MRK.1.25",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=26",
+      "sourceLabel": "25",
+      "anchors": [
+        "MRK.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων, Φιμώθητι, καὶ ἔξελθε ἐξ αὐτοῦ.",
+      "sourceText": "Καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων, Φιμώθητι, καὶ ἔξελθε ἐξ αὐτοῦ.",
+      "originalText": "Καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων, Φιμώθητι, καὶ ἔξελθε ἐξ αὐτοῦ. "
+    },
+    {
+      "id": "MRK.1.26",
+      "sourceRef": "MRK.1.26",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=27",
+      "sourceLabel": "26",
+      "anchors": [
+        "MRK.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ κράξαν φωνῇ μεγάλῃ, ἐξῆλθεν ἐξ αὐτοῦ.",
+      "sourceText": "Καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ κράξαν φωνῇ μεγάλῃ, ἐξῆλθεν ἐξ αὐτοῦ.",
+      "originalText": "Καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ κράξαν φωνῇ μεγάλῃ, ἐξῆλθεν ἐξ αὐτοῦ. "
+    },
+    {
+      "id": "MRK.1.27",
+      "sourceRef": "MRK.1.27",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=28",
+      "sourceLabel": "27",
+      "anchors": [
+        "MRK.1.27"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐθαμβήθησαν πάντες, ὥστε συζητεῖν πρὸς ἑαυτούς, λέγοντας, Τί ἐστιν τοῦτο; Τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ’ ἐξουσίαν καὶ τοῖς πνεύμασιν τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ;",
+      "sourceText": "Καὶ ἐθαμβήθησαν πάντες, ὥστε συζητεῖν πρὸς ἑαυτούς, λέγοντας, Τί ἐστιν τοῦτο; Τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ’ ἐξουσίαν καὶ τοῖς πνεύμασιν τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ;",
+      "originalText": "Καὶ ἐθαμβήθησαν πάντες, ὥστε συζητεῖν πρὸς ἑαυτούς, λέγοντας, Τί ἐστιν τοῦτο; Τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ’ ἐξουσίαν καὶ τοῖς πνεύμασιν τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ; "
+    },
+    {
+      "id": "MRK.1.28",
+      "sourceRef": "MRK.1.28",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=29",
+      "sourceLabel": "28",
+      "anchors": [
+        "MRK.1.28"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐξῆλθεν δὲ ἡ ἀκοὴ αὐτοῦ εὐθὺς εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας.",
+      "sourceText": "Ἐξῆλθεν δὲ ἡ ἀκοὴ αὐτοῦ εὐθὺς εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας.",
+      "originalText": "Ἐξῆλθεν δὲ ἡ ἀκοὴ αὐτοῦ εὐθὺς εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας. \n"
+    },
+    {
+      "id": "MRK.1.29",
+      "sourceRef": "MRK.1.29",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=30",
+      "sourceLabel": "29",
+      "anchors": [
+        "MRK.1.29"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εὐθέως ἐκ τῆς συναγωγῆς ἐξελθόντες, ἦλθον εἰς τὴν οἰκίαν Σίμωνος καὶ Ἀνδρέου, μετὰ Ἰακώβου καὶ Ἰωάννου.",
+      "sourceText": "¶Καὶ εὐθέως ἐκ τῆς συναγωγῆς ἐξελθόντες, ἦλθον εἰς τὴν οἰκίαν Σίμωνος καὶ Ἀνδρέου, μετὰ Ἰακώβου καὶ Ἰωάννου.",
+      "originalText": "Καὶ εὐθέως ἐκ τῆς συναγωγῆς ἐξελθόντες, ἦλθον εἰς τὴν οἰκίαν Σίμωνος καὶ Ἀνδρέου, μετὰ Ἰακώβου καὶ Ἰωάννου. "
+    },
+    {
+      "id": "MRK.1.30",
+      "sourceRef": "MRK.1.30",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=31",
+      "sourceLabel": "30",
+      "anchors": [
+        "MRK.1.30"
+      ],
+      "mappingType": "exact",
+      "text": "Ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα, καὶ εὐθέως λέγουσιν αὐτῷ περὶ αὐτῆς·",
+      "sourceText": "Ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα, καὶ εὐθέως λέγουσιν αὐτῷ περὶ αὐτῆς·",
+      "originalText": "Ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα, καὶ εὐθέως λέγουσιν αὐτῷ περὶ αὐτῆς· "
+    },
+    {
+      "id": "MRK.1.31",
+      "sourceRef": "MRK.1.31",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=32",
+      "sourceLabel": "31",
+      "anchors": [
+        "MRK.1.31"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ προσελθὼν ἤγειρεν αὐτήν, κρατήσας τῆς χειρὸς αὐτῆς· καὶ ἀφῆκεν αὐτὴν ὁ πυρετὸς εὐθέως, καὶ διηκόνει αὐτοῖς.",
+      "sourceText": "καὶ προσελθὼν ἤγειρεν αὐτήν, κρατήσας τῆς χειρὸς αὐτῆς· καὶ ἀφῆκεν αὐτὴν ὁ πυρετὸς εὐθέως, καὶ διηκόνει αὐτοῖς.",
+      "originalText": "καὶ προσελθὼν ἤγειρεν αὐτήν, κρατήσας τῆς χειρὸς αὐτῆς· καὶ ἀφῆκεν αὐτὴν ὁ πυρετὸς εὐθέως, καὶ διηκόνει αὐτοῖς. \n"
+    },
+    {
+      "id": "MRK.1.32",
+      "sourceRef": "MRK.1.32",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=33",
+      "sourceLabel": "32",
+      "anchors": [
+        "MRK.1.32"
+      ],
+      "mappingType": "exact",
+      "text": "Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος, ἔφερον πρὸς αὐτὸν πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους·",
+      "sourceText": "¶Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος, ἔφερον πρὸς αὐτὸν πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους·",
+      "originalText": "Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος, ἔφερον πρὸς αὐτὸν πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους· "
+    },
+    {
+      "id": "MRK.1.33",
+      "sourceRef": "MRK.1.33",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=34",
+      "sourceLabel": "33",
+      "anchors": [
+        "MRK.1.33"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἡ πόλις ὅλη ἐπισυνηγμένη ἦν πρὸς τὴν θύραν.",
+      "sourceText": "καὶ ἡ πόλις ὅλη ἐπισυνηγμένη ἦν πρὸς τὴν θύραν.",
+      "originalText": "καὶ ἡ πόλις ὅλη ἐπισυνηγμένη ἦν πρὸς τὴν θύραν. "
+    },
+    {
+      "id": "MRK.1.34",
+      "sourceRef": "MRK.1.34",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=35",
+      "sourceLabel": "34",
+      "anchors": [
+        "MRK.1.34"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐθεράπευσεν πολλοὺς κακῶς ἔχοντας ποικίλαις νόσοις, καὶ δαιμόνια πολλὰ ἐξέβαλεν, καὶ οὐκ ἤφιεν λαλεῖν τὰ δαιμόνια, ὅτι ᾔδεισαν αὐτόν.",
+      "sourceText": "Καὶ ἐθεράπευσεν πολλοὺς κακῶς ἔχοντας ποικίλαις νόσοις, καὶ δαιμόνια πολλὰ ἐξέβαλεν, καὶ οὐκ ἤφιεν λαλεῖν τὰ δαιμόνια, ὅτι ᾔδεισαν αὐτόν.",
+      "originalText": "Καὶ ἐθεράπευσεν πολλοὺς κακῶς ἔχοντας ποικίλαις νόσοις, καὶ δαιμόνια πολλὰ ἐξέβαλεν, καὶ οὐκ ἤφιεν λαλεῖν τὰ δαιμόνια, ὅτι ᾔδεισαν αὐτόν. \n"
+    },
+    {
+      "id": "MRK.1.35",
+      "sourceRef": "MRK.1.35",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=36",
+      "sourceLabel": "35",
+      "anchors": [
+        "MRK.1.35"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ πρωῒ ἔννυχον λίαν ἀναστὰς ἐξῆλθεν, καὶ ἀπῆλθεν εἰς ἔρημον τόπον, κἀκεῖ προσηύχετο.",
+      "sourceText": "¶Καὶ πρωῒ ἔννυχον λίαν ἀναστὰς ἐξῆλθεν, καὶ ἀπῆλθεν εἰς ἔρημον τόπον, κἀκεῖ προσηύχετο.",
+      "originalText": "Καὶ πρωῒ ἔννυχον λίαν ἀναστὰς ἐξῆλθεν, καὶ ἀπῆλθεν εἰς ἔρημον τόπον, κἀκεῖ προσηύχετο. "
+    },
+    {
+      "id": "MRK.1.36",
+      "sourceRef": "MRK.1.36",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=37",
+      "sourceLabel": "36",
+      "anchors": [
+        "MRK.1.36"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ κατεδίωξαν αὐτὸν ὁ Σίμων καὶ οἱ μετ’ αὐτοῦ·",
+      "sourceText": "Καὶ κατεδίωξαν αὐτὸν ὁ Σίμων καὶ οἱ μετ’ αὐτοῦ·",
+      "originalText": "Καὶ κατεδίωξαν αὐτὸν ὁ Σίμων καὶ οἱ μετ’ αὐτοῦ· "
+    },
+    {
+      "id": "MRK.1.37",
+      "sourceRef": "MRK.1.37",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=38",
+      "sourceLabel": "37",
+      "anchors": [
+        "MRK.1.37"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ εὑρόντες αὐτὸν λέγουσιν αὐτῷ ὅτι Πάντες σε ζητοῦσιν.",
+      "sourceText": "καὶ εὑρόντες αὐτὸν λέγουσιν αὐτῷ ὅτι Πάντες σε ζητοῦσιν.",
+      "originalText": "καὶ εὑρόντες αὐτὸν λέγουσιν αὐτῷ ὅτι Πάντες σε ζητοῦσιν. "
+    },
+    {
+      "id": "MRK.1.38",
+      "sourceRef": "MRK.1.38",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=39",
+      "sourceLabel": "38",
+      "anchors": [
+        "MRK.1.38"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ λέγει αὐτοῖς, Ἄγωμεν εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξελήλυθα.",
+      "sourceText": "Καὶ λέγει αὐτοῖς, Ἄγωμεν εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξελήλυθα.",
+      "originalText": "Καὶ λέγει αὐτοῖς, Ἄγωμεν εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξελήλυθα. "
+    },
+    {
+      "id": "MRK.1.39",
+      "sourceRef": "MRK.1.39",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=40",
+      "sourceLabel": "39",
+      "anchors": [
+        "MRK.1.39"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἦν κηρύσσων ἐν ταῖς συναγωγαῖς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν, καὶ τὰ δαιμόνια ἐκβάλλων.",
+      "sourceText": "Καὶ ἦν κηρύσσων ἐν ταῖς συναγωγαῖς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν, καὶ τὰ δαιμόνια ἐκβάλλων.",
+      "originalText": "Καὶ ἦν κηρύσσων ἐν ταῖς συναγωγαῖς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν, καὶ τὰ δαιμόνια ἐκβάλλων. \n"
+    },
+    {
+      "id": "MRK.1.40",
+      "sourceRef": "MRK.1.40",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=41",
+      "sourceLabel": "40",
+      "anchors": [
+        "MRK.1.40"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρός, παρακαλῶν αὐτὸν καὶ γονυπετῶν αὐτόν, καὶ λέγων αὐτῷ ὅτι Ἐὰν θέλῃς, δύνασαί με καθαρίσαι.",
+      "sourceText": "¶Καὶ ἔρχεται πρὸς αὐτὸν λεπρός, παρακαλῶν αὐτὸν καὶ γονυπετῶν αὐτόν, καὶ λέγων αὐτῷ ὅτι Ἐὰν θέλῃς, δύνασαί με καθαρίσαι.",
+      "originalText": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρός, παρακαλῶν αὐτὸν καὶ γονυπετῶν αὐτόν, καὶ λέγων αὐτῷ ὅτι Ἐὰν θέλῃς, δύνασαί με καθαρίσαι. "
+    },
+    {
+      "id": "MRK.1.41",
+      "sourceRef": "MRK.1.41",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=42",
+      "sourceLabel": "41",
+      "anchors": [
+        "MRK.1.41"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ Ἰησοῦς σπλαγχνισθείς, ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ, καὶ λέγει αὐτῷ, Θέλω, καθαρίσθητι.",
+      "sourceText": "Ὁ δὲ Ἰησοῦς σπλαγχνισθείς, ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ, καὶ λέγει αὐτῷ, Θέλω, καθαρίσθητι.",
+      "originalText": "Ὁ δὲ Ἰησοῦς σπλαγχνισθείς, ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ, καὶ λέγει αὐτῷ, Θέλω, καθαρίσθητι. "
+    },
+    {
+      "id": "MRK.1.42",
+      "sourceRef": "MRK.1.42",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=43",
+      "sourceLabel": "42",
+      "anchors": [
+        "MRK.1.42"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ εἰπόντος αὐτοῦ εὐθέως ἀπῆλθεν ἀπ’ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.",
+      "sourceText": "Καὶ εἰπόντος αὐτοῦ εὐθέως ἀπῆλθεν ἀπ’ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.",
+      "originalText": "Καὶ εἰπόντος αὐτοῦ εὐθέως ἀπῆλθεν ἀπ’ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη. "
+    },
+    {
+      "id": "MRK.1.43",
+      "sourceRef": "MRK.1.43",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=44",
+      "sourceLabel": "43",
+      "anchors": [
+        "MRK.1.43"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐμβριμησάμενος αὐτῷ, εὐθέως ἐξέβαλεν αὐτόν,",
+      "sourceText": "Καὶ ἐμβριμησάμενος αὐτῷ, εὐθέως ἐξέβαλεν αὐτόν,",
+      "originalText": "Καὶ ἐμβριμησάμενος αὐτῷ, εὐθέως ἐξέβαλεν αὐτόν, "
+    },
+    {
+      "id": "MRK.1.44",
+      "sourceRef": "MRK.1.44",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=45",
+      "sourceLabel": "44",
+      "anchors": [
+        "MRK.1.44"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ λέγει αὐτῷ, Ὅρα μηδενὶ μηδὲν εἴπῃς· ἀλλ’ ὕπαγε, σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωσῆς, εἰς μαρτύριον αὐτοῖς.",
+      "sourceText": "καὶ λέγει αὐτῷ, Ὅρα μηδενὶ μηδὲν εἴπῃς· ἀλλ’ ὕπαγε, σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωσῆς, εἰς μαρτύριον αὐτοῖς.",
+      "originalText": "καὶ λέγει αὐτῷ, Ὅρα μηδενὶ μηδὲν εἴπῃς· ἀλλ’ ὕπαγε, σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωσῆς, εἰς μαρτύριον αὐτοῖς. "
+    },
+    {
+      "id": "MRK.1.45",
+      "sourceRef": "MRK.1.45",
+      "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=46",
+      "sourceLabel": "45",
+      "anchors": [
+        "MRK.1.45"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ’ ἔξω ἐν ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πανταχόθεν.",
+      "sourceText": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ’ ἔξω ἐν ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πανταχόθεν.",
+      "originalText": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ’ ἔξω ἐν ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πανταχόθεν. "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MRK.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.1",
+          "sourceRef": "MRK.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.2",
+          "sourceRef": "MRK.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.3",
+          "sourceRef": "MRK.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.4",
+          "sourceRef": "MRK.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.5",
+          "sourceRef": "MRK.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.6",
+          "sourceRef": "MRK.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.7",
+          "sourceRef": "MRK.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.8",
+          "sourceRef": "MRK.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.9",
+          "sourceRef": "MRK.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.10",
+          "sourceRef": "MRK.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.11",
+          "sourceRef": "MRK.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.12",
+          "sourceRef": "MRK.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.13",
+          "sourceRef": "MRK.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.14",
+          "sourceRef": "MRK.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.15",
+          "sourceRef": "MRK.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.16",
+          "sourceRef": "MRK.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.17",
+          "sourceRef": "MRK.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.18",
+          "sourceRef": "MRK.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.19",
+          "sourceRef": "MRK.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.20",
+          "sourceRef": "MRK.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.21",
+          "sourceRef": "MRK.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.22",
+          "sourceRef": "MRK.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.23",
+          "sourceRef": "MRK.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.24",
+          "sourceRef": "MRK.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.25",
+          "sourceRef": "MRK.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.26",
+          "sourceRef": "MRK.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.27",
+          "sourceRef": "MRK.1.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.28",
+          "sourceRef": "MRK.1.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.29",
+          "sourceRef": "MRK.1.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.30",
+          "sourceRef": "MRK.1.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.31",
+          "sourceRef": "MRK.1.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.32",
+          "sourceRef": "MRK.1.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.33",
+          "sourceRef": "MRK.1.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.34",
+          "sourceRef": "MRK.1.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.35",
+          "sourceRef": "MRK.1.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.36",
+          "sourceRef": "MRK.1.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.37",
+          "sourceRef": "MRK.1.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.38",
+          "sourceRef": "MRK.1.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.39",
+          "sourceRef": "MRK.1.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.40",
+          "sourceRef": "MRK.1.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.41",
+          "sourceRef": "MRK.1.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.42",
+          "sourceRef": "MRK.1.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.43",
+          "sourceRef": "MRK.1.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.44",
+          "sourceRef": "MRK.1.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.1.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 1,
+          "segmentId": "MRK.1.45",
+          "sourceRef": "MRK.1.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

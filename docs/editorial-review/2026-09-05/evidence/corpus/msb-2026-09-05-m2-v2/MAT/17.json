@@ -1,0 +1,3362 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/633",
+      "runs": [
+        {
+          "text": "The Transfiguration",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/634",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 9:1–13",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 9:28–36",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "2 Peter 1:16–21",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/635",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MAT.17.1",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "text": "After six days Jesus took with ",
+          "anchor": "MAT.17.1",
+          "marks": [],
+          "originalText": "After six days Jesus took with ",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "text": "Him",
+          "anchor": "MAT.17.1",
+          "marks": [],
+          "originalText": "Him",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "text": " Peter, James, and John the brother of ",
+          "anchor": "MAT.17.1",
+          "marks": [],
+          "originalText": " Peter, James, and John the brother of ",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "text": "James",
+          "anchor": "MAT.17.1",
+          "marks": [],
+          "originalText": "James",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "text": ", and led them up a high mountain by themselves.",
+          "anchor": "MAT.17.1",
+          "marks": [],
+          "originalText": ", and led them up a high mountain by themselves. ",
+          "anchors": [
+            "MAT.17.1"
+          ],
+          "sourceAnchor": "MAT.17.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.17.2",
+          "anchors": [
+            "MAT.17.2"
+          ],
+          "sourceAnchor": "MAT.17.2"
+        },
+        {
+          "text": "There",
+          "anchor": "MAT.17.2",
+          "marks": [],
+          "originalText": "There",
+          "anchors": [
+            "MAT.17.2"
+          ],
+          "sourceAnchor": "MAT.17.2"
+        },
+        {
+          "text": " He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+          "anchor": "MAT.17.2",
+          "marks": [],
+          "originalText": " He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+          "anchors": [
+            "MAT.17.2"
+          ],
+          "sourceAnchor": "MAT.17.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/636",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.2"
+          ],
+          "sourceAnchor": "MAT.17.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.17.3",
+          "anchors": [
+            "MAT.17.3"
+          ],
+          "sourceAnchor": "MAT.17.3"
+        },
+        {
+          "text": "Suddenly Moses and Elijah appeared before them, talking with ",
+          "anchor": "MAT.17.3",
+          "marks": [],
+          "originalText": "Suddenly Moses and Elijah appeared before them, talking with ",
+          "anchors": [
+            "MAT.17.3"
+          ],
+          "sourceAnchor": "MAT.17.3"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MAT.17.3",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MAT.17.3"
+          ],
+          "sourceAnchor": "MAT.17.3"
+        },
+        {
+          "text": ".",
+          "anchor": "MAT.17.3",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MAT.17.3"
+          ],
+          "sourceAnchor": "MAT.17.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.17.4",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "text": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, we will put up",
+          "anchor": "MAT.17.4",
+          "marks": [],
+          "originalText": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, we will put up",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "noteId": "MAT.17.4.note.218",
+          "anchor": "MAT.17.4",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "text": " three shelters",
+          "anchor": "MAT.17.4",
+          "marks": [],
+          "originalText": " three shelters",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "noteId": "MAT.17.4.note.219",
+          "anchor": "MAT.17.4",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "text": "—one for You, one for Moses, and one for Elijah.”",
+          "anchor": "MAT.17.4",
+          "marks": [],
+          "originalText": "— one for You, one for Moses, and one for Elijah.”",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/637",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.4"
+          ],
+          "sourceAnchor": "MAT.17.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.17.5",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": "While ",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": "While ",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": "Peter",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": "Peter",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": " was ",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": " was ",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": "still",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": "still",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": " speaking, a bright cloud enveloped them, and a voice from the cloud said, “This is My beloved Son, in whom I am well pleased.",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": " speaking, a bright cloud enveloped them, and a voice from the cloud said, “This is My beloved Son, in whom I am well pleased.",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "noteId": "MAT.17.5.note.220",
+          "anchor": "MAT.17.5",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "text": " Listen to Him!”",
+          "anchor": "MAT.17.5",
+          "marks": [],
+          "originalText": " Listen to Him!” ",
+          "anchors": [
+            "MAT.17.5"
+          ],
+          "sourceAnchor": "MAT.17.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.17.6",
+          "anchors": [
+            "MAT.17.6"
+          ],
+          "sourceAnchor": "MAT.17.6"
+        },
+        {
+          "text": "When the disciples heard ",
+          "anchor": "MAT.17.6",
+          "marks": [],
+          "originalText": "When the disciples heard ",
+          "anchors": [
+            "MAT.17.6"
+          ],
+          "sourceAnchor": "MAT.17.6"
+        },
+        {
+          "text": "this",
+          "anchor": "MAT.17.6",
+          "marks": [],
+          "originalText": "this",
+          "anchors": [
+            "MAT.17.6"
+          ],
+          "sourceAnchor": "MAT.17.6"
+        },
+        {
+          "text": ", they fell facedown in terror.",
+          "anchor": "MAT.17.6",
+          "marks": [],
+          "originalText": ", they fell facedown in terror.",
+          "anchors": [
+            "MAT.17.6"
+          ],
+          "sourceAnchor": "MAT.17.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/638",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.6"
+          ],
+          "sourceAnchor": "MAT.17.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.17.7",
+          "anchors": [
+            "MAT.17.7"
+          ],
+          "sourceAnchor": "MAT.17.7"
+        },
+        {
+          "text": "Then Jesus came over and touched them. ",
+          "anchor": "MAT.17.7",
+          "marks": [],
+          "originalText": "Then Jesus came over and touched them. ",
+          "anchors": [
+            "MAT.17.7"
+          ],
+          "sourceAnchor": "MAT.17.7"
+        },
+        {
+          "text": "“Get up,”",
+          "anchor": "MAT.17.7",
+          "marks": [],
+          "originalText": "“Get up,”",
+          "anchors": [
+            "MAT.17.7"
+          ],
+          "sourceAnchor": "MAT.17.7"
+        },
+        {
+          "text": " He said. ",
+          "anchor": "MAT.17.7",
+          "marks": [],
+          "originalText": " He said. ",
+          "anchors": [
+            "MAT.17.7"
+          ],
+          "sourceAnchor": "MAT.17.7"
+        },
+        {
+          "text": "“Do not be afraid.”",
+          "anchor": "MAT.17.7",
+          "marks": [],
+          "originalText": "“Do not be afraid.”",
+          "anchors": [
+            "MAT.17.7"
+          ],
+          "sourceAnchor": "MAT.17.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.17.8",
+          "anchors": [
+            "MAT.17.8"
+          ],
+          "sourceAnchor": "MAT.17.8"
+        },
+        {
+          "text": "And when they looked up, they saw no one except Jesus.",
+          "anchor": "MAT.17.8",
+          "marks": [],
+          "originalText": "And when they looked up, they saw no one except Jesus.",
+          "anchors": [
+            "MAT.17.8"
+          ],
+          "sourceAnchor": "MAT.17.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/639",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.8"
+          ],
+          "sourceAnchor": "MAT.17.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.17.9",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": "As they were coming down the mountain, Jesus commanded them, ",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": "As they were coming down the mountain, Jesus commanded them, ",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": "“Do not tell anyone ",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": "“Do not tell anyone ",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": "about this",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": "about this",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": " vision until the Son of Man has risen",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": " vision until the Son of Man has risen",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "noteId": "MAT.17.9.note.221",
+          "anchor": "MAT.17.9",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": " from ",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": " from ",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": "the",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "text": " dead.”",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": " dead.”",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/640",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.9"
+          ],
+          "sourceAnchor": "MAT.17.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.17.10",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "text": "His disciples",
+          "anchor": "MAT.17.10",
+          "marks": [],
+          "originalText": "His disciples",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "noteId": "MAT.17.10.note.222",
+          "anchor": "MAT.17.10",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "text": " asked Him, “Why then ",
+          "anchor": "MAT.17.10",
+          "marks": [],
+          "originalText": " asked Him, “Why then ",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "text": "do",
+          "anchor": "MAT.17.10",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "text": " the scribes say that Elijah must come first?”",
+          "anchor": "MAT.17.10",
+          "marks": [],
+          "originalText": " the scribes say that Elijah must come first?”",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/641",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.10"
+          ],
+          "sourceAnchor": "MAT.17.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.17.11",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "text": "Jesus replied, ",
+          "anchor": "MAT.17.11",
+          "marks": [],
+          "originalText": "Jesus replied, ",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "text": "“Elijah ",
+          "anchor": "MAT.17.11",
+          "marks": [],
+          "originalText": "“Elijah ",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "text": "does",
+          "anchor": "MAT.17.11",
+          "marks": [],
+          "originalText": "does",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "text": " indeed come first,",
+          "anchor": "MAT.17.11",
+          "marks": [],
+          "originalText": " indeed come first,",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "noteId": "MAT.17.11.note.223",
+          "anchor": "MAT.17.11",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "text": " and he will restore all things.",
+          "anchor": "MAT.17.11",
+          "marks": [],
+          "originalText": " and he will restore all things. ",
+          "anchors": [
+            "MAT.17.11"
+          ],
+          "sourceAnchor": "MAT.17.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.17.12",
+          "anchors": [
+            "MAT.17.12"
+          ],
+          "sourceAnchor": "MAT.17.12"
+        },
+        {
+          "text": "But I tell you that Elijah ",
+          "anchor": "MAT.17.12",
+          "marks": [],
+          "originalText": "But I tell you that Elijah ",
+          "anchors": [
+            "MAT.17.12"
+          ],
+          "sourceAnchor": "MAT.17.12"
+        },
+        {
+          "text": "has",
+          "anchor": "MAT.17.12",
+          "marks": [],
+          "originalText": "has",
+          "anchors": [
+            "MAT.17.12"
+          ],
+          "sourceAnchor": "MAT.17.12"
+        },
+        {
+          "text": " already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.”",
+          "anchor": "MAT.17.12",
+          "marks": [],
+          "originalText": " already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.”",
+          "anchors": [
+            "MAT.17.12"
+          ],
+          "sourceAnchor": "MAT.17.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/642",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.12"
+          ],
+          "sourceAnchor": "MAT.17.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.17.13",
+          "anchors": [
+            "MAT.17.13"
+          ],
+          "sourceAnchor": "MAT.17.13"
+        },
+        {
+          "text": "Then the disciples understood that He was speaking to them about John the Baptist.",
+          "anchor": "MAT.17.13",
+          "marks": [],
+          "originalText": "Then the disciples understood that He was speaking to them about John the Baptist.",
+          "anchors": [
+            "MAT.17.13"
+          ],
+          "sourceAnchor": "MAT.17.13"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/643",
+      "runs": [
+        {
+          "text": "The Boy with a Demon",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/644",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 9:14–29",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 9:37–42",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/645",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.13"
+          ],
+          "sourceAnchor": "MAT.17.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.17.14",
+          "anchors": [
+            "MAT.17.14"
+          ],
+          "sourceAnchor": "MAT.17.14"
+        },
+        {
+          "text": "When they came to the crowd, a man came up to ",
+          "anchor": "MAT.17.14",
+          "marks": [],
+          "originalText": "When they came to the crowd, a man came up to ",
+          "anchors": [
+            "MAT.17.14"
+          ],
+          "sourceAnchor": "MAT.17.14"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MAT.17.14",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MAT.17.14"
+          ],
+          "sourceAnchor": "MAT.17.14"
+        },
+        {
+          "text": " and",
+          "anchor": "MAT.17.14",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MAT.17.14"
+          ],
+          "sourceAnchor": "MAT.17.14"
+        },
+        {
+          "text": " knelt before Him.",
+          "anchor": "MAT.17.14",
+          "marks": [],
+          "originalText": " knelt before Him. ",
+          "anchors": [
+            "MAT.17.14"
+          ],
+          "sourceAnchor": "MAT.17.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.17.15",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "text": "“Lord, have mercy on my son,” he said. “He has seizures and is suffering terribly.",
+          "anchor": "MAT.17.15",
+          "marks": [],
+          "originalText": "“Lord, have mercy on my son,” he said. “He has seizures and is suffering terribly.",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "noteId": "MAT.17.15.note.224",
+          "anchor": "MAT.17.15",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "text": " He often falls into the fire ",
+          "anchor": "MAT.17.15",
+          "marks": [],
+          "originalText": " He often falls into the fire ",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "text": "or",
+          "anchor": "MAT.17.15",
+          "marks": [],
+          "originalText": "or",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "text": " into the water.",
+          "anchor": "MAT.17.15",
+          "marks": [],
+          "originalText": " into the water. ",
+          "anchors": [
+            "MAT.17.15"
+          ],
+          "sourceAnchor": "MAT.17.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.17.16",
+          "anchors": [
+            "MAT.17.16"
+          ],
+          "sourceAnchor": "MAT.17.16"
+        },
+        {
+          "text": "I brought him to Your disciples, but they could not heal him.”",
+          "anchor": "MAT.17.16",
+          "marks": [],
+          "originalText": "I brought him to Your disciples, but they could not heal him.”",
+          "anchors": [
+            "MAT.17.16"
+          ],
+          "sourceAnchor": "MAT.17.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/646",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.16",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.16"
+          ],
+          "sourceAnchor": "MAT.17.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.17.17",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "text": "“O unbelieving and perverse generation!”",
+          "anchor": "MAT.17.17",
+          "marks": [],
+          "originalText": "“O unbelieving and perverse generation!”",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "text": " Jesus replied. ",
+          "anchor": "MAT.17.17",
+          "marks": [],
+          "originalText": " Jesus replied. ",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "text": "“How long must I remain with you? How long must I put up with you? Bring ",
+          "anchor": "MAT.17.17",
+          "marks": [],
+          "originalText": "“How long must I remain with you? How long must I put up with you? Bring ",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "text": "the boy",
+          "anchor": "MAT.17.17",
+          "marks": [],
+          "originalText": "the boy",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "text": " here to Me.”",
+          "anchor": "MAT.17.17",
+          "marks": [],
+          "originalText": " here to Me.”",
+          "anchors": [
+            "MAT.17.17"
+          ],
+          "sourceAnchor": "MAT.17.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.17.18",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": "Then Jesus rebuked ",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": "Then Jesus rebuked ",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": "the demon",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": "the demon",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": ", and ",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": ", and ",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": "it",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": " came out of ",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": " came out of ",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": "the boy",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": "the boy",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": ", and ",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": ", and ",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": "he",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": "he",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "text": " was healed from that moment.",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": " was healed from that moment.",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/647",
+      "runs": [
+        {
+          "text": "The Power of Faith",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/648",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 17:5–10",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/649",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.18"
+          ],
+          "sourceAnchor": "MAT.17.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.17.19",
+          "anchors": [
+            "MAT.17.19"
+          ],
+          "sourceAnchor": "MAT.17.19"
+        },
+        {
+          "text": "Afterward the disciples came to Jesus privately ",
+          "anchor": "MAT.17.19",
+          "marks": [],
+          "originalText": "Afterward the disciples came to Jesus privately ",
+          "anchors": [
+            "MAT.17.19"
+          ],
+          "sourceAnchor": "MAT.17.19"
+        },
+        {
+          "text": "and",
+          "anchor": "MAT.17.19",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MAT.17.19"
+          ],
+          "sourceAnchor": "MAT.17.19"
+        },
+        {
+          "text": " asked, “Why couldn’t we drive it out?”",
+          "anchor": "MAT.17.19",
+          "marks": [],
+          "originalText": " asked, “Why couldn’t we drive it out?”",
+          "anchors": [
+            "MAT.17.19"
+          ],
+          "sourceAnchor": "MAT.17.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/650",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.19"
+          ],
+          "sourceAnchor": "MAT.17.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.17.20",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "text": "“Because of your unbelief,",
+          "anchor": "MAT.17.20",
+          "marks": [],
+          "originalText": "“Because of your unbelief,",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "noteId": "MAT.17.20.note.225",
+          "anchor": "MAT.17.20",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "text": "”",
+          "anchor": "MAT.17.20",
+          "marks": [],
+          "originalText": "”",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "text": " Jesus answered.",
+          "anchor": "MAT.17.20",
+          "marks": [],
+          "originalText": " Jesus answered.",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "noteId": "MAT.17.20.note.226",
+          "anchor": "MAT.17.20",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "text": " “For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, ‘Move from here to there,’ and it will move. Nothing will be impossible for you.",
+          "anchor": "MAT.17.20",
+          "marks": [],
+          "originalText": "“For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, ‘Move from here to there,’ and it will move. Nothing will be impossible for you. ",
+          "anchors": [
+            "MAT.17.20"
+          ],
+          "sourceAnchor": "MAT.17.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.17.21",
+          "anchors": [
+            "MAT.17.21"
+          ],
+          "sourceAnchor": "MAT.17.21"
+        },
+        {
+          "text": "But this kind does not go out except by prayer and fasting.”",
+          "anchor": "MAT.17.21",
+          "marks": [],
+          "originalText": "But this kind does not go out except by prayer and fasting.”",
+          "anchors": [
+            "MAT.17.21"
+          ],
+          "sourceAnchor": "MAT.17.21"
+        },
+        {
+          "noteId": "MAT.17.21.note.227",
+          "anchor": "MAT.17.21",
+          "anchors": [
+            "MAT.17.21"
+          ],
+          "sourceAnchor": "MAT.17.21"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/651",
+      "runs": [
+        {
+          "text": "The Second Prediction of the Passion",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/652",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 9:30–32",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 9:43–45",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/653",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.21",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.21"
+          ],
+          "sourceAnchor": "MAT.17.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.17.22",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "text": "While they were staying together",
+          "anchor": "MAT.17.22",
+          "marks": [],
+          "originalText": "While they were staying together",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "noteId": "MAT.17.22.note.228",
+          "anchor": "MAT.17.22",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "text": " in Galilee, Jesus told them, ",
+          "anchor": "MAT.17.22",
+          "marks": [],
+          "originalText": " in Galilee, Jesus told them, ",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "text": "“The Son of Man is about to be delivered into ",
+          "anchor": "MAT.17.22",
+          "marks": [],
+          "originalText": "“The Son of Man is about to be delivered into ",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "text": "the",
+          "anchor": "MAT.17.22",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "text": " hands of men.",
+          "anchor": "MAT.17.22",
+          "marks": [],
+          "originalText": " hands of men. ",
+          "anchors": [
+            "MAT.17.22"
+          ],
+          "sourceAnchor": "MAT.17.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.17.23",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": "They will kill Him, and on the third day He will be raised ",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": "They will kill Him, and on the third day He will be raised ",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": "to life",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": "to life",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": ".”",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": ".”",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": " And ",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": " And ",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": "the disciples",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": "the disciples",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "text": " were deeply grieved.",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": " were deeply grieved.",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MAT.usj#content/654",
+      "runs": [
+        {
+          "text": "The Temple Tax",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/655",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.23"
+          ],
+          "sourceAnchor": "MAT.17.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.17.24",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "text": "After they had arrived in Capernaum, the collectors of the two-drachma ",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": "After they had arrived in Capernaum, the collectors of the two-drachma ",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "text": "tax",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": "tax",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "noteId": "MAT.17.24.note.229",
+          "anchor": "MAT.17.24",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "text": " came to Peter and asked, “",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": " came to Peter and asked, “",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "text": "Does",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": "Does",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "text": " your Teacher pay the two drachmas?”",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": " your Teacher pay the two drachmas?”",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/656",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.24",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.24"
+          ],
+          "sourceAnchor": "MAT.17.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.17.25",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "“Yes,” he answered.",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "“Yes,” he answered.",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/657",
+      "runs": [
+        {
+          "text": " When ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "When ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "Peter",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "Peter",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " entered",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " entered",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "noteId": "MAT.17.25.note.230",
+          "anchor": "MAT.17.25",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " the house, Jesus preempted him. ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " the house, Jesus preempted him. ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "“What do you think, Simon?”",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "“What do you think, Simon?”",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " He asked. ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " He asked. ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "“From whom ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "“From whom ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "do",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " the kings of the earth collect customs ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " the kings of the earth collect customs ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "and",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " taxes: from their ",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " taxes: from their ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": "own",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": "own",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "text": " sons, or from others?”",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " sons, or from others?”",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/658",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.17.25",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.25"
+          ],
+          "sourceAnchor": "MAT.17.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.17.26",
+          "anchors": [
+            "MAT.17.26"
+          ],
+          "sourceAnchor": "MAT.17.26"
+        },
+        {
+          "text": "“From others,” Peter answered.",
+          "anchor": "MAT.17.26",
+          "marks": [],
+          "originalText": "“From others,” Peter answered.",
+          "anchors": [
+            "MAT.17.26"
+          ],
+          "sourceAnchor": "MAT.17.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MAT.usj#content/659",
+      "runs": [
+        {
+          "text": " “Then the sons are exempt,”",
+          "anchor": "MAT.17.26",
+          "marks": [],
+          "originalText": "“Then the sons are exempt,”",
+          "anchors": [
+            "MAT.17.26"
+          ],
+          "sourceAnchor": "MAT.17.26"
+        },
+        {
+          "text": " Jesus said to him.",
+          "anchor": "MAT.17.26",
+          "marks": [],
+          "originalText": " Jesus said to him. ",
+          "anchors": [
+            "MAT.17.26"
+          ],
+          "sourceAnchor": "MAT.17.26"
+        },
+        {
+          "text": "",
+          "anchor": "MAT.17.26",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.17.26"
+          ],
+          "sourceAnchor": "MAT.17.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.17.27",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": "“But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin.",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": "“But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin.",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "noteId": "MAT.17.27.note.231",
+          "anchor": "MAT.17.27",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": " Take ",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": " Take ",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": "it",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": " and",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": " give ",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": " give ",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": "it",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        },
+        {
+          "text": " to them for My tax and yours.”",
+          "anchor": "MAT.17.27",
+          "marks": [],
+          "originalText": " to them for My tax and yours.”",
+          "anchors": [
+            "MAT.17.27"
+          ],
+          "sourceAnchor": "MAT.17.27"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.17.1",
+      "sourceRef": "MAT.17.1",
+      "sourceId": "MAT.usj#content/635/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.17.1"
+      ],
+      "mappingType": "exact",
+      "text": "After six days Jesus took with Him Peter, James, and John the brother of James, and led them up a high mountain by themselves.",
+      "originalText": "After six days Jesus took with Him Peter, James, and John the brother of James, and led them up a high mountain by themselves.",
+      "originalStructuredText": "After six days Jesus took with Him Peter, James, and John the brother of James, and led them up a high mountain by themselves. ",
+      "textSourceId": "msb.txt#line=23705"
+    },
+    {
+      "id": "MAT.17.2",
+      "sourceRef": "MAT.17.2",
+      "sourceId": "MAT.usj#content/635/content/7",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.17.2"
+      ],
+      "mappingType": "exact",
+      "text": "There He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+      "originalText": "There He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+      "originalStructuredText": "There He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.\n ",
+      "textSourceId": "msb.txt#line=23706"
+    },
+    {
+      "id": "MAT.17.3",
+      "sourceRef": "MAT.17.3",
+      "sourceId": "MAT.usj#content/636/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.17.3"
+      ],
+      "mappingType": "exact",
+      "text": "Suddenly Moses and Elijah appeared before them, talking with Jesus.",
+      "originalText": "Suddenly Moses and Elijah appeared before them, talking with Jesus.",
+      "originalStructuredText": "Suddenly Moses and Elijah appeared before them, talking with Jesus. ",
+      "textSourceId": "msb.txt#line=23707"
+    },
+    {
+      "id": "MAT.17.4",
+      "sourceRef": "MAT.17.4",
+      "sourceId": "MAT.usj#content/636/content/5",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.17.4"
+      ],
+      "mappingType": "exact",
+      "text": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, we will put up three shelters—one for You, one for Moses, and one for Elijah.”",
+      "originalText": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, we will put up three shelters—one for You, one for Moses, and one for Elijah.”",
+      "originalStructuredText": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, we will put up three shelters— one for You, one for Moses, and one for Elijah.”\n ",
+      "textSourceId": "msb.txt#line=23708"
+    },
+    {
+      "id": "MAT.17.5",
+      "sourceRef": "MAT.17.5",
+      "sourceId": "MAT.usj#content/637/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.17.5"
+      ],
+      "mappingType": "exact",
+      "text": "While Peter was still speaking, a bright cloud enveloped them, and a voice from the cloud said, “This is My beloved Son, in whom I am well pleased. Listen to Him!”",
+      "originalText": "While Peter was still speaking, a bright cloud enveloped them, and a voice from the cloud said, “This is My beloved Son, in whom I am well pleased. Listen to Him!”",
+      "originalStructuredText": "While Peter was still speaking, a bright cloud enveloped them, and a voice from the cloud said, “This is My beloved Son, in whom I am well pleased. Listen to Him!” ",
+      "textSourceId": "msb.txt#line=23709"
+    },
+    {
+      "id": "MAT.17.6",
+      "sourceRef": "MAT.17.6",
+      "sourceId": "MAT.usj#content/637/content/9",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.17.6"
+      ],
+      "mappingType": "exact",
+      "text": "When the disciples heard this, they fell facedown in terror.",
+      "originalText": "When the disciples heard this, they fell facedown in terror.",
+      "originalStructuredText": "When the disciples heard this, they fell facedown in terror.\n ",
+      "textSourceId": "msb.txt#line=23710"
+    },
+    {
+      "id": "MAT.17.7",
+      "sourceRef": "MAT.17.7",
+      "sourceId": "MAT.usj#content/638/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.17.7"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus came over and touched them. “Get up,” He said. “Do not be afraid.”",
+      "originalText": "Then Jesus came over and touched them. “Get up,” He said. “Do not be afraid.”",
+      "originalStructuredText": "Then Jesus came over and touched them. “Get up,” He said. “Do not be afraid.”",
+      "textSourceId": "msb.txt#line=23711"
+    },
+    {
+      "id": "MAT.17.8",
+      "sourceRef": "MAT.17.8",
+      "sourceId": "MAT.usj#content/638/content/6",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.17.8"
+      ],
+      "mappingType": "exact",
+      "text": "And when they looked up, they saw no one except Jesus.",
+      "originalText": "And when they looked up, they saw no one except Jesus.",
+      "originalStructuredText": "And when they looked up, they saw no one except Jesus.\n ",
+      "textSourceId": "msb.txt#line=23712"
+    },
+    {
+      "id": "MAT.17.9",
+      "sourceRef": "MAT.17.9",
+      "sourceId": "MAT.usj#content/639/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.17.9"
+      ],
+      "mappingType": "exact",
+      "text": "As they were coming down the mountain, Jesus commanded them, “Do not tell anyone about this vision until the Son of Man has risen from the dead.”",
+      "originalText": "As they were coming down the mountain, Jesus commanded them, “Do not tell anyone about this vision until the Son of Man has risen from the dead.”",
+      "originalStructuredText": "As they were coming down the mountain, Jesus commanded them, “Do not tell anyone about this vision until the Son of Man has risen from the dead.”\n ",
+      "textSourceId": "msb.txt#line=23713"
+    },
+    {
+      "id": "MAT.17.10",
+      "sourceRef": "MAT.17.10",
+      "sourceId": "MAT.usj#content/640/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.17.10"
+      ],
+      "mappingType": "exact",
+      "text": "His disciples asked Him, “Why then do the scribes say that Elijah must come first?”",
+      "originalText": "His disciples asked Him, “Why then do the scribes say that Elijah must come first?”",
+      "originalStructuredText": "His disciples asked Him, “Why then do the scribes say that Elijah must come first?”\n ",
+      "textSourceId": "msb.txt#line=23714"
+    },
+    {
+      "id": "MAT.17.11",
+      "sourceRef": "MAT.17.11",
+      "sourceId": "MAT.usj#content/641/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.17.11"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus replied, “Elijah does indeed come first, and he will restore all things.",
+      "originalText": "Jesus replied, “Elijah does indeed come first, and he will restore all things.",
+      "originalStructuredText": "Jesus replied, “Elijah does indeed come first, and he will restore all things. ",
+      "textSourceId": "msb.txt#line=23715"
+    },
+    {
+      "id": "MAT.17.12",
+      "sourceRef": "MAT.17.12",
+      "sourceId": "MAT.usj#content/641/content/3/content/5",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.17.12"
+      ],
+      "mappingType": "exact",
+      "text": "But I tell you that Elijah has already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.”",
+      "originalText": "But I tell you that Elijah has already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.”",
+      "originalStructuredText": "But I tell you that Elijah has already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.”\n ",
+      "textSourceId": "msb.txt#line=23716"
+    },
+    {
+      "id": "MAT.17.13",
+      "sourceRef": "MAT.17.13",
+      "sourceId": "MAT.usj#content/642/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.17.13"
+      ],
+      "mappingType": "exact",
+      "text": "Then the disciples understood that He was speaking to them about John the Baptist.",
+      "originalText": "Then the disciples understood that He was speaking to them about John the Baptist.",
+      "originalStructuredText": "Then the disciples understood that He was speaking to them about John the Baptist.\n ",
+      "textSourceId": "msb.txt#line=23717"
+    },
+    {
+      "id": "MAT.17.14",
+      "sourceRef": "MAT.17.14",
+      "sourceId": "MAT.usj#content/645/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.17.14"
+      ],
+      "mappingType": "exact",
+      "text": "When they came to the crowd, a man came up to Jesus and knelt before Him.",
+      "originalText": "When they came to the crowd, a man came up to Jesus and knelt before Him.",
+      "originalStructuredText": "When they came to the crowd, a man came up to Jesusand knelt before Him. ",
+      "textSourceId": "msb.txt#line=23718"
+    },
+    {
+      "id": "MAT.17.15",
+      "sourceRef": "MAT.17.15",
+      "sourceId": "MAT.usj#content/645/content/6",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.17.15"
+      ],
+      "mappingType": "exact",
+      "text": "“Lord, have mercy on my son,” he said. “He has seizures and is suffering terribly. He often falls into the fire or into the water.",
+      "originalText": "“Lord, have mercy on my son,” he said. “He has seizures and is suffering terribly. He often falls into the fire or into the water.",
+      "originalStructuredText": "“Lord, have mercy on my son,” he said. “He has seizures and is suffering terribly. He often falls into the fire or into the water. ",
+      "textSourceId": "msb.txt#line=23719"
+    },
+    {
+      "id": "MAT.17.16",
+      "sourceRef": "MAT.17.16",
+      "sourceId": "MAT.usj#content/645/content/12",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.17.16"
+      ],
+      "mappingType": "exact",
+      "text": "I brought him to Your disciples, but they could not heal him.”",
+      "originalText": "I brought him to Your disciples, but they could not heal him.”",
+      "originalStructuredText": "I brought him to Your disciples, but they could not heal him.”\n ",
+      "textSourceId": "msb.txt#line=23720"
+    },
+    {
+      "id": "MAT.17.17",
+      "sourceRef": "MAT.17.17",
+      "sourceId": "MAT.usj#content/646/content/0/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.17.17"
+      ],
+      "mappingType": "exact",
+      "text": "“O unbelieving and perverse generation!” Jesus replied. “How long must I remain with you? How long must I put up with you? Bring the boy here to Me.”",
+      "originalText": "“O unbelieving and perverse generation!” Jesus replied. “How long must I remain with you? How long must I put up with you? Bring the boy here to Me.”",
+      "originalStructuredText": "“O unbelieving and perverse generation!” Jesus replied. “How long must I remain with you? How long must I put up with you? Bring the boy here to Me.”",
+      "textSourceId": "msb.txt#line=23721"
+    },
+    {
+      "id": "MAT.17.18",
+      "sourceRef": "MAT.17.18",
+      "sourceId": "MAT.usj#content/646/content/3",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.17.18"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus rebuked the demon, and it came out of the boy, and he was healed from that moment.",
+      "originalText": "Then Jesus rebuked the demon, and it came out of the boy, and he was healed from that moment.",
+      "originalStructuredText": "Then Jesus rebuked the demon, and it came out of the boy, and he was healed from that moment.\n ",
+      "textSourceId": "msb.txt#line=23722"
+    },
+    {
+      "id": "MAT.17.19",
+      "sourceRef": "MAT.17.19",
+      "sourceId": "MAT.usj#content/649/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.17.19"
+      ],
+      "mappingType": "exact",
+      "text": "Afterward the disciples came to Jesus privately and asked, “Why couldn’t we drive it out?”",
+      "originalText": "Afterward the disciples came to Jesus privately and asked, “Why couldn’t we drive it out?”",
+      "originalStructuredText": "Afterward the disciples came to Jesus privately and asked, “Why couldn’t we drive it out?”\n ",
+      "textSourceId": "msb.txt#line=23723"
+    },
+    {
+      "id": "MAT.17.20",
+      "sourceRef": "MAT.17.20",
+      "sourceId": "MAT.usj#content/650/content/0/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.17.20"
+      ],
+      "mappingType": "exact",
+      "text": "“Because of your unbelief,” Jesus answered. “For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, ‘Move from here to there,’ and it will move. Nothing will be impossible for you.",
+      "originalText": "“Because of your unbelief,” Jesus answered. “For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, ‘Move from here to there,’ and it will move. Nothing will be impossible for you.",
+      "originalStructuredText": "“Because of your unbelief,” Jesus answered.“For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, ‘Move from here to there,’ and it will move. Nothing will be impossible for you. ",
+      "textSourceId": "msb.txt#line=23724"
+    },
+    {
+      "id": "MAT.17.21",
+      "sourceRef": "MAT.17.21",
+      "sourceId": "MAT.usj#content/650/content/3/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.17.21"
+      ],
+      "mappingType": "exact",
+      "text": "But this kind does not go out except by prayer and fasting.”",
+      "originalText": "But this kind does not go out except by prayer and fasting.”",
+      "originalStructuredText": "But this kind does not go out except by prayer and fasting.”\n ",
+      "textSourceId": "msb.txt#line=23725"
+    },
+    {
+      "id": "MAT.17.22",
+      "sourceRef": "MAT.17.22",
+      "sourceId": "MAT.usj#content/653/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.17.22"
+      ],
+      "mappingType": "exact",
+      "text": "While they were staying together in Galilee, Jesus told them, “The Son of Man is about to be delivered into the hands of men.",
+      "originalText": "While they were staying together in Galilee, Jesus told them, “The Son of Man is about to be delivered into the hands of men.",
+      "originalStructuredText": "While they were staying together in Galilee, Jesus told them, “The Son of Man is about to be delivered into the hands of men. ",
+      "textSourceId": "msb.txt#line=23726"
+    },
+    {
+      "id": "MAT.17.23",
+      "sourceRef": "MAT.17.23",
+      "sourceId": "MAT.usj#content/653/content/5/content/3",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.17.23"
+      ],
+      "mappingType": "exact",
+      "text": "They will kill Him, and on the third day He will be raised to life.” And the disciples were deeply grieved.",
+      "originalText": "They will kill Him, and on the third day He will be raised to life.” And the disciples were deeply grieved.",
+      "originalStructuredText": "They will kill Him, and on the third day He will be raised to life.” And the disciples were deeply grieved.\n ",
+      "textSourceId": "msb.txt#line=23727"
+    },
+    {
+      "id": "MAT.17.24",
+      "sourceRef": "MAT.17.24",
+      "sourceId": "MAT.usj#content/655/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.17.24"
+      ],
+      "mappingType": "exact",
+      "text": "After they had arrived in Capernaum, the collectors of the two-drachma tax came to Peter and asked, “Does your Teacher pay the two drachmas?”",
+      "originalText": "After they had arrived in Capernaum, the collectors of the two-drachma tax came to Peter and asked, “Does your Teacher pay the two drachmas?”",
+      "originalStructuredText": "After they had arrived in Capernaum, the collectors of the two-drachma tax came to Peter and asked, “Does your Teacher pay the two drachmas?”\n ",
+      "textSourceId": "msb.txt#line=23728"
+    },
+    {
+      "id": "MAT.17.25",
+      "sourceRef": "MAT.17.25",
+      "sourceId": "MAT.usj#content/656/content/1",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.17.25"
+      ],
+      "mappingType": "exact",
+      "text": "“Yes,” he answered. When Peter entered the house, Jesus preempted him. “What do you think, Simon?” He asked. “From whom do the kings of the earth collect customs and taxes: from their own sons, or from others?”",
+      "originalText": "“Yes,” he answered. When Peter entered the house, Jesus preempted him. “What do you think, Simon?” He asked. “From whom do the kings of the earth collect customs and taxes: from their own sons, or from others?”",
+      "originalStructuredText": "“Yes,” he answered.\nWhen Peter entered the house, Jesus preempted him. “What do you think, Simon?” He asked. “From whom do the kings of the earth collect customs and taxes: from their own sons, or from others?”\n ",
+      "textSourceId": "msb.txt#line=23729"
+    },
+    {
+      "id": "MAT.17.26",
+      "sourceRef": "MAT.17.26",
+      "sourceId": "MAT.usj#content/658/content/1",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.17.26"
+      ],
+      "mappingType": "exact",
+      "text": "“From others,” Peter answered. “Then the sons are exempt,” Jesus said to him.",
+      "originalText": "“From others,” Peter answered. “Then the sons are exempt,” Jesus said to him.",
+      "originalStructuredText": "“From others,” Peter answered.\n“Then the sons are exempt,” Jesus said to him.  ",
+      "textSourceId": "msb.txt#line=23730"
+    },
+    {
+      "id": "MAT.17.27",
+      "sourceRef": "MAT.17.27",
+      "sourceId": "MAT.usj#content/659/content/2/content/1",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.17.27"
+      ],
+      "mappingType": "exact",
+      "text": "“But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin. Take it and give it to them for My tax and yours.”",
+      "originalText": "“But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin. Take it and give it to them for My tax and yours.”",
+      "originalStructuredText": "“But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin. Take itand give it to them for My tax and yours.”",
+      "textSourceId": "msb.txt#line=23731"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MAT.17.4.note.218",
+      "anchor": "MAT.17.4",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/636/content/7",
+      "body": "17:4 CT I will put up",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "I will put up"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.4.note.219",
+      "anchor": "MAT.17.4",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/636/content/9",
+      "body": "17:4 Or three tabernacles",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "three tabernacles"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.5.note.220",
+      "anchor": "MAT.17.5",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/637/content/7",
+      "body": "17:5 Cited in 2 Peter 1:17",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:5 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Cited in ",
+              {
+                "type": "ref",
+                "loc": "2PE 1:17",
+                "content": [
+                  "2 Peter 1:17"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.9.note.221",
+      "anchor": "MAT.17.9",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/639/content/3/content/3",
+      "body": "17:9 NA, SBL, WH has been raised",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NA, SBL, WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "has been raised"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.10.note.222",
+      "anchor": "MAT.17.10",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/640/content/3",
+      "body": "17:10 CT The disciples",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "The disciples"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.11.note.223",
+      "anchor": "MAT.17.11",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/641/content/3/content/3",
+      "body": "17:11 CT does not include first.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "first"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.15.note.224",
+      "anchor": "MAT.17.15",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/645/content/8",
+      "body": "17:15 TH and WH and is sick",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:15 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TH and WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and is sick"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.20.note.225",
+      "anchor": "MAT.17.20",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/650/content/0/content/3",
+      "body": "17:20 CT Because you have so little faith",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Because you have so little faith"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.20.note.226",
+      "anchor": "MAT.17.20",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/650/content/2",
+      "body": "17:20 CT He answered ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "He answered "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.21.note.227",
+      "anchor": "MAT.17.21",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/650/content/4",
+      "body": "17:21 CT does not include verse 21; see Mark 9:29.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:21 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include verse 21; see ",
+              {
+                "type": "ref",
+                "loc": "MRK 9:29",
+                "content": [
+                  "Mark 9:29"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.22.note.228",
+      "anchor": "MAT.17.22",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/653/content/3",
+      "body": "17:22 CT were gathered together",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:22 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "were gathered together"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.24.note.229",
+      "anchor": "MAT.17.24",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/655/content/4",
+      "body": "17:24 Greek the didrachma; twice in this verse",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:24 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Greek "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the didrachma"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; twice in this verse"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.25.note.230",
+      "anchor": "MAT.17.25",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/657/content/3",
+      "body": "17:25 Literally When he entered; F35 When they entered",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "When he entered"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; F35 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "When they entered"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.17.27.note.231",
+      "anchor": "MAT.17.27",
+      "type": "publisher-note",
+      "sourceId": "MAT.usj#content/659/content/2/content/3",
+      "body": "17:27 Greek a stater; that is, a silver coin worth approximately one shekel",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "17:27 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Greek "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "a stater"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; that is, a silver coin worth approximately one shekel"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MAT.17.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.1",
+          "sourceRef": "MAT.17.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.2",
+          "sourceRef": "MAT.17.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.3",
+          "sourceRef": "MAT.17.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.4.note.218",
+        "MAT.17.4.note.219"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.4",
+          "sourceRef": "MAT.17.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.5.note.220"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.5",
+          "sourceRef": "MAT.17.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.6",
+          "sourceRef": "MAT.17.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.7",
+          "sourceRef": "MAT.17.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.8",
+          "sourceRef": "MAT.17.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.9.note.221"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.9",
+          "sourceRef": "MAT.17.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.10.note.222"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.10",
+          "sourceRef": "MAT.17.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.11.note.223"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.11",
+          "sourceRef": "MAT.17.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.12",
+          "sourceRef": "MAT.17.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.13",
+          "sourceRef": "MAT.17.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.14",
+          "sourceRef": "MAT.17.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.15.note.224"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.15",
+          "sourceRef": "MAT.17.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.16",
+          "sourceRef": "MAT.17.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.17",
+          "sourceRef": "MAT.17.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.18",
+          "sourceRef": "MAT.17.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.19",
+          "sourceRef": "MAT.17.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.20.note.225",
+        "MAT.17.20.note.226"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.20",
+          "sourceRef": "MAT.17.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.21.note.227"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.21",
+          "sourceRef": "MAT.17.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.22.note.228"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.22",
+          "sourceRef": "MAT.17.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.23",
+          "sourceRef": "MAT.17.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.24.note.229"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.24",
+          "sourceRef": "MAT.17.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.25.note.230"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.25",
+          "sourceRef": "MAT.17.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.26",
+          "sourceRef": "MAT.17.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.17.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.17.27.note.231"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 17,
+          "segmentId": "MAT.17.27",
+          "sourceRef": "MAT.17.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

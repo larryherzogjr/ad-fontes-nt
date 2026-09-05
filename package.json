@@ -1,0 +1,16 @@
+{
+  "name": "ad-fontes-nt-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app run dev -- --host 127.0.0.1",
+    "import:bsb": "python3 scripts/import_bsb.py",
+    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py",
+    "typecheck": "npm --prefix app run typecheck",
+    "build": "npm --prefix app run build",
+    "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts",
+    "publish:variants": "node scripts/publish_variants.ts",
+    "test:accounts": "node --test tests/accounts.integration.mts",
+    "migrate": "node scripts/migrate.mts"
+  },
+  "type": "module"
+}

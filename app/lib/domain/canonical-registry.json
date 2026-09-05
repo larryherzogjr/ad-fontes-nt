@@ -1,0 +1,667 @@
+[
+  {
+    "code": "MAT",
+    "name": "Matthew",
+    "order": 0,
+    "usfm": "MAT",
+    "osis": "Matt",
+    "aliases": [
+      "MAT",
+      "Matthew",
+      "Matt",
+      "Mat"
+    ],
+    "verses": [
+      25,
+      23,
+      17,
+      25,
+      48,
+      34,
+      29,
+      34,
+      38,
+      42,
+      30,
+      50,
+      58,
+      36,
+      39,
+      28,
+      27,
+      35,
+      30,
+      34,
+      46,
+      46,
+      39,
+      51,
+      46,
+      75,
+      66,
+      20
+    ]
+  },
+  {
+    "code": "MRK",
+    "name": "Mark",
+    "order": 1,
+    "usfm": "MRK",
+    "osis": "Mark",
+    "aliases": [
+      "MRK",
+      "Mark",
+      "Mark",
+      "Mar"
+    ],
+    "verses": [
+      45,
+      28,
+      35,
+      41,
+      43,
+      56,
+      37,
+      38,
+      50,
+      52,
+      33,
+      44,
+      37,
+      72,
+      47,
+      20
+    ]
+  },
+  {
+    "code": "LUK",
+    "name": "Luke",
+    "order": 2,
+    "usfm": "LUK",
+    "osis": "Luke",
+    "aliases": [
+      "LUK",
+      "Luke",
+      "Luke",
+      "Luk"
+    ],
+    "verses": [
+      80,
+      52,
+      38,
+      44,
+      39,
+      49,
+      50,
+      56,
+      62,
+      42,
+      54,
+      59,
+      35,
+      35,
+      32,
+      31,
+      37,
+      43,
+      48,
+      47,
+      38,
+      71,
+      56,
+      53
+    ]
+  },
+  {
+    "code": "JHN",
+    "name": "John",
+    "order": 3,
+    "usfm": "JHN",
+    "osis": "John",
+    "aliases": [
+      "JHN",
+      "John",
+      "John",
+      "Joh"
+    ],
+    "verses": [
+      51,
+      25,
+      36,
+      54,
+      47,
+      71,
+      53,
+      59,
+      41,
+      42,
+      57,
+      50,
+      38,
+      31,
+      27,
+      33,
+      26,
+      40,
+      42,
+      31,
+      25
+    ]
+  },
+  {
+    "code": "ACT",
+    "name": "Acts",
+    "order": 4,
+    "usfm": "ACT",
+    "osis": "Acts",
+    "aliases": [
+      "ACT",
+      "Acts",
+      "Acts",
+      "Act"
+    ],
+    "verses": [
+      26,
+      47,
+      26,
+      37,
+      42,
+      15,
+      60,
+      40,
+      43,
+      48,
+      30,
+      25,
+      52,
+      28,
+      41,
+      40,
+      34,
+      28,
+      41,
+      38,
+      40,
+      30,
+      35,
+      27,
+      27,
+      32,
+      44,
+      31
+    ]
+  },
+  {
+    "code": "ROM",
+    "name": "Romans",
+    "order": 5,
+    "usfm": "ROM",
+    "osis": "Rom",
+    "aliases": [
+      "ROM",
+      "Romans",
+      "Rom",
+      "Rom"
+    ],
+    "verses": [
+      32,
+      29,
+      31,
+      25,
+      21,
+      23,
+      25,
+      39,
+      33,
+      21,
+      36,
+      21,
+      14,
+      26,
+      33,
+      27
+    ]
+  },
+  {
+    "code": "1CO",
+    "name": "1 Corinthians",
+    "order": 6,
+    "usfm": "1CO",
+    "osis": "1Cor",
+    "aliases": [
+      "1CO",
+      "1 Corinthians",
+      "1Cor",
+      "1 Cor"
+    ],
+    "verses": [
+      31,
+      16,
+      23,
+      21,
+      13,
+      20,
+      40,
+      13,
+      27,
+      33,
+      34,
+      31,
+      13,
+      40,
+      58,
+      24
+    ]
+  },
+  {
+    "code": "2CO",
+    "name": "2 Corinthians",
+    "order": 7,
+    "usfm": "2CO",
+    "osis": "2Cor",
+    "aliases": [
+      "2CO",
+      "2 Corinthians",
+      "2Cor",
+      "2 Cor"
+    ],
+    "verses": [
+      24,
+      17,
+      18,
+      18,
+      21,
+      18,
+      16,
+      24,
+      15,
+      18,
+      33,
+      21,
+      14
+    ]
+  },
+  {
+    "code": "GAL",
+    "name": "Galatians",
+    "order": 8,
+    "usfm": "GAL",
+    "osis": "Gal",
+    "aliases": [
+      "GAL",
+      "Galatians",
+      "Gal",
+      "Gal"
+    ],
+    "verses": [
+      24,
+      21,
+      29,
+      31,
+      26,
+      18
+    ]
+  },
+  {
+    "code": "EPH",
+    "name": "Ephesians",
+    "order": 9,
+    "usfm": "EPH",
+    "osis": "Eph",
+    "aliases": [
+      "EPH",
+      "Ephesians",
+      "Eph",
+      "Eph"
+    ],
+    "verses": [
+      23,
+      22,
+      21,
+      32,
+      33,
+      24
+    ]
+  },
+  {
+    "code": "PHP",
+    "name": "Philippians",
+    "order": 10,
+    "usfm": "PHP",
+    "osis": "Phil",
+    "aliases": [
+      "PHP",
+      "Philippians",
+      "Phil",
+      "Phi"
+    ],
+    "verses": [
+      30,
+      30,
+      21,
+      23
+    ]
+  },
+  {
+    "code": "COL",
+    "name": "Colossians",
+    "order": 11,
+    "usfm": "COL",
+    "osis": "Col",
+    "aliases": [
+      "COL",
+      "Colossians",
+      "Col",
+      "Col"
+    ],
+    "verses": [
+      29,
+      23,
+      25,
+      18
+    ]
+  },
+  {
+    "code": "1TH",
+    "name": "1 Thessalonians",
+    "order": 12,
+    "usfm": "1TH",
+    "osis": "1Thess",
+    "aliases": [
+      "1TH",
+      "1 Thessalonians",
+      "1Thess",
+      "1 The"
+    ],
+    "verses": [
+      10,
+      20,
+      13,
+      18,
+      28
+    ]
+  },
+  {
+    "code": "2TH",
+    "name": "2 Thessalonians",
+    "order": 13,
+    "usfm": "2TH",
+    "osis": "2Thess",
+    "aliases": [
+      "2TH",
+      "2 Thessalonians",
+      "2Thess",
+      "2 The"
+    ],
+    "verses": [
+      12,
+      17,
+      18
+    ]
+  },
+  {
+    "code": "1TI",
+    "name": "1 Timothy",
+    "order": 14,
+    "usfm": "1TI",
+    "osis": "1Tim",
+    "aliases": [
+      "1TI",
+      "1 Timothy",
+      "1Tim",
+      "1 Tim"
+    ],
+    "verses": [
+      20,
+      15,
+      16,
+      16,
+      25,
+      21
+    ]
+  },
+  {
+    "code": "2TI",
+    "name": "2 Timothy",
+    "order": 15,
+    "usfm": "2TI",
+    "osis": "2Tim",
+    "aliases": [
+      "2TI",
+      "2 Timothy",
+      "2Tim",
+      "2 Tim"
+    ],
+    "verses": [
+      18,
+      26,
+      17,
+      22
+    ]
+  },
+  {
+    "code": "TIT",
+    "name": "Titus",
+    "order": 16,
+    "usfm": "TIT",
+    "osis": "Titus",
+    "aliases": [
+      "TIT",
+      "Titus",
+      "Titus",
+      "Tit"
+    ],
+    "verses": [
+      16,
+      15,
+      15
+    ]
+  },
+  {
+    "code": "PHM",
+    "name": "Philemon",
+    "order": 17,
+    "usfm": "PHM",
+    "osis": "Phlm",
+    "aliases": [
+      "PHM",
+      "Philemon",
+      "Phlm",
+      "Phi"
+    ],
+    "verses": [
+      25
+    ]
+  },
+  {
+    "code": "HEB",
+    "name": "Hebrews",
+    "order": 18,
+    "usfm": "HEB",
+    "osis": "Heb",
+    "aliases": [
+      "HEB",
+      "Hebrews",
+      "Heb",
+      "Heb"
+    ],
+    "verses": [
+      14,
+      18,
+      19,
+      16,
+      14,
+      20,
+      28,
+      13,
+      28,
+      39,
+      40,
+      29,
+      25
+    ]
+  },
+  {
+    "code": "JAS",
+    "name": "James",
+    "order": 19,
+    "usfm": "JAS",
+    "osis": "Jas",
+    "aliases": [
+      "JAS",
+      "James",
+      "Jas",
+      "Jam"
+    ],
+    "verses": [
+      27,
+      26,
+      18,
+      17,
+      20
+    ]
+  },
+  {
+    "code": "1PE",
+    "name": "1 Peter",
+    "order": 20,
+    "usfm": "1PE",
+    "osis": "1Pet",
+    "aliases": [
+      "1PE",
+      "1 Peter",
+      "1Pet",
+      "1 Pet"
+    ],
+    "verses": [
+      25,
+      25,
+      22,
+      19,
+      14
+    ]
+  },
+  {
+    "code": "2PE",
+    "name": "2 Peter",
+    "order": 21,
+    "usfm": "2PE",
+    "osis": "2Pet",
+    "aliases": [
+      "2PE",
+      "2 Peter",
+      "2Pet",
+      "2 Pet"
+    ],
+    "verses": [
+      21,
+      22,
+      18
+    ]
+  },
+  {
+    "code": "1JN",
+    "name": "1 John",
+    "order": 22,
+    "usfm": "1JN",
+    "osis": "1John",
+    "aliases": [
+      "1JN",
+      "1 John",
+      "1John",
+      "1 Joh"
+    ],
+    "verses": [
+      10,
+      29,
+      24,
+      21,
+      21
+    ]
+  },
+  {
+    "code": "2JN",
+    "name": "2 John",
+    "order": 23,
+    "usfm": "2JN",
+    "osis": "2John",
+    "aliases": [
+      "2JN",
+      "2 John",
+      "2John",
+      "2 Joh"
+    ],
+    "verses": [
+      13
+    ]
+  },
+  {
+    "code": "3JN",
+    "name": "3 John",
+    "order": 24,
+    "usfm": "3JN",
+    "osis": "3John",
+    "aliases": [
+      "3JN",
+      "3 John",
+      "3John",
+      "3 Joh"
+    ],
+    "verses": [
+      15
+    ]
+  },
+  {
+    "code": "JUD",
+    "name": "Jude",
+    "order": 25,
+    "usfm": "JUD",
+    "osis": "Jude",
+    "aliases": [
+      "JUD",
+      "Jude",
+      "Jude",
+      "Jud"
+    ],
+    "verses": [
+      25
+    ]
+  },
+  {
+    "code": "REV",
+    "name": "Revelation",
+    "order": 26,
+    "usfm": "REV",
+    "osis": "Rev",
+    "aliases": [
+      "REV",
+      "Revelation",
+      "Rev",
+      "Rev"
+    ],
+    "verses": [
+      20,
+      29,
+      22,
+      11,
+      14,
+      17,
+      17,
+      13,
+      21,
+      11,
+      19,
+      18,
+      18,
+      20,
+      8,
+      21,
+      18,
+      24,
+      21,
+      15,
+      27,
+      21
+    ]
+  }
+]

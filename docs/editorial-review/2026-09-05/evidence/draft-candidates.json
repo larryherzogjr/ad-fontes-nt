@@ -1,0 +1,5576 @@
+[
+  {
+    "id": "candidate-01",
+    "title": "Matthew 6:13",
+    "ranges": [
+      {
+        "start": "MAT.6.13",
+        "end": "MAT.6.13"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 67,
+            "text": "And lead us not into temptation, but deliver us from the evil one.’"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 67,
+            "text": "And lead us not into temptation, but deliver us from the evil one.’"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 135,
+            "text": "And lead us not into temptation, but deliver us from the evil one. For Yours is the kingdom and the power and the glory forever. Amen.’"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 151,
+            "text": "'And mayest Thou not lead us to temptation, but deliver us from the evil, because Thine is the reign, and the power, and the glory — to the ages. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 70,
+            "text": "καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 143,
+            "text": "Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ. Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας. Ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.6.13",
+            "start": 0,
+            "end": 143,
+            "text": "Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ. Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας. Ἀμήν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/MAT.usj#content/229/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=23299",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MAT.usj#content/228/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[17]/v[24]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Matthew-ap.xhtml#body/84/0/0",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=152",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MAT\"]/q[124]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-02",
+    "title": "Matthew 17:21",
+    "ranges": [
+      {
+        "start": "MAT.17.21",
+        "end": "MAT.17.21"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.17.21",
+            "start": 0,
+            "end": 60,
+            "text": "But this kind does not go out except by prayer and fasting.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.17.21",
+            "start": 0,
+            "end": 62,
+            "text": "and this kind doth not go forth except in prayer and fasting.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.17.21",
+            "start": 0,
+            "end": 64,
+            "text": "Τοῦτο δὲ τὸ γένος οὐκ ἐκπορεύεται εἰ μὴ ἐν προσευχῇ καὶ νηστείᾳ."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.17.21",
+            "start": 0,
+            "end": 64,
+            "text": "Τοῦτο δὲ τὸ γένος οὐκ ἐκπορεύεται εἰ μὴ ἐν προσευχῇ καὶ νηστείᾳ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.17.21",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.17.21",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MAT.usj#content/650/content/3/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[39]/v[40]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.17.21",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=578",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MAT\"]/p[268]/v[149]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-03",
+    "title": "Matthew 18:11",
+    "ranges": [
+      {
+        "start": "MAT.18.11",
+        "end": "MAT.18.11"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.18.11",
+            "start": 0,
+            "end": 41,
+            "text": "For the Son of Man came to save the lost."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.18.11",
+            "start": 0,
+            "end": 45,
+            "text": "for the Son of Man did come to save the lost."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.18.11",
+            "start": 0,
+            "end": 48,
+            "text": "Ἦλθεν γὰρ ὁ υἱὸς τοῦ ἀνθρώπου σῶσαι τὸ ἀπολωλός."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.18.11",
+            "start": 0,
+            "end": 47,
+            "text": "Ἦλθε γὰρ ὁ υἱὸς τοῦ ἀνθρώπου σῶσαι τὸ ἀπολωλός."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.18.11",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.18.11",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MAT.usj#content/672/content/2/content/3",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[41]/v[20]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.18.11",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=595",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MAT\"]/p[274]/v[28]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-04",
+    "title": "Matthew 23:14",
+    "ranges": [
+      {
+        "start": "MAT.23.14",
+        "end": "MAT.23.14"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.23.14",
+            "start": 0,
+            "end": 171,
+            "text": "Woe to you, scribes and Pharisees, you hypocrites! You shut the kingdom of heaven in men’s faces. You yourselves do not enter, nor will you let in those who wish to enter."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.23.14",
+            "start": 0,
+            "end": 186,
+            "text": "'Woe to you, Scribes and Pharisees, hypocrites! because ye eat up the houses of the widows, and for a pretence make long prayers, because of this ye shall receive more abundant judgment."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.23.14",
+            "start": 0,
+            "end": 177,
+            "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.23.14",
+            "start": 0,
+            "end": 156,
+            "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί, ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.23.14",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.23.14",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MAT.usj#content/865/content/2/content/6",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[51]/v[26]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MAT.23.14",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=789",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MAT\"]/p[343]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-05",
+    "title": "Mark 1:1",
+    "ranges": [
+      {
+        "start": "MRK.1.1",
+        "end": "MRK.1.1"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 68,
+            "text": "This is the beginning of the gospel of Jesus Christ, the Son of God."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 56,
+            "text": "The beginning of the gospel of Jesus Christ, Son of God."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 68,
+            "text": "This is the beginning of the gospel of Jesus Christ, the Son of God."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 57,
+            "text": "A beginning of the good news of Jesus Christ, Son of God."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 46,
+            "text": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ <Υἱοῦ Θεοῦ>."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 49,
+            "text": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ, υἱοῦ τοῦ θεοῦ."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.1.1",
+            "start": 0,
+            "end": 49,
+            "text": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ, υἱοῦ τοῦ Θεοῦ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/MRK.usj#content/10/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=24220",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/9/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[7]/v[0]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Mark-ap.xhtml#body/4/0/0",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=2",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[8]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-06",
+    "title": "Mark 7:16",
+    "ranges": [
+      {
+        "start": "MRK.7.16",
+        "end": "MRK.7.16"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.7.16",
+            "start": 0,
+            "end": 42,
+            "text": "If anyone has ears to hear, let him hear.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.7.16",
+            "start": 0,
+            "end": 41,
+            "text": "If any hath ears to hear — let him hear.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.7.16",
+            "start": 0,
+            "end": 32,
+            "text": "Εἴ τις ἔχει ὦτα ἀκούειν ἀκουέτω."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.7.16",
+            "start": 0,
+            "end": 32,
+            "text": "Εἴ τις ἔχει ὦτα ἀκούειν ἀκουέτω."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.7.16",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.7.16",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/230/content/8/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[19]/v[30]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.7.16",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=265",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[85]/v[38]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-07",
+    "title": "Mark 9:44",
+    "ranges": [
+      {
+        "start": "MRK.9.44",
+        "end": "MRK.9.44"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.44",
+            "start": 0,
+            "end": 62,
+            "text": "where ‘their worm never dies, and the fire is never quenched.’"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.44",
+            "start": 0,
+            "end": 66,
+            "text": "where their worm is not dying, and the fire is not being quenched."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.44",
+            "start": 0,
+            "end": 56,
+            "text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.44",
+            "start": 0,
+            "end": 56,
+            "text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.44",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.44",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/324/content/2/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[23]/v[86]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.44",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=368",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[105]/v[63]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-08",
+    "title": "Mark 9:46",
+    "ranges": [
+      {
+        "start": "MRK.9.46",
+        "end": "MRK.9.46"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.46",
+            "start": 0,
+            "end": 62,
+            "text": "where ‘their worm never dies, and the fire is never quenched.’"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.46",
+            "start": 0,
+            "end": 66,
+            "text": "where their worm is not dying, and the fire is not being quenched."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.46",
+            "start": 0,
+            "end": 56,
+            "text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.9.46",
+            "start": 0,
+            "end": 56,
+            "text": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.46",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.46",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/324/content/2/content/13",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[23]/v[90]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.9.46",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=370",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[105]/v[109]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-09",
+    "title": "Mark 11:26",
+    "ranges": [
+      {
+        "start": "MRK.11.26",
+        "end": "MRK.11.26"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.11.26",
+            "start": 0,
+            "end": 87,
+            "text": "But if you do not forgive, neither will your Father in heaven forgive your trespasses.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.11.26",
+            "start": 0,
+            "end": 99,
+            "text": "and, if ye do not forgive, neither will your Father who is in the heavens forgive your trespasses.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.11.26",
+            "start": 0,
+            "end": 88,
+            "text": "Εἰ δὲ ὑμεῖς οὐκ ἀφίετε, οὐδὲ ὁ πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς ἀφήσει τὰ παραπτώματα ὑμῶν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.11.26",
+            "start": 0,
+            "end": 88,
+            "text": "Εἰ δὲ ὑμεῖς οὐκ ἀφίετε, οὐδὲ ὁ πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς ἀφήσει τὰ παραπτώματα ὑμῶν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.11.26",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.11.26",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/405/content/2/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[27]/v[50]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.11.26",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=452",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[127]/v[116]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-10",
+    "title": "Mark 15:28",
+    "ranges": [
+      {
+        "start": "MRK.15.28",
+        "end": "MRK.15.28"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.15.28",
+            "start": 0,
+            "end": 87,
+            "text": "So the Scripture was fulfilled that says, “And He was numbered with the transgressors.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.15.28",
+            "start": 0,
+            "end": 86,
+            "text": "and the Writing was fulfilled that is saying, 'And with lawless ones he was numbered.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.15.28",
+            "start": 0,
+            "end": 57,
+            "text": "Καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα, Καὶ μετὰ ἀνόμων ἐλογίσθη."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.15.28",
+            "start": 0,
+            "end": 57,
+            "text": "Καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα, Καὶ μετὰ ἀνόμων ἐλογίσθη."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.15.28",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.15.28",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/598/content/10",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[35]/v[54]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: MRK.15.28",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=640",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[176]/v[97]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-11",
+    "title": "Mark 16:9-20",
+    "ranges": [
+      {
+        "start": "MRK.16.9",
+        "end": "MRK.16.20"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 137,
+            "text": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 77,
+            "text": "She went and told those who had been with Him, who were mourning and weeping."
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 87,
+            "text": "And when they heard that Jesus was alive and she had seen Him, they did not believe it."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 98,
+            "text": "After this, Jesus appeared in a different form to two of them as they walked along in the country."
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 85,
+            "text": "And they went back and reported it to the rest, but they did not believe them either."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 187,
+            "text": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 84,
+            "text": "And He said to them, “Go into all the world and preach the gospel to every creature."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 95,
+            "text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 120,
+            "text": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 170,
+            "text": "they will pick up snakes with their hands, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”"
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 107,
+            "text": "After the Lord Jesus had spoken to them, He was taken up into heaven and sat down at the right hand of God."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 130,
+            "text": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 127,
+            "text": "And having risen early [on] the first of the week, He appeared first to Mary Magdalene, from whom He had cast out seven demons."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 79,
+            "text": "She, having gone, reported to those having been with Him, mourning and weeping."
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 73,
+            "text": "And they, having heard that He is alive and was seen by her, disbelieved."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 111,
+            "text": "And after these things, He appeared in another form to two of them as they are walking, going into the country."
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 75,
+            "text": "And they, having gone, reported to the rest; neither did they believe them."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 171,
+            "text": "And afterward, [in] their reclining, He appeared to the Eleven and rebuked their unbelief and hardness of heart, because they did not believe those having seen Him arisen."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 94,
+            "text": "And He said to them, “Having gone into all the world, proclaim the gospel to all the creation."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 113,
+            "text": "The one having believed and having been baptized will be saved, but the one having disbelieved will be condemned."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 125,
+            "text": "And these signs will accompany those having believed: In My name they will cast out demons; they will speak with new tongues;"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 168,
+            "text": "and with their hands they will take up serpents; and if they drink anything deadly, it shall never hurt them; they will lay hands upon the sick, and they will be well.”"
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 115,
+            "text": "Therefore indeed the Lord Jesus, after speaking to them, was taken up into heaven and sat at the right hand of God."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 127,
+            "text": "And they, having gone out, preached everywhere, the Lord working with [them] and confirming the word by the accompanying signs."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 137,
+            "text": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 77,
+            "text": "She went and told those who had been with Him, who were mourning and weeping."
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 87,
+            "text": "And when they heard that Jesus was alive and she had seen Him, they did not believe it."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 98,
+            "text": "After this, Jesus appeared in a different form to two of them as they walked along in the country."
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 85,
+            "text": "And they went back and reported it to the rest, but they did not believe them either."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 187,
+            "text": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 84,
+            "text": "And He said to them, “Go into all the world and preach the gospel to every creature."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 95,
+            "text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 120,
+            "text": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 153,
+            "text": "they will pick up snakes, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”"
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 101,
+            "text": "After the Lord had spoken to them, He was taken up into heaven and sat down at the right hand of God."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 136,
+            "text": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 143,
+            "text": "And he, having risen in the morning of the first of the sabbaths, did appear first to Mary the Magdalene, out of whom he had cast seven demons;"
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 72,
+            "text": "she having gone, told those who had been with him, mourning and weeping;"
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 78,
+            "text": "and they, having heard that he is alive, and was seen by her, did not believe."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 115,
+            "text": "And after these things, to two of them, as they are going into a field, walking, he was manifested in another form,"
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 71,
+            "text": "and they having gone, told to the rest; not even them did they believe."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 195,
+            "text": "Afterwards, as they are reclining (at meat), he was manifested to the eleven, and did reproach their unbelief and stiffness of heart, because they believed not those having seen him being raised;"
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 95,
+            "text": "and he said to them, 'Having gone to all the world, proclaim the good news to all the creation;"
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 111,
+            "text": "he who hath believed, and hath been baptized, shall be saved; and he who hath not believed, shall be condemned."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 130,
+            "text": "'And signs shall accompany those believing these things; in my name demons they shall cast out; with new tongues they shall speak;"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 153,
+            "text": "serpents they shall take up; and if any deadly thing they may drink, it shall not hurt them; on the ailing they shall lay hands, and they shall be well.'"
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 112,
+            "text": "The Lord, then, indeed, after speaking to them, was received up to the heaven, and sat on the right hand of God;"
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 141,
+            "text": "and they, having gone forth, did preach everywhere, the Lord working with [them], and confirming the word, through the signs following. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "bracketed",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 99,
+            "text": "[[Ἀναστὰς δὲ πρωῒ πρώτῃ σαββάτου ἐφάνη πρῶτον Μαρίᾳ τῇ Μαγδαληνῇ, παρ’ ἧς ἐκβεβλήκει ἑπτὰ δαιμόνια."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 79,
+            "text": "ἐκείνη πορευθεῖσα ἀπήγγειλεν τοῖς μετ’ αὐτοῦ γενομένοις πενθοῦσι καὶ κλαίουσιν·"
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 58,
+            "text": "κἀκεῖνοι ἀκούσαντες ὅτι ζῇ καὶ ἐθεάθη ὑπ’ αὐτῆς ἠπίστησαν."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 90,
+            "text": "Μετὰ δὲ ταῦτα δυσὶν ἐξ αὐτῶν περιπατοῦσιν ἐφανερώθη ἐν ἑτέρᾳ μορφῇ πορευομένοις εἰς ἀγρόν·"
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 70,
+            "text": "κἀκεῖνοι ἀπελθόντες ἀπήγγειλαν τοῖς λοιποῖς· οὐδὲ ἐκείνοις ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 159,
+            "text": "Ὕστερον δὲ ἀνακειμένοις αὐτοῖς τοῖς ἕνδεκα ἐφανερώθη, καὶ ὠνείδισεν τὴν ἀπιστίαν αὐτῶν καὶ σκληροκαρδίαν ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 89,
+            "text": "καὶ εἶπεν αὐτοῖς Πορευθέντες εἰς τὸν κόσμον ἅπαντα κηρύξατε τὸ εὐαγγέλιον πάσῃ τῇ κτίσει."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 68,
+            "text": "ὁ πιστεύσας καὶ βαπτισθεὶς σωθήσεται, ὁ δὲ ἀπιστήσας κατακριθήσεται."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 116,
+            "text": "σημεῖα δὲ τοῖς πιστεύσασιν ταῦτα παρακολουθήσει, ἐν τῷ ὀνόματί μου δαιμόνια ἐκβαλοῦσιν, γλώσσαις λαλήσουσιν καιναῖς,"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 109,
+            "text": "ὄφεις ἀροῦσιν κἂν θανάσιμόν τι πίωσιν οὐ μὴ αὐτοὺς βλάψῃ, ἐπὶ ἀρρώστους χεῖρας ἐπιθήσουσιν καὶ καλῶς ἕξουσιν."
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 105,
+            "text": "Ὁ μὲν οὖν Κύριος Ἰησοῦς μετὰ τὸ λαλῆσαι αὐτοῖς ἀνελήμφθη εἰς τὸν οὐρανὸν καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 125,
+            "text": "ἐκεῖνοι δὲ ἐξελθόντες ἐκήρυξαν πανταχοῦ, τοῦ Κυρίου συνεργοῦντος καὶ τὸν λόγον βεβαιοῦντος διὰ τῶν ἐπακολουθούντων σημείων.]]"
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 96,
+            "text": "Ἀναστὰς δὲ πρωῒ πρώτῃ σαββάτου ἐφάνη πρῶτον Μαρίᾳ τῇ Μαγδαληνῇ, ἀφ’ ἧς ἐκβεβλήκει ἑπτὰ δαιμόνια."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 81,
+            "text": "Ἐκείνη πορευθεῖσα ἀπήγγειλεν τοῖς μετ’ αὐτοῦ γενομένοις, πενθοῦσιν καὶ κλαίουσιν."
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 58,
+            "text": "Κἀκεῖνοι ἀκούσαντες ὅτι ζῇ καὶ ἐθεάθη ὑπ’ αὐτῆς ἠπίστησαν."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 91,
+            "text": "Μετὰ δὲ ταῦτα δυσὶν ἐξ αὐτῶν περιπατοῦσιν ἐφανερώθη ἐν ἑτέρᾳ μορφῇ, πορευομένοις εἰς ἀγρόν."
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 70,
+            "text": "Κἀκεῖνοι ἀπελθόντες ἀπήγγειλαν τοῖς λοιποῖς· οὐδὲ ἐκείνοις ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 157,
+            "text": "Ὕστερον ἀνακειμένοις αὐτοῖς τοῖς ἕνδεκα ἐφανερώθη, καὶ ὠνείδισεν τὴν ἀπιστίαν αὐτῶν καὶ σκληροκαρδίαν, ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 91,
+            "text": "Καὶ εἶπεν αὐτοῖς, Πορευθέντες εἰς τὸν κόσμον ἅπαντα, κηρύξατε τὸ εὐαγγέλιον πάσῃ τῇ κτίσει."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 68,
+            "text": "Ὁ πιστεύσας καὶ βαπτισθεὶς σωθήσεται· ὁ δὲ ἀπιστήσας κατακριθήσεται."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 116,
+            "text": "Σημεῖα δὲ τοῖς πιστεύσασιν ταῦτα παρακολουθήσει· ἐν τῷ ὀνόματί μου δαιμόνια ἐκβαλοῦσιν· γλώσσαις λαλήσουσιν καιναῖς·"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 112,
+            "text": "ὄφεις ἀροῦσιν· κἂν θανάσιμόν τι πίωσιν, οὐ μὴ αὐτοὺς βλάψῃ· ἐπὶ ἀρρώστους χεῖρας ἐπιθήσουσιν, καὶ καλῶς ἕξουσιν."
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 100,
+            "text": "Ὁ μὲν οὖν κύριος, μετὰ τὸ λαλῆσαι αὐτοῖς, ἀνελήφθη εἰς τὸν οὐρανόν, καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ θεοῦ."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 130,
+            "text": "Ἐκεῖνοι δὲ ἐξελθόντες ἐκήρυξαν πανταχοῦ, τοῦ κυρίου συνεργοῦντος, καὶ τὸν λόγον βεβαιοῦντος διὰ τῶν ἐπακολουθούντων σημείων. Ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MRK.16.9",
+            "start": 0,
+            "end": 96,
+            "text": "Ἀναστὰς δὲ πρωῒ πρώτῃ σαββάτου ἐφάνη πρῶτον Μαρίᾳ τῇ Μαγδαληνῇ, ἀφ᾿ ἧς ἐκβεβλήκει ἑπτὰ δαιμόνια."
+          },
+          {
+            "segmentId": "MRK.16.10",
+            "start": 0,
+            "end": 78,
+            "text": "Ἐκείνη πορευθεῖσα ἀπήγγειλε τοῖς μετ᾿ αὐτοῦ γενομένοις, πενθοῦσι καὶ κλαίουσι."
+          },
+          {
+            "segmentId": "MRK.16.11",
+            "start": 0,
+            "end": 58,
+            "text": "Κἀκεῖνοι ἀκούσαντες ὅτι ζῇ καὶ ἐθεάθη ὑπ᾿ αὐτῆς ἠπίστησαν."
+          },
+          {
+            "segmentId": "MRK.16.12",
+            "start": 0,
+            "end": 91,
+            "text": "Μετὰ δὲ ταῦτα δυσὶν ἐξ αὐτῶν περιπατοῦσιν ἐφανερώθη ἐν ἑτέρᾳ μορφῇ, πορευομένοις εἰς ἀγρόν."
+          },
+          {
+            "segmentId": "MRK.16.13",
+            "start": 0,
+            "end": 70,
+            "text": "Κἀκεῖνοι ἀπελθόντες ἀπήγγειλαν τοῖς λοιποῖς· οὐδὲ ἐκείνοις ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.14",
+            "start": 0,
+            "end": 156,
+            "text": "Ὕστερον ἀνακειμένοις αὐτοῖς τοῖς ἕνδεκα ἐφανερώθη, καὶ ὠνείδισε τὴν ἀπιστίαν αὐτῶν καὶ σκληροκαρδίαν, ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν."
+          },
+          {
+            "segmentId": "MRK.16.15",
+            "start": 0,
+            "end": 91,
+            "text": "Καὶ εἶπεν αὐτοῖς, Πορευθέντες εἰς τὸν κόσμον ἅπαντα, κηρύξατε τὸ εὐαγγέλιον πάσῃ τῇ κτίσει."
+          },
+          {
+            "segmentId": "MRK.16.16",
+            "start": 0,
+            "end": 68,
+            "text": "Ὁ πιστεύσας καὶ βαπτισθεὶς σωθήσεται· ὁ δὲ ἀπιστήσας κατακριθήσεται."
+          },
+          {
+            "segmentId": "MRK.16.17",
+            "start": 0,
+            "end": 113,
+            "text": "Σημεῖα δὲ τοῖς πιστεύσασι ταῦτα παρακολουθήσει· ἐν τῷ ὀνόματί μου δαιμόνια ἐκβαλοῦσι· γλώσσαις λαλήσουσι καιναῖς·"
+          },
+          {
+            "segmentId": "MRK.16.18",
+            "start": 0,
+            "end": 111,
+            "text": "ὄφεις ἀροῦσι· κἂν θανάσιμόν τι πίωσιν, οὐ μὴ αὐτοὺς βλάψει· ἐπὶ ἀρρώστους χεῖρας ἐπιθήσουσι, καὶ καλῶς ἕξουσιν."
+          },
+          {
+            "segmentId": "MRK.16.19",
+            "start": 0,
+            "end": 100,
+            "text": "Ὁ μὲν οὖν Κύριος, μετὰ τὸ λαλῆσαι αὐτοῖς, ἀνελήφθη εἰς τὸν οὐρανόν, καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ."
+          },
+          {
+            "segmentId": "MRK.16.20",
+            "start": 0,
+            "end": 130,
+            "text": "Ἐκεῖνοι δὲ ἐξελθόντες ἐκήρυξαν πανταχοῦ, τοῦ Κυρίου συνεργοῦντος, καὶ τὸν λόγον βεβαιοῦντος διὰ τῶν ἐπακολουθούντων σημείων. Ἀμήν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/MRK.usj#content/625/content/1; bsb_usj/MRK.usj#content/625/content/5; bsb_usj/MRK.usj#content/625/content/7; bsb_usj/MRK.usj#content/628/content/1; bsb_usj/MRK.usj#content/629/content/1; bsb_usj/MRK.usj#content/632/content/1; bsb_usj/MRK.usj#content/633/content/1; bsb_usj/MRK.usj#content/633/content/3/content/1; bsb_usj/MRK.usj#content/633/content/3/content/3; bsb_usj/MRK.usj#content/633/content/3/content/6; bsb_usj/MRK.usj#content/636/content/1; bsb_usj/MRK.usj#content/637/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=24886; blb.txt#line=24887; blb.txt#line=24888; blb.txt#line=24889; blb.txt#line=24890; blb.txt#line=24891; blb.txt#line=24892; blb.txt#line=24893; blb.txt#line=24894; blb.txt#line=24895; blb.txt#line=24896; blb.txt#line=24897",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MRK.usj#content/622/content/1; MRK.usj#content/622/content/11; MRK.usj#content/622/content/15; MRK.usj#content/625/content/1; MRK.usj#content/626/content/1; MRK.usj#content/629/content/1; MRK.usj#content/630/content/1; MRK.usj#content/630/content/3/content/3; MRK.usj#content/630/content/3/content/5; MRK.usj#content/630/content/3/content/10; MRK.usj#content/633/content/1; MRK.usj#content/634/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[16]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[18]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[20]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[22]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[24]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[26]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[28]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[30]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[32]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[34]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[36]; engylt_usfx.xml#book[@id=\"MRK\"]/p[37]/v[38]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Mark-ap.xhtml#body/131/0/0; xhtml/Mark-ap.xhtml#body/131/0/1; xhtml/Mark-ap.xhtml#body/131/0/2; xhtml/Mark-ap.xhtml#body/131/0/3; xhtml/Mark-ap.xhtml#body/131/0/4; xhtml/Mark-ap.xhtml#body/131/0/5; xhtml/Mark-ap.xhtml#body/131/0/6; xhtml/Mark-ap.xhtml#body/131/0/7; xhtml/Mark-ap.xhtml#body/131/0/8; xhtml/Mark-ap.xhtml#body/131/0/9; xhtml/Mark-ap.xhtml#body/131/0/10; xhtml/Mark-ap.xhtml#body/131/0/13",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAR.csv#row=668; csv-unicode/ccat/no-variants/MAR.csv#row=669; csv-unicode/ccat/no-variants/MAR.csv#row=670; csv-unicode/ccat/no-variants/MAR.csv#row=671; csv-unicode/ccat/no-variants/MAR.csv#row=672; csv-unicode/ccat/no-variants/MAR.csv#row=673; csv-unicode/ccat/no-variants/MAR.csv#row=674; csv-unicode/ccat/no-variants/MAR.csv#row=675; csv-unicode/ccat/no-variants/MAR.csv#row=676; csv-unicode/ccat/no-variants/MAR.csv#row=677; csv-unicode/ccat/no-variants/MAR.csv#row=678; csv-unicode/ccat/no-variants/MAR.csv#row=679",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MRK\"]/p[182]/v[0]; grctr_usfx.xml#book[@id=\"MRK\"]/p[182]/v[17]; grctr_usfx.xml#book[@id=\"MRK\"]/p[182]/v[26]; grctr_usfx.xml#book[@id=\"MRK\"]/p[183]/v[0]; grctr_usfx.xml#book[@id=\"MRK\"]/p[183]/v[16]; grctr_usfx.xml#book[@id=\"MRK\"]/p[184]/v[0]; grctr_usfx.xml#book[@id=\"MRK\"]/p[184]/v[21]; grctr_usfx.xml#book[@id=\"MRK\"]/p[184]/v[37]; grctr_usfx.xml#book[@id=\"MRK\"]/p[184]/v[48]; grctr_usfx.xml#book[@id=\"MRK\"]/p[184]/v[62]; grctr_usfx.xml#book[@id=\"MRK\"]/p[185]/v[0]; grctr_usfx.xml#book[@id=\"MRK\"]/p[185]/v[20]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-12",
+    "title": "Luke 17:36",
+    "ranges": [
+      {
+        "start": "LUK.17.36",
+        "end": "LUK.17.36"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.17.36",
+            "start": 0,
+            "end": 75,
+            "text": "two men shall be in the field, the one shall be taken, and the other left.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.17.36",
+            "start": 0,
+            "end": 70,
+            "text": "Δύο ἔσονται ἐν τῷ ἀγρῷ· ὁ εἷς παραληφθήσεται, καὶ ὁ ἕτερος ἀφεθήσεται."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"LUK\"]/p[39]/v[70]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.17.36",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"LUK\"]/p[301]/v[255]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-13",
+    "title": "Luke 22:43-44",
+    "ranges": [
+      {
+        "start": "LUK.22.43",
+        "end": "LUK.22.44"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 63,
+            "text": "Then an angel from heaven appeared to Him and strengthened Him."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 109,
+            "text": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 60,
+            "text": "And an angel from heaven appeared to Him, strengthening Him."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 133,
+            "text": "And having been in agony, He was praying more earnestly. And His sweat became like large drops of blood falling down upon the ground."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 63,
+            "text": "Then an angel from heaven appeared to Him and strengthened Him."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 109,
+            "text": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 68,
+            "text": "And there appeared to him a messenger from heaven strengthening him;"
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 136,
+            "text": "and having been in agony, he was more earnestly praying, and his sweat became, as it were, great drops of blood falling upon the ground."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 48,
+            "text": "ὤφθη δὲ αὐτῷ ἄγγελος ἀπ’ οὐρανοῦ ἐνισχύων αὐτόν."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 122,
+            "text": "καὶ γενόμενος ἐν ἀγωνίᾳ ἐκτενέστερον προσηύχετο· καὶ ἐγένετο ὁ ἱδρὼς αὐτοῦ ὡσεὶ θρόμβοι αἵματος καταβαίνοντες ἐπὶ τὴν γῆν."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 48,
+            "text": "Ὤφθη δὲ αὐτῷ ἄγγελος ἀπ’ οὐρανοῦ ἐνισχύων αὐτόν."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 122,
+            "text": "Καὶ γενόμενος ἐν ἀγωνίᾳ, ἐκτενέστερον προσηύχετο. Ἐγένετο δὲ ὁ ἱδρὼς αὐτοῦ ὡσεὶ θρόμβοι αἵματος καταβαίνοντες ἐπὶ τὴν γῆν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.22.43",
+            "start": 0,
+            "end": 48,
+            "text": "Ὤφθη δὲ αὐτῷ ἄγγελος ἀπ᾿ οὐρανοῦ ἐνισχύων αὐτόν."
+          },
+          {
+            "segmentId": "LUK.22.44",
+            "start": 0,
+            "end": 122,
+            "text": "Καὶ γενόμενος ἐν ἀγωνίᾳ, ἐκτενέστερον προσηύχετο. Ἐγένετο δὲ ὁ ἱδρὼς αὐτοῦ ὡσεὶ θρόμβοι αἵματος καταβαίνοντες ἐπὶ τὴν γῆν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/LUK.usj#content/963/content/1; bsb_usj/LUK.usj#content/963/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=25911; blb.txt#line=25912",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "LUK.usj#content/965/content/1; LUK.usj#content/965/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"LUK\"]/p[49]/v[84]; engylt_usfx.xml#book[@id=\"LUK\"]/p[49]/v[86]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Luke-ap.xhtml#body/228/0/4; xhtml/Luke-ap.xhtml#body/228/0/5",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/LUK.csv#row=1014; csv-unicode/ccat/no-variants/LUK.csv#row=1015",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"LUK\"]/p[361]/v[71]; grctr_usfx.xml#book[@id=\"LUK\"]/p[361]/v[81]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-14",
+    "title": "Luke 23:17",
+    "ranges": [
+      {
+        "start": "LUK.23.17",
+        "end": "LUK.23.17"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.23.17",
+            "start": 0,
+            "end": 74,
+            "text": "Now Pilate was obliged to release to the people one prisoner at the feast."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.23.17",
+            "start": 0,
+            "end": 67,
+            "text": "for it was necessary for him to release to them one at every feast,"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.23.17",
+            "start": 0,
+            "end": 49,
+            "text": "Ἀνάγκην δὲ εἶχεν ἀπολύειν αὐτοῖς κατὰ ἑορτὴν ἕνα."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.23.17",
+            "start": 0,
+            "end": 49,
+            "text": "Ἀνάγκην δὲ εἶχεν ἀπολύειν αὐτοῖς κατὰ ἑορτὴν ἕνα."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.23.17",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.23.17",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "LUK.usj#content/1010/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"LUK\"]/p[51]/v[32]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: LUK.23.17",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/LUK.csv#row=1059",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"LUK\"]/p[370]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-15",
+    "title": "John 1:18",
+    "ranges": [
+      {
+        "start": "JHN.1.18",
+        "end": "JHN.1.18"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 119,
+            "text": "No one has ever seen God, but the one and only Son, who is Himself God and is at the Father’s side, has made Him known."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 119,
+            "text": "No one has ever yet seen God. The only begotten God, the One being in the bosom of the Father, He has made [Him] known."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 100,
+            "text": "No one has ever seen God, but the one and only Son, who is at the Father’s side, has made Him known."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 101,
+            "text": "God no one hath ever seen; the only begotten Son, who is on the bosom of the Father — he did declare."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 93,
+            "text": "Θεὸν οὐδεὶς ἑώρακεν πώποτε· μονογενὴς Θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ Πατρὸς, ἐκεῖνος ἐξηγήσατο."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 96,
+            "text": "Θεὸν οὐδεὶς ἑώρακεν πώποτε· ὁ μονογενὴς υἱός, ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός, ἐκεῖνος ἐξηγήσατο."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.18",
+            "start": 0,
+            "end": 95,
+            "text": "Θεὸν οὐδεὶς ἑώρακε πώποτε· ὁ μονογενὴς υἱός, ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός, ἐκεῖνος ἐξηγήσατο."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/JHN.usj#content/18/content/5",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=26066",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "JHN.usj#content/17/content/7",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[34]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/John-ap.xhtml#body/4/0/17",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=19",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"JHN\"]/p[11]/v[79]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-16",
+    "title": "John 5:3-4",
+    "ranges": [
+      {
+        "start": "JHN.5.3",
+        "end": "JHN.5.4"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 89,
+            "text": "On these walkways lay a great number of the sick, the blind, the lame, and the paralyzed."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 77,
+            "text": "In these were lying a multitude of those ailing, blind, lame, [and] withered."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 123,
+            "text": "On these walkways lay a great number of the sick, the blind, the lame, and the paralyzed, awaiting the moving of the water."
+          },
+          {
+            "segmentId": "JHN.5.4",
+            "start": 0,
+            "end": 171,
+            "text": "For from time to time an angel descended into the pool and stirred the water. As soon as the water was stirred, the first to enter the pool would be healed of his disease."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 112,
+            "text": "in these were lying a great multitude of the ailing, blind, lame, withered, waiting for the moving of the water,"
+          },
+          {
+            "segmentId": "JHN.5.4",
+            "start": 0,
+            "end": 197,
+            "text": "for a messenger at a set time was going down in the pool, and was troubling the water, the first then having gone in after the troubling of the water, became whole of whatever sickness he was held."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "bracketed",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 103,
+            "text": "ἐν ταύταις κατέκειτο πλῆθος τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν<, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν."
+          },
+          {
+            "segmentId": "JHN.5.4",
+            "start": 0,
+            "end": 165,
+            "text": "ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ καὶ ἐτάρασσε τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι>."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 107,
+            "text": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν."
+          },
+          {
+            "segmentId": "JHN.5.4",
+            "start": 0,
+            "end": 167,
+            "text": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσεν τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.5.3",
+            "start": 0,
+            "end": 107,
+            "text": "Ἐν ταύταις κατέκειτο πλῆθος πολὺ τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν."
+          },
+          {
+            "segmentId": "JHN.5.4",
+            "start": 0,
+            "end": 166,
+            "text": "Ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ, καὶ ἐτάρασσε τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος, ὑγιὴς ἐγίνετο, ᾧ δήποτε κατείχετο νοσήματι."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/JHN.usj#content/137/content/6",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=26217",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "JHN.usj#content/136/content/6; JHN.usj#content/136/content/18",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[15]/v[4]; engylt_usfx.xml#book[@id=\"JHN\"]/p[15]/v[6]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/John-ap.xhtml#body/30/0/2; xhtml/John-ap.xhtml#body/30/0/3",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=170; csv-unicode/ccat/no-variants/JOH.csv#row=171",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"JHN\"]/p[42]/v[17]; grctr_usfx.xml#book[@id=\"JHN\"]/p[42]/v[34]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-17",
+    "title": "John 7:53-8:11",
+    "ranges": [
+      {
+        "start": "JHN.7.53",
+        "end": "JHN.8.11"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 31,
+            "text": "Then each went to his own home."
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 38,
+            "text": "But Jesus went to the Mount of Olives."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 116,
+            "text": "Early in the morning He went back into the temple courts. All the people came to Him, and He sat down to teach them."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 110,
+            "text": "The scribes and Pharisees, however, brought to Him a woman caught in adultery. They made her stand before them"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 65,
+            "text": "and said, “Teacher, this woman was caught in the act of adultery."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 73,
+            "text": "In the Law Moses commanded us to stone such a woman. So what do You say?”"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 140,
+            "text": "They said this to test Him, in order to have a basis for accusing Him. But Jesus bent down and began to write on the ground with His finger."
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 149,
+            "text": "When they continued to question Him, He straightened up and said to them, “Let him who is without sin among you be the first to cast a stone at her.”"
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 47,
+            "text": "And again He bent down and wrote on the ground."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 144,
+            "text": "When they heard this, they began to go away one by one, beginning with the older ones, until only Jesus was left, with the woman standing there."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 101,
+            "text": "Then Jesus straightened up and asked her, “Woman, where are your accusers? Has no one condemned you?”"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 104,
+            "text": "“No one, Lord,” she answered. “Then neither do I condemn you,” Jesus declared. “Now go and sin no more.”"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 26,
+            "text": "And each went to his home."
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 38,
+            "text": "But Jesus went to the Mount of Olives."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 138,
+            "text": "And early in the morning, again He came into the temple, and all the people were coming to Him. And having sat down, He was teaching them."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 119,
+            "text": "Now the scribes and the Pharisees bring to Him a woman having been caught in adultery, and having set her in the midst,"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 86,
+            "text": "they say to Him, “Teacher, this woman was caught in the very act, committing adultery."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 82,
+            "text": "Now in the Law Moses commanded us to stone such. You, therefore, what do You say?”"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 167,
+            "text": "Now they were saying this, testing Him, so that they might have [grounds] to accuse Him. But Jesus, having stooped down, was writing with [His] finger into the ground."
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 139,
+            "text": "But as they continued asking Him, He lifted Himself up and said to them, “The one sinless among you⁺, let him cast the first stone at her.”"
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 62,
+            "text": "And again having stooped down, He was writing into the ground."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 158,
+            "text": "And having heard, they were going out one by one, having begun from the elder ones until the last, and Jesus was left alone, and the woman being in the midst."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 112,
+            "text": "And having lifted Himself up, Jesus said to her, “Woman, where are those—your accusers? Did no one condemn you?”"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 115,
+            "text": "And she said, “No one, Lord.” And Jesus said to her, “Neither do I condemn you. Go, and from now [on] sin no more.”"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 31,
+            "text": "Then each went to his own home."
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 38,
+            "text": "But Jesus went to the Mount of Olives."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 116,
+            "text": "Early in the morning He went back into the temple courts. All the people came to Him, and He sat down to teach them."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 110,
+            "text": "The scribes and Pharisees, however, brought to Him a woman caught in adultery. They made her stand before them"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 82,
+            "text": "and to test Him they said, “Teacher, this woman was caught in the act of adultery."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 73,
+            "text": "In the Law Moses commanded us to stone such a woman. So what do You say?”"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 159,
+            "text": "They said this to test Him, in order to have a basis for accusing Him. But Jesus bent down and began to write on the ground with His finger, not taking notice."
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 149,
+            "text": "When they continued to question Him, He straightened up and said to them, “Let him who is without sin among you be the first to cast a stone at her.”"
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 47,
+            "text": "And again He bent down and wrote on the ground."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 184,
+            "text": "When they heard this and were convicted by their consciences, they began to go away one by one, beginning with the older ones, until only Jesus was left, with the woman standing there."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 127,
+            "text": "Then Jesus straightened up and saw no one but the woman. And He asked her, “Where are your accusers? Has no one condemned you?”"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 100,
+            "text": "“No one, Lord,” she answered. “Then neither do I condemn you,” Jesus declared. “Go and sin no more.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 80,
+            "text": "and each one went on to his house, but Jesus went on to the mount of the Olives."
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 40,
+            "text": "And at dawn he came again to the temple,"
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 83,
+            "text": "and all the people were coming unto him, and having sat down, he was teaching them;"
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 120,
+            "text": "and the scribes and the Pharisees bring unto him a woman having been taken in adultery, and having set her in the midst,"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 88,
+            "text": "they say to him, 'Teacher, this woman was taken in the very crime — committing adultery,"
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 95,
+            "text": "and in the law, Moses did command us that such be stoned; thou, therefore, what dost thou say?'"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 145,
+            "text": "and this they said, trying him, that they might have to accuse him. And Jesus, having stooped down, with the finger he was writing on the ground,"
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 140,
+            "text": "and when they continued asking him, having bent himself back, he said unto them, 'The sinless of you — let him first cast the stone at her;'"
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 60,
+            "text": "and again having stooped down, he was writing on the ground,"
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 199,
+            "text": "and they having heard, and by the conscience being convicted, were going forth one by one, having begun from the elders — unto the last; and Jesus was left alone, and the woman standing in the midst."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 165,
+            "text": "And Jesus having bent himself back, and having seen no one but the woman, said to her, 'Woman, where are those — thine accusers? did no one pass sentence upon thee?'"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 119,
+            "text": "and she said, 'No one, Sir;' and Jesus said to her, 'Neither do I pass sentence on thee; be going on, and no more sin.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "bracketed",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 42,
+            "text": "<Καὶ ἐπορεύθη ἕκαστος εἰς τὸν οἶκον αὐτοῦ."
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 42,
+            "text": "Ἰησοῦς δὲ ἐπορεύθη εἰς τὸ ὄρος τῶν ἐλαιῶν."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 104,
+            "text": "Ὄρθρου δὲ πάλιν παρεγένετο εἰς τὸ ἱερόν, καὶ πᾶς ὁ λαὸς ἤρχετο πρὸς αὐτόν. καὶ καθίσας ἐδίδασκεν αὐτούς."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 114,
+            "text": "ἄγουσι δὲ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι πρὸς αὐτὸν γυναῖκα ἐν μοιχείᾳ κατειλημμένην, καὶ στήσαντες αὐτὴν ἐν μέσῳ,"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 71,
+            "text": "λέγουσιν αὐτῷ, Διδάσκαλε, αὕτη ἡ γυνὴ κατελήφθη ἐπαυτοφώρῳ μοιχευομένη."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 81,
+            "text": "ἐν δὲ τῷ νόμῳ Μωσῆς ἡμῖν ἐνετείλατο τὰς τοιαύτας λιθοβολεῖσθαι· σὺ οὖν τί λέγεις;"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 118,
+            "text": "τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσι κατηγορεῖν αὐτοῦ. ὁ δὲ Ἰησοῦς κάτω κύψας, τῷ δακτύλῳ ἔγραφεν εἰς τὴν γῆν·"
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 111,
+            "text": "ὡς δὲ ἐπέμενον ἐρωτῶντες αὐτόν, ἀνάκυψας εἶπε πρὸς αὐτοὺς, Ὁ ἀναμάρτητος ὑμῶν πρῶτος τὸν λίθον ἐπ’ αὐτῇ βαλέτω."
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 41,
+            "text": "καὶ πάλιν κάτω κύψας ἔγραφεν εἰς τὴν γῆν."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 181,
+            "text": "οἱ δὲ, ἀκούσαντες καὶ ὑπὸ τῆς συνειδήσεως ἐλεγχόμενοι, ἐξήρχοντο εἷς καθεῖς, ἀρξάμενοι ἀπὸ τῶν πρεσβυτέρων ἕως τῶν ἐσχάτων· καὶ κατελείφθη μόνος ὁ Ἰησοῦς, καὶ ἡ γυνὴ ἐν μέσῳ ἑστῶσα."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 140,
+            "text": "ἀνακύψας δὲ ὁ Ἰησοῦς, καὶ μηδένα θεασάμενος πλὴν τῆς γυναικὸς, εἶπεν αὐτῇ, Ἡ γυνὴ, ποῦ εἰσιν ἐκεῖνοι οἱ κατήγοροί σου; οὐδείς σε κατέκρινεν;"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 102,
+            "text": "ἡ δὲ εἶπεν, Οὐδείς, κύριε. εἶπε δὲ αὐτῇ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κατακρίνω· πορεύου καὶ μηκέτι ἁμάρτανε.>"
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 41,
+            "text": "Καὶ ἐπορεύθη ἕκαστος εἰς τὸν οἶκον αὐτοῦ·"
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 42,
+            "text": "Ἰησοῦς δὲ ἐπορεύθη εἰς τὸ ὄρος τῶν Ἐλαιῶν."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 93,
+            "text": "Ὄρθρου δὲ πάλιν παρεγένετο εἰς τὸ ἱερόν, καὶ πᾶς ὁ λαὸς ἤρχετο· καὶ καθίσας ἐδίδασκεν αὐτούς."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 115,
+            "text": "Ἄγουσιν δὲ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι πρὸς αὐτὸν γυναῖκα ἐν μοιχείᾳ καταληφθεῖσαν· καὶ στήσαντες αὐτὴν ἐν μέσῳ,"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 86,
+            "text": "λέγουσιν αὐτῷ, πειράζοντες, Διδάσκαλε, αὕτη ἡ γυνὴ κατελήφθη ἐπ’ αὐτοφόρῳ μοιχευομένη."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 81,
+            "text": "Ἐν δὲ τῷ νόμῳ Μωσῆς ἡμῖν ἐνετείλατο τὰς τοιαύτας λιθοβολεῖσθαι· σὺ οὖν τί λέγεις;"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 138,
+            "text": "Τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσιν κατηγορεῖν αὐτοῦ. Ὁ δὲ Ἰησοῦς κάτω κύψας, τῷ δακτύλῳ ἔγραφεν εἰς τὴν γῆν, μὴ προσποιούμενος."
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 114,
+            "text": "Ὡς δὲ ἐπέμενον ἐρωτῶντες αὐτόν, ἀνακύψας εἶπεν πρὸς αὐτούς, Ὁ ἀναμάρτητος ὑμῶν, πρῶτον ἐπ’ αὐτὴν τὸν λίθον βαλέτω."
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 41,
+            "text": "Καὶ πάλιν κάτω κύψας ἔγραφεν εἰς τὴν γῆν."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 166,
+            "text": "Οἱ δέ, ἀκούσαντες, καὶ ὑπὸ τῆς συνειδήσεως ἐλεγχόμενοι, ἐξήρχοντο εἷς καθ’ εἷς, ἀρξάμενοι ἀπὸ τῶν πρεσβυτέρων· καὶ κατελείφθη μόνος ὁ Ἰησοῦς, καὶ ἡ γυνὴ ἐν μέσῳ οὖσα."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 132,
+            "text": "Ἀνακύψας δὲ ὁ Ἰησοῦς, καὶ μηδένα θεασάμενος πλὴν τῆς γυναικός, εἶπεν αὐτῇ, Ποῦ εἰσιν ἐκεῖνοι οἱ κατήγοροί σου; Οὐδείς σε κατέκρινεν;"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 93,
+            "text": "Ἡ δὲ εἶπεν, Οὐδείς, κύριε. Εἶπεν δὲ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κρίνω· πορεύου καὶ μηκέτι ἁμάρτανε."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.7.53",
+            "start": 0,
+            "end": 41,
+            "text": "Καὶ ἐπορεύθη ἕκαστος εἰς τὸν οἶκον αὐτοῦ·"
+          },
+          {
+            "segmentId": "JHN.8.1",
+            "start": 0,
+            "end": 42,
+            "text": "Ἰησοῦς δὲ ἐπορεύθη εἰς τὸ ὄρος τῶν Ἐλαιῶν."
+          },
+          {
+            "segmentId": "JHN.8.2",
+            "start": 0,
+            "end": 104,
+            "text": "Ὄρθρου δὲ πάλιν παρεγένετο εἰς τὸ ἱερόν, καὶ πᾶς ὁ λαὸς ἤρχετο πρὸς αὐτόν· καὶ καθίσας ἐδίδασκεν αὐτούς."
+          },
+          {
+            "segmentId": "JHN.8.3",
+            "start": 0,
+            "end": 114,
+            "text": "Ἄγουσι δὲ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι πρὸς αὐτὸν γυναῖκα ἐν μοιχείᾳ κατειλημμένην· καὶ στήσαντες αὐτὴν ἐν μέσῳ,"
+          },
+          {
+            "segmentId": "JHN.8.4",
+            "start": 0,
+            "end": 72,
+            "text": "λέγουσιν αὐτῷ, Διδάσκαλε, αὕτη ἡ γυνὴ κατειλήφθη ἐπαυτοφώρῳ μοιχευομένη."
+          },
+          {
+            "segmentId": "JHN.8.5",
+            "start": 0,
+            "end": 81,
+            "text": "Ἐν δὲ τῷ νόμῳ Μωσῆς ἡμῖν ἐνετείλατο τὰς τοιαύτας λιθοβολεῖσθαι· σὺ οὖν τί λέγεις;"
+          },
+          {
+            "segmentId": "JHN.8.6",
+            "start": 0,
+            "end": 118,
+            "text": "Τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσι κατηγορεῖν αὐτοῦ. Ὁ δὲ Ἰησοῦς κάτω κύψας, τῷ δακτύλῳ ἔγραφεν εἰς τὴν γῆν."
+          },
+          {
+            "segmentId": "JHN.8.7",
+            "start": 0,
+            "end": 112,
+            "text": "Ὡς δὲ ἐπέμενον ἐρωτῶντες αὐτόν, ἀνακύψας εἶπε πρὸς αὐτούς, Ὁ ἀναμάρτητος ὑμῶν, πρῶτος τὸν λίθον ἐπ᾿ αὐτῇ βαλέτω."
+          },
+          {
+            "segmentId": "JHN.8.8",
+            "start": 0,
+            "end": 41,
+            "text": "Καὶ πάλιν κάτω κύψας ἔγραφεν εἰς τὴν γῆν."
+          },
+          {
+            "segmentId": "JHN.8.9",
+            "start": 0,
+            "end": 184,
+            "text": "Οἱ δέ, ἀκούσαντες, καὶ ὑπὸ τῆς συνειδήσεως ἐλεγχόμενοι, ἐξήρχοντο εἷς καθ᾿ εἷς, ἀρξάμενοι ἀπὸ τῶν πρεσβυτέρων ἕως τῶν ἐσχάτων· καὶ κατελείφθη μόνος ὁ Ἰησοῦς, καὶ ἡ γυνὴ ἐν μέσῳ ἑστῶσα."
+          },
+          {
+            "segmentId": "JHN.8.10",
+            "start": 0,
+            "end": 140,
+            "text": "Ἀνακύψας δὲ ὁ Ἰησοῦς, καὶ μηδένα θεασάμενος πλὴν τῆς γυναικός, εἶπεν αὐτῇ, Ἡ γυνή, ποῦ εἰσιν ἐκεῖνοι οἱ κατήγοροί σου; Οὐδείς σε κατέκρινεν;"
+          },
+          {
+            "segmentId": "JHN.8.11",
+            "start": 0,
+            "end": 101,
+            "text": "Ἡ δὲ εἶπεν, Οὐδείς, Κύριε. Εἶπε δὲ αὐτῇ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κατακρίνω· πορεύου καὶ μηκέτι ἁμάρτανε."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/JHN.usj#content/244/content/1; bsb_usj/JHN.usj#content/247/content/1; bsb_usj/JHN.usj#content/248/content/1; bsb_usj/JHN.usj#content/248/content/5; bsb_usj/JHN.usj#content/248/content/7; bsb_usj/JHN.usj#content/248/content/9; bsb_usj/JHN.usj#content/249/content/1; bsb_usj/JHN.usj#content/250/content/1; bsb_usj/JHN.usj#content/250/content/4; bsb_usj/JHN.usj#content/251/content/1; bsb_usj/JHN.usj#content/251/content/5; bsb_usj/JHN.usj#content/252/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=26385; blb.txt#line=26386; blb.txt#line=26387; blb.txt#line=26388; blb.txt#line=26389; blb.txt#line=26390; blb.txt#line=26391; blb.txt#line=26392; blb.txt#line=26393; blb.txt#line=26394; blb.txt#line=26395; blb.txt#line=26396",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "JHN.usj#content/243/content/1; JHN.usj#content/246/content/1; JHN.usj#content/247/content/1; JHN.usj#content/247/content/13; JHN.usj#content/247/content/17; JHN.usj#content/247/content/22; JHN.usj#content/248/content/1; JHN.usj#content/249/content/1; JHN.usj#content/249/content/6; JHN.usj#content/250/content/1; JHN.usj#content/250/content/11; JHN.usj#content/251/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[19]/v[104]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[0]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[2]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[4]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[6]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[8]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[10]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[12]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[14]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[16]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[18]; engylt_usfx.xml#book[@id=\"JHN\"]/p[21]/v[20]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/John-ap.xhtml#body/42/0/0; xhtml/John-ap.xhtml#body/46/0; xhtml/John-ap.xhtml#body/46/1; xhtml/John-ap.xhtml#body/46/2; xhtml/John-ap.xhtml#body/46/3; xhtml/John-ap.xhtml#body/46/4; xhtml/John-ap.xhtml#body/46/5; xhtml/John-ap.xhtml#body/46/6; xhtml/John-ap.xhtml#body/46/7; xhtml/John-ap.xhtml#body/46/8; xhtml/John-ap.xhtml#body/46/9; xhtml/John-ap.xhtml#body/46/10",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=338; csv-unicode/ccat/no-variants/JOH.csv#row=339; csv-unicode/ccat/no-variants/JOH.csv#row=340; csv-unicode/ccat/no-variants/JOH.csv#row=341; csv-unicode/ccat/no-variants/JOH.csv#row=342; csv-unicode/ccat/no-variants/JOH.csv#row=343; csv-unicode/ccat/no-variants/JOH.csv#row=344; csv-unicode/ccat/no-variants/JOH.csv#row=345; csv-unicode/ccat/no-variants/JOH.csv#row=346; csv-unicode/ccat/no-variants/JOH.csv#row=347; csv-unicode/ccat/no-variants/JOH.csv#row=348; csv-unicode/ccat/no-variants/JOH.csv#row=349",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"JHN\"]/p[68]/v[0]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[0]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[10]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[30]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[49]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[58]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[74]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[96]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[116]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[126]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[157]; grctr_usfx.xml#book[@id=\"JHN\"]/p[70]/v[182]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-18",
+    "title": "Acts 8:37",
+    "ranges": [
+      {
+        "start": "ACT.8.37",
+        "end": "ACT.8.37"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.8.37",
+            "start": 0,
+            "end": 147,
+            "text": "[And Philip said, 'If thou dost believe out of all the heart, it is lawful;' and he answering said, 'I believe Jesus Christ to be the Son of God;']"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.8.37",
+            "start": 0,
+            "end": 134,
+            "text": "Εἶπε δὲ ὁ Φίλιππος, Εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας, ἔξεστιν. Ἀποκριθεὶς δὲ εἶπε, Πιστεύω τὸν υἱὸν τοῦ Θεοῦ εἶναι τὸν Ἰησοῦν Χριστόν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.8.37",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.8.37",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "manifest verifiedGaps: ACT.8.37",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ACT\"]/p[21]/v[72]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.8.37",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.8.37",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ACT\"]/p[132]/v[64]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-19",
+    "title": "Acts 15:34",
+    "ranges": [
+      {
+        "start": "ACT.15.34",
+        "end": "ACT.15.34"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.15.34",
+            "start": 0,
+            "end": 50,
+            "text": "and it seemed good to Silas to remain there still."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.15.34",
+            "start": 0,
+            "end": 33,
+            "text": "Ἔδοξε δὲ τῷ Σίλᾳ ἐπιμεῖναι αὐτοῦ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.15.34",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.15.34",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "manifest verifiedGaps: ACT.15.34",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ACT\"]/p[35]/v[66]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.15.34",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.15.34",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ACT\"]/p[214]/v[57]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-20",
+    "title": "Acts 24:6-8",
+    "ranges": [
+      {
+        "start": "ACT.24.6",
+        "end": "ACT.24.8"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 60,
+            "text": "and he even tried to desecrate the temple; so we seized him."
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 98,
+            "text": "By examining him yourself, you will be able to learn the truth about all our charges against him.”"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 62,
+            "text": "who even attempted to profane the temple, whom we also seized."
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 118,
+            "text": "Having examined [him] yourself, you will be able to know from him concerning all these things of which we accuse him.”"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 60,
+            "text": "and he even tried to desecrate the temple; so we seized him."
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 98,
+            "text": "By examining him yourself, you will be able to learn the truth about all our charges against him.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 102,
+            "text": "who also the temple did try to profane, whom also we took, and according to our law did wish to judge,"
+          },
+          {
+            "segmentId": "ACT.24.7",
+            "start": 0,
+            "end": 98,
+            "text": "and Lysias the chief captain having come near, with much violence, out of our hands did take away,"
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 163,
+            "text": "having commanded his accusers to come to thee, from whom thou mayest be able, thyself having examined, to know concerning all these things of which we accuse him;'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 56,
+            "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι, ὃν καὶ ἐκρατήσαμεν,"
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 88,
+            "text": "παρ’ οὗ δυνήσῃ αὐτὸς ἀνακρίνας περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 56,
+            "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν·"
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 90,
+            "text": "παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.24.6",
+            "start": 0,
+            "end": 102,
+            "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασε βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν καὶ κατὰ τὸν ἡμέτερον νόμον ἠθελήσαμεν κρίνειν."
+          },
+          {
+            "segmentId": "ACT.24.7",
+            "start": 0,
+            "end": 75,
+            "text": "Παρελθὼν δὲ Λυσίας ὁ χιλίαρχος μετὰ πολλῆς βίας ἐκ τῶν χειρῶν ἡμῶν ἀπήγαγε,"
+          },
+          {
+            "segmentId": "ACT.24.8",
+            "start": 0,
+            "end": 138,
+            "text": "κελεύσας τοὺς κατηγόρους αὐτοῦ ἔρχεσθαι ἐπὶ σέ· παρ᾿ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/ACT.usj#content/654/content/3; bsb_usj/ACT.usj#content/654/content/6",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=27779; blb.txt#line=27781",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "ACT.usj#content/653/content/7; ACT.usj#content/653/content/16",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ACT\"]/p[53]/v[10]; engylt_usfx.xml#book[@id=\"ACT\"]/p[53]/v[12]; engylt_usfx.xml#book[@id=\"ACT\"]/p[53]/v[14]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Acts-ap.xhtml#body/211/0/5; xhtml/Acts-ap.xhtml#body/211/0/6",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=851; csv-unicode/ccat/no-variants/ACT.csv#row=852",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ACT\"]/p[277]/v[101]; grctr_usfx.xml#book[@id=\"ACT\"]/p[277]/v[118]; grctr_usfx.xml#book[@id=\"ACT\"]/p[277]/v[132]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-21",
+    "title": "Acts 28:29",
+    "ranges": [
+      {
+        "start": "ACT.28.29",
+        "end": "ACT.28.29"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.28.29",
+            "start": 0,
+            "end": 90,
+            "text": "And when he had said these things, the Jews went away, disputing sharply among themselves."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.28.29",
+            "start": 0,
+            "end": 94,
+            "text": "and he having said these things, the Jews went away, having much disputation among themselves;"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.28.29",
+            "start": 0,
+            "end": 83,
+            "text": "Καὶ ταῦτα αὐτοῦ εἰπόντος, ἀπῆλθον οἱ Ἰουδαῖοι, πολλὴν ἔχοντες ἐν ἑαυτοῖς συζήτησιν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ACT.28.29",
+            "start": 0,
+            "end": 83,
+            "text": "Καὶ ταῦτα αὐτοῦ εἰπόντος, ἀπῆλθον οἱ Ἰουδαῖοι, πολλὴν ἔχοντες ἐν ἑαυτοῖς συζήτησιν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.28.29",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.28.29",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "ACT.usj#content/752/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ACT\"]/p[61]/v[56]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ACT.28.29",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/ACT.csv#row=1003",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ACT\"]/p[322]/v[17]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-22",
+    "title": "Romans 5:1",
+    "ranges": [
+      {
+        "start": "ROM.5.1",
+        "end": "ROM.5.1"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 108,
+            "text": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ,"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 96,
+            "text": "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 108,
+            "text": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ,"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 103,
+            "text": "Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 91,
+            "text": "Δικαιωθέντες οὖν ἐκ πίστεως εἰρήνην ἔχωμεν πρὸς τὸν Θεὸν διὰ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,"
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 92,
+            "text": "Δικαιωθέντες οὖν ἐκ πίστεως, εἰρήνην ἔχομεν πρὸς τὸν θεὸν διὰ τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ,"
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.5.1",
+            "start": 0,
+            "end": 92,
+            "text": "Δικαιωθέντες οὖν ἐκ πίστεως, εἰρήνην ἔχομεν πρὸς τὸν Θεὸν διὰ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,"
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/ROM.usj#content/94/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=28052",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "ROM.usj#content/93/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ROM\"]/p[15]/v[0]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Romans-ap.xhtml#body/43/0/0",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=119",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ROM\"]/p[59]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-23",
+    "title": "Romans 16:24",
+    "ranges": [
+      {
+        "start": "ROM.16.24",
+        "end": "ROM.16.24"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.24",
+            "start": 0,
+            "end": 61,
+            "text": "May the grace of our Lord Jesus Christ be with you all. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.24",
+            "start": 0,
+            "end": 59,
+            "text": "the grace of our Lord Jesus Christ [be] with you all. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "absent",
+        "spans": []
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.24",
+            "start": 0,
+            "end": 61,
+            "text": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.24",
+            "start": 0,
+            "end": 61,
+            "text": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ROM.16.24",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ROM.16.24",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "ROM.usj#content/393/content/4",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ROM\"]/p[37]/v[46]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "manifest verifiedGaps: ROM.16.24",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=434",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ROM\"]/p[228]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-24",
+    "title": "Romans 16:25-27",
+    "ranges": [
+      {
+        "start": "ROM.16.25",
+        "end": "ROM.16.27"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.25",
+            "start": 0,
+            "end": 161,
+            "text": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past"
+          },
+          {
+            "segmentId": "ROM.16.26",
+            "start": 0,
+            "end": 172,
+            "text": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith—"
+          },
+          {
+            "segmentId": "ROM.16.27",
+            "start": 0,
+            "end": 65,
+            "text": "to the only wise God be glory forever through Jesus Christ! Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.25",
+            "start": 0,
+            "end": 194,
+            "text": "Now to Him being able to strengthen you⁺ according to my gospel and the proclamation of Jesus Christ, according to the revelation of the mystery having been kept silent in the times of the ages,"
+          },
+          {
+            "segmentId": "ROM.16.26",
+            "start": 0,
+            "end": 186,
+            "text": "but now having been made manifest also through the prophetic writings, according to the commandment of the eternal God having been made known to all the Gentiles unto obedience of faith—"
+          },
+          {
+            "segmentId": "ROM.16.27",
+            "start": 0,
+            "end": 103,
+            "text": "[to] the only wise God [be] the glory unto the ages of the ages, which [is] through Jesus Christ! Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "relocated",
+        "spans": [
+          {
+            "segmentId": "ROM.14.24",
+            "start": 0,
+            "end": 161,
+            "text": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past"
+          },
+          {
+            "segmentId": "ROM.14.25",
+            "start": 0,
+            "end": 172,
+            "text": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith—"
+          },
+          {
+            "segmentId": "ROM.14.26",
+            "start": 0,
+            "end": 65,
+            "text": "to the only wise God be glory forever through Jesus Christ! Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.25",
+            "start": 0,
+            "end": 195,
+            "text": "And to Him who is able to establish you, according to my good news, and the preaching of Jesus Christ, according to the revelation of the secret, in the times of the ages having been kept silent,"
+          },
+          {
+            "segmentId": "ROM.16.26",
+            "start": 0,
+            "end": 181,
+            "text": "and now having been made manifest, also, through prophetic writings, according to a command of the age-during God, having been made known to all the nations for obedience of faith —"
+          },
+          {
+            "segmentId": "ROM.16.27",
+            "start": 0,
+            "end": 80,
+            "text": "to the only wise God, through Jesus Christ, to him [be] glory to the ages. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.25",
+            "start": 0,
+            "end": 137,
+            "text": "Τῷ δὲ δυναμένῳ ὑμᾶς στηρίξαι κατὰ τὸ εὐαγγέλιόν μου καὶ τὸ κήρυγμα Ἰησοῦ Χριστοῦ, κατὰ ἀποκάλυψιν μυστηρίου χρόνοις αἰωνίοις σεσιγημένου,"
+          },
+          {
+            "segmentId": "ROM.16.26",
+            "start": 0,
+            "end": 127,
+            "text": "φανερωθέντος δὲ νῦν διά τε γραφῶν προφητικῶν κατ’ ἐπιταγὴν τοῦ αἰωνίου Θεοῦ εἰς ὑπακοὴν πίστεως εἰς πάντα τὰ ἔθνη γνωρισθέντος,"
+          },
+          {
+            "segmentId": "ROM.16.27",
+            "start": 0,
+            "end": 76,
+            "text": "μόνῳ σοφῷ Θεῷ, διὰ Ἰησοῦ Χριστοῦ, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "relocated",
+        "spans": [
+          {
+            "segmentId": "ROM.14.24",
+            "start": 0,
+            "end": 137,
+            "text": "Τῷ δὲ δυναμένῳ ὑμᾶς στηρίξαι κατὰ τὸ εὐαγγέλιόν μου καὶ τὸ κήρυγμα Ἰησοῦ χριστοῦ, κατὰ ἀποκάλυψιν μυστηρίου χρόνοις αἰωνίοις σεσιγημένου,"
+          },
+          {
+            "segmentId": "ROM.14.25",
+            "start": 0,
+            "end": 130,
+            "text": "φανερωθέντος δὲ νῦν, διά τε γραφῶν προφητικῶν, κατ’ ἐπιταγὴν τοῦ αἰωνίου θεοῦ, εἰς ὑπακοὴν πίστεως εἰς πάντα τὰ ἔθνη γνωρισθέντος,"
+          },
+          {
+            "segmentId": "ROM.14.26",
+            "start": 0,
+            "end": 65,
+            "text": "μόνῳ σοφῷ θεῷ, διὰ Ἰησοῦ χριστοῦ, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας. Ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "ROM.16.25",
+            "start": 0,
+            "end": 137,
+            "text": "Τῷ δὲ δυναμένῳ ὑμᾶς στηρίξαι κατὰ τὸ εὐαγγέλιόν μου καὶ τὸ κήρυγμα Ἰησοῦ Χριστοῦ, κατὰ ἀποκάλυψιν μυστηρίου χρόνοις αἰωνίοις σεσιγημένου,"
+          },
+          {
+            "segmentId": "ROM.16.26",
+            "start": 0,
+            "end": 130,
+            "text": "φανερωθέντος δὲ νῦν, διά τε γραφῶν προφητικῶν, κατ᾿ ἐπιταγὴν τοῦ αἰωνίου Θεοῦ, εἰς ὑπακοὴν πίστεως εἰς πάντα τὰ ἔθνη γνωρισθέντος,"
+          },
+          {
+            "segmentId": "ROM.16.27",
+            "start": 0,
+            "end": 65,
+            "text": "μόνῳ σοφῷ Θεῷ, διὰ Ἰησοῦ Χριστοῦ, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας. Ἀμήν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/ROM.usj#content/393/content/1; bsb_usj/ROM.usj#content/393/content/3; bsb_usj/ROM.usj#content/393/content/7",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=28365; blb.txt#line=28366; blb.txt#line=28367",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "ROM.usj#content/325/content/1; ROM.usj#content/325/content/7; ROM.usj#content/325/content/17",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"ROM\"]/p[37]/v[48]; engylt_usfx.xml#book[@id=\"ROM\"]/p[37]/v[50]; engylt_usfx.xml#book[@id=\"ROM\"]/p[37]/v[52]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Romans-ap.xhtml#body/147/0/0; xhtml/Romans-ap.xhtml#body/147/0/1; xhtml/Romans-ap.xhtml#body/147/0/2",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=375; csv-unicode/ccat/no-variants/ROM.csv#row=376; csv-unicode/ccat/no-variants/ROM.csv#row=377",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"ROM\"]/p[229]/v[0]; grctr_usfx.xml#book[@id=\"ROM\"]/p[229]/v[22]; grctr_usfx.xml#book[@id=\"ROM\"]/p[229]/v[44]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-25",
+    "title": "1 Corinthians 13:3",
+    "ranges": [
+      {
+        "start": "1CO.13.3",
+        "end": "1CO.13.3"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 109,
+            "text": "If I give all I possess to the poor and exult in the surrender of my body, but have not love, I gain nothing."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 140,
+            "text": "And if I should give away all my possessions, and if I should deliver up my body that I may boast, but have not love, I am profited nothing."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 106,
+            "text": "If I give all I possess to the poor and surrender my body to be burned, but have not love, I gain nothing."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 136,
+            "text": "and if I give away to feed others all my goods, and if I give up my body that I may be burned, and have not love, I am profited nothing."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 117,
+            "text": "καὶ ἐὰν ψωμίσω πάντα τὰ ὑπάρχοντά μου, καὶ ἐὰν παραδῶ τὸ σῶμά μου, ἵνα καυθήσομαι, ἀγάπην δὲ μὴ ἔχω, οὐδὲν ὠφελοῦμαι."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 116,
+            "text": "Καὶ ἐὰν ψωμίσω πάντα τὰ ὑπάρχοντά μου, καὶ ἐὰν παραδῶ τὸ σῶμά μου ἵνα καυθήσωμαι, ἀγάπην δὲ μὴ ἔχω, οὐδὲν ὠφελοῦμαι."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1CO.13.3",
+            "start": 0,
+            "end": 116,
+            "text": "Καὶ ἐὰν ψωμίσω πάντα τὰ ὑπάρχοντά μου, καὶ ἐὰν παραδῶ τὸ σῶμά μου ἵνα καυθήσωμαι, ἀγάπην δὲ μὴ ἔχω, οὐδὲν ὠφελοῦμαι."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/1CO.usj#content/184/content/5",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=28672",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "1CO.usj#content/183/content/9",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"1CO\"]/p[31]/v[4]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/1-Corinthians-ap.xhtml#body/71/2",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/1CO.csv#row=306",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"1CO\"]/p[93]/v[52]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-26",
+    "title": "1 Timothy 3:16",
+    "ranges": [
+      {
+        "start": "1TI.3.16",
+        "end": "1TI.3.16"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 227,
+            "text": "By common confession, the mystery of godliness is great: He appeared in the flesh, was vindicated by the Spirit, was seen by angels, was proclaimed among the nations, was believed in throughout the world, was taken up in glory."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 215,
+            "text": "And confessedly, great is the mystery of godliness: [He] who appeared in flesh, was justified in the Spirit, was seen by angels, was proclaimed among the nations, was believed on in the world, was taken up in glory."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 228,
+            "text": "By common confession, the mystery of godliness is great: God appeared in the flesh, was vindicated by the Spirit, was seen by angels, was proclaimed among the nations, was believed in throughout the world, was taken up in glory."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 196,
+            "text": "and, confessedly, great is the secret of piety — God was manifested in flesh, declared righteous in spirit, seen by messengers, preached among nations, believed on in the world, taken up in glory!"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 177,
+            "text": "καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· Ὃς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήμφθη ἐν δόξῃ."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 178,
+            "text": "Καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· θεὸς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήφθη ἐν δόξῃ."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1TI.3.16",
+            "start": 0,
+            "end": 177,
+            "text": "Καὶ ὁμολογουμένως μέγα ἐστὶ τὸ τῆς εὐσεβείας μυστήριον· Θεὸς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήφθη ἐν δόξῃ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/1TI.usj#content/42/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=29751",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "1TI.usj#content/41/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"1TI\"]/p[11]/v[30]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/1-Timothy-ap.xhtml#body/12/0/15",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/1TI.csv#row=52",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"1TI\"]/p[21]/v[33]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-27",
+    "title": "1 John 5:7-8",
+    "ranges": [
+      {
+        "start": "1JN.5.7",
+        "end": "1JN.5.8"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 33,
+            "text": "For there are three that testify:"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 70,
+            "text": "the Spirit, the water, and the blood—and these three are in agreement."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 31,
+            "text": "For there are three testifying:"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 70,
+            "text": "the Spirit and the water and the blood—and the three are into the one."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 33,
+            "text": "For there are three that testify:"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 70,
+            "text": "the Spirit, the water, and the blood—and these three are in agreement."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 128,
+            "text": "because three are who are testifying [in the heaven, the Father, the Word, and the Holy Spirit, and these — the three — are one;"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 121,
+            "text": "and three are who are testifying in the earth], the Spirit, and the water, and the blood, and the three are into the one."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 32,
+            "text": "ὅτι τρεῖς εἰσιν οἱ μαρτυροῦντες,"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 64,
+            "text": "τὸ Πνεῦμα καὶ τὸ ὕδωρ καὶ τὸ αἷμα, καὶ οἱ τρεῖς εἰς τὸ ἕν εἰσιν."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 32,
+            "text": "Ὅτι τρεῖς εἰσὶν οἱ μαρτυροῦντες,"
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 66,
+            "text": "τὸ πνεῦμα, καὶ τὸ ὕδωρ, καὶ τὸ αἷμα· καὶ οἱ τρεῖς εἰς τὸ ἕν εἰσιν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "1JN.5.7",
+            "start": 0,
+            "end": 112,
+            "text": "Ὅτι τρεῖς εἰσὶν οἱ μαρτυροῦντες ἐν τῷ οὐρανῷ, ὁ πατήρ, ὁ λόγος, καὶ τὸ ἅγιον πνεῦμα· καὶ οὗτοι οἱ τρεῖς ἕν εἰσι."
+          },
+          {
+            "segmentId": "1JN.5.8",
+            "start": 0,
+            "end": 108,
+            "text": "Καὶ τρεῖς εἰσὶν οἱ μαρτυροῦντες ἐν τῇ γῇ, τὸ πνεῦμα, καὶ τὸ ὕδωρ, καὶ τὸ αἷμα· καὶ οἱ τρεῖς εἰς τὸ ἕν εἰσιν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/1JN.usj#content/66/content/5; bsb_usj/1JN.usj#content/66/content/8",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=30635; blb.txt#line=30636",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "1JN.usj#content/65/content/11; 1JN.usj#content/65/content/14",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"1JN\"]/p[15]/v[12]; engylt_usfx.xml#book[@id=\"1JN\"]/p[15]/v[14]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/1-John-ap.xhtml#body/26/0/6; xhtml/1-John-ap.xhtml#body/26/0/7",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/1JO.csv#row=92; csv-unicode/ccat/no-variants/1JO.csv#row=93",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"1JN\"]/p[46]/v[36]; grctr_usfx.xml#book[@id=\"1JN\"]/p[46]/v[59]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-28",
+    "title": "Revelation 22:19",
+    "ranges": [
+      {
+        "start": "REV.22.19",
+        "end": "REV.22.19"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 167,
+            "text": "And if anyone takes away from the words of this book of prophecy, God will take away his share in the tree of life and the holy city, which are described in this book."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 183,
+            "text": "And if anyone should take away from the words of the book of this prophecy, God will take away his part from the tree of life, and out of the holy city, of those written in this book."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 166,
+            "text": "And if anyone takes away from the words of this book of prophecy, may God take away his share in the tree of life and the holy city, which are described in this book."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 214,
+            "text": "and if any one may take away from the words of the scroll of this prophecy, God shall take away his part from the scroll of the life, and out of the holy city, and the things that have been written in this scroll;'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 183,
+            "text": "καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφελεῖ ὁ Θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 184,
+            "text": "καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφέλοι ὁ θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς, καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.22.19",
+            "start": 0,
+            "end": 181,
+            "text": "καὶ ἐάν τις ἀφαιρῇ ἀπὸ τῶν λόγων βίβλου τῆς προφητείας ταύτης, ἀφαιρήσει ὁ Θεὸς τὸ μέρος αὐτοῦ ἀπὸ Βίβλου τῆς ζωῆς, καὶ ἐκ τῆς πόλεως τῆς ἁγίας, καὶ τῶν γεγραμμένων ἐν βιβλίῳ τούτῳ."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/REV.usj#content/568/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=31103",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "REV.usj#content/563/content/7",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"REV\"]/p[49]/v[36]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Revelation-ap.xhtml#body/154/10",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/REV.csv#row=403",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"REV\"]/p[355]/v[28]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-29",
+    "title": "2 Corinthians 13:12-14",
+    "ranges": [
+      {
+        "start": "2CO.13.12",
+        "end": "2CO.13.14"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 35,
+            "text": "Greet one another with a holy kiss."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 34,
+            "text": "All the saints send you greetings."
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 114,
+            "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 35,
+            "text": "Greet one another with a holy kiss."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 26,
+            "text": "All the saints greet you⁺."
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 117,
+            "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit [be] with all of you⁺."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 35,
+            "text": "Greet one another with a holy kiss."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 34,
+            "text": "All the saints send you greetings."
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 120,
+            "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you. Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 35,
+            "text": "salute one another in an holy kiss;"
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 29,
+            "text": "salute you do all the saints;"
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 120,
+            "text": "the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, [is] with you all! Amen."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 69,
+            "text": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι. Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 106,
+            "text": "Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ Θεοῦ καὶ ἡ κοινωνία τοῦ Ἁγίου Πνεύματος μετὰ πάντων ὑμῶν."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 36,
+            "text": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 32,
+            "text": "Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες."
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 114,
+            "text": "Ἡ χάρις τοῦ κυρίου Ἰησοῦ χριστοῦ, καὶ ἡ ἀγάπη τοῦ θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "2CO.13.12",
+            "start": 0,
+            "end": 36,
+            "text": "Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι."
+          },
+          {
+            "segmentId": "2CO.13.13",
+            "start": 0,
+            "end": 32,
+            "text": "Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες."
+          },
+          {
+            "segmentId": "2CO.13.14",
+            "start": 0,
+            "end": 114,
+            "text": "Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ, καὶ ἡ ἀγάπη τοῦ Θεοῦ, καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ὑμῶν. Ἀμήν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/2CO.usj#content/168/content/1; bsb_usj/2CO.usj#content/169/content/1; bsb_usj/2CO.usj#content/170/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=29059; blb.txt#line=29060; blb.txt#line=29061",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "2CO.usj#content/167/content/1; 2CO.usj#content/168/content/1; 2CO.usj#content/169/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"2CO\"]/p[31]/v[22]; engylt_usfx.xml#book[@id=\"2CO\"]/p[31]/v[24]; engylt_usfx.xml#book[@id=\"2CO\"]/p[31]/v[26]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/2-Corinthians-ap.xhtml#body/75/0/1; xhtml/2-Corinthians-ap.xhtml#body/75/0/2",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/2CO.csv#row=256; csv-unicode/ccat/no-variants/2CO.csv#row=257; csv-unicode/ccat/no-variants/2CO.csv#row=258",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"2CO\"]/p[92]/v[21]; grctr_usfx.xml#book[@id=\"2CO\"]/p[92]/v[28]; grctr_usfx.xml#book[@id=\"2CO\"]/p[93]/v[0]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  },
+  {
+    "id": "candidate-30",
+    "title": "3 John 14-15",
+    "ranges": [
+      {
+        "start": "3JN.1.14",
+        "end": "3JN.1.15"
+      }
+    ],
+    "status": "draft",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 156,
+            "text": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 125,
+            "text": "but I hope to see you soon, and we will speak mouth to mouth. Peace to you. The friends greet you. Greet the friends by name."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 156,
+            "text": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 146,
+            "text": "and I hope straightway to see thee, and mouth to mouth we shall speak. Peace to thee! salute thee do the friends; be saluting the friends by name."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 58,
+            "text": "ἐλπίζω δὲ εὐθέως σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν."
+          },
+          {
+            "segmentId": "3JN.1.15",
+            "start": 0,
+            "end": 67,
+            "text": "Εἰρήνη σοι. ἀσπάζονταί σε οἱ φίλοι. ἀσπάζου τοὺς φίλους κατ’ ὄνομα."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 126,
+            "text": "ἐλπίζω δὲ εὐθέως ἰδεῖν σε, καὶ στόμα πρὸς στόμα λαλήσομεν. Εἰρήνη σοι. Ἀσπάζονταί σε οἱ φίλοι. Ἀσπάζου τοὺς φίλους κατ’ ὄνομα."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "3JN.1.14",
+            "start": 0,
+            "end": 126,
+            "text": "ἐλπίζω δὲ εὐθέως ἰδεῖν σε, καὶ στόμα πρὸς στόμα λαλήσομεν. Εἰρήνη σοι. Ἀσπάζονταί σε οἱ φίλοι. Ἀσπάζου τοὺς φίλους κατ᾿ ὄνομα."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/3JN.usj#content/21/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=30676",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "3JN.usj#content/20/content/7",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"3JN\"]/p[7]/v[26]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/3-John-ap.xhtml#body/8/0/1; xhtml/3-John-ap.xhtml#body/8/0/2",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/3JO.csv#row=15",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"3JN\"]/p[13]/v[14]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": null,
+    "author": null,
+    "rights": "unresolved",
+    "provenance": "Automatically extracted edition readings for human review. No manuscript attestation or interpretive explanation has been generated."
+  }
+]

@@ -1,0 +1,4781 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/216",
+      "runs": [
+        {
+          "text": "The Tradition of the Elders",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/217",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 15:1–9",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/218",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MRK.7.1",
+          "anchors": [
+            "MRK.7.1"
+          ],
+          "sourceAnchor": "MRK.7.1"
+        },
+        {
+          "text": "Then the Pharisees and some of the scribes who had come from Jerusalem gathered around ",
+          "anchor": "MRK.7.1",
+          "marks": [],
+          "originalText": "Then the Pharisees and some of the scribes who had come from Jerusalem gathered around ",
+          "anchors": [
+            "MRK.7.1"
+          ],
+          "sourceAnchor": "MRK.7.1"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.1",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.1"
+          ],
+          "sourceAnchor": "MRK.7.1"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.7.1",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MRK.7.1"
+          ],
+          "sourceAnchor": "MRK.7.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MRK.7.2",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "text": "And seeing some of His disciples eating ",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": "And seeing some of His disciples eating ",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "text": "with",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": "with",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "text": " hands ",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": " hands ",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "text": "that were",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": "that were",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "text": " defiled (that is, unwashed), they found fault.",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": " defiled (that is, unwashed), they found fault.",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "noteId": "MRK.7.2.note.106",
+          "anchor": "MRK.7.2",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/219",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.2"
+          ],
+          "sourceAnchor": "MRK.7.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MRK.7.3",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "text": "Now in holding to the tradition of the elders, the Pharisees and all the Jews ",
+          "anchor": "MRK.7.3",
+          "marks": [],
+          "originalText": "Now in holding to the tradition of the elders, the Pharisees and all the Jews ",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "text": "do",
+          "anchor": "MRK.7.3",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "text": " not eat until they wash ",
+          "anchor": "MRK.7.3",
+          "marks": [],
+          "originalText": " not eat until they wash ",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "text": "their",
+          "anchor": "MRK.7.3",
+          "marks": [],
+          "originalText": "their",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "text": " hands ceremonially.",
+          "anchor": "MRK.7.3",
+          "marks": [],
+          "originalText": " hands ceremonially.",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "noteId": "MRK.7.3.note.107",
+          "anchor": "MRK.7.3",
+          "anchors": [
+            "MRK.7.3"
+          ],
+          "sourceAnchor": "MRK.7.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MRK.7.4",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "text": "And ",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": "And ",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "text": "on returning",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": "on returning",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "text": " from the market, they do not eat unless they wash. And there are many other traditions for them to observe, ",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": " from the market, they do not eat unless they wash. And there are many other traditions for them to observe, ",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "text": "including",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": "including",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "text": " the washing of cups, pitchers, kettles, and couches for dining.",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": " the washing of cups, pitchers, kettles, and couches for dining.",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "noteId": "MRK.7.4.note.108",
+          "anchor": "MRK.7.4",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/220",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.4"
+          ],
+          "sourceAnchor": "MRK.7.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MRK.7.5",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": "So the Pharisees and scribes questioned ",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": "So the Pharisees and scribes questioned ",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": ": “Why ",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": ": “Why ",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": "do",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": " Your disciples not walk according to the tradition of the elders? Instead, they eat with unwashed",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": " Your disciples not walk according to the tradition of the elders? Instead, they eat with unwashed",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "noteId": "MRK.7.5.note.109",
+          "anchor": "MRK.7.5",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "text": " hands.”",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": " hands.”",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/221",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.5"
+          ],
+          "sourceAnchor": "MRK.7.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MRK.7.6",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        },
+        {
+          "text": "Jesus answered them, ",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": " Jesus answered them, ",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        },
+        {
+          "text": "“Isaiah prophesied correctly about you hypocrites, as it is written:",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": "“Isaiah prophesied correctly about you hypocrites, as it is written:",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/222",
+      "runs": [
+        {
+          "text": " ‘These people honor Me with ",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": "‘These people honor Me with ",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        },
+        {
+          "text": "their",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": "their",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        },
+        {
+          "text": " lips,",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": " lips,",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/223",
+      "runs": [
+        {
+          "text": " but their hearts are far from Me.",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": "but their hearts are far from Me.",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/224",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.6"
+          ],
+          "sourceAnchor": "MRK.7.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MRK.7.7",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "text": "They worship Me in vain;",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": "They worship Me in vain;",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/225",
+      "runs": [
+        {
+          "text": " they teach ",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": "they teach ",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "text": "as",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": "as",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "text": " doctrine ",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": " doctrine ",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "text": " precepts of men.’",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": " precepts of men.’",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "noteId": "MRK.7.7.note.110",
+          "anchor": "MRK.7.7",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/226",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.7",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.7"
+          ],
+          "sourceAnchor": "MRK.7.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MRK.7.8",
+          "anchors": [
+            "MRK.7.8"
+          ],
+          "sourceAnchor": "MRK.7.8"
+        },
+        {
+          "text": "You have disregarded the commandment of God to keep the tradition of men—the washing of pitchers and cups, and many other similar things you do.",
+          "anchor": "MRK.7.8",
+          "marks": [],
+          "originalText": "You have disregarded the commandment of God to keep the tradition of men— the washing of pitchers and cups, and many other similar things you do.",
+          "anchors": [
+            "MRK.7.8"
+          ],
+          "sourceAnchor": "MRK.7.8"
+        },
+        {
+          "noteId": "MRK.7.8.note.111",
+          "anchor": "MRK.7.8",
+          "anchors": [
+            "MRK.7.8"
+          ],
+          "sourceAnchor": "MRK.7.8"
+        },
+        {
+          "text": "”",
+          "anchor": "MRK.7.8",
+          "marks": [],
+          "originalText": "”",
+          "anchors": [
+            "MRK.7.8"
+          ],
+          "sourceAnchor": "MRK.7.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/227",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.8"
+          ],
+          "sourceAnchor": "MRK.7.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MRK.7.9",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "text": "He went on to say, ",
+          "anchor": "MRK.7.9",
+          "marks": [],
+          "originalText": "He went on to say, ",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "text": "“You neatly set aside the command of God to maintain",
+          "anchor": "MRK.7.9",
+          "marks": [],
+          "originalText": "“You neatly set aside the command of God to maintain",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "noteId": "MRK.7.9.note.112",
+          "anchor": "MRK.7.9",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "text": " your ",
+          "anchor": "MRK.7.9",
+          "marks": [],
+          "originalText": " your ",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "text": "own",
+          "anchor": "MRK.7.9",
+          "marks": [],
+          "originalText": "own",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "text": " tradition.",
+          "anchor": "MRK.7.9",
+          "marks": [],
+          "originalText": " tradition. ",
+          "anchors": [
+            "MRK.7.9"
+          ],
+          "sourceAnchor": "MRK.7.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MRK.7.10",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "text": "For Moses said, ‘Honor your father and your mother’",
+          "anchor": "MRK.7.10",
+          "marks": [],
+          "originalText": "For Moses said, ‘Honor your father and your mother’",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "noteId": "MRK.7.10.note.113",
+          "anchor": "MRK.7.10",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "text": " and ‘Anyone who curses ",
+          "anchor": "MRK.7.10",
+          "marks": [],
+          "originalText": " and ‘Anyone who curses ",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "text": "his",
+          "anchor": "MRK.7.10",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "text": " father or mother must be put to death.’",
+          "anchor": "MRK.7.10",
+          "marks": [],
+          "originalText": " father or mother must be put to death.’",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "noteId": "MRK.7.10.note.114",
+          "anchor": "MRK.7.10",
+          "anchors": [
+            "MRK.7.10"
+          ],
+          "sourceAnchor": "MRK.7.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MRK.7.11",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": "But you say that if a man says to ",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": "But you say that if a man says to ",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": "his",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": " father or mother, ‘Whatever you would have received from me ",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": " father or mother, ‘Whatever you would have received from me ",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": "is",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": " Corban’ (that is, a gift devoted ",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": " Corban’ (that is, a gift devoted ",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": "to God",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": "to God",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "text": "),",
+          "anchor": "MRK.7.11",
+          "marks": [],
+          "originalText": "), ",
+          "anchors": [
+            "MRK.7.11"
+          ],
+          "sourceAnchor": "MRK.7.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MRK.7.12",
+          "anchors": [
+            "MRK.7.12"
+          ],
+          "sourceAnchor": "MRK.7.12"
+        },
+        {
+          "text": "he ",
+          "anchor": "MRK.7.12",
+          "marks": [],
+          "originalText": "he ",
+          "anchors": [
+            "MRK.7.12"
+          ],
+          "sourceAnchor": "MRK.7.12"
+        },
+        {
+          "text": "is",
+          "anchor": "MRK.7.12",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "MRK.7.12"
+          ],
+          "sourceAnchor": "MRK.7.12"
+        },
+        {
+          "text": " no longer permitted to do anything for his father or mother.",
+          "anchor": "MRK.7.12",
+          "marks": [],
+          "originalText": " no longer permitted to do anything for his father or mother. ",
+          "anchors": [
+            "MRK.7.12"
+          ],
+          "sourceAnchor": "MRK.7.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MRK.7.13",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": "Thus",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": "Thus",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": " you nullify the word of God by ",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": " you nullify the word of God by ",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": " tradition you have handed down. And you do so in many such ",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": " tradition you have handed down. And you do so in many such ",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": "matters",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": "matters",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "text": ".”",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": ".”",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/228",
+      "runs": [
+        {
+          "text": "What Defiles a Man",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/229",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 15:10–20",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/230",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.13"
+          ],
+          "sourceAnchor": "MRK.7.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MRK.7.14",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": "Once again ",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": "Once again ",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": " called the whole crowd",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": " called the whole crowd",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "noteId": "MRK.7.14.note.115",
+          "anchor": "MRK.7.14",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": " to Him and",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": "to Him and",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": " said, ",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": " said, ",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "text": "“All of you, listen to Me and understand:",
+          "anchor": "MRK.7.14",
+          "marks": [],
+          "originalText": "“All of you, listen to Me and understand: ",
+          "anchors": [
+            "MRK.7.14"
+          ],
+          "sourceAnchor": "MRK.7.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MRK.7.15",
+          "anchors": [
+            "MRK.7.15"
+          ],
+          "sourceAnchor": "MRK.7.15"
+        },
+        {
+          "text": "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile ",
+          "anchor": "MRK.7.15",
+          "marks": [],
+          "originalText": "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile ",
+          "anchors": [
+            "MRK.7.15"
+          ],
+          "sourceAnchor": "MRK.7.15"
+        },
+        {
+          "text": "him",
+          "anchor": "MRK.7.15",
+          "marks": [],
+          "originalText": "him",
+          "anchors": [
+            "MRK.7.15"
+          ],
+          "sourceAnchor": "MRK.7.15"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.7.15",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MRK.7.15"
+          ],
+          "sourceAnchor": "MRK.7.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MRK.7.16",
+          "anchors": [
+            "MRK.7.16"
+          ],
+          "sourceAnchor": "MRK.7.16"
+        },
+        {
+          "text": "If anyone has ears to hear, let him hear.”",
+          "anchor": "MRK.7.16",
+          "marks": [],
+          "originalText": "If anyone has ears to hear, let him hear.”",
+          "anchors": [
+            "MRK.7.16"
+          ],
+          "sourceAnchor": "MRK.7.16"
+        },
+        {
+          "noteId": "MRK.7.16.note.116",
+          "anchor": "MRK.7.16",
+          "anchors": [
+            "MRK.7.16"
+          ],
+          "sourceAnchor": "MRK.7.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/231",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.16",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.16"
+          ],
+          "sourceAnchor": "MRK.7.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MRK.7.17",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": "After ",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": "After ",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": " had left the crowd ",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": " had left the crowd ",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": "and gone",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": "and gone",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": " into ",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": " into ",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "text": " house, His disciples inquired about the parable.",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": " house, His disciples inquired about the parable.",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/232",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.17",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.17"
+          ],
+          "sourceAnchor": "MRK.7.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MRK.7.18",
+          "anchors": [
+            "MRK.7.18"
+          ],
+          "sourceAnchor": "MRK.7.18"
+        },
+        {
+          "text": "“Are you still so dull?”",
+          "anchor": "MRK.7.18",
+          "marks": [],
+          "originalText": "“Are you still so dull?”",
+          "anchors": [
+            "MRK.7.18"
+          ],
+          "sourceAnchor": "MRK.7.18"
+        },
+        {
+          "text": " He asked. ",
+          "anchor": "MRK.7.18",
+          "marks": [],
+          "originalText": " He asked. ",
+          "anchors": [
+            "MRK.7.18"
+          ],
+          "sourceAnchor": "MRK.7.18"
+        },
+        {
+          "text": "“Do you not understand? Nothing that enters a man from the outside can defile him,",
+          "anchor": "MRK.7.18",
+          "marks": [],
+          "originalText": "“Do you not understand? Nothing that enters a man from the outside can defile him, ",
+          "anchors": [
+            "MRK.7.18"
+          ],
+          "sourceAnchor": "MRK.7.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MRK.7.19",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "text": "because it does not enter his heart, but ",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": "because it does not enter his heart, but ",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "text": "it goes",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": "it goes",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "text": " into the stomach and then is eliminated, ",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": " into the stomach and then is eliminated, ",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "text": "thus",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": "thus",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "text": " purifying all foods.”",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": " purifying all foods.”",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "noteId": "MRK.7.19.note.117",
+          "anchor": "MRK.7.19",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/233",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.19"
+          ],
+          "sourceAnchor": "MRK.7.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MRK.7.20",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": "He continued: ",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": "He continued: ",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": "“What comes out of a man, that ",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": "“What comes out of a man, that ",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": "is what",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": "is what",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": " defiles ",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": " defiles ",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": "him",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": "him",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.7.20",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MRK.7.20"
+          ],
+          "sourceAnchor": "MRK.7.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MRK.7.21",
+          "anchors": [
+            "MRK.7.21"
+          ],
+          "sourceAnchor": "MRK.7.21"
+        },
+        {
+          "text": "For from within the hearts of men come evil thoughts, adultery, sexual immorality, murder, theft,",
+          "anchor": "MRK.7.21",
+          "marks": [],
+          "originalText": "For from within the hearts of men come evil thoughts, adultery, sexual immorality, murder, theft,",
+          "anchors": [
+            "MRK.7.21"
+          ],
+          "sourceAnchor": "MRK.7.21"
+        },
+        {
+          "noteId": "MRK.7.21.note.118",
+          "anchor": "MRK.7.21",
+          "anchors": [
+            "MRK.7.21"
+          ],
+          "sourceAnchor": "MRK.7.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MRK.7.22",
+          "anchors": [
+            "MRK.7.22"
+          ],
+          "sourceAnchor": "MRK.7.22"
+        },
+        {
+          "text": "greed, wickedness, deceit, debauchery, envy, slander, arrogance, ",
+          "anchor": "MRK.7.22",
+          "marks": [],
+          "originalText": "greed, wickedness, deceit, debauchery, envy, slander, arrogance, ",
+          "anchors": [
+            "MRK.7.22"
+          ],
+          "sourceAnchor": "MRK.7.22"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.22",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.22"
+          ],
+          "sourceAnchor": "MRK.7.22"
+        },
+        {
+          "text": " foolishness.",
+          "anchor": "MRK.7.22",
+          "marks": [],
+          "originalText": " foolishness. ",
+          "anchors": [
+            "MRK.7.22"
+          ],
+          "sourceAnchor": "MRK.7.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MRK.7.23",
+          "anchors": [
+            "MRK.7.23"
+          ],
+          "sourceAnchor": "MRK.7.23"
+        },
+        {
+          "text": "All these evils come from within, and ",
+          "anchor": "MRK.7.23",
+          "marks": [],
+          "originalText": "All these evils come from within, and ",
+          "anchors": [
+            "MRK.7.23"
+          ],
+          "sourceAnchor": "MRK.7.23"
+        },
+        {
+          "text": "these are what",
+          "anchor": "MRK.7.23",
+          "marks": [],
+          "originalText": "these are what",
+          "anchors": [
+            "MRK.7.23"
+          ],
+          "sourceAnchor": "MRK.7.23"
+        },
+        {
+          "text": " defile a man.”",
+          "anchor": "MRK.7.23",
+          "marks": [],
+          "originalText": " defile a man.”",
+          "anchors": [
+            "MRK.7.23"
+          ],
+          "sourceAnchor": "MRK.7.23"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/234",
+      "runs": [
+        {
+          "text": "The Faith of the Gentile Woman",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/235",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 15:21–28",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/236",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.23"
+          ],
+          "sourceAnchor": "MRK.7.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MRK.7.24",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": " left that place ",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": " left that place ",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": " went to the region of Tyre and Sidon.",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": " went to the region of Tyre and Sidon.",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "noteId": "MRK.7.24.note.119",
+          "anchor": "MRK.7.24",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": " Not wanting anyone to know ",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": " Not wanting anyone to know ",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": "He was there",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": "He was there",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": ", He entered ",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": ", He entered ",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": "a",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": "a",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "text": " house, but was unable to escape their notice.",
+          "anchor": "MRK.7.24",
+          "marks": [],
+          "originalText": " house, but was unable to escape their notice. ",
+          "anchors": [
+            "MRK.7.24"
+          ],
+          "sourceAnchor": "MRK.7.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MRK.7.25",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": "For",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": "For",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "noteId": "MRK.7.25.note.120",
+          "anchor": "MRK.7.25",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": " a woman whose little daughter had ",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": " a woman whose little daughter had ",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": "an",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": "an",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": " unclean spirit heard",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": " unclean spirit heard",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "noteId": "MRK.7.25.note.121",
+          "anchor": "MRK.7.25",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": " about Jesus, ",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": " about Jesus, ",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": " she came ",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": " she came ",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "text": " fell at His feet.",
+          "anchor": "MRK.7.25",
+          "marks": [],
+          "originalText": " fell at His feet. ",
+          "anchors": [
+            "MRK.7.25"
+          ],
+          "sourceAnchor": "MRK.7.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MRK.7.26",
+          "anchors": [
+            "MRK.7.26"
+          ],
+          "sourceAnchor": "MRK.7.26"
+        },
+        {
+          "text": "Now she was a Greek woman of Syrophoenician origin, and she kept asking ",
+          "anchor": "MRK.7.26",
+          "marks": [],
+          "originalText": "Now she was a Greek woman of Syrophoenician origin, and she kept asking ",
+          "anchors": [
+            "MRK.7.26"
+          ],
+          "sourceAnchor": "MRK.7.26"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.26",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.26"
+          ],
+          "sourceAnchor": "MRK.7.26"
+        },
+        {
+          "text": " to drive the demon out of her daughter.",
+          "anchor": "MRK.7.26",
+          "marks": [],
+          "originalText": " to drive the demon out of her daughter.",
+          "anchors": [
+            "MRK.7.26"
+          ],
+          "sourceAnchor": "MRK.7.26"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/237",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.26",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.26"
+          ],
+          "sourceAnchor": "MRK.7.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MRK.7.27",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "text": "“First let the children have their fill,”",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": "“First let the children have their fill,”",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "text": " Jesus said.",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": " Jesus said.",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "noteId": "MRK.7.27.note.122",
+          "anchor": "MRK.7.27",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "text": " “For it is not right to take the children’s bread and toss ",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": "“For it is not right to take the children’s bread and toss ",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "text": "it",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "text": " to the dogs.”",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": " to the dogs.”",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/238",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.27",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.27"
+          ],
+          "sourceAnchor": "MRK.7.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MRK.7.28",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "text": "“Yes, Lord,” she replied, “for",
+          "anchor": "MRK.7.28",
+          "marks": [],
+          "originalText": "“Yes, Lord,” she replied, “for",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "noteId": "MRK.7.28.note.123",
+          "anchor": "MRK.7.28",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "text": " even the dogs",
+          "anchor": "MRK.7.28",
+          "marks": [],
+          "originalText": " even the dogs",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "noteId": "MRK.7.28.note.124",
+          "anchor": "MRK.7.28",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "text": " under the table eat the children’s crumbs.”",
+          "anchor": "MRK.7.28",
+          "marks": [],
+          "originalText": " under the table eat the children’s crumbs.”",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/239",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.28",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.28"
+          ],
+          "sourceAnchor": "MRK.7.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MRK.7.29",
+          "anchors": [
+            "MRK.7.29"
+          ],
+          "sourceAnchor": "MRK.7.29"
+        },
+        {
+          "text": "Then ",
+          "anchor": "MRK.7.29",
+          "marks": [],
+          "originalText": "Then ",
+          "anchors": [
+            "MRK.7.29"
+          ],
+          "sourceAnchor": "MRK.7.29"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.29",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.29"
+          ],
+          "sourceAnchor": "MRK.7.29"
+        },
+        {
+          "text": " told her, ",
+          "anchor": "MRK.7.29",
+          "marks": [],
+          "originalText": " told her, ",
+          "anchors": [
+            "MRK.7.29"
+          ],
+          "sourceAnchor": "MRK.7.29"
+        },
+        {
+          "text": "“Because of this answer, you may go. The demon has left your daughter.”",
+          "anchor": "MRK.7.29",
+          "marks": [],
+          "originalText": "“Because of this answer, you may go. The demon has left your daughter.”",
+          "anchors": [
+            "MRK.7.29"
+          ],
+          "sourceAnchor": "MRK.7.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MRK.7.30",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": "And she went home ",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": "And she went home ",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": " found ",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": " found ",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": " demon was gone, and ",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": " demon was gone, and ",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": "her",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": "her",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "text": " daughter was lying on the bed.",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": " daughter was lying on the bed.",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "noteId": "MRK.7.30.note.125",
+          "anchor": "MRK.7.30",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/240",
+      "runs": [
+        {
+          "text": "The Deaf and Mute Man",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "MRK.usj#content/241",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 9:27–34",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/242",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.30",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.30"
+          ],
+          "sourceAnchor": "MRK.7.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MRK.7.31",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": "Then ",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": "Then ",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": " left the region of Tyre and Sidon ",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": " left the region of Tyre and Sidon ",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": " went toward the Sea of Galilee",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": " went toward the Sea of Galilee",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "noteId": "MRK.7.31.note.126",
+          "anchor": "MRK.7.31",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": " and",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": " into the region of ",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": " into the region of ",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": "the",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "text": " Decapolis.",
+          "anchor": "MRK.7.31",
+          "marks": [],
+          "originalText": " Decapolis.",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "noteId": "MRK.7.31.note.127",
+          "anchor": "MRK.7.31",
+          "anchors": [
+            "MRK.7.31"
+          ],
+          "sourceAnchor": "MRK.7.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MRK.7.32",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": "Some people",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": "Some people",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": " brought to Him a man who was deaf and hardly able to speak, and they begged ",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": " brought to Him a man who was deaf and hardly able to speak, and they begged ",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": " to place ",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": " to place ",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": "His",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": "His",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "text": " hand on him.",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": " hand on him.",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/243",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.32",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.32"
+          ],
+          "sourceAnchor": "MRK.7.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MRK.7.33",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": "So",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "So",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " Jesus",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " took him aside privately, away from the crowd, ",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": " took him aside privately, away from the crowd, ",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " put His fingers into ",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": " put His fingers into ",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": "the man’s",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "the man’s",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " ears. Then He spit ",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": " ears. Then He spit ",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " touched ",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": " touched ",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": "the man’s",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": "the man’s",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "text": " tongue.",
+          "anchor": "MRK.7.33",
+          "marks": [],
+          "originalText": " tongue. ",
+          "anchors": [
+            "MRK.7.33"
+          ],
+          "sourceAnchor": "MRK.7.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MRK.7.34",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "text": "And looking up to heaven, He sighed deeply and said to him, ",
+          "anchor": "MRK.7.34",
+          "marks": [],
+          "originalText": "And looking up to heaven, He sighed deeply and said to him, ",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "text": "“Ephphatha!”",
+          "anchor": "MRK.7.34",
+          "marks": [],
+          "originalText": "“Ephphatha!”",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "text": " (which means, ",
+          "anchor": "MRK.7.34",
+          "marks": [],
+          "originalText": " (which means, ",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "text": "“Be opened!”",
+          "anchor": "MRK.7.34",
+          "marks": [],
+          "originalText": "“Be opened!”",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "text": ").",
+          "anchor": "MRK.7.34",
+          "marks": [],
+          "originalText": "). ",
+          "anchors": [
+            "MRK.7.34"
+          ],
+          "sourceAnchor": "MRK.7.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MRK.7.35",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        },
+        {
+          "text": "Immediately",
+          "anchor": "MRK.7.35",
+          "marks": [],
+          "originalText": "Immediately",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        },
+        {
+          "noteId": "MRK.7.35.note.128",
+          "anchor": "MRK.7.35",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        },
+        {
+          "text": " the man’s",
+          "anchor": "MRK.7.35",
+          "marks": [],
+          "originalText": "the man’s",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        },
+        {
+          "text": " ears were opened and his tongue was released, and he began to speak plainly.",
+          "anchor": "MRK.7.35",
+          "marks": [],
+          "originalText": " ears were opened and his tongue was released, and he began to speak plainly.",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "MRK.usj#content/244",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MRK.7.35",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MRK.7.35"
+          ],
+          "sourceAnchor": "MRK.7.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MRK.7.36",
+          "anchors": [
+            "MRK.7.36"
+          ],
+          "sourceAnchor": "MRK.7.36"
+        },
+        {
+          "text": "Jesus",
+          "anchor": "MRK.7.36",
+          "marks": [],
+          "originalText": "Jesus",
+          "anchors": [
+            "MRK.7.36"
+          ],
+          "sourceAnchor": "MRK.7.36"
+        },
+        {
+          "text": " ordered them not to tell anyone. But the more He ordered them, the more widely they proclaimed ",
+          "anchor": "MRK.7.36",
+          "marks": [],
+          "originalText": " ordered them not to tell anyone. But the more He ordered them, the more widely they proclaimed ",
+          "anchors": [
+            "MRK.7.36"
+          ],
+          "sourceAnchor": "MRK.7.36"
+        },
+        {
+          "text": "it",
+          "anchor": "MRK.7.36",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "MRK.7.36"
+          ],
+          "sourceAnchor": "MRK.7.36"
+        },
+        {
+          "text": ".",
+          "anchor": "MRK.7.36",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "MRK.7.36"
+          ],
+          "sourceAnchor": "MRK.7.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MRK.7.37",
+          "anchors": [
+            "MRK.7.37"
+          ],
+          "sourceAnchor": "MRK.7.37"
+        },
+        {
+          "text": "The people",
+          "anchor": "MRK.7.37",
+          "marks": [],
+          "originalText": "The people",
+          "anchors": [
+            "MRK.7.37"
+          ],
+          "sourceAnchor": "MRK.7.37"
+        },
+        {
+          "text": " were utterly astonished ",
+          "anchor": "MRK.7.37",
+          "marks": [],
+          "originalText": " were utterly astonished ",
+          "anchors": [
+            "MRK.7.37"
+          ],
+          "sourceAnchor": "MRK.7.37"
+        },
+        {
+          "text": "and",
+          "anchor": "MRK.7.37",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "MRK.7.37"
+          ],
+          "sourceAnchor": "MRK.7.37"
+        },
+        {
+          "text": " said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+          "anchor": "MRK.7.37",
+          "marks": [],
+          "originalText": " said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+          "anchors": [
+            "MRK.7.37"
+          ],
+          "sourceAnchor": "MRK.7.37"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MRK.7.1",
+      "sourceRef": "MRK.7.1",
+      "sourceId": "MRK.usj#content/218/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MRK.7.1"
+      ],
+      "mappingType": "exact",
+      "text": "Then the Pharisees and some of the scribes who had come from Jerusalem gathered around Jesus.",
+      "originalText": "Then the Pharisees and some of the scribes who had come from Jerusalem gathered around Jesus.",
+      "originalStructuredText": "Then the Pharisees and some of the scribes who had come from Jerusalem gathered around Jesus. ",
+      "textSourceId": "msb.txt#line=24468"
+    },
+    {
+      "id": "MRK.7.2",
+      "sourceRef": "MRK.7.2",
+      "sourceId": "MRK.usj#content/218/content/5",
+      "sourceLabel": "2",
+      "anchors": [
+        "MRK.7.2"
+      ],
+      "mappingType": "exact",
+      "text": "And seeing some of His disciples eating with hands that were defiled (that is, unwashed), they found fault.",
+      "originalText": "And seeing some of His disciples eating with hands that were defiled (that is, unwashed), they found fault.",
+      "originalStructuredText": "And seeing some of His disciples eating with hands that were defiled (that is, unwashed), they found fault.\n ",
+      "textSourceId": "msb.txt#line=24469"
+    },
+    {
+      "id": "MRK.7.3",
+      "sourceRef": "MRK.7.3",
+      "sourceId": "MRK.usj#content/219/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "MRK.7.3"
+      ],
+      "mappingType": "exact",
+      "text": "Now in holding to the tradition of the elders, the Pharisees and all the Jews do not eat until they wash their hands ceremonially.",
+      "originalText": "Now in holding to the tradition of the elders, the Pharisees and all the Jews do not eat until they wash their hands ceremonially.",
+      "originalStructuredText": "Now in holding to the tradition of the elders, the Pharisees and all the Jews do not eat until they wash their hands ceremonially.",
+      "textSourceId": "msb.txt#line=24470"
+    },
+    {
+      "id": "MRK.7.4",
+      "sourceRef": "MRK.7.4",
+      "sourceId": "MRK.usj#content/219/content/8",
+      "sourceLabel": "4",
+      "anchors": [
+        "MRK.7.4"
+      ],
+      "mappingType": "exact",
+      "text": "And on returning from the market, they do not eat unless they wash. And there are many other traditions for them to observe, including the washing of cups, pitchers, kettles, and couches for dining.",
+      "originalText": "And on returning from the market, they do not eat unless they wash. And there are many other traditions for them to observe, including the washing of cups, pitchers, kettles, and couches for dining.",
+      "originalStructuredText": "And on returning from the market, they do not eat unless they wash. And there are many other traditions for them to observe, including the washing of cups, pitchers, kettles, and couches for dining.\n ",
+      "textSourceId": "msb.txt#line=24471"
+    },
+    {
+      "id": "MRK.7.5",
+      "sourceRef": "MRK.7.5",
+      "sourceId": "MRK.usj#content/220/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "MRK.7.5"
+      ],
+      "mappingType": "exact",
+      "text": "So the Pharisees and scribes questioned Jesus: “Why do Your disciples not walk according to the tradition of the elders? Instead, they eat with unwashed hands.”",
+      "originalText": "So the Pharisees and scribes questioned Jesus: “Why do Your disciples not walk according to the tradition of the elders? Instead, they eat with unwashed hands.”",
+      "originalStructuredText": "So the Pharisees and scribes questioned Jesus: “Why do Your disciples not walk according to the tradition of the elders? Instead, they eat with unwashed hands.”\n ",
+      "textSourceId": "msb.txt#line=24472"
+    },
+    {
+      "id": "MRK.7.6",
+      "sourceRef": "MRK.7.6",
+      "sourceId": "MRK.usj#content/221/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "MRK.7.6"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus answered them, “Isaiah prophesied correctly about you hypocrites, as it is written: ‘These people honor Me with their lips, but their hearts are far from Me.",
+      "originalText": "Jesus answered them, “Isaiah prophesied correctly about you hypocrites, as it is written: ‘These people honor Me with their lips, but their hearts are far from Me.",
+      "originalStructuredText": " Jesus answered them, “Isaiah prophesied correctly about you hypocrites, as it is written:\n‘These people honor Me with their lips,\nbut their hearts are far from Me.\n ",
+      "textSourceId": "msb.txt#line=24473"
+    },
+    {
+      "id": "MRK.7.7",
+      "sourceRef": "MRK.7.7",
+      "sourceId": "MRK.usj#content/224/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "MRK.7.7"
+      ],
+      "mappingType": "exact",
+      "text": "They worship Me in vain; they teach as doctrine the precepts of men.’",
+      "originalText": "They worship Me in vain; they teach as doctrine the precepts of men.’",
+      "originalStructuredText": "They worship Me in vain;\nthey teach as doctrine the precepts of men.’\n ",
+      "textSourceId": "msb.txt#line=24474"
+    },
+    {
+      "id": "MRK.7.8",
+      "sourceRef": "MRK.7.8",
+      "sourceId": "MRK.usj#content/226/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "MRK.7.8"
+      ],
+      "mappingType": "exact",
+      "text": "You have disregarded the commandment of God to keep the tradition of men—the washing of pitchers and cups, and many other similar things you do.”",
+      "originalText": "You have disregarded the commandment of God to keep the tradition of men—the washing of pitchers and cups, and many other similar things you do.”",
+      "originalStructuredText": "You have disregarded the commandment of God to keep the tradition of men— the washing of pitchers and cups, and many other similar things you do.”\n ",
+      "textSourceId": "msb.txt#line=24475"
+    },
+    {
+      "id": "MRK.7.9",
+      "sourceRef": "MRK.7.9",
+      "sourceId": "MRK.usj#content/227/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "MRK.7.9"
+      ],
+      "mappingType": "exact",
+      "text": "He went on to say, “You neatly set aside the command of God to maintain your own tradition.",
+      "originalText": "He went on to say, “You neatly set aside the command of God to maintain your own tradition.",
+      "originalStructuredText": "He went on to say, “You neatly set aside the command of God to maintain your own tradition. ",
+      "textSourceId": "msb.txt#line=24476"
+    },
+    {
+      "id": "MRK.7.10",
+      "sourceRef": "MRK.7.10",
+      "sourceId": "MRK.usj#content/227/content/3/content/5",
+      "sourceLabel": "10",
+      "anchors": [
+        "MRK.7.10"
+      ],
+      "mappingType": "exact",
+      "text": "For Moses said, ‘Honor your father and your mother’ and ‘Anyone who curses his father or mother must be put to death.’",
+      "originalText": "For Moses said, ‘Honor your father and your mother’ and ‘Anyone who curses his father or mother must be put to death.’",
+      "originalStructuredText": "For Moses said, ‘Honor your father and your mother’ and ‘Anyone who curses his father or mother must be put to death.’",
+      "textSourceId": "msb.txt#line=24477"
+    },
+    {
+      "id": "MRK.7.11",
+      "sourceRef": "MRK.7.11",
+      "sourceId": "MRK.usj#content/227/content/3/content/12",
+      "sourceLabel": "11",
+      "anchors": [
+        "MRK.7.11"
+      ],
+      "mappingType": "exact",
+      "text": "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God),",
+      "originalText": "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God),",
+      "originalStructuredText": "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God), ",
+      "textSourceId": "msb.txt#line=24478"
+    },
+    {
+      "id": "MRK.7.12",
+      "sourceRef": "MRK.7.12",
+      "sourceId": "MRK.usj#content/227/content/3/content/20",
+      "sourceLabel": "12",
+      "anchors": [
+        "MRK.7.12"
+      ],
+      "mappingType": "exact",
+      "text": "he is no longer permitted to do anything for his father or mother.",
+      "originalText": "he is no longer permitted to do anything for his father or mother.",
+      "originalStructuredText": "he is no longer permitted to do anything for his father or mother. ",
+      "textSourceId": "msb.txt#line=24479"
+    },
+    {
+      "id": "MRK.7.13",
+      "sourceRef": "MRK.7.13",
+      "sourceId": "MRK.usj#content/227/content/3/content/24",
+      "sourceLabel": "13",
+      "anchors": [
+        "MRK.7.13"
+      ],
+      "mappingType": "exact",
+      "text": "Thus you nullify the word of God by the tradition you have handed down. And you do so in many such matters.”",
+      "originalText": "Thus you nullify the word of God by the tradition you have handed down. And you do so in many such matters.”",
+      "originalStructuredText": "Thus you nullify the word of God by the tradition you have handed down. And you do so in many such matters.”\n ",
+      "textSourceId": "msb.txt#line=24480"
+    },
+    {
+      "id": "MRK.7.14",
+      "sourceRef": "MRK.7.14",
+      "sourceId": "MRK.usj#content/230/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MRK.7.14"
+      ],
+      "mappingType": "exact",
+      "text": "Once again Jesus called the whole crowd to Him and said, “All of you, listen to Me and understand:",
+      "originalText": "Once again Jesus called the whole crowd to Him and said, “All of you, listen to Me and understand:",
+      "originalStructuredText": "Once again Jesus called the whole crowdto Him and said, “All of you, listen to Me and understand: ",
+      "textSourceId": "msb.txt#line=24481"
+    },
+    {
+      "id": "MRK.7.15",
+      "sourceRef": "MRK.7.15",
+      "sourceId": "MRK.usj#content/230/content/8/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MRK.7.15"
+      ],
+      "mappingType": "exact",
+      "text": "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile him.",
+      "originalText": "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile him.",
+      "originalStructuredText": "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile him. ",
+      "textSourceId": "msb.txt#line=24482"
+    },
+    {
+      "id": "MRK.7.16",
+      "sourceRef": "MRK.7.16",
+      "sourceId": "MRK.usj#content/230/content/8/content/5",
+      "sourceLabel": "16",
+      "anchors": [
+        "MRK.7.16"
+      ],
+      "mappingType": "exact",
+      "text": "If anyone has ears to hear, let him hear.”",
+      "originalText": "If anyone has ears to hear, let him hear.”",
+      "originalStructuredText": "If anyone has ears to hear, let him hear.”\n ",
+      "textSourceId": "msb.txt#line=24483"
+    },
+    {
+      "id": "MRK.7.17",
+      "sourceRef": "MRK.7.17",
+      "sourceId": "MRK.usj#content/231/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "MRK.7.17"
+      ],
+      "mappingType": "exact",
+      "text": "After Jesus had left the crowd and gone into the house, His disciples inquired about the parable.",
+      "originalText": "After Jesus had left the crowd and gone into the house, His disciples inquired about the parable.",
+      "originalStructuredText": "After Jesus had left the crowd and gone into the house, His disciples inquired about the parable.\n ",
+      "textSourceId": "msb.txt#line=24484"
+    },
+    {
+      "id": "MRK.7.18",
+      "sourceRef": "MRK.7.18",
+      "sourceId": "MRK.usj#content/232/content/0/content/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "MRK.7.18"
+      ],
+      "mappingType": "exact",
+      "text": "“Are you still so dull?” He asked. “Do you not understand? Nothing that enters a man from the outside can defile him,",
+      "originalText": "“Are you still so dull?” He asked. “Do you not understand? Nothing that enters a man from the outside can defile him,",
+      "originalStructuredText": "“Are you still so dull?” He asked. “Do you not understand? Nothing that enters a man from the outside can defile him, ",
+      "textSourceId": "msb.txt#line=24485"
+    },
+    {
+      "id": "MRK.7.19",
+      "sourceRef": "MRK.7.19",
+      "sourceId": "MRK.usj#content/232/content/2/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MRK.7.19"
+      ],
+      "mappingType": "exact",
+      "text": "because it does not enter his heart, but it goes into the stomach and then is eliminated, thus purifying all foods.”",
+      "originalText": "because it does not enter his heart, but it goes into the stomach and then is eliminated, thus purifying all foods.”",
+      "originalStructuredText": "because it does not enter his heart, but it goes into the stomach and then is eliminated, thus purifying all foods.”\n ",
+      "textSourceId": "msb.txt#line=24486"
+    },
+    {
+      "id": "MRK.7.20",
+      "sourceRef": "MRK.7.20",
+      "sourceId": "MRK.usj#content/233/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "MRK.7.20"
+      ],
+      "mappingType": "exact",
+      "text": "He continued: “What comes out of a man, that is what defiles him.",
+      "originalText": "He continued: “What comes out of a man, that is what defiles him.",
+      "originalStructuredText": "He continued: “What comes out of a man, that is what defiles him. ",
+      "textSourceId": "msb.txt#line=24487"
+    },
+    {
+      "id": "MRK.7.21",
+      "sourceRef": "MRK.7.21",
+      "sourceId": "MRK.usj#content/233/content/3/content/5",
+      "sourceLabel": "21",
+      "anchors": [
+        "MRK.7.21"
+      ],
+      "mappingType": "exact",
+      "text": "For from within the hearts of men come evil thoughts, adultery, sexual immorality, murder, theft,",
+      "originalText": "For from within the hearts of men come evil thoughts, adultery, sexual immorality, murder, theft,",
+      "originalStructuredText": "For from within the hearts of men come evil thoughts, adultery, sexual immorality, murder, theft,",
+      "textSourceId": "msb.txt#line=24488"
+    },
+    {
+      "id": "MRK.7.22",
+      "sourceRef": "MRK.7.22",
+      "sourceId": "MRK.usj#content/233/content/3/content/8",
+      "sourceLabel": "22",
+      "anchors": [
+        "MRK.7.22"
+      ],
+      "mappingType": "exact",
+      "text": "greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness.",
+      "originalText": "greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness.",
+      "originalStructuredText": "greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness. ",
+      "textSourceId": "msb.txt#line=24489"
+    },
+    {
+      "id": "MRK.7.23",
+      "sourceRef": "MRK.7.23",
+      "sourceId": "MRK.usj#content/233/content/3/content/12",
+      "sourceLabel": "23",
+      "anchors": [
+        "MRK.7.23"
+      ],
+      "mappingType": "exact",
+      "text": "All these evils come from within, and these are what defile a man.”",
+      "originalText": "All these evils come from within, and these are what defile a man.”",
+      "originalStructuredText": "All these evils come from within, and these are what defile a man.”\n ",
+      "textSourceId": "msb.txt#line=24490"
+    },
+    {
+      "id": "MRK.7.24",
+      "sourceRef": "MRK.7.24",
+      "sourceId": "MRK.usj#content/236/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "MRK.7.24"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus left that place and went to the region of Tyre and Sidon. Not wanting anyone to know He was there, He entered a house, but was unable to escape their notice.",
+      "originalText": "Jesus left that place and went to the region of Tyre and Sidon. Not wanting anyone to know He was there, He entered a house, but was unable to escape their notice.",
+      "originalStructuredText": "Jesus left that place and went to the region of Tyre and Sidon. Not wanting anyone to know He was there, He entered a house, but was unable to escape their notice. ",
+      "textSourceId": "msb.txt#line=24491"
+    },
+    {
+      "id": "MRK.7.25",
+      "sourceRef": "MRK.7.25",
+      "sourceId": "MRK.usj#content/236/content/12",
+      "sourceLabel": "25",
+      "anchors": [
+        "MRK.7.25"
+      ],
+      "mappingType": "exact",
+      "text": "For a woman whose little daughter had an unclean spirit heard about Jesus, and she came and fell at His feet.",
+      "originalText": "For a woman whose little daughter had an unclean spirit heard about Jesus, and she came and fell at His feet.",
+      "originalStructuredText": "For a woman whose little daughter had an unclean spirit heard about Jesus, and she came and fell at His feet. ",
+      "textSourceId": "msb.txt#line=24492"
+    },
+    {
+      "id": "MRK.7.26",
+      "sourceRef": "MRK.7.26",
+      "sourceId": "MRK.usj#content/236/content/24",
+      "sourceLabel": "26",
+      "anchors": [
+        "MRK.7.26"
+      ],
+      "mappingType": "exact",
+      "text": "Now she was a Greek woman of Syrophoenician origin, and she kept asking Jesus to drive the demon out of her daughter.",
+      "originalText": "Now she was a Greek woman of Syrophoenician origin, and she kept asking Jesus to drive the demon out of her daughter.",
+      "originalStructuredText": "Now she was a Greek woman of Syrophoenician origin, and she kept asking Jesus to drive the demon out of her daughter.\n ",
+      "textSourceId": "msb.txt#line=24493"
+    },
+    {
+      "id": "MRK.7.27",
+      "sourceRef": "MRK.7.27",
+      "sourceId": "MRK.usj#content/237/content/0/content/1",
+      "sourceLabel": "27",
+      "anchors": [
+        "MRK.7.27"
+      ],
+      "mappingType": "exact",
+      "text": "“First let the children have their fill,” Jesus said. “For it is not right to take the children’s bread and toss it to the dogs.”",
+      "originalText": "“First let the children have their fill,” Jesus said. “For it is not right to take the children’s bread and toss it to the dogs.”",
+      "originalStructuredText": "“First let the children have their fill,” Jesus said.“For it is not right to take the children’s bread and toss it to the dogs.”\n ",
+      "textSourceId": "msb.txt#line=24494"
+    },
+    {
+      "id": "MRK.7.28",
+      "sourceRef": "MRK.7.28",
+      "sourceId": "MRK.usj#content/238/content/1",
+      "sourceLabel": "28",
+      "anchors": [
+        "MRK.7.28"
+      ],
+      "mappingType": "exact",
+      "text": "“Yes, Lord,” she replied, “for even the dogs under the table eat the children’s crumbs.”",
+      "originalText": "“Yes, Lord,” she replied, “for even the dogs under the table eat the children’s crumbs.”",
+      "originalStructuredText": "“Yes, Lord,” she replied, “for even the dogs under the table eat the children’s crumbs.”\n ",
+      "textSourceId": "msb.txt#line=24495"
+    },
+    {
+      "id": "MRK.7.29",
+      "sourceRef": "MRK.7.29",
+      "sourceId": "MRK.usj#content/239/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "MRK.7.29"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus told her, “Because of this answer, you may go. The demon has left your daughter.”",
+      "originalText": "Then Jesus told her, “Because of this answer, you may go. The demon has left your daughter.”",
+      "originalStructuredText": "Then Jesus told her, “Because of this answer, you may go. The demon has left your daughter.”",
+      "textSourceId": "msb.txt#line=24496"
+    },
+    {
+      "id": "MRK.7.30",
+      "sourceRef": "MRK.7.30",
+      "sourceId": "MRK.usj#content/239/content/6",
+      "sourceLabel": "30",
+      "anchors": [
+        "MRK.7.30"
+      ],
+      "mappingType": "exact",
+      "text": "And she went home and found the demon was gone, and her daughter was lying on the bed.",
+      "originalText": "And she went home and found the demon was gone, and her daughter was lying on the bed.",
+      "originalStructuredText": "And she went home and found the demon was gone, and her daughter was lying on the bed.\n ",
+      "textSourceId": "msb.txt#line=24497"
+    },
+    {
+      "id": "MRK.7.31",
+      "sourceRef": "MRK.7.31",
+      "sourceId": "MRK.usj#content/242/content/1",
+      "sourceLabel": "31",
+      "anchors": [
+        "MRK.7.31"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus left the region of Tyre and Sidon and went toward the Sea of Galilee and into the region of the Decapolis.",
+      "originalText": "Then Jesus left the region of Tyre and Sidon and went toward the Sea of Galilee and into the region of the Decapolis.",
+      "originalStructuredText": "Then Jesus left the region of Tyre and Sidon and went toward the Sea of Galileeand into the region of the Decapolis.",
+      "textSourceId": "msb.txt#line=24498"
+    },
+    {
+      "id": "MRK.7.32",
+      "sourceRef": "MRK.7.32",
+      "sourceId": "MRK.usj#content/242/content/13",
+      "sourceLabel": "32",
+      "anchors": [
+        "MRK.7.32"
+      ],
+      "mappingType": "exact",
+      "text": "Some people brought to Him a man who was deaf and hardly able to speak, and they begged Jesus to place His hand on him.",
+      "originalText": "Some people brought to Him a man who was deaf and hardly able to speak, and they begged Jesus to place His hand on him.",
+      "originalStructuredText": "Some people brought to Him a man who was deaf and hardly able to speak, and they begged Jesus to place His hand on him.\n ",
+      "textSourceId": "msb.txt#line=24499"
+    },
+    {
+      "id": "MRK.7.33",
+      "sourceRef": "MRK.7.33",
+      "sourceId": "MRK.usj#content/243/content/1",
+      "sourceLabel": "33",
+      "anchors": [
+        "MRK.7.33"
+      ],
+      "mappingType": "exact",
+      "text": "So Jesus took him aside privately, away from the crowd, and put His fingers into the man’s ears. Then He spit and touched the man’s tongue.",
+      "originalText": "So Jesus took him aside privately, away from the crowd, and put His fingers into the man’s ears. Then He spit and touched the man’s tongue.",
+      "originalStructuredText": "SoJesus took him aside privately, away from the crowd, and put His fingers into the man’s ears. Then He spit and touched the man’s tongue. ",
+      "textSourceId": "msb.txt#line=24500"
+    },
+    {
+      "id": "MRK.7.34",
+      "sourceRef": "MRK.7.34",
+      "sourceId": "MRK.usj#content/243/content/13",
+      "sourceLabel": "34",
+      "anchors": [
+        "MRK.7.34"
+      ],
+      "mappingType": "exact",
+      "text": "And looking up to heaven, He sighed deeply and said to him, “Ephphatha!” (which means, “Be opened!”).",
+      "originalText": "And looking up to heaven, He sighed deeply and said to him, “Ephphatha!” (which means, “Be opened!”).",
+      "originalStructuredText": "And looking up to heaven, He sighed deeply and said to him, “Ephphatha!” (which means, “Be opened!”). ",
+      "textSourceId": "msb.txt#line=24501"
+    },
+    {
+      "id": "MRK.7.35",
+      "sourceRef": "MRK.7.35",
+      "sourceId": "MRK.usj#content/243/content/19",
+      "sourceLabel": "35",
+      "anchors": [
+        "MRK.7.35"
+      ],
+      "mappingType": "exact",
+      "text": "Immediately the man’s ears were opened and his tongue was released, and he began to speak plainly.",
+      "originalText": "Immediately the man’s ears were opened and his tongue was released, and he began to speak plainly.",
+      "originalStructuredText": "Immediatelythe man’s ears were opened and his tongue was released, and he began to speak plainly.\n ",
+      "textSourceId": "msb.txt#line=24502"
+    },
+    {
+      "id": "MRK.7.36",
+      "sourceRef": "MRK.7.36",
+      "sourceId": "MRK.usj#content/244/content/1",
+      "sourceLabel": "36",
+      "anchors": [
+        "MRK.7.36"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus ordered them not to tell anyone. But the more He ordered them, the more widely they proclaimed it.",
+      "originalText": "Jesus ordered them not to tell anyone. But the more He ordered them, the more widely they proclaimed it.",
+      "originalStructuredText": "Jesus ordered them not to tell anyone. But the more He ordered them, the more widely they proclaimed it. ",
+      "textSourceId": "msb.txt#line=24503"
+    },
+    {
+      "id": "MRK.7.37",
+      "sourceRef": "MRK.7.37",
+      "sourceId": "MRK.usj#content/244/content/6",
+      "sourceLabel": "37",
+      "anchors": [
+        "MRK.7.37"
+      ],
+      "mappingType": "exact",
+      "text": "The people were utterly astonished and said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+      "originalText": "The people were utterly astonished and said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+      "originalStructuredText": "The people were utterly astonished and said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+      "textSourceId": "msb.txt#line=24504"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MRK.7.2.note.106",
+      "anchor": "MRK.7.2",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/218/content/11",
+      "body": "7:2 CT And they saw some of His disciples eating with hands that were defiled—that is, unwashed.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "And they saw some of His disciples eating with hands that were defiled—that is, unwashed."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.3.note.107",
+      "anchor": "MRK.7.3",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/219/content/7",
+      "body": "7:3 Literally until they have washed their hands to the fist",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:3 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "until they have washed their hands to the fist"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.4.note.108",
+      "anchor": "MRK.7.4",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/219/content/14",
+      "body": "7:4 NE and WH cups, pitchers, and kettles.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NE and WH "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "cups, pitchers, and kettles."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.5.note.109",
+      "anchor": "MRK.7.5",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/220/content/7",
+      "body": "7:5 CT defiled",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:5 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "defiled"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.7.note.110",
+      "anchor": "MRK.7.7",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/225/content/0/content/5",
+      "body": "7:7 Isaiah 29:13 (see also LXX)",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:7 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "ISA 29:13",
+                "content": [
+                  "Isaiah 29:13"
+                ]
+              },
+              " (see also LXX)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.8.note.111",
+      "anchor": "MRK.7.8",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/226/content/2/content/1",
+      "body": "7:8 CT does not include —the washing of pitchers and cups, and many other similar things you do.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "—the washing of pitchers and cups, and many other similar things you do"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.9.note.112",
+      "anchor": "MRK.7.9",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/227/content/3/content/1",
+      "body": "7:9 NA establish",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NA "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "establish"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.10.note.113",
+      "anchor": "MRK.7.10",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/227/content/3/content/7",
+      "body": "7:10 Exodus 20:12; Deuteronomy 5:16",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "EXO 20:12",
+                "content": [
+                  "Exodus 20:12"
+                ]
+              },
+              "; Deuteronomy 5:16"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.10.note.114",
+      "anchor": "MRK.7.10",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/227/content/3/content/11",
+      "body": "7:10 Exodus 21:17; Leviticus 20:9",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "EXO 21:17",
+                "content": [
+                  "Exodus 21:17"
+                ]
+              },
+              "; Leviticus 20:9"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.14.note.115",
+      "anchor": "MRK.7.14",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/230/content/5",
+      "body": "7:14 CT the crowd",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the crowd"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.16.note.116",
+      "anchor": "MRK.7.16",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/230/content/9",
+      "body": "7:16 CT does not include verse 16.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:16 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include verse 16."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.19.note.117",
+      "anchor": "MRK.7.19",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/232/content/2/content/7",
+      "body": "7:19 CT and then is eliminated, thereby expelling all foods.” or and then is eliminated.” (Thus all foods are clean.)",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:19 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and then is eliminated, thereby expelling all foods.” "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and then is eliminated.” (Thus all foods are clean.)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.21.note.118",
+      "anchor": "MRK.7.21",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/233/content/3/content/7",
+      "body": "7:21 Some texts list these in a different order; some move adultery to verse 22.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:21 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some texts list these in a different order; some move "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "adultery "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "to verse 22."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.24.note.119",
+      "anchor": "MRK.7.24",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/236/content/6",
+      "body": "7:24 Most CT do not include and Sidon; see Matthew 15:21.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:24 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Most CT do not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and Sidon"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "MAT 15:21",
+                "content": [
+                  "Matthew 15:21"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.25.note.120",
+      "anchor": "MRK.7.25",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/236/content/14",
+      "body": "7:25 CT Instead",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Instead"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.25.note.121",
+      "anchor": "MRK.7.25",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/236/content/18",
+      "body": "7:25 CT soon heard",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "soon heard"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.27.note.122",
+      "anchor": "MRK.7.27",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/237/content/2",
+      "body": "7:27 CT He said ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:27 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "He said "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.28.note.123",
+      "anchor": "MRK.7.28",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/238/content/3",
+      "body": "7:28 CT does not include for.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:28 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "for"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.28.note.124",
+      "anchor": "MRK.7.28",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/238/content/5",
+      "body": "7:28 Or puppies",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:28 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "puppies"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.30.note.125",
+      "anchor": "MRK.7.30",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/239/content/14",
+      "body": "7:30 CT found her child lying on the bed, and the demon was gone",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:30 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "found her child lying on the bed, and the demon was gone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.31.note.126",
+      "anchor": "MRK.7.31",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/242/content/7",
+      "body": "7:31 CT of Tyre and went through Sidon to the Sea of Galilee",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:31 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "of Tyre and went through Sidon to the Sea of Galilee"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.31.note.127",
+      "anchor": "MRK.7.31",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/242/content/12",
+      "body": "7:31 That is, the Ten Cities",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:31 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "That is, the Ten Cities"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRK.7.35.note.128",
+      "anchor": "MRK.7.35",
+      "type": "publisher-note",
+      "sourceId": "MRK.usj#content/243/content/21",
+      "body": "7:35 ECM, WH, TH, and SBL do not include Immediately.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "7:35 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ECM, WH, TH, and SBL do not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Immediately"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MRK.7.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.1",
+          "sourceRef": "MRK.7.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.2.note.106"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.2",
+          "sourceRef": "MRK.7.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.3.note.107"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.3",
+          "sourceRef": "MRK.7.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.4.note.108"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.4",
+          "sourceRef": "MRK.7.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.5.note.109"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.5",
+          "sourceRef": "MRK.7.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.6",
+          "sourceRef": "MRK.7.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.7.note.110"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.7",
+          "sourceRef": "MRK.7.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.8.note.111"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.8",
+          "sourceRef": "MRK.7.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.9.note.112"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.9",
+          "sourceRef": "MRK.7.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.10.note.113",
+        "MRK.7.10.note.114"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.10",
+          "sourceRef": "MRK.7.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.11",
+          "sourceRef": "MRK.7.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.12",
+          "sourceRef": "MRK.7.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.13",
+          "sourceRef": "MRK.7.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.14.note.115"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.14",
+          "sourceRef": "MRK.7.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.15",
+          "sourceRef": "MRK.7.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.16.note.116"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.16",
+          "sourceRef": "MRK.7.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.17",
+          "sourceRef": "MRK.7.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.18",
+          "sourceRef": "MRK.7.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.19.note.117"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.19",
+          "sourceRef": "MRK.7.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.20",
+          "sourceRef": "MRK.7.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.21.note.118"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.21",
+          "sourceRef": "MRK.7.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.22",
+          "sourceRef": "MRK.7.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.23",
+          "sourceRef": "MRK.7.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.24.note.119"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.24",
+          "sourceRef": "MRK.7.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.25.note.120",
+        "MRK.7.25.note.121"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.25",
+          "sourceRef": "MRK.7.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.26",
+          "sourceRef": "MRK.7.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.27.note.122"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.27",
+          "sourceRef": "MRK.7.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.28.note.123",
+        "MRK.7.28.note.124"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.28",
+          "sourceRef": "MRK.7.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.29",
+          "sourceRef": "MRK.7.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.30.note.125"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.30",
+          "sourceRef": "MRK.7.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.31.note.126",
+        "MRK.7.31.note.127"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.31",
+          "sourceRef": "MRK.7.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.32",
+          "sourceRef": "MRK.7.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.33",
+          "sourceRef": "MRK.7.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.34",
+          "sourceRef": "MRK.7.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MRK.7.35.note.128"
+      ],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.35",
+          "sourceRef": "MRK.7.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.36",
+          "sourceRef": "MRK.7.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MRK.7.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MRK",
+          "chapter": 7,
+          "segmentId": "MRK.7.37",
+          "sourceRef": "MRK.7.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

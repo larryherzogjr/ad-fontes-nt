@@ -1,0 +1,19 @@
+{
+  "unitId": "candidate-18",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/candidate-18-RETURNED-2026-09-05.md",
+  "returnedSha256": "fe8b4663388438fa325972fa95de7501d0035c6ea0f4920151fe090cf5b8cbcd",
+  "correctionProposal": "docs/editorial-review/returns/2026-09-05/candidate-18-PROPOSED-PUBLIC-TEXT-2026-09-05.md",
+  "correctionProposalSha256": "dcccb30f0ad4b22d673fc0918eb9e5280e9224d1a10098ee59dd47f4d2ffcc75",
+  "correctionApprovalQuote": "I approve your corrections.  And am agreeable to your fact checking in general. :)",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; clock time not supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Initial A–D prose drafted by Claude (Anthropic); Larry adopted it in rev-2. Codex prepared the two corrections in the preserved proposal; Larry approved them in the project conversation.",
+  "permission": "Granted in rev-2 H, including commercial use; Ordinary Means commentary attribution; preserve contribution history.",
+  "publicScope": "A–C with exactly the two approved corrections, corresponding sources S1–S7/C6/C7. No optional D prose or F attestation imported.",
+  "factCheckingPreference": "User welcomes fact checking. This does not waive exact-content approval for future substantive theological or textual revisions.",
+  "approvedContentHash": "3eae80da95849f0a59c236d6c16a699a8ea3835acd2bc3174cf40de648378e15"
+}

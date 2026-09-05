@@ -1,0 +1,57 @@
+{
+  "name": "Young’s Literal Translation (1898)",
+  "language": "en",
+  "group": "Textus Receptus",
+  "description": "Literal, archaic British English. Not a translation of the selected Boyd Greek compilation.",
+  "editionLabel": "YLT 1898 per eBible metadata; engylt source 2025-12-12, generated 2026-08-08; retrieved 2026-09-05.",
+  "authority": "eBible engylt USFX, independently reconciled against its verse-per-line export.",
+  "url": "https://ebible.org/engylt/",
+  "rightsUrl": "https://ebible.org/bible/details.php?id=engylt&all=1",
+  "rights": "eBible identifies the Robert Young translation as Public Domain; archived copr.htm and metadata identify this transcription.",
+  "included": [
+    "NT Scripture",
+    "source paragraphs",
+    "supplied-word brackets"
+  ],
+  "excluded": [
+    "OT",
+    "source fonts/styles",
+    "unverified identity with selected Greek TR",
+    "alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/ylt/raw/engylt_usfx.zip",
+      "url": "https://ebible.org/Scriptures/engylt_usfx.zip",
+      "sha256": "a19fd36a6c1b24ecaf249b0f874fc8123eb6ba6d3aaf24dffb7394fcf8bbecf7",
+      "bytes": 1479383
+    },
+    {
+      "path": "sources/ylt/raw/engylt_vpl.zip",
+      "url": "https://ebible.org/Scriptures/engylt_vpl.zip",
+      "sha256": "ba5028d525bc3e2723265b874345d1d78f4486f80b15ef8cfdc10b35fe999b5a",
+      "bytes": 4316734
+    }
+  ],
+  "editionId": "YLT",
+  "releaseId": "ylt-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/ylt/evidence/copr.htm",
+      "sha256": "bb63d72ba0ced1cebe8a6f43a1d680d3b2ec62e6790fbe2a5d4c0af724d125d5"
+    },
+    {
+      "path": "sources/ylt/evidence/details.html",
+      "sha256": "673c2e9eedfbffbc7dde9a5360feb2c338f792e3d585393e918159428a681e95"
+    },
+    {
+      "path": "sources/ylt/evidence/engyltmetadata.xml",
+      "sha256": "3c051008eb459a4a0a966b614fb3f2e265d13f4f93c7312c219725a784815202"
+    }
+  ]
+}

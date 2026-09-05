@@ -1,0 +1,179 @@
+{
+  "id": "candidate-18",
+  "title": "Why Some Bibles Skip From Acts 8:36 to Acts 8:38",
+  "ranges": [
+    {
+      "start": "ACT.8.37",
+      "end": "ACT.8.37"
+    }
+  ],
+  "status": "approved",
+  "assignedReviewerId": "larry-herzog-jr",
+  "contentType": "Ordinary Means commentary",
+  "readings": [
+    {
+      "editionId": "BSB",
+      "releaseId": "bsb-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "BLB",
+      "releaseId": "blb-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "MSB",
+      "releaseId": "msb-2026-09-05-m2-v2",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "YLT",
+      "releaseId": "ylt-2026-09-05-m2-v1",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ACT.8.37",
+          "start": 0,
+          "end": 147,
+          "text": "[And Philip said, 'If thou dost believe out of all the heart, it is lawful;' and he answering said, 'I believe Jesus Christ to be the Son of God;']"
+        }
+      ]
+    },
+    {
+      "editionId": "N1904",
+      "releaseId": "n1904-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "RP2018",
+      "releaseId": "rp2018-2026-09-05-m2-v1",
+      "state": "absent",
+      "spans": []
+    },
+    {
+      "editionId": "TR-BOYD",
+      "releaseId": "tr-boyd-2026-09-05-m2-v1",
+      "state": "present",
+      "spans": [
+        {
+          "segmentId": "ACT.8.37",
+          "start": 0,
+          "end": 134,
+          "text": "Εἶπε δὲ ὁ Φίλιππος, Εἰ πιστεύεις ἐξ ὅλης τῆς καρδίας, ἔξεστιν. Ἀποκριθεὶς δὲ εἶπε, Πιστεύω τὸν υἱὸν τοῦ Θεοῦ εἶναι τὸν Ἰησοῦν Χριστόν."
+        }
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "editionId": "BSB",
+      "releaseId": "bsb-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ACT.8.37",
+      "url": "https://berean.bible/"
+    },
+    {
+      "editionId": "BLB",
+      "releaseId": "blb-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ACT.8.37",
+      "url": "https://literalbible.com/"
+    },
+    {
+      "editionId": "MSB",
+      "releaseId": "msb-2026-09-05-m2-v2",
+      "sourceId": "manifest verifiedGaps: ACT.8.37",
+      "url": "https://majoritybible.com/"
+    },
+    {
+      "editionId": "YLT",
+      "releaseId": "ylt-2026-09-05-m2-v1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"ACT\"]/p[21]/v[72]",
+      "url": "https://ebible.org/engylt/"
+    },
+    {
+      "editionId": "N1904",
+      "releaseId": "n1904-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ACT.8.37",
+      "url": "https://github.com/biblicalhumanities/Nestle1904"
+    },
+    {
+      "editionId": "RP2018",
+      "releaseId": "rp2018-2026-09-05-m2-v1",
+      "sourceId": "manifest verifiedGaps: ACT.8.37",
+      "url": "https://github.com/byztxt/byzantine-majority-text"
+    },
+    {
+      "editionId": "TR-BOYD",
+      "releaseId": "tr-boyd-2026-09-05-m2-v1",
+      "sourceId": "grctr_usfx.xml#book[@id=\"ACT\"]/p[132]/v[64]",
+      "url": "https://ebible.org/grctr/"
+    }
+  ],
+  "attestations": [],
+  "significance": {
+    "sourceObservation": "Read Acts 8 in the Berean Standard Bible and you go straight from verse 36 to verse 38. Verse 37 is not there. The same is true in the Berean Literal Bible, the Majority Standard Bible, Nestle's 1904 Greek edition, and the Robinson–Pierpont Byzantine Greek text of 2018 [S1, S2, S3, S5, S6]. Two of the seven editions compared here do print the sentence: the Greek Textus Receptus compilation of Robert Adam Boyd (2022), and Young's Literal Translation of 1898, which sets it inside square brackets [S4, S7]. \"Textus Receptus\" names the family of printed Greek New Testaments that began with Erasmus in 1516 and stood behind the King James Version [C7].\n\nThe difference lies in the Greek, not in English style: Boyd's edition and Robinson–Pierpont disagree about whether the sentence is there at all [S6, S7]. Nothing is hidden, though. BSB and MSB each attach a footnote at verse 36 reporting the Textus Receptus reading and printing it out [S1, S3]. In BSB and MSB, the main text skips verse number 37, while a publisher note at verse 36 prints the TR reading.",
+    "interpretation": "The effect on the story is real but contained. With or without verse 37, Acts 8 says that Philip preached Jesus to the man reading Isaiah 53, that the man saw water and asked what was stopping him from being baptized, that Philip baptized him, and that he went away rejoicing (vv. 35–39) [S1]. Where the exchange is printed, the narrative pauses for a stated condition and a stated confession. Where it is not, the request and the rejoicing carry that weight without a quoted creed.\n\nThe verse is often recruited into arguments about who may be baptized. It cannot settle them, in either direction. The man in the chariot is an adult hearing the gospel from Philip; the passage says nothing about anyone else, and a sentence whose printing is disputed is a poor foundation for a doctrine. Lutherans locate the power of baptism in God's word and command rather than in the recipient's confession — the teaching of Augsburg Confession IX and the fourth part of Luther's Large Catechism, resting on other texts entirely [C6]. Whether verse 37 appears in your Bible does not move it."
+  },
+  "author": "Larry Herzog Jr.",
+  "rights": "cleared",
+  "provenance": "Adopted Ordinary Means explanation. Contribution and permission record: candidate-18-RETURNED-2026-09-05.md rev-2. Two exact public-wording corrections approved by Larry Herzog Jr. in the project conversation on 2026-09-05. Full drafting history, review scope and exclusions retained in the private contribution record. Optional teacher notes and witness material are not included in this public unit.",
+  "byline": "Ordinary Means",
+  "explanationSources": [
+    {
+      "id": "S1",
+      "label": "Berean Standard Bible",
+      "locator": "Acts 8:37; local release bsb-2026-09-05-m2-v1. Publisher note attached at Acts 8:36.",
+      "url": "https://berean.bible/"
+    },
+    {
+      "id": "S2",
+      "label": "Berean Literal Bible — publisher draft",
+      "locator": "Acts 8:37; local release blb-2026-09-05-m2-v1.",
+      "url": "https://literalbible.com/"
+    },
+    {
+      "id": "S3",
+      "label": "Majority Standard Bible",
+      "locator": "Acts 8:37; local release msb-2026-09-05-m2-v2. Publisher note attached at Acts 8:36.",
+      "url": "https://majoritybible.com/"
+    },
+    {
+      "id": "S4",
+      "label": "Young’s Literal Translation (1898)",
+      "locator": "Acts 8:37; local release ylt-2026-09-05-m2-v1.",
+      "url": "https://ebible.org/engylt/"
+    },
+    {
+      "id": "S5",
+      "label": "Nestle 1904 — historical critical Greek",
+      "locator": "Acts 8:37; local release n1904-2026-09-05-m2-v1.",
+      "url": "https://github.com/biblicalhumanities/Nestle1904"
+    },
+    {
+      "id": "S6",
+      "label": "Robinson–Pierpont 2018",
+      "locator": "Acts 8:37; local release rp2018-2026-09-05-m2-v1.",
+      "url": "https://github.com/byztxt/byzantine-majority-text"
+    },
+    {
+      "id": "S7",
+      "label": "Textus Receptus — Boyd compilation (2022)",
+      "locator": "Acts 8:37; local release tr-boyd-2026-09-05-m2-v1.",
+      "url": "https://ebible.org/grctr/"
+    },
+    {
+      "id": "C6",
+      "label": "The Book of Concord, edited by Robert Kolb and Timothy J. Wengert (Fortress Press, 2000)",
+      "locator": "Augsburg Confession, Article IX; Large Catechism, Part Fourth (Baptism). Editorial summary, not a quotation; article/part-level references."
+    },
+    {
+      "id": "C7",
+      "label": "Robert Adam Boyd, Greek Textus Receptus introduction (September 2022)",
+      "locator": "Introduction and Abbreviations; Stephanus 1550, Elzevir 1624 and Scrivener 1881 compilation.",
+      "url": "https://ebible.org/grctr/INT01.htm"
+    }
+  ]
+}

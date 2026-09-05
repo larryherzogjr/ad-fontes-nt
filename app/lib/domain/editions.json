@@ -1,0 +1,280 @@
+[
+  {
+    "editionId": "BSB",
+    "releaseId": "bsb-2026-09-05-m2-v1",
+    "name": "Berean Standard Bible",
+    "language": "en",
+    "group": "Critical/Eclectic",
+    "description": "Readable contemporary English; the foundational reading edition.",
+    "editionLabel": "Current, updated to 3rd Printing (publisher download listing)",
+    "authority": "Official bsb.txt supplies verbatim Scripture; official USJ supplies structure, headings and notes. Exact reviewed alignment differences retained separately.",
+    "url": "https://berean.bible/",
+    "rightsUrl": "https://berean.bible/terms.htm",
+    "rights": "Public-domain dedication effective April 30, 2023; all uses freely permitted, including commercial reproduction and adaptation.",
+    "included": [
+      "NT Scripture",
+      "source paragraphs and headings",
+      "publisher notes"
+    ],
+    "excluded": [
+      "OT",
+      "word alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7941,
+      "notes": 1312,
+      "alternatives": 0,
+      "gaps": [
+        "MAT.17.21",
+        "MAT.18.11",
+        "MAT.23.14",
+        "MRK.7.16",
+        "MRK.9.44",
+        "MRK.9.46",
+        "MRK.11.26",
+        "MRK.15.28",
+        "LUK.17.36",
+        "LUK.23.17",
+        "JHN.5.4",
+        "ACT.8.37",
+        "ACT.15.34",
+        "ACT.24.7",
+        "ACT.28.29",
+        "ROM.16.24"
+      ]
+    }
+  },
+  {
+    "editionId": "BLB",
+    "releaseId": "blb-2026-09-05-m2-v1",
+    "name": "Berean Literal Bible — publisher draft",
+    "language": "en",
+    "group": "Critical/Eclectic",
+    "description": "Literal English. This download is labeled an early draft by the publisher; brackets mark supplied English words.",
+    "editionLabel": "Berean Literal Bible (Draft), official TXT snapshot, 2026-09-05; no publisher release number supplied.",
+    "authority": "Official blb.txt, UTF-8. Verse layout: this artifact supplies no paragraph, heading or note markup.",
+    "url": "https://literalbible.com/",
+    "rightsUrl": "https://berean.bible/terms.htm",
+    "rights": "Berean public-domain dedication, also printed in the downloaded text.",
+    "included": [
+      "NT Scripture",
+      "original supplied-word brackets"
+    ],
+    "excluded": [
+      "OT",
+      "paragraph reconstruction",
+      "publisher notes unavailable in this artifact",
+      "English–Greek alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7941,
+      "notes": 0,
+      "alternatives": 0,
+      "gaps": [
+        "MAT.17.21",
+        "MAT.18.11",
+        "MAT.23.14",
+        "MRK.7.16",
+        "MRK.9.44",
+        "MRK.9.46",
+        "MRK.11.26",
+        "MRK.15.28",
+        "LUK.17.36",
+        "LUK.23.17",
+        "JHN.5.4",
+        "ACT.8.37",
+        "ACT.15.34",
+        "ACT.24.7",
+        "ACT.28.29",
+        "ROM.16.24"
+      ]
+    }
+  },
+  {
+    "editionId": "MSB",
+    "releaseId": "msb-2026-09-05-m2-v2",
+    "name": "Majority Standard Bible",
+    "language": "en",
+    "group": "Byzantine Majority",
+    "description": "Readable English. The publisher identifies Robinson–Pierpont as its basis, without specifying the exact underlying release.",
+    "editionLabel": "Official MSB TXT snapshot 2026-09-05 with publisher repository USJ v5.9 structure and notes.",
+    "authority": "Official msb.txt (Windows-1252) governs wording; MSB_usj v5.9 governs paragraphing, headings and publisher notes. All differences recorded.",
+    "url": "https://majoritybible.com/",
+    "rightsUrl": "https://berean.bible/terms.htm",
+    "rights": "Berean texts are public domain; repository LICENSING_INFO.md expressly includes USJ Bible text formats.",
+    "included": [
+      "NT Scripture",
+      "paragraphs and poetry",
+      "publisher headings",
+      "publisher notes"
+    ],
+    "excluded": [
+      "OT",
+      "unverified identity with RP2018",
+      "word alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7953,
+      "notes": 3104,
+      "alternatives": 0,
+      "gaps": [
+        "LUK.17.36",
+        "ACT.8.37",
+        "ACT.15.34",
+        "ACT.24.7"
+      ]
+    }
+  },
+  {
+    "editionId": "YLT",
+    "releaseId": "ylt-2026-09-05-m2-v1",
+    "name": "Young’s Literal Translation (1898)",
+    "language": "en",
+    "group": "Textus Receptus",
+    "description": "Literal, archaic British English. Not a translation of the selected Boyd Greek compilation.",
+    "editionLabel": "YLT 1898 per eBible metadata; engylt source 2025-12-12, generated 2026-08-08; retrieved 2026-09-05.",
+    "authority": "eBible engylt USFX, independently reconciled against its verse-per-line export.",
+    "url": "https://ebible.org/engylt/",
+    "rightsUrl": "https://ebible.org/bible/details.php?id=engylt&all=1",
+    "rights": "eBible identifies the Robert Young translation as Public Domain; archived copr.htm and metadata identify this transcription.",
+    "included": [
+      "NT Scripture",
+      "source paragraphs",
+      "supplied-word brackets"
+    ],
+    "excluded": [
+      "OT",
+      "source fonts/styles",
+      "unverified identity with selected Greek TR",
+      "alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7957,
+      "notes": 0,
+      "alternatives": 0,
+      "gaps": []
+    }
+  },
+  {
+    "editionId": "N1904",
+    "releaseId": "n1904-2026-09-05-m2-v1",
+    "name": "Nestle 1904 — historical critical Greek",
+    "language": "grc",
+    "group": "Critical/Eclectic",
+    "description": "Historical critical Greek edition, using the dos Santos transcription. It is not the exact Greek behind BSB or BLB.",
+    "editionLabel": "Nestle 1904, Diego Renato dos Santos transcription; biblicalhumanities/Nestle1904 commit 713f28a3b7d4d66132f5aa809fa223fe79762e5d.",
+    "authority": "Pinned xhtml/*-ap.xhtml base text. Source brackets, Mark’s alternative ending and the source’s 1913 annotation are retained.",
+    "url": "https://github.com/biblicalhumanities/Nestle1904",
+    "rightsUrl": "https://github.com/biblicalhumanities/Nestle1904/blob/713f28a3b7d4d66132f5aa809fa223fe79762e5d/xhtml/README.md",
+    "rights": "The xhtml README records the transcriber’s public-domain declaration. CrossWire independently identifies Nestle1904 as public domain. Repository layers have separate rights.",
+    "included": [
+      "NT Greek base text",
+      "source paragraphs and brackets",
+      "Mark alternative ending",
+      "source annotation"
+    ],
+    "excluded": [
+      "morphology",
+      "lexicon/glosses",
+      "CC BY-SA XML markup layer",
+      "fonts",
+      "English alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7942,
+      "notes": 1,
+      "alternatives": 2,
+      "gaps": [
+        "MAT.17.21",
+        "MAT.18.11",
+        "MAT.23.14",
+        "MRK.7.16",
+        "MRK.9.44",
+        "MRK.9.46",
+        "MRK.11.26",
+        "MRK.15.28",
+        "LUK.17.36",
+        "LUK.23.17",
+        "ACT.8.37",
+        "ACT.15.34",
+        "ACT.24.7",
+        "ACT.28.29",
+        "ROM.16.24"
+      ]
+    }
+  },
+  {
+    "editionId": "RP2018",
+    "releaseId": "rp2018-2026-09-05-m2-v1",
+    "name": "Robinson–Pierpont 2018",
+    "language": "grc",
+    "group": "Byzantine Majority",
+    "description": "Named Byzantine Greek edition. Separate publisher alternatives are retained for John 7:53–8:11 and Acts 24:6–8.",
+    "editionLabel": "Robinson–Pierpont 2018; official repository v3.3.2, commit 27a45ff1b7be6c17ccbfeac414f3f55732ae8e28; README text state 2023-07-20.",
+    "authority": "Official csv-unicode/ccat/no-variants main text. PA.csv and ACT24.csv remain separate alternatives; ¶ is a paragraph marker.",
+    "url": "https://github.com/byztxt/byzantine-majority-text",
+    "rightsUrl": "https://github.com/byztxt/byzantine-majority-text/blob/27a45ff1b7be6c17ccbfeac414f3f55732ae8e28/README.md",
+    "rights": "Official repository dedicates its code and text to the public domain.",
+    "included": [
+      "NT Unicode Greek main text",
+      "paragraph markers",
+      "explicit PA and ACT24 alternatives"
+    ],
+    "excluded": [
+      "morphology/Strong’s enrichment",
+      "remaining apparatus",
+      "essays",
+      "fonts",
+      "English alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7953,
+      "notes": 0,
+      "alternatives": 15,
+      "gaps": [
+        "LUK.17.36",
+        "ACT.8.37",
+        "ACT.15.34",
+        "ACT.24.7"
+      ]
+    }
+  },
+  {
+    "editionId": "TR-BOYD",
+    "releaseId": "tr-boyd-2026-09-05-m2-v1",
+    "name": "Textus Receptus — Boyd compilation (2022)",
+    "language": "grc",
+    "group": "Textus Receptus",
+    "description": "Boyd’s named compilation of Stephanus, Elzevir and Scrivener readings. This is not Scrivener 1894.",
+    "editionLabel": "Robert Adam Boyd, September 2022 compilation; eBible grctr source/export 2026-09-03, retrieved 2026-09-05.",
+    "authority": "eBible grctr USFX, independently reconciled against its verse-per-line export. Subscriptions and comparison notes remain separate from verse text.",
+    "url": "https://ebible.org/grctr/",
+    "rightsUrl": "https://ebible.org/bible/details.php?id=grctr&all=1",
+    "rights": "eBible identifies the Greek text as Public Domain and expressly records Adam Boyd’s public-domain dedication of manuscript comparison footnotes.",
+    "included": [
+      "NT Greek Scripture",
+      "source paragraphing",
+      "publisher comparison notes",
+      "separately labeled subscriptions"
+    ],
+    "excluded": [
+      "morphology/Strong’s enrichment",
+      "unreviewed introduction in reading surface",
+      "fonts",
+      "English alignment"
+    ],
+    "inventory": {
+      "chapters": 260,
+      "segments": 7957,
+      "notes": 342,
+      "alternatives": 0,
+      "gaps": []
+    }
+  }
+]

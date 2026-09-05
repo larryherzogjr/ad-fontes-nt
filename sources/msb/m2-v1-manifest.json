@@ -1,0 +1,58 @@
+{
+  "name": "Majority Standard Bible",
+  "language": "en",
+  "group": "Byzantine Majority",
+  "description": "Readable English. The publisher identifies Robinson–Pierpont as its basis, without specifying the exact underlying release.",
+  "editionLabel": "Official MSB TXT snapshot 2026-09-05 with publisher repository USJ v5.9 structure and notes.",
+  "authority": "Official msb.txt (Windows-1252) governs wording; MSB_usj v5.9 governs paragraphing, headings and publisher notes. All differences recorded.",
+  "url": "https://majoritybible.com/",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "rights": "Berean texts are public domain; repository LICENSING_INFO.md expressly includes USJ Bible text formats.",
+  "included": [
+    "NT Scripture",
+    "paragraphs and poetry",
+    "publisher headings",
+    "publisher notes"
+  ],
+  "excluded": [
+    "OT",
+    "unverified identity with RP2018",
+    "word alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/msb/raw/msb.txt",
+      "url": "https://majoritybible.com/msb.txt",
+      "sha256": "99ca452c23fb901a0f5a814b16d9a52fd61015e2e80987d9bf26dfb2ea850d24",
+      "bytes": 4299924
+    },
+    {
+      "path": "sources/msb/raw/MSB_usj-v5.9.zip",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/download/v5.9/MSB_usj.zip",
+      "sha256": "6d4e603c08ac94e6bcfec6d074aff50cf5de9d45b439268b01ca38ede0476c8c",
+      "bytes": 2329085
+    }
+  ],
+  "editionId": "MSB",
+  "releaseId": "msb-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [
+    "LUK.17.36",
+    "ACT.8.37",
+    "ACT.15.34",
+    "ACT.24.7"
+  ],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/msb/evidence/publisher.html",
+      "sha256": "9a3614b4148e155e7501cd0bbbcfa2c3e6b22c6c0d9a5a4a75f36aba51acbe08"
+    },
+    {
+      "path": "sources/msb/evidence/repository-licensing.md",
+      "sha256": "c4fa7666158df087f86887851b4b9403e3399a8563d4f40d57bbe41ffc844310"
+    }
+  ]
+}

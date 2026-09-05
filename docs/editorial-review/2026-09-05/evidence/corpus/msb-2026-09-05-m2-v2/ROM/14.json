@@ -1,0 +1,3752 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/304",
+      "runs": [
+        {
+          "text": "The Law of Liberty",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/305",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 7:1–6",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 6:37–42",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/306",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "ROM.14.1",
+          "anchors": [
+            "ROM.14.1"
+          ],
+          "sourceAnchor": "ROM.14.1"
+        },
+        {
+          "text": "Accept him whose faith is weak, without passing judgment on ",
+          "anchor": "ROM.14.1",
+          "marks": [],
+          "originalText": "Accept him whose faith is weak, without passing judgment on ",
+          "anchors": [
+            "ROM.14.1"
+          ],
+          "sourceAnchor": "ROM.14.1"
+        },
+        {
+          "text": "his",
+          "anchor": "ROM.14.1",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "ROM.14.1"
+          ],
+          "sourceAnchor": "ROM.14.1"
+        },
+        {
+          "text": " opinions.",
+          "anchor": "ROM.14.1",
+          "marks": [],
+          "originalText": " opinions.",
+          "anchors": [
+            "ROM.14.1"
+          ],
+          "sourceAnchor": "ROM.14.1"
+        },
+        {
+          "noteId": "ROM.14.1.note.127",
+          "anchor": "ROM.14.1",
+          "anchors": [
+            "ROM.14.1"
+          ],
+          "sourceAnchor": "ROM.14.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "ROM.14.2",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "text": "For one ",
+          "anchor": "ROM.14.2",
+          "marks": [],
+          "originalText": "For one ",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "text": "person",
+          "anchor": "ROM.14.2",
+          "marks": [],
+          "originalText": "person",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "text": " has faith to eat all things, while another, who is weak, eats ",
+          "anchor": "ROM.14.2",
+          "marks": [],
+          "originalText": " has faith to eat all things, while another, who is weak, eats ",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "text": "only",
+          "anchor": "ROM.14.2",
+          "marks": [],
+          "originalText": "only",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "text": " vegetables.",
+          "anchor": "ROM.14.2",
+          "marks": [],
+          "originalText": " vegetables. ",
+          "anchors": [
+            "ROM.14.2"
+          ],
+          "sourceAnchor": "ROM.14.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "ROM.14.3",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "The ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "The ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " eats ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": " eats ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "everything",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "everything",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " must not belittle the ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": " must not belittle the ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " does not",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "does not",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": ", and the ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": ", and the ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " does not eat ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": " does not eat ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "everything",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "everything",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " must not judge the ",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": " must not judge the ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": " does",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": "does",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "text": ", for God has accepted him.",
+          "anchor": "ROM.14.3",
+          "marks": [],
+          "originalText": ", for God has accepted him. ",
+          "anchors": [
+            "ROM.14.3"
+          ],
+          "sourceAnchor": "ROM.14.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "ROM.14.4",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "text": "Who are you to judge someone else’s servant? To ",
+          "anchor": "ROM.14.4",
+          "marks": [],
+          "originalText": "Who are you to judge someone else’s servant? To ",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "text": "his",
+          "anchor": "ROM.14.4",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "text": " own master he stands or falls. And he will stand, for God",
+          "anchor": "ROM.14.4",
+          "marks": [],
+          "originalText": " own master he stands or falls. And he will stand, for God",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "noteId": "ROM.14.4.note.128",
+          "anchor": "ROM.14.4",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "text": " is able to make him stand.",
+          "anchor": "ROM.14.4",
+          "marks": [],
+          "originalText": " is able to make him stand.",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/307",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.4"
+          ],
+          "sourceAnchor": "ROM.14.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "ROM.14.5",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "One ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "One ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "person",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "person",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": " regards ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": " regards ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "a certain",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "a certain",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": " day above ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": " day above ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "the others",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "the others",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": ", while someone ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": ", while someone ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "else",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "else",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": " considers every day ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": " considers every day ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "alike",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "alike",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": ". Each ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": ". Each ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "one",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "one",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": " should be fully convinced in ",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": " should be fully convinced in ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": "his",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": "his",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "text": " own mind.",
+          "anchor": "ROM.14.5",
+          "marks": [],
+          "originalText": " own mind. ",
+          "anchors": [
+            "ROM.14.5"
+          ],
+          "sourceAnchor": "ROM.14.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "ROM.14.6",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "He who observes ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "He who observes ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "a special",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "a special",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " day ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " day ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "does so",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "does so",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " to ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " to ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " Lord. And he ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " Lord. And he ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "who",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "who",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " does",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "does",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " not observe the day, to the Lord he does not observe ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " not observe the day, to the Lord he does not observe ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "it",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": ".",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": ".",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "noteId": "ROM.14.6.note.129",
+          "anchor": "ROM.14.6",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " He who eats ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " He who eats ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "does so",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "does so",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " to ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " to ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " Lord, for he gives thanks to God; and he who abstains ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " Lord, for he gives thanks to God; and he who abstains ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "does so",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "does so",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " to ",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " to ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "text": " Lord and gives thanks to God.",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " Lord and gives thanks to God.",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/308",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.6"
+          ],
+          "sourceAnchor": "ROM.14.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "ROM.14.7",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": "For none of us lives to himself ",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": "For none of us lives to himself ",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": "alone",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": "alone",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": ", and none ",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": ", and none ",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": "of us ",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": "of us ",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": "dies to himself ",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": " dies to himself ",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": "alone",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": "alone",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "text": ".",
+          "anchor": "ROM.14.7",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "ROM.14.7"
+          ],
+          "sourceAnchor": "ROM.14.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "ROM.14.8",
+          "anchors": [
+            "ROM.14.8"
+          ],
+          "sourceAnchor": "ROM.14.8"
+        },
+        {
+          "text": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live ",
+          "anchor": "ROM.14.8",
+          "marks": [],
+          "originalText": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live ",
+          "anchors": [
+            "ROM.14.8"
+          ],
+          "sourceAnchor": "ROM.14.8"
+        },
+        {
+          "text": "or",
+          "anchor": "ROM.14.8",
+          "marks": [],
+          "originalText": "or",
+          "anchors": [
+            "ROM.14.8"
+          ],
+          "sourceAnchor": "ROM.14.8"
+        },
+        {
+          "text": " die, we belong to the Lord.",
+          "anchor": "ROM.14.8",
+          "marks": [],
+          "originalText": " die, we belong to the Lord. ",
+          "anchors": [
+            "ROM.14.8"
+          ],
+          "sourceAnchor": "ROM.14.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "ROM.14.9",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": "For this reason Christ died and rose",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": "For this reason Christ died and rose",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "noteId": "ROM.14.9.note.130",
+          "anchor": "ROM.14.9",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": " and returned to life, that He might be the Lord of both ",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": " and returned to life, that He might be the Lord of both ",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": " dead and ",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": " dead and ",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "text": " living.",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": " living.",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/309",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.9"
+          ],
+          "sourceAnchor": "ROM.14.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "ROM.14.10",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "text": "Why, then, ",
+          "anchor": "ROM.14.10",
+          "marks": [],
+          "originalText": "Why, then, ",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "text": "do",
+          "anchor": "ROM.14.10",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "text": " you judge your brother? Or why ",
+          "anchor": "ROM.14.10",
+          "marks": [],
+          "originalText": " you judge your brother? Or why ",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "text": "do",
+          "anchor": "ROM.14.10",
+          "marks": [],
+          "originalText": "do",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "text": " you belittle your brother? For we will all stand before the judgment seat of Christ.",
+          "anchor": "ROM.14.10",
+          "marks": [],
+          "originalText": " you belittle your brother? For we will all stand before the judgment seat of Christ.",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "noteId": "ROM.14.10.note.131",
+          "anchor": "ROM.14.10",
+          "anchors": [
+            "ROM.14.10"
+          ],
+          "sourceAnchor": "ROM.14.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "ROM.14.11",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "text": "It is written:",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "It is written:",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/310",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/311",
+      "runs": [
+        {
+          "text": " “",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "“",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "text": "As surely as",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "As surely as",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "text": " I live,",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": " I live,",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/312",
+      "runs": [
+        {
+          "text": " says ",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "says ",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "text": " Lord,",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": " Lord,",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/313",
+      "runs": [
+        {
+          "text": " every knee will bow before Me;",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "every knee will bow before Me;",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/314",
+      "runs": [
+        {
+          "text": " every tongue will confess to God.”",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": "every tongue will confess to God.”",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "noteId": "ROM.14.11.note.132",
+          "anchor": "ROM.14.11",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/315",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.11"
+          ],
+          "sourceAnchor": "ROM.14.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "ROM.14.12",
+          "anchors": [
+            "ROM.14.12"
+          ],
+          "sourceAnchor": "ROM.14.12"
+        },
+        {
+          "text": "So then, each of us will give an account of himself to God.",
+          "anchor": "ROM.14.12",
+          "marks": [],
+          "originalText": "So then, each of us will give an account of himself to God.",
+          "anchors": [
+            "ROM.14.12"
+          ],
+          "sourceAnchor": "ROM.14.12"
+        },
+        {
+          "noteId": "ROM.14.12.note.133",
+          "anchor": "ROM.14.12",
+          "anchors": [
+            "ROM.14.12"
+          ],
+          "sourceAnchor": "ROM.14.12"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/316",
+      "runs": [
+        {
+          "text": "The Law of Love",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/317",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Ezekiel 14:1–11",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "1 Corinthians 8:1–13",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/318",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.12"
+          ],
+          "sourceAnchor": "ROM.14.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "ROM.14.13",
+          "anchors": [
+            "ROM.14.13"
+          ],
+          "sourceAnchor": "ROM.14.13"
+        },
+        {
+          "text": "Therefore let us stop judging one another. Instead, make up your mind not to put ",
+          "anchor": "ROM.14.13",
+          "marks": [],
+          "originalText": "Therefore let us stop judging one another. Instead, make up your mind not to put ",
+          "anchors": [
+            "ROM.14.13"
+          ],
+          "sourceAnchor": "ROM.14.13"
+        },
+        {
+          "text": "any",
+          "anchor": "ROM.14.13",
+          "marks": [],
+          "originalText": "any",
+          "anchors": [
+            "ROM.14.13"
+          ],
+          "sourceAnchor": "ROM.14.13"
+        },
+        {
+          "text": " stumbling block or obstacle in your brother’s way.",
+          "anchor": "ROM.14.13",
+          "marks": [],
+          "originalText": " stumbling block or obstacle in your brother’s way.",
+          "anchors": [
+            "ROM.14.13"
+          ],
+          "sourceAnchor": "ROM.14.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/319",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.13"
+          ],
+          "sourceAnchor": "ROM.14.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "ROM.14.14",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "I am convinced and fully persuaded in ",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "I am convinced and fully persuaded in ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": " Lord Jesus that nothing ",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": " Lord Jesus that nothing ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "is",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": " unclean in itself. But if ",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": " unclean in itself. But if ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "anyone",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "anyone",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": " regards something as unclean, ",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": " regards something as unclean, ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "then",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "then",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": " for him ",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": " for him ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": "it is",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": "it is",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "text": " unclean.",
+          "anchor": "ROM.14.14",
+          "marks": [],
+          "originalText": " unclean. ",
+          "anchors": [
+            "ROM.14.14"
+          ],
+          "sourceAnchor": "ROM.14.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "ROM.14.15",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": "If your brother is distressed by ",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": "If your brother is distressed by ",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": "what you eat",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": "what you eat",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": ", you are no longer acting in love. ",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": ", you are no longer acting in love. ",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": "Do",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": "Do",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": " not by ",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": " not by ",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": "your eating",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": "your eating",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": " destroy your ",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": " destroy your ",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": "brother",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": "brother",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "text": ", for whom Christ died.",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": ", for whom Christ died.",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/320",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.15",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.15"
+          ],
+          "sourceAnchor": "ROM.14.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "ROM.14.16",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": "Do",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": "Do",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": " not ",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": " not ",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": "allow",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": "allow",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": " what you ",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": " what you ",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": "consider",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": "consider",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "text": " good, then, to be spoken of as evil.",
+          "anchor": "ROM.14.16",
+          "marks": [],
+          "originalText": " good, then, to be spoken of as evil. ",
+          "anchors": [
+            "ROM.14.16"
+          ],
+          "sourceAnchor": "ROM.14.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "ROM.14.17",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "text": "For the kingdom of God is not ",
+          "anchor": "ROM.14.17",
+          "marks": [],
+          "originalText": "For the kingdom of God is not ",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "text": "a matter of",
+          "anchor": "ROM.14.17",
+          "marks": [],
+          "originalText": "a matter of",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "text": " eating and drinking, but of righteousness, peace, and joy in ",
+          "anchor": "ROM.14.17",
+          "marks": [],
+          "originalText": " eating and drinking, but of righteousness, peace, and joy in ",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.17",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "text": " Holy Spirit.",
+          "anchor": "ROM.14.17",
+          "marks": [],
+          "originalText": " Holy Spirit. ",
+          "anchors": [
+            "ROM.14.17"
+          ],
+          "sourceAnchor": "ROM.14.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "ROM.14.18",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        },
+        {
+          "text": "For whoever serves Christ in these things",
+          "anchor": "ROM.14.18",
+          "marks": [],
+          "originalText": "For whoever serves Christ in these things",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        },
+        {
+          "noteId": "ROM.14.18.note.134",
+          "anchor": "ROM.14.18",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        },
+        {
+          "text": " is",
+          "anchor": "ROM.14.18",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        },
+        {
+          "text": " pleasing to God and approved by men.",
+          "anchor": "ROM.14.18",
+          "marks": [],
+          "originalText": " pleasing to God and approved by men.",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/321",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.18"
+          ],
+          "sourceAnchor": "ROM.14.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "ROM.14.19",
+          "anchors": [
+            "ROM.14.19"
+          ],
+          "sourceAnchor": "ROM.14.19"
+        },
+        {
+          "text": "So then, let us pursue what leads to peace and to mutual edification.",
+          "anchor": "ROM.14.19",
+          "marks": [],
+          "originalText": "So then, let us pursue what leads to peace and to mutual edification. ",
+          "anchors": [
+            "ROM.14.19"
+          ],
+          "sourceAnchor": "ROM.14.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "ROM.14.20",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": "Do",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": "Do",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": " not destroy the work of God for the sake of food. All ",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": " not destroy the work of God for the sake of food. All ",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": "food is",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": "food is",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": " clean, but ",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": " clean, but ",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": "it is",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": "it is",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "text": " wrong for a man to let his eating be a stumbling block.",
+          "anchor": "ROM.14.20",
+          "marks": [],
+          "originalText": " wrong for a man to let his eating be a stumbling block. ",
+          "anchors": [
+            "ROM.14.20"
+          ],
+          "sourceAnchor": "ROM.14.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "ROM.14.21",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": "It is",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": "It is",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": " better not to eat meat ",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": " better not to eat meat ",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": "or",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": "or",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": " drink wine ",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": " drink wine ",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": "or to do anything",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": "or to do anything",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": " to cause",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": "to cause",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "text": " your brother to stumble or to be hindered or weakened.",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": " your brother to stumble or to be hindered or weakened.",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "noteId": "ROM.14.21.note.135",
+          "anchor": "ROM.14.21",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/322",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.21",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.21"
+          ],
+          "sourceAnchor": "ROM.14.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "ROM.14.22",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": "Keep your belief ",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": "Keep your belief ",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": "about such matters",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": "about such matters",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": " between yourself ",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": " between yourself ",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": "and",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": " God.",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": " God.",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "noteId": "ROM.14.22.note.136",
+          "anchor": "ROM.14.22",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": " Blessed ",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": " Blessed ",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": "is",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": " the ",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": " the ",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "text": " does not condemn himself by what he approves.",
+          "anchor": "ROM.14.22",
+          "marks": [],
+          "originalText": " does not condemn himself by what he approves. ",
+          "anchors": [
+            "ROM.14.22"
+          ],
+          "sourceAnchor": "ROM.14.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "ROM.14.23",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": "But the ",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": "But the ",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": "one who",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": " has doubts is condemned if he eats, because ",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": " has doubts is condemned if he eats, because ",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": "his eating is",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": "his eating is",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": " not from faith; and everything that ",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": " not from faith; and everything that ",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": "is",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "text": " not from faith is sin.",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": " not from faith is sin.",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/323",
+      "runs": [
+        {
+          "text": "Doxology",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "ROM.usj#content/324",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Jude 1:24–25",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "ROM.usj#content/325",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ROM.14.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ROM.14.23"
+          ],
+          "sourceAnchor": "ROM.14.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "ROM.14.24",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "text": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to ",
+          "anchor": "ROM.14.24",
+          "marks": [],
+          "originalText": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to ",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.24",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "text": " revelation of ",
+          "anchor": "ROM.14.24",
+          "marks": [],
+          "originalText": " revelation of ",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.24",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "text": " mystery concealed for ages past",
+          "anchor": "ROM.14.24",
+          "marks": [],
+          "originalText": " mystery concealed for ages past ",
+          "anchors": [
+            "ROM.14.24",
+            "ROM.16.25"
+          ],
+          "sourceAnchor": "ROM.14.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "ROM.14.25",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": "but now revealed ",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": "but now revealed ",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": "and",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": " made known through the writings of the prophets by ",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": " made known through the writings of the prophets by ",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": "the",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": " command of the eternal God, in order to lead all nations to the obedience ",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": " command of the eternal God, in order to lead all nations to the obedience ",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": "that comes from",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": "that comes from",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": " faith",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": " faith",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "noteId": "ROM.14.25.note.137",
+          "anchor": "ROM.14.25",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "text": "—",
+          "anchor": "ROM.14.25",
+          "marks": [],
+          "originalText": " — ",
+          "anchors": [
+            "ROM.14.25",
+            "ROM.16.26"
+          ],
+          "sourceAnchor": "ROM.14.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "ROM.14.26",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        },
+        {
+          "text": "to the",
+          "anchor": "ROM.14.26",
+          "marks": [],
+          "originalText": "to the",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        },
+        {
+          "text": " only wise God ",
+          "anchor": "ROM.14.26",
+          "marks": [],
+          "originalText": " only wise God ",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        },
+        {
+          "text": "be",
+          "anchor": "ROM.14.26",
+          "marks": [],
+          "originalText": "be",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        },
+        {
+          "text": " glory forever through Jesus Christ! Amen.",
+          "anchor": "ROM.14.26",
+          "marks": [],
+          "originalText": " glory forever through Jesus Christ! Amen.",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        },
+        {
+          "noteId": "ROM.14.26.note.138",
+          "anchor": "ROM.14.26",
+          "anchors": [
+            "ROM.14.26",
+            "ROM.16.27"
+          ],
+          "sourceAnchor": "ROM.14.26"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "ROM.14.1",
+      "sourceRef": "ROM.14.1",
+      "sourceId": "ROM.usj#content/306/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "ROM.14.1"
+      ],
+      "mappingType": "exact",
+      "text": "Accept him whose faith is weak, without passing judgment on his opinions.",
+      "originalText": "Accept him whose faith is weak, without passing judgment on his opinions.",
+      "originalStructuredText": "Accept him whose faith is weak, without passing judgment on his opinions.",
+      "textSourceId": "msb.txt#line=28285"
+    },
+    {
+      "id": "ROM.14.2",
+      "sourceRef": "ROM.14.2",
+      "sourceId": "ROM.usj#content/306/content/6",
+      "sourceLabel": "2",
+      "anchors": [
+        "ROM.14.2"
+      ],
+      "mappingType": "exact",
+      "text": "For one person has faith to eat all things, while another, who is weak, eats only vegetables.",
+      "originalText": "For one person has faith to eat all things, while another, who is weak, eats only vegetables.",
+      "originalStructuredText": "For one person has faith to eat all things, while another, who is weak, eats only vegetables. ",
+      "textSourceId": "msb.txt#line=28286"
+    },
+    {
+      "id": "ROM.14.3",
+      "sourceRef": "ROM.14.3",
+      "sourceId": "ROM.usj#content/306/content/12",
+      "sourceLabel": "3",
+      "anchors": [
+        "ROM.14.3"
+      ],
+      "mappingType": "exact",
+      "text": "The one who eats everything must not belittle the one who does not, and the one who does not eat everything must not judge the one who does, for God has accepted him.",
+      "originalText": "The one who eats everything must not belittle the one who does not, and the one who does not eat everything must not judge the one who does, for God has accepted him.",
+      "originalStructuredText": "The one who eats everything must not belittle the one whodoes not, and the one who does not eat everything must not judge the one whodoes, for God has accepted him. ",
+      "textSourceId": "msb.txt#line=28287"
+    },
+    {
+      "id": "ROM.14.4",
+      "sourceRef": "ROM.14.4",
+      "sourceId": "ROM.usj#content/306/content/28",
+      "sourceLabel": "4",
+      "anchors": [
+        "ROM.14.4"
+      ],
+      "mappingType": "exact",
+      "text": "Who are you to judge someone else’s servant? To his own master he stands or falls. And he will stand, for God is able to make him stand.",
+      "originalText": "Who are you to judge someone else’s servant? To his own master he stands or falls. And he will stand, for God is able to make him stand.",
+      "originalStructuredText": "Who are you to judge someone else’s servant? To his own master he stands or falls. And he will stand, for God is able to make him stand.\n ",
+      "textSourceId": "msb.txt#line=28288"
+    },
+    {
+      "id": "ROM.14.5",
+      "sourceRef": "ROM.14.5",
+      "sourceId": "ROM.usj#content/307/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "ROM.14.5"
+      ],
+      "mappingType": "exact",
+      "text": "One person regards a certain day above the others, while someone else considers every day alike. Each one should be fully convinced in his own mind.",
+      "originalText": "One person regards a certain day above the others, while someone else considers every day alike. Each one should be fully convinced in his own mind.",
+      "originalStructuredText": "One person regards a certain day above the others, while someone else considers every day alike. Each one should be fully convinced in his own mind. ",
+      "textSourceId": "msb.txt#line=28289"
+    },
+    {
+      "id": "ROM.14.6",
+      "sourceRef": "ROM.14.6",
+      "sourceId": "ROM.usj#content/307/content/17",
+      "sourceLabel": "6",
+      "anchors": [
+        "ROM.14.6"
+      ],
+      "mappingType": "exact",
+      "text": "He who observes a special day does so to the Lord. And he who does not observe the day, to the Lord he does not observe it. He who eats does so to the Lord, for he gives thanks to God; and he who abstains does so to the Lord and gives thanks to God.",
+      "originalText": "He who observes a special day does so to the Lord. And he who does not observe the day, to the Lord he does not observe it. He who eats does so to the Lord, for he gives thanks to God; and he who abstains does so to the Lord and gives thanks to God.",
+      "originalStructuredText": "He who observes a special day does so to the Lord. And he whodoes not observe the day, to the Lord he does not observe it. He who eats does so to the Lord, for he gives thanks to God; and he who abstains does so to the Lord and gives thanks to God.\n ",
+      "textSourceId": "msb.txt#line=28290"
+    },
+    {
+      "id": "ROM.14.7",
+      "sourceRef": "ROM.14.7",
+      "sourceId": "ROM.usj#content/308/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "ROM.14.7"
+      ],
+      "mappingType": "exact",
+      "text": "For none of us lives to himself alone, and none of us dies to himself alone.",
+      "originalText": "For none of us lives to himself alone, and none of us dies to himself alone.",
+      "originalStructuredText": "For none of us lives to himself alone, and none of us  dies to himself alone. ",
+      "textSourceId": "msb.txt#line=28291"
+    },
+    {
+      "id": "ROM.14.8",
+      "sourceRef": "ROM.14.8",
+      "sourceId": "ROM.usj#content/308/content/9",
+      "sourceLabel": "8",
+      "anchors": [
+        "ROM.14.8"
+      ],
+      "mappingType": "exact",
+      "text": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live or die, we belong to the Lord.",
+      "originalText": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live or die, we belong to the Lord.",
+      "originalStructuredText": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live or die, we belong to the Lord. ",
+      "textSourceId": "msb.txt#line=28292"
+    },
+    {
+      "id": "ROM.14.9",
+      "sourceRef": "ROM.14.9",
+      "sourceId": "ROM.usj#content/308/content/13",
+      "sourceLabel": "9",
+      "anchors": [
+        "ROM.14.9"
+      ],
+      "mappingType": "exact",
+      "text": "For this reason Christ died and rose and returned to life, that He might be the Lord of both the dead and the living.",
+      "originalText": "For this reason Christ died and rose and returned to life, that He might be the Lord of both the dead and the living.",
+      "originalStructuredText": "For this reason Christ died and rose and returned to life, that He might be the Lord of both the dead and the living.\n ",
+      "textSourceId": "msb.txt#line=28293"
+    },
+    {
+      "id": "ROM.14.10",
+      "sourceRef": "ROM.14.10",
+      "sourceId": "ROM.usj#content/309/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "ROM.14.10"
+      ],
+      "mappingType": "exact",
+      "text": "Why, then, do you judge your brother? Or why do you belittle your brother? For we will all stand before the judgment seat of Christ.",
+      "originalText": "Why, then, do you judge your brother? Or why do you belittle your brother? For we will all stand before the judgment seat of Christ.",
+      "originalStructuredText": "Why, then, do you judge your brother? Or why do you belittle your brother? For we will all stand before the judgment seat of Christ.",
+      "textSourceId": "msb.txt#line=28294"
+    },
+    {
+      "id": "ROM.14.11",
+      "sourceRef": "ROM.14.11",
+      "sourceId": "ROM.usj#content/309/content/8",
+      "sourceLabel": "11",
+      "anchors": [
+        "ROM.14.11"
+      ],
+      "mappingType": "exact",
+      "text": "It is written: “As surely as I live, says the Lord, every knee will bow before Me; every tongue will confess to God.”",
+      "originalText": "It is written: “As surely as I live, says the Lord, every knee will bow before Me; every tongue will confess to God.”",
+      "originalStructuredText": "It is written:\n\n“As surely as I live,\nsays the Lord,\nevery knee will bow before Me;\nevery tongue will confess to God.”\n ",
+      "textSourceId": "msb.txt#line=28295"
+    },
+    {
+      "id": "ROM.14.12",
+      "sourceRef": "ROM.14.12",
+      "sourceId": "ROM.usj#content/315/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "ROM.14.12"
+      ],
+      "mappingType": "exact",
+      "text": "So then, each of us will give an account of himself to God.",
+      "originalText": "So then, each of us will give an account of himself to God.",
+      "originalStructuredText": "So then, each of us will give an account of himself to God.\n ",
+      "textSourceId": "msb.txt#line=28296"
+    },
+    {
+      "id": "ROM.14.13",
+      "sourceRef": "ROM.14.13",
+      "sourceId": "ROM.usj#content/318/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "ROM.14.13"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore let us stop judging one another. Instead, make up your mind not to put any stumbling block or obstacle in your brother’s way.",
+      "originalText": "Therefore let us stop judging one another. Instead, make up your mind not to put any stumbling block or obstacle in your brother’s way.",
+      "originalStructuredText": "Therefore let us stop judging one another. Instead, make up your mind not to put any stumbling block or obstacle in your brother’s way.\n ",
+      "textSourceId": "msb.txt#line=28297"
+    },
+    {
+      "id": "ROM.14.14",
+      "sourceRef": "ROM.14.14",
+      "sourceId": "ROM.usj#content/319/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "ROM.14.14"
+      ],
+      "mappingType": "exact",
+      "text": "I am convinced and fully persuaded in the Lord Jesus that nothing is unclean in itself. But if anyone regards something as unclean, then for him it is unclean.",
+      "originalText": "I am convinced and fully persuaded in the Lord Jesus that nothing is unclean in itself. But if anyone regards something as unclean, then for him it is unclean.",
+      "originalStructuredText": "I am convinced and fully persuaded in the Lord Jesus that nothing is unclean in itself. But if anyone regards something as unclean, then for him it is unclean. ",
+      "textSourceId": "msb.txt#line=28298"
+    },
+    {
+      "id": "ROM.14.15",
+      "sourceRef": "ROM.14.15",
+      "sourceId": "ROM.usj#content/319/content/13",
+      "sourceLabel": "15",
+      "anchors": [
+        "ROM.14.15"
+      ],
+      "mappingType": "exact",
+      "text": "If your brother is distressed by what you eat, you are no longer acting in love. Do not by your eating destroy your brother, for whom Christ died.",
+      "originalText": "If your brother is distressed by what you eat, you are no longer acting in love. Do not by your eating destroy your brother, for whom Christ died.",
+      "originalStructuredText": "If your brother is distressed by what you eat, you are no longer acting in love. Do not by your eating destroy your brother, for whom Christ died.\n ",
+      "textSourceId": "msb.txt#line=28299"
+    },
+    {
+      "id": "ROM.14.16",
+      "sourceRef": "ROM.14.16",
+      "sourceId": "ROM.usj#content/320/content/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "ROM.14.16"
+      ],
+      "mappingType": "exact",
+      "text": "Do not allow what you consider good, then, to be spoken of as evil.",
+      "originalText": "Do not allow what you consider good, then, to be spoken of as evil.",
+      "originalStructuredText": "Do not allow what you consider good, then, to be spoken of as evil. ",
+      "textSourceId": "msb.txt#line=28300"
+    },
+    {
+      "id": "ROM.14.17",
+      "sourceRef": "ROM.14.17",
+      "sourceId": "ROM.usj#content/320/content/8",
+      "sourceLabel": "17",
+      "anchors": [
+        "ROM.14.17"
+      ],
+      "mappingType": "exact",
+      "text": "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace, and joy in the Holy Spirit.",
+      "originalText": "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace, and joy in the Holy Spirit.",
+      "originalStructuredText": "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace, and joy in the Holy Spirit. ",
+      "textSourceId": "msb.txt#line=28301"
+    },
+    {
+      "id": "ROM.14.18",
+      "sourceRef": "ROM.14.18",
+      "sourceId": "ROM.usj#content/320/content/14",
+      "sourceLabel": "18",
+      "anchors": [
+        "ROM.14.18"
+      ],
+      "mappingType": "exact",
+      "text": "For whoever serves Christ in these things is pleasing to God and approved by men.",
+      "originalText": "For whoever serves Christ in these things is pleasing to God and approved by men.",
+      "originalStructuredText": "For whoever serves Christ in these thingsis pleasing to God and approved by men.\n ",
+      "textSourceId": "msb.txt#line=28302"
+    },
+    {
+      "id": "ROM.14.19",
+      "sourceRef": "ROM.14.19",
+      "sourceId": "ROM.usj#content/321/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "ROM.14.19"
+      ],
+      "mappingType": "exact",
+      "text": "So then, let us pursue what leads to peace and to mutual edification.",
+      "originalText": "So then, let us pursue what leads to peace and to mutual edification.",
+      "originalStructuredText": "So then, let us pursue what leads to peace and to mutual edification. ",
+      "textSourceId": "msb.txt#line=28303"
+    },
+    {
+      "id": "ROM.14.20",
+      "sourceRef": "ROM.14.20",
+      "sourceId": "ROM.usj#content/321/content/3",
+      "sourceLabel": "20",
+      "anchors": [
+        "ROM.14.20"
+      ],
+      "mappingType": "exact",
+      "text": "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a man to let his eating be a stumbling block.",
+      "originalText": "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a man to let his eating be a stumbling block.",
+      "originalStructuredText": "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a man to let his eating be a stumbling block. ",
+      "textSourceId": "msb.txt#line=28304"
+    },
+    {
+      "id": "ROM.14.21",
+      "sourceRef": "ROM.14.21",
+      "sourceId": "ROM.usj#content/321/content/10",
+      "sourceLabel": "21",
+      "anchors": [
+        "ROM.14.21"
+      ],
+      "mappingType": "exact",
+      "text": "It is better not to eat meat or drink wine or to do anything to cause your brother to stumble or to be hindered or weakened.",
+      "originalText": "It is better not to eat meat or drink wine or to do anything to cause your brother to stumble or to be hindered or weakened.",
+      "originalStructuredText": "It is better not to eat meat or drink wine or to do anythingto cause your brother to stumble or to be hindered or weakened.\n ",
+      "textSourceId": "msb.txt#line=28305"
+    },
+    {
+      "id": "ROM.14.22",
+      "sourceRef": "ROM.14.22",
+      "sourceId": "ROM.usj#content/322/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "ROM.14.22"
+      ],
+      "mappingType": "exact",
+      "text": "Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves.",
+      "originalText": "Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves.",
+      "originalStructuredText": "Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves. ",
+      "textSourceId": "msb.txt#line=28306"
+    },
+    {
+      "id": "ROM.14.23",
+      "sourceRef": "ROM.14.23",
+      "sourceId": "ROM.usj#content/322/content/13",
+      "sourceLabel": "23",
+      "anchors": [
+        "ROM.14.23"
+      ],
+      "mappingType": "exact",
+      "text": "But the one who has doubts is condemned if he eats, because his eating is not from faith; and everything that is not from faith is sin.",
+      "originalText": "But the one who has doubts is condemned if he eats, because his eating is not from faith; and everything that is not from faith is sin.",
+      "originalStructuredText": "But the one who has doubts is condemned if he eats, because his eating is not from faith; and everything that is not from faith is sin.\n ",
+      "textSourceId": "msb.txt#line=28307"
+    },
+    {
+      "id": "ROM.14.24",
+      "sourceRef": "ROM.14.24",
+      "sourceId": "ROM.usj#content/325/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "ROM.14.24",
+        "ROM.16.25"
+      ],
+      "mappingType": "relocated",
+      "text": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past",
+      "originalText": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past",
+      "originalStructuredText": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past ",
+      "textSourceId": "msb.txt#line=28308"
+    },
+    {
+      "id": "ROM.14.25",
+      "sourceRef": "ROM.14.25",
+      "sourceId": "ROM.usj#content/325/content/7",
+      "sourceLabel": "25",
+      "anchors": [
+        "ROM.14.25",
+        "ROM.16.26"
+      ],
+      "mappingType": "relocated",
+      "text": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith—",
+      "originalText": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith—",
+      "originalStructuredText": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith — ",
+      "textSourceId": "msb.txt#line=28309"
+    },
+    {
+      "id": "ROM.14.26",
+      "sourceRef": "ROM.14.26",
+      "sourceId": "ROM.usj#content/325/content/17",
+      "sourceLabel": "26",
+      "anchors": [
+        "ROM.14.26",
+        "ROM.16.27"
+      ],
+      "mappingType": "relocated",
+      "text": "to the only wise God be glory forever through Jesus Christ! Amen.",
+      "originalText": "to the only wise God be glory forever through Jesus Christ! Amen.",
+      "originalStructuredText": "to the only wise God be glory forever through Jesus Christ! Amen.",
+      "textSourceId": "msb.txt#line=28310"
+    }
+  ],
+  "notes": [
+    {
+      "id": "ROM.14.1.note.127",
+      "anchor": "ROM.14.1",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/306/content/5",
+      "body": "14:1 Or without quarreling over disputable matters",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "without quarreling over disputable matters"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.4.note.128",
+      "anchor": "ROM.14.4",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/306/content/32",
+      "body": "14:4 CT the Lord",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Lord"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.6.note.129",
+      "anchor": "ROM.14.6",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/307/content/30",
+      "body": "14:6 CT does not include And he who does not observe the day, to the Lord he does not observe it.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:6 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "And he who does not observe the day, to the Lord he does not observe it"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.9.note.130",
+      "anchor": "ROM.14.9",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/308/content/15",
+      "body": "14:9 CT does not include and rose.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and rose"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.10.note.131",
+      "anchor": "ROM.14.10",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/309/content/7",
+      "body": "14:10 CT of God",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:10 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "of God"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.11.note.132",
+      "anchor": "ROM.14.11",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/314/content/1",
+      "body": "14:11 Or will give praise to God or will acknowledge God; Isaiah 45:23 (see also LXX)",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "will give praise to God "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "will acknowledge God"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; ",
+              {
+                "type": "ref",
+                "loc": "ISA 45:23",
+                "content": [
+                  "Isaiah 45:23"
+                ]
+              },
+              " (see also LXX)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.12.note.133",
+      "anchor": "ROM.14.12",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/315/content/3",
+      "body": "14:12 SBL does not include to God.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:12 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "SBL does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "to God"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.18.note.134",
+      "anchor": "ROM.14.18",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/320/content/16",
+      "body": "14:18 CT in this way",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:18 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in this way"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.21.note.135",
+      "anchor": "ROM.14.21",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/321/content/18",
+      "body": "14:21 SBL, MT, and TR; other CT do not include or to be hindered or weakened.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:21 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "SBL, MT, and TR; other CT do not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "or to be hindered or weakened"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.22.note.136",
+      "anchor": "ROM.14.22",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/322/content/7",
+      "body": "14:22 Literally Keep the faith that you have to yourself before God",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:22 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Keep the faith that you have to yourself before God"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.25.note.137",
+      "anchor": "ROM.14.25",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/325/content/15",
+      "body": "14:25 Literally the obedience of faith",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:25 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the obedience of faith"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ROM.14.26.note.138",
+      "anchor": "ROM.14.26",
+      "type": "publisher-note",
+      "sourceId": "ROM.usj#content/325/content/22",
+      "body": "14:26 Some manuscripts place the text of verses 24–26 after Romans 15:33 or after Romans 16:24.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "14:26 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some manuscripts place the text of verses 24–26 after ",
+              {
+                "type": "ref",
+                "loc": "ROM 15:33",
+                "content": [
+                  "Romans 15:33"
+                ]
+              },
+              " or after Romans 16:24."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "ROM.14.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.1.note.127"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.1",
+          "sourceRef": "ROM.14.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.2",
+          "sourceRef": "ROM.14.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.3",
+          "sourceRef": "ROM.14.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.4.note.128"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.4",
+          "sourceRef": "ROM.14.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.5",
+          "sourceRef": "ROM.14.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.6.note.129"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.6",
+          "sourceRef": "ROM.14.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.7",
+          "sourceRef": "ROM.14.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.8",
+          "sourceRef": "ROM.14.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.9.note.130"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.9",
+          "sourceRef": "ROM.14.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.10.note.131"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.10",
+          "sourceRef": "ROM.14.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.11.note.132"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.11",
+          "sourceRef": "ROM.14.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.12.note.133"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.12",
+          "sourceRef": "ROM.14.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.13",
+          "sourceRef": "ROM.14.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.14",
+          "sourceRef": "ROM.14.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.15",
+          "sourceRef": "ROM.14.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.16",
+          "sourceRef": "ROM.14.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.17",
+          "sourceRef": "ROM.14.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.18.note.134"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.18",
+          "sourceRef": "ROM.14.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.19",
+          "sourceRef": "ROM.14.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.20",
+          "sourceRef": "ROM.14.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.21.note.135"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.21",
+          "sourceRef": "ROM.14.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.22.note.136"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.22",
+          "sourceRef": "ROM.14.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.23",
+          "sourceRef": "ROM.14.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.24",
+          "sourceRef": "ROM.14.24",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.25.note.137"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.25",
+          "sourceRef": "ROM.14.25",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.14.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ROM.14.26.note.138"
+      ],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.26",
+          "sourceRef": "ROM.14.26",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

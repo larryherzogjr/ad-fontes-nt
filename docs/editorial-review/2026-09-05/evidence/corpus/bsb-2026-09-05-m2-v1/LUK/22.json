@@ -1,0 +1,5395 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/926",
+      "runs": [
+        {
+          "text": "The Plot to Kill Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/927",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:1–5",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:1–2",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 11:45–57",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/928",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "LUK.22.1",
+          "anchors": [
+            "LUK.22.1"
+          ],
+          "sourceAnchor": "LUK.22.1"
+        },
+        {
+          "text": "Now the Feast of Unleavened Bread,",
+          "anchor": "LUK.22.1",
+          "marks": [],
+          "originalText": "Now the Feast of Unleavened Bread,",
+          "anchors": [
+            "LUK.22.1"
+          ],
+          "sourceAnchor": "LUK.22.1"
+        },
+        {
+          "noteId": "LUK.22.note.117",
+          "anchor": "LUK.22.1",
+          "anchors": [
+            "LUK.22.1"
+          ],
+          "sourceAnchor": "LUK.22.1"
+        },
+        {
+          "text": " called the Passover, was approaching,",
+          "anchor": "LUK.22.1",
+          "marks": [],
+          "originalText": " called the Passover, was approaching, ",
+          "anchors": [
+            "LUK.22.1"
+          ],
+          "sourceAnchor": "LUK.22.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "LUK.22.2",
+          "anchors": [
+            "LUK.22.2"
+          ],
+          "sourceAnchor": "LUK.22.2"
+        },
+        {
+          "text": "and the chief priests and scribes were looking for a way to put Jesus to death, for they feared the people.",
+          "anchor": "LUK.22.2",
+          "marks": [],
+          "originalText": "and the chief priests and scribes were looking for a way to put Jesus to death, for they feared the people.",
+          "anchors": [
+            "LUK.22.2"
+          ],
+          "sourceAnchor": "LUK.22.2"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/929",
+      "runs": [
+        {
+          "text": "Judas Agrees to Betray Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/930",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:14–16",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:10–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/931",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.2"
+          ],
+          "sourceAnchor": "LUK.22.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "LUK.22.3",
+          "anchors": [
+            "LUK.22.3"
+          ],
+          "sourceAnchor": "LUK.22.3"
+        },
+        {
+          "text": "Then Satan entered Judas Iscariot, who was one of the Twelve.",
+          "anchor": "LUK.22.3",
+          "marks": [],
+          "originalText": "Then Satan entered Judas Iscariot, who was one of the Twelve. ",
+          "anchors": [
+            "LUK.22.3"
+          ],
+          "sourceAnchor": "LUK.22.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "LUK.22.4",
+          "anchors": [
+            "LUK.22.4"
+          ],
+          "sourceAnchor": "LUK.22.4"
+        },
+        {
+          "text": "And Judas went to discuss with the chief priests and temple officers how he might betray Jesus to them.",
+          "anchor": "LUK.22.4",
+          "marks": [],
+          "originalText": "And Judas went to discuss with the chief priests and temple officers how he might betray Jesus to them. ",
+          "anchors": [
+            "LUK.22.4"
+          ],
+          "sourceAnchor": "LUK.22.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "LUK.22.5",
+          "anchors": [
+            "LUK.22.5"
+          ],
+          "sourceAnchor": "LUK.22.5"
+        },
+        {
+          "text": "They were delighted and agreed to give him money.",
+          "anchor": "LUK.22.5",
+          "marks": [],
+          "originalText": "They were delighted and agreed to give him money. ",
+          "anchors": [
+            "LUK.22.5"
+          ],
+          "sourceAnchor": "LUK.22.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "LUK.22.6",
+          "anchors": [
+            "LUK.22.6"
+          ],
+          "sourceAnchor": "LUK.22.6"
+        },
+        {
+          "text": "Judas consented, and began to look for an opportunity to betray Jesus to them in the absence of a crowd.",
+          "anchor": "LUK.22.6",
+          "marks": [],
+          "originalText": "Judas consented, and began to look for an opportunity to betray Jesus to them in the absence of a crowd.",
+          "anchors": [
+            "LUK.22.6"
+          ],
+          "sourceAnchor": "LUK.22.6"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/932",
+      "runs": [
+        {
+          "text": "Preparing the Passover",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/933",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:17–19",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:12–16",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/934",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.6"
+          ],
+          "sourceAnchor": "LUK.22.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "LUK.22.7",
+          "anchors": [
+            "LUK.22.7"
+          ],
+          "sourceAnchor": "LUK.22.7"
+        },
+        {
+          "text": "Then came the day of Unleavened Bread on which the Passover lamb was to be sacrificed.",
+          "anchor": "LUK.22.7",
+          "marks": [],
+          "originalText": "Then came the day of Unleavened Bread on which the Passover lamb was to be sacrificed. ",
+          "anchors": [
+            "LUK.22.7"
+          ],
+          "sourceAnchor": "LUK.22.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "LUK.22.8",
+          "anchors": [
+            "LUK.22.8"
+          ],
+          "sourceAnchor": "LUK.22.8"
+        },
+        {
+          "text": "Jesus sent Peter and John, saying, ",
+          "anchor": "LUK.22.8",
+          "marks": [],
+          "originalText": "Jesus sent Peter and John, saying, ",
+          "anchors": [
+            "LUK.22.8"
+          ],
+          "sourceAnchor": "LUK.22.8"
+        },
+        {
+          "text": "“Go and make preparations for us to eat the Passover.”",
+          "anchor": "LUK.22.8",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Go and make preparations for us to eat the Passover.”",
+          "anchors": [
+            "LUK.22.8"
+          ],
+          "sourceAnchor": "LUK.22.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/935",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.8"
+          ],
+          "sourceAnchor": "LUK.22.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "LUK.22.9",
+          "anchors": [
+            "LUK.22.9"
+          ],
+          "sourceAnchor": "LUK.22.9"
+        },
+        {
+          "text": "“Where do You want us to prepare it?” they asked.",
+          "anchor": "LUK.22.9",
+          "marks": [],
+          "originalText": "“Where do You want us to prepare it?” they asked.",
+          "anchors": [
+            "LUK.22.9"
+          ],
+          "sourceAnchor": "LUK.22.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/936",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.9"
+          ],
+          "sourceAnchor": "LUK.22.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "LUK.22.10",
+          "anchors": [
+            "LUK.22.10"
+          ],
+          "sourceAnchor": "LUK.22.10"
+        },
+        {
+          "text": "He answered, ",
+          "anchor": "LUK.22.10",
+          "marks": [],
+          "originalText": "He answered, ",
+          "anchors": [
+            "LUK.22.10"
+          ],
+          "sourceAnchor": "LUK.22.10"
+        },
+        {
+          "text": "“When you enter the city, a man carrying a jug of water will meet you. Follow him to the house he enters,",
+          "anchor": "LUK.22.10",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“When you enter the city, a man carrying a jug of water will meet you. Follow him to the house he enters, ",
+          "anchors": [
+            "LUK.22.10"
+          ],
+          "sourceAnchor": "LUK.22.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "LUK.22.11",
+          "anchors": [
+            "LUK.22.11"
+          ],
+          "sourceAnchor": "LUK.22.11"
+        },
+        {
+          "text": "and say to the owner of that house, ‘The Teacher asks: Where is the guest room, where I may eat the Passover with My disciples?’",
+          "anchor": "LUK.22.11",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "and say to the owner of that house, ‘The Teacher asks: Where is the guest room, where I may eat the Passover with My disciples?’ ",
+          "anchors": [
+            "LUK.22.11"
+          ],
+          "sourceAnchor": "LUK.22.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "LUK.22.12",
+          "anchors": [
+            "LUK.22.12"
+          ],
+          "sourceAnchor": "LUK.22.12"
+        },
+        {
+          "text": "And he will show you a large upper room, already furnished. Make preparations there.”",
+          "anchor": "LUK.22.12",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "And he will show you a large upper room, already furnished. Make preparations there.”",
+          "anchors": [
+            "LUK.22.12"
+          ],
+          "sourceAnchor": "LUK.22.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/937",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.12"
+          ],
+          "sourceAnchor": "LUK.22.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "LUK.22.13",
+          "anchors": [
+            "LUK.22.13"
+          ],
+          "sourceAnchor": "LUK.22.13"
+        },
+        {
+          "text": "So they went and found it just as Jesus had told them. And they prepared the Passover.",
+          "anchor": "LUK.22.13",
+          "marks": [],
+          "originalText": "So they went and found it just as Jesus had told them. And they prepared the Passover.",
+          "anchors": [
+            "LUK.22.13"
+          ],
+          "sourceAnchor": "LUK.22.13"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/938",
+      "runs": [
+        {
+          "text": "The Last Supper",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/939",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:20–30",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:17–26",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "1 Corinthians 11:17–34",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/940",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.13"
+          ],
+          "sourceAnchor": "LUK.22.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "LUK.22.14",
+          "anchors": [
+            "LUK.22.14"
+          ],
+          "sourceAnchor": "LUK.22.14"
+        },
+        {
+          "text": "When the hour had come, Jesus reclined at the table with His apostles.",
+          "anchor": "LUK.22.14",
+          "marks": [],
+          "originalText": "When the hour had come, Jesus reclined at the table with His apostles. ",
+          "anchors": [
+            "LUK.22.14"
+          ],
+          "sourceAnchor": "LUK.22.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "LUK.22.15",
+          "anchors": [
+            "LUK.22.15"
+          ],
+          "sourceAnchor": "LUK.22.15"
+        },
+        {
+          "text": "And He said to them, ",
+          "anchor": "LUK.22.15",
+          "marks": [],
+          "originalText": "And He said to them, ",
+          "anchors": [
+            "LUK.22.15"
+          ],
+          "sourceAnchor": "LUK.22.15"
+        },
+        {
+          "text": "“I have eagerly desired to eat this Passover with you before My suffering.",
+          "anchor": "LUK.22.15",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I have eagerly desired to eat this Passover with you before My suffering. ",
+          "anchors": [
+            "LUK.22.15"
+          ],
+          "sourceAnchor": "LUK.22.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "LUK.22.16",
+          "anchors": [
+            "LUK.22.16"
+          ],
+          "sourceAnchor": "LUK.22.16"
+        },
+        {
+          "text": "For I tell you that I will not eat it again until it is fulfilled in the kingdom of God.”",
+          "anchor": "LUK.22.16",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For I tell you that I will not eat it again until it is fulfilled in the kingdom of God.”",
+          "anchors": [
+            "LUK.22.16"
+          ],
+          "sourceAnchor": "LUK.22.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/941",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.16",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.16"
+          ],
+          "sourceAnchor": "LUK.22.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "LUK.22.17",
+          "anchors": [
+            "LUK.22.17"
+          ],
+          "sourceAnchor": "LUK.22.17"
+        },
+        {
+          "text": "After taking the cup, He gave thanks and said, ",
+          "anchor": "LUK.22.17",
+          "marks": [],
+          "originalText": "After taking the cup, He gave thanks and said, ",
+          "anchors": [
+            "LUK.22.17"
+          ],
+          "sourceAnchor": "LUK.22.17"
+        },
+        {
+          "text": "“Take this and divide it among yourselves.",
+          "anchor": "LUK.22.17",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Take this and divide it among yourselves. ",
+          "anchors": [
+            "LUK.22.17"
+          ],
+          "sourceAnchor": "LUK.22.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "LUK.22.18",
+          "anchors": [
+            "LUK.22.18"
+          ],
+          "sourceAnchor": "LUK.22.18"
+        },
+        {
+          "text": "For I tell you that I will not drink of the fruit of the vine from now on until the kingdom of God comes.”",
+          "anchor": "LUK.22.18",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For I tell you that I will not drink of the fruit of the vine from now on until the kingdom of God comes.”",
+          "anchors": [
+            "LUK.22.18"
+          ],
+          "sourceAnchor": "LUK.22.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/942",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.18"
+          ],
+          "sourceAnchor": "LUK.22.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "LUK.22.19",
+          "anchors": [
+            "LUK.22.19"
+          ],
+          "sourceAnchor": "LUK.22.19"
+        },
+        {
+          "text": "And He took the bread, gave thanks and broke it, and gave it to them, saying, ",
+          "anchor": "LUK.22.19",
+          "marks": [],
+          "originalText": "And He took the bread, gave thanks and broke it, and gave it to them, saying, ",
+          "anchors": [
+            "LUK.22.19"
+          ],
+          "sourceAnchor": "LUK.22.19"
+        },
+        {
+          "text": "“This is My body, given for you; do this in remembrance of Me.”",
+          "anchor": "LUK.22.19",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“This is My body, given for you; do this in remembrance of Me.”",
+          "anchors": [
+            "LUK.22.19"
+          ],
+          "sourceAnchor": "LUK.22.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/943",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.19"
+          ],
+          "sourceAnchor": "LUK.22.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "LUK.22.20",
+          "anchors": [
+            "LUK.22.20"
+          ],
+          "sourceAnchor": "LUK.22.20"
+        },
+        {
+          "text": "In the same way, after supper He took the cup, saying, ",
+          "anchor": "LUK.22.20",
+          "marks": [],
+          "originalText": "In the same way, after supper He took the cup, saying, ",
+          "anchors": [
+            "LUK.22.20"
+          ],
+          "sourceAnchor": "LUK.22.20"
+        },
+        {
+          "text": "“This cup is the new covenant in My blood, which is poured out for you.",
+          "anchor": "LUK.22.20",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“This cup is the new covenant in My blood, which is poured out for you.",
+          "anchors": [
+            "LUK.22.20"
+          ],
+          "sourceAnchor": "LUK.22.20"
+        },
+        {
+          "noteId": "LUK.22.note.118",
+          "anchor": "LUK.22.20",
+          "anchors": [
+            "LUK.22.20"
+          ],
+          "sourceAnchor": "LUK.22.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/944",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.20"
+          ],
+          "sourceAnchor": "LUK.22.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "LUK.22.21",
+          "anchors": [
+            "LUK.22.21"
+          ],
+          "sourceAnchor": "LUK.22.21"
+        },
+        {
+          "text": "Look! The hand of My betrayer is with Mine on the table.",
+          "anchor": "LUK.22.21",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Look! The hand of My betrayer is with Mine on the table. ",
+          "anchors": [
+            "LUK.22.21"
+          ],
+          "sourceAnchor": "LUK.22.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "LUK.22.22",
+          "anchors": [
+            "LUK.22.22"
+          ],
+          "sourceAnchor": "LUK.22.22"
+        },
+        {
+          "text": "Indeed, the Son of Man will go as it has been determined, but woe to that man who betrays Him.”",
+          "anchor": "LUK.22.22",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Indeed, the Son of Man will go as it has been determined, but woe to that man who betrays Him.”",
+          "anchors": [
+            "LUK.22.22"
+          ],
+          "sourceAnchor": "LUK.22.22"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/945",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.22",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.22"
+          ],
+          "sourceAnchor": "LUK.22.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "LUK.22.23",
+          "anchors": [
+            "LUK.22.23"
+          ],
+          "sourceAnchor": "LUK.22.23"
+        },
+        {
+          "text": "Then they began to question among themselves which of them was going to do this.",
+          "anchor": "LUK.22.23",
+          "marks": [],
+          "originalText": "Then they began to question among themselves which of them was going to do this.",
+          "anchors": [
+            "LUK.22.23"
+          ],
+          "sourceAnchor": "LUK.22.23"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/946",
+      "runs": [
+        {
+          "text": "Who Is the Greatest?",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/947",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.23"
+          ],
+          "sourceAnchor": "LUK.22.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "LUK.22.24",
+          "anchors": [
+            "LUK.22.24"
+          ],
+          "sourceAnchor": "LUK.22.24"
+        },
+        {
+          "text": "A dispute also arose among the disciples as to which of them should be considered the greatest.",
+          "anchor": "LUK.22.24",
+          "marks": [],
+          "originalText": "A dispute also arose among the disciples as to which of them should be considered the greatest. ",
+          "anchors": [
+            "LUK.22.24"
+          ],
+          "sourceAnchor": "LUK.22.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "LUK.22.25",
+          "anchors": [
+            "LUK.22.25"
+          ],
+          "sourceAnchor": "LUK.22.25"
+        },
+        {
+          "text": "So Jesus declared, ",
+          "anchor": "LUK.22.25",
+          "marks": [],
+          "originalText": "So Jesus declared, ",
+          "anchors": [
+            "LUK.22.25"
+          ],
+          "sourceAnchor": "LUK.22.25"
+        },
+        {
+          "text": "“The kings of the Gentiles lord it over them, and those in authority over them call themselves benefactors.",
+          "anchor": "LUK.22.25",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“The kings of the Gentiles lord it over them, and those in authority over them call themselves benefactors. ",
+          "anchors": [
+            "LUK.22.25"
+          ],
+          "sourceAnchor": "LUK.22.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "LUK.22.26",
+          "anchors": [
+            "LUK.22.26"
+          ],
+          "sourceAnchor": "LUK.22.26"
+        },
+        {
+          "text": "But you shall not be like them. Instead, the greatest among you should be like the youngest, and the one who leads like the one who serves.",
+          "anchor": "LUK.22.26",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But you shall not be like them. Instead, the greatest among you should be like the youngest, and the one who leads like the one who serves. ",
+          "anchors": [
+            "LUK.22.26"
+          ],
+          "sourceAnchor": "LUK.22.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "LUK.22.27",
+          "anchors": [
+            "LUK.22.27"
+          ],
+          "sourceAnchor": "LUK.22.27"
+        },
+        {
+          "text": "For who is greater, the one who reclines at the table or the one who serves? Is it not the one who reclines? But I am among you as one who serves.",
+          "anchor": "LUK.22.27",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For who is greater, the one who reclines at the table or the one who serves? Is it not the one who reclines? But I am among you as one who serves.",
+          "anchors": [
+            "LUK.22.27"
+          ],
+          "sourceAnchor": "LUK.22.27"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/948",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.27",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.27"
+          ],
+          "sourceAnchor": "LUK.22.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "LUK.22.28",
+          "anchors": [
+            "LUK.22.28"
+          ],
+          "sourceAnchor": "LUK.22.28"
+        },
+        {
+          "text": "You are the ones who have stood by Me in My trials.",
+          "anchor": "LUK.22.28",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "You are the ones who have stood by Me in My trials. ",
+          "anchors": [
+            "LUK.22.28"
+          ],
+          "sourceAnchor": "LUK.22.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "LUK.22.29",
+          "anchors": [
+            "LUK.22.29"
+          ],
+          "sourceAnchor": "LUK.22.29"
+        },
+        {
+          "text": "And I bestow on you a kingdom, just as My Father has bestowed one on Me,",
+          "anchor": "LUK.22.29",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "And I bestow on you a kingdom, just as My Father has bestowed one on Me, ",
+          "anchors": [
+            "LUK.22.29"
+          ],
+          "sourceAnchor": "LUK.22.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "LUK.22.30",
+          "anchors": [
+            "LUK.22.30"
+          ],
+          "sourceAnchor": "LUK.22.30"
+        },
+        {
+          "text": "so that you may eat and drink at My table in My kingdom and sit on thrones, judging the twelve tribes of Israel.",
+          "anchor": "LUK.22.30",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "so that you may eat and drink at My table in My kingdom and sit on thrones, judging the twelve tribes of Israel.",
+          "anchors": [
+            "LUK.22.30"
+          ],
+          "sourceAnchor": "LUK.22.30"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/949",
+      "runs": [
+        {
+          "text": "Jesus Predicts Peter’s Denial",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/950",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:31–35",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:27–31",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 13:36–38",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/951",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.30",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.30"
+          ],
+          "sourceAnchor": "LUK.22.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "LUK.22.31",
+          "anchors": [
+            "LUK.22.31"
+          ],
+          "sourceAnchor": "LUK.22.31"
+        },
+        {
+          "text": "Simon, Simon, Satan has asked to sift all of you like wheat.",
+          "anchor": "LUK.22.31",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Simon, Simon, Satan has asked to sift all of you like wheat. ",
+          "anchors": [
+            "LUK.22.31"
+          ],
+          "sourceAnchor": "LUK.22.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "LUK.22.32",
+          "anchors": [
+            "LUK.22.32"
+          ],
+          "sourceAnchor": "LUK.22.32"
+        },
+        {
+          "text": "But I have prayed for you, Simon, that your faith will not fail. And when you have turned back, strengthen your brothers.”",
+          "anchor": "LUK.22.32",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But I have prayed for you,  Simon, that your faith will not fail. And when you have turned back, strengthen your brothers.”",
+          "anchors": [
+            "LUK.22.32"
+          ],
+          "sourceAnchor": "LUK.22.32"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/952",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.32",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.32"
+          ],
+          "sourceAnchor": "LUK.22.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "LUK.22.33",
+          "anchors": [
+            "LUK.22.33"
+          ],
+          "sourceAnchor": "LUK.22.33"
+        },
+        {
+          "text": "“Lord,” said Peter, “I am ready to go with You even to prison and to death.”",
+          "anchor": "LUK.22.33",
+          "marks": [],
+          "originalText": "“Lord,” said Peter, “I am ready to go with You even to prison and to death.”",
+          "anchors": [
+            "LUK.22.33"
+          ],
+          "sourceAnchor": "LUK.22.33"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/953",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.33",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.33"
+          ],
+          "sourceAnchor": "LUK.22.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "LUK.22.34",
+          "anchors": [
+            "LUK.22.34"
+          ],
+          "sourceAnchor": "LUK.22.34"
+        },
+        {
+          "text": "But Jesus replied, ",
+          "anchor": "LUK.22.34",
+          "marks": [],
+          "originalText": "But Jesus replied, ",
+          "anchors": [
+            "LUK.22.34"
+          ],
+          "sourceAnchor": "LUK.22.34"
+        },
+        {
+          "text": "“I tell you, Peter, the rooster will not crow today until you have denied three times that you know Me.”",
+          "anchor": "LUK.22.34",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“I tell you, Peter, the rooster will not crow today until you have denied three times that you know Me.”",
+          "anchors": [
+            "LUK.22.34"
+          ],
+          "sourceAnchor": "LUK.22.34"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/954",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.34",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.34"
+          ],
+          "sourceAnchor": "LUK.22.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "LUK.22.35",
+          "anchors": [
+            "LUK.22.35"
+          ],
+          "sourceAnchor": "LUK.22.35"
+        },
+        {
+          "text": "Then Jesus asked them, ",
+          "anchor": "LUK.22.35",
+          "marks": [],
+          "originalText": "Then Jesus asked them, ",
+          "anchors": [
+            "LUK.22.35"
+          ],
+          "sourceAnchor": "LUK.22.35"
+        },
+        {
+          "text": "“When I sent you out without purse or bag or sandals, did you lack anything?”",
+          "anchor": "LUK.22.35",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“When I sent you out without purse or bag or sandals, did you lack anything?”",
+          "anchors": [
+            "LUK.22.35"
+          ],
+          "sourceAnchor": "LUK.22.35"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/955",
+      "runs": [
+        {
+          "text": " “Nothing,” they answered.",
+          "anchor": "LUK.22.35",
+          "marks": [],
+          "originalText": "“Nothing,” they answered.",
+          "anchors": [
+            "LUK.22.35"
+          ],
+          "sourceAnchor": "LUK.22.35"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/956",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.35",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.35"
+          ],
+          "sourceAnchor": "LUK.22.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "LUK.22.36",
+          "anchors": [
+            "LUK.22.36"
+          ],
+          "sourceAnchor": "LUK.22.36"
+        },
+        {
+          "text": "“Now, however,”",
+          "anchor": "LUK.22.36",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Now, however,”",
+          "anchors": [
+            "LUK.22.36"
+          ],
+          "sourceAnchor": "LUK.22.36"
+        },
+        {
+          "text": " He told them, ",
+          "anchor": "LUK.22.36",
+          "marks": [],
+          "originalText": " He told them, ",
+          "anchors": [
+            "LUK.22.36"
+          ],
+          "sourceAnchor": "LUK.22.36"
+        },
+        {
+          "text": "“the one with a purse should take it, and likewise a bag; and the one without a sword should sell his cloak and buy one.",
+          "anchor": "LUK.22.36",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“the one with a purse should take it, and likewise a bag; and the one without a sword should sell his cloak and buy one. ",
+          "anchors": [
+            "LUK.22.36"
+          ],
+          "sourceAnchor": "LUK.22.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "LUK.22.37",
+          "anchors": [
+            "LUK.22.37"
+          ],
+          "sourceAnchor": "LUK.22.37"
+        },
+        {
+          "text": "For I tell you that this Scripture must be fulfilled in Me: ‘And He was numbered with the transgressors.’",
+          "anchor": "LUK.22.37",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For I tell you that this Scripture must be fulfilled in Me: ‘And He was numbered with the transgressors.’",
+          "anchors": [
+            "LUK.22.37"
+          ],
+          "sourceAnchor": "LUK.22.37"
+        },
+        {
+          "noteId": "LUK.22.note.119",
+          "anchor": "LUK.22.37",
+          "anchors": [
+            "LUK.22.37"
+          ],
+          "sourceAnchor": "LUK.22.37"
+        },
+        {
+          "text": " For what is written about Me is reaching its fulfillment.”",
+          "anchor": "LUK.22.37",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " For what is written about Me is reaching its fulfillment.”",
+          "anchors": [
+            "LUK.22.37"
+          ],
+          "sourceAnchor": "LUK.22.37"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/957",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.37",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.37"
+          ],
+          "sourceAnchor": "LUK.22.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "LUK.22.38",
+          "anchors": [
+            "LUK.22.38"
+          ],
+          "sourceAnchor": "LUK.22.38"
+        },
+        {
+          "text": "So they said, “Look, Lord, here are two swords.”",
+          "anchor": "LUK.22.38",
+          "marks": [],
+          "originalText": "So they said, “Look, Lord, here are two swords.”",
+          "anchors": [
+            "LUK.22.38"
+          ],
+          "sourceAnchor": "LUK.22.38"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/958",
+      "runs": [
+        {
+          "text": " “That is enough,”",
+          "anchor": "LUK.22.38",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“That is enough,”",
+          "anchors": [
+            "LUK.22.38"
+          ],
+          "sourceAnchor": "LUK.22.38"
+        },
+        {
+          "text": " He answered.",
+          "anchor": "LUK.22.38",
+          "marks": [],
+          "originalText": " He answered.",
+          "anchors": [
+            "LUK.22.38"
+          ],
+          "sourceAnchor": "LUK.22.38"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/959",
+      "runs": [
+        {
+          "text": "Jesus Prays on the Mount of Olives",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/960",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:36–46",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:32–42",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/961",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.38",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.38"
+          ],
+          "sourceAnchor": "LUK.22.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "LUK.22.39",
+          "anchors": [
+            "LUK.22.39"
+          ],
+          "sourceAnchor": "LUK.22.39"
+        },
+        {
+          "text": "Jesus went out as usual to the Mount of Olives, and the disciples followed Him.",
+          "anchor": "LUK.22.39",
+          "marks": [],
+          "originalText": "Jesus went out as usual to the Mount of Olives, and the disciples followed Him. ",
+          "anchors": [
+            "LUK.22.39"
+          ],
+          "sourceAnchor": "LUK.22.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "LUK.22.40",
+          "anchors": [
+            "LUK.22.40"
+          ],
+          "sourceAnchor": "LUK.22.40"
+        },
+        {
+          "text": "When He came to the place, He told them, ",
+          "anchor": "LUK.22.40",
+          "marks": [],
+          "originalText": "When He came to the place, He told them, ",
+          "anchors": [
+            "LUK.22.40"
+          ],
+          "sourceAnchor": "LUK.22.40"
+        },
+        {
+          "text": "“Pray that you will not enter into temptation.”",
+          "anchor": "LUK.22.40",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Pray that you will not enter into temptation.”",
+          "anchors": [
+            "LUK.22.40"
+          ],
+          "sourceAnchor": "LUK.22.40"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/962",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.40",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.40"
+          ],
+          "sourceAnchor": "LUK.22.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "LUK.22.41",
+          "anchors": [
+            "LUK.22.41"
+          ],
+          "sourceAnchor": "LUK.22.41"
+        },
+        {
+          "text": "And He withdrew about a stone’s throw beyond them, where He knelt down and prayed,",
+          "anchor": "LUK.22.41",
+          "marks": [],
+          "originalText": "And He withdrew about a stone’s throw beyond them, where He knelt down and prayed, ",
+          "anchors": [
+            "LUK.22.41"
+          ],
+          "sourceAnchor": "LUK.22.41"
+        },
+        {
+          "text": "",
+          "anchor": "LUK.22.41",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.41"
+          ],
+          "sourceAnchor": "LUK.22.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "LUK.22.42",
+          "anchors": [
+            "LUK.22.42"
+          ],
+          "sourceAnchor": "LUK.22.42"
+        },
+        {
+          "text": "“Father, if You are willing, take this cup from Me. Yet not My will, but Yours be done.”",
+          "anchor": "LUK.22.42",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Father, if You are willing, take this cup from Me. Yet not My will, but Yours be done.”",
+          "anchors": [
+            "LUK.22.42"
+          ],
+          "sourceAnchor": "LUK.22.42"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/963",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.42",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.42"
+          ],
+          "sourceAnchor": "LUK.22.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "LUK.22.43",
+          "anchors": [
+            "LUK.22.43"
+          ],
+          "sourceAnchor": "LUK.22.43"
+        },
+        {
+          "text": "Then an angel from heaven appeared to Him and strengthened Him.",
+          "anchor": "LUK.22.43",
+          "marks": [],
+          "originalText": "Then an angel from heaven appeared to Him and strengthened Him. ",
+          "anchors": [
+            "LUK.22.43"
+          ],
+          "sourceAnchor": "LUK.22.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "LUK.22.44",
+          "anchors": [
+            "LUK.22.44"
+          ],
+          "sourceAnchor": "LUK.22.44"
+        },
+        {
+          "text": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground.",
+          "anchor": "LUK.22.44",
+          "marks": [],
+          "originalText": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground.",
+          "anchors": [
+            "LUK.22.44"
+          ],
+          "sourceAnchor": "LUK.22.44"
+        },
+        {
+          "noteId": "LUK.22.note.120",
+          "anchor": "LUK.22.44",
+          "anchors": [
+            "LUK.22.44"
+          ],
+          "sourceAnchor": "LUK.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/964",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.44",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.44"
+          ],
+          "sourceAnchor": "LUK.22.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "LUK.22.45",
+          "anchors": [
+            "LUK.22.45"
+          ],
+          "sourceAnchor": "LUK.22.45"
+        },
+        {
+          "text": "When Jesus rose from prayer and returned to the disciples, He found them asleep, exhausted from sorrow.",
+          "anchor": "LUK.22.45",
+          "marks": [],
+          "originalText": "When Jesus rose from prayer and returned to the disciples, He found them asleep, exhausted from sorrow. ",
+          "anchors": [
+            "LUK.22.45"
+          ],
+          "sourceAnchor": "LUK.22.45"
+        },
+        {
+          "text": "",
+          "anchor": "LUK.22.45",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.45"
+          ],
+          "sourceAnchor": "LUK.22.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "LUK.22.46",
+          "anchors": [
+            "LUK.22.46"
+          ],
+          "sourceAnchor": "LUK.22.46"
+        },
+        {
+          "text": "“Why are you sleeping?”",
+          "anchor": "LUK.22.46",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Why are you sleeping?”",
+          "anchors": [
+            "LUK.22.46"
+          ],
+          "sourceAnchor": "LUK.22.46"
+        },
+        {
+          "text": " He asked. ",
+          "anchor": "LUK.22.46",
+          "marks": [],
+          "originalText": " He asked. ",
+          "anchors": [
+            "LUK.22.46"
+          ],
+          "sourceAnchor": "LUK.22.46"
+        },
+        {
+          "text": "“Get up and pray so that you will not enter into temptation.”",
+          "anchor": "LUK.22.46",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Get up and pray so that you will not enter into temptation.”",
+          "anchors": [
+            "LUK.22.46"
+          ],
+          "sourceAnchor": "LUK.22.46"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/965",
+      "runs": [
+        {
+          "text": "The Betrayal of Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/966",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:47–56",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:43–52",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 18:1–14",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/967",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.46",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.46"
+          ],
+          "sourceAnchor": "LUK.22.46"
+        },
+        {
+          "verse": "47",
+          "anchor": "LUK.22.47",
+          "anchors": [
+            "LUK.22.47"
+          ],
+          "sourceAnchor": "LUK.22.47"
+        },
+        {
+          "text": "While He was still speaking, a crowd arrived, led by the man called Judas, one of the Twelve. He approached Jesus to kiss Him.",
+          "anchor": "LUK.22.47",
+          "marks": [],
+          "originalText": "While He was still speaking, a crowd arrived, led by the man called Judas, one of the Twelve. He approached Jesus to kiss Him. ",
+          "anchors": [
+            "LUK.22.47"
+          ],
+          "sourceAnchor": "LUK.22.47"
+        },
+        {
+          "verse": "48",
+          "anchor": "LUK.22.48",
+          "anchors": [
+            "LUK.22.48"
+          ],
+          "sourceAnchor": "LUK.22.48"
+        },
+        {
+          "text": "But Jesus asked him, ",
+          "anchor": "LUK.22.48",
+          "marks": [],
+          "originalText": "But Jesus asked him, ",
+          "anchors": [
+            "LUK.22.48"
+          ],
+          "sourceAnchor": "LUK.22.48"
+        },
+        {
+          "text": "“Judas, are you betraying the Son of Man with a kiss?”",
+          "anchor": "LUK.22.48",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Judas, are you betraying the Son of Man with a kiss?”",
+          "anchors": [
+            "LUK.22.48"
+          ],
+          "sourceAnchor": "LUK.22.48"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/968",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.48",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.48"
+          ],
+          "sourceAnchor": "LUK.22.48"
+        },
+        {
+          "verse": "49",
+          "anchor": "LUK.22.49",
+          "anchors": [
+            "LUK.22.49"
+          ],
+          "sourceAnchor": "LUK.22.49"
+        },
+        {
+          "text": "Those around Jesus saw what was about to happen and said, “Lord, should we strike with our swords?”",
+          "anchor": "LUK.22.49",
+          "marks": [],
+          "originalText": "Those around Jesus saw what was about to happen and said, “Lord, should we strike with our swords?” ",
+          "anchors": [
+            "LUK.22.49"
+          ],
+          "sourceAnchor": "LUK.22.49"
+        },
+        {
+          "verse": "50",
+          "anchor": "LUK.22.50",
+          "anchors": [
+            "LUK.22.50"
+          ],
+          "sourceAnchor": "LUK.22.50"
+        },
+        {
+          "text": "And one of them struck the servant of the high priest, cutting off his right ear.",
+          "anchor": "LUK.22.50",
+          "marks": [],
+          "originalText": "And one of them struck the servant of the high priest, cutting off his right ear.",
+          "anchors": [
+            "LUK.22.50"
+          ],
+          "sourceAnchor": "LUK.22.50"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/969",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.50",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.50"
+          ],
+          "sourceAnchor": "LUK.22.50"
+        },
+        {
+          "verse": "51",
+          "anchor": "LUK.22.51",
+          "anchors": [
+            "LUK.22.51"
+          ],
+          "sourceAnchor": "LUK.22.51"
+        },
+        {
+          "text": "But Jesus answered, ",
+          "anchor": "LUK.22.51",
+          "marks": [],
+          "originalText": "But Jesus answered, ",
+          "anchors": [
+            "LUK.22.51"
+          ],
+          "sourceAnchor": "LUK.22.51"
+        },
+        {
+          "text": "“No more of this!”",
+          "anchor": "LUK.22.51",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“No more of this!”",
+          "anchors": [
+            "LUK.22.51"
+          ],
+          "sourceAnchor": "LUK.22.51"
+        },
+        {
+          "text": " And He touched the man’s ear and healed him.",
+          "anchor": "LUK.22.51",
+          "marks": [],
+          "originalText": " And He touched the man’s ear and healed him.",
+          "anchors": [
+            "LUK.22.51"
+          ],
+          "sourceAnchor": "LUK.22.51"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/970",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.51",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.51"
+          ],
+          "sourceAnchor": "LUK.22.51"
+        },
+        {
+          "verse": "52",
+          "anchor": "LUK.22.52",
+          "anchors": [
+            "LUK.22.52"
+          ],
+          "sourceAnchor": "LUK.22.52"
+        },
+        {
+          "text": "Then Jesus said to the chief priests, temple officers, and elders who had come for Him, ",
+          "anchor": "LUK.22.52",
+          "marks": [],
+          "originalText": "Then Jesus said to the chief priests, temple officers, and elders who had come for Him, ",
+          "anchors": [
+            "LUK.22.52"
+          ],
+          "sourceAnchor": "LUK.22.52"
+        },
+        {
+          "text": "“Have you come out with swords and clubs as you would against an outlaw?",
+          "anchor": "LUK.22.52",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Have you come out with swords and clubs as you would against an outlaw? ",
+          "anchors": [
+            "LUK.22.52"
+          ],
+          "sourceAnchor": "LUK.22.52"
+        },
+        {
+          "verse": "53",
+          "anchor": "LUK.22.53",
+          "anchors": [
+            "LUK.22.53"
+          ],
+          "sourceAnchor": "LUK.22.53"
+        },
+        {
+          "text": "Every day I was with you in the temple courts,",
+          "anchor": "LUK.22.53",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Every day I was with you in the temple courts,",
+          "anchors": [
+            "LUK.22.53"
+          ],
+          "sourceAnchor": "LUK.22.53"
+        },
+        {
+          "noteId": "LUK.22.note.121",
+          "anchor": "LUK.22.53",
+          "anchors": [
+            "LUK.22.53"
+          ],
+          "sourceAnchor": "LUK.22.53"
+        },
+        {
+          "text": " and you did not lay a hand on Me. But this hour belongs to you and to the power of darkness.”",
+          "anchor": "LUK.22.53",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " and you did not lay a hand on Me. But this hour belongs to you and to the power of darkness.”",
+          "anchors": [
+            "LUK.22.53"
+          ],
+          "sourceAnchor": "LUK.22.53"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/971",
+      "runs": [
+        {
+          "text": "Peter Denies Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/972",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:69–75",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:66–72",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 18:15–18",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/973",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.53",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.53"
+          ],
+          "sourceAnchor": "LUK.22.53"
+        },
+        {
+          "verse": "54",
+          "anchor": "LUK.22.54",
+          "anchors": [
+            "LUK.22.54"
+          ],
+          "sourceAnchor": "LUK.22.54"
+        },
+        {
+          "text": "Then they seized Jesus, led Him away, and took Him into the house of the high priest. And Peter followed at a distance.",
+          "anchor": "LUK.22.54",
+          "marks": [],
+          "originalText": "Then they seized Jesus, led Him away, and took Him into the house of the high priest. And Peter followed at a distance.",
+          "anchors": [
+            "LUK.22.54"
+          ],
+          "sourceAnchor": "LUK.22.54"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/974",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.54",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.54"
+          ],
+          "sourceAnchor": "LUK.22.54"
+        },
+        {
+          "verse": "55",
+          "anchor": "LUK.22.55",
+          "anchors": [
+            "LUK.22.55"
+          ],
+          "sourceAnchor": "LUK.22.55"
+        },
+        {
+          "text": "When those present had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them.",
+          "anchor": "LUK.22.55",
+          "marks": [],
+          "originalText": "When those present had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them. ",
+          "anchors": [
+            "LUK.22.55"
+          ],
+          "sourceAnchor": "LUK.22.55"
+        },
+        {
+          "verse": "56",
+          "anchor": "LUK.22.56",
+          "anchors": [
+            "LUK.22.56"
+          ],
+          "sourceAnchor": "LUK.22.56"
+        },
+        {
+          "text": "A servant girl saw him seated in the firelight and looked intently at him. “This man also was with Him,” she said.",
+          "anchor": "LUK.22.56",
+          "marks": [],
+          "originalText": "A servant girl saw him seated in the firelight and looked intently at him. “This man also was with Him,” she said.",
+          "anchors": [
+            "LUK.22.56"
+          ],
+          "sourceAnchor": "LUK.22.56"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/975",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.56",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.56"
+          ],
+          "sourceAnchor": "LUK.22.56"
+        },
+        {
+          "verse": "57",
+          "anchor": "LUK.22.57",
+          "anchors": [
+            "LUK.22.57"
+          ],
+          "sourceAnchor": "LUK.22.57"
+        },
+        {
+          "text": "But Peter denied it. “Woman, I do not know Him,” he said.",
+          "anchor": "LUK.22.57",
+          "marks": [],
+          "originalText": "But Peter denied it. “Woman, I do not know Him,” he said.",
+          "anchors": [
+            "LUK.22.57"
+          ],
+          "sourceAnchor": "LUK.22.57"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/976",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.57",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.57"
+          ],
+          "sourceAnchor": "LUK.22.57"
+        },
+        {
+          "verse": "58",
+          "anchor": "LUK.22.58",
+          "anchors": [
+            "LUK.22.58"
+          ],
+          "sourceAnchor": "LUK.22.58"
+        },
+        {
+          "text": "A short time later, someone else saw him and said, “You also are one of them.”",
+          "anchor": "LUK.22.58",
+          "marks": [],
+          "originalText": "A short time later, someone else saw him and said, “You also are one of them.”",
+          "anchors": [
+            "LUK.22.58"
+          ],
+          "sourceAnchor": "LUK.22.58"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/977",
+      "runs": [
+        {
+          "text": " But Peter said, “Man, I am not.”",
+          "anchor": "LUK.22.58",
+          "marks": [],
+          "originalText": "But Peter said, “Man, I am not.”",
+          "anchors": [
+            "LUK.22.58"
+          ],
+          "sourceAnchor": "LUK.22.58"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/978",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.58",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.58"
+          ],
+          "sourceAnchor": "LUK.22.58"
+        },
+        {
+          "verse": "59",
+          "anchor": "LUK.22.59",
+          "anchors": [
+            "LUK.22.59"
+          ],
+          "sourceAnchor": "LUK.22.59"
+        },
+        {
+          "text": "About an hour later, another man insisted, “Certainly this man was with Him, for he too is a Galilean.”",
+          "anchor": "LUK.22.59",
+          "marks": [],
+          "originalText": "About an hour later, another man insisted, “Certainly this man was with Him, for he too is a Galilean.”",
+          "anchors": [
+            "LUK.22.59"
+          ],
+          "sourceAnchor": "LUK.22.59"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/979",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.59",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.59"
+          ],
+          "sourceAnchor": "LUK.22.59"
+        },
+        {
+          "verse": "60",
+          "anchor": "LUK.22.60",
+          "anchors": [
+            "LUK.22.60"
+          ],
+          "sourceAnchor": "LUK.22.60"
+        },
+        {
+          "text": "“Man, I do not know what you are talking about,” Peter replied.",
+          "anchor": "LUK.22.60",
+          "marks": [],
+          "originalText": "“Man, I do not know what you are talking about,” Peter replied.",
+          "anchors": [
+            "LUK.22.60"
+          ],
+          "sourceAnchor": "LUK.22.60"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/980",
+      "runs": [
+        {
+          "text": " And immediately, while he was still speaking, the rooster crowed.",
+          "anchor": "LUK.22.60",
+          "marks": [],
+          "originalText": "And immediately, while he was still speaking, the rooster crowed. ",
+          "anchors": [
+            "LUK.22.60"
+          ],
+          "sourceAnchor": "LUK.22.60"
+        },
+        {
+          "verse": "61",
+          "anchor": "LUK.22.61",
+          "anchors": [
+            "LUK.22.61"
+          ],
+          "sourceAnchor": "LUK.22.61"
+        },
+        {
+          "text": "And the Lord turned and looked at Peter.",
+          "anchor": "LUK.22.61",
+          "marks": [],
+          "originalText": "And the Lord turned and looked at Peter.",
+          "anchors": [
+            "LUK.22.61"
+          ],
+          "sourceAnchor": "LUK.22.61"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/981",
+      "runs": [
+        {
+          "text": " Then Peter remembered the word that the Lord had spoken to him: ",
+          "anchor": "LUK.22.61",
+          "marks": [],
+          "originalText": "Then Peter remembered the word that the Lord had spoken to him: ",
+          "anchors": [
+            "LUK.22.61"
+          ],
+          "sourceAnchor": "LUK.22.61"
+        },
+        {
+          "text": "“Before the rooster crows today, you will deny Me three times.”",
+          "anchor": "LUK.22.61",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Before the rooster crows today, you will deny Me three times.”",
+          "anchors": [
+            "LUK.22.61"
+          ],
+          "sourceAnchor": "LUK.22.61"
+        },
+        {
+          "verse": "62",
+          "anchor": "LUK.22.62",
+          "anchors": [
+            "LUK.22.62"
+          ],
+          "sourceAnchor": "LUK.22.62"
+        },
+        {
+          "text": "And he went outside and wept bitterly.",
+          "anchor": "LUK.22.62",
+          "marks": [],
+          "originalText": "And he went outside and wept bitterly.",
+          "anchors": [
+            "LUK.22.62"
+          ],
+          "sourceAnchor": "LUK.22.62"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/982",
+      "runs": [
+        {
+          "text": "The Soldiers Mock Jesus",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/983",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Isaiah 50:4–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 27:27–31",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 15:16–20",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 19:1–15",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/984",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.62",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.62"
+          ],
+          "sourceAnchor": "LUK.22.62"
+        },
+        {
+          "verse": "63",
+          "anchor": "LUK.22.63",
+          "anchors": [
+            "LUK.22.63"
+          ],
+          "sourceAnchor": "LUK.22.63"
+        },
+        {
+          "text": "The men who were holding Jesus began to mock Him and beat Him.",
+          "anchor": "LUK.22.63",
+          "marks": [],
+          "originalText": "The men who were holding Jesus began to mock Him and beat Him. ",
+          "anchors": [
+            "LUK.22.63"
+          ],
+          "sourceAnchor": "LUK.22.63"
+        },
+        {
+          "verse": "64",
+          "anchor": "LUK.22.64",
+          "anchors": [
+            "LUK.22.64"
+          ],
+          "sourceAnchor": "LUK.22.64"
+        },
+        {
+          "text": "They blindfolded Him",
+          "anchor": "LUK.22.64",
+          "marks": [],
+          "originalText": "They blindfolded Him",
+          "anchors": [
+            "LUK.22.64"
+          ],
+          "sourceAnchor": "LUK.22.64"
+        },
+        {
+          "noteId": "LUK.22.note.122",
+          "anchor": "LUK.22.64",
+          "anchors": [
+            "LUK.22.64"
+          ],
+          "sourceAnchor": "LUK.22.64"
+        },
+        {
+          "text": " and kept demanding, “Prophesy! Who hit You?”",
+          "anchor": "LUK.22.64",
+          "marks": [],
+          "originalText": " and kept demanding, “Prophesy! Who hit You?” ",
+          "anchors": [
+            "LUK.22.64"
+          ],
+          "sourceAnchor": "LUK.22.64"
+        },
+        {
+          "verse": "65",
+          "anchor": "LUK.22.65",
+          "anchors": [
+            "LUK.22.65"
+          ],
+          "sourceAnchor": "LUK.22.65"
+        },
+        {
+          "text": "And they said many other blasphemous things against Him.",
+          "anchor": "LUK.22.65",
+          "marks": [],
+          "originalText": "And they said many other blasphemous things against Him.",
+          "anchors": [
+            "LUK.22.65"
+          ],
+          "sourceAnchor": "LUK.22.65"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/985",
+      "runs": [
+        {
+          "text": "Jesus before the Sanhedrin",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/LUK.usj#content/986",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Matthew 26:57–68",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 14:53–65",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "John 18:19–24",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/987",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.65",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.65"
+          ],
+          "sourceAnchor": "LUK.22.65"
+        },
+        {
+          "verse": "66",
+          "anchor": "LUK.22.66",
+          "anchors": [
+            "LUK.22.66"
+          ],
+          "sourceAnchor": "LUK.22.66"
+        },
+        {
+          "text": "At daybreak the council of the elders of the people, both the chief priests and scribes, met together. They led Jesus into their Sanhedrin",
+          "anchor": "LUK.22.66",
+          "marks": [],
+          "originalText": "At daybreak the council of the elders of the people, both the chief priests and scribes, met together. They led Jesus into their Sanhedrin",
+          "anchors": [
+            "LUK.22.66"
+          ],
+          "sourceAnchor": "LUK.22.66"
+        },
+        {
+          "noteId": "LUK.22.note.123",
+          "anchor": "LUK.22.66",
+          "anchors": [
+            "LUK.22.66"
+          ],
+          "sourceAnchor": "LUK.22.66"
+        },
+        {
+          "text": " and said,",
+          "anchor": "LUK.22.66",
+          "marks": [],
+          "originalText": " and said, ",
+          "anchors": [
+            "LUK.22.66"
+          ],
+          "sourceAnchor": "LUK.22.66"
+        },
+        {
+          "verse": "67",
+          "anchor": "LUK.22.67",
+          "anchors": [
+            "LUK.22.67"
+          ],
+          "sourceAnchor": "LUK.22.67"
+        },
+        {
+          "text": "“If You are the Christ, tell us.”",
+          "anchor": "LUK.22.67",
+          "marks": [],
+          "originalText": "“If You are the Christ, tell us.”",
+          "anchors": [
+            "LUK.22.67"
+          ],
+          "sourceAnchor": "LUK.22.67"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/988",
+      "runs": [
+        {
+          "text": " Jesus answered, ",
+          "anchor": "LUK.22.67",
+          "marks": [],
+          "originalText": "Jesus answered, ",
+          "anchors": [
+            "LUK.22.67"
+          ],
+          "sourceAnchor": "LUK.22.67"
+        },
+        {
+          "text": "“If I tell you, you will not believe.",
+          "anchor": "LUK.22.67",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“If I tell you, you will not believe. ",
+          "anchors": [
+            "LUK.22.67"
+          ],
+          "sourceAnchor": "LUK.22.67"
+        },
+        {
+          "verse": "68",
+          "anchor": "LUK.22.68",
+          "anchors": [
+            "LUK.22.68"
+          ],
+          "sourceAnchor": "LUK.22.68"
+        },
+        {
+          "text": "And if I ask you a question, you will not answer.",
+          "anchor": "LUK.22.68",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "And if I ask you a question, you will not answer. ",
+          "anchors": [
+            "LUK.22.68"
+          ],
+          "sourceAnchor": "LUK.22.68"
+        },
+        {
+          "verse": "69",
+          "anchor": "LUK.22.69",
+          "anchors": [
+            "LUK.22.69"
+          ],
+          "sourceAnchor": "LUK.22.69"
+        },
+        {
+          "text": "But from now on the Son of Man will be seated at the right hand of the power of God.”",
+          "anchor": "LUK.22.69",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But from now on the Son of Man will be seated at the right hand of the power of God.”",
+          "anchors": [
+            "LUK.22.69"
+          ],
+          "sourceAnchor": "LUK.22.69"
+        },
+        {
+          "noteId": "LUK.22.note.124",
+          "anchor": "LUK.22.69",
+          "anchors": [
+            "LUK.22.69"
+          ],
+          "sourceAnchor": "LUK.22.69"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/989",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.69",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.69"
+          ],
+          "sourceAnchor": "LUK.22.69"
+        },
+        {
+          "verse": "70",
+          "anchor": "LUK.22.70",
+          "anchors": [
+            "LUK.22.70"
+          ],
+          "sourceAnchor": "LUK.22.70"
+        },
+        {
+          "text": "So they all asked, “Are You then the Son of God?”",
+          "anchor": "LUK.22.70",
+          "marks": [],
+          "originalText": "So they all asked, “Are You then the Son of God?”",
+          "anchors": [
+            "LUK.22.70"
+          ],
+          "sourceAnchor": "LUK.22.70"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/990",
+      "runs": [
+        {
+          "text": " He replied, ",
+          "anchor": "LUK.22.70",
+          "marks": [],
+          "originalText": "He replied, ",
+          "anchors": [
+            "LUK.22.70"
+          ],
+          "sourceAnchor": "LUK.22.70"
+        },
+        {
+          "text": "“You say that I am.”",
+          "anchor": "LUK.22.70",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“You say that I am.”",
+          "anchors": [
+            "LUK.22.70"
+          ],
+          "sourceAnchor": "LUK.22.70"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/LUK.usj#content/991",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "LUK.22.70",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "LUK.22.70"
+          ],
+          "sourceAnchor": "LUK.22.70"
+        },
+        {
+          "verse": "71",
+          "anchor": "LUK.22.71",
+          "anchors": [
+            "LUK.22.71"
+          ],
+          "sourceAnchor": "LUK.22.71"
+        },
+        {
+          "text": "“Why do we need any more testimony?” they declared. “We have heard it for ourselves from His own lips.”",
+          "anchor": "LUK.22.71",
+          "marks": [],
+          "originalText": "“Why do we need any more testimony?” they declared. “We have heard it for ourselves from His own lips.”",
+          "anchors": [
+            "LUK.22.71"
+          ],
+          "sourceAnchor": "LUK.22.71"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "LUK.22.1",
+      "sourceId": "bsb_usj/LUK.usj#content/928/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "LUK.22.1"
+      ],
+      "mappingType": "exact",
+      "text": "Now the Feast of Unleavened Bread, called the Passover, was approaching,",
+      "originalStructuredText": "Now the Feast of Unleavened Bread, called the Passover, was approaching, ",
+      "sourceRef": "LUK.22.1"
+    },
+    {
+      "id": "LUK.22.2",
+      "sourceId": "bsb_usj/LUK.usj#content/928/content/5",
+      "sourceLabel": "2",
+      "anchors": [
+        "LUK.22.2"
+      ],
+      "mappingType": "exact",
+      "text": "and the chief priests and scribes were looking for a way to put Jesus to death, for they feared the people.",
+      "originalStructuredText": "and the chief priests and scribes were looking for a way to put Jesus to death, for they feared the people.\n ",
+      "sourceRef": "LUK.22.2"
+    },
+    {
+      "id": "LUK.22.3",
+      "sourceId": "bsb_usj/LUK.usj#content/931/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "LUK.22.3"
+      ],
+      "mappingType": "exact",
+      "text": "Then Satan entered Judas Iscariot, who was one of the Twelve.",
+      "originalStructuredText": "Then Satan entered Judas Iscariot, who was one of the Twelve. ",
+      "sourceRef": "LUK.22.3"
+    },
+    {
+      "id": "LUK.22.4",
+      "sourceId": "bsb_usj/LUK.usj#content/931/content/3",
+      "sourceLabel": "4",
+      "anchors": [
+        "LUK.22.4"
+      ],
+      "mappingType": "exact",
+      "text": "And Judas went to discuss with the chief priests and temple officers how he might betray Jesus to them.",
+      "originalStructuredText": "And Judas went to discuss with the chief priests and temple officers how he might betray Jesus to them. ",
+      "sourceRef": "LUK.22.4"
+    },
+    {
+      "id": "LUK.22.5",
+      "sourceId": "bsb_usj/LUK.usj#content/931/content/5",
+      "sourceLabel": "5",
+      "anchors": [
+        "LUK.22.5"
+      ],
+      "mappingType": "exact",
+      "text": "They were delighted and agreed to give him money.",
+      "originalStructuredText": "They were delighted and agreed to give him money. ",
+      "sourceRef": "LUK.22.5"
+    },
+    {
+      "id": "LUK.22.6",
+      "sourceId": "bsb_usj/LUK.usj#content/931/content/7",
+      "sourceLabel": "6",
+      "anchors": [
+        "LUK.22.6"
+      ],
+      "mappingType": "exact",
+      "text": "Judas consented, and began to look for an opportunity to betray Jesus to them in the absence of a crowd.",
+      "originalStructuredText": "Judas consented, and began to look for an opportunity to betray Jesus to them in the absence of a crowd.\n ",
+      "sourceRef": "LUK.22.6"
+    },
+    {
+      "id": "LUK.22.7",
+      "sourceId": "bsb_usj/LUK.usj#content/934/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "LUK.22.7"
+      ],
+      "mappingType": "exact",
+      "text": "Then came the day of Unleavened Bread on which the Passover lamb was to be sacrificed.",
+      "originalStructuredText": "Then came the day of Unleavened Bread on which the Passover lamb was to be sacrificed. ",
+      "sourceRef": "LUK.22.7"
+    },
+    {
+      "id": "LUK.22.8",
+      "sourceId": "bsb_usj/LUK.usj#content/934/content/3",
+      "sourceLabel": "8",
+      "anchors": [
+        "LUK.22.8"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus sent Peter and John, saying, “Go and make preparations for us to eat the Passover.”",
+      "originalStructuredText": "Jesus sent Peter and John, saying, “Go and make preparations for us to eat the Passover.”\n ",
+      "sourceRef": "LUK.22.8"
+    },
+    {
+      "id": "LUK.22.9",
+      "sourceId": "bsb_usj/LUK.usj#content/935/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "LUK.22.9"
+      ],
+      "mappingType": "exact",
+      "text": "“Where do You want us to prepare it?” they asked.",
+      "originalStructuredText": "“Where do You want us to prepare it?” they asked.\n ",
+      "sourceRef": "LUK.22.9"
+    },
+    {
+      "id": "LUK.22.10",
+      "sourceId": "bsb_usj/LUK.usj#content/936/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "LUK.22.10"
+      ],
+      "mappingType": "exact",
+      "text": "He answered, “When you enter the city, a man carrying a jug of water will meet you. Follow him to the house he enters,",
+      "originalStructuredText": "He answered, “When you enter the city, a man carrying a jug of water will meet you. Follow him to the house he enters, ",
+      "sourceRef": "LUK.22.10"
+    },
+    {
+      "id": "LUK.22.11",
+      "sourceId": "bsb_usj/LUK.usj#content/936/content/3/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "LUK.22.11"
+      ],
+      "mappingType": "exact",
+      "text": "and say to the owner of that house, ‘The Teacher asks: Where is the guest room, where I may eat the Passover with My disciples?’",
+      "originalStructuredText": "and say to the owner of that house, ‘The Teacher asks: Where is the guest room, where I may eat the Passover with My disciples?’ ",
+      "sourceRef": "LUK.22.11"
+    },
+    {
+      "id": "LUK.22.12",
+      "sourceId": "bsb_usj/LUK.usj#content/936/content/3/content/3",
+      "sourceLabel": "12",
+      "anchors": [
+        "LUK.22.12"
+      ],
+      "mappingType": "exact",
+      "text": "And he will show you a large upper room, already furnished. Make preparations there.”",
+      "originalStructuredText": "And he will show you a large upper room, already furnished. Make preparations there.”\n ",
+      "sourceRef": "LUK.22.12"
+    },
+    {
+      "id": "LUK.22.13",
+      "sourceId": "bsb_usj/LUK.usj#content/937/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "LUK.22.13"
+      ],
+      "mappingType": "exact",
+      "text": "So they went and found it just as Jesus had told them. And they prepared the Passover.",
+      "originalStructuredText": "So they went and found it just as Jesus had told them. And they prepared the Passover.\n ",
+      "sourceRef": "LUK.22.13"
+    },
+    {
+      "id": "LUK.22.14",
+      "sourceId": "bsb_usj/LUK.usj#content/940/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "LUK.22.14"
+      ],
+      "mappingType": "exact",
+      "text": "When the hour had come, Jesus reclined at the table with His apostles.",
+      "originalStructuredText": "When the hour had come, Jesus reclined at the table with His apostles. ",
+      "sourceRef": "LUK.22.14"
+    },
+    {
+      "id": "LUK.22.15",
+      "sourceId": "bsb_usj/LUK.usj#content/940/content/3",
+      "sourceLabel": "15",
+      "anchors": [
+        "LUK.22.15"
+      ],
+      "mappingType": "exact",
+      "text": "And He said to them, “I have eagerly desired to eat this Passover with you before My suffering.",
+      "originalStructuredText": "And He said to them, “I have eagerly desired to eat this Passover with you before My suffering. ",
+      "sourceRef": "LUK.22.15"
+    },
+    {
+      "id": "LUK.22.16",
+      "sourceId": "bsb_usj/LUK.usj#content/940/content/5/content/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "LUK.22.16"
+      ],
+      "mappingType": "exact",
+      "text": "For I tell you that I will not eat it again until it is fulfilled in the kingdom of God.”",
+      "originalStructuredText": "For I tell you that I will not eat it again until it is fulfilled in the kingdom of God.”\n ",
+      "sourceRef": "LUK.22.16"
+    },
+    {
+      "id": "LUK.22.17",
+      "sourceId": "bsb_usj/LUK.usj#content/941/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "LUK.22.17"
+      ],
+      "mappingType": "exact",
+      "text": "After taking the cup, He gave thanks and said, “Take this and divide it among yourselves.",
+      "originalStructuredText": "After taking the cup, He gave thanks and said, “Take this and divide it among yourselves. ",
+      "sourceRef": "LUK.22.17"
+    },
+    {
+      "id": "LUK.22.18",
+      "sourceId": "bsb_usj/LUK.usj#content/941/content/3/content/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "LUK.22.18"
+      ],
+      "mappingType": "exact",
+      "text": "For I tell you that I will not drink of the fruit of the vine from now on until the kingdom of God comes.”",
+      "originalStructuredText": "For I tell you that I will not drink of the fruit of the vine from now on until the kingdom of God comes.”\n ",
+      "sourceRef": "LUK.22.18"
+    },
+    {
+      "id": "LUK.22.19",
+      "sourceId": "bsb_usj/LUK.usj#content/942/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "LUK.22.19"
+      ],
+      "mappingType": "exact",
+      "text": "And He took the bread, gave thanks and broke it, and gave it to them, saying, “This is My body, given for you; do this in remembrance of Me.”",
+      "originalStructuredText": "And He took the bread, gave thanks and broke it, and gave it to them, saying, “This is My body, given for you; do this in remembrance of Me.”\n ",
+      "sourceRef": "LUK.22.19"
+    },
+    {
+      "id": "LUK.22.20",
+      "sourceId": "bsb_usj/LUK.usj#content/943/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "LUK.22.20"
+      ],
+      "mappingType": "exact",
+      "text": "In the same way, after supper He took the cup, saying, “This cup is the new covenant in My blood, which is poured out for you.",
+      "originalStructuredText": "In the same way, after supper He took the cup, saying, “This cup is the new covenant in My blood, which is poured out for you.\n ",
+      "sourceRef": "LUK.22.20"
+    },
+    {
+      "id": "LUK.22.21",
+      "sourceId": "bsb_usj/LUK.usj#content/944/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "LUK.22.21"
+      ],
+      "mappingType": "exact",
+      "text": "Look! The hand of My betrayer is with Mine on the table.",
+      "originalStructuredText": "Look! The hand of My betrayer is with Mine on the table. ",
+      "sourceRef": "LUK.22.21"
+    },
+    {
+      "id": "LUK.22.22",
+      "sourceId": "bsb_usj/LUK.usj#content/944/content/2/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "LUK.22.22"
+      ],
+      "mappingType": "exact",
+      "text": "Indeed, the Son of Man will go as it has been determined, but woe to that man who betrays Him.”",
+      "originalStructuredText": "Indeed, the Son of Man will go as it has been determined, but woe to that man who betrays Him.”\n ",
+      "sourceRef": "LUK.22.22"
+    },
+    {
+      "id": "LUK.22.23",
+      "sourceId": "bsb_usj/LUK.usj#content/945/content/1",
+      "sourceLabel": "23",
+      "anchors": [
+        "LUK.22.23"
+      ],
+      "mappingType": "exact",
+      "text": "Then they began to question among themselves which of them was going to do this.",
+      "originalStructuredText": "Then they began to question among themselves which of them was going to do this.\n ",
+      "sourceRef": "LUK.22.23"
+    },
+    {
+      "id": "LUK.22.24",
+      "sourceId": "bsb_usj/LUK.usj#content/947/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "LUK.22.24"
+      ],
+      "mappingType": "exact",
+      "text": "A dispute also arose among the disciples as to which of them should be considered the greatest.",
+      "originalStructuredText": "A dispute also arose among the disciples as to which of them should be considered the greatest. ",
+      "sourceRef": "LUK.22.24"
+    },
+    {
+      "id": "LUK.22.25",
+      "sourceId": "bsb_usj/LUK.usj#content/947/content/3",
+      "sourceLabel": "25",
+      "anchors": [
+        "LUK.22.25"
+      ],
+      "mappingType": "exact",
+      "text": "So Jesus declared, “The kings of the Gentiles lord it over them, and those in authority over them call themselves benefactors.",
+      "originalStructuredText": "So Jesus declared, “The kings of the Gentiles lord it over them, and those in authority over them call themselves benefactors. ",
+      "sourceRef": "LUK.22.25"
+    },
+    {
+      "id": "LUK.22.26",
+      "sourceId": "bsb_usj/LUK.usj#content/947/content/5/content/1",
+      "sourceLabel": "26",
+      "anchors": [
+        "LUK.22.26"
+      ],
+      "mappingType": "exact",
+      "text": "But you shall not be like them. Instead, the greatest among you should be like the youngest, and the one who leads like the one who serves.",
+      "originalStructuredText": "But you shall not be like them. Instead, the greatest among you should be like the youngest, and the one who leads like the one who serves. ",
+      "sourceRef": "LUK.22.26"
+    },
+    {
+      "id": "LUK.22.27",
+      "sourceId": "bsb_usj/LUK.usj#content/947/content/5/content/3",
+      "sourceLabel": "27",
+      "anchors": [
+        "LUK.22.27"
+      ],
+      "mappingType": "exact",
+      "text": "For who is greater, the one who reclines at the table or the one who serves? Is it not the one who reclines? But I am among you as one who serves.",
+      "originalStructuredText": "For who is greater, the one who reclines at the table or the one who serves? Is it not the one who reclines? But I am among you as one who serves.\n ",
+      "sourceRef": "LUK.22.27"
+    },
+    {
+      "id": "LUK.22.28",
+      "sourceId": "bsb_usj/LUK.usj#content/948/content/1",
+      "sourceLabel": "28",
+      "anchors": [
+        "LUK.22.28"
+      ],
+      "mappingType": "exact",
+      "text": "You are the ones who have stood by Me in My trials.",
+      "originalStructuredText": "You are the ones who have stood by Me in My trials. ",
+      "sourceRef": "LUK.22.28"
+    },
+    {
+      "id": "LUK.22.29",
+      "sourceId": "bsb_usj/LUK.usj#content/948/content/2/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "LUK.22.29"
+      ],
+      "mappingType": "exact",
+      "text": "And I bestow on you a kingdom, just as My Father has bestowed one on Me,",
+      "originalStructuredText": "And I bestow on you a kingdom, just as My Father has bestowed one on Me, ",
+      "sourceRef": "LUK.22.29"
+    },
+    {
+      "id": "LUK.22.30",
+      "sourceId": "bsb_usj/LUK.usj#content/948/content/2/content/3",
+      "sourceLabel": "30",
+      "anchors": [
+        "LUK.22.30"
+      ],
+      "mappingType": "exact",
+      "text": "so that you may eat and drink at My table in My kingdom and sit on thrones, judging the twelve tribes of Israel.",
+      "originalStructuredText": "so that you may eat and drink at My table in My kingdom and sit on thrones, judging the twelve tribes of Israel.\n ",
+      "sourceRef": "LUK.22.30"
+    },
+    {
+      "id": "LUK.22.31",
+      "sourceId": "bsb_usj/LUK.usj#content/951/content/1",
+      "sourceLabel": "31",
+      "anchors": [
+        "LUK.22.31"
+      ],
+      "mappingType": "exact",
+      "text": "Simon, Simon, Satan has asked to sift all of you like wheat.",
+      "originalStructuredText": "Simon, Simon, Satan has asked to sift all of you like wheat. ",
+      "sourceRef": "LUK.22.31"
+    },
+    {
+      "id": "LUK.22.32",
+      "sourceId": "bsb_usj/LUK.usj#content/951/content/2/content/1",
+      "sourceLabel": "32",
+      "anchors": [
+        "LUK.22.32"
+      ],
+      "mappingType": "exact",
+      "text": "But I have prayed for you, Simon, that your faith will not fail. And when you have turned back, strengthen your brothers.”",
+      "originalStructuredText": "But I have prayed for you,  Simon, that your faith will not fail. And when you have turned back, strengthen your brothers.”\n ",
+      "sourceRef": "LUK.22.32"
+    },
+    {
+      "id": "LUK.22.33",
+      "sourceId": "bsb_usj/LUK.usj#content/952/content/1",
+      "sourceLabel": "33",
+      "anchors": [
+        "LUK.22.33"
+      ],
+      "mappingType": "exact",
+      "text": "“Lord,” said Peter, “I am ready to go with You even to prison and to death.”",
+      "originalStructuredText": "“Lord,” said Peter, “I am ready to go with You even to prison and to death.”\n ",
+      "sourceRef": "LUK.22.33"
+    },
+    {
+      "id": "LUK.22.34",
+      "sourceId": "bsb_usj/LUK.usj#content/953/content/1",
+      "sourceLabel": "34",
+      "anchors": [
+        "LUK.22.34"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus replied, “I tell you, Peter, the rooster will not crow today until you have denied three times that you know Me.”",
+      "originalStructuredText": "But Jesus replied, “I tell you, Peter, the rooster will not crow today until you have denied three times that you know Me.”\n ",
+      "sourceRef": "LUK.22.34"
+    },
+    {
+      "id": "LUK.22.35",
+      "sourceId": "bsb_usj/LUK.usj#content/954/content/1",
+      "sourceLabel": "35",
+      "anchors": [
+        "LUK.22.35"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus asked them, “When I sent you out without purse or bag or sandals, did you lack anything?” “Nothing,” they answered.",
+      "originalStructuredText": "Then Jesus asked them, “When I sent you out without purse or bag or sandals, did you lack anything?”\n“Nothing,” they answered.\n ",
+      "sourceRef": "LUK.22.35"
+    },
+    {
+      "id": "LUK.22.36",
+      "sourceId": "bsb_usj/LUK.usj#content/956/content/0/content/1",
+      "sourceLabel": "36",
+      "anchors": [
+        "LUK.22.36"
+      ],
+      "mappingType": "exact",
+      "text": "“Now, however,” He told them, “the one with a purse should take it, and likewise a bag; and the one without a sword should sell his cloak and buy one.",
+      "originalStructuredText": "“Now, however,” He told them, “the one with a purse should take it, and likewise a bag; and the one without a sword should sell his cloak and buy one. ",
+      "sourceRef": "LUK.22.36"
+    },
+    {
+      "id": "LUK.22.37",
+      "sourceId": "bsb_usj/LUK.usj#content/956/content/2/content/1",
+      "sourceLabel": "37",
+      "anchors": [
+        "LUK.22.37"
+      ],
+      "mappingType": "exact",
+      "text": "For I tell you that this Scripture must be fulfilled in Me: ‘And He was numbered with the transgressors.’ For what is written about Me is reaching its fulfillment.”",
+      "originalStructuredText": "For I tell you that this Scripture must be fulfilled in Me: ‘And He was numbered with the transgressors.’ For what is written about Me is reaching its fulfillment.”\n ",
+      "sourceRef": "LUK.22.37"
+    },
+    {
+      "id": "LUK.22.38",
+      "sourceId": "bsb_usj/LUK.usj#content/957/content/1",
+      "sourceLabel": "38",
+      "anchors": [
+        "LUK.22.38"
+      ],
+      "mappingType": "exact",
+      "text": "So they said, “Look, Lord, here are two swords.” “That is enough,” He answered.",
+      "originalStructuredText": "So they said, “Look, Lord, here are two swords.”\n“That is enough,” He answered.\n ",
+      "sourceRef": "LUK.22.38"
+    },
+    {
+      "id": "LUK.22.39",
+      "sourceId": "bsb_usj/LUK.usj#content/961/content/1",
+      "sourceLabel": "39",
+      "anchors": [
+        "LUK.22.39"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus went out as usual to the Mount of Olives, and the disciples followed Him.",
+      "originalStructuredText": "Jesus went out as usual to the Mount of Olives, and the disciples followed Him. ",
+      "sourceRef": "LUK.22.39"
+    },
+    {
+      "id": "LUK.22.40",
+      "sourceId": "bsb_usj/LUK.usj#content/961/content/3",
+      "sourceLabel": "40",
+      "anchors": [
+        "LUK.22.40"
+      ],
+      "mappingType": "exact",
+      "text": "When He came to the place, He told them, “Pray that you will not enter into temptation.”",
+      "originalStructuredText": "When He came to the place, He told them, “Pray that you will not enter into temptation.”\n ",
+      "sourceRef": "LUK.22.40"
+    },
+    {
+      "id": "LUK.22.41",
+      "sourceId": "bsb_usj/LUK.usj#content/962/content/1",
+      "sourceLabel": "41",
+      "anchors": [
+        "LUK.22.41"
+      ],
+      "mappingType": "exact",
+      "text": "And He withdrew about a stone’s throw beyond them, where He knelt down and prayed,",
+      "originalStructuredText": "And He withdrew about a stone’s throw beyond them, where He knelt down and prayed,  ",
+      "sourceRef": "LUK.22.41"
+    },
+    {
+      "id": "LUK.22.42",
+      "sourceId": "bsb_usj/LUK.usj#content/962/content/3/content/1",
+      "sourceLabel": "42",
+      "anchors": [
+        "LUK.22.42"
+      ],
+      "mappingType": "exact",
+      "text": "“Father, if You are willing, take this cup from Me. Yet not My will, but Yours be done.”",
+      "originalStructuredText": "“Father, if You are willing, take this cup from Me. Yet not My will, but Yours be done.”\n ",
+      "sourceRef": "LUK.22.42"
+    },
+    {
+      "id": "LUK.22.43",
+      "sourceId": "bsb_usj/LUK.usj#content/963/content/1",
+      "sourceLabel": "43",
+      "anchors": [
+        "LUK.22.43"
+      ],
+      "mappingType": "exact",
+      "text": "Then an angel from heaven appeared to Him and strengthened Him.",
+      "originalStructuredText": "Then an angel from heaven appeared to Him and strengthened Him. ",
+      "sourceRef": "LUK.22.43"
+    },
+    {
+      "id": "LUK.22.44",
+      "sourceId": "bsb_usj/LUK.usj#content/963/content/3",
+      "sourceLabel": "44",
+      "anchors": [
+        "LUK.22.44"
+      ],
+      "mappingType": "exact",
+      "text": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground.",
+      "originalStructuredText": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground.\n ",
+      "sourceRef": "LUK.22.44"
+    },
+    {
+      "id": "LUK.22.45",
+      "sourceId": "bsb_usj/LUK.usj#content/964/content/1",
+      "sourceLabel": "45",
+      "anchors": [
+        "LUK.22.45"
+      ],
+      "mappingType": "exact",
+      "text": "When Jesus rose from prayer and returned to the disciples, He found them asleep, exhausted from sorrow.",
+      "originalStructuredText": "When Jesus rose from prayer and returned to the disciples, He found them asleep, exhausted from sorrow.  ",
+      "sourceRef": "LUK.22.45"
+    },
+    {
+      "id": "LUK.22.46",
+      "sourceId": "bsb_usj/LUK.usj#content/964/content/3/content/1",
+      "sourceLabel": "46",
+      "anchors": [
+        "LUK.22.46"
+      ],
+      "mappingType": "exact",
+      "text": "“Why are you sleeping?” He asked. “Get up and pray so that you will not enter into temptation.”",
+      "originalStructuredText": "“Why are you sleeping?” He asked. “Get up and pray so that you will not enter into temptation.”\n ",
+      "sourceRef": "LUK.22.46"
+    },
+    {
+      "id": "LUK.22.47",
+      "sourceId": "bsb_usj/LUK.usj#content/967/content/1",
+      "sourceLabel": "47",
+      "anchors": [
+        "LUK.22.47"
+      ],
+      "mappingType": "exact",
+      "text": "While He was still speaking, a crowd arrived, led by the man called Judas, one of the Twelve. He approached Jesus to kiss Him.",
+      "originalStructuredText": "While He was still speaking, a crowd arrived, led by the man called Judas, one of the Twelve. He approached Jesus to kiss Him. ",
+      "sourceRef": "LUK.22.47"
+    },
+    {
+      "id": "LUK.22.48",
+      "sourceId": "bsb_usj/LUK.usj#content/967/content/3",
+      "sourceLabel": "48",
+      "anchors": [
+        "LUK.22.48"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus asked him, “Judas, are you betraying the Son of Man with a kiss?”",
+      "originalStructuredText": "But Jesus asked him, “Judas, are you betraying the Son of Man with a kiss?”\n ",
+      "sourceRef": "LUK.22.48"
+    },
+    {
+      "id": "LUK.22.49",
+      "sourceId": "bsb_usj/LUK.usj#content/968/content/1",
+      "sourceLabel": "49",
+      "anchors": [
+        "LUK.22.49"
+      ],
+      "mappingType": "exact",
+      "text": "Those around Jesus saw what was about to happen and said, “Lord, should we strike with our swords?”",
+      "originalStructuredText": "Those around Jesus saw what was about to happen and said, “Lord, should we strike with our swords?” ",
+      "sourceRef": "LUK.22.49"
+    },
+    {
+      "id": "LUK.22.50",
+      "sourceId": "bsb_usj/LUK.usj#content/968/content/3",
+      "sourceLabel": "50",
+      "anchors": [
+        "LUK.22.50"
+      ],
+      "mappingType": "exact",
+      "text": "And one of them struck the servant of the high priest, cutting off his right ear.",
+      "originalStructuredText": "And one of them struck the servant of the high priest, cutting off his right ear.\n ",
+      "sourceRef": "LUK.22.50"
+    },
+    {
+      "id": "LUK.22.51",
+      "sourceId": "bsb_usj/LUK.usj#content/969/content/1",
+      "sourceLabel": "51",
+      "anchors": [
+        "LUK.22.51"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus answered, “No more of this!” And He touched the man’s ear and healed him.",
+      "originalStructuredText": "But Jesus answered, “No more of this!” And He touched the man’s ear and healed him.\n ",
+      "sourceRef": "LUK.22.51"
+    },
+    {
+      "id": "LUK.22.52",
+      "sourceId": "bsb_usj/LUK.usj#content/970/content/1",
+      "sourceLabel": "52",
+      "anchors": [
+        "LUK.22.52"
+      ],
+      "mappingType": "exact",
+      "text": "Then Jesus said to the chief priests, temple officers, and elders who had come for Him, “Have you come out with swords and clubs as you would against an outlaw?",
+      "originalStructuredText": "Then Jesus said to the chief priests, temple officers, and elders who had come for Him, “Have you come out with swords and clubs as you would against an outlaw? ",
+      "sourceRef": "LUK.22.52"
+    },
+    {
+      "id": "LUK.22.53",
+      "sourceId": "bsb_usj/LUK.usj#content/970/content/3/content/1",
+      "sourceLabel": "53",
+      "anchors": [
+        "LUK.22.53"
+      ],
+      "mappingType": "exact",
+      "text": "Every day I was with you in the temple courts, and you did not lay a hand on Me. But this hour belongs to you and to the power of darkness.”",
+      "originalStructuredText": "Every day I was with you in the temple courts, and you did not lay a hand on Me. But this hour belongs to you and to the power of darkness.”\n ",
+      "sourceRef": "LUK.22.53"
+    },
+    {
+      "id": "LUK.22.54",
+      "sourceId": "bsb_usj/LUK.usj#content/973/content/1",
+      "sourceLabel": "54",
+      "anchors": [
+        "LUK.22.54"
+      ],
+      "mappingType": "exact",
+      "text": "Then they seized Jesus, led Him away, and took Him into the house of the high priest. And Peter followed at a distance.",
+      "originalStructuredText": "Then they seized Jesus, led Him away, and took Him into the house of the high priest. And Peter followed at a distance.\n ",
+      "sourceRef": "LUK.22.54"
+    },
+    {
+      "id": "LUK.22.55",
+      "sourceId": "bsb_usj/LUK.usj#content/974/content/1",
+      "sourceLabel": "55",
+      "anchors": [
+        "LUK.22.55"
+      ],
+      "mappingType": "exact",
+      "text": "When those present had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them.",
+      "originalStructuredText": "When those present had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them. ",
+      "sourceRef": "LUK.22.55"
+    },
+    {
+      "id": "LUK.22.56",
+      "sourceId": "bsb_usj/LUK.usj#content/974/content/3",
+      "sourceLabel": "56",
+      "anchors": [
+        "LUK.22.56"
+      ],
+      "mappingType": "exact",
+      "text": "A servant girl saw him seated in the firelight and looked intently at him. “This man also was with Him,” she said.",
+      "originalStructuredText": "A servant girl saw him seated in the firelight and looked intently at him. “This man also was with Him,” she said.\n ",
+      "sourceRef": "LUK.22.56"
+    },
+    {
+      "id": "LUK.22.57",
+      "sourceId": "bsb_usj/LUK.usj#content/975/content/1",
+      "sourceLabel": "57",
+      "anchors": [
+        "LUK.22.57"
+      ],
+      "mappingType": "exact",
+      "text": "But Peter denied it. “Woman, I do not know Him,” he said.",
+      "originalStructuredText": "But Peter denied it. “Woman, I do not know Him,” he said.\n ",
+      "sourceRef": "LUK.22.57"
+    },
+    {
+      "id": "LUK.22.58",
+      "sourceId": "bsb_usj/LUK.usj#content/976/content/1",
+      "sourceLabel": "58",
+      "anchors": [
+        "LUK.22.58"
+      ],
+      "mappingType": "exact",
+      "text": "A short time later, someone else saw him and said, “You also are one of them.” But Peter said, “Man, I am not.”",
+      "originalStructuredText": "A short time later, someone else saw him and said, “You also are one of them.”\nBut Peter said, “Man, I am not.”\n ",
+      "sourceRef": "LUK.22.58"
+    },
+    {
+      "id": "LUK.22.59",
+      "sourceId": "bsb_usj/LUK.usj#content/978/content/1",
+      "sourceLabel": "59",
+      "anchors": [
+        "LUK.22.59"
+      ],
+      "mappingType": "exact",
+      "text": "About an hour later, another man insisted, “Certainly this man was with Him, for he too is a Galilean.”",
+      "originalStructuredText": "About an hour later, another man insisted, “Certainly this man was with Him, for he too is a Galilean.”\n ",
+      "sourceRef": "LUK.22.59"
+    },
+    {
+      "id": "LUK.22.60",
+      "sourceId": "bsb_usj/LUK.usj#content/979/content/1",
+      "sourceLabel": "60",
+      "anchors": [
+        "LUK.22.60"
+      ],
+      "mappingType": "exact",
+      "text": "“Man, I do not know what you are talking about,” Peter replied. And immediately, while he was still speaking, the rooster crowed.",
+      "originalStructuredText": "“Man, I do not know what you are talking about,” Peter replied.\nAnd immediately, while he was still speaking, the rooster crowed. ",
+      "sourceRef": "LUK.22.60"
+    },
+    {
+      "id": "LUK.22.61",
+      "sourceId": "bsb_usj/LUK.usj#content/980/content/1",
+      "sourceLabel": "61",
+      "anchors": [
+        "LUK.22.61"
+      ],
+      "mappingType": "exact",
+      "text": "And the Lord turned and looked at Peter. Then Peter remembered the word that the Lord had spoken to him: “Before the rooster crows today, you will deny Me three times.”",
+      "originalStructuredText": "And the Lord turned and looked at Peter.\nThen Peter remembered the word that the Lord had spoken to him: “Before the rooster crows today, you will deny Me three times.”",
+      "sourceRef": "LUK.22.61"
+    },
+    {
+      "id": "LUK.22.62",
+      "sourceId": "bsb_usj/LUK.usj#content/981/content/2",
+      "sourceLabel": "62",
+      "anchors": [
+        "LUK.22.62"
+      ],
+      "mappingType": "exact",
+      "text": "And he went outside and wept bitterly.",
+      "originalStructuredText": "And he went outside and wept bitterly.\n ",
+      "sourceRef": "LUK.22.62"
+    },
+    {
+      "id": "LUK.22.63",
+      "sourceId": "bsb_usj/LUK.usj#content/984/content/1",
+      "sourceLabel": "63",
+      "anchors": [
+        "LUK.22.63"
+      ],
+      "mappingType": "exact",
+      "text": "The men who were holding Jesus began to mock Him and beat Him.",
+      "originalStructuredText": "The men who were holding Jesus began to mock Him and beat Him. ",
+      "sourceRef": "LUK.22.63"
+    },
+    {
+      "id": "LUK.22.64",
+      "sourceId": "bsb_usj/LUK.usj#content/984/content/3",
+      "sourceLabel": "64",
+      "anchors": [
+        "LUK.22.64"
+      ],
+      "mappingType": "exact",
+      "text": "They blindfolded Him and kept demanding, “Prophesy! Who hit You?”",
+      "originalStructuredText": "They blindfolded Him and kept demanding, “Prophesy! Who hit You?” ",
+      "sourceRef": "LUK.22.64"
+    },
+    {
+      "id": "LUK.22.65",
+      "sourceId": "bsb_usj/LUK.usj#content/984/content/7",
+      "sourceLabel": "65",
+      "anchors": [
+        "LUK.22.65"
+      ],
+      "mappingType": "exact",
+      "text": "And they said many other blasphemous things against Him.",
+      "originalStructuredText": "And they said many other blasphemous things against Him.\n ",
+      "sourceRef": "LUK.22.65"
+    },
+    {
+      "id": "LUK.22.66",
+      "sourceId": "bsb_usj/LUK.usj#content/987/content/1",
+      "sourceLabel": "66",
+      "anchors": [
+        "LUK.22.66"
+      ],
+      "mappingType": "exact",
+      "text": "At daybreak the council of the elders of the people, both the chief priests and scribes, met together. They led Jesus into their Sanhedrin and said,",
+      "originalStructuredText": "At daybreak the council of the elders of the people, both the chief priests and scribes, met together. They led Jesus into their Sanhedrin and said, ",
+      "sourceRef": "LUK.22.66"
+    },
+    {
+      "id": "LUK.22.67",
+      "sourceId": "bsb_usj/LUK.usj#content/987/content/5",
+      "sourceLabel": "67",
+      "anchors": [
+        "LUK.22.67"
+      ],
+      "mappingType": "exact",
+      "text": "“If You are the Christ, tell us.” Jesus answered, “If I tell you, you will not believe.",
+      "originalStructuredText": "“If You are the Christ, tell us.”\nJesus answered, “If I tell you, you will not believe. ",
+      "sourceRef": "LUK.22.67"
+    },
+    {
+      "id": "LUK.22.68",
+      "sourceId": "bsb_usj/LUK.usj#content/988/content/1/content/1",
+      "sourceLabel": "68",
+      "anchors": [
+        "LUK.22.68"
+      ],
+      "mappingType": "exact",
+      "text": "And if I ask you a question, you will not answer.",
+      "originalStructuredText": "And if I ask you a question, you will not answer. ",
+      "sourceRef": "LUK.22.68"
+    },
+    {
+      "id": "LUK.22.69",
+      "sourceId": "bsb_usj/LUK.usj#content/988/content/1/content/3",
+      "sourceLabel": "69",
+      "anchors": [
+        "LUK.22.69"
+      ],
+      "mappingType": "exact",
+      "text": "But from now on the Son of Man will be seated at the right hand of the power of God.”",
+      "originalStructuredText": "But from now on the Son of Man will be seated at the right hand of the power of God.”\n ",
+      "sourceRef": "LUK.22.69"
+    },
+    {
+      "id": "LUK.22.70",
+      "sourceId": "bsb_usj/LUK.usj#content/989/content/1",
+      "sourceLabel": "70",
+      "anchors": [
+        "LUK.22.70"
+      ],
+      "mappingType": "exact",
+      "text": "So they all asked, “Are You then the Son of God?” He replied, “You say that I am.”",
+      "originalStructuredText": "So they all asked, “Are You then the Son of God?”\nHe replied, “You say that I am.”\n ",
+      "sourceRef": "LUK.22.70"
+    },
+    {
+      "id": "LUK.22.71",
+      "sourceId": "bsb_usj/LUK.usj#content/991/content/1",
+      "sourceLabel": "71",
+      "anchors": [
+        "LUK.22.71"
+      ],
+      "mappingType": "exact",
+      "text": "“Why do we need any more testimony?” they declared. “We have heard it for ourselves from His own lips.”",
+      "originalStructuredText": "“Why do we need any more testimony?” they declared. “We have heard it for ourselves from His own lips.”",
+      "sourceRef": "LUK.22.71"
+    }
+  ],
+  "notes": [
+    {
+      "id": "LUK.22.note.117",
+      "anchor": "LUK.22.1",
+      "sourceId": "bsb_usj/LUK.usj#content/928/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:1 Literally the feast of the Unleavened; see Exodus 12:14–20.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the feast of the Unleavened"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "EXO 12:14-20",
+                "content": [
+                  "Exodus 12:14–20"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.118",
+      "anchor": "LUK.22.20",
+      "sourceId": "bsb_usj/LUK.usj#content/943/content/3/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:20 Some manuscripts end verse 19 after This is My body and do not include verse 20.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some manuscripts end verse 19 after "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "This is My body "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "and do not include verse 20."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.119",
+      "anchor": "LUK.22.37",
+      "sourceId": "bsb_usj/LUK.usj#content/956/content/2/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:37 Isaiah 53:12",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:37 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "ISA 53:12",
+                "content": [
+                  "Isaiah 53:12"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.120",
+      "anchor": "LUK.22.44",
+      "sourceId": "bsb_usj/LUK.usj#content/963/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:44 Some manuscripts do not include verses 43 and 44.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:44 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Some manuscripts do not include verses 43 and 44."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.121",
+      "anchor": "LUK.22.53",
+      "sourceId": "bsb_usj/LUK.usj#content/970/content/3/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:53 Literally the temple",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:53 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the temple"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.122",
+      "anchor": "LUK.22.64",
+      "sourceId": "bsb_usj/LUK.usj#content/984/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:64 BYZ and TR include and were striking Him on the face.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:64 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and were striking Him on the face"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.123",
+      "anchor": "LUK.22.66",
+      "sourceId": "bsb_usj/LUK.usj#content/987/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:66 Or their Council",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:66 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "their Council"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "LUK.22.note.124",
+      "anchor": "LUK.22.69",
+      "sourceId": "bsb_usj/LUK.usj#content/988/content/2",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:69 See Psalm 110:1.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:69 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "See ",
+              {
+                "type": "ref",
+                "loc": "PSA 110:1",
+                "content": [
+                  "Psalm 110:1"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "LUK.22.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.117"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.1",
+          "sourceRef": "LUK.22.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.2",
+          "sourceRef": "LUK.22.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.3",
+          "sourceRef": "LUK.22.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.4",
+          "sourceRef": "LUK.22.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.5",
+          "sourceRef": "LUK.22.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.6",
+          "sourceRef": "LUK.22.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.7",
+          "sourceRef": "LUK.22.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.8",
+          "sourceRef": "LUK.22.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.9",
+          "sourceRef": "LUK.22.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.10",
+          "sourceRef": "LUK.22.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.11",
+          "sourceRef": "LUK.22.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.12",
+          "sourceRef": "LUK.22.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.13",
+          "sourceRef": "LUK.22.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.14",
+          "sourceRef": "LUK.22.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.15",
+          "sourceRef": "LUK.22.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.16",
+          "sourceRef": "LUK.22.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.17",
+          "sourceRef": "LUK.22.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.18",
+          "sourceRef": "LUK.22.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.19",
+          "sourceRef": "LUK.22.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.118"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.20",
+          "sourceRef": "LUK.22.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.21",
+          "sourceRef": "LUK.22.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.22",
+          "sourceRef": "LUK.22.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.23",
+          "sourceRef": "LUK.22.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.24",
+          "sourceRef": "LUK.22.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.25",
+          "sourceRef": "LUK.22.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.26",
+          "sourceRef": "LUK.22.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.27",
+          "sourceRef": "LUK.22.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.28",
+          "sourceRef": "LUK.22.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.29",
+          "sourceRef": "LUK.22.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.30",
+          "sourceRef": "LUK.22.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.31",
+          "sourceRef": "LUK.22.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.32",
+          "sourceRef": "LUK.22.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.33",
+          "sourceRef": "LUK.22.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.34",
+          "sourceRef": "LUK.22.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.35",
+          "sourceRef": "LUK.22.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.36",
+          "sourceRef": "LUK.22.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.119"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.37",
+          "sourceRef": "LUK.22.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.38",
+          "sourceRef": "LUK.22.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.39",
+          "sourceRef": "LUK.22.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.40",
+          "sourceRef": "LUK.22.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.41",
+          "sourceRef": "LUK.22.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.42",
+          "sourceRef": "LUK.22.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.43",
+          "sourceRef": "LUK.22.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.120"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.44",
+          "sourceRef": "LUK.22.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.45",
+          "sourceRef": "LUK.22.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.46",
+          "sourceRef": "LUK.22.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.47",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.47",
+          "sourceRef": "LUK.22.47",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.48",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.48",
+          "sourceRef": "LUK.22.48",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.49",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.49",
+          "sourceRef": "LUK.22.49",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.50",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.50",
+          "sourceRef": "LUK.22.50",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.51",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.51",
+          "sourceRef": "LUK.22.51",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.52",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.52",
+          "sourceRef": "LUK.22.52",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.53",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.121"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.53",
+          "sourceRef": "LUK.22.53",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.54",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.54",
+          "sourceRef": "LUK.22.54",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.55",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.55",
+          "sourceRef": "LUK.22.55",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.56",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.56",
+          "sourceRef": "LUK.22.56",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.57",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.57",
+          "sourceRef": "LUK.22.57",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.58",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.58",
+          "sourceRef": "LUK.22.58",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.59",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.59",
+          "sourceRef": "LUK.22.59",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.60",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.60",
+          "sourceRef": "LUK.22.60",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.61",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.61",
+          "sourceRef": "LUK.22.61",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.62",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.62",
+          "sourceRef": "LUK.22.62",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.63",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.63",
+          "sourceRef": "LUK.22.63",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.64",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.122"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.64",
+          "sourceRef": "LUK.22.64",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.65",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.65",
+          "sourceRef": "LUK.22.65",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.66",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.123"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.66",
+          "sourceRef": "LUK.22.66",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.67",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.67",
+          "sourceRef": "LUK.22.67",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.68",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.68",
+          "sourceRef": "LUK.22.68",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.69",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "LUK.22.note.124"
+      ],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.69",
+          "sourceRef": "LUK.22.69",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.70",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.70",
+          "sourceRef": "LUK.22.70",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "LUK.22.71",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "LUK",
+          "chapter": 22,
+          "segmentId": "LUK.22.71",
+          "sourceRef": "LUK.22.71",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

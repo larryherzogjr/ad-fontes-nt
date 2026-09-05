@@ -1,0 +1,1408 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=411",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "ROM.16.1",
+          "anchors": [
+            "ROM.16.1"
+          ],
+          "sourceAnchor": "ROM.16.1"
+        },
+        {
+          "text": "Συνίστημι δὲ ὑμῖν Φοίβην τὴν ἀδελφὴν ἡμῶν, οὖσαν διάκονον τῆς ἐκκλησίας τῆς ἐν Κεγχρεαῖς·",
+          "anchor": "ROM.16.1",
+          "marks": [],
+          "anchors": [
+            "ROM.16.1"
+          ],
+          "sourceAnchor": "ROM.16.1"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.1",
+          "marks": [],
+          "anchors": [
+            "ROM.16.1"
+          ],
+          "sourceAnchor": "ROM.16.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "ROM.16.2",
+          "anchors": [
+            "ROM.16.2"
+          ],
+          "sourceAnchor": "ROM.16.2"
+        },
+        {
+          "text": "ἵνα αὐτὴν προσδέξησθε ἐν κυρίῳ ἀξίως τῶν ἁγίων, καὶ παραστῆτε αὐτῇ ἐν ᾧ ἂν ὑμῶν χρῄζῃ πράγματι· καὶ γὰρ αὐτὴ προστάτις πολλῶν ἐγενήθη, καὶ αὐτοῦ ἐμοῦ.",
+          "anchor": "ROM.16.2",
+          "marks": [],
+          "anchors": [
+            "ROM.16.2"
+          ],
+          "sourceAnchor": "ROM.16.2"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.2",
+          "marks": [],
+          "anchors": [
+            "ROM.16.2"
+          ],
+          "sourceAnchor": "ROM.16.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=413",
+      "runs": [
+        {
+          "verse": "3",
+          "anchor": "ROM.16.3",
+          "anchors": [
+            "ROM.16.3"
+          ],
+          "sourceAnchor": "ROM.16.3"
+        },
+        {
+          "text": "Ἀσπάσασθε Πρίσκαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν χριστῷ Ἰησοῦ,",
+          "anchor": "ROM.16.3",
+          "marks": [],
+          "anchors": [
+            "ROM.16.3"
+          ],
+          "sourceAnchor": "ROM.16.3"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.3",
+          "marks": [],
+          "anchors": [
+            "ROM.16.3"
+          ],
+          "sourceAnchor": "ROM.16.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "ROM.16.4",
+          "anchors": [
+            "ROM.16.4"
+          ],
+          "sourceAnchor": "ROM.16.4"
+        },
+        {
+          "text": "οἵτινες ὑπὲρ τῆς ψυχῆς μου τὸν ἑαυτῶν τράχηλον ὑπέθηκαν, οἷς οὐκ ἐγὼ μόνος εὐχαριστῶ, ἀλλὰ καὶ πᾶσαι αἱ ἐκκλησίαι τῶν ἐθνῶν·",
+          "anchor": "ROM.16.4",
+          "marks": [],
+          "anchors": [
+            "ROM.16.4"
+          ],
+          "sourceAnchor": "ROM.16.4"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.4",
+          "marks": [],
+          "anchors": [
+            "ROM.16.4"
+          ],
+          "sourceAnchor": "ROM.16.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "ROM.16.5",
+          "anchors": [
+            "ROM.16.5"
+          ],
+          "sourceAnchor": "ROM.16.5"
+        },
+        {
+          "text": "καὶ τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν. Ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀχαΐας εἰς χριστόν.",
+          "anchor": "ROM.16.5",
+          "marks": [],
+          "anchors": [
+            "ROM.16.5"
+          ],
+          "sourceAnchor": "ROM.16.5"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.5",
+          "marks": [],
+          "anchors": [
+            "ROM.16.5"
+          ],
+          "sourceAnchor": "ROM.16.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "ROM.16.6",
+          "anchors": [
+            "ROM.16.6"
+          ],
+          "sourceAnchor": "ROM.16.6"
+        },
+        {
+          "text": "Ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ἡμᾶς.",
+          "anchor": "ROM.16.6",
+          "marks": [],
+          "anchors": [
+            "ROM.16.6"
+          ],
+          "sourceAnchor": "ROM.16.6"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.6",
+          "marks": [],
+          "anchors": [
+            "ROM.16.6"
+          ],
+          "sourceAnchor": "ROM.16.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "ROM.16.7",
+          "anchors": [
+            "ROM.16.7"
+          ],
+          "sourceAnchor": "ROM.16.7"
+        },
+        {
+          "text": "Ἀσπάσασθε Ἀνδρόνικον καὶ Ἰουνίαν τοὺς συγγενεῖς μου καὶ συναιχμαλώτους μου, οἵτινές εἰσιν ἐπίσημοι ἐν τοῖς ἀποστόλοις, οἳ καὶ πρὸ ἐμοῦ γεγόνασιν ἐν χριστῷ.",
+          "anchor": "ROM.16.7",
+          "marks": [],
+          "anchors": [
+            "ROM.16.7"
+          ],
+          "sourceAnchor": "ROM.16.7"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.7",
+          "marks": [],
+          "anchors": [
+            "ROM.16.7"
+          ],
+          "sourceAnchor": "ROM.16.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "ROM.16.8",
+          "anchors": [
+            "ROM.16.8"
+          ],
+          "sourceAnchor": "ROM.16.8"
+        },
+        {
+          "text": "Ἀσπάσασθε Ἀμπλίαν τὸν ἀγαπητόν μου ἐν κυρίῳ.",
+          "anchor": "ROM.16.8",
+          "marks": [],
+          "anchors": [
+            "ROM.16.8"
+          ],
+          "sourceAnchor": "ROM.16.8"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.8",
+          "marks": [],
+          "anchors": [
+            "ROM.16.8"
+          ],
+          "sourceAnchor": "ROM.16.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "ROM.16.9",
+          "anchors": [
+            "ROM.16.9"
+          ],
+          "sourceAnchor": "ROM.16.9"
+        },
+        {
+          "text": "Ἀσπάσασθε Οὐρβανὸν τὸν συνεργὸν ἡμῶν ἐν χριστῷ, καὶ Στάχυν τὸν ἀγαπητόν μου.",
+          "anchor": "ROM.16.9",
+          "marks": [],
+          "anchors": [
+            "ROM.16.9"
+          ],
+          "sourceAnchor": "ROM.16.9"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.9",
+          "marks": [],
+          "anchors": [
+            "ROM.16.9"
+          ],
+          "sourceAnchor": "ROM.16.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "ROM.16.10",
+          "anchors": [
+            "ROM.16.10"
+          ],
+          "sourceAnchor": "ROM.16.10"
+        },
+        {
+          "text": "Ἀσπάσασθε Ἀπελλῆν τὸν δόκιμον ἐν χριστῷ. Ἀσπάσασθε τοὺς ἐκ τῶν Ἀριστοβούλου.",
+          "anchor": "ROM.16.10",
+          "marks": [],
+          "anchors": [
+            "ROM.16.10"
+          ],
+          "sourceAnchor": "ROM.16.10"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.10",
+          "marks": [],
+          "anchors": [
+            "ROM.16.10"
+          ],
+          "sourceAnchor": "ROM.16.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "ROM.16.11",
+          "anchors": [
+            "ROM.16.11"
+          ],
+          "sourceAnchor": "ROM.16.11"
+        },
+        {
+          "text": "Ἀσπάσασθε Ἡρῳδίωνα τὸν συγγενῆ μου. Ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν κυρίῳ.",
+          "anchor": "ROM.16.11",
+          "marks": [],
+          "anchors": [
+            "ROM.16.11"
+          ],
+          "sourceAnchor": "ROM.16.11"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.11",
+          "marks": [],
+          "anchors": [
+            "ROM.16.11"
+          ],
+          "sourceAnchor": "ROM.16.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "ROM.16.12",
+          "anchors": [
+            "ROM.16.12"
+          ],
+          "sourceAnchor": "ROM.16.12"
+        },
+        {
+          "text": "Ἀσπάσασθε Τρύφαιναν καὶ Τρυφῶσαν τὰς κοπιώσας ἐν κυρίῳ. Ἀσπάσασθε Περσίδα τὴν ἀγαπητήν, ἥτις πολλὰ ἐκοπίασεν ἐν κυρίῳ.",
+          "anchor": "ROM.16.12",
+          "marks": [],
+          "anchors": [
+            "ROM.16.12"
+          ],
+          "sourceAnchor": "ROM.16.12"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.12",
+          "marks": [],
+          "anchors": [
+            "ROM.16.12"
+          ],
+          "sourceAnchor": "ROM.16.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "ROM.16.13",
+          "anchors": [
+            "ROM.16.13"
+          ],
+          "sourceAnchor": "ROM.16.13"
+        },
+        {
+          "text": "Ἀσπάσασθε Ῥοῦφον τὸν ἐκλεκτὸν ἐν κυρίῳ, καὶ τὴν μητέρα αὐτοῦ καὶ ἐμοῦ.",
+          "anchor": "ROM.16.13",
+          "marks": [],
+          "anchors": [
+            "ROM.16.13"
+          ],
+          "sourceAnchor": "ROM.16.13"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.13",
+          "marks": [],
+          "anchors": [
+            "ROM.16.13"
+          ],
+          "sourceAnchor": "ROM.16.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "ROM.16.14",
+          "anchors": [
+            "ROM.16.14"
+          ],
+          "sourceAnchor": "ROM.16.14"
+        },
+        {
+          "text": "Ἀσπάσασθε Ἀσύγκριτον, Φλέγοντα, Ἑρμᾶν, Πατρόβαν, Ἑρμῆν, καὶ τοὺς σὺν αὐτοῖς ἀδελφούς.",
+          "anchor": "ROM.16.14",
+          "marks": [],
+          "anchors": [
+            "ROM.16.14"
+          ],
+          "sourceAnchor": "ROM.16.14"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.14",
+          "marks": [],
+          "anchors": [
+            "ROM.16.14"
+          ],
+          "sourceAnchor": "ROM.16.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "ROM.16.15",
+          "anchors": [
+            "ROM.16.15"
+          ],
+          "sourceAnchor": "ROM.16.15"
+        },
+        {
+          "text": "Ἀσπάσασθε Φιλόλογον καὶ Ἰουλίαν, Νηρέα καὶ τὴν ἀδελφὴν αὐτοῦ, καὶ Ὀλυμπᾶν, καὶ τοὺς σὺν αὐτοῖς πάντας ἁγίους.",
+          "anchor": "ROM.16.15",
+          "marks": [],
+          "anchors": [
+            "ROM.16.15"
+          ],
+          "sourceAnchor": "ROM.16.15"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.15",
+          "marks": [],
+          "anchors": [
+            "ROM.16.15"
+          ],
+          "sourceAnchor": "ROM.16.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "ROM.16.16",
+          "anchors": [
+            "ROM.16.16"
+          ],
+          "sourceAnchor": "ROM.16.16"
+        },
+        {
+          "text": "Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τοῦ χριστοῦ.",
+          "anchor": "ROM.16.16",
+          "marks": [],
+          "anchors": [
+            "ROM.16.16"
+          ],
+          "sourceAnchor": "ROM.16.16"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.16",
+          "marks": [],
+          "anchors": [
+            "ROM.16.16"
+          ],
+          "sourceAnchor": "ROM.16.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=427",
+      "runs": [
+        {
+          "verse": "17",
+          "anchor": "ROM.16.17",
+          "anchors": [
+            "ROM.16.17"
+          ],
+          "sourceAnchor": "ROM.16.17"
+        },
+        {
+          "text": "Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, σκοπεῖν τοὺς τὰς διχοστασίας καὶ τὰ σκάνδαλα, παρὰ τὴν διδαχὴν ἣν ὑμεῖς ἐμάθετε, ποιοῦντας· καὶ ἐκκλίνατε ἀπ’ αὐτῶν.",
+          "anchor": "ROM.16.17",
+          "marks": [],
+          "anchors": [
+            "ROM.16.17"
+          ],
+          "sourceAnchor": "ROM.16.17"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.17",
+          "marks": [],
+          "anchors": [
+            "ROM.16.17"
+          ],
+          "sourceAnchor": "ROM.16.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "ROM.16.18",
+          "anchors": [
+            "ROM.16.18"
+          ],
+          "sourceAnchor": "ROM.16.18"
+        },
+        {
+          "text": "Οἱ γὰρ τοιοῦτοι τῷ κυρίῳ ἡμῶν Ἰησοῦ χριστῷ οὐ δουλεύουσιν, ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ· καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσιν τὰς καρδίας τῶν ἀκάκων.",
+          "anchor": "ROM.16.18",
+          "marks": [],
+          "anchors": [
+            "ROM.16.18"
+          ],
+          "sourceAnchor": "ROM.16.18"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.18",
+          "marks": [],
+          "anchors": [
+            "ROM.16.18"
+          ],
+          "sourceAnchor": "ROM.16.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "ROM.16.19",
+          "anchors": [
+            "ROM.16.19"
+          ],
+          "sourceAnchor": "ROM.16.19"
+        },
+        {
+          "text": "Ἡ γὰρ ὑμῶν ὑπακοὴ εἰς πάντας ἀφίκετο. Χαίρω οὖν τὸ ἐφ’ ὑμῖν· θέλω δὲ ὑμᾶς σοφοὺς μὲν εἶναι εἰς τὸ ἀγαθόν, ἀκεραίους δὲ εἰς τὸ κακόν.",
+          "anchor": "ROM.16.19",
+          "marks": [],
+          "anchors": [
+            "ROM.16.19"
+          ],
+          "sourceAnchor": "ROM.16.19"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.19",
+          "marks": [],
+          "anchors": [
+            "ROM.16.19"
+          ],
+          "sourceAnchor": "ROM.16.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "ROM.16.20",
+          "anchors": [
+            "ROM.16.20"
+          ],
+          "sourceAnchor": "ROM.16.20"
+        },
+        {
+          "text": "Ὁ δὲ θεὸς τῆς εἰρήνης συντρίψει τὸν Σατανᾶν ὑπὸ τοὺς πόδας ὑμῶν ἐν τάχει. ¶Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μεθ’ ὑμῶν.",
+          "anchor": "ROM.16.20",
+          "marks": [],
+          "anchors": [
+            "ROM.16.20"
+          ],
+          "sourceAnchor": "ROM.16.20"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.20",
+          "marks": [],
+          "anchors": [
+            "ROM.16.20"
+          ],
+          "sourceAnchor": "ROM.16.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=431",
+      "runs": [
+        {
+          "verse": "21",
+          "anchor": "ROM.16.21",
+          "anchors": [
+            "ROM.16.21"
+          ],
+          "sourceAnchor": "ROM.16.21"
+        },
+        {
+          "text": "Ἀσπάζονται ὑμᾶς Τιμόθεος ὁ συνεργός μου, καὶ Λούκιος καὶ Ἰάσων καὶ Σωσίπατρος οἱ συγγενεῖς μου.",
+          "anchor": "ROM.16.21",
+          "marks": [],
+          "anchors": [
+            "ROM.16.21"
+          ],
+          "sourceAnchor": "ROM.16.21"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.21",
+          "marks": [],
+          "anchors": [
+            "ROM.16.21"
+          ],
+          "sourceAnchor": "ROM.16.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "ROM.16.22",
+          "anchors": [
+            "ROM.16.22"
+          ],
+          "sourceAnchor": "ROM.16.22"
+        },
+        {
+          "text": "Ἀσπάζομαι ὑμᾶς ἐγὼ Τέρτιος, ὁ γράψας τὴν ἐπιστολήν, ἐν κυρίῳ.",
+          "anchor": "ROM.16.22",
+          "marks": [],
+          "anchors": [
+            "ROM.16.22"
+          ],
+          "sourceAnchor": "ROM.16.22"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.22",
+          "marks": [],
+          "anchors": [
+            "ROM.16.22"
+          ],
+          "sourceAnchor": "ROM.16.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "ROM.16.23",
+          "anchors": [
+            "ROM.16.23"
+          ],
+          "sourceAnchor": "ROM.16.23"
+        },
+        {
+          "text": "Ἀσπάζεται ὑμᾶς Γάϊος ὁ ξένος μου καὶ τῆς ἐκκλησίας ὅλης. Ἀσπάζεται ὑμᾶς Ἔραστος ὁ οἰκονόμος τῆς πόλεως, καὶ Κούαρτος ὁ ἀδελφός.",
+          "anchor": "ROM.16.23",
+          "marks": [],
+          "anchors": [
+            "ROM.16.23"
+          ],
+          "sourceAnchor": "ROM.16.23"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.23",
+          "marks": [],
+          "anchors": [
+            "ROM.16.23"
+          ],
+          "sourceAnchor": "ROM.16.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "ROM.16.24",
+          "anchors": [
+            "ROM.16.24"
+          ],
+          "sourceAnchor": "ROM.16.24"
+        },
+        {
+          "text": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν.",
+          "anchor": "ROM.16.24",
+          "marks": [],
+          "anchors": [
+            "ROM.16.24"
+          ],
+          "sourceAnchor": "ROM.16.24"
+        },
+        {
+          "text": " ",
+          "anchor": "ROM.16.24",
+          "marks": [],
+          "anchors": [
+            "ROM.16.24"
+          ],
+          "sourceAnchor": "ROM.16.24"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "ROM.16.1",
+      "sourceRef": "ROM.16.1",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=411",
+      "sourceLabel": "1",
+      "anchors": [
+        "ROM.16.1"
+      ],
+      "mappingType": "exact",
+      "text": "Συνίστημι δὲ ὑμῖν Φοίβην τὴν ἀδελφὴν ἡμῶν, οὖσαν διάκονον τῆς ἐκκλησίας τῆς ἐν Κεγχρεαῖς·",
+      "sourceText": "Συνίστημι δὲ ὑμῖν Φοίβην τὴν ἀδελφὴν ἡμῶν, οὖσαν διάκονον τῆς ἐκκλησίας τῆς ἐν Κεγχρεαῖς·",
+      "originalText": "Συνίστημι δὲ ὑμῖν Φοίβην τὴν ἀδελφὴν ἡμῶν, οὖσαν διάκονον τῆς ἐκκλησίας τῆς ἐν Κεγχρεαῖς· "
+    },
+    {
+      "id": "ROM.16.2",
+      "sourceRef": "ROM.16.2",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=412",
+      "sourceLabel": "2",
+      "anchors": [
+        "ROM.16.2"
+      ],
+      "mappingType": "exact",
+      "text": "ἵνα αὐτὴν προσδέξησθε ἐν κυρίῳ ἀξίως τῶν ἁγίων, καὶ παραστῆτε αὐτῇ ἐν ᾧ ἂν ὑμῶν χρῄζῃ πράγματι· καὶ γὰρ αὐτὴ προστάτις πολλῶν ἐγενήθη, καὶ αὐτοῦ ἐμοῦ.",
+      "sourceText": "ἵνα αὐτὴν προσδέξησθε ἐν κυρίῳ ἀξίως τῶν ἁγίων, καὶ παραστῆτε αὐτῇ ἐν ᾧ ἂν ὑμῶν χρῄζῃ πράγματι· καὶ γὰρ αὐτὴ προστάτις πολλῶν ἐγενήθη, καὶ αὐτοῦ ἐμοῦ.",
+      "originalText": "ἵνα αὐτὴν προσδέξησθε ἐν κυρίῳ ἀξίως τῶν ἁγίων, καὶ παραστῆτε αὐτῇ ἐν ᾧ ἂν ὑμῶν χρῄζῃ πράγματι· καὶ γὰρ αὐτὴ προστάτις πολλῶν ἐγενήθη, καὶ αὐτοῦ ἐμοῦ. \n"
+    },
+    {
+      "id": "ROM.16.3",
+      "sourceRef": "ROM.16.3",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=413",
+      "sourceLabel": "3",
+      "anchors": [
+        "ROM.16.3"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Πρίσκαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν χριστῷ Ἰησοῦ,",
+      "sourceText": "¶Ἀσπάσασθε Πρίσκαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν χριστῷ Ἰησοῦ,",
+      "originalText": "Ἀσπάσασθε Πρίσκαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν χριστῷ Ἰησοῦ, "
+    },
+    {
+      "id": "ROM.16.4",
+      "sourceRef": "ROM.16.4",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=414",
+      "sourceLabel": "4",
+      "anchors": [
+        "ROM.16.4"
+      ],
+      "mappingType": "exact",
+      "text": "οἵτινες ὑπὲρ τῆς ψυχῆς μου τὸν ἑαυτῶν τράχηλον ὑπέθηκαν, οἷς οὐκ ἐγὼ μόνος εὐχαριστῶ, ἀλλὰ καὶ πᾶσαι αἱ ἐκκλησίαι τῶν ἐθνῶν·",
+      "sourceText": "οἵτινες ὑπὲρ τῆς ψυχῆς μου τὸν ἑαυτῶν τράχηλον ὑπέθηκαν, οἷς οὐκ ἐγὼ μόνος εὐχαριστῶ, ἀλλὰ καὶ πᾶσαι αἱ ἐκκλησίαι τῶν ἐθνῶν·",
+      "originalText": "οἵτινες ὑπὲρ τῆς ψυχῆς μου τὸν ἑαυτῶν τράχηλον ὑπέθηκαν, οἷς οὐκ ἐγὼ μόνος εὐχαριστῶ, ἀλλὰ καὶ πᾶσαι αἱ ἐκκλησίαι τῶν ἐθνῶν· "
+    },
+    {
+      "id": "ROM.16.5",
+      "sourceRef": "ROM.16.5",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=415",
+      "sourceLabel": "5",
+      "anchors": [
+        "ROM.16.5"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν. Ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀχαΐας εἰς χριστόν.",
+      "sourceText": "καὶ τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν. Ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀχαΐας εἰς χριστόν.",
+      "originalText": "καὶ τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν. Ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀχαΐας εἰς χριστόν. "
+    },
+    {
+      "id": "ROM.16.6",
+      "sourceRef": "ROM.16.6",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=416",
+      "sourceLabel": "6",
+      "anchors": [
+        "ROM.16.6"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ἡμᾶς.",
+      "sourceText": "Ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ἡμᾶς.",
+      "originalText": "Ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ἡμᾶς. "
+    },
+    {
+      "id": "ROM.16.7",
+      "sourceRef": "ROM.16.7",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=417",
+      "sourceLabel": "7",
+      "anchors": [
+        "ROM.16.7"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ἀνδρόνικον καὶ Ἰουνίαν τοὺς συγγενεῖς μου καὶ συναιχμαλώτους μου, οἵτινές εἰσιν ἐπίσημοι ἐν τοῖς ἀποστόλοις, οἳ καὶ πρὸ ἐμοῦ γεγόνασιν ἐν χριστῷ.",
+      "sourceText": "Ἀσπάσασθε Ἀνδρόνικον καὶ Ἰουνίαν τοὺς συγγενεῖς μου καὶ συναιχμαλώτους μου, οἵτινές εἰσιν ἐπίσημοι ἐν τοῖς ἀποστόλοις, οἳ καὶ πρὸ ἐμοῦ γεγόνασιν ἐν χριστῷ.",
+      "originalText": "Ἀσπάσασθε Ἀνδρόνικον καὶ Ἰουνίαν τοὺς συγγενεῖς μου καὶ συναιχμαλώτους μου, οἵτινές εἰσιν ἐπίσημοι ἐν τοῖς ἀποστόλοις, οἳ καὶ πρὸ ἐμοῦ γεγόνασιν ἐν χριστῷ. "
+    },
+    {
+      "id": "ROM.16.8",
+      "sourceRef": "ROM.16.8",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=418",
+      "sourceLabel": "8",
+      "anchors": [
+        "ROM.16.8"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ἀμπλίαν τὸν ἀγαπητόν μου ἐν κυρίῳ.",
+      "sourceText": "Ἀσπάσασθε Ἀμπλίαν τὸν ἀγαπητόν μου ἐν κυρίῳ.",
+      "originalText": "Ἀσπάσασθε Ἀμπλίαν τὸν ἀγαπητόν μου ἐν κυρίῳ. "
+    },
+    {
+      "id": "ROM.16.9",
+      "sourceRef": "ROM.16.9",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=419",
+      "sourceLabel": "9",
+      "anchors": [
+        "ROM.16.9"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Οὐρβανὸν τὸν συνεργὸν ἡμῶν ἐν χριστῷ, καὶ Στάχυν τὸν ἀγαπητόν μου.",
+      "sourceText": "Ἀσπάσασθε Οὐρβανὸν τὸν συνεργὸν ἡμῶν ἐν χριστῷ, καὶ Στάχυν τὸν ἀγαπητόν μου.",
+      "originalText": "Ἀσπάσασθε Οὐρβανὸν τὸν συνεργὸν ἡμῶν ἐν χριστῷ, καὶ Στάχυν τὸν ἀγαπητόν μου. "
+    },
+    {
+      "id": "ROM.16.10",
+      "sourceRef": "ROM.16.10",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=420",
+      "sourceLabel": "10",
+      "anchors": [
+        "ROM.16.10"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ἀπελλῆν τὸν δόκιμον ἐν χριστῷ. Ἀσπάσασθε τοὺς ἐκ τῶν Ἀριστοβούλου.",
+      "sourceText": "Ἀσπάσασθε Ἀπελλῆν τὸν δόκιμον ἐν χριστῷ. Ἀσπάσασθε τοὺς ἐκ τῶν Ἀριστοβούλου.",
+      "originalText": "Ἀσπάσασθε Ἀπελλῆν τὸν δόκιμον ἐν χριστῷ. Ἀσπάσασθε τοὺς ἐκ τῶν Ἀριστοβούλου. "
+    },
+    {
+      "id": "ROM.16.11",
+      "sourceRef": "ROM.16.11",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=421",
+      "sourceLabel": "11",
+      "anchors": [
+        "ROM.16.11"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ἡρῳδίωνα τὸν συγγενῆ μου. Ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν κυρίῳ.",
+      "sourceText": "Ἀσπάσασθε Ἡρῳδίωνα τὸν συγγενῆ μου. Ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν κυρίῳ.",
+      "originalText": "Ἀσπάσασθε Ἡρῳδίωνα τὸν συγγενῆ μου. Ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν κυρίῳ. "
+    },
+    {
+      "id": "ROM.16.12",
+      "sourceRef": "ROM.16.12",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=422",
+      "sourceLabel": "12",
+      "anchors": [
+        "ROM.16.12"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Τρύφαιναν καὶ Τρυφῶσαν τὰς κοπιώσας ἐν κυρίῳ. Ἀσπάσασθε Περσίδα τὴν ἀγαπητήν, ἥτις πολλὰ ἐκοπίασεν ἐν κυρίῳ.",
+      "sourceText": "Ἀσπάσασθε Τρύφαιναν καὶ Τρυφῶσαν τὰς κοπιώσας ἐν κυρίῳ. Ἀσπάσασθε Περσίδα τὴν ἀγαπητήν, ἥτις πολλὰ ἐκοπίασεν ἐν κυρίῳ.",
+      "originalText": "Ἀσπάσασθε Τρύφαιναν καὶ Τρυφῶσαν τὰς κοπιώσας ἐν κυρίῳ. Ἀσπάσασθε Περσίδα τὴν ἀγαπητήν, ἥτις πολλὰ ἐκοπίασεν ἐν κυρίῳ. "
+    },
+    {
+      "id": "ROM.16.13",
+      "sourceRef": "ROM.16.13",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=423",
+      "sourceLabel": "13",
+      "anchors": [
+        "ROM.16.13"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ῥοῦφον τὸν ἐκλεκτὸν ἐν κυρίῳ, καὶ τὴν μητέρα αὐτοῦ καὶ ἐμοῦ.",
+      "sourceText": "Ἀσπάσασθε Ῥοῦφον τὸν ἐκλεκτὸν ἐν κυρίῳ, καὶ τὴν μητέρα αὐτοῦ καὶ ἐμοῦ.",
+      "originalText": "Ἀσπάσασθε Ῥοῦφον τὸν ἐκλεκτὸν ἐν κυρίῳ, καὶ τὴν μητέρα αὐτοῦ καὶ ἐμοῦ. "
+    },
+    {
+      "id": "ROM.16.14",
+      "sourceRef": "ROM.16.14",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=424",
+      "sourceLabel": "14",
+      "anchors": [
+        "ROM.16.14"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Ἀσύγκριτον, Φλέγοντα, Ἑρμᾶν, Πατρόβαν, Ἑρμῆν, καὶ τοὺς σὺν αὐτοῖς ἀδελφούς.",
+      "sourceText": "Ἀσπάσασθε Ἀσύγκριτον, Φλέγοντα, Ἑρμᾶν, Πατρόβαν, Ἑρμῆν, καὶ τοὺς σὺν αὐτοῖς ἀδελφούς.",
+      "originalText": "Ἀσπάσασθε Ἀσύγκριτον, Φλέγοντα, Ἑρμᾶν, Πατρόβαν, Ἑρμῆν, καὶ τοὺς σὺν αὐτοῖς ἀδελφούς. "
+    },
+    {
+      "id": "ROM.16.15",
+      "sourceRef": "ROM.16.15",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=425",
+      "sourceLabel": "15",
+      "anchors": [
+        "ROM.16.15"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε Φιλόλογον καὶ Ἰουλίαν, Νηρέα καὶ τὴν ἀδελφὴν αὐτοῦ, καὶ Ὀλυμπᾶν, καὶ τοὺς σὺν αὐτοῖς πάντας ἁγίους.",
+      "sourceText": "Ἀσπάσασθε Φιλόλογον καὶ Ἰουλίαν, Νηρέα καὶ τὴν ἀδελφὴν αὐτοῦ, καὶ Ὀλυμπᾶν, καὶ τοὺς σὺν αὐτοῖς πάντας ἁγίους.",
+      "originalText": "Ἀσπάσασθε Φιλόλογον καὶ Ἰουλίαν, Νηρέα καὶ τὴν ἀδελφὴν αὐτοῦ, καὶ Ὀλυμπᾶν, καὶ τοὺς σὺν αὐτοῖς πάντας ἁγίους. "
+    },
+    {
+      "id": "ROM.16.16",
+      "sourceRef": "ROM.16.16",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=426",
+      "sourceLabel": "16",
+      "anchors": [
+        "ROM.16.16"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τοῦ χριστοῦ.",
+      "sourceText": "Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τοῦ χριστοῦ.",
+      "originalText": "Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τοῦ χριστοῦ. \n"
+    },
+    {
+      "id": "ROM.16.17",
+      "sourceRef": "ROM.16.17",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=427",
+      "sourceLabel": "17",
+      "anchors": [
+        "ROM.16.17"
+      ],
+      "mappingType": "exact",
+      "text": "Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, σκοπεῖν τοὺς τὰς διχοστασίας καὶ τὰ σκάνδαλα, παρὰ τὴν διδαχὴν ἣν ὑμεῖς ἐμάθετε, ποιοῦντας· καὶ ἐκκλίνατε ἀπ’ αὐτῶν.",
+      "sourceText": "¶Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, σκοπεῖν τοὺς τὰς διχοστασίας καὶ τὰ σκάνδαλα, παρὰ τὴν διδαχὴν ἣν ὑμεῖς ἐμάθετε, ποιοῦντας· καὶ ἐκκλίνατε ἀπ’ αὐτῶν.",
+      "originalText": "Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, σκοπεῖν τοὺς τὰς διχοστασίας καὶ τὰ σκάνδαλα, παρὰ τὴν διδαχὴν ἣν ὑμεῖς ἐμάθετε, ποιοῦντας· καὶ ἐκκλίνατε ἀπ’ αὐτῶν. "
+    },
+    {
+      "id": "ROM.16.18",
+      "sourceRef": "ROM.16.18",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=428",
+      "sourceLabel": "18",
+      "anchors": [
+        "ROM.16.18"
+      ],
+      "mappingType": "exact",
+      "text": "Οἱ γὰρ τοιοῦτοι τῷ κυρίῳ ἡμῶν Ἰησοῦ χριστῷ οὐ δουλεύουσιν, ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ· καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσιν τὰς καρδίας τῶν ἀκάκων.",
+      "sourceText": "Οἱ γὰρ τοιοῦτοι τῷ κυρίῳ ἡμῶν Ἰησοῦ χριστῷ οὐ δουλεύουσιν, ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ· καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσιν τὰς καρδίας τῶν ἀκάκων.",
+      "originalText": "Οἱ γὰρ τοιοῦτοι τῷ κυρίῳ ἡμῶν Ἰησοῦ χριστῷ οὐ δουλεύουσιν, ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ· καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσιν τὰς καρδίας τῶν ἀκάκων. "
+    },
+    {
+      "id": "ROM.16.19",
+      "sourceRef": "ROM.16.19",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=429",
+      "sourceLabel": "19",
+      "anchors": [
+        "ROM.16.19"
+      ],
+      "mappingType": "exact",
+      "text": "Ἡ γὰρ ὑμῶν ὑπακοὴ εἰς πάντας ἀφίκετο. Χαίρω οὖν τὸ ἐφ’ ὑμῖν· θέλω δὲ ὑμᾶς σοφοὺς μὲν εἶναι εἰς τὸ ἀγαθόν, ἀκεραίους δὲ εἰς τὸ κακόν.",
+      "sourceText": "Ἡ γὰρ ὑμῶν ὑπακοὴ εἰς πάντας ἀφίκετο. Χαίρω οὖν τὸ ἐφ’ ὑμῖν· θέλω δὲ ὑμᾶς σοφοὺς μὲν εἶναι εἰς τὸ ἀγαθόν, ἀκεραίους δὲ εἰς τὸ κακόν.",
+      "originalText": "Ἡ γὰρ ὑμῶν ὑπακοὴ εἰς πάντας ἀφίκετο. Χαίρω οὖν τὸ ἐφ’ ὑμῖν· θέλω δὲ ὑμᾶς σοφοὺς μὲν εἶναι εἰς τὸ ἀγαθόν, ἀκεραίους δὲ εἰς τὸ κακόν. "
+    },
+    {
+      "id": "ROM.16.20",
+      "sourceRef": "ROM.16.20",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=430",
+      "sourceLabel": "20",
+      "anchors": [
+        "ROM.16.20"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁ δὲ θεὸς τῆς εἰρήνης συντρίψει τὸν Σατανᾶν ὑπὸ τοὺς πόδας ὑμῶν ἐν τάχει. ¶Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μεθ’ ὑμῶν.",
+      "sourceText": "Ὁ δὲ θεὸς τῆς εἰρήνης συντρίψει τὸν Σατανᾶν ὑπὸ τοὺς πόδας ὑμῶν ἐν τάχει. ¶Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μεθ’ ὑμῶν.",
+      "originalText": "Ὁ δὲ θεὸς τῆς εἰρήνης συντρίψει τὸν Σατανᾶν ὑπὸ τοὺς πόδας ὑμῶν ἐν τάχει. ¶Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μεθ’ ὑμῶν. \n"
+    },
+    {
+      "id": "ROM.16.21",
+      "sourceRef": "ROM.16.21",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=431",
+      "sourceLabel": "21",
+      "anchors": [
+        "ROM.16.21"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάζονται ὑμᾶς Τιμόθεος ὁ συνεργός μου, καὶ Λούκιος καὶ Ἰάσων καὶ Σωσίπατρος οἱ συγγενεῖς μου.",
+      "sourceText": "¶Ἀσπάζονται ὑμᾶς Τιμόθεος ὁ συνεργός μου, καὶ Λούκιος καὶ Ἰάσων καὶ Σωσίπατρος οἱ συγγενεῖς μου.",
+      "originalText": "Ἀσπάζονται ὑμᾶς Τιμόθεος ὁ συνεργός μου, καὶ Λούκιος καὶ Ἰάσων καὶ Σωσίπατρος οἱ συγγενεῖς μου. "
+    },
+    {
+      "id": "ROM.16.22",
+      "sourceRef": "ROM.16.22",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=432",
+      "sourceLabel": "22",
+      "anchors": [
+        "ROM.16.22"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάζομαι ὑμᾶς ἐγὼ Τέρτιος, ὁ γράψας τὴν ἐπιστολήν, ἐν κυρίῳ.",
+      "sourceText": "Ἀσπάζομαι ὑμᾶς ἐγὼ Τέρτιος, ὁ γράψας τὴν ἐπιστολήν, ἐν κυρίῳ.",
+      "originalText": "Ἀσπάζομαι ὑμᾶς ἐγὼ Τέρτιος, ὁ γράψας τὴν ἐπιστολήν, ἐν κυρίῳ. "
+    },
+    {
+      "id": "ROM.16.23",
+      "sourceRef": "ROM.16.23",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=433",
+      "sourceLabel": "23",
+      "anchors": [
+        "ROM.16.23"
+      ],
+      "mappingType": "exact",
+      "text": "Ἀσπάζεται ὑμᾶς Γάϊος ὁ ξένος μου καὶ τῆς ἐκκλησίας ὅλης. Ἀσπάζεται ὑμᾶς Ἔραστος ὁ οἰκονόμος τῆς πόλεως, καὶ Κούαρτος ὁ ἀδελφός.",
+      "sourceText": "Ἀσπάζεται ὑμᾶς Γάϊος ὁ ξένος μου καὶ τῆς ἐκκλησίας ὅλης. Ἀσπάζεται ὑμᾶς Ἔραστος ὁ οἰκονόμος τῆς πόλεως, καὶ Κούαρτος ὁ ἀδελφός.",
+      "originalText": "Ἀσπάζεται ὑμᾶς Γάϊος ὁ ξένος μου καὶ τῆς ἐκκλησίας ὅλης. Ἀσπάζεται ὑμᾶς Ἔραστος ὁ οἰκονόμος τῆς πόλεως, καὶ Κούαρτος ὁ ἀδελφός. "
+    },
+    {
+      "id": "ROM.16.24",
+      "sourceRef": "ROM.16.24",
+      "sourceId": "csv-unicode/ccat/no-variants/ROM.csv#row=434",
+      "sourceLabel": "24",
+      "anchors": [
+        "ROM.16.24"
+      ],
+      "mappingType": "exact",
+      "text": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν.",
+      "sourceText": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν.",
+      "originalText": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν. "
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "ROM.16.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.1",
+          "sourceRef": "ROM.16.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.2",
+          "sourceRef": "ROM.16.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.3",
+          "sourceRef": "ROM.16.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.4",
+          "sourceRef": "ROM.16.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.5",
+          "sourceRef": "ROM.16.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.6",
+          "sourceRef": "ROM.16.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.7",
+          "sourceRef": "ROM.16.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.8",
+          "sourceRef": "ROM.16.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.9",
+          "sourceRef": "ROM.16.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.10",
+          "sourceRef": "ROM.16.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.11",
+          "sourceRef": "ROM.16.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.12",
+          "sourceRef": "ROM.16.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.13",
+          "sourceRef": "ROM.16.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.14",
+          "sourceRef": "ROM.16.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.15",
+          "sourceRef": "ROM.16.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.16",
+          "sourceRef": "ROM.16.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.17",
+          "sourceRef": "ROM.16.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.18",
+          "sourceRef": "ROM.16.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.19",
+          "sourceRef": "ROM.16.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.20",
+          "sourceRef": "ROM.16.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.21",
+          "sourceRef": "ROM.16.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.22",
+          "sourceRef": "ROM.16.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.23",
+          "sourceRef": "ROM.16.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 16,
+          "segmentId": "ROM.16.24",
+          "sourceRef": "ROM.16.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.25",
+      "dataState": "available",
+      "textState": "relocated",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.24",
+          "sourceRef": "ROM.14.24",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.26",
+      "dataState": "available",
+      "textState": "relocated",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.25",
+          "sourceRef": "ROM.14.25",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ROM.16.27",
+      "dataState": "available",
+      "textState": "relocated",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ROM",
+          "chapter": 14,
+          "segmentId": "ROM.14.26",
+          "sourceRef": "ROM.14.26",
+          "mappingType": "relocated"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "rp2018-2026-09-05-m2-v1"
+}

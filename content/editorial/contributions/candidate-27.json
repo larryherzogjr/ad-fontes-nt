@@ -1,0 +1,22 @@
+{
+  "unitId": "candidate-27",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-6/candidate-27-RETURNED-2026-09-05.md",
+  "returnedSha256": "e0c6404adb8e762bdb69d7d52017a3ceba8970e46de6d88d11f7b705eb56a131",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted the returned revision. Codex integrated the separately approved corrections. See H/J and proposed-corrections.json.",
+  "permission": "Granted in returned H, including commercial use; Ordinary Means attribution and retained AI history.",
+  "approvalScope": "Returned A–C, reconciled source references and approved integration metadata; D/F remains archival.",
+  "integrationState": "approved for local publication",
+  "independentVerification": "All 253 frozen files and four evidence sections match; local source readings and notes checked. Book attribution checked at printed pages; manuscript claims remain independently unverified.",
+  "correctionApproval": {
+    "date": "2026-09-05",
+    "reply": "Approve all proposed corrections",
+    "scope": "batch-6/PROPOSED-CORRECTIONS.md"
+  },
+  "approvedContentHash": "0a03fac63a6facb8fcc7130dc19921a84e5dd7ba9f0db1bf7bdf028be3a8d0b0"
+}

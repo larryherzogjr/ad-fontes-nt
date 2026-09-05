@@ -1,0 +1,713 @@
+'use client';
+import { useEffect, useRef, useState } from 'react';
+import PublisherNoteLabel from './publisher-note-label';
+import {
+  editions,
+  getCorpus,
+  type Segment,
+  type Coverage,
+  type PublisherNote,
+} from '@/lib/domain/corpus';
+import { expand, passageUrl, type PassageRange } from '@/lib/domain/references';
+import {
+  analysisInfo,
+  getAnalysis,
+  getOccurrences,
+  highlightOccurrences,
+  type HighlightedOccurrence,
+  getLexicon,
+  describeMorph,
+  type AnalysisSegment,
+  type Token,
+  type Occurrences,
+  type LexiconEntry,
+} from '@/lib/domain/greek';
+import { transliterateGreek } from '@/lib/domain/greek-reading';
+import { selectStudyUnits, type Variant } from '@/lib/domain/variants';
+type Comparison = {
+  editionId: string;
+  releaseId: string;
+  segments: Segment[];
+  coverage: Coverage[];
+  notes: PublisherNote[];
+  alternatives: { sourceId: string; label: string; text: string }[];
+};
+function CommentaryProse({ text, unit }: { text: string; unit: Variant }) {
+  return <>{text.split('\n\n').map((paragraph, i) => <p key={i}>{paragraph.split(/(\[[SC]\d+(?:,\s*[SC]\d+)*\]|\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, j) => {
+    if (part.startsWith('[')) return <span key={j}>[{part.slice(1, -1).split(/,\s*/).map((id, n) => <span key={id}>{n > 0 && ', '}<a href={`#${unit.id}-source-${id}`} onClick={(event) => { event.preventDefault(); const target = document.getElementById(`${unit.id}-source-${id}`); target?.focus(); target?.scrollIntoView({ block: 'center' }); }}>{id}</a></span>)}]</span>;
+    if (part.startsWith('**') && part.endsWith('**')) return <strong key={j}>{part.slice(2, -2)}</strong>;
+    if (part.startsWith('*') && part.endsWith('*')) return <em key={j}>{part.slice(1, -1)}</em>;
+    return part;
+  })}</p>)}</>;
+}
+export default function StudyPanel({
+  ranges,
+  mode,
+  onClose,
+}: {
+  ranges: PassageRange[];
+  mode: 'compare' | 'greek' | 'notes';
+  onClose: () => void;
+}) {
+  const dialog = useRef<HTMLDialogElement>(null),
+    backdropPress = useRef(false),
+    title = useRef<HTMLHeadingElement>(null),
+    wordHeading = useRef<HTMLHeadingElement>(null);
+  const [error, setError] = useState(''),
+    [loading, setLoading] = useState(true),
+    [comparison, setComparison] = useState<Comparison[]>([]),
+    [analysis, setAnalysis] = useState<AnalysisSegment[]>([]),
+    [variants, setVariants] = useState<Variant[]>([]),
+    [noteOnly, setNoteOnly] = useState(mode === 'notes'),
+    [noteLinks, setNoteLinks] = useState<Variant[]>([]),
+    [relatedNotes, setRelatedNotes] = useState<Variant[]>([]),
+    [token, setToken] = useState<Token | null>(null),
+    [occurrences, setOccurrences] = useState<Occurrences | null>(null),
+    [entry, setEntry] = useState<LexiconEntry | null>(null),
+    [wordError, setWordError] = useState(''),
+    [wordLoading, setWordLoading] = useState(false),
+    [page, setPage] = useState(1),
+    [highlighted, setHighlighted] = useState<HighlightedOccurrence[]>([]),
+    [highlightError, setHighlightError] = useState('');
+  const label = ranges
+    .map((r) => (r.start === r.end ? r.start : `${r.start}–${r.end}`))
+    .join('; ');
+  useEffect(() => {
+    dialog.current?.showModal();
+    title.current?.focus();
+    return () => dialog.current?.close();
+  }, []);
+  useEffect(() => {
+    let active = true;
+    setLoading(true);
+    setError('');
+    async function run() {
+      const anchors = ranges.flatMap(expand);
+      if (anchors.length > 80)
+        throw Error(
+          'Choose a passage of up to 80 verses for study. Chapter reading remains available.',
+        );
+      if (mode !== 'greek') {
+        const records = await Promise.all(
+          editions.map(async (e) => {
+            const adapter = getCorpus(e.editionId);
+            const [p, chapters] = await Promise.all([
+              adapter.getPassage(ranges),
+              adapter.getReadingChapters(ranges),
+            ]);
+            const noteIds = new Set(
+              p.coverage.flatMap((c) => c.publisherNoteIds),
+            );
+            return {
+              alternatives: chapters.flatMap((c) => [
+                ...(c.alternatives || []).filter((a) =>
+                  anchors.includes(a.sourceRef),
+                ),
+                ...c.blocks
+                  .filter((b) => b.role === 'publisher-alternative')
+                  .map((b) => ({
+                    sourceId: b.sourceId,
+                    label: `Appended source material · ${c.book} ${c.chapter}`,
+                    text: b.runs.map((r) => r.text || '').join(''),
+                  })),
+              ]),
+              ...p,
+              notes: chapters
+                .flatMap((c) => c.notes)
+                .filter((n) => noteIds.has(n.id)),
+            };
+          }),
+        );
+        const response = await fetch('/editorial/variants.json');
+        if (!response.ok)
+          throw Error('Reviewed-note information could not be loaded.');
+        const data = (await response.json()) as {
+          schemaVersion: number;
+          units: Variant[];
+        };
+        if (
+          data.schemaVersion !== 1 ||
+          !Array.isArray(data.units) ||
+          data.units.some((v) => v.status !== 'approved')
+        )
+          throw Error('Invalid reviewed-note bundle.');
+        const wanted = new Set(anchors),
+          matching = data.units.filter((v) =>
+            v.ranges.flatMap(expand).some((a) => wanted.has(a)),
+          );
+        const requested = new URL(location.href).searchParams.get('unit');
+        const selection = selectStudyUnits(matching, requested, mode === 'notes');
+        if (active) {
+          setComparison(records);
+          setVariants(selection.selected);
+          setNoteOnly(selection.noteOnly);
+          setNoteLinks(selection.noteLinks);
+          setRelatedNotes(data.units.filter(v => matching.some(m => m.relatedUnits?.includes(v.id))));
+        }
+      } else {
+        const data = await getAnalysis(ranges);
+        if (active) {
+          setAnalysis(data);
+          const id = new URL(location.href).searchParams.get('token');
+          if (id) {
+            const t = data.flatMap((s) => s.tokens).find((t) => t.id === id);
+            if (t) setToken(t);
+            else
+              setWordError(
+                'That word analysis is unavailable for this passage.',
+              );
+          }
+        }
+      }
+    }
+    run()
+      .catch((e) => {
+        if (active) setError(e.message);
+      })
+      .finally(() => {
+        if (active) setLoading(false);
+      });
+    return () => {
+      active = false;
+    };
+  }, [mode, ranges]);
+  useEffect(() => {
+    if (!token) return;
+    wordHeading.current?.focus();
+    wordHeading.current?.scrollIntoView({ block: 'start' });
+    let active = true;
+    setWordLoading(true);
+    setWordError('');
+    setOccurrences(null);
+    setEntry(null);
+    setPage(1);
+    Promise.all([getOccurrences(token.lemmaId), getLexicon(token.strongs)])
+      .then(([o, l]) => {
+        if (active) {
+          if (o.releaseId !== analysisInfo.releaseId)
+            throw Error('Occurrence release mismatch.');
+          setOccurrences(o);
+          setEntry(l);
+        }
+      })
+      .catch((e) => {
+        if (active) setWordError(e.message);
+      })
+      .finally(() => {
+        if (active) setWordLoading(false);
+      });
+    return () => {
+      active = false;
+    };
+  }, [token]);
+  useEffect(() => {
+    let active = true;
+    setHighlighted([]);
+    setHighlightError('');
+    if (occurrences)
+      highlightOccurrences(occurrences.hits.slice((page - 1) * 20, page * 20))
+        .then((hits) => {
+          if (active) setHighlighted(hits);
+        })
+        .catch(() => {
+          if (active)
+            setHighlightError(
+              'Word highlighting could not be loaded. The source snippets remain available.',
+            );
+        });
+    return () => {
+      active = false;
+    };
+  }, [occurrences, page]);
+  function choose(t: Token) {
+    setToken(t);
+    const u = new URL(location.href);
+    u.searchParams.set('token', t.id);
+    history.replaceState({}, '', u.pathname + u.search);
+  }
+  function switchMode(next: string) {
+    const u = new URL(location.href);
+    u.searchParams.set('panel', next);
+    u.searchParams.delete('token');
+    u.searchParams.delete('unit');
+    location.assign(u.pathname + u.search);
+  }
+  function outsidePanel(event: {
+    clientX: number;
+    clientY: number;
+    currentTarget: HTMLDialogElement;
+  }) {
+    const bounds = event.currentTarget.getBoundingClientRect();
+    return (
+      event.clientX < bounds.left ||
+      event.clientX > bounds.right ||
+      event.clientY < bounds.top ||
+      event.clientY > bounds.bottom
+    );
+  }
+  return (
+    <dialog
+      ref={dialog}
+      className="study-dialog"
+      aria-labelledby="study-title"
+      onPointerDown={(e) => {
+        backdropPress.current =
+          e.button === 0 && e.target === e.currentTarget && outsidePanel(e);
+      }}
+      onPointerCancel={() => {
+        backdropPress.current = false;
+      }}
+      onClick={(e) => {
+        // Both ends must be outside: selecting or dragging text out of the panel must not dismiss it.
+        const dismiss =
+          backdropPress.current &&
+          e.target === e.currentTarget &&
+          outsidePanel(e);
+        backdropPress.current = false;
+        if (dismiss) onClose();
+      }}
+      onCancel={(e) => {
+        e.preventDefault();
+        onClose();
+      }}
+    >
+      <header className="study-header">
+        <div>
+          <p className="eyebrow">PASSAGE STUDY</p>
+          <h2 id="study-title" ref={title} tabIndex={-1}>
+            {mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : 'Compare editions'}
+          </h2>
+          <p>{label}</p>
+        </div>
+        <button onClick={onClose} aria-label="Close study panel">
+          Close ×
+        </button>
+      </header>
+      {!noteOnly && !loading && <nav className="study-tabs" aria-label="Study tools">
+        <button
+          aria-pressed={mode === 'compare'}
+          onClick={() => mode !== 'compare' && switchMode('compare')}
+        >
+          Compare editions
+        </button>
+        <button
+          aria-pressed={mode === 'greek'}
+          onClick={() => mode !== 'greek' && switchMode('greek')}
+        >
+          Explore Greek
+        </button>
+      </nav>}
+      {loading && <p role="status">Loading local study data…</p>}
+      {error && (
+        <p role="alert" className="error">
+          {error}
+        </p>
+      )}
+      {!loading && !error && mode !== 'greek' && (
+        <>
+          {!noteOnly && <p>
+            These are named editions, with their own wording and source
+            placement. Differences in English wording alone do not establish a
+            difference in the Greek text.
+          </p>}
+          {noteLinks.map(v => <p key={v.id}><a href={`${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`}>Publisher note study · {v.title}</a></p>)}
+          {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
+          {noteOnly && <section aria-label="Publisher notes for this explanation">
+            <h3>Publisher notes</h3>
+            {variants.flatMap(v => v.publisherNotes || []).map(n => <article key={`${n.releaseId}-${n.noteId}`}>
+              <h4>{n.editionId} publisher’s note</h4><p>{n.body}</p><small>Source: {n.noteId} · {n.releaseId}</small>
+            </article>)}
+          </section>}
+          <section className="reviewed-notes">
+            <h3>Reviewed explanations</h3>
+            {!variants.length ? (
+              <p>
+                No reviewed note is available for this passage. This does not
+                mean there are no textual differences.
+              </p>
+            ) : (
+              variants.map((v) => (
+                <article key={v.id} id={`reviewed-${v.id}`}>
+                  <h4>{v.title}</h4>
+                  <p>{v.byline || v.author} commentary</p>
+                  <h5>What the editions print</h5>
+                  <CommentaryProse text={v.significance?.sourceObservation || ''} unit={v} />
+                  <h5>Ordinary Means interpretation</h5>
+                  <CommentaryProse text={v.significance?.interpretation || ''} unit={v} />
+                  {!!v.explanationSources?.length && <section aria-label="Explanation sources">
+                    <h5>Sources for this explanation</h5>
+                    <ul>{v.explanationSources.map(c => <li key={c.id} id={`${v.id}-source-${c.id}`} tabIndex={-1}>
+                      <strong>{c.id}</strong> · {c.url ? <a href={c.url}>{c.label}</a> : c.label}. {c.locator}
+                    </li>)}</ul>
+                  </section>}
+                  {!!v.relatedUnits?.length && <nav aria-label={`Related explanations for ${v.title}`}>
+                    <h5>Related explanation</h5>
+                    {relatedNotes.filter(other => v.relatedUnits?.includes(other.id)).map(other => <p key={other.id}>
+                      <a href={`${passageUrl(other.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=${other.presentation === 'publisher-note' ? 'notes' : 'compare'}&unit=${encodeURIComponent(other.id)}`} onClick={event => {
+                        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+                        event.preventDefault(); location.assign(event.currentTarget.href);
+                      }}>
+                        {other.ranges.map(r => r.start === r.end ? r.start : `${r.start}–${r.end}`).join('; ')} · {other.title}
+                      </a>
+                    </p>)}
+                  </nav>}
+                  {v.citations.map((c, i) => (
+                    <a key={i} href={c.url}>
+                      {c.editionId} source{' '}
+                    </a>
+                  ))}
+                </article>
+              ))
+            )}
+          </section>
+          {!noteOnly && ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus'].map(
+            (group) => (
+              <section className="comparison-group" key={group}>
+                <h3>{group}</h3>
+                {editions
+                  .filter((e) => e.group === group)
+                  .map((e) => {
+                    const record = comparison.find(
+                      (c) => c.editionId === e.editionId,
+                    )!;
+                    return (
+                      <article className="edition-reading" key={e.editionId}>
+                        <h4>{e.name}</h4>
+                        <a href={passageUrl(ranges, e.editionId)}>
+                          Read in context
+                        </a>
+                        {variants.map(v => {
+                          const focus = v.readings.find(r => r.editionId === e.editionId)?.focus;
+                          if (!focus) return null;
+                          return <section key={v.id} aria-label={`Textual unit for ${v.title}`}>
+                            <p className="coverage-note">Reviewed textual unit · {v.title}: {focus.state === 'absent'
+                              ? 'The disputed material is absent; neighboring verse text remains below.'
+                              : focus.state === 'bracketed' ? 'The following continuous unit is present with source markers.'
+                                : 'The following continuous unit is present.'}</p>
+                            {!!focus.spans.length && <blockquote lang={e.language}>
+                              {focus.spans.map((s, i) => <span key={s.segmentId}>
+                                {i > 0 && ' '}<small>{s.segmentId} </small>{s.text}
+                              </span>)}
+                            </blockquote>}
+                          </section>;
+                        })}
+                        {record.coverage.some(
+                          (c) => c.textState === 'absent',
+                        ) && (
+                          <p className="coverage-note">
+                            Absent from this edition’s main text:{' '}
+                            {record.coverage
+                              .filter((c) => c.textState === 'absent')
+                              .map((c) => c.anchor)
+                              .join(', ')}
+                            .
+                          </p>
+                        )}
+                        {record.coverage.some(
+                          (c) => c.textState === 'bracketed',
+                        ) && (
+                          <p className="coverage-note">
+                            This source marks part or all of the passage with
+                            brackets.
+                          </p>
+                        )}
+                        {record.segments.map((s) => (
+                          <p
+                            key={s.id}
+                            className="comparison-scripture"
+                            lang={e.language}
+                          >
+                            <small>{s.sourceRef || s.id}</small> {s.text}
+                          </p>
+                        ))}
+                        {!!record.notes.length && (
+                          <details>
+                            <summary>
+                              {e.editionId} publisher’s notes (
+                              {record.notes.length})
+                            </summary>
+                            {record.notes.map((n) => (
+                              <div key={n.id}>
+                                <PublisherNoteLabel releaseId={record.releaseId} note={n} />
+                                <p>{n.body}</p>
+                              </div>
+                            ))}
+                          </details>
+                        )}
+                        {!!record.alternatives.length && (
+                          <details>
+                            <summary>Edition’s separate alternatives</summary>
+                            {record.alternatives.map((a) => (
+                              <p key={a.sourceId}>
+                                <small>{a.label}</small>
+                                <br />
+                                <span lang={e.language}>{a.text}</span>
+                              </p>
+                            ))}
+                          </details>
+                        )}
+                        <small>Source release: {record.releaseId}</small>
+                      </article>
+                    );
+                  })}
+              </section>
+            ),
+          )}
+        </>
+      )}
+      {!loading && !error && mode === 'greek' && (
+        <>
+          <p>
+            <strong>Nestle 1904</strong> · Source-backed word analysis by Ulrik
+            Sandborg-Petersen. Select a Greek word to inspect its lemma and
+            grammatical tags.
+          </p>
+          <p className="study-help">
+            This is a separate Greek text view. No English word alignment is
+            assumed.
+          </p>
+          {!analysis.length && (
+            <p className="notice">
+              This canonical passage has no main-text segment in Nestle 1904.
+              Use Compare editions for its edition-specific coverage.
+            </p>
+          )}
+          {analysis.map((s) => (
+            <section key={s.sourceRef} className="greek-verse">
+              <h3>{s.sourceRef}</h3>
+              {s.status === 'unavailable' ? (
+                <>
+                  <p lang="grc" className="comparison-scripture">
+                    {s.text}
+                  </p>
+                  <p className="notice">{s.reason}</p>
+                </>
+              ) : (
+                <p lang="grc" className="greek-token-text">
+                  {s.tokens.map((t, i) => (
+                    <span key={t.id}>
+                      {s.text.slice(i ? s.tokens[i - 1].end : 0, t.start)}
+                      <button
+                        id={`word-${t.id}`}
+                        className={
+                          token?.id === t.id
+                            ? 'greek-token chosen'
+                            : 'greek-token'
+                        }
+                        aria-label={`${t.surface}, ${s.sourceRef}, word ${i + 1}`}
+                        aria-pressed={token?.id === t.id}
+                        onClick={() => choose(t)}
+                      >
+                        {t.surface}
+                      </button>
+                      {i === s.tokens.length - 1 ? s.text.slice(t.end) : ''}
+                    </span>
+                  ))}
+                </p>
+              )}
+            </section>
+          ))}
+          <section
+            className="word-detail"
+            aria-live="polite"
+            aria-label="Selected Greek word"
+          >
+            {wordError && (
+              <p role="alert" className="error">
+                {wordError}
+              </p>
+            )}
+            {!token ? (
+              analysis.some((s) => s.tokens.length) ? (
+                <p>Select a word above.</p>
+              ) : null
+            ) : (
+              <>
+                <h3 lang="grc" ref={wordHeading} tabIndex={-1}>
+                  {token.surface}
+                </h3>
+                <button
+                  onClick={() => {
+                    const el = document.getElementById(`word-${token.id}`);
+                    el?.focus();
+                    el?.scrollIntoView({ block: 'center' });
+                  }}
+                >
+                  Return to selected verse
+                </button>
+                <dl>
+                  <dt>Transliteration · selected form</dt>
+                  <dd>{transliterateGreek(token.surface)}</dd>
+                  <dt>Lemma (standard form)</dt>
+                  <dd lang="grc">{token.lemma}</dd>
+                  <dt>Standard form · transliteration & pronunciation</dt>
+                  <dd>
+                    {wordLoading ? (
+                      'Loading pronunciation guide…'
+                    ) : entry ? (
+                      <>
+                        <span lang="grc">{entry.headword}</span>
+                        {' · '}
+                        {entry.transliteration || 'Transliteration unavailable'}
+                        <br />
+                        {entry.pronunciation || 'Pronunciation unavailable'}
+                        <small className="pronunciation-help">
+                          Strong’s historical pronunciation guide for this
+                          standard form, which may differ from the selected
+                          inflected form. The apostrophe marks stress. This is a
+                          written guide, not reconstructed Koine audio.
+                        </small>
+                      </>
+                    ) : (
+                      'No source pronunciation guide is available.'
+                    )}
+                  </dd>
+                  <dt>Functional analysis</dt>
+                  <dd>
+                    {describeMorph(token.functional)}{' '}
+                    <code>{token.functional}</code>
+                  </dd>
+                  <dt>Form analysis</dt>
+                  <dd>
+                    {describeMorph(token.form)} <code>{token.form}</code>
+                  </dd>
+                  <dt>Berean contextual gloss</dt>
+                  <dd>
+                    {token.gloss ||
+                      'No verified gloss is attached to this word.'}
+                  </dd>
+                </dl>
+                <p className="study-help">
+                  The gloss is a source translation aid for this occurrence. A
+                  word’s full meaning depends on its context.
+                </p>
+                {wordLoading && (
+                  <p role="status">Loading lexical entry and occurrences…</p>
+                )}
+                {!wordLoading && !wordError && (
+                  <>
+                    <details className="lexical-entry">
+                      <summary>
+                        Historical dictionary · Strong’s{' '}
+                        {token.strongs.split('&')[0]}
+                      </summary>
+                      <p>
+                        James Strong (1890), Greek Dictionary; Ulrik Petersen
+                        XML v1.4. This historical entry lists senses and
+                        translation uses; it does not determine which sense fits
+                        this passage.
+                      </p>
+                      <p>
+                        {entry?.text ||
+                          'No entry is available for this source identifier.'}
+                      </p>
+                    </details>
+                    <h4>
+                      {occurrences?.hits.length || 0} indexed occurrences of
+                      this lemma
+                    </h4>
+                    <p className="study-help">
+                      Within the 7,940 matching Nestle 1904 source verses. Two
+                      verses are not indexed. This count is not a count across
+                      all Greek editions.
+                    </p>
+                    {highlightError && <p role="status">{highlightError}</p>}
+                    <p className="study-help">
+                      The highlighted word is the exact occurrence linked above
+                      each verse.
+                    </p>
+                    {occurrences?.hits
+                      .slice((page - 1) * 20, page * 20)
+                      .map((h) => (
+                        <p key={h.tokenId} className="occurrence">
+                          <a
+                            href={`${passageUrl([{ start: h.anchor, end: h.anchor }], 'N1904')}&panel=greek&token=${encodeURIComponent(h.tokenId)}`}
+                          >
+                            {h.sourceRef} · {h.surface}
+                          </a>
+                          <span lang="grc">
+                            {(() => {
+                              const match = highlighted.find(
+                                (x) => x.tokenId === h.tokenId,
+                              );
+                              return match ? (
+                                <>
+                                  {h.text.slice(0, match.start)}
+                                  <mark
+                                    className="occurrence-match"
+                                    aria-label="Matched Greek word"
+                                  >
+                                    {h.text.slice(match.start, match.end)}
+                                  </mark>
+                                  {h.text.slice(match.end)}
+                                </>
+                              ) : (
+                                h.text
+                              );
+                            })()}
+                          </span>
+                        </p>
+                      ))}
+                    {!!occurrences?.hits.length && (
+                      <nav
+                        className="chapter-nav"
+                        aria-label="Lemma occurrence pages"
+                      >
+                        <button
+                          disabled={page === 1}
+                          onClick={() => setPage(page - 1)}
+                        >
+                          Previous occurrences
+                        </button>
+                        <span>
+                          Page {page} of{' '}
+                          {Math.ceil(occurrences.hits.length / 20)}
+                        </span>
+                        <button
+                          disabled={page * 20 >= occurrences.hits.length}
+                          onClick={() => setPage(page + 1)}
+                        >
+                          Next occurrences
+                        </button>
+                      </nav>
+                    )}
+                  </>
+                )}
+                <details className="analysis-provenance">
+                  <summary>Word source details</summary>
+                  <p>{token.sourceId}</p>
+                  <p>
+                    Selected-form transliteration is an application reading aid
+                    based on the{' '}
+                    <a href="https://www.loc.gov/catdir/cpso/romanization/greek.pdf">
+                      ALA-LC Greek letter table
+                    </a>
+                    ; it omits accents and iota subscript, preserves marked
+                    rough breathings, and does not infer missing breathings. It
+                    is not phonetic notation.
+                  </p>
+                  {entry && (
+                    <p>
+                      Dictionary reading guide: {entry.sourceId}; original XML
+                      translit and pronunciation attributes.
+                    </p>
+                  )}
+                  <p>{token.glossSourceId || 'No aligned gloss source.'}</p>
+                  <p>
+                    Raw Strong’s/TVM field: {token.strongs}. Lemma identity
+                    comes from the source lemma, not from this number.
+                  </p>
+                </details>
+              </>
+            )}
+          </section>
+          <p>
+            <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
+              Analysis sources, rights and coverage
+            </a>
+          </p>
+        </>
+      )}
+    </dialog>
+  );
+}

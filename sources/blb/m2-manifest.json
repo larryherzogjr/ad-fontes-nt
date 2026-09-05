@@ -1,0 +1,59 @@
+{
+  "name": "Berean Literal Bible — publisher draft",
+  "language": "en",
+  "group": "Critical/Eclectic",
+  "description": "Literal English. This download is labeled an early draft by the publisher; brackets mark supplied English words.",
+  "editionLabel": "Berean Literal Bible (Draft), official TXT snapshot, 2026-09-05; no publisher release number supplied.",
+  "authority": "Official blb.txt, UTF-8. Verse layout: this artifact supplies no paragraph, heading or note markup.",
+  "url": "https://literalbible.com/",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "rights": "Berean public-domain dedication, also printed in the downloaded text.",
+  "included": [
+    "NT Scripture",
+    "original supplied-word brackets"
+  ],
+  "excluded": [
+    "OT",
+    "paragraph reconstruction",
+    "publisher notes unavailable in this artifact",
+    "English–Greek alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/blb/raw/blb.txt",
+      "url": "https://literalbible.com/blb.txt",
+      "sha256": "4db24ae985c244ba83538f5e6e39ab7f3a1d027a6ffe8b1292e503f6dcd88054",
+      "bytes": 4654213
+    }
+  ],
+  "editionId": "BLB",
+  "releaseId": "blb-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [
+    "MAT.17.21",
+    "MAT.18.11",
+    "MAT.23.14",
+    "MRK.7.16",
+    "MRK.9.44",
+    "MRK.9.46",
+    "MRK.11.26",
+    "MRK.15.28",
+    "LUK.17.36",
+    "LUK.23.17",
+    "JHN.5.4",
+    "ACT.8.37",
+    "ACT.15.34",
+    "ACT.24.7",
+    "ACT.28.29",
+    "ROM.16.24"
+  ],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/blb/evidence/publisher.html",
+      "sha256": "da66e7769676de47e3bae69cbdf5b93739166278b0ebe22363e0908025acd84d"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Nestle 1904 — historical critical Greek",
+  "language": "grc",
+  "group": "Critical/Eclectic",
+  "description": "Historical critical Greek edition, using the dos Santos transcription. It is not the exact Greek behind BSB or BLB.",
+  "editionLabel": "Nestle 1904, Diego Renato dos Santos transcription; biblicalhumanities/Nestle1904 commit 713f28a3b7d4d66132f5aa809fa223fe79762e5d.",
+  "authority": "Pinned xhtml/*-ap.xhtml base text. Source brackets, Mark’s alternative ending and the source’s 1913 annotation are retained.",
+  "url": "https://github.com/biblicalhumanities/Nestle1904",
+  "rightsUrl": "https://github.com/biblicalhumanities/Nestle1904/blob/713f28a3b7d4d66132f5aa809fa223fe79762e5d/xhtml/README.md",
+  "rights": "The xhtml README records the transcriber’s public-domain declaration. CrossWire independently identifies Nestle1904 as public domain. Repository layers have separate rights.",
+  "included": [
+    "NT Greek base text",
+    "source paragraphs and brackets",
+    "Mark alternative ending",
+    "source annotation"
+  ],
+  "excluded": [
+    "morphology",
+    "lexicon/glosses",
+    "CC BY-SA XML markup layer",
+    "fonts",
+    "English alignment"
+  ],
+  "artifacts": [
+    {
+      "path": "sources/nestle1904/raw/nestle1904-713f28a.zip",
+      "url": "https://api.github.com/repos/biblicalhumanities/Nestle1904/zipball/713f28a3b7d4d66132f5aa809fa223fe79762e5d",
+      "sha256": "2f7a4fa3754c91569022fd552acca0632563a79bbb0a019f41409bdda231dae1",
+      "bytes": 8099998
+    }
+  ],
+  "editionId": "N1904",
+  "releaseId": "n1904-2026-09-05-m2-v1",
+  "retrievedAt": "2026-09-05",
+  "scope": "All 27 New Testament books",
+  "status": "verified-local-M2; qualified textual/editorial review remains a public-release gate",
+  "verifiedGaps": [
+    "MAT.17.21",
+    "MAT.18.11",
+    "MAT.23.14",
+    "MRK.7.16",
+    "MRK.9.44",
+    "MRK.9.46",
+    "MRK.11.26",
+    "MRK.15.28",
+    "LUK.17.36",
+    "LUK.23.17",
+    "ACT.8.37",
+    "ACT.15.34",
+    "ACT.24.7",
+    "ACT.28.29",
+    "ROM.16.24"
+  ],
+  "mappingRules": "scripts/m2/mappings.py; structural address relationships only, no word alignment",
+  "evidence": [
+    {
+      "path": "sources/nestle1904/evidence/README.md",
+      "sha256": "658377749e96a3e810c6a00892f5cd1b47bff556a78094a99a828c405d7fd760"
+    },
+    {
+      "path": "sources/nestle1904/evidence/crosswire.html",
+      "sha256": "3dc4a549e2ed2f7045f0e693c4c4c52fe816fd0e056e01de01f3c0d16505095b"
+    },
+    {
+      "path": "sources/nestle1904/evidence/morph-README.md",
+      "sha256": "cb1e85834cac9a6a5509c0ddf7de4cf3b9aec986cf5e04ffb313fa57f59fa280"
+    },
+    {
+      "path": "sources/nestle1904/evidence/xhtml-README.md",
+      "sha256": "0f195a7aa317f34b8fcf3bfcae0df92a29ce66eeb2090f983c744c3656b34ce8"
+    },
+    {
+      "path": "sources/nestle1904/evidence/xml-README.md",
+      "sha256": "164e7d96fa15326caf09906b70b1fe5b741f89213123ac0be6f81d5b1935808f"
+    }
+  ]
+}

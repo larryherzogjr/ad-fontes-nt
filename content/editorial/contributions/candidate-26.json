@@ -1,0 +1,24 @@
+{
+  "unitId": "candidate-26",
+  "returnedRevision": "rev-2",
+  "returnedDocument": "docs/editorial-review/returns/2026-09-05/batch-5/candidate-26-RETURNED-2026-09-05.md",
+  "returnedSha256": "d7ada2695ecd26ed11d83dde7907e90bc7ca8aef63f597268dcc480af1c25d69",
+  "reviewDate": "2026-09-05",
+  "reviewTimezone": "America/Chicago",
+  "reviewTimePrecision": "date only; no clock time supplied",
+  "authorOfRecord": "Larry Herzog Jr.",
+  "publicByline": "Ordinary Means",
+  "draftingHistory": "Claude drafted the initial prose; Larry adopted and approved the returned revision. See H and J. Codex staged the separately documented factual corrections.",
+  "permission": "Granted in returned H, commercial use included; Ordinary Means commentary attribution and retained AI history.",
+  "approvalScope": "Returned A–C, reconciled source references, requested cross-links and all exact proposed corrections explicitly approved in the conversation on 2026-09-05. D/F remain archival.",
+  "integrationState": "approved for local publication",
+  "proposedCorrections": "docs/editorial-review/returns/2026-09-05/batch-5/proposed-corrections.json",
+  "independentVerification": "All 253 frozen files and five supplied-evidence sections match; all seven local edition readings and notes checked. Book attribution checked at cited printed pages; this does not independently verify manuscript claims.",
+  "witnessException": "Limited to candidate 26 and the book-attributed account in the return. No unqualified structured attestations added. D/F Bezae identification flagged separately; no replacement or supplementary witness added.",
+  "correctionApproval": {
+    "date": "2026-09-05",
+    "reply": "Approve all proposed corrections",
+    "source": "Explicit user reply to batch-5 correction question"
+  },
+  "approvedContentHash": "3b41e56964bbb3d15777050f04a57355123851ee167b812d5d749be5ae743805"
+}
