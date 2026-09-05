@@ -208,3 +208,9 @@ Passed 38 Node groups, 11 Python fidelity tests, TypeScript checking, production
 ### M4 notes checkbox layout correction
 
 Fixed the oversized Show all my notes checkbox: global input width/padding/min-height had affected the native checkbox, and its block label separated the text. A scoped inline flex label now places an 18px native checkbox beside its text, with a 44px-tall clickable label and existing keyboard focus styling. Text fields retain their sizing. Passed typecheck, 38 Node groups, 11 Python tests and production build. An isolated browser fixture using the actual stylesheet verified label-click and Space toggling, 18×18 checkbox bounds, 44px label bounds and 320px layout without overflow; no private account data or auth bypass was used. Prepared for the normal GitHub push/host pull update.
+
+### Visible milestone status correction
+
+Removed stale M3-in-progress wording from the Sources page and footer. The Sources page now reflects the recorded M3 acceptance and all 30 individually approved explanations, retains the stated limitations and unfinished-MVP distinction, and identifies M4 acceptance as still in progress. The footer now says M4 in progress. Historical source manifests and acceptance records remain unchanged. This is a display-copy correction, not a new milestone acceptance.
+
+Verification for status-copy correction: 38 Node groups, 11 Python tests, typecheck and production build passed. The production Sources route was opened in the browser and shows the corrected acceptance paragraph and M4 footer. No source/corpus or review approvals changed.

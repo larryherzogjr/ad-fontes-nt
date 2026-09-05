@@ -925,20 +925,20 @@ export default function Reader() {
                 Analysis sources, rights, checksums and coverage
               </a>
             </p>
-            <h2>M3 in progress</h2>
+            <h2>Project status</h2>
             <p>
-              Edition comparison and Greek exploration are working. Larry Herzog
-              Jr. is assigned to the textual review queue; individual
-              explanations require recorded approval. Approved Ordinary Means
-              explanations appear with passage links and source citations. This is not the
-              finished MVP.
+              M3 review is complete. Larry Herzog Jr. approved all 30 initial
+              Ordinary Means explanations and accepted the edition comparison
+              and Greek exploration experience with its stated limitations.
+              Personal notes and related resource links are available; M4
+              acceptance remains in progress. This is not the finished MVP.
             </p>
           </section>
         )}
       </main>
       <footer>
         <span>Ordinary Means</span>
-        <span>Ad Fontes NT · M3 in progress</span>
+        <span>Ad Fontes NT · M4 in progress</span>
         <a
           href="/about/sources"
           onClick={(e) => {
