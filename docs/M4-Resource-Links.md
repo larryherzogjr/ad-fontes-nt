@@ -1,5 +1,7 @@
 # Initial Ordinary Means resource links
 
+**Current status: M4 accepted by Larry Herzog Jr. See [M4 acceptance](M4-Acceptance.md). Earlier pending checks below are historical; off-host backups remain deferred.**
+
 AFNT-024/025 initial link-only slice. Larry approved unobtrusive links opening new tabs. The source is the existing larryherzogjr.com project, inspected read-only. No resource prose, Scripture quotations, covers, PDFs or dictionary content is imported. This is approval to link, not a new approval of every sentence on the destination site.
 
 The reader offers a collapsed disclosure after publisher notes and before chapter navigation. It appears only when at least one resource matches. Study coverage comes from each book record's `scripture` field; article coverage comes from `scripture_refs`, resolved through the canonical NT registry. Links follow the current reading range, independently of edition. Broad book studies are labeled Free study, not verse-specific commentary. Resource metadata preserves source path and SHA-256; source changes require deliberate review rather than silently updating reader mappings.

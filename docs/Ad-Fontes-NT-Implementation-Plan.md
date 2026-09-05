@@ -216,3 +216,7 @@ No domain, paid service, publisher license, public deployment, or third-party me
 ## Accepted M4 scope amendment — 2026-09-05
 
 The user chose Google identity, a once-only shared registration password, account-backed private notes and siloed Ubuntu/Docker/PostgreSQL hosting for `ad-fontes.app` before M4 began. This supersedes D07's browser-local-only recommendation and advances AFNT-101 into M4. AFNT-022/023 now use server ownership, session/CSRF checks, optimistic versions, transaction-safe imports, explicit save/error state and database backup/restore checks in place of browser-storage quota/upgrade handling. No offline note-editing claim is added. Reading remains available without an account. AFNT-024/025 resource inventory remains separate and uncompleted. Implementation and deployment limits are in `M4-Accounts-and-Hosting.md`; public deployment is not implied by preparation.
+
+## M4 acceptance — 2026-09-05
+
+Larry explicitly accepted M4 after confirming the final note export/import, persistence and live UI checks. AFNT-022–025 and the advanced AFNT-101 slice are accepted under the account-backed and initial link-only scope. See `M4-Acceptance.md`. Off-host backups remain deferred; M5 AFNT-026–029 is next. This supersedes the earlier pending resource-inventory status.

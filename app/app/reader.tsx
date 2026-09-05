@@ -930,15 +930,16 @@ export default function Reader() {
               M3 review is complete. Larry Herzog Jr. approved all 30 initial
               Ordinary Means explanations and accepted the edition comparison
               and Greek exploration experience with its stated limitations.
-              Personal notes and related resource links are available; M4
-              acceptance remains in progress. This is not the finished MVP.
+              M4 personal notes and the initial related resource links are also
+              accepted. Pilot and release verification are next. This is not
+              the finished MVP.
             </p>
           </section>
         )}
       </main>
       <footer>
         <span>Ordinary Means</span>
-        <span>Ad Fontes NT · M4 in progress</span>
+        <span>Ad Fontes NT · M4 accepted</span>
         <a
           href="/about/sources"
           onClick={(e) => {

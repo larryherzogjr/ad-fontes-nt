@@ -1,5 +1,7 @@
 # M4 account-backed notes and Ubuntu hosting
 
+**Current status: M4 accepted by Larry Herzog Jr. See [M4 acceptance](M4-Acceptance.md). Earlier pending checks below are historical; off-host backups remain deferred.**
+
 ## Authorized change
 
 The user chose account-backed notes before M4 implementation, replacing the earlier browser-local-only recommendation and bringing AFNT-101 into this slice. Reading/study remains public. Google establishes individual identity; a shared password is required **once at initial registration**, for identity-linked features. Returning admitted users use Google alone. Apps remain siloed: no NFL/Uno credentials, database, users, sessions or volumes are reused.

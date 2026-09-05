@@ -1,6 +1,6 @@
 # Ad Fontes NT — project status
 
-2026-09-05 · **M3 accepted: comparison and Greek exploration** · Local only. M4 is next; the finished MVP remains incomplete. See [M3 acceptance](docs/M3-Acceptance.md).
+2026-09-05 · **M4 accepted: hosted private notes and initial resource links.** M3 remains accepted. M5 pilot/release work is next; the finished MVP remains incomplete. See [M4 acceptance](docs/M4-Acceptance.md).
 
 ## Completed work
 
@@ -214,3 +214,10 @@ Fixed the oversized Show all my notes checkbox: global input width/padding/min-h
 Removed stale M3-in-progress wording from the Sources page and footer. The Sources page now reflects the recorded M3 acceptance and all 30 individually approved explanations, retains the stated limitations and unfinished-MVP distinction, and identifies M4 acceptance as still in progress. The footer now says M4 in progress. Historical source manifests and acceptance records remain unchanged. This is a display-copy correction, not a new milestone acceptance.
 
 Verification for status-copy correction: 38 Node groups, 11 Python tests, typecheck and production build passed. The production Sources route was opened in the browser and shows the corrected acceptance paragraph and M4 footer. No source/corpus or review approvals changed.
+
+
+## M4 accepted — product-owner sign-off
+
+Larry confirmed the remaining browser export/import, cross-device/persistence and live UI-fix checks, then explicitly accepted and signed off on M4. AFNT-022–025 and the advanced AFNT-101 account/hosting slice are accepted within the recorded scope. These final checks are user-reported, with no new device/test artifacts inferred. docs/M4-Acceptance.md is the authoritative current record and supersedes prior pending language. Off-host backups remain deferred at Larry's request. M5 (AFNT-026–029) is next; broader release checks and the pilot are not claimed complete.
+
+Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11 Python tests and production build passed. Sources page/footer now report M4 accepted in the source; this wording awaits the routine host pull/rebuild. No new functional acceptance is inferred from these regression checks.

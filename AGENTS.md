@@ -1,6 +1,6 @@
 # Ad Fontes NT
 
-Read `docs/Ad-Fontes-NT-Handoff.md`, `docs/Ad-Fontes-NT-Implementation-Plan.md`, and `PROJECT-STATUS.md` before changing scope. Current delivery is accepted M3 plus M4 account-backed notes in progress, not the finished MVP. Read `docs/M3-Acceptance.md` for the approval scope and continuing limitations. Read `docs/M2-Source-Decisions.md` before changing corpus mappings. App code is in `app/`; the root documents are authoritative.
+Read `docs/Ad-Fontes-NT-Handoff.md`, `docs/Ad-Fontes-NT-Implementation-Plan.md`, and `PROJECT-STATUS.md` before changing scope. Current delivery is accepted M4 (hosted account-backed notes and initial resource links), not the finished MVP. Read `docs/M4-Acceptance.md` for the user sign-off and deferred items. M5 pilot/release work is next. Read `docs/M3-Acceptance.md` for the approval scope and continuing limitations. Read `docs/M2-Source-Decisions.md` before changing corpus mappings. App code is in `app/`; the root documents are authoritative.
 
 - Preserve the exact name/subtitle. Do not invent Ordinary Means resources, logos, theological explanations, or reviewers.
 - NT only. Keep canonical references independent of edition coverage. Unavailable data never means textual absence.
