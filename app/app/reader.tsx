@@ -7,7 +7,7 @@ import ReadingSelection from './reading-selection';
 import ReviewedMarkers, { InlineReviewedMarkers, useReviewedUnits } from './reviewed-markers';
 import { reviewedAt, verseAnchors } from '@/lib/domain/reviewed-markers';
 import type { Variant } from '@/lib/domain/variants';
-import PublisherNoteLabel from './publisher-note-label';
+import { PublisherNoteCategory, PublisherNoteDetail } from './publisher-note-label';
 import { analysisInfo } from '@/lib/domain/greek';
 import { NativeSelect } from '@/components/ui/native-select';
 import {
@@ -250,7 +250,10 @@ export default function Reader() {
                   sessionStorage.removeItem('afnt-study-return');
                 } catch {}
                 if (returnId) {
-                  document.getElementById(returnId)?.focus();
+                  const target = document.getElementById(returnId);
+                  const disclosure = target?.closest('details');
+                  if (disclosure) disclosure.open = true;
+                  target?.focus();
                 } else main.current?.focus();
                 focusAfter.current = false;
               }
@@ -743,16 +746,18 @@ export default function Reader() {
                     aria-label={`${edition} publisher notes`}
                   >
                     <h2>{edition} publisher’s notes</h2>
+                    <p className="study-help">Where shown, note categories are added by Ad Fontes NT to describe the publisher’s footnotes. Ordinary Means commentary is linked separately.</p>
                     {ch.notes.map((n) => (
                       <details id={n.id} key={n.id}>
                         <summary>
                           {n.anchor
                             .replace(`${ch.book}.`, '')
                             .replace('.', ':')}{' '}
-                          · Publisher note
+                          · Publisher note<PublisherNoteCategory releaseId={ch.releaseId} note={n} />
                         </summary>
-                        <PublisherNoteLabel releaseId={ch.releaseId} note={n} />
                         <p>{noteContent(n.original)}</p>
+                        <PublisherNoteDetail releaseId={ch.releaseId} note={n} />
+                        <div className="publisher-note-actions">
                         <button
                           onClick={() => {
                             const marker = document.getElementById(
@@ -764,6 +769,14 @@ export default function Reader() {
                         >
                           Return to verse
                         </button>
+                        {reviewedAt(reviewed.units, [n.anchor]).map(unit => {
+                          const id = `publisher-commentary-${n.id}-${unit.id}`;
+                          return <button key={unit.id} id={id} className="publisher-commentary-link"
+                            onClick={() => openReviewed(unit, id)}>
+                            Read Ordinary Means commentary on {address(n.anchor).book.name} {n.anchor.split('.').slice(1).join(':')}
+                          </button>;
+                        })}
+                        </div>
                       </details>
                     ))}
                   </section>

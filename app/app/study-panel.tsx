@@ -426,6 +426,7 @@ export default function StudyPanel({
                               {e.editionId} publisher’s notes (
                               {record.notes.length})
                             </summary>
+                            <p className="study-help">Note categories are added by Ad Fontes NT to describe the publisher’s footnotes.</p>
                             {record.notes.map((n) => (
                               <div key={n.id}>
                                 <PublisherNoteLabel releaseId={record.releaseId} note={n} />

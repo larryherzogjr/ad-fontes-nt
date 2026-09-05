@@ -221,3 +221,10 @@ Verification for status-copy correction: 38 Node groups, 11 Python tests, typech
 Larry confirmed the remaining browser export/import, cross-device/persistence and live UI-fix checks, then explicitly accepted and signed off on M4. AFNT-022–025 and the advanced AFNT-101 account/hosting slice are accepted within the recorded scope. These final checks are user-reported, with no new device/test artifacts inferred. docs/M4-Acceptance.md is the authoritative current record and supersedes prior pending language. Off-host backups remain deferred at Larry's request. M5 (AFNT-026–029) is next; broader release checks and the pilot are not claimed complete.
 
 Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11 Python tests and production build passed. Sources page/footer now report M4 accepted in the source; this wording awaits the routine host pull/rebuild. No new functional acceptance is inferred from these regression checks.
+
+## 2026-09-05 — Publisher-note clarity (AFNT-026 / AFNT-029 pilot feedback)
+
+- Moved app-supplied publisher-note categories into smaller summary text, using plain-language display labels. One explanation identifies the app as the category source; preserved publisher wording and reviewed classification detail.
+- Added a separate “Read Ordinary Means commentary” control alongside Return to verse when an approved explanation overlaps the canonical note anchor. Uses the existing study panel and recorded approvals; no source or editorial payload changed.
+- Closing the study panel reopens the originating footnote and restores keyboard focus to its commentary control.
+- Verification: typecheck and production build passed; 38 Node tests and 11 Python tests passed. Production-browser checks covered keyboard expansion, John 1:18 commentary navigation, Escape/focus restoration, reader reload, and 320px layout (no horizontal overflow). John 1:23 correctly has no commentary control. M4 remains accepted; M5 pilot feedback continues. Host update required after push.
