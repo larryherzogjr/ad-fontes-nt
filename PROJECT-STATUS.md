@@ -228,3 +228,11 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 - Added a separate “Read Ordinary Means commentary” control alongside Return to verse when an approved explanation overlaps the canonical note anchor. Uses the existing study panel and recorded approvals; no source or editorial payload changed.
 - Closing the study panel reopens the originating footnote and restores keyboard focus to its commentary control.
 - Verification: typecheck and production build passed; 38 Node tests and 11 Python tests passed. Production-browser checks covered keyboard expansion, John 1:18 commentary navigation, Escape/focus restoration, reader reload, and 320px layout (no horizontal overflow). John 1:23 correctly has no commentary control. M4 remains accepted; M5 pilot feedback continues. Host update required after push.
+
+## 2026-09-05 — Interlinear (AFNT-020 extension / AFNT-029 pilot)
+
+- User approved an interlinear using existing verified Nestle 1904 analysis and Berean contextual glosses. Explore Greek now offers Greek text/Interlinear views, optional transliteration, lemma, Strong’s and grammar rows, and expanded study width. Word selection reuses dictionary, pronunciation, grammar and highlighted occurrences.
+- Public `greekView=interlinear` and `greekRows` URL parameters preserve display choices on reload; selected-token links continue working. Greek text order, punctuation and source gaps remain unchanged. This is not a BSB reverse interlinear. No corpus, editorial payload, dependency or service was added.
+- Validation: typecheck, production build, 38 Node tests and 11 Python tests passed. Browser checks covered John 1:1 exact Greek text equality between views, optional rows, keyboard selection and return focus, token/row reload, expanded desktop and 320px phone layout without dialog overflow. 2 Thessalonians 2:13 preserves its explicit unavailable-analysis notice.
+- M4 remains accepted. M5 pilot feedback continues; richer lexical articles and additional edition alignment remain outside this increment. Host update follows the established pull/update workflow.
+- Additional browser check: canonical 2CO.13.14 resolves to source 2CO.13.13 and shows “Gloss unavailable” for each unmatched gloss; Escape closes the panel.

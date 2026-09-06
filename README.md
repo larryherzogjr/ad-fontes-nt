@@ -72,3 +72,7 @@ For integration tests, point `DATABASE_URL` at an isolated database named **afnt
 See [private GitHub workflow](docs/GitHub-Workflow.md) for Mac push and host pull/rebuild commands. Pulling source does not restart the running app. Credentials, personal notes and database backups stay outside Git.
 
 The reader includes a collapsed **Related Ordinary Means resources** section below the reading material when relevant links exist. The initial 12 studies/articles open in new tabs; their prose is not copied into Ad Fontes NT. [Inventory and mapping boundaries](docs/M4-Resource-Links.md).
+
+### Interlinear study
+
+Open a passage, choose **Explore Greek → Interlinear**, and optionally enable transliteration, lemma, Strong’s number or grammar rows. **Expand study view** provides more reading space. Selecting a word opens its existing analysis and occurrences. Passage URLs preserve the interlinear and row choices on reload. This uses the pinned Nestle 1904 Greek and verified Berean contextual glosses; it is not word alignment to BSB. Missing analysis/glosses remain explicit.

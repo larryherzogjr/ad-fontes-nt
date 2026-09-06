@@ -69,6 +69,24 @@ export default function StudyPanel({
     [page, setPage] = useState(1),
     [highlighted, setHighlighted] = useState<HighlightedOccurrence[]>([]),
     [highlightError, setHighlightError] = useState('');
+  const [interlinear, setInterlinear] = useState(false);
+  const [rows, setRows] = useState<string[]>([]);
+  const [wide, setWide] = useState(false);
+  useEffect(() => {
+    const params = new URL(location.href).searchParams;
+    setInterlinear(params.get('greekView') === 'interlinear');
+    setRows((params.get('greekRows') || '').split(',').filter(r => ['transliteration', 'lemma', 'strongs', 'grammar'].includes(r)));
+  }, []);
+  function setGreekView(next: boolean, nextRows = rows) {
+    setInterlinear(next);
+    setRows(nextRows);
+    const url = new URL(location.href);
+    if (next) url.searchParams.set('greekView', 'interlinear');
+    else url.searchParams.delete('greekView');
+    if (nextRows.length) url.searchParams.set('greekRows', nextRows.join(','));
+    else url.searchParams.delete('greekRows');
+    history.replaceState({}, '', url.pathname + url.search);
+  }
   const label = ranges
     .map((r) => (r.start === r.end ? r.start : `${r.start}–${r.end}`))
     .join('; ');
@@ -248,7 +266,7 @@ export default function StudyPanel({
   return (
     <dialog
       ref={dialog}
-      className="study-dialog"
+      className={`study-dialog${wide ? " study-dialog-wide" : ""}`}
       aria-labelledby="study-title"
       onPointerDown={(e) => {
         backdropPress.current =
@@ -467,6 +485,19 @@ export default function StudyPanel({
             This is a separate Greek text view. No English word alignment is
             assumed.
           </p>
+          <div className="interlinear-controls">
+            <div className="interlinear-views" role="group" aria-label="Greek display">
+              <button aria-pressed={!interlinear} onClick={() => setGreekView(false)}>Greek text</button>
+              <button aria-pressed={interlinear} onClick={() => setGreekView(true)}>Interlinear</button>
+              <button aria-pressed={wide} onClick={() => setWide(!wide)}>{wide ? 'Standard width' : 'Expand study view'}</button>
+            </div>
+            {interlinear && <>
+              <p className="study-help">Nestle 1904 Greek with Berean contextual glosses, in Greek word order. These glosses are translation aids, not word-by-word links to BSB. Select a word for definitions, grammar, pronunciation guides, and occurrences.</p>
+              <fieldset className="interlinear-options"><legend>Additional rows</legend>
+                {([['transliteration', 'Transliteration'], ['lemma', 'Lemma (standard form)'], ['strongs', 'Strong’s number'], ['grammar', 'Grammar']] as const).map(([key, label]) => <label key={key}><input type="checkbox" checked={rows.includes(key)} onChange={e => setGreekView(true, e.target.checked ? [...rows, key] : rows.filter(r => r !== key))} />{label}</label>)}
+              </fieldset>
+            </>}
+          </div>
           {!analysis.length && (
             <p className="notice">
               This canonical passage has no main-text segment in Nestle 1904.
@@ -483,6 +514,17 @@ export default function StudyPanel({
                   </p>
                   <p className="notice">{s.reason}</p>
                 </>
+              ) : interlinear ? (
+                <div className="interlinear-words" aria-label={`${s.sourceRef} interlinear`}>
+                  {s.tokens.map((t, i) => <button key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} aria-pressed={token?.id === t.id} aria-label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onClick={() => choose(t)}>
+                    <span lang="grc" className="interlinear-surface">{i === 0 ? s.text.slice(0, t.start) : ''}{t.surface}{s.text.slice(t.end, s.tokens[i + 1]?.start)}</span>
+                    <span className="interlinear-gloss">{t.gloss ?? 'Gloss unavailable'}</span>
+                    {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
+                    {rows.includes('lemma') && <span lang="grc" className="interlinear-extra">{t.lemma}</span>}
+                    {rows.includes('strongs') && <span className="interlinear-extra">{t.strongs || 'Number unavailable'}</span>}
+                    {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${describeMorph(t.functional)}; form: ${describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
+                  </button>)}
+                </div>
               ) : (
                 <p lang="grc" className="greek-token-text">
                   {s.tokens.map((t, i) => (
