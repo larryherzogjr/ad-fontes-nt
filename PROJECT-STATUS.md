@@ -255,3 +255,10 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 - Added a generated editorial-style OG card at `app/public/og.png`: exact product name/subtitle, ivory paper, deep blue-green lettering and an open-book illustration. This is a sharing asset, not a new Ordinary Means logo. Original generated size is 1731×909; pixels preserved.
 - Home-page Open Graph and Twitter large-image metadata use the fixed public origin `https://ad-fontes.app/`, image dimensions/type and descriptive alternative text. Other routes do not acquire a misleading home-page canonical URL.
 - Visually inspected the generated card and verified the rendered homepage metadata. Typecheck, production build, 41 Node tests and 11 Python tests passed. Requires the usual host update; social platforms control subsequent preview caching.
+
+## 2026-09-06 — Word Explorer refresh (AFNT-020 / AFNT-029)
+
+- Imported the 211-entry public index: 97 added articles; original 114 link fields unchanged. Existing “Read Larry’s word study” formatting and new-tab behavior retained.
+- Added five documented, explicit article-only headword mappings so all 97 additions connect to indexed Greek lemmas. Dictionary matching and corpus data unchanged; three prior unmatched website headwords remain unresolved.
+- New `dodson-2010-v2` pins the updated metadata and mappings; v1 manifest, snapshot and reproducible bundle preserved. Tests compare every prior definition/link and verify all five mappings.
+- Verification: 43 Node tests and 11 Python tests, typecheck and production build passed. John 1:14 deep link shows the new Alētheia article in word details and keyboard-opened popup, with the original HTTPS target and `_blank`; 320px dialog has no horizontal overflow. Ready for normal host pull/update.

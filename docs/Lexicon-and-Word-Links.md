@@ -20,3 +20,19 @@ Across the pinned analysis, 9,755 of 10,332 distinct lemma/Strong’s-field pair
 Both Greek text and interlinear word controls open the short entry on hover or keyboard focus. Enter/click/tap opens existing word details with the longer entry; Arrow Down enters the popup and Escape dismisses it. Popups are portaled inside the native study dialog so they remain visible in its top layer. New-tab links carry `noopener noreferrer` and separate Ordinary Means attribution. Berean contextual glosses, Dodson definitions and Strong’s historical material remain distinct. Definitions express a meaning range, not an automatically selected verse sense.
 
 Automated tests cover source/output checksums, offline reproduction, Unicode equivalence, accent and source-number mismatch, ambiguous entries, composite number fields, and all link metadata/target constraints. Browser checks cover John 1:1 popup, word details, keyboard link access/Escape/focus return, 320px layout without dialog overflow, and reload. Existing source gaps remain unchanged.
+
+## September 6 index refresh
+
+`dodson-2010-v2` preserves the original Dodson entries byte-for-byte at the JSON data level and adds the September 6 Word Explorer snapshot (211 records; 97 additions, no removals). All 114 existing headwords, titles, access labels and URLs remain identical; changed site categorization/description fields are not imported. Original `manifest.json`, `words.json` and v1 output remain reproducible. New input/output checksums are in `sources/dodson/manifest-v2.json`.
+
+Five explicit article-only mappings are pinned in `sources/word-explorer/aliases-2026-09-06.json`. These do not change lexicon definitions or corpus lemmas:
+
+| Stored analysis lemma | Explorer headword | Evidence checked |
+|---|---|---|
+| δοῦλος (II) | δοῦλος | Source 2CO.4.5, Strong’s 1401, servants; website Doulos article’s “The Word” identifies slave/bondservant. The numbered analysis headword is retained. |
+| ἔξεστι(ν) | ἔξεστιν | Source 2CO.12.4, 1832, being permitted; website Exestin article identifies the impersonal permission verb. Parenthesized movable nu only. |
+| σπλάγχνον | σπλάγχνα | Website Splanchna “The Word” explicitly identifies the plural of σπλάγχνον; source 2CO.6.12, 4698. |
+| στοιχεῖον | στοιχεῖα | Website Stoicheia “The Word” explicitly identifies the plural of στοιχεῖον; source HEB.5.12, 4747. |
+| ζῳοποιέω | ζωοποιέω | Website Zōopoieō “The Word” explicitly identifies the spelling with iota subscript as the same verb; source 2CO.3.6, 2227. |
+
+The five website articles were inspected in the user-supplied local website project. Their prose was not imported or treated as instructions. With these mappings, all 97 added articles have a corresponding indexed analysis lemma. Three pre-existing website entries remain outside exact indexed matching; this update does not guess further equivalences. All 211 records are retained in the link index. Future additions continue to need a deliberate snapshot update.
