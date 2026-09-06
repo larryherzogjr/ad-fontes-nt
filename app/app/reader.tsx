@@ -941,7 +941,7 @@ export default function Reader() {
             <h2>Greek definitions and word studies</h2>
             <p>Short and longer definitions come from John Jeffrey Dodson’s Greek Lexicon (2010), using the pinned Biblical Humanities Unicode XML. Its original author notice dedicates the lexicon to the public domain; the repository also supplies CC0 terms. Headword and source-number agreement are required; uncertain matches remain unavailable. Definitions describe a word’s meaning range, not an automatic interpretation of a verse.</p>
             <p>Separate Ordinary Means word-study links use the public Greek Word Explorer index from larryherzogjr.com, retrieved September 6, 2026. Links open the original website and preserve its access requirements; article text is not imported.</p>
-            <p><a href="/lexical/dodson-2010-v2/manifest.json">Lexicon and word-link source records and checksums</a></p>
+            <p><a href="/lexical/dodson-2010-v3/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
               M3 review is complete. Larry Herzog Jr. approved all 30 initial

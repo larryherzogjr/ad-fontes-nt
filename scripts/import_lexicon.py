@@ -4,7 +4,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'sources/dodson'
 def digest(data): return hashlib.sha256(data).hexdigest()
 def key(s): return unicodedata.normalize('NFC', s).lower()
-def build(manifest_name='manifest-v2.json'):
+def build(manifest_name='manifest-v3.json'):
     manifest = json.loads((SOURCE / manifest_name).read_text())
     for path, sha in manifest['artifacts'].items():
         if digest((ROOT / path).read_bytes()) != sha: raise ValueError('Source checksum mismatch: ' + path)
@@ -29,7 +29,7 @@ def build(manifest_name='manifest-v2.json'):
     if digest(raw) != manifest['outputSha256']: raise ValueError('Lookup output differs from reviewed release')
     return raw
 if __name__ == '__main__':
-    for name in ['manifest.json', 'manifest-v2.json']:
+    for name in ['manifest.json', 'manifest-v2.json', 'manifest-v3.json']:
         manifest = json.loads((SOURCE / name).read_text())
         output = ROOT / 'app/public/lexical' / manifest['releaseId'] / 'lookup.json'
         output.parent.mkdir(parents=True, exist_ok=True)

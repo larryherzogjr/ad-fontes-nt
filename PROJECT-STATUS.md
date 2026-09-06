@@ -262,3 +262,9 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 - Added five documented, explicit article-only headword mappings so all 97 additions connect to indexed Greek lemmas. Dictionary matching and corpus data unchanged; three prior unmatched website headwords remain unresolved.
 - New `dodson-2010-v2` pins the updated metadata and mappings; v1 manifest, snapshot and reproducible bundle preserved. Tests compare every prior definition/link and verify all five mappings.
 - Verification: 43 Node tests and 11 Python tests, typecheck and production build passed. John 1:14 deep link shows the new Alētheia article in word details and keyboard-opened popup, with the original HTTPS target and `_blank`; 320px dialog has no horizontal overflow. Ready for normal host pull/update.
+
+## 2026-09-06 — Word Explorer reaches 250 entries (AFNT-020 / AFNT-029)
+
+- Added 39 new article records using the existing “Read Larry’s word study” display and new-tab behavior. All 39 match indexed Greek lemmas directly; original 211 link fields, dictionary entries and five aliases unchanged.
+- Pinned `dodson-2010-v3` with a new snapshot and checksums while retaining reproducible v1/v2 releases. Regression tests verify the complete predecessor data and new count/Anothen link.
+- Verification: 44 Node tests, 11 Python tests, typecheck and production build passed. John 3:3 Anōthen appears in word details and keyboard popup, preserves its HTTPS/new-tab destination after reload, and fits the 320px dialog without horizontal overflow. Ready for the usual host pull/update.

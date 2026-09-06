@@ -4,12 +4,12 @@ import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { resolveLookup, type LookupBundle } from '../app/lib/domain/lexical.ts';
-const data = JSON.parse(readFileSync('app/public/lexical/dodson-2010-v2/lookup.json', 'utf8')) as LookupBundle;
+const data = JSON.parse(readFileSync('app/public/lexical/dodson-2010-v3/lookup.json', 'utf8')) as LookupBundle;
 test('Dodson reproduces pinned source and output checksums offline', () => {
   execFileSync('python3', ['scripts/import_lexicon.py']);
-  const manifest = JSON.parse(readFileSync('sources/dodson/manifest-v2.json', 'utf8'));
+  const manifest = JSON.parse(readFileSync('sources/dodson/manifest-v3.json', 'utf8'));
   for (const [path, hash] of Object.entries(manifest.artifacts)) assert.equal(createHash('sha256').update(readFileSync(path)).digest('hex'), hash);
-  assert.equal(createHash('sha256').update(readFileSync('app/public/lexical/dodson-2010-v2/lookup.json')).digest('hex'), manifest.outputSha256);
+  assert.equal(createHash('sha256').update(readFileSync('app/public/lexical/dodson-2010-v3/lookup.json')).digest('hex'), manifest.outputSha256);
 });
 test('Lexicon requires headword and source number, preserves accent distinctions and rejects ambiguity', () => {
   const logos = resolveLookup(data, { lemma: 'λόγος', strongs: '3056' });
@@ -23,7 +23,7 @@ test('Lexicon requires headword and source number, preserves accent distinctions
   assert.equal(resolveLookup(duplicate, {lemma:'λόγος', strongs:'3056'}).definition, null);
 });
 test('Word Explorer targets preserve the published metadata and access labels', () => {
-  const source = JSON.parse(readFileSync('sources/word-explorer/words-2026-09-06.json','utf8'));
+  const source = JSON.parse(readFileSync('sources/word-explorer/words-2026-09-06-250.json','utf8'));
   const links = Object.values(data.links).flat();
   assert.equal(links.length, source.length);
   for (const link of links) {
@@ -33,6 +33,7 @@ test('Word Explorer targets preserve the published metadata and access labels', 
   }
 });
 test('September 6 update preserves all original definitions and links and adds 97 articles', () => {
+  const data = JSON.parse(readFileSync('app/public/lexical/dodson-2010-v2/lookup.json', 'utf8')) as LookupBundle;
   const original = JSON.parse(readFileSync('app/public/lexical/dodson-2010-v1/lookup.json', 'utf8')) as LookupBundle;
   assert.deepEqual(data.entries, original.entries);
   for (const [key, links] of Object.entries(original.links)) for (const link of links) assert.ok(data.links[key].some(next => next.url === link.url && next.headword === link.headword && next.access === link.access && next.title === link.title));
@@ -45,4 +46,13 @@ test('Explicit article-only headword variants reach the intended new studies', (
     assert.equal(resolveLookup(data,{lemma,strongs:''}).links[0].url, `https://larryherzogjr.com/greek/${slug}/`);
     assert.equal(resolveLookup(data,{lemma,strongs:''}).definition, null);
   }
+});
+test('250-entry refresh adds 39 links and preserves all prior definitions, mappings and links', () => {
+  const previous = JSON.parse(readFileSync('app/public/lexical/dodson-2010-v2/lookup.json','utf8')) as LookupBundle;
+  assert.deepEqual(data.entries, previous.entries);
+  assert.deepEqual(data.aliases, previous.aliases);
+  for (const [key, links] of Object.entries(previous.links)) assert.deepEqual(data.links[key], links);
+  assert.equal(Object.values(data.links).flat().length, 250);
+  assert.equal(Object.values(data.links).flat().length - Object.values(previous.links).flat().length, 39);
+  assert.equal(resolveLookup(data,{lemma:'ἄνωθεν',strongs:'509'}).links[0].url,'https://larryherzogjr.com/greek/anothen/');
 });

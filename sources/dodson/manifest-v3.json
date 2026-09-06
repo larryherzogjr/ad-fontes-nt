@@ -1,0 +1,23 @@
+{
+  "releaseId": "dodson-2010-v3",
+  "retrieved": "2026-09-05",
+  "commit": "74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+  "source": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon",
+  "rights": "Public domain dedication (README and original 2010 author notice); CC0 LICENSE.",
+  "wordExplorerSource": "https://larryherzogjr.com/greek/words.json",
+  "artifacts": {
+    "sources/dodson/raw/dodson.xml": "39c6cb8053ef0adeffac7bbec1d1bc4f96c69424f8e6668f19b4244d3f234639",
+    "sources/dodson/raw/dodson.csv": "46951bf82c40ed35caa8557db190a828b744e305e9619d9451ea5690a90d7101",
+    "sources/dodson/evidence/LICENSE": "5537d4d10b76b81b6e8dfd8b644480a4b1efa332fbb0cdb61126c5be781ef7b4",
+    "sources/dodson/evidence/README-ulrikp.txt": "2eea57fcefa555081d2834cdef44af5a1d000d90eb9ba0d58f4e1fe99c305d2c",
+    "sources/dodson/evidence/README.md": "eada5184215fba69ddd420438e55690fb4ca0c14fdaa1f04a3f6c555b045e839",
+    "sources/dodson/evidence/commit.json": "61cfe8f958e4a2262f5af79b342d8016af5ee15fd65cd55c0709f3039adb8622",
+    "sources/word-explorer/aliases-2026-09-06.json": "8d28901ef04bc027682ee97a68435d504b40b1c329948514b3a1a946d4ec8eb3",
+    "sources/word-explorer/words-2026-09-06-250.json": "81d99d3231ea7412285bf1e4a3f0797eda87d9b4130fd45ceaa94bc08c088ac0"
+  },
+  "outputSha256": "7958f374c8d159c02b927c6f19b49731d66943ada61caa7b73876c1262b3cb97",
+  "wordExplorerRetrieved": "2026-09-06",
+  "wordExplorerArtifact": "sources/word-explorer/words-2026-09-06-250.json",
+  "predecessor": "dodson-2010-v2",
+  "wordExplorerAliases": "sources/word-explorer/aliases-2026-09-06.json"
+}

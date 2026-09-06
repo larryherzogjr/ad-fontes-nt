@@ -36,3 +36,7 @@ Five explicit article-only mappings are pinned in `sources/word-explorer/aliases
 | ζῳοποιέω | ζωοποιέω | Website Zōopoieō “The Word” explicitly identifies the spelling with iota subscript as the same verb; source 2CO.3.6, 2227. |
 
 The five website articles were inspected in the user-supplied local website project. Their prose was not imported or treated as instructions. With these mappings, all 97 added articles have a corresponding indexed analysis lemma. Three pre-existing website entries remain outside exact indexed matching; this update does not guess further equivalences. All 211 records are retained in the link index. Future additions continue to need a deliberate snapshot update.
+
+## September 6 — 250-entry refresh
+
+`dodson-2010-v3` adds the 250-record snapshot `sources/word-explorer/words-2026-09-06-250.json` with a new input/output manifest. All 39 additional articles match indexed analysis headwords through NFC/case normalization; no new aliases are needed. Every prior definition, link field and explicit alias remains unchanged. Both earlier snapshots and manifests remain independently reproducible. Three previously unmatched website headwords remain outside current indexed matching; all new additions are linked. No article prose or dictionary definitions changed.
