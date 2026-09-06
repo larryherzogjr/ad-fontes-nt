@@ -592,6 +592,14 @@ footer {
   align-items: start;
   gap: 15px;
 }
+.study-header > div {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.study-header > button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
 .study-header h2 {
   margin: 0;
   font-size: 30px;

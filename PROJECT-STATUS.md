@@ -244,3 +244,8 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 - Added tests for checksums/reproduction, matching ambiguity/Unicode/source numbers, and all 114 link metadata records. Browser checks cover definitions, keyboard popup/link access and focus return, plus 320px layout. See `docs/Lexicon-and-Word-Links.md` for evidence and coverage limits.
 - M4 remains accepted; M5 pilot feedback continues. Broader lexicon mapping, additional scholarly entries and deferred backups remain later work.
 - Final verification: 41 Node tests and 11 Python tests, typecheck and production build passed. Browser checks additionally covered plain Greek versus interlinear popups, alternate lemma content, selected-word reload, article target/rel attributes, and popup Escape returning to its word. The Logos destination returned HTTP 200. Pointer-hover uses the existing Base UI preview-card behavior; no automated physical touch or pointer-hover simulation was claimed.
+
+## 2026-09-05 — Study Close button sizing (AFNT-029)
+
+- Fixed the header flex layout: passage text can shrink and wrap while the Close button retains its intrinsic width and a single-line label.
+- Verified all 51 John 1 references in standard/expanded study views and at 320px (44px-high button, no dialog overflow); keyboard activation closes the panel. Typecheck, build, 41 Node tests and 11 Python tests passed. No data or study navigation changed.
