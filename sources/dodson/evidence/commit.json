@@ -1,0 +1,112 @@
+{
+  "sha": "74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+  "node_id": "MDY6Q29tbWl0MjExNDY3NzI6NzRmNzAzNThkNGFjZmFmMmY5ODBiZjJmZWI1OGFiNzExNWNiYmNiYw==",
+  "commit": {
+    "author": {
+      "name": "Jonathan Robie",
+      "email": "jonathan.robie@biblicalhumanities.org",
+      "date": "2018-01-11T17:38:13Z"
+    },
+    "committer": {
+      "name": "Jonathan Robie",
+      "email": "jonathan.robie@biblicalhumanities.org",
+      "date": "2018-01-11T17:38:13Z"
+    },
+    "message": "Normalized to NFKC.",
+    "tree": {
+      "sha": "9fe24b7d45467e037fe8bc1f2945bb97a5464da8",
+      "url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/git/trees/9fe24b7d45467e037fe8bc1f2945bb97a5464da8"
+    },
+    "url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/git/commits/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/commits/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+  "html_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/commit/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+  "comments_url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/commits/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc/comments",
+  "author": {
+    "login": "jonathanrobie",
+    "id": 1767869,
+    "node_id": "MDQ6VXNlcjE3Njc4Njk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1767869?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jonathanrobie",
+    "html_url": "https://github.com/jonathanrobie",
+    "followers_url": "https://api.github.com/users/jonathanrobie/followers",
+    "following_url": "https://api.github.com/users/jonathanrobie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanrobie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jonathanrobie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jonathanrobie/subscriptions",
+    "organizations_url": "https://api.github.com/users/jonathanrobie/orgs",
+    "repos_url": "https://api.github.com/users/jonathanrobie/repos",
+    "events_url": "https://api.github.com/users/jonathanrobie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jonathanrobie/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "jonathanrobie",
+    "id": 1767869,
+    "node_id": "MDQ6VXNlcjE3Njc4Njk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1767869?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jonathanrobie",
+    "html_url": "https://github.com/jonathanrobie",
+    "followers_url": "https://api.github.com/users/jonathanrobie/followers",
+    "following_url": "https://api.github.com/users/jonathanrobie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanrobie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jonathanrobie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jonathanrobie/subscriptions",
+    "organizations_url": "https://api.github.com/users/jonathanrobie/orgs",
+    "repos_url": "https://api.github.com/users/jonathanrobie/repos",
+    "events_url": "https://api.github.com/users/jonathanrobie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jonathanrobie/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c3bee64a1f48a431ff99fa9a61365c41e436c08c",
+      "url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/commits/c3bee64a1f48a431ff99fa9a61365c41e436c08c",
+      "html_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/commit/c3bee64a1f48a431ff99fa9a61365c41e436c08c"
+    }
+  ],
+  "stats": {
+    "total": 19072,
+    "additions": 9536,
+    "deletions": 9536
+  },
+  "files": [
+    {
+      "sha": "7a729b69688f3bf88ea54b7f79405359dbaa6b82",
+      "filename": "dodson.csv",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/blob/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc/dodson.csv",
+      "raw_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/raw/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc/dodson.csv",
+      "contents_url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/contents/dodson.csv?ref=74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+      "patch": "@@ -3201,7 +3201,7 @@\n \"3360\"\t\"3588,3589\"\t\"me/xri\"\t\"as far as, until\"\t\"as far as, until, even to.\"\n \"3361\"\t\"3590\"\t\"mh/\"\t\"not, lest\"\t\"not, lest.\"\n \"3365\"\t\"3592,3598\"\t\"mhdamw=s\"\t\"by no means, not at all\"\t\"by no means, not at all.\"\n-\"3366\"\t\"3593\"\t\"mhde/\"\t\"and not, not even\"\t\"and not, not even, neither\u2026nor.\"\n+\"3366\"\t\"3593\"\t\"mhde/\"\t\"and not, not even\"\t\"and not, not even, neither...nor.\"\n \"3367\"\t\"3594,3599\"\t\"mhdei/s, mhdemi/a, mhde/n\"\t\"no one, nothing\"\t\"no one, none, nothing.\"\n \"3368\"\t\"3595\"\t\"mhde/pote\"\t\"not at any time, never\"\t\"not at any time, never.\"\n \"3369\"\t\"3596\"\t\"mhde/pw\"\t\"not yet\"\t\"not yet.\"\n@@ -3217,7 +3217,7 @@\n \"3380\"\t\"3609\"\t\"mh/pw\"\t\"not yet\"\t\"not yet.\"\n \"3381\"\t\"3610\"\t\"mh/pws\"\t\"lest in any way, lest perhaps\"\t\"lest in any way, lest perhaps.\"\n \"3382\"\t\"3611\"\t\"mhro/s, ou=, o(\"\t\"the thigh\"\t\"the thigh.\"\n-\"3383\"\t\"3612\"\t\"mh/te\"\t\"nor, neither, not even\"\t\"nor, neither, not even, neither\u2026nor.\"\n+\"3383\"\t\"3612\"\t\"mh/te\"\t\"nor, neither, not even\"\t\"nor, neither, not even, neither...nor.\"\n \"3384\"\t\"3613\"\t\"mh/thr, mhtro/s, h(\"\t\"a mother\"\t\"a mother.\"\n \"3385\"\t\"3614\"\t\"mh/ti\"\t\"if not, unless\"\t\"if not, unless, whether at all.\"\n \"3388\"\t\"3616\"\t\"mh/tra, as, h(\"\t\"the womb\"\t\"the womb.\""
+    },
+    {
+      "sha": "93bdd519bb68db9a4f2969d50d31ee42b2372e06",
+      "filename": "dodson.xml",
+      "status": "modified",
+      "additions": 9534,
+      "deletions": 9534,
+      "changes": 19068,
+      "blob_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/blob/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc/dodson.xml",
+      "raw_url": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon/raw/74f70358d4acfaf2f980bf2feb58ab7115cbbcbc/dodson.xml",
+      "contents_url": "https://api.github.com/repos/biblicalhumanities/Dodson-Greek-Lexicon/contents/dodson.xml?ref=74f70358d4acfaf2f980bf2feb58ab7115cbbcbc"
+    }
+  ]
+}

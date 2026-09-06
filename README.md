@@ -76,3 +76,5 @@ The reader includes a collapsed **Related Ordinary Means resources** section bel
 ### Interlinear study
 
 Open a passage, choose **Explore Greek → Interlinear**, and optionally enable transliteration, lemma, Strong’s number or grammar rows. **Expand study view** provides more reading space. Selecting a word opens its existing analysis and occurrences. Passage URLs preserve the interlinear and row choices on reload. This uses the pinned Nestle 1904 Greek and verified Berean contextual glosses; it is not word alignment to BSB. Missing analysis/glosses remain explicit.
+
+Greek words also offer Dodson definitions on hover or keyboard focus; click/tap opens the longer definition in word details. Arrow Down enters an open popup, and Escape dismisses it. Matching Word Explorer articles open in a new tab, separately labeled as Ordinary Means commentary. See [lexicon sources and matching limits](docs/Lexicon-and-Word-Links.md).

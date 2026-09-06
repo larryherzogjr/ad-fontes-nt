@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { GreekWordButton, WordDefinition } from './word-lookup';
 import PublisherNoteLabel from './publisher-note-label';
 import {
   editions,
@@ -516,33 +517,34 @@ export default function StudyPanel({
                 </>
               ) : interlinear ? (
                 <div className="interlinear-words" aria-label={`${s.sourceRef} interlinear`}>
-                  {s.tokens.map((t, i) => <button key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} aria-pressed={token?.id === t.id} aria-label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onClick={() => choose(t)}>
+                  {s.tokens.map((t, i) => <GreekWordButton token={t} key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} selected={token?.id === t.id} label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onChoose={() => choose(t)}>
                     <span lang="grc" className="interlinear-surface">{i === 0 ? s.text.slice(0, t.start) : ''}{t.surface}{s.text.slice(t.end, s.tokens[i + 1]?.start)}</span>
                     <span className="interlinear-gloss">{t.gloss ?? 'Gloss unavailable'}</span>
                     {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
                     {rows.includes('lemma') && <span lang="grc" className="interlinear-extra">{t.lemma}</span>}
                     {rows.includes('strongs') && <span className="interlinear-extra">{t.strongs || 'Number unavailable'}</span>}
                     {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${describeMorph(t.functional)}; form: ${describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
-                  </button>)}
+                  </GreekWordButton>)}
                 </div>
               ) : (
                 <p lang="grc" className="greek-token-text">
                   {s.tokens.map((t, i) => (
                     <span key={t.id}>
                       {s.text.slice(i ? s.tokens[i - 1].end : 0, t.start)}
-                      <button
+                      <GreekWordButton
+                        token={t}
                         id={`word-${t.id}`}
                         className={
                           token?.id === t.id
                             ? 'greek-token chosen'
                             : 'greek-token'
                         }
-                        aria-label={`${t.surface}, ${s.sourceRef}, word ${i + 1}`}
-                        aria-pressed={token?.id === t.id}
-                        onClick={() => choose(t)}
+                        label={`${t.surface}, ${s.sourceRef}, word ${i + 1}`}
+                        selected={token?.id === t.id}
+                        onChoose={() => choose(t)}
                       >
                         {t.surface}
-                      </button>
+                      </GreekWordButton>
                       {i === s.tokens.length - 1 ? s.text.slice(t.end) : ''}
                     </span>
                   ))}
@@ -578,6 +580,7 @@ export default function StudyPanel({
                 >
                   Return to selected verse
                 </button>
+                <WordDefinition key={token.id} token={token} />
                 <dl>
                   <dt>Transliteration · selected form</dt>
                   <dd>{transliterateGreek(token.surface)}</dd>

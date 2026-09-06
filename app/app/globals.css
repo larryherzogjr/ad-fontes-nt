@@ -859,3 +859,9 @@ button.interlinear-word:hover, button.interlinear-word.chosen { background: #dce
 .interlinear-gloss { font-size: .95rem; line-height: 1.4; }
 .interlinear-extra { font-size: .8rem; line-height: 1.4; color: var(--muted-foreground); }
 @media (max-width: 600px) { .study-dialog.study-dialog-wide { width: 100%; } }
+
+.lexicon-popup { width: min(340px, calc(100vw - 32px)); background: var(--background); color: var(--foreground); border: 1px solid var(--border); padding: 1rem; box-shadow: 0 6px 24px #202b3230; font: 16px/1.5 Arial, sans-serif; }
+.lexicon-popup p { margin: 0 0 .6rem; }
+.word-definition { padding: .75rem 0; }
+.word-study-link a { font-size: .85rem; text-decoration: underline; text-underline-offset: .2em; }
+.word-study-link small { display: block; color: var(--muted-foreground); font-size: .75rem; }

@@ -236,3 +236,11 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 - Validation: typecheck, production build, 38 Node tests and 11 Python tests passed. Browser checks covered John 1:1 exact Greek text equality between views, optional rows, keyboard selection and return focus, token/row reload, expanded desktop and 320px phone layout without dialog overflow. 2 Thessalonians 2:13 preserves its explicit unavailable-analysis notice.
 - M4 remains accepted. M5 pilot feedback continues; richer lexical articles and additional edition alignment remain outside this increment. Host update follows the established pull/update workflow.
 - Additional browser check: canonical 2CO.13.14 resolves to source 2CO.13.13 and shows “Gloss unavailable” for each unmatched gloss; Escape closes the panel.
+
+## 2026-09-05 — Dodson definitions and Word Explorer links (AFNT-020 / AFNT-029)
+
+- Added a separate pinned Dodson XML adapter (5,410 entries), public-domain/CC0 evidence, exact input/output hashes and offline build reproduction. No existing source releases changed.
+- Added hover/focus definition cards in Greek/interlinear views and longer definitions in word details. Verified headword/number matching leaves ambiguous/unmatched entries explicit. Matching original Word Explorer URLs open in new tabs with access labels and separate commentary attribution; no article prose imported.
+- Added tests for checksums/reproduction, matching ambiguity/Unicode/source numbers, and all 114 link metadata records. Browser checks cover definitions, keyboard popup/link access and focus return, plus 320px layout. See `docs/Lexicon-and-Word-Links.md` for evidence and coverage limits.
+- M4 remains accepted; M5 pilot feedback continues. Broader lexicon mapping, additional scholarly entries and deferred backups remain later work.
+- Final verification: 41 Node tests and 11 Python tests, typecheck and production build passed. Browser checks additionally covered plain Greek versus interlinear popups, alternate lemma content, selected-word reload, article target/rel attributes, and popup Escape returning to its word. The Logos destination returned HTTP 200. Pointer-hover uses the existing Base UI preview-card behavior; no automated physical touch or pointer-hover simulation was claimed.
