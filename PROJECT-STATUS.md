@@ -249,3 +249,9 @@ Acceptance-record/status-copy update verification: typecheck, 38 Node groups, 11
 
 - Fixed the header flex layout: passage text can shrink and wrap while the Close button retains its intrinsic width and a single-line label.
 - Verified all 51 John 1 references in standard/expanded study views and at 320px (44px-high button, no dialog overflow); keyboard activation closes the panel. Typecheck, build, 41 Node tests and 11 Python tests passed. No data or study navigation changed.
+
+## 2026-09-05 — Home-page social preview (AFNT-029)
+
+- Added a generated editorial-style OG card at `app/public/og.png`: exact product name/subtitle, ivory paper, deep blue-green lettering and an open-book illustration. This is a sharing asset, not a new Ordinary Means logo. Original generated size is 1731×909; pixels preserved.
+- Home-page Open Graph and Twitter large-image metadata use the fixed public origin `https://ad-fontes.app/`, image dimensions/type and descriptive alternative text. Other routes do not acquire a misleading home-page canonical URL.
+- Visually inspected the generated card and verified the rendered homepage metadata. Typecheck, production build, 41 Node tests and 11 Python tests passed. Requires the usual host update; social platforms control subsequent preview caching.
