@@ -1,4 +1,5 @@
 'use client';
+import { formatPassage } from '@/lib/reading-display';
 import { useEffect, useState } from 'react';
 import { expand } from '@/lib/domain/references';
 import { reviewedAt } from '@/lib/domain/reviewed-markers';
@@ -40,14 +41,14 @@ export default function ReviewedMarkers({ book, chapter, units: allUnits, error,
   const units = allUnits.filter(v => v.ranges.flatMap(expand).some(a => a.startsWith(prefix)));
   if (error) return <p role="status">Reviewed-note links could not be loaded. Scripture remains available.</p>;
   if (!units.length) return null;
-  return <aside className="notice" aria-label="Ordinary Means commentary for this chapter">
-    <strong>Ordinary Means commentary</strong>
-    <p className="muted">OM beside a verse opens its reviewed commentary.</p>
+  return <details className="chapter-commentary" aria-label="Ordinary Means commentary for this chapter">
+    <summary>Ordinary Means commentary <span className="count">{units.length}</span></summary>
+    <p className="muted">OM beside a verse opens its reviewed commentary. Coverage is selective.</p>
     {units.map(unit => {
       const id = `reviewed-marker-${book}-${chapter}-${unit.id}`;
       return <p key={unit.id}><button id={id} onClick={() => onOpen(unit, id)}>
-        {unit.ranges.map(r => r.start === r.end ? r.start : `${r.start}–${r.end}`).join('; ')} · {unit.title}
+        {formatPassage(unit.ranges)} · {unit.title}
       </button></p>;
     })}
-  </aside>;
+  </details>;
 }

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { formatPassage } from '@/lib/reading-display';
 import { resolveReference, type PassageRange } from '@/lib/domain/references';
 
 type Choice = {
@@ -53,7 +54,7 @@ export default function ReadingSelection({
       if (
         !parent(range.startContainer)?.closest('.scripture .text-block') ||
         !parent(range.endContainer)?.closest('.scripture .text-block') ||
-        document.querySelector('dialog[open]')
+        document.querySelector('dialog:modal')
       ) {
         setChoice(null);
         return;
@@ -86,10 +87,7 @@ export default function ReadingSelection({
       }
       setChoice({
         ranges: anchors.map((a) => ({ start: a, end: a })),
-        label:
-          anchors.length === 1
-            ? anchors[0]
-            : `${anchors[0]} – ${anchors.at(-1)} · ${anchors.length} verses`,
+        label: formatPassage(anchors.map(a => ({start:a, end:a}))),
         ...position(range.getBoundingClientRect()),
         focusId: spans[0].dataset.studyFocus || 'reading',
       });
@@ -114,7 +112,7 @@ export default function ReadingSelection({
       const ranges = resolveReference(link.dataset.studyReference!);
       setChoice({
         ranges,
-        label: link.dataset.studyReference!,
+        label: formatPassage(ranges),
         ...position(link.getBoundingClientRect()),
         focusId: link.id,
       });
@@ -132,7 +130,7 @@ export default function ReadingSelection({
       if (!toolbar.current?.contains(event.target as Node)) setChoice(null);
     }
     function key(event: KeyboardEvent) {
-      if (event.key === 'Escape' && !document.querySelector('dialog[open]')) {
+      if (event.key === 'Escape' && !document.querySelector('dialog:modal')) {
         if (choiceRef.current)
           document
             .getElementById(choiceRef.current.focusId)

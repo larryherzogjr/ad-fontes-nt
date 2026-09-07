@@ -1,6 +1,10 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import StudyPanel from './study-panel';
+import PublisherFootnote from './publisher-footnote';
+import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from '@/components/ui/popover';
+import { formatPassage, formatReference, searchHighlights } from '@/lib/reading-display';
+import { relatedResources } from '@/lib/domain/resources';
 import PersonalNotes from './personal-notes';
 import RelatedResources from './related-resources';
 import ReadingSelection from './reading-selection';
@@ -49,6 +53,7 @@ function noteContent(x: unknown, i = 0): React.ReactNode {
 }
 export default function Reader() {
   const reviewed = useReviewedUnits();
+  const [searchOpen, setSearchOpen] = useState(false);
   const [noteSelection,setNoteSelection] = useState<PassageRange[] | null>(null);
   const openReviewed = (unit: Variant, focusId: string) => openStudy(unit.presentation === 'publisher-note' ? 'notes' : 'compare', unit.ranges, focusId, unit.id);
   const [ranges, setRanges] = useState<PassageRange[]>([initial]),
@@ -243,18 +248,25 @@ export default function Reader() {
             setLoading(false);
             setInput('');
             setTimeout(() => {
+              if (token !== request.current) return;
               if (focusAfter.current) {
-                let returnId: string | null = null;
-                try {
-                  returnId = sessionStorage.getItem('afnt-study-return');
-                  sessionStorage.removeItem('afnt-study-return');
-                } catch {}
-                if (returnId) {
-                  const target = document.getElementById(returnId);
-                  const disclosure = target?.closest('details');
-                  if (disclosure) disclosure.open = true;
-                  target?.focus();
-                } else main.current?.focus();
+                const openPanel = document.querySelector<HTMLDialogElement>('.study-dialog[open]');
+                if (openPanel) {
+                  if (!openPanel.contains(document.activeElement))
+                    document.getElementById('study-title')?.focus({ preventScroll: true });
+                } else {
+                  let returnId: string | null = null;
+                  try {
+                    returnId = sessionStorage.getItem('afnt-study-return');
+                    sessionStorage.removeItem('afnt-study-return');
+                  } catch {}
+                  if (returnId) {
+                    const target = document.getElementById(returnId);
+                    const disclosure = target?.closest('details');
+                    if (disclosure) disclosure.open = true;
+                    target?.focus();
+                  } else main.current?.focus();
+                }
                 focusAfter.current = false;
               }
               const anchor =
@@ -347,7 +359,7 @@ export default function Reader() {
     unitId?: string,
   ) {
     try {
-      sessionStorage.setItem(
+      if (!study || !sessionStorage.getItem('afnt-study-origin')) sessionStorage.setItem(
         'afnt-study-origin',
         JSON.stringify({
           url: location.pathname + location.search,
@@ -392,14 +404,11 @@ export default function Reader() {
     url.searchParams.delete('unit');
     navigate(url.pathname + url.search);
   }
-  function jumpNote(id: string) {
-    const el = document.getElementById(id) as HTMLDetailsElement | null;
-    if (el) {
-      el.open = true;
-      el.querySelector('summary')?.focus();
-      el.scrollIntoView({ block: 'center' });
-    }
+  function openDisclosure(id: string) {
+    const disclosure = document.getElementById(id) as HTMLDetailsElement | null;
+    if (disclosure) { disclosure.open = true; disclosure.querySelector('summary')?.focus(); disclosure.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
   }
+  function jumpNote(id: string) { openDisclosure(id); }
   return (
     <>
       <a className="skip" href="#reading">
@@ -418,7 +427,6 @@ export default function Reader() {
           <span>A New Testament study environment from Ordinary Means.</span>
         </a>
         <nav aria-label="Primary">
-          <a href="/account">My account</a>
           <a
             className={mode === 'read' ? 'active' : ''}
             href={`/read/${current.book.code}/${current.chapter}`}
@@ -440,22 +448,46 @@ export default function Reader() {
           >
             Sources &amp; Editions
           </a>
+          <a href="/account">My account</a>
         </nav>
       </header>
-      <div className="toolbar">
-        <form onSubmit={submit} className="passage-form">
-          <label htmlFor="reference">Passage or English text</label>
-          <div className="input-row">
-            <input
-              id="reference"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Romans 3:23 or grace"
-              autoComplete="off"
-            />
-            <button type="submit">Go</button>
-          </div>
-        </form>
+      <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
+        {mode !== 'search' && <div className="passage-navigation">
+          <button className="chapter-step" aria-label="Previous chapter" disabled={!previous} onClick={() => previous && goBook(previous.book, previous.chapter)}>←</button>
+          <Popover><PopoverTrigger className="passage-trigger">{current.book.name} {current.chapter} <span aria-hidden="true">⌄</span></PopoverTrigger>
+            <PopoverContent className="reader-popover" align="start"><PopoverTitle>Go to a passage</PopoverTitle>
+        <div className="pickers">
+          <label>
+            Book
+            <NativeSelect
+              aria-label="Book"
+              value={current.book.code}
+              onChange={(e) => goBook(e.target.value, 1)}
+            >
+              {books.map((b) => (
+                <option key={b.code} value={b.code}>
+                  {b.name}
+                </option>
+              ))}
+            </NativeSelect>
+          </label>
+          <label>
+            Chapter
+            <NativeSelect
+              aria-label="Chapter"
+              value={current.chapter}
+              onChange={(e) => goBook(current.book.code, +e.target.value)}
+            >
+              {current.book.verses.map((_, i) => (
+                <option key={i + 1}>{i + 1}</option>
+              ))}
+            </NativeSelect>
+          </label>
+        </div>
+            </PopoverContent>
+          </Popover>
+          <button className="chapter-step" aria-label="Next chapter" disabled={!next} onClick={() => next && goBook(next.book, next.chapter)}>→</button>
+        </div>}
         <label className="edition-picker">
           Edition
           <NativeSelect
@@ -499,36 +531,29 @@ export default function Reader() {
             </optgroup>
           </NativeSelect>
         </label>
-        <div className="pickers">
-          <label>
-            Book
-            <NativeSelect
-              aria-label="Book"
-              value={current.book.code}
-              onChange={(e) => goBook(e.target.value, 1)}
-            >
-              {books.map((b) => (
-                <option key={b.code} value={b.code}>
-                  {b.name}
-                </option>
-              ))}
-            </NativeSelect>
-          </label>
-          <label>
-            Chapter
-            <NativeSelect
-              aria-label="Chapter"
-              value={current.chapter}
-              onChange={(e) => goBook(current.book.code, +e.target.value)}
-            >
-              {current.book.verses.map((_, i) => (
-                <option key={i + 1}>{i + 1}</option>
-              ))}
-            </NativeSelect>
-          </label>
-        </div>
+        {mode === 'search' && <label className="search-book">Search within
+          <NativeSelect aria-label="Search within book" value={filter} onChange={e => searchPage(1, e.target.value)}>
+            <option value="">All 27 books</option>{books.map(b => <option key={b.code} value={b.code}>{b.name}</option>)}
+          </NativeSelect>
+        </label>}
+        {mode !== 'search' && <button className="search-toggle" aria-expanded={searchOpen} aria-controls="passage-search" onClick={() => { setSearchOpen(!searchOpen); if (!searchOpen) setTimeout(() => document.getElementById('reference')?.focus(), 0); }}>Search</button>}
+        {(mode === 'search' || searchOpen) && <div className="toolbar-search">
+        <form onSubmit={submit} className="passage-form" id="passage-search">
+          <label htmlFor="reference">Passage or English text</label>
+          <div className="input-row">
+            <input
+              id="reference"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="Romans 3:23 or grace"
+              autoComplete="off"
+            />
+            <button type="submit">Go</button>
+          </div>
+        </form>
+        </div>}
       </div>
-      <main id="reading" ref={main} tabIndex={-1}>
+      <main id="reading" ref={main} tabIndex={-1} className={study ? 'reader-layout has-study' : 'reader-layout'}>
         <div aria-live="polite">
           {loading && <p className="notice">Loading local {edition} text…</p>}
           {storageError && <p className="notice">{storageError}</p>}
@@ -542,13 +567,16 @@ export default function Reader() {
         )}
         {!loading && !error && mode === 'read' && (
           <>
-            <div className="reading-top">
-              <div>
-                <p className="eyebrow">NEW TESTAMENT · SCRIPTURE</p>
-                <p className="edition">
-                  {editionMeta.name} <span>{edition}</span>
-                </p>
+            <div className="reader-tools">
+              <div className="study-actions">
+                <button id="open-compare" onClick={() => openStudy('compare')}>Compare editions</button>
+                <button id="open-greek" onClick={() => openStudy('greek')}>Explore Greek</button>
+                <button onClick={() => openDisclosure('personal-notes')}>My notes</button>
+                {!!relatedResources(ranges).length && <button onClick={() => openDisclosure('related-resources')}>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
               </div>
+              <Popover><PopoverTrigger className="settings-trigger" aria-label="Reading settings">Aa</PopoverTrigger>
+                <PopoverContent className="reader-popover" align="end"><PopoverTitle>Reading settings</PopoverTitle>
+                  <p className="control-label">Scripture text size</p>
               <div className="type-size" aria-label="Text size">
                 <button
                   disabled={size <= 18}
@@ -572,43 +600,33 @@ export default function Reader() {
                   A+
                 </button>
               </div>
+                  <hr />
+                  <strong>{editionMeta.name}</strong><p className="study-help">{editionMeta.description}</p>
+                  <a href="/about/sources">Sources &amp; Editions</a>
+                </PopoverContent>
+              </Popover>
             </div>
-            <p className="edition-description">{editionMeta.description}</p>
-            <div className="study-actions">
-              <button id="open-compare" onClick={() => openStudy('compare')}>
-                Compare editions
-              </button>
-              <button id="open-greek" onClick={() => openStudy('greek')}>
-                Explore Greek
-              </button>
-              <small>
-                {explicitPassage
-                  ? 'Study the selected passage'
-                  : 'Tap a verse number or highlight Scripture to study it here.'}
-              </small>
-            </div>
-            <PersonalNotes ranges={ranges} edition={edition} selection={noteSelection} />
-            {!study && <ReadingSelection onOpen={openStudy} onNote={setNoteSelection} />}
-            {study && (
-              <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />
-            )}
+            <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Select a verse number or highlight Scripture to study a passage.'}</p>
+            <ReadingSelection onOpen={openStudy} onNote={setNoteSelection} />
+            {study && <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />}
             {chapters.map((ch) => (
               <section key={`${ch.book}.${ch.chapter}`} className="chapter">
+                <div className="chapter-heading"><p className="edition">{editionMeta.name}</p>
                 <h1>
                   {books.find((b) => b.code === ch.book)?.name}{' '}
                   <span>{ch.chapter}</span>
-                </h1>
+                </h1></div>
                 <ReviewedMarkers book={ch.book} chapter={ch.chapter} units={reviewed.units} error={reviewed.error} onOpen={openReviewed} />
                 {coverageNotices(ch).map(({ coverage: c, anchors }) => (
                   <aside
-                    key={c.anchor}
+                    key={formatReference(c.anchor)}
                     id={c.textState === 'absent' ? c.anchor : undefined}
                     className="notice"
                   >
                     <strong>
                       {anchors.length === 1
-                        ? c.anchor
-                        : `${anchors[0]}–${anchors[anchors.length - 1]}`}
+                        ? formatReference(c.anchor)
+                        : formatPassage([{start: anchors[0], end: anchors[anchors.length - 1]}])}
                     </strong>{' '}
                     {c.textState === 'absent'
                       ? `is not in the ${edition} main text. Context follows. `
@@ -624,7 +642,7 @@ export default function Reader() {
                           : 'Joined or split verses are shown in their full source context. '}
                       </span>
                     )}
-                    <InlineReviewedMarkers units={reviewed.units} anchors={anchors} idPrefix={`coverage-commentary-${ch.book}-${ch.chapter}-${c.anchor}`} onOpen={openReviewed} />
+                    <InlineReviewedMarkers units={reviewed.units} anchors={anchors} idPrefix={`coverage-commentary-${ch.book}-${ch.chapter}-${formatReference(c.anchor)}`} onOpen={openReviewed} />
                     {c.publisherNoteIds.map((id) => (
                       <button key={id} onClick={() => jumpNote(id)}>
                         Read publisher note
@@ -644,7 +662,7 @@ export default function Reader() {
                         <sup key={j} id={r.anchor}>
                           <a
                             id={`study-verse-${ch.book}-${ch.chapter}-${i}-${j}`}
-                            aria-label={`Study ${r.anchor}`}
+                            aria-label={`Study ${formatReference(r.anchor!)}`}
                             data-study-reference={
                               new URL(
                                 verseLink(ch, r.anchor!, r.sourceAnchor),
@@ -658,15 +676,11 @@ export default function Reader() {
                           <InlineReviewedMarkers units={reviewed.units} anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? [] : verseAnchors(ch, r)} idPrefix={`verse-commentary-${ch.book}-${ch.chapter}-${i}-${j}`} onOpen={openReviewed} />
                         </sup>
                       ) : r.noteId ? (
-                        <button
-                          key={j}
-                          id={`marker-${r.noteId}`}
-                          className="note-marker"
-                          aria-label={`${edition} publisher note for ${r.anchor}`}
-                          onClick={() => jumpNote(r.noteId!)}
-                        >
-                          †
-                        </button>
+                        (() => {
+                          const note = ch.notes.find(n => n.id === r.noteId);
+                          return note ? <PublisherFootnote key={j} note={note} edition={edition} releaseId={ch.releaseId} units={reviewedAt(reviewed.units, [note.anchor])} onCommentary={openReviewed}>{noteContent(note.original)}</PublisherFootnote>
+                            : <button key={j} className="note-marker" aria-label={`${edition} publisher note unavailable`}>†</button>;
+                        })()
                       ) : (
                         <span
                           key={j}
@@ -783,6 +797,7 @@ export default function Reader() {
                 )}
               </section>
             ))}
+            <PersonalNotes ranges={ranges} edition={edition} selection={noteSelection} />
             <RelatedResources ranges={ranges} />
             <nav className="chapter-nav" aria-label="Chapter navigation">
               <button
@@ -814,21 +829,6 @@ export default function Reader() {
               Whole words, or an exact phrase in quotation marks. Publisher
               notes are excluded.
             </p>
-            <label>
-              Search within
-              <NativeSelect
-                aria-label="Search within book"
-                value={filter}
-                onChange={(e) => searchPage(1, e.target.value)}
-              >
-                <option value="">All 27 books</option>
-                {books.map((b) => (
-                  <option key={b.code} value={b.code}>
-                    {b.name}
-                  </option>
-                ))}
-              </NativeSelect>
-            </label>
             <p role="status">
               {results?.total || 0} results for “{query}”
             </p>
@@ -844,7 +844,7 @@ export default function Reader() {
                   {books.find((b) => b.code === h.book)?.name}{' '}
                   {h.anchor.split('.').slice(1).join(':')}
                 </a>
-                <p>{h.text}</p>
+                <p>{searchHighlights(h.text, query).map((part, i) => part.match ? <mark key={i} className="search-match">{part.text}</mark> : part.text)}</p>
               </article>
             ))}
             {results?.total === 0 && <p>Try another word, phrase, or book.</p>}
@@ -956,7 +956,7 @@ export default function Reader() {
       </main>
       <footer>
         <span>Ordinary Means</span>
-        <span>Ad Fontes NT · M4 accepted</span>
+        <span>Ad Fontes NT</span>
         <a
           href="/about/sources"
           onClick={(e) => {

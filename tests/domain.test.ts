@@ -3,7 +3,28 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {books,resolveReference,address,compare,expand,chapterNeighbor,chapterRange,passageUrl} from '../app/lib/domain/references.ts';
 import {createLocalAdapter,getCorpus,matchText,releaseId} from '../app/lib/domain/corpus.ts';
+import {formatReference,formatPassage,searchHighlights} from '../app/lib/reading-display.ts';
 const adapter=createLocalAdapter(async path=>JSON.parse(await readFile(new URL('../app/public'+path,import.meta.url),'utf8')));
+test('reader labels compact canonical selections without changing source numbering or input', () => {
+  const ranges = [{start:'JHN.7.53',end:'JHN.7.53'}, {start:'JHN.8.1',end:'JHN.8.11'}, {start:'JHN.8.14',end:'JHN.8.14'}];
+  const original = structuredClone(ranges);
+  assert.equal(formatPassage(ranges), 'John 7:53–8:11; John 8:14');
+  assert.deepEqual(ranges, original);
+  assert.equal(formatPassage(resolveReference('3 John 14-15')), '3 John 1:14–15');
+  assert.equal(formatPassage(resolveReference('Matthew 28:20-Mark 1:1')), 'Matthew 28:20–Mark 1:1');
+  assert.equal(formatReference('ROM.14.24'), 'Romans 14:24');
+  assert.equal(formatReference('source-fragment!1'), 'source-fragment!1');
+});
+test('search highlights preserve Scripture and match whole words versus quoted phrases', () => {
+  const original = 'Grace, disgrace, and GRACE—truth.';
+  const parts = searchHighlights(original, 'grace truth');
+  assert.equal(parts.map(p => p.text).join(''), original);
+  assert.deepEqual(parts.filter(p => p.match).map(p => p.text), ['Grace','GRACE','truth']);
+  assert.deepEqual(searchHighlights('His grace and truth', '"grace and"').filter(p => p.match).map(p => p.text), ['grace and']);
+  assert.deepEqual(searchHighlights('grace and truth', '"grace truth"').filter(p => p.match), []);
+  assert.equal(searchHighlights('Grace', '""').map(p => p.text).join(''), 'Grace');
+  assert.equal(searchHighlights('İ and WORD', '"word"').filter(p => p.match)[0].text, 'WORD');
+});
 test('27 independent book identifiers, OSIS and USFM mappings, 260 chapters',()=>{assert.equal(books.length,27);assert.equal(new Set(books.map(b=>b.code)).size,27);assert.equal(books.reduce((s,b)=>s+b.verses.length,0),260);assert.equal(books[3].osis,'John');assert.equal(books[3].usfm,'JHN');});
 test('aliases, canonical addresses, ranges and numeric order',()=>{assert.deepEqual(resolveReference('Romans 3:23'),resolveReference('ROM.3.23'));assert.deepEqual(resolveReference('rom.3.23'),resolveReference('Rom 3:23'));assert.equal(expand(resolveReference('Romans 3:23–26')[0]).length,4);assert.equal(expand(resolveReference('John 7:53-8:11')[0]).length,12);assert.equal(resolveReference('Romans 3-4')[0].end,'ROM.4.25');assert.equal(resolveReference('Jude')[0].end,'JUD.1.25');assert.equal(resolveReference('Jude 5')[0].start,'JUD.1.5');assert.equal(resolveReference('2 John 1:13')[0].start,'2JN.1.13');assert.equal(resolveReference('3 John 14')[0].start,'3JN.1.14');assert(compare('ROM.2.1','ROM.10.1')<0);assert.equal(resolveReference('ROM.3.23;ROM.5.1').length,2);assert.match(passageUrl(resolveReference('Romans 3:23')),/read\/ROM\/3/);});
 test('reject OT, unknown books, impossible verses and malformed/reversed ranges',()=>{for(const input of ['Genesis 1:1','Romans 0:1','Romans 3:0','Romans 17:1','Romans 3:99','Jude 26','John 8:11-7:53','John 3:16-','John 3:16;John 3:15','ROM.3.23.1','James 1:1-2-3'])assert.throws(()=>resolveReference(input),undefined,input);});

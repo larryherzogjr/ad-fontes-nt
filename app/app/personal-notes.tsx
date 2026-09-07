@@ -2,12 +2,10 @@
 import { useEffect, useState, useRef } from 'react';
 import { api, useAccount } from './account-client';
 import { notesOverlap, type Note } from '@/lib/domain/notes';
+import { formatPassage } from '@/lib/reading-display';
 import { type PassageRange } from '@/lib/domain/references';
 import { getCorpus } from '@/lib/domain/corpus';
-const label = (ranges: PassageRange[]) =>
-  ranges
-    .map((r) => (r.start === r.end ? r.start : `${r.start}–${r.end}`))
-    .join('; ');
+const label = formatPassage;
 function download(name: string, text: string, type: string) {
   const url = URL.createObjectURL(new Blob([text], { type }));
   const a = document.createElement('a');
@@ -26,6 +24,9 @@ export default function PersonalNotes({
   selection: PassageRange[] | null;
 }) {
   const panel = useRef<HTMLDetailsElement>(null);
+  const editorOrigin = useRef('note-new');
+  const focusEditor = () => setTimeout(() => document.getElementById('note-title')?.focus(), 0);
+  const returnToNotes = () => setTimeout(() => (document.getElementById(editorOrigin.current) || document.getElementById('note-new'))?.focus(), 0);
   const { account, error } = useAccount(),
     [notes, setNotes] = useState<Note[]>([]),
     [draft, setDraft] = useState<Note | null>(null),
@@ -52,7 +53,7 @@ export default function PersonalNotes({
       });
       setDirty(false);
       setStatus('');
-      setTimeout(() => document.getElementById('note-title')?.focus(), 0);
+      focusEditor();
     }
   }, [selection]);
   async function load() {
@@ -84,7 +85,9 @@ export default function PersonalNotes({
   }
   function edit(n: Note) {
     if (dirty && !confirm('Discard the unsaved draft?')) return;
+    editorOrigin.current = `note-open-${n.id}`;
     setDraft(structuredClone(n));
+    focusEditor();
     setDirty(false);
     setStatus('');
   }
@@ -103,26 +106,25 @@ export default function PersonalNotes({
     await load();
   }
   return (
-    <details ref={panel} className="personal-notes">
+    <details id="personal-notes" ref={panel} className="personal-notes">
       <summary>My notes · private</summary>
       {error && <p role="alert">{error}</p>}
       {!account && !error && <p>Loading account…</p>}
       {account && !account.user && (
         <p>
           {account.enabled
-            ? 'Sign in and complete registration to keep private notes across devices.'
+            ? 'Keep private notes with your account, across devices.'
             : 'Personal notes are not configured on this installation yet.'}{' '}
-          <a href="/account">My account</a>
+          <a href="/account">{account.enabled ? 'Sign in to save notes' : 'Account information'}</a>
         </p>
       )}
       {account?.user && (
         <>
           <p>
-            Private to {account.user.email}. Notes follow canonical passages
-            across translations. Unsaved drafts stay in this page only.
+            Private to {account.user.email}. Notes stay with their passage across editions. Save explicitly to keep your work; unsaved drafts stay in this page.
           </p>
           <div className="notes-actions">
-            <button
+            <button id="note-new" className="primary"
               disabled={busy}
               onClick={() => {
                 if (dirty && !confirm('Discard the unsaved draft?')) return;
@@ -138,6 +140,8 @@ export default function PersonalNotes({
                 });
                 setDirty(false);
                 setStatus('');
+                editorOrigin.current = 'note-new';
+                focusEditor();
               }}
             >
               New note for {label(ranges)}
@@ -162,12 +166,13 @@ export default function PersonalNotes({
             />{' '}
             Show all my notes
           </label>
+          {!notes.some(n => all || notesOverlap(n, ranges)) && <p className="study-help">{all ? 'You haven’t saved any notes yet.' : 'No saved notes for this passage yet.'}</p>}
           <ul>
             {notes
               .filter((n) => all || notesOverlap(n, ranges))
               .map((n) => (
                 <li key={n.id}>
-                  <button disabled={busy} onClick={() => edit(n)}>
+                  <button id={`note-open-${n.id}`} aria-pressed={draft?.id === n.id} disabled={busy} onClick={() => edit(n)}>
                     {n.title || 'Untitled note'} · {label(n.ranges)}
                   </button>
                 </li>
@@ -186,6 +191,7 @@ export default function PersonalNotes({
               <label htmlFor="note-title">Title</label>
               <input
                 id="note-title"
+                disabled={busy}
                 maxLength={160}
                 value={draft.title}
                 onChange={(e) => {
@@ -196,6 +202,7 @@ export default function PersonalNotes({
               <label htmlFor="note-body">Note</label>
               <textarea
                 id="note-body"
+                disabled={busy}
                 rows={8}
                 required
                 maxLength={50000}
@@ -225,7 +232,7 @@ export default function PersonalNotes({
                 </blockquote>
               )}
               <div className="notes-actions">
-                <button disabled={busy} type="submit">
+                <button className="primary" disabled={busy} type="submit">
                   {busy ? 'Working…' : 'Save note'}
                 </button>
                 <button
@@ -266,13 +273,14 @@ export default function PersonalNotes({
                     if (!dirty || confirm('Discard the unsaved draft?')) {
                       setDraft(null);
                       setDirty(false);
+                      returnToNotes();
                     }
                   }}
                 >
                   Close draft
                 </button>
                 {draft.version > 0 && (
-                  <button
+                  <button className="danger"
                     type="button"
                     disabled={busy}
                     onClick={() => {
@@ -288,6 +296,7 @@ export default function PersonalNotes({
                           setDirty(false);
                           await load();
                           setStatus('Note deleted.');
+                          returnToNotes();
                         });
                     }}
                   >
@@ -295,9 +304,11 @@ export default function PersonalNotes({
                   </button>
                 )}
               </div>
-              {dirty && <p>Unsaved changes.</p>}
+              <div className="note-feedback" role="status">{status || (dirty ? 'Unsaved changes.' : draft.version ? 'Saved to your account.' : 'New draft · not saved yet')}</div>
             </form>
           )}
+          {!draft && status && <p className="note-feedback" role="status">{status}</p>}
+          <details className="notes-transfer"><summary>Import &amp; export</summary>
           <div className="notes-actions">
             <button
               disabled={busy}
@@ -379,9 +390,9 @@ export default function PersonalNotes({
             with the same ID stops the entire import without overwriting
             anything. Exports contain private text—store them accordingly.
           </p>
+          </details>
         </>
       )}
-      {status && <p role="status">{status}</p>}
     </details>
   );
 }

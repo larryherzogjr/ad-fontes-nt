@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { formatPassage, formatReference } from '@/lib/reading-display';
 import { GreekWordButton, WordDefinition } from './word-lookup';
 import PublisherNoteLabel from './publisher-note-label';
 import {
@@ -33,9 +34,9 @@ type Comparison = {
   notes: PublisherNote[];
   alternatives: { sourceId: string; label: string; text: string }[];
 };
-function CommentaryProse({ text, unit }: { text: string; unit: Variant }) {
+function CommentaryProse({ text, unit, onSource }: { text: string; unit: Variant; onSource: (id: string) => void }) {
   return <>{text.split('\n\n').map((paragraph, i) => <p key={i}>{paragraph.split(/(\[[SC]\d+(?:,\s*[SC]\d+)*\]|\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, j) => {
-    if (part.startsWith('[')) return <span key={j}>[{part.slice(1, -1).split(/,\s*/).map((id, n) => <span key={id}>{n > 0 && ', '}<a href={`#${unit.id}-source-${id}`} onClick={(event) => { event.preventDefault(); const target = document.getElementById(`${unit.id}-source-${id}`); target?.focus(); target?.scrollIntoView({ block: 'center' }); }}>{id}</a></span>)}]</span>;
+    if (part.startsWith('[')) return <span key={j}>[{part.slice(1, -1).split(/,\s*/).map((id, n) => <span key={id}>{n > 0 && ', '}<a href={`#${unit.id}-source-${id}`} onClick={(event) => { event.preventDefault(); onSource(`${unit.id}-source-${id}`); }}>{id}</a></span>)}]</span>;
     if (part.startsWith('**') && part.endsWith('**')) return <strong key={j}>{part.slice(2, -2)}</strong>;
     if (part.startsWith('*') && part.endsWith('*')) return <em key={j}>{part.slice(1, -1)}</em>;
     return part;
@@ -54,6 +55,7 @@ export default function StudyPanel({
     backdropPress = useRef(false),
     title = useRef<HTMLHeadingElement>(null),
     wordHeading = useRef<HTMLHeadingElement>(null);
+  const refocusInspector = useRef(false);
   const [error, setError] = useState(''),
     [loading, setLoading] = useState(true),
     [comparison, setComparison] = useState<Comparison[]>([]),
@@ -73,8 +75,11 @@ export default function StudyPanel({
   const [interlinear, setInterlinear] = useState(false);
   const [rows, setRows] = useState<string[]>([]);
   const [wide, setWide] = useState(false);
+  const [desktop, setDesktop] = useState(false);
+  const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
   useEffect(() => {
     const params = new URL(location.href).searchParams;
+    setSection(params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
     setInterlinear(params.get('greekView') === 'interlinear');
     setRows((params.get('greekRows') || '').split(',').filter(r => ['transliteration', 'lemma', 'strongs', 'grammar'].includes(r)));
   }, []);
@@ -88,14 +93,46 @@ export default function StudyPanel({
     else url.searchParams.delete('greekRows');
     history.replaceState({}, '', url.pathname + url.search);
   }
-  const label = ranges
-    .map((r) => (r.start === r.end ? r.start : `${r.start}–${r.end}`))
-    .join('; ');
+  const label = formatPassage(ranges);
   useEffect(() => {
-    dialog.current?.showModal();
-    title.current?.focus();
-    return () => dialog.current?.close();
+    const media = matchMedia('(min-width: 1100px)');
+    const el = dialog.current;
+    function adapt() {
+      if (!el) return;
+      const active = document.activeElement as HTMLElement | null;
+      refocusInspector.current = !!active?.closest('.word-detail');
+      const scroll = el.scrollTop;
+      el.close();
+      if (media.matches) el.show(); else el.showModal();
+      setDesktop(media.matches);
+      el.scrollTop = scroll;
+      if (active && el.contains(active)) active.focus({ preventScroll: true });
+      else title.current?.focus({ preventScroll: true });
+    }
+    adapt();
+    media.addEventListener('change', adapt);
+    return () => { media.removeEventListener('change', adapt); el?.close(); };
   }, []);
+  useEffect(() => {
+    if (refocusInspector.current) {
+      wordHeading.current?.focus({ preventScroll: true });
+      refocusInspector.current = false;
+    }
+  }, [desktop]);
+  function showSection(next: 'explanation' | 'readings' | 'sources') {
+    setSection(next);
+    dialog.current?.scrollTo({ top: 0 });
+  }
+  function showSource(id: string) {
+    setSection('sources');
+    requestAnimationFrame(() => {
+      const target = document.getElementById(id);
+      for (let parent = target?.parentElement; parent; parent = parent.parentElement)
+        if (parent instanceof HTMLDetailsElement) parent.open = true;
+      target?.focus({ preventScroll: true });
+      target?.scrollIntoView({ block: 'center' });
+    });
+  }
   useEffect(() => {
     let active = true;
     setLoading(true);
@@ -160,6 +197,7 @@ export default function StudyPanel({
           setComparison(records);
           setVariants(selection.selected);
           setNoteOnly(selection.noteOnly);
+          if (selection.noteOnly) setSection('explanation');
           setNoteLinks(selection.noteLinks);
           setRelatedNotes(data.units.filter(v => matching.some(m => m.relatedUnits?.includes(v.id))));
         }
@@ -192,8 +230,9 @@ export default function StudyPanel({
   }, [mode, ranges]);
   useEffect(() => {
     if (!token) return;
-    wordHeading.current?.focus();
-    wordHeading.current?.scrollIntoView({ block: 'start' });
+    wordHeading.current?.focus({ preventScroll: true });
+    dialog.current?.querySelector('.greek-inspector')?.scrollTo({ top: 0 });
+    if (!desktop) wordHeading.current?.scrollIntoView({ block: 'center' });
     let active = true;
     setWordLoading(true);
     setWordError('');
@@ -264,300 +303,13 @@ export default function StudyPanel({
       event.clientY > bounds.bottom
     );
   }
-  return (
-    <dialog
-      ref={dialog}
-      className={`study-dialog${wide ? " study-dialog-wide" : ""}`}
-      aria-labelledby="study-title"
-      onPointerDown={(e) => {
-        backdropPress.current =
-          e.button === 0 && e.target === e.currentTarget && outsidePanel(e);
-      }}
-      onPointerCancel={() => {
-        backdropPress.current = false;
-      }}
-      onClick={(e) => {
-        // Both ends must be outside: selecting or dragging text out of the panel must not dismiss it.
-        const dismiss =
-          backdropPress.current &&
-          e.target === e.currentTarget &&
-          outsidePanel(e);
-        backdropPress.current = false;
-        if (dismiss) onClose();
-      }}
-      onCancel={(e) => {
-        e.preventDefault();
-        onClose();
-      }}
-    >
-      <header className="study-header">
-        <div>
-          <p className="eyebrow">PASSAGE STUDY</p>
-          <h2 id="study-title" ref={title} tabIndex={-1}>
-            {mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : 'Compare editions'}
-          </h2>
-          <p>{label}</p>
-        </div>
-        <button onClick={onClose} aria-label="Close study panel">
-          Close ×
-        </button>
-      </header>
-      {!noteOnly && !loading && <nav className="study-tabs" aria-label="Study tools">
-        <button
-          aria-pressed={mode === 'compare'}
-          onClick={() => mode !== 'compare' && switchMode('compare')}
-        >
-          Compare editions
-        </button>
-        <button
-          aria-pressed={mode === 'greek'}
-          onClick={() => mode !== 'greek' && switchMode('greek')}
-        >
-          Explore Greek
-        </button>
-      </nav>}
-      {loading && <p role="status">Loading local study data…</p>}
-      {error && (
-        <p role="alert" className="error">
-          {error}
-        </p>
-      )}
-      {!loading && !error && mode !== 'greek' && (
-        <>
-          {!noteOnly && <p>
-            These are named editions, with their own wording and source
-            placement. Differences in English wording alone do not establish a
-            difference in the Greek text.
-          </p>}
-          {noteLinks.map(v => <p key={v.id}><a href={`${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`}>Publisher note study · {v.title}</a></p>)}
-          {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
-          {noteOnly && <section aria-label="Publisher notes for this explanation">
-            <h3>Publisher notes</h3>
-            {variants.flatMap(v => v.publisherNotes || []).map(n => <article key={`${n.releaseId}-${n.noteId}`}>
-              <h4>{n.editionId} publisher’s note</h4><p>{n.body}</p><small>Source: {n.noteId} · {n.releaseId}</small>
-            </article>)}
-          </section>}
-          <section className="reviewed-notes">
-            <h3>Reviewed explanations</h3>
-            {!variants.length ? (
-              <p>
-                No reviewed note is available for this passage. This does not
-                mean there are no textual differences.
-              </p>
-            ) : (
-              variants.map((v) => (
-                <article key={v.id} id={`reviewed-${v.id}`}>
-                  <h4>{v.title}</h4>
-                  <p>{v.byline || v.author} commentary</p>
-                  <h5>What the editions print</h5>
-                  <CommentaryProse text={v.significance?.sourceObservation || ''} unit={v} />
-                  <h5>Ordinary Means interpretation</h5>
-                  <CommentaryProse text={v.significance?.interpretation || ''} unit={v} />
-                  {!!v.explanationSources?.length && <section aria-label="Explanation sources">
-                    <h5>Sources for this explanation</h5>
-                    <ul>{v.explanationSources.map(c => <li key={c.id} id={`${v.id}-source-${c.id}`} tabIndex={-1}>
-                      <strong>{c.id}</strong> · {c.url ? <a href={c.url}>{c.label}</a> : c.label}. {c.locator}
-                    </li>)}</ul>
-                  </section>}
-                  {!!v.relatedUnits?.length && <nav aria-label={`Related explanations for ${v.title}`}>
-                    <h5>Related explanation</h5>
-                    {relatedNotes.filter(other => v.relatedUnits?.includes(other.id)).map(other => <p key={other.id}>
-                      <a href={`${passageUrl(other.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=${other.presentation === 'publisher-note' ? 'notes' : 'compare'}&unit=${encodeURIComponent(other.id)}`} onClick={event => {
-                        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-                        event.preventDefault(); location.assign(event.currentTarget.href);
-                      }}>
-                        {other.ranges.map(r => r.start === r.end ? r.start : `${r.start}–${r.end}`).join('; ')} · {other.title}
-                      </a>
-                    </p>)}
-                  </nav>}
-                  {v.citations.map((c, i) => (
-                    <a key={i} href={c.url}>
-                      {c.editionId} source{' '}
-                    </a>
-                  ))}
-                </article>
-              ))
-            )}
-          </section>
-          {!noteOnly && ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus'].map(
-            (group) => (
-              <section className="comparison-group" key={group}>
-                <h3>{group}</h3>
-                {editions
-                  .filter((e) => e.group === group)
-                  .map((e) => {
-                    const record = comparison.find(
-                      (c) => c.editionId === e.editionId,
-                    )!;
-                    return (
-                      <article className="edition-reading" key={e.editionId}>
-                        <h4>{e.name}</h4>
-                        <a href={passageUrl(ranges, e.editionId)}>
-                          Read in context
-                        </a>
-                        {variants.map(v => {
-                          const focus = v.readings.find(r => r.editionId === e.editionId)?.focus;
-                          if (!focus) return null;
-                          return <section key={v.id} aria-label={`Textual unit for ${v.title}`}>
-                            <p className="coverage-note">Reviewed textual unit · {v.title}: {focus.state === 'absent'
-                              ? 'The disputed material is absent; neighboring verse text remains below.'
-                              : focus.state === 'bracketed' ? 'The following continuous unit is present with source markers.'
-                                : 'The following continuous unit is present.'}</p>
-                            {!!focus.spans.length && <blockquote lang={e.language}>
-                              {focus.spans.map((s, i) => <span key={s.segmentId}>
-                                {i > 0 && ' '}<small>{s.segmentId} </small>{s.text}
-                              </span>)}
-                            </blockquote>}
-                          </section>;
-                        })}
-                        {record.coverage.some(
-                          (c) => c.textState === 'absent',
-                        ) && (
-                          <p className="coverage-note">
-                            Absent from this edition’s main text:{' '}
-                            {record.coverage
-                              .filter((c) => c.textState === 'absent')
-                              .map((c) => c.anchor)
-                              .join(', ')}
-                            .
-                          </p>
-                        )}
-                        {record.coverage.some(
-                          (c) => c.textState === 'bracketed',
-                        ) && (
-                          <p className="coverage-note">
-                            This source marks part or all of the passage with
-                            brackets.
-                          </p>
-                        )}
-                        {record.segments.map((s) => (
-                          <p
-                            key={s.id}
-                            className="comparison-scripture"
-                            lang={e.language}
-                          >
-                            <small>{s.sourceRef || s.id}</small> {s.text}
-                          </p>
-                        ))}
-                        {!!record.notes.length && (
-                          <details>
-                            <summary>
-                              {e.editionId} publisher’s notes (
-                              {record.notes.length})
-                            </summary>
-                            <p className="study-help">Note categories are added by Ad Fontes NT to describe the publisher’s footnotes.</p>
-                            {record.notes.map((n) => (
-                              <div key={n.id}>
-                                <PublisherNoteLabel releaseId={record.releaseId} note={n} />
-                                <p>{n.body}</p>
-                              </div>
-                            ))}
-                          </details>
-                        )}
-                        {!!record.alternatives.length && (
-                          <details>
-                            <summary>Edition’s separate alternatives</summary>
-                            {record.alternatives.map((a) => (
-                              <p key={a.sourceId}>
-                                <small>{a.label}</small>
-                                <br />
-                                <span lang={e.language}>{a.text}</span>
-                              </p>
-                            ))}
-                          </details>
-                        )}
-                        <small>Source release: {record.releaseId}</small>
-                      </article>
-                    );
-                  })}
-              </section>
-            ),
-          )}
-        </>
-      )}
-      {!loading && !error && mode === 'greek' && (
-        <>
-          <p>
-            <strong>Nestle 1904</strong> · Source-backed word analysis by Ulrik
-            Sandborg-Petersen. Select a Greek word to inspect its lemma and
-            grammatical tags.
-          </p>
-          <p className="study-help">
-            This is a separate Greek text view. No English word alignment is
-            assumed.
-          </p>
-          <div className="interlinear-controls">
-            <div className="interlinear-views" role="group" aria-label="Greek display">
-              <button aria-pressed={!interlinear} onClick={() => setGreekView(false)}>Greek text</button>
-              <button aria-pressed={interlinear} onClick={() => setGreekView(true)}>Interlinear</button>
-              <button aria-pressed={wide} onClick={() => setWide(!wide)}>{wide ? 'Standard width' : 'Expand study view'}</button>
-            </div>
-            {interlinear && <>
-              <p className="study-help">Nestle 1904 Greek with Berean contextual glosses, in Greek word order. These glosses are translation aids, not word-by-word links to BSB. Select a word for definitions, grammar, pronunciation guides, and occurrences.</p>
-              <fieldset className="interlinear-options"><legend>Additional rows</legend>
-                {([['transliteration', 'Transliteration'], ['lemma', 'Lemma (standard form)'], ['strongs', 'Strong’s number'], ['grammar', 'Grammar']] as const).map(([key, label]) => <label key={key}><input type="checkbox" checked={rows.includes(key)} onChange={e => setGreekView(true, e.target.checked ? [...rows, key] : rows.filter(r => r !== key))} />{label}</label>)}
-              </fieldset>
-            </>}
-          </div>
-          {!analysis.length && (
-            <p className="notice">
-              This canonical passage has no main-text segment in Nestle 1904.
-              Use Compare editions for its edition-specific coverage.
-            </p>
-          )}
-          {analysis.map((s) => (
-            <section key={s.sourceRef} className="greek-verse">
-              <h3>{s.sourceRef}</h3>
-              {s.status === 'unavailable' ? (
-                <>
-                  <p lang="grc" className="comparison-scripture">
-                    {s.text}
-                  </p>
-                  <p className="notice">{s.reason}</p>
-                </>
-              ) : interlinear ? (
-                <div className="interlinear-words" aria-label={`${s.sourceRef} interlinear`}>
-                  {s.tokens.map((t, i) => <GreekWordButton token={t} key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} selected={token?.id === t.id} label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onChoose={() => choose(t)}>
-                    <span lang="grc" className="interlinear-surface">{i === 0 ? s.text.slice(0, t.start) : ''}{t.surface}{s.text.slice(t.end, s.tokens[i + 1]?.start)}</span>
-                    <span className="interlinear-gloss">{t.gloss ?? 'Gloss unavailable'}</span>
-                    {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
-                    {rows.includes('lemma') && <span lang="grc" className="interlinear-extra">{t.lemma}</span>}
-                    {rows.includes('strongs') && <span className="interlinear-extra">{t.strongs || 'Number unavailable'}</span>}
-                    {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${describeMorph(t.functional)}; form: ${describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
-                  </GreekWordButton>)}
-                </div>
-              ) : (
-                <p lang="grc" className="greek-token-text">
-                  {s.tokens.map((t, i) => (
-                    <span key={t.id}>
-                      {s.text.slice(i ? s.tokens[i - 1].end : 0, t.start)}
-                      <GreekWordButton
-                        token={t}
-                        id={`word-${t.id}`}
-                        className={
-                          token?.id === t.id
-                            ? 'greek-token chosen'
-                            : 'greek-token'
-                        }
-                        label={`${t.surface}, ${s.sourceRef}, word ${i + 1}`}
-                        selected={token?.id === t.id}
-                        onChoose={() => choose(t)}
-                      >
-                        {t.surface}
-                      </GreekWordButton>
-                      {i === s.tokens.length - 1 ? s.text.slice(t.end) : ''}
-                    </span>
-                  ))}
-                </p>
-              )}
-            </section>
-          ))}
+  const wordDetails = (
           <section
             className="word-detail"
             aria-live="polite"
             aria-label="Selected Greek word"
           >
-            {wordError && (
+            {wordError && token && (
               <p role="alert" className="error">
                 {wordError}
               </p>
@@ -669,7 +421,7 @@ export default function StudyPanel({
                           <a
                             href={`${passageUrl([{ start: h.anchor, end: h.anchor }], 'N1904')}&panel=greek&token=${encodeURIComponent(h.tokenId)}`}
                           >
-                            {h.sourceRef} · {h.surface}
+                            {formatReference(h.sourceRef)} · {h.surface}
                           </a>
                           <span lang="grc">
                             {(() => {
@@ -747,6 +499,308 @@ export default function StudyPanel({
               </>
             )}
           </section>
+  );
+  return (
+    <dialog
+      ref={dialog}
+      className={`study-dialog${wide ? ' study-dialog-wide' : ''}`}
+      onKeyDown={e => { if (e.key === 'Escape' && desktop && !e.defaultPrevented) { e.preventDefault(); onClose(); } }}
+      aria-labelledby="study-title"
+      onPointerDown={(e) => {
+        backdropPress.current =
+          e.button === 0 && e.target === e.currentTarget && outsidePanel(e);
+      }}
+      onPointerCancel={() => {
+        backdropPress.current = false;
+      }}
+      onClick={(e) => {
+        // Both ends must be outside: selecting or dragging text out of the panel must not dismiss it.
+        const dismiss =
+          backdropPress.current &&
+          e.target === e.currentTarget &&
+          outsidePanel(e);
+        backdropPress.current = false;
+        if (dismiss) onClose();
+      }}
+      onCancel={(e) => {
+        e.preventDefault();
+        onClose();
+      }}
+    >
+      <div className="study-chrome"><header className="study-header">
+        <div>
+          <p className="eyebrow">{label}</p>
+          <h2 id="study-title" ref={title} tabIndex={-1}>
+            {mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : 'Compare editions'}
+          </h2>
+
+        </div>
+        <div className="study-window-actions">
+        <button className="study-expand" aria-label={wide ? 'Use standard study width' : 'Expand study view'} title={wide ? 'Use standard study width' : 'Expand study view'} aria-pressed={wide} onClick={() => setWide(!wide)}>↔</button>
+        <button onClick={onClose} aria-label="Close study panel">
+          Close ×
+        </button>
+        </div>
+      </header>
+      {!noteOnly && !loading && <nav className="study-tabs" aria-label="Study tools">
+        <button
+          aria-pressed={mode === 'compare'}
+          onClick={() => mode !== 'compare' && switchMode('compare')}
+        >
+          Compare editions
+        </button>
+        <button
+          aria-pressed={mode === 'greek'}
+          onClick={() => mode !== 'greek' && switchMode('greek')}
+        >
+          Explore Greek
+        </button>
+      </nav>}
+      {!loading && !error && mode !== 'greek' && <nav className="comparison-nav" aria-label="Comparison sections">
+        <button aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}>Explanation</button>
+        {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
+        <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
+      </nav>}
+      </div><div className="study-content">
+      {loading && <p role="status">Loading local study data…</p>}
+      {error && (
+        <p role="alert" className="error">
+          {error}
+        </p>
+      )}
+      {!loading && !error && mode !== 'greek' && (
+        <>
+          {!noteOnly && <p>
+            These are named editions, with their own wording and source
+            placement. Differences in English wording alone do not establish a
+            difference in the Greek text.
+          </p>}
+          {noteLinks.map(v => <p key={v.id}><a href={`${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`}>Publisher note study · {v.title}</a></p>)}
+          {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
+          {noteOnly && <section hidden={section !== 'explanation'} aria-label="Publisher notes for this explanation">
+            <h3>Publisher notes</h3>
+            {variants.flatMap(v => v.publisherNotes || []).map(n => <article key={`${n.releaseId}-${n.noteId}`}>
+              <h4>{n.editionId} publisher’s note</h4><p>{n.body}</p><small>Source: {n.noteId} · {n.releaseId}</small>
+            </article>)}
+          </section>}
+          <section className="reviewed-notes" hidden={section !== 'explanation'}>
+            <h3>Reviewed explanations</h3>
+            {!variants.length ? (
+              <p>
+                No reviewed note is available for this passage. This does not
+                mean there are no textual differences.
+              </p>
+            ) : (
+              variants.map((v) => (
+                <article key={v.id} id={`reviewed-${v.id}`}>
+                  <h4>{v.title}</h4>
+                  <p className="commentary-byline">{v.byline || v.author} commentary</p>
+                  <h5>What the editions print</h5>
+                  <CommentaryProse onSource={showSource} text={v.significance?.sourceObservation || ''} unit={v} />
+                  <h5>Ordinary Means interpretation</h5>
+                  <CommentaryProse onSource={showSource} text={v.significance?.interpretation || ''} unit={v} />
+                  {!!v.relatedUnits?.length && <nav aria-label={`Related explanations for ${v.title}`}>
+                    <h5>Related explanation</h5>
+                    {relatedNotes.filter(other => v.relatedUnits?.includes(other.id)).map(other => <p key={other.id}>
+                      <a href={`${passageUrl(other.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=${other.presentation === 'publisher-note' ? 'notes' : 'compare'}&unit=${encodeURIComponent(other.id)}`} onClick={event => {
+                        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+                        event.preventDefault(); location.assign(event.currentTarget.href);
+                      }}>
+                        {formatPassage(other.ranges)} · {other.title}
+                      </a>
+                    </p>)}
+                  </nav>}
+                </article>
+              ))
+            )}
+          </section>
+          <section hidden={section !== 'sources'} className="comparison-sources" aria-label="Study sources">
+            <h3>Sources</h3>
+            {variants.map(v => <details key={v.id} className="explanation-sources">
+              <summary>{v.title}</summary>
+              <h4>Sources for this explanation</h4>
+              <ul>{v.explanationSources?.map(c => <li key={c.id} id={`${v.id}-source-${c.id}`} tabIndex={-1}>
+                <strong>{c.id}</strong> · {c.url ? <a href={c.url}>{c.label}</a> : c.label}. {c.locator}
+              </li>)}</ul>
+              <div className="source-links">{v.citations.map((c,i) => <a key={i} href={c.url}>{c.editionId} source</a>)}</div>
+            </details>)}
+            {!variants.length && <p>No reviewed explanation is available for this selection.</p>}
+            <a href="/about/sources">All sources, editions and coverage</a>
+          </section>
+          <div className="comparison-readings" hidden={section !== 'readings'}>
+          {!noteOnly && ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus'].map(
+            (group) => (
+              <section className="comparison-group" key={group}>
+                <h3>{group}</h3>
+                {editions
+                  .filter((e) => e.group === group)
+                  .map((e) => {
+                    const record = comparison.find(
+                      (c) => c.editionId === e.editionId,
+                    )!;
+                    return (
+                      <article className="edition-reading" key={e.editionId}>
+                        <h4>{e.name}</h4>
+                        <a href={passageUrl(ranges, e.editionId)}>
+                          Read in context
+                        </a>
+                        {variants.map(v => {
+                          const focus = v.readings.find(r => r.editionId === e.editionId)?.focus;
+                          if (!focus) return null;
+                          return <section key={v.id} aria-label={`Textual unit for ${v.title}`}>
+                            <p className="coverage-note">Reviewed textual unit · {v.title}: {focus.state === 'absent'
+                              ? 'The disputed material is absent; neighboring verse text remains below.'
+                              : focus.state === 'bracketed' ? 'The following continuous unit is present with source markers.'
+                                : 'The following continuous unit is present.'}</p>
+                            {!!focus.spans.length && <blockquote lang={e.language}>
+                              {focus.spans.map((s, i) => <span key={s.segmentId}>
+                                {i > 0 && ' '}<small>{s.segmentId} </small>{s.text}
+                              </span>)}
+                            </blockquote>}
+                          </section>;
+                        })}
+                        {record.coverage.some(
+                          (c) => c.textState === 'absent',
+                        ) && (
+                          <p className="coverage-note">
+                            Absent from this edition’s main text:{' '}
+                            {record.coverage
+                              .filter((c) => c.textState === 'absent')
+                              .map((c) => formatReference(c.anchor))
+                              .join(', ')}
+                            .
+                          </p>
+                        )}
+                        {record.coverage.some(
+                          (c) => c.textState === 'bracketed',
+                        ) && (
+                          <p className="coverage-note">
+                            This source marks part or all of the passage with
+                            brackets.
+                          </p>
+                        )}
+                        {record.segments.map((s) => (
+                          <p
+                            key={s.id}
+                            className="comparison-scripture"
+                            lang={e.language}
+                          >
+                            <small>{formatReference(s.sourceRef || s.id)}</small> {s.text}
+                          </p>
+                        ))}
+                        {!!record.notes.length && (
+                          <details>
+                            <summary>
+                              {e.editionId} publisher’s notes (
+                              {record.notes.length})
+                            </summary>
+                            <p className="study-help">Note categories are added by Ad Fontes NT to describe the publisher’s footnotes.</p>
+                            {record.notes.map((n) => (
+                              <div key={n.id}>
+                                <PublisherNoteLabel releaseId={record.releaseId} note={n} />
+                                <p>{n.body}</p>
+                              </div>
+                            ))}
+                          </details>
+                        )}
+                        {!!record.alternatives.length && (
+                          <details>
+                            <summary>Edition’s separate alternatives</summary>
+                            {record.alternatives.map((a) => (
+                              <p key={a.sourceId}>
+                                <small>{a.label}</small>
+                                <br />
+                                <span lang={e.language}>{a.text}</span>
+                              </p>
+                            ))}
+                          </details>
+                        )}
+<details className="edition-source"><summary>Source details</summary><p>Source release: {record.releaseId}</p></details>
+                      </article>
+                    );
+                  })}
+              </section>
+            ),
+          )}</div>
+        </>
+      )}
+      {!loading && !error && mode === 'greek' && (
+        <>
+          <div className="greek-introduction">
+            <p><strong>Nestle 1904</strong>{interlinear ? ' · Berean contextual glosses' : ' · Greek text'}</p>
+            <p className="study-help">{interlinear ? 'Greek word order; glosses are translation aids. No English word alignment.' : 'Select a word for its definition and analysis. No English word alignment.'}</p>
+          </div>
+          <div className="interlinear-controls">
+            <div className="interlinear-views" role="group" aria-label="Greek display">
+              <button aria-pressed={!interlinear} onClick={() => setGreekView(false)}>Greek text</button>
+              <button aria-pressed={interlinear} onClick={() => setGreekView(true)}>Interlinear</button>
+            </div>
+            <details className="display-options"><summary>Display options &amp; analysis information</summary>
+              {interlinear && <fieldset className="interlinear-options"><legend>Additional rows</legend>
+                {([['transliteration', 'Transliteration'], ['lemma', 'Lemma (standard form)'], ['strongs', 'Strong’s number'], ['grammar', 'Grammar']] as const).map(([key, label]) => <label key={key}><input type="checkbox" checked={rows.includes(key)} onChange={e => setGreekView(true, e.target.checked ? [...rows, key] : rows.filter(r => r !== key))} />{label}</label>)}
+              </fieldset>}
+              <p className="study-help">Source-backed word analysis by Ulrik Sandborg-Petersen. Nestle 1904 Greek with Berean contextual glosses in Greek word order. These glosses are translation aids, not word-by-word links to BSB.</p>
+            </details>
+          </div>
+          {!analysis.length && (
+            <p className="notice">
+              This canonical passage has no main-text segment in Nestle 1904.
+              Use Compare editions for its edition-specific coverage.
+            </p>
+          )}
+          {wordError && !token && <p role="alert" className="error">{wordError}</p>}
+          <div className={`greek-workspace${token ? ' has-word' : ''}`}><div className="greek-passages">
+          {analysis.map((s) => (
+            <section key={s.sourceRef} className="greek-verse">
+              <h3>{formatReference(s.sourceRef)}</h3>
+              {s.status === 'unavailable' ? (
+                <>
+                  <p lang="grc" className="comparison-scripture">
+                    {s.text}
+                  </p>
+                  <p className="notice">{s.reason}</p>
+                </>
+              ) : interlinear ? (
+                <div className="interlinear-words" aria-label={`${s.sourceRef} interlinear`}>
+                  {s.tokens.map((t, i) => <GreekWordButton token={t} key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} selected={token?.id === t.id} label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onChoose={() => choose(t)}>
+                    <span lang="grc" className="interlinear-surface">{i === 0 ? s.text.slice(0, t.start) : ''}{t.surface}{s.text.slice(t.end, s.tokens[i + 1]?.start)}</span>
+                    <span className="interlinear-gloss">{t.gloss ?? 'Gloss unavailable'}</span>
+                    {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
+                    {rows.includes('lemma') && <span lang="grc" className="interlinear-extra">{t.lemma}</span>}
+                    {rows.includes('strongs') && <span className="interlinear-extra">{t.strongs || 'Number unavailable'}</span>}
+                    {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${describeMorph(t.functional)}; form: ${describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
+                  </GreekWordButton>)}
+                </div>
+              ) : (
+                <p lang="grc" className="greek-token-text">
+                  {s.tokens.map((t, i) => (
+                    <span key={t.id}>
+                      {s.text.slice(i ? s.tokens[i - 1].end : 0, t.start)}
+                      <GreekWordButton
+                        token={t}
+                        id={`word-${t.id}`}
+                        className={
+                          token?.id === t.id
+                            ? 'greek-token chosen'
+                            : 'greek-token'
+                        }
+                        label={`${t.surface}, ${s.sourceRef}, word ${i + 1}`}
+                        selected={token?.id === t.id}
+                        onChoose={() => choose(t)}
+                      >
+                        {t.surface}
+                      </GreekWordButton>
+                      {i === s.tokens.length - 1 ? s.text.slice(t.end) : ''}
+                    </span>
+                  ))}
+                </p>
+              )}
+              {!desktop && token && s.tokens.some(t => t.id === token.id) && wordDetails}
+            </section>
+          ))}
+          </div>
+          {desktop && <aside className="greek-inspector">{wordDetails}</aside>}
+          </div>
           <p>
             <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
               Analysis sources, rights and coverage
@@ -754,6 +808,7 @@ export default function StudyPanel({
           </p>
         </>
       )}
+      </div>
     </dialog>
   );
 }
