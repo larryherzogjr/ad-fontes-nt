@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Reader from './reader';
+
+const socialImageUrl = 'https://ad-fontes.app/og.png?v=20260907';
+
 export const metadata: Metadata = {
   openGraph: {
     type: 'website',
@@ -8,18 +11,18 @@ export const metadata: Metadata = {
     title: 'Ad Fontes NT',
     description: 'A New Testament study environment from Ordinary Means.',
     images: [{
-      url: 'https://ad-fontes.app/og.png',
-      width: 1731,
+      url: socialImageUrl,
+      width: 1730,
       height: 909,
       type: 'image/png',
-      alt: 'Ad Fontes NT — A New Testament study environment from Ordinary Means. An open-book illustration on warm ivory paper.',
+      alt: 'Ad Fontes NT — A New Testament study environment from Ordinary Means. Ivory lettering and an open book on deep navy.',
     }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Ad Fontes NT',
     description: 'A New Testament study environment from Ordinary Means.',
-    images: ['https://ad-fontes.app/og.png'],
+    images: [socialImageUrl],
   },
 };
 export default function Home() {
