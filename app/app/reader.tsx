@@ -659,7 +659,7 @@ export default function Reader() {
                   {ch.blocks.map((b, i) => {
                     const content = b.runs.map((r, j) =>
                       r.verse ? (
-                        <sup key={j} id={r.anchor}>
+                        <sup key={j} id={r.anchor} data-sync-anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? undefined : verseAnchors(ch, r).join(' ')}>
                           <a
                             id={`study-verse-${ch.book}-${ch.chapter}-${i}-${j}`}
                             aria-label={`Study ${formatReference(r.anchor!)}`}

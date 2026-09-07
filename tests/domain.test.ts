@@ -33,3 +33,18 @@ test('every registered chapter loads with release, source mappings and complete 
 test('real absence differs from unavailable data and unsupported edition',async()=>{const r=await adapter.getPassage(resolveReference('Acts 8:37'));assert.equal(r.segments.length,0);assert.equal(r.coverage[0].textState,'absent');assert.equal(r.coverage[0].dataState,'available');assert.ok(r.coverage[0].publisherNoteIds.length);const n=await adapter.getPublisherNotes('ACT',8);assert(n.some(n=>n.body.includes('TR includes')));assert.throws(()=>getCorpus('ESV'),{code:'unsupported-edition'});const broken=createLocalAdapter(async()=>{throw Error('broken')});await assert.rejects(()=>broken.getPassage(resolveReference('Acts 8:37')),{code:'unavailable-data'});const incomplete=createLocalAdapter(async()=>({}));await assert.rejects(()=>incomplete.getChapter('ROM',3),{code:'unavailable-data'});});
 test('cross-chapter and disjoint passage output is ordered',async()=>{const r=await adapter.getPassage(resolveReference('John 7:53-8:11'));assert.equal(r.segments.length,12);assert.equal(r.segments[0].id,'JHN.7.53');assert.equal(r.segments[11].id,'JHN.8.11');const d=await adapter.getPassage(resolveReference('Romans 3:23;Romans 5:1'));assert.deepEqual(d.segments.map(s=>s.id),['ROM.3.23','ROM.5.1']);});
 test('Scripture search: whole words, phrases, book filter, pages, empty and note exclusion',async()=>{assert(matchText('Grace and truth','grace truth'));assert(!matchText('disgrace','grace'));const r=await adapter.searchText('grace');assert(r.total>20);assert.equal(r.hits.length,20);const p=await adapter.searchText('grace','',2);assert.equal(p.page,2);assert.notEqual(p.hits[0].anchor,r.hits[0].anchor);const rom=await adapter.searchText('grace','ROM');assert(rom.hits.every(h=>h.book==='ROM'));const phrase=await adapter.searchText('"fall short of the glory of God"');assert(phrase.hits.some(h=>h.anchor==='ROM.3.23'));assert.equal((await adapter.searchText('zzzznonexistent')).total,0);assert.equal((await adapter.searchText('BYZ')).total,0);assert.equal((await adapter.searchText('')).total,0);assert.equal((await adapter.searchText('""')).total,0);});
+
+import {findSyncTarget} from '../app/lib/verse-sync.ts';
+test('verse synchronization respects active editions, merged mappings and missing counterparts', () => {
+  const items = [
+    {edition:'first', refs:['ROM.16.25'], sourceRef:'ROM.16.25'},
+    {edition:'second', refs:['ROM.16.25','ROM.16.26'], sourceRef:'ROM.14.24'},
+  ];
+  const anchors = (item: typeof items[number]) => item.refs;
+  const edition = (item: typeof items[number]) => item.edition;
+  assert.equal(findSyncTarget(items, ['ROM.16.26'], 'second', anchors, edition), items[1]);
+  assert.equal(findSyncTarget(items, ['ROM.16.25'], 'second', anchors, edition), items[1]);
+  assert.equal(findSyncTarget(items, ['ROM.16.26'], 'first', anchors, edition), undefined);
+  assert.equal(findSyncTarget(items, ['ROM.14.24'], 'second', anchors, edition), undefined);
+  assert.equal(findSyncTarget(items, ['ACT.8.37'], undefined, anchors, edition), undefined);
+});

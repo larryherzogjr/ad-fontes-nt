@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { useVerseSync } from './use-verse-sync';
 import { formatPassage, formatReference } from '@/lib/reading-display';
 import { GreekWordButton, WordDefinition } from './word-lookup';
 import PublisherNoteLabel from './publisher-note-label';
@@ -74,14 +75,21 @@ export default function StudyPanel({
     [highlightError, setHighlightError] = useState('');
   const [interlinear, setInterlinear] = useState(false);
   const [rows, setRows] = useState<string[]>([]);
+  const [sync, setSync] = useState(false);
   const [wide, setWide] = useState(false);
   const [desktop, setDesktop] = useState(false);
+  useVerseSync(dialog, sync && desktop, `${mode}-${loading}-${wide}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
   useEffect(() => {
     const params = new URL(location.href).searchParams;
     setSection(params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
     setInterlinear(params.get('greekView') === 'interlinear');
-    setRows((params.get('greekRows') || '').split(',').filter(r => ['transliteration', 'lemma', 'strongs', 'grammar'].includes(r)));
+    let savedRows = '';
+    try {
+      savedRows = localStorage.getItem('afnt.interlinear.rows') || '';
+      setSync(localStorage.getItem('afnt.sync-verses') === 'true');
+    } catch { /* Reading still works when device storage is unavailable. */ }
+    setRows((params.get('greekRows') ?? savedRows).split(',').filter(r => ['transliteration', 'lemma', 'strongs', 'grammar'].includes(r)));
   }, []);
   function setGreekView(next: boolean, nextRows = rows) {
     setInterlinear(next);
@@ -89,8 +97,8 @@ export default function StudyPanel({
     const url = new URL(location.href);
     if (next) url.searchParams.set('greekView', 'interlinear');
     else url.searchParams.delete('greekView');
-    if (nextRows.length) url.searchParams.set('greekRows', nextRows.join(','));
-    else url.searchParams.delete('greekRows');
+    url.searchParams.set('greekRows', nextRows.join(','));
+    try { localStorage.setItem('afnt.interlinear.rows', nextRows.join(',')); } catch { /* Optional device preference. */ }
     history.replaceState({}, '', url.pathname + url.search);
   }
   const label = formatPassage(ranges);
@@ -503,7 +511,7 @@ export default function StudyPanel({
   return (
     <dialog
       ref={dialog}
-      className={`study-dialog${wide ? ' study-dialog-wide' : ''}`}
+      className={`study-dialog${wide ? ' study-dialog-wide' : ''}${sync ? ' verses-synced' : ''}`}
       onKeyDown={e => { if (e.key === 'Escape' && desktop && !e.defaultPrevented) { e.preventDefault(); onClose(); } }}
       aria-labelledby="study-title"
       onPointerDown={(e) => {
@@ -561,6 +569,10 @@ export default function StudyPanel({
         {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
+      {desktop && <label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
+        setSync(event.target.checked);
+        try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
+      }} />Sync verses</label>}
       </div><div className="study-content">
       {loading && <p role="status">Loading local study data…</p>}
       {error && (
@@ -683,6 +695,8 @@ export default function StudyPanel({
                           <p
                             key={s.id}
                             className="comparison-scripture"
+                            data-sync-anchors={s.anchors.join(' ')}
+                            data-sync-edition={e.editionId}
                             lang={e.language}
                           >
                             <small>{formatReference(s.sourceRef || s.id)}</small> {s.text}
@@ -751,7 +765,7 @@ export default function StudyPanel({
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
           <div className={`greek-workspace${token ? ' has-word' : ''}`}><div className="greek-passages">
           {analysis.map((s) => (
-            <section key={s.sourceRef} className="greek-verse">
+            <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition="nestle-analysis">
               <h3>{formatReference(s.sourceRef)}</h3>
               {s.status === 'unavailable' ? (
                 <>
