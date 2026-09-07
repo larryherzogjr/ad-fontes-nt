@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { useVerseSync } from './use-verse-sync';
+import { useStudyEdition } from './use-study-edition';
 import { formatPassage, formatReference } from '@/lib/reading-display';
 import { GreekWordButton, WordDefinition } from './word-lookup';
 import PublisherNoteLabel from './publisher-note-label';
@@ -80,6 +81,7 @@ export default function StudyPanel({
   const [desktop, setDesktop] = useState(false);
   useVerseSync(dialog, sync && desktop, `${mode}-${loading}-${wide}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
+  const currentEdition = useStudyEdition(dialog, desktop && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${formatPassage(ranges)}`);
   useEffect(() => {
     const params = new URL(location.href).searchParams;
     setSection(params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
@@ -569,10 +571,12 @@ export default function StudyPanel({
         {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && <label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
+      {desktop && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
-      }} />Sync verses</label>}
+      }} />Sync verses</label>
+      {currentEdition && <span className="study-current-edition" title={currentEdition} aria-label={`Current edition: ${currentEdition}`}>{currentEdition}</span>}
+      </div>}
       </div><div className="study-content">
       {loading && <p role="status">Loading local study data…</p>}
       {error && (
@@ -651,7 +655,7 @@ export default function StudyPanel({
                       (c) => c.editionId === e.editionId,
                     )!;
                     return (
-                      <article className="edition-reading" key={e.editionId}>
+                      <article className="edition-reading" data-study-edition={e.name} key={e.editionId}>
                         <h4>{e.name}</h4>
                         <a href={passageUrl(ranges, e.editionId)}>
                           Read in context
@@ -763,7 +767,7 @@ export default function StudyPanel({
             </p>
           )}
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
-          <div className={`greek-workspace${token ? ' has-word' : ''}`}><div className="greek-passages">
+          <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={editions.find(e => e.editionId === 'N1904')?.name}><div className="greek-passages">
           {analysis.map((s) => (
             <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition="nestle-analysis">
               <h3>{formatReference(s.sourceRef)}</h3>
