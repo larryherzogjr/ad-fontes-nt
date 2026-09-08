@@ -18,3 +18,11 @@ app/public/editorial/
 *.key
 *.pem
 app/public/lexical/
+
+.desktop-tools/
+app/desktop/dist/
+app/desktop/public/
+app/desktop/src-tauri/target/
+app/desktop/src-tauri/gen/
+app/public/om/
+artifacts/desktop/

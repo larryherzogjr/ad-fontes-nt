@@ -3,6 +3,7 @@ import { useEffect, useId, useState, type ReactNode } from 'react';
 import { HoverCard, HoverCardTrigger, HoverCardContent } from '@/components/ui/hover-card';
 import { loadLookup, resolveLookup, type LookupBundle } from '@/lib/domain/lexical';
 import { transliterateGreek } from '@/lib/domain/greek-reading';
+import { useReaderEnvironment } from './environment';
 import type { Token } from '@/lib/domain/greek';
 
 function useLookup(active: boolean) {
@@ -17,6 +18,7 @@ function useLookup(active: boolean) {
   return { data, error };
 }
 export function WordDefinition({ token, compact = false }: { token: Token; compact?: boolean }) {
+  const { WordStudyLink } = useReaderEnvironment();
   const { data, error } = useLookup(true);
   const result = data ? resolveLookup(data, token) : null;
   return <div className="word-definition">
@@ -24,7 +26,7 @@ export function WordDefinition({ token, compact = false }: { token: Token; compa
     {!data ? <p role="status">{error ? 'Lexicon could not be loaded.' : 'Loading definition…'}</p> : <>
       <p>{result?.definition ? (compact ? result.definition.brief : result.definition.full) : 'No verified Dodson entry is linked to this standard form.'}</p>
       <p className="study-help">Dictionary meaning range; the passage determines the sense.</p>
-      {result?.links.map(link => <p key={link.url} className="word-study-link"><a href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</a><small>Ordinary Means commentary{link.access !== 'free' ? ' · Website access requirements apply' : ''} · opens in a new tab</small></p>)}
+      {result?.links.map(link => <WordStudyLink key={link.url} link={link} />)}
     </>}
   </div>;
 }

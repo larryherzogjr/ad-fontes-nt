@@ -9,3 +9,8 @@ app/.vinext
 **/__pycache__
 /Ad Fontes - Volume One.pdf
 deployment/backups
+
+.desktop-tools
+app/desktop
+app/public/om
+artifacts/desktop

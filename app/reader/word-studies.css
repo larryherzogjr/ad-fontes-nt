@@ -1,0 +1,15 @@
+.saved-study-link { border: 0; padding: 0; min-height: 32px; background: transparent; text-decoration: underline; text-align: left; font: inherit; }
+.word-study-link .saved-study-link { font-size: .85rem; }
+dialog.om-study { margin: auto; width: min(850px, calc(100vw - 32px)); max-height: calc(100vh - 48px); padding: 0; border: 1px solid var(--border); border-radius: 6px; color: var(--foreground); background: var(--background); }
+.om-study::backdrop { background: #202b3260; }
+.om-study .om-study-header { position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; background: var(--background); border-bottom: 1px solid var(--border); }
+.om-study-header p { margin: 0; font-size: 13px; }
+.om-study-header h2 { margin: 0; font: 26px/1.4 Georgia, serif; }
+.om-study .om-study-body { padding: 20px 32px 32px; font: 19px/1.75 Georgia, serif; overflow-wrap: anywhere; }
+.om-study-body h2 { font: 25px/1.4 Georgia, serif; margin-top: 1.5em; }
+.om-study-body blockquote { border-left: 3px solid var(--border); padding-left: 20px; margin-inline: 0; }
+.om-study-subtitle { font-size: 23px; }
+@media (max-width: 600px) { .om-study .om-study-header { padding: 14px; } .om-study .om-study-body { padding: 16px; } .om-study-header button { max-width: 110px; } }
+.om-study-body ul { list-style: disc; padding-inline-start: 1.5em; }
+.om-study-body ol { list-style: decimal; padding-inline-start: 1.5em; }
+.om-study-body [data-footnotes] { border-top: 1px solid var(--border); margin-top: 1.5em; font-size: .9em; }

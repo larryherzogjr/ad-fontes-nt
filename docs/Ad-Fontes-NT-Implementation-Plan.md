@@ -220,3 +220,15 @@ The user chose Google identity, a once-only shared registration password, accoun
 ## M4 acceptance — 2026-09-05
 
 Larry explicitly accepted M4 after confirming the final note export/import, persistence and live UI checks. AFNT-022–025 and the advanced AFNT-101 slice are accepted under the account-backed and initial link-only scope. See `M4-Acceptance.md`. Off-host backups remain deferred; M5 AFNT-026–029 is next. This supersedes the earlier pending resource-inventory status.
+
+## Authorized desktop prototype — 2026-09-08
+
+Larry advanced AFNT-107 after discussing a self-contained Windows/Linux/macOS edition. The first deliverable is an offline desktop reader prototype sharing the existing React reader/domain logic, with one bundled approved OM Greek study to establish the publishing path. Desktop accounts, registration and note synchronization are excluded; optional local notes are deferred. The hosted M4 account-backed notes remain accepted and unchanged. AFNT-104 covers expansion of the approved authored-study collection. See [Desktop workflow](Desktop-Workflow.md) for code boundaries, reproducible builds, verification and remaining distribution work. This authorizes local prototype work, not a live website deployment or a public desktop release. M5 remains incomplete.
+
+## Accepted native prototype and shared article viewer — 2026-09-08
+
+Larry reported “Works perfect” after trying the native app. This is user acceptance of the presented macOS prototype, not certification of other platforms or a completed M5. He explicitly requested the same embedded Greek articles in the web application, with links to their originals on larryherzogjr.com. AFNT-104 now includes the shared web/desktop article viewer and common pinned content build. The first local implementation uses the existing approved Nekros snapshot; a reviewed larger export is next. Hosted accounts remain web-specific. No live deployment is included in this local change.
+
+## All Greek articles approved — 2026-09-08
+
+Larry confirmed that all 250 Greek word articles were reviewed and approved for use and should be live on larryherzogjr.com. This supersedes the 39 historical pending-review flags and the one-article content limit. AFNT-104 now includes the full immutable article snapshot shared by both builds, on-demand article loading and preserved footnotes/cross-links. All 250 author-site URLs were verified live and equal to the local production build; no deployment was required there. This does not close Windows/Linux packaging, signing, Ad Fontes NT website deployment or M5 acceptance.

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "om-studies-2026-09-08-prototype-v1",
+  "snapshotDate": "2026-09-08",
+  "sourceRepositoryRevision": "bdecde97127ea0c9c30489627033287fc69857d2",
+  "scope": "Local desktop prototype. Public distribution requires a separate review of embedded third-party quotations and notices.",
+  "authorization": "Larry authorized bundled authored word studies and the desktop prototype in the September 8, 2026 project conversation.",
+  "files": {
+    "evidence/COPY-REVIEW.md": "018f702966478c73434c6636b06598737cd12129eaad8dcce556ab8d0a3f217a",
+    "raw/nekros.md": "0587d5becc68ac466b0674a359b76cff7bd3fec4f839892cf0d1ca830fb48677"
+  },
+  "articles": [
+    {
+      "slug": "nekros",
+      "title": "Nekros (νεκρός)",
+      "headword": "νεκρός",
+      "subtitle": "Dead Means Dead",
+      "author": "Larry Herzog Jr.",
+      "url": "https://larryherzogjr.com/greek/nekros/",
+      "sourcePath": "raw/nekros.md",
+      "approvalEvidence": "evidence/COPY-REVIEW.md",
+      "approvalDate": "2026-09-06",
+      "contentSha256": "0587d5becc68ac466b0674a359b76cff7bd3fec4f839892cf0d1ca830fb48677",
+      "thirdPartyMaterial": "Contains the existing Colossians 2:13 NET quotation; retained verbatim. This does not add NET as a Scripture edition."
+    }
+  ],
+  "outputSha256": "066f040d0010844adad334e4ba62b62d0b18a7ebd84165e042bc21aeac7e84eb"
+}

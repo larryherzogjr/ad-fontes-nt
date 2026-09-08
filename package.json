@@ -4,13 +4,19 @@
   "scripts": {
     "dev": "npm --prefix app run dev -- --host 127.0.0.1",
     "import:bsb": "python3 scripts/import_bsb.py",
-    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts tests/resources.test.ts tests/lexical.test.ts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py",
+    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts tests/resources.test.ts tests/lexical.test.ts tests/om_studies.test.mts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py",
     "typecheck": "npm --prefix app run typecheck",
     "build": "npm --prefix app run build",
-    "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts && python3 scripts/import_lexicon.py",
+    "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts && python3 scripts/import_lexicon.py && node scripts/import_om_studies.mts",
     "publish:variants": "node scripts/publish_variants.ts",
     "test:accounts": "node --test tests/accounts.integration.mts",
-    "migrate": "node scripts/migrate.mts"
+    "migrate": "node scripts/migrate.mts",
+    "desktop:dev": "node scripts/desktop.mjs dev",
+    "desktop:build": "node scripts/desktop.mjs build",
+    "desktop:build:web": "npm --prefix app run desktop:build:web",
+    "desktop:preview": "npm --prefix app run desktop:preview",
+    "test:desktop": "node --test tests/desktop.test.ts",
+    "verify:both": "npm run typecheck && npm run build && npm run desktop:build:web && npm run test:desktop"
   },
   "type": "module"
 }
