@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Clear app-marked Scripture selection (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
+
+- Added “Clear selection” beside the selected-passage indicator whenever a passage is explicitly marked by the app. It returns to the current chapter and edition without passage/panel parameters, removes stale study-return context, and uses the existing scroll/focus restoration path. The button disappears when nothing is selected; opening either study tool then uses the full chapter. Clearing from desktop study also closes that study view. Native mouse-selection actions are unchanged.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Browser checks covered keyboard clearing of John 3:1–17, zero remaining marks/button, reload followed by full-chapter comparison, search-selected Romans 3:23–26, phone clearing followed by full-chapter Greek, and clearing from an open desktop Greek sidebar. At 390px the selected reference and 44px-high button fit without horizontal overflow and were visually inspected.
+- Prepared locally; no commit, push or deployment. No corpus, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Suppress incidental word previews on return (AFNT-020 / AFNT-026 / AFNT-029)
 
 - Follow-up to the accepted sidebar dismissal: returning to the selected verse now closes word previews and suppresses immediate/delayed focus opening. Reflow under a stationary pointer cannot open another word's preview. Pointer movement or subsequent Tab navigation restores ordinary preview interaction; focus still returns to the original word.

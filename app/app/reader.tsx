@@ -333,6 +333,16 @@ export default function Reader() {
   function goBook(b: string, c: number) {
     navigate(`/read/${b}/${c}?translation=${encodeURIComponent(edition)}`);
   }
+  function clearSelection() {
+    const url = `/read/${current.book.code}/${current.chapter}?translation=${encodeURIComponent(edition)}`;
+    try {
+      sessionStorage.removeItem('afnt-study-origin');
+      sessionStorage.setItem('afnt-reading-return', JSON.stringify({
+        url, y: window.scrollY, focusId: 'reading',
+      }));
+    } catch {}
+    navigate(url);
+  }
   function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!input.trim()) return;
@@ -602,7 +612,10 @@ export default function Reader() {
                 </PopoverContent>
               </Popover>
             </div>
-            <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Select a verse number or highlight Scripture to study a passage.'}</p>
+            <div className="reader-selection-status">
+              <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Select a verse number or highlight Scripture to study a passage.'}</p>
+              {explicitPassage && <button onClick={clearSelection}>Clear selection</button>}
+            </div>
             <ReadingSelection onOpen={openStudy} onNote={setNoteSelection} />
             {study && <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />}
             {chapters.map((ch) => (
