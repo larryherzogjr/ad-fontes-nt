@@ -368,11 +368,7 @@ export default function Reader() {
         }),
       );
     } catch {}
-    const selected =
-      chosen ||
-      (explicitPassage
-        ? ranges
-        : [{ start: ranges[0].start, end: ranges[0].start }]);
+    const selected = chosen || ranges;
     navigate(`${passageUrl(selected, edition)}&panel=${mode}${unitId ? `&unit=${encodeURIComponent(unitId)}` : ''}`);
   }
   function closeStudy() {
@@ -462,7 +458,7 @@ export default function Reader() {
             <NativeSelect
               aria-label="Book"
               value={current.book.code}
-              onChange={(e) => navigate(link([chapterRange(e.target.value, 1)]))}
+              onChange={(e) => goBook(e.target.value, 1)}
             >
               {books.map((b) => (
                 <option key={b.code} value={b.code}>
@@ -476,7 +472,7 @@ export default function Reader() {
             <NativeSelect
               aria-label="Chapter"
               value={current.chapter}
-              onChange={(e) => navigate(link([chapterRange(current.book.code, +e.target.value)]))}
+              onChange={(e) => goBook(current.book.code, +e.target.value)}
             >
               {current.book.verses.map((_, i) => (
                 <option key={i + 1}>{i + 1}</option>

@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Unmarked navigation with full-chapter study (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
+
+- Supersedes the September 7 dropdown-selection change below at Larry's request. Book/chapter dropdowns again open unmarked chapters. Compare editions and Explore Greek now use the full current chapter when no explicit passage is selected, instead of its first verse. Explicit search ranges and verse-popup selections still take precedence. Closing a study opened from an unmarked chapter restores that unmarked reader.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Browser checks confirmed both dropdowns leave zero marked spans, both tools receive Romans 3:1–31 through verse 31, Greek reload retains the full range, Enter/Escape navigation works, and closing restores the original chapter URL without selection. At 390px, whole-chapter Greek study displayed without horizontal overflow; verse 2's popup opened only Romans 3:2. Searching John 3:1–17 retained that exact comparison range.
+- Prepared locally; no commit, push or deployment. No corpus, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Return from Greek word details (AFNT-020 / AFNT-026 / AFNT-029)
 
 - “Return to selected verse” now clears the selected token, removes its URL parameter and dismisses the word-detail inspector while leaving Explore Greek open. Focus and scroll return to the originating word after the passage reflows. Desktop renders the inspector only when a word is selected; phone inline details also close.
