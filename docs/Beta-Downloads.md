@@ -8,7 +8,7 @@ The website favicon reuses the approved six-size ICO; root metadata references `
 
 Nginx serves `/beta-downloads/` from `/var/www/ad-fontes-downloads/`, outside Git, Docker builds, public app assets and the account service. Directory listings are disabled; only GET/HEAD are permitted. Responses request attachment download and carry `X-Robots-Tag: noindex, nofollow, noarchive`. Links are unlisted, not authenticated; anyone receiving a link can use it. No public page, navigation, sitemap or announcement links to these files.
 
-Prepared URLs (available only after the publication script succeeds):
+Live verified download URLs:
 
 - https://ad-fontes.app/beta-downloads/2026-09-08-af/Ad-Fontes-NT-Windows-x64-beta-3.zip
 - https://ad-fontes.app/beta-downloads/2026-09-08-af/Ad-Fontes-NT-macOS-Apple-Silicon-beta-2.dmg
@@ -29,4 +29,6 @@ The current remote sudo policy requires interactive authentication; SSH access a
 
 ## Preparation verification
 
-Local typecheck and production build passed (49 Node tests and 11 Python tests). The local production favicon response matches the approved ICO bytes and rendered metadata references the versioned URL. Homepage HTML contains no beta-download links. Both uploaded host files match `deployment/beta-downloads.sha256`; shell syntax and Git whitespace checks passed. Live Nginx validation and public HTTPS verification await the interactive publication step.
+Local typecheck and production build passed (49 Node tests and 11 Python tests). The local production favicon response matches the approved ICO bytes and rendered metadata references the versioned URL. Homepage HTML contains no beta-download links. Both uploaded host files match `deployment/beta-downloads.sha256`; shell syntax and Git whitespace checks passed. Larry completed publication from source `e77d559`; Nginx validation passed and the app/database containers were healthy. The reload-transition 404 cleared on the built-in retry. The routine app update created `backups/adfontes-before-update-20260908T235608Z.dump`.
+
+Independent public HTTPS verification downloaded both entire files and matched their pinned SHA-256 values (Windows 293,900,554 bytes; Mac 35,727,188 bytes). Both return HTTP 200 with attachment/noindex headers and HTTP 206 for byte-range requests. `/beta-downloads/` and its release directory both return 403, preventing listings. The public favicon matches the approved ICO bytes; homepage metadata is correct and includes no beta links; the health endpoint returns `{"ok":true}`. This verifies distribution, not actual Windows/Mac tester acceptance.
