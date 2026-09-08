@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Quieter keyboard focus (AFNT-005 / AFNT-026 / AFNT-029)
+
+- Removed the prominent blue focus frames at Larry's request. Keyboard-focused links, buttons and disclosures use a thin text underline; form fields use a 1px muted outline. Study headings and cited-source targets use an underline. Removed the blanket negative-tabindex outline that overrode the reader's existing border-free focus style. Tab order, activation and focus restoration code remain intact.
+- Verification: `npm run typecheck` and `npm run build` passed; the build's prebuild ran `npm test` (47 Node tests and 11 Python fidelity tests) and reproduced the pinned imports. Browser checks covered title/passage-trigger focus, keyboard passage-picker opening and Escape, native field styling, next-chapter activation, the Ephesians 6 selected-range deep link and Clear selection, skip-to-reading focus without a pane border, Tab/Enter into comparison and its heading cue. Visually checked narrow 319px and desktop 1280px layouts with no horizontal overflow. No full accessibility audit or physical-device test is claimed.
+- Prepared locally; no commit, push or deployment. No corpus, editorial, account, database or dependency changes. Next: review the quieter focus treatment, established GitHub/host release workflow, and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Chapter verse picker (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
 
 - Added Select verses when unmarked and Edit selection beside Clear selection when marked. The existing popover/native-select components provide From verse and Through verse controls with Apply selection and Cancel. Options use the current chapter's canonical verse inventory independently of edition coverage. Matching endpoints select one verse; advancing the start beyond the end advances the end automatically, and end options cannot precede the start.
