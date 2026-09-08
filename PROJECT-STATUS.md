@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Approved AF desktop icon (AFNT-107)
+
+- Larry selected the AF open-book icon and authorized mechanical removal of the painted checkerboard. The exact approved preview and cleaned RGBA master are saved in `app/desktop/branding/`, with approval, provenance, hashes and regeneration instructions. The book and AF artwork retain their original RGB pixels.
+- Replaced technical placeholders with multi-resolution Windows ICO, Mac ICNS and PNG assets; configured the common native bundle. Windows build metadata now identifies the approved icon and master hash. Tester instructions include icon checks. No reader, corpus, website or account behavior changed.
+- Verified alpha, icon sizes and visual previews at 128/64/32/16 pixels. Mac and Windows beta rebuilds are in progress; their final packaging evidence follows when complete. M4 remains accepted; M5 remains incomplete.
+
 ## 2026-09-08 — Windows beta lane (AFNT-107)
 
 - Larry authorized Windows work in parallel with Mac beta development and has Windows testers available. Work starts from clean `main` commit `11fb737`, on `codex/windows-beta`.

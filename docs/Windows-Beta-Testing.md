@@ -30,3 +30,7 @@ The installer includes Microsoft's offline WebView2 runtime installer. A machine
 Include the build/commit from `BUILD-INFO.json`, Windows version, Intel/AMD/ARM processor type, display scaling, and whether installation and offline use worked. For a problem, give the passage, edition, steps, expected result and actual result. Screenshots of unexpected behavior are helpful. Keep passwords and other private information out of reports.
 
 There is no automatic updater yet. Larry will supply a new installer for later betas. A successful build is not a substitute for your real Windows test results.
+
+## Application icon
+
+This build uses the approved ivory AF open book with a brass bookmark on navy. Check its appearance in Start, the taskbar, installed-app shortcuts and setup. Report a blank, checkerboard or generic icon, and include the build identity from BUILD-INFO.json.

@@ -9,7 +9,7 @@ AFNT-107 · September 8, 2026. Larry authorized Windows beta work in parallel wi
 1. Ubuntu reproduces pinned content, tests both website and desktop, and packages verified frontend assets.
 2. Windows Server 2022 installs Rust 1.94.0 and uses the locked Tauri dependencies to embed those exact assets in a Windows x64 NSIS installer.
 
-The installer includes the offline Evergreen WebView2 installer, uses current-user installation, and retains the existing app identifier. The Windows-only Tauri configuration leaves Mac settings alone. Its ICO is a container for the existing transparent technical placeholder, not new branding.
+The installer includes the offline Evergreen WebView2 installer, uses current-user installation, and retains the existing app identifier. The Windows-only Tauri configuration leaves Mac settings alone. Its ICO uses Larry's approved AF open-book application icon; Mac uses an ICNS generated from the same master.
 
 Corpus imports deliberately run on Linux. Python's platform defaults can otherwise change output newlines/encoding on Windows. The artifact hash is checked before extraction; Windows never fetches live corpus or article data. `.gitattributes` preserves pinned source and editorial bytes on every checkout.
 

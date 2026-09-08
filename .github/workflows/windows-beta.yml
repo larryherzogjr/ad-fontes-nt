@@ -104,6 +104,9 @@ jobs:
           $om = Get-Content app/lib/domain/om-release.json | ConvertFrom-Json
           @{
             version = '0.1.0'
+            betaBuild = '${{ github.run_number }}'
+            icon = 'approved AF open book'
+            iconMasterSha256 = (Get-FileHash app/desktop/branding/af-icon.png -Algorithm SHA256).Hash.ToLowerInvariant()
             platform = 'windows-x86_64'
             commit = '${{ github.sha }}'
             run = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'

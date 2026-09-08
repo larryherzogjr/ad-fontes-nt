@@ -84,7 +84,7 @@ The Windows beta now has an independent [build lane](Windows-Build.md) and [test
 
 - AFNT-107: native Windows/Linux builds and actual runtime checks; Intel Mac support if needed; supported OS versions and installer formats.
 - AFNT-104: maintain the approved 250-article export through the shared release workflow; review future source and quotation/asset changes.
-- AFNT-107: approved application icon, signing/notarization and installer/update/rollback rehearsals. The prototype has an unbranded transparent technical window icon and no finished application branding.
+- AFNT-107: signing/notarization and installer/update/rollback rehearsals. Larry approved the AF open-book application icon on September 8, 2026; Mac and Windows use formats generated from the same master.
 - AFNT-107: local notes only if they prove useful; synchronization remains outside the accepted desktop direction.
 - AFNT-107: manual build automation first, then separately authorized distribution. Signed update checks may later be optional; offline reading must never depend on an update service.
 - AFNT-026–029: continuing M5 accessibility/pilot/release work for the web product; desktop prototype completion does not close these items.
