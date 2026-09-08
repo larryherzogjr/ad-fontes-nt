@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Website AF favicon and unlisted beta downloads (AFNT-029 / AFNT-107)
+
+- Larry authorized the approved AF icon as the website favicon and publication of the two beta packages through direct, unlisted ad-fontes.app links. Added the same multi-size ICO and versioned root icon metadata; the social card and reading UI are unchanged.
+- Prepared a dedicated Nginx static-download location outside Git and the app container, with directory listing disabled, attachment/noindex headers and GET/HEAD only. No website pages/navigation/sitemap reference the files. Checksums, exact links and the staged-host publication workflow are in `docs/Beta-Downloads.md` and `deployment/publish-beta-downloads.sh`.
+- Local typecheck and production build passed, including 49 Node tests and 11 Python tests. Favicon sizes/identity and shell syntax verified. Host source was clean at `11fb737`; SSH works, but the server requires an interactive sudo password for final publication. Both packages are uploaded to private host staging and their remote SHA-256 checksums match the tested local artifacts. The local production response serves the exact ICO and the expected versioned icon metadata, with no homepage download links. Source is ready for main/host pull; final publication awaits the interactive sudo step, so the URLs are not yet claimed live. M4 remains accepted; M5 remains incomplete.
+
 ## 2026-09-08 — Approved AF desktop icon (AFNT-107)
 
 - Larry selected the AF open-book icon and authorized mechanical removal of the painted checkerboard. The exact approved preview and cleaned RGBA master are saved in `app/desktop/branding/`, with approval, provenance, hashes and regeneration instructions. The book and AF artwork retain their original RGB pixels.
