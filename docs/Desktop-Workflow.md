@@ -78,6 +78,8 @@ Baseline QA: direct passage link and reload, book/chapter confirmation, edition 
 
 Generated corpus data, frontend output, executables and local tools stay out of Git. `desktop-content.json` inventories staged assets and their checksums. Keep public installer/update hosting separate from the private source repository. Do not embed repository tokens or signing keys in an application.
 
+The Windows beta now has an independent [build lane](Windows-Build.md) and [tester guide](Windows-Beta-Testing.md). This produces private installer artifacts while Mac development continues.
+
 ## Next increments
 
 - AFNT-107: native Windows/Linux builds and actual runtime checks; Intel Mac support if needed; supported OS versions and installer formats.

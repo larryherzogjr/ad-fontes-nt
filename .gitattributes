@@ -1,0 +1,9 @@
+# Identical source and script line endings on Mac, Linux and Windows checkouts.
+* text=auto eol=lf
+# Source releases and editorial approvals are checksum-bound original bytes.
+sources/** -text
+content/editorial/** -text
+*.png -text
+*.ico -text
+*.zip -text
+*.pdf -text

@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Windows beta lane (AFNT-107)
+
+- Larry authorized Windows work in parallel with Mac beta development and has Windows testers available. Work starts from clean `main` commit `11fb737`, on `codex/windows-beta`.
+- Added a private GitHub Actions lane: Ubuntu validates both builds and frozen content, then Windows Server 2022 packages those exact frontend assets with Rust 1.94.0 and locked Tauri dependencies. Windows uses an x64 NSIS current-user installer with embedded offline WebView2 setup. A Windows-only config and the existing transparent icon preserve Mac behavior.
+- Build actions are pinned and have read-only repository access. The final private artifact includes installer, tester instructions, checksum and source/build identity. No automatic publication, website deployment, signing service, or message to testers is configured. Git attributes preserve source/approval checksums across platform checkouts.
+- Local YAML/config/icon checks passed. Remote build and actual tester outcomes are recorded below when available. A compiled installer will not imply real Windows reading/install certification. Signing, automatic updates, ARM support, Mac packaging and M5 pilot acceptance remain open.
+
 ## 2026-09-08 — All 250 Greek articles approved and bundled (AFNT-104 / AFNT-107)
 
 - Larry explicitly confirmed all Greek articles were already reviewed and approved, authorized their use, and requested that all be live on larryherzogjr.com. This supersedes the 39 pending-review flags and earlier marker-count caveats. Reconciled author-site metadata/comments and its review ledger under that instruction. All 250 article bodies are unchanged; the Explorer landing page retains its existing approval.
