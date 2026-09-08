@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Suppress incidental word previews on return (AFNT-020 / AFNT-026 / AFNT-029)
+
+- Follow-up to the accepted sidebar dismissal: returning to the selected verse now closes word previews and suppresses immediate/delayed focus opening. Reflow under a stationary pointer cannot open another word's preview. Pointer movement or subsequent Tab navigation restores ordinary preview interaction; focus still returns to the original word.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Browser checks covered Ephesians 2:1 νεκροὺς, mouse/keyboard return, Greek text/interlinear at 1440px and 390px, no popup after the normal opening delay, Tab/Shift+Tab preview reopening, Arrow Down access to the Nekros article link, direct token links and reload after dismissal. The clear desktop return view was visually inspected. No physical-device or full accessibility audit is claimed.
+- Prepared locally; no push or deployment. No corpus, analysis, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Unmarked navigation with full-chapter study (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
 
 - Supersedes the September 7 dropdown-selection change below at Larry's request. Book/chapter dropdowns again open unmarked chapters. Compare editions and Explore Greek now use the full current chapter when no explicit passage is selected, instead of its first verse. Explicit search ranges and verse-popup selections still take precedence. Closing a study opened from an unmarked chapter restores that unmarked reader.

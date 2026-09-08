@@ -75,6 +75,7 @@ export default function StudyPanel({
     [highlighted, setHighlighted] = useState<HighlightedOccurrence[]>([]),
     [highlightError, setHighlightError] = useState('');
   const [interlinear, setInterlinear] = useState(false);
+  const [suppressWordPreviews, setSuppressWordPreviews] = useState(false);
   const [rows, setRows] = useState<string[]>([]);
   const [sync, setSync] = useState(false);
   const [wide, setWide] = useState(false);
@@ -336,6 +337,7 @@ export default function StudyPanel({
                 <button
                   onClick={() => {
                     const el = document.getElementById(`word-${token.id}`);
+                    setSuppressWordPreviews(true);
                     setToken(null);
                     setWordError('');
                     const url = new URL(location.href);
@@ -775,7 +777,11 @@ export default function StudyPanel({
             </p>
           )}
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
-          <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={editions.find(e => e.editionId === 'N1904')?.name}><div className="greek-passages">
+          <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={editions.find(e => e.editionId === 'N1904')?.name}
+            // Returning focus and reflow under a stationary pointer must not reopen previews.
+            onPointerMove={() => setSuppressWordPreviews(false)}
+            onKeyDown={event => { if (event.key === 'Tab') setSuppressWordPreviews(false); }}
+          ><div className="greek-passages">
           {analysis.map((s) => (
             <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition="nestle-analysis">
               <h3>{formatReference(s.sourceRef)}</h3>
@@ -788,7 +794,7 @@ export default function StudyPanel({
                 </>
               ) : interlinear ? (
                 <div className="interlinear-words" aria-label={`${s.sourceRef} interlinear`}>
-                  {s.tokens.map((t, i) => <GreekWordButton token={t} key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} selected={token?.id === t.id} label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onChoose={() => choose(t)}>
+                  {s.tokens.map((t, i) => <GreekWordButton token={t} key={t.id} id={`word-${t.id}`} className={`interlinear-word${token?.id === t.id ? ' chosen' : ''}`} selected={token?.id === t.id} suppressPreview={suppressWordPreviews} label={`${t.surface}, ${t.gloss ?? 'Gloss unavailable'}, ${s.sourceRef}, word ${i + 1}`} onChoose={() => choose(t)}>
                     <span lang="grc" className="interlinear-surface">{i === 0 ? s.text.slice(0, t.start) : ''}{t.surface}{s.text.slice(t.end, s.tokens[i + 1]?.start)}</span>
                     <span className="interlinear-gloss">{t.gloss ?? 'Gloss unavailable'}</span>
                     {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
@@ -804,6 +810,7 @@ export default function StudyPanel({
                       {s.text.slice(i ? s.tokens[i - 1].end : 0, t.start)}
                       <GreekWordButton
                         token={t}
+                        suppressPreview={suppressWordPreviews}
                         id={`word-${t.id}`}
                         className={
                           token?.id === t.id

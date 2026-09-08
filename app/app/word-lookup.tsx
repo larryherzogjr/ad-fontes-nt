@@ -28,14 +28,27 @@ export function WordDefinition({ token, compact = false }: { token: Token; compa
     </>}
   </div>;
 }
-export function GreekWordButton({ token, id, className, label, selected, onChoose, children }: { token: Token; id: string; className: string; label: string; selected: boolean; onChoose: () => void; children: ReactNode }) {
+export function GreekWordButton({ token, id, className, label, selected, suppressPreview = false, onChoose, children }: { token: Token; id: string; className: string; label: string; selected: boolean; suppressPreview?: boolean; onChoose: () => void; children: ReactNode }) {
   const popupId = useId();
   const [open, setOpen] = useState(false);
   const [container, setContainer] = useState<HTMLElement | null>(null);
-  return <HoverCard open={open} onOpenChange={setOpen}>
+  useEffect(() => { if (suppressPreview) setOpen(false); }, [suppressPreview]);
+  return <HoverCard open={open && !suppressPreview} onOpenChange={(nextOpen) => {
+    if (nextOpen && suppressPreview) return;
+    setOpen(nextOpen);
+  }}>
     <HoverCardTrigger render={<button type="button" />} id={id} className={className} aria-label={label} aria-pressed={selected} aria-describedby={open ? popupId : undefined} aria-description="Enter opens word details. Arrow Down enters the definition popup."
       onPointerEnter={event => setContainer(event.currentTarget.closest('dialog'))}
-      onFocus={event => { setContainer(event.currentTarget.closest('dialog')); setOpen(true); }}
+      onFocus={event => {
+        setContainer(event.currentTarget.closest('dialog'));
+        if (suppressPreview) {
+          // Skip both our immediate popup and Base UI's delayed focus popup.
+          event.preventBaseUIHandler();
+          setOpen(false);
+          return;
+        }
+        setOpen(true);
+      }}
       onBlur={event => { if (!(event.relatedTarget instanceof Element) || !event.relatedTarget.closest('.lexicon-popup')) setOpen(false); }}
       onKeyDown={event => { if (event.key === 'ArrowDown' && open) { event.preventDefault(); const popup = document.getElementById(popupId); (popup?.querySelector('a') || popup)?.focus(); } if (event.key === 'Escape' && open) { event.preventDefault(); event.stopPropagation(); setOpen(false); } }}
       onClick={() => { setOpen(false); onChoose(); }}>
