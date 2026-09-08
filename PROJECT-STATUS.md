@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Return from Greek word details (AFNT-020 / AFNT-026 / AFNT-029)
+
+- “Return to selected verse” now clears the selected token, removes its URL parameter and dismisses the word-detail inspector while leaving Explore Greek open. Focus and scroll return to the originating word after the passage reflows. Desktop renders the inspector only when a word is selected; phone inline details also close.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Local browser checks covered Ephesians 2:2 αἰῶνα within the full chapter, Greek text and interlinear at 1440px and 390px, mouse and keyboard dismissal, restored word focus, selected-token deep links, reload after dismissal, reopening details, and desktop verse synchronization. Checked layouts had no horizontal overflow; desktop and phone views were visually inspected. Physical-device and full accessibility testing remain outstanding.
+- Prepared locally; no push or deployment. No corpus, analysis, editorial, account, database or dependency changes. Next: the established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-07 — Dropdown chapter selection (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
 
 - Book and chapter dropdowns now navigate through the same canonical full-chapter passage link as reference search. Choosing a book selects its first chapter; choosing a chapter marks that entire chapter and supplies it to Compare editions and Explore Greek. Existing previous/next navigation is unchanged; verse-selection actions can still open a smaller passage.

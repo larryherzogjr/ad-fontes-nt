@@ -336,8 +336,16 @@ export default function StudyPanel({
                 <button
                   onClick={() => {
                     const el = document.getElementById(`word-${token.id}`);
-                    el?.focus();
-                    el?.scrollIntoView({ block: 'center' });
+                    setToken(null);
+                    setWordError('');
+                    const url = new URL(location.href);
+                    url.searchParams.delete('token');
+                    history.replaceState({}, '', url.pathname + url.search);
+                    // Restore the word after the inspector closes and the passage reflows.
+                    requestAnimationFrame(() => {
+                      el?.focus({ preventScroll: true });
+                      el?.scrollIntoView({ block: 'center' });
+                    });
                   }}
                 >
                   Return to selected verse
@@ -817,7 +825,7 @@ export default function StudyPanel({
             </section>
           ))}
           </div>
-          {desktop && <aside className="greek-inspector">{wordDetails}</aside>}
+          {desktop && token && <aside className="greek-inspector">{wordDetails}</aside>}
           </div>
           <p>
             <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
