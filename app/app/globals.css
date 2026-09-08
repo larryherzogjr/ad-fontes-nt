@@ -921,6 +921,11 @@ textarea:focus-visible, [tabindex='-1']:focus-visible { outline: 3px solid var(-
 .reader-selection-status { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 12px; margin: 5px 8px 18px; }
 .reader-selection-status .reader-hint { margin: 0; }
 .reader-selection-status button { font-size: 14px; padding: 6px 10px; }
+.verse-picker-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+.verse-picker-fields label { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.verse-picker-fields select { width: 100%; }
+.verse-picker-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.verse-picker-actions button { font-size: 14px; }
 .chapter-heading { margin: 24px 0 20px; }
 .chapter-heading .edition { font-size: 14px; color: var(--muted-foreground); margin: 0 0 9px; max-width: none; }
 .chapter-heading h1 { margin: 0; font-size: 44px; letter-spacing: -.7px; }

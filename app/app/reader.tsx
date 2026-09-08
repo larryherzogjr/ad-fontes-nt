@@ -54,6 +54,9 @@ function noteContent(x: unknown, i = 0): React.ReactNode {
 export default function Reader() {
   const reviewed = useReviewedUnits();
   const [searchOpen, setSearchOpen] = useState(false);
+  const [versePickerOpen, setVersePickerOpen] = useState(false);
+  const [fromVerse, setFromVerse] = useState(1);
+  const [throughVerse, setThroughVerse] = useState(1);
   const [noteSelection,setNoteSelection] = useState<PassageRange[] | null>(null);
   const openReviewed = (unit: Variant, focusId: string) => openStudy(unit.presentation === 'publisher-note' ? 'notes' : 'compare', unit.ranges, focusId, unit.id);
   const [ranges, setRanges] = useState<PassageRange[]>([initial]),
@@ -332,6 +335,29 @@ export default function Reader() {
     next = chapterNeighbor(last.book.code, last.chapter, 1);
   function goBook(b: string, c: number) {
     navigate(`/read/${b}/${c}?translation=${encodeURIComponent(edition)}`);
+  }
+  const chapterVerseCount = current.book.verses[current.chapter - 1];
+  function toggleVersePicker(open: boolean) {
+    if (open) {
+      const end = address(ranges[0].end);
+      setFromVerse(explicitPassage ? current.verse : 1);
+      setThroughVerse(explicitPassage
+        ? end.book.code === current.book.code && end.chapter === current.chapter
+          ? end.verse : chapterVerseCount
+        : 1);
+    }
+    setVersePickerOpen(open);
+  }
+  function applyVerseSelection(e: React.FormEvent) {
+    e.preventDefault();
+    try {
+      sessionStorage.removeItem('afnt-study-origin');
+      sessionStorage.removeItem('afnt-reading-return');
+    } catch {}
+    navigate(link([{
+      start: `${current.book.code}.${current.chapter}.${fromVerse}`,
+      end: `${current.book.code}.${current.chapter}.${throughVerse}`,
+    }]));
   }
   function clearSelection() {
     const url = `/read/${current.book.code}/${current.chapter}?translation=${encodeURIComponent(edition)}`;
@@ -614,6 +640,34 @@ export default function Reader() {
             </div>
             <div className="reader-selection-status">
               <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Select a verse number or highlight Scripture to study a passage.'}</p>
+              <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
+                <PopoverTrigger>{explicitPassage ? 'Edit selection' : 'Select verses'}</PopoverTrigger>
+                <PopoverContent className="reader-popover verse-picker" align="start">
+                  <PopoverTitle>Select verses in {current.book.name} {current.chapter}</PopoverTitle>
+                  <form onSubmit={applyVerseSelection}>
+                    <div className="verse-picker-fields">
+                      <label>From verse
+                        <NativeSelect aria-label="From verse" value={fromVerse} onChange={e => {
+                          const verse = Number(e.target.value);
+                          setFromVerse(verse);
+                          setThroughVerse(end => Math.max(end, verse));
+                        }}>
+                          {Array.from({ length: chapterVerseCount }, (_, i) => <option key={i + 1} value={i + 1}>{i + 1}</option>)}
+                        </NativeSelect>
+                      </label>
+                      <label>Through verse
+                        <NativeSelect aria-label="Through verse" value={throughVerse} onChange={e => setThroughVerse(Number(e.target.value))}>
+                          {Array.from({ length: chapterVerseCount - fromVerse + 1 }, (_, i) => <option key={fromVerse + i} value={fromVerse + i}>{fromVerse + i}</option>)}
+                        </NativeSelect>
+                      </label>
+                    </div>
+                    <div className="verse-picker-actions">
+                      <button type="submit">Apply selection</button>
+                      <button type="button" onClick={() => setVersePickerOpen(false)}>Cancel</button>
+                    </div>
+                  </form>
+                </PopoverContent>
+              </Popover>
               {explicitPassage && <button onClick={clearSelection}>Clear selection</button>}
             </div>
             <ReadingSelection onOpen={openStudy} onNote={setNoteSelection} />

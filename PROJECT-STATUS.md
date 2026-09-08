@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Chapter verse picker (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
+
+- Added Select verses when unmarked and Edit selection beside Clear selection when marked. The existing popover/native-select components provide From verse and Through verse controls with Apply selection and Cancel. Options use the current chapter's canonical verse inventory independently of edition coverage. Matching endpoints select one verse; advancing the start beyond the end advances the end automatically, and end options cannot precede the start.
+- Opening pre-fills the existing first selected range within the displayed chapter (clipped at the chapter boundary for a cross-chapter range), or verse 1 when unmarked. Apply replaces the selection with the chosen chapter range without opening a study panel; Cancel leaves the current selection intact. Search, mouse selection, clearing and full-chapter study fallback remain available.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Browser checks covered defaults, Romans 3:23–26 exact marked anchors, no automatic sidebar, edit prefill, cancellation, both study tools receiving the range, reload prefill, last-verse 31-only selection, keyboard Apply, and Clear returning to Select verses. At 320px the popup and controls fit without horizontal overflow and were visually inspected.
+- Prepared locally; no commit, push or deployment. No corpus, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Clear app-marked Scripture selection (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
 
 - Added “Clear selection” beside the selected-passage indicator whenever a passage is explicitly marked by the app. It returns to the current chapter and edition without passage/panel parameters, removes stale study-return context, and uses the existing scroll/focus restoration path. The button disappears when nothing is selected; opening either study tool then uses the full chapter. Clearing from desktop study also closes that study view. Native mouse-selection actions are unchanged.
