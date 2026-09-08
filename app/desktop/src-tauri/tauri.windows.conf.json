@@ -5,7 +5,7 @@
     "icon": ["icons/icon.ico"],
     "windows": {
       "webviewInstallMode": { "type": "offlineInstaller" },
-      "nsis": { "installMode": "currentUser", "languages": ["English"] }
+      "nsis": { "installMode": "currentUser", "languages": ["English"], "installerIcon": "icons/icon.ico", "uninstallerIcon": "icons/icon.ico" }
     }
   }
 }
