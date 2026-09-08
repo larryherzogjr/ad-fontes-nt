@@ -4,7 +4,7 @@
 
 - Larry selected the AF open-book icon and authorized mechanical removal of the painted checkerboard. The exact approved preview and cleaned RGBA master are saved in `app/desktop/branding/`, with approval, provenance, hashes and regeneration instructions. The book and AF artwork retain their original RGB pixels.
 - Replaced technical placeholders with multi-resolution Windows ICO, Mac ICNS and PNG assets; configured the common native bundle. Windows build metadata now identifies the approved icon and master hash. Tester instructions include icon checks. No reader, corpus, website or account behavior changed.
-- Verified alpha, icon sizes and visual previews at 128/64/32/16 pixels. Mac and Windows beta rebuilds are in progress; their final packaging evidence follows when complete. M4 remains accepted; M5 remains incomplete.
+- Verified alpha, icon sizes and visual previews at 128/64/32/16 pixels. Mac packaging exposed an incomplete linker-only signature; a Mac-only ad-hoc signing overlay now seals the whole app, and strict/deep signature verification passed. Windows is rebuilding; final installer evidence follows when complete. M4 remains accepted; M5 remains incomplete.
 
 ## 2026-09-08 — Windows beta lane (AFNT-107)
 

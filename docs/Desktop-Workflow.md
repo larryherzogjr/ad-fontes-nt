@@ -46,6 +46,8 @@ The second command produces a macOS `.app`; use the platform-appropriate bundle 
 
 The first verified macOS arm64 prototype is copied to `artifacts/desktop/Ad Fontes NT.app`, alongside `BUILD-INFO.json` identifying its binary. Future native builds write to `app/desktop/src-tauri/target/release/bundle/`; the convenience copy is not automatically refreshed. Both locations are ignored by Git.
 
+Mac beta packaging uses `tauri.macos.conf.json` with ad-hoc signing (`-`) to seal the complete app bundle, including icon resources. Verify it with `codesign --verify --deep --strict`. This is not Developer ID signing or notarization.
+
 Rust 1.94.0 and platform build prerequisites are required. This Mac's toolchain was installed only in the ignored `.desktop-tools/` directory; the launcher detects it without changing shell profiles. Other developers may use their existing Rust installation. Keep `Cargo.lock` and the npm lockfile; pair Tauri JavaScript and Rust packages on the same major/minor version. Build-tool dependency installation can require networking; corpus import and runtime reading do not.
 
 References: [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/), [frontend configuration](https://v2.tauri.app/start/frontend/), [platform build automation](https://v2.tauri.app/distribute/pipelines/github/).
