@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-08 — Confirm book/chapter navigation (AFNT-008 / AFNT-026 / AFNT-029)
+
+- Book and Chapter now hold pending choices in the passage picker. The new OK button opens the chosen unmarked chapter in the current edition. Opening the picker initializes both fields from the current passage; choosing another book resets the pending chapter to 1 and updates its available chapters. Escape or outside dismissal discards pending choices on reopening.
+- Verification: `npm test` (47 Node tests and 11 Python fidelity tests), `npm run typecheck`, and `npm run build` passed. Browser checks covered a Mark 16:9–20 deep link, chapter-only and combined changes without navigation, Escape/outside dismissal and reset, Tab to OK and Enter confirmation to Romans 8 retaining YLT, reload prefill, and Jude's single chapter. Visually inspected desktop 1280px and phone 320px layouts; the phone had no horizontal overflow. No physical-device test or full accessibility audit is claimed.
+- Prepared locally; no commit, push or deployment. No corpus, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-08 — Quieter keyboard focus (AFNT-005 / AFNT-026 / AFNT-029)
 
 - Removed the prominent blue focus frames at Larry's request. Keyboard-focused links, buttons and disclosures use a thin text underline; form fields use a 1px muted outline. Study headings and cited-source targets use an underline. Removed the blanket negative-tabindex outline that overrode the reader's existing border-free focus style. Tab order, activation and focus restoration code remain intact.

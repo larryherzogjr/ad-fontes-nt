@@ -54,6 +54,9 @@ function noteContent(x: unknown, i = 0): React.ReactNode {
 export default function Reader() {
   const reviewed = useReviewedUnits();
   const [searchOpen, setSearchOpen] = useState(false);
+  const [passagePickerOpen, setPassagePickerOpen] = useState(false);
+  const [pendingBook, setPendingBook] = useState(address(initial.start).book);
+  const [pendingChapter, setPendingChapter] = useState(1);
   const [versePickerOpen, setVersePickerOpen] = useState(false);
   const [fromVerse, setFromVerse] = useState(1);
   const [throughVerse, setThroughVerse] = useState(1);
@@ -336,6 +339,13 @@ export default function Reader() {
   function goBook(b: string, c: number) {
     navigate(`/read/${b}/${c}?translation=${encodeURIComponent(edition)}`);
   }
+  function togglePassagePicker(open: boolean) {
+    if (open) {
+      setPendingBook(current.book);
+      setPendingChapter(current.chapter);
+    }
+    setPassagePickerOpen(open);
+  }
   const chapterVerseCount = current.book.verses[current.chapter - 1];
   function toggleVersePicker(open: boolean) {
     if (open) {
@@ -486,15 +496,22 @@ export default function Reader() {
       <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
         {mode !== 'search' && <div className="passage-navigation">
           <button className="chapter-step" aria-label="Previous chapter" disabled={!previous} onClick={() => previous && goBook(previous.book, previous.chapter)}>←</button>
-          <Popover><PopoverTrigger className="passage-trigger">{current.book.name} {current.chapter} <span aria-hidden="true">⌄</span></PopoverTrigger>
+          <Popover open={passagePickerOpen} onOpenChange={togglePassagePicker}><PopoverTrigger className="passage-trigger">{current.book.name} {current.chapter} <span aria-hidden="true">⌄</span></PopoverTrigger>
             <PopoverContent className="reader-popover" align="start"><PopoverTitle>Go to a passage</PopoverTitle>
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          goBook(pendingBook.code, pendingChapter);
+        }}>
         <div className="pickers">
           <label>
             Book
             <NativeSelect
               aria-label="Book"
-              value={current.book.code}
-              onChange={(e) => goBook(e.target.value, 1)}
+              value={pendingBook.code}
+              onChange={(e) => {
+                setPendingBook(books.find((b) => b.code === e.target.value)!);
+                setPendingChapter(1);
+              }}
             >
               {books.map((b) => (
                 <option key={b.code} value={b.code}>
@@ -507,15 +524,17 @@ export default function Reader() {
             Chapter
             <NativeSelect
               aria-label="Chapter"
-              value={current.chapter}
-              onChange={(e) => goBook(current.book.code, +e.target.value)}
+              value={pendingChapter}
+              onChange={(e) => setPendingChapter(Number(e.target.value))}
             >
-              {current.book.verses.map((_, i) => (
+              {pendingBook.verses.map((_, i) => (
                 <option key={i + 1}>{i + 1}</option>
               ))}
             </NativeSelect>
           </label>
         </div>
+          <button type="submit">OK</button>
+        </form>
             </PopoverContent>
           </Popover>
           <button className="chapter-step" aria-label="Next chapter" disabled={!next} onClick={() => next && goBook(next.book, next.chapter)}>→</button>
