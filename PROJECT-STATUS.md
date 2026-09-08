@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-07 — Dropdown chapter selection (AFNT-008 / AFNT-018 / AFNT-020 / AFNT-029)
+
+- Book and chapter dropdowns now navigate through the same canonical full-chapter passage link as reference search. Choosing a book selects its first chapter; choosing a chapter marks that entire chapter and supplies it to Compare editions and Explore Greek. Existing previous/next navigation is unchanged; verse-selection actions can still open a smaller passage.
+- Verification: `npm test` (47 Node tests and 11 Python tests), `npm run typecheck`, and `npm run build` passed. Browser checks verified Romans → chapter 3 selects all 31 canonical verses, both study panels receive Romans 3:1–31, Greek reload retains the full range through verse 31, and keyboard opening/Escape dismissal work. At 390px, choosing Romans 8 selected all 39 verses without horizontal overflow; verse 2's popup opened Greek for only Romans 8:2. The marked reader was visually inspected.
+- Prepared locally; no push or deployment. No corpus, editorial, account, database or dependency changes. Next: established GitHub/host release workflow and remaining M5 pilot/accessibility work. M4 remains accepted; M5 and the MVP remain incomplete.
+
 2026-09-05 · **M4 accepted: hosted private notes and initial resource links.** M3 remains accepted. M5 pilot/release work is next; the finished MVP remains incomplete. See [M4 acceptance](docs/M4-Acceptance.md).
 
 ## Completed work

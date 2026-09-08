@@ -462,7 +462,7 @@ export default function Reader() {
             <NativeSelect
               aria-label="Book"
               value={current.book.code}
-              onChange={(e) => goBook(e.target.value, 1)}
+              onChange={(e) => navigate(link([chapterRange(e.target.value, 1)]))}
             >
               {books.map((b) => (
                 <option key={b.code} value={b.code}>
@@ -476,7 +476,7 @@ export default function Reader() {
             <NativeSelect
               aria-label="Chapter"
               value={current.chapter}
-              onChange={(e) => goBook(current.book.code, +e.target.value)}
+              onChange={(e) => navigate(link([chapterRange(current.book.code, +e.target.value)]))}
             >
               {current.book.verses.map((_, i) => (
                 <option key={i + 1}>{i + 1}</option>
