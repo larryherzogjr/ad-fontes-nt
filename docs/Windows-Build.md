@@ -36,3 +36,13 @@ The first deliverable is an unsigned Windows x64 beta. Windows 11 on Intel/AMD P
 The shared reader and content changes continue to serve both Mac and Windows. Platform packaging can proceed independently; neither installer build deploys ad-fontes.app.
 
 References: [Tauri Windows installer options](https://v2.tauri.app/distribute/windows-installer/), [Tauri build automation](https://v2.tauri.app/distribute/pipelines/github/).
+
+## Parallel Mac packaging
+
+The existing validated Mac frontend was also packaged as `Ad Fontes NT_0.1.0_aarch64.dmg` during this Windows build. Tauri completed the locked native build and `hdiutil verify` validated the image. The local image, checksum and build identity are under ignored `artifacts/desktop/mac/`. It remains an Apple Silicon beta without Developer ID signing or notarization. No shared-reader behavior changed in this packaging increment.
+
+## First successful Windows build
+
+[Build 1](https://github.com/larryherzogjr/ad-fontes-nt/actions/runs/34287870365) succeeded from commit `afee3103dff5d100971575bf96b4ff0f66752bc5`. Shared checks passed on Ubuntu, and the native Windows x64 application and NSIS offline installer built on Windows Server 2022. This is packaging verification; real Windows installation, reading, offline behavior and uninstall results remain with testers. The private artifact is `Ad-Fontes-NT-Windows-x64-beta-1`.
+
+The downloaded local tester package is `artifacts/desktop/windows/Ad-Fontes-NT-Windows-x64-beta-1.zip` (about 294 MB, including offline WebView2 setup). Its setup EXE SHA-256 is `f86ff2b2830ba5d0395e068f23b583c854f88c7f6bc900f1ae67522f99a1290a`, verified against the build record after download. The ZIP integrity check also passed. These ignored artifacts can be shared with testers without sharing the private repository.
