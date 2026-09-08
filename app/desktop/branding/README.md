@@ -22,4 +22,4 @@ node app/node_modules/@tauri-apps/cli/tauri.js icon app/desktop/branding/af-icon
 
 Copy only `32x32.png`, `128x128.png`, `128x128@2x.png`, `icon.png`, `icon.icns`, and `icon.ico` to `app/desktop/src-tauri/icons/`. Mobile/store variants are unused. PNG/ICNS/ICO icon resources are tracked application assets; installers and frontend/corpus build outputs remain ignored.
 
-The common bundle config selects Mac ICNS and Linux PNG resources. Windows uses the multi-resolution ICO. No website favicon or social card is changed by this desktop packaging update.
+The common bundle config selects Mac ICNS and Linux PNG resources. Windows uses the multi-resolution ICO for the app, setup and uninstaller. Mac seals the complete bundle with an ad-hoc signature; it is not Developer ID signed or notarized. No website favicon or social card is changed by this desktop packaging update.
