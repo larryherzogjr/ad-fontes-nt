@@ -13,10 +13,13 @@ parser.add_argument('--source', type=Path, required=True)
 parser.add_argument('--release', required=True)
 parser.add_argument('--snapshot-date', required=True)
 parser.add_argument('--approval-record', type=Path, required=True)
+parser.add_argument('--predecessor', default='om-studies-2026-09-08-prototype-v1')
 args = parser.parse_args()
 if not re.fullmatch(r'[a-z0-9-]+', args.release):
     raise SystemExit('Invalid release name')
 root = Path(__file__).resolve().parent.parent
+if not re.fullmatch(r'[a-z0-9-]+', args.predecessor) or not (root / 'sources/om-studies' / args.predecessor / 'manifest.json').is_file():
+    raise SystemExit('Predecessor must name an existing immutable OM release.')
 destination = root / 'sources/om-studies' / args.release
 if destination.exists():
     raise SystemExit('Release already exists; preserve it and choose a new release name.')
@@ -53,7 +56,7 @@ if not decision.strip():
 raw['evidence/APPROVAL.md'] = decision
 files['evidence/APPROVAL.md'] = sha(decision)
 manifest = dict(schemaVersion=2, releaseId=args.release, snapshotDate=args.snapshot_date,
-                predecessor='om-studies-2026-09-08-prototype-v1',
+                predecessor=args.predecessor,
                 sourceRepositoryRevision=subprocess.check_output(['git', '-C', str(args.source), 'rev-parse', 'HEAD'], text=True).strip(),
                 sourceWorkingTree='Exact source files and the supplied approval record are preserved and hashed in this snapshot.',
                 scope=f'{len(articles)} approved Greek articles for the Ad Fontes NT website and desktop app; originals remain on larryherzogjr.com.',

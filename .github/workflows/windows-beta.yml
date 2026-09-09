@@ -103,7 +103,7 @@ jobs:
           "$hash  $($installers[0].Name)" | Set-Content artifacts/desktop/windows/SHA256SUMS.txt -Encoding utf8
           $om = Get-Content app/lib/domain/om-release.json | ConvertFrom-Json
           @{
-            version = '0.1.0'
+            version = (Get-Content app/desktop/src-tauri/tauri.conf.json | ConvertFrom-Json).version
             betaBuild = '${{ github.run_number }}'
             icon = 'approved AF open book'
             iconMasterSha256 = (Get-FileHash app/desktop/branding/af-icon.png -Algorithm SHA256).Hash.ToLowerInvariant()

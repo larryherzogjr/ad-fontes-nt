@@ -1,5 +1,18 @@
 # Ad Fontes NT — project status
 
+## 2026-09-09 — Standalone Greek article editorial revision (AFNT-104 / AFNT-107)
+
+- Larry requested the editorial work identified by the framing audit. Revised 107 articles in the author-site source repository: 49 from Just Enough Greek volume one, 50 from volume two, and eight from Guard the Deposit. Replaced numbered references with named article links; rewrote book-part openings/endings and reading-order transitions; removed obsolete word counts and numbered study sessions. Historical source metadata and existing URLs remain intact. The other 143 article files are byte-for-byte unchanged.
+- Prepared a complete before/after patch, per-file/body hashes, inventory and verification in the author site's `output/editorial/greek-standalone-2026-09-09/`. Its COPY-REVIEW ledger and the 107 affected front-matter records identify the new revision as pending Larry's review, preserving the previous approval date separately. This does not reopen approval of the earlier prose. Applied changes against exact working-tree baseline bytes, preserving the existing uncommitted approval reconciliation.
+- Verification: preserved all 355 blockquote lines and footnote-marker counts in the revised articles; checked 715 internal Greek links with zero missing targets; retained Biblical chapter references and the Pelikan bibliography's chapter range. Author-site `make check build` passed with Hugo 0.163.0 extended, zero build warnings and 642 rendered HTML pages checked for metadata, JSON-LD, accessibility structure, discovery, IDs and internal references. No application tests or native builds rerun because the selected application content and code are unchanged.
+- The current immutable `om-studies-2026-09-08-v2` release, live websites and distributed desktop betas retain their existing content. After approval of these revised passages, publish the author site, export a new immutable OM snapshot, verify both shared builds and release updated web/desktop artifacts. No commit, push or deployment performed. M4 remains accepted; M5/MVP remain incomplete. See `docs/audits/Greek-Explorer-Standalone-Editorial-2026-09-09.md`.
+
+## 2026-09-09 — Legacy Greek article framing audit (AFNT-104 / AFNT-107)
+
+- Read-only content audit requested by Larry after noticing references to the former Just Enough Greek books. At least 107/250 entries contain explicit book/chapter/volume or study-session framing: 49/50 volume-one entries, 50/50 volume-two entries and eight Guard the Deposit entries. Ordinary Scripture chapter references and historical front-matter provenance are excluded.
+- All 250 author-site Markdown files exactly match the selected `om-studies-2026-09-08-v2` raw snapshot. Direct live checks of Artos, Amen and Epiphaneia confirmed representative remnants. The full confirmed entry inventory, source-line evidence, exclusions and proposed maintenance workflow are in `docs/audits/Greek-Explorer-Legacy-Book-Audit-2026-09-09.md`.
+- No article, approval or immutable release was changed, and nothing was deployed. Recommended next step is an approved standalone-article editorial pass in the author source, followed by a new immutable snapshot and refreshed shared website/desktop releases. M4 remains accepted; M5 remains incomplete.
+
 ## 2026-09-08 — Website AF favicon and unlisted beta downloads (AFNT-029 / AFNT-107)
 
 - Larry authorized the approved AF icon as the website favicon and publication of the two beta packages through direct, unlisted ad-fontes.app links. Added the same multi-size ICO and versioned root icon metadata; the social card and reading UI are unchanged.

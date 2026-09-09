@@ -56,7 +56,7 @@ References: [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/), [f
 
 Larry confirmed on September 8, 2026 that all 250 Greek articles had been reviewed and approved, authorized their use in Ad Fontes NT, and requested that all be live on larryherzogjr.com. This supersedes historical draft markers and the 39 pending-review placeholders. Author-site metadata/comments now reflect approval; article prose is unchanged.
 
-The active `om-studies-2026-09-08-v2` snapshot preserves all 250 exact source files, the author-site review ledger, the current approval record, source revision and SHA-256 checksums. The original one-article prototype release remains unchanged and reproducible with `node scripts/import_om_studies.mts om-studies-2026-09-08-prototype-v1`.
+The active `om-studies-2026-09-09-v3` snapshot, approved by Larry on September 9, preserves all 250 exact source files (107 editorial revisions and 143 unchanged from v2), the author-site review ledger, the current approval record, source revision and SHA-256 checksums. The original one-article prototype release remains unchanged and reproducible with `node scripts/import_om_studies.mts om-studies-2026-09-08-prototype-v1`.
 
 `app/lib/domain/om-release.json` selects the same collection for the website and desktop. Both use `app/reader/word-studies.tsx` and its stylesheet. A small index identifies available articles; article prose loads individually when opened and is cached in memory. Cross-links between included articles stay in the viewer. Markdown footnotes work inside the article dialog. Return to Greek and Escape preserve the invoking word-study button. Original website links remain available. Desktop labels bundled availability as offline; the website does not claim offline browser installation.
 
@@ -64,7 +64,7 @@ The author website remains the writing source. To refresh the collection:
 
 1. Edit and approve the changed articles there. Keep each article's `editorial_review: "approved"` and actual `editorial_approval_date` current; unchanged articles retain their earlier approvals.
 2. Supply an actual approval record for the selected content. The exporter does not create or infer approval text.
-3. Run `python3 scripts/export_om_studies.py --source /path/to/larryherzogjr --release NEW-RELEASE --snapshot-date YYYY-MM-DD --approval-record /path/to/approval.md`. PyYAML is required for this authoring operation, not ordinary app builds. Existing release directories cannot be overwritten.
+3. Run `python3 scripts/export_om_studies.py --source /path/to/larryherzogjr --release NEW-RELEASE --snapshot-date YYYY-MM-DD --predecessor CURRENT-RELEASE --approval-record /path/to/approval.md`. PyYAML is required for this authoring operation, not ordinary app builds. Existing release directories cannot be overwritten.
 4. Review source differences, recorded quotations/notices, article identities and output hashes, then select the new release in `app/lib/domain/om-release.json`.
 5. Run `npm run verify:both`, build the native application, and review both reading flows before their separate releases.
 
