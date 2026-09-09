@@ -19,7 +19,7 @@ The Windows ZIP includes setup, test instructions, checksum and build identity; 
 
 The 250 approved articles now use the standalone editorial revision, release `om-studies-2026-09-09-v3`. Both native packages are built from `77a91ba`. The Mac package is beta 3; Windows is workflow beta 6. The download filenames include application version 0.1.1 to distinguish them from the earlier packages.
 
-Prepared direct URLs (publication and public verification pending):
+Live verified 0.1.1 direct URLs:
 
 - https://ad-fontes.app/beta-downloads/2026-09-09-standalone/Ad-Fontes-NT-Windows-x64-0.1.1-beta.zip
 - https://ad-fontes.app/beta-downloads/2026-09-09-standalone/Ad-Fontes-NT-macOS-Apple-Silicon-0.1.1-beta.dmg
@@ -27,6 +27,8 @@ Prepared direct URLs (publication and public verification pending):
 `deployment/article-beta-downloads.sha256` pins these new files. Upload to `~/ad-fontes-beta-staging/2026-09-09-standalone/`, then run `bash deployment/publish-article-beta.sh` from the clean, fast-forwarded host checkout. It verifies package hashes, invokes the existing app build/backup/restart workflow, publishes the immutable downloads through the existing Nginx location, and verifies the new public article index. It does not change Nginx configuration. Interactive sudo authentication remains required in the user's terminal.
 
 Mac verification passed disk-image integrity, mounted bundle strict/deep signature, approved icon identity and version checks. The installed Mac app was updated with a retained prior-bundle backup and opened John 1 BSB while network access was denied. Browser smoke tests passed at stable 1280px and 320px widths: revised Logos text, Logos → Pistis → Hypostasis links, original website link, September 9 saved date, reload and Escape focus return. Windows beta 6 succeeded in [run 34319404686](https://github.com/larryherzogjr/ad-fontes-nt/actions/runs/34319404686). The 293,965,538-byte ZIP matches GitHub’s artifact digest and passes ZIP integrity; setup checksum, build identity, version, icon master identity and all 251 prepared article/index hashes match. Windows installation/runtime acceptance still requires tester machines.
+
+Publication completed from host source `0521c6a` on September 9, with both app/database containers healthy and backup `adfontes-before-update-20260909T065331Z.dump`. Independent public verification matched all 251 article/index files against the pinned v3 checksums and downloaded both complete packages: Windows 293,965,538 bytes and Mac 35,722,380 bytes exactly match `deployment/article-beta-downloads.sha256`. Both URLs return HTTP 200 with attachment/noindex headers and HTTP 206 for byte ranges. Download directories deny listing with HTTP 403; health is OK; the approved favicon is unchanged; the homepage has no beta links. The previous beta URLs remain HTTP 200. Live browser checks at 1280px and 320px passed the revised prose, named article links, original source link, saved date, reload, passage URL preservation and Escape focus restoration. Local detailed verification records are retained under ignored `artifacts/editorial/standalone-2026-09-09/`.
 
 ## Host workflow (September 8 publication)
 
