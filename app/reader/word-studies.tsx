@@ -27,7 +27,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
     ...inheritedEnvironment,
     WordStudyLink: EmbeddedWordStudyLink,
     readingStatus: offline ? 'Reading position and text size are saved on this computer.' : inheritedEnvironment.readingStatus,
-    wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles, saved September 8, 2026 from Larry Herzog Jr.’s website source, open here with links to their originals. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions.` + (offline ? ' The included articles are available offline; original website links require internet access.' : ''),
+    wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles from Larry Herzog Jr.’s website source open here with links to their originals. Each article identifies its saved date. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions.` + (offline ? ' The included articles are available offline; original website links require internet access.' : ''),
   };
   const [articles, setArticles] = useState<Article[]>([]);
   const [selected, setSelected] = useState<Article | null>(null);

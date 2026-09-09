@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-09 — Approved standalone article release (AFNT-104 / AFNT-107)
+
+- Larry reviewed the editorial revision, approved all passages, and explicitly requested publication on larryherzogjr.com and ad-fontes.app plus updated desktop applications. Recorded approval against the 107 reviewed body hashes; all 250 author-site articles are approved. Author source committed as `7840b7e`, pushed, and published through its existing static workflow after `make check build` passed. Deployment preview contained 108 changed files, all in the Greek collection, and no deletions. All 250 public article pages match the approved local HTML byte-for-byte.
+- Created `om-studies-2026-09-09-v3` with v2 as its predecessor: 107 changed articles, 143 identical source files, 250 unchanged identities/URLs. Preserved all prior release bytes. The shared web/desktop selector now uses v3. The authoring exporter accepts an explicit existing predecessor; published import behavior and Scripture/analysis/lexical data are unchanged. Source release pushed as `8607faa`.
+- `npm run verify:both` passed: typecheck, website production build with 49 Node tests and 11 Python tests, desktop frontend build, and four offline desktop tests. Desktop package version is 0.1.1; Windows build metadata reads the configured package version. Mac and Windows packaging, final public verification and Ad Fontes host publication are in progress. The host requires interactive sudo authentication; no credential or sudo-policy change is authorized or attempted.
+- See `docs/OM-Standalone-Release-2026-09-09.md`. This editorial/application release does not complete M5 or the MVP; Windows runtime acceptance remains with testers.
+
 ## 2026-09-09 — Standalone Greek article editorial revision (AFNT-104 / AFNT-107)
 
 - Larry requested the editorial work identified by the framing audit. Revised 107 articles in the author-site source repository: 49 from Just Enough Greek volume one, 50 from volume two, and eight from Guard the Deposit. Replaced numbered references with named article links; rewrote book-part openings/endings and reading-order transitions; removed obsolete word counts and numbered study sessions. Historical source metadata and existing URLs remain intact. The other 143 article files are byte-for-byte unchanged.
