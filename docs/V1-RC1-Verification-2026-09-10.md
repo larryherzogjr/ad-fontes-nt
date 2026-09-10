@@ -22,6 +22,7 @@ This record covers the locally prepared public-release candidate on `codex/v1-pu
 - `sitepull@10.20.30.70` is reachable but rejects the current Mac key. The dedicated private-data Borg repository, timers, failure email, integrity check and disposable restore rehearsal remain unconfigured. Private database archives are designed to expire within 30 days; any longer public-release/configuration archive must be separate and contain no private data.
 - Production Nginx syntax/reload, immutable updater-path publication, rollback rehearsal, final artifact hashes, explicit owner promotion approval, deployment verification and the 48-hour soft launch remain required.
 - Physical screen-reader, physical touch-device and Windows 11 updater acceptance are not claimed by this local record.
+- The repository-wide `oxlint` command still exits nonzero on longstanding React-effect, semantic-markup and unused-component findings across the shared reader and scaffold. Targeted linting of the new account, policy-page and updater files passes. The repository-wide findings must be triaged rather than silently waived before AFNT-026 is closed.
 
 ## External service decisions
 
