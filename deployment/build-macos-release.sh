@@ -27,6 +27,12 @@ codesign -dvv "$bundle" 2>&1 | grep -F 'Authority=Developer ID Application:' >/d
 spctl --assess --type execute --verbose=2 "$bundle"
 xcrun stapler validate "$bundle"
 hdiutil verify "$dmg"
+if [[ -n ${APPLE_API_KEY:-} && -n ${APPLE_API_ISSUER:-} && -n ${APPLE_API_KEY_PATH:-} ]]; then
+  xcrun notarytool submit "$dmg" --key "$APPLE_API_KEY_PATH" --key-id "$APPLE_API_KEY" --issuer "$APPLE_API_ISSUER" --wait
+else
+  xcrun notarytool submit "$dmg" --apple-id "$APPLE_ID" --password "$APPLE_PASSWORD" --team-id "$APPLE_TEAM_ID" --wait
+fi
+xcrun stapler staple "$dmg"
 xcrun stapler validate "$dmg"
 [[ $(file "$bundle/Contents/MacOS/ad-fontes-nt-desktop") == *arm64* ]] || { echo 'Release executable is not Apple Silicon.' >&2; exit 1; }
 shasum -a 256 "$dmg" "$update" "$update.sig"
