@@ -34,12 +34,16 @@ Publication completed from host source `0521c6a` on September 9, with both app/d
 
 The app-only `om-studies-2026-09-09-v4` release adapts all 250 embedded articles to BSB while leaving the original `larryherzogjr.com` editions unchanged. Both packages are built from `d8971be`; Mac is beta 4 and Windows is workflow beta 7.
 
-Direct URLs after publication:
+Live verified direct URLs:
 
 - https://ad-fontes.app/beta-downloads/2026-09-09-bsb/Ad-Fontes-NT-Windows-x64-0.1.2-beta.zip
 - https://ad-fontes.app/beta-downloads/2026-09-09-bsb/Ad-Fontes-NT-macOS-Apple-Silicon-0.1.2-beta.dmg
 
 `deployment/bsb-beta-downloads.sha256` pins both files. Upload them to `~/ad-fontes-beta-staging/2026-09-09-bsb/`, fast-forward the clean host checkout, then run `bash deployment/publish-bsb-beta.sh`. The script checks v4 selection and package bytes, uses the existing isolated app update/backup/restart workflow, publishes the new immutable downloads, and verifies the live v4 index. It does not alter Nginx configuration or the sibling website. Interactive sudo authentication remains required.
+
+Publication completed from clean host source `8e81e35` on September 10. The isolated update created backup `adfontes-before-update-20260910T050714Z.dump`, and the application health check passed. Independent HTTPS verification matched all 251 v4 article/index files and both complete downloads against their pinned hashes: Windows 293,940,328 bytes at `3e771f7cf602ae007354ff9bf2e909aa0d28ccd2cb48927c8a882368d8eef7fa`, and Mac 35,740,516 bytes at `d5bb90c87e69f35227f5ba207839d7fc2f067f1c7a61fc86e321ed58a0ce8ceb`. Both serve attachment/noindex responses with HTTP 200 and byte ranges with HTTP 206; release and parent directories deny listing with HTTP 403. The homepage contains no beta links, the favicon and health endpoint are unchanged, and all four preceding beta URLs remain HTTP 200.
+
+Live browser verification passed the John 1 deep link, the Logos article, Logos → Pistis internal navigation, visible BSB/original-website-edition disclosure, preserved passage state, Escape dismissal and focus return. A separate public check confirmed that the linked Logos article on `larryherzogjr.com` retains its NET attribution. This verifies publication and package identity, not Windows installation/runtime acceptance on tester hardware.
 
 ## Host workflow (September 8 publication)
 
