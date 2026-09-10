@@ -30,6 +30,17 @@ Mac verification passed disk-image integrity, mounted bundle strict/deep signatu
 
 Publication completed from host source `0521c6a` on September 9, with both app/database containers healthy and backup `adfontes-before-update-20260909T065331Z.dump`. Independent public verification matched all 251 article/index files against the pinned v3 checksums and downloaded both complete packages: Windows 293,965,538 bytes and Mac 35,722,380 bytes exactly match `deployment/article-beta-downloads.sha256`. Both URLs return HTTP 200 with attachment/noindex headers and HTTP 206 for byte ranges. Download directories deny listing with HTTP 403; health is OK; the approved favicon is unchanged; the homepage has no beta links. The previous beta URLs remain HTTP 200. Live browser checks at 1280px and 320px passed the revised prose, named article links, original source link, saved date, reload, passage URL preservation and Escape focus restoration. Local detailed verification records are retained under ignored `artifacts/editorial/standalone-2026-09-09/`.
 
+## September 9 BSB adaptation — version 0.1.2
+
+The app-only `om-studies-2026-09-09-v4` release adapts all 250 embedded articles to BSB while leaving the original `larryherzogjr.com` editions unchanged. Both packages are built from `d8971be`; Mac is beta 4 and Windows is workflow beta 7.
+
+Direct URLs after publication:
+
+- https://ad-fontes.app/beta-downloads/2026-09-09-bsb/Ad-Fontes-NT-Windows-x64-0.1.2-beta.zip
+- https://ad-fontes.app/beta-downloads/2026-09-09-bsb/Ad-Fontes-NT-macOS-Apple-Silicon-0.1.2-beta.dmg
+
+`deployment/bsb-beta-downloads.sha256` pins both files. Upload them to `~/ad-fontes-beta-staging/2026-09-09-bsb/`, fast-forward the clean host checkout, then run `bash deployment/publish-bsb-beta.sh`. The script checks v4 selection and package bytes, uses the existing isolated app update/backup/restart workflow, publishes the new immutable downloads, and verifies the live v4 index. It does not alter Nginx configuration or the sibling website. Interactive sudo authentication remains required.
+
 ## Host workflow (September 8 publication)
 
 Both files are uploaded privately under `~/ad-fontes-beta-staging/2026-09-08-af/`. After the Mac pushes the reviewed source to main, pull on the host, then run:
