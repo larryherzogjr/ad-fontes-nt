@@ -1,3 +1,4 @@
 {
-  "build": { "beforeBuildCommand": "" }
+  "build": { "beforeBuildCommand": "" },
+  "bundle": { "createUpdaterArtifacts": false }
 }

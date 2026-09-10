@@ -27,6 +27,8 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
   assert.equal(config.version, '1.0.0-rc.1');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
+  const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
+  assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
   assert.equal(config.plugins.updater.pubkey, publicKey);
   assert.deepEqual(config.plugins.updater.endpoints, ['https://ad-fontes.app/desktop-updates/stable/latest.json']);
   assert.ok(capability.permissions.includes('updater:default'));
