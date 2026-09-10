@@ -5,6 +5,16 @@ set -euo pipefail
 : "${AFNT_SSH_KEY:?Set the dedicated pull-only SSH key path}"
 : "${BORG_REPO:?Set the dedicated Ad Fontes Borg repository}"
 : "${BORG_PASSCOMMAND:?Set a command that returns the repository passphrase}"
+: "${AFNT_ALERT_EMAIL:?Set the backup failure recipient}"
+notify_failure() {
+  status=$?
+  trap - ERR
+  printf 'Ad Fontes NT off-host backup failed on %s at %s UTC (exit %s). Inspect the sitepull backup log.\n' \
+    "$(hostname)" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$status" \
+    | mail -s 'BACKUP ALERT: Ad Fontes NT off-host backup failed' "$AFNT_ALERT_EMAIL" 2>/dev/null || true
+  exit "$status"
+}
+trap notify_failure ERR
 command -v borg >/dev/null
 command -v pg_restore >/dev/null
 work_directory=${AFNT_WORK_DIRECTORY:-/home/sitepull/.cache/ad-fontes-backup}

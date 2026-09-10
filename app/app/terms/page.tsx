@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: 'Terms · Ad Fontes NT' };
 export default function TermsPage() {
   return (
     <PublicPage eyebrow="Public policy" title="Terms of Use">
-      <p>Effective date: to be set when v1.0 is published.</p>
+      <p>Effective date: September 10, 2026.</p>
       <p>
         These terms govern use of Ad Fontes NT, provided by Larry Herzog Jr.,
         publishing as Ordinary Means. By using the service or desktop application,

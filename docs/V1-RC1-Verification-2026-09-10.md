@@ -16,7 +16,7 @@ This record covers the locally prepared public-release candidate on `codex/v1-pu
 
 ## External gates still open
 
-- Larry must approve the exact Privacy, Terms and Support drafts and their effective date; draft notices intentionally remain visible meanwhile.
+- Larry approved the exact Privacy, Terms and Support text on September 10, 2026. The effective date is set to that date and draft notices are removed in the release candidate; the pages are not live until the separately approved deployment.
 - The Mac has no valid `Developer ID Application` identity installed. Certificate setup, notarization credentials, signed/notarized build, Gatekeeper assessment, clean installation and real updater rehearsal remain required.
 - Azure Artifact Signing account creation, individual identity validation, certificate profile, GitHub credentials and the Basic subscription remain unconfigured. No charge has been incurred. A signed Windows build and clean install/upgrade/uninstall/updater rehearsal remain required.
 - `sitepull@10.20.30.70` is reachable but rejects the current Mac key. The dedicated private-data Borg repository, timers, failure email, integrity check and disposable restore rehearsal remain unconfigured. Private database archives are designed to expire within 30 days; any longer public-release/configuration archive must be separate and contain no private data.

@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: 'Privacy · Ad Fontes NT' };
 export default function PrivacyPage() {
   return (
     <PublicPage eyebrow="Public policy" title="Privacy">
-      <p>Effective date: to be set when v1.0 is published.</p>
+      <p>Effective date: September 10, 2026.</p>
       <p>
         Ad Fontes NT is operated by Larry Herzog Jr., publishing as Ordinary
         Means, in North Dakota, United States. Questions and privacy requests

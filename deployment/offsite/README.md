@@ -12,8 +12,8 @@ Installation is intentionally not automatic. Before enabling it:
 2. Create a dedicated Ed25519 pull key as `sitepull`. Add only its public half to the production `lherzog` account with `restrict,command="/home/lherzog/ad-fontes-nt/deployment/offsite/export-latest-backup.sh"`.
 3. Initialize a new repository using Borg’s authenticated encryption. Store its passphrase outside the repository with mode 0600 and arrange a separate recovery copy; never commit either secret.
 4. Install the production service/timer under `/etc/systemd/system/`. Install the home script under `/home/sitepull/bin/` and the home user service/timer under `/home/sitepull/.config/systemd/user/`.
-5. Configure `/home/sitepull/.config/ad-fontes-backup.env` with `AFNT_SOURCE`, `AFNT_SSH_KEY`, `BORG_REPO` and `BORG_PASSCOMMAND`. Preserve the production SSH host key in `known_hosts` before unattended use.
-6. Adapt the failure notifier to the VM’s already working mail path, enable both timers, and observe one scheduled run.
+5. Install `ad-fontes-backup.env.example` as private `/home/sitepull/.config/ad-fontes-backup.env`; it supplies only paths and public connection settings, while the generated repository passphrase remains in its separate mode-0600 file. Preserve the production SSH host key in `known_hosts` before unattended use.
+6. Verify the script's failure email through the VM mail transport, enable both timers, and observe one scheduled run. Do not claim notification coverage if the test message fails.
 7. Run `borg check --verify-data` and restore one archive into a disposable local PostgreSQL database. Compare migrations, user count and note count with the source-side release record without exposing note bodies. Confirm that the oldest private archive is no more than 30 days old.
 
 Do not enable or claim this backup until the VM and production installation, failure mail and restore rehearsal have all passed. Account deletion removes live data immediately; rolling encrypted backups age out within 30 days under this retention policy.

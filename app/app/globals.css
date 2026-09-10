@@ -864,7 +864,6 @@ button.greek-token.chosen {
 .public-page h1 { margin-bottom: 1.25rem; }
 .public-page h2 { font-size: 1.55rem; margin-top: 2rem; }
 .public-page li { margin: .5rem 0; }
-.policy-draft { border-left: 3px solid #9b702b; background: #f8f2e8; padding: .75rem 1rem; }
 .public-footer nav { display: flex; flex-wrap: wrap; gap: 1rem; }
 @media (max-width: 650px) {
   .public-masthead { align-items: flex-start; flex-direction: column; }

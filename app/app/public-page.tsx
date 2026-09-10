@@ -26,9 +26,6 @@ export default function PublicPage({
       <main className="public-page">
         <p className="eyebrow">{eyebrow}</p>
         <h1>{title}</h1>
-        <p className="policy-draft" role="note">
-          Draft for owner review. This text is not yet the published v1.0 policy.
-        </p>
         {children}
       </main>
       <footer className="public-footer">

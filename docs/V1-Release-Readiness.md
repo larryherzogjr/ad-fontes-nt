@@ -29,7 +29,7 @@ Owner decisions recorded September 10, 2026. This is the controlling M5 readines
 - [ ] Performance measured cold and warm against documented representative conditions.
 - [ ] Dependency, application, account and distribution security review completed with no unresolved release blocker.
 - [ ] Self-service account deletion passes ownership, CSRF, cascade, stale-session and UI confirmation checks.
-- [ ] Draft Privacy, Terms and Support text approved by the owner and draft notices removed.
+- [x] Privacy, Terms and Support text approved by the owner on September 10, 2026; effective dates set and draft notices removed.
 - [ ] Dedicated encrypted Borg repository configured; scheduled pull, pruning, integrity check, failure notification and restore rehearsal verified without exposing credentials.
 - [ ] Immutable web release manifest, complete source differences, clean reproduction, sanitized-markup/error/cache checks and unexpected-network-call checks recorded.
 - [ ] Web deployment rollback rehearsed against the isolated service and database.
