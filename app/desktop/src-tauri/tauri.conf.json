@@ -18,7 +18,7 @@
   "bundle": { "active": true, "targets": "all", "createUpdaterArtifacts": true, "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"], "shortDescription": "A New Testament study environment from Ordinary Means." },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEM1OEE0RTY4QTA3OEE3RjkKUldUNXAzaWdhRTZLeGZnSHlubVJLT2xyMk92aEIvRTdjbWp0VkZSeXkyV2NzR0JQTUoybFI1OHUK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDY5QjdERjNCMzFERjk3QTYKUldTbWw5OHhPOSszYWRyZy9WNDNTNGhYS2lPWVpBb0ZHSUlQRy8xeUNYaVdzU2NKYXJPMUJiWXcK",
       "endpoints": ["https://ad-fontes.app/desktop-updates/stable/latest.json"]
     }
   }
