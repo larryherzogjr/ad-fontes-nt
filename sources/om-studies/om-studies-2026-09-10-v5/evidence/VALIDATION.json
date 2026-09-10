@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "candidateManifestSha256": "bf5683ff39806cde1eb729d165473591bc744bbdca213ab200a2eccc8c27e612",
+  "sourceRelease": "om-studies-2026-09-09-v4",
+  "proposedRelease": "om-studies-2026-09-10-v5",
+  "articleCount": 250,
+  "changedArticles": [
+    "anomia",
+    "anthropos",
+    "kyrios",
+    "logos",
+    "pater",
+    "pistos-ho-logos"
+  ],
+  "replacementCount": 10,
+  "predecessorVerified": true,
+  "scope": "Exact word-count and language-label corrections only; no Scripture or corpus data changed."
+}

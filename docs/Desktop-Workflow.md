@@ -56,7 +56,7 @@ References: [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/), [f
 
 Larry confirmed on September 8, 2026 that all 250 Greek articles had been reviewed and approved, authorized their use in Ad Fontes NT, and requested that all be live on larryherzogjr.com. This supersedes historical draft markers and the 39 pending-review placeholders. Author-site metadata/comments now reflect approval; article prose is unchanged.
 
-The active `om-studies-2026-09-09-v4` snapshot is the approved Ad Fontes BSB adaptation of all 250 articles. It preserves the exact approved v30 candidate bytes, validator report, deterministic verification record and editor approval, all bound by SHA-256 in an immutable successor to v3. The original website edition remains unchanged. Earlier releases, including the original one-article prototype, remain immutable and reproducible.
+The active `om-studies-2026-09-10-v5` snapshot is the approved Ad Fontes BSB adaptation of all 250 articles plus ten approved word-count/language corrections in six articles. It preserves the exact approved v30 adaptation provenance through v4 and binds the correction candidate to SHA-256 in an immutable v5 successor. The original website edition remains unchanged. Earlier releases, including v4 and the original one-article prototype, remain immutable and reproducible.
 
 `app/lib/domain/om-release.json` selects the same collection for the website and desktop. Both use `app/reader/word-studies.tsx` and its stylesheet. A small index identifies available articles; article prose loads individually when opened and is cached in memory. Cross-links between included articles stay in the viewer. Markdown footnotes work inside the article dialog. Return to Greek and Escape preserve the invoking word-study button. Original website links remain available. Desktop labels bundled availability as offline; the website does not claim offline browser installation.
 
@@ -69,6 +69,8 @@ The author website remains the writing source for ordinary editorial releases. T
 5. Run `npm run verify:both`, build the native application, and review both reading flows before their separate releases.
 
 For a reviewed BSB candidate, run `scripts/promote_om_bsb_candidate.py` only with its exact candidate, validator, verification and approval artifacts. The promoter refuses anything other than the approved v30 hashes and creates a new release directory rather than modifying an existing release. Any later adaptation requires a newly reviewed candidate and a new immutable release.
+
+For a narrow correction to an app-only OM release, use `scripts/prepare_om_editorial_correction.py` with an exact-replacement specification under `docs/editorial-review/`, obtain approval against the resulting candidate-manifest SHA-256, then use `scripts/promote_om_editorial_correction.py`. Both tools verify the immutable predecessor; the promoter refuses candidate bytes that differ from the approved hash.
 
 The importer reproduces the selected immutable files without network access or a sibling checkout. It verifies all source/evidence and output checksums; it has no rebaseline flag. Existing lexical associations remain unchanged. Article quotations remain part of authored commentary; they do not install NET or any other additional Scripture edition.
 

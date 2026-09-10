@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "om-count-corrections-2026-09-10-v2",
+  "candidateDate": "2026-09-10",
+  "sourceRelease": "om-studies-2026-09-09-v4",
+  "proposedRelease": "om-studies-2026-09-10-v5",
+  "changes": [
+    {
+      "id": "OMC-001",
+      "slug": "anthropos",
+      "reason": "Ecce homo contains two Latin words, while Idou ho anthrōpos contains three Greek words.",
+      "old": "Three Latin words in the standard church-Latin vocabulary mark the great moment of John 19:5: *Ecce homo*.",
+      "new": "Two Latin words in the standard church-Latin vocabulary mark the great moment of John 19:5: *Ecce homo*.",
+      "count": 1
+    },
+    {
+      "id": "OMC-002",
+      "slug": "anomia",
+      "reason": "Hē hamartia estin hē anomia contains five Greek words: two articles, two nouns, and one verb.",
+      "old": "The theology in those four Greek words is the foundation of the Lutheran doctrine of sin.",
+      "new": "The theology in those five Greek words is the foundation of the Lutheran doctrine of sin.",
+      "count": 1
+    },
+    {
+      "id": "OMC-003",
+      "slug": "logos",
+      "reason": "En archē ēn ho logos contains five Greek words.",
+      "old": "The opening four words are a deliberate echo of Genesis 1:1.",
+      "new": "The opening five Greek words are a deliberate echo of Genesis 1:1.",
+      "count": 1
+    },
+    {
+      "id": "OMC-004",
+      "slug": "pistos-ho-logos",
+      "reason": "The Greek saying contains eight words, but the displayed English rendering contains nine; removing the second count avoids transferring the Greek count to English.",
+      "old": "and a person who has those eight words available at three in the morning",
+      "new": "and a person who has those words available at three in the morning",
+      "count": 1
+    },
+    {
+      "id": "OMC-005",
+      "slug": "pater",
+      "reason": "The discussion names two individual words and one four-word phrase, so elements is more accurate than words.",
+      "old": "Three words bear attention.",
+      "new": "Three elements bear attention.",
+      "count": 1
+    },
+    {
+      "id": "OMC-006",
+      "slug": "kyrios",
+      "reason": "Kyrios Iēsous contains two Greek words; Jesus is Lord contains three English words.",
+      "old": "The earliest Christian creed was three words long.",
+      "new": "The earliest Christian creed fit into two Greek words.",
+      "count": 1
+    },
+    {
+      "id": "OMC-007",
+      "slug": "kyrios",
+      "reason": "Distinguish the two-word Greek confession from its three-word English rendering.",
+      "new": "It does not look like much on the page. Two Greek words — three in English, because Greek leaves the verb implied. But in the first century, that confession could cost you everything you had, including your life. The reason it could is that the title belonged to two other people, and the early Christians said it belonged to Jesus instead.",
+      "old": "It does not look like much on the page. Three words, and the verb is only implied — Greek does that sort of thing. But in the first century, those three words could cost you everything you had, including your life. The reason they could is that the title belonged to two other people, and the early Christians said it belonged to Jesus instead.",
+      "count": 1
+    },
+    {
+      "id": "OMC-008",
+      "slug": "kyrios",
+      "reason": "The Greek confession consists of two words.",
+      "old": "Three words. Two terrible implications. One creed.",
+      "new": "Two Greek words. Two terrible implications. One creed.",
+      "count": 1
+    },
+    {
+      "id": "OMC-009",
+      "slug": "kyrios",
+      "reason": "Avoid treating the English word count as the count of the Greek confession.",
+      "old": "Saying the three words is not a feat of religious effort;",
+      "new": "Making this confession is not a feat of religious effort;",
+      "count": 1
+    },
+    {
+      "id": "OMC-010",
+      "slug": "kyrios",
+      "reason": "Lord, have mercy is not the same phrase as the confession Jesus is Lord, though both invoke Jesus as Lord.",
+      "old": "When you sing “Lord, have mercy” on Sunday morning, you are joining the early church in their three-word creed.",
+      "new": "When you sing “Lord, have mercy” on Sunday morning, you invoke Jesus as Lord with the church’s ancient confession in view.",
+      "count": 1
+    }
+  ]
+}
