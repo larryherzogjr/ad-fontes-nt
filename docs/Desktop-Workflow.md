@@ -93,4 +93,4 @@ The Windows beta now has an independent [build lane](Windows-Build.md) and [test
 - AFNT-107: manual build automation first, then separately authorized distribution. Signed update checks may later be optional; offline reading must never depend on an update service.
 - AFNT-026–029: continuing M5 accessibility/pilot/release work for the web product; desktop prototype completion does not close these items.
 
-The desktop still has no automatic updater, account system, local notes, public installer channel, or claim of cross-platform certification.
+The `1.0.0-rc.1` desktop now has a signed, user-controlled stable updater: it checks quietly at most once per 24 hours, provides a manual check, and requires explicit approval before download and installation. Update metadata and immutable packages are prepared for `ad-fontes.app`; public publication remains gated on OS signing and updater rehearsals. The desktop still has no account system or local notes and makes no claim of cross-platform certification beyond the explicitly verified release targets.

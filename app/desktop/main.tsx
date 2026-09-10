@@ -4,6 +4,7 @@ import { openUrl } from '@tauri-apps/plugin-opener';
 import Reader from '@/reader/reader';
 import { WordStudies } from '@/reader/word-studies';
 import { desktopStartPath } from './navigation';
+import DesktopUpdateManager from './update-manager';
 import '@/app/globals.css';
 import '@/reader/word-studies.css';
 
@@ -24,4 +25,9 @@ document.addEventListener('click', event => {
   else window.open(url.href, '_blank', 'noopener,noreferrer');
 }, true);
 
-createRoot(document.getElementById('root')!).render(<WordStudies offline><Reader /></WordStudies>);
+createRoot(document.getElementById('root')!).render(
+  <WordStudies offline>
+    <Reader />
+    <DesktopUpdateManager />
+  </WordStudies>,
+);

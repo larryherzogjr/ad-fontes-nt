@@ -1,0 +1,12 @@
+[Unit]
+Description=Create validated Ad Fontes NT database export for off-host pull
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/lherzog/ad-fontes-nt/deployment/offsite/create-production-export.sh
+User=root
+Group=root
+PrivateTmp=true
+NoNewPrivileges=true

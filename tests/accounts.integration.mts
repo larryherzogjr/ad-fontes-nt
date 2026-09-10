@@ -230,6 +230,31 @@ test("OAuth state binds the browser; invalid or replayed callback is rejected", 
     400,
   );
 });
+
+test("account deletion removes the identity, notes and sessions", async () => {
+  const owner = await pending("delete-reader");
+  await register(owner);
+  const note = sample();
+  assert.equal((await handleNotes(request("/api/notes", owner, "POST", note))).status, 201);
+  const stolen = { ...owner };
+  const deletion = await handleAccount(
+    request("/api/account/delete", owner, "POST", {}),
+  );
+  assert.equal(deletion.status, 200);
+  assert.match(deletion.headers.get("set-cookie") || "", /Max-Age=0/);
+  assert.equal((await handleNotes(request("/api/notes", stolen))).status, 401);
+  const counts = await database().query(
+    `SELECT
+       (SELECT count(*)::int FROM afnt_users WHERE google_sub='delete-reader') AS users,
+       (SELECT count(*)::int FROM afnt_notes WHERE id=$1) AS notes`,
+    [note.id],
+  );
+  assert.deepEqual(counts.rows[0], { users: 0, notes: 0 });
+  const returning = await pending("delete-reader");
+  const state = await account(returning);
+  assert.equal(state.user, null);
+  assert.equal(state.pending, true);
+});
 test("registration throttling survives a new session for the same Google identity", async () => {
   let b = await pending("rate-limited");
   for (let i = 0; i < 10; i++)

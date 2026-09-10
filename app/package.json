@@ -1,6 +1,6 @@
 {
   "name": "ad-fontes-nt",
-  "version": "0.1.0",
+  "version": "1.0.0-rc.1",
   "private": true,
   "engines": {
     "node": ">=22.18.0"
@@ -26,6 +26,8 @@
     "@shadcn/react": "0.3.0",
     "@tauri-apps/api": "2.11.1",
     "@tauri-apps/plugin-opener": "2.5.3",
+    "@tauri-apps/plugin-process": "2.3.1",
+    "@tauri-apps/plugin-updater": "2.11.0",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "cmdk": "1.1.1",

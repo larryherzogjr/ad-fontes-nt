@@ -1051,6 +1051,11 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
         >
           Source information
         </a>
+        {Notes && <>
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/support">Support</a>
+        </>}
       </footer>
     </>
   );

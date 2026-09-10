@@ -1,0 +1,10 @@
+[Unit]
+Description=Pull Ad Fontes NT database into its encrypted Borg repository
+OnFailure=ad-fontes-backup-notify@%n.service
+
+[Service]
+Type=oneshot
+EnvironmentFile=/home/sitepull/.config/ad-fontes-backup.env
+ExecStart=/home/sitepull/bin/home-borg-backup.sh
+PrivateTmp=true
+NoNewPrivileges=true

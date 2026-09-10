@@ -1,5 +1,17 @@
 'use client';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/ui/alert-dialog';
 export type Account = {
   enabled: boolean;
   csrf?: string;
@@ -13,7 +25,7 @@ export async function api<T = { ok: boolean }>(
   body?: unknown,
   csrf?: string,
 ) {
-  const response = await fetch(path, {
+  const request: RequestInit = {
     method,
     credentials: 'same-origin',
     cache: 'no-store',
@@ -21,8 +33,9 @@ export async function api<T = { ok: boolean }>(
       method === 'GET'
         ? {}
         : { 'Content-Type': 'application/json', 'X-CSRF-Token': csrf || '' },
-    body: body === undefined ? undefined : JSON.stringify(body),
-  });
+  };
+  if (method !== 'GET' && body !== undefined) request.body = JSON.stringify(body);
+  const response = await fetch(path, request);
   const data = (await response.json()) as { error?: string };
   if (!response.ok)
     throw Error(data.error || 'Request failed. Please try again.');
@@ -40,7 +53,8 @@ export function useAccount() {
     }
   }
   useEffect(() => {
-    void refresh();
+    const timer = window.setTimeout(() => void refresh(), 0);
+    return () => window.clearTimeout(timer);
   }, []);
   return { account, error, refresh };
 }
@@ -61,6 +75,7 @@ export default function AccountClient() {
       );
       setPassword('');
       if (result.url) location.assign(result.url);
+      else if (action === 'delete') location.assign('/?account=deleted');
       else await refresh();
     } catch (e) {
       setMessage((e as Error).message);
@@ -70,11 +85,11 @@ export default function AccountClient() {
   }
   return (
     <main className="account-page">
-      <a href="/">← Return to reading</a>
+      <Link href="/">← Return to reading</Link>
       <h1>My account</h1>
       <p>Ad Fontes NT · Ordinary Means</p>
       {(error || message) && <p role="alert">{error || message}</p>}
-      {!account && !error && <p role="status">Loading account…</p>}
+      {!account && !error && <output>Loading account…</output>}
       {account && !account.enabled && (
         <p>
           Personal accounts are not configured on this installation yet.
@@ -93,6 +108,38 @@ export default function AccountClient() {
           <button disabled={busy} onClick={() => act('logout')}>
             Sign out
           </button>
+          <section className="account-danger-zone" aria-labelledby="delete-account-heading">
+            <h2 id="delete-account-heading">Delete account</h2>
+            <p>
+              Permanently delete your Ad Fontes account and every private note
+              stored with it. This cannot be undone. Encrypted backups age out
+              within 30 days.
+            </p>
+            <AlertDialog>
+              <AlertDialogTrigger className="danger" disabled={busy}>
+                Delete my account
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Delete your account and notes?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Your account and all private notes will be removed immediately
+                    from the live service. This action cannot be undone.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel disabled={busy}>Cancel</AlertDialogCancel>
+                  <AlertDialogAction
+                    className="danger"
+                    disabled={busy}
+                    onClick={() => void act('delete')}
+                  >
+                    Permanently delete
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          </section>
         </>
       )}
       {account?.enabled && !account.user && !account.pending && (
@@ -112,6 +159,10 @@ export default function AccountClient() {
             We receive your Google account identifier, name and email. Your
             notes are stored by Ad Fontes, not in Google Drive. We do not
             request access to your mail or files.
+          </p>
+          <p>
+            Account holders must be at least 13 years old or have permission
+            from a parent or guardian.
           </p>
         </>
       )}
@@ -144,6 +195,11 @@ export default function AccountClient() {
           </button>
         </form>
       )}
+      <nav className="account-policy-links" aria-label="Policies and support">
+        <Link href="/privacy">Privacy</Link>
+        <Link href="/terms">Terms</Link>
+        <Link href="/support">Support</Link>
+      </nav>
     </main>
   );
 }

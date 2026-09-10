@@ -1,10 +1,12 @@
 {
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "main",
-  "description": "Open cited HTTPS resources in the system browser. No filesystem, account, shell, or database access.",
+  "description": "Open cited HTTPS resources, verify signed Ad Fontes updates, and restart after user-approved installation. No filesystem, account, shell, or database access.",
   "windows": ["main"],
   "permissions": [
     "core:default",
+    "updater:default",
+    "process:allow-restart",
     { "identifier": "opener:allow-open-url", "allow": [{ "url": "https://*" }] }
   ]
 }

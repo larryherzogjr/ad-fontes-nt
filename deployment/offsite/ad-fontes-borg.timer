@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily encrypted off-host backup of Ad Fontes NT
+
+[Timer]
+OnCalendar=*-*-* 04:00:00 UTC
+Persistent=true
+RandomizedDelaySec=10m
+
+[Install]
+WantedBy=timers.target

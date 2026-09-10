@@ -21,6 +21,35 @@ test('fresh native origins normalize to the reader root without losing requested
   assert.equal(desktopStartPath('http://127.0.0.1:1421/'), null);
 });
 
+test('desktop release candidate has a signed, user-controlled stable updater configuration', async () => {
+  const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
+  const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
+  const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
+  assert.equal(config.version, '1.0.0-rc.1');
+  assert.equal(config.bundle.createUpdaterArtifacts, true);
+  assert.equal(config.plugins.updater.pubkey, publicKey);
+  assert.deepEqual(config.plugins.updater.endpoints, ['https://ad-fontes.app/desktop-updates/stable/latest.json']);
+  assert.ok(capability.permissions.includes('updater:default'));
+  assert.ok(capability.permissions.includes('process:allow-restart'));
+  assert.ok(!capability.permissions.includes('process:default'));
+  const source = await readFile('app/desktop/update-manager.tsx', 'utf8');
+  assert.match(source, /24 \* 60 \* 60 \* 1000/);
+  assert.match(source, /Download and install/);
+  assert.doesNotMatch(source, /downloadAndInstall\([^)]*useEffect/);
+  const windowsConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.windows.release.conf.json', 'utf8'));
+  const signingScript = await readFile('app/desktop/src-tauri/windows_artifact_sign.ps1', 'utf8');
+  assert.match(windowsConfig.bundle.windows.signCommand, /-File windows_artifact_sign\.ps1 %1$/);
+  assert.match(signingScript, /AZURE_ARTIFACT_SIGNING_ENDPOINT/);
+  assert.match(signingScript, /signtool\.exe verify \/pa \/all \/v/);
+  assert.doesNotMatch(signingScript, /[A-Za-z0-9_-]+\.codesigning\.azure\.net/);
+  const macConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.macos.release.conf.json', 'utf8'));
+  const macRelease = await readFile('deployment/build-macos-release.sh', 'utf8');
+  assert.equal(macConfig.bundle.macOS.minimumSystemVersion, '14.0');
+  assert.match(macRelease, /APPLE_SIGNING_IDENTITY/);
+  assert.match(macRelease, /stapler validate/);
+  assert.match(macRelease, /TAURI_SIGNING_PRIVATE_KEY/);
+});
+
 test('desktop bundles every released file unchanged and excludes account/private assets', async () => {
   const manifest = await json('desktop-content.json');
   assert.equal(manifest.editions.length, 7);

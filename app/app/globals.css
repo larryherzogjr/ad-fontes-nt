@@ -477,6 +477,16 @@ footer {
     line-height: 1.85;
   }
 }
+.desktop-update { position: fixed; right: 18px; bottom: 18px; z-index: 45; font: 14px/1.45 Arial, sans-serif; }
+.desktop-update > button, .desktop-update > div { box-shadow: 0 8px 28px #202b3230; }
+.desktop-update > div { width: min(390px, calc(100vw - 32px)); border: 1px solid var(--border); border-radius: 8px; background: var(--background); padding: 16px; }
+.desktop-update p { margin: 0 0 12px; }
+.desktop-update-notes { max-height: 8rem; overflow: auto; white-space: pre-wrap; color: var(--muted-foreground); }
+.desktop-update-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.desktop-update progress { width: 100%; }
+@media (max-width: 500px) {
+  .desktop-update { right: 16px; bottom: 16px; }
+}
 /* M2 edition controls retain the reader's narrow measure. */
 .toolbar {
   flex-wrap: wrap;
@@ -846,6 +856,20 @@ button.greek-token.chosen {
 
 .account-page { max-width: 680px; margin: 3rem auto; padding: 1.5rem; }
 .account-page h1 { margin-top: 1rem; }
+.account-danger-zone { border-top: 1px solid var(--border); margin-top: 2rem; padding-top: 1rem; }
+.account-danger-zone h2 { font-size: 1.35rem; margin: 0 0 .5rem; }
+.account-danger-zone p { color: var(--muted-foreground); }
+.account-policy-links { border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; padding-top: 1rem; }
+.public-page { max-width: 760px; }
+.public-page h1 { margin-bottom: 1.25rem; }
+.public-page h2 { font-size: 1.55rem; margin-top: 2rem; }
+.public-page li { margin: .5rem 0; }
+.policy-draft { border-left: 3px solid #9b702b; background: #f8f2e8; padding: .75rem 1rem; }
+.public-footer nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+@media (max-width: 650px) {
+  .public-masthead { align-items: flex-start; flex-direction: column; }
+  .public-page { padding-inline: 20px; }
+}
 .account-page form, .personal-notes form { display: grid; gap: .65rem; }
 .account-page input, .personal-notes input:not([type=checkbox]), .personal-notes textarea { width: 100%; min-width: 0; border: 1px solid var(--border); border-radius: 4px; padding: .6rem; }
 .personal-notes { margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--border); border-radius: 6px; font: 1rem/1.6 Arial, sans-serif; }

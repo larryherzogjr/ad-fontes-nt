@@ -214,6 +214,27 @@ export async function handleAccount(request: Request): Promise<Response> {
       await database().query("DELETE FROM afnt_sessions WHERE token_hash=$1", [session.token_hash]);
       return reply({ ok: true }, 200, { "Set-Cookie": cookie("", 0) });
     }
+    if (path === "/api/account/delete") {
+      if (!session.user_id) return reply({ error: "Sign in again to continue." }, 401);
+      const client = await database().connect();
+      try {
+        await client.query("BEGIN");
+        const deleted = await client.query("DELETE FROM afnt_users WHERE id=$1", [
+          session.user_id,
+        ]);
+        if (!deleted.rowCount) {
+          await client.query("ROLLBACK");
+          return reply({ error: "Account was not found." }, 404);
+        }
+        await client.query("COMMIT");
+      } catch (error) {
+        await client.query("ROLLBACK");
+        throw error;
+      } finally {
+        client.release();
+      }
+      return reply({ ok: true }, 200, { "Set-Cookie": cookie("", 0) });
+    }
     return reply({ error: "Not found" }, 404);
   } catch {
     return reply({ error: "Account service is temporarily unavailable. Please try again." }, 503);

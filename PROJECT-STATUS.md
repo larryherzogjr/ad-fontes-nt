@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-10 — Public v1.0 release candidate preparation (AFNT-026–029 / AFNT-107)
+
+- Larry approved preparing v1.0 with anonymous public reading, invitation-only Google-backed private notes, self-service account deletion, privacy-minimal operations, a 48-hour soft launch, and supported desktop targets of macOS Sonoma 14+ Apple Silicon and Windows 11 x64. Public launch and paid-service enrollment still require their explicit final approvals.
+- Prepared `1.0.0-rc.1`: self-service account deletion; draft Privacy, Terms and Support pages; desktop update checks with explicit download/install approval; a new independent updater trust key and signed immutable update-manifest workflow; hardened Nginx update hosting; Developer ID/notarization release checks; Azure Artifact Signing integration; and isolated home-lab Borg backup tooling. Private database backups now have a strict 30-day maximum; longer archives may contain only public release and non-secret configuration data.
+- Complete shared verification passed with 52 Node tests, 19 Python tests, the production web build, all 13,371 offline desktop files and five desktop tests. Five isolated account integration tests passed. npm audit found zero known vulnerabilities; RustSec found no known vulnerabilities and seven recorded transitive maintenance/target warnings. Production-loopback and accessibility-tree checks are recorded in `docs/V1-RC1-Verification-2026-09-10.md`.
+- No public v1 release, production update, source push or paid subscription has occurred. Remaining gates are owner approval of exact policy text, backup-VM access/setup/restore, Apple certificate and notarization setup, Azure identity/signing enrollment, signed clean-install/updater rehearsals, production rollback, exact artifact approval and soft-launch verification. `larryherzogjr.com` remains unchanged.
+
 ## 2026-09-09 — Approved BSB adaptation release rollout (AFNT-104 / AFNT-107)
 
 - Larry chose an app-only BSB adaptation of the 250 embedded Greek articles; `larryherzogjr.com` will remain on its existing NET-based edition. BSB is primary, with BLB/MSB available only for useful comparisons. The application can diverge because it uses a versioned immutable snapshot and will disclose the relationship to the linked original website edition.
