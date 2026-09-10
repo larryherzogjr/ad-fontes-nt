@@ -48,6 +48,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const macRelease = await readFile('deployment/build-macos-release.sh', 'utf8');
   assert.equal(macConfig.bundle.macOS.minimumSystemVersion, '14.0');
   assert.match(macRelease, /APPLE_SIGNING_IDENTITY/);
+  assert.match(macRelease, /--config src-tauri\/tauri\.macos\.release\.conf\.json/);
   assert.match(macRelease, /stapler validate/);
   assert.match(macRelease, /TAURI_SIGNING_PRIVATE_KEY/);
 });

@@ -17,7 +17,7 @@ security find-identity -v -p codesigning | grep -F -- "$APPLE_SIGNING_IDENTITY" 
   exit 2
 }
 npm run verify:both
-npm run desktop:build -- --bundles app,dmg --config tauri.macos.release.conf.json -- --locked
+npm run desktop:build -- --bundles app,dmg --config src-tauri/tauri.macos.release.conf.json -- --locked
 bundle='app/desktop/src-tauri/target/release/bundle/macos/Ad Fontes NT.app'
 dmg=$(find app/desktop/src-tauri/target/release/bundle/dmg -maxdepth 1 -type f -name '*.dmg' -print -quit)
 update=$(find app/desktop/src-tauri/target/release/bundle/macos -maxdepth 1 -type f -name '*.app.tar.gz' -print -quit)
