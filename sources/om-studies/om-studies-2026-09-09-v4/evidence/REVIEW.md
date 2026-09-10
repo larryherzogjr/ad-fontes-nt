@@ -1,0 +1,661 @@
+# BSB adaptation review index
+
+Approve only against candidate manifest SHA-256 `dad1b34f996eb44bc30e9641083f39b8945992f768a2b96b511f0a695647eb2d`.
+
+Review protocol: every stratified-sample item with score below 0.65 is presumed to need editing until a human reviewer explicitly clears it in context.
+
+## Curated translation-specific prose
+
+- [agape](raw/agape.md) — source line 115
+- [agorazo](raw/agorazo.md) — source line 126
+- [amen](raw/amen.md) — source line 68
+- [amen](raw/amen.md) — source line 77
+- [amen](raw/amen.md) — source line 110
+- [analambano](raw/analambano.md) — source line 35
+- [anastasis](raw/anastasis.md) — source line 65
+- [anaxios](raw/anaxios.md) — source line 41
+- [anomia](raw/anomia.md) — source line 142
+- [anomia](raw/anomia.md) — source line 158
+- [anothen](raw/anothen.md) — source line 30
+- [anthropos](raw/anthropos.md) — source line 86
+- [antitypos](raw/antitypos.md) — source line 40
+- [apaugasma](raw/apaugasma.md) — source line 27
+- [aphthartos](raw/aphthartos.md) — source line 41
+- [apolytrosis](raw/apolytrosis.md) — source line 69
+- [arche](raw/arche.md) — source line 63
+- [arche](raw/arche.md) — source line 135
+- [diakonos](raw/diakonos.md) — source line 93
+- [diakrino](raw/diakrino.md) — source line 43
+- [didaskalia](raw/didaskalia.md) — source line 70
+- [didaskalia](raw/didaskalia.md) — source line 144
+- [dikaiosyne](raw/dikaiosyne.md) — source line 67
+- [eirene](raw/eirene.md) — source line 68
+- [eirene](raw/eirene.md) — source line 72
+- [eleutheria](raw/eleutheria.md) — source line 72
+- [elpis](raw/elpis.md) — source line 124
+- [entynchano](raw/entynchano.md) — source line 35
+- [eperotema](raw/eperotema.md) — source line 29
+- [eperotema](raw/eperotema.md) — source line 43
+- [epiphaneia](raw/epiphaneia.md) — source line 80
+- [episkopos](raw/episkopos.md) — source line 98
+- [ethnos](raw/ethnos.md) — source line 82
+- [ethnos](raw/ethnos.md) — source line 160
+- [eudokia](raw/eudokia.md) — source line 33
+- [eulogeo](raw/eulogeo.md) — source line 78
+- [eulogeo](raw/eulogeo.md) — source line 82
+- [eulogeo](raw/eulogeo.md) — source line 96
+- [eulogeo](raw/eulogeo.md) — source line 132
+- [graphe](raw/graphe.md) — source line 103
+- [graphe](raw/graphe.md) — source line 120
+- [graphe](raw/graphe.md) — source line 122
+- [graphe](raw/graphe.md) — source line 192
+- [hiereus](raw/hiereus.md) — source line 88
+- [hilaskomai](raw/hilaskomai.md) — source line 31
+- [hilasterion](raw/hilasterion.md) — source line 30
+- [homologeo](raw/homologeo.md) — source line 60
+- [hypakoe](raw/hypakoe.md) — source line 36
+- [hypakoe](raw/hypakoe.md) — source line 128
+- [hypomone](raw/hypomone.md) — source line 140
+- [hypostasis](raw/hypostasis.md) — source line 30
+- [hypostasis](raw/hypostasis.md) — source line 72
+- [hypostasis](raw/hypostasis.md) — source line 78
+- [hypostasis](raw/hypostasis.md) — source line 94
+- [hypostasis](raw/hypostasis.md) — source line 102
+- [hypostasis](raw/hypostasis.md) — source line 114
+- [hypostasis](raw/hypostasis.md) — source line 119
+- [kaine-ktisis](raw/kaine-ktisis.md) — source line 140
+- [karpos](raw/karpos.md) — source line 106
+- [kenoo](raw/kenoo.md) — source line 64
+- [kenoo](raw/kenoo.md) — source line 90
+- [koimaomai](raw/koimaomai.md) — source line 35
+- [kosmos](raw/kosmos.md) — source line 78
+- [krisis](raw/krisis.md) — source line 96
+- [laos](raw/laos.md) — source line 78
+- [laos](raw/laos.md) — source line 114
+- [leitourgia](raw/leitourgia.md) — source line 76
+- [mathetes](raw/mathetes.md) — source line 88
+- [monogenes](raw/monogenes.md) — source line 26
+- [monogenes](raw/monogenes.md) — source line 54
+- [monogenes](raw/monogenes.md) — source line 58
+- [monogenes](raw/monogenes.md) — source line 62
+- [monogenes](raw/monogenes.md) — source line 80
+- [monogenes](raw/monogenes.md) — source line 86
+- [monogenes](raw/monogenes.md) — source line 96
+- [monogenes](raw/monogenes.md) — source line 98
+- [monogenes](raw/monogenes.md) — source line 104
+- [onoma](raw/onoma.md) — source line 43
+- [paliggenesia](raw/paliggenesia.md) — source line 43
+- [paliggenesia](raw/paliggenesia.md) — source line 60
+- [paraklesis](raw/paraklesis.md) — source line 33
+- [paraptoma](raw/paraptoma.md) — source line 70
+- [paratheke](raw/paratheke.md) — source line 66
+- [parrhesia](raw/parrhesia.md) — source line 75
+- [pater](raw/pater.md) — source line 64
+- [peripateo](raw/peripateo.md) — source line 44
+- [perisseuo](raw/perisseuo.md) — source line 23
+- [perisseuo](raw/perisseuo.md) — source line 29
+- [phobos](raw/phobos.md) — source line 47
+- [planao](raw/planao.md) — source line 86
+- [poimen](raw/poimen.md) — source line 27
+- [prautes](raw/prautes.md) — source line 122
+- [proselytos](raw/proselytos.md) — source line 32
+- [proselytos](raw/proselytos.md) — source line 94
+- [prothesis](raw/prothesis.md) — source line 115
+- [prothesis](raw/prothesis.md) — source line 165
+- [psyche](raw/psyche.md) — source line 33
+- [sarx](raw/sarx.md) — source line 93
+- [skenoo](raw/skenoo.md) — source line 35
+- [skia](raw/skia.md) — source line 31
+- [skybalon](raw/skybalon.md) — source line 29
+- [soter](raw/soter.md) — source line 100
+- [stephanos](raw/stephanos.md) — source line 47
+- [stoicheia](raw/stoicheia.md) — source line 29
+- [taxis](raw/taxis.md) — source line 33
+- [teleo](raw/teleo.md) — source line 23
+- [thanatos](raw/thanatos.md) — source line 58
+- [thanatos](raw/thanatos.md) — source line 74
+- [thanatos](raw/thanatos.md) — source line 109
+- [theos](raw/theos.md) — source line 33
+- [theos](raw/theos.md) — source line 35
+- [theos](raw/theos.md) — source line 54
+- [typos](raw/typos.md) — source line 31
+- [zoe](raw/zoe.md) — source line 125
+- [zoe](raw/zoe.md) — source line 135
+
+## Other source lines that contained an explicit NET attribution
+
+- [agape](raw/agape.md) — source line 49
+- [agorazo](raw/agorazo.md) — source line 148
+- [amen](raw/amen.md) — source line 120
+- [anomia](raw/anomia.md) — source line 160
+- [anthropos](raw/anthropos.md) — source line 76
+- [anthropos](raw/anthropos.md) — source line 78
+- [anthropos](raw/anthropos.md) — source line 82
+- [anthropos](raw/anthropos.md) — source line 104
+- [anthropos](raw/anthropos.md) — source line 130
+- [apostolos](raw/apostolos.md) — source line 30
+- [apostolos](raw/apostolos.md) — source line 98
+- [arche](raw/arche.md) — source line 72
+- [arche](raw/arche.md) — source line 104
+- [artos](raw/artos.md) — source line 95
+- [artos](raw/artos.md) — source line 109
+- [authenteo](raw/authenteo.md) — source line 68
+- [baptizo](raw/baptizo.md) — source line 30
+- [baptizo](raw/baptizo.md) — source line 96
+- [baptizo](raw/baptizo.md) — source line 104
+- [basileia](raw/basileia.md) — source line 28
+- [basileia](raw/basileia.md) — source line 38
+- [basileia](raw/basileia.md) — source line 170
+- [basileia](raw/basileia.md) — source line 196
+- [bema](raw/bema.md) — source line 30
+- [bema](raw/bema.md) — source line 32
+- [chara](raw/chara.md) — source line 40
+- [chara](raw/chara.md) — source line 210
+- [chara](raw/chara.md) — source line 226
+- [charakter](raw/charakter.md) — source line 39
+- [charis](raw/charis.md) — source line 30
+- [charis](raw/charis.md) — source line 52
+- [christos](raw/christos.md) — source line 51
+- [deo](raw/deo.md) — source line 44
+- [diakonos](raw/diakonos.md) — source line 81
+- [diatheke](raw/diatheke.md) — source line 32
+- [didaskalia](raw/didaskalia.md) — source line 30
+- [didaskalia](raw/didaskalia.md) — source line 32
+- [dikaioo](raw/dikaioo.md) — source line 49
+- [eikon](raw/eikon.md) — source line 38
+- [eikon](raw/eikon.md) — source line 49
+- [eikon](raw/eikon.md) — source line 111
+- [eirene](raw/eirene.md) — source line 36
+- [ekklesia](raw/ekklesia.md) — source line 46
+- [eleutheria](raw/eleutheria.md) — source line 158
+- [elpis](raw/elpis.md) — source line 188
+- [epiousios](raw/epiousios.md) — source line 32
+- [epiousios](raw/epiousios.md) — source line 34
+- [epiousios](raw/epiousios.md) — source line 88
+- [episkopos](raw/episkopos.md) — source line 152
+- [ergon](raw/ergon.md) — source line 30
+- [ergon](raw/ergon.md) — source line 32
+- [ergon](raw/ergon.md) — source line 68
+- [ergon](raw/ergon.md) — source line 130
+- [ethnos](raw/ethnos.md) — source line 122
+- [ethnos](raw/ethnos.md) — source line 138
+- [euangelion](raw/euangelion.md) — source line 34
+- [eudokia](raw/eudokia.md) — source line 45
+- [eulogeo](raw/eulogeo.md) — source line 194
+- [exestin](raw/exestin.md) — source line 45
+- [hagios](raw/hagios.md) — source line 30
+- [hagios](raw/hagios.md) — source line 32
+- [hagios](raw/hagios.md) — source line 34
+- [hagios](raw/hagios.md) — source line 36
+- [hagios](raw/hagios.md) — source line 38
+- [haima](raw/haima.md) — source line 30
+- [haima](raw/haima.md) — source line 110
+- [hamartia](raw/hamartia.md) — source line 44
+- [hamartia](raw/hamartia.md) — source line 46
+- [hamartia](raw/hamartia.md) — source line 47
+- [hamartia](raw/hamartia.md) — source line 52
+- [harpagmos](raw/harpagmos.md) — source line 36
+- [hilasterion](raw/hilasterion.md) — source line 79
+- [hilasterion](raw/hilasterion.md) — source line 97
+- [homologeo](raw/homologeo.md) — source line 96
+- [huiothesia](raw/huiothesia.md) — source line 132
+- [hyios](raw/hyios.md) — source line 108
+- [hypakoe](raw/hypakoe.md) — source line 94
+- [hypomone](raw/hypomone.md) — source line 73
+- [hypomone](raw/hypomone.md) — source line 86
+- [iesous](raw/iesous.md) — source line 138
+- [katallage](raw/katallage.md) — source line 30
+- [katallage](raw/katallage.md) — source line 52
+- [katallage](raw/katallage.md) — source line 110
+- [kenoo](raw/kenoo.md) — source line 38
+- [kenoo](raw/kenoo.md) — source line 48
+- [kenoo](raw/kenoo.md) — source line 96
+- [kerygma](raw/kerygma.md) — source line 30
+- [kleronomia](raw/kleronomia.md) — source line 74
+- [kleronomia](raw/kleronomia.md) — source line 84
+- [kleronomia](raw/kleronomia.md) — source line 99
+- [kleronomos](raw/kleronomos.md) — source line 28
+- [kleronomos](raw/kleronomos.md) — source line 66
+- [kleronomos](raw/kleronomos.md) — source line 186
+- [klesis](raw/klesis.md) — source line 56
+- [koinonia](raw/koinonia.md) — source line 30
+- [krisis](raw/krisis.md) — source line 36
+- [krisis](raw/krisis.md) — source line 174
+- [kyrios](raw/kyrios.md) — source line 61
+- [laos](raw/laos.md) — source line 74
+- [logos](raw/logos.md) — source line 54
+- [logos](raw/logos.md) — source line 57
+- [logos](raw/logos.md) — source line 59
+- [logos](raw/logos.md) — source line 112
+- [martyria](raw/martyria.md) — source line 30
+- [martyria](raw/martyria.md) — source line 54
+- [mataiotes](raw/mataiotes.md) — source line 45
+- [nomos](raw/nomos.md) — source line 50
+- [nomos](raw/nomos.md) — source line 51
+- [nomos](raw/nomos.md) — source line 107
+- [orthotomeo](raw/orthotomeo.md) — source line 37
+- [orthotomeo](raw/orthotomeo.md) — source line 74
+- [paliggenesia](raw/paliggenesia.md) — source line 87
+- [pantokrator](raw/pantokrator.md) — source line 27
+- [paradosis](raw/paradosis.md) — source line 38
+- [parakletos](raw/parakletos.md) — source line 32
+- [paratheke](raw/paratheke.md) — source line 48
+- [paratheke](raw/paratheke.md) — source line 52
+- [parousia](raw/parousia.md) — source line 135
+- [parrhesia](raw/parrhesia.md) — source line 30
+- [parrhesia](raw/parrhesia.md) — source line 34
+- [planao](raw/planao.md) — source line 164
+- [planao](raw/planao.md) — source line 168
+- [pleroma](raw/pleroma.md) — source line 111
+- [pneuma](raw/pneuma.md) — source line 32
+- [pneuma](raw/pneuma.md) — source line 54
+- [proselytos](raw/proselytos.md) — source line 78
+- [proselytos](raw/proselytos.md) — source line 156
+- [proseuche](raw/proseuche.md) — source line 224
+- [prototokos](raw/prototokos.md) — source line 142
+- [prototokos](raw/prototokos.md) — source line 150
+- [sarx](raw/sarx.md) — source line 30
+- [sarx](raw/sarx.md) — source line 32
+- [sarx](raw/sarx.md) — source line 56
+- [sarx](raw/sarx.md) — source line 57
+- [soma](raw/soma.md) — source line 91
+- [sozo](raw/sozo.md) — source line 30
+- [sozo](raw/sozo.md) — source line 48
+- [sozo](raw/sozo.md) — source line 49
+- [suneidesis](raw/suneidesis.md) — source line 89
+- [suneidesis](raw/suneidesis.md) — source line 99
+- [teleios](raw/teleios.md) — source line 30
+- [teleios](raw/teleios.md) — source line 55
+- [thanatos](raw/thanatos.md) — source line 146
+- [thanatos](raw/thanatos.md) — source line 166
+- [theos](raw/theos.md) — source line 132
+- [theotes](raw/theotes.md) — source line 28
+- [typos](raw/typos.md) — source line 37
+- [zoe](raw/zoe.md) — source line 30
+- [zoe](raw/zoe.md) — source line 48
+- [zoe](raw/zoe.md) — source line 52
+
+## Smallest-whole-verse fallbacks to inspect
+
+- [agorazo](raw/agorazo.md) — Isaiah 55:1-3; source line(s) 60; source span 19–529; original excerpt: “Hey, all who are thirsty, come to the water! You who have no money, come! Buy and eat! Come! Buy wine and milk withou...”
+- [agorazo](raw/agorazo.md) — Lamentations 5:4; source line(s) 62; source span 22–101; original excerpt: “We must pay money for our own water; we must buy our own wood at a steep price.”
+- [agorazo](raw/agorazo.md) — Revelation 5:9; source line(s) 110; source span 60–90; original excerpt: “at the cost of your own blood.”
+- [agorazo](raw/agorazo.md) — Revelation 7:9; source line(s) 178; source span 920–1028; original excerpt: “an enormous crowd that no one could count, made up of persons from every nation, tribe, people, and language”
+- [amen](raw/amen.md) — Isaiah 7:9; source line(s) 48; source span 441–508; original excerpt: “If your faith does not remain firm, then you will not remain secure”
+- [amen](raw/amen.md) — Habakkuk 2:4; source line(s) 50; source span 66–204; original excerpt: “Look, the one whose desires are not upright will faint from exhaustion, but the person of integrity will live because...”
+- [amen](raw/amen.md) — Psalm 41:13; source line(s) 66; source span 174–263; original excerpt: “The Lord God of Israel deserves praise in the future and forevermore. We agree! We agree!”
+- [amen](raw/amen.md) — John 3:3; source line(s) 90; source span 215–313; original excerpt: “I tell you the solemn truth, unless a person is born from above, he cannot see the kingdom of God.”
+- [amen](raw/amen.md) — 2 Corinthians 1:18-22; source line(s) 108; source span 101–150; original excerpt: “For every one of God’s promises are ‘Yes’ in him.”
+- [anastasis](raw/anastasis.md) — Psalm 6:5; source line(s) 60; source span 245–323; original excerpt: “For no one remembers you in the realm of death. In Sheol who gives you thanks?”
+- [anastasis](raw/anastasis.md) — Psalm 16:10; source line(s) 62; source span 482–572; original excerpt: “You will not abandon me to Sheol; you will not allow your faithful follower to see the Pit”
+- [anastasis](raw/anastasis.md) — Philippians 3:20-21; source line(s) 130; source span 91–173; original excerpt: “will transform these humble bodies of ours into the likeness of his glorious body.”
+- [anastasis](raw/anastasis.md) — 1 Corinthians 15:58; source line(s) 166; source span 112–272; original excerpt: “So then, dear brothers and sisters, be firm. Do not be moved! Always be outstanding in the work of the Lord, knowing...”
+- [anomia](raw/anomia.md) — 2 Timothy 2:5; source line(s) 58; source span 136–255; original excerpt: “Also, if anyone competes as an athlete, he will not be crowned as the winner unless he competes according to the rules.”
+- [anomia](raw/anomia.md) — Psalm 32:1-2; source line(s) 74; source span 31–178; original excerpt: “How blessed is the one whose rebellious acts are forgiven, whose sin is pardoned. How blessed is the one whose wrongd...”
+- [anomia](raw/anomia.md) — Isaiah 53:5-6; source line(s) 76; source span 19–318; original excerpt: “He was wounded because of our rebellious deeds, crushed because of our sins; he endured punishment that made us well;...”
+- [anomia](raw/anomia.md) — Psalm 32:1; source line(s) 90; source span 111–192; original excerpt: “How blessed is the one whose rebellious acts are forgiven, whose sin is pardoned.”
+- [anomia](raw/anomia.md) — Matthew 24:12; source line(s) 144; source span 102–181; original excerpt: “and because lawlessness will increase so much, the love of many will grow cold.”
+- [anthropos](raw/anthropos.md) — 1 Corinthians 10:13; source line(s) 46; source span 142–197; original excerpt: “No trial has overtaken you that is not faced by others.”
+- [anthropos](raw/anthropos.md) — 1 Corinthians 15:45-47; source line(s) 88; source span 70–237; original excerpt: “The first man, Adam, became a living person...the last Adam became a life-giving spirit...The first man is from the e...”
+- [anthropos](raw/anthropos.md) — Romans 5:12-21; source line(s) 104; source span 115–283; original excerpt: “consequently, just as condemnation for all people came through one transgression, so too through the one righteous ac...”
+- [antilytron](raw/antilytron.md) — 1 Peter 1:18–19; source line(s) 90; source span 20–239; original excerpt: “You know that from your empty way of life inherited from your ancestors you were ransomed—not by perishable things li...”
+- [aphesis](raw/aphesis.md) — John 20:23; source line(s) 89; source span 703–799; original excerpt: “If you forgive anyone’s sins, they are forgiven; if you retain anyone’s sins, they are retained.”
+- [apolytrosis](raw/apolytrosis.md) — Hebrews 9:12; source line(s) 52; source span 315–352; original excerpt: “he himself secured eternal redemption”
+- [apolytrosis](raw/apolytrosis.md) — Hebrews 11:35; source line(s) 94; source span 72–161; original excerpt: “But others were tortured, not accepting release, to obtain resurrection to a better life.”
+- [apostolos](raw/apostolos.md) — Jeremiah 1:7; source line(s) 68; source span 18–129; original excerpt: “The Lord said to me, ‘Do not say, ‘I am too young.’ But go to whomever I send you and say whatever I tell you.’”
+- [apostolos](raw/apostolos.md) — Mark 3:14; source line(s) 102; source span 130–210; original excerpt: “He appointed 12 so that they would be with him and he could send them to preach.”
+- [arche](raw/arche.md) — Amos 6:1; source line(s) 60; source span 503–566; original excerpt: “They think of themselves as the elite class of the best nation.”
+- [arche](raw/arche.md) — Luke 20:20; source line(s) 76; source span 67–202; original excerpt: “They wanted to take advantage of what he might say so that they could deliver him up to the authority and jurisdictio...”
+- [baptizo](raw/baptizo.md) — Colossians 2:11; source line(s) 86; source span 211–393; original excerpt: “in him you also were circumcised—not, however, with a circumcision performed by human hands, but by the removal of th...”
+- [basileia](raw/basileia.md) — Isaiah 9:6-7; source line(s) 68; source span 180–306; original excerpt: “his dominion will be vast, and he will bring immeasurable prosperity. He will rule on David’s throne and over David’s...”
+- [basileia](raw/basileia.md) — Daniel 2:44; source line(s) 70; source span 130–293; original excerpt: “In the days of those kings the God of heaven will raise up an everlasting kingdom that will not be destroyed and a ki...”
+- [basileia](raw/basileia.md) — Daniel 7:13-14; source line(s) 70; source span 338–540; original excerpt: “to him was given ruling authority, honor, and sovereignty. All peoples, nations, and language groups were serving him...”
+- [basileia](raw/basileia.md) — Colossians 1:13; source line(s) 170; source span 260–309; original excerpt: “transferred us to the kingdom of the Son he loves”
+- [bema](raw/bema.md) — Acts 7:5; source line(s) 48; source span 522–730; original excerpt: “He did not give any of it to him for an inheritance, not even a foot of ground, yet God promised to give it to him as...”
+- [bema](raw/bema.md) — Psalm 9:7-8; source line(s) 56; source span 17–147; original excerpt: “But the Lord rules forever; he reigns in a just manner. He judges the world fairly; he makes just legal decisions for...”
+- [bema](raw/bema.md) — Acts 7:5; source line(s) 72; source span 42–250; original excerpt: “He did not give any of it to him for an inheritance, not even a foot of ground, yet God promised to give it to him as...”
+- [bema](raw/bema.md) — 2 Corinthians 5:10; source line(s) 86; source span 23–53; original excerpt: “according to what he has done.”
+- [bema](raw/bema.md) — 2 Corinthians 5:10; source line(s) 86; source span 387–435; original excerpt: “according to what he has done while in the body.”
+- [bema](raw/bema.md) — Romans 14:10-12; source line(s) 102; source span 60–84; original excerpt: “the judgment seat of God”
+- [bema](raw/bema.md) — Philippians 2:13; source line(s) 142; source span 160–265; original excerpt: “for the one bringing forth in you both the desire and the effort—for the sake of his good pleasure—is God”
+- [chara](raw/chara.md) — Acts 5:41; source line(s) 40; source span 273–391; original excerpt: “so they left the council rejoicing because they had been considered worthy to suffer dishonor for the sake of the name”
+- [chara](raw/chara.md) — Psalm 16:11; source line(s) 78; source span 17–127; original excerpt: “You lead me in the path of life. I experience absolute joy in your presence; you always give me sheer delight.”
+- [chara](raw/chara.md) — Psalm 30:5; source line(s) 80; source span 16–172; original excerpt: “For his anger lasts only a brief moment, and his good favor restores one’s life. One may experience sorrow during the...”
+- [chara](raw/chara.md) — Psalm 51:12; source line(s) 82; source span 17–113; original excerpt: “Let me again experience the joy of your deliverance. Sustain me by giving me the desire to obey.”
+- [chara](raw/chara.md) — Isaiah 35:10; source line(s) 88; source span 25–225; original excerpt: “those whom the Lord has ransomed will return that way. They will enter Zion with a happy shout. Unending joy will cro...”
+- [charisma](raw/charisma.md) — 1 Timothy 4:14; source line(s) 80; source span 19–143; original excerpt: “Do not neglect the spiritual gift you have, given to you and confirmed by prophetic words when the elders laid hands...”
+- [charisma](raw/charisma.md) — 1 Peter 4:10; source line(s) 96; source span 17–127; original excerpt: “Just as each one has received a gift, use it to serve one another as good stewards of the varied grace of God.”
+- [didaskalia](raw/didaskalia.md) — 1 Timothy 6:3; source line(s) 58; source span 225–295; original excerpt: “If someone spreads false teachings and does not agree with sound words”
+- [didaskalia](raw/didaskalia.md) — Psalm 78:1-8; source line(s) 68; source span 18–981; original excerpt: “A well-written song by Asaph. Pay attention, my people, to my instruction. Listen to the words I speak. I will sing a...”
+- [didaskalia](raw/didaskalia.md) — 2 Timothy 4:3; source line(s) 112; source span 18–233; original excerpt: “For there will be a time when people will not tolerate sound teaching. Instead, following their own desires, they wil...”
+- [dikaiosyne](raw/dikaiosyne.md) — Romans 10:3; source line(s) 76; source span 139–185; original excerpt: “ignoring the righteousness that comes from God”
+- [dikaiosyne](raw/dikaiosyne.md) — Romans 10:3; source line(s) 100; source span 403–442; original excerpt: “the righteousness that *comes from* God”
+- [eirene](raw/eirene.md) — 1 Kings 4:24-25; source line(s) 66; source span 127–166; original excerpt: “he was at peace with all his neighbors.”
+- [eirene](raw/eirene.md) — Isaiah 53:5; source line(s) 82; source span 17–57; original excerpt: “he endured punishment that made us well.”
+- [eirene](raw/eirene.md) — Jeremiah 6:14; source line(s) 84; source span 28–173; original excerpt: “They offer only superficial help for the harm my people have suffered. They say, ‘Everything will be all right!’ But...”
+- [eirene](raw/eirene.md) — Ephesians 2:14; source line(s) 100; source span 93–214; original excerpt: “For he is our peace, the one who made both groups into one and who destroyed the middle wall of partition, the hostil...”
+- [eirene](raw/eirene.md) — Ephesians 6:15; source line(s) 104; source span 45–126; original excerpt: “by fitting your feet with the preparation that comes from the good news of peace.”
+- [eirene](raw/eirene.md) — Ephesians 2:14-16; source line(s) 132; source span 89–119; original excerpt: “the hostility has been killed.”
+- [eirene](raw/eirene.md) — Ephesians 2:14; source line(s) 182; source span 72–193; original excerpt: “For he is our peace, the one who made both groups into one and who destroyed the middle wall of partition, the hostil...”
+- [eirene](raw/eirene.md) — Psalm 85:10; source line(s) 214; source span 262–347; original excerpt: “Loyal love and faithfulness meet; deliverance and peace greet each other with a kiss.”
+- [eirene](raw/eirene.md) — Hebrews 12:11; source line(s) 214; source span 366–449; original excerpt: “But later it produces the fruit of peace and righteousness for those trained by it.”
+- [eirene](raw/eirene.md) — James 3:18; source line(s) 214; source span 465–557; original excerpt: “and the fruit that consists of righteousness is planted in peace among those who make peace.”
+- [eirene](raw/eirene.md) — Ephesians 2:14; source line(s) 220; source span 107–228; original excerpt: “For he is our peace, the one who made both groups into one and who destroyed the middle wall of partition, the hostil...”
+- [eklektos](raw/eklektos.md) — Romans 9:11; source line(s) 52; source span 193–239; original excerpt: “so that God’s purpose in election would stand.”
+- [eklektos](raw/eklektos.md) — 1 Thessalonians 1:4; source line(s) 52; source span 489–555; original excerpt: “We know, brothers and sisters loved by God, that he has chosen you”
+- [eklektos](raw/eklektos.md) — 2 Peter 1:10; source line(s) 52; source span 573–664; original excerpt: “Therefore, brothers and sisters, make every effort to be sure of your calling and election.”
+- [eklektos](raw/eklektos.md) — 1 Chronicles 16:13; source line(s) 79; source span 24–105; original excerpt: “O children of Israel, God’s servant, you descendants of Jacob, God’s chosen ones!”
+- [eklektos](raw/eklektos.md) — 1 Timothy 5:21; source line(s) 99; source span 38–182; original excerpt: “Before God and Christ Jesus and the elect angels, I solemnly charge you to carry out these commands without prejudice...”
+- [eklektos](raw/eklektos.md) — 1 Peter 1:1; source line(s) 142; source span 90–141; original excerpt: “those temporarily residing abroad...who are chosen.”
+- [eleutheria](raw/eleutheria.md) — 1 Corinthians 7:21; source line(s) 48; source span 242–365; original excerpt: “Were you called as a slave? Do not worry about it. But if indeed you are able to be free, make the most of the opport...”
+- [eleutheria](raw/eleutheria.md) — Romans 6:18, 22; source line(s) 108; source span 20–214; original excerpt: “and having been freed from sin, you became enslaved to righteousness. … But now, freed from sin and enslaved to God,...”
+- [elpis](raw/elpis.md) — Isaiah 40:31; source line(s) 60; source span 77–133; original excerpt: “those who wait for the Lord’s help find renewed strength”
+- [elpis](raw/elpis.md) — Lamentations 3:21-24; source line(s) 62; source span 95–218; original excerpt: “But this I call to mind; therefore I have hope: ח (Khet) The Lord’s loyal kindness never ceases; his compassions neve...”
+- [elpis](raw/elpis.md) — Psalm 42:5, 11; source line(s) 66; source span 26–160; original excerpt: “Why are you depressed, O my soul? Why are you upset? Wait for God! For I will again give thanks to my God for his sav...”
+- [elpis](raw/elpis.md) — Psalm 130:5-7; source line(s) 68; source span 19–306; original excerpt: “I rely on the Lord. I rely on him with my whole being; I wait for his assuring word. I yearn for the Lord, more than...”
+- [elpis](raw/elpis.md) — Lamentations 3:21-24; source line(s) 70; source span 26–289; original excerpt: “But this I call to mind; therefore I have hope: ח (Khet) The Lord’s loyal kindness never ceases; his compassions neve...”
+- [elpis](raw/elpis.md) — Isaiah 40:31; source line(s) 72; source span 18–187; original excerpt: “But those who wait for the Lord’s help find renewed strength; they rise up as if they had eagles’ wings, they run wit...”
+- [elpis](raw/elpis.md) — 1 Peter 3:15; source line(s) 90; source span 66–194; original excerpt: “but set Christ apart as Lord in your hearts and always be ready to give an answer to anyone who asks about the hope y...”
+- [elpis](raw/elpis.md) — 1 Timothy 6:17; source line(s) 94; source span 266–315; original excerpt: “to set their hope on riches, which are uncertain.”
+- [elpis](raw/elpis.md) — Hebrews 6:18-19; source line(s) 118; source span 20–306; original excerpt: “so that we who have found refuge in him may find strong encouragement to hold fast to the hope set before us through...”
+- [elpis](raw/elpis.md) — Titus 2:13; source line(s) 138; source span 158–191; original excerpt: “the happy fulfillment of our hope”
+- [elpis](raw/elpis.md) — Lamentations 3:21-24; source line(s) 188; source span 638–721; original excerpt: “this I call to mind; therefore I have hope...The Lord’s loyal kindness never ceases”
+- [elpizo](raw/elpizo.md) — John 5:45; source line(s) 60; source span 69–137; original excerpt: “The one who accuses you is Moses, in whom you have placed your hope.”
+- [elpizo](raw/elpizo.md) — 1 Peter 3:5; source line(s) 60; source span 257–372; original excerpt: “For in the same way the holy women who hoped in God long ago adorned themselves by being subject to their husbands,”
+- [elpizo](raw/elpizo.md) — Psalm 39:7; source line(s) 82; source span 16–78; original excerpt: “But now, O Lord, upon what am I relying? You are my only hope!”
+- [elpizo](raw/elpizo.md) — Psalm 42:5, 11; source line(s) 84; source span 26–160; original excerpt: “Why are you depressed, O my soul? Why are you upset? Wait for God! For I will again give thanks to my God for his sav...”
+- [elpizo](raw/elpizo.md) — Psalm 71:5; source line(s) 86; source span 16–95; original excerpt: “For you are my hope; O Sovereign Lord, I have trusted in you since I was young.”
+- [elpizo](raw/elpizo.md) — Psalm 130:5-7; source line(s) 88; source span 19–306; original excerpt: “I rely on the Lord. I rely on him with my whole being; I wait for his assuring word. I yearn for the Lord, more than...”
+- [elpizo](raw/elpizo.md) — 1 Peter 1:13; source line(s) 124; source span 86–154; original excerpt: “the grace that will be brought to you when Jesus Christ is revealed.”
+- [elpizo](raw/elpizo.md) — 1 Timothy 6:17; source line(s) 134; source span 95–123; original excerpt: “riches, which are uncertain.”
+- [elpizo](raw/elpizo.md) — Psalm 42:5, 11; source line(s) 160; source span 64–198; original excerpt: “Why are you depressed, O my soul? Why are you upset? Wait for God! For I will again give thanks to my God for his sav...”
+- [episkopos](raw/episkopos.md) — 1 Tim 3:1; source line(s) 74; source span 62–161; original excerpt: “This saying is trustworthy: ‘If someone aspires to the office of overseer, he desires a good work.’”
+- [episkopos](raw/episkopos.md) — 1 Tim 3:1; source line(s) 90; source span 91–113; original excerpt: “the office of overseer”
+- [episkopos](raw/episkopos.md) — Titus 1:9; source line(s) 123; source span 210–301; original excerpt: “be able to give exhortation in such healthy teaching and correct those who speak against it”
+- [ergon](raw/ergon.md) — Romans 3:20; source line(s) 30; source span 140–255; original excerpt: “for no one is declared righteous before him by the works of the law, for through the law comes the knowledge of sin”
+- [ergon](raw/ergon.md) — Genesis 2:15; source line(s) 68; source span 350–383; original excerpt: “to care for it and to maintain it”
+- [ergon](raw/ergon.md) — Psalm 90:17; source line(s) 80; source span 17–120; original excerpt: “May our Sovereign God extend his favor to us. Make our endeavors successful. Yes, make them successful.”
+- [ergon](raw/ergon.md) — Titus 3:5-8; source line(s) 142; source span 51–73; original excerpt: “engaging in good works”
+- [ethnos](raw/ethnos.md) — Revelation 7:9; source line(s) 38; source span 456–564; original excerpt: “an enormous crowd that no one could count, made up of persons from every nation, tribe, people, and language”
+- [ethnos](raw/ethnos.md) — Psalms 67:1-3; source line(s) 78; source span 35–274; original excerpt: “May God show us his favor and bless us. May he smile on us. (Selah) Then those living on earth will know what you are...”
+- [ethnos](raw/ethnos.md) — Psalm 96:3; source line(s) 80; source span 16–98; original excerpt: “Tell the nations about his splendor. Tell all the nations about his amazing deeds.”
+- [euangelion](raw/euangelion.md) — Isaiah 52:7; source line(s) 44; source span 403–540; original excerpt: “How delightful it is to see approaching over the mountains the feet of a messenger who announces peace, a messenger w...”
+- [euangelion](raw/euangelion.md) — Romans 10:17; source line(s) 100; source span 50–155; original excerpt: “consequently faith comes from what is heard, and what is heard comes through the preached word of Christ.”
+- [eulogeo](raw/eulogeo.md) — Luke 24:53; source line(s) 92; source span 217–272; original excerpt: “and were continually in the temple courts blessing God.”
+- [eusebeia](raw/eusebeia.md) — 1 Timothy 6:5–6; source line(s) 92; source span 20–222; original excerpt: “…and constant bickering by people corrupted in their minds and deprived of the truth, who suppose that godliness is a...”
+- [eusebeia](raw/eusebeia.md) — 2 Timothy 3:5; source line(s) 94; source span 18–107; original excerpt: “They will maintain the outward appearance of religion but will have repudiated its power.”
+- [graphe](raw/graphe.md) — Habakkuk 2:2; source line(s) 74; source span 18–141; original excerpt: “The Lord responded: ‘Write down this message. Record it legibly on tablets so the one who announces it may read it ea...”
+- [graphe](raw/graphe.md) — Luke 4:21; source line(s) 86; source span 141–243; original excerpt: “Then he began to tell them, ‘Today this scripture has been fulfilled even as you heard it being read.’”
+- [haima](raw/haima.md) — Leviticus 17:11; source line(s) 30; source span 1–187; original excerpt: “for the life of every living thing is in the blood. So I myself have assigned it to you on the altar to make atonemen...”
+- [hamartia](raw/hamartia.md) — John 8:34; source line(s) 44; source span 50–94; original excerpt: “everyone who practices sin is a slave of sin”
+- [hiereus](raw/hiereus.md) — Romans 15:16; source line(s) 68; source span 117–156; original excerpt: “I serve the gospel of God like a priest”
+- [homologeo](raw/homologeo.md) — 1 Tim 6:12; source line(s) 72; source span 175–209; original excerpt: “in the presence of many witnesses.”
+- [homologeo](raw/homologeo.md) — Hebrews 10:23; source line(s) 84; source span 194–238; original excerpt: “the one who made the promise is trustworthy.”
+- [homologeo](raw/homologeo.md) — 1 Tim 6:12; source line(s) 96; source span 182–215; original excerpt: “in the presence of many witnesses”
+- [huiothesia](raw/huiothesia.md) — Galatians 4:5; source line(s) 55; source span 19–52; original excerpt: “so that we may be adopted as sons”
+- [hygiaino](raw/hygiaino.md) — 2 Timothy 4:3; source line(s) 82; source span 18–234; original excerpt: “For there will be a time when people will not tolerate sound teaching. Instead, following their own desires, they wil...”
+- [hyios](raw/hyios.md) — Daniel 7:13; source line(s) 34; source span 249–314; original excerpt: “with the clouds of the sky, one like a son of man was approaching”
+- [hyios](raw/hyios.md) — Psalm 8:4; source line(s) 78; source span 15–151; original excerpt: “Of what importance is the human race, that you should notice them? Of what importance is mankind, that you should pay...”
+- [hyios](raw/hyios.md) — Daniel 7:13–14; source line(s) 82; source span 20–393; original excerpt: “I was watching in the night visions, and with the clouds of the sky, one like a son of man was approaching. He went u...”
+- [hyios](raw/hyios.md) — Matthew 3:17; source line(s) 114; source span 333–360; original excerpt: “in him I take great delight”
+- [hyios](raw/hyios.md) — Matthew 16:17; source line(s) 116; source span 157–270; original excerpt: “You are blessed, Simon son of Jonah, because flesh and blood did not reveal this to you, but my Father in heaven!”
+- [hyios](raw/hyios.md) — Philippians 2:7; source line(s) 144; source span 505–561; original excerpt: “taking on the form of a slave, by looking like other men”
+- [hypakoe](raw/hypakoe.md) — Jeremiah 7:21-24; source line(s) 72; source span 62–556; original excerpt: “Consider this: When I spoke to your ancestors after I brought them out of Egypt, I did not merely give them commands...”
+- [hypakoe](raw/hypakoe.md) — 1 Peter 1:2; source line(s) 80; source span 207–265; original excerpt: “for obedience and for sprinkling with Jesus Christ’s blood”
+- [hypakoe](raw/hypakoe.md) — Romans 1:5; source line(s) 94; source span 25–162; original excerpt: “Through him we have received grace and our apostleship to bring about the obedience of faith among all the Gentiles o...”
+- [hypakoe](raw/hypakoe.md) — Romans 16:26; source line(s) 94; source span 184–366; original excerpt: “but now is disclosed, and through the prophetic scriptures has been made known to all the nations, according to the c...”
+- [hypomone](raw/hypomone.md) — John 14:2; source line(s) 54; source span 108–159; original excerpt: “There are many dwelling places in my Father’s house”
+- [hypomone](raw/hypomone.md) — James 1:12; source line(s) 56; source span 327–363; original excerpt: “Happy is the one who endures testing”
+- [hypomone](raw/hypomone.md) — 1 Peter 2:20; source line(s) 56; source span 381–519; original excerpt: “for what credit is it if you sin and are mistreated and endure it? But if you do good and suffer and so endure, this...”
+- [hypomone](raw/hypomone.md) — Psalm 27:14; source line(s) 68; source span 17–77; original excerpt: “Rely on the Lord! Be strong and confident! Rely on the Lord!”
+- [hypomone](raw/hypomone.md) — Psalm 37:7-9; source line(s) 70; source span 18–335; original excerpt: “Wait patiently for the Lord! Wait confidently for him! Do not fret over the apparent success of a sinner, a man who c...”
+- [hypomone](raw/hypomone.md) — Psalm 40:1; source line(s) 73; source span 16–99; original excerpt: “I relied completely on the Lord, and he turned toward me and heard my cry for help.”
+- [hypomone](raw/hypomone.md) — Isaiah 40:31; source line(s) 76; source span 18–187; original excerpt: “But those who wait for the Lord’s help find renewed strength; they rise up as if they had eagles’ wings, they run wit...”
+- [hypomone](raw/hypomone.md) — Habakkuk 2:3; source line(s) 80; source span 18–252; original excerpt: “For the message is a witness to what is decreed; it gives reliable testimony about how matters will turn out. Even if...”
+- [hypomone](raw/hypomone.md) — Revelation 13:10; source line(s) 98; source span 250–310; original excerpt: “This requires steadfast endurance and faith from the saints.”
+- [hypomone](raw/hypomone.md) — Revelation 14:12; source line(s) 150; source span 21–140; original excerpt: “This requires the steadfast endurance of the saints—those who obey God’s commandments and hold to their faith in Jesus.”
+- [iesous](raw/iesous.md) — Philippians 2:5-11; source line(s) 94; source span 68–101; original excerpt: “the name that is above every name”
+- [kaine-ktisis](raw/kaine-ktisis.md) — 2 Peter 3:10-13; source line(s) 154; source span 271–307; original excerpt: “in which righteousness truly resides”
+- [kaine-ktisis](raw/kaine-ktisis.md) — 2 Peter 3:10-13; source line(s) 156; source span 71–108; original excerpt: “in which righteousness truly resides.”
+- [karpos](raw/karpos.md) — Galatians 6:7-8; source line(s) 68; source span 175–207; original excerpt: “a person will reap what he sows.”
+- [karpos](raw/karpos.md) — Jeremiah 17:7-8; source line(s) 70; source span 95–175; original excerpt: “They will be like a tree planted near a stream...It does not stop bearing fruit.”
+- [karpos](raw/karpos.md) — Psalm 1:1-3; source line(s) 78; source span 17–417; original excerpt: “How blessed is the one who does not follow the advice of the wicked, or stand in the pathway with sinners, or sit in...”
+- [karpos](raw/karpos.md) — Jeremiah 17:8; source line(s) 82; source span 19–264; original excerpt: “They will be like a tree planted near a stream whose roots spread out toward the water. It has nothing to fear when t...”
+- [karpos](raw/karpos.md) — Hebrews 12:11; source line(s) 96; source span 178–210; original excerpt: “fruit of peace and righteousness”
+- [karpos](raw/karpos.md) — Matthew 3:8, 10; source line(s) 98; source span 110–162; original excerpt: “Therefore produce fruit that proves your repentance.”
+- [karpos](raw/karpos.md) — Hebrews 12:11; source line(s) 104; source span 140–223; original excerpt: “But later it produces the fruit of peace and righteousness for those trained by it.”
+- [kenoo](raw/kenoo.md) — 1 Cor 1:17; source line(s) 38; source span 261–285; original excerpt: “would not become useless”
+- [kenoo](raw/kenoo.md) — 1 Cor 1:17; source line(s) 48; source span 81–133; original excerpt: “so that the cross of Christ would not become useless”
+- [kenoo](raw/kenoo.md) — Philippians 2:5–11; source line(s) 96; source span 176–251; original excerpt: “You should have the same attitude toward one another that Christ Jesus had,”
+- [kenoo](raw/kenoo.md) — Phil 2:5; source line(s) 116; source span 49–124; original excerpt: “You should have the same attitude toward one another that Christ Jesus had.”
+- [kerygma](raw/kerygma.md) — Romans 10:14–15, 17; source line(s) 30; source span 1–316; original excerpt: “How are they to call on one they have not believed in? And how are they to believe in one they have not heard of? And...”
+- [kleronomia](raw/kleronomia.md) — Psalm 16:5-6; source line(s) 74; source span 50–204; original excerpt: “Lord, you give me stability and prosperity; you make my future secure. It is as if I have been given fertile fields o...”
+- [kleronomia](raw/kleronomia.md) — Ephesians 1:11–14; source line(s) 99; source span 38–97; original excerpt: “In Christ we too have been claimed as God’s own possession,”
+- [kleronomia](raw/kleronomia.md) — Psalm 16:5; source line(s) 184; source span 409–479; original excerpt: “Lord, you give me stability and prosperity; you make my future secure.”
+- [kleronomia](raw/kleronomia.md) — Psalm 73:26; source line(s) 184; source span 494–546; original excerpt: “God always protects my heart and gives me stability.”
+- [kleronomos](raw/kleronomos.md) — Psalm 16:5-6; source line(s) 66; source span 188–342; original excerpt: “Lord, you give me stability and prosperity; you make my future secure. It is as if I have been given fertile fields o...”
+- [kleronomos](raw/kleronomos.md) — Lamentations 3:24; source line(s) 66; source span 626–704; original excerpt: “‘My portion is the Lord,’ I have said to myself, so I will put my hope in him.”
+- [kleronomos](raw/kleronomos.md) — Daniel 12:13; source line(s) 68; source span 158–259; original excerpt: “You will rest, and then at the end of the days you will arise to receive what you have been allotted.”
+- [kleronomos](raw/kleronomos.md) — Psalm 16:5-6; source line(s) 76; source span 18–172; original excerpt: “Lord, you give me stability and prosperity; you make my future secure. It is as if I have been given fertile fields o...”
+- [klesis](raw/klesis.md) — Philippians 3:13; source line(s) 79; source span 136–220; original excerpt: “Forgetting the things that are behind and reaching out for the things that are ahead”
+- [kosmos](raw/kosmos.md) — Titus 2:12; source line(s) 54; source span 80–119; original excerpt: “reject godless ways and worldly desires”
+- [kosmos](raw/kosmos.md) — 1 Corinthians 7:31; source line(s) 80; source span 52–174; original excerpt: “those who use the world as though they were not using it to the full. For the present shape of this world is passing...”
+- [krisis](raw/krisis.md) — Romans 8:34; source line(s) 54; source span 215–247; original excerpt: “Who is the one who will condemn?”
+- [krisis](raw/krisis.md) — Psalm 9:7-8; source line(s) 66; source span 307–437; original excerpt: “but the Lord rules forever; he reigns in a just manner. He judges the world fairly; he makes just legal decisions for...”
+- [krisis](raw/krisis.md) — Psalm 76:8-9; source line(s) 70; source span 240–381; original excerpt: “From heaven you announced what their punishment would be...when God arose to execute judgment, and to deliver all the...”
+- [krisis](raw/krisis.md) — 2 Corinthians 5:10; source line(s) 120; source span 24–54; original excerpt: “according to what he has done.”
+- [laos](raw/laos.md) — Deuteronomy 7:7-8; source line(s) 62; source span 259–477; original excerpt: “It is not because you were more numerous than all the other peoples that the Lord favored and chose you...Rather it i...”
+- [laos](raw/laos.md) — Acts 15:14; source line(s) 88; source span 115–224; original excerpt: “Simeon has explained how God first concerned himself to select from among the Gentiles a people for his name.”
+- [laos](raw/laos.md) — Luke 1:10; source line(s) 92; source span 106–193; original excerpt: “Now the whole crowd of people were praying outside at the hour of the incense offering.”
+- [laos](raw/laos.md) — Acts 5:13; source line(s) 92; source span 208–284; original excerpt: “None of the rest dared to join them, but the people held them in high honor.”
+- [laos](raw/laos.md) — Titus 2:14; source line(s) 136; source span 78–95; original excerpt: “eager to do good.”
+- [leitourgia](raw/leitourgia.md) — Joel 1:9; source line(s) 78; source span 14–156; original excerpt: “No one brings grain offerings or drink offerings to the temple of the Lord anymore. So the priests, those who serve t...”
+- [leitourgia](raw/leitourgia.md) — 2 Corinthians 9:12; source line(s) 130; source span 163–191; original excerpt: “the service of this ministry”
+- [logos](raw/logos.md) — Rom 10:17; source line(s) 59; source span 85–189; original excerpt: “Consequently faith comes from what is heard, and what is heard comes through the preached word of Christ”
+- [lytron](raw/lytron.md) — Exodus 21:30; source line(s) 64; source span 93–211; original excerpt: “if a ransom is set for him, then he must pay the redemption for his life according to whatever amount was set for him.”
+- [lytron](raw/lytron.md) — Psalm 49:7-8; source line(s) 78; source span 18–190; original excerpt: “Certainly a man cannot rescue his brother; he cannot pay God an adequate ransom price (the ransom price for a human l...”
+- [lytron](raw/lytron.md) — 1 Timothy 2:6; source line(s) 118; source span 40–86; original excerpt: “revealing God’s purpose at his appointed time.”
+- [lytron](raw/lytron.md) — Psalm 49:7-8; source line(s) 138; source span 73–245; original excerpt: “Certainly a man cannot rescue his brother; he cannot pay God an adequate ransom price (the ransom price for a human l...”
+- [mathetes](raw/mathetes.md) — Matthew 10:1; source line(s) 78; source span 178–208; original excerpt: “Jesus called his 12 disciples.”
+- [mythos](raw/mythos.md) — 1 Timothy 1:3–4; source line(s) 76; source span 20–310; original excerpt: “As I urged you when I was leaving for Macedonia, stay on in Ephesus to instruct certain people not to spread false te...”
+- [mythos](raw/mythos.md) — 1 Timothy 4:7; source line(s) 78; source span 18–113; original excerpt: “But reject those myths fit only for the godless and gullible, and train yourself for godliness.”
+- [mythos](raw/mythos.md) — 2 Timothy 4:3–4; source line(s) 80; source span 20–275; original excerpt: “For there will be a time when people will not tolerate sound teaching. Instead, following their own desires, they wil...”
+- [orthotomeo](raw/orthotomeo.md) — 2 Timothy 2:15; source line(s) 82; source span 19–161; original excerpt: “Make every effort to present yourself before God as a proven worker who does not need to be ashamed, teaching the mes...”
+- [paradosis](raw/paradosis.md) — Romans 4:25; source line(s) 58; source span 135–183; original excerpt: “He was given over because of our transgressions.”
+- [paraptoma](raw/paraptoma.md) — Romans 11:11; source line(s) 50; source span 239–311; original excerpt: “they did not stumble into an irrevocable fall, did they? Absolutely not!”
+- [paraptoma](raw/paraptoma.md) — Psalm 19:12; source line(s) 74; source span 29–107; original excerpt: “Who can know all his errors? Please do not punish me for sins I am unaware of.”
+- [paraptoma](raw/paraptoma.md) — Galatians 6:1; source line(s) 80; source span 148–186; original excerpt: “if a person is discovered in some sin.”
+- [paraptoma](raw/paraptoma.md) — Ephesians 2:1-5; source line(s) 104; source span 20–629; original excerpt: “And although you were dead in your offenses and sins, in which you formerly lived according to this world’s present p...”
+- [paraptoma](raw/paraptoma.md) — Galatians 6:1; source line(s) 120; source span 18–217; original excerpt: “Brothers and sisters, if a person is discovered in some sin, you who are spiritual restore such a person in a spirit...”
+- [paratheke](raw/paratheke.md) — 2 Timothy 1:14; source line(s) 74; source span 19–105; original excerpt: “Protect that good thing entrusted to you, through the Holy Spirit who lives within us.”
+- [parousia](raw/parousia.md) — Matt 24:36; source line(s) 135; source span 72–170; original excerpt: “But as for that day and hour no one knows it—not even the angels in heaven—except the Father alone”
+- [parrhesia](raw/parrhesia.md) — Hebrews 10:19–22; source line(s) 87; source span 501–536; original excerpt: “in the assurance that faith brings.”
+- [parrhesia](raw/parrhesia.md) — 1 John 4:17; source line(s) 91; source span 222–249; original excerpt: “as Jesus is, so also are we”
+- [pater](raw/pater.md) — Hebrews 7:10; source line(s) 84; source span 91–165; original excerpt: “for he was still in his ancestor Abraham’s loins when Melchizedek met him.”
+- [pater](raw/pater.md) — Hebrews 12:7; source line(s) 148; source span 311–367; original excerpt: “For what son is there that a father does not discipline?”
+- [pistos-ho-logos](raw/pistos-ho-logos.md) — 1 Timothy 3:1; source line(s) 64; source span 23–122; original excerpt: “This saying is trustworthy: 'If someone aspires to the office of overseer, he desires a good work.'”
+- [pistos-ho-logos](raw/pistos-ho-logos.md) — 1 Timothy 4:9; source line(s) 66; source span 23–79; original excerpt: “This saying is trustworthy and deserves full acceptance.”
+- [pistos-ho-logos](raw/pistos-ho-logos.md) — Titus 3:8; source line(s) 70; source span 19–177; original excerpt: “This saying is trustworthy, and I want you to insist on such truths, so that those who have placed their faith in God...”
+- [planao](raw/planao.md) — 1 Timothy 6:10; source line(s) 54; source span 254–312; original excerpt: “some people in reaching for it have strayed from the faith”
+- [planao](raw/planao.md) — Jude 1:13; source line(s) 56; source span 61–140; original excerpt: “wayward stars for whom the utter depths of eternal darkness have been reserved.”
+- [planao](raw/planao.md) — Isaiah 53:6; source line(s) 62; source span 17–155; original excerpt: “All of us had wandered off like sheep; each of us had strayed off on his own path, but the Lord caused the sin of all...”
+- [planao](raw/planao.md) — Jeremiah 23:13; source line(s) 66; source span 20–180; original excerpt: “The Lord says, ‘I saw the prophets of Samaria doing something that was disgusting. They prophesied in the name of the...”
+- [planao](raw/planao.md) — Matthew 24:4; source line(s) 78; source span 154–189; original excerpt: “Watch out that no one misleads you.”
+- [planao](raw/planao.md) — Isaiah 53:6; source line(s) 118; source span 45–83; original excerpt: “all of us had wandered off like sheep.”
+- [planao](raw/planao.md) — Isaiah 53:6; source line(s) 164; source span 273–310; original excerpt: “all of us had wandered off like sheep”
+- [pleroma](raw/pleroma.md) — Col 2:8; source line(s) 111; source span 260–452; original excerpt: “be careful not to allow anyone to captivate you through an empty, deceitful philosophy that is according to human tra...”
+- [prautes](raw/prautes.md) — Zephaniah 2:3; source line(s) 78; source span 19–223; original excerpt: “Seek the Lord’s favor, all you humble people of the land who have obeyed his commands! Strive to do what is right! St...”
+- [prautes](raw/prautes.md) — Zephaniah 3:12; source line(s) 80; source span 20–131; original excerpt: “I will leave in your midst a humble and meek group of people, and they will find safety in the Lord’s presence.”
+- [prautes](raw/prautes.md) — James 1:21; source line(s) 92; source span 56–104; original excerpt: “humbly welcome the message implanted within you.”
+- [prautes](raw/prautes.md) — 2 Timothy 2:25; source line(s) 94; source span 72–109; original excerpt: “correcting opponents with gentleness.”
+- [prautes](raw/prautes.md) — Galatians 6:1; source line(s) 94; source span 128–259; original excerpt: “Brothers and sisters, if a person is discovered in some sin, you who are spiritual restore such a person in a spirit...”
+- [prautes](raw/prautes.md) — 1 Peter 3:15-16; source line(s) 96; source span 63–179; original excerpt: “always be ready to give an answer to anyone who asks about the hope you possess. Yet do it with courtesy and respect”
+- [prautes](raw/prautes.md) — 1 Peter 3:15-16; source line(s) 128; source span 20–308; original excerpt: “But set Christ apart as Lord in your hearts and always be ready to give an answer to anyone who asks about the hope y...”
+- [prautes](raw/prautes.md) — Galatians 6:1; source line(s) 142; source span 18–217; original excerpt: “Brothers and sisters, if a person is discovered in some sin, you who are spiritual restore such a person in a spirit...”
+- [prautes](raw/prautes.md) — James 1:21; source line(s) 154; source span 15–139; original excerpt: “So put away all filth and evil excess and humbly welcome the message implanted within you, which is able to save your...”
+- [prautes](raw/prautes.md) — 2 Timothy 2:25; source line(s) 200; source span 564–601; original excerpt: “correcting opponents with gentleness.”
+- [presbyteros](raw/presbyteros.md) — Acts 14:23; source line(s) 73; source span 110–141; original excerpt: “When they had appointed elders.”
+- [proseuche](raw/proseuche.md) — 1 Timothy 2:1; source line(s) 58; source span 281–360; original excerpt: “requests, prayers, intercessions, and thanks be offered on behalf of all people”
+- [proseuche](raw/proseuche.md) — Psalm 5:3; source line(s) 86; source span 15–139; original excerpt: “Lord, in the morning you will hear me; in the morning I will present my case to you and then wait expectantly for an...”
+- [proseuche](raw/proseuche.md) — Psalm 55:17; source line(s) 88; source span 17–103; original excerpt: “During the evening, morning, and noontime I will lament and moan, and he will hear me.”
+- [prothesis](raw/prothesis.md) — Romans 9:11; source line(s) 32; source span 317–343; original excerpt: “God’s purpose in election.”
+- [prothesis](raw/prothesis.md) — Romans 3:25; source line(s) 50; source span 378–461; original excerpt: “God publicly displayed him at his death as the mercy seat accessible through faith.”
+- [prothesis](raw/prothesis.md) — Psalm 33:10-11; source line(s) 79; source span 98–259; original excerpt: “The Lord frustrates the decisions of the nations; he nullifies the plans of the peoples. The Lord’s decisions stand f...”
+- [prothesis](raw/prothesis.md) — Isaiah 46:10; source line(s) 83; source span 53–214; original excerpt: “who announces the end from the beginning and reveals beforehand what has not yet occurred; who says, ‘My plan will be...”
+- [prototokos](raw/prototokos.md) — 1 Chronicles 5:1-2; source line(s) 66; source span 188–560; original excerpt: “The sons of Reuben, Israel’s firstborn—(Now he was the firstborn, but when he defiled his father’s bed, his rights as...”
+- [rhema](raw/rhema.md) — Romans 10:17; source line(s) 64; source span 223–328; original excerpt: “Consequently faith comes from what is heard, and what is heard comes through the preached word of Christ.”
+- [rhema](raw/rhema.md) — Deuteronomy 8:3; source line(s) 74; source span 21–228; original excerpt: “So he humbled you by making you hungry and then feeding you with unfamiliar manna. He did this to teach you that huma...”
+- [rhema](raw/rhema.md) — Isaiah 55:10-11; source line(s) 76; source span 21–360; original excerpt: “The rain and snow fall from the sky and do not return, but instead water the earth and make it produce and yield crop...”
+- [rhema](raw/rhema.md) — Jeremiah 23:29; source line(s) 80; source span 20–141; original excerpt: “My message is like a fire that purges dross. It is like a hammer that breaks a rock in pieces. I, the Lord, so affirm...”
+- [rhema](raw/rhema.md) — Hebrews 11:3; source line(s) 94; source span 44–171; original excerpt: “By faith we understand that the worlds were set in order at God’s command, so that the visible has its origin in the...”
+- [rhema](raw/rhema.md) — Luke 1:37–38; source line(s) 134; source span 17–186; original excerpt: “For nothing will be impossible with God. So Mary said, ‘Yes, I am a servant of the Lord; let this happen to me accord...”
+- [rhema](raw/rhema.md) — Luke 1:37; source line(s) 140; source span 100–139; original excerpt: “for nothing will be impossible with God”
+- [sarx](raw/sarx.md) — Rom 9:3; source line(s) 57; source span 41–72; original excerpt: “my people, my fellow countrymen”
+- [soma](raw/soma.md) — 1 Corinthians 11:29; source line(s) 115; source span 25–52; occurrence 1/2; original excerpt: “careful regard for the body”
+- [soma](raw/soma.md) — 1 Corinthians 11:29; source line(s) 115; source span 291–318; occurrence 2/2; original excerpt: “careful regard for the body”
+- [suneidesis](raw/suneidesis.md) — 1 Cor 4:4; source line(s) 89; source span 311–431; original excerpt: “For I am not aware of anything against myself, but I am not acquitted because of this. The one who judges me is the Lord”
+- [teleios](raw/teleios.md) — 1 John 1:8; source line(s) 112; source span 207–276; original excerpt: “if we say we do not bear the guilt of sin, we are deceiving ourselves”
+- [thanatos](raw/thanatos.md) — Colossians 3:5; source line(s) 54; source span 127–187; original excerpt: “So put to death whatever in your nature belongs to the earth”
+- [thanatos](raw/thanatos.md) — Revelation 6:8; source line(s) 88; source span 284–359; original excerpt: “The name of the one who rode it was Death, and Hades followed right behind.”
+- [thanatos](raw/thanatos.md) — 2 Corinthians 1:9-10; source line(s) 90; source span 60–122; original excerpt: “we felt as if the sentence of death had been passed against us”
+- [thanatos](raw/thanatos.md) — 2 Corinthians 11:23; source line(s) 90; source span 147–171; original excerpt: “facing death many times.”
+- [thanatos](raw/thanatos.md) — Ephesians 2:1-5; source line(s) 114; source span 20–629; original excerpt: “And although you were dead in your offenses and sins, in which you formerly lived according to this world’s present p...”
+
+## Deterministic stratified sample of other inline replacements
+
+- [laos](raw/laos.md) — Luke 1:68; Luke 1:77; source line 86; source span 360–405; score 0.655; original excerpt: “has come to help and has redeemed his people.”
+- [anastasis](raw/anastasis.md) — 1 Thessalonians 4:13–18; source line 138; source span 200–217; score 0.6492; original excerpt: “who have no hope.”
+- [ergon](raw/ergon.md) — Titus 3:5–8; source line 138; source span 16–581; score 0.6439; original excerpt: “he saved us not by works of righteousness that we have done but on the basis of his mercy, through the washing of the...”
+- [elpis](raw/elpis.md) — Hebrews 6:18–19; source line 118; source span 367–472; score 0.6963; original excerpt: “We have this hope as an anchor for the soul, sure and steadfast, which reaches inside behind the curtain,”
+- [hypomone](raw/hypomone.md) — James 1:2–4; James 1:12; source line 144; source span 205–253; score 0.6567; original excerpt: “perfect and complete, not deficient in anything.”
+- [chara](raw/chara.md) — 1 Peter 1:6–9; source line 154; source span 18–561; score 0.64; original excerpt: “This brings you great joy, although you may have to suffer for a short time in various trials. Such trials show the p...”
+- [eklektos](raw/eklektos.md) — Ephesians 1:3–6; source line 117; source span 83–139; score 0.5936; original excerpt: “that we should be holy and blameless before him in love.”
+- [eklektos](raw/eklektos.md) — Ephesians 1:3–6; source line 119; source span 72–118; score 0.5627; original excerpt: “predestining us to adoption as his legal heirs”
+- [ergon](raw/ergon.md) — James 2:14–26; source line 124; source span 18–1342; score 0.6427; original excerpt: “What good is it, my brothers and sisters, if someone claims to have faith but does not have works? Can this kind of f...”
+- [planao](raw/planao.md) — James 5:19; source line 82; source span 294–337; score 0.5839; original excerpt: “if anyone among you wanders from the truth.”
+- [didaskalia](raw/didaskalia.md) — 1 Timothy 1:10; source line 98; source span 411–450; score 0.6104; original excerpt: “any who live contrary to sound teaching”
+- [eklektos](raw/eklektos.md) — Romans 11:28; source line 52; source span 390–433; score 0.5627; original excerpt: “in regard to election they are dearly loved”
+- [laos](raw/laos.md) — Titus 2:14; source line 128; source span 15–163; score 0.6316; original excerpt: “He gave himself for us to set us free from every kind of lawlessness and to purify for himself a people who are truly...”
+- [anastasis](raw/anastasis.md) — Romans 4:25; source line 52; source span 225–322; score 0.5882; original excerpt: “He was given over because of our transgressions and was raised for the sake of our justification.”
+- [anthropos](raw/anthropos.md) — Mark 8:36; source line 76; source span 45–128; score 0.6875; original excerpt: “For what benefit is it for a person to gain the whole world, yet forfeit his life?…”
+- [mythos](raw/mythos.md) — Titus 1:14; source line 82; source span 15–98; score 0.6471; original excerpt: “…and not pay attention to Jewish myths and commands of people who reject the truth.”
+- [theopneustos](raw/theopneustos.md) — 2 Peter 1:21; source line 74; source span 107–216; score 0.5532; original excerpt: “for no prophecy was ever borne of human impulse; rather, men carried along by the Holy Spirit spoke from God.”
+- [apostolos](raw/apostolos.md) — 2 Corinthians 8:23; source line 88; source span 2–186; score 0.6667; original excerpt: “If there is any question about Titus, he is my partner and fellow worker among you; if there is any question about ou...”
+- [apostolos](raw/apostolos.md) — 2 Corinthians 8:23; source line 88; source span 235–419; score 0.6667; original excerpt: “If there is any question about Titus, he is my partner and fellow worker among you; if there is any question about ou...”
+- [eirene](raw/eirene.md) — Colossians 3:15; source line 162; source span 20–145; score 0.6939; original excerpt: “Let the peace of Christ be in control in your heart (for you were in fact called as one body to this peace), and be t...”
+- [hypomone](raw/hypomone.md) — Revelation 2:10; source line 206; source span 457–551; score 0.6764; original excerpt: “Remain faithful even to the point of death, and I will give you the crown that is life itself.”
+- [amen](raw/amen.md) — Matthew 5:18; source line 90; source span 48–201; score 0.6441; original excerpt: “I tell you the truth, until heaven and earth pass away not the smallest letter or stroke of a letter will pass from t...”
+- [kosmos](raw/kosmos.md) — John 17:14; source line 74; source span 198–267; score 0.6623; original excerpt: “they do not belong to the world, just as I do not belong to the world”
+- [hyios](raw/hyios.md) — Romans 1:4; source line 142; source span 233–361; score 0.5882; original excerpt: “who was appointed the Son-of-God-in-power according to the Holy Spirit by the resurrection from the dead, Jesus Chris...”
+- [eleutheria](raw/eleutheria.md) — Psalm 119:32; Psalm 119:45; source line 74; source span 22–134; score 0.5999; original excerpt: “I run along the path of your commands, for you enable me to do so. … I will be secure, for I seek your precepts.”
+- [haima](raw/haima.md) — Exodus 24:6–8; source line 112; source span 321–631; score 0.6897; original excerpt: “He took the Book of the Covenant and read it aloud to the people, and they said, ‘We are willing to do and obey all t...”
+- [apolytrosis](raw/apolytrosis.md) — Psalm 130:7–8; source line 78; source span 19–160; score 0.5614; original excerpt: “O Israel, hope in the Lord, for the Lord exhibits loyal love and is more than willing to deliver. He will deliver Isr...”
+- [laos](raw/laos.md) — Isaiah 43:21; source line 106; source span 364–425; score 0.6364; original excerpt: “the people whom I formed for myself, so they might praise me.”
+- [planao](raw/planao.md) — Ezekiel 34:6; source line 64; source span 18–183; score 0.6562; original excerpt: “My sheep wandered over all the mountains and on every high hill. My sheep were scattered over the entire face of the...”
+- [prautes](raw/prautes.md) — Isaiah 61:1; source line 76; source span 17–230; score 0.6; original excerpt: “The Spirit of the Sovereign Lord is upon me, because the Lord has chosen me. He has commissioned me to encourage the...”
+- [prautes](raw/prautes.md) — Psalm 25:9; source line 68; source span 16–86; score 0.5714; original excerpt: “May he show the humble what is right. May he teach the humble his way.”
+- [prototokos](raw/prototokos.md) — Colossians 1:15–18; source line 94; source span 89–371; score 0.772; original excerpt: “He is the image of the invisible God, the firstborn over all creation, for all things in heaven and on earth were cre...”
+- [kleronomos](raw/kleronomos.md) — 1 Peter 1:3–5; source line 122; source span 18–392; score 0.8406; original excerpt: “Blessed be the God and Father of our Lord Jesus Christ! By his great mercy he gave us new birth into a living hope th...”
+- [anastasis](raw/anastasis.md) — 1 Thessalonians 4:13–18; source line 140; source span 95–130; score 0.8233; original excerpt: “the dead in Christ will rise first.”
+- [planao](raw/planao.md) — Matthew 24:4–5; Matthew 24:11; Matthew 24:24; source line 90; source span 27–356; score 0.8202; original excerpt: “Jesus answered them, ‘Watch out that no one misleads you. For many will come in my name, saying, ‘I am the Christ,’ a...”
+- [krisis](raw/krisis.md) — Hebrews 9:27–28; source line 124; source span 20–258; score 0.766; original excerpt: “And just as people are appointed to die once, and then to face judgment, so also, after Christ was offered once to be...”
+- [chara](raw/chara.md) — Hebrews 12:1–3; source line 142; source span 19–542; score 0.7179; original excerpt: “Therefore, since we are surrounded by such a great cloud of witnesses, we must get rid of every weight and the sin th...”
+- [anamnesis](raw/anamnesis.md) — Hebrews 10:3–4; source line 73; source span 66–85; score 0.8484; original excerpt: “a reminder of sins.”
+- [leitourgia](raw/leitourgia.md) — Acts 13:1–3; source line 96; source span 16–445; score 0.755; original excerpt: “Now there were these prophets and teachers in the church at Antioch: Barnabas, Simeon called Niger, Lucius the Cyreni...”
+- [bema](raw/bema.md) — Romans 14:10–12; source line 92; source span 20–395; score 0.7519; original excerpt: “But you who eat vegetables only—why do you judge your brother or sister? And you who eat everything—why do you despis...”
+- [chara](raw/chara.md) — John 7:37–39; source line 86; source span 248–270; score 0.8484; original excerpt: “rivers of living water”
+- [anastasis](raw/anastasis.md) — 1 Thessalonians 4:13–18; source line 134; source span 28–881; score 0.7892; original excerpt: “Now we do not want you to be uninformed, brothers and sisters, about those who are asleep, so that you will not griev...”
+- [laos](raw/laos.md) — Romans 9:25–26; source line 88; source span 378–638; score 0.8182; original excerpt: “As he also says in Hosea:‘I will call those who were not my people, ‘My people,’ and I will call her who was unloved,...”
+- [anomia](raw/anomia.md) — Matthew 7:21–23; source line 108; source span 20–394; score 0.731; original excerpt: “Not everyone who says to me, ‘Lord, Lord,’ will enter into the kingdom of heaven—only the one who does the will of my...”
+- [apostolos](raw/apostolos.md) — Acts 1:21–26; source line 120; source span 84–114; score 0.8193; original excerpt: “a witness of his resurrection.”
+- [anastasis](raw/anastasis.md) — 1 Corinthians 15:35–44; source line 102; source span 27–1025; score 0.7506; original excerpt: “But someone will say, ‘How are the dead raised? With what kind of body will they come?’ Fool! What you sow will not c...”
+- [amen](raw/amen.md) — Romans 1:25; source line 82; source span 73–114; score 0.8233; original excerpt: “the Creator, who is blessed forever! Amen”
+- [thanatos](raw/thanatos.md) — 1 Thessalonians 4:13; source line 140; source span 502–557; score 0.8484; original excerpt: “that you will not grieve like the rest who have no hope”
+- [graphe](raw/graphe.md) — Acts 8:32; source line 86; source span 258–429; score 0.7647; original excerpt: “Now the passage of scripture the man was reading was this:‘He was led like a sheep to slaughter,and like a lamb befor...”
+- [krisis](raw/krisis.md) — John 12:31; source line 198; source span 406–440; score 0.7642; original excerpt: “now is the judgment of this world.”
+- [thanatos](raw/thanatos.md) — Philippians 1:23; source line 142; source span 662–767; score 0.7805; original excerpt: “I feel torn between the two because I have a desire to depart and be with Christ, which is better by far,”
+- [prototokos](raw/prototokos.md) — Hebrews 12:23; source line 126; source span 323–480; score 0.7241; original excerpt: “and congregation of the firstborn, who are enrolled in heaven, and to God, the judge of all, and to the spirits of th...”
+- [proselytos](raw/proselytos.md) — Acts 13:48; source line 132; source span 360–416; score 0.8386; original excerpt: “and all who had been appointed for eternal life believed”
+- [proseuche](raw/proseuche.md) — Hebrews 7:25; source line 106; source span 52–165; score 0.8444; original excerpt: “So he is able to save completely those who come to God through him because he always lives to intercede for them.”
+- [didaskalia](raw/didaskalia.md) — John 6:45; source line 54; source span 77–204; score 0.8077; original excerpt: “It is written in the prophets, ‘And they will all be taught by God.’ Everyone who hears and learns from the Father co...”
+- [prototokos](raw/prototokos.md) — Hebrews 1:6; source line 88; source span 55–159; score 0.7368; original excerpt: “But when he again brings his firstborn into the world, he says, ‘Let all the angels of God worship him!’”
+- [rhema](raw/rhema.md) — Luke 2:15; source line 100; source span 158–350; score 0.8378; original excerpt: “When the angels left them and went back to heaven, the shepherds said to one another, ‘Let us go over to Bethlehem an...”
+- [karpos](raw/karpos.md) — Philippians 1:11; source line 104; source span 50–121; score 0.7586; original excerpt: “filled with the fruit of righteousness that comes through Jesus Christ.”
+- [basileia](raw/basileia.md) — John 18:36; source line 140; source span 134–157; score 0.8; original excerpt: “is not from this world.”
+- [eleutheria](raw/eleutheria.md) — Romans 8:21; source line 88; source span 81–198; score 0.7556; original excerpt: “that the creation itself will also be set free from the bondage of decay into the glorious freedom of God’s children.”
+- [hypakoe](raw/hypakoe.md) — Philippians 2:8; source line 82; source span 149–212; score 0.7883; original excerpt: “becoming obedient to the point of death, even death on a cross.”
+- [anthropos](raw/anthropos.md) — Matthew 4:4; source line 80; source span 26–58; score 0.7143; original excerpt: “Man does not live by bread alone”
+- [aphesis](raw/aphesis.md) — Matthew 18:18; source line 89; source span 429–578; score 0.7547; original excerpt: “I tell you the truth, whatever you bind on earth will have been bound in heaven, and whatever you release on earth wi...”
+- [anthropos](raw/anthropos.md) — Romans 5:12; source line 106; source span 16–147; score 0.7843; original excerpt: “So then, just as sin entered the world through one man and death through sin, and so death spread to all people becau...”
+- [krisis](raw/krisis.md) — John 5:24; source line 36; source span 511–568; score 0.7273; original excerpt: “not be condemned, but has crossed over from death to life”
+- [laos](raw/laos.md) — 1 Peter 2:9; source line 160; source span 156–343; score 0.7887; original excerpt: “But you are a chosen race, a royal priesthood, a holy nation, a people of his own, so that you may proclaim the virtu...”
+- [chara](raw/chara.md) — 2 Corinthians 6:10; source line 230; source span 450–481; score 0.75; original excerpt: “sorrowful, but always rejoicing”
+- [hypakoe](raw/hypakoe.md) — Matthew 18:17; source line 58; source span 250–389; score 0.8387; original excerpt: “If he refuses to listen to them, tell it to the church. If he refuses to listen to the church, treat him like a Genti...”
+- [anomia](raw/anomia.md) — 1 Timothy 1:8; source line 58; source span 66–113; score 0.7273; original excerpt: “the law is good if someone uses it legitimately”
+- [planao](raw/planao.md) — 1 Peter 2:25; source line 116; source span 17–126; score 0.7805; original excerpt: “For you were going astray like sheep but now you have turned back to the shepherd and guardian of your souls.”
+- [krisis](raw/krisis.md) — Revelation 6:10; source line 174; source span 194–259; score 0.7973; original excerpt: “before you judge those who live on the earth and avenge our blood”
+- [anomia](raw/anomia.md) — 1 Timothy 1:9; source line 50; source span 212–293; score 0.7382; original excerpt: “law is not intended for a righteous person, but for lawless and rebellious people”
+- [anastasis](raw/anastasis.md) — Job 19:25–27; source line 62; source span 86–359; score 0.7748; original excerpt: “As for me, I know that my Redeemer lives, and that as the last he will stand upon the earth. And after my skin has be...”
+- [krisis](raw/krisis.md) — Malachi 4:1–2; source line 72; source span 370–516; score 0.768; original excerpt: “But for you who respect my name, the sun of vindication will rise with healing wings, and you will skip about like ca...”
+- [krisis](raw/krisis.md) — Amos 5:18–20; source line 68; source span 100–146; score 0.8182; original excerpt: “Woe to those who wish for the day of the Lord!”
+- [lytron](raw/lytron.md) — Numbers 3:49; source line 66; source span 63–161; score 0.8; original excerpt: “So Moses took the redemption money from those who were in excess of those redeemed by the Levites.”
+- [laos](raw/laos.md) — Exodus 6:7; source line 68; source span 16–187; score 0.8056; original excerpt: “I will take you to myself for a people, and I will be your God. Then you will know that I am the Lord your God, who b...”
+- [eikon](raw/eikon.md) — Genesis 1:26; source line 48; source span 58–290; score 0.7556; original excerpt: “Then God said, ‘Let us make humankind in our image, after our likeness, so they may rule over the fish of the sea and...”
+- [paradosis](raw/paradosis.md) — Deuteronomy 4:2; source line 70; source span 21–171; score 0.7541; original excerpt: “Do not add a thing to what I command you nor subtract from it, so that you may keep the commandments of the Lord your...”
+- [apostolos](raw/apostolos.md) — Malachi 3:1; source line 72; source span 17–259; score 0.7273; original excerpt: “I am about to send my messenger, who will clear the way before me. Indeed, the Lord you are seeking will suddenly com...”
+- [huiothesia](raw/huiothesia.md) — Psalm 2:7; source line 76; source span 15–71; score 0.8123; original excerpt: “You are my son. This very day I have become your father.”
+- [anamnesis](raw/anamnesis.md) — 1 Corinthians 11:23–26; source line 87; source span 177–206; score 1.0; original excerpt: “do this in remembrance of me.”
+- [mysterion](raw/mysterion.md) — Colossians 1:26–27; source line 62; source span 178–211; score 1.0; original excerpt: “Christ in you, the hope of glory.”
+- [paradosis](raw/paradosis.md) — Mark 7:1–13; source line 88; source span 185–213; score 1.0; original excerpt: “the tradition of the elders.”
+- [karpos](raw/karpos.md) — Galatians 5:22–23; source line 122; source span 9–44; score 1.0; original excerpt: “against such things there is no law”
+- [parousia](raw/parousia.md) — 1 Thessalonians 4:15–17; source line 91; source span 379–414; score 1.0; original excerpt: “so we will always be with the Lord.”
+- [karpos](raw/karpos.md) — Matthew 7:16–20; source line 94; source span 149–182; score 1.0; original excerpt: “every good tree bears good fruit.”
+- [charis](raw/charis.md) — Ephesians 2:8–9; source line 67; source span 235–256; score 1.0; original excerpt: “it is the gift of God”
+- [kaine-ktisis](raw/kaine-ktisis.md) — Galatians 6:14–15; source line 160; source span 22–271; score 0.8539; original excerpt: “But may I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me,...”
+- [ekklesia](raw/ekklesia.md) — Hebrews 12:22–23; source line 83; source span 43–72; score 1.0; original excerpt: “congregation of the firstborn”
+- [basileia](raw/basileia.md) — Mark 1:14–15; source line 108; source span 67–97; score 0.9021; original excerpt: “repent and believe the gospel.”
+- [chara](raw/chara.md) — Matthew 25:21; Matthew 25:23; source line 110; source span 57–90; score 1.0; original excerpt: “enter into the joy of your master”
+- [basileia](raw/basileia.md) — Mark 1:14–15; source line 30; source span 210–236; score 1.0; original excerpt: “the kingdom of God is near”
+- [hiereus](raw/hiereus.md) — Hebrews 7:23–28; source line 132; source span 86–121; score 1.0; original excerpt: “always lives to intercede for them.”
+- [theos](raw/theos.md) — 2 Peter 1:3–4; source line 52; source span 72–120; score 1.0; original excerpt: “his divine power… partakers of the divine nature”
+- [anomia](raw/anomia.md) — 1 Corinthians 9:21; source line 56; source span 79–102; score 1.0; original excerpt: “under the law of Christ”
+- [soma](raw/soma.md) — Matthew 26:26; source line 85; source span 185–201; score 1.0; original excerpt: “this is my body.”
+- [charis](raw/charis.md) — Romans 5:2; source line 52; source span 52–80; score 1.0; original excerpt: “this grace in which we stand”
+- [rhema](raw/rhema.md) — Romans 10:17; source line 92; source span 265–292; score 0.8819; original excerpt: “the preached word of Christ”
+- [anthropos](raw/anthropos.md) — John 19:5; source line 28; source span 272–294; score 0.8819; original excerpt: “Look, here is the man!”
+- [anthropos](raw/anthropos.md) — 1 Corinthians 13:1; source line 84; source span 52–163; score 0.8627; original excerpt: “If I speak in the tongues of men and of angels, but I do not have love, I am a noisy gong or a clanging cymbal.”
+- [amen](raw/amen.md) — Revelation 3:14; source line 122; source span 120–149; score 1.0; original excerpt: “the faithful and true witness”
+- [hilasterion](raw/hilasterion.md) — Revelation 6:16; source line 97; source span 594–615; score 1.0; original excerpt: “the wrath of the Lamb”
+- [amen](raw/amen.md) — Revelation 3:14; source line 122; source span 40–80; score 1.0; original excerpt: “the Amen, the faithful and true witness.”
+- [chara](raw/chara.md) — John 15:11; source line 228; source span 96–184; score 1.0; original excerpt: “I have told you these things so that my joy may be in you, and your joy may be complete.”
+- [graphe](raw/graphe.md) — 2 Corinthians 3:6; source line 182; source span 8–51; score 1.0; original excerpt: “**letter kills, but the Spirit gives life**”
+- [prautes](raw/prautes.md) — Matthew 5:5; source line 102; source span 49–103; score 1.0; original excerpt: “Blessed are the meek, for they will inherit the earth.”
+- [rhema](raw/rhema.md) — Luke 3:2; source line 92; source span 52–170; score 0.9767; original excerpt: “during the high priesthood of Annas and Caiaphas, the word of God came to John the son of Zechariah in the wilderness.”
+- [eulogeo](raw/eulogeo.md) — Romans 12:14; source line 68; source span 220–274; score 1.0; original excerpt: “Bless those who persecute you, bless and do not curse.”
+- [zoe](raw/zoe.md) — John 17:3; source line 101; source span 98–119; score 1.0; original excerpt: “this is eternal life.”
+- [apolytrosis](raw/apolytrosis.md) — 1 Timothy 2:6; source line 56; source span 96–133; score 1.0; original excerpt: “who gave himself as a ransom for all.”
+- [aphesis](raw/aphesis.md) — Matthew 16:19; source line 89; source span 374–407; score 1.0; original excerpt: “the keys of the kingdom of heaven”
+- [artos](raw/artos.md) — 1 Corinthians 10:16; source line 95; source span 137–160; score 1.0; original excerpt: “the bread that we break”
+- [eirene](raw/eirene.md) — John 14:27; source line 146; source span 93–134; score 0.8936; original excerpt: “I do not give it to you as the world does”
+- [zoe](raw/zoe.md) — John 1:4; source line 52; source span 130–145; score 1.0; original excerpt: “in him was life”
+- [theos](raw/theos.md) — John 1:14; source line 118; source span 374–395; score 1.0; original excerpt: “the Word became flesh”
+- [hagios](raw/hagios.md) — Ephesians 1:1; source line 34; source span 1–57; score 1.0; original excerpt: “to the saints [in Ephesus], the faithful in Christ Jesus”
+- [rhema](raw/rhema.md) — John 6:68; source line 90; source span 56–146; score 0.9091; original excerpt: “Simon Peter answered him, ‘Lord, to whom would we go? You have the words of eternal life.’”
+- [haima](raw/haima.md) — Matthew 26:27; source line 110; source span 518–543; score 1.0; original excerpt: “drink from it, all of you”
+- [agorazo](raw/agorazo.md) — Galatians 3:13; source line 120; source span 19–157; score 0.9091; original excerpt: “Christ redeemed us from the curse of the law by becoming a curse for us (because it is written, ‘Cursed is everyone w...”
+- [arche](raw/arche.md) — Revelation 3:14; source line 72; source span 245–277; score 1.0; original excerpt: “the originator of God’s creation”
+- [dikaioo](raw/dikaioo.md) — Galatians 2:16; source line 105; source span 323–339; score 1.0; original excerpt: “works of the law”
+- [krisis](raw/krisis.md) — Acts 10:42; source line 58; source span 139–268; score 0.8727; original excerpt: “He commanded us to preach to the people and to warn them that he is the one appointed by God as judge of the living a...”
+- [theos](raw/theos.md) — Ephesians 2:12; source line 56; source span 117–163; score 0.8672; original excerpt: “having no hope and *without God* in the world.”
+- [theos](raw/theos.md) — Acts 14:11; source line 72; source span 95–224; score 0.8846; original excerpt: “So when the crowds saw what Paul had done, they shouted in the Lycaonian language, ‘The gods have come down to us in...”
+- [elpis](raw/elpis.md) — Colossians 1:27; source line 82; source span 101–134; score 1.0; original excerpt: “Christ in you, the hope of glory.”
+- [arche](raw/arche.md) — Romans 16:5; source line 54; source span 222–273; score 1.0; original excerpt: “the first convert to Christ in the province of Asia”
+- [planao](raw/planao.md) — Romans 1:27; source line 50; source span 117–144; score 1.0; original excerpt: “due penalty for their error”
+- [apolytrosis](raw/apolytrosis.md) — Ephesians 1:7; source line 108; source span 18–132; score 0.95; original excerpt: “In him we have redemption through his blood, the forgiveness of our offenses, according to the riches of his grace”
+- [katallage](raw/katallage.md) — Colossians 1:20; source line 52; source span 43–78; score 1.0; original excerpt: “things on earth or things in heaven”
+- [epiousios](raw/epiousios.md) — Luke 11:1; source line 88; source span 46–103; score 1.0; original excerpt: “Lord, teach us to pray, just as John taught his disciples”
+- [thanatos](raw/thanatos.md) — James 3:8; source line 60; source span 106–127; score 1.0; original excerpt: “full of deadly poison”
+- [eirene](raw/eirene.md) — Numbers 6:24–26; source line 78; source span 74–93; score 1.0; original excerpt: “and give you peace.”
+- [elpizo](raw/elpizo.md) — Psalm 18:30; source line 74; source span 160–206; score 0.9091; original excerpt: “He is a shield to all who take shelter in him.”
+- [laos](raw/laos.md) — Leviticus 26:12; source line 70; source span 21–94; score 0.9375; original excerpt: “I will walk among you, and I will be your God, and you will be my people.”
+- [hypomone](raw/hypomone.md) — Job 2:9; source line 86; source span 211–228; score 1.0; original excerpt: “curse God and die”

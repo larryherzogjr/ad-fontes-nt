@@ -11,6 +11,22 @@ const source = `sources/om-studies/${release.releaseId}`;
 const output = `app/public/om/${release.releaseId}`;
 const manifest = await json(`${source}/manifest.json`);
 
+test('selected release is the approved app-only BSB adaptation', async () => {
+  assert.equal(release.releaseId, 'om-studies-2026-09-09-v4');
+  assert.equal(manifest.predecessor, 'om-studies-2026-09-09-v3');
+  assert.equal(manifest.adaptation.edition, 'BSB');
+  assert.equal(manifest.adaptation.candidateManifestSha256, 'dad1b34f996eb44bc30e9641083f39b8945992f768a2b96b511f0a695647eb2d');
+  assert.equal(manifest.adaptation.validatorReportSha256, 'ebf8611fdbf23710ebb61216357e92e9cc5964f6f74bd5c692717ed0df40abbd');
+  assert.equal(manifest.adaptation.bsbSourceSha256, '2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96');
+  assert.equal(manifest.adaptation.sampleCount, 136);
+  assert.equal(manifest.adaptation.fallbackCount, 243);
+  assert.equal(manifest.adaptation.overlapResolution.containedEvidenceSuppressed, 32);
+  assert.equal(manifest.adaptation.overlapResolution.partialOverlaps, 0);
+  const approval = await readFile(join(source, manifest.approvalEvidence), 'utf8');
+  assert.match(approval, /Approved by:\*\* Larry Herzog Jr\./);
+  assert.match(approval, /all sub-0\.65 items, each cleared in context/);
+});
+
 test('all 250 approved articles reproduce exactly and cover every existing Greek word-study URL', async () => {
   const index = await json(`${output}/index.json`);
   assert.equal(index.articles.length, 250);
@@ -25,6 +41,7 @@ test('all 250 approved articles reproduce exactly and cover every existing Greek
     assert.equal(createHash('sha256').update(raw).digest('hex'), meta.contentSha256);
     assert.match(raw, /editorial_review: "approved"/);
     assert.doesNotMatch(raw, /pending-author-review|<!--\s*DRAFT COPY/);
+    assert.doesNotMatch(raw, /\bNET\b/);
     assert.equal(article.markdown, /^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/.exec(raw)![1]);
   }
   const lookup = await json('app/public/lexical/dodson-2010-v3/lookup.json');
@@ -32,6 +49,13 @@ test('all 250 approved articles reproduce exactly and cover every existing Greek
   for (const links of Object.values(lookup.links) as {url: string}[][]) {
     for (const link of links) assert.ok(urls.has(link.url), `Unbundled existing word link: ${link.url}`);
   }
+});
+
+test('reader discloses the BSB adaptation and unchanged original website edition', async () => {
+  const source = await readFile('app/reader/word-studies.tsx', 'utf8');
+  assert.match(source, /open here in an Ad Fontes BSB adaptation/);
+  assert.match(source, /linked website preserves the original article edition/);
+  assert.match(source, /Open original website edition on larryherzogjr\.com/);
 });
 
 test('article Markdown preserves the real Metanoia footnote and hides editorial comments', async () => {

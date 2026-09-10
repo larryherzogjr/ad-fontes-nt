@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "npm --prefix app run dev -- --host 127.0.0.1",
     "import:bsb": "python3 scripts/import_bsb.py",
-    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts tests/resources.test.ts tests/lexical.test.ts tests/om_studies.test.mts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py",
+    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts tests/resources.test.ts tests/lexical.test.ts tests/om_studies.test.mts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py && python3 tests/om_bsb_adaptation_test.py",
     "typecheck": "npm --prefix app run typecheck",
     "build": "npm --prefix app run build",
     "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts && python3 scripts/import_lexicon.py && node scripts/import_om_studies.mts",

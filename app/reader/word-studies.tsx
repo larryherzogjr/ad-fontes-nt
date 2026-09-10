@@ -27,7 +27,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
     ...inheritedEnvironment,
     WordStudyLink: EmbeddedWordStudyLink,
     readingStatus: offline ? 'Reading position and text size are saved on this computer.' : inheritedEnvironment.readingStatus,
-    wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles from Larry Herzog Jr.’s website source open here with links to their originals. Each article identifies its saved date. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions.` + (offline ? ' The included articles are available offline; original website links require internet access.' : ''),
+    wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles open here in an Ad Fontes BSB adaptation, with links to the unchanged original website editions. Each article identifies its saved date. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions.` + (offline ? ' The included articles are available offline; original website links require internet access.' : ''),
   };
   const [articles, setArticles] = useState<Article[]>([]);
   const [selected, setSelected] = useState<Article | null>(null);
@@ -82,7 +82,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
       {children}
       {selected && createPortal(<dialog ref={dialog} className="om-study" aria-labelledby="om-study-title" onCancel={event => { event.preventDefault(); event.stopPropagation(); close(); }} onKeyDown={event => { if (event.key === 'Escape') event.stopPropagation(); }}>
         <header className="om-study-header"><div><p>Ordinary Means commentary</p><h2 id="om-study-title">{selected.title}</h2></div><button autoFocus onClick={close}>Return to Greek</button></header>
-        <article className="om-study-body"><p className="om-study-subtitle">{selected.subtitle}</p><p>By {selected.author} · Saved {selected.snapshotDate}</p>
+        <article className="om-study-body"><p className="om-study-subtitle">{selected.subtitle}</p><p>By {selected.author} · Saved {selected.snapshotDate}</p><p>Ad Fontes BSB adaptation · The linked website preserves the original article edition.</p>
           {articleError ? <p role="alert">This article could not be loaded. Return to Greek and try again, or use the original website link below.</p> : markdown === null ? <p role="status">Loading article…</p> :
           <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {
             if (href?.startsWith('#')) return <a {...props} href={href} onClick={event => {
@@ -94,7 +94,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
             const local = articles.find(article => article.url === url.href);
             return local ? <button className="saved-study-link" onClick={() => setSelected(local)}>{children}</button> : <a {...props} href={url.protocol === 'https:' ? url.href : undefined} target="_blank" rel="noopener noreferrer">{children}</a>;
           } }}>{markdown}</Markdown>}
-          <p><a href={selected.url} target="_blank" rel="noopener noreferrer">Open on larryherzogjr.com ↗</a>{offline && ' · Internet required'}</p>
+          <p><a href={selected.url} target="_blank" rel="noopener noreferrer">Open original website edition on larryherzogjr.com ↗</a>{offline && ' · Internet required'}</p>
         </article>
       </dialog>, document.body)}
     </ReaderEnvironment.Provider>

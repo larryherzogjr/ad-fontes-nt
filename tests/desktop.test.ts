@@ -80,7 +80,8 @@ test('packaged Greek analysis, dictionary, occurrences and OM article work with 
     const source = await readFile(join(directory, article.sourcePath), 'utf8');
     assert.equal(createHash('sha256').update(source).digest('hex'), article.contentSha256);
     assert.equal(source.split(/^---\r?$/m).slice(2).join('---').replace(/^\r?\n/, ''), article.markdown);
-    assert.match(article.markdown, /Colossians 2:13, NET/);
+    assert.match(article.markdown, /Colossians 2:13, BSB/);
+    assert.doesNotMatch(article.markdown, /\bNET\b/);
     assert.match(article.markdown, /COPY APPROVED/);
   } finally { globalThis.fetch = original; }
 });

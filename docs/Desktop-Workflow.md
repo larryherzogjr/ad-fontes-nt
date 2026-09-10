@@ -56,17 +56,19 @@ References: [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/), [f
 
 Larry confirmed on September 8, 2026 that all 250 Greek articles had been reviewed and approved, authorized their use in Ad Fontes NT, and requested that all be live on larryherzogjr.com. This supersedes historical draft markers and the 39 pending-review placeholders. Author-site metadata/comments now reflect approval; article prose is unchanged.
 
-The active `om-studies-2026-09-09-v3` snapshot, approved by Larry on September 9, preserves all 250 exact source files (107 editorial revisions and 143 unchanged from v2), the author-site review ledger, the current approval record, source revision and SHA-256 checksums. The original one-article prototype release remains unchanged and reproducible with `node scripts/import_om_studies.mts om-studies-2026-09-08-prototype-v1`.
+The active `om-studies-2026-09-09-v4` snapshot is the approved Ad Fontes BSB adaptation of all 250 articles. It preserves the exact approved v30 candidate bytes, validator report, deterministic verification record and editor approval, all bound by SHA-256 in an immutable successor to v3. The original website edition remains unchanged. Earlier releases, including the original one-article prototype, remain immutable and reproducible.
 
 `app/lib/domain/om-release.json` selects the same collection for the website and desktop. Both use `app/reader/word-studies.tsx` and its stylesheet. A small index identifies available articles; article prose loads individually when opened and is cached in memory. Cross-links between included articles stay in the viewer. Markdown footnotes work inside the article dialog. Return to Greek and Escape preserve the invoking word-study button. Original website links remain available. Desktop labels bundled availability as offline; the website does not claim offline browser installation.
 
-The author website remains the writing source. To refresh the collection:
+The author website remains the writing source for ordinary editorial releases. The BSB adaptation is deliberately app-only and follows the separate reviewed-candidate workflow recorded in `docs/OM-BSB-Article-Adaptation-2026-09-09.md`. To refresh an ordinary collection from the author website:
 
 1. Edit and approve the changed articles there. Keep each article's `editorial_review: "approved"` and actual `editorial_approval_date` current; unchanged articles retain their earlier approvals.
 2. Supply an actual approval record for the selected content. The exporter does not create or infer approval text.
 3. Run `python3 scripts/export_om_studies.py --source /path/to/larryherzogjr --release NEW-RELEASE --snapshot-date YYYY-MM-DD --predecessor CURRENT-RELEASE --approval-record /path/to/approval.md`. PyYAML is required for this authoring operation, not ordinary app builds. Existing release directories cannot be overwritten.
 4. Review source differences, recorded quotations/notices, article identities and output hashes, then select the new release in `app/lib/domain/om-release.json`.
 5. Run `npm run verify:both`, build the native application, and review both reading flows before their separate releases.
+
+For a reviewed BSB candidate, run `scripts/promote_om_bsb_candidate.py` only with its exact candidate, validator, verification and approval artifacts. The promoter refuses anything other than the approved v30 hashes and creates a new release directory rather than modifying an existing release. Any later adaptation requires a newly reviewed candidate and a new immutable release.
 
 The importer reproduces the selected immutable files without network access or a sibling checkout. It verifies all source/evidence and output checksums; it has no rebaseline flag. Existing lexical associations remain unchanged. Article quotations remain part of authored commentary; they do not install NET or any other additional Scripture edition.
 
