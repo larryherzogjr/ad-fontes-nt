@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-10 — Greek article word-count correction candidate (AFNT-104 / AFNT-107)
+
+- Larry identified that `Anthropos` calls *Ecce homo* three Latin words when it has two and authorized the narrow corrections before public v1.0. A targeted audit of explicit count/language statements across all 250 app articles found definite issues in six: Anthropos, Anomia, Logos, Pistos ho logos, Pater and Kyrios. Ten exact replacements distinguish Latin, Greek and English counts without changing Scripture, corpus data or substantive conclusions.
+- Added a deterministic exact-replacement specification and candidate builder. It verifies every immutable v4 source/evidence checksum, refuses ambiguous replacement counts and records all 250 resulting hashes. The candidate remains under ignored editorial artifacts until Larry approves its final manifest hash; v4, the shared selector, live services and desktop packages remain unchanged.
+- Added a self-contained author-site handoff for applying the same corrections to `larryherzogjr.com` later under that repository’s separate review and deployment workflow. No author-site change or publication is authorized by the handoff.
+
 ## 2026-09-10 — Public v1.0 release candidate preparation (AFNT-026–029 / AFNT-107)
 
 - Larry approved preparing v1.0 with anonymous public reading, invitation-only Google-backed private notes, self-service account deletion, privacy-minimal operations, a 48-hour soft launch, and supported desktop targets of macOS Sonoma 14+ Apple Silicon and Windows 11 x64. Public launch and paid-service enrollment still require their explicit final approvals.
