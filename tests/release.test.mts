@@ -69,3 +69,13 @@ test('public desktop download page exposes only the approved RC3 installers', as
   assert.match(page, /summary_large_image/);
   await stat('app/public/og-downloads.png');
 });
+
+test('public project status distinguishes live RC3 from final v1.0', async () => {
+  const reader = await readFile('app/reader/reader.tsx', 'utf8');
+  assert.match(reader, /public release-candidate status/);
+  assert.match(reader, /Version 1\.0\.0-rc\.3 is the approved cross-platform desktop\s+candidate/);
+  assert.match(reader, /href="\/downloads"/);
+  assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);
+  assert.match(reader, /explicit final release approval/);
+  assert.doesNotMatch(reader, /Pilot and release verification are next/);
+});

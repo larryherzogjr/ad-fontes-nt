@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-11 — Public Sources-page status refresh (AFNT-029 / v1 RC3)
+
+- Replaced the stale `/about/sources` Project status copy that described pilot and release verification as merely next. The public page now identifies the live web scope, accepted comparison/Greek/notes/resource milestones, approved 250-article BSB adaptation and public `1.0.0-rc.3` desktop candidate.
+- The copy links to the public Downloads page, accurately distinguishes the Developer ID signed/notarized Apple Silicon package from the Public Trust signed and Windows 11-tested x64 package, and states that private account-backed notes remain web-only.
+- The page continues to distinguish RC3 from final v1.0: predecessor-to-RC3 desktop updater rehearsals and explicit final release approval remain. No source, corpus, commentary, release artifact, account behavior or application capability changed.
+
 ## 2026-09-11 — Cross-platform 1.0.0-rc.3 published candidate (AFNT-107)
 
 - Built the first combined desktop update candidate for macOS Apple Silicon and Windows x64 from exact source `813adc234a9ec21cef7d0a275fb5c765986dfb1f`. Full shared verification passed at `1.0.0-rc.3`: 53 Node tests, 19 Python tests, TypeScript, both production builds, all 13,371 offline files and five desktop tests. The approved `om-studies-2026-09-10-v5` selection and its 250 articles are unchanged.

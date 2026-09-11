@@ -1028,12 +1028,27 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <p><a href="/lexical/dodson-2010-v3/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
-              M3 review is complete. Larry Herzog Jr. approved all 30 initial
-              Ordinary Means explanations and accepted the edition comparison
-              and Greek exploration experience with its stated limitations.
-              M4 personal notes and the initial related resource links are also
-              accepted. Pilot and release verification are next. This is not
-              the finished MVP.
+              Ad Fontes NT is now in public release-candidate status. The live
+              web reader includes all 27 New Testament books, seven named
+              editions, 30 reviewed comparison notes, Greek and interlinear
+              tools, the approved 250-article Ordinary Means BSB adaptation,
+              and account-backed personal notes. The comparison, Greek,
+              personal-note and initial resource-link milestones are accepted
+              with their documented limitations.
+            </p>
+            <p>
+              Version 1.0.0-rc.3 is the approved cross-platform desktop
+              candidate. The macOS Apple Silicon package is Developer ID signed
+              and Apple notarized; the Windows 11 x64 package is Public Trust
+              signed and has been tested on Windows 11. Both are available on
+              the <a href="/downloads">Downloads page</a>. Private
+              account-backed notes remain available only in the web app.
+            </p>
+            <p>
+              Final v1.0 still requires the remaining predecessor-to-RC3
+              desktop update rehearsals and explicit final release approval.
+              Release-candidate status is not a claim that final v1.0 is
+              complete.
             </p>
           </section>
         )}
