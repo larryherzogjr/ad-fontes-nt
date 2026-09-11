@@ -24,7 +24,8 @@ Microsoft Azure Artifact Signing is configured for the Windows x64 public-releas
 
 - `.github/workflows/windows-release.yml` is manual-only and refuses non-`main` refs.
 - `azure/login` is pinned by full commit and requests only `contents: read` and `id-token: write`.
-- Microsoft's official Artifact Signing Client Tools MSI is fetched from the documented URL and must match SHA-256 `5bb2352b99f6908dd048293c9156000f1922b1332a61546c7c2fea768e4f46b8` before installation.
+- The first live run proved GitHub-to-Azure OIDC authentication, but the official Artifact Signing Client Tools MSI remained blocked in `msiexec` for more than 16 minutes on the hosted Windows Server 2022 runner. That canceled run is `34554370479`; it produced no candidate artifact.
+- The release workflow therefore uses Microsoft's documented manual toolchain instead of installing the MSI: `Microsoft.Windows.SDK.BuildTools` `10.0.28000.2705` (SHA-256 `8bfdfb6ca2633f531cf80b5fa22512ba61a394d7988f0970db83baadc67929ed`) and `Microsoft.ArtifactSigning.Client` `1.0.128` (SHA-256 `74bd7d27e6ce1051409c38d9b46bc8df0400ecd643d51ffbf2ac00869061e40b`). Both official NuGet packages are extracted into the ephemeral runner and the x64 tools are used directly; no package installer runs.
 - Tauri's custom sign command uses the official SignTool dlib with Azure CLI's short-lived OIDC session. It excludes other credential types, applies SHA-256 plus Microsoft's RFC 3161 timestamp service, and verifies each signed executable immediately.
 - The workflow keeps the existing unsigned beta workflow intact. It builds the application executable, NSIS installer and `.nsis.zip` updater artifact, verifies Authenticode on the application and installer, and records artifact hashes and release identity.
 

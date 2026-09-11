@@ -89,17 +89,48 @@ jobs:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-      - name: Install pinned Artifact Signing client tools
+      - name: Prepare pinned Artifact Signing client tools
+        timeout-minutes: 5
         shell: pwsh
         run: |
-          $uri = 'https://download.microsoft.com/download/70ad2c3b-761f-4aa9-a9de-e7405aa2b4c1/ArtifactSigningClientTools.msi'
-          $msi = Join-Path $env:RUNNER_TEMP 'ArtifactSigningClientTools.msi'
-          Invoke-WebRequest -Uri $uri -OutFile $msi
-          $actual = (Get-FileHash $msi -Algorithm SHA256).Hash.ToLowerInvariant()
-          $expected = '5bb2352b99f6908dd048293c9156000f1922b1332a61546c7c2fea768e4f46b8'
-          if ($actual -ne $expected) { throw "Artifact Signing Client Tools checksum mismatch: $actual" }
-          $process = Start-Process msiexec.exe -Wait -PassThru -ArgumentList @('/I', $msi, '/quiet', '/norestart')
-          if ($process.ExitCode -ne 0) { throw "Artifact Signing Client Tools installation failed: $($process.ExitCode)" }
+          $root = Join-Path $env:RUNNER_TEMP 'ad-fontes-signing-tools'
+          $sdkPackage = Join-Path $root 'Microsoft.Windows.SDK.BuildTools.10.0.28000.2705.nupkg'
+          $clientPackage = Join-Path $root 'Microsoft.ArtifactSigning.Client.1.0.128.nupkg'
+          New-Item -ItemType Directory -Force $root | Out-Null
+          Write-Host 'Downloading pinned Microsoft signing packages.'
+          & curl.exe --fail --location --silent --show-error --retry 3 --max-time 120 `
+            --output $sdkPackage `
+            'https://api.nuget.org/v3-flatcontainer/microsoft.windows.sdk.buildtools/10.0.28000.2705/microsoft.windows.sdk.buildtools.10.0.28000.2705.nupkg'
+          if ($LASTEXITCODE -ne 0) { throw 'Windows SDK Build Tools download failed' }
+          & curl.exe --fail --location --silent --show-error --retry 3 --max-time 120 `
+            --output $clientPackage `
+            'https://api.nuget.org/v3-flatcontainer/microsoft.artifactsigning.client/1.0.128/microsoft.artifactsigning.client.1.0.128.nupkg'
+          if ($LASTEXITCODE -ne 0) { throw 'Artifact Signing client download failed' }
+          $sdkHash = (Get-FileHash $sdkPackage -Algorithm SHA256).Hash.ToLowerInvariant()
+          $clientHash = (Get-FileHash $clientPackage -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($sdkHash -ne '8bfdfb6ca2633f531cf80b5fa22512ba61a394d7988f0970db83baadc67929ed') {
+            throw "Windows SDK Build Tools checksum mismatch: $sdkHash"
+          }
+          if ($clientHash -ne '74bd7d27e6ce1051409c38d9b46bc8df0400ecd643d51ffbf2ac00869061e40b') {
+            throw "Artifact Signing client checksum mismatch: $clientHash"
+          }
+          $sdkRoot = Join-Path $root 'sdk'
+          $clientRoot = Join-Path $root 'client'
+          New-Item -ItemType Directory -Force -Path $sdkRoot, $clientRoot | Out-Null
+          Copy-Item $sdkPackage "$sdkPackage.zip"
+          Copy-Item $clientPackage "$clientPackage.zip"
+          Expand-Archive -LiteralPath "$sdkPackage.zip" -DestinationPath $sdkRoot
+          Expand-Archive -LiteralPath "$clientPackage.zip" -DestinationPath $clientRoot
+          $signTool = Join-Path $sdkRoot 'bin\10.0.28000.0\x64\signtool.exe'
+          $dlib = Join-Path $clientRoot 'bin\x64\Azure.CodeSigning.Dlib.dll'
+          if (-not (Test-Path -LiteralPath $signTool)) { throw 'Pinned x64 SignTool is missing' }
+          if (-not (Test-Path -LiteralPath $dlib)) { throw 'Pinned x64 Artifact Signing dlib is missing' }
+          if (-not (dotnet --list-runtimes | Select-String '^Microsoft.NETCore.App 8\.')) {
+            throw '.NET 8 runtime required by Artifact Signing is missing'
+          }
+          "AZURE_ARTIFACT_SIGNING_SIGNTOOL=$signTool" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "AZURE_ARTIFACT_SIGNING_DLIB=$dlib" | Out-File -FilePath $env:GITHUB_ENV -Append
+          Write-Host 'Pinned Artifact Signing toolchain is ready.'
       - name: Build signed NSIS installer and updater archive
         run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
       - name: Verify and collect signed release candidate
@@ -112,15 +143,8 @@ jobs:
           if ($updates.Count -ne 1) { throw 'Expected exactly one Windows updater archive' }
           $signature = "$($updates[0].FullName).sig"
           if (-not (Test-Path -LiteralPath $signature)) { throw 'Windows updater signature is missing' }
-          $tools = Join-Path ${env:ProgramFiles(x86)} 'Microsoft\ArtifactSigningClientTools\bin'
-          $signTool = Join-Path $tools 'signtool.exe'
-          if (-not (Test-Path -LiteralPath $signTool)) {
-            $candidate = Get-ChildItem -LiteralPath $tools -Recurse -Filter signtool.exe -ErrorAction SilentlyContinue |
-              Where-Object { $_.FullName -match '\\x64\\signtool\.exe$' } |
-              Sort-Object FullName -Descending |
-              Select-Object -First 1
-            if ($candidate) { $signTool = $candidate.FullName } else { $signTool = (Get-Command signtool.exe).Source }
-          }
+          $signTool = $env:AZURE_ARTIFACT_SIGNING_SIGNTOOL
+          if (-not (Test-Path -LiteralPath $signTool)) { throw 'Pinned x64 SignTool is unavailable' }
           & $signTool verify /pa /all /v $installers[0].FullName
           if ($LASTEXITCODE -ne 0) { throw 'Installer Authenticode verification failed' }
           $app = 'app/desktop/src-tauri/target/release/ad-fontes-nt-desktop.exe'

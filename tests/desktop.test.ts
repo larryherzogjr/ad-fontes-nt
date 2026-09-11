@@ -55,7 +55,9 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   assert.match(windowsReleaseWorkflow, /github\.ref == 'refs\/heads\/main'/);
   assert.match(windowsReleaseWorkflow, /azure\/login@[a-f0-9]{40}/);
   assert.doesNotMatch(windowsReleaseWorkflow, /AZURE_CLIENT_SECRET/);
-  assert.match(windowsReleaseWorkflow, /5bb2352b99f6908dd048293c9156000f1922b1332a61546c7c2fea768e4f46b8/);
+  assert.match(windowsReleaseWorkflow, /8bfdfb6ca2633f531cf80b5fa22512ba61a394d7988f0970db83baadc67929ed/);
+  assert.match(windowsReleaseWorkflow, /74bd7d27e6ce1051409c38d9b46bc8df0400ecd643d51ffbf2ac00869061e40b/);
+  assert.doesNotMatch(windowsReleaseWorkflow, /msiexec/i);
   const macConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.macos.release.conf.json', 'utf8'));
   const macRelease = await readFile('deployment/build-macos-release.sh', 'utf8');
   assert.equal(macConfig.bundle.macOS.minimumSystemVersion, '14.0');

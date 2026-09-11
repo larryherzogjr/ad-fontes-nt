@@ -7,7 +7,9 @@ $ErrorActionPreference = 'Stop'
 foreach ($name in @(
   'AZURE_ARTIFACT_SIGNING_ENDPOINT',
   'AZURE_ARTIFACT_SIGNING_ACCOUNT',
-  'AZURE_ARTIFACT_SIGNING_CERTIFICATE_PROFILE'
+  'AZURE_ARTIFACT_SIGNING_CERTIFICATE_PROFILE',
+  'AZURE_ARTIFACT_SIGNING_SIGNTOOL',
+  'AZURE_ARTIFACT_SIGNING_DLIB'
 )) {
   if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($name))) {
     throw "Required Artifact Signing setting is missing: $name"
@@ -15,24 +17,13 @@ foreach ($name in @(
 }
 
 $resolved = (Resolve-Path -LiteralPath $File).Path
-$tools = Join-Path ${env:ProgramFiles(x86)} 'Microsoft\ArtifactSigningClientTools\bin'
-$dlib = Join-Path $tools 'Azure.CodeSigning.Dlib.dll'
-$signTool = Join-Path $tools 'signtool.exe'
+$dlib = (Resolve-Path -LiteralPath $env:AZURE_ARTIFACT_SIGNING_DLIB).Path
+$signTool = (Resolve-Path -LiteralPath $env:AZURE_ARTIFACT_SIGNING_SIGNTOOL).Path
 if (-not (Test-Path -LiteralPath $dlib)) {
-  throw "Artifact Signing dlib is not installed at the expected path: $dlib"
+  throw "Artifact Signing dlib is unavailable at the configured path: $dlib"
 }
 if (-not (Test-Path -LiteralPath $signTool)) {
-  $candidate = Get-ChildItem -LiteralPath $tools -Recurse -Filter signtool.exe -ErrorAction SilentlyContinue |
-    Where-Object { $_.FullName -match '\\x64\\signtool\.exe$' } |
-    Sort-Object FullName -Descending |
-    Select-Object -First 1
-  if ($candidate) {
-    $signTool = $candidate.FullName
-  } else {
-    $command = Get-Command signtool.exe -ErrorAction SilentlyContinue
-    if (-not $command) { throw 'A compatible signtool.exe was not found' }
-    $signTool = $command.Source
-  }
+  throw "Artifact Signing SignTool is unavailable at the configured path: $signTool"
 }
 
 $correlation = if ($env:GITHUB_RUN_ID) {
