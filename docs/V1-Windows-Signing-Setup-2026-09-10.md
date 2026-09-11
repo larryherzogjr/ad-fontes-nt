@@ -1,0 +1,35 @@
+# Ad Fontes NT Windows signing setup — 2026-09-10
+
+Microsoft Azure Artifact Signing is configured for the Windows x64 public-release path. This record covers account and pipeline preparation; it does not claim that a signed package has been built or accepted on Windows 11.
+
+## Azure configuration
+
+- Paid SKU: Basic, USD $9.99/account/month.
+- Resource group: `ad-fontes-signing`.
+- Artifact Signing account: `adfontesntsigning`, Central US.
+- Service endpoint: `https://cus.codesigning.azure.net`.
+- Individual Public identity validation: completed for Larry Herzog Jr.
+- Public Trust certificate profile: `AdFontesNTRelease`, active. Street address and postal code are not included in the certificate subject.
+- Microsoft Entra application/service principal: `ad-fontes-windows-signing`.
+- The service principal has `Artifact Signing Certificate Profile Signer` at the Artifact Signing account scope. It has no general Azure administrator role.
+
+## GitHub authentication and updater custody
+
+- The private `larryherzogjr/ad-fontes-nt` repository has an OIDC federated credential bound to the numeric repository identity and `refs/heads/main` only.
+- No Azure client secret was created or stored.
+- GitHub Actions contains the Azure client, tenant and subscription identifiers as encrypted secrets, following Microsoft's OIDC integration guidance.
+- With Larry's explicit approval, the already-backed-up Tauri updater private key and password were copied directly from the trusted Mac/Keychain to encrypted GitHub Actions secrets. Their values were not printed. This permits the Windows runner to produce the same independently authenticated updater format as the Mac release.
+
+## Prepared workflow
+
+- `.github/workflows/windows-release.yml` is manual-only and refuses non-`main` refs.
+- `azure/login` is pinned by full commit and requests only `contents: read` and `id-token: write`.
+- Microsoft's official Artifact Signing Client Tools MSI is fetched from the documented URL and must match SHA-256 `5bb2352b99f6908dd048293c9156000f1922b1332a61546c7c2fea768e4f46b8` before installation.
+- Tauri's custom sign command uses the official SignTool dlib with Azure CLI's short-lived OIDC session. It excludes other credential types, applies SHA-256 plus Microsoft's RFC 3161 timestamp service, and verifies each signed executable immediately.
+- The workflow keeps the existing unsigned beta workflow intact. It builds the application executable, NSIS installer and `.nsis.zip` updater artifact, verifies Authenticode on the application and installer, and records artifact hashes and release identity.
+
+## Verification and remaining gates
+
+`npm run test:desktop` passed all five desktop groups after the workflow change. The workflow YAML parsed locally and `git diff --check` passed. The expected five GitHub secret names are present; secret values cannot be read back and were not exposed.
+
+Still required: run the new workflow from `main`; inspect the exact GitHub/Azure evidence and artifact hashes; install on Windows 11 x64; verify the displayed publisher, offline reading, upgrade and uninstall; then rebuild both supported platforms at one new immutable version for the served Windows updater rehearsal. The already-published macOS-only `1.0.0-rc.2` directory remains immutable.

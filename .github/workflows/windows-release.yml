@@ -1,0 +1,165 @@
+name: Windows desktop signed release candidate
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: windows-signed-release
+  cancel-in-progress: false
+
+jobs:
+  shared-build:
+    name: Verify web and prepare shared offline assets
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.18.0'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: npm --prefix app ci
+      - run: npm run verify:both
+      - name: Package verified assets
+        run: |
+          tar -czf desktop-web.tar.gz -C app/desktop/dist .
+          sha256sum desktop-web.tar.gz > desktop-web.sha256
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verified-desktop-web-signed-release
+          path: |
+            desktop-web.tar.gz
+            desktop-web.sha256
+          retention-days: 7
+          if-no-files-found: error
+
+  windows:
+    name: Sign and build Windows x64 release candidate
+    needs: shared-build
+    runs-on: windows-2022
+    timeout-minutes: 60
+    env:
+      CARGO_TERM_COLOR: always
+      AZURE_ARTIFACT_SIGNING_ENDPOINT: https://cus.codesigning.azure.net
+      AZURE_ARTIFACT_SIGNING_ACCOUNT: adfontesntsigning
+      AZURE_ARTIFACT_SIGNING_CERTIFICATE_PROFILE: AdFontesNTRelease
+      TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+      TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.18.0'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm --prefix app ci
+      - name: Install pinned Rust toolchain
+        run: |
+          rustup toolchain install 1.94.0 --profile minimal
+          rustup default 1.94.0
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: verified-desktop-web-signed-release
+          path: prepared
+      - name: Verify and extract shared assets
+        shell: pwsh
+        run: |
+          $expected = (Get-Content prepared/desktop-web.sha256).Split(' ')[0]
+          $actual = (Get-FileHash prepared/desktop-web.tar.gz -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($actual -ne $expected) { throw 'Shared asset archive checksum mismatch' }
+          New-Item -ItemType Directory -Force app/desktop/dist | Out-Null
+          tar -xzf prepared/desktop-web.tar.gz -C app/desktop/dist
+          if ($LASTEXITCODE -ne 0) { throw 'Asset extraction failed' }
+      - name: Sign in to Azure with GitHub OIDC
+        uses: azure/login@a641126d1b8aa4d1fa005f4f92df94a3a4c4c906 # v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Install pinned Artifact Signing client tools
+        shell: pwsh
+        run: |
+          $uri = 'https://download.microsoft.com/download/70ad2c3b-761f-4aa9-a9de-e7405aa2b4c1/ArtifactSigningClientTools.msi'
+          $msi = Join-Path $env:RUNNER_TEMP 'ArtifactSigningClientTools.msi'
+          Invoke-WebRequest -Uri $uri -OutFile $msi
+          $actual = (Get-FileHash $msi -Algorithm SHA256).Hash.ToLowerInvariant()
+          $expected = '5bb2352b99f6908dd048293c9156000f1922b1332a61546c7c2fea768e4f46b8'
+          if ($actual -ne $expected) { throw "Artifact Signing Client Tools checksum mismatch: $actual" }
+          $process = Start-Process msiexec.exe -Wait -PassThru -ArgumentList @('/I', $msi, '/quiet', '/norestart')
+          if ($process.ExitCode -ne 0) { throw "Artifact Signing Client Tools installation failed: $($process.ExitCode)" }
+      - name: Build signed NSIS installer and updater archive
+        run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
+      - name: Verify and collect signed release candidate
+        shell: pwsh
+        run: |
+          $bundle = 'app/desktop/src-tauri/target/release/bundle'
+          $installers = @(Get-ChildItem "$bundle/nsis/*-setup.exe")
+          $updates = @(Get-ChildItem "$bundle/nsis/*.nsis.zip")
+          if ($installers.Count -ne 1) { throw 'Expected exactly one Windows installer' }
+          if ($updates.Count -ne 1) { throw 'Expected exactly one Windows updater archive' }
+          $signature = "$($updates[0].FullName).sig"
+          if (-not (Test-Path -LiteralPath $signature)) { throw 'Windows updater signature is missing' }
+          $tools = Join-Path ${env:ProgramFiles(x86)} 'Microsoft\ArtifactSigningClientTools\bin'
+          $signTool = Join-Path $tools 'signtool.exe'
+          if (-not (Test-Path -LiteralPath $signTool)) {
+            $candidate = Get-ChildItem -LiteralPath $tools -Recurse -Filter signtool.exe -ErrorAction SilentlyContinue |
+              Where-Object { $_.FullName -match '\\x64\\signtool\.exe$' } |
+              Sort-Object FullName -Descending |
+              Select-Object -First 1
+            if ($candidate) { $signTool = $candidate.FullName } else { $signTool = (Get-Command signtool.exe).Source }
+          }
+          & $signTool verify /pa /all /v $installers[0].FullName
+          if ($LASTEXITCODE -ne 0) { throw 'Installer Authenticode verification failed' }
+          $app = 'app/desktop/src-tauri/target/release/ad-fontes-nt-desktop.exe'
+          & $signTool verify /pa /all /v $app
+          if ($LASTEXITCODE -ne 0) { throw 'Application Authenticode verification failed' }
+          $output = 'artifacts/desktop/windows'
+          New-Item -ItemType Directory -Force $output | Out-Null
+          Copy-Item $installers[0].FullName $output
+          Copy-Item $updates[0].FullName $output
+          Copy-Item $signature $output
+          $files = @(Get-ChildItem $output -File | Sort-Object Name)
+          $files | ForEach-Object {
+            $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            "$hash  $($_.Name)"
+          } | Set-Content "$output/SHA256SUMS.txt" -Encoding utf8
+          $config = Get-Content app/desktop/src-tauri/tauri.conf.json | ConvertFrom-Json
+          $om = Get-Content app/lib/domain/om-release.json | ConvertFrom-Json
+          @{
+            version = $config.version
+            platform = 'windows-x86_64'
+            commit = '${{ github.sha }}'
+            run = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+            omRelease = $om.releaseId
+            articleCount = $om.articleCount
+            signing = 'Azure Artifact Signing Public Trust; RFC 3161 timestamped'
+            publisher = 'Larry Herzog Jr.'
+            webview = 'embedded offline Evergreen WebView2 installer'
+            installerSha256 = (Get-FileHash $installers[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            updaterSha256 = (Get-FileHash $updates[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            updaterSignatureSha256 = (Get-FileHash $signature -Algorithm SHA256).Hash.ToLowerInvariant()
+          } | ConvertTo-Json | Set-Content "$output/BUILD-INFO.json" -Encoding utf8
+          "DESKTOP_VERSION=$($config.version)" | Out-File -FilePath $env:GITHUB_ENV -Append
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: Ad-Fontes-NT-Windows-x64-signed-${{ env.DESKTOP_VERSION }}
+          path: artifacts/desktop/windows/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Report build result
+        shell: pwsh
+        run: |
+          'Windows x64 application and NSIS installer passed Azure Artifact Signing and Authenticode verification. The separately signed updater archive is included for immutable-release assembly. Windows 11 install, upgrade, uninstall and updater acceptance remain required.' >> $env:GITHUB_STEP_SUMMARY
