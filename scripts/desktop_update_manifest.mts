@@ -48,7 +48,7 @@ async function addPlatform(target: string, bundleKey: string, signatureKey: stri
 }
 
 await addPlatform('darwin-aarch64', 'mac-bundle', 'mac-signature', '.app.tar.gz');
-await addPlatform('windows-x86_64', 'windows-bundle', 'windows-signature', '.nsis.zip');
+await addPlatform('windows-x86_64', 'windows-bundle', 'windows-signature', '.exe');
 if (!Object.keys(platforms).length) throw Error('At least one platform artifact is required');
 
 let notes = args.notes || '';

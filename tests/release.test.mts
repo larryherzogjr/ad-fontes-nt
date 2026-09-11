@@ -13,9 +13,13 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   try {
     const bundle = join(root, 'Ad Fontes NT.test.app.tar.gz');
     const signature = join(root, 'Ad Fontes NT.test.app.tar.gz.sig');
+    const windowsBundle = join(root, 'Ad Fontes NT.test_x64-setup.exe');
+    const windowsSignature = join(root, 'Ad Fontes NT.test_x64-setup.exe.sig');
     const output = join(root, 'output');
     await writeFile(bundle, 'signed update fixture');
     await writeFile(signature, 'fixture-signature');
+    await writeFile(windowsBundle, 'signed Windows update fixture');
+    await writeFile(windowsSignature, 'fixture-windows-signature');
     await exec(process.execPath, [
       'scripts/desktop_update_manifest.mts',
       '--version', '1.0.0-rc.1',
@@ -25,13 +29,18 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
       '--notes', 'Release candidate',
       '--mac-bundle', bundle,
       '--mac-signature', signature,
+      '--windows-bundle', windowsBundle,
+      '--windows-signature', windowsSignature,
     ]);
     const manifest = JSON.parse(await readFile(join(output, 'stable/latest.json'), 'utf8'));
     assert.equal(manifest.version, '1.0.0-rc.1');
-    assert.deepEqual(Object.keys(manifest.platforms), ['darwin-aarch64']);
+    assert.deepEqual(Object.keys(manifest.platforms), ['darwin-aarch64', 'windows-x86_64']);
     assert.equal(manifest.platforms['darwin-aarch64'].signature, 'fixture-signature');
     assert.equal(manifest.platforms['darwin-aarch64'].url, 'https://ad-fontes.app/desktop-updates/releases/1.0.0-rc.1/ad-fontes-nt-1.0.0-rc.1-darwin-aarch64.app.tar.gz');
+    assert.equal(manifest.platforms['windows-x86_64'].signature, 'fixture-windows-signature');
+    assert.equal(manifest.platforms['windows-x86_64'].url, 'https://ad-fontes.app/desktop-updates/releases/1.0.0-rc.1/ad-fontes-nt-1.0.0-rc.1-windows-x86_64.exe');
     assert.match(await readFile(join(output, 'SHA256SUMS'), 'utf8'), /^[0-9a-f]{64}  releases\/1\.0\.0-rc\.1\/ad-fontes-nt-1\.0\.0-rc\.1-darwin-aarch64\.app\.tar\.gz$/m);
+    assert.match(await readFile(join(output, 'SHA256SUMS'), 'utf8'), /^[0-9a-f]{64}  releases\/1\.0\.0-rc\.1\/ad-fontes-nt-1\.0\.0-rc\.1-windows-x86_64\.exe$/m);
     await assert.rejects(
       exec(process.execPath, [
         'scripts/desktop_update_manifest.mts',

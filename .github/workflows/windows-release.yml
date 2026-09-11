@@ -149,17 +149,15 @@ jobs:
           } finally {
             Remove-Item -LiteralPath $preflight -Force -ErrorAction SilentlyContinue
           }
-      - name: Build signed NSIS installer and updater archive
+      - name: Build signed NSIS installer and updater payload
         run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
       - name: Verify and collect signed release candidate
         shell: pwsh
         run: |
           $bundle = 'app/desktop/src-tauri/target/release/bundle'
           $installers = @(Get-ChildItem "$bundle/nsis/*-setup.exe")
-          $updates = @(Get-ChildItem "$bundle/nsis/*.nsis.zip")
           if ($installers.Count -ne 1) { throw 'Expected exactly one Windows installer' }
-          if ($updates.Count -ne 1) { throw 'Expected exactly one Windows updater archive' }
-          $signature = "$($updates[0].FullName).sig"
+          $signature = "$($installers[0].FullName).sig"
           if (-not (Test-Path -LiteralPath $signature)) { throw 'Windows updater signature is missing' }
           $signTool = $env:AZURE_ARTIFACT_SIGNING_SIGNTOOL
           if (-not (Test-Path -LiteralPath $signTool)) { throw 'Pinned x64 SignTool is unavailable' }
@@ -171,7 +169,6 @@ jobs:
           $output = 'artifacts/desktop/windows'
           New-Item -ItemType Directory -Force $output | Out-Null
           Copy-Item $installers[0].FullName $output
-          Copy-Item $updates[0].FullName $output
           Copy-Item $signature $output
           $files = @(Get-ChildItem $output -File | Sort-Object Name)
           $files | ForEach-Object {
@@ -191,7 +188,8 @@ jobs:
             publisher = 'Larry Herzog Jr.'
             webview = 'embedded offline Evergreen WebView2 installer'
             installerSha256 = (Get-FileHash $installers[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
-            updaterSha256 = (Get-FileHash $updates[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            updaterArtifact = $installers[0].Name
+            updaterSha256 = (Get-FileHash $installers[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
             updaterSignatureSha256 = (Get-FileHash $signature -Algorithm SHA256).Hash.ToLowerInvariant()
           } | ConvertTo-Json | Set-Content "$output/BUILD-INFO.json" -Encoding utf8
           "DESKTOP_VERSION=$($config.version)" | Out-File -FilePath $env:GITHUB_ENV -Append
@@ -204,4 +202,4 @@ jobs:
       - name: Report build result
         shell: pwsh
         run: |
-          'Windows x64 application and NSIS installer passed Azure Artifact Signing and Authenticode verification. The separately signed updater archive is included for immutable-release assembly. Windows 11 install, upgrade, uninstall and updater acceptance remain required.' >> $env:GITHUB_STEP_SUMMARY
+          'Windows x64 application and NSIS installer passed Azure Artifact Signing and Authenticode verification. The installer and its separate Tauri updater signature are included for immutable-release assembly. Windows 11 install, upgrade, uninstall and updater acceptance remain required.' >> $env:GITHUB_STEP_SUMMARY
