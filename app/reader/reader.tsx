@@ -492,6 +492,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
           >
             Sources &amp; Editions
           </a>
+          <a href="/downloads">Downloads</a>
           {Notes && <a href="/account">My account</a>}
         </nav>
       </header>
@@ -1055,6 +1056,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
           <a href="/support">Support</a>
+          <a href="/downloads">Downloads</a>
         </>}
       </footer>
     </>

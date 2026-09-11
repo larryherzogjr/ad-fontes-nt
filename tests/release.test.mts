@@ -55,3 +55,13 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test('public desktop download page exposes only the approved RC3 installers', async () => {
+  const page = await readFile('app/app/downloads/page.tsx', 'utf8');
+  assert.match(page, /Desktop release candidate/);
+  assert.match(page, /1\.0\.0-rc\.3/);
+  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.3\.dmg/);
+  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.3\.exe/);
+  assert.match(page, /private account-backed notes\s+remain available in the web app/);
+  assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
+});
