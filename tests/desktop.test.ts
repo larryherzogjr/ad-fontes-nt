@@ -60,6 +60,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   assert.match(windowsReleaseWorkflow, /Verify Artifact Signing service/);
   assert.match(windowsReleaseWorkflow, /ad-fontes-artifact-sign\.cmd/);
   assert.match(windowsReleaseWorkflow, /\$signature = "\$\(\$installers\[0\]\.FullName\)\.sig"/);
+  assert.doesNotMatch(windowsReleaseWorkflow, /target\/release\/ad-fontes-nt-desktop\.exe/);
   assert.doesNotMatch(windowsReleaseWorkflow, /\.nsis\.zip/);
   assert.doesNotMatch(windowsReleaseWorkflow, /msiexec/i);
   const macConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.macos.release.conf.json', 'utf8'));

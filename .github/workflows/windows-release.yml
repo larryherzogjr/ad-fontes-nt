@@ -163,9 +163,9 @@ jobs:
           if (-not (Test-Path -LiteralPath $signTool)) { throw 'Pinned x64 SignTool is unavailable' }
           & $signTool verify /pa /all /v $installers[0].FullName
           if ($LASTEXITCODE -ne 0) { throw 'Installer Authenticode verification failed' }
-          $app = 'app/desktop/src-tauri/target/release/ad-fontes-nt-desktop.exe'
-          & $signTool verify /pa /all /v $app
-          if ($LASTEXITCODE -ne 0) { throw 'Application Authenticode verification failed' }
+          # The custom signer already verifies the patched application immediately
+          # before NSIS packages it. Tauri restores the raw target executable after
+          # bundling, so only the distributable installer is reverified here.
           $output = 'artifacts/desktop/windows'
           New-Item -ItemType Directory -Force $output | Out-Null
           Copy-Item $installers[0].FullName $output
