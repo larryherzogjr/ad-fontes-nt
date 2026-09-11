@@ -1,6 +1,6 @@
 # Ad Fontes NT 1.0.0-rc.3 cross-platform candidate — 2026-09-10
 
-`1.0.0-rc.3` is the first assembled desktop update candidate containing both supported public-release targets: macOS Sonoma 14+ on Apple Silicon and Windows 11 x64. It is built from source commit `813adc234a9ec21cef7d0a275fb5c765986dfb1f`. This record does not publish the candidate or approve public v1.0.
+`1.0.0-rc.3` is the first assembled desktop update candidate containing both supported public-release targets: macOS Sonoma 14+ on Apple Silicon and Windows 11 x64. It is built from source commit `813adc234a9ec21cef7d0a275fb5c765986dfb1f`. Publication of this release candidate does not approve public v1.0.
 
 ## Shared verification
 
@@ -31,6 +31,14 @@
 - `scripts/desktop_update_manifest.mts` assembled both updater platforms under ignored local staging `artifacts/desktop/updates/1.0.0-rc.3-staging/`. Both staged release files pass SHA-256 verification.
 - Candidate `latest.json` SHA-256: `8d74842e39a0dab2871f80eb09ac6dd90263cd89135d541278df0d1ab6137315`.
 - Candidate `SHA256SUMS` SHA-256: `5a2a92c3772fd95c66ebc678faf15e6456bb7a7b2081c5b8ef6032d20e274786`.
-- The already-served macOS-only `1.0.0-rc.2` directory remains unchanged. No `rc.3` file or mutable update metadata has been uploaded to `ad-fontes.app`.
+- The previously served macOS-only `1.0.0-rc.2` directory remains immutable.
 
-Remaining gates are Windows 11 clean-install/runtime/signature/uninstall acceptance, explicit approval of the exact combined manifest, publication to the updater host, real `rc.2` to `rc.3` Mac updater rehearsal, Windows updater rehearsal from an installed predecessor, and public v1.0 approval.
+## Windows acceptance and publication — 2026-09-11
+
+- Larry confirmed that the exact RC3 package works on Windows 11 and explicitly approved publication of combined manifest SHA-256 `8d74842e39a0dab2871f80eb09ac6dd90263cd89135d541278df0d1ab6137315`.
+- The two locally and remotely verified payloads were published under immutable `releases/1.0.0-rc.3/` paths, and the approved manifest was installed atomically at `stable/latest.json`. The existing web containers were not rebuilt, and `larryherzogjr.com` was not changed.
+- An independent HTTPS fetch returned the exact approved manifest hash and version `1.0.0-rc.3`, with both supported platforms. Full public downloads independently matched macOS SHA-256 `4f2ba847dd74642cd4498b6ea5c1440ef9437ef25dac028d16d473c01e9b52c4` and Windows SHA-256 `cbd6dc296dfcdcc9422878a91c07a26b94961932b7bda3fee89d3896d3676b64`.
+- Mutable metadata returns `Cache-Control: no-store`; the Windows release returns one-year immutable caching and attachment disposition. The app health endpoint and homepage return HTTP 200, an unknown updater object returns HTTP 404, and the prior RC2 archive still matches SHA-256 `44e2b4928622464440e0190b1d4b3db4772278b0224c9963edb00302f203b63d`.
+- The host command reported `Invalid checksum entry` only after publishing because the post-publication validator omitted underscore from its permitted filename characters. The Windows filename legitimately contains `x86_64`. Independent public-byte verification proved the publication complete. The validator now accepts underscore and validates every checksum entry before any publication mutation, preventing the same false failure and improving future preflight safety.
+
+Remaining gates are the real `rc.2` to `rc.3` Mac updater rehearsal, a Windows updater rehearsal from an installed predecessor, and explicit public v1.0 approval. Windows uninstall remains unrecorded unless separately exercised.

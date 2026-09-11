@@ -35,6 +35,12 @@ for platform in platforms.values():
 PY
 }
 validate_manifest "$manifest" "$version"
+validate_checksums() {
+  while read -r expected path; do
+    [[ $expected =~ ^[0-9a-f]{64}$ && $path =~ ^releases/[0-9A-Za-z.+-]+/[0-9A-Za-z._+-]+$ ]] || { echo 'Invalid checksum entry' >&2; exit 1; }
+  done < "$1"
+}
+validate_checksums "$checksums"
 (cd "$staging" && sha256sum --check SHA256SUMS)
 destination=/var/www/ad-fontes-updates
 sudo -v
@@ -49,7 +55,6 @@ sudo mv "$destination/stable/latest.json.next" "$destination/stable/latest.json"
 curl --fail --silent --show-error --max-time 30 https://ad-fontes.app/desktop-updates/stable/latest.json --output "$temporary"
 validate_manifest "$temporary" "$version"
 while read -r expected path; do
-  [[ $expected =~ ^[0-9a-f]{64}$ && $path =~ ^releases/[0-9A-Za-z.+-]+/[0-9A-Za-z.+-]+$ ]] || { echo 'Invalid checksum entry' >&2; exit 1; }
   curl --fail --silent --show-error --max-time 300 "https://ad-fontes.app/desktop-updates/$path" --output "$temporary"
   [[ $(sha256sum "$temporary" | cut -d' ' -f1) == "$expected" ]] || { echo "Public artifact checksum mismatch: $path" >&2; exit 1; }
 done < "$checksums"
