@@ -130,7 +130,25 @@ jobs:
           }
           "AZURE_ARTIFACT_SIGNING_SIGNTOOL=$signTool" | Out-File -FilePath $env:GITHUB_ENV -Append
           "AZURE_ARTIFACT_SIGNING_DLIB=$dlib" | Out-File -FilePath $env:GITHUB_ENV -Append
+          $signingScript = (Resolve-Path 'app/desktop/src-tauri/windows_artifact_sign.ps1').Path
+          $wrapper = Join-Path $env:RUNNER_TEMP 'ad-fontes-artifact-sign.cmd'
+          @"
+          @"C:\Program Files\PowerShell\7\pwsh.exe" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "$signingScript" %*
+          "@ | Set-Content -LiteralPath $wrapper -Encoding ascii
+          $env:RUNNER_TEMP | Out-File -FilePath $env:GITHUB_PATH -Append
           Write-Host 'Pinned Artifact Signing toolchain is ready.'
+      - name: Verify Artifact Signing service
+        timeout-minutes: 5
+        shell: pwsh
+        run: |
+          $preflight = Join-Path $env:RUNNER_TEMP 'ad-fontes-artifact-signing-preflight.exe'
+          Copy-Item "$env:SystemRoot/System32/where.exe" $preflight
+          try {
+            & app/desktop/src-tauri/windows_artifact_sign.ps1 $preflight
+            if ($LASTEXITCODE -ne 0) { throw "Artifact Signing preflight failed with exit code $LASTEXITCODE" }
+          } finally {
+            Remove-Item -LiteralPath $preflight -Force -ErrorAction SilentlyContinue
+          }
       - name: Build signed NSIS installer and updater archive
         run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
       - name: Verify and collect signed release candidate

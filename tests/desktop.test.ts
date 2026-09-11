@@ -41,8 +41,8 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const windowsConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.windows.release.conf.json', 'utf8'));
   const windowsCiConfig = JSON.parse(await readFile('app/desktop/ci-windows-release.json', 'utf8'));
   const signingScript = await readFile('app/desktop/src-tauri/windows_artifact_sign.ps1', 'utf8');
-  assert.match(windowsConfig.bundle.windows.signCommand, /-File windows_artifact_sign\.ps1 %1$/);
-  assert.match(windowsCiConfig.bundle.windows.signCommand, /-File windows_artifact_sign\.ps1 %1$/);
+  assert.equal(windowsConfig.bundle.windows.signCommand, 'ad-fontes-artifact-sign.cmd %1');
+  assert.equal(windowsCiConfig.bundle.windows.signCommand, 'ad-fontes-artifact-sign.cmd %1');
   assert.equal(windowsCiConfig.build.beforeBuildCommand, '');
   assert.match(signingScript, /AZURE_ARTIFACT_SIGNING_ENDPOINT/);
   assert.match(signingScript, /AzureCliCredential/);
@@ -57,6 +57,8 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   assert.doesNotMatch(windowsReleaseWorkflow, /AZURE_CLIENT_SECRET/);
   assert.match(windowsReleaseWorkflow, /8bfdfb6ca2633f531cf80b5fa22512ba61a394d7988f0970db83baadc67929ed/);
   assert.match(windowsReleaseWorkflow, /74bd7d27e6ce1051409c38d9b46bc8df0400ecd643d51ffbf2ac00869061e40b/);
+  assert.match(windowsReleaseWorkflow, /Verify Artifact Signing service/);
+  assert.match(windowsReleaseWorkflow, /ad-fontes-artifact-sign\.cmd/);
   assert.doesNotMatch(windowsReleaseWorkflow, /msiexec/i);
   const macConfig = JSON.parse(await readFile('app/desktop/src-tauri/tauri.macos.release.conf.json', 'utf8'));
   const macRelease = await readFile('deployment/build-macos-release.sh', 'utf8');

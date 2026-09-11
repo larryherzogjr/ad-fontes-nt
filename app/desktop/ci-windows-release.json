@@ -2,7 +2,7 @@
   "build": { "beforeBuildCommand": "" },
   "bundle": {
     "windows": {
-      "signCommand": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File windows_artifact_sign.ps1 %1"
+      "signCommand": "ad-fontes-artifact-sign.cmd %1"
     }
   }
 }
