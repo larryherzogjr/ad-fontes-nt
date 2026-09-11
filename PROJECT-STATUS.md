@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-10 — Cross-platform 1.0.0-rc.3 desktop candidate (AFNT-107)
+
+- Built the first combined desktop update candidate for macOS Apple Silicon and Windows x64 from exact source `813adc234a9ec21cef7d0a275fb5c765986dfb1f`. Full shared verification passed at `1.0.0-rc.3`: 53 Node tests, 19 Python tests, TypeScript, both production builds, all 13,371 offline files and five desktop tests. The approved `om-studies-2026-09-10-v5` selection and its 250 articles are unchanged.
+- The Mac app and DMG are Developer ID signed, Apple notarized, stapled and verified. Gatekeeper reports `Notarized Developer ID`; DMG SHA-256 is `7e0a75293e9f8fc69f4ed44dab51abb78caf92856ad9ae7fb89e94310e9bc61e`, and updater archive SHA-256 is `4f2ba847dd74642cd4498b6ea5c1440ef9437ef25dac028d16d473c01e9b52c4`. Windows run `34564441422` passed every stage; its signed installer identifies Larry Herzog Jr., has a verified timestamp and zero SignTool warnings/errors, and matches SHA-256 `cbd6dc296dfcdcc9422878a91c07a26b94961932b7bda3fee89d3896d3676b64` after download.
+- Assembled both signed updater payloads into ignored immutable local staging. Candidate `latest.json` SHA-256 is `8d74842e39a0dab2871f80eb09ac6dd90263cd89135d541278df0d1ab6137315`; both staged payload hashes verify. Nothing from `rc.3` has been published, and the served macOS-only `rc.2` directory is unchanged. Windows physical acceptance, exact combined-manifest approval, updater rehearsals and public v1.0 approval remain open. See [V1 RC3 cross-platform candidate](docs/V1-RC3-Cross-Platform-2026-09-10.md).
+
 ## 2026-09-10 — Approved Greek article word-count correction release (AFNT-104 / AFNT-107)
 
 - Larry identified that `Anthropos` calls *Ecce homo* three Latin words when it has two and authorized a narrow audit before public v1.0. The audit of explicit count/language statements across all 250 app articles found definite issues in six: Anthropos, Anomia, Logos, Pistos ho logos, Pater and Kyrios. Ten exact replacements distinguish Latin, Greek and English counts without changing Scripture, corpus data or substantive conclusions.
