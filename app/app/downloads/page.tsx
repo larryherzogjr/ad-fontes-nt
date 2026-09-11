@@ -1,9 +1,31 @@
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
+const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
+
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes NT',
   description: 'Download the Ad Fontes NT desktop release candidate for macOS Apple Silicon or Windows 11 x64.',
+  openGraph: {
+    type: 'website',
+    url: 'https://ad-fontes.app/downloads',
+    siteName: 'Ad Fontes NT',
+    title: 'Desktop Downloads · Ad Fontes NT',
+    description: 'Download Ad Fontes NT for macOS Apple Silicon or Windows 11 x64.',
+    images: [{
+      url: socialImageUrl,
+      width: 1730,
+      height: 909,
+      type: 'image/png',
+      alt: 'Ad Fontes NT Desktop Downloads for macOS Apple Silicon and Windows 11 x64, with an open book on deep navy.',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Desktop Downloads · Ad Fontes NT',
+    description: 'Download Ad Fontes NT for macOS Apple Silicon or Windows 11 x64.',
+    images: [socialImageUrl],
+  },
 };
 
 const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.3/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.3.dmg';

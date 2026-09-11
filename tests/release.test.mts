@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { promisify } from 'node:util';
@@ -64,4 +64,8 @@ test('public desktop download page exposes only the approved RC3 installers', as
   assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.3\.exe/);
   assert.match(page, /private account-backed notes\s+remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
+  assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
+  assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20260911/);
+  assert.match(page, /summary_large_image/);
+  await stat('app/public/og-downloads.png');
 });
