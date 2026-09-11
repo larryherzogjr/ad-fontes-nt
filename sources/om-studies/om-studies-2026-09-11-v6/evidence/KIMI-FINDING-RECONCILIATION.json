@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "kimiAuditFindingsSha256": "80615f3d0cde02a8b4488af78d6d84ae6de9c84f620baf0340010f9877baafd6",
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-002",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-003",
+      "corpus": "om-article",
+      "recordId": "zoe",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-004",
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-005",
+      "corpus": "om-article",
+      "recordId": "charis",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-006",
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-007",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-008",
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-009",
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-010",
+      "corpus": "om-article",
+      "recordId": "pater",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-011",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-012",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-013",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-014",
+      "corpus": "om-article",
+      "recordId": "amen",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-015",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-016",
+      "corpus": "om-article",
+      "recordId": "anastasis",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-017",
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-018",
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-019",
+      "corpus": "om-article",
+      "recordId": "antilytron",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-020",
+      "corpus": "om-article",
+      "recordId": "authenteo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-021",
+      "corpus": "om-article",
+      "recordId": "charisma",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-022",
+      "corpus": "om-article",
+      "recordId": "epiphaneia",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-023",
+      "corpus": "om-article",
+      "recordId": "eusebeia",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-024",
+      "corpus": "om-article",
+      "recordId": "hygiaino",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-025",
+      "corpus": "om-article",
+      "recordId": "loutron",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-026",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-027",
+      "corpus": "om-article",
+      "recordId": "mythos",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-028",
+      "corpus": "om-article",
+      "recordId": "orthotomeo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-029",
+      "corpus": "om-article",
+      "recordId": "paratheke",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-030",
+      "corpus": "om-article",
+      "recordId": "soter",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-031",
+      "corpus": "om-article",
+      "recordId": "theopneustos",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-032",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-033",
+      "corpus": "om-article",
+      "recordId": "haima",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-034",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-035",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-036",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-037",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-038",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-039",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-040",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-08",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "already-covered-by-candidate-v1",
+      "note": "Kimi independently confirmed a correction already present in candidate v1."
+    },
+    {
+      "id": "AUDIT-041",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate-v2",
+      "note": "A supportable exact correction is included in candidate v2; author/reviewer approval remains required."
+    }
+  ],
+  "orthotomeoSectionOrderObservation": "Kimi also observed that orthotomeo reverses two major sections relative to the other 249 articles. Candidate v2 preserves the authorial order pending an explicit editorial decision."
+}

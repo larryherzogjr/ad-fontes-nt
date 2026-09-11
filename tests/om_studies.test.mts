@@ -11,9 +11,9 @@ const source = `sources/om-studies/${release.releaseId}`;
 const output = `app/public/om/${release.releaseId}`;
 const manifest = await json(`${source}/manifest.json`);
 
-test('selected release is the approved app-only BSB adaptation with count corrections', async () => {
-  assert.equal(release.releaseId, 'om-studies-2026-09-10-v5');
-  assert.equal(manifest.predecessor, 'om-studies-2026-09-09-v4');
+test('selected release is the approved full-corpus audit correction', async () => {
+  assert.equal(release.releaseId, 'om-studies-2026-09-11-v6');
+  assert.equal(manifest.predecessor, 'om-studies-2026-09-10-v5');
   assert.equal(manifest.adaptation.edition, 'BSB');
   assert.equal(manifest.adaptation.candidateManifestSha256, 'dad1b34f996eb44bc30e9641083f39b8945992f768a2b96b511f0a695647eb2d');
   assert.equal(manifest.adaptation.validatorReportSha256, 'ebf8611fdbf23710ebb61216357e92e9cc5964f6f74bd5c692717ed0df40abbd');
@@ -22,15 +22,17 @@ test('selected release is the approved app-only BSB adaptation with count correc
   assert.equal(manifest.adaptation.fallbackCount, 243);
   assert.equal(manifest.adaptation.overlapResolution.containedEvidenceSuppressed, 32);
   assert.equal(manifest.adaptation.overlapResolution.partialOverlaps, 0);
-  assert.equal(manifest.editorialCorrection.candidateManifestSha256, 'bf5683ff39806cde1eb729d165473591bc744bbdca213ab200a2eccc8c27e612');
-  assert.equal(manifest.editorialCorrection.replacementCount, 10);
-  assert.equal(manifest.editorialCorrection.unchangedArticleCount, 244);
-  assert.deepEqual(manifest.editorialCorrection.changedArticles, ['anomia', 'anthropos', 'kyrios', 'logos', 'pater', 'pistos-ho-logos']);
-  assert.equal(manifest.editorialCorrection.scriptureChanged, false);
-  assert.equal(manifest.editorialCorrection.authorWebsiteChanged, false);
+  assert.equal(manifest.priorEditorialCorrection.candidateManifestSha256, 'bf5683ff39806cde1eb729d165473591bc744bbdca213ab200a2eccc8c27e612');
+  assert.equal(manifest.editorialAuditCorrection.candidateManifestSha256, '634d06bd89eb99826c5f70ea726a6d7aaca1673558e6f790bfb6312ef8c4d213');
+  assert.equal(manifest.editorialAuditCorrection.replacementCount, 124);
+  assert.equal(manifest.editorialAuditCorrection.unchangedArticleCount, 183);
+  assert.equal(manifest.editorialAuditCorrection.changedArticles.length, 67);
+  assert.deepEqual(manifest.editorialAuditCorrection.unresolvedFindingIds, ['AUDIT-062','AUDIT-063','AUDIT-064','AUDIT-065','AUDIT-086']);
+  assert.equal(manifest.editorialAuditCorrection.scriptureChanged, false);
+  assert.equal(manifest.editorialAuditCorrection.authorWebsiteChanged, false);
   const approval = await readFile(join(source, manifest.approvalEvidence), 'utf8');
-  assert.match(approval, /Approved by: \*\*Larry Herzog Jr\.\*\*/);
-  assert.match(approval, /bf5683ff39806cde1eb729d165473591bc744bbdca213ab200a2eccc8c27e612/);
+  assert.match(approval, /Reviewer: Larry Herzog Jr\./);
+  assert.match(approval, /634d06bd89eb99826c5f70ea726a6d7aaca1673558e6f790bfb6312ef8c4d213/);
 });
 
 test('approved count and language corrections are present', async () => {
@@ -63,7 +65,7 @@ test('all 250 approved articles reproduce exactly and cover every existing Greek
     assert.doesNotMatch(raw, /\bNET\b/);
     assert.equal(article.markdown, /^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/.exec(raw)![1]);
   }
-  const lookup = await json('app/public/lexical/dodson-2010-v3/lookup.json');
+  const lookup = await json('app/public/lexical/dodson-2010-v4/lookup.json');
   const urls = new Set(index.articles.map((a: {url: string}) => a.url));
   for (const links of Object.values(lookup.links) as {url: string}[][]) {
     for (const link of links) assert.ok(urls.has(link.url), `Unbundled existing word link: ${link.url}`);

@@ -1,0 +1,1000 @@
+{
+  "schemaVersion": 1,
+  "externalAuditFindingsSha256": "8fda322174a556525cb8afc211751e6e7b32b1064f0fc775b7f214bd1bbfbff6",
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "confirmed-error",
+      "severity": "S1",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-002",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "confirmed-error",
+      "severity": "S1",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-003",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-004",
+      "corpus": "om-article",
+      "recordId": "arche",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-005",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-006",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-007",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-008",
+      "corpus": "om-article",
+      "recordId": "zoe",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-009",
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-010",
+      "corpus": "om-article",
+      "recordId": "charis",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-011",
+      "corpus": "om-article",
+      "recordId": "homologeo",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-012",
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-013",
+      "corpus": "om-article",
+      "recordId": "pleroma",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-014",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-015",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-016",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-017",
+      "corpus": "om-article",
+      "recordId": "pistis",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-018",
+      "corpus": "om-article",
+      "recordId": "basileia",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-019",
+      "corpus": "om-article",
+      "recordId": "charakter",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-020",
+      "corpus": "om-article",
+      "recordId": "hiereus",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-021",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-022",
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-023",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-024",
+      "corpus": "om-article",
+      "recordId": "aphesis",
+      "classification": "probable-error",
+      "severity": "S2",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-025",
+      "corpus": "om-article",
+      "recordId": "nomos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-026",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-027",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-028",
+      "corpus": "om-article",
+      "recordId": "apostolos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-029",
+      "corpus": "om-article",
+      "recordId": "arche",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-030",
+      "corpus": "om-article",
+      "recordId": "anomia",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-031",
+      "corpus": "om-article",
+      "recordId": "dikaiosyne",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-032",
+      "corpus": "om-article",
+      "recordId": "elpis",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-033",
+      "corpus": "om-article",
+      "recordId": "ethnos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-034",
+      "corpus": "om-article",
+      "recordId": "karpos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-035",
+      "corpus": "om-article",
+      "recordId": "kenoo",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-036",
+      "corpus": "om-article",
+      "recordId": "kleronomia",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-037",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-038",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-039",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-040",
+      "corpus": "om-article",
+      "recordId": "krisis",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-041",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-042",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-043",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-044",
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-045",
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-046",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-047",
+      "corpus": "om-article",
+      "recordId": "thanatos",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-048",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-049",
+      "corpus": "om-article",
+      "recordId": "eleutheria",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-050",
+      "corpus": "om-article",
+      "recordId": "apolytrosis",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-051",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-052",
+      "corpus": "om-article",
+      "recordId": "pater",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-053",
+      "corpus": "om-article",
+      "recordId": "rhema",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-054",
+      "corpus": "om-article",
+      "recordId": "homologeo",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-055",
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-056",
+      "corpus": "om-article",
+      "recordId": "hypakoe",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-057",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-058",
+      "corpus": "om-article",
+      "recordId": "eklektos",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-059",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-060",
+      "corpus": "om-article",
+      "recordId": "aphesis",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-061",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-062",
+      "corpus": "om-article",
+      "recordId": "hades",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "human-review-required",
+      "note": "Internal-link destination requires a product/editorial decision."
+    },
+    {
+      "id": "AUDIT-063",
+      "corpus": "om-article",
+      "recordId": "epiphaneia",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "human-review-required",
+      "note": "The referenced study is not identified in the supplied evidence."
+    },
+    {
+      "id": "AUDIT-064",
+      "corpus": "om-article",
+      "recordId": "eusebeia",
+      "classification": "needs-human-review",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "human-review-required",
+      "note": "The historical characterization needs textual-review approval."
+    },
+    {
+      "id": "AUDIT-065",
+      "corpus": "om-article",
+      "recordId": "hyper",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "human-review-required",
+      "note": "The intended three-syllable referent is authorial and cannot be inferred safely."
+    },
+    {
+      "id": "AUDIT-066",
+      "corpus": "om-article",
+      "recordId": "diakonos",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-067",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-068",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-069",
+      "corpus": "om-article",
+      "recordId": "haima",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-070",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-071",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-072",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-073",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-16",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-074",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-075",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-21",
+      "classification": "probable-error",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-076",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-26",
+      "classification": "needs-human-review",
+      "severity": "S3",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-077",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-11",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-078",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-079",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-02",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-080",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-08",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-081",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-01",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-082",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-03",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-083",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-24",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-084",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-05",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-085",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-18",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": false,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-086",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-18",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "human-review-required",
+      "note": "The Erasmus/Textus Receptus history claim needs a directly adequate source or narrower wording."
+    },
+    {
+      "id": "AUDIT-087",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-29",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    },
+    {
+      "id": "AUDIT-088",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-19",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "externalRequiresHumanReview": true,
+      "disposition": "included-in-candidate",
+      "note": "An exact correction is included in the non-public candidate; author/reviewer approval remains required."
+    }
+  ],
+  "localFindings": [
+    {
+      "id": "LOCAL-008",
+      "slug": "anastasis",
+      "old": "John 11:24 (Martha: “Martha replied, ‘I know that he will rise again in the resurrection at the last day’”)",
+      "new": "John 11:24 (Martha: “I know that he will rise again in the resurrection at the last day”)",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-001",
+      "slug": "basileia",
+      "old": "has already been “He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son,”",
+      "new": "has already been “brought into the kingdom of His beloved Son”",
+      "reason": "Restore the grammatical phrase slot for Colossians 1:13.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-009",
+      "slug": "chara",
+      "old": "Luke 1:28 (Gabriel to Mary: “The angel appeared to her and said, ‘Greetings, you who are highly favored! The Lord is with you’”)",
+      "new": "Luke 1:28 (Gabriel to Mary: “Greetings, you who are highly favored! The Lord is with you”)",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-002",
+      "slug": "eirene",
+      "old": "Solomon “For Solomon had dominion over everything west of the Euphrates—over all the kingdoms from Tiphsah to Gaza—and he had peace on all sides.”",
+      "new": "Solomon “had peace on all sides.”",
+      "reason": "Restore the short phrase slot for 1 Kings 4:24.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-003",
+      "slug": "ergon",
+      "old": "Adam was placed in the garden “Then the LORD God took the man and placed him in the Garden of Eden to cultivate and keep it.”",
+      "new": "Adam was placed in the garden “to cultivate and keep it”",
+      "reason": "Remove a duplicated subject introduced by a whole-verse fallback.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-004",
+      "slug": "hiereus",
+      "old": "Paul describing his ministry as “to be a minister of Christ Jesus to the Gentiles in the priestly service of the gospel of God, so that the Gentiles might become an offering acceptable to God, sanctified by the Holy Spirit” in the gospel of God",
+      "new": "Paul describing his ministry as “the priestly service of the gospel of God”",
+      "reason": "Restore the phrase slot for Romans 15:16.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-013",
+      "slug": "hyios",
+      "old": "Jesus's response (Matthew 16:17): “Jesus replied, ‘Blessed are you, Simon son of Jonah! For this was not revealed to you by flesh and blood, but by My Father in heaven.’”",
+      "new": "Jesus's response (Matthew 16:17): “Blessed are you, Simon son of Jonah! For this was not revealed to you by flesh and blood, but by My Father in heaven.”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-005",
+      "slug": "leitourgia",
+      "old": "*hē diakonia tēs leitourgias tautēs* — “For this ministry of service is not only supplying the needs of the saints but is also overflowing in many expressions of thanksgiving to God.” — combines",
+      "new": "*hē diakonia tēs leitourgias tautēs* — “this ministry of service” — combines",
+      "reason": "Restore the phrase gloss for 2 Corinthians 9:12.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-010",
+      "slug": "mathetes",
+      "old": "Thomas saying to his fellow disciples (*symmathētais*), “Then Thomas called Didymus said to his fellow disciples, ‘Let us also go, so that we may die with Him’”",
+      "new": "Thomas saying to his fellow disciples (*symmathētais*), “Let us also go, so that we may die with Him”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-011",
+      "slug": "mathetes",
+      "old": "the Pharisees say of the formerly blind man, “Then they heaped insults on him and said, ‘You are His disciple; we are disciples of Moses’”",
+      "new": "the Pharisees say of the formerly blind man, “You are His disciple; we are disciples of Moses”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-006",
+      "slug": "paradosis",
+      "old": "Jesus “He was delivered over to death for our trespasses and was raised to life for our justification.”",
+      "new": "Jesus “was delivered over to death for our trespasses”",
+      "reason": "Restore the phrase slot for Romans 4:25.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-012",
+      "slug": "paradosis",
+      "old": "He quotes Isaiah 29:13: “Jesus answered them, ‘Isaiah prophesied correctly about you hypocrites, as it is written: ‘These people honor Me with their lips, but their hearts are far from Me. They worship Me in vain; they teach as doctrine the precepts of men.’’”",
+      "new": "He quotes Isaiah 29:13: “These people honor Me with their lips, but their hearts are far from Me. They worship Me in vain; they teach as doctrine the precepts of men.”",
+      "reason": "Remove an unnecessary narrative wrapper and broken nested quotation.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-007",
+      "slug": "sarx",
+      "old": "“For I could wish that I myself were cursed and cut off from Christ for the sake of my brothers, my own flesh and blood,”",
+      "new": "“my own flesh and blood”",
+      "reason": "Restore the phrase slot for Romans 9:3.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-014",
+      "slug": "theos",
+      "old": "the people of Lystra cry out that “When the crowds saw what Paul had done, they lifted up their voices in the Lycaonian language: ‘The gods have come down to us in human form’”",
+      "new": "the people of Lystra cry out that “The gods have come down to us in human form”",
+      "reason": "Restore the phrase slot for Acts 14:11.",
+      "origin": "local-reconciliation"
+    }
+  ]
+}

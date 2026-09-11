@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "candidateManifestSha256": "634d06bd89eb99826c5f70ea726a6d7aaca1673558e6f790bfb6312ef8c4d213",
+  "externalFindingCount": 88,
+  "includedExternalFindingCount": 83,
+  "unresolvedExternalFindingCount": 5,
+  "kimiFindingCount": 41,
+  "kimiNewCandidateFindingCount": 28,
+  "kimiAlreadyCoveredFindingCount": 13,
+  "localFindingCount": 14,
+  "immutablePredecessorVerified": true,
+  "sourceFilesModified": false
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ad Fontes NT external editorial audit findings",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "auditId",
+    "packetManifestSha256",
+    "findings"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "auditId": { "type": "string", "minLength": 1 },
+    "packetManifestSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "corpus",
+          "recordId",
+          "file",
+          "exactExcerpt",
+          "category",
+          "classification",
+          "severity",
+          "confidence",
+          "problem",
+          "localEvidence",
+          "suggestedMinimalCorrection",
+          "requiresHumanReview"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^AUDIT-[0-9]{3,}$" },
+          "corpus": { "enum": ["om-article", "comparison-commentary"] },
+          "recordId": { "type": "string", "minLength": 1 },
+          "file": { "type": "string", "minLength": 1 },
+          "section": { "type": ["string", "null"] },
+          "exactExcerpt": { "type": "string", "minLength": 1 },
+          "category": {
+            "enum": [
+              "word-or-element-count",
+              "language-identification",
+              "scripture-reference-or-quotation",
+              "translation-or-edition-identity",
+              "headword-or-transliteration",
+              "grammar-or-morphology",
+              "internal-consistency",
+              "cross-record-consistency",
+              "comparison-integrity",
+              "presentation-affecting-meaning"
+            ]
+          },
+          "classification": {
+            "enum": [
+              "confirmed-error",
+              "probable-error",
+              "needs-human-review",
+              "editorial-consistency",
+              "presentation-defect"
+            ]
+          },
+          "severity": { "enum": ["S1", "S2", "S3", "S4"] },
+          "confidence": { "enum": ["high", "medium", "low"] },
+          "problem": { "type": "string", "minLength": 1 },
+          "localEvidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["file", "locator", "observation"],
+              "properties": {
+                "file": { "type": "string" },
+                "locator": { "type": "string" },
+                "observation": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "observedTokens": {
+            "type": ["array", "null"],
+            "items": { "type": "string" }
+          },
+          "statedCount": { "type": ["integer", "null"] },
+          "observedCount": { "type": ["integer", "null"] },
+          "suggestedMinimalCorrection": { "type": ["string", "null"] },
+          "requiresHumanReview": { "type": "boolean" },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

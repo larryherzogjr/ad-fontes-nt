@@ -14,7 +14,7 @@ const allowed = [
   ...editions.map((edition: { releaseId: string }) => `corpus/${edition.releaseId}`),
   `analysis/${analysis.releaseId}`,
   'editorial/variants.json',
-  'lexical/dodson-2010-v3',
+  'lexical/dodson-2010-v4',
   `om/${om.releaseId}`,
 ];
 // Keep predecessor releases reproducible in the web project, but bundle only active ones.
@@ -35,7 +35,7 @@ await writeFile(join(destination, 'desktop-content.json'), JSON.stringify({
   schemaVersion: 1,
   editions: editions.map(({ editionId, releaseId }: { editionId: string; releaseId: string }) => ({ editionId, releaseId })),
   analysis: analysis.releaseId,
-  lexical: 'dodson-2010-v3',
+  lexical: 'dodson-2010-v4',
   files,
 }, null, 2) + '\n');
 console.log(`Staged ${Object.keys(files).length} released files for offline desktop use.`);

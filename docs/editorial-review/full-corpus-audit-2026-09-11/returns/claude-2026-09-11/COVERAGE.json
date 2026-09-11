@@ -1,0 +1,2961 @@
+{
+  "schemaVersion": 1,
+  "packetId": "afnt-full-corpus-audit-2026-09-11-v1",
+  "records": [
+    {
+      "corpus": "om-article",
+      "recordId": "abba",
+      "file": "corpora/om-articles/abba.md",
+      "sha256": "f06356d0f554fffd19c532a4086a2b6e853a81065b553e04c967d71770ecadb6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "agape",
+      "file": "corpora/om-articles/agape.md",
+      "sha256": "3f261cedda43cf67e30936cd463bc69cc1fb56cbe897032f09d97b7f092e5bfe",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "sha256": "07e5c9a9a32f0b21ab5373e76bf3028a690358f33aaf87948b17b3259be1bf6d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-027",
+        "AUDIT-067"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aionios",
+      "file": "corpora/om-articles/aionios.md",
+      "sha256": "fc729ecd2510db6f3992e4788dff66aceee8b622a8d639ac27dfa9bebd9a873a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "akoe",
+      "file": "corpora/om-articles/akoe.md",
+      "sha256": "b5be8210f4172de1ad620f9d3ef5d147805230fd1a9c2cd8e5e2502b05fac987",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aletheia",
+      "file": "corpora/om-articles/aletheia.md",
+      "sha256": "6898612fc4816ef3cb4c0f9136681637a5330e409719a186c7327bf003d42068",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "amen",
+      "file": "corpora/om-articles/amen.md",
+      "sha256": "5f99d6db8a24c83f57d2aab71a58c33ff5b62abbcef1a37f360c2bdebe62ffe8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "amnos",
+      "file": "corpora/om-articles/amnos.md",
+      "sha256": "11848f7754903a48eb3710aa50322e5184b6fdff3950c256b619c78b90ef1c13",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anagennao",
+      "file": "corpora/om-articles/anagennao.md",
+      "sha256": "e5d73e9a505953cf94e0ec0b4e5fbfcbce76d16412a52fe3fbf3bed588cf0381",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "analambano",
+      "file": "corpora/om-articles/analambano.md",
+      "sha256": "daa95c82c2792d6c3aff56b65d02723c8076325361910998c617bf9a2f7401cc",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anamnesis",
+      "file": "corpora/om-articles/anamnesis.md",
+      "sha256": "ecb5a41dd109c53cf1e9756ab61e1266baef673211155ab29e8cfbb4000b80b4",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anastasis",
+      "file": "corpora/om-articles/anastasis.md",
+      "sha256": "e9b7a093fa0a4ad448bea3276b95d310b0f35ac0f68d73e8dddaf84b4bf68b21",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anastrophe",
+      "file": "corpora/om-articles/anastrophe.md",
+      "sha256": "00102997ff39f4f3aaa2fb6ab33171259cca9c31235e63b4c7d3ecfe29905b5b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anaxios",
+      "file": "corpora/om-articles/anaxios.md",
+      "sha256": "12d4266a29c3c875642e35a4088a8b0b82062acd142ed25e446a2b45558ed71d",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anomia",
+      "file": "corpora/om-articles/anomia.md",
+      "sha256": "4f42dfb5982fd6e56ec01284819df1a1f04150e1e83177efef552fde26841022",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-030"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anothen",
+      "file": "corpora/om-articles/anothen.md",
+      "sha256": "7ce2e46e7bfe3ca5fe3c55d1ab06a09e24015720aeef0b3d08621adeae6dbc69",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "anthropos",
+      "file": "corpora/om-articles/anthropos.md",
+      "sha256": "44b82d1570f7dac017aadbfae0027def70c8850477107c57c9bd9396852be584",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "antilytron",
+      "file": "corpora/om-articles/antilytron.md",
+      "sha256": "39f15df2b9f0acd39d25eb30e5d89a0de4df9f2b37b9df7d5c7a6eddd31ebe30",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "antitypos",
+      "file": "corpora/om-articles/antitypos.md",
+      "sha256": "dca20892222300b21a1524f8966d8bab6e271922a7c2e0437048fd5f1e81ef09",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aoratos",
+      "file": "corpora/om-articles/aoratos.md",
+      "sha256": "655662b6903b588047e4455d7d03dbac3e21308807a69a4d72c42fc4ee9a1791",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aparche",
+      "file": "corpora/om-articles/aparche.md",
+      "sha256": "451fa4ef22cb277fd275b3f61b6ec6551abecaadb50af0f0b989422427ea8ad3",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apaugasma",
+      "file": "corpora/om-articles/apaugasma.md",
+      "sha256": "bbfc5b17ac56caa0910d6928a3851eeb9b402ce96f73ed071652369baac7b42b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aphesis",
+      "file": "corpora/om-articles/aphesis.md",
+      "sha256": "56eec355fa8b5ebab6dee826e97de01d77a53e6f0e89dc0236bde5dd41761fad",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-024",
+        "AUDIT-060"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aphiemi",
+      "file": "corpora/om-articles/aphiemi.md",
+      "sha256": "9e3f0d825a67e92caf9e20154b12d33832f8a881f2e7dd5a04748faf6d3a43fb",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "aphthartos",
+      "file": "corpora/om-articles/aphthartos.md",
+      "sha256": "ba2cd2344759beb3563c9e31f16bce520614c1810e7c338e11378b03bdd5d4d8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apokalypsis",
+      "file": "corpora/om-articles/apokalypsis.md",
+      "sha256": "24cfb265f85a5668f9a86fa048100a8589378c5e21fbb990e15ca996fe42a12b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apokatastasis",
+      "file": "corpora/om-articles/apokatastasis.md",
+      "sha256": "82d2566aabaccb28248fbec44c9f7b1d781be513d4f4db344b4b361433b719fc",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apoleia",
+      "file": "corpora/om-articles/apoleia.md",
+      "sha256": "592594ff2d9226f2a381d0188600e6fdecda9daa8d4003d88ac44bdf128af72a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apolytrosis",
+      "file": "corpora/om-articles/apolytrosis.md",
+      "sha256": "660884330d4eb07ffb032c911b56826c2e9ad9a222da23b3281fbfa0b2183690",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-050"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apostello",
+      "file": "corpora/om-articles/apostello.md",
+      "sha256": "66470015addca510044b93b718f9466e0098d17d43831dd6158ca553546f4c64",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "apostolos",
+      "file": "corpora/om-articles/apostolos.md",
+      "sha256": "d4ea92e05f20e51db7974418c142a18dbdfeff9a5faee35f2d5c2911d2147cce",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-028"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "arche",
+      "file": "corpora/om-articles/arche.md",
+      "sha256": "a78bcb34d93688f2aaee6f033660f93edae6f6ab8eeb070502395948f5550d8d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-004",
+        "AUDIT-029"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "archegos",
+      "file": "corpora/om-articles/archegos.md",
+      "sha256": "3d0173ed73627ec31e725563e3da45fed0a48750b3825d01c92f055abbbff3e7",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "archiereus",
+      "file": "corpora/om-articles/archiereus.md",
+      "sha256": "916ff6ee7765db338b0144a06701dd56f9e74c4da09f0c1c72392900cb91cf0b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "arrabon",
+      "file": "corpora/om-articles/arrabon.md",
+      "sha256": "00420f61d97809ab26e7ca13e9ef1e238dcbdf63b91e3bf5759e263eb03c0c32",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "artos",
+      "file": "corpora/om-articles/artos.md",
+      "sha256": "b1801c9c040845aef4ae994dfb061ae90e440b74f716f93e6cb995c9cf701024",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "astheneia",
+      "file": "corpora/om-articles/astheneia.md",
+      "sha256": "4ce6aba29541858ae1c7aea082f3c4043c862e2c69bf49ce6c2053050da412e9",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "authenteo",
+      "file": "corpora/om-articles/authenteo.md",
+      "sha256": "a0874eb48dd5b91c25a44f3a47fa605af1f7275e80050556cfdfdd1eb4852288",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "baptisma",
+      "file": "corpora/om-articles/baptisma.md",
+      "sha256": "94e143bac0329fa54cbfdecc451dcad4a9dc83cd173ded9174984c3fa94dfb48",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "baptizo",
+      "file": "corpora/om-articles/baptizo.md",
+      "sha256": "3f7d826de4bd20939ce7133132ebe2ca6f48756e43c5da0ea7191cb45941f660",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "basileia",
+      "file": "corpora/om-articles/basileia.md",
+      "sha256": "d251b1e21a93fa69fd49ee0db80d6f517fedc07d70287350fe91a84e1689a1a3",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-018"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "bema",
+      "file": "corpora/om-articles/bema.md",
+      "sha256": "59b7da0fdc439d53bf6cba8d5d3591471d9a0d62448006b1ff16fda6d074445d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-051",
+        "AUDIT-070"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "chara",
+      "file": "corpora/om-articles/chara.md",
+      "sha256": "45674ca77c3ed2dd3784d44c7412ec8b85c036dffa7032672c9af65ff44b27bc",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "charakter",
+      "file": "corpora/om-articles/charakter.md",
+      "sha256": "4ad389d4a0c3149ea2392598741e1d782dfccc4e4e660db3ec930d718150fe97",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-019"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "charis",
+      "file": "corpora/om-articles/charis.md",
+      "sha256": "11c8e8a94937cb53dbc0cc49ad44f16b40a76483a862f67deb22ea6d887e3ca0",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-010"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "charisma",
+      "file": "corpora/om-articles/charisma.md",
+      "sha256": "acfebd6458e78713b4432863e3e0c678a844370f5c75f166b25a4e6fd24db243",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "charitoo",
+      "file": "corpora/om-articles/charitoo.md",
+      "sha256": "cf54b1a63bc6f10bb7f8e1c89990c221232784bf6fd467ddd031e89255ae34bb",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "charizomai",
+      "file": "corpora/om-articles/charizomai.md",
+      "sha256": "3e618d7d13818db12e3f32a95bd266968e54231d37359410f2a2c1356fd0d6b8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "christos",
+      "file": "corpora/om-articles/christos.md",
+      "sha256": "72cb0490c203ef216489242f46f34174dd10e0b589132358b273caf7d785c16a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "deesis",
+      "file": "corpora/om-articles/deesis.md",
+      "sha256": "8677749f4173fc213e54488ce81b75068f545dcbf35856a71ec08a7209d283b7",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "deipnon",
+      "file": "corpora/om-articles/deipnon.md",
+      "sha256": "c3c6b19f20ad7baf2f16ade4a24fba698af0172d31910140f3e7b9ce13766d32",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "deo",
+      "file": "corpora/om-articles/deo.md",
+      "sha256": "8316786e9a76c0cdb6b7e6c01f9896b090bde66c5e68c2f5a511dc1a62d59244",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "diakonia",
+      "file": "corpora/om-articles/diakonia.md",
+      "sha256": "178001919ee51f6dae66fefe04711d4b62c923a922194732284b66ddeb866b79",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "diakonos",
+      "file": "corpora/om-articles/diakonos.md",
+      "sha256": "b6a21d2d452a3808a72e3d29dac505c4a0c6d95ab5550c3074b639c0c9c5afc8",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-066"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "diakrino",
+      "file": "corpora/om-articles/diakrino.md",
+      "sha256": "a9b32dd001933fe5cf8bbfb0d2cbe44d0fd73bddf1665dfa2c0db096abb14386",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "diatheke",
+      "file": "corpora/om-articles/diatheke.md",
+      "sha256": "e2172d61085baec8ac6b8a1b0c335ecfda2ed75fbc3a3c71c29768c4c74e4a90",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "didache",
+      "file": "corpora/om-articles/didache.md",
+      "sha256": "a84fd460c97bdab2a07d5fb8a89ccabbae47d51a0a97a5f3016099bf63e6626c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "file": "corpora/om-articles/didaskalia.md",
+      "sha256": "3e630f44f2966e0eaeb991a6d69d9ff323873ff0a5466347822fa94ec7f6ba43",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-048",
+        "AUDIT-059"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "didomi",
+      "file": "corpora/om-articles/didomi.md",
+      "sha256": "917a8f3014a2c72863b18d72e1fb06c5ddefe31aaa148ae1b4377601f0301847",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "dikaioo",
+      "file": "corpora/om-articles/dikaioo.md",
+      "sha256": "7f4b52193c0813faf433f569c5e77aa6715d3b02926725046ce713918a2f0e11",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "dikaiosyne",
+      "file": "corpora/om-articles/dikaiosyne.md",
+      "sha256": "cf1e94669f53f00eca1a28f998ab7d135b28e9a9a36f8b801810b4584f6d1410",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-031"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "dokimazo",
+      "file": "corpora/om-articles/dokimazo.md",
+      "sha256": "1d661d004ac62d6e768149e40091568abd2222233c9d91acd0c42afe6dcb5b2e",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "dorean",
+      "file": "corpora/om-articles/dorean.md",
+      "sha256": "4c69298da0e1141c2aee6f6289fc31324121b37230abb331401a33e2b2f81a06",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "doulos",
+      "file": "corpora/om-articles/doulos.md",
+      "sha256": "7a3f98df4f6019c37ae064c1679c0e6a9c86e21d402d3d9158b3538beb8f4790",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "doxa",
+      "file": "corpora/om-articles/doxa.md",
+      "sha256": "b783dccd52e873bdc48da2ede661ad90db88588ac0a02ba7885485e7e50f3852",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "egeiro",
+      "file": "corpora/om-articles/egeiro.md",
+      "sha256": "6f9ed60070b96e8234cdf9afd0b4ec907f3d6b3b9c7a8c0e6ea12860aa19d2e6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eikon",
+      "file": "corpora/om-articles/eikon.md",
+      "sha256": "eca6eabaa93d8b0a3f1544edf35e64b6b8ba2d0aa7a80ef435b1c96645889dfc",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eirene",
+      "file": "corpora/om-articles/eirene.md",
+      "sha256": "c641f4f7264ab23d1a8f23f48dba7181c0195542e33c0fb5119203f4be0b59f1",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ekklesia",
+      "file": "corpora/om-articles/ekklesia.md",
+      "sha256": "3d4ba14fc8711fbc27f39a8f857927bcfc9c74c57f6471847024005b2d7e707a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eklektos",
+      "file": "corpora/om-articles/eklektos.md",
+      "sha256": "92784bd41e6da2dfd3a573f569fe5e87cd8283339b65fcf6a9b5ce33ebf519ae",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-058"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ekporeuomai",
+      "file": "corpora/om-articles/ekporeuomai.md",
+      "sha256": "be503b5d8ed41a518815117078d81a2e54ac412d490ba3a47b189ce87000d97a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eleos",
+      "file": "corpora/om-articles/eleos.md",
+      "sha256": "10e75862fccbccc3e0f98aca652fd00a096dd06f4477443201c847e1f031d4ff",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eleutheria",
+      "file": "corpora/om-articles/eleutheria.md",
+      "sha256": "3550c029112806f6e94b556e3fe44a2bc3b11b09ae1bed0e0fe5c79d16047191",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-049"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "elpis",
+      "file": "corpora/om-articles/elpis.md",
+      "sha256": "ff31d29e58348917a19f980b232b1b5b2e374e187a9e17a376dcf6fd8d2384bd",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-032"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "elpizo",
+      "file": "corpora/om-articles/elpizo.md",
+      "sha256": "8cec52bd62cd52c2a48f839e4f32b1102b587fb677871f90de3609a962fc46ac",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "endyo",
+      "file": "corpora/om-articles/endyo.md",
+      "sha256": "de076322ecea08965d95891a9901300bc3975a9699b4c108bfaf16ba105d0117",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "engyos",
+      "file": "corpora/om-articles/engyos.md",
+      "sha256": "7f93346f92915f567d911b1f9877b96a40fee6af55a86aa66dae8a49df991752",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "enochos",
+      "file": "corpora/om-articles/enochos.md",
+      "sha256": "cbe7f0a25fb08424c5fde7dc2d51020ba93b09902e97058aadc613fbf982d5cf",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "entynchano",
+      "file": "corpora/om-articles/entynchano.md",
+      "sha256": "981c4cdf992af0d8dadaffa96e5586fb0861038d511ea9ed05e68ac91e7a1083",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "epangelia",
+      "file": "corpora/om-articles/epangelia.md",
+      "sha256": "6c1c7e8208010267f473838fdf3c7bafd0a78dd5018dc257fe382dcc56614ffa",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eperotema",
+      "file": "corpora/om-articles/eperotema.md",
+      "sha256": "8615b3f8884b082101dc4c2788459ac624dfacf5c5000b9c04c2f941f6d43062",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ephapax",
+      "file": "corpora/om-articles/ephapax.md",
+      "sha256": "1bad7bf43f36431ae9cb9e0a2ed3c32cda43ad18f5b19c0a4a7c5d5ca8ea7e28",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "epiousios",
+      "file": "corpora/om-articles/epiousios.md",
+      "sha256": "5537b70ac1866890c7e79308208edd53afc01005ca689deb4dd240817d145295",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "epiphaneia",
+      "file": "corpora/om-articles/epiphaneia.md",
+      "sha256": "a6d84489c070f1f252838d5ad42fb51b8fb48322f89d83e4914e20d23799c588",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-063"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "episkopos",
+      "file": "corpora/om-articles/episkopos.md",
+      "sha256": "1a293c5ab7ceb092e10388962de1f88f134252232b17e47bb171d582ab4373e8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "episynagoge",
+      "file": "corpora/om-articles/episynagoge.md",
+      "sha256": "da01745857273960e761416597049691040398de6b3b344b1183b567bd18940b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "epithymia",
+      "file": "corpora/om-articles/epithymia.md",
+      "sha256": "aac396861cd960ca389dfcbe8798935cc62b2520f5708216504bd850aad8522c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ergon",
+      "file": "corpora/om-articles/ergon.md",
+      "sha256": "619eb64da6e7eb93a0a92b4e394ebd701826c314258571fa3124ca02b615c1e0",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ethnos",
+      "file": "corpora/om-articles/ethnos.md",
+      "sha256": "41b2245f0a5a16604eb7c86b3e4f1ec99c8349f871963f19518f5cd84b4abda6",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-033"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "euangelion",
+      "file": "corpora/om-articles/euangelion.md",
+      "sha256": "f840e1690794f23d91f84c66cc75966c79d84a1b43e9019590bfe67029ddf3da",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eucharistia",
+      "file": "corpora/om-articles/eucharistia.md",
+      "sha256": "5aa0bbb25e3e741160a65f7ea6cdc53aa54f7b027a972f5e00d8d6a7f93845a6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eudokia",
+      "file": "corpora/om-articles/eudokia.md",
+      "sha256": "af981e4ab27a214e61c725d0f24e0c6ab9dcabffb5d8a5091e928d20863b456b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "sha256": "ba8cfdc78054d9291783824b4761f519be953f9ad1c0f17c8c6178b0d0d65434",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-071"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "eusebeia",
+      "file": "corpora/om-articles/eusebeia.md",
+      "sha256": "fad1b521f114fcca3939c20e35f6c4ff596830b9fd5a056a72a1bb1d54b8f567",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-064"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "exestin",
+      "file": "corpora/om-articles/exestin.md",
+      "sha256": "a41cb46209b592209e6db5abc67fcadc39b636b1bb9b3b101a18bc41d3cfaad9",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "exousia",
+      "file": "corpora/om-articles/exousia.md",
+      "sha256": "578f0cb300926de1317edc2dba790b7dd1429135aef1f4d1fd265a9e399923b5",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "geenna",
+      "file": "corpora/om-articles/geenna.md",
+      "sha256": "02046c9e10aaa11ed1ca49533cbda0f6e4cd78fcb8400ab0cabecdff55d2b2b7",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "graphe",
+      "file": "corpora/om-articles/graphe.md",
+      "sha256": "3c94c19eb7e5ec8cdf44bd086d023834a510d53bb5457feb05dfc4a54e9456d8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hades",
+      "file": "corpora/om-articles/hades.md",
+      "sha256": "a2c462db928a15a5a8e09cda4fd1d336c79b98f09ad75e678ea2f723a9b99639",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-062"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hagiasmos",
+      "file": "corpora/om-articles/hagiasmos.md",
+      "sha256": "6536c459e8e370567bd6d6c5d87d4d4210d60e2287cc714644b8c327bbfca76b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hagios",
+      "file": "corpora/om-articles/hagios.md",
+      "sha256": "9fa9c9e4a01e3246b8ebfd1f966f00657ea7a6a102999c652729fb73e7c03ab3",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "haima",
+      "file": "corpora/om-articles/haima.md",
+      "sha256": "bfcb399ca5cc661d979e58360a16e9f2624ce83c582deadb06bedd2c90c87d23",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-069"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hamartia",
+      "file": "corpora/om-articles/hamartia.md",
+      "sha256": "40089069d151d14a496757808096b9321b08154825c833d6e002316f3cf36112",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "harpagmos",
+      "file": "corpora/om-articles/harpagmos.md",
+      "sha256": "a2873c0ff9578a1cbeb9bafc346f088bc94ef255d749ccb00f83a975bbf54d1b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "helko",
+      "file": "corpora/om-articles/helko.md",
+      "sha256": "093910dc2ac80bf709af8085f9058a7637b805b9e44e1c56f67854a7a28d08ab",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hiereus",
+      "file": "corpora/om-articles/hiereus.md",
+      "sha256": "728fb34e4779719ed6826728a5ba2b1abff084e3c93f118cd81ce3baf9a25b84",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-020"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hilaskomai",
+      "file": "corpora/om-articles/hilaskomai.md",
+      "sha256": "fabd06bc691cdeba05b23f49992d3953989e03757f99b76973f8913df244f017",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hilasmos",
+      "file": "corpora/om-articles/hilasmos.md",
+      "sha256": "43c73010bfd58729683b3b4d5ac5d45d54ac0512e3e3fd7069bdeda61e8ae6c8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hilasterion",
+      "file": "corpora/om-articles/hilasterion.md",
+      "sha256": "62f76e913b2218afce6b61a6e8d788a4c6fb6612ecca247d57c695490b836f88",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "homologeo",
+      "file": "corpora/om-articles/homologeo.md",
+      "sha256": "7293782b36ce396096e08cf1d902708d864782cab7a8f10092579a04c068f1a5",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-011",
+        "AUDIT-054"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hosanna",
+      "file": "corpora/om-articles/hosanna.md",
+      "sha256": "eeb115077b51fb0224bbaf85094528768254873a3a910a9bf77e92e47bcd35a6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "file": "corpora/om-articles/huiothesia.md",
+      "sha256": "913e96e8f0b1a806e8b164aa9a197d57d1e3ba69139923d9fe0dc732c4841197",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-021",
+        "AUDIT-057"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hygiaino",
+      "file": "corpora/om-articles/hygiaino.md",
+      "sha256": "5d39856173bb50682a3a0553b0d895175f82a79d06fa1df76ebf7f8bac2ca25a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "sha256": "6f841909849d3ab7aae671617de458c9dfe50f1b167a621f2d0f94bc55d90df9",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-007",
+        "AUDIT-041",
+        "AUDIT-042"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hymnos",
+      "file": "corpora/om-articles/hymnos.md",
+      "sha256": "54de01a25c638f5c20fb523506ec4c410ec6aa349b74d6965e20f23610f44583",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hypakoe",
+      "file": "corpora/om-articles/hypakoe.md",
+      "sha256": "fde240001310041d36dfd60c6cc3927d37e4f7a005800f637acba1435d990b2a",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-056"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hyper",
+      "file": "corpora/om-articles/hyper.md",
+      "sha256": "f24f7c5c143585d86d098ba1ad2dcc3fa314b5762305ae0940f1c685789a6f71",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-065"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hypomone",
+      "file": "corpora/om-articles/hypomone.md",
+      "sha256": "f28aaa24e4b7d60584efeb4eaf962820a12e1f0922538503f3874b373a31e752",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hypostasis",
+      "file": "corpora/om-articles/hypostasis.md",
+      "sha256": "fbc7f7f85ff95b5e5992bce9c865c29a5fc569dcf4f9b80fa9f258f0a145fae0",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hypotasso",
+      "file": "corpora/om-articles/hypotasso.md",
+      "sha256": "4777b18b7310b564777d2c36ae34b4def4f37f6f5b9e692281fc67f13b7b93bd",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "hypsoo",
+      "file": "corpora/om-articles/hypsoo.md",
+      "sha256": "ccbb4e7eed56120d59204307ae152c29c24a5bbf0b00c3ad679aa6cba36cb248",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "file": "corpora/om-articles/iesous.md",
+      "sha256": "7ff111336cf507076979ca216bfbb4217480d0393177ddf56d3a812f1910667d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-016",
+        "AUDIT-043"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kaine-ktisis",
+      "file": "corpora/om-articles/kaine-ktisis.md",
+      "sha256": "9d075cc47f3710a04d08520785836160582070fbf0af39ac62a733bfb3b17c7b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kardia",
+      "file": "corpora/om-articles/kardia.md",
+      "sha256": "ed2c879cd12ca0a4889b4953d00881eed30a17582f99e3fa38e03408fdebd1e1",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "karpos",
+      "file": "corpora/om-articles/karpos.md",
+      "sha256": "7fcc5960e5d6f783a1404a11bb465d1e358c25575e890c3041a4b1cafc5ceb0d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-034"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "katakrima",
+      "file": "corpora/om-articles/katakrima.md",
+      "sha256": "dffdd89cd933a59018582fd6b3d6436269c44ffc042a21c8c055833863c36361",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "katallage",
+      "file": "corpora/om-articles/katallage.md",
+      "sha256": "0a00a20b7691db75c816c0371f1e1f88363c0abbf05b0ce1644c7c0897770bd3",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "katapausis",
+      "file": "corpora/om-articles/katapausis.md",
+      "sha256": "7027d6f2174500b7f08c53b8d016dd51c4a0c981ab1630d0ef7b4d387552e6df",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "katara",
+      "file": "corpora/om-articles/katara.md",
+      "sha256": "8d57f0f56ca6f42c96df0be53cc1fb5f3e0fed1f9f7e6aac1bf3f9aefd4cba1f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "katecheo",
+      "file": "corpora/om-articles/katecheo.md",
+      "sha256": "978e6b422cae14db8b38581248683bbd93df2775937e34aa29a6d3bba26a4d8c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kauchaomai",
+      "file": "corpora/om-articles/kauchaomai.md",
+      "sha256": "a88006b17dd068c23d4cc7c7415f030dde9201232d0399ca6cadb24690348fae",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kenoo",
+      "file": "corpora/om-articles/kenoo.md",
+      "sha256": "bd79739fc07bf49e59a34dd4d60f4352c2456e5c654bcce6d87a29788985eb74",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-035"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kerygma",
+      "file": "corpora/om-articles/kerygma.md",
+      "sha256": "4c3deab6b11cdd54e3538b960a59e6ce9e5890afe0b54aea6a4d52bda0c5c62f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kerysso",
+      "file": "corpora/om-articles/kerysso.md",
+      "sha256": "a88fbe00cf8d5d19fd0b3c40a8e6a72422a1fe2a3518d5787d9ebbdc3df20a10",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "klao",
+      "file": "corpora/om-articles/klao.md",
+      "sha256": "eca0605892d6cb6b3b885e80d19595f0970b99d41b6bc43639ccfd0944788388",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kleis",
+      "file": "corpora/om-articles/kleis.md",
+      "sha256": "d6224095f04b0f483304ba4cf80d9569252bd033f424d287f778cb01726e62bd",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kleronomia",
+      "file": "corpora/om-articles/kleronomia.md",
+      "sha256": "95d1f1405e858a9d36c379538a4c3e6cf528cb6a19be2f5441db0120a62cc4b4",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-036"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kleronomos",
+      "file": "corpora/om-articles/kleronomos.md",
+      "sha256": "79b3745b0e5ba0e06e8482ba908a097d0848e0bb326342456050b04f3cbe3722",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "klesis",
+      "file": "corpora/om-articles/klesis.md",
+      "sha256": "53d421ada9f817742cc1d2af9e361ab89090514f87707d8c0f3eb9ad021e43dd",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "koimaomai",
+      "file": "corpora/om-articles/koimaomai.md",
+      "sha256": "8e5418207089341cb29baf7af1a65879741450aca4484f5c2285cab6af1a6b07",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "koinonia",
+      "file": "corpora/om-articles/koinonia.md",
+      "sha256": "228fd0e34348288ee4632fd0e282eca602a3898398a3876a56621861c5ff2177",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "file": "corpora/om-articles/kosmos.md",
+      "sha256": "75451f5306adca214c75f49869389023109796318d781973fb4411a14930f03b",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-015",
+        "AUDIT-037",
+        "AUDIT-038",
+        "AUDIT-039"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "krisis",
+      "file": "corpora/om-articles/krisis.md",
+      "sha256": "381f4b5c8b74aee41a784b88f1d34d08ea679db6ed47eb32f16100c9d3fc46d3",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-040"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "ktizo",
+      "file": "corpora/om-articles/ktizo.md",
+      "sha256": "fc9563b26e771ca82606caa1f8cc2bc34c9d68271ec796118452aa0e1901c154",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "kyrios",
+      "file": "corpora/om-articles/kyrios.md",
+      "sha256": "7bef0f86c2a0249fa0a9dd49a3feba025004b9776e31dfae638a9fcb0733afa3",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "lambano",
+      "file": "corpora/om-articles/lambano.md",
+      "sha256": "95a1a2503c189dc55f7a193dc933dc101d19dd1c59cf7635993af96ba39f6268",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "laos",
+      "file": "corpora/om-articles/laos.md",
+      "sha256": "ed38dc79e63b6b7dc64045155fe970aa86fca3607d45b2097a1144fe525a2008",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "latreia",
+      "file": "corpora/om-articles/latreia.md",
+      "sha256": "6d3840015b8e86a41f990b3392316ca4890c6cfab41b752004fa57611229c85d",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "leitourgia",
+      "file": "corpora/om-articles/leitourgia.md",
+      "sha256": "85c36324ac50eb0d4f74ba476493d868e2364ec964a0bc4a8b7d7fd4ce5d7969",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "leitourgos",
+      "file": "corpora/om-articles/leitourgos.md",
+      "sha256": "1b718ee7b1d57864e93de7b68ad6c6ea79a33b1bbc6727860be8bd23e7dedef4",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "logizomai",
+      "file": "corpora/om-articles/logizomai.md",
+      "sha256": "fcce5e0c4a1589171e2e143af3ebdeb4407e04857363b5730f37b89ef9bdf728",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "logos",
+      "file": "corpora/om-articles/logos.md",
+      "sha256": "1264622d42b00f21aa01fd652ae569fc1d1ccb2280ff96880b7f187c6412ce33",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-005",
+        "AUDIT-023"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "loutron",
+      "file": "corpora/om-articles/loutron.md",
+      "sha256": "72a28c892ba63a73c571a22eae4151a67bfa93dc30f423f69e13f6bb9ce17931",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "lyo",
+      "file": "corpora/om-articles/lyo.md",
+      "sha256": "4d42d4af6b0f188aa85770ef5edfd0f1714cbf4e7f2b241d3f9ab13eaf352719",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "lytron",
+      "file": "corpora/om-articles/lytron.md",
+      "sha256": "29bb4e01574d1249d30dbb6d0b5920b8c36c846a9edf8f94edd67c24296156d2",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "makarios",
+      "file": "corpora/om-articles/makarios.md",
+      "sha256": "3b903a3a90da7b081f287530e83ec0a9f0dbfce16d7e6610bf14daa21ded5f7f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "makrothymia",
+      "file": "corpora/om-articles/makrothymia.md",
+      "sha256": "5feafc4621ab532c9997c0feabba8208e95b6e76af1cc90a20c1de3872cb53db",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "martyria",
+      "file": "corpora/om-articles/martyria.md",
+      "sha256": "30f5bc6f4a60d3f1f9faf92ae14693bfd33c5f18fc9b1c2d1efb13a9c75a778b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "mataiotes",
+      "file": "corpora/om-articles/mataiotes.md",
+      "sha256": "2d4fb197de2067d7658bd06f2a551dabcb873cc9d1be1219c6ddd3252e023a97",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "file": "corpora/om-articles/mathetes.md",
+      "sha256": "9e46cd4e3ff885277803e2c8b56a63b36373a4bb98da69fc69d6eccecce51b2a",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-055"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "matheteuo",
+      "file": "corpora/om-articles/matheteuo.md",
+      "sha256": "207884d97cbebcba9b7c4f6791d22d4865dccb492eed779af5963fffc3a4ea41",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "file": "corpora/om-articles/mesites.md",
+      "sha256": "e2c37687c7dfeb87f6bb58b775f438acf27570aad4011c5dc5671b4d5caa817d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-072"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "metamelomai",
+      "file": "corpora/om-articles/metamelomai.md",
+      "sha256": "3555d8dab25a489bffd269d2c359917f906eb64dd5febe8306608e50caf49d10",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "metanoia",
+      "file": "corpora/om-articles/metanoia.md",
+      "sha256": "8384d7ab881762c9920f1b81a9a3cb723e8fd44c771d38ca4e3958d8a379a452",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "misthos",
+      "file": "corpora/om-articles/misthos.md",
+      "sha256": "18d53fc76375d8a263cca4b15eac391fa078260f55faffd36d0664cbcac638c8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "monogenes",
+      "file": "corpora/om-articles/monogenes.md",
+      "sha256": "d7e789e57da261894c8fcb3d576c92420ca693613237b6624de33ba0aab4c855",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "moria",
+      "file": "corpora/om-articles/moria.md",
+      "sha256": "1bab055d45c939b7b13f9016f63b622a7fb15fe75893fca40f5358aa9ea5054b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "morphe",
+      "file": "corpora/om-articles/morphe.md",
+      "sha256": "1a74412ad1a7009f0c92540f29e85fdf5a8ed1cb7e728b47b2b3f6db6c256662",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "mysterion",
+      "file": "corpora/om-articles/mysterion.md",
+      "sha256": "5d7bd8f50282d61d355da9e80443385e1aae3b7aa72bbead17bb39d27f11ed82",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "mythos",
+      "file": "corpora/om-articles/mythos.md",
+      "sha256": "4ad9648a79e2b3f56991cd4a1621a61435e2e522cac2743cff7b6174a6343799",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "naos",
+      "file": "corpora/om-articles/naos.md",
+      "sha256": "3753ff3ee400deb9192f1679970ffdecd102230d8278bcd5600a6bb5e17956f5",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "nekroo",
+      "file": "corpora/om-articles/nekroo.md",
+      "sha256": "d80b91495f0b0f97a3addee98ca297b2bef27cc6b908a4add8953c0b5959fcd8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "nekros",
+      "file": "corpora/om-articles/nekros.md",
+      "sha256": "88d80c6a86ed4d1430f36667b505035ed5f05d1ddab712ce06565270ea77bd72",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "nomos",
+      "file": "corpora/om-articles/nomos.md",
+      "sha256": "c91ccb0a38dbc54d3923265365052c138ff8dd566a9b6e17c5b073eb5d83f0b0",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-025"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "oikodome",
+      "file": "corpora/om-articles/oikodome.md",
+      "sha256": "ea853cef9c4c32cf172f1ce71a300b2b0a2395ecfa9245bd7338710f9b70d6d5",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "oikonomos",
+      "file": "corpora/om-articles/oikonomos.md",
+      "sha256": "fd8c9a72ed70d113df4a0b45f4b5354be59538c9f6f131d5f5c24baed4d1eb09",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "oikos",
+      "file": "corpora/om-articles/oikos.md",
+      "sha256": "99218c1ccdad1fe612b2052ad17b74713da5e1dfd5813c9f5a40a1ebf91ed7ac",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "onoma",
+      "file": "corpora/om-articles/onoma.md",
+      "sha256": "df6c9fa162d562d5a906ee723034e3ac8a703cb651edf26a79fc5c859fe64ce7",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "orge",
+      "file": "corpora/om-articles/orge.md",
+      "sha256": "ee8259097a816d8f3393f3be9d113c51e4205cf329c89509b690da5804ed7820",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "orthotomeo",
+      "file": "corpora/om-articles/orthotomeo.md",
+      "sha256": "087b8bc4a28e5ecf8de97792a72bd68c88ac7116eb3aefad03b1eea7397f8317",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paidagogos",
+      "file": "corpora/om-articles/paidagogos.md",
+      "sha256": "c02d799124ed4abc46496f1f3de088035fd1218ac260dc0f56bc3f0fc14c6509",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paliggenesia",
+      "file": "corpora/om-articles/paliggenesia.md",
+      "sha256": "a008de866b71980de88166d35fc561c4374c0b4a91f01ca1115c3b6a502ddd34",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pantokrator",
+      "file": "corpora/om-articles/pantokrator.md",
+      "sha256": "5e8202b1be4a0aa0a45e8f2fcf153ab02df3efd8f0507d9801f08a96a3f65d34",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paradosis",
+      "file": "corpora/om-articles/paradosis.md",
+      "sha256": "ed526e5ffc3a2d5079230760861f2da1416b4291907365e72e59b7b86cabed7e",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paraklesis",
+      "file": "corpora/om-articles/paraklesis.md",
+      "sha256": "e50005092f2bffa66985942e677651fc6a056ddb0c53212a94406576b35e13e5",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "parakletos",
+      "file": "corpora/om-articles/parakletos.md",
+      "sha256": "f6ab9898ff34f0a1edad4e4757d54df1c5c1fee8bab7c2745f87e95b0cd1ea30",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paraptoma",
+      "file": "corpora/om-articles/paraptoma.md",
+      "sha256": "d1dd64db3af9aaf4970524cc262f548b3811fe1d13f74c1ffcf27ad73ff5534f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paratheke",
+      "file": "corpora/om-articles/paratheke.md",
+      "sha256": "c469083499f3102d7531a69c2b0386fbdbc3def48a3e97c3c6d65ef0b37458fe",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "paroikos",
+      "file": "corpora/om-articles/paroikos.md",
+      "sha256": "34483dbfe444ef59428fec499c076453df96751d427da28f9dd5496e05ec33c6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "file": "corpora/om-articles/parousia.md",
+      "sha256": "55bde8939a480ca3f0289d9c73edc80b39801e1f834615d2e0354294a0949f70",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-014",
+        "AUDIT-026",
+        "AUDIT-061"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "parrhesia",
+      "file": "corpora/om-articles/parrhesia.md",
+      "sha256": "292364fc19806aba2fb594c22485ece62fec1411398c8da89adfdd29f9255a57",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pater",
+      "file": "corpora/om-articles/pater.md",
+      "sha256": "31c0e92a8be96b7d7548482edfe1d86fcd52bd3ac82531f7402aaabbd0a6bb88",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-052"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "peirasmos",
+      "file": "corpora/om-articles/peirasmos.md",
+      "sha256": "c9dc01c809dfbaeeb253cae4bdd8ce278f3011e40645061a3765705877fb7724",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "peripateo",
+      "file": "corpora/om-articles/peripateo.md",
+      "sha256": "b98e28dc332e7c1382a38326dc5636bac37e263f21aa0ccd12a081e4c741909f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "perisseuo",
+      "file": "corpora/om-articles/perisseuo.md",
+      "sha256": "7a815c5549f5c6f07cd2d90b36782bb4ee2caa63899f19541cc88705a05e25e6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "phobos",
+      "file": "corpora/om-articles/phobos.md",
+      "sha256": "76af49a262dff494c1ed77ae3844273d4832df30c4fdaba15f7f135cbb63ea3f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "phos",
+      "file": "corpora/om-articles/phos.md",
+      "sha256": "643921a5ce8e5c47028a403a5f2b6a8f174280f363c6559684f03996c70c6cb6",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "phthora",
+      "file": "corpora/om-articles/phthora.md",
+      "sha256": "a0318ba0375bd732c738c87d30374c52c68f5e3a9623ddffebaf9d0bd164beb4",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "physis",
+      "file": "corpora/om-articles/physis.md",
+      "sha256": "001063989e2426ce2cf4b168f8378f1c24f05e24298849ad17d254bf84149703",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pisteuo",
+      "file": "corpora/om-articles/pisteuo.md",
+      "sha256": "248ccddba30eb99fa75857d793fab81cf48db93ba5e38bb35c1e80615ce0b331",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pistis",
+      "file": "corpora/om-articles/pistis.md",
+      "sha256": "070bd6d3d023fe73fabe5f7b5321d0f3510327aa6363a1af1fe9c74a5fef10c8",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-017"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pistos-ho-logos",
+      "file": "corpora/om-articles/pistos-ho-logos.md",
+      "sha256": "7d17a9832fa30c9fb1a62a04e1acbcc1e1f103bdd69f6f7ec406de2b5cf72a69",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "planao",
+      "file": "corpora/om-articles/planao.md",
+      "sha256": "34bb96be34475e22d295849580db037ee3e9bd392c82e9e97321545c0837e2ff",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pleroma",
+      "file": "corpora/om-articles/pleroma.md",
+      "sha256": "47473eb74c97f48689b08ddd065bbf4836f51ee7f23682b7f271d32658f1b171",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-013"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pleroo",
+      "file": "corpora/om-articles/pleroo.md",
+      "sha256": "c93b721207e2488820ba3677c2d7bd886f737cbc482f2476b57c1c8509a4186f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "plesion",
+      "file": "corpora/om-articles/plesion.md",
+      "sha256": "f919bf8a08e24584efb93006bb5251d1631729adb2df649abf5df2717f8507af",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "pneuma",
+      "file": "corpora/om-articles/pneuma.md",
+      "sha256": "9240316ddf9411e2cb96b216bea3794cc6b0a84afe0bd7cf3edb0bb9c51c4f0f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "poimen",
+      "file": "corpora/om-articles/poimen.md",
+      "sha256": "d851ea125982e3bd36c97d32f8a003900316249b900bbc50fbf6732c6b186c29",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "poterion",
+      "file": "corpora/om-articles/poterion.md",
+      "sha256": "d306e54058800d41c7ce882e9466983f4f4326c88d03c2a3de50cda58d9ce0ac",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "prautes",
+      "file": "corpora/om-articles/prautes.md",
+      "sha256": "0560b1d2bc4d525a5fedc2d4b54831df0c23d424b59e4e4ff2c7ef9558f49033",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "presbyteros",
+      "file": "corpora/om-articles/presbyteros.md",
+      "sha256": "8081f467a865a162f8aa607dd4289dc4c8062ef030fe3f69ac0d3e5d0a8ee813",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "prognosis",
+      "file": "corpora/om-articles/prognosis.md",
+      "sha256": "1c66b6cb4664170e6858b805833052825cfea781ad35cfbf9841cec73f994cbb",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "proorizo",
+      "file": "corpora/om-articles/proorizo.md",
+      "sha256": "76f9e01c070ff499162054845261adce18f373c61dc610a54a4129a3bdca11a9",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "proselytos",
+      "file": "corpora/om-articles/proselytos.md",
+      "sha256": "42a05af3c725a7c334c5909403c56b7ae2a0724b815f154310a738049b0f8312",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "proseuche",
+      "file": "corpora/om-articles/proseuche.md",
+      "sha256": "a3c47757232f02ab81ef35dea22569b0b6dfd733f60daef8be04f5f6d8065888",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "prosopon",
+      "file": "corpora/om-articles/prosopon.md",
+      "sha256": "b533c556eca3a56e9b6a11e430abeccc77a3b7444344972075228810ebd26fbc",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "file": "corpora/om-articles/prothesis.md",
+      "sha256": "3e4e22ce99f4dc6672b15cf13c3cf1bc48c0ea2a193458dced3f7f882f06abfd",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-044"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "file": "corpora/om-articles/prototokos.md",
+      "sha256": "3018a91ab83a09ce85e37d71478bbf1ac730d61f93625e9eb23a654a8c9b4c30",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-045"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "psyche",
+      "file": "corpora/om-articles/psyche.md",
+      "sha256": "6f219841c7ebeae008d8161eb1ecea666e8089bff14b866cb0b1ae6842e21432",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "rhema",
+      "file": "corpora/om-articles/rhema.md",
+      "sha256": "3d15c79a1b2bcd1aa59e6b66e544ce38ce6f7f2c14a76b5b555990fd3d661b3f",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-053"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "sabbatismos",
+      "file": "corpora/om-articles/sabbatismos.md",
+      "sha256": "eab9d356bf8c1faae9886ab336514b4ad267133437ed9a25751e1926c5319f03",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "sarx",
+      "file": "corpora/om-articles/sarx.md",
+      "sha256": "386091e418de830348b99d51b349488f1c3ad7ed0721bfd527359e1abf20f043",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "skandalon",
+      "file": "corpora/om-articles/skandalon.md",
+      "sha256": "007cf627e307e979dfa177a58c0fbd8d16f58e1a9b75abfd6c59e23fc711d888",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "skenoo",
+      "file": "corpora/om-articles/skenoo.md",
+      "sha256": "2a190f118fd114cfc9d924857748ebe9e67976a20bee52bb2c0f7ee7e06df51f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "skia",
+      "file": "corpora/om-articles/skia.md",
+      "sha256": "d0ca3ec67e7c0d32b557ac01c127c4fe09bb098aaaea31d3e0eabe6cdaff1581",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "skybalon",
+      "file": "corpora/om-articles/skybalon.md",
+      "sha256": "8747869a47c72b1957d1e587b7fbb5ba339a5a6c18de41d08b38a00512d81057",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "soma",
+      "file": "corpora/om-articles/soma.md",
+      "sha256": "5f4f2991880f1d3434d1c07814f7610d29ac2603b7376c56320065219a7ef3c1",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-046",
+        "AUDIT-068"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "soter",
+      "file": "corpora/om-articles/soter.md",
+      "sha256": "072dab0055e9b0fa50333a1073fea9da008d47cd84c49efa91da10afdc98d3a9",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "file": "corpora/om-articles/sozo.md",
+      "sha256": "e843939ce9eb7f1d28f1c2e57d70071a8274c6967fdfeef93603abacde0b7fd4",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-009"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "sphragizo",
+      "file": "corpora/om-articles/sphragizo.md",
+      "sha256": "c4a9d506241b5c4b962cd16f23b3ae798629f989f46f6cbccc36e0c87cd1bf98",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "splanchna",
+      "file": "corpora/om-articles/splanchna.md",
+      "sha256": "c01054cde899e1f98a748224048bf6b1adcbc6386141a8a1b667918f5d01be51",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "stauros",
+      "file": "corpora/om-articles/stauros.md",
+      "sha256": "ad242bea49e218ee773d1f8a6f4d0de6096c79b8bf741de59ff6c78fb06455d8",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "stephanos",
+      "file": "corpora/om-articles/stephanos.md",
+      "sha256": "4bc0a1fa542a04746969cd2bb15eaa4711924c65ed9c620c2c0e37211e5c13f5",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "stoicheia",
+      "file": "corpora/om-articles/stoicheia.md",
+      "sha256": "802a3f103957b808c3dcfb126f9871fe4f1c78efd1ea9f0df7f0b8c8a370d76a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "suneidesis",
+      "file": "corpora/om-articles/suneidesis.md",
+      "sha256": "1403bcc9a3bd1b4ab5a0d04ed15af5636e6569c5b8896eb02da24d6b93411241",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "synergeo",
+      "file": "corpora/om-articles/synergeo.md",
+      "sha256": "a88a3ca5beaa17a343169b10940c1518f24d7e6219f62324cd67156edb813f0d",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "synthapto",
+      "file": "corpora/om-articles/synthapto.md",
+      "sha256": "bb2bcce1c677209a7be1e5ccba5e660acaf6be4c3cecb59d64bb3db90876ea2a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "tapeinoo",
+      "file": "corpora/om-articles/tapeinoo.md",
+      "sha256": "715bdd11d66115df3b9dec5215467eecc6d22082f2c9113c78a9b8f667e0aaaf",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "taxis",
+      "file": "corpora/om-articles/taxis.md",
+      "sha256": "abca2b2cfcf8bb869d6e30528725f75f9d97455fb4406e1ac6a5d041187a1154",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "file": "corpora/om-articles/teleios.md",
+      "sha256": "1d3bb5f2a6ee8c9b832b95acb601a57ca5926663e868eda60d2800e7b7a784a4",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-012"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "teleo",
+      "file": "corpora/om-articles/teleo.md",
+      "sha256": "97665c63f425e6bf82b60eb45a9006978651f48e93e0b9e2ee6360b8bf3aa013",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "thanatos",
+      "file": "corpora/om-articles/thanatos.md",
+      "sha256": "b424ef096c84de8cc9b9e4ed2b981398ab0b404ffcf62f029816a9a370ccc61d",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-047"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "thelema",
+      "file": "corpora/om-articles/thelema.md",
+      "sha256": "10d7e0ae9f276c4bb24ce99f40a43a320d2fc301217896d4fb09982b3e62fe9f",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "theopneustos",
+      "file": "corpora/om-articles/theopneustos.md",
+      "sha256": "ab7d1f19c5134457a935c4cf5f97006c33c5592e826669daeb17475690523113",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "sha256": "4c9660f23afa8b1eae209389fe7377b65fffedbac2f87fb45165a37bbb656d18",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-001",
+        "AUDIT-002",
+        "AUDIT-003",
+        "AUDIT-006"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "file": "corpora/om-articles/theotes.md",
+      "sha256": "05b624ce380a151df24d8244f75bd34088b1bbaf98aeaa46541a376f3b7be76b",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-022"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "thysia",
+      "file": "corpora/om-articles/thysia.md",
+      "sha256": "7473676c18a03927bd5498d14aa922073d2ce90a5546767e83b800b919bd0983",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "typos",
+      "file": "corpora/om-articles/typos.md",
+      "sha256": "1ef6fc8be4ac89ddb629b3b1eafcc3ea1ed68c0414a7d3d38b92b20a0c68886a",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "zoe",
+      "file": "corpora/om-articles/zoe.md",
+      "sha256": "0c219b0ee88a76f0129cdbc8ca87917c069a82d9673756f96e25c90c5776c084",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-008"
+      ],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "om-article",
+      "recordId": "zoopoieo",
+      "file": "corpora/om-articles/zoopoieo.md",
+      "sha256": "3d51d6c1f8ee87201f02f7075eb97d48d60d221625c1e5a66b5ecf2d9d4bb654",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "automated-full-text-checks-plus-context-read-of-flags"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-01",
+      "file": "corpora/comparison-commentaries/candidate-01.json",
+      "sha256": "850e9e13a3924a7c905b5dd91775f2b21fe9a9f80b7a2823bb366694eb20b639",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-081"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-02",
+      "file": "corpora/comparison-commentaries/candidate-02.json",
+      "sha256": "0d7094f084b8a7b39eef3bc7b6a7095cbea65e16d800af18987d85ef4460d568",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-079"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-03",
+      "file": "corpora/comparison-commentaries/candidate-03.json",
+      "sha256": "57abf021843d619ae8d842b4a596af885bad46bb0497f0cf5a316019713ba387",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-082"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-04",
+      "file": "corpora/comparison-commentaries/candidate-04.json",
+      "sha256": "a759f966081772b7feb0f3d7411cd9d3fa5c9429d8a263ff7745a46757a52669",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-05",
+      "file": "corpora/comparison-commentaries/candidate-05.json",
+      "sha256": "59a49bd03c91a52393e5c911cd6f061a1935c4b723dd2f7c06881a2f17704312",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-084"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-06",
+      "file": "corpora/comparison-commentaries/candidate-06.json",
+      "sha256": "baf2e159fc5e4dae669acc4ae2ce15da815b287e9045a5ecd77900712998951b",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-07",
+      "file": "corpora/comparison-commentaries/candidate-07.json",
+      "sha256": "4eba1e65091db4cfa9adece66ff371c6cad80d140fcc96afafff5f1492b9c19c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-08",
+      "file": "corpora/comparison-commentaries/candidate-08.json",
+      "sha256": "9778ad5da4642067dcb047e6ec3d064d076beb1db06f735012ff798259a67b3c",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-080"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-09",
+      "file": "corpora/comparison-commentaries/candidate-09.json",
+      "sha256": "0550225698c2c4f7df4f85f09b5885d244c5e2bfbd9b45b759404ae60e2ab3f7",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-10",
+      "file": "corpora/comparison-commentaries/candidate-10.json",
+      "sha256": "3453355ac6c349814ad693a5e128d107d5b9b4243835e28fe916f39b2af7d9ed",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-11",
+      "file": "corpora/comparison-commentaries/candidate-11.json",
+      "sha256": "8affc93f68dd5422d27743e86289b2f21ace6bc93a0d23f643ee8a49c1aa8652",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-077"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-12",
+      "file": "corpora/comparison-commentaries/candidate-12.json",
+      "sha256": "a696f040d94333eb0e257b9d42bce0183fdc72f409a3a7148623059d1ce9c9ce",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-13",
+      "file": "corpora/comparison-commentaries/candidate-13.json",
+      "sha256": "2b03f7c676edda56bf0488394ec6373bea516312f3d85e6879746331141a1a17",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-14",
+      "file": "corpora/comparison-commentaries/candidate-14.json",
+      "sha256": "24b5d9ec46d7c8a8371e0c5091211e61ed4ab1772737af80e58a0e83ca8b4dce",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-15",
+      "file": "corpora/comparison-commentaries/candidate-15.json",
+      "sha256": "cb172c2d63ab0da7a262252013ee2d8dcf4a978c1b2a6034f65a71dd84cd27ea",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-16",
+      "file": "corpora/comparison-commentaries/candidate-16.json",
+      "sha256": "e46c859dbadd12c458abf4650764b22d35a42cf7b81e9b81e6c3177a594cbbaa",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-073"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "file": "corpora/comparison-commentaries/candidate-17.json",
+      "sha256": "22fb67ca91b6e008ca04f0465653ef1b0eecefb06f4f34f4cfebcd936c3127ec",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-074",
+        "AUDIT-078"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-18",
+      "file": "corpora/comparison-commentaries/candidate-18.json",
+      "sha256": "e022f3e6189bb4435a9bf903c850b1047149f5a3ab62b12cd611a782a6adbbc4",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-085",
+        "AUDIT-086"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-19",
+      "file": "corpora/comparison-commentaries/candidate-19.json",
+      "sha256": "e0d9ac819604132c9c93433491be7b258623471ba6f05e6207f3f2f59108ae67",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-088"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-20",
+      "file": "corpora/comparison-commentaries/candidate-20.json",
+      "sha256": "8d3bc350654ebf854449ad23b90aa91792ac6ed5345e1f7e268ad744ee777f81",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-21",
+      "file": "corpora/comparison-commentaries/candidate-21.json",
+      "sha256": "5ff6c4754ce414b9482b0b82b4312c0a947c778e345c238979781d7bbfb62f91",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-075"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-22",
+      "file": "corpora/comparison-commentaries/candidate-22.json",
+      "sha256": "989645ab204647837ea95815f985e857019e0140ad6453eb46648a85a1d9b95c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-23",
+      "file": "corpora/comparison-commentaries/candidate-23.json",
+      "sha256": "2de0c525cc247ed39cfe0112ac325366b3dbd2402289f478b935b335aac8db26",
+      "reviewed": true,
+      "disposition": "human-review",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-24",
+      "file": "corpora/comparison-commentaries/candidate-24.json",
+      "sha256": "ba29b010abaa1b139d1cd389b3499e8220624996b51439275974181399eda4f1",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-083"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-25",
+      "file": "corpora/comparison-commentaries/candidate-25.json",
+      "sha256": "bf46d045d840ff61662782b347f4a1f2a8aa3409b89de993a180860aeb7093b4",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-26",
+      "file": "corpora/comparison-commentaries/candidate-26.json",
+      "sha256": "bf42cc218be707a195bb10410a244cd865041714ba6daf071e347179ee0426ae",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-076"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-27",
+      "file": "corpora/comparison-commentaries/candidate-27.json",
+      "sha256": "92e7516a6e3a9a907145528320d38cf0c366d8351e30a8323045f41e5b4577ad",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-28",
+      "file": "corpora/comparison-commentaries/candidate-28.json",
+      "sha256": "1f714582c6811112010d5bddaa451812e01d4e259bd5bf8680e42d055d1c5cfe",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-29",
+      "file": "corpora/comparison-commentaries/candidate-29.json",
+      "sha256": "956c2cbce1cfa7e959cc2093487e6e0382ba952232d9ae60e5155960ca2f49e6",
+      "reviewed": true,
+      "disposition": "finding",
+      "findingIds": [
+        "AUDIT-087"
+      ],
+      "reviewDepth": "close-read-complete"
+    },
+    {
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-30",
+      "file": "corpora/comparison-commentaries/candidate-30.json",
+      "sha256": "8d0611f5596f89eafafb99758425a25ee71101c49e1ffaa5ad1de6d21abd044c",
+      "reviewed": true,
+      "disposition": "no-finding",
+      "findingIds": [],
+      "reviewDepth": "close-read-complete"
+    }
+  ],
+  "packetManifestSha256": "7d54757af5da94553a87c0d546e78b34e54aea0c0f785ff82e4fb77e7fd62c06"
+}

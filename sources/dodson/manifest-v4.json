@@ -1,0 +1,52 @@
+{
+  "releaseId": "dodson-2010-v4",
+  "retrieved": "2026-09-05",
+  "commit": "74f70358d4acfaf2f980bf2feb58ab7115cbbcbc",
+  "source": "https://github.com/biblicalhumanities/Dodson-Greek-Lexicon",
+  "rights": "Public domain dedication (README and original 2010 author notice); CC0 LICENSE.",
+  "wordExplorerSource": "https://larryherzogjr.com/greek/words.json",
+  "artifacts": {
+    "sources/dodson/raw/dodson.xml": "39c6cb8053ef0adeffac7bbec1d1bc4f96c69424f8e6668f19b4244d3f234639",
+    "sources/dodson/raw/dodson.csv": "46951bf82c40ed35caa8557db190a828b744e305e9619d9451ea5690a90d7101",
+    "sources/dodson/evidence/LICENSE": "5537d4d10b76b81b6e8dfd8b644480a4b1efa332fbb0cdb61126c5be781ef7b4",
+    "sources/dodson/evidence/README-ulrikp.txt": "2eea57fcefa555081d2834cdef44af5a1d000d90eb9ba0d58f4e1fe99c305d2c",
+    "sources/dodson/evidence/README.md": "eada5184215fba69ddd420438e55690fb4ca0c14fdaa1f04a3f6c555b045e839",
+    "sources/dodson/evidence/commit.json": "61cfe8f958e4a2262f5af79b342d8016af5ee15fd65cd55c0709f3039adb8622",
+    "sources/word-explorer/aliases-2026-09-06.json": "8d28901ef04bc027682ee97a68435d504b40b1c329948514b3a1a946d4ec8eb3",
+    "sources/word-explorer/words-2026-09-11-250.json": "db4cb6f0ed59255bcd5e73aae5d751e17e4a2d2f53c85139d19580f88eba0d02"
+  },
+  "outputSha256": "d520d7e180ae0a36fd68dd68698027cf95f6f458fbb5bd16e96d69d85125d8e9",
+  "wordExplorerRetrieved": "2026-09-11",
+  "wordExplorerArtifact": "sources/word-explorer/words-2026-09-11-250.json",
+  "predecessor": "dodson-2010-v3",
+  "wordExplorerAliases": "sources/word-explorer/aliases-2026-09-06.json",
+  "editorialApproval": {
+    "candidateManifestSha256": "634d06bd89eb99826c5f70ea726a6d7aaca1673558e6f790bfb6312ef8c4d213",
+    "approvalRecord": "docs/editorial-review/full-corpus-audit-2026-09-11/APPROVAL.md",
+    "reviewer": "Larry Herzog Jr.",
+    "reviewDate": "2026-09-11",
+    "changedFields": [
+      {
+        "id": "AUDIT-070",
+        "slug": "bema",
+        "field": "pronunciation",
+        "old": "bēma",
+        "new": "BAY-mah"
+      },
+      {
+        "id": "AUDIT-071",
+        "slug": "eulogeo",
+        "field": "pronunciation",
+        "old": "eulogeō",
+        "new": "yoo-lo-GEH-oh"
+      },
+      {
+        "id": "AUDIT-072",
+        "slug": "mesites",
+        "field": "pronunciation",
+        "old": "mes-EE-tace",
+        "new": "mes-EE-tays"
+      }
+    ]
+  }
+}

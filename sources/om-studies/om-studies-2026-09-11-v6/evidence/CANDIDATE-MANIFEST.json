@@ -1,0 +1,2732 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "full-corpus-audit-2026-09-11-candidate-v2",
+  "status": "unpublished-awaiting-human-approval",
+  "sourceArticleRelease": "om-studies-2026-09-10-v5",
+  "proposedArticleRelease": "om-studies-2026-09-11-v6",
+  "externalAuditFindingsSha256": "8fda322174a556525cb8afc211751e6e7b32b1064f0fc775b7f214bd1bbfbff6",
+  "kimiAuditFindingsSha256": "80615f3d0cde02a8b4488af78d6d84ae6de9c84f620baf0340010f9877baafd6",
+  "articleChangeCount": 124,
+  "changedArticleCount": 67,
+  "wordMetadataChangeCount": 3,
+  "comparisonChangeCount": 17,
+  "changedComparisonUnitCount": 15,
+  "unresolvedFindingIds": [
+    "AUDIT-062",
+    "AUDIT-063",
+    "AUDIT-064",
+    "AUDIT-065",
+    "AUDIT-086"
+  ],
+  "inputs": {
+    "articleManifestSha256": "8b35a02429c12d1d8926a21e2fc35f9b513c8c6be277761a3f41a28150e9a645",
+    "wordMetadataSha256": "81d99d3231ea7412285bf1e4a3f0797eda87d9b4130fd45ceaa94bc08c088ac0",
+    "variantsSha256": "424c833e1fa29b46884d07bcf1cbdf3a61e2e75f4a8610db8bcd8913128c4d79"
+  },
+  "structuredCandidateFiles": {
+    "words-2026-09-06-250.candidate.json": "db4cb6f0ed59255bcd5e73aae5d751e17e4a2d2f53c85139d19580f88eba0d02",
+    "variants.candidate.json": "883590910c0a76c074de28b2c3e0efa0c68dad89b0293de0b7b3e2da84b37a89"
+  },
+  "articleFiles": [
+    {
+      "file": "articles/raw/abba.md",
+      "sha256": "f06356d0f554fffd19c532a4086a2b6e853a81065b553e04c967d71770ecadb6",
+      "predecessorSha256": "f06356d0f554fffd19c532a4086a2b6e853a81065b553e04c967d71770ecadb6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/agape.md",
+      "sha256": "3f261cedda43cf67e30936cd463bc69cc1fb56cbe897032f09d97b7f092e5bfe",
+      "predecessorSha256": "3f261cedda43cf67e30936cd463bc69cc1fb56cbe897032f09d97b7f092e5bfe",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/agorazo.md",
+      "sha256": "ccf9550c9def9e8f6702b67600e3e39f131e82a0b019de427d96f9d4e5f21204",
+      "predecessorSha256": "07e5c9a9a32f0b21ab5373e76bf3028a690358f33aaf87948b17b3259be1bf6d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/aionios.md",
+      "sha256": "fc729ecd2510db6f3992e4788dff66aceee8b622a8d639ac27dfa9bebd9a873a",
+      "predecessorSha256": "fc729ecd2510db6f3992e4788dff66aceee8b622a8d639ac27dfa9bebd9a873a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/akoe.md",
+      "sha256": "b5be8210f4172de1ad620f9d3ef5d147805230fd1a9c2cd8e5e2502b05fac987",
+      "predecessorSha256": "b5be8210f4172de1ad620f9d3ef5d147805230fd1a9c2cd8e5e2502b05fac987",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/aletheia.md",
+      "sha256": "6898612fc4816ef3cb4c0f9136681637a5330e409719a186c7327bf003d42068",
+      "predecessorSha256": "6898612fc4816ef3cb4c0f9136681637a5330e409719a186c7327bf003d42068",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/amen.md",
+      "sha256": "bca4ded33a59e32c7437c8db912acb215099c87329e46b5a81a340d335bba21d",
+      "predecessorSha256": "5f99d6db8a24c83f57d2aab71a58c33ff5b62abbcef1a37f360c2bdebe62ffe8",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/amnos.md",
+      "sha256": "11848f7754903a48eb3710aa50322e5184b6fdff3950c256b619c78b90ef1c13",
+      "predecessorSha256": "11848f7754903a48eb3710aa50322e5184b6fdff3950c256b619c78b90ef1c13",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anagennao.md",
+      "sha256": "e5d73e9a505953cf94e0ec0b4e5fbfcbce76d16412a52fe3fbf3bed588cf0381",
+      "predecessorSha256": "e5d73e9a505953cf94e0ec0b4e5fbfcbce76d16412a52fe3fbf3bed588cf0381",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/analambano.md",
+      "sha256": "daa95c82c2792d6c3aff56b65d02723c8076325361910998c617bf9a2f7401cc",
+      "predecessorSha256": "daa95c82c2792d6c3aff56b65d02723c8076325361910998c617bf9a2f7401cc",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anamnesis.md",
+      "sha256": "ecb5a41dd109c53cf1e9756ab61e1266baef673211155ab29e8cfbb4000b80b4",
+      "predecessorSha256": "ecb5a41dd109c53cf1e9756ab61e1266baef673211155ab29e8cfbb4000b80b4",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anastasis.md",
+      "sha256": "596ec28b250d3011bc8aef1c6a571643c483cf1742573659cbc73ab169df346e",
+      "predecessorSha256": "e9b7a093fa0a4ad448bea3276b95d310b0f35ac0f68d73e8dddaf84b4bf68b21",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/anastrophe.md",
+      "sha256": "00102997ff39f4f3aaa2fb6ab33171259cca9c31235e63b4c7d3ecfe29905b5b",
+      "predecessorSha256": "00102997ff39f4f3aaa2fb6ab33171259cca9c31235e63b4c7d3ecfe29905b5b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anaxios.md",
+      "sha256": "12d4266a29c3c875642e35a4088a8b0b82062acd142ed25e446a2b45558ed71d",
+      "predecessorSha256": "12d4266a29c3c875642e35a4088a8b0b82062acd142ed25e446a2b45558ed71d",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anomia.md",
+      "sha256": "74199879999d7cc83359f6223feb1ef2f3a0d8812d3decd430aa85a563c97439",
+      "predecessorSha256": "4f42dfb5982fd6e56ec01284819df1a1f04150e1e83177efef552fde26841022",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/anothen.md",
+      "sha256": "7ce2e46e7bfe3ca5fe3c55d1ab06a09e24015720aeef0b3d08621adeae6dbc69",
+      "predecessorSha256": "7ce2e46e7bfe3ca5fe3c55d1ab06a09e24015720aeef0b3d08621adeae6dbc69",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/anthropos.md",
+      "sha256": "44b82d1570f7dac017aadbfae0027def70c8850477107c57c9bd9396852be584",
+      "predecessorSha256": "44b82d1570f7dac017aadbfae0027def70c8850477107c57c9bd9396852be584",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/antilytron.md",
+      "sha256": "0c4daa1f5272ed06a91bdc769097cb8115a5e45046c26dc99b2590cb8757b617",
+      "predecessorSha256": "39f15df2b9f0acd39d25eb30e5d89a0de4df9f2b37b9df7d5c7a6eddd31ebe30",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/antitypos.md",
+      "sha256": "dca20892222300b21a1524f8966d8bab6e271922a7c2e0437048fd5f1e81ef09",
+      "predecessorSha256": "dca20892222300b21a1524f8966d8bab6e271922a7c2e0437048fd5f1e81ef09",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/aoratos.md",
+      "sha256": "655662b6903b588047e4455d7d03dbac3e21308807a69a4d72c42fc4ee9a1791",
+      "predecessorSha256": "655662b6903b588047e4455d7d03dbac3e21308807a69a4d72c42fc4ee9a1791",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/aparche.md",
+      "sha256": "451fa4ef22cb277fd275b3f61b6ec6551abecaadb50af0f0b989422427ea8ad3",
+      "predecessorSha256": "451fa4ef22cb277fd275b3f61b6ec6551abecaadb50af0f0b989422427ea8ad3",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apaugasma.md",
+      "sha256": "bbfc5b17ac56caa0910d6928a3851eeb9b402ce96f73ed071652369baac7b42b",
+      "predecessorSha256": "bbfc5b17ac56caa0910d6928a3851eeb9b402ce96f73ed071652369baac7b42b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/aphesis.md",
+      "sha256": "10a4dc14a08768aeb9e70b0fc48148dd9834ad5e32618c0acec26088db6bd377",
+      "predecessorSha256": "56eec355fa8b5ebab6dee826e97de01d77a53e6f0e89dc0236bde5dd41761fad",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/aphiemi.md",
+      "sha256": "9e3f0d825a67e92caf9e20154b12d33832f8a881f2e7dd5a04748faf6d3a43fb",
+      "predecessorSha256": "9e3f0d825a67e92caf9e20154b12d33832f8a881f2e7dd5a04748faf6d3a43fb",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/aphthartos.md",
+      "sha256": "ba2cd2344759beb3563c9e31f16bce520614c1810e7c338e11378b03bdd5d4d8",
+      "predecessorSha256": "ba2cd2344759beb3563c9e31f16bce520614c1810e7c338e11378b03bdd5d4d8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apokalypsis.md",
+      "sha256": "24cfb265f85a5668f9a86fa048100a8589378c5e21fbb990e15ca996fe42a12b",
+      "predecessorSha256": "24cfb265f85a5668f9a86fa048100a8589378c5e21fbb990e15ca996fe42a12b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apokatastasis.md",
+      "sha256": "82d2566aabaccb28248fbec44c9f7b1d781be513d4f4db344b4b361433b719fc",
+      "predecessorSha256": "82d2566aabaccb28248fbec44c9f7b1d781be513d4f4db344b4b361433b719fc",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apoleia.md",
+      "sha256": "592594ff2d9226f2a381d0188600e6fdecda9daa8d4003d88ac44bdf128af72a",
+      "predecessorSha256": "592594ff2d9226f2a381d0188600e6fdecda9daa8d4003d88ac44bdf128af72a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apolytrosis.md",
+      "sha256": "d2cb726319e951bf0000a2a8f7bc6ac322b4af0a48a25b068cb6762b5e688033",
+      "predecessorSha256": "660884330d4eb07ffb032c911b56826c2e9ad9a222da23b3281fbfa0b2183690",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/apostello.md",
+      "sha256": "66470015addca510044b93b718f9466e0098d17d43831dd6158ca553546f4c64",
+      "predecessorSha256": "66470015addca510044b93b718f9466e0098d17d43831dd6158ca553546f4c64",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/apostolos.md",
+      "sha256": "835162483975c4f8f222814758affa726f261e6451f20ac5f198e8eec9400e2a",
+      "predecessorSha256": "d4ea92e05f20e51db7974418c142a18dbdfeff9a5faee35f2d5c2911d2147cce",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/arche.md",
+      "sha256": "3baf382ac3f7bd2f21e026a5c76b64b4b46ef358e536e4d4438c7ae538292e61",
+      "predecessorSha256": "a78bcb34d93688f2aaee6f033660f93edae6f6ab8eeb070502395948f5550d8d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/archegos.md",
+      "sha256": "3d0173ed73627ec31e725563e3da45fed0a48750b3825d01c92f055abbbff3e7",
+      "predecessorSha256": "3d0173ed73627ec31e725563e3da45fed0a48750b3825d01c92f055abbbff3e7",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/archiereus.md",
+      "sha256": "916ff6ee7765db338b0144a06701dd56f9e74c4da09f0c1c72392900cb91cf0b",
+      "predecessorSha256": "916ff6ee7765db338b0144a06701dd56f9e74c4da09f0c1c72392900cb91cf0b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/arrabon.md",
+      "sha256": "00420f61d97809ab26e7ca13e9ef1e238dcbdf63b91e3bf5759e263eb03c0c32",
+      "predecessorSha256": "00420f61d97809ab26e7ca13e9ef1e238dcbdf63b91e3bf5759e263eb03c0c32",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/artos.md",
+      "sha256": "b1801c9c040845aef4ae994dfb061ae90e440b74f716f93e6cb995c9cf701024",
+      "predecessorSha256": "b1801c9c040845aef4ae994dfb061ae90e440b74f716f93e6cb995c9cf701024",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/astheneia.md",
+      "sha256": "4ce6aba29541858ae1c7aea082f3c4043c862e2c69bf49ce6c2053050da412e9",
+      "predecessorSha256": "4ce6aba29541858ae1c7aea082f3c4043c862e2c69bf49ce6c2053050da412e9",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/authenteo.md",
+      "sha256": "037ba15878f80943cd1114ece98444921cb3aa7c54f3acaafadd73362e42e85e",
+      "predecessorSha256": "a0874eb48dd5b91c25a44f3a47fa605af1f7275e80050556cfdfdd1eb4852288",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/baptisma.md",
+      "sha256": "94e143bac0329fa54cbfdecc451dcad4a9dc83cd173ded9174984c3fa94dfb48",
+      "predecessorSha256": "94e143bac0329fa54cbfdecc451dcad4a9dc83cd173ded9174984c3fa94dfb48",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/baptizo.md",
+      "sha256": "3f7d826de4bd20939ce7133132ebe2ca6f48756e43c5da0ea7191cb45941f660",
+      "predecessorSha256": "3f7d826de4bd20939ce7133132ebe2ca6f48756e43c5da0ea7191cb45941f660",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/basileia.md",
+      "sha256": "4f071ebf8cf05faa127bae3c957058120467b73ddd1967300f76fe9975580f9d",
+      "predecessorSha256": "d251b1e21a93fa69fd49ee0db80d6f517fedc07d70287350fe91a84e1689a1a3",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/bema.md",
+      "sha256": "4d4a806b129408138847d28ac15527a644200aae85fd49400f919dfe2c82515b",
+      "predecessorSha256": "59b7da0fdc439d53bf6cba8d5d3591471d9a0d62448006b1ff16fda6d074445d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/chara.md",
+      "sha256": "d9bd99741a85ff03c6d4bacb2f28facb48a9fb2318a055a9161de9db677fdd58",
+      "predecessorSha256": "45674ca77c3ed2dd3784d44c7412ec8b85c036dffa7032672c9af65ff44b27bc",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/charakter.md",
+      "sha256": "f2c24aba91943ceac0ffb4dccd58ac7aae92848692e54bf5b2f26ed043fe8fc6",
+      "predecessorSha256": "4ad389d4a0c3149ea2392598741e1d782dfccc4e4e660db3ec930d718150fe97",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/charis.md",
+      "sha256": "bfcba510106f4fbd78564a3b312cd1a4e513caa8e621669877de4a0104e058d9",
+      "predecessorSha256": "11c8e8a94937cb53dbc0cc49ad44f16b40a76483a862f67deb22ea6d887e3ca0",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/charisma.md",
+      "sha256": "39cb9a42be6b3ce0082c1d884c35bce62379ed580338cdb5eeb4226f29ca221e",
+      "predecessorSha256": "acfebd6458e78713b4432863e3e0c678a844370f5c75f166b25a4e6fd24db243",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/charitoo.md",
+      "sha256": "cf54b1a63bc6f10bb7f8e1c89990c221232784bf6fd467ddd031e89255ae34bb",
+      "predecessorSha256": "cf54b1a63bc6f10bb7f8e1c89990c221232784bf6fd467ddd031e89255ae34bb",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/charizomai.md",
+      "sha256": "3e618d7d13818db12e3f32a95bd266968e54231d37359410f2a2c1356fd0d6b8",
+      "predecessorSha256": "3e618d7d13818db12e3f32a95bd266968e54231d37359410f2a2c1356fd0d6b8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/christos.md",
+      "sha256": "72cb0490c203ef216489242f46f34174dd10e0b589132358b273caf7d785c16a",
+      "predecessorSha256": "72cb0490c203ef216489242f46f34174dd10e0b589132358b273caf7d785c16a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/deesis.md",
+      "sha256": "8677749f4173fc213e54488ce81b75068f545dcbf35856a71ec08a7209d283b7",
+      "predecessorSha256": "8677749f4173fc213e54488ce81b75068f545dcbf35856a71ec08a7209d283b7",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/deipnon.md",
+      "sha256": "c3c6b19f20ad7baf2f16ade4a24fba698af0172d31910140f3e7b9ce13766d32",
+      "predecessorSha256": "c3c6b19f20ad7baf2f16ade4a24fba698af0172d31910140f3e7b9ce13766d32",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/deo.md",
+      "sha256": "8316786e9a76c0cdb6b7e6c01f9896b090bde66c5e68c2f5a511dc1a62d59244",
+      "predecessorSha256": "8316786e9a76c0cdb6b7e6c01f9896b090bde66c5e68c2f5a511dc1a62d59244",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/diakonia.md",
+      "sha256": "178001919ee51f6dae66fefe04711d4b62c923a922194732284b66ddeb866b79",
+      "predecessorSha256": "178001919ee51f6dae66fefe04711d4b62c923a922194732284b66ddeb866b79",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/diakonos.md",
+      "sha256": "8cc6c6f0a03a10561422a35938cc4f976850fe4a88ba10eb558e8944abcc4a28",
+      "predecessorSha256": "b6a21d2d452a3808a72e3d29dac505c4a0c6d95ab5550c3074b639c0c9c5afc8",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/diakrino.md",
+      "sha256": "a9b32dd001933fe5cf8bbfb0d2cbe44d0fd73bddf1665dfa2c0db096abb14386",
+      "predecessorSha256": "a9b32dd001933fe5cf8bbfb0d2cbe44d0fd73bddf1665dfa2c0db096abb14386",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/diatheke.md",
+      "sha256": "e2172d61085baec8ac6b8a1b0c335ecfda2ed75fbc3a3c71c29768c4c74e4a90",
+      "predecessorSha256": "e2172d61085baec8ac6b8a1b0c335ecfda2ed75fbc3a3c71c29768c4c74e4a90",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/didache.md",
+      "sha256": "a84fd460c97bdab2a07d5fb8a89ccabbae47d51a0a97a5f3016099bf63e6626c",
+      "predecessorSha256": "a84fd460c97bdab2a07d5fb8a89ccabbae47d51a0a97a5f3016099bf63e6626c",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/didaskalia.md",
+      "sha256": "4d51e460bc1afb5b34c040b4d03f1ede3c8145333fe716eea5609b79f61ade19",
+      "predecessorSha256": "3e630f44f2966e0eaeb991a6d69d9ff323873ff0a5466347822fa94ec7f6ba43",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/didomi.md",
+      "sha256": "917a8f3014a2c72863b18d72e1fb06c5ddefe31aaa148ae1b4377601f0301847",
+      "predecessorSha256": "917a8f3014a2c72863b18d72e1fb06c5ddefe31aaa148ae1b4377601f0301847",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/dikaioo.md",
+      "sha256": "7f4b52193c0813faf433f569c5e77aa6715d3b02926725046ce713918a2f0e11",
+      "predecessorSha256": "7f4b52193c0813faf433f569c5e77aa6715d3b02926725046ce713918a2f0e11",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/dikaiosyne.md",
+      "sha256": "0de01d21fffb1fff6ac1ac8893aab90b807378468321a455cd72d5ce9cb6300d",
+      "predecessorSha256": "cf1e94669f53f00eca1a28f998ab7d135b28e9a9a36f8b801810b4584f6d1410",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/dokimazo.md",
+      "sha256": "1d661d004ac62d6e768149e40091568abd2222233c9d91acd0c42afe6dcb5b2e",
+      "predecessorSha256": "1d661d004ac62d6e768149e40091568abd2222233c9d91acd0c42afe6dcb5b2e",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/dorean.md",
+      "sha256": "4c69298da0e1141c2aee6f6289fc31324121b37230abb331401a33e2b2f81a06",
+      "predecessorSha256": "4c69298da0e1141c2aee6f6289fc31324121b37230abb331401a33e2b2f81a06",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/doulos.md",
+      "sha256": "7a3f98df4f6019c37ae064c1679c0e6a9c86e21d402d3d9158b3538beb8f4790",
+      "predecessorSha256": "7a3f98df4f6019c37ae064c1679c0e6a9c86e21d402d3d9158b3538beb8f4790",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/doxa.md",
+      "sha256": "b783dccd52e873bdc48da2ede661ad90db88588ac0a02ba7885485e7e50f3852",
+      "predecessorSha256": "b783dccd52e873bdc48da2ede661ad90db88588ac0a02ba7885485e7e50f3852",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/egeiro.md",
+      "sha256": "6f9ed60070b96e8234cdf9afd0b4ec907f3d6b3b9c7a8c0e6ea12860aa19d2e6",
+      "predecessorSha256": "6f9ed60070b96e8234cdf9afd0b4ec907f3d6b3b9c7a8c0e6ea12860aa19d2e6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eikon.md",
+      "sha256": "eca6eabaa93d8b0a3f1544edf35e64b6b8ba2d0aa7a80ef435b1c96645889dfc",
+      "predecessorSha256": "eca6eabaa93d8b0a3f1544edf35e64b6b8ba2d0aa7a80ef435b1c96645889dfc",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eirene.md",
+      "sha256": "f1595bcc2c4eeb75748a751187eeab08e1063f63083abe22e9848312cffff4f0",
+      "predecessorSha256": "c641f4f7264ab23d1a8f23f48dba7181c0195542e33c0fb5119203f4be0b59f1",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/ekklesia.md",
+      "sha256": "3d4ba14fc8711fbc27f39a8f857927bcfc9c74c57f6471847024005b2d7e707a",
+      "predecessorSha256": "3d4ba14fc8711fbc27f39a8f857927bcfc9c74c57f6471847024005b2d7e707a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eklektos.md",
+      "sha256": "1ef1688b1f14e0820dffafcd518ec6663a41c54f9bf30c64d135825ae26a3b28",
+      "predecessorSha256": "92784bd41e6da2dfd3a573f569fe5e87cd8283339b65fcf6a9b5ce33ebf519ae",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/ekporeuomai.md",
+      "sha256": "be503b5d8ed41a518815117078d81a2e54ac412d490ba3a47b189ce87000d97a",
+      "predecessorSha256": "be503b5d8ed41a518815117078d81a2e54ac412d490ba3a47b189ce87000d97a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eleos.md",
+      "sha256": "10e75862fccbccc3e0f98aca652fd00a096dd06f4477443201c847e1f031d4ff",
+      "predecessorSha256": "10e75862fccbccc3e0f98aca652fd00a096dd06f4477443201c847e1f031d4ff",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eleutheria.md",
+      "sha256": "ab8995a825b53d1c0d82a49b5c5bab0a58515d2a31239ec6e3fb74a98e82ba37",
+      "predecessorSha256": "3550c029112806f6e94b556e3fe44a2bc3b11b09ae1bed0e0fe5c79d16047191",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/elpis.md",
+      "sha256": "5e3629aae1ac72a81d3215d95f7a37b8e89306f79ab7eb5479b52d0f00760d3a",
+      "predecessorSha256": "ff31d29e58348917a19f980b232b1b5b2e374e187a9e17a376dcf6fd8d2384bd",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/elpizo.md",
+      "sha256": "8cec52bd62cd52c2a48f839e4f32b1102b587fb677871f90de3609a962fc46ac",
+      "predecessorSha256": "8cec52bd62cd52c2a48f839e4f32b1102b587fb677871f90de3609a962fc46ac",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/endyo.md",
+      "sha256": "de076322ecea08965d95891a9901300bc3975a9699b4c108bfaf16ba105d0117",
+      "predecessorSha256": "de076322ecea08965d95891a9901300bc3975a9699b4c108bfaf16ba105d0117",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/engyos.md",
+      "sha256": "7f93346f92915f567d911b1f9877b96a40fee6af55a86aa66dae8a49df991752",
+      "predecessorSha256": "7f93346f92915f567d911b1f9877b96a40fee6af55a86aa66dae8a49df991752",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/enochos.md",
+      "sha256": "cbe7f0a25fb08424c5fde7dc2d51020ba93b09902e97058aadc613fbf982d5cf",
+      "predecessorSha256": "cbe7f0a25fb08424c5fde7dc2d51020ba93b09902e97058aadc613fbf982d5cf",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/entynchano.md",
+      "sha256": "981c4cdf992af0d8dadaffa96e5586fb0861038d511ea9ed05e68ac91e7a1083",
+      "predecessorSha256": "981c4cdf992af0d8dadaffa96e5586fb0861038d511ea9ed05e68ac91e7a1083",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/epangelia.md",
+      "sha256": "6c1c7e8208010267f473838fdf3c7bafd0a78dd5018dc257fe382dcc56614ffa",
+      "predecessorSha256": "6c1c7e8208010267f473838fdf3c7bafd0a78dd5018dc257fe382dcc56614ffa",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eperotema.md",
+      "sha256": "8615b3f8884b082101dc4c2788459ac624dfacf5c5000b9c04c2f941f6d43062",
+      "predecessorSha256": "8615b3f8884b082101dc4c2788459ac624dfacf5c5000b9c04c2f941f6d43062",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/ephapax.md",
+      "sha256": "1bad7bf43f36431ae9cb9e0a2ed3c32cda43ad18f5b19c0a4a7c5d5ca8ea7e28",
+      "predecessorSha256": "1bad7bf43f36431ae9cb9e0a2ed3c32cda43ad18f5b19c0a4a7c5d5ca8ea7e28",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/epiousios.md",
+      "sha256": "5537b70ac1866890c7e79308208edd53afc01005ca689deb4dd240817d145295",
+      "predecessorSha256": "5537b70ac1866890c7e79308208edd53afc01005ca689deb4dd240817d145295",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/epiphaneia.md",
+      "sha256": "e8e96aa09d5f91ca6ebb81fb565668139a3befe2b87e9fe604f33f12bc427ee2",
+      "predecessorSha256": "a6d84489c070f1f252838d5ad42fb51b8fb48322f89d83e4914e20d23799c588",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/episkopos.md",
+      "sha256": "1a293c5ab7ceb092e10388962de1f88f134252232b17e47bb171d582ab4373e8",
+      "predecessorSha256": "1a293c5ab7ceb092e10388962de1f88f134252232b17e47bb171d582ab4373e8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/episynagoge.md",
+      "sha256": "da01745857273960e761416597049691040398de6b3b344b1183b567bd18940b",
+      "predecessorSha256": "da01745857273960e761416597049691040398de6b3b344b1183b567bd18940b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/epithymia.md",
+      "sha256": "aac396861cd960ca389dfcbe8798935cc62b2520f5708216504bd850aad8522c",
+      "predecessorSha256": "aac396861cd960ca389dfcbe8798935cc62b2520f5708216504bd850aad8522c",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/ergon.md",
+      "sha256": "a936b41173a17ebdee029a0e4327b5a7a98023c5f635165ecf7a3df5ace67e7c",
+      "predecessorSha256": "619eb64da6e7eb93a0a92b4e394ebd701826c314258571fa3124ca02b615c1e0",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/ethnos.md",
+      "sha256": "26eebd45c5f1232f20af8a359a14c1f43b1d742beb639dd281134e829e1178dd",
+      "predecessorSha256": "41b2245f0a5a16604eb7c86b3e4f1ec99c8349f871963f19518f5cd84b4abda6",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/euangelion.md",
+      "sha256": "f840e1690794f23d91f84c66cc75966c79d84a1b43e9019590bfe67029ddf3da",
+      "predecessorSha256": "f840e1690794f23d91f84c66cc75966c79d84a1b43e9019590bfe67029ddf3da",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eucharistia.md",
+      "sha256": "5aa0bbb25e3e741160a65f7ea6cdc53aa54f7b027a972f5e00d8d6a7f93845a6",
+      "predecessorSha256": "5aa0bbb25e3e741160a65f7ea6cdc53aa54f7b027a972f5e00d8d6a7f93845a6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eudokia.md",
+      "sha256": "af981e4ab27a214e61c725d0f24e0c6ab9dcabffb5d8a5091e928d20863b456b",
+      "predecessorSha256": "af981e4ab27a214e61c725d0f24e0c6ab9dcabffb5d8a5091e928d20863b456b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eulogeo.md",
+      "sha256": "ba8cfdc78054d9291783824b4761f519be953f9ad1c0f17c8c6178b0d0d65434",
+      "predecessorSha256": "ba8cfdc78054d9291783824b4761f519be953f9ad1c0f17c8c6178b0d0d65434",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/eusebeia.md",
+      "sha256": "087013aafd20f7f00f3aa4d4ad884706e03a8ea1c093e1d5aadc3540e3ff3d8d",
+      "predecessorSha256": "fad1b521f114fcca3939c20e35f6c4ff596830b9fd5a056a72a1bb1d54b8f567",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/exestin.md",
+      "sha256": "a41cb46209b592209e6db5abc67fcadc39b636b1bb9b3b101a18bc41d3cfaad9",
+      "predecessorSha256": "a41cb46209b592209e6db5abc67fcadc39b636b1bb9b3b101a18bc41d3cfaad9",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/exousia.md",
+      "sha256": "578f0cb300926de1317edc2dba790b7dd1429135aef1f4d1fd265a9e399923b5",
+      "predecessorSha256": "578f0cb300926de1317edc2dba790b7dd1429135aef1f4d1fd265a9e399923b5",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/geenna.md",
+      "sha256": "02046c9e10aaa11ed1ca49533cbda0f6e4cd78fcb8400ab0cabecdff55d2b2b7",
+      "predecessorSha256": "02046c9e10aaa11ed1ca49533cbda0f6e4cd78fcb8400ab0cabecdff55d2b2b7",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/graphe.md",
+      "sha256": "3c94c19eb7e5ec8cdf44bd086d023834a510d53bb5457feb05dfc4a54e9456d8",
+      "predecessorSha256": "3c94c19eb7e5ec8cdf44bd086d023834a510d53bb5457feb05dfc4a54e9456d8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hades.md",
+      "sha256": "a2c462db928a15a5a8e09cda4fd1d336c79b98f09ad75e678ea2f723a9b99639",
+      "predecessorSha256": "a2c462db928a15a5a8e09cda4fd1d336c79b98f09ad75e678ea2f723a9b99639",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hagiasmos.md",
+      "sha256": "6536c459e8e370567bd6d6c5d87d4d4210d60e2287cc714644b8c327bbfca76b",
+      "predecessorSha256": "6536c459e8e370567bd6d6c5d87d4d4210d60e2287cc714644b8c327bbfca76b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hagios.md",
+      "sha256": "9fa9c9e4a01e3246b8ebfd1f966f00657ea7a6a102999c652729fb73e7c03ab3",
+      "predecessorSha256": "9fa9c9e4a01e3246b8ebfd1f966f00657ea7a6a102999c652729fb73e7c03ab3",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/haima.md",
+      "sha256": "b043b8a1a9684a8ec4787707806d7f73b2b197470e728a81029872fbc8c68bd9",
+      "predecessorSha256": "bfcb399ca5cc661d979e58360a16e9f2624ce83c582deadb06bedd2c90c87d23",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hamartia.md",
+      "sha256": "40089069d151d14a496757808096b9321b08154825c833d6e002316f3cf36112",
+      "predecessorSha256": "40089069d151d14a496757808096b9321b08154825c833d6e002316f3cf36112",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/harpagmos.md",
+      "sha256": "a2873c0ff9578a1cbeb9bafc346f088bc94ef255d749ccb00f83a975bbf54d1b",
+      "predecessorSha256": "a2873c0ff9578a1cbeb9bafc346f088bc94ef255d749ccb00f83a975bbf54d1b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/helko.md",
+      "sha256": "093910dc2ac80bf709af8085f9058a7637b805b9e44e1c56f67854a7a28d08ab",
+      "predecessorSha256": "093910dc2ac80bf709af8085f9058a7637b805b9e44e1c56f67854a7a28d08ab",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hiereus.md",
+      "sha256": "3d558d46e81eade8d0426ab3ee31a8708783fcc98703b6e2ba3aefeb6e3987f3",
+      "predecessorSha256": "728fb34e4779719ed6826728a5ba2b1abff084e3c93f118cd81ce3baf9a25b84",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hilaskomai.md",
+      "sha256": "fabd06bc691cdeba05b23f49992d3953989e03757f99b76973f8913df244f017",
+      "predecessorSha256": "fabd06bc691cdeba05b23f49992d3953989e03757f99b76973f8913df244f017",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hilasmos.md",
+      "sha256": "43c73010bfd58729683b3b4d5ac5d45d54ac0512e3e3fd7069bdeda61e8ae6c8",
+      "predecessorSha256": "43c73010bfd58729683b3b4d5ac5d45d54ac0512e3e3fd7069bdeda61e8ae6c8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hilasterion.md",
+      "sha256": "62f76e913b2218afce6b61a6e8d788a4c6fb6612ecca247d57c695490b836f88",
+      "predecessorSha256": "62f76e913b2218afce6b61a6e8d788a4c6fb6612ecca247d57c695490b836f88",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/homologeo.md",
+      "sha256": "8077a4b98989314936f58d1719ee5e71ddd67821fd39895e1771d4c8f8285846",
+      "predecessorSha256": "7293782b36ce396096e08cf1d902708d864782cab7a8f10092579a04c068f1a5",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hosanna.md",
+      "sha256": "eeb115077b51fb0224bbaf85094528768254873a3a910a9bf77e92e47bcd35a6",
+      "predecessorSha256": "eeb115077b51fb0224bbaf85094528768254873a3a910a9bf77e92e47bcd35a6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/huiothesia.md",
+      "sha256": "4718a004526637b35f5037054ac3103d251bb17b2cf2fb48b935f452aec5bf11",
+      "predecessorSha256": "913e96e8f0b1a806e8b164aa9a197d57d1e3ba69139923d9fe0dc732c4841197",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hygiaino.md",
+      "sha256": "b91770413c165a9e38aab61f69e6d9be9a10536621b7b50632c87e4462821280",
+      "predecessorSha256": "5d39856173bb50682a3a0553b0d895175f82a79d06fa1df76ebf7f8bac2ca25a",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hyios.md",
+      "sha256": "0f932c29e2e646c7df7e1d645fb2983ef85c420e6d577996884ce48b3a086db7",
+      "predecessorSha256": "6f841909849d3ab7aae671617de458c9dfe50f1b167a621f2d0f94bc55d90df9",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hymnos.md",
+      "sha256": "54de01a25c638f5c20fb523506ec4c410ec6aa349b74d6965e20f23610f44583",
+      "predecessorSha256": "54de01a25c638f5c20fb523506ec4c410ec6aa349b74d6965e20f23610f44583",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hypakoe.md",
+      "sha256": "a02de46c11cc6e73026a711fed04af937a919c2f700026ccd8d2c5f47036ae17",
+      "predecessorSha256": "fde240001310041d36dfd60c6cc3927d37e4f7a005800f637acba1435d990b2a",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/hyper.md",
+      "sha256": "f24f7c5c143585d86d098ba1ad2dcc3fa314b5762305ae0940f1c685789a6f71",
+      "predecessorSha256": "f24f7c5c143585d86d098ba1ad2dcc3fa314b5762305ae0940f1c685789a6f71",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hypomone.md",
+      "sha256": "f28aaa24e4b7d60584efeb4eaf962820a12e1f0922538503f3874b373a31e752",
+      "predecessorSha256": "f28aaa24e4b7d60584efeb4eaf962820a12e1f0922538503f3874b373a31e752",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hypostasis.md",
+      "sha256": "fbc7f7f85ff95b5e5992bce9c865c29a5fc569dcf4f9b80fa9f258f0a145fae0",
+      "predecessorSha256": "fbc7f7f85ff95b5e5992bce9c865c29a5fc569dcf4f9b80fa9f258f0a145fae0",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hypotasso.md",
+      "sha256": "4777b18b7310b564777d2c36ae34b4def4f37f6f5b9e692281fc67f13b7b93bd",
+      "predecessorSha256": "4777b18b7310b564777d2c36ae34b4def4f37f6f5b9e692281fc67f13b7b93bd",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/hypsoo.md",
+      "sha256": "ccbb4e7eed56120d59204307ae152c29c24a5bbf0b00c3ad679aa6cba36cb248",
+      "predecessorSha256": "ccbb4e7eed56120d59204307ae152c29c24a5bbf0b00c3ad679aa6cba36cb248",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/iesous.md",
+      "sha256": "f60c78f49bab177d308732050fa5340f09bb394ed00c766a1c4a533344164b71",
+      "predecessorSha256": "7ff111336cf507076979ca216bfbb4217480d0393177ddf56d3a812f1910667d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/kaine-ktisis.md",
+      "sha256": "9d075cc47f3710a04d08520785836160582070fbf0af39ac62a733bfb3b17c7b",
+      "predecessorSha256": "9d075cc47f3710a04d08520785836160582070fbf0af39ac62a733bfb3b17c7b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kardia.md",
+      "sha256": "ed2c879cd12ca0a4889b4953d00881eed30a17582f99e3fa38e03408fdebd1e1",
+      "predecessorSha256": "ed2c879cd12ca0a4889b4953d00881eed30a17582f99e3fa38e03408fdebd1e1",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/karpos.md",
+      "sha256": "3c6b9b9f3824e7ecc8f7c5d4be7bf3a83015de71d625244d014f7338d30c835f",
+      "predecessorSha256": "7fcc5960e5d6f783a1404a11bb465d1e358c25575e890c3041a4b1cafc5ceb0d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/katakrima.md",
+      "sha256": "dffdd89cd933a59018582fd6b3d6436269c44ffc042a21c8c055833863c36361",
+      "predecessorSha256": "dffdd89cd933a59018582fd6b3d6436269c44ffc042a21c8c055833863c36361",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/katallage.md",
+      "sha256": "0a00a20b7691db75c816c0371f1e1f88363c0abbf05b0ce1644c7c0897770bd3",
+      "predecessorSha256": "0a00a20b7691db75c816c0371f1e1f88363c0abbf05b0ce1644c7c0897770bd3",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/katapausis.md",
+      "sha256": "7027d6f2174500b7f08c53b8d016dd51c4a0c981ab1630d0ef7b4d387552e6df",
+      "predecessorSha256": "7027d6f2174500b7f08c53b8d016dd51c4a0c981ab1630d0ef7b4d387552e6df",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/katara.md",
+      "sha256": "8d57f0f56ca6f42c96df0be53cc1fb5f3e0fed1f9f7e6aac1bf3f9aefd4cba1f",
+      "predecessorSha256": "8d57f0f56ca6f42c96df0be53cc1fb5f3e0fed1f9f7e6aac1bf3f9aefd4cba1f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/katecheo.md",
+      "sha256": "978e6b422cae14db8b38581248683bbd93df2775937e34aa29a6d3bba26a4d8c",
+      "predecessorSha256": "978e6b422cae14db8b38581248683bbd93df2775937e34aa29a6d3bba26a4d8c",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kauchaomai.md",
+      "sha256": "a88006b17dd068c23d4cc7c7415f030dde9201232d0399ca6cadb24690348fae",
+      "predecessorSha256": "a88006b17dd068c23d4cc7c7415f030dde9201232d0399ca6cadb24690348fae",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kenoo.md",
+      "sha256": "7e4d29ab1b1a79af4fbb761fd45199a03d2c0a9768d7cc1aa8bb285dd2bbf625",
+      "predecessorSha256": "bd79739fc07bf49e59a34dd4d60f4352c2456e5c654bcce6d87a29788985eb74",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/kerygma.md",
+      "sha256": "4c3deab6b11cdd54e3538b960a59e6ce9e5890afe0b54aea6a4d52bda0c5c62f",
+      "predecessorSha256": "4c3deab6b11cdd54e3538b960a59e6ce9e5890afe0b54aea6a4d52bda0c5c62f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kerysso.md",
+      "sha256": "a88fbe00cf8d5d19fd0b3c40a8e6a72422a1fe2a3518d5787d9ebbdc3df20a10",
+      "predecessorSha256": "a88fbe00cf8d5d19fd0b3c40a8e6a72422a1fe2a3518d5787d9ebbdc3df20a10",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/klao.md",
+      "sha256": "eca0605892d6cb6b3b885e80d19595f0970b99d41b6bc43639ccfd0944788388",
+      "predecessorSha256": "eca0605892d6cb6b3b885e80d19595f0970b99d41b6bc43639ccfd0944788388",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kleis.md",
+      "sha256": "d6224095f04b0f483304ba4cf80d9569252bd033f424d287f778cb01726e62bd",
+      "predecessorSha256": "d6224095f04b0f483304ba4cf80d9569252bd033f424d287f778cb01726e62bd",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kleronomia.md",
+      "sha256": "8b8543def8e4b1da6a51c60c1bcb5f9735e7b7572af064dbcba882f0ce3d9038",
+      "predecessorSha256": "95d1f1405e858a9d36c379538a4c3e6cf528cb6a19be2f5441db0120a62cc4b4",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/kleronomos.md",
+      "sha256": "79b3745b0e5ba0e06e8482ba908a097d0848e0bb326342456050b04f3cbe3722",
+      "predecessorSha256": "79b3745b0e5ba0e06e8482ba908a097d0848e0bb326342456050b04f3cbe3722",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/klesis.md",
+      "sha256": "53d421ada9f817742cc1d2af9e361ab89090514f87707d8c0f3eb9ad021e43dd",
+      "predecessorSha256": "53d421ada9f817742cc1d2af9e361ab89090514f87707d8c0f3eb9ad021e43dd",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/koimaomai.md",
+      "sha256": "8e5418207089341cb29baf7af1a65879741450aca4484f5c2285cab6af1a6b07",
+      "predecessorSha256": "8e5418207089341cb29baf7af1a65879741450aca4484f5c2285cab6af1a6b07",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/koinonia.md",
+      "sha256": "228fd0e34348288ee4632fd0e282eca602a3898398a3876a56621861c5ff2177",
+      "predecessorSha256": "228fd0e34348288ee4632fd0e282eca602a3898398a3876a56621861c5ff2177",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kosmos.md",
+      "sha256": "434790fd4efb540813e90e25348ff3bcde9e49bc6d3bc0b98da2a7923ff4ea9c",
+      "predecessorSha256": "75451f5306adca214c75f49869389023109796318d781973fb4411a14930f03b",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/krisis.md",
+      "sha256": "dfa56dcdcf8a233ef5f4c0cf259daa1b778d8beefe81b49dde3f51a1521c5a73",
+      "predecessorSha256": "381f4b5c8b74aee41a784b88f1d34d08ea679db6ed47eb32f16100c9d3fc46d3",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/ktizo.md",
+      "sha256": "fc9563b26e771ca82606caa1f8cc2bc34c9d68271ec796118452aa0e1901c154",
+      "predecessorSha256": "fc9563b26e771ca82606caa1f8cc2bc34c9d68271ec796118452aa0e1901c154",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/kyrios.md",
+      "sha256": "7bef0f86c2a0249fa0a9dd49a3feba025004b9776e31dfae638a9fcb0733afa3",
+      "predecessorSha256": "7bef0f86c2a0249fa0a9dd49a3feba025004b9776e31dfae638a9fcb0733afa3",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/lambano.md",
+      "sha256": "95a1a2503c189dc55f7a193dc933dc101d19dd1c59cf7635993af96ba39f6268",
+      "predecessorSha256": "95a1a2503c189dc55f7a193dc933dc101d19dd1c59cf7635993af96ba39f6268",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/laos.md",
+      "sha256": "ed38dc79e63b6b7dc64045155fe970aa86fca3607d45b2097a1144fe525a2008",
+      "predecessorSha256": "ed38dc79e63b6b7dc64045155fe970aa86fca3607d45b2097a1144fe525a2008",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/latreia.md",
+      "sha256": "6d3840015b8e86a41f990b3392316ca4890c6cfab41b752004fa57611229c85d",
+      "predecessorSha256": "6d3840015b8e86a41f990b3392316ca4890c6cfab41b752004fa57611229c85d",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/leitourgia.md",
+      "sha256": "8b8e7bb79ad928f9512b626b3b7046b8773d1ad01af06a0caac1a015ec76c505",
+      "predecessorSha256": "85c36324ac50eb0d4f74ba476493d868e2364ec964a0bc4a8b7d7fd4ce5d7969",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/leitourgos.md",
+      "sha256": "1b718ee7b1d57864e93de7b68ad6c6ea79a33b1bbc6727860be8bd23e7dedef4",
+      "predecessorSha256": "1b718ee7b1d57864e93de7b68ad6c6ea79a33b1bbc6727860be8bd23e7dedef4",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/logizomai.md",
+      "sha256": "fcce5e0c4a1589171e2e143af3ebdeb4407e04857363b5730f37b89ef9bdf728",
+      "predecessorSha256": "fcce5e0c4a1589171e2e143af3ebdeb4407e04857363b5730f37b89ef9bdf728",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/logos.md",
+      "sha256": "95ce4d76e03ad9faac15b9705b468d733ed657c4a68d8dd3b4a0cdfeb2067549",
+      "predecessorSha256": "1264622d42b00f21aa01fd652ae569fc1d1ccb2280ff96880b7f187c6412ce33",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/loutron.md",
+      "sha256": "224a1fc994bd36031722bbdca22b93faad3595ae3130b90fc8a4b21086718232",
+      "predecessorSha256": "72a28c892ba63a73c571a22eae4151a67bfa93dc30f423f69e13f6bb9ce17931",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/lyo.md",
+      "sha256": "4d42d4af6b0f188aa85770ef5edfd0f1714cbf4e7f2b241d3f9ab13eaf352719",
+      "predecessorSha256": "4d42d4af6b0f188aa85770ef5edfd0f1714cbf4e7f2b241d3f9ab13eaf352719",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/lytron.md",
+      "sha256": "29bb4e01574d1249d30dbb6d0b5920b8c36c846a9edf8f94edd67c24296156d2",
+      "predecessorSha256": "29bb4e01574d1249d30dbb6d0b5920b8c36c846a9edf8f94edd67c24296156d2",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/makarios.md",
+      "sha256": "3b903a3a90da7b081f287530e83ec0a9f0dbfce16d7e6610bf14daa21ded5f7f",
+      "predecessorSha256": "3b903a3a90da7b081f287530e83ec0a9f0dbfce16d7e6610bf14daa21ded5f7f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/makrothymia.md",
+      "sha256": "5feafc4621ab532c9997c0feabba8208e95b6e76af1cc90a20c1de3872cb53db",
+      "predecessorSha256": "5feafc4621ab532c9997c0feabba8208e95b6e76af1cc90a20c1de3872cb53db",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/martyria.md",
+      "sha256": "30f5bc6f4a60d3f1f9faf92ae14693bfd33c5f18fc9b1c2d1efb13a9c75a778b",
+      "predecessorSha256": "30f5bc6f4a60d3f1f9faf92ae14693bfd33c5f18fc9b1c2d1efb13a9c75a778b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/mataiotes.md",
+      "sha256": "2d4fb197de2067d7658bd06f2a551dabcb873cc9d1be1219c6ddd3252e023a97",
+      "predecessorSha256": "2d4fb197de2067d7658bd06f2a551dabcb873cc9d1be1219c6ddd3252e023a97",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/mathetes.md",
+      "sha256": "8b7f2b194ce3c1d2df28e6d837ef365546030daffe5a0ad39568860f7fdeb8be",
+      "predecessorSha256": "9e46cd4e3ff885277803e2c8b56a63b36373a4bb98da69fc69d6eccecce51b2a",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/matheteuo.md",
+      "sha256": "207884d97cbebcba9b7c4f6791d22d4865dccb492eed779af5963fffc3a4ea41",
+      "predecessorSha256": "207884d97cbebcba9b7c4f6791d22d4865dccb492eed779af5963fffc3a4ea41",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/mesites.md",
+      "sha256": "056020c54a538e8ddcbf1ba0ddcc11653fb1da4726eac3d8a04c73875ac805a9",
+      "predecessorSha256": "e2c37687c7dfeb87f6bb58b775f438acf27570aad4011c5dc5671b4d5caa817d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/metamelomai.md",
+      "sha256": "3555d8dab25a489bffd269d2c359917f906eb64dd5febe8306608e50caf49d10",
+      "predecessorSha256": "3555d8dab25a489bffd269d2c359917f906eb64dd5febe8306608e50caf49d10",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/metanoia.md",
+      "sha256": "8384d7ab881762c9920f1b81a9a3cb723e8fd44c771d38ca4e3958d8a379a452",
+      "predecessorSha256": "8384d7ab881762c9920f1b81a9a3cb723e8fd44c771d38ca4e3958d8a379a452",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/misthos.md",
+      "sha256": "18d53fc76375d8a263cca4b15eac391fa078260f55faffd36d0664cbcac638c8",
+      "predecessorSha256": "18d53fc76375d8a263cca4b15eac391fa078260f55faffd36d0664cbcac638c8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/monogenes.md",
+      "sha256": "d7e789e57da261894c8fcb3d576c92420ca693613237b6624de33ba0aab4c855",
+      "predecessorSha256": "d7e789e57da261894c8fcb3d576c92420ca693613237b6624de33ba0aab4c855",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/moria.md",
+      "sha256": "1bab055d45c939b7b13f9016f63b622a7fb15fe75893fca40f5358aa9ea5054b",
+      "predecessorSha256": "1bab055d45c939b7b13f9016f63b622a7fb15fe75893fca40f5358aa9ea5054b",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/morphe.md",
+      "sha256": "1a74412ad1a7009f0c92540f29e85fdf5a8ed1cb7e728b47b2b3f6db6c256662",
+      "predecessorSha256": "1a74412ad1a7009f0c92540f29e85fdf5a8ed1cb7e728b47b2b3f6db6c256662",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/mysterion.md",
+      "sha256": "5d7bd8f50282d61d355da9e80443385e1aae3b7aa72bbead17bb39d27f11ed82",
+      "predecessorSha256": "5d7bd8f50282d61d355da9e80443385e1aae3b7aa72bbead17bb39d27f11ed82",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/mythos.md",
+      "sha256": "6e96ee56cd6f16842af24478f839c5131bc2246ff9741a4ff4c1775f423c7fb3",
+      "predecessorSha256": "4ad9648a79e2b3f56991cd4a1621a61435e2e522cac2743cff7b6174a6343799",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/naos.md",
+      "sha256": "3753ff3ee400deb9192f1679970ffdecd102230d8278bcd5600a6bb5e17956f5",
+      "predecessorSha256": "3753ff3ee400deb9192f1679970ffdecd102230d8278bcd5600a6bb5e17956f5",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/nekroo.md",
+      "sha256": "d80b91495f0b0f97a3addee98ca297b2bef27cc6b908a4add8953c0b5959fcd8",
+      "predecessorSha256": "d80b91495f0b0f97a3addee98ca297b2bef27cc6b908a4add8953c0b5959fcd8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/nekros.md",
+      "sha256": "88d80c6a86ed4d1430f36667b505035ed5f05d1ddab712ce06565270ea77bd72",
+      "predecessorSha256": "88d80c6a86ed4d1430f36667b505035ed5f05d1ddab712ce06565270ea77bd72",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/nomos.md",
+      "sha256": "c6bb62b9fcffd0bacedb977e888cb9e1f32aebeb57610d51839667ef8edf7ded",
+      "predecessorSha256": "c91ccb0a38dbc54d3923265365052c138ff8dd566a9b6e17c5b073eb5d83f0b0",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/oikodome.md",
+      "sha256": "ea853cef9c4c32cf172f1ce71a300b2b0a2395ecfa9245bd7338710f9b70d6d5",
+      "predecessorSha256": "ea853cef9c4c32cf172f1ce71a300b2b0a2395ecfa9245bd7338710f9b70d6d5",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/oikonomos.md",
+      "sha256": "fd8c9a72ed70d113df4a0b45f4b5354be59538c9f6f131d5f5c24baed4d1eb09",
+      "predecessorSha256": "fd8c9a72ed70d113df4a0b45f4b5354be59538c9f6f131d5f5c24baed4d1eb09",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/oikos.md",
+      "sha256": "99218c1ccdad1fe612b2052ad17b74713da5e1dfd5813c9f5a40a1ebf91ed7ac",
+      "predecessorSha256": "99218c1ccdad1fe612b2052ad17b74713da5e1dfd5813c9f5a40a1ebf91ed7ac",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/onoma.md",
+      "sha256": "df6c9fa162d562d5a906ee723034e3ac8a703cb651edf26a79fc5c859fe64ce7",
+      "predecessorSha256": "df6c9fa162d562d5a906ee723034e3ac8a703cb651edf26a79fc5c859fe64ce7",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/orge.md",
+      "sha256": "ee8259097a816d8f3393f3be9d113c51e4205cf329c89509b690da5804ed7820",
+      "predecessorSha256": "ee8259097a816d8f3393f3be9d113c51e4205cf329c89509b690da5804ed7820",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/orthotomeo.md",
+      "sha256": "b498c77c48673fd30cd8cc1806c355f3288ff5071bc0e510f4b260bfadf84368",
+      "predecessorSha256": "087b8bc4a28e5ecf8de97792a72bd68c88ac7116eb3aefad03b1eea7397f8317",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/paidagogos.md",
+      "sha256": "c02d799124ed4abc46496f1f3de088035fd1218ac260dc0f56bc3f0fc14c6509",
+      "predecessorSha256": "c02d799124ed4abc46496f1f3de088035fd1218ac260dc0f56bc3f0fc14c6509",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/paliggenesia.md",
+      "sha256": "a008de866b71980de88166d35fc561c4374c0b4a91f01ca1115c3b6a502ddd34",
+      "predecessorSha256": "a008de866b71980de88166d35fc561c4374c0b4a91f01ca1115c3b6a502ddd34",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pantokrator.md",
+      "sha256": "5e8202b1be4a0aa0a45e8f2fcf153ab02df3efd8f0507d9801f08a96a3f65d34",
+      "predecessorSha256": "5e8202b1be4a0aa0a45e8f2fcf153ab02df3efd8f0507d9801f08a96a3f65d34",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/paradosis.md",
+      "sha256": "4bc5f1273061ba8099e2bbda7fe538c14d86903a982e470765f65e300f6ba227",
+      "predecessorSha256": "ed526e5ffc3a2d5079230760861f2da1416b4291907365e72e59b7b86cabed7e",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/paraklesis.md",
+      "sha256": "e50005092f2bffa66985942e677651fc6a056ddb0c53212a94406576b35e13e5",
+      "predecessorSha256": "e50005092f2bffa66985942e677651fc6a056ddb0c53212a94406576b35e13e5",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/parakletos.md",
+      "sha256": "f6ab9898ff34f0a1edad4e4757d54df1c5c1fee8bab7c2745f87e95b0cd1ea30",
+      "predecessorSha256": "f6ab9898ff34f0a1edad4e4757d54df1c5c1fee8bab7c2745f87e95b0cd1ea30",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/paraptoma.md",
+      "sha256": "d1dd64db3af9aaf4970524cc262f548b3811fe1d13f74c1ffcf27ad73ff5534f",
+      "predecessorSha256": "d1dd64db3af9aaf4970524cc262f548b3811fe1d13f74c1ffcf27ad73ff5534f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/paratheke.md",
+      "sha256": "3813844bb7900bdd6493391546eddd69997ff3d2f80ff44348f896a03138edd1",
+      "predecessorSha256": "c469083499f3102d7531a69c2b0386fbdbc3def48a3e97c3c6d65ef0b37458fe",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/paroikos.md",
+      "sha256": "34483dbfe444ef59428fec499c076453df96751d427da28f9dd5496e05ec33c6",
+      "predecessorSha256": "34483dbfe444ef59428fec499c076453df96751d427da28f9dd5496e05ec33c6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/parousia.md",
+      "sha256": "7c6ba2aa87c6b3b3acf8758f1f4b74f1e79eb03f9e0b585128bd647a3018c44f",
+      "predecessorSha256": "55bde8939a480ca3f0289d9c73edc80b39801e1f834615d2e0354294a0949f70",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/parrhesia.md",
+      "sha256": "292364fc19806aba2fb594c22485ece62fec1411398c8da89adfdd29f9255a57",
+      "predecessorSha256": "292364fc19806aba2fb594c22485ece62fec1411398c8da89adfdd29f9255a57",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pater.md",
+      "sha256": "e0c4b8b8354ae8caf553ee3219f03fcdec09355b06eccd8e01ce53a33db1c29e",
+      "predecessorSha256": "31c0e92a8be96b7d7548482edfe1d86fcd52bd3ac82531f7402aaabbd0a6bb88",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/peirasmos.md",
+      "sha256": "c9dc01c809dfbaeeb253cae4bdd8ce278f3011e40645061a3765705877fb7724",
+      "predecessorSha256": "c9dc01c809dfbaeeb253cae4bdd8ce278f3011e40645061a3765705877fb7724",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/peripateo.md",
+      "sha256": "b98e28dc332e7c1382a38326dc5636bac37e263f21aa0ccd12a081e4c741909f",
+      "predecessorSha256": "b98e28dc332e7c1382a38326dc5636bac37e263f21aa0ccd12a081e4c741909f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/perisseuo.md",
+      "sha256": "7a815c5549f5c6f07cd2d90b36782bb4ee2caa63899f19541cc88705a05e25e6",
+      "predecessorSha256": "7a815c5549f5c6f07cd2d90b36782bb4ee2caa63899f19541cc88705a05e25e6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/phobos.md",
+      "sha256": "76af49a262dff494c1ed77ae3844273d4832df30c4fdaba15f7f135cbb63ea3f",
+      "predecessorSha256": "76af49a262dff494c1ed77ae3844273d4832df30c4fdaba15f7f135cbb63ea3f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/phos.md",
+      "sha256": "643921a5ce8e5c47028a403a5f2b6a8f174280f363c6559684f03996c70c6cb6",
+      "predecessorSha256": "643921a5ce8e5c47028a403a5f2b6a8f174280f363c6559684f03996c70c6cb6",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/phthora.md",
+      "sha256": "a0318ba0375bd732c738c87d30374c52c68f5e3a9623ddffebaf9d0bd164beb4",
+      "predecessorSha256": "a0318ba0375bd732c738c87d30374c52c68f5e3a9623ddffebaf9d0bd164beb4",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/physis.md",
+      "sha256": "001063989e2426ce2cf4b168f8378f1c24f05e24298849ad17d254bf84149703",
+      "predecessorSha256": "001063989e2426ce2cf4b168f8378f1c24f05e24298849ad17d254bf84149703",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pisteuo.md",
+      "sha256": "248ccddba30eb99fa75857d793fab81cf48db93ba5e38bb35c1e80615ce0b331",
+      "predecessorSha256": "248ccddba30eb99fa75857d793fab81cf48db93ba5e38bb35c1e80615ce0b331",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pistis.md",
+      "sha256": "7f7a1621efef79d36f8dd9cf2d34ac2cdee0b6ee69468d9f86615f1cdf954f67",
+      "predecessorSha256": "070bd6d3d023fe73fabe5f7b5321d0f3510327aa6363a1af1fe9c74a5fef10c8",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/pistos-ho-logos.md",
+      "sha256": "7d17a9832fa30c9fb1a62a04e1acbcc1e1f103bdd69f6f7ec406de2b5cf72a69",
+      "predecessorSha256": "7d17a9832fa30c9fb1a62a04e1acbcc1e1f103bdd69f6f7ec406de2b5cf72a69",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/planao.md",
+      "sha256": "34bb96be34475e22d295849580db037ee3e9bd392c82e9e97321545c0837e2ff",
+      "predecessorSha256": "34bb96be34475e22d295849580db037ee3e9bd392c82e9e97321545c0837e2ff",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pleroma.md",
+      "sha256": "037f0a659afeb22b7a39db7c3635eef8c0ffd3adc966d6b352e464713882be97",
+      "predecessorSha256": "47473eb74c97f48689b08ddd065bbf4836f51ee7f23682b7f271d32658f1b171",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/pleroo.md",
+      "sha256": "c93b721207e2488820ba3677c2d7bd886f737cbc482f2476b57c1c8509a4186f",
+      "predecessorSha256": "c93b721207e2488820ba3677c2d7bd886f737cbc482f2476b57c1c8509a4186f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/plesion.md",
+      "sha256": "f919bf8a08e24584efb93006bb5251d1631729adb2df649abf5df2717f8507af",
+      "predecessorSha256": "f919bf8a08e24584efb93006bb5251d1631729adb2df649abf5df2717f8507af",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/pneuma.md",
+      "sha256": "9240316ddf9411e2cb96b216bea3794cc6b0a84afe0bd7cf3edb0bb9c51c4f0f",
+      "predecessorSha256": "9240316ddf9411e2cb96b216bea3794cc6b0a84afe0bd7cf3edb0bb9c51c4f0f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/poimen.md",
+      "sha256": "d851ea125982e3bd36c97d32f8a003900316249b900bbc50fbf6732c6b186c29",
+      "predecessorSha256": "d851ea125982e3bd36c97d32f8a003900316249b900bbc50fbf6732c6b186c29",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/poterion.md",
+      "sha256": "d306e54058800d41c7ce882e9466983f4f4326c88d03c2a3de50cda58d9ce0ac",
+      "predecessorSha256": "d306e54058800d41c7ce882e9466983f4f4326c88d03c2a3de50cda58d9ce0ac",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/prautes.md",
+      "sha256": "0560b1d2bc4d525a5fedc2d4b54831df0c23d424b59e4e4ff2c7ef9558f49033",
+      "predecessorSha256": "0560b1d2bc4d525a5fedc2d4b54831df0c23d424b59e4e4ff2c7ef9558f49033",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/presbyteros.md",
+      "sha256": "8081f467a865a162f8aa607dd4289dc4c8062ef030fe3f69ac0d3e5d0a8ee813",
+      "predecessorSha256": "8081f467a865a162f8aa607dd4289dc4c8062ef030fe3f69ac0d3e5d0a8ee813",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/prognosis.md",
+      "sha256": "1c66b6cb4664170e6858b805833052825cfea781ad35cfbf9841cec73f994cbb",
+      "predecessorSha256": "1c66b6cb4664170e6858b805833052825cfea781ad35cfbf9841cec73f994cbb",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/proorizo.md",
+      "sha256": "76f9e01c070ff499162054845261adce18f373c61dc610a54a4129a3bdca11a9",
+      "predecessorSha256": "76f9e01c070ff499162054845261adce18f373c61dc610a54a4129a3bdca11a9",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/proselytos.md",
+      "sha256": "42a05af3c725a7c334c5909403c56b7ae2a0724b815f154310a738049b0f8312",
+      "predecessorSha256": "42a05af3c725a7c334c5909403c56b7ae2a0724b815f154310a738049b0f8312",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/proseuche.md",
+      "sha256": "a3c47757232f02ab81ef35dea22569b0b6dfd733f60daef8be04f5f6d8065888",
+      "predecessorSha256": "a3c47757232f02ab81ef35dea22569b0b6dfd733f60daef8be04f5f6d8065888",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/prosopon.md",
+      "sha256": "b533c556eca3a56e9b6a11e430abeccc77a3b7444344972075228810ebd26fbc",
+      "predecessorSha256": "b533c556eca3a56e9b6a11e430abeccc77a3b7444344972075228810ebd26fbc",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/prothesis.md",
+      "sha256": "963b09b6c38d933357864109cf4e76c94aedbde89c3496dfc12cab4dbb93a650",
+      "predecessorSha256": "3e4e22ce99f4dc6672b15cf13c3cf1bc48c0ea2a193458dced3f7f882f06abfd",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/prototokos.md",
+      "sha256": "e05398358832fee460c912fdb72676f1694b4e3020e3cafb5cc976aac1441009",
+      "predecessorSha256": "3018a91ab83a09ce85e37d71478bbf1ac730d61f93625e9eb23a654a8c9b4c30",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/psyche.md",
+      "sha256": "6f219841c7ebeae008d8161eb1ecea666e8089bff14b866cb0b1ae6842e21432",
+      "predecessorSha256": "6f219841c7ebeae008d8161eb1ecea666e8089bff14b866cb0b1ae6842e21432",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/rhema.md",
+      "sha256": "78b56183831cdc997734b85b828d84f8096f138870a5a1bc37d5165e1f7b44ef",
+      "predecessorSha256": "3d15c79a1b2bcd1aa59e6b66e544ce38ce6f7f2c14a76b5b555990fd3d661b3f",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/sabbatismos.md",
+      "sha256": "eab9d356bf8c1faae9886ab336514b4ad267133437ed9a25751e1926c5319f03",
+      "predecessorSha256": "eab9d356bf8c1faae9886ab336514b4ad267133437ed9a25751e1926c5319f03",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/sarx.md",
+      "sha256": "56ae8c3b2707c2f23fade625392988567e8bcb3bca5ae185174d9a5f84b3550e",
+      "predecessorSha256": "386091e418de830348b99d51b349488f1c3ad7ed0721bfd527359e1abf20f043",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/skandalon.md",
+      "sha256": "007cf627e307e979dfa177a58c0fbd8d16f58e1a9b75abfd6c59e23fc711d888",
+      "predecessorSha256": "007cf627e307e979dfa177a58c0fbd8d16f58e1a9b75abfd6c59e23fc711d888",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/skenoo.md",
+      "sha256": "2a190f118fd114cfc9d924857748ebe9e67976a20bee52bb2c0f7ee7e06df51f",
+      "predecessorSha256": "2a190f118fd114cfc9d924857748ebe9e67976a20bee52bb2c0f7ee7e06df51f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/skia.md",
+      "sha256": "d0ca3ec67e7c0d32b557ac01c127c4fe09bb098aaaea31d3e0eabe6cdaff1581",
+      "predecessorSha256": "d0ca3ec67e7c0d32b557ac01c127c4fe09bb098aaaea31d3e0eabe6cdaff1581",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/skybalon.md",
+      "sha256": "8747869a47c72b1957d1e587b7fbb5ba339a5a6c18de41d08b38a00512d81057",
+      "predecessorSha256": "8747869a47c72b1957d1e587b7fbb5ba339a5a6c18de41d08b38a00512d81057",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/soma.md",
+      "sha256": "7ccce6babafa3dfed60b5d7e05abc23bb4558247117054f8352611ad33568393",
+      "predecessorSha256": "5f4f2991880f1d3434d1c07814f7610d29ac2603b7376c56320065219a7ef3c1",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/soter.md",
+      "sha256": "e9a219c5e14314f9f6d448a5a98bbfb06eb593d8386437e80e546a041c3a46d8",
+      "predecessorSha256": "072dab0055e9b0fa50333a1073fea9da008d47cd84c49efa91da10afdc98d3a9",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/sozo.md",
+      "sha256": "b0872a8f11447e13066bac1399d1bed073fdb9e4f852efc054d014a65dbe0bfb",
+      "predecessorSha256": "e843939ce9eb7f1d28f1c2e57d70071a8274c6967fdfeef93603abacde0b7fd4",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/sphragizo.md",
+      "sha256": "c4a9d506241b5c4b962cd16f23b3ae798629f989f46f6cbccc36e0c87cd1bf98",
+      "predecessorSha256": "c4a9d506241b5c4b962cd16f23b3ae798629f989f46f6cbccc36e0c87cd1bf98",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/splanchna.md",
+      "sha256": "c01054cde899e1f98a748224048bf6b1adcbc6386141a8a1b667918f5d01be51",
+      "predecessorSha256": "c01054cde899e1f98a748224048bf6b1adcbc6386141a8a1b667918f5d01be51",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/stauros.md",
+      "sha256": "ad242bea49e218ee773d1f8a6f4d0de6096c79b8bf741de59ff6c78fb06455d8",
+      "predecessorSha256": "ad242bea49e218ee773d1f8a6f4d0de6096c79b8bf741de59ff6c78fb06455d8",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/stephanos.md",
+      "sha256": "4bc0a1fa542a04746969cd2bb15eaa4711924c65ed9c620c2c0e37211e5c13f5",
+      "predecessorSha256": "4bc0a1fa542a04746969cd2bb15eaa4711924c65ed9c620c2c0e37211e5c13f5",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/stoicheia.md",
+      "sha256": "802a3f103957b808c3dcfb126f9871fe4f1c78efd1ea9f0df7f0b8c8a370d76a",
+      "predecessorSha256": "802a3f103957b808c3dcfb126f9871fe4f1c78efd1ea9f0df7f0b8c8a370d76a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/suneidesis.md",
+      "sha256": "1403bcc9a3bd1b4ab5a0d04ed15af5636e6569c5b8896eb02da24d6b93411241",
+      "predecessorSha256": "1403bcc9a3bd1b4ab5a0d04ed15af5636e6569c5b8896eb02da24d6b93411241",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/synergeo.md",
+      "sha256": "a88a3ca5beaa17a343169b10940c1518f24d7e6219f62324cd67156edb813f0d",
+      "predecessorSha256": "a88a3ca5beaa17a343169b10940c1518f24d7e6219f62324cd67156edb813f0d",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/synthapto.md",
+      "sha256": "bb2bcce1c677209a7be1e5ccba5e660acaf6be4c3cecb59d64bb3db90876ea2a",
+      "predecessorSha256": "bb2bcce1c677209a7be1e5ccba5e660acaf6be4c3cecb59d64bb3db90876ea2a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/tapeinoo.md",
+      "sha256": "715bdd11d66115df3b9dec5215467eecc6d22082f2c9113c78a9b8f667e0aaaf",
+      "predecessorSha256": "715bdd11d66115df3b9dec5215467eecc6d22082f2c9113c78a9b8f667e0aaaf",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/taxis.md",
+      "sha256": "abca2b2cfcf8bb869d6e30528725f75f9d97455fb4406e1ac6a5d041187a1154",
+      "predecessorSha256": "abca2b2cfcf8bb869d6e30528725f75f9d97455fb4406e1ac6a5d041187a1154",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/teleios.md",
+      "sha256": "43edce74517c610e3360f682ae0b44d3f03e13a893b6701d46e00720648d80e6",
+      "predecessorSha256": "1d3bb5f2a6ee8c9b832b95acb601a57ca5926663e868eda60d2800e7b7a784a4",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/teleo.md",
+      "sha256": "97665c63f425e6bf82b60eb45a9006978651f48e93e0b9e2ee6360b8bf3aa013",
+      "predecessorSha256": "97665c63f425e6bf82b60eb45a9006978651f48e93e0b9e2ee6360b8bf3aa013",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/thanatos.md",
+      "sha256": "e43b2459cfdd18d388d78858375b238322cfe0e20da16149bec912d5d58a7134",
+      "predecessorSha256": "b424ef096c84de8cc9b9e4ed2b981398ab0b404ffcf62f029816a9a370ccc61d",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/thelema.md",
+      "sha256": "10d7e0ae9f276c4bb24ce99f40a43a320d2fc301217896d4fb09982b3e62fe9f",
+      "predecessorSha256": "10d7e0ae9f276c4bb24ce99f40a43a320d2fc301217896d4fb09982b3e62fe9f",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/theopneustos.md",
+      "sha256": "a09a2c4ba60127b10a06e8124608301ee96a6cd8aa099db0d5382d3c3f13bb0c",
+      "predecessorSha256": "ab7d1f19c5134457a935c4cf5f97006c33c5592e826669daeb17475690523113",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/theos.md",
+      "sha256": "ced90e9dffb379fd1a2dc963f8f72bd9239c8bb7647db82c55a6e41b61743b29",
+      "predecessorSha256": "4c9660f23afa8b1eae209389fe7377b65fffedbac2f87fb45165a37bbb656d18",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/theotes.md",
+      "sha256": "5ec26226883e2e96b53363b0cfc423e488e40c06e623aeb0427c81187e26d572",
+      "predecessorSha256": "05b624ce380a151df24d8244f75bd34088b1bbaf98aeaa46541a376f3b7be76b",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/thysia.md",
+      "sha256": "7473676c18a03927bd5498d14aa922073d2ce90a5546767e83b800b919bd0983",
+      "predecessorSha256": "7473676c18a03927bd5498d14aa922073d2ce90a5546767e83b800b919bd0983",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/typos.md",
+      "sha256": "1ef6fc8be4ac89ddb629b3b1eafcc3ea1ed68c0414a7d3d38b92b20a0c68886a",
+      "predecessorSha256": "1ef6fc8be4ac89ddb629b3b1eafcc3ea1ed68c0414a7d3d38b92b20a0c68886a",
+      "changed": false
+    },
+    {
+      "file": "articles/raw/zoe.md",
+      "sha256": "837b2d8ed4d4f4202e2d2f8a12e508e65eb9af52fed6ae0e8c91d4a3fe15b605",
+      "predecessorSha256": "0c219b0ee88a76f0129cdbc8ca87917c069a82d9673756f96e25c90c5776c084",
+      "changed": true
+    },
+    {
+      "file": "articles/raw/zoopoieo.md",
+      "sha256": "3d51d6c1f8ee87201f02f7075eb97d48d60d221625c1e5a66b5ecf2d9d4bb654",
+      "predecessorSha256": "3d51d6c1f8ee87201f02f7075eb97d48d60d221625c1e5a66b5ecf2d9d4bb654",
+      "changed": false
+    }
+  ],
+  "articleChanges": [
+    {
+      "id": "AUDIT-027",
+      "slug": "agorazo",
+      "old": "*The reduction of* *“And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation’”* *to symbolic universality without substantive missionary implication.*",
+      "new": "*The reduction of* *“from every tribe and tongue and people and nation”* *to symbolic universality without substantive missionary implication.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-067",
+      "slug": "agorazo",
+      "old": "subhead: \"bought at a price\"",
+      "new": "subhead: \"Bought with a Price\"",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-027-B",
+      "slug": "agorazo",
+      "old": "Revelation 5:9 names the Lamb’s purchase from “And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation’”",
+      "new": "Revelation 5:9 names the Lamb’s purchase from “every tribe and tongue and people and nation”",
+      "findingIds": [
+        "AUDIT-027"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "KIMI-011",
+      "slug": "agorazo",
+      "old": "First, the price is named explicitly: *en tō haimati sou*, “And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation.’”",
+      "new": "First, the price is named explicitly: *en tō haimati sou*, “by Your blood.”",
+      "reason": "Restore the phrase gloss instead of repeating the whole verse.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-015",
+      "slug": "agorazo",
+      "old": "people and nation’” The Greek",
+      "new": "people and nation.’” The Greek",
+      "reason": "Restore sentence punctuation at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-014",
+      "slug": "amen",
+      "old": "‘Amen!’ and ‘Praise the LORD’” Nehemiah",
+      "new": "‘Amen!’ and ‘Praise the LORD!’” Nehemiah",
+      "reason": "Restore the BSB exclamation mark at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "LOCAL-008",
+      "slug": "anastasis",
+      "old": "John 11:24 (Martha: “Martha replied, ‘I know that he will rise again in the resurrection at the last day’”)",
+      "new": "John 11:24 (Martha: “I know that he will rise again in the resurrection at the last day”)",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "KIMI-016",
+      "slug": "anastasis",
+      "old": "Do you believe this” The Greek",
+      "new": "Do you believe this?’” The Greek",
+      "reason": "Restore the question mark and close the nested speech quotation.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-016-B",
+      "slug": "anastasis",
+      "old": "*John 11:23-26.* “Your brother will rise again,’",
+      "new": "*John 11:23-26.* “‘Your brother will rise again,’",
+      "reason": "Open the nested speech quotation that the corrected ending closes.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-030",
+      "slug": "anomia",
+      "old": "Romans 6:19 — Paul speaks of “I am speaking in human terms because of the weakness of your flesh.",
+      "new": "Romans 6:19 — Paul speaks of “offering the parts of your body in slavery to impurity and to escalating wickedness.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-019",
+      "slug": "antilytron",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-024",
+      "slug": "aphesis",
+      "old": "In Matthew 16:19, Christ gives Peter “the keys of the kingdom of heaven” and announces that “Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.” Matthew 18:18 extends this authority to the church corporately.",
+      "new": "In Matthew 16:19, Christ gives Peter “the keys of the kingdom of heaven” and announces that “whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.” Matthew 18:18 extends this authority to the church corporately.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-060",
+      "slug": "aphesis",
+      "old": "daily repentance and daily [*aphesis*](/greek/metanoia/).",
+      "new": "daily [repentance](/greek/metanoia/) and daily *aphesis*.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-050",
+      "slug": "apolytrosis",
+      "old": "and at 1 Peter 1:18 (“from the empty way of life you inherited from your”).",
+      "new": "and at 1 Peter 1:18 (“from the empty way of life you inherited from your forefathers”).",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-028",
+      "slug": "apostolos",
+      "old": "*“As for Titus, he is my partner and fellow worker among you. As for our brothers, they are messengers of the churches, the glory of Christ.” — sent representatives.*",
+      "new": "*“messengers of the churches” — sent representatives.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-004",
+      "slug": "arche",
+      "old": "*John 1:1.* \"In the beginning was the Word, and the Word was with God, and the Word was fully God.\"",
+      "new": "*John 1:1.* \"In the beginning was the Word, and the Word was with God, and the Word was God.\"",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-029",
+      "slug": "arche",
+      "old": "Does “To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true Witness, the Originator of God’s creation” mean Christ is the first thing God created",
+      "new": "Does “the Originator of God’s creation” mean Christ is the first thing God created",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-029-B",
+      "slug": "arche",
+      "old": "Revelation 3:14's “To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true Witness, the Originator of God’s creation”",
+      "new": "Revelation 3:14's “the Originator of God’s creation”",
+      "findingIds": [
+        "AUDIT-029"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-029-C",
+      "slug": "arche",
+      "old": "appeal to “To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true Witness, the Originator of God’s creation”",
+      "new": "appeal to “the Originator of God’s creation”",
+      "findingIds": [
+        "AUDIT-029"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "KIMI-020",
+      "slug": "authenteo",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-018",
+      "slug": "basileia",
+      "old": "Christ's kingdom is “Jesus replied, ‘My kingdom is not from this world.’” and the Lutheran two-kingdoms doctrine clarifies",
+      "new": "Christ's kingdom is “not of this world,” and the Lutheran two-kingdoms doctrine clarifies",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-001",
+      "slug": "basileia",
+      "old": "has already been “He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son,”",
+      "new": "has already been “brought into the kingdom of His beloved Son”",
+      "reason": "Restore the grammatical phrase slot for Colossians 1:13.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-051",
+      "slug": "bema",
+      "old": "The believer receives “For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad.”",
+      "new": "The believer receives “his due for the things done in the body, whether good or bad.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-009",
+      "slug": "chara",
+      "old": "Luke 1:28 (Gabriel to Mary: “The angel appeared to her and said, ‘Greetings, you who are highly favored! The Lord is with you’”)",
+      "new": "Luke 1:28 (Gabriel to Mary: “Greetings, you who are highly favored! The Lord is with you”)",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-019",
+      "slug": "charakter",
+      "old": "The Son is called “the representation of his essence” (Hebrews 1:3, BSB). *Representation* renders *charaktēr*; *essence* renders [hypostasis](/greek/hypostasis/).",
+      "new": "The Son is called “the exact representation of His nature” (Hebrews 1:3, BSB). *Representation* renders *charaktēr*; *nature* renders [hypostasis](/greek/hypostasis/).",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-010",
+      "slug": "charis",
+      "old": "“And if it is by grace, it is no longer by works, otherwise grace would no longer be grace.” (Romans 11:6, BSB)",
+      "new": "“And if it is by grace, then it is no longer by works. Otherwise, grace would no longer be grace.” (Romans 11:6, BSB)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-021",
+      "slug": "charisma",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-066",
+      "slug": "diakonos",
+      "old": "The BSB, BLB, and MSB all print “the women” or “women likewise,”",
+      "new": "The BSB and MSB print “the women,” while the BLB prints “Women likewise,”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-048",
+      "slug": "didaskalia",
+      "old": "and the father is to “These words I am commanding you today are to be upon your hearts.",
+      "new": "and the father is to “teach them diligently to your children”.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-059",
+      "slug": "didaskalia",
+      "old": "1 Timothy 4:1 — “demonic teachings.”",
+      "new": "1 Timothy 4:1 — “the teachings of demons.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-031",
+      "slug": "dikaiosyne",
+      "old": "every religious person of every era — is “Because they were ignorant of God’s righteousness and sought to establish their own, they did not submit to God’s righteousness” and tries to establish “their own” righteousness instead.",
+      "new": "every religious person of every era — is “ignorant of God’s righteousness” and tries to establish “their own” righteousness instead.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-002",
+      "slug": "eirene",
+      "old": "Solomon “For Solomon had dominion over everything west of the Euphrates—over all the kingdoms from Tiphsah to Gaza—and he had peace on all sides.”",
+      "new": "Solomon “had peace on all sides.”",
+      "reason": "Restore the short phrase slot for 1 Kings 4:24.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-058",
+      "slug": "eklektos",
+      "old": "Romans 6:1-2 — “Are we to remain in sin so that grace may increase?”",
+      "new": "Romans 6:1-2 — “Shall we continue in sin so that grace may increase? Certainly not!”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-049",
+      "slug": "eleutheria",
+      "old": "*The* *“But now, having died to what bound us, we have been released from the law, so that we serve in the new way of the Spirit, and not in the old way of the written code.”* *misread as freedom from the Decalogue.*",
+      "new": "*The* *“released from the law”* *misread as freedom from the Decalogue.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-032",
+      "slug": "elpis",
+      "old": "those rich in this present age are warned not to “Instruct those who are rich in the present age not to be conceited",
+      "new": "those rich in this present age are warned not to “put their hope in the uncertainty of wealth”.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-022",
+      "slug": "epiphaneia",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "LOCAL-003",
+      "slug": "ergon",
+      "old": "Adam was placed in the garden “Then the LORD God took the man and placed him in the Garden of Eden to cultivate and keep it.”",
+      "new": "Adam was placed in the garden “to cultivate and keep it”",
+      "reason": "Remove a duplicated subject introduced by a whole-verse fallback.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-033",
+      "slug": "ethnos",
+      "old": "Used once, at Galatians 2:14 — Peter “When I saw that they were not walking in line with the truth of the gospel, I said to Cephas in front of them all,",
+      "new": "Used once, at Galatians 2:14 — Peter “live[d] like a Gentile and not like a Jew”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-023",
+      "slug": "eusebeia",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-069",
+      "slug": "haima",
+      "old": "subhead: \"the new covenant in My blood\"",
+      "new": "subhead: \"The New Covenant in My Blood\"",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-020",
+      "slug": "hiereus",
+      "old": "pronounced in the Erasmian convention as *hee-er-YOOS*, with the accent on the second syllable",
+      "new": "pronounced in the Erasmian convention as *hee-er-YOOS*, with the accent on the third (final) syllable",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-004",
+      "slug": "hiereus",
+      "old": "Paul describing his ministry as “to be a minister of Christ Jesus to the Gentiles in the priestly service of the gospel of God, so that the Gentiles might become an offering acceptable to God, sanctified by the Holy Spirit” in the gospel of God",
+      "new": "Paul describing his ministry as “the priestly service of the gospel of God”",
+      "reason": "Restore the phrase slot for Romans 15:16.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-011",
+      "slug": "homologeo",
+      "old": "“before people” (Matthew 10:32–33, BSB)",
+      "new": "“before men” (Matthew 10:32–33, BSB)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-054",
+      "slug": "homologeo",
+      "old": "as something that took place “Fight the good fight of the faith.",
+      "new": "as something that took place “before many witnesses.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-054-B",
+      "slug": "homologeo",
+      "old": "“Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made the good confession before many witnesses.” (1 Timothy 6:12, BSB) refuses",
+      "new": "“before many witnesses” (1 Timothy 6:12, BSB) refuses",
+      "findingIds": [
+        "AUDIT-054"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-021",
+      "slug": "huiothesia",
+      "old": "pronounced in the Erasmian convention as *hwee-o-the-SEE-a*, with the accent on the fifth syllable",
+      "new": "pronounced in the Erasmian convention as *hwee-o-the-SEE-a*, with the accent on the fourth syllable",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-057",
+      "slug": "huiothesia",
+      "old": "Galatians 3:28 — “There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female—for all of you are one in Christ Jesus.”",
+      "new": "Galatians 3:28 — “There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-001-A",
+      "slug": "huiothesia",
+      "old": "*Huios* (υἱός) means “my firstborn”",
+      "new": "*Huios* (υἱός) means “son”",
+      "reason": "Correct a corrupted lexical gloss.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-001-B",
+      "slug": "huiothesia",
+      "old": "Israel as God's “my firstborn” (Exodus 4:22, BSB)",
+      "new": "Israel as God's “firstborn son” (Exodus 4:22, BSB)",
+      "reason": "Correct the Exodus 4:22 phrase without importing a first-person possessive into the article's grammar.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-001-C",
+      "slug": "huiothesia",
+      "old": "The Pauline use of “my firstborn” language is structural",
+      "new": "The Pauline use of “son” language is structural",
+      "reason": "Correct a second corrupted huios gloss.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-024",
+      "slug": "hygiaino",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-007",
+      "slug": "hyios",
+      "old": "and “And a voice from heaven said, ‘This is My beloved Son, in whom I am well pleased!’” (Isaiah 42:1, the chosen servant)",
+      "new": "and “in whom I am well pleased” (Isaiah 42:1, the chosen servant)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-041",
+      "slug": "hyios",
+      "old": "where the prophet sees “In my vision in the night I continued to watch, and I saw One like the Son of Man coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence” given dominion",
+      "new": "where the prophet sees “One like the Son of Man” given dominion",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-042",
+      "slug": "hyios",
+      "old": "*The* *“I am, said Jesus, ‘and you will see the Son of Man sitting at the right hand of the Power and coming with the clouds of heaven.’ Then the high priest tore his clothes and said, ‘Why do we still need witnesses?’”* *reduction.*",
+      "new": "*The* *“Son of Man = humility”* *reduction.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-013",
+      "slug": "hyios",
+      "old": "Jesus's response (Matthew 16:17): “Jesus replied, ‘Blessed are you, Simon son of Jonah! For this was not revealed to you by flesh and blood, but by My Father in heaven.’”",
+      "new": "Jesus's response (Matthew 16:17): “Blessed are you, Simon son of Jonah! For this was not revealed to you by flesh and blood, but by My Father in heaven.”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "KIMI-012",
+      "slug": "hyios",
+      "old": "‘This is My beloved Son, in whom I am well pleased’” The voice",
+      "new": "‘This is My beloved Son, in whom I am well pleased.’” The voice",
+      "reason": "Restore sentence punctuation at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-056",
+      "slug": "hypakoe",
+      "old": "2 Thessalonians 1:8 — those who “in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus”",
+      "new": "2 Thessalonians 1:8 — those who “do not obey the gospel of our Lord Jesus”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-016",
+      "slug": "iesous",
+      "old": "Matthew 1:21 closes the loop: “She will give birth to a son and you will name him Jesus because he will save his people from their sins.”",
+      "new": "Matthew 1:21 closes the loop: “‘She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.’”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-043",
+      "slug": "iesous",
+      "old": "First, it is identifying the “Therefore God exalted Him to the highest place and gave Him the name above all names,",
+      "new": "First, it is identifying “the name above all names” with the name *Iēsous*,",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-016-B",
+      "slug": "iesous",
+      "old": "*you will name him Jesus*",
+      "new": "*you are to give Him the name Jesus*",
+      "findingIds": [
+        "AUDIT-016"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-016-C",
+      "slug": "iesous",
+      "old": "*For he will save his people from their sins*",
+      "new": "*because He will save His people from their sins*",
+      "findingIds": [
+        "AUDIT-016"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-016-D",
+      "slug": "iesous",
+      "old": "*Matthew 1:21.* \"She will give birth to a son and you will name him Jesus because he will save his people from their sins.\"",
+      "new": "*Matthew 1:21.* \"She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.\"",
+      "findingIds": [
+        "AUDIT-016"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-043-B",
+      "slug": "iesous",
+      "old": "The “Therefore God exalted Him to the highest place and gave Him the name above all names, that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father” climax",
+      "new": "The “name above all names” climax",
+      "findingIds": [
+        "AUDIT-043"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-034",
+      "slug": "karpos",
+      "old": "*The* *“But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law.”* *plural misreading.*",
+      "new": "*The* *“fruit of the Spirit”* *plural misreading.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-034-B",
+      "slug": "karpos",
+      "old": "Many English speakers refer to “But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law”",
+      "new": "Many English speakers refer to the “fruit of the Spirit”",
+      "findingIds": [
+        "AUDIT-034"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-035",
+      "slug": "kenoo",
+      "old": "preaching being “For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power” or boasting being “made empty.”",
+      "new": "preaching being “emptied of its power” or boasting being “made empty.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-036",
+      "slug": "kleronomia",
+      "old": "The inheritance is “Blessed be the God and Father of our Lord Jesus Christ!",
+      "new": "The inheritance is “imperishable, undefiled, and unfading, reserved in heaven for you.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-015",
+      "slug": "kosmos",
+      "old": "John 3:16 — “For this is the way God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.”",
+      "new": "John 3:16 — “For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-037",
+      "slug": "kosmos",
+      "old": "the Samaritans confess that Jesus “They said to the woman, ‘We now believe not only because of your words;",
+      "new": "the Samaritans confess that Jesus “truly is the Savior of the world”.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-038",
+      "slug": "kosmos",
+      "old": "where Paul names “For our struggle is not against flesh and blood, but against the rulers,",
+      "new": "where Paul names “the powers of this world’s darkness” as part of the spiritual hierarchy",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-039",
+      "slug": "kosmos",
+      "old": "*The* *“So also we, when we were minors, were enslaved under the basic forces of the world.”* *reductionism.*",
+      "new": "*The* *“basic forces of the world”* *reductionism.*",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-015-B",
+      "slug": "kosmos",
+      "old": "*John 3:16.* \"For this is the way God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.\"",
+      "new": "*John 3:16.* \"For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.\"",
+      "findingIds": [
+        "AUDIT-015"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-040",
+      "slug": "krisis",
+      "old": "is the same day on which “But for you who fear My name, the sun of righteousness will rise with healing in its wings, and you will go out and leap like calves from the stall” for those who fear God's name.",
+      "new": "is the same day on which “the sun of righteousness will rise with healing in its wings” for those who fear God's name.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-005",
+      "slug": "leitourgia",
+      "old": "*hē diakonia tēs leitourgias tautēs* — “For this ministry of service is not only supplying the needs of the saints but is also overflowing in many expressions of thanksgiving to God.” — combines",
+      "new": "*hē diakonia tēs leitourgias tautēs* — “this ministry of service” — combines",
+      "reason": "Restore the phrase gloss for 2 Corinthians 9:12.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-005",
+      "slug": "logos",
+      "old": "“In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "new": "“In the beginning was the Word, and the Word was with God, and the Word was God.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-023",
+      "slug": "logos",
+      "old": "The other forty-nine words follow.",
+      "new": "",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-025",
+      "slug": "loutron",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-055",
+      "slug": "mathetes",
+      "old": "Matthew 27:57 — Joseph of Arimathea “When it was evening, there came a rich man from Arimathea named Joseph, who himself was a disciple of Jesus.”",
+      "new": "Matthew 27:57 — Joseph of Arimathea “himself was a disciple of Jesus.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-010",
+      "slug": "mathetes",
+      "old": "Thomas saying to his fellow disciples (*symmathētais*), “Then Thomas called Didymus said to his fellow disciples, ‘Let us also go, so that we may die with Him’”",
+      "new": "Thomas saying to his fellow disciples (*symmathētais*), “Let us also go, so that we may die with Him”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-011",
+      "slug": "mathetes",
+      "old": "the Pharisees say of the formerly blind man, “Then they heaped insults on him and said, ‘You are His disciple; we are disciples of Moses’”",
+      "new": "the Pharisees say of the formerly blind man, “You are His disciple; we are disciples of Moses”",
+      "reason": "Remove a duplicated speaker tag.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "KIMI-008-A",
+      "slug": "mathetes",
+      "old": "Luke uses *mathētēs* over thirty times in Acts before reaching this verse.",
+      "new": "Luke uses *mathētēs* ten times in Acts before reaching this verse.",
+      "reason": "Use the exact count from the pinned Nestle analysis before Acts 11:26.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-008-B",
+      "slug": "mathetes",
+      "old": "Acts uses *mathētēs* over thirty times for ordinary believers",
+      "new": "Acts uses *mathētēs* twenty-eight times for ordinary believers",
+      "reason": "Use the exact Acts count from the pinned Nestle analysis.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-008-C",
+      "slug": "mathetes",
+      "old": "the term Acts uses over thirty times for the believers",
+      "new": "the term Acts uses twenty-eight times for the believers",
+      "reason": "Use the exact Acts count from the pinned Nestle analysis.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-026",
+      "slug": "mesites",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-027",
+      "slug": "mythos",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-025",
+      "slug": "nomos",
+      "old": "“we continue in sin so that grace may increase? Certainly not!” (Romans 6:1–2, BSB)",
+      "new": "“Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1–2, BSB)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-028",
+      "slug": "orthotomeo",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "LOCAL-006",
+      "slug": "paradosis",
+      "old": "Jesus “He was delivered over to death for our trespasses and was raised to life for our justification.”",
+      "new": "Jesus “was delivered over to death for our trespasses”",
+      "reason": "Restore the phrase slot for Romans 4:25.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "LOCAL-012",
+      "slug": "paradosis",
+      "old": "He quotes Isaiah 29:13: “Jesus answered them, ‘Isaiah prophesied correctly about you hypocrites, as it is written: ‘These people honor Me with their lips, but their hearts are far from Me. They worship Me in vain; they teach as doctrine the precepts of men.’’”",
+      "new": "He quotes Isaiah 29:13: “These people honor Me with their lips, but their hearts are far from Me. They worship Me in vain; they teach as doctrine the precepts of men.”",
+      "reason": "Remove an unnecessary narrative wrapper and broken nested quotation.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "KIMI-029",
+      "slug": "paratheke",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-014",
+      "slug": "parousia",
+      "old": "1 Corinthians 15:23 — “But each in his own order: Christ, the firstfruits; then when Christ comes, those who belong to him.”",
+      "new": "1 Corinthians 15:23 — “But each in his own turn: Christ the firstfruits; then at His coming, those who belong to Him.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-026",
+      "slug": "parousia",
+      "old": "The Latin Vulgate translates this with *rapiemur* — “After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord.” — and from this Latin word the English term “rapture” derives.",
+      "new": "The Latin Vulgate translates this with *rapiemur* — “we will be caught up” — and from this Latin word the English term “rapture” derives.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-061",
+      "slug": "parousia",
+      "old": "Used six times in the New Testament, mostly in the Pastoral Epistles and Titus.",
+      "new": "Used six times in the New Testament, five of them in the Pastoral Epistles.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-052",
+      "slug": "pater",
+      "old": "Hebrews 7:10 — Levi was “For when Melchizedek met Abraham, Levi was still in the loin of his ancestor.”",
+      "new": "Hebrews 7:10 — Levi was “still in the loin of his ancestor.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-052-B",
+      "slug": "pater",
+      "old": "Jesus tells His critics, “Abraham is our father,’ they replied. ‘If you were children of Abraham,’ said Jesus, ‘you would do the works of Abraham”",
+      "new": "Jesus tells His critics, “If you were children of Abraham, you would do the works of Abraham.”",
+      "findingIds": [
+        "AUDIT-052"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "AUDIT-052-C",
+      "slug": "pater",
+      "old": "Abraham as “And he received the sign of circumcision as a seal of the righteousness that he had by faith while he was still uncircumcised. So then, he is the father of all who believe but are not circumcised, in order that righteousness might be credited to them. And he is also the father of the circumcised who not only are circumcised, but who also walk in the footsteps of the faith that our father Abraham had before he was circumcised.”",
+      "new": "Abraham as “the father of all who believe.”",
+      "findingIds": [
+        "AUDIT-052"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "KIMI-010",
+      "slug": "pater",
+      "old": "The reconstructed Proto-Indo-European form is *pH₂tér-, and it surfaces",
+      "new": "The reconstructed Proto-Indo-European form is *pH₂tér-*, and it surfaces",
+      "reason": "Close the italic span after the reconstructed form.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-017",
+      "slug": "pistis",
+      "old": "Ephesians 2:8 — “For by grace you are saved through faith, and this is not from yourselves, it is the gift of God;”",
+      "new": "Ephesians 2:8 — “For it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God,”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-013",
+      "slug": "pleroma",
+      "old": "The verse is Colossians 2:9: “For in him all the fullness of deity lives in bodily form,”",
+      "new": "The verse is Colossians 2:9: “For in Christ all the fullness of the Deity dwells in bodily form,”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-044",
+      "slug": "prothesis",
+      "old": "The “And we know that God works all things together for the good of those who love Him, who are called according to His purpose” of Romans 8:28 is the practical face of the eternal purpose.",
+      "new": "The “all things together for the good” of Romans 8:28 is the practical face of the eternal purpose.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-009",
+      "slug": "prothesis",
+      "old": "appears twelve times in the New Testament — six times in the showbread sense and six times in the purpose sense",
+      "new": "appears twelve times in the New Testament — four times in the showbread sense and eight times in the purpose sense",
+      "reason": "Use the sense counts verified against the pinned Nestle analysis.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-045",
+      "slug": "prototokos",
+      "old": "When Paul calls Christ the “The Son is the image of the invisible God, the firstborn over all creation” at Colossians 1:15",
+      "new": "When Paul calls Christ “the firstborn over all creation” at Colossians 1:15",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-017",
+      "slug": "prototokos",
+      "old": "the firstborn over all creation” Then",
+      "new": "the firstborn over all creation.” Then",
+      "reason": "Restore sentence punctuation at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-053",
+      "slug": "rhema",
+      "old": "Luke 2:15 — the shepherds' “When the angels had left them and gone into heaven,",
+      "new": "Luke 2:15 — the shepherds' “this thing that has happened”.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-007",
+      "slug": "sarx",
+      "old": "“For I could wish that I myself were cursed and cut off from Christ for the sake of my brothers, my own flesh and blood,”",
+      "new": "“my own flesh and blood”",
+      "reason": "Restore the phrase slot for Romans 9:3.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "AUDIT-046",
+      "slug": "soma",
+      "old": "The third is misreading “For anyone who eats and drinks without recognizing the body eats and drinks judgment on himself” in 1 Corinthians 11:29.",
+      "new": "The third is misreading “recognizing the body” in 1 Corinthians 11:29.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-068",
+      "slug": "soma",
+      "old": "subhead: \"this is My body\"",
+      "new": "subhead: \"This Is My Body\"",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-046-B",
+      "slug": "soma",
+      "old": "On this reading, “For anyone who eats and drinks without recognizing the body eats and drinks judgment on himself” means recognizing",
+      "new": "On this reading, “recognizing the body” means recognizing",
+      "findingIds": [
+        "AUDIT-046"
+      ],
+      "origin": "external-audit-followup"
+    },
+    {
+      "id": "KIMI-030",
+      "slug": "soter",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-009",
+      "slug": "sozo",
+      "old": "“She will give birth to a son and you will name him Jesus because he will save his people from their sins.” (Matthew 1:21, BSB)",
+      "new": "“‘She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.’” (Matthew 1:21, BSB)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-012",
+      "slug": "teleios",
+      "old": "“So then, be perfect, as your heavenly Father is perfect.” (Matthew 5:48, BSB)",
+      "new": "“Be perfect, therefore, as your heavenly Father is perfect.” (Matthew 5:48, BSB)",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-004",
+      "slug": "teleios",
+      "old": "Then the closing sentence: “So then, be perfect, as your heavenly Father is perfect.”",
+      "new": "Then the closing sentence: “Be perfect, therefore, as your heavenly Father is perfect.”",
+      "reason": "Correct the second Matthew 5:48 occurrence.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-047",
+      "slug": "thanatos",
+      "old": "Death becomes, in Paul's striking phrase, the “I am torn between the two. I desire to depart and be with Christ, which is far better indeed”",
+      "new": "Death becomes, in Paul's striking phrase, “to depart and be with Christ”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-031",
+      "slug": "theopneustos",
+      "old": "## Where You'll Meet It",
+      "new": "## Where You’ll Meet It",
+      "reason": "Use the established curly-apostrophe heading style.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-001",
+      "slug": "theos",
+      "old": "renders John 1:1c as “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "new": "renders John 1:1c as “the Word was a god.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-002",
+      "slug": "theos",
+      "old": "The grammar requires the third clause of John 1:1 to read either “In the beginning was the Word, and the Word was with God, and the Word was fully God” or “In the beginning was the Word, and the Word was with God, and the Word was fully God.” (qualitative emphasis). It cannot grammatically read “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "new": "The grammar requires the third clause of John 1:1 to read either “the Word was God” or “the Word was divine” (qualitative emphasis). It cannot grammatically read “the Word was a god.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-003",
+      "slug": "theos",
+      "old": "*John 1:1.* “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "new": "*John 1:1.* “In the beginning was the Word, and the Word was with God, and the Word was God.”",
+      "origin": "external-audit"
+    },
+    {
+      "id": "AUDIT-006",
+      "slug": "theos",
+      "old": "should it begin a new doxology to the Father (“Theirs are the patriarchs, and from them proceeds the human descent of Christ, who is God over all, forever worthy of praise! Amen.”)?",
+      "new": "should the sentence end after “Christ,” followed by a new doxology to the Father?",
+      "origin": "external-audit"
+    },
+    {
+      "id": "LOCAL-014",
+      "slug": "theos",
+      "old": "the people of Lystra cry out that “When the crowds saw what Paul had done, they lifted up their voices in the Lycaonian language: ‘The gods have come down to us in human form’”",
+      "new": "the people of Lystra cry out that “The gods have come down to us in human form”",
+      "reason": "Restore the phrase slot for Acts 14:11.",
+      "origin": "local-reconciliation"
+    },
+    {
+      "id": "KIMI-002",
+      "slug": "theos",
+      "old": "First clause: *en archē ēn ho logos* — \"in the beginning was the Word, and the Word was with God, and the Word was God.\"",
+      "new": "First clause: *en archē ēn ho logos* — \"in the beginning was the Word.\"",
+      "reason": "Match the English gloss to the first Greek clause only.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "KIMI-013",
+      "slug": "theos",
+      "old": "‘My Lord and my God’” In Greek",
+      "new": "‘My Lord and my God.’” In Greek",
+      "reason": "Restore sentence punctuation at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-022",
+      "slug": "theotes",
+      "old": "what Lutherans summarize in a Latin slogan: *theotēs sōmatikōs* — deity, bodily.",
+      "new": "what Lutherans summarize in a Greek phrase: *theotēs sōmatikōs* — deity, bodily.",
+      "origin": "external-audit"
+    },
+    {
+      "id": "KIMI-018",
+      "slug": "theotes",
+      "old": "the fullness of the Deity dwells in bodily form” The Greek",
+      "new": "the fullness of the Deity dwells in bodily form.” The Greek",
+      "reason": "Restore sentence punctuation at the quotation boundary.",
+      "origin": "kimi-audit-reconciliation"
+    },
+    {
+      "id": "AUDIT-008",
+      "slug": "zoe",
+      "old": "“The thief comes only to steal and kill and destroy; I have come so that they may have life, and may have it abundantly.” (John 10:10, BSB)",
+      "new": "“The thief comes only to steal and kill and destroy. I have come that they may have life, and have it in all its fullness.” (John 10:10, BSB)",
+      "origin": "external-audit"
+    }
+  ],
+  "wordMetadataChanges": [
+    {
+      "id": "AUDIT-070",
+      "slug": "bema",
+      "field": "pronunciation",
+      "old": "bēma",
+      "new": "BAY-mah"
+    },
+    {
+      "id": "AUDIT-071",
+      "slug": "eulogeo",
+      "field": "pronunciation",
+      "old": "eulogeō",
+      "new": "yoo-lo-GEH-oh"
+    },
+    {
+      "id": "AUDIT-072",
+      "slug": "mesites",
+      "field": "pronunciation",
+      "old": "mes-EE-tace",
+      "new": "mes-EE-tays"
+    }
+  ],
+  "comparisonChanges": [
+    {
+      "id": "AUDIT-073",
+      "unitId": "candidate-16",
+      "field": "interpretation",
+      "old": "So the healing narrative stands either way, and so does the detail that the sick were waiting for the water to move.",
+      "new": "So the healing narrative stands either way, and verse 7 still shows that the stirring of the water was expected."
+    },
+    {
+      "id": "AUDIT-074",
+      "unitId": "candidate-17",
+      "field": "source:C3",
+      "old": "MSB notes JHN.8.2.note.95 through JHN.8.11.note.107 (eleven); BSB notes JHN.8.note.47, JHN.8.note.48, JHN.8.note.49 (three).",
+      "new": "MSB notes JHN.8.2.note.95 through JHN.8.11.note.107 (thirteen); BSB notes JHN.8.note.47–49 plus one rendering note (four)."
+    },
+    {
+      "id": "AUDIT-075",
+      "unitId": "candidate-21",
+      "field": "sourceObservation",
+      "old": "That is unusual: at comparable places in this collection both send the reader somewhere else in the New Testament where the disputed words also stand, and here neither does [C3].",
+      "new": "That is less common: at several comparable places in this collection both send the reader somewhere else in the New Testament where the disputed words also stand, though not at Mark 7:16, and here neither does [C3]."
+    },
+    {
+      "id": "AUDIT-076",
+      "unitId": "candidate-26",
+      "field": "interpretation",
+      "old": "Under the critical reading the pronoun looks back to the mystery Paul has just announced",
+      "new": "Under the critical reading the pronoun introduces the one in whom the mystery was revealed"
+    },
+    {
+      "id": "AUDIT-077",
+      "unitId": "candidate-11",
+      "field": "sourceObservation",
+      "old": "such markers",
+      "new": "editorial brackets"
+    },
+    {
+      "id": "AUDIT-078",
+      "unitId": "candidate-17",
+      "field": "sourceObservation",
+      "old": "such markers",
+      "new": "editorial brackets"
+    },
+    {
+      "id": "AUDIT-079",
+      "unitId": "candidate-02",
+      "field": "sourceObservation",
+      "old": "which is not always the case in this book",
+      "new": "which is not always the case in this collection"
+    },
+    {
+      "id": "AUDIT-080",
+      "unitId": "candidate-08",
+      "field": "interpretation",
+      "old": "Where they are not, it comes once, at verse 47's conclusion.",
+      "new": "Where they are not, it comes once, at verse 48, after the saying about the eye."
+    },
+    {
+      "id": "AUDIT-081",
+      "unitId": "candidate-01",
+      "field": "sourceObservation",
+      "old": "Both Berean editions footnote it",
+      "new": "The Berean Standard Bible footnotes it"
+    },
+    {
+      "id": "AUDIT-082",
+      "unitId": "candidate-03",
+      "field": "interpretation",
+      "old": "that verse is present in all seven editions compared here, and nothing in this comparison touches it.",
+      "new": "that verse is present in all seven editions compared here [C4], and nothing in this comparison touches it."
+    },
+    {
+      "id": "AUDIT-083",
+      "unitId": "candidate-24",
+      "field": "sourceObservation",
+      "old": "Nestle 1904 has an additional “of the ages” at the end of verse 27 compared with Robinson–Pierpont and Boyd.",
+      "new": "Nestle 1904 has an additional “of the ages” at the end of verse 27 compared with Robinson–Pierpont and Boyd [C6]."
+    },
+    {
+      "id": "AUDIT-084",
+      "unitId": "candidate-05",
+      "field": "sourceObservation",
+      "old": "Ἰησοῦ Χριστοῦ ⟨Υἱοῦ Θεοῦ⟩",
+      "new": "Ἰησοῦ Χριστοῦ <Υἱοῦ Θεοῦ>"
+    },
+    {
+      "id": "AUDIT-085",
+      "unitId": "candidate-18",
+      "field": "interpretation",
+      "old": "*Ad Fontes, Volume One*",
+      "new": "*Ad Fontes – Volume One*"
+    },
+    {
+      "id": "AUDIT-087",
+      "unitId": "candidate-29",
+      "field": "sourceObservation",
+      "old": "and the benediction naming Father, Son and Holy Spirit.",
+      "new": "and the benediction naming the Lord Jesus Christ, God, and the Holy Spirit."
+    },
+    {
+      "id": "KIMI-041",
+      "unitId": "candidate-17",
+      "field": "sourceObservation",
+      "old": "These seventeen Berean notes",
+      "new": "These seventeen publisher notes"
+    },
+    {
+      "id": "AUDIT-088",
+      "unitId": "candidate-19",
+      "field": "relatedUnits",
+      "old": [],
+      "new": [
+        "candidate-12"
+      ]
+    },
+    {
+      "id": "AUDIT-088",
+      "unitId": "candidate-12",
+      "field": "relatedUnits",
+      "old": [
+        "candidate-23",
+        "candidate-04"
+      ],
+      "new": [
+        "candidate-23",
+        "candidate-04",
+        "candidate-19"
+      ]
+    }
+  ],
+  "comparisonReviewHashes": [
+    {
+      "unitId": "candidate-01",
+      "previousReviewPayloadSha256": "8f6ab13ab75121de3d50cb21d688c6675c40047159e0c3a3a2efaf732d7da23d",
+      "candidateReviewPayloadSha256": "e7d9b49d19780226b441bd83f13edeb54b02816bc822231af236983f22670d4e",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-02",
+      "previousReviewPayloadSha256": "d1ff8fea6bf86f0204aaa40c4bf7eb9539db60d594ad2b32ba6bccc049205742",
+      "candidateReviewPayloadSha256": "3ae168ca27d17f2f034d0043b1995d6b522d18192bbf269d6327b93dd54e6c22",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-03",
+      "previousReviewPayloadSha256": "0f6f2adff71f9a99fb8b8f8551928ebddc83e85b826f5e4f97ebe9b41a8282f5",
+      "candidateReviewPayloadSha256": "d872ea0f7c4ce43b703dec070fd3a1dd6bbc7b493a12a63ab8e7a3d513609e1e",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-05",
+      "previousReviewPayloadSha256": "11917649f012805f96e76f1d861e3e70d9cdb2e54a22c3a71f6a37ecbef22db1",
+      "candidateReviewPayloadSha256": "cfac7774b51e12296ad6583d880be2791e5b6567fbb39f4961bbaf4ffa58f16c",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-08",
+      "previousReviewPayloadSha256": "425e7ca336d2d72c2e556483a7ea6899201e2e7a58ac8c4eeba90f5dbdb6f554",
+      "candidateReviewPayloadSha256": "0b9f1298581a2a5d7792dd2c9ef8caa0f26afedebb5748de8117dcb006c10abf",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-11",
+      "previousReviewPayloadSha256": "f42d3aa0ce4222d54726a131f6de132ed232a4029fe60e94a05215bc4685397e",
+      "candidateReviewPayloadSha256": "2af1f0dd8356164039d9abb83b84dbd05d936413b6ad7bc2d9216fbbc84f18ab",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-12",
+      "previousReviewPayloadSha256": "5058e6edb899649622faf1fe494a9a9d4ff07561bd957534f2b8f63db53c169a",
+      "candidateReviewPayloadSha256": "7bc573cac45a13ccb3d46c8a204c075ad63435c64cca45c7a4a027a9b451e6af",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-16",
+      "previousReviewPayloadSha256": "e96ae382653be210f45467b1b4c648ee671ac5952a0f1b874401d8159c2bbe1f",
+      "candidateReviewPayloadSha256": "ea04cdbd0df0d6d0f04d6965d641ba814586bb95daeff862056cd471774431c4",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-17",
+      "previousReviewPayloadSha256": "59bd74f4902771fe8dda8f2588a6056503d738de3a30971909836770e9b4985e",
+      "candidateReviewPayloadSha256": "01af42e437365ee025d80ca958d968d0f0cd13ad25729a82ed1172ed0893455b",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-18",
+      "previousReviewPayloadSha256": "d0816511351dd32a70a658be5dc3530763cacc9a3ee58cfbc8000ab63653249e",
+      "candidateReviewPayloadSha256": "8ff420112402fea02d97accc30460620a1f6fcedd916ae0cac9d99125a550202",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-19",
+      "previousReviewPayloadSha256": "a1bfa544c5a9da34e5233386b6ce3fee33cd6faad24260a30872d390f9f5fe3c",
+      "candidateReviewPayloadSha256": "10e415c33a6e5a376fffa25ca606d6c965f6182736cca5ae7b5bd11640c63beb",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-21",
+      "previousReviewPayloadSha256": "f7cb8bbf1ab9d360b647011a13926001966075427169ff843de284361e707e19",
+      "candidateReviewPayloadSha256": "73ac40d498f00c6dd153d05b832fdde3992386084452551e262bcc71ffdf0ec6",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-24",
+      "previousReviewPayloadSha256": "6ed96e1ea5863cc31e9737396fe986dc062ab1329605a725288c81dec99bf7bf",
+      "candidateReviewPayloadSha256": "e376cb7a8d37218330fd7b71dde56bc9d6327f0ce96ce5ad68e4ce6a9e7beacb",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-26",
+      "previousReviewPayloadSha256": "3b41e56964bbb3d15777050f04a57355123851ee167b812d5d749be5ae743805",
+      "candidateReviewPayloadSha256": "0ab8b6197c4f9d10b0e3567bc6c171b87eafdb1ac68d498a29c4b2610c8d8937",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-29",
+      "previousReviewPayloadSha256": "e69289d7f6318965309f6b6aa36bf60ff6bc4a27698b23bd79fce0b2f3b06fd4",
+      "candidateReviewPayloadSha256": "55e9af8599a422cbc640713bab68ed12ddc2a729f77554dd76ab05ec648b0219",
+      "previousApprovalInvalidated": true
+    }
+  ]
+}

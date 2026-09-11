@@ -15,6 +15,20 @@ import { getAnalysis, getOccurrences, getLexicon, describeMorph, highlightOccurr
 const root = new URL("../", import.meta.url),
   read = async (p: string) => JSON.parse(await readFile(new URL(p, root), "utf8"));
 const candidates: Variant[] = await read("content/editorial/variants.json");
+const auditCandidate = await read("sources/om-studies/om-studies-2026-09-11-v6/evidence/CANDIDATE-MANIFEST.json");
+const auditReviewByUnit = new Map(auditCandidate.comparisonReviewHashes.map((row: {unitId:string}) => [row.unitId, row]));
+const applyAuditSignificance = (id: string, sourceObservation: string, interpretation: string) => {
+  for (const change of auditCandidate.comparisonChanges.filter((row: {unitId:string}) => row.unitId === id)) {
+    if (!['sourceObservation','interpretation'].includes(change.field)) continue;
+    const current = change.field === 'sourceObservation' ? sourceObservation : interpretation;
+    assert.equal(current.split(change.old).length - 1, 1, `${change.id} ${id}`);
+    if (change.field === 'sourceObservation') sourceObservation = sourceObservation.replace(change.old, change.new);
+    else interpretation = interpretation.replace(change.old, change.new);
+  }
+  return {sourceObservation, interpretation};
+};
+const expectedContributionHash = (id: string, currentHash: string) =>
+  (auditReviewByUnit.get(id) as {previousReviewPayloadSha256:string} | undefined)?.previousReviewPayloadSha256 ?? currentHash;
 const adapters = new Map<string, ReturnType<typeof createLocalAdapter>>();
 const adapter = (id: string) => {
   if (!adapters.has(id))
@@ -418,12 +432,12 @@ test('batch 5 public prose matches returned A-C plus exact approved corrections 
       assert.equal(Number(b.includes(old))+Number(c.includes(old)),1);
       b=b.replace(old,replacement);c=c.replace(old,replacement);
     }
-    assert.deepEqual(v.significance,{sourceObservation:b,interpretation:c});
+    assert.deepEqual(v.significance,applyAuditSignificance(id,b,c));
     assert.equal(v.status,'approved');
     assert.equal(v.attestations.length,0);
     const contribution=await read('content/editorial/contributions/'+id+'.json');
     assert.equal(contribution.returnedSha256,createHash('sha256').update(returned).digest('hex'));
-    assert.equal(contribution.approvedContentHash,hash(v));
+    assert.equal(contribution.approvedContentHash,expectedContributionHash(id,hash(v)));
   }
   for (const [a,b] of [['candidate-15','candidate-26'],['candidate-29','candidate-30']]) {
     assert(candidates.find(v=>v.id===a)!.relatedUnits!.includes(b));
@@ -448,12 +462,12 @@ test('batch 6 public prose matches returned A-C plus exact approved corrections 
       assert.equal(Number(b.includes(old))+Number(c.includes(old)),1);
       b=b.replace(old,replacement);c=c.replace(old,replacement);
     }
-    assert.deepEqual(v.significance,{sourceObservation:b,interpretation:c});
+    assert.deepEqual(v.significance,applyAuditSignificance(id,b,c));
     assert.equal(v.status,'approved');
     assert.equal(v.attestations.length,0);
     const contribution=await read('content/editorial/contributions/'+id+'.json');
     assert.equal(contribution.returnedSha256,createHash('sha256').update(returned).digest('hex'));
-    assert.equal(contribution.approvedContentHash,hash(v));
+    assert.equal(contribution.approvedContentHash,expectedContributionHash(id,hash(v)));
   }
   for (const id of ['candidate-04','candidate-12','candidate-23']) {
     for(const other of ['candidate-04','candidate-12','candidate-23'].filter(x=>x!==id))
@@ -493,12 +507,12 @@ test('batch 4 public prose matches returned A-C plus exact approved corrections 
       assert.equal(Number(b.includes(old))+Number(c.includes(old)),1);
       b=b.replace(old,replacement).replace('editors ;','editors;');c=c.replace(old,replacement).replace('editors ;','editors;');
     }
-    assert.deepEqual(v.significance,{sourceObservation:b,interpretation:c});
+    assert.deepEqual(v.significance,applyAuditSignificance(id,b,c));
     assert.equal(v.status,'approved');
     assert.equal(v.attestations.length,0);
     const contribution=await read('content/editorial/contributions/'+id+'.json');
     assert.equal(contribution.returnedSha256,createHash('sha256').update(returned).digest('hex'));
-    assert.equal(contribution.approvedContentHash,hash(v));
+    assert.equal(contribution.approvedContentHash,expectedContributionHash(id,hash(v)));
   }
 });
 

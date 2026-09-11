@@ -40,3 +40,5 @@ The five website articles were inspected in the user-supplied local website proj
 ## September 6 — 250-entry refresh
 
 `dodson-2010-v3` adds the 250-record snapshot `sources/word-explorer/words-2026-09-06-250.json` with a new input/output manifest. All 39 additional articles match indexed analysis headwords through NFC/case normalization; no new aliases are needed. Every prior definition, link field and explicit alias remains unchanged. Both earlier snapshots and manifests remain independently reproducible. Three previously unmatched website headwords remain outside current indexed matching; all new additions are linked. No article prose or dictionary definitions changed.
+
+`dodson-2010-v4` preserves all 250 links, definitions and aliases while selecting the approved `sources/word-explorer/words-2026-09-11-250.json` metadata successor. Only the pronunciation fields for Bēma, Eulogeō and Mesitēs change; the exact candidate approval and field deltas are bound in `manifest-v4.json`. Earlier word metadata and lexical bundles remain immutable and reproducible.

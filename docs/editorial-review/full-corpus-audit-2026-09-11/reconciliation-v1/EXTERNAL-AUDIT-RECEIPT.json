@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "receivedZip": "Claude-audit.zip",
+  "receivedZipSha256": "e3109974da7f0d5b5cb44a6127a03205c7764e23c4f0fe37820b1f75da9098e5",
+  "inputPacketManifestSha256": "7d54757af5da94553a87c0d546e78b34e54aea0c0f785ff82e4fb77e7fd62c06",
+  "files": {
+    "AUDIT-SUMMARY.md": "74acf096406d4956fc3d97e12dc9aca186ca5be4503db647e0d80e9d91d2490f",
+    "COMMAND-AND-TOOL-LOG.md": "593cb3f365e6689a5f52cd49b21e60d1265a4c2df1fdcff59e23a1bc7ff6b025",
+    "COVERAGE.json": "cee5aa623394d160cd82aaedd0af8a9c05ee54f2d9a45e09406b4d9c0cc4b315",
+    "FINDINGS.json": "8fda322174a556525cb8afc211751e6e7b32b1064f0fc775b7f214bd1bbfbff6",
+    "HUMAN-REVIEW-QUEUE.md": "7050a657077045fc9deef4cd8d51f672fa839d8eb1f32ee23f55290a1e0e06c6",
+    "METHODOLOGY.md": "fa52b98523baf91dd2aaf73555d18af2f6a322adf125f8c5ed0ed5aed5525a0f"
+  }
+}

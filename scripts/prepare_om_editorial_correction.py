@@ -107,6 +107,8 @@ for slug in sorted(predecessor_articles):
             "old": old,
             "new": change["new"],
             "reason": change["reason"],
+            "findingIds": change.get("findingIds", []),
+            "fallbackKeys": change.get("fallbackKeys", []),
         })
     target = args.output / "raw" / f"{slug}.md"
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -148,12 +150,15 @@ validation = {
     "changedArticles": [row["slug"] for row in changed_files],
     "replacementCount": len(applied),
     "predecessorVerified": True,
-    "scope": "Exact word-count and language-label corrections only; no Scripture or corpus data changed.",
+    "scope": spec.get(
+        "scope",
+        "Exact editorial corrections only; no Scripture corpus data changed.",
+    ),
 }
 (args.output / "VALIDATION.json").write_bytes(encoded(validation))
 
 review_lines = [
-    "# OM article count-correction candidate",
+    "# OM article editorial-correction candidate",
     "",
     f"Candidate manifest SHA-256: `{sha(manifest_bytes)}`",
     "",

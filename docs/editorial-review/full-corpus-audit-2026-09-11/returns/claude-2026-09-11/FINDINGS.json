@@ -1,0 +1,2276 @@
+{
+  "schemaVersion": 1,
+  "auditId": "afnt-full-corpus-audit-2026-09-11-v1-external-review-claude-1",
+  "packetManifestSha256": "7d54757af5da94553a87c0d546e78b34e54aea0c0f785ff82e4fb77e7fd62c06",
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "line 116",
+      "exactExcerpt": "renders John 1:1c as “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S1",
+      "confidence": "high",
+      "problem": "The sentence attributes to the New World Translation a rendering of all of John 1:1 that ends “the Word was fully God.” The paragraph goes on to say the Watch Tower uses the missing article to argue the Word is “not the God but only a god.” The quoted text cannot be the rendering that argument depends on, so the section now misstates the position it refutes.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 116",
+          "observation": "Same paragraph: the argument described is that the Word is only “a god,” which contradicts the quoted rendering."
+        },
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 37",
+          "observation": "Elsewhere the corpus quotes John 1:1 ending “the Word was God,” so the “fully God” wording is not used consistently."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the quotation with the New World Translation’s actual rendering of John 1:1c (confirm the exact wording against the original article or the NWT).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse. The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-002",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "line 118",
+      "exactExcerpt": "The grammar requires the third clause of John 1:1 to read either “In the beginning was the Word, and the Word was with God, and the Word was fully God” or “In the beginning was the Word, and the Word was with God, and the Word was fully God.” (qualitative emphasis). It cannot grammatically read “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "category": "presentation-affecting-meaning",
+      "classification": "confirmed-error",
+      "severity": "S1",
+      "confidence": "high",
+      "problem": "The sentence names three readings, two it allows and one it rules out, but all three quotations are the same whole-verse text. So it says the grammar requires a reading and also that the grammar cannot yield that same reading. The argument about the anarthrous predicate is left without content.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 118",
+          "observation": "All three quoted strings are identical."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Restore the three short clause renderings the argument needs, e.g. a definite rendering, a qualitative rendering, and the excluded indefinite rendering (wording to be supplied from the original article and checked against the pinned BSB).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-003",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "line 88",
+      "exactExcerpt": "*John 1:1.* “In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "In the BSB-adapted article, John 1:1 is quoted ending “the Word was fully God,” while other articles in the same release quote the verse ending “the Word was God.” At most one of these can be the BSB wording.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 37",
+          "observation": "John 1:1 ending “the Word was God.”"
+        },
+        {
+          "file": "corpora/om-articles/rhema.md",
+          "locator": "line 65",
+          "observation": "Same wording, “the Word was God.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the pinned BSB wording of John 1:1 (the logos.md line 37 form, if confirmed).",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-004",
+      "corpus": "om-article",
+      "recordId": "arche",
+      "file": "corpora/om-articles/arche.md",
+      "section": "line 86",
+      "exactExcerpt": "*John 1:1.* \"In the beginning was the Word, and the Word was with God, and the Word was fully God.\"",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "John 1:1 is quoted ending “the Word was fully God,” conflicting with the corpus’s other wording of the verse (“the Word was God”).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 37",
+          "observation": "Conflicting wording of the same verse."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the pinned BSB wording of John 1:1.",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-005",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "file": "corpora/om-articles/logos.md",
+      "section": "line 61",
+      "exactExcerpt": "“In the beginning was the Word, and the Word was with God, and the Word was fully God.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Within this article John 1:1 appears in two different wordings: line 37 ends “the Word was God,” and this range-of-meaning bullet ends “the Word was fully God.”",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 37",
+          "observation": "Same article, different wording of the same verse."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-37 wording (if it is the pinned BSB wording).",
+      "requiresHumanReview": true,
+      "notes": "logos.md is one of the six v5-corrected articles; this line was not part of the approved correction set. The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-006",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "line 94",
+      "exactExcerpt": "should it begin a new doxology to the Father (“Theirs are the patriarchs, and from them proceeds the human descent of Christ, who is God over all, forever worthy of praise! Amen.”)?",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The parenthesis is meant to show the alternative punctuation, in which the clause becomes a separate doxology to the Father. Instead it quotes the reading that calls Christ “God over all,” the same text quoted immediately before as the verse itself. The illustration contradicts the alternative it names.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 94",
+          "observation": "The verse quotation at the start of the paragraph is identical in wording to the parenthetical “alternative.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the parenthesis with a rendering that actually punctuates the clause as a separate doxology (wording to be supplied), or delete the parenthesis.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-007",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "section": "line 115",
+      "exactExcerpt": "and “And a voice from heaven said, ‘This is My beloved Son, in whom I am well pleased!’” (Isaiah 42:1, the chosen servant)",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The sentence lists “three phrases” in the baptismal voice that echo the Old Testament. The third item is not a phrase but the whole of Matthew 3:17, speech introduction included, and it is labeled Isaiah 42:1. As written, a New Testament verse is presented as the Isaiah text it echoes.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hyios.md",
+          "locator": "line 115",
+          "observation": "The same paragraph opens with this verse as Matthew 3:17 and gives the Greek phrase en hō eudokēsa, the phrase that echoes Isaiah 42:1."
+        }
+      ],
+      "observedTokens": [
+        "1: “my Son” (Psalm 2:7)",
+        "2: “the beloved” (Genesis 22)",
+        "3: [whole verse Matthew 3:17] (labeled Isaiah 42:1)"
+      ],
+      "statedCount": 3,
+      "observedCount": 3,
+      "suggestedMinimalCorrection": "Replace the third item with the phrase “in whom I am well pleased” (Isaiah 42:1, the chosen servant).",
+      "requiresHumanReview": false,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse. The count of three is right; the third element is the wrong unit and carries the wrong reference."
+    },
+    {
+      "id": "AUDIT-008",
+      "corpus": "om-article",
+      "recordId": "zoe",
+      "file": "corpora/om-articles/zoe.md",
+      "section": "line 31",
+      "exactExcerpt": "“The thief comes only to steal and kill and destroy; I have come so that they may have life, and may have it abundantly.” (John 10:10, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The article quotes John 10:10 twice, both times labeled BSB, in different wordings (“may have it abundantly” here; “have it in all its fullness” at line 92). Both cannot be the BSB.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/zoe.md",
+          "locator": "line 92",
+          "observation": "Conflicting BSB-labeled wording of the same verse in the same article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-92 wording (if it matches the pinned BSB).",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-009",
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "file": "corpora/om-articles/sozo.md",
+      "section": "line 31",
+      "exactExcerpt": "“She will give birth to a son and you will name him Jesus because he will save his people from their sins.” (Matthew 1:21, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Matthew 1:21 is quoted twice in this article, both times labeled BSB, in different wordings (“you will name him Jesus” here; “you are to give Him the name Jesus” at line 59).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/sozo.md",
+          "locator": "line 59",
+          "observation": "Conflicting BSB-labeled wording in the same article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-59 wording (if it matches the pinned BSB).",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-010",
+      "corpus": "om-article",
+      "recordId": "charis",
+      "file": "corpora/om-articles/charis.md",
+      "section": "line 31",
+      "exactExcerpt": "“And if it is by grace, it is no longer by works, otherwise grace would no longer be grace.” (Romans 11:6, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Romans 11:6 is quoted twice, both times labeled BSB, in different wordings (line 31 lacks “then” and punctuates differently from the blockquote at line 62).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/charis.md",
+          "locator": "line 62",
+          "observation": "Conflicting BSB-labeled wording in the same article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-62 wording (if it matches the pinned BSB).",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-011",
+      "corpus": "om-article",
+      "recordId": "homologeo",
+      "file": "corpora/om-articles/homologeo.md",
+      "section": "line 97",
+      "exactExcerpt": "“before people” (Matthew 10:32–33, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "“before people” is presented as a BSB quotation of Matthew 10:32–33, but the article’s own BSB blockquote of those verses reads “before men.”",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/homologeo.md",
+          "locator": "line 59",
+          "observation": "The BSB-labeled blockquote of the same verses reads “before men.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "“before men” (Matthew 10:32–33, BSB)",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-012",
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "file": "corpora/om-articles/teleios.md",
+      "section": "line 31",
+      "exactExcerpt": "“So then, be perfect, as your heavenly Father is perfect.” (Matthew 5:48, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The article’s key verse is labeled BSB and begins “So then.” Line 77 quotes the same wording and then says “The “therefore” connects the teleios command…”, referring to a word the quotation does not contain. The prose presupposes a different rendering from the one quoted.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/teleios.md",
+          "locator": "line 77",
+          "observation": "The prose refers to “therefore,” which is absent from both quotations of the verse."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace both quotations (lines 31 and 77) with the pinned BSB wording of Matthew 5:48.",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-013",
+      "corpus": "om-article",
+      "recordId": "pleroma",
+      "file": "corpora/om-articles/pleroma.md",
+      "section": "line 35",
+      "exactExcerpt": "The verse is Colossians 2:9: “For in him all the fullness of deity lives in bodily form,”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The article’s opening quotation of its key verse differs from its own BSB blockquote of Colossians 2:9 (“For in Christ all the fullness of the Deity dwells in bodily form”). The opening wording is not identified as another edition.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pleroma.md",
+          "locator": "line 66",
+          "observation": "BSB-labeled wording in the same article."
+        },
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 29",
+          "observation": "The theotes article gives the same BSB wording as pleroma line 66."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-66 wording.",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-014",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "file": "corpora/om-articles/parousia.md",
+      "section": "line 144",
+      "exactExcerpt": "1 Corinthians 15:23 — “But each in his own order: Christ, the firstfruits; then when Christ comes, those who belong to him.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The article quotes 1 Corinthians 15:23 in two wordings. Line 86 is a BSB-labeled blockquote (“each in his own turn … then at His coming”), and this line gives different, unlabeled wording.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/parousia.md",
+          "locator": "line 86",
+          "observation": "BSB-labeled wording in the same article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-86 wording.",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-015",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "file": "corpora/om-articles/kosmos.md",
+      "section": "line 73",
+      "exactExcerpt": "John 3:16 — “For this is the way God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "John 3:16 appears in this article as a BSB-labeled blockquote (line 31, “For God so loved the world that He gave His one and only Son…”) and twice in different wording (line 73 and the verse heading at line 87).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/kosmos.md",
+          "locator": "line 31",
+          "observation": "BSB-labeled wording in the same article."
+        },
+        {
+          "file": "corpora/om-articles/kosmos.md",
+          "locator": "line 87",
+          "observation": "Second occurrence of the non-BSB wording."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-31 wording at lines 73 and 87.",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-016",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "file": "corpora/om-articles/iesous.md",
+      "section": "line 145",
+      "exactExcerpt": "Matthew 1:21 closes the loop: “She will give birth to a son and you will name him Jesus because he will save his people from their sins.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The article’s BSB blockquote of Matthew 1:21 (line 33) reads “you are to give Him the name Jesus,” but lines 35, 83 and 145 use “you will name him Jesus.” Line 35 comments on that wording in italics.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "line 33",
+          "observation": "BSB-labeled wording in the same article."
+        },
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "line 35",
+          "observation": "Commentary on the non-BSB wording."
+        },
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "line 83",
+          "observation": "Another occurrence."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-33 wording at lines 83 and 145, and adjust the italic phrase at line 35 to match.",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-017",
+      "corpus": "om-article",
+      "recordId": "pistis",
+      "file": "corpora/om-articles/pistis.md",
+      "section": "line 103",
+      "exactExcerpt": "Ephesians 2:8 — “For by grace you are saved through faith, and this is not from yourselves, it is the gift of God;”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Ephesians 2:8 is quoted at line 77 as a BSB blockquote (“For it is by grace you have been saved…”) and at line 103 in different wording.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pistis.md",
+          "locator": "line 77",
+          "observation": "BSB-labeled wording in the same article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the line-77 wording.",
+      "requiresHumanReview": false,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-018",
+      "corpus": "om-article",
+      "recordId": "basileia",
+      "file": "corpora/om-articles/basileia.md",
+      "section": "line 177",
+      "exactExcerpt": "Christ's kingdom is “Jesus replied, ‘My kingdom is not from this world.’” and the Lutheran two-kingdoms doctrine clarifies",
+      "category": "scripture-reference-or-quotation",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Two problems in this heading sentence. (1) A whole speech introduction was inserted where the predicate phrase belongs, so the sentence reads “Christ’s kingdom is ‘Jesus replied, …’”. (2) The wording “not from this world” conflicts with the article’s other quotations of John 18:36 (“not of this world”).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/basileia.md",
+          "locator": "line 137",
+          "observation": "Same verse quoted with “not of this world.”"
+        },
+        {
+          "file": "corpora/om-articles/basileia.md",
+          "locator": "line 147",
+          "observation": "Another occurrence with “not of this world.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Christ's kingdom is “not of this world,” and the Lutheran two-kingdoms doctrine clarifies",
+      "requiresHumanReview": false,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse. The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-019",
+      "corpus": "om-article",
+      "recordId": "charakter",
+      "file": "corpora/om-articles/charakter.md",
+      "section": "line 41",
+      "exactExcerpt": "The Son is called “the representation of his essence” (Hebrews 1:3, BSB). *Representation* renders *charaktēr*; *essence* renders [hypostasis](/greek/hypostasis/).",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The headword article presents “the representation of his essence” as the BSB wording of Hebrews 1:3 and builds its explanation on “essence.” Two other articles quote Hebrews 1:3 as BSB with “the exact representation of His nature.” The BSB label and the “essence renders hypostasis” explanation are therefore unsupported within the release.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hypostasis.md",
+          "locator": "line 70",
+          "observation": "BSB-labeled blockquote of Hebrews 1:3."
+        },
+        {
+          "file": "corpora/om-articles/apaugasma.md",
+          "locator": "line 43",
+          "observation": "Same BSB-labeled wording."
+        },
+        {
+          "file": "corpora/om-articles/hypostasis.md",
+          "locator": "line 114",
+          "observation": "Explicit BSB attribution of “nature.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The Son is called “the exact representation of His nature” (Hebrews 1:3, BSB). *Representation* renders *charaktēr*; *nature* renders [hypostasis](/greek/hypostasis/).",
+      "requiresHumanReview": true,
+      "notes": "The correction changes an explanatory gloss in a headword article, so it needs author approval. The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-020",
+      "corpus": "om-article",
+      "recordId": "hiereus",
+      "file": "corpora/om-articles/hiereus.md",
+      "section": "line 47 (The Word)",
+      "exactExcerpt": "pronounced in the Erasmian convention as *hee-er-YOOS*, with the accent on the second syllable",
+      "category": "word-or-element-count",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The stated accented syllable does not match the pronunciation guide given in the same sentence. The guide has three syllables, and the capitalized one is the third (final). The Greek ἱερεύς is also accented on its final syllable.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hiereus.md",
+          "locator": "line 6",
+          "observation": "Front matter gives the same three-syllable guide."
+        }
+      ],
+      "observedTokens": [
+        "hee",
+        "er",
+        "YOOS"
+      ],
+      "statedCount": 2,
+      "observedCount": 3,
+      "suggestedMinimalCorrection": "with the accent on the third (final) syllable",
+      "requiresHumanReview": false,
+      "notes": "Counts are syllable positions: stated ordinal “second,” observed stressed position 3 of 3."
+    },
+    {
+      "id": "AUDIT-021",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "file": "corpora/om-articles/huiothesia.md",
+      "section": "line 41 (The Word)",
+      "exactExcerpt": "pronounced in the Erasmian convention as *hwee-o-the-SEE-a*, with the accent on the fifth syllable",
+      "category": "word-or-element-count",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The pronunciation guide has five syllables with the fourth capitalized; the Greek υἱοθεσία is accented on σί, the fourth syllable (υἱ-ο-θε-σί-α). The stated “fifth” is wrong.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/huiothesia.md",
+          "locator": "line 6",
+          "observation": "Front matter gives the same guide."
+        }
+      ],
+      "observedTokens": [
+        "hwee",
+        "o",
+        "the",
+        "SEE",
+        "a"
+      ],
+      "statedCount": 5,
+      "observedCount": 4,
+      "suggestedMinimalCorrection": "with the accent on the fourth syllable",
+      "requiresHumanReview": false,
+      "notes": "Counts are syllable positions: stated ordinal “fifth,” observed stressed position 4 of 5."
+    },
+    {
+      "id": "AUDIT-022",
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "file": "corpora/om-articles/theotes.md",
+      "section": "line 33",
+      "exactExcerpt": "what Lutherans summarize in a Latin slogan: *theotēs sōmatikōs* — deity, bodily.",
+      "category": "language-identification",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "theotēs sōmatikōs is a transliterated Greek phrase (θεότης + σωματικῶς, from Colossians 2:9, which the article quotes in Greek). It is not Latin. The article correctly calls a genuine Latin phrase (etiam extra carnem) a “Latin slogan” at line 117.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 29",
+          "observation": "The article gives the phrase as part of the Greek of Colossians 2:9."
+        },
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 117",
+          "observation": "Contrasting correct use of “Latin slogan” in the same article."
+        }
+      ],
+      "observedTokens": [
+        "theotēs (Greek transliteration)",
+        "sōmatikōs (Greek transliteration)"
+      ],
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "what Lutherans summarize in a Greek phrase: *theotēs sōmatikōs* — deity, bodily.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-023",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "file": "corpora/om-articles/logos.md",
+      "section": "line 125",
+      "exactExcerpt": "The other forty-nine words follow.",
+      "category": "cross-record-consistency",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The closing sentence assumes a fifty-word series with logos as its first entry. This release contains 250 articles, and the article is not presented as an introduction to a fifty-word sequence. The count and the “follow” are both wrong in this context.",
+      "localEvidence": [
+        {
+          "file": "INPUT-COVERAGE.json",
+          "locator": "whole file",
+          "observation": "articleCount 250."
+        },
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 16",
+          "observation": "Front matter identifies the source volume from which the series-level closing line was carried over."
+        }
+      ],
+      "observedTokens": [
+        "forty-nine (stated number of remaining words)"
+      ],
+      "statedCount": 49,
+      "observedCount": 249,
+      "suggestedMinimalCorrection": "Delete the sentence.",
+      "requiresHumanReview": false,
+      "notes": "Suggested minimal correction: delete the sentence. The observed figure is simply the number of other articles in this release; the underlying problem is carry-over, not arithmetic."
+    },
+    {
+      "id": "AUDIT-024",
+      "corpus": "om-article",
+      "recordId": "aphesis",
+      "file": "corpora/om-articles/aphesis.md",
+      "section": "line 90",
+      "exactExcerpt": "In Matthew 16:19, Christ gives Peter “the keys of the kingdom of heaven” and announces that “Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.” Matthew 18:18 extends this authority to the church corporately.",
+      "category": "scripture-reference-or-quotation",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "medium",
+      "problem": "The words presented as what Christ announces to Peter in Matthew 16:19 begin “Truly I tell you,” the opening of the plural saying to the disciples at Matthew 18:18, and the very next sentence then treats Matthew 18:18 as a separate text. The quotation appears to be the 18:18 verse attached to the 16:19 reference.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/aphesis.md",
+          "locator": "line 90",
+          "observation": "The next sentence distinguishes 18:18 from the 16:19 statement just quoted."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the second quotation with the pinned BSB wording of Matthew 16:19 (or its binding-and-loosing clause).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse. Cannot be settled from the packet because neither verse’s BSB text is supplied."
+    },
+    {
+      "id": "AUDIT-025",
+      "corpus": "om-article",
+      "recordId": "nomos",
+      "file": "corpora/om-articles/nomos.md",
+      "section": "line 108",
+      "exactExcerpt": "“we continue in sin so that grace may increase? Certainly not!” (Romans 6:1–2, BSB)",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The quotation starts partway through a question, so it begins “we continue in sin…” without its interrogative opening. A reader sees an assertion followed by “Certainly not!”",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eklektos.md",
+          "locator": "line 211",
+          "observation": "The corpus quotes the question elsewhere with its opening words (in different wording)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Restore the opening word(s) of the question from the pinned BSB text of Romans 6:1.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-026",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "file": "corpora/om-articles/parousia.md",
+      "section": "line 94",
+      "exactExcerpt": "The Latin Vulgate translates this with *rapiemur* — “After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord.” — and from this Latin word the English term “rapture” derives.",
+      "category": "language-identification",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The gloss for the Latin word rapiemur (“we shall be caught up”) has been replaced by the whole English verse 1 Thessalonians 4:17. The dash construction now presents a full English verse as the meaning of a single Latin word, which blurs the Latin/English boundary the sentence is about.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/parousia.md",
+          "locator": "line 94",
+          "observation": "The sentence before establishes that a single verb is being discussed."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The Latin Vulgate translates this with *rapiemur* — “we will be caught up” — and from this Latin word the English term “rapture” derives.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-027",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "line 179",
+      "exactExcerpt": "*The reduction of* *“And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation’”* *to symbolic universality without substantive missionary implication.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "An error-list heading that should name a short phrase now contains all of Revelation 5:9. In the same paragraph, “Revelation 5:9 names the Lamb’s purchase from” is followed by the whole verse again, so that sentence has no grammatical object.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "line 179",
+          "observation": "Second insertion in the same paragraph."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Restore the short phrase in both places (e.g. “from every tribe and tongue and people and nation”).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-028",
+      "corpus": "om-article",
+      "recordId": "apostolos",
+      "file": "corpora/om-articles/apostolos.md",
+      "section": "line 89",
+      "exactExcerpt": "*“As for Titus, he is my partner and fellow worker among you. As for our brothers, they are messengers of the churches, the glory of Christ.” — sent representatives.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The italic lead-in of a range-of-meaning entry has been replaced by the whole verse, which the next sentence then quotes again. The label for the sense is lost.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Restore the short lead-in phrase (e.g. “messengers of the churches” — sent representatives).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-029",
+      "corpus": "om-article",
+      "recordId": "arche",
+      "file": "corpora/om-articles/arche.md",
+      "section": "line 96",
+      "exactExcerpt": "Does “To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true Witness, the Originator of God’s creation” mean Christ is the first thing God created",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The question about the meaning of the phrase ho archē tēs ktiseōs has the whole of Revelation 3:14 in the phrase’s place, twice more in the article (lines 114 and 132). The rendering “Originator” sits inside the question, so the question reads as if it already answers itself.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/arche.md",
+          "locator": "line 114",
+          "observation": "Same insertion."
+        },
+        {
+          "file": "corpora/om-articles/arche.md",
+          "locator": "line 132",
+          "observation": "Same insertion."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the whole-verse quotation with the phrase under discussion at lines 96, 114 and 132.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-030",
+      "corpus": "om-article",
+      "recordId": "anomia",
+      "file": "corpora/om-articles/anomia.md",
+      "section": "line 87",
+      "exactExcerpt": "Romans 6:19 — Paul speaks of “I am speaking in human terms because of the weakness of your flesh.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence expects a short phrase after “Paul speaks of” (the escalating-lawlessness phrase), but the whole verse appears, so the sentence doesn’t read and the phrase that supports the point is buried.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the whole verse with the phrase about offering the members to impurity and lawlessness leading to more lawlessness (pinned BSB wording).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-031",
+      "corpus": "om-article",
+      "recordId": "dikaiosyne",
+      "file": "corpora/om-articles/dikaiosyne.md",
+      "section": "line 76",
+      "exactExcerpt": "every religious person of every era — is “Because they were ignorant of God’s righteousness and sought to establish their own, they did not submit to God’s righteousness” and tries to establish “their own” righteousness instead.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The predicate “is [ignorant of God’s righteousness]” was replaced by the whole of Romans 10:3, so the sentence reads “every religious person … is ‘Because they were ignorant…’”.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "is “ignorant of God’s righteousness” and tries to establish “their own” righteousness instead.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-032",
+      "corpus": "om-article",
+      "recordId": "elpis",
+      "file": "corpora/om-articles/elpis.md",
+      "section": "line 95",
+      "exactExcerpt": "those rich in this present age are warned not to “Instruct those who are rich in the present age not to be conceited",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence says the rich are “warned not to” and then quotes the command to Timothy, so what they are warned against is lost.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "warned not to “put their hope in the uncertainty of wealth”.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-033",
+      "corpus": "om-article",
+      "recordId": "ethnos",
+      "file": "corpora/om-articles/ethnos.md",
+      "section": "line 59",
+      "exactExcerpt": "Used once, at Galatians 2:14 — Peter “When I saw that they were not walking in line with the truth of the gospel, I said to Cephas in front of them all,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The entry should say that Peter “lives like a Gentile” (ethnikōs zēs). The inserted whole verse is Paul’s speech about Peter, so the sentence now attributes Paul’s narration to Peter as its subject.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Peter “live[s] like a Gentile” (*ethnikōs zēs*) before withdrawing … (pinned BSB phrase).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-034",
+      "corpus": "om-article",
+      "recordId": "karpos",
+      "file": "corpora/om-articles/karpos.md",
+      "section": "line 199",
+      "exactExcerpt": "*The* *“But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law.”* *plural misreading.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The error heading, and the sentence “Many English speakers refer to … as if Galatians 5:22-23 listed nine separate fruits,” both hold the whole two-verse passage where the short phrase “fruit of the Spirit” belongs.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/karpos.md",
+          "locator": "line 199",
+          "observation": "Second insertion in the same paragraph."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use “fruit of the Spirit” in both the heading and the sentence.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-035",
+      "corpus": "om-article",
+      "recordId": "kenoo",
+      "file": "corpora/om-articles/kenoo.md",
+      "section": "line 39",
+      "exactExcerpt": "preaching being “For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power” or boasting being “made empty.”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "A list of short participial glosses (“made void,” …, “made empty”) has the whole of 1 Corinthians 1:17 as its middle item.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "preaching being “emptied of its power” (pinned BSB phrase) or boasting being “made empty.”",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-036",
+      "corpus": "om-article",
+      "recordId": "kleronomia",
+      "file": "corpora/om-articles/kleronomia.md",
+      "section": "line 89",
+      "exactExcerpt": "The inheritance is “Blessed be the God and Father of our Lord Jesus Christ!",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "Under the heading “The inheritance reserved in heaven,” the predicate after “The inheritance is” has been replaced by the whole passage beginning at 1 Peter 1:3. The sentence no longer states what the inheritance is.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The inheritance is “imperishable, undefiled, and unfading, reserved in heaven for you” (pinned BSB phrase).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-037",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "file": "corpora/om-articles/kosmos.md",
+      "section": "line 73",
+      "exactExcerpt": "the Samaritans confess that Jesus “They said to the woman, ‘We now believe not only because of your words;",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence expects the confession’s object (“is the Savior of the world”) but contains the whole of John 4:42 with its speech introduction.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "the Samaritans confess that Jesus “truly is the Savior of the world”.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-038",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "file": "corpora/om-articles/kosmos.md",
+      "section": "line 57",
+      "exactExcerpt": "where Paul names “For our struggle is not against flesh and blood, but against the rulers,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The entry on kosmokratōr (“world-ruler”) should name the phrase “powers of this world’s darkness.” The whole verse is inserted instead, so the term being defined is not isolated.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "where Paul names “the powers of this world’s darkness” as part of the spiritual hierarchy …",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-039",
+      "corpus": "om-article",
+      "recordId": "kosmos",
+      "file": "corpora/om-articles/kosmos.md",
+      "section": "line 147",
+      "exactExcerpt": "*The* *“So also we, when we were minors, were enslaved under the basic forces of the world.”* *reductionism.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The error heading should name the phrase ta stoicheia tou kosmou (“the basic forces of the world”) but contains the whole of Galatians 4:3.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "*The* *“basic forces of the world”* *reductionism.*",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-040",
+      "corpus": "om-article",
+      "recordId": "krisis",
+      "file": "corpora/om-articles/krisis.md",
+      "section": "line 73",
+      "exactExcerpt": "is the same day on which “But for you who fear My name, the sun of righteousness will rise with healing in its wings, and you will go out and leap like calves from the stall” for those who fear God's name.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence expects “the sun of righteousness will rise”. The inserted verse repeats “for you who fear My name,” and the sentence then adds “for those who fear God’s name.”",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "is the same day on which “the sun of righteousness will rise with healing in its wings” for those who fear God's name.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-041",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "section": "line 35",
+      "exactExcerpt": "where the prophet sees “In my vision in the night I continued to watch, and I saw One like the Son of Man coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence” given dominion",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence says the prophet sees [“one like a son of man”] given dominion. With the whole of Daniel 7:13 inserted, the sentence falls apart.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "where the prophet sees “One like the Son of Man” given dominion and glory …",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-042",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "section": "line 151",
+      "exactExcerpt": "*The* *“I am, said Jesus, ‘and you will see the Son of Man sitting at the right hand of the Power and coming with the clouds of heaven.’ Then the high priest tore his clothes and said, ‘Why do we still need witnesses?’”* *reduction.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The error heading names a popular reduction (Son of Man as humility) but now contains Mark 14:62–63. The heading no longer states the error.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Restore the original short heading phrase (e.g. *The* *“Son of Man = humility”* *reduction.*).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-043",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "file": "corpora/om-articles/iesous.md",
+      "section": "line 95",
+      "exactExcerpt": "First, it is identifying the “Therefore God exalted Him to the highest place and gave Him the name above all names,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence (and line 147, “The “Therefore God exalted Him…” climax of verses 9-11”) should refer to “the name above all names” but contains the whole verse, so both sentences are broken.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "line 147",
+          "observation": "Second insertion."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "identifying “the name above all names” with the name *Iēsous* …; at line 147, “The ‘name above all names’ climax …”.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-044",
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "file": "corpora/om-articles/prothesis.md",
+      "section": "line 164",
+      "exactExcerpt": "The “And we know that God works all things together for the good of those who love Him, who are called according to His purpose” of Romans 8:28 is the practical face of the eternal purpose.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence expects a noun phrase (“The ‘all things work together for good’ of Romans 8:28”), but the whole verse is inserted after the article.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The “all things together for the good” of Romans 8:28 is the practical face of the eternal purpose.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-045",
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "file": "corpora/om-articles/prototokos.md",
+      "section": "line 71",
+      "exactExcerpt": "When Paul calls Christ the “The Son is the image of the invisible God, the firstborn over all creation” at Colossians 1:15",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence should say Paul calls Christ “the firstborn over all creation,” but the whole verse is inserted, producing “calls Christ the ‘The Son is…’”.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "When Paul calls Christ “the firstborn over all creation” at Colossians 1:15",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-046",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "file": "corpora/om-articles/soma.md",
+      "section": "line 116",
+      "exactExcerpt": "The third is misreading “For anyone who eats and drinks without recognizing the body eats and drinks judgment on himself” in 1 Corinthians 11:29.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The article is discussing the phrase “recognizing the body.” The whole verse is inserted here and again in “On this reading, … means recognizing that the congregation is one body,” so that sentence now says the whole verse means “recognizing that the congregation is one body.”",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/soma.md",
+          "locator": "line 116",
+          "observation": "Second insertion."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use “recognizing the body” in both sentences.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-047",
+      "corpus": "om-article",
+      "recordId": "thanatos",
+      "file": "corpora/om-articles/thanatos.md",
+      "section": "line 142",
+      "exactExcerpt": "Death becomes, in Paul's striking phrase, the “I am torn between the two. I desire to depart and be with Christ, which is far better indeed”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The “striking phrase” (to analysai kai syn Christō einai, “to depart and be with Christ”) was replaced by the whole of Philippians 1:23, giving “Death becomes … the ‘I am torn between the two…’”.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Death becomes, in Paul's striking phrase, “to depart and be with Christ” (Philippians 1:23 — …).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-048",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "file": "corpora/om-articles/didaskalia.md",
+      "section": "line 67",
+      "exactExcerpt": "and the father is to “These words I am commanding you today are to be upon your hearts.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence should continue “the father is to [teach them diligently to your children]”. The inserted multi-verse passage breaks it.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "and the father is to “teach them diligently to your children”.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-049",
+      "corpus": "om-article",
+      "recordId": "eleutheria",
+      "file": "corpora/om-articles/eleutheria.md",
+      "section": "line 167",
+      "exactExcerpt": "*The* *“But now, having died to what bound us, we have been released from the law, so that we serve in the new way of the Spirit, and not in the old way of the written code.”* *misread as freedom from the Decalogue.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The error heading should name the phrase “released from the law” but contains the whole of Romans 7:6.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "*The* *“released from the law”* *misread as freedom from the Decalogue.*",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-050",
+      "corpus": "om-article",
+      "recordId": "apolytrosis",
+      "file": "corpora/om-articles/apolytrosis.md",
+      "section": "line 51",
+      "exactExcerpt": "and at 1 Peter 1:18 (“from the empty way of life you inherited from your”).",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The quotation stops at “inherited from your,” cutting the phrase off before its noun.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Complete the phrase from the pinned BSB (“…inherited from your forefathers”).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-051",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "file": "corpora/om-articles/bema.md",
+      "section": "line 87",
+      "exactExcerpt": "The believer receives “For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad.”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The sentence expects the object phrase (“his due for the things done in the body”) but has the whole verse, which was already quoted in the sentence before.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The believer receives “his due for the things done in the body, whether good or bad.”",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-052",
+      "corpus": "om-article",
+      "recordId": "pater",
+      "file": "corpora/om-articles/pater.md",
+      "section": "line 85",
+      "exactExcerpt": "Hebrews 7:10 — Levi was “For when Melchizedek met Abraham, Levi was still in the loin of his ancestor.”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Several range-of-meaning entries contain whole verses where short phrases belong: “Levi was ‘For when Melchizedek…’” (line 85) and “Abraham as ‘And he received the sign of circumcision…’” (line 87). At line 87, “Jesus tells His critics,” is followed by the critics’ own reply and Jesus’ answer, with unbalanced quotation marks.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pater.md",
+          "locator": "line 87",
+          "observation": "Second insertion."
+        },
+        {
+          "file": "corpora/om-articles/pater.md",
+          "locator": "line 87",
+          "observation": "Speaker mismatch and unbalanced quotation marks."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Levi was “still in the loin of his ancestor”; Abraham as “the father of all who believe”; quote only Jesus’ words after “Jesus tells His critics.”",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-053",
+      "corpus": "om-article",
+      "recordId": "rhema",
+      "file": "corpora/om-articles/rhema.md",
+      "section": "line 101",
+      "exactExcerpt": "Luke 2:15 — the shepherds' “When the angels had left them and gone into heaven,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The entry expects the shepherds’ phrase (“this thing that has happened”) but contains the whole verse, giving “the shepherds’ ‘When the angels had left them…’”.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Luke 2:15 — the shepherds' “this thing that has happened”.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-054",
+      "corpus": "om-article",
+      "recordId": "homologeo",
+      "file": "corpora/om-articles/homologeo.md",
+      "section": "line 73",
+      "exactExcerpt": "as something that took place “Fight the good fight of the faith.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The sentence expects the phrase “before many witnesses.” The whole of 1 Timothy 6:12 is inserted instead (and again at line 97 in a list of short phrases).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/homologeo.md",
+          "locator": "line 97",
+          "observation": "Same verse inserted into a list of short phrases."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "as something that took place “before many witnesses.”",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-055",
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "file": "corpora/om-articles/mathetes.md",
+      "section": "line 53",
+      "exactExcerpt": "Matthew 27:57 — Joseph of Arimathea “When it was evening, there came a rich man from Arimathea named Joseph, who himself was a disciple of Jesus.”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The entry illustrates the verb form ematheteuthē (“had become a disciple”) but quotes the whole verse after the name, giving “Joseph of Arimathea ‘When it was evening…’”.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Matthew 27:57 — Joseph of Arimathea “had become a disciple of Jesus” (pinned BSB phrase).",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-056",
+      "corpus": "om-article",
+      "recordId": "hypakoe",
+      "file": "corpora/om-articles/hypakoe.md",
+      "section": "line 85",
+      "exactExcerpt": "2 Thessalonians 1:8 — those who “in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The sentence expects the phrase “do not obey the gospel” but contains the whole verse. The next item quotes Romans 10:16 in a BSB wording (“welcomed the good news”) that no longer contains the obey idea the entry is illustrating.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hypakoe.md",
+          "locator": "line 85",
+          "observation": "The quoted BSB wording does not contain “obey.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "those who “do not obey the gospel of our Lord Jesus”; review whether Romans 10:16 still illustrates the point in BSB wording.",
+      "requiresHumanReview": true,
+      "notes": "The v5 manifest records fallbackRuleVersion smallest-supported-whole-verse-v1 with fallbackCount 243; this occurrence is consistent with a short quotation having been replaced by a whole verse."
+    },
+    {
+      "id": "AUDIT-057",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "file": "corpora/om-articles/huiothesia.md",
+      "section": "line 173",
+      "exactExcerpt": "Galatians 3:28 — “There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female—for all of you are one in Christ Jesus.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "Galatians 3:28 is quoted here in wording that differs from its quotation in eleutheria (“There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus.”). Both articles are BSB adaptations.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eleutheria.md",
+          "locator": "line 49",
+          "observation": "Other wording of the same verse in the release."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the pinned BSB wording.",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-058",
+      "corpus": "om-article",
+      "recordId": "eklektos",
+      "file": "corpora/om-articles/eklektos.md",
+      "section": "line 211",
+      "exactExcerpt": "Romans 6:1-2 — “Are we to remain in sin so that grace may increase?”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "Romans 6:1 is quoted here as “Are we to remain in sin…,” but nomos quotes it as BSB with “…continue in sin…”. The two wordings conflict.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/nomos.md",
+          "locator": "line 108",
+          "observation": "BSB-labeled wording in another article."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use the pinned BSB wording.",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-059",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "file": "corpora/om-articles/didaskalia.md",
+      "section": "line 89",
+      "exactExcerpt": "1 Timothy 4:1 — “demonic teachings.”",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "This phrase from 1 Timothy 4:1 does not match rhema’s quotation of the same verse (“the teachings of demons”).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/rhema.md",
+          "locator": "line 53",
+          "observation": "Other wording of the same verse in the release."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "1 Timothy 4:1 — “the teachings of demons.”",
+      "requiresHumanReview": true,
+      "notes": "The non-matching wording corresponds, to the reviewer's knowledge, to the NET Bible used by the pre-BSB website articles. That identification is not packet evidence and needs confirmation against the pinned BSB source (bsbSourceSha256 2ac3af1d...)."
+    },
+    {
+      "id": "AUDIT-060",
+      "corpus": "om-article",
+      "recordId": "aphesis",
+      "file": "corpora/om-articles/aphesis.md",
+      "section": "line 114",
+      "exactExcerpt": "daily repentance and daily [*aphesis*](/greek/metanoia/).",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The link text is aphesis (this article’s own headword) but the target is the metanoia article.",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "Slugs aphesis and metanoia are distinct records."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "daily [repentance](/greek/metanoia/) and daily *aphesis*.",
+      "requiresHumanReview": true,
+      "notes": "The intended link text versus target needs author choice."
+    },
+    {
+      "id": "AUDIT-061",
+      "corpus": "om-article",
+      "recordId": "parousia",
+      "file": "corpora/om-articles/parousia.md",
+      "section": "line 54",
+      "exactExcerpt": "Used six times in the New Testament, mostly in the Pastoral Epistles and Titus.",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "“the Pastoral Epistles and Titus” treats Titus as separate from the Pastorals, though Titus is one of them. The epiphaneia article gives five Pastoral occurrences plus 2 Thessalonians 2:8.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/epiphaneia.md",
+          "locator": "line 51",
+          "observation": "Five occurrences in 1–2 Timothy and Titus, the sixth in 2 Thessalonians."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Used six times in the New Testament, five of them in the Pastoral Epistles.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-062",
+      "corpus": "om-article",
+      "recordId": "hades",
+      "file": "corpora/om-articles/hades.md",
+      "section": "line 67",
+      "exactExcerpt": "see [What does it mean that Jesus descended into hell?](/questions/what-does-it-mean-that-jesus-descended-into-hell/)",
+      "category": "presentation-affecting-meaning",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "This is the only internal link outside /greek/. It points to a /questions/ page on the author website, which is not part of this corpus and may not resolve inside the app.",
+      "localEvidence": [
+        {
+          "file": "README.md",
+          "locator": "whole file",
+          "observation": "The packet excludes the larryherzogjr.com source tree."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": null,
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-063",
+      "corpus": "om-article",
+      "recordId": "epiphaneia",
+      "file": "corpora/om-articles/epiphaneia.md",
+      "section": "line 89",
+      "exactExcerpt": "see *The Knowledge of Him*",
+      "category": "cross-record-consistency",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "The boxed note sends the reader to a study titled The Knowledge of Him, which is not in this corpus and not otherwise identified. It reads as a cross-reference carried over from a printed study.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": null,
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-064",
+      "corpus": "om-article",
+      "recordId": "eusebeia",
+      "file": "corpora/om-articles/eusebeia.md",
+      "section": "line 87",
+      "exactExcerpt": "the Byzantine tradition behind the King James reads *theos*",
+      "category": "translation-or-edition-identity",
+      "classification": "needs-human-review",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The note ties the King James to “the Byzantine tradition.” The release’s edition model separates the Byzantine Majority (Robinson–Pierpont) from the Textus Receptus, which is what the KJV translators used, and the guidance says not to imply the two are identical. The note also explains the variant as a copyist’s visual slip; comparison candidate-26 reports, from Larry’s book, a later corrector’s deliberate change in Sinaiticus.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-26.json",
+          "locator": "significance.interpretation",
+          "observation": "Different account of how the ὅς/θεός difference arose."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "the Byzantine tradition, and the Textus Receptus behind the King James, read *theos*",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-065",
+      "corpus": "om-article",
+      "recordId": "hyper",
+      "file": "corpora/om-articles/hyper.md",
+      "section": "line 116",
+      "exactExcerpt": "That is the gospel in three syllables",
+      "category": "word-or-element-count",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "low",
+      "problem": "The referent of “three syllables” is unclear. The sentence before calls the phrase “two-word English” (“for you,” two syllables) and quotes “Given for you” (four) and “Shed for you” (three).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hyper.md",
+          "locator": "line 116",
+          "observation": "The same passage counts “for you” as two words."
+        }
+      ],
+      "observedTokens": [
+        "for",
+        "you"
+      ],
+      "statedCount": 3,
+      "observedCount": 2,
+      "suggestedMinimalCorrection": null,
+      "requiresHumanReview": true,
+      "notes": "Observed count assumes the referent is “for you”; if the referent is “Shed for you,” three is correct."
+    },
+    {
+      "id": "AUDIT-066",
+      "corpus": "om-article",
+      "recordId": "diakonos",
+      "file": "corpora/om-articles/diakonos.md",
+      "section": "line 94",
+      "exactExcerpt": "The BSB, BLB, and MSB all print “the women” or “women likewise,”",
+      "category": "translation-or-edition-identity",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "low",
+      "problem": "Specific claim about the wording of three editions at 1 Timothy 3:11. No reading for this verse is in the packet, so it cannot be checked here.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": null,
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-067",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "line 7",
+      "exactExcerpt": "subhead: \"bought at a price\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The front-matter subtitle (“bought at a price”) differs in wording and capitalization from word-metadata.json and the v5 manifest (“Bought with a Price”).",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug agorazo: subhead “Bought with a Price”."
+        },
+        {
+          "file": "evidence/om-v5-manifest.json",
+          "locator": "whole file",
+          "observation": "articles[slug=agorazo].subtitle “Bought with a Price”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Choose one subtitle and use it in all three places.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-068",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "file": "corpora/om-articles/soma.md",
+      "section": "line 7",
+      "exactExcerpt": "subhead: \"this is My body\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The front-matter subtitle is lowercase; word-metadata.json and the v5 manifest have “This Is My Body.”",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug soma: subhead “This Is My Body”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "subhead: \"This Is My Body\"",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-069",
+      "corpus": "om-article",
+      "recordId": "haima",
+      "file": "corpora/om-articles/haima.md",
+      "section": "line 7",
+      "exactExcerpt": "subhead: \"the new covenant in My blood\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The front-matter subtitle is lowercase; word-metadata.json and the v5 manifest have “The New Covenant in My Blood.”",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug haima: subhead “The New Covenant in My Blood”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "subhead: \"The New Covenant in My Blood\"",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-070",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "file": "corpora/om-articles/bema.md",
+      "section": "line 6",
+      "exactExcerpt": "pronunciation: \"BAY-mah\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json gives the pronunciation as “bēma,” which is a transliteration rather than a pronunciation guide. The article front matter and body give “BAY-mah.”",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug bema: pronunciation “bēma”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Set the metadata pronunciation to \"BAY-mah\" (or leave it empty, like most records).",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-071",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": "line 6",
+      "exactExcerpt": "pronunciation: \"yoo-lo-GEH-oh\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json gives the pronunciation as “eulogeō” (a transliteration). The article gives “yoo-lo-GEH-oh.”",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug eulogeo: pronunciation “eulogeō”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Set the metadata pronunciation to \"yoo-lo-GEH-oh\" (or leave it empty).",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-072",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "file": "corpora/om-articles/mesites.md",
+      "section": "line 10",
+      "exactExcerpt": "pronunciation: \"mes-EE-tays\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json has “mes-EE-tace”; the article front matter and body have “mes-EE-tays.”",
+      "localEvidence": [
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "whole file",
+          "observation": "slug mesites: pronunciation “mes-EE-tace”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Use one form in both places.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-073",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-16",
+      "file": "corpora/comparison-commentaries/candidate-16.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "So the healing narrative stands either way, and so does the detail that the sick were waiting for the water to move.",
+      "category": "comparison-integrity",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The interpretation says the detail that the sick were waiting for the water to move is present either way. The unit’s own source observation and structured focus spans put exactly that clause (5:3b, “awaiting the moving of the water”) inside the material that BSB and BLB lack. Verse 7 implies the stirring, but not that the crowd was waiting for it.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-16.json",
+          "locator": "significance.sourceObservation",
+          "observation": "The source observation places the waiting clause inside the difference."
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-16.json",
+          "locator": "readings",
+          "observation": "readings: BSB and BLB JHN.5.3 end at “the paralyzed.” / “[and] withered.”; MSB focus span JHN.5.3 90–123 is “awaiting the moving of the water.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "So the healing narrative stands either way, and verse 7 still shows that the stirring of the water was expected.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-074",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "file": "corpora/comparison-commentaries/candidate-17.json",
+      "section": "explanationSources[id=C3].locator",
+      "exactExcerpt": "MSB notes JHN.8.2.note.95 through JHN.8.11.note.107 (eleven); BSB notes JHN.8.note.47, JHN.8.note.48, JHN.8.note.49 (three). Exact local count: MSB 13 notes (12 textual, one rendering); BSB four (three textual, one rendering).",
+      "category": "word-or-element-count",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The public source locator contradicts itself. It calls the MSB range “(eleven)” and then says 13, and calls the BSB notes “(three)” and then says four. The ID range 95–107 contains 13 notes. The prose uses 13 and 4 (total 17).",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-17.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Prose uses 13 MSB notes and 4 BSB notes."
+        }
+      ],
+      "observedTokens": [
+        "note.95",
+        "note.96",
+        "note.97",
+        "note.98",
+        "note.99",
+        "note.100",
+        "note.101",
+        "note.102",
+        "note.103",
+        "note.104",
+        "note.105",
+        "note.106",
+        "note.107"
+      ],
+      "statedCount": 11,
+      "observedCount": 13,
+      "suggestedMinimalCorrection": "MSB notes JHN.8.2.note.95 through JHN.8.11.note.107 (thirteen); BSB notes JHN.8.note.47–49 plus one rendering note (four).",
+      "requiresHumanReview": true,
+      "notes": "The fourth BSB note ID is not listed; its identity should come from the local corpus."
+    },
+    {
+      "id": "AUDIT-075",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-21",
+      "file": "corpora/comparison-commentaries/candidate-21.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "That is unusual: at comparable places in this collection both send the reader somewhere else in the New Testament where the disputed words also stand, and here neither does [C3].",
+      "category": "cross-record-consistency",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The note says the missing cross-reference is unusual because at comparable places “both” publishers point elsewhere, and its interpretation calls this “the rarer case.” Candidate-06 (Mark 7:16), a comparable whole-verse difference, says neither publisher points the reader anywhere else.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-06.json",
+          "locator": "significance.sourceObservation",
+          "observation": "A comparable unit with no cross-reference."
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-21.json",
+          "locator": "explanationSources[id=C3].locator",
+          "observation": "The C3 locator lists five contrasting units and omits Mark 7:16."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "That is less common: at several comparable places in this collection both send the reader somewhere else …, though not at Mark 7:16, and here neither does [C3].",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-076",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-26",
+      "file": "corpora/comparison-commentaries/candidate-26.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "Under the critical reading the pronoun looks back to the mystery Paul has just announced",
+      "category": "grammar-or-morphology",
+      "classification": "needs-human-review",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "In the Nestle reading the relative pronoun is masculine (Ὃς) and μυστήριον is neuter (τὸ … μυστήριον), so the pronoun does not agree with “mystery” as its grammatical antecedent. The eusebeia article notes that the separate neuter reading ὅ is the one that agrees with “mystery.” The sentence may mean “refers to the content of the mystery,” but as written it reads as a grammatical claim.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-26.json",
+          "locator": "readings",
+          "observation": "readings N1904: “μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· Ὃς ἐφανερώθη …” (neuter article with μυστήριον; masculine Ὃς)."
+        },
+        {
+          "file": "corpora/om-articles/eusebeia.md",
+          "locator": "line 87",
+          "observation": "Cross-record statement that the neuter, not ὅς, agrees with “mystery.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Under the critical reading the pronoun introduces the one in whom the mystery was revealed, and the hymn describes the same Person …",
+      "requiresHumanReview": true,
+      "notes": "Theological judgment untouched; only the grammatical description is in question."
+    },
+    {
+      "id": "AUDIT-077",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-11",
+      "file": "corpora/comparison-commentaries/candidate-11.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Every edition compared here prints the whole passage [C1]. Six do not enclose the whole passage in such markers; English supplied-word brackets are a separate matter.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "“such markers” comes before any markers have been mentioned (the Nestle brackets are introduced in the next sentence), so the inserted clarification is out of order.",
+      "localEvidence": [],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Move the sentence after the one describing Nestle's brackets, or change “such markers” to “editorial brackets.”",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-078",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "file": "corpora/comparison-commentaries/candidate-17.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Every edition compared here prints it in full [C1]. Six do not enclose the whole passage in such markers; English supplied-word brackets are a separate matter.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Same ordering problem as candidate-11: “such markers” comes before the markers are introduced.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-11.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Identical inserted sentence."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Move the sentence after the Nestle-bracket sentence, or change “such markers” to “editorial brackets.”",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-079",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-02",
+      "file": "corpora/comparison-commentaries/candidate-02.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "which is not always the case in this book",
+      "category": "presentation-affecting-meaning",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The app note refers to “this book,” carried over from the printed source. The other units say “this collection.”",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-06.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Standard wording elsewhere."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "which is not always the case in this collection",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-080",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-08",
+      "file": "corpora/comparison-commentaries/candidate-08.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "Where they are not, it comes once, at verse 47's conclusion.",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "Candidate-07 and this unit’s own source observation put the single occurrence at verse 48. “At verse 47’s conclusion” can be read as placing the clause in verse 47.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-07.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Related unit places it at verse 48."
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-08.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Same unit refers to verse 48."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Where they are not, it comes once, at verse 48, after the saying about the eye.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-081",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-01",
+      "file": "corpora/comparison-commentaries/candidate-01.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Both Berean editions footnote it, and the Majority Standard Bible keeps the two matters in separate notes [C3].",
+      "category": "comparison-integrity",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "Earlier in the paragraph the “Berean” editions named are BSB and BLB, so “Both Berean editions” reads as BSB and BLB. The C3 locator cites notes only from BSB and MSB, and M2-Source-Decisions says the BLB file has no note markup. Elsewhere in the collection “Berean editions” means BSB and MSB.",
+      "localEvidence": [
+        {
+          "file": "guidance/M2-Source-Decisions.md",
+          "locator": "see observation",
+          "observation": "BLB: “The file supplies no paragraph/heading/note markup.”"
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-01.json",
+          "locator": "explanationSources[id=C3].locator",
+          "observation": "Only BSB and MSB notes are cited."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "The Berean Standard Bible footnotes it, and the Majority Standard Bible keeps the two matters in separate notes [C3].",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-082",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-03",
+      "file": "corpora/comparison-commentaries/candidate-03.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "that verse is present in all seven editions compared here, and nothing in this comparison touches it.",
+      "category": "comparison-integrity",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "This direct observation about Luke 19:10 has no source marker. Source C4, which documents exactly this check, is defined but never cited in the prose.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-03.json",
+          "locator": "explanationSources[id=C4].locator",
+          "observation": "C4 locator supports the sentence."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "that verse is present in all seven editions compared here [C4], and nothing in this comparison touches it.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-083",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-24",
+      "file": "corpora/comparison-commentaries/candidate-24.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Nestle 1904 has an additional “of the ages” at the end of verse 27 compared with Robinson–Pierpont and Boyd.",
+      "category": "comparison-integrity",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "This observation has no source marker. Source C6, which documents it, is defined but never cited.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-24.json",
+          "locator": "explanationSources[id=C6].locator",
+          "observation": "C6 locator supports the sentence."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Nestle 1904 has an additional “of the ages” at the end of verse 27 compared with Robinson–Pierpont and Boyd [C6].",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-084",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-05",
+      "file": "corpora/comparison-commentaries/candidate-05.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Ἰησοῦ Χριστοῦ ⟨Υἱοῦ Θεοῦ⟩",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The prose quotes the Nestle text with mathematical angle brackets (U+27E8/U+27E9), but the structured reading and C2 locator have ASCII “<” and “>”. M2 source decisions keep source bracket characters visible and unchanged.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-05.json",
+          "locator": "readings",
+          "observation": "readings N1904 MRK.1.1: “Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ <Υἱοῦ Θεοῦ>.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Ἰησοῦ Χριστοῦ <Υἱοῦ Θεοῦ>",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-085",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-18",
+      "file": "corpora/comparison-commentaries/candidate-18.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "As Larry Herzog Jr. argues in *Ad Fontes, Volume One*,",
+      "category": "presentation-affecting-meaning",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The book title uses a comma. The other units and C-sources use “Ad Fontes – Volume One.”",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-01.json",
+          "locator": "significance.interpretation",
+          "observation": "Standard form."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "As Larry Herzog Jr. argues in *Ad Fontes – Volume One*,",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-086",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-18",
+      "file": "corpora/comparison-commentaries/candidate-18.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "\"Textus Receptus\" names the family of printed Greek New Testaments that began with Erasmus in 1516 and stood behind the King James Version [C7].",
+      "category": "comparison-integrity",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "low",
+      "problem": "The historical claims (Erasmus 1516; basis of the KJV) are cited to C7, whose locator describes Boyd’s introduction only as covering the Stephanus/Elzevir/Scrivener compilation. The packet does not show that C7 supports the Erasmus and KJV statements.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-18.json",
+          "locator": "explanationSources[id=C7].locator",
+          "observation": "C7 locator scope."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": null,
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-087",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-29",
+      "file": "corpora/comparison-commentaries/candidate-29.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "and the benediction naming Father, Son and Holy Spirit.",
+      "category": "comparison-integrity",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "low",
+      "problem": "This is in the source observation, but none of the seven benediction readings contains “Father”; they name the Lord Jesus Christ, God, and the Holy Spirit. Identifying “God” as the Father is interpretation.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-29.json",
+          "locator": "readings",
+          "observation": "readings 2CO.13.13/14: “The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit …” in all seven editions."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "and the benediction naming the Lord Jesus Christ, God, and the Holy Spirit.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "AUDIT-088",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-19",
+      "file": "corpora/comparison-commentaries/candidate-19.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "As at Luke 17:36, the Byzantine editions omit alongside the critical ones",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "The prose points the reader to the Luke 17:36 unit (candidate-12), but candidate-19 has no relatedUnits and candidate-12 does not link back.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-12.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Same edition pattern."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add reciprocal relatedUnits links between candidate-19 and candidate-12 (a structured-metadata change requiring a new approval hash).",
+      "requiresHumanReview": true,
+      "notes": null
+    }
+  ]
+}

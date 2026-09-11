@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "receivedZip": "Ad-Fontes-NT-Audit-Reports-2026-09-11.zip",
+  "receivedZipSha256": "79855b36fc7c8bb4b0e5463edf54bca8ca5d4d74bc2b2e9d2c5703d25c95294c",
+  "inputPacketManifestSha256": "7d54757af5da94553a87c0d546e78b34e54aea0c0f785ff82e4fb77e7fd62c06",
+  "files": {
+    "AUDIT-SUMMARY.md": "870609399d071b14fe3a0cc1328e246507da4e11ddbadde129055c5a005243d5",
+    "Ad-Fontes-NT-Audit-Reports-2026-09-11.zip": "79855b36fc7c8bb4b0e5463edf54bca8ca5d4d74bc2b2e9d2c5703d25c95294c",
+    "COMMAND-AND-TOOL-LOG.md": "a59310a8b3d14fdae9bce322681dc08abbbf1da69dc94fb6a44377a8e90dc7f3",
+    "COVERAGE.json": "1cb2f879a23801e50c2ee76ed2c35ea41f534655b813a84238c9acff3a7603c0",
+    "FINDINGS.json": "80615f3d0cde02a8b4488af78d6d84ae6de9c84f620baf0340010f9877baafd6",
+    "HUMAN-REVIEW-QUEUE.md": "cf7e5ed732b6197438c878a378653e3a7c18dd90fbf287e49cef0aeabf689098",
+    "METHODOLOGY.md": "625a680735b5265f8ef8d1743bbcb4569ed746d73bd4b36cb7d9507e2f725c48"
+  }
+}

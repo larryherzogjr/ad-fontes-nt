@@ -29,7 +29,7 @@ def build(manifest_name='manifest-v3.json'):
     if digest(raw) != manifest['outputSha256']: raise ValueError('Lookup output differs from reviewed release')
     return raw
 if __name__ == '__main__':
-    for name in ['manifest.json', 'manifest-v2.json', 'manifest-v3.json']:
+    for name in ['manifest.json', 'manifest-v2.json', 'manifest-v3.json', 'manifest-v4.json']:
         manifest = json.loads((SOURCE / name).read_text())
         output = ROOT / 'app/public/lexical' / manifest['releaseId'] / 'lookup.json'
         output.parent.mkdir(parents=True, exist_ok=True)

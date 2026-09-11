@@ -1,0 +1,1287 @@
+{
+  "schemaVersion": 1,
+  "auditId": "afnt-full-corpus-audit-2026-09-11-kimi-work-01",
+  "packetManifestSha256": "7d54757af5da94553a87c0d546e78b34e54aea0c0f785ff82e4fb77e7fd62c06",
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "file": "corpora/om-articles/huiothesia.md",
+      "section": "The Word",
+      "exactExcerpt": "The etymology is a compound built from two elements. *Huios* (υἱός) means “my firstborn” — the standard Greek word for son, treated at length in [Hyios](/greek/hyios/).",
+      "category": "internal-consistency",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The gloss says υἱός (huios) means “my firstborn.” υἱός means “son”; it does not mean “my firstborn” (that would be πρωτότοκος, the subject of the prototokos entry). The error contradicts the very next clause in the same sentence (“the standard Greek word for son”), the word-family list a few lines below (“*Huios* (υἱός) — son”), and the linked Hyios entry. The same “my firstborn” substitution recurs at line 133 (“Israel as God’s ‘my firstborn’ (Exodus 4:22, BSB)”) and line 173 (“The Pauline use of ‘my firstborn’ language”), suggesting a mechanical replacement gone wrong; only the line-43 gloss is flatly false, but all three should be reviewed together.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/huiothesia.md",
+          "locator": "line 43",
+          "observation": "Gloss “my firstborn” for υἱός contradicted in the same sentence and by the family list (“*Huios* (υἱός) — son”) at line 47."
+        },
+        {
+          "file": "corpora/om-articles/huiothesia.md",
+          "locator": "lines 133 and 173",
+          "observation": "Two further “my firstborn” substitutions in the same article."
+        },
+        {
+          "file": "corpora/om-articles/prototokos.md",
+          "locator": "frontmatter gloss and line 35",
+          "observation": "πρωτότοκος is the entry glossed “firstborn”; likely source of the carry-over."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace “means “my firstborn”” with “means “son”” at line 43 (and review the “my firstborn” wording at lines 133 and 173).",
+      "requiresHumanReview": false,
+      "notes": "Internal packet evidence is sufficient; no external authority needed."
+    },
+    {
+      "id": "AUDIT-002",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The three-clause structure is precise. First clause: *en archē ēn ho logos* — \"in the beginning was the Word, and the Word was with God, and the Word was God.\"",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The English gloss attached to the first clause of John 1:1 (*en archē ēn ho logos*) reproduces the entire verse — all three clauses — instead of just the first clause (“In the beginning was the Word”). The following sentences gloss the second and third clauses separately, so the first gloss silently duplicates their content and undermines the clause-by-clause grammatical analysis the paragraph is making.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 90",
+          "observation": "First-clause gloss contains the whole of John 1:1; second and third clauses are then glossed separately in the same sentence."
+        },
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 73",
+          "observation": "The companion Logos entry treats “the opening five Greek words” (en archē ēn ho logos) as the Genesis 1:1 echo, confirming the intended first-clause scope."
+        }
+      ],
+      "observedTokens": [
+        "en archē ēn ho logos"
+      ],
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Change the first-clause gloss to \"in the beginning was the Word.\"",
+      "requiresHumanReview": false,
+      "notes": "Purely internal inconsistency between the Greek quoted and the English gloss supplied for it."
+    },
+    {
+      "id": "AUDIT-003",
+      "corpus": "om-article",
+      "recordId": "zoe",
+      "file": "corpora/om-articles/zoe.md",
+      "section": "The Word",
+      "exactExcerpt": "“The thief comes only to steal and kill and destroy; I have come so that they may have life, and may have it abundantly.” (John 10:10, BSB)",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "John 10:10 is quoted twice in this article, both times labeled BSB, with two different wordings. Line 92 gives “The thief comes only to steal and kill and destroy. I have come that they may have life, and have it in all its fullness.” The two cannot both be BSB. External check (publisher-authoritative text): the BSB reads “The thief comes only to steal and kill and destroy. I have come that they may have life, and have it in all its fullness.” — matching line 92, not line 31.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/zoe.md",
+          "locator": "lines 31 and 92",
+          "observation": "Two BSB-labeled quotations of John 10:10 with conflicting wording inside one article."
+        },
+        {
+          "file": "(external) https://biblehub.com/bsb/john/10.htm",
+          "locator": "John 10:10; accessed 2026-09-11",
+          "observation": "BSB text matches the line-92 wording, not the line-31 wording. External source used only to identify which label is correct; does not replace supplied text."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Bring the line-31 quotation into line with the BSB wording used at line 92 (or label the actual edition quoted).",
+      "requiresHumanReview": true,
+      "notes": "Identifying which wording is BSB required an external edition check; per the audit framework the fix needs human confirmation."
+    },
+    {
+      "id": "AUDIT-004",
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "file": "corpora/om-articles/teleios.md",
+      "section": "The Word",
+      "exactExcerpt": "“So then, be perfect, as your heavenly Father is perfect.” (Matthew 5:48, BSB)",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Matthew 5:48 is quoted with the wording “So then, be perfect …” and labeled BSB at line 31 and again at line 77, but the same article’s block quotation at line 75 gives the verse as “Be perfect, therefore, as your heavenly Father is perfect.” (Matthew 5:48, BSB). External check: the BSB reads “Be perfect, therefore, as your heavenly Father is perfect.” — matching line 75. The “So then, be perfect” wording is not BSB.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/teleios.md",
+          "locator": "lines 31, 75, 77",
+          "observation": "Line 75 quotes the verse in BSB wording; lines 31 and 77 quote it differently, all labeled BSB."
+        },
+        {
+          "file": "(external) https://biblehub.com/bsb/matthew/5.htm",
+          "locator": "Matthew 5:48; accessed 2026-09-11",
+          "observation": "BSB: “Be perfect, therefore, as your heavenly Father is perfect.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Align the line-31 and line-77 quotations with the BSB wording used at line 75.",
+      "requiresHumanReview": true,
+      "notes": "External edition check used to identify the correct BSB wording; fix needs human confirmation."
+    },
+    {
+      "id": "AUDIT-005",
+      "corpus": "om-article",
+      "recordId": "charis",
+      "file": "corpora/om-articles/charis.md",
+      "section": "The Word",
+      "exactExcerpt": "“And if it is by grace, it is no longer by works, otherwise grace would no longer be grace.” (Romans 11:6, BSB)",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Romans 11:6 is quoted twice, both times labeled BSB, with two wordings: line 31 (above) and line 62 (“And if it is by grace, then it is no longer by works. Otherwise, grace would no longer be grace.”). External check: the BSB reads “And if it is by grace, then it is no longer by works. Otherwise, grace would no longer be grace.” — matching line 62, not line 31.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/charis.md",
+          "locator": "lines 31 and 62",
+          "observation": "Two BSB-labeled quotations of Romans 11:6 with conflicting wording."
+        },
+        {
+          "file": "(external) https://biblehub.com/bsb/romans/11.htm",
+          "locator": "Romans 11:6; accessed 2026-09-11",
+          "observation": "BSB matches the line-62 wording."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Align the line-31 quotation with the BSB wording used at line 62.",
+      "requiresHumanReview": true,
+      "notes": "External edition check used to identify the correct BSB wording; fix needs human confirmation."
+    },
+    {
+      "id": "AUDIT-006",
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "file": "corpora/om-articles/sozo.md",
+      "section": "The Word",
+      "exactExcerpt": "“She will give birth to a son and you will name him Jesus because he will save his people from their sins.” (Matthew 1:21, BSB)",
+      "category": "translation-or-edition-identity",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Matthew 1:21 is quoted twice in this article, both labeled BSB. Line 59 gives the BSB wording (“She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.”); line 31 (above) gives a different rendering with lowercase pronouns and no commas. External check: the BSB matches line 59. The line-31 wording is not BSB; it is nearly identical to the NET Bible rendering (“She will give birth to a son and you will name him Jesus, because he will save his people from their sins.”), which makes it a likely pre-BSB (NET-era) leftover — exactly the residue this adaptation was meant to remove.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/sozo.md",
+          "locator": "lines 31 and 59",
+          "observation": "Two BSB-labeled quotations of Matthew 1:21 with conflicting wording."
+        },
+        {
+          "file": "(external) https://biblehub.com/matthew/1-21.htm",
+          "locator": "Matthew 1:21 multi-version page; accessed 2026-09-11",
+          "observation": "Berean Standard Bible matches line 59; NET Bible rendering is nearly identical to the line-31 wording."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the line-31 quotation with the BSB wording used at line 59.",
+      "requiresHumanReview": true,
+      "notes": "The NET identification is a close-but-not-exact match (punctuation differs); the certain fact is that line 31 is not BSB and conflicts with line 59."
+    },
+    {
+      "id": "AUDIT-007",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "file": "corpora/om-articles/iesous.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Matthew 1:21.* \"She will give birth to a son and you will name him Jesus because he will save his people from their sins.\"",
+      "category": "scripture-reference-or-quotation",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "Matthew 1:21 appears in two wordings inside this article. Lines 33, 109 and 139 use the BSB wording (capitalized Son/Him/He, with commas; line 33 and 139 carry explicit BSB labels), while lines 83 (above) and 145 use the same non-BSB lowercase rendering found in sozo.md line 31, here without any edition label. In a BSB adaptation the unlabeled use of a second rendering is a silent edition mix; a reader will take it for the same Bible quoted a paragraph earlier.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "lines 33, 83, 109, 139, 145",
+          "observation": "BSB wording at 33/109/139; conflicting unlabeled wording at 83 and 145."
+        },
+        {
+          "file": "corpora/om-articles/sozo.md",
+          "locator": "line 31",
+          "observation": "Same non-BSB rendering, there explicitly mislabeled BSB (AUDIT-006)."
+        },
+        {
+          "file": "(external) https://biblehub.com/matthew/1-21.htm",
+          "locator": "Matthew 1:21; accessed 2026-09-11",
+          "observation": "BSB matches the capitalized wording."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Align lines 83 and 145 with the BSB wording used at line 33 (or label the edition actually quoted).",
+      "requiresHumanReview": true,
+      "notes": "No false BSB label here, so classified probable-error rather than confirmed-error; same correction batch as AUDIT-006."
+    },
+    {
+      "id": "AUDIT-008",
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "file": "corpora/om-articles/mathetes.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "Luke uses *mathētēs* over thirty times in Acts before reaching this verse.",
+      "category": "word-or-element-count",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The claim is that μαθητής occurs over thirty times in Acts before Acts 11:26. Standard concordance data (Strong's 3101) list about 28–29 occurrences of mathētēs in the whole of Acts, and only about eleven of them before 11:26 (Acts 1:15; 6:1; 6:2; 6:7; 9:1; 9:10; 9:19; 9:25; 9:26; 9:36; 9:38). The article repeats the “over thirty times” claim for the whole book at lines 89 and 151, which is itself above the usual count; the “before reaching this verse” figure is off by roughly a factor of three.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mathetes.md",
+          "locator": "lines 33, 89, 151",
+          "observation": "The “over thirty times” claim appears three times; line 33 scopes it to material before Acts 11:26."
+        },
+        {
+          "file": "(external) Strong's Greek 3101 concordance listing for Acts",
+          "locator": "accessed 2026-09-11",
+          "observation": "Approximately 28–29 occurrences in Acts total; ~11 before Acts 11:26. External lexical data; packet contains no frequency evidence."
+        }
+      ],
+      "observedTokens": [
+        "Acts 1:15",
+        "Acts 6:1",
+        "Acts 6:2",
+        "Acts 6:7",
+        "Acts 9:1",
+        "Acts 9:10",
+        "Acts 9:19",
+        "Acts 9:25",
+        "Acts 9:26",
+        "Acts 9:36",
+        "Acts 9:38"
+      ],
+      "statedCount": 30,
+      "observedCount": 11,
+      "suggestedMinimalCorrection": "Recheck the count; e.g. “Luke uses *mathētēs* throughout Acts before reaching this verse” or the corrected number.",
+      "requiresHumanReview": true,
+      "notes": "The packet contains no Scripture frequency data, so this rests on standard external concordance counts and needs human confirmation. The hedged total (“over thirty”) is also above the usual 28–29 count."
+    },
+    {
+      "id": "AUDIT-009",
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "file": "corpora/om-articles/prothesis.md",
+      "section": "The Word",
+      "exactExcerpt": "The word is a third-declension feminine noun and appears twelve times in the New Testament — six times in the showbread sense and six times in the purpose sense.",
+      "category": "word-or-element-count",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The total of twelve occurrences of πρόθεσις is correct, but the 6/6 sense split is not. The showbread sense occurs four times (Matthew 12:4; Mark 2:26; Luke 6:4; Hebrews 9:2) and the purpose sense eight times (Acts 11:23; 27:13; Romans 8:28; 9:11; Ephesians 1:11; 3:11; 2 Timothy 1:9; 3:10).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/prothesis.md",
+          "locator": "line 41",
+          "observation": "Stated split: six showbread / six purpose."
+        },
+        {
+          "file": "(external) https://biblehub.com/greek/4286.htm",
+          "locator": "Strong's 4286 πρόθεσις, Englishman's Concordance listing; accessed 2026-09-11",
+          "observation": "12 occurrences: showbread at Matt 12:4, Mark 2:26, Luke 6:4, Heb 9:2 (4); purpose at Acts 11:23, 27:13, Rom 8:28, 9:11, Eph 1:11, 3:11, 2 Tim 1:9, 3:10 (8)."
+        }
+      ],
+      "observedTokens": [
+        "Matthew 12:4",
+        "Mark 2:26",
+        "Luke 6:4",
+        "Hebrews 9:2",
+        "Acts 11:23",
+        "Acts 27:13",
+        "Romans 8:28",
+        "Romans 9:11",
+        "Ephesians 1:11",
+        "Ephesians 3:11",
+        "2 Timothy 1:9",
+        "2 Timothy 3:10"
+      ],
+      "statedCount": 6,
+      "observedCount": 4,
+      "suggestedMinimalCorrection": "“…twelve times in the New Testament — four times in the showbread sense and eight times in the purpose sense.”",
+      "requiresHumanReview": true,
+      "notes": "The packet has no frequency data; the correction relies on standard concordance data and needs human confirmation."
+    },
+    {
+      "id": "AUDIT-010",
+      "corpus": "om-article",
+      "recordId": "pater",
+      "file": "corpora/om-articles/pater.md",
+      "section": "The Word",
+      "exactExcerpt": "The reconstructed Proto-Indo-European form is *pH₂tér-, and it surfaces in nearly every IE language family with remarkably little change: Latin *pater*, Sanskrit *pitár-*, Persian *pidar*, German *Vater*, English *father*.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Unclosed italics: the asterisk before *pH₂tér- is never closed, so the line has an odd asterisk count. Depending on the renderer, the italic span can swallow the rest of the sentence (blurring the boundary between the reconstructed PIE form and the attested Latin/Sanskrit forms) or leave a stray literal asterisk.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pater.md",
+          "locator": "line 55",
+          "observation": "Odd asterisk count on the line; “*pH₂tér-,” lacks its closing asterisk (compare the correctly marked “*pitár-*” later in the same sentence)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Change “*pH₂tér-,” to “*pH₂tér*-,” (closing the italic span before the hyphen).",
+      "requiresHumanReview": false,
+      "notes": "Only asterisk-balance defect found in the 250-article scan."
+    },
+    {
+      "id": "AUDIT-011",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "First, the price is named explicitly: *en tō haimati sou*, “And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation.’”",
+      "category": "presentation-affecting-meaning",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "After the Greek phrase *en tō haimati sou* (“by Your blood”), the gloss slot is filled with the entire Revelation 5:9 verse quotation instead of the gloss of the phrase. The same article glosses the following phrases correctly (e.g. line 115 “*ek pasēs phylēs kai glōssēs kai laou kai ethnous*, ‘from every tribe and tongue and people and nation.’”), so this looks like a paste error that obscures which English words render the quoted Greek.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "lines 105–117",
+          "observation": "Verse quotation at line 105; line 111 repeats the whole verse as the “gloss” of a two-word Greek phrase; lines 115 and 117 use proper short glosses."
+        }
+      ],
+      "observedTokens": [
+        "en tō haimati sou"
+      ],
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Replace the repeated verse with the phrase gloss, e.g. “by Your blood.”",
+      "requiresHumanReview": false,
+      "notes": "The intended gloss is recoverable from the verse itself (“by Your blood”)."
+    },
+    {
+      "id": "AUDIT-012",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "“And a voice from heaven said, ‘This is My beloved Son, in whom I am well pleased’” The voice at Jesus's baptism.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hyios.md",
+          "locator": "line 115",
+          "observation": "Closing quotation mark immediately followed by a new sentence with no period."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-013",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*John 20:28.* “Thomas replied, ‘My Lord and my God’” In Greek: *Ho kyrios mou kai ho theos mou.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 92",
+          "observation": "Closing quotation mark followed directly by “In Greek:” with no terminal period."
+        },
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 98",
+          "observation": "Second instance: “…the scepter of Your kingdom’” The author of Hebrews quotes Psalm 45:6 …"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-014",
+      "corpus": "om-article",
+      "recordId": "amen",
+      "file": "corpora/om-articles/amen.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "1 Chronicles 16:36 — “Then all the people said, ‘Amen!’ and ‘Praise the LORD’” Nehemiah 8:6 —",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/amen.md",
+          "locator": "line 65",
+          "observation": "Closing quotation mark followed directly by the next citation (“Nehemiah 8:6 —”) with no terminal period."
+        },
+        {
+          "file": "corpora/om-articles/amen.md",
+          "locator": "line 116",
+          "observation": "Second instance: “…the Originator of God’s creation” The Greek: …"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-015",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "“And they sang a new song: ‘Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation’” The Greek:",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "line 105",
+          "observation": "Closing quotation mark immediately followed by a new sentence with no period."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-016",
+      "corpus": "om-article",
+      "recordId": "anastasis",
+      "file": "corpora/om-articles/anastasis.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "And everyone who lives and believes in Me will never die. Do you believe this” The Greek of verse 25: *egō eimi hē anastasis kai hē zōē*.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article). In this instance the quoted question also loses its closing punctuation — BSB ends the verse “Do you believe this?’” with a question mark and single quote.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/anastasis.md",
+          "locator": "line 114",
+          "observation": "The quoted question loses its closing punctuation (BSB ends “Do you believe this?’” with question mark and single quote) and no terminal period follows the closing quotation mark before “The Greek of verse 25:”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-017",
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "file": "corpora/om-articles/prototokos.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "He reads aloud: “The Son is the image of the invisible God, the firstborn over all creation” Then he asks the question he was sent to ask.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/prototokos.md",
+          "locator": "line 29",
+          "observation": "Closing quotation mark immediately followed by a new sentence with no period."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-018",
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "file": "corpora/om-articles/theotes.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Colossians 2:9.* “For in Christ all the fullness of the Deity dwells in bodily form” The Greek deserves close attention:",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "A Scripture quotation closes without the sentence's terminal punctuation: the closing quotation mark is followed directly by a new sentence. The same pattern recurs across several articles (systematic; one finding is filed per affected article).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 79",
+          "observation": "Closing quotation mark followed directly by “The Greek deserves …” with no terminal period."
+        },
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 93",
+          "observation": "Second instance: “For God was pleased to have all His fullness dwell in Him,” This is the parallel verse …"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Add the missing period inside (or immediately after) the closing quotation mark.",
+      "requiresHumanReview": false,
+      "notes": "Systematic presentation pattern; recommend one batch fix. Post-v1 backlog material, not a content error."
+    },
+    {
+      "id": "AUDIT-019",
+      "corpus": "om-article",
+      "recordId": "antilytron",
+      "file": "corpora/om-articles/antilytron.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/antilytron.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-020",
+      "corpus": "om-article",
+      "recordId": "authenteo",
+      "file": "corpora/om-articles/authenteo.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/authenteo.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-021",
+      "corpus": "om-article",
+      "recordId": "charisma",
+      "file": "corpora/om-articles/charisma.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/charisma.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-022",
+      "corpus": "om-article",
+      "recordId": "epiphaneia",
+      "file": "corpora/om-articles/epiphaneia.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/epiphaneia.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-023",
+      "corpus": "om-article",
+      "recordId": "eusebeia",
+      "file": "corpora/om-articles/eusebeia.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eusebeia.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-024",
+      "corpus": "om-article",
+      "recordId": "hygiaino",
+      "file": "corpora/om-articles/hygiaino.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hygiaino.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-025",
+      "corpus": "om-article",
+      "recordId": "loutron",
+      "file": "corpora/om-articles/loutron.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/loutron.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-026",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "file": "corpora/om-articles/mesites.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mesites.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-027",
+      "corpus": "om-article",
+      "recordId": "mythos",
+      "file": "corpora/om-articles/mythos.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mythos.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-028",
+      "corpus": "om-article",
+      "recordId": "orthotomeo",
+      "file": "corpora/om-articles/orthotomeo.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them. This article additionally swaps the section order: “Where People Get It Wrong” appears before “What Confessional Lutherans Hear”, while the other 249 articles that carry both sections place “What Confessional Lutherans Hear” first.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/orthotomeo.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-029",
+      "corpus": "om-article",
+      "recordId": "paratheke",
+      "file": "corpora/om-articles/paratheke.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/paratheke.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-030",
+      "corpus": "om-article",
+      "recordId": "soter",
+      "file": "corpora/om-articles/soter.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/soter.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-031",
+      "corpus": "om-article",
+      "recordId": "theopneustos",
+      "file": "corpora/om-articles/theopneustos.md",
+      "section": null,
+      "exactExcerpt": "## Where You'll Meet It",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The section heading uses a straight apostrophe (“Where You'll Meet It”) while 237 of the 250 articles use the typographic apostrophe (“Where You’ll Meet It”). Thirteen articles share the straight-apostrophe form; one batch normalization would fix all of them.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theopneustos.md",
+          "locator": "section headings",
+          "observation": "Straight apostrophe in “Where You'll Meet It”."
+        },
+        {
+          "file": "corpora/om-articles/abba.md",
+          "locator": "section headings",
+          "observation": "Representative majority form: “## Where You’ll Meet It” (U+2019)."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Normalize the heading to “## Where You’ll Meet It” (curly apostrophe).",
+      "requiresHumanReview": false,
+      "notes": "Cosmetic consistency only."
+    },
+    {
+      "id": "AUDIT-032",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "frontmatter",
+      "exactExcerpt": "subhead: \"bought at a price\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The article's frontmatter subhead (“bought at a price”) and the public metadata snapshot (“Bought with a Price”) differ in wording, not just casing. The website card and the adapted article will display different subheads for the same entry. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "frontmatter",
+          "observation": "subhead = 'bought at a price'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'agorazo'",
+          "observation": "subhead = 'Bought with a Price'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-033",
+      "corpus": "om-article",
+      "recordId": "haima",
+      "file": "corpora/om-articles/haima.md",
+      "section": "frontmatter",
+      "exactExcerpt": "subhead: \"the new covenant in My blood\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Subhead differs in casing between article frontmatter and the metadata snapshot. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/haima.md",
+          "locator": "frontmatter",
+          "observation": "subhead = 'the new covenant in My blood'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'haima'",
+          "observation": "subhead = 'The New Covenant in My Blood'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-034",
+      "corpus": "om-article",
+      "recordId": "soma",
+      "file": "corpora/om-articles/soma.md",
+      "section": "frontmatter",
+      "exactExcerpt": "subhead: \"this is My body\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Subhead differs in casing between article frontmatter and the metadata snapshot. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/soma.md",
+          "locator": "frontmatter",
+          "observation": "subhead = 'this is My body'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'soma'",
+          "observation": "subhead = 'This Is My Body'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-035",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "file": "corpora/om-articles/mesites.md",
+      "section": "frontmatter",
+      "exactExcerpt": "pronunciation: \"mes-EE-tays\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Pronunciation guides differ: the article gives “mes-EE-tays”, the metadata snapshot “mes-EE-tace”. “-tace” looks like a typographical error for “-tays” (or vice versa); one of the two public surfaces is wrong for μεσίτης. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mesites.md",
+          "locator": "frontmatter",
+          "observation": "pronunciation = 'mes-EE-tays'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'mesites'",
+          "observation": "pronunciation = 'mes-EE-tace'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-036",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "file": "corpora/om-articles/bema.md",
+      "section": "frontmatter",
+      "exactExcerpt": "pronunciation: \"BAY-mah\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The metadata snapshot's pronunciation field contains the transliteration “bēma” rather than a pronunciation guide, while the article carries “BAY-mah”. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/bema.md",
+          "locator": "frontmatter",
+          "observation": "pronunciation = 'BAY-mah'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'bema'",
+          "observation": "pronunciation = 'bēma'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-037",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": "frontmatter",
+      "exactExcerpt": "pronunciation: \"yoo-lo-GEH-oh\"",
+      "category": "headword-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The metadata snapshot's pronunciation field contains the transliteration “eulogeō” rather than a pronunciation guide, while the article carries “yoo-lo-GEH-oh”. (The metadata file is supplied for identity checks and is not an independent authority; the mismatch itself is the finding.)",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eulogeo.md",
+          "locator": "frontmatter",
+          "observation": "pronunciation = 'yoo-lo-GEH-oh'"
+        },
+        {
+          "file": "corpora/word-metadata.json",
+          "locator": "record 'eulogeo'",
+          "observation": "pronunciation = 'eulogeō'"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Reconcile the two values on one side or the other, per the owner's choice.",
+      "requiresHumanReview": false,
+      "notes": "Identity-check finding against the public metadata snapshot; no judgment about which value should win."
+    },
+    {
+      "id": "AUDIT-038",
+      "corpus": "om-article",
+      "recordId": "logos",
+      "file": "corpora/om-articles/logos.md",
+      "section": "So What",
+      "exactExcerpt": "The other forty-nine words follow.",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "The article's last line is a dangling book-series navigation sentence (“The other forty-nine words follow.”). It refers to the print/e-book structure of the source volume (Just Enough Greek, volume 1, entry 1 of 50) and has no function in the standalone web/app article; no other article in the 250-article corpus carries such a line.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "line 125 (final line)",
+          "observation": "Dangling series-navigation sentence."
+        },
+        {
+          "file": "corpora/om-articles/logos.md",
+          "locator": "frontmatter",
+          "observation": "source: Just Enough Greek; source_order: 1 — consistent with a 50-entry volume introduction, confirming the line is a book artifact."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Remove the line, or replace it with the corpus's standard related-entry links.",
+      "requiresHumanReview": false,
+      "notes": "Not false content; flagged as carry-over from the source book format."
+    },
+    {
+      "id": "AUDIT-039",
+      "corpus": "om-article",
+      "recordId": "hyios",
+      "file": "corpora/om-articles/hyios.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "Three phrases echo the Old Testament: \"my Son\" (Psalm 2:7), \"the beloved\" (the Aqedah of Genesis 22, the only-beloved Isaac), and “And a voice from heaven said, ‘This is My beloved Son, in whom I am well pleased!’” (Isaiah 42:1, the chosen servant).",
+      "category": "scripture-reference-or-quotation",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The third “phrase” said to echo Isaiah 42:1 is not a phrase from Isaiah — it is the entire Matthew 3:17 sentence as quoted earlier in the paragraph (including the narrative frame “And a voice from heaven said”). Presenting the whole Matthean sentence as the wording of Isaiah 42:1 misleads the reader about what Isaiah says; the actual echo is the clause “in whom I am well pleased” (compare Isaiah 42:1, “in whom My soul delights” — noting Matthew is echoing, not quoting, Isaiah).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hyios.md",
+          "locator": "line 115",
+          "observation": "The first two echoes are quoted as short phrases; the third quotes the whole verse, frame included, and labels it “(Isaiah 42:1 …)”."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Change the third item to quote only the echo phrase, e.g.: and “in whom I am well pleased” (Isaiah 42:1, the chosen servant).",
+      "requiresHumanReview": false,
+      "notes": "Internal evidence suffices: the quoted wording is demonstrably Matthew 3:17's, repeated from earlier in the same paragraph."
+    },
+    {
+      "id": "AUDIT-040",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-08",
+      "file": "corpora/comparison-commentaries/candidate-08.json",
+      "section": "significance.interpretation",
+      "exactExcerpt": "Where verses 44 and 46 are printed, the warning recurs after each of the first two sayings and again at the end. Where they are not, it comes once, at verse 47's conclusion.",
+      "category": "comparison-integrity",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "In the editions without verses 44 and 46 (BSB, BLB, Nestle 1904), the warning about the worm and the fire stands at Mark 9:48, not “at verse 47's conclusion.” Verse 47 in those editions is the saying about the eye. The unit's own sourceObservation says the text runs “from verse 45 to verse 47” and that the line “is identical in wording to Mark 9:48, which every edition here prints”; the companion unit candidate-07 states the fixed point explicitly: “At Mark 9:48, in all seven editions compared here, stands the warning about the worm that does not die and the fire that is not quenched.” The verse number in the interpretation is wrong.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-08.json",
+          "locator": "significance.sourceObservation",
+          "observation": "“run from verse 45 to verse 47”; “The line is identical in wording to Mark 9:48, which every edition here prints.”"
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-07.json",
+          "locator": "significance.sourceObservation",
+          "observation": "“At Mark 9:48, in all seven editions compared here, stands the warning about the worm that does not die and the fire that is not quenched.”"
+        },
+        {
+          "file": "corpora/comparison-commentaries/candidate-07.json",
+          "locator": "significance.interpretation",
+          "observation": "“In the Berean Standard Bible, the Berean Literal Bible and Nestle's 1904 Greek edition it appears once only, at verse 48.”"
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": null,
+      "observedCount": null,
+      "suggestedMinimalCorrection": "Change “at verse 47's conclusion” to “at verse 48” (or “at the paragraph's conclusion”).",
+      "requiresHumanReview": false,
+      "notes": "Confirmed against packet-internal evidence only; no external source needed."
+    },
+    {
+      "id": "AUDIT-041",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-17",
+      "file": "corpora/comparison-commentaries/candidate-17.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Within these twelve verses the publishers record a remarkable number of small differences — the Majority Standard Bible has twelve textual notes and one rendering note, while the Berean Standard Bible has three textual notes and one rendering note, naming a range of printed editions that read differently at one point or another [C3]. These seventeen Berean notes concern the wording and its rendering, rather than the inclusion of the whole passage.",
+      "category": "comparison-integrity",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "“These seventeen Berean notes” misattributes the notes. By the sentence's own breakdown, twelve textual notes plus one rendering note belong to the Majority Standard Bible (13) and three textual plus one rendering note to the Berean Standard Bible (4). The total is indeed 17 (12+1+3+1), but only four of them are Berean notes; thirteen are MSB notes. Publisher attribution is exactly the kind of distinction this corpus is careful to preserve, so the label should not lump MSB's notes under “Berean.”",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-17.json",
+          "locator": "significance.sourceObservation",
+          "observation": "Same sentence allocates 13 notes to MSB and 4 to BSB before calling all seventeen “Berean notes.”"
+        },
+        {
+          "file": "guidance/EDITORIAL-REVIEW.md",
+          "locator": "Batch 4 and M2 source decisions",
+          "observation": "Publisher-attributed claims must remain attributed to the correct publisher; MSB is majoritybible.com, not a Berean edition."
+        }
+      ],
+      "observedTokens": null,
+      "statedCount": 17,
+      "observedCount": 4,
+      "suggestedMinimalCorrection": "Change “These seventeen Berean notes” to “These seventeen publisher notes” (or “These seventeen notes”).",
+      "requiresHumanReview": false,
+      "notes": "The arithmetic (17) is right; only the publisher label is wrong."
+    }
+  ]
+}
