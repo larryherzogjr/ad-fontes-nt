@@ -1,7 +1,7 @@
 # Ad Fontes NT 1.0.0-rc.6 copy-selection candidate
 
 Date: 2026-09-12  
-Status: exact cross-platform candidate approved; publication prepared
+Status: exact cross-platform candidate approved, published and independently verified
 
 RC6 adds a persistent **Copy selection** action beside Edit/Clear for a canonical passage. It copies authoritative Scripture segment text without rendered verse numbers and appends the compact canonical passage plus the full edition name. Highlighted-text copying applies the same exclusion to verse-number and marker controls.
 
@@ -30,4 +30,10 @@ RC6 adds a persistent **Copy selection** action beside Edit/Clear for a canonica
 
 The combined immutable updater staging verifies both payloads. `stable/latest.json` SHA-256 is `7ad5c73b2fbfdd13b30f8a876b4cfbd020748979c64cea46a717101339bbba73`; `SHA256SUMS` SHA-256 is `d13e8c9612f100b91cee0127a873f33486ad501a596aa2518c22c57405cf6f4a`. Larry explicitly approved the exact manifest hash on September 12, 2026. Approval authorizes this candidate's publication, not final v1.0.
 
-Publication must install the immutable updater payloads and stable manifest first, then the public DMG/EXE, and only then deploy the RC6 Downloads/Sources web copy. Independent HTTPS verification remains required afterward. Existing RC5 artifacts must remain byte-for-byte unchanged, and `larryherzogjr.com` remains outside scope.
+Publication was authorized to install the immutable updater payloads and stable manifest first, then the public DMG/EXE, and only then deploy the RC6 Downloads/Sources web copy. Existing RC5 artifacts remain immutable, and `larryherzogjr.com` remains outside scope.
+
+## Publication verification
+
+The host fast-forwarded cleanly to `9b778ae19e4fa5cc9640e2832fcbc41d9e7698e5`, verified both updater payloads and both public-download packages, published the immutable RC6 updater directory and stable manifest, published the public DMG and Windows installer, and rebuilt the web application. The database backup is `backups/adfontes-before-update-20260912T072525Z.dump`; both containers became healthy and `/api/health` returned `{"ok":true}`.
+
+Independent full HTTPS downloads of the manifest, both updater payloads, public DMG and public Windows installer totalled 569,476,512 bytes and matched all approved hashes. Stable metadata uses `no-store`; versioned updater payloads use one-year immutable caching; public installers use attachment/noindex headers; payloads support byte ranges. The public directory denies listing with 403 and an unknown updater path returns 404. The live Downloads page contains only the RC6 DMG and EXE links, the live Sources page identifies RC6 as the current cross-platform candidate, and a live John 1:1–5 passage exposes Edit selection, Clear selection and Copy selection. Application health is good. `larryherzogjr.com` was not changed.
