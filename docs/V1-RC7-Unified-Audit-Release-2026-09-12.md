@@ -1,7 +1,7 @@
 # Ad Fontes NT 1.0.0-rc.7 unified audit release
 
 Date: 2026-09-12
-Status: exact cross-platform candidate approved; publication in progress
+Status: exact cross-platform candidate approved and published; superseded by RC8 for a display-count correction
 
 RC7 incorporates the approved reconciliation of the independent second-pass audits, follow-up theological review, verified confessional-source corrections, and nine approved Volume One studies. It selects immutable Ordinary Means release `om-studies-2026-09-12-v8` and lexical release `dodson-2010-v5`. Scripture is unchanged.
 
@@ -30,3 +30,9 @@ RC7 incorporates the approved reconciliation of the independent second-pass audi
 The combined immutable updater staging verifies both payloads. `stable/latest.json` SHA-256 is `5e174174a0de5e8a43c471fa130f9482e10f7db5c013c0661d64587896481742`; `SHA256SUMS` SHA-256 is `a8cd7e3bd6cb98e711eb7c299b3f5af7fd8c892dd6a1dd28559b3e52cf41d23c`. Larry explicitly approved the exact manifest hash on September 12, 2026. Approval authorizes this RC7 candidate's publication, not final v1.0.
 
 Publication order is the immutable updater payloads and stable manifest, then public DMG/EXE, then the RC7 web application. Existing release artifacts remain immutable, and `larryherzogjr.com` remains outside scope.
+
+## Publication and supersession
+
+The host published the exact RC7 updater payloads and manifest, both public installers, and the RC7 web application. Both containers became healthy and `/api/health` returned `{"ok":true}`; the pre-update database backup is `backups/adfontes-before-update-20260912T194143Z.dump`. Independent full HTTPS downloads of the manifest, both updater payloads, the public DMG, and the public Windows installer totalled 569,520,615 bytes and matched every approved hash. Stable metadata returned `no-store`; versioned updater payloads returned one-year immutable caching; public packages returned attachment/noindex headers and supported byte ranges.
+
+Post-publication verification found one stale display count shared by the web and desktop Sources page: it said 30 reviewed comparison notes while RC7 publishes 39. The immutable RC7 artifacts remain preserved; RC8 is the clean successor for that wording-only correction. No RC7 Scripture, commentary, study, or account data is invalidated.

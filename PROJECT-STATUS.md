@@ -4,6 +4,7 @@
 
 - Live RC7 verification and Larry's native-app check found the same stale Sources-page phrase: the release publishes 39 reviewed comparison/commentary units, but that status summary still said 30. The web source was corrected after RC7 publication; because the already signed RC7 desktop packages are immutable and retain the old display string, advanced the coordinated application/package version to `1.0.0-rc.8` for a clean successor build.
 - RC8 changes no Scripture, commentary, approval, corpus mapping, account behavior, or desktop-update mechanism. It retains the exact RC7 v8/v5 content and all 39 approved units, with the corrected count and regression coverage. Native signing, exact manifest approval, immutable publication, and the final web-only status deployment remain guarded release steps.
+- Signed and notarized RC8 on macOS and completed the Public Trust-signed Windows workflow from source `45b70710fa0c4e47fb6ccd63c9ac14d2bd9f829b`. Larry explicitly approved combined updater-manifest SHA-256 `ed1a865c5c1c2918e610e5dadf02a9cda5bbed476f4c54e05b0fbf1fb423453a`; exact payload and signing identities are recorded in [the RC8 release record](docs/V1-RC8-Comparison-Count-Correction-2026-09-12.md). Immutable updater/public-package publication and the coordinated web deployment are authorized.
 
 ## 2026-09-12 — Coordinated RC7 preparation (AFNT-020 / AFNT-029 / AFNT-107)
 
