@@ -15,10 +15,16 @@ import { getAnalysis, getOccurrences, getLexicon, describeMorph, highlightOccurr
 const root = new URL("../", import.meta.url),
   read = async (p: string) => JSON.parse(await readFile(new URL(p, root), "utf8"));
 const candidates: Variant[] = await read("content/editorial/variants.json");
-const auditCandidate = await read("sources/om-studies/om-studies-2026-09-11-v6/evidence/CANDIDATE-MANIFEST.json");
-const auditReviewByUnit = new Map(auditCandidate.comparisonReviewHashes.map((row: {unitId:string}) => [row.unitId, row]));
+const auditCandidates = await Promise.all([
+  read("sources/om-studies/om-studies-2026-09-11-v6/evidence/CANDIDATE-MANIFEST.json"),
+  read("sources/om-studies/om-studies-2026-09-11-v7/evidence/CANDIDATE-MANIFEST.json"),
+]);
+const auditReviewByUnit = new Map<string, {previousReviewPayloadSha256:string}>();
+for (const candidate of auditCandidates) for (const row of candidate.comparisonReviewHashes) {
+  if (!auditReviewByUnit.has(row.unitId)) auditReviewByUnit.set(row.unitId, row);
+}
 const applyAuditSignificance = (id: string, sourceObservation: string, interpretation: string) => {
-  for (const change of auditCandidate.comparisonChanges.filter((row: {unitId:string}) => row.unitId === id)) {
+  for (const change of auditCandidates.flatMap(candidate => candidate.comparisonChanges).filter((row: {unitId:string}) => row.unitId === id)) {
     if (!['sourceObservation','interpretation'].includes(change.field)) continue;
     const current = change.field === 'sourceObservation' ? sourceObservation : interpretation;
     assert.equal(current.split(change.old).length - 1, 1, `${change.id} ${id}`);
@@ -81,6 +87,8 @@ test("first approved note preserves corrected prose, source distinctions and cit
   assert.match(v.significance!.interpretation, /hearing the gospel from Philip/);
   assert.doesNotMatch(v.significance!.interpretation, /for the first time/);
   assert.match(v.significance!.sourceObservation, /In BSB and MSB, the main text skips verse number 37/);
+  assert.match(v.significance!.sourceObservation, /Boyd’s compilation draws on the Stephanus, Elzevir, and Scrivener editions \[C7\]/);
+  assert.doesNotMatch(v.significance!.sourceObservation, /began with Erasmus in 1516/);
   assert.equal(v.readings.filter(r => r.state === 'absent').length, 5);
   assert.equal(v.attestations.length, 0);
   const invalid = structuredClone(v);

@@ -11,9 +11,9 @@ const source = `sources/om-studies/${release.releaseId}`;
 const output = `app/public/om/${release.releaseId}`;
 const manifest = await json(`${source}/manifest.json`);
 
-test('selected release is the approved full-corpus audit correction', async () => {
-  assert.equal(release.releaseId, 'om-studies-2026-09-11-v6');
-  assert.equal(manifest.predecessor, 'om-studies-2026-09-10-v5');
+test('selected release is the approved resolved-audit successor', async () => {
+  assert.equal(release.releaseId, 'om-studies-2026-09-11-v7');
+  assert.equal(manifest.predecessor, 'om-studies-2026-09-11-v6');
   assert.equal(manifest.adaptation.edition, 'BSB');
   assert.equal(manifest.adaptation.candidateManifestSha256, 'dad1b34f996eb44bc30e9641083f39b8945992f768a2b96b511f0a695647eb2d');
   assert.equal(manifest.adaptation.validatorReportSha256, 'ebf8611fdbf23710ebb61216357e92e9cc5964f6f74bd5c692717ed0df40abbd');
@@ -30,9 +30,16 @@ test('selected release is the approved full-corpus audit correction', async () =
   assert.deepEqual(manifest.editorialAuditCorrection.unresolvedFindingIds, ['AUDIT-062','AUDIT-063','AUDIT-064','AUDIT-065','AUDIT-086']);
   assert.equal(manifest.editorialAuditCorrection.scriptureChanged, false);
   assert.equal(manifest.editorialAuditCorrection.authorWebsiteChanged, false);
+  assert.equal(manifest.auditFollowupCorrection.candidateManifestSha256, '58cab201852f955de95af4ee2a3531a4f03708e867a0183bc884651a752792d8');
+  assert.deepEqual(manifest.auditFollowupCorrection.resolvedFindingIds, ['AUDIT-063','AUDIT-064','AUDIT-062','AUDIT-065','AUDIT-086']);
+  assert.deepEqual(manifest.auditFollowupCorrection.changedArticles, ['epiphaneia','eusebeia','hades','hyper']);
+  assert.equal(manifest.auditFollowupCorrection.replacementCount, 4);
+  assert.equal(manifest.auditFollowupCorrection.unchangedArticleCount, 246);
+  assert.equal(manifest.auditFollowupCorrection.scriptureChanged, false);
+  assert.equal(manifest.auditFollowupCorrection.authorWebsiteChanged, false);
   const approval = await readFile(join(source, manifest.approvalEvidence), 'utf8');
   assert.match(approval, /Reviewer: Larry Herzog Jr\./);
-  assert.match(approval, /634d06bd89eb99826c5f70ea726a6d7aaca1673558e6f790bfb6312ef8c4d213/);
+  assert.match(approval, /58cab201852f955de95af4ee2a3531a4f03708e867a0183bc884651a752792d8/);
 });
 
 test('approved count and language corrections are present', async () => {
@@ -46,6 +53,21 @@ test('approved count and language corrections are present', async () => {
   assert.match(kyrios, /two Greek words/);
   assert.match(kyrios, /three in English/);
   assert.doesNotMatch(kyrios, /three-word creed|Three words\. Two terrible|Saying the three words/);
+});
+
+test('the five resolved audit findings use the approved wording', async () => {
+  const article = async (slug: string) => await readFile(join(source, 'raw', `${slug}.md`), 'utf8');
+  assert.match(await article('hades'), /\]\(https:\/\/larryherzogjr\.com\/questions\/what-does-it-mean-that-jesus-descended-into-hell\/\)/);
+  const epiphaneia = await article('epiphaneia');
+  assert.match(epiphaneia, /the two verses should be studied together\./);
+  assert.doesNotMatch(epiphaneia, /The Knowledge of Him/);
+  const eusebeia = await article('eusebeia');
+  assert.match(eusebeia, /Where Nestle’s 1904 text reads \*hos\*/);
+  assert.match(eusebeia, /Robinson–Pierpont and the Textus Receptus edition included here read \*theos\*/);
+  assert.doesNotMatch(eusebeia, /Byzantine tradition behind the King James/);
+  const hyper = await article('hyper');
+  assert.match(hyper, /the gospel in the two syllables “for you,” repeated weekly/);
+  assert.doesNotMatch(hyper, /the gospel in three syllables/);
 });
 
 test('all 250 approved articles reproduce exactly and cover every existing Greek word-study URL', async () => {

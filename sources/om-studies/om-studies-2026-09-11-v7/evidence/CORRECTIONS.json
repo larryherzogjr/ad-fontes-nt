@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "audit-followup-2026-09-11-candidate-v1",
+  "candidateDate": "2026-09-11",
+  "sourceArticleRelease": "om-studies-2026-09-11-v6",
+  "proposedArticleRelease": "om-studies-2026-09-11-v7",
+  "articleChanges": [
+    {
+      "id": "AUDIT-062",
+      "slug": "hades",
+      "old": "[What does it mean that Jesus descended into hell?](/questions/what-does-it-mean-that-jesus-descended-into-hell/)",
+      "new": "[What does it mean that Jesus descended into hell?](https://larryherzogjr.com/questions/what-does-it-mean-that-jesus-descended-into-hell/)",
+      "reason": "Use the author-site destination supplied by Larry Herzog Jr. instead of a nonexistent Ad Fontes application route."
+    },
+    {
+      "id": "AUDIT-063",
+      "slug": "epiphaneia",
+      "old": "The identical construction appears at 2 Peter 1:1, and the two verses should be studied together; see *The Knowledge of Him*.",
+      "new": "The identical construction appears at 2 Peter 1:1, and the two verses should be studied together.",
+      "reason": "Remove an unidentified resource reference while preserving the approved cross-reference to 2 Peter 1:1."
+    },
+    {
+      "id": "AUDIT-064",
+      "slug": "eusebeia",
+      "old": "Where the older Greek manuscripts read *hos* (ὅς, “He appeared in the flesh”), the Byzantine tradition behind the King James reads *theos* (θεός, \"God was manifest in the flesh\"), and a smaller group reads the neuter *ho* (ὅ), agreeing grammatically with \"mystery.\"",
+      "new": "Where Nestle’s 1904 text reads *hos* (ὅς, “He appeared in the flesh”), Robinson–Pierpont and the Textus Receptus edition included here read *theos* (θεός, \"God was manifest in the flesh\"), while a smaller group reads the neuter *ho* (ὅ), agreeing grammatically with \"mystery.\"",
+      "reason": "Name the actual displayed editions and distinguish the Byzantine/Majority text from the Textus Receptus."
+    },
+    {
+      "id": "AUDIT-065",
+      "slug": "hyper",
+      "old": "That is the gospel in three syllables, repeated weekly, for the rest of your life.",
+      "new": "That is the gospel in the two syllables “for you,” repeated weekly, for the rest of your life.",
+      "reason": "Make the intended referent explicit and correct its syllable count."
+    }
+  ],
+  "comparisonChanges": [
+    {
+      "id": "AUDIT-086",
+      "unitId": "candidate-18",
+      "field": "sourceObservation",
+      "old": "\"Textus Receptus\" names the family of printed Greek New Testaments that began with Erasmus in 1516 and stood behind the King James Version [C7].",
+      "new": "Textus Receptus names a family of related printed Greek New Testaments; Boyd’s compilation draws on the Stephanus, Elzevir, and Scrivener editions [C7].",
+      "reason": "Narrow the historical statement to the scope established by C7."
+    }
+  ]
+}
