@@ -5,6 +5,7 @@ import Reader from '@/reader/reader';
 import { WordStudies } from '@/reader/word-studies';
 import { desktopStartPath } from './navigation';
 import DesktopUpdateManager from './update-manager';
+import Library from '@/library/library';
 import '@/app/globals.css';
 import '@/reader/word-studies.css';
 
@@ -27,7 +28,7 @@ document.addEventListener('click', event => {
 
 createRoot(document.getElementById('root')!).render(
   <WordStudies offline>
-    <Reader />
+    {location.pathname === '/library' ? <Library offline /> : <Reader />}
     <DesktopUpdateManager />
   </WordStudies>,
 );

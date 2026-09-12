@@ -25,7 +25,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.8');
+  assert.equal(config.version, '1.0.0-rc.9');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -82,12 +82,16 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.editions.length, 7);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(corpus|analysis|editorial|lexical|om)\//);
+    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library)\//);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
     assert.deepEqual(bytes, await readFile(join('app/public', path)), path);
   }
+  const library = await json('library/index.json');
+  assert.equal(library.comparisonCount, 39);
+  assert.equal(library.articleCount, 250);
+  assert.equal(library.lemmaCount, 5400);
   for (const file of await readdir(join(assets, 'assets'))) {
     if (file.endsWith('.js')) assert.doesNotMatch(await readFile(join(assets, 'assets', file), 'utf8'), /\/api\/(account|notes)/);
   }

@@ -19,6 +19,7 @@ export default function PublicPage({
         </Link>
         <nav aria-label="Primary">
           <Link href="/">Read</Link>
+          <Link href="/library">Library</Link>
           <Link href="/about/sources">Sources &amp; Editions</Link>
           <Link href="/downloads">Downloads</Link>
           <Link href="/account">My account</Link>
@@ -35,6 +36,7 @@ export default function PublicPage({
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
           <Link href="/support">Support</Link>
+          <Link href="/library">Library</Link>
           <Link href="/downloads">Downloads</Link>
         </nav>
       </footer>

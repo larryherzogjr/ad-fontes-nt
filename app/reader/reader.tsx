@@ -499,6 +499,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
           >
             Read
           </a>
+          <a href="/library">Library</a>
           <a
             href="/about/sources"
             onClick={(e) => {
@@ -1065,7 +1066,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               with their documented limitations.
             </p>
             <p>
-              Version 1.0.0-rc.8 is the current cross-platform desktop
+              Version 1.0.0-rc.9 is the current cross-platform desktop
               candidate. The macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on
@@ -1084,6 +1085,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       <footer>
         <span>Ordinary Means</span>
         <span>Ad Fontes NT</span>
+        <a href="/library">Library</a>
         <a
           href="/about/sources"
           onClick={(e) => {

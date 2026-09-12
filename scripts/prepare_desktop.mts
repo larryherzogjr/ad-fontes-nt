@@ -16,6 +16,7 @@ const allowed = [
   'editorial/variants.json',
   'lexical/dodson-2010-v5',
   `om/${om.releaseId}`,
+  'library',
 ];
 // Keep predecessor releases reproducible in the web project, but bundle only active ones.
 await rm(destination, { recursive: true, force: true });
