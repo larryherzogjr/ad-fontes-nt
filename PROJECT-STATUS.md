@@ -1,5 +1,10 @@
 # Ad Fontes NT — project status
 
+## 2026-09-12 — Coordinated RC6 preparation (AFNT-026 / AFNT-107)
+
+- Advanced the coordinated desktop candidate to `1.0.0-rc.6` for the approved passage-copy enhancement. The shared web/desktop reader copies an explicit canonical range from authoritative Scripture segments without rendered verse numbers, retains the compact passage and full edition attribution, and applies the same verse-control exclusion to highlighted-text copying.
+- `npm run verify:both` passed at RC6: 59 Node tests, 19 Python fidelity tests, TypeScript, the production web build, the complete 13,371-file offline desktop build and six desktop tests. RC6 source points its shared Downloads and Sources views at the future immutable RC6 packages while public RC5 remains unchanged until both new native artifacts pass signing, runtime review, exact-manifest approval and publication. No corpus, commentary, source mapping, account behavior or `larryherzogjr.com` file changed.
+
 ## 2026-09-12 — Copy canonical range without inline verse numbers (AFNT-026 / AFNT-107)
 
 - Added “Copy selection” beside the persistent Edit/Clear controls for an explicit canonical passage. It builds the quotation from the selected edition's authoritative corpus segments—not rendered verse links or study controls—then appends the existing compact canonical passage and full edition name. The floating highlighted-text action now removes verse-number and marker controls from the selected DOM fragment before copying while retaining the selected Scripture characters.

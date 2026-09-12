@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.5/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.5.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.5/Ad-Fontes-NT-Windows-x64-1.0.0-rc.5.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.6/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.6.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.6/Ad-Fontes-NT-Windows-x64-1.0.0-rc.6.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release candidate" title="Download Ad Fontes NT">
       <p>
-        Version 1.0.0-rc.5 brings the Ad Fontes NT reader and study tools to
+        Version 1.0.0-rc.6 brings the Ad Fontes NT reader and study tools to
         your desktop for offline reading. Choose the package for your computer.
         Public reading does not require an account; private account-backed notes
         remain available in the web app.
@@ -49,7 +49,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </a>
-          <p className="download-detail">37.1 MB · Developer ID signed and Apple notarized</p>
+          <p className="download-detail">Developer ID signed and Apple notarized</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -59,7 +59,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </a>
-          <p className="download-detail">248.6 MB · Signed by Larry Herzog Jr.</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr.</p>
         </section>
       </div>
 
