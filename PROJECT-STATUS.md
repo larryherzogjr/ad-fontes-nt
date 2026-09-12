@@ -1,5 +1,10 @@
 # Ad Fontes NT — project status
 
+## 2026-09-12 — Coordinated RC8 count correction (AFNT-029 / AFNT-107)
+
+- Live RC7 verification and Larry's native-app check found the same stale Sources-page phrase: the release publishes 39 reviewed comparison/commentary units, but that status summary still said 30. The web source was corrected after RC7 publication; because the already signed RC7 desktop packages are immutable and retain the old display string, advanced the coordinated application/package version to `1.0.0-rc.8` for a clean successor build.
+- RC8 changes no Scripture, commentary, approval, corpus mapping, account behavior, or desktop-update mechanism. It retains the exact RC7 v8/v5 content and all 39 approved units, with the corrected count and regression coverage. Native signing, exact manifest approval, immutable publication, and the final web-only status deployment remain guarded release steps.
+
 ## 2026-09-12 — Coordinated RC7 preparation (AFNT-020 / AFNT-029 / AFNT-107)
 
 - Larry authorized committing, pushing and deploying the unified second-pass audit corrections and nine approved Volume One studies, including coordinated desktop updates. Advanced the shared application/package version to `1.0.0-rc.7`; the future Downloads and Sources copy identifies RC7, while the currently live RC6 files remain unchanged until both new native artifacts pass signing, exact-manifest approval and immutable publication.

@@ -25,7 +25,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.7');
+  assert.equal(config.version, '1.0.0-rc.8');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
