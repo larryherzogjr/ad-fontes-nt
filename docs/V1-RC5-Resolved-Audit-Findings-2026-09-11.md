@@ -1,7 +1,7 @@
 # Ad Fontes NT 1.0.0-rc.5 resolved-audit candidate
 
 Date: 2026-09-11  
-Status: exact corrected cross-platform candidate approved; publication staged but not yet executed
+Status: corrected cross-platform candidate approved, published and independently verified
 
 Larry Herzog Jr. approved exact candidate-manifest SHA-256 `58cab201852f955de95af4ee2a3531a4f03708e867a0183bc884651a752792d8`. Promotion created immutable article release `om-studies-2026-09-11-v7` and refreshed the approval record for comparison unit `candidate-18`.
 
@@ -33,3 +33,9 @@ The corrected native rebuild uses source commit `00dc789c3ffa7a9908746035d9b3c18
 ## Exact publication approval
 
 The combined immutable updater staging verifies both payloads. `stable/latest.json` SHA-256 is `0eb72f44b406d26275003ac78fabbf5c286aa2b74d3c10e50fb96bd5dcf0d286`; `SHA256SUMS` SHA-256 is `8ff29dc75899a77fafd04ec31b65862c6ee94e837860d4d10e61034f491d33b8`. Larry explicitly approved the exact manifest hash on September 12, 2026. Approval authorizes this candidate's publication, not final v1.0.
+
+## Publication verification
+
+The host fast-forwarded cleanly to `48dbcf4`, verified both updater payloads and both public-download packages, published the immutable RC5 updater directory and stable manifest, published the public DMG and Windows installer, and rebuilt the web application. The database backup is `backups/adfontes-before-update-20260912T052111Z.dump`; both containers became healthy and `/api/health` returned `{"ok":true}`.
+
+Independent HTTPS downloads of all five live files totalled 569,475,424 bytes and matched the approved manifest and four artifact hashes exactly. Stable metadata uses `no-store`; versioned updater payloads use one-year immutable caching; public installers use attachment/noindex headers; all payloads support byte ranges. Unknown updater paths return 404 and the public download directory denies listing with 403. The live Downloads page contains only the RC5 DMG and EXE links, and the deployed Sources client identifies RC5 as the current cross-platform candidate without the superseded predecessor-to-RC4 wording. `larryherzogjr.com` was not changed.
