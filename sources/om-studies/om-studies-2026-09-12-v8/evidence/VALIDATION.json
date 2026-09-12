@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "candidateManifestSha256": "697d9e54fdb1df0fa8d7f04ca90da811f405366aac3c31f4bf060fc45e4a0b9e",
+  "immutablePredecessorVerified": true,
+  "articleCount": 250,
+  "changedArticleCount": 91,
+  "replacementCount": 202,
+  "fallbackReviewCount": 243,
+  "fallbackReviewComplete": true,
+  "fallbackClassifications": {
+    "clean": 226,
+    "adaptation-seam": 13,
+    "gloss-mismatch": 4,
+    "argument-drift": 0,
+    "duplication": 0
+  },
+  "frequencyLemmaCount": 5400,
+  "frequencyConventionPreparedForPromotion": true,
+  "physicalSourceVerificationPending": false,
+  "confessionalSourceVerificationPassed": true,
+  "sourceFilesModified": false,
+  "promotionBlockedPendingApproval": true
+}

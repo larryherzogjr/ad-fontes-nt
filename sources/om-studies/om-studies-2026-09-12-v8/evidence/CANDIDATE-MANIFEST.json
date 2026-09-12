@@ -1,0 +1,3405 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "second-pass-audit-2026-09-12-candidate-v10",
+  "status": "unpublished-awaiting-exact-hash-approval",
+  "candidateDate": "2026-09-12",
+  "sourceRelease": "om-studies-2026-09-11-v7",
+  "proposedRelease": "om-studies-2026-09-12-v8",
+  "articleCount": 250,
+  "changedArticleCount": 91,
+  "unchangedArticleCount": 159,
+  "replacementCount": 202,
+  "inputs": {
+    "sourceManifestSha256": "1d5f8d5242f4458d5bc7d6240413ed388b9302b9e5c6bc91bb59535cae9b4804",
+    "claudeFindingsSha256": "75491a67810a427976cb40cd83a3982faaa8858ed001bce09fd1a547ca63a2d8",
+    "kimiFindingsSha256": "900ddceaf619108b7c9bc506ef7876ecdbbc944fcf3d9167f8537eea90fa7c7b",
+    "theologicalReviewSha256": "53a684fda151e71c28053b1aad58ba941926a66aca7c5fd272694897d7365e8c",
+    "additionalTheologicalReviewDispositionSha256": "cbf249481a2e861c5679b2acd7943c53d7961566a9f53c6894779b08b1dfb82d"
+  },
+  "files": [
+    {
+      "slug": "abba",
+      "file": "raw/abba.md",
+      "sha256": "f06356d0f554fffd19c532a4086a2b6e853a81065b553e04c967d71770ecadb6",
+      "predecessorSha256": "f06356d0f554fffd19c532a4086a2b6e853a81065b553e04c967d71770ecadb6",
+      "changed": false
+    },
+    {
+      "slug": "agape",
+      "file": "raw/agape.md",
+      "sha256": "1004899b0b462c8675020d77ea3761152fb4d038186c6be6704be060030fdab2",
+      "predecessorSha256": "3f261cedda43cf67e30936cd463bc69cc1fb56cbe897032f09d97b7f092e5bfe",
+      "changed": true
+    },
+    {
+      "slug": "agorazo",
+      "file": "raw/agorazo.md",
+      "sha256": "7ef1f3fff64622ff410ff71266aad0ee34f48b842e7f2856b0ffb8b9d39718e0",
+      "predecessorSha256": "ccf9550c9def9e8f6702b67600e3e39f131e82a0b019de427d96f9d4e5f21204",
+      "changed": true
+    },
+    {
+      "slug": "aionios",
+      "file": "raw/aionios.md",
+      "sha256": "fc729ecd2510db6f3992e4788dff66aceee8b622a8d639ac27dfa9bebd9a873a",
+      "predecessorSha256": "fc729ecd2510db6f3992e4788dff66aceee8b622a8d639ac27dfa9bebd9a873a",
+      "changed": false
+    },
+    {
+      "slug": "akoe",
+      "file": "raw/akoe.md",
+      "sha256": "b5be8210f4172de1ad620f9d3ef5d147805230fd1a9c2cd8e5e2502b05fac987",
+      "predecessorSha256": "b5be8210f4172de1ad620f9d3ef5d147805230fd1a9c2cd8e5e2502b05fac987",
+      "changed": false
+    },
+    {
+      "slug": "aletheia",
+      "file": "raw/aletheia.md",
+      "sha256": "6898612fc4816ef3cb4c0f9136681637a5330e409719a186c7327bf003d42068",
+      "predecessorSha256": "6898612fc4816ef3cb4c0f9136681637a5330e409719a186c7327bf003d42068",
+      "changed": false
+    },
+    {
+      "slug": "amen",
+      "file": "raw/amen.md",
+      "sha256": "92d87132ceaeb5d6f38bdcf46c489c2d1ebfa6c35e886e717745b448d66f8c3e",
+      "predecessorSha256": "bca4ded33a59e32c7437c8db912acb215099c87329e46b5a81a340d335bba21d",
+      "changed": true
+    },
+    {
+      "slug": "amnos",
+      "file": "raw/amnos.md",
+      "sha256": "11848f7754903a48eb3710aa50322e5184b6fdff3950c256b619c78b90ef1c13",
+      "predecessorSha256": "11848f7754903a48eb3710aa50322e5184b6fdff3950c256b619c78b90ef1c13",
+      "changed": false
+    },
+    {
+      "slug": "anagennao",
+      "file": "raw/anagennao.md",
+      "sha256": "e5d73e9a505953cf94e0ec0b4e5fbfcbce76d16412a52fe3fbf3bed588cf0381",
+      "predecessorSha256": "e5d73e9a505953cf94e0ec0b4e5fbfcbce76d16412a52fe3fbf3bed588cf0381",
+      "changed": false
+    },
+    {
+      "slug": "analambano",
+      "file": "raw/analambano.md",
+      "sha256": "daa95c82c2792d6c3aff56b65d02723c8076325361910998c617bf9a2f7401cc",
+      "predecessorSha256": "daa95c82c2792d6c3aff56b65d02723c8076325361910998c617bf9a2f7401cc",
+      "changed": false
+    },
+    {
+      "slug": "anamnesis",
+      "file": "raw/anamnesis.md",
+      "sha256": "c4270fcc69362f14d614d90677dac1fe84eb82f102b0b9f44dbb80796c01bbcf",
+      "predecessorSha256": "ecb5a41dd109c53cf1e9756ab61e1266baef673211155ab29e8cfbb4000b80b4",
+      "changed": true
+    },
+    {
+      "slug": "anastasis",
+      "file": "raw/anastasis.md",
+      "sha256": "43587dec9834b084329cb429ab69c7941b5450406edb5e2ac8fe207067259dba",
+      "predecessorSha256": "596ec28b250d3011bc8aef1c6a571643c483cf1742573659cbc73ab169df346e",
+      "changed": true
+    },
+    {
+      "slug": "anastrophe",
+      "file": "raw/anastrophe.md",
+      "sha256": "00102997ff39f4f3aaa2fb6ab33171259cca9c31235e63b4c7d3ecfe29905b5b",
+      "predecessorSha256": "00102997ff39f4f3aaa2fb6ab33171259cca9c31235e63b4c7d3ecfe29905b5b",
+      "changed": false
+    },
+    {
+      "slug": "anaxios",
+      "file": "raw/anaxios.md",
+      "sha256": "12d4266a29c3c875642e35a4088a8b0b82062acd142ed25e446a2b45558ed71d",
+      "predecessorSha256": "12d4266a29c3c875642e35a4088a8b0b82062acd142ed25e446a2b45558ed71d",
+      "changed": false
+    },
+    {
+      "slug": "anomia",
+      "file": "raw/anomia.md",
+      "sha256": "15c89537f683c31582cafd42d35f8a9db06ac569b0f44190a7dcdd205e99c7f0",
+      "predecessorSha256": "74199879999d7cc83359f6223feb1ef2f3a0d8812d3decd430aa85a563c97439",
+      "changed": true
+    },
+    {
+      "slug": "anothen",
+      "file": "raw/anothen.md",
+      "sha256": "7ce2e46e7bfe3ca5fe3c55d1ab06a09e24015720aeef0b3d08621adeae6dbc69",
+      "predecessorSha256": "7ce2e46e7bfe3ca5fe3c55d1ab06a09e24015720aeef0b3d08621adeae6dbc69",
+      "changed": false
+    },
+    {
+      "slug": "anthropos",
+      "file": "raw/anthropos.md",
+      "sha256": "064ef5af47da3b258e42182b7a3348533ade79cafb4328b25ee22176af06aaa6",
+      "predecessorSha256": "44b82d1570f7dac017aadbfae0027def70c8850477107c57c9bd9396852be584",
+      "changed": true
+    },
+    {
+      "slug": "antilytron",
+      "file": "raw/antilytron.md",
+      "sha256": "8b3ca3470c1f8a2a3b6b5ba4ecc166b60784348f9b0eb9c1b9d0b6c49f75b0db",
+      "predecessorSha256": "0c4daa1f5272ed06a91bdc769097cb8115a5e45046c26dc99b2590cb8757b617",
+      "changed": true
+    },
+    {
+      "slug": "antitypos",
+      "file": "raw/antitypos.md",
+      "sha256": "dca20892222300b21a1524f8966d8bab6e271922a7c2e0437048fd5f1e81ef09",
+      "predecessorSha256": "dca20892222300b21a1524f8966d8bab6e271922a7c2e0437048fd5f1e81ef09",
+      "changed": false
+    },
+    {
+      "slug": "aoratos",
+      "file": "raw/aoratos.md",
+      "sha256": "655662b6903b588047e4455d7d03dbac3e21308807a69a4d72c42fc4ee9a1791",
+      "predecessorSha256": "655662b6903b588047e4455d7d03dbac3e21308807a69a4d72c42fc4ee9a1791",
+      "changed": false
+    },
+    {
+      "slug": "aparche",
+      "file": "raw/aparche.md",
+      "sha256": "451fa4ef22cb277fd275b3f61b6ec6551abecaadb50af0f0b989422427ea8ad3",
+      "predecessorSha256": "451fa4ef22cb277fd275b3f61b6ec6551abecaadb50af0f0b989422427ea8ad3",
+      "changed": false
+    },
+    {
+      "slug": "apaugasma",
+      "file": "raw/apaugasma.md",
+      "sha256": "bbfc5b17ac56caa0910d6928a3851eeb9b402ce96f73ed071652369baac7b42b",
+      "predecessorSha256": "bbfc5b17ac56caa0910d6928a3851eeb9b402ce96f73ed071652369baac7b42b",
+      "changed": false
+    },
+    {
+      "slug": "aphesis",
+      "file": "raw/aphesis.md",
+      "sha256": "935c4455d0ecb0536afab1d3b009a299381fc280f602c15139b4133599b003c2",
+      "predecessorSha256": "10a4dc14a08768aeb9e70b0fc48148dd9834ad5e32618c0acec26088db6bd377",
+      "changed": true
+    },
+    {
+      "slug": "aphiemi",
+      "file": "raw/aphiemi.md",
+      "sha256": "9e3f0d825a67e92caf9e20154b12d33832f8a881f2e7dd5a04748faf6d3a43fb",
+      "predecessorSha256": "9e3f0d825a67e92caf9e20154b12d33832f8a881f2e7dd5a04748faf6d3a43fb",
+      "changed": false
+    },
+    {
+      "slug": "aphthartos",
+      "file": "raw/aphthartos.md",
+      "sha256": "ba2cd2344759beb3563c9e31f16bce520614c1810e7c338e11378b03bdd5d4d8",
+      "predecessorSha256": "ba2cd2344759beb3563c9e31f16bce520614c1810e7c338e11378b03bdd5d4d8",
+      "changed": false
+    },
+    {
+      "slug": "apokalypsis",
+      "file": "raw/apokalypsis.md",
+      "sha256": "24cfb265f85a5668f9a86fa048100a8589378c5e21fbb990e15ca996fe42a12b",
+      "predecessorSha256": "24cfb265f85a5668f9a86fa048100a8589378c5e21fbb990e15ca996fe42a12b",
+      "changed": false
+    },
+    {
+      "slug": "apokatastasis",
+      "file": "raw/apokatastasis.md",
+      "sha256": "82d2566aabaccb28248fbec44c9f7b1d781be513d4f4db344b4b361433b719fc",
+      "predecessorSha256": "82d2566aabaccb28248fbec44c9f7b1d781be513d4f4db344b4b361433b719fc",
+      "changed": false
+    },
+    {
+      "slug": "apoleia",
+      "file": "raw/apoleia.md",
+      "sha256": "592594ff2d9226f2a381d0188600e6fdecda9daa8d4003d88ac44bdf128af72a",
+      "predecessorSha256": "592594ff2d9226f2a381d0188600e6fdecda9daa8d4003d88ac44bdf128af72a",
+      "changed": false
+    },
+    {
+      "slug": "apolytrosis",
+      "file": "raw/apolytrosis.md",
+      "sha256": "d2cb726319e951bf0000a2a8f7bc6ac322b4af0a48a25b068cb6762b5e688033",
+      "predecessorSha256": "d2cb726319e951bf0000a2a8f7bc6ac322b4af0a48a25b068cb6762b5e688033",
+      "changed": false
+    },
+    {
+      "slug": "apostello",
+      "file": "raw/apostello.md",
+      "sha256": "66470015addca510044b93b718f9466e0098d17d43831dd6158ca553546f4c64",
+      "predecessorSha256": "66470015addca510044b93b718f9466e0098d17d43831dd6158ca553546f4c64",
+      "changed": false
+    },
+    {
+      "slug": "apostolos",
+      "file": "raw/apostolos.md",
+      "sha256": "13372584ecfd62523d5a5f487413d69c37876c9e1683ae696e0b3093bb68b808",
+      "predecessorSha256": "835162483975c4f8f222814758affa726f261e6451f20ac5f198e8eec9400e2a",
+      "changed": true
+    },
+    {
+      "slug": "arche",
+      "file": "raw/arche.md",
+      "sha256": "fc3cd77b90c51090f2df8e5ecdf280acc6f5ea455d2fc45d65aada573731dffd",
+      "predecessorSha256": "3baf382ac3f7bd2f21e026a5c76b64b4b46ef358e536e4d4438c7ae538292e61",
+      "changed": true
+    },
+    {
+      "slug": "archegos",
+      "file": "raw/archegos.md",
+      "sha256": "3d0173ed73627ec31e725563e3da45fed0a48750b3825d01c92f055abbbff3e7",
+      "predecessorSha256": "3d0173ed73627ec31e725563e3da45fed0a48750b3825d01c92f055abbbff3e7",
+      "changed": false
+    },
+    {
+      "slug": "archiereus",
+      "file": "raw/archiereus.md",
+      "sha256": "916ff6ee7765db338b0144a06701dd56f9e74c4da09f0c1c72392900cb91cf0b",
+      "predecessorSha256": "916ff6ee7765db338b0144a06701dd56f9e74c4da09f0c1c72392900cb91cf0b",
+      "changed": false
+    },
+    {
+      "slug": "arrabon",
+      "file": "raw/arrabon.md",
+      "sha256": "00420f61d97809ab26e7ca13e9ef1e238dcbdf63b91e3bf5759e263eb03c0c32",
+      "predecessorSha256": "00420f61d97809ab26e7ca13e9ef1e238dcbdf63b91e3bf5759e263eb03c0c32",
+      "changed": false
+    },
+    {
+      "slug": "artos",
+      "file": "raw/artos.md",
+      "sha256": "a0bf33aa70a47dc46755c997de131eeda61406e7820dcb9f1d664a946ad7ff54",
+      "predecessorSha256": "b1801c9c040845aef4ae994dfb061ae90e440b74f716f93e6cb995c9cf701024",
+      "changed": true
+    },
+    {
+      "slug": "astheneia",
+      "file": "raw/astheneia.md",
+      "sha256": "4ce6aba29541858ae1c7aea082f3c4043c862e2c69bf49ce6c2053050da412e9",
+      "predecessorSha256": "4ce6aba29541858ae1c7aea082f3c4043c862e2c69bf49ce6c2053050da412e9",
+      "changed": false
+    },
+    {
+      "slug": "authenteo",
+      "file": "raw/authenteo.md",
+      "sha256": "6099cdde7ed20144b48c7fb87073b22c82e2dc80d1fc061800d850735bc19f17",
+      "predecessorSha256": "037ba15878f80943cd1114ece98444921cb3aa7c54f3acaafadd73362e42e85e",
+      "changed": true
+    },
+    {
+      "slug": "baptisma",
+      "file": "raw/baptisma.md",
+      "sha256": "94e143bac0329fa54cbfdecc451dcad4a9dc83cd173ded9174984c3fa94dfb48",
+      "predecessorSha256": "94e143bac0329fa54cbfdecc451dcad4a9dc83cd173ded9174984c3fa94dfb48",
+      "changed": false
+    },
+    {
+      "slug": "baptizo",
+      "file": "raw/baptizo.md",
+      "sha256": "24d2feb29bb12bfaf2893c56705d1ff7fd132965a6dd71f88522aebd6828a377",
+      "predecessorSha256": "3f7d826de4bd20939ce7133132ebe2ca6f48756e43c5da0ea7191cb45941f660",
+      "changed": true
+    },
+    {
+      "slug": "basileia",
+      "file": "raw/basileia.md",
+      "sha256": "c3226482cf8e6119261a20b9e6f6858888fcb88d5c365395b81c8e92c1fbaee7",
+      "predecessorSha256": "4f071ebf8cf05faa127bae3c957058120467b73ddd1967300f76fe9975580f9d",
+      "changed": true
+    },
+    {
+      "slug": "bema",
+      "file": "raw/bema.md",
+      "sha256": "4d4a806b129408138847d28ac15527a644200aae85fd49400f919dfe2c82515b",
+      "predecessorSha256": "4d4a806b129408138847d28ac15527a644200aae85fd49400f919dfe2c82515b",
+      "changed": false
+    },
+    {
+      "slug": "chara",
+      "file": "raw/chara.md",
+      "sha256": "2200d4cf8539ea852eec5dcc635b4b8504dfcecbcb592ea90408d5ef54fdf554",
+      "predecessorSha256": "d9bd99741a85ff03c6d4bacb2f28facb48a9fb2318a055a9161de9db677fdd58",
+      "changed": true
+    },
+    {
+      "slug": "charakter",
+      "file": "raw/charakter.md",
+      "sha256": "f2c24aba91943ceac0ffb4dccd58ac7aae92848692e54bf5b2f26ed043fe8fc6",
+      "predecessorSha256": "f2c24aba91943ceac0ffb4dccd58ac7aae92848692e54bf5b2f26ed043fe8fc6",
+      "changed": false
+    },
+    {
+      "slug": "charis",
+      "file": "raw/charis.md",
+      "sha256": "651e9a9a155d3b9ec93ee47697da7fb5e12680c2080bdc23bd0d5f30f7010eb9",
+      "predecessorSha256": "bfcba510106f4fbd78564a3b312cd1a4e513caa8e621669877de4a0104e058d9",
+      "changed": true
+    },
+    {
+      "slug": "charisma",
+      "file": "raw/charisma.md",
+      "sha256": "2bb137e43ee9389a0b395f7650830b666f98ed1a85de08bd475ccf9dbbafcab9",
+      "predecessorSha256": "39cb9a42be6b3ce0082c1d884c35bce62379ed580338cdb5eeb4226f29ca221e",
+      "changed": true
+    },
+    {
+      "slug": "charitoo",
+      "file": "raw/charitoo.md",
+      "sha256": "cf54b1a63bc6f10bb7f8e1c89990c221232784bf6fd467ddd031e89255ae34bb",
+      "predecessorSha256": "cf54b1a63bc6f10bb7f8e1c89990c221232784bf6fd467ddd031e89255ae34bb",
+      "changed": false
+    },
+    {
+      "slug": "charizomai",
+      "file": "raw/charizomai.md",
+      "sha256": "3e618d7d13818db12e3f32a95bd266968e54231d37359410f2a2c1356fd0d6b8",
+      "predecessorSha256": "3e618d7d13818db12e3f32a95bd266968e54231d37359410f2a2c1356fd0d6b8",
+      "changed": false
+    },
+    {
+      "slug": "christos",
+      "file": "raw/christos.md",
+      "sha256": "72cb0490c203ef216489242f46f34174dd10e0b589132358b273caf7d785c16a",
+      "predecessorSha256": "72cb0490c203ef216489242f46f34174dd10e0b589132358b273caf7d785c16a",
+      "changed": false
+    },
+    {
+      "slug": "deesis",
+      "file": "raw/deesis.md",
+      "sha256": "8677749f4173fc213e54488ce81b75068f545dcbf35856a71ec08a7209d283b7",
+      "predecessorSha256": "8677749f4173fc213e54488ce81b75068f545dcbf35856a71ec08a7209d283b7",
+      "changed": false
+    },
+    {
+      "slug": "deipnon",
+      "file": "raw/deipnon.md",
+      "sha256": "c3c6b19f20ad7baf2f16ade4a24fba698af0172d31910140f3e7b9ce13766d32",
+      "predecessorSha256": "c3c6b19f20ad7baf2f16ade4a24fba698af0172d31910140f3e7b9ce13766d32",
+      "changed": false
+    },
+    {
+      "slug": "deo",
+      "file": "raw/deo.md",
+      "sha256": "8316786e9a76c0cdb6b7e6c01f9896b090bde66c5e68c2f5a511dc1a62d59244",
+      "predecessorSha256": "8316786e9a76c0cdb6b7e6c01f9896b090bde66c5e68c2f5a511dc1a62d59244",
+      "changed": false
+    },
+    {
+      "slug": "diakonia",
+      "file": "raw/diakonia.md",
+      "sha256": "178001919ee51f6dae66fefe04711d4b62c923a922194732284b66ddeb866b79",
+      "predecessorSha256": "178001919ee51f6dae66fefe04711d4b62c923a922194732284b66ddeb866b79",
+      "changed": false
+    },
+    {
+      "slug": "diakonos",
+      "file": "raw/diakonos.md",
+      "sha256": "72498d23f922dd69c35a743df39ee80cd93720cd04cd9fea112a1cd1e185f271",
+      "predecessorSha256": "8cc6c6f0a03a10561422a35938cc4f976850fe4a88ba10eb558e8944abcc4a28",
+      "changed": true
+    },
+    {
+      "slug": "diakrino",
+      "file": "raw/diakrino.md",
+      "sha256": "a9b32dd001933fe5cf8bbfb0d2cbe44d0fd73bddf1665dfa2c0db096abb14386",
+      "predecessorSha256": "a9b32dd001933fe5cf8bbfb0d2cbe44d0fd73bddf1665dfa2c0db096abb14386",
+      "changed": false
+    },
+    {
+      "slug": "diatheke",
+      "file": "raw/diatheke.md",
+      "sha256": "ccf881ba24d8bd6f31aceae12d96db423bcb13efd2d61a7210149b03957f7807",
+      "predecessorSha256": "e2172d61085baec8ac6b8a1b0c335ecfda2ed75fbc3a3c71c29768c4c74e4a90",
+      "changed": true
+    },
+    {
+      "slug": "didache",
+      "file": "raw/didache.md",
+      "sha256": "a84fd460c97bdab2a07d5fb8a89ccabbae47d51a0a97a5f3016099bf63e6626c",
+      "predecessorSha256": "a84fd460c97bdab2a07d5fb8a89ccabbae47d51a0a97a5f3016099bf63e6626c",
+      "changed": false
+    },
+    {
+      "slug": "didaskalia",
+      "file": "raw/didaskalia.md",
+      "sha256": "577e9c463e4b4a36c81212d9cb3693f81af2d94716af66a7ae2abc3baf56c4c2",
+      "predecessorSha256": "4d51e460bc1afb5b34c040b4d03f1ede3c8145333fe716eea5609b79f61ade19",
+      "changed": true
+    },
+    {
+      "slug": "didomi",
+      "file": "raw/didomi.md",
+      "sha256": "917a8f3014a2c72863b18d72e1fb06c5ddefe31aaa148ae1b4377601f0301847",
+      "predecessorSha256": "917a8f3014a2c72863b18d72e1fb06c5ddefe31aaa148ae1b4377601f0301847",
+      "changed": false
+    },
+    {
+      "slug": "dikaioo",
+      "file": "raw/dikaioo.md",
+      "sha256": "469d2bf6f86d4930ab77179304806a6300376be27d472d6999b129b21753c2fd",
+      "predecessorSha256": "7f4b52193c0813faf433f569c5e77aa6715d3b02926725046ce713918a2f0e11",
+      "changed": true
+    },
+    {
+      "slug": "dikaiosyne",
+      "file": "raw/dikaiosyne.md",
+      "sha256": "f9a39f28e94b25799c56b048cb0fd7329696b7060e5a5c85796cfec509e6e199",
+      "predecessorSha256": "0de01d21fffb1fff6ac1ac8893aab90b807378468321a455cd72d5ce9cb6300d",
+      "changed": true
+    },
+    {
+      "slug": "dokimazo",
+      "file": "raw/dokimazo.md",
+      "sha256": "1d661d004ac62d6e768149e40091568abd2222233c9d91acd0c42afe6dcb5b2e",
+      "predecessorSha256": "1d661d004ac62d6e768149e40091568abd2222233c9d91acd0c42afe6dcb5b2e",
+      "changed": false
+    },
+    {
+      "slug": "dorean",
+      "file": "raw/dorean.md",
+      "sha256": "4c69298da0e1141c2aee6f6289fc31324121b37230abb331401a33e2b2f81a06",
+      "predecessorSha256": "4c69298da0e1141c2aee6f6289fc31324121b37230abb331401a33e2b2f81a06",
+      "changed": false
+    },
+    {
+      "slug": "doulos",
+      "file": "raw/doulos.md",
+      "sha256": "7a3f98df4f6019c37ae064c1679c0e6a9c86e21d402d3d9158b3538beb8f4790",
+      "predecessorSha256": "7a3f98df4f6019c37ae064c1679c0e6a9c86e21d402d3d9158b3538beb8f4790",
+      "changed": false
+    },
+    {
+      "slug": "doxa",
+      "file": "raw/doxa.md",
+      "sha256": "b783dccd52e873bdc48da2ede661ad90db88588ac0a02ba7885485e7e50f3852",
+      "predecessorSha256": "b783dccd52e873bdc48da2ede661ad90db88588ac0a02ba7885485e7e50f3852",
+      "changed": false
+    },
+    {
+      "slug": "egeiro",
+      "file": "raw/egeiro.md",
+      "sha256": "6f9ed60070b96e8234cdf9afd0b4ec907f3d6b3b9c7a8c0e6ea12860aa19d2e6",
+      "predecessorSha256": "6f9ed60070b96e8234cdf9afd0b4ec907f3d6b3b9c7a8c0e6ea12860aa19d2e6",
+      "changed": false
+    },
+    {
+      "slug": "eikon",
+      "file": "raw/eikon.md",
+      "sha256": "42369ba345111626229816e8b3c436161f461eae5d65be3b5af71dccd5cece19",
+      "predecessorSha256": "eca6eabaa93d8b0a3f1544edf35e64b6b8ba2d0aa7a80ef435b1c96645889dfc",
+      "changed": true
+    },
+    {
+      "slug": "eirene",
+      "file": "raw/eirene.md",
+      "sha256": "e1f2ee1e671749a3e1d1be7dd8394413222eedd4bd5f3a517f4c5f7ecc837c4b",
+      "predecessorSha256": "f1595bcc2c4eeb75748a751187eeab08e1063f63083abe22e9848312cffff4f0",
+      "changed": true
+    },
+    {
+      "slug": "ekklesia",
+      "file": "raw/ekklesia.md",
+      "sha256": "2d2e7d311de898a6dcf0fc7066d329d1438da9a860a37364969d1bea9106be76",
+      "predecessorSha256": "3d4ba14fc8711fbc27f39a8f857927bcfc9c74c57f6471847024005b2d7e707a",
+      "changed": true
+    },
+    {
+      "slug": "eklektos",
+      "file": "raw/eklektos.md",
+      "sha256": "1ef1688b1f14e0820dffafcd518ec6663a41c54f9bf30c64d135825ae26a3b28",
+      "predecessorSha256": "1ef1688b1f14e0820dffafcd518ec6663a41c54f9bf30c64d135825ae26a3b28",
+      "changed": false
+    },
+    {
+      "slug": "ekporeuomai",
+      "file": "raw/ekporeuomai.md",
+      "sha256": "2eb7b5e5c9c5f9a5ad38101ef5e54f3074de074f07cd8f9d446a23fd3bd922e9",
+      "predecessorSha256": "be503b5d8ed41a518815117078d81a2e54ac412d490ba3a47b189ce87000d97a",
+      "changed": true
+    },
+    {
+      "slug": "eleos",
+      "file": "raw/eleos.md",
+      "sha256": "10e75862fccbccc3e0f98aca652fd00a096dd06f4477443201c847e1f031d4ff",
+      "predecessorSha256": "10e75862fccbccc3e0f98aca652fd00a096dd06f4477443201c847e1f031d4ff",
+      "changed": false
+    },
+    {
+      "slug": "eleutheria",
+      "file": "raw/eleutheria.md",
+      "sha256": "eca1dacf9d6964e18cea161fdf307f0d16e764e11907aacc4e2d996152e19dc5",
+      "predecessorSha256": "ab8995a825b53d1c0d82a49b5c5bab0a58515d2a31239ec6e3fb74a98e82ba37",
+      "changed": true
+    },
+    {
+      "slug": "elpis",
+      "file": "raw/elpis.md",
+      "sha256": "0c05e7ca1a60f87160f96feef36d9f9daf48615aff4a8e95bc08ee0a79350c64",
+      "predecessorSha256": "5e3629aae1ac72a81d3215d95f7a37b8e89306f79ab7eb5479b52d0f00760d3a",
+      "changed": true
+    },
+    {
+      "slug": "elpizo",
+      "file": "raw/elpizo.md",
+      "sha256": "8cec52bd62cd52c2a48f839e4f32b1102b587fb677871f90de3609a962fc46ac",
+      "predecessorSha256": "8cec52bd62cd52c2a48f839e4f32b1102b587fb677871f90de3609a962fc46ac",
+      "changed": false
+    },
+    {
+      "slug": "endyo",
+      "file": "raw/endyo.md",
+      "sha256": "de076322ecea08965d95891a9901300bc3975a9699b4c108bfaf16ba105d0117",
+      "predecessorSha256": "de076322ecea08965d95891a9901300bc3975a9699b4c108bfaf16ba105d0117",
+      "changed": false
+    },
+    {
+      "slug": "engyos",
+      "file": "raw/engyos.md",
+      "sha256": "7f93346f92915f567d911b1f9877b96a40fee6af55a86aa66dae8a49df991752",
+      "predecessorSha256": "7f93346f92915f567d911b1f9877b96a40fee6af55a86aa66dae8a49df991752",
+      "changed": false
+    },
+    {
+      "slug": "enochos",
+      "file": "raw/enochos.md",
+      "sha256": "cbe7f0a25fb08424c5fde7dc2d51020ba93b09902e97058aadc613fbf982d5cf",
+      "predecessorSha256": "cbe7f0a25fb08424c5fde7dc2d51020ba93b09902e97058aadc613fbf982d5cf",
+      "changed": false
+    },
+    {
+      "slug": "entynchano",
+      "file": "raw/entynchano.md",
+      "sha256": "981c4cdf992af0d8dadaffa96e5586fb0861038d511ea9ed05e68ac91e7a1083",
+      "predecessorSha256": "981c4cdf992af0d8dadaffa96e5586fb0861038d511ea9ed05e68ac91e7a1083",
+      "changed": false
+    },
+    {
+      "slug": "epangelia",
+      "file": "raw/epangelia.md",
+      "sha256": "6c1c7e8208010267f473838fdf3c7bafd0a78dd5018dc257fe382dcc56614ffa",
+      "predecessorSha256": "6c1c7e8208010267f473838fdf3c7bafd0a78dd5018dc257fe382dcc56614ffa",
+      "changed": false
+    },
+    {
+      "slug": "eperotema",
+      "file": "raw/eperotema.md",
+      "sha256": "8615b3f8884b082101dc4c2788459ac624dfacf5c5000b9c04c2f941f6d43062",
+      "predecessorSha256": "8615b3f8884b082101dc4c2788459ac624dfacf5c5000b9c04c2f941f6d43062",
+      "changed": false
+    },
+    {
+      "slug": "ephapax",
+      "file": "raw/ephapax.md",
+      "sha256": "1bad7bf43f36431ae9cb9e0a2ed3c32cda43ad18f5b19c0a4a7c5d5ca8ea7e28",
+      "predecessorSha256": "1bad7bf43f36431ae9cb9e0a2ed3c32cda43ad18f5b19c0a4a7c5d5ca8ea7e28",
+      "changed": false
+    },
+    {
+      "slug": "epiousios",
+      "file": "raw/epiousios.md",
+      "sha256": "7c2f2fb46810ca96077af4f1bb968350357e2b0298488569e2de3a0743a2b2d4",
+      "predecessorSha256": "5537b70ac1866890c7e79308208edd53afc01005ca689deb4dd240817d145295",
+      "changed": true
+    },
+    {
+      "slug": "epiphaneia",
+      "file": "raw/epiphaneia.md",
+      "sha256": "5830d717e078a181f59db4a9015e45134d0e89de7f8f779699c0c586dbc62b89",
+      "predecessorSha256": "e8fc6672e10e34a66170f0dd451c5762ae5337ba870c82c8412be24fe991528d",
+      "changed": true
+    },
+    {
+      "slug": "episkopos",
+      "file": "raw/episkopos.md",
+      "sha256": "e86589b4db9c0449ad4cc549ec882bd8914c91fac0d62ba7e76e1700708bcbe4",
+      "predecessorSha256": "1a293c5ab7ceb092e10388962de1f88f134252232b17e47bb171d582ab4373e8",
+      "changed": true
+    },
+    {
+      "slug": "episynagoge",
+      "file": "raw/episynagoge.md",
+      "sha256": "da01745857273960e761416597049691040398de6b3b344b1183b567bd18940b",
+      "predecessorSha256": "da01745857273960e761416597049691040398de6b3b344b1183b567bd18940b",
+      "changed": false
+    },
+    {
+      "slug": "epithymia",
+      "file": "raw/epithymia.md",
+      "sha256": "aac396861cd960ca389dfcbe8798935cc62b2520f5708216504bd850aad8522c",
+      "predecessorSha256": "aac396861cd960ca389dfcbe8798935cc62b2520f5708216504bd850aad8522c",
+      "changed": false
+    },
+    {
+      "slug": "ergon",
+      "file": "raw/ergon.md",
+      "sha256": "c19dec6faf69427f540326890889ca7c0b04192b24cee74809d0959e11bdad35",
+      "predecessorSha256": "a936b41173a17ebdee029a0e4327b5a7a98023c5f635165ecf7a3df5ace67e7c",
+      "changed": true
+    },
+    {
+      "slug": "ethnos",
+      "file": "raw/ethnos.md",
+      "sha256": "f5d1544e5df6481828e42a88194f47111b1a58d787acd2aa21263a8c31af544d",
+      "predecessorSha256": "26eebd45c5f1232f20af8a359a14c1f43b1d742beb639dd281134e829e1178dd",
+      "changed": true
+    },
+    {
+      "slug": "euangelion",
+      "file": "raw/euangelion.md",
+      "sha256": "f840e1690794f23d91f84c66cc75966c79d84a1b43e9019590bfe67029ddf3da",
+      "predecessorSha256": "f840e1690794f23d91f84c66cc75966c79d84a1b43e9019590bfe67029ddf3da",
+      "changed": false
+    },
+    {
+      "slug": "eucharistia",
+      "file": "raw/eucharistia.md",
+      "sha256": "5aa0bbb25e3e741160a65f7ea6cdc53aa54f7b027a972f5e00d8d6a7f93845a6",
+      "predecessorSha256": "5aa0bbb25e3e741160a65f7ea6cdc53aa54f7b027a972f5e00d8d6a7f93845a6",
+      "changed": false
+    },
+    {
+      "slug": "eudokia",
+      "file": "raw/eudokia.md",
+      "sha256": "af981e4ab27a214e61c725d0f24e0c6ab9dcabffb5d8a5091e928d20863b456b",
+      "predecessorSha256": "af981e4ab27a214e61c725d0f24e0c6ab9dcabffb5d8a5091e928d20863b456b",
+      "changed": false
+    },
+    {
+      "slug": "eulogeo",
+      "file": "raw/eulogeo.md",
+      "sha256": "132d3175091d6b6edf96cba06de836831e61c534454dd8419b3ce613a7e1f130",
+      "predecessorSha256": "ba8cfdc78054d9291783824b4761f519be953f9ad1c0f17c8c6178b0d0d65434",
+      "changed": true
+    },
+    {
+      "slug": "eusebeia",
+      "file": "raw/eusebeia.md",
+      "sha256": "a2adac4f3980bc1cb6c8bffacfc621f17d183e3a0c7af561c9dc6e462931a959",
+      "predecessorSha256": "f085dc62ef2402d35fc174d16db96aa3f36a7b973b1178bc3050f4baae772001",
+      "changed": true
+    },
+    {
+      "slug": "exestin",
+      "file": "raw/exestin.md",
+      "sha256": "a41cb46209b592209e6db5abc67fcadc39b636b1bb9b3b101a18bc41d3cfaad9",
+      "predecessorSha256": "a41cb46209b592209e6db5abc67fcadc39b636b1bb9b3b101a18bc41d3cfaad9",
+      "changed": false
+    },
+    {
+      "slug": "exousia",
+      "file": "raw/exousia.md",
+      "sha256": "578f0cb300926de1317edc2dba790b7dd1429135aef1f4d1fd265a9e399923b5",
+      "predecessorSha256": "578f0cb300926de1317edc2dba790b7dd1429135aef1f4d1fd265a9e399923b5",
+      "changed": false
+    },
+    {
+      "slug": "geenna",
+      "file": "raw/geenna.md",
+      "sha256": "02046c9e10aaa11ed1ca49533cbda0f6e4cd78fcb8400ab0cabecdff55d2b2b7",
+      "predecessorSha256": "02046c9e10aaa11ed1ca49533cbda0f6e4cd78fcb8400ab0cabecdff55d2b2b7",
+      "changed": false
+    },
+    {
+      "slug": "graphe",
+      "file": "raw/graphe.md",
+      "sha256": "3c94c19eb7e5ec8cdf44bd086d023834a510d53bb5457feb05dfc4a54e9456d8",
+      "predecessorSha256": "3c94c19eb7e5ec8cdf44bd086d023834a510d53bb5457feb05dfc4a54e9456d8",
+      "changed": false
+    },
+    {
+      "slug": "hades",
+      "file": "raw/hades.md",
+      "sha256": "d7866aca76307b52c8d3278b88208ab453f0025c04363be8bea7d73113f4ae89",
+      "predecessorSha256": "d7866aca76307b52c8d3278b88208ab453f0025c04363be8bea7d73113f4ae89",
+      "changed": false
+    },
+    {
+      "slug": "hagiasmos",
+      "file": "raw/hagiasmos.md",
+      "sha256": "6536c459e8e370567bd6d6c5d87d4d4210d60e2287cc714644b8c327bbfca76b",
+      "predecessorSha256": "6536c459e8e370567bd6d6c5d87d4d4210d60e2287cc714644b8c327bbfca76b",
+      "changed": false
+    },
+    {
+      "slug": "hagios",
+      "file": "raw/hagios.md",
+      "sha256": "225e292f0e29cd53bbd8ec364a32b2b30d832a6acbaa7827b5fcbfbe87d33ccb",
+      "predecessorSha256": "9fa9c9e4a01e3246b8ebfd1f966f00657ea7a6a102999c652729fb73e7c03ab3",
+      "changed": true
+    },
+    {
+      "slug": "haima",
+      "file": "raw/haima.md",
+      "sha256": "ba78ec5d77fc477e3d6cfa627eb8ee5c7413d244acf901678c70e94cc557acf9",
+      "predecessorSha256": "b043b8a1a9684a8ec4787707806d7f73b2b197470e728a81029872fbc8c68bd9",
+      "changed": true
+    },
+    {
+      "slug": "hamartia",
+      "file": "raw/hamartia.md",
+      "sha256": "85ca4dc58d0484c48b5809bbcd98f2662e53b305d5b577bf3102e521ddb3cedb",
+      "predecessorSha256": "40089069d151d14a496757808096b9321b08154825c833d6e002316f3cf36112",
+      "changed": true
+    },
+    {
+      "slug": "harpagmos",
+      "file": "raw/harpagmos.md",
+      "sha256": "a2873c0ff9578a1cbeb9bafc346f088bc94ef255d749ccb00f83a975bbf54d1b",
+      "predecessorSha256": "a2873c0ff9578a1cbeb9bafc346f088bc94ef255d749ccb00f83a975bbf54d1b",
+      "changed": false
+    },
+    {
+      "slug": "helko",
+      "file": "raw/helko.md",
+      "sha256": "093910dc2ac80bf709af8085f9058a7637b805b9e44e1c56f67854a7a28d08ab",
+      "predecessorSha256": "093910dc2ac80bf709af8085f9058a7637b805b9e44e1c56f67854a7a28d08ab",
+      "changed": false
+    },
+    {
+      "slug": "hiereus",
+      "file": "raw/hiereus.md",
+      "sha256": "82d27204787732dbd1530a0b726ddb20f18ae3f685521802dd58ca9001f6d2c4",
+      "predecessorSha256": "3d558d46e81eade8d0426ab3ee31a8708783fcc98703b6e2ba3aefeb6e3987f3",
+      "changed": true
+    },
+    {
+      "slug": "hilaskomai",
+      "file": "raw/hilaskomai.md",
+      "sha256": "fabd06bc691cdeba05b23f49992d3953989e03757f99b76973f8913df244f017",
+      "predecessorSha256": "fabd06bc691cdeba05b23f49992d3953989e03757f99b76973f8913df244f017",
+      "changed": false
+    },
+    {
+      "slug": "hilasmos",
+      "file": "raw/hilasmos.md",
+      "sha256": "43c73010bfd58729683b3b4d5ac5d45d54ac0512e3e3fd7069bdeda61e8ae6c8",
+      "predecessorSha256": "43c73010bfd58729683b3b4d5ac5d45d54ac0512e3e3fd7069bdeda61e8ae6c8",
+      "changed": false
+    },
+    {
+      "slug": "hilasterion",
+      "file": "raw/hilasterion.md",
+      "sha256": "3993176f8b1e419d08a1fcee1e6e3c5dcd60d692a6e4fb8a1a25c800673d41e6",
+      "predecessorSha256": "62f76e913b2218afce6b61a6e8d788a4c6fb6612ecca247d57c695490b836f88",
+      "changed": true
+    },
+    {
+      "slug": "homologeo",
+      "file": "raw/homologeo.md",
+      "sha256": "8077a4b98989314936f58d1719ee5e71ddd67821fd39895e1771d4c8f8285846",
+      "predecessorSha256": "8077a4b98989314936f58d1719ee5e71ddd67821fd39895e1771d4c8f8285846",
+      "changed": false
+    },
+    {
+      "slug": "hosanna",
+      "file": "raw/hosanna.md",
+      "sha256": "eeb115077b51fb0224bbaf85094528768254873a3a910a9bf77e92e47bcd35a6",
+      "predecessorSha256": "eeb115077b51fb0224bbaf85094528768254873a3a910a9bf77e92e47bcd35a6",
+      "changed": false
+    },
+    {
+      "slug": "huiothesia",
+      "file": "raw/huiothesia.md",
+      "sha256": "67f052130d02ff78b569c783d971de2d0fa47756d28781ef781891afc5e17a2e",
+      "predecessorSha256": "4718a004526637b35f5037054ac3103d251bb17b2cf2fb48b935f452aec5bf11",
+      "changed": true
+    },
+    {
+      "slug": "hygiaino",
+      "file": "raw/hygiaino.md",
+      "sha256": "78656ebf1691201efbb9722a0ebd52fb90aae74ba50b6aa4c4d95a334e827052",
+      "predecessorSha256": "b91770413c165a9e38aab61f69e6d9be9a10536621b7b50632c87e4462821280",
+      "changed": true
+    },
+    {
+      "slug": "hyios",
+      "file": "raw/hyios.md",
+      "sha256": "19c023cdd46b21a12b69223282fdb544df5eb53aa59053d4e48bf1fa1530983a",
+      "predecessorSha256": "0f932c29e2e646c7df7e1d645fb2983ef85c420e6d577996884ce48b3a086db7",
+      "changed": true
+    },
+    {
+      "slug": "hymnos",
+      "file": "raw/hymnos.md",
+      "sha256": "54de01a25c638f5c20fb523506ec4c410ec6aa349b74d6965e20f23610f44583",
+      "predecessorSha256": "54de01a25c638f5c20fb523506ec4c410ec6aa349b74d6965e20f23610f44583",
+      "changed": false
+    },
+    {
+      "slug": "hypakoe",
+      "file": "raw/hypakoe.md",
+      "sha256": "0f4353091fd73a3725d5c3e7ba8a12381dcf363ef6c51a1bf7a3ee57bf312aa4",
+      "predecessorSha256": "a02de46c11cc6e73026a711fed04af937a919c2f700026ccd8d2c5f47036ae17",
+      "changed": true
+    },
+    {
+      "slug": "hyper",
+      "file": "raw/hyper.md",
+      "sha256": "0e7bdf16dab4e3519545ba0ab482a52ea10000a7899984edeb38d2d433c9909e",
+      "predecessorSha256": "727b4f3184ea2b3c7ab8ba2a126a2deab56a69929417a6609aac454136946b21",
+      "changed": true
+    },
+    {
+      "slug": "hypomone",
+      "file": "raw/hypomone.md",
+      "sha256": "f28aaa24e4b7d60584efeb4eaf962820a12e1f0922538503f3874b373a31e752",
+      "predecessorSha256": "f28aaa24e4b7d60584efeb4eaf962820a12e1f0922538503f3874b373a31e752",
+      "changed": false
+    },
+    {
+      "slug": "hypostasis",
+      "file": "raw/hypostasis.md",
+      "sha256": "3918186899ec69a145a7aaddd1b80b9ce0a6259cc68a5e686961ffb0503ba9dd",
+      "predecessorSha256": "fbc7f7f85ff95b5e5992bce9c865c29a5fc569dcf4f9b80fa9f258f0a145fae0",
+      "changed": true
+    },
+    {
+      "slug": "hypotasso",
+      "file": "raw/hypotasso.md",
+      "sha256": "4777b18b7310b564777d2c36ae34b4def4f37f6f5b9e692281fc67f13b7b93bd",
+      "predecessorSha256": "4777b18b7310b564777d2c36ae34b4def4f37f6f5b9e692281fc67f13b7b93bd",
+      "changed": false
+    },
+    {
+      "slug": "hypsoo",
+      "file": "raw/hypsoo.md",
+      "sha256": "ccbb4e7eed56120d59204307ae152c29c24a5bbf0b00c3ad679aa6cba36cb248",
+      "predecessorSha256": "ccbb4e7eed56120d59204307ae152c29c24a5bbf0b00c3ad679aa6cba36cb248",
+      "changed": false
+    },
+    {
+      "slug": "iesous",
+      "file": "raw/iesous.md",
+      "sha256": "70dd481c2e989aec58d2e7d85f05cb1619f0e5c3e09716754aa46fd08c7ca050",
+      "predecessorSha256": "f60c78f49bab177d308732050fa5340f09bb394ed00c766a1c4a533344164b71",
+      "changed": true
+    },
+    {
+      "slug": "kaine-ktisis",
+      "file": "raw/kaine-ktisis.md",
+      "sha256": "0d5a05b47c51ac5678e601098004a423899d1c9f194324ac69cec14f0b7a23c0",
+      "predecessorSha256": "9d075cc47f3710a04d08520785836160582070fbf0af39ac62a733bfb3b17c7b",
+      "changed": true
+    },
+    {
+      "slug": "kardia",
+      "file": "raw/kardia.md",
+      "sha256": "ed2c879cd12ca0a4889b4953d00881eed30a17582f99e3fa38e03408fdebd1e1",
+      "predecessorSha256": "ed2c879cd12ca0a4889b4953d00881eed30a17582f99e3fa38e03408fdebd1e1",
+      "changed": false
+    },
+    {
+      "slug": "karpos",
+      "file": "raw/karpos.md",
+      "sha256": "564ae78e571f5f3bdfde102d0012ec9e2d489639b219c10bdd2e374867895553",
+      "predecessorSha256": "3c6b9b9f3824e7ecc8f7c5d4be7bf3a83015de71d625244d014f7338d30c835f",
+      "changed": true
+    },
+    {
+      "slug": "katakrima",
+      "file": "raw/katakrima.md",
+      "sha256": "dffdd89cd933a59018582fd6b3d6436269c44ffc042a21c8c055833863c36361",
+      "predecessorSha256": "dffdd89cd933a59018582fd6b3d6436269c44ffc042a21c8c055833863c36361",
+      "changed": false
+    },
+    {
+      "slug": "katallage",
+      "file": "raw/katallage.md",
+      "sha256": "0a00a20b7691db75c816c0371f1e1f88363c0abbf05b0ce1644c7c0897770bd3",
+      "predecessorSha256": "0a00a20b7691db75c816c0371f1e1f88363c0abbf05b0ce1644c7c0897770bd3",
+      "changed": false
+    },
+    {
+      "slug": "katapausis",
+      "file": "raw/katapausis.md",
+      "sha256": "7027d6f2174500b7f08c53b8d016dd51c4a0c981ab1630d0ef7b4d387552e6df",
+      "predecessorSha256": "7027d6f2174500b7f08c53b8d016dd51c4a0c981ab1630d0ef7b4d387552e6df",
+      "changed": false
+    },
+    {
+      "slug": "katara",
+      "file": "raw/katara.md",
+      "sha256": "8d57f0f56ca6f42c96df0be53cc1fb5f3e0fed1f9f7e6aac1bf3f9aefd4cba1f",
+      "predecessorSha256": "8d57f0f56ca6f42c96df0be53cc1fb5f3e0fed1f9f7e6aac1bf3f9aefd4cba1f",
+      "changed": false
+    },
+    {
+      "slug": "katecheo",
+      "file": "raw/katecheo.md",
+      "sha256": "978e6b422cae14db8b38581248683bbd93df2775937e34aa29a6d3bba26a4d8c",
+      "predecessorSha256": "978e6b422cae14db8b38581248683bbd93df2775937e34aa29a6d3bba26a4d8c",
+      "changed": false
+    },
+    {
+      "slug": "kauchaomai",
+      "file": "raw/kauchaomai.md",
+      "sha256": "a88006b17dd068c23d4cc7c7415f030dde9201232d0399ca6cadb24690348fae",
+      "predecessorSha256": "a88006b17dd068c23d4cc7c7415f030dde9201232d0399ca6cadb24690348fae",
+      "changed": false
+    },
+    {
+      "slug": "kenoo",
+      "file": "raw/kenoo.md",
+      "sha256": "f9a39f633be018453a8a1025452d354e39af14e2c32e7d46c27b058b1cb83d5e",
+      "predecessorSha256": "7e4d29ab1b1a79af4fbb761fd45199a03d2c0a9768d7cc1aa8bb285dd2bbf625",
+      "changed": true
+    },
+    {
+      "slug": "kerygma",
+      "file": "raw/kerygma.md",
+      "sha256": "9d3f21b3341cf90214eeede3c528d476250a347bdbc3444d21e859647f5f4331",
+      "predecessorSha256": "4c3deab6b11cdd54e3538b960a59e6ce9e5890afe0b54aea6a4d52bda0c5c62f",
+      "changed": true
+    },
+    {
+      "slug": "kerysso",
+      "file": "raw/kerysso.md",
+      "sha256": "a88fbe00cf8d5d19fd0b3c40a8e6a72422a1fe2a3518d5787d9ebbdc3df20a10",
+      "predecessorSha256": "a88fbe00cf8d5d19fd0b3c40a8e6a72422a1fe2a3518d5787d9ebbdc3df20a10",
+      "changed": false
+    },
+    {
+      "slug": "klao",
+      "file": "raw/klao.md",
+      "sha256": "eca0605892d6cb6b3b885e80d19595f0970b99d41b6bc43639ccfd0944788388",
+      "predecessorSha256": "eca0605892d6cb6b3b885e80d19595f0970b99d41b6bc43639ccfd0944788388",
+      "changed": false
+    },
+    {
+      "slug": "kleis",
+      "file": "raw/kleis.md",
+      "sha256": "d6224095f04b0f483304ba4cf80d9569252bd033f424d287f778cb01726e62bd",
+      "predecessorSha256": "d6224095f04b0f483304ba4cf80d9569252bd033f424d287f778cb01726e62bd",
+      "changed": false
+    },
+    {
+      "slug": "kleronomia",
+      "file": "raw/kleronomia.md",
+      "sha256": "fcc48890818264d4ee0f359d7428bc339c509181942cab31f93848d8879c2a2f",
+      "predecessorSha256": "8b8543def8e4b1da6a51c60c1bcb5f9735e7b7572af064dbcba882f0ce3d9038",
+      "changed": true
+    },
+    {
+      "slug": "kleronomos",
+      "file": "raw/kleronomos.md",
+      "sha256": "45a7baa47c8a632558cf56442e8f6e64d204ff714a22b8ce5edf6e46af2704a1",
+      "predecessorSha256": "79b3745b0e5ba0e06e8482ba908a097d0848e0bb326342456050b04f3cbe3722",
+      "changed": true
+    },
+    {
+      "slug": "klesis",
+      "file": "raw/klesis.md",
+      "sha256": "06a982a5846efc3be368b8783762d86e9201bb1007a47edc61d1a6328e64cb4f",
+      "predecessorSha256": "53d421ada9f817742cc1d2af9e361ab89090514f87707d8c0f3eb9ad021e43dd",
+      "changed": true
+    },
+    {
+      "slug": "koimaomai",
+      "file": "raw/koimaomai.md",
+      "sha256": "8e5418207089341cb29baf7af1a65879741450aca4484f5c2285cab6af1a6b07",
+      "predecessorSha256": "8e5418207089341cb29baf7af1a65879741450aca4484f5c2285cab6af1a6b07",
+      "changed": false
+    },
+    {
+      "slug": "koinonia",
+      "file": "raw/koinonia.md",
+      "sha256": "511308262af6a3fb3895ddcdf10a69c714bda9797afb27d7e77f08f9be9fa8fa",
+      "predecessorSha256": "228fd0e34348288ee4632fd0e282eca602a3898398a3876a56621861c5ff2177",
+      "changed": true
+    },
+    {
+      "slug": "kosmos",
+      "file": "raw/kosmos.md",
+      "sha256": "434790fd4efb540813e90e25348ff3bcde9e49bc6d3bc0b98da2a7923ff4ea9c",
+      "predecessorSha256": "434790fd4efb540813e90e25348ff3bcde9e49bc6d3bc0b98da2a7923ff4ea9c",
+      "changed": false
+    },
+    {
+      "slug": "krisis",
+      "file": "raw/krisis.md",
+      "sha256": "23d82916758dba63ccc9c4d30cdadaa035e37ca09fb17ab9787eb0d881d9b33e",
+      "predecessorSha256": "dfa56dcdcf8a233ef5f4c0cf259daa1b778d8beefe81b49dde3f51a1521c5a73",
+      "changed": true
+    },
+    {
+      "slug": "ktizo",
+      "file": "raw/ktizo.md",
+      "sha256": "fc9563b26e771ca82606caa1f8cc2bc34c9d68271ec796118452aa0e1901c154",
+      "predecessorSha256": "fc9563b26e771ca82606caa1f8cc2bc34c9d68271ec796118452aa0e1901c154",
+      "changed": false
+    },
+    {
+      "slug": "kyrios",
+      "file": "raw/kyrios.md",
+      "sha256": "7bef0f86c2a0249fa0a9dd49a3feba025004b9776e31dfae638a9fcb0733afa3",
+      "predecessorSha256": "7bef0f86c2a0249fa0a9dd49a3feba025004b9776e31dfae638a9fcb0733afa3",
+      "changed": false
+    },
+    {
+      "slug": "lambano",
+      "file": "raw/lambano.md",
+      "sha256": "95a1a2503c189dc55f7a193dc933dc101d19dd1c59cf7635993af96ba39f6268",
+      "predecessorSha256": "95a1a2503c189dc55f7a193dc933dc101d19dd1c59cf7635993af96ba39f6268",
+      "changed": false
+    },
+    {
+      "slug": "laos",
+      "file": "raw/laos.md",
+      "sha256": "ed38dc79e63b6b7dc64045155fe970aa86fca3607d45b2097a1144fe525a2008",
+      "predecessorSha256": "ed38dc79e63b6b7dc64045155fe970aa86fca3607d45b2097a1144fe525a2008",
+      "changed": false
+    },
+    {
+      "slug": "latreia",
+      "file": "raw/latreia.md",
+      "sha256": "6d3840015b8e86a41f990b3392316ca4890c6cfab41b752004fa57611229c85d",
+      "predecessorSha256": "6d3840015b8e86a41f990b3392316ca4890c6cfab41b752004fa57611229c85d",
+      "changed": false
+    },
+    {
+      "slug": "leitourgia",
+      "file": "raw/leitourgia.md",
+      "sha256": "16b7348276aaee17390f6bea911f052d6642f731c324056b578c7f80916f4c23",
+      "predecessorSha256": "8b8e7bb79ad928f9512b626b3b7046b8773d1ad01af06a0caac1a015ec76c505",
+      "changed": true
+    },
+    {
+      "slug": "leitourgos",
+      "file": "raw/leitourgos.md",
+      "sha256": "1b718ee7b1d57864e93de7b68ad6c6ea79a33b1bbc6727860be8bd23e7dedef4",
+      "predecessorSha256": "1b718ee7b1d57864e93de7b68ad6c6ea79a33b1bbc6727860be8bd23e7dedef4",
+      "changed": false
+    },
+    {
+      "slug": "logizomai",
+      "file": "raw/logizomai.md",
+      "sha256": "fcce5e0c4a1589171e2e143af3ebdeb4407e04857363b5730f37b89ef9bdf728",
+      "predecessorSha256": "fcce5e0c4a1589171e2e143af3ebdeb4407e04857363b5730f37b89ef9bdf728",
+      "changed": false
+    },
+    {
+      "slug": "logos",
+      "file": "raw/logos.md",
+      "sha256": "46d9f978477fb8efc2dea38898cfcdd77b6bdc62931daba5a5656a3c9f0c0fa6",
+      "predecessorSha256": "95ce4d76e03ad9faac15b9705b468d733ed657c4a68d8dd3b4a0cdfeb2067549",
+      "changed": true
+    },
+    {
+      "slug": "loutron",
+      "file": "raw/loutron.md",
+      "sha256": "66ac116ac8e196c5e7541facde37639a1af0566574df5568443fe19eee7a2c42",
+      "predecessorSha256": "224a1fc994bd36031722bbdca22b93faad3595ae3130b90fc8a4b21086718232",
+      "changed": true
+    },
+    {
+      "slug": "lyo",
+      "file": "raw/lyo.md",
+      "sha256": "4d42d4af6b0f188aa85770ef5edfd0f1714cbf4e7f2b241d3f9ab13eaf352719",
+      "predecessorSha256": "4d42d4af6b0f188aa85770ef5edfd0f1714cbf4e7f2b241d3f9ab13eaf352719",
+      "changed": false
+    },
+    {
+      "slug": "lytron",
+      "file": "raw/lytron.md",
+      "sha256": "fd5c3ef4c90311a4fdfd3469442b940c68e2c70eb51fce426226abc780729679",
+      "predecessorSha256": "29bb4e01574d1249d30dbb6d0b5920b8c36c846a9edf8f94edd67c24296156d2",
+      "changed": true
+    },
+    {
+      "slug": "makarios",
+      "file": "raw/makarios.md",
+      "sha256": "3b903a3a90da7b081f287530e83ec0a9f0dbfce16d7e6610bf14daa21ded5f7f",
+      "predecessorSha256": "3b903a3a90da7b081f287530e83ec0a9f0dbfce16d7e6610bf14daa21ded5f7f",
+      "changed": false
+    },
+    {
+      "slug": "makrothymia",
+      "file": "raw/makrothymia.md",
+      "sha256": "5feafc4621ab532c9997c0feabba8208e95b6e76af1cc90a20c1de3872cb53db",
+      "predecessorSha256": "5feafc4621ab532c9997c0feabba8208e95b6e76af1cc90a20c1de3872cb53db",
+      "changed": false
+    },
+    {
+      "slug": "martyria",
+      "file": "raw/martyria.md",
+      "sha256": "dc87e1c250eff0795c5f40b89e976376a8bca55d8f1051e1571b23d9ac055d6d",
+      "predecessorSha256": "30f5bc6f4a60d3f1f9faf92ae14693bfd33c5f18fc9b1c2d1efb13a9c75a778b",
+      "changed": true
+    },
+    {
+      "slug": "mataiotes",
+      "file": "raw/mataiotes.md",
+      "sha256": "2d4fb197de2067d7658bd06f2a551dabcb873cc9d1be1219c6ddd3252e023a97",
+      "predecessorSha256": "2d4fb197de2067d7658bd06f2a551dabcb873cc9d1be1219c6ddd3252e023a97",
+      "changed": false
+    },
+    {
+      "slug": "mathetes",
+      "file": "raw/mathetes.md",
+      "sha256": "6584fcb726f8696383d6e03cbbe7ecb6a6458f40caf686b48ba8d0974cb6518d",
+      "predecessorSha256": "8b7f2b194ce3c1d2df28e6d837ef365546030daffe5a0ad39568860f7fdeb8be",
+      "changed": true
+    },
+    {
+      "slug": "matheteuo",
+      "file": "raw/matheteuo.md",
+      "sha256": "207884d97cbebcba9b7c4f6791d22d4865dccb492eed779af5963fffc3a4ea41",
+      "predecessorSha256": "207884d97cbebcba9b7c4f6791d22d4865dccb492eed779af5963fffc3a4ea41",
+      "changed": false
+    },
+    {
+      "slug": "mesites",
+      "file": "raw/mesites.md",
+      "sha256": "0b4bbcd5ec91e4e22b561b7331a85a29e0b7269d8e7722cf016724fb386f4012",
+      "predecessorSha256": "056020c54a538e8ddcbf1ba0ddcc11653fb1da4726eac3d8a04c73875ac805a9",
+      "changed": true
+    },
+    {
+      "slug": "metamelomai",
+      "file": "raw/metamelomai.md",
+      "sha256": "3555d8dab25a489bffd269d2c359917f906eb64dd5febe8306608e50caf49d10",
+      "predecessorSha256": "3555d8dab25a489bffd269d2c359917f906eb64dd5febe8306608e50caf49d10",
+      "changed": false
+    },
+    {
+      "slug": "metanoia",
+      "file": "raw/metanoia.md",
+      "sha256": "199db8b48423449c673daa512d61990277700da5c2f560ff1c7a3c34e9fe96e1",
+      "predecessorSha256": "8384d7ab881762c9920f1b81a9a3cb723e8fd44c771d38ca4e3958d8a379a452",
+      "changed": true
+    },
+    {
+      "slug": "misthos",
+      "file": "raw/misthos.md",
+      "sha256": "18d53fc76375d8a263cca4b15eac391fa078260f55faffd36d0664cbcac638c8",
+      "predecessorSha256": "18d53fc76375d8a263cca4b15eac391fa078260f55faffd36d0664cbcac638c8",
+      "changed": false
+    },
+    {
+      "slug": "monogenes",
+      "file": "raw/monogenes.md",
+      "sha256": "068e56488548c226841e766187602d3a9121d9e28592fa643d0e3b069fb02163",
+      "predecessorSha256": "d7e789e57da261894c8fcb3d576c92420ca693613237b6624de33ba0aab4c855",
+      "changed": true
+    },
+    {
+      "slug": "moria",
+      "file": "raw/moria.md",
+      "sha256": "1bab055d45c939b7b13f9016f63b622a7fb15fe75893fca40f5358aa9ea5054b",
+      "predecessorSha256": "1bab055d45c939b7b13f9016f63b622a7fb15fe75893fca40f5358aa9ea5054b",
+      "changed": false
+    },
+    {
+      "slug": "morphe",
+      "file": "raw/morphe.md",
+      "sha256": "1a74412ad1a7009f0c92540f29e85fdf5a8ed1cb7e728b47b2b3f6db6c256662",
+      "predecessorSha256": "1a74412ad1a7009f0c92540f29e85fdf5a8ed1cb7e728b47b2b3f6db6c256662",
+      "changed": false
+    },
+    {
+      "slug": "mysterion",
+      "file": "raw/mysterion.md",
+      "sha256": "7fc4c2f4d0705d1722549b0bfac70ead422461672273c896cc6d02178e8f3536",
+      "predecessorSha256": "5d7bd8f50282d61d355da9e80443385e1aae3b7aa72bbead17bb39d27f11ed82",
+      "changed": true
+    },
+    {
+      "slug": "mythos",
+      "file": "raw/mythos.md",
+      "sha256": "62b0b6f3adf04e4374e3a56bec84545485709eba0ef94e855d9f3716db260267",
+      "predecessorSha256": "6e96ee56cd6f16842af24478f839c5131bc2246ff9741a4ff4c1775f423c7fb3",
+      "changed": true
+    },
+    {
+      "slug": "naos",
+      "file": "raw/naos.md",
+      "sha256": "3753ff3ee400deb9192f1679970ffdecd102230d8278bcd5600a6bb5e17956f5",
+      "predecessorSha256": "3753ff3ee400deb9192f1679970ffdecd102230d8278bcd5600a6bb5e17956f5",
+      "changed": false
+    },
+    {
+      "slug": "nekroo",
+      "file": "raw/nekroo.md",
+      "sha256": "d80b91495f0b0f97a3addee98ca297b2bef27cc6b908a4add8953c0b5959fcd8",
+      "predecessorSha256": "d80b91495f0b0f97a3addee98ca297b2bef27cc6b908a4add8953c0b5959fcd8",
+      "changed": false
+    },
+    {
+      "slug": "nekros",
+      "file": "raw/nekros.md",
+      "sha256": "88d80c6a86ed4d1430f36667b505035ed5f05d1ddab712ce06565270ea77bd72",
+      "predecessorSha256": "88d80c6a86ed4d1430f36667b505035ed5f05d1ddab712ce06565270ea77bd72",
+      "changed": false
+    },
+    {
+      "slug": "nomos",
+      "file": "raw/nomos.md",
+      "sha256": "c6bb62b9fcffd0bacedb977e888cb9e1f32aebeb57610d51839667ef8edf7ded",
+      "predecessorSha256": "c6bb62b9fcffd0bacedb977e888cb9e1f32aebeb57610d51839667ef8edf7ded",
+      "changed": false
+    },
+    {
+      "slug": "oikodome",
+      "file": "raw/oikodome.md",
+      "sha256": "ea853cef9c4c32cf172f1ce71a300b2b0a2395ecfa9245bd7338710f9b70d6d5",
+      "predecessorSha256": "ea853cef9c4c32cf172f1ce71a300b2b0a2395ecfa9245bd7338710f9b70d6d5",
+      "changed": false
+    },
+    {
+      "slug": "oikonomos",
+      "file": "raw/oikonomos.md",
+      "sha256": "fd8c9a72ed70d113df4a0b45f4b5354be59538c9f6f131d5f5c24baed4d1eb09",
+      "predecessorSha256": "fd8c9a72ed70d113df4a0b45f4b5354be59538c9f6f131d5f5c24baed4d1eb09",
+      "changed": false
+    },
+    {
+      "slug": "oikos",
+      "file": "raw/oikos.md",
+      "sha256": "99218c1ccdad1fe612b2052ad17b74713da5e1dfd5813c9f5a40a1ebf91ed7ac",
+      "predecessorSha256": "99218c1ccdad1fe612b2052ad17b74713da5e1dfd5813c9f5a40a1ebf91ed7ac",
+      "changed": false
+    },
+    {
+      "slug": "onoma",
+      "file": "raw/onoma.md",
+      "sha256": "df6c9fa162d562d5a906ee723034e3ac8a703cb651edf26a79fc5c859fe64ce7",
+      "predecessorSha256": "df6c9fa162d562d5a906ee723034e3ac8a703cb651edf26a79fc5c859fe64ce7",
+      "changed": false
+    },
+    {
+      "slug": "orge",
+      "file": "raw/orge.md",
+      "sha256": "ee8259097a816d8f3393f3be9d113c51e4205cf329c89509b690da5804ed7820",
+      "predecessorSha256": "ee8259097a816d8f3393f3be9d113c51e4205cf329c89509b690da5804ed7820",
+      "changed": false
+    },
+    {
+      "slug": "orthotomeo",
+      "file": "raw/orthotomeo.md",
+      "sha256": "ce98aea8020f0fcebbcf398cae55a007e3f9af12d42f125775d39af2d30106a9",
+      "predecessorSha256": "b498c77c48673fd30cd8cc1806c355f3288ff5071bc0e510f4b260bfadf84368",
+      "changed": true
+    },
+    {
+      "slug": "paidagogos",
+      "file": "raw/paidagogos.md",
+      "sha256": "c02d799124ed4abc46496f1f3de088035fd1218ac260dc0f56bc3f0fc14c6509",
+      "predecessorSha256": "c02d799124ed4abc46496f1f3de088035fd1218ac260dc0f56bc3f0fc14c6509",
+      "changed": false
+    },
+    {
+      "slug": "paliggenesia",
+      "file": "raw/paliggenesia.md",
+      "sha256": "a008de866b71980de88166d35fc561c4374c0b4a91f01ca1115c3b6a502ddd34",
+      "predecessorSha256": "a008de866b71980de88166d35fc561c4374c0b4a91f01ca1115c3b6a502ddd34",
+      "changed": false
+    },
+    {
+      "slug": "pantokrator",
+      "file": "raw/pantokrator.md",
+      "sha256": "5e8202b1be4a0aa0a45e8f2fcf153ab02df3efd8f0507d9801f08a96a3f65d34",
+      "predecessorSha256": "5e8202b1be4a0aa0a45e8f2fcf153ab02df3efd8f0507d9801f08a96a3f65d34",
+      "changed": false
+    },
+    {
+      "slug": "paradosis",
+      "file": "raw/paradosis.md",
+      "sha256": "4bc5f1273061ba8099e2bbda7fe538c14d86903a982e470765f65e300f6ba227",
+      "predecessorSha256": "4bc5f1273061ba8099e2bbda7fe538c14d86903a982e470765f65e300f6ba227",
+      "changed": false
+    },
+    {
+      "slug": "paraklesis",
+      "file": "raw/paraklesis.md",
+      "sha256": "e50005092f2bffa66985942e677651fc6a056ddb0c53212a94406576b35e13e5",
+      "predecessorSha256": "e50005092f2bffa66985942e677651fc6a056ddb0c53212a94406576b35e13e5",
+      "changed": false
+    },
+    {
+      "slug": "parakletos",
+      "file": "raw/parakletos.md",
+      "sha256": "f6ab9898ff34f0a1edad4e4757d54df1c5c1fee8bab7c2745f87e95b0cd1ea30",
+      "predecessorSha256": "f6ab9898ff34f0a1edad4e4757d54df1c5c1fee8bab7c2745f87e95b0cd1ea30",
+      "changed": false
+    },
+    {
+      "slug": "paraptoma",
+      "file": "raw/paraptoma.md",
+      "sha256": "d1dd64db3af9aaf4970524cc262f548b3811fe1d13f74c1ffcf27ad73ff5534f",
+      "predecessorSha256": "d1dd64db3af9aaf4970524cc262f548b3811fe1d13f74c1ffcf27ad73ff5534f",
+      "changed": false
+    },
+    {
+      "slug": "paratheke",
+      "file": "raw/paratheke.md",
+      "sha256": "73b06a7d0f7440fc62c0c8e04756f9b1bb3680b48e8f8964093be8722a5d8520",
+      "predecessorSha256": "3813844bb7900bdd6493391546eddd69997ff3d2f80ff44348f896a03138edd1",
+      "changed": true
+    },
+    {
+      "slug": "paroikos",
+      "file": "raw/paroikos.md",
+      "sha256": "34483dbfe444ef59428fec499c076453df96751d427da28f9dd5496e05ec33c6",
+      "predecessorSha256": "34483dbfe444ef59428fec499c076453df96751d427da28f9dd5496e05ec33c6",
+      "changed": false
+    },
+    {
+      "slug": "parousia",
+      "file": "raw/parousia.md",
+      "sha256": "66e9c47faf630f748aefe30f884d0fbdab33e221204a415e30b92ef61674bb73",
+      "predecessorSha256": "7c6ba2aa87c6b3b3acf8758f1f4b74f1e79eb03f9e0b585128bd647a3018c44f",
+      "changed": true
+    },
+    {
+      "slug": "parrhesia",
+      "file": "raw/parrhesia.md",
+      "sha256": "0b9533785577add0d414213f89d3112a5bde5b7586eca617911619d69d115f59",
+      "predecessorSha256": "292364fc19806aba2fb594c22485ece62fec1411398c8da89adfdd29f9255a57",
+      "changed": true
+    },
+    {
+      "slug": "pater",
+      "file": "raw/pater.md",
+      "sha256": "bf1881ddbaef1eed4dd332ebc150f751dbc3b7953e54b4004abf6dae899be68a",
+      "predecessorSha256": "e0c4b8b8354ae8caf553ee3219f03fcdec09355b06eccd8e01ce53a33db1c29e",
+      "changed": true
+    },
+    {
+      "slug": "peirasmos",
+      "file": "raw/peirasmos.md",
+      "sha256": "c9dc01c809dfbaeeb253cae4bdd8ce278f3011e40645061a3765705877fb7724",
+      "predecessorSha256": "c9dc01c809dfbaeeb253cae4bdd8ce278f3011e40645061a3765705877fb7724",
+      "changed": false
+    },
+    {
+      "slug": "peripateo",
+      "file": "raw/peripateo.md",
+      "sha256": "b98e28dc332e7c1382a38326dc5636bac37e263f21aa0ccd12a081e4c741909f",
+      "predecessorSha256": "b98e28dc332e7c1382a38326dc5636bac37e263f21aa0ccd12a081e4c741909f",
+      "changed": false
+    },
+    {
+      "slug": "perisseuo",
+      "file": "raw/perisseuo.md",
+      "sha256": "7a815c5549f5c6f07cd2d90b36782bb4ee2caa63899f19541cc88705a05e25e6",
+      "predecessorSha256": "7a815c5549f5c6f07cd2d90b36782bb4ee2caa63899f19541cc88705a05e25e6",
+      "changed": false
+    },
+    {
+      "slug": "phobos",
+      "file": "raw/phobos.md",
+      "sha256": "76af49a262dff494c1ed77ae3844273d4832df30c4fdaba15f7f135cbb63ea3f",
+      "predecessorSha256": "76af49a262dff494c1ed77ae3844273d4832df30c4fdaba15f7f135cbb63ea3f",
+      "changed": false
+    },
+    {
+      "slug": "phos",
+      "file": "raw/phos.md",
+      "sha256": "643921a5ce8e5c47028a403a5f2b6a8f174280f363c6559684f03996c70c6cb6",
+      "predecessorSha256": "643921a5ce8e5c47028a403a5f2b6a8f174280f363c6559684f03996c70c6cb6",
+      "changed": false
+    },
+    {
+      "slug": "phthora",
+      "file": "raw/phthora.md",
+      "sha256": "a0318ba0375bd732c738c87d30374c52c68f5e3a9623ddffebaf9d0bd164beb4",
+      "predecessorSha256": "a0318ba0375bd732c738c87d30374c52c68f5e3a9623ddffebaf9d0bd164beb4",
+      "changed": false
+    },
+    {
+      "slug": "physis",
+      "file": "raw/physis.md",
+      "sha256": "001063989e2426ce2cf4b168f8378f1c24f05e24298849ad17d254bf84149703",
+      "predecessorSha256": "001063989e2426ce2cf4b168f8378f1c24f05e24298849ad17d254bf84149703",
+      "changed": false
+    },
+    {
+      "slug": "pisteuo",
+      "file": "raw/pisteuo.md",
+      "sha256": "248ccddba30eb99fa75857d793fab81cf48db93ba5e38bb35c1e80615ce0b331",
+      "predecessorSha256": "248ccddba30eb99fa75857d793fab81cf48db93ba5e38bb35c1e80615ce0b331",
+      "changed": false
+    },
+    {
+      "slug": "pistis",
+      "file": "raw/pistis.md",
+      "sha256": "7f7a1621efef79d36f8dd9cf2d34ac2cdee0b6ee69468d9f86615f1cdf954f67",
+      "predecessorSha256": "7f7a1621efef79d36f8dd9cf2d34ac2cdee0b6ee69468d9f86615f1cdf954f67",
+      "changed": false
+    },
+    {
+      "slug": "pistos-ho-logos",
+      "file": "raw/pistos-ho-logos.md",
+      "sha256": "661378ea0d94674f92b5dd765aeac4ce167cad07b6757c6990f59e2cf44045b3",
+      "predecessorSha256": "7d17a9832fa30c9fb1a62a04e1acbcc1e1f103bdd69f6f7ec406de2b5cf72a69",
+      "changed": true
+    },
+    {
+      "slug": "planao",
+      "file": "raw/planao.md",
+      "sha256": "34bb96be34475e22d295849580db037ee3e9bd392c82e9e97321545c0837e2ff",
+      "predecessorSha256": "34bb96be34475e22d295849580db037ee3e9bd392c82e9e97321545c0837e2ff",
+      "changed": false
+    },
+    {
+      "slug": "pleroma",
+      "file": "raw/pleroma.md",
+      "sha256": "b147f9a6449241c50961c809fa7bbd719d7c665d09aec63da1c1c8287eeda0b8",
+      "predecessorSha256": "037f0a659afeb22b7a39db7c3635eef8c0ffd3adc966d6b352e464713882be97",
+      "changed": true
+    },
+    {
+      "slug": "pleroo",
+      "file": "raw/pleroo.md",
+      "sha256": "c93b721207e2488820ba3677c2d7bd886f737cbc482f2476b57c1c8509a4186f",
+      "predecessorSha256": "c93b721207e2488820ba3677c2d7bd886f737cbc482f2476b57c1c8509a4186f",
+      "changed": false
+    },
+    {
+      "slug": "plesion",
+      "file": "raw/plesion.md",
+      "sha256": "f919bf8a08e24584efb93006bb5251d1631729adb2df649abf5df2717f8507af",
+      "predecessorSha256": "f919bf8a08e24584efb93006bb5251d1631729adb2df649abf5df2717f8507af",
+      "changed": false
+    },
+    {
+      "slug": "pneuma",
+      "file": "raw/pneuma.md",
+      "sha256": "45ff670d4f2298cb8fae4efbb1c96803c1d41b26ed9b23f54d7f49f6e61fb649",
+      "predecessorSha256": "9240316ddf9411e2cb96b216bea3794cc6b0a84afe0bd7cf3edb0bb9c51c4f0f",
+      "changed": true
+    },
+    {
+      "slug": "poimen",
+      "file": "raw/poimen.md",
+      "sha256": "d851ea125982e3bd36c97d32f8a003900316249b900bbc50fbf6732c6b186c29",
+      "predecessorSha256": "d851ea125982e3bd36c97d32f8a003900316249b900bbc50fbf6732c6b186c29",
+      "changed": false
+    },
+    {
+      "slug": "poterion",
+      "file": "raw/poterion.md",
+      "sha256": "d306e54058800d41c7ce882e9466983f4f4326c88d03c2a3de50cda58d9ce0ac",
+      "predecessorSha256": "d306e54058800d41c7ce882e9466983f4f4326c88d03c2a3de50cda58d9ce0ac",
+      "changed": false
+    },
+    {
+      "slug": "prautes",
+      "file": "raw/prautes.md",
+      "sha256": "0560b1d2bc4d525a5fedc2d4b54831df0c23d424b59e4e4ff2c7ef9558f49033",
+      "predecessorSha256": "0560b1d2bc4d525a5fedc2d4b54831df0c23d424b59e4e4ff2c7ef9558f49033",
+      "changed": false
+    },
+    {
+      "slug": "presbyteros",
+      "file": "raw/presbyteros.md",
+      "sha256": "43da165dadc742d109f017618d5ff9718a06e88b62a82d53d740bffd4c1385c6",
+      "predecessorSha256": "8081f467a865a162f8aa607dd4289dc4c8062ef030fe3f69ac0d3e5d0a8ee813",
+      "changed": true
+    },
+    {
+      "slug": "prognosis",
+      "file": "raw/prognosis.md",
+      "sha256": "1c66b6cb4664170e6858b805833052825cfea781ad35cfbf9841cec73f994cbb",
+      "predecessorSha256": "1c66b6cb4664170e6858b805833052825cfea781ad35cfbf9841cec73f994cbb",
+      "changed": false
+    },
+    {
+      "slug": "proorizo",
+      "file": "raw/proorizo.md",
+      "sha256": "76f9e01c070ff499162054845261adce18f373c61dc610a54a4129a3bdca11a9",
+      "predecessorSha256": "76f9e01c070ff499162054845261adce18f373c61dc610a54a4129a3bdca11a9",
+      "changed": false
+    },
+    {
+      "slug": "proselytos",
+      "file": "raw/proselytos.md",
+      "sha256": "ef2453269c58018616ba7aeaeb6d0f793e29f03b29bf2f2b1cf7a7555939ff65",
+      "predecessorSha256": "42a05af3c725a7c334c5909403c56b7ae2a0724b815f154310a738049b0f8312",
+      "changed": true
+    },
+    {
+      "slug": "proseuche",
+      "file": "raw/proseuche.md",
+      "sha256": "e54f4ad733730ed27763475fc85dd9356dc8964966c487ac0210240bdd038263",
+      "predecessorSha256": "a3c47757232f02ab81ef35dea22569b0b6dfd733f60daef8be04f5f6d8065888",
+      "changed": true
+    },
+    {
+      "slug": "prosopon",
+      "file": "raw/prosopon.md",
+      "sha256": "b533c556eca3a56e9b6a11e430abeccc77a3b7444344972075228810ebd26fbc",
+      "predecessorSha256": "b533c556eca3a56e9b6a11e430abeccc77a3b7444344972075228810ebd26fbc",
+      "changed": false
+    },
+    {
+      "slug": "prothesis",
+      "file": "raw/prothesis.md",
+      "sha256": "85a1b776d4d8ce9701762293f2db9f2153c2ae921ec232b3b5dc4b233576c4d9",
+      "predecessorSha256": "963b09b6c38d933357864109cf4e76c94aedbde89c3496dfc12cab4dbb93a650",
+      "changed": true
+    },
+    {
+      "slug": "prototokos",
+      "file": "raw/prototokos.md",
+      "sha256": "f3b883ce06dc52419d3b873cb2d8be9e5b7e6e8671043ee54b781ebfa8cd918c",
+      "predecessorSha256": "e05398358832fee460c912fdb72676f1694b4e3020e3cafb5cc976aac1441009",
+      "changed": true
+    },
+    {
+      "slug": "psyche",
+      "file": "raw/psyche.md",
+      "sha256": "6f219841c7ebeae008d8161eb1ecea666e8089bff14b866cb0b1ae6842e21432",
+      "predecessorSha256": "6f219841c7ebeae008d8161eb1ecea666e8089bff14b866cb0b1ae6842e21432",
+      "changed": false
+    },
+    {
+      "slug": "rhema",
+      "file": "raw/rhema.md",
+      "sha256": "5b9bb3dddd3030e17fc5549226782e6781656224ef551f61d8c7b431dd189972",
+      "predecessorSha256": "78b56183831cdc997734b85b828d84f8096f138870a5a1bc37d5165e1f7b44ef",
+      "changed": true
+    },
+    {
+      "slug": "sabbatismos",
+      "file": "raw/sabbatismos.md",
+      "sha256": "eab9d356bf8c1faae9886ab336514b4ad267133437ed9a25751e1926c5319f03",
+      "predecessorSha256": "eab9d356bf8c1faae9886ab336514b4ad267133437ed9a25751e1926c5319f03",
+      "changed": false
+    },
+    {
+      "slug": "sarx",
+      "file": "raw/sarx.md",
+      "sha256": "a72b663a04412bb4de7eb82f1db0cd1fa4974580d0d36fbf4a2a9049627db8f9",
+      "predecessorSha256": "56ae8c3b2707c2f23fade625392988567e8bcb3bca5ae185174d9a5f84b3550e",
+      "changed": true
+    },
+    {
+      "slug": "skandalon",
+      "file": "raw/skandalon.md",
+      "sha256": "007cf627e307e979dfa177a58c0fbd8d16f58e1a9b75abfd6c59e23fc711d888",
+      "predecessorSha256": "007cf627e307e979dfa177a58c0fbd8d16f58e1a9b75abfd6c59e23fc711d888",
+      "changed": false
+    },
+    {
+      "slug": "skenoo",
+      "file": "raw/skenoo.md",
+      "sha256": "2a190f118fd114cfc9d924857748ebe9e67976a20bee52bb2c0f7ee7e06df51f",
+      "predecessorSha256": "2a190f118fd114cfc9d924857748ebe9e67976a20bee52bb2c0f7ee7e06df51f",
+      "changed": false
+    },
+    {
+      "slug": "skia",
+      "file": "raw/skia.md",
+      "sha256": "d0ca3ec67e7c0d32b557ac01c127c4fe09bb098aaaea31d3e0eabe6cdaff1581",
+      "predecessorSha256": "d0ca3ec67e7c0d32b557ac01c127c4fe09bb098aaaea31d3e0eabe6cdaff1581",
+      "changed": false
+    },
+    {
+      "slug": "skybalon",
+      "file": "raw/skybalon.md",
+      "sha256": "8747869a47c72b1957d1e587b7fbb5ba339a5a6c18de41d08b38a00512d81057",
+      "predecessorSha256": "8747869a47c72b1957d1e587b7fbb5ba339a5a6c18de41d08b38a00512d81057",
+      "changed": false
+    },
+    {
+      "slug": "soma",
+      "file": "raw/soma.md",
+      "sha256": "560d81c919ced48cf56317b2fb3a9c498b82998f179d1dff1c2791182bd84abb",
+      "predecessorSha256": "7ccce6babafa3dfed60b5d7e05abc23bb4558247117054f8352611ad33568393",
+      "changed": true
+    },
+    {
+      "slug": "soter",
+      "file": "raw/soter.md",
+      "sha256": "8b6b87f95d9f4a536caaf29ace0d6d3d71eb136842c2b29e5b2ffaf79f7736df",
+      "predecessorSha256": "e9a219c5e14314f9f6d448a5a98bbfb06eb593d8386437e80e546a041c3a46d8",
+      "changed": true
+    },
+    {
+      "slug": "sozo",
+      "file": "raw/sozo.md",
+      "sha256": "6de0b74ca625a34b63ea5b952228d4128f189b90691f40bbd4e75892ddc61d32",
+      "predecessorSha256": "b0872a8f11447e13066bac1399d1bed073fdb9e4f852efc054d014a65dbe0bfb",
+      "changed": true
+    },
+    {
+      "slug": "sphragizo",
+      "file": "raw/sphragizo.md",
+      "sha256": "c4a9d506241b5c4b962cd16f23b3ae798629f989f46f6cbccc36e0c87cd1bf98",
+      "predecessorSha256": "c4a9d506241b5c4b962cd16f23b3ae798629f989f46f6cbccc36e0c87cd1bf98",
+      "changed": false
+    },
+    {
+      "slug": "splanchna",
+      "file": "raw/splanchna.md",
+      "sha256": "c01054cde899e1f98a748224048bf6b1adcbc6386141a8a1b667918f5d01be51",
+      "predecessorSha256": "c01054cde899e1f98a748224048bf6b1adcbc6386141a8a1b667918f5d01be51",
+      "changed": false
+    },
+    {
+      "slug": "stauros",
+      "file": "raw/stauros.md",
+      "sha256": "ad242bea49e218ee773d1f8a6f4d0de6096c79b8bf741de59ff6c78fb06455d8",
+      "predecessorSha256": "ad242bea49e218ee773d1f8a6f4d0de6096c79b8bf741de59ff6c78fb06455d8",
+      "changed": false
+    },
+    {
+      "slug": "stephanos",
+      "file": "raw/stephanos.md",
+      "sha256": "4bc0a1fa542a04746969cd2bb15eaa4711924c65ed9c620c2c0e37211e5c13f5",
+      "predecessorSha256": "4bc0a1fa542a04746969cd2bb15eaa4711924c65ed9c620c2c0e37211e5c13f5",
+      "changed": false
+    },
+    {
+      "slug": "stoicheia",
+      "file": "raw/stoicheia.md",
+      "sha256": "802a3f103957b808c3dcfb126f9871fe4f1c78efd1ea9f0df7f0b8c8a370d76a",
+      "predecessorSha256": "802a3f103957b808c3dcfb126f9871fe4f1c78efd1ea9f0df7f0b8c8a370d76a",
+      "changed": false
+    },
+    {
+      "slug": "suneidesis",
+      "file": "raw/suneidesis.md",
+      "sha256": "1403bcc9a3bd1b4ab5a0d04ed15af5636e6569c5b8896eb02da24d6b93411241",
+      "predecessorSha256": "1403bcc9a3bd1b4ab5a0d04ed15af5636e6569c5b8896eb02da24d6b93411241",
+      "changed": false
+    },
+    {
+      "slug": "synergeo",
+      "file": "raw/synergeo.md",
+      "sha256": "a88a3ca5beaa17a343169b10940c1518f24d7e6219f62324cd67156edb813f0d",
+      "predecessorSha256": "a88a3ca5beaa17a343169b10940c1518f24d7e6219f62324cd67156edb813f0d",
+      "changed": false
+    },
+    {
+      "slug": "synthapto",
+      "file": "raw/synthapto.md",
+      "sha256": "bb2bcce1c677209a7be1e5ccba5e660acaf6be4c3cecb59d64bb3db90876ea2a",
+      "predecessorSha256": "bb2bcce1c677209a7be1e5ccba5e660acaf6be4c3cecb59d64bb3db90876ea2a",
+      "changed": false
+    },
+    {
+      "slug": "tapeinoo",
+      "file": "raw/tapeinoo.md",
+      "sha256": "715bdd11d66115df3b9dec5215467eecc6d22082f2c9113c78a9b8f667e0aaaf",
+      "predecessorSha256": "715bdd11d66115df3b9dec5215467eecc6d22082f2c9113c78a9b8f667e0aaaf",
+      "changed": false
+    },
+    {
+      "slug": "taxis",
+      "file": "raw/taxis.md",
+      "sha256": "abca2b2cfcf8bb869d6e30528725f75f9d97455fb4406e1ac6a5d041187a1154",
+      "predecessorSha256": "abca2b2cfcf8bb869d6e30528725f75f9d97455fb4406e1ac6a5d041187a1154",
+      "changed": false
+    },
+    {
+      "slug": "teleios",
+      "file": "raw/teleios.md",
+      "sha256": "fb9081c3da47dda9b412879bd991edbc408be156bb2813f1e73a1da5ba0eaf47",
+      "predecessorSha256": "43edce74517c610e3360f682ae0b44d3f03e13a893b6701d46e00720648d80e6",
+      "changed": true
+    },
+    {
+      "slug": "teleo",
+      "file": "raw/teleo.md",
+      "sha256": "97665c63f425e6bf82b60eb45a9006978651f48e93e0b9e2ee6360b8bf3aa013",
+      "predecessorSha256": "97665c63f425e6bf82b60eb45a9006978651f48e93e0b9e2ee6360b8bf3aa013",
+      "changed": false
+    },
+    {
+      "slug": "thanatos",
+      "file": "raw/thanatos.md",
+      "sha256": "cecfe398546f24448192f6beed62142c59a29c1bc31b136d4950e394ce6a712f",
+      "predecessorSha256": "e43b2459cfdd18d388d78858375b238322cfe0e20da16149bec912d5d58a7134",
+      "changed": true
+    },
+    {
+      "slug": "thelema",
+      "file": "raw/thelema.md",
+      "sha256": "10d7e0ae9f276c4bb24ce99f40a43a320d2fc301217896d4fb09982b3e62fe9f",
+      "predecessorSha256": "10d7e0ae9f276c4bb24ce99f40a43a320d2fc301217896d4fb09982b3e62fe9f",
+      "changed": false
+    },
+    {
+      "slug": "theopneustos",
+      "file": "raw/theopneustos.md",
+      "sha256": "c355cc36f5063cb6e2de09a8c5d8a28f4571cab8aa9f55d273a85659b5a8deca",
+      "predecessorSha256": "a09a2c4ba60127b10a06e8124608301ee96a6cd8aa099db0d5382d3c3f13bb0c",
+      "changed": true
+    },
+    {
+      "slug": "theos",
+      "file": "raw/theos.md",
+      "sha256": "bd2da6b557b659326ff0e317d82d058d1043ce39a90b06724ba2a7673196015c",
+      "predecessorSha256": "ced90e9dffb379fd1a2dc963f8f72bd9239c8bb7647db82c55a6e41b61743b29",
+      "changed": true
+    },
+    {
+      "slug": "theotes",
+      "file": "raw/theotes.md",
+      "sha256": "972932fa50ac660c529742848adfebdb61d5ef876287b6861b6bf088de661b1f",
+      "predecessorSha256": "5ec26226883e2e96b53363b0cfc423e488e40c06e623aeb0427c81187e26d572",
+      "changed": true
+    },
+    {
+      "slug": "thysia",
+      "file": "raw/thysia.md",
+      "sha256": "7473676c18a03927bd5498d14aa922073d2ce90a5546767e83b800b919bd0983",
+      "predecessorSha256": "7473676c18a03927bd5498d14aa922073d2ce90a5546767e83b800b919bd0983",
+      "changed": false
+    },
+    {
+      "slug": "typos",
+      "file": "raw/typos.md",
+      "sha256": "1ef6fc8be4ac89ddb629b3b1eafcc3ea1ed68c0414a7d3d38b92b20a0c68886a",
+      "predecessorSha256": "1ef6fc8be4ac89ddb629b3b1eafcc3ea1ed68c0414a7d3d38b92b20a0c68886a",
+      "changed": false
+    },
+    {
+      "slug": "zoe",
+      "file": "raw/zoe.md",
+      "sha256": "837b2d8ed4d4f4202e2d2f8a12e508e65eb9af52fed6ae0e8c91d4a3fe15b605",
+      "predecessorSha256": "837b2d8ed4d4f4202e2d2f8a12e508e65eb9af52fed6ae0e8c91d4a3fe15b605",
+      "changed": false
+    },
+    {
+      "slug": "zoopoieo",
+      "file": "raw/zoopoieo.md",
+      "sha256": "3d51d6c1f8ee87201f02f7075eb97d48d60d221625c1e5a66b5ecf2d9d4bb654",
+      "predecessorSha256": "3d51d6c1f8ee87201f02f7075eb97d48d60d221625c1e5a66b5ecf2d9d4bb654",
+      "changed": false
+    }
+  ],
+  "changes": [
+    {
+      "id": "LOCAL-014",
+      "slug": "agape",
+      "old": "“love your enemy” (Matthew 5:44, BSB)",
+      "new": "“love your enemies” (Matthew 5:44, BSB)",
+      "reason": "Use the plural BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-001",
+      "slug": "agape",
+      "old": "The verbal form occurs more than 140 times in the New Testament; the noun more than 110 times; the adjective about sixty times.",
+      "new": "In the pinned Nestle 1904 main text, the verbal form occurs 142 times, the noun 116 times, and the adjective 61 times.",
+      "reason": "Regenerate the three word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-054",
+      "slug": "agorazo",
+      "old": "See also the eventual treatment of lytron (the ransom price specifically) for the third member of the redemption / purchase / ransom vocabulary cluster.",
+      "new": "See also [Lytron](/greek/lytron/) for the ransom price specifically—the third member of the redemption, purchase, and ransom vocabulary cluster.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-024",
+      "slug": "agorazo",
+      "old": "people and nation” Some readings",
+      "new": "people and nation.” Some readings",
+      "reason": "Restore punctuation after the Revelation 5:9 quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-011",
+      "slug": "amen",
+      "old": "the Old Testament's “the faithful God” (Isaiah 65:16, BSB)",
+      "new": "the Old Testament’s “God of truth” (Isaiah 65:16, BSB)",
+      "reason": "Use the pinned BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-025",
+      "slug": "amen",
+      "old": "then you will not stand at all.’’”",
+      "new": "then you will not stand at all.’”",
+      "reason": "Remove a duplicated closing quotation mark.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-002",
+      "slug": "amen",
+      "old": "The word appears about 129 times in the New Testament.",
+      "new": "The word appears 126 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-014",
+      "slug": "anamnesis",
+      "old": "The Augsburg Confession Article X states the Lutheran position on the Supper in compressed form: \"they teach that the body and blood of Christ are truly present and are distributed to those who eat the Supper of the Lord.\"",
+      "new": "Augsburg Confession X confesses in compressed form that Christ’s body and blood are truly present and distributed to those who eat the Lord’s Supper.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-020",
+      "slug": "anastasis",
+      "old": "Hymenaeus and Philetus in 2 Timothy 2:18, who said “who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some.”",
+      "new": "Hymenaeus and Philetus in 2 Timothy 2:18, who “say that the resurrection has already occurred” (BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-008",
+      "slug": "anastasis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-009",
+      "slug": "anomia",
+      "old": "the “the man of lawlessness” the “the man of lawlessness” already at work",
+      "new": "the “man of lawlessness” to be revealed and the “mystery of lawlessness” already at work",
+      "reason": "Restore the two distinct expressions in 2 Thessalonians 2.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-010",
+      "slug": "anomia",
+      "old": "while Paul explicitly says he is “not outside the law of God but under the law of Christ”",
+      "new": "while Paul explicitly says, “I am not outside the law of God but am under the law of Christ”",
+      "reason": "Restore the BSB wording of 1 Corinthians 9:21.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-041",
+      "slug": "anthropos",
+      "old": "The word is a third-declension masculine noun;",
+      "new": "The word is a second-declension masculine noun;",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-022",
+      "slug": "anthropos",
+      "old": "its feminine form, when needed, can be supplied by *gunē* (woman) in compound or contrast, though in most New Testament usage *anthrōpos* itself functions as the generic term for human being regardless of gender.",
+      "new": "*anthrōpos* itself can function generically for a human being regardless of gender. *Gunē* (γυνή, “woman”) is a separate noun, not a feminine form of *anthrōpos*.",
+      "reason": "Correct the grammatical relationship.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-015",
+      "slug": "anthropos",
+      "old": "The Augsburg Confession Article III is direct on this: \"the Son of God became man, born of the Virgin Mary.\"",
+      "new": "Augsburg Confession III 1 is direct: the Son of God assumed human nature in the womb of the blessed Virgin Mary.",
+      "reason": "Paraphrase an unidentified confessional translation and add a stable paragraph reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-016",
+      "slug": "anthropos",
+      "old": "in the language of Article II of the Augsburg Confession, \"born with sin… without fear of God, without trust in God, and with concupiscence.\"",
+      "new": "as Augsburg Confession II 1 describes it, born with sin, without fear of God or trust in God, and with concupiscence.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-antilytron",
+      "slug": "antilytron",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-017",
+      "slug": "aphesis",
+      "old": "Luther’s Small Catechism asks: “What is the Office of the Keys? It is the special authority which Christ has given to His church on earth to forgive the sins of penitent sinners, but to refuse forgiveness to the impenitent as long as they do not repent.”",
+      "new": "Luther’s Small Catechism, Office of the Keys, teaches that Christ gives His church authority to forgive repentant sinners and to withhold forgiveness from the unrepentant while they do not repent.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-018",
+      "slug": "aphesis",
+      "old": "Luther’s Small Catechism on baptism teaches that baptism signifies “that the old Adam in us, together with all sins and evil lusts, should be drowned by daily contrition and repentance and die, and that daily a new man should come forth and arise, who shall live before God in righteousness and purity forever.”",
+      "new": "Luther’s Small Catechism, Baptism IV, teaches that Baptism signifies the daily drowning and death of the old Adam through contrition and repentance and the daily emergence of the new person who lives before God in righteousness and purity.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019",
+      "slug": "apostolos",
+      "old": "appears 132 times.",
+      "new": "appears 131 times in the pinned Nestle 1904 main text.",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019-B",
+      "slug": "apostolos",
+      "old": "Used 132 times in the New Testament",
+      "new": "Used 131 times in the pinned Nestle 1904 main text",
+      "reason": "Align the repeated cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-003",
+      "slug": "apostolos",
+      "old": "appears about eighty times in the New Testament.",
+      "new": "appears 79 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-010",
+      "slug": "arche",
+      "old": "Hebrews 12:2 (“our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.”)",
+      "new": "Hebrews 12:2 (“Jesus, the author and perfecter of our faith”)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FOLLOWUP-003",
+      "slug": "arche",
+      "old": "Hermann Sasse’s various writings on Christ and the powers, especially in Here We Stand, trans. Theodore G. Tappert (Adelaide: Lutheran Publishing House, 1979).",
+      "new": "Hermann Sasse’s various writings on Christ and the powers, especially in *Here We Stand*, trans. Theodore G. Tappert (New York: Harper & Brothers, 1938; cited Adelaide ed.: Lutheran Publishing House, 1979).",
+      "reason": "Add the original English publication data while retaining the edition actually cited.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-036",
+      "slug": "artos",
+      "old": "Paul says “this bread” (1 Corinthians 11:26–28, BSB) eight times across five verses, after the consecration, after the participation in the body.",
+      "new": "Paul continues to call it “bread” after the consecration—four times in 1 Corinthians 11:23–28, including “this bread” in verse 26.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-017",
+      "slug": "artos",
+      "old": "appears about ninety times across the four Gospels, Acts, and the Epistles",
+      "new": "appears ninety-seven times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-020",
+      "slug": "artos",
+      "old": "“Daily bread” includes “everything that has to do with the support and needs of the body, such as food, drink, clothing, shoes, house, home, fields, livestock, money, property…” and so on",
+      "new": "In the Small Catechism’s Fourth Petition, “daily bread” includes everything needed to support bodily life—food and clothing, home and livelihood, family, authorities, peace, health, and faithful neighbors",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-040",
+      "slug": "authenteo",
+      "old": "*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.",
+      "new": "In the Pastoral Epistles, *parathēkē* appears three times, *eusebeia* ten, and *epiphaneia* five.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-authenteo",
+      "slug": "authenteo",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-019",
+      "slug": "baptizo",
+      "old": "Luther's Small Catechism gives the daily application: baptism signifies \"that the old Adam in us, together with all sins and evil lusts, should be drowned by daily contrition and repentance and die, and that daily a new man should come forth and arise, who shall live before God in righteousness and purity forever.\"",
+      "new": "Luther’s Small Catechism, Baptism IV, gives the daily application: Baptism signifies the daily drowning and death of the old Adam through contrition and repentance and the daily emergence of the new person who lives before God in righteousness and purity.",
+      "reason": "Paraphrase the repeated unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-028",
+      "slug": "basileia",
+      "old": "Daniel 7:13-14 — the son of man receiving “And He was given dominion, glory, and kingship, that the people of every nation and language should serve Him.",
+      "new": "Daniel 7:13–14 — the Son of Man is “given dominion, glory, and kingship” so that the people of every nation and language should serve Him.",
+      "reason": "Restore the clause used by the argument.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-030",
+      "slug": "basileia",
+      "old": "has already been “brought into the kingdom of His beloved Son” (Colossians 1:13, BSB)",
+      "new": "has already been brought into “the kingdom of His beloved Son” (Colossians 1:13, BSB)",
+      "reason": "Keep the adapted passive outside the direct quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-004",
+      "slug": "basileia",
+      "old": "appears about 162 times in the New Testament.",
+      "new": "appears 162 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-021",
+      "slug": "basileia",
+      "old": "Luther writes that \"the kingdom of God comes indeed without our prayer, of itself; but we pray in this petition that it may come unto us also.\" And the kingdom comes \"when our heavenly Father gives us His Holy Spirit, so that by His grace we believe His holy Word and lead a godly life, here in time and hereafter in eternity.\"",
+      "new": "The Small Catechism’s Second Petition teaches that God’s kingdom comes without our prayer, yet we pray that it would come to us—through the Father’s gift of the Holy Spirit, faith in His Word, and a godly life now and in eternity.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-022",
+      "slug": "basileia",
+      "old": "the Augsburg Confession Article XVII explicitly condemns the teaching that “before the resurrection of the dead the godly shall take possession of the kingdom of the world, the ungodly being everywhere suppressed”",
+      "new": "Augsburg Confession XVII 5 rejects the teaching that the godly will take possession of a worldly kingdom before the resurrection of the dead",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-039",
+      "slug": "chara",
+      "old": "uses *chara* — \"joy\" — and *chairō* — \"to rejoice\" — sixteen times in four short chapters.",
+      "new": "uses *chara* — “joy” — and *chairō* — “to rejoice” — fourteen times in four short chapters.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-027",
+      "slug": "chara",
+      "old": "The disciples in Acts, beaten and ordered not to preach, “The apostles left the Sanhedrin, rejoicing that they had been counted worthy of suffering disgrace for the Name.”",
+      "new": "The disciples in Acts, beaten and ordered not to preach, left the Sanhedrin “rejoicing that they had been counted worthy of suffering disgrace for the Name”",
+      "reason": "Restore the phrase slot around Acts 5:41.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-005",
+      "slug": "chara",
+      "old": "Used about seventy-five times in the New Testament.",
+      "new": "Used 74 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-002",
+      "slug": "charis",
+      "old": "The Augsburg Confession Article IV states it directly: \"Our churches teach that human beings cannot be justified before God by their own powers, merits, or works. But they are justified as a gift on account of Christ through faith when they believe that they are received into grace and that their sins are forgiven on account of Christ, who by his death made satisfaction for our sins.\"",
+      "new": "Augsburg Confession IV 1–3 states that people cannot be justified before God by their own powers, merits, or works, but are justified as a gift on account of Christ through faith.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-charisma",
+      "slug": "charisma",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-023",
+      "slug": "diakonos",
+      "old": "The Augsburg Confession’s principle that “it is not necessary for the true unity of the Christian church that uniform ceremonies, instituted by human beings, be observed everywhere” (AC VII)",
+      "new": "Augsburg Confession VII 3 teaches that uniform human ceremonies are not required everywhere for the church’s true unity",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-013",
+      "slug": "diatheke",
+      "old": "When Christ speaks of the “the new covenant in My blood; do this, as often as you drink it, in remembrance of Me.” He is announcing",
+      "new": "When Christ speaks of “the new covenant in My blood” (1 Corinthians 11:25, BSB), He is announcing",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-018",
+      "slug": "didaskalia",
+      "old": "those who “some have strayed from these ways and turned aside to empty talk”",
+      "new": "those who “have strayed from these ways and turned aside to empty talk” (1 Timothy 1:6, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-037",
+      "slug": "didaskalia",
+      "old": "The Greek New Testament has a striking phrase that appears nine times in the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) and almost nowhere else. The phrase is *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The Greek adjective *hygiainō* is the standard medical term",
+      "new": "The Greek New Testament has a striking expression that appears four times in the Pastoral Epistles: *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The verb *hygiainō* occurs eight times in the Pastorals; *hygiainousa* is its participle. The verb is the standard medical term",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-005",
+      "slug": "didaskalia",
+      "old": "those who teach “spreads false teachings” (1 Timothy 6:3, BSB)",
+      "new": "those who “teach another doctrine” (1 Timothy 6:3, BSB)",
+      "reason": "Repair the subject-verb seam and quote the relevant phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-006",
+      "slug": "didaskalia",
+      "old": "words “And this is what we speak, not in words taught us by human wisdom, but in words taught by the Spirit, expressing spiritual truths in spiritual words.”",
+      "new": "words “taught by the Spirit” (1 Corinthians 2:13, BSB)",
+      "reason": "Restore the phrase gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-048",
+      "slug": "dikaioo",
+      "old": "The Apology of the Augsburg Confession spends most of Article IV defending this point against Tridentine accusations of antinomianism, and the defense holds up four hundred years later.",
+      "new": "The Apology of the Augsburg Confession spends most of Article IV answering the Roman Confutation’s charge that this teaching made good works superfluous; the defense still speaks nearly five hundred years later.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-003",
+      "slug": "dikaioo",
+      "old": "The Augsburg Confession, Article IV, states this without flinching: human beings “are justified as a gift on account of Christ, through faith, when they believe that they are received into grace and that their sins are forgiven on account of Christ.”",
+      "new": "Augsburg Confession IV 1–3 states this without flinching: human beings are justified freely for Christ’s sake through faith, apart from their own powers, merits, or works.",
+      "reason": "Replace an unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-033",
+      "slug": "dikaiosyne",
+      "old": "Righteousness is described here as “the gracious gift” (*dōrea*) and “the abundance of grace and of the gift of righteousness reign in life through the one man, Jesus Christ!”",
+      "new": "Righteousness is described here as “the gracious gift” (*dōrea*) and “the gift of righteousness.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-050",
+      "slug": "eikon",
+      "old": "The Augsburg Confession Article II describes humans as having been created with fear of God, with trust in God, and with original righteousness; original sin is described as the loss of these.",
+      "new": "The Apology, Article II, describes original righteousness as fear of God, trust in God, and knowledge of God; Augsburg Confession Article II describes original sin as the loss of that fear and trust.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-047",
+      "slug": "eirene",
+      "old": "The etymology runs from a verbal root meaning \"to bind together\" or \"to join.\" Peace, in the Greek conception, is what holds parties together",
+      "new": "The etymology of *eirēnē* is uncertain. Its broader biblical sense of wholeness and restored relation is established by its usage, especially as the Septuagint’s regular rendering of Hebrew *shalom*, not by a proposed Greek root.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-026",
+      "slug": "eirene",
+      "old": "Ephesians 2:14 — “For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility” Not just",
+      "new": "Ephesians 2:14 — “For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility.” Not just",
+      "reason": "Restore a sentence boundary after Ephesians 2:14.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-026-B",
+      "slug": "eirene",
+      "old": "*Autos gar estin hē eirēnē hēmōn* — “for He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility” Not just",
+      "new": "*Autos gar estin hē eirēnē hēmōn* — “for He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility.” Not just",
+      "reason": "Restore the repeated sentence boundary after Ephesians 2:14.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-019",
+      "slug": "ekklesia",
+      "old": "Hebrews 12:23 names “in joyful assembly, to the congregation of the firstborn, enrolled in heaven.",
+      "new": "Hebrews 12:23 names “the congregation of the firstborn, enrolled in heaven.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-007",
+      "slug": "ekklesia",
+      "old": "the bride presented “glorious church, without stain or wrinkle or any such blemish, but holy and blameless.”",
+      "new": "the bride presented “as a glorious church, without stain or wrinkle or any such blemish, but holy and blameless.”",
+      "reason": "Restore the predicate phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-008",
+      "slug": "ekklesia",
+      "old": "> “It is also taught that at all times there must be and remain one holy, Christian church. It is the assembly of all believers among whom the gospel is purely preached and the holy sacraments are administered according to the gospel.”",
+      "new": "Augsburg Confession VII 1 defines the one holy Christian church as the assembly of believers among whom the gospel is purely preached and the sacraments are administered according to the gospel.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-009",
+      "slug": "ekklesia",
+      "old": "> “Even though the Christian church is, properly speaking, the assembly of saints and those who truly believe, nevertheless, because in this life many false Christians, hypocrites, and even public sinners are mixed in with the godly, it is permissible to use the sacraments even when they are administered by ungodly priests.”",
+      "new": "Augsburg Confession VIII 1–2 says that although the church properly is the assembly of saints and true believers, hypocrites and evil persons remain mixed with it in this life; the sacraments may therefore be received even from ungodly ministers.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-010",
+      "slug": "ekklesia",
+      "old": "> “It is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word. It is not necessary for the true unity of the Christian church that uniform ceremonies, instituted by human beings, be observed everywhere.”",
+      "new": "Augsburg Confession VII 2–3 says that agreement in the pure preaching of the gospel and administration of the sacraments is sufficient for the church’s true unity; uniform human ceremonies are not required everywhere.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-008",
+      "slug": "ekporeuomai",
+      "old": "Lutherans receive the Western form of the Nicene Creed, confessing the Spirit's procession from the Father and the Son. This is the form included in the Book of Concord. It belongs with the confession that the Spirit is Lord and giver of life, worshiped and glorified with the Father and the Son.",
+      "new": "Lutherans receive the Western form of the Nicene Creed, confessing the Spirit's procession from the Father and the Son. This is the form included in the Book of Concord, where the Western words appear in brackets (Nicene Creed 7). It belongs with the confession that the Spirit is Lord and giver of life, worshiped and glorified with the Father and the Son.",
+      "reason": "Record the verified paragraph and the edition's bracketed presentation of the Western addition.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-032",
+      "slug": "eleutheria",
+      "old": "*Galatians 5:1, 13-14.* “for freedom that Christ has set us free.",
+      "new": "*Galatians 5:1, 13-14.* “It is for freedom that Christ has set us free.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "THEOL-011",
+      "slug": "eleutheria",
+      "old": "> A Christian is a perfectly free lord of all, subject to none.\n>\n> A Christian is a perfectly dutiful servant of all, subject to all.",
+      "new": "> “A Christian man is the most free lord of all, and subject to none; a Christian man is the most dutiful servant of all, and subject to every one.” — Martin Luther, *On Christian Liberty*, trans. W. A. Lambert, rev. W. A. Buchheim (1896).",
+      "reason": "Use and identify a public-domain English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-024",
+      "slug": "elpis",
+      "old": "The grammatical construction in the Greek treats “as we await the blessed hope and glorious appearance of our great God and Savior Jesus Christ” and “the glorious appearing” as appositional",
+      "new": "The grammatical construction in the Greek treats “the blessed hope” and “the glorious appearance” as appositional",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-016",
+      "slug": "elpis",
+      "old": "Lamentations 3:21-24 — “Yet I call this to mind, and therefore I have hope:”",
+      "new": "Lamentations 3:21–22 — “Yet I call this to mind, and therefore I have hope: Because of the loving devotion of the LORD we are not consumed, for His mercies never fail.”",
+      "reason": "Make the citation match the quoted verses.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-031",
+      "slug": "elpis",
+      "old": "(Lamentations 3:21-24, BSB) — hope grounded",
+      "new": "(Lamentations 3:21–22, BSB) — hope grounded",
+      "reason": "Match the citation to the quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-011",
+      "slug": "epiousios",
+      "old": "> “Daily bread includes everything that has to do with the support and needs of the body, such as food, drink, clothing, shoes, house, home, land, animals, money, goods, a pious spouse, pious children, pious workers, pious and faithful rulers, good government, good weather, peace, health, discipline, honor, good friends, faithful neighbors, and the like.”",
+      "new": "In his explanation of the Fourth Petition, Luther’s Small Catechism treats “daily bread” as everything needed to support bodily life: food and clothing, home and livelihood, family and authorities, weather and peace, health, reputation, friends, and faithful neighbors.",
+      "reason": "Replace a long, unidentified translation with a section-level paraphrase pending edition/page verification.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-047",
+      "slug": "epiousios",
+      "old": "The catechism poses the question: “What is meant by daily bread?” And it answers with one of the most expansive readings of any single phrase in the Lord’s Prayer:",
+      "new": "The catechism asks what daily bread means and answers with an expansive account of bodily provision:",
+      "reason": "Paraphrase the catechism prompt rather than silently mixing translations.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-epiphaneia",
+      "slug": "epiphaneia",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-004",
+      "slug": "episkopos",
+      "old": "AC XXVIII concedes that “the following jurisdiction belongs to the bishops as bishops, that is to say, to those to whom the ministry of Word and sacraments has been entrusted: to forgive sins, to reject teaching that opposes the gospel, and to exclude from the communion of the church the ungodly whose ungodliness is known”",
+      "new": "AC XXVIII 21–22 assigns bishops, as ministers of Word and Sacrament, the authority to forgive sins, reject teaching contrary to the gospel, and exercise church discipline",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-005",
+      "slug": "episkopos",
+      "old": "the Augsburg Confession’s principle that “it is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word” (AC VII)",
+      "new": "the principle of Augsburg Confession VII 2 that agreement in the pure preaching of the gospel and administration of the sacraments is sufficient for the church’s true unity",
+      "reason": "Replace an unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-008",
+      "slug": "ergon",
+      "old": "The Greek expression *kalōn ergōn proistasthai* — “This saying is trustworthy. And I want you to emphasize these things, so that those who have believed God will take care to devote themselves to good deeds. These things are excellent and profitable for the people.”",
+      "new": "The Greek expression *kalōn ergōn proistasthai* — “devote themselves to good deeds” —",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-006",
+      "slug": "ergon",
+      "old": "appears over one hundred and sixty times in the New Testament.",
+      "new": "appears 169 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-001",
+      "slug": "ergon",
+      "old": "The Augsburg Confession Article IV (Justification) articulates it: \"Likewise, they teach that men cannot be justified before God by their own strength, merits, or works, but are freely justified for Christ's sake, through faith, when they believe that they are received into favor, and that their sins are forgiven for Christ's sake, who, by His death, has made satisfaction for our sins. This faith God imputes for righteousness in His sight.\"",
+      "new": "Augsburg Confession IV 1–3 confesses that people cannot be justified before God by their own strength, merits, or works, but are justified freely for Christ’s sake through faith.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-005",
+      "slug": "ethnos",
+      "old": "Used once, at Galatians 2:14 — Peter “live[d] like a Gentile and not like a Jew” ‘If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews’” (*ethnikōs zēs*)",
+      "new": "Used once, at Galatians 2:14 — “If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?” (*ethnikōs zēs*, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-023",
+      "slug": "ethnos",
+      "old": "The etymology runs back to a Greek root meaning \"habit\" or \"custom\" (related to *ēthos* — moral character, custom, the root of English *ethics*). The original Greek conception of *ethnos* named a group united by shared customs, shared way of life, shared cultural identity. *Ethnos* was a people group with internal coherence rather than just a random aggregate. The English words *ethnic* and *ethnicity* come directly from this Greek root and preserve some of the original sense.",
+      "new": "The etymology is uncertain; proposals connecting *ethnos* with *ēthos* (“custom”) should not control the word’s definition. In usage, *ethnos* names a people or nation, and the English words *ethnic* and *ethnicity* descend from it.",
+      "reason": "Remove an uncertain derivation as the basis for meaning.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-002",
+      "slug": "eulogeo",
+      "old": "Luke specifies *eparas tas cheiras autou* — “Aaron lifted up his hands toward the people and blessed them. And having made the sin offering, the burnt offering, and the peace offering, he stepped down.”",
+      "new": "Luke specifies *eparas tas cheiras autou* — “He lifted up His hands and blessed them” (Luke 24:50, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-027",
+      "slug": "eulogeo",
+      "old": "verbal attacks framed as “the truth in love, we will in all things grow up into Christ Himself, who is the head.”",
+      "new": "verbal attacks framed as “speaking the truth in love” (Ephesians 4:15, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-045",
+      "slug": "eulogeo",
+      "old": "The Lutheran emphasis on blessing as a word that does what it says — that actually conveys what it pronounces — rests in part on this etymological foundation.",
+      "new": "The word’s make-up can illustrate blessing as good speech, but the Lutheran claim that God’s blessing actually conveys what it pronounces rests on God’s promise and biblical usage, not on etymology.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-024",
+      "slug": "eulogeo",
+      "old": "The morning prayer of Luther's Small Catechism — \"I thank Thee, my heavenly Father, through Jesus Christ, Thy dear Son, that Thou hast kept me this night from all harm and danger\" — is the believer's blessing of God for the night's preservation.",
+      "new": "Luther’s Small Catechism morning prayer thanks the heavenly Father through Jesus Christ for preservation through the night; it is the believer’s blessing of God for that gift.",
+      "reason": "Paraphrase an unidentified prayer translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-eusebeia",
+      "slug": "eusebeia",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-025",
+      "slug": "hagios",
+      "old": "because “Scripture does not teach us to invoke the saints or to seek help from them, because it sets before us the one Christ as mediator, atoning sacrifice, high priest, and intercessor.”",
+      "new": "because Augsburg Confession XXI 2–4 says Scripture directs believers to the one Christ as mediator, atoning sacrifice, high priest, and intercessor rather than teaching invocation of the saints.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-012",
+      "slug": "haima",
+      "old": "When Christ took the cup at the Last Supper and said, “saying, ‘This cup is the new covenant in My blood, which is poured out for you’”",
+      "new": "When Christ took the cup at the Last Supper and said, “‘This cup is the new covenant in My blood, which is poured out for you’”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-026",
+      "slug": "hamartia",
+      "old": "The Augsburg Confession, Article II, puts it bluntly: all human beings since Adam are born “with sin, that is, without fear of God, without trust in God, and with concupiscence.”",
+      "new": "Augsburg Confession II 1 puts it bluntly: all human beings since Adam are born with sin, without fear of God or trust in God, and with concupiscence.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-021",
+      "slug": "hiereus",
+      "old": "*Sympathēsai tais astheneiais hēmōn* — “with our weaknesses, but we have one who was tempted in every way that we are, yet was without sin.”",
+      "new": "*Sympathēsai tais astheneiais hēmōn* — “to sympathize with our weaknesses.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-008",
+      "slug": "hiereus",
+      "old": "*Thysian zōsan* — “sacrifices, holy and pleasing to God, which is your spiritual service of worship.”",
+      "new": "*Thysian zōsan* — “a living sacrifice, holy and pleasing to God” (Romans 12:1, BSB).",
+      "reason": "Match the singular Greek phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-027",
+      "slug": "hilasterion",
+      "old": "The Apology of the Augsburg Confession Article IV states it directly: “Christ … made satisfaction for our sins.”",
+      "new": "Apology IV 53 states directly that Christ made satisfaction for our sins.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-012",
+      "slug": "huiothesia",
+      "old": "James Barr, “Abbā Isn’t ‘Daddy,’.” Journal of Theological Studies 39 (1988): 28-47.",
+      "new": "James Barr, “‘Abbā Isn’t ‘Daddy’,” *The Journal of Theological Studies* 39.1 (1988): 28–47, doi:10.1093/jts/39.1.28.",
+      "reason": "Correct the bibliographic citation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-hygiaino",
+      "slug": "hygiaino",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-029",
+      "slug": "hyios",
+      "old": "The Nicene Creed states the doctrine in its sharpest form: \"begotten of the Father before all worlds, God of God, Light of Light, very God of very God, begotten not made, of one substance with the Father.\"",
+      "new": "The Nicene Creed states the doctrine in its sharpest form by confessing the Son as eternally begotten of the Father, not made, and of one substance with the Father.",
+      "reason": "Use the same creed paraphrase corpus-wide pending selection of one English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-030",
+      "slug": "hyios",
+      "old": "The Augsburg Confession Article III opens with this confession: \"the Son of God became man, born of the Virgin Mary\"",
+      "new": "Augsburg Confession III 1 confesses that the Son of God assumed human nature in the womb of the blessed Virgin Mary",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-012",
+      "slug": "hyios",
+      "old": "Second, teach the eternal generation of the Son. This needs no seminary education; the Nicene Creed states it plainly — *eternally begotten of the Father, God of God, Light of Light, true God of true God, begotten not made, of one substance with the Father*. The Father is eternally Father, the Son eternally Son; the relation is eternal and constitutive of who God is.",
+      "new": "Second, teach the eternal generation of the Son. This needs no seminary education; Nicene Creed 2–3 states it plainly: the Son is eternally from the Father, truly God, begotten rather than made, and one in Being with the Father. The Father is eternally Father, the Son eternally Son; the relation is eternal and constitutive of who God is.",
+      "reason": "Replace an unattributed liturgical-translation extract with a verified paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-023",
+      "slug": "hypakoe",
+      "old": "The English translations render this as “to the people, who replied, ‘All that the LORD has spoken we will do, and we will be obedient’”",
+      "new": "The BSB renders the response as “we will obey” (Exodus 24:7).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-046",
+      "slug": "hypakoe",
+      "old": "The Sunday school teacher angle is direct: teach the etymology of *hypakoē* and what it reveals about Christian obedience.",
+      "new": "The Sunday school teacher angle is direct: teach how the New Testament uses *hypakoē* — obedience that begins in hearing the Word — and use the word’s make-up as an illustration, not a proof.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-025",
+      "slug": "hyper",
+      "old": "1 John 2:2 — Christ is the propitiation “he Himself is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.”",
+      "new": "1 John 2:2 — Christ is the atoning sacrifice “for our sins, and not only for ours but also for the sins of the whole world.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-028",
+      "slug": "hyper",
+      "old": "The Apology of the Augsburg Confession Article IV — “Christ … made satisfaction for our sins” — names",
+      "new": "Apology IV 53, in saying that Christ made satisfaction for our sins, names",
+      "reason": "Paraphrase the repeated unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-031",
+      "slug": "hypostasis",
+      "old": "the Son is “of one substance” (homoousios) with the Father",
+      "new": "the Son shares the one divine substance with the Father (*homoousios*)",
+      "reason": "Use a creed paraphrase pending selection of one English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-032",
+      "slug": "hypostasis",
+      "old": "Augsburg Confession Article I confesses the Trinity in the Nicene formula: “There is one divine essence, which is called and which is truly God, and yet there are three persons in this one divine essence, equal in power and alike eternal: God the Father, God the Son, God the Holy Spirit.”",
+      "new": "Augsburg Confession I 1–2 confesses one divine essence and three coeternal persons of equal power: Father, Son, and Holy Spirit.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-033",
+      "slug": "hypostasis",
+      "old": "Augsburg Confession Article III confesses the incarnation in the Chalcedonian formula: “In Christ the two natures, divine and human, are inseparably joined in one person; there is one Christ, true God and true man.”",
+      "new": "Augsburg Confession III 1–2 confesses the divine and human natures inseparably united in the one Christ, true God and true man.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-044",
+      "slug": "iesous",
+      "old": "Every time the New Testament says *sōzō*, the family connection to *Iēsous* is present, even when the name itself does not appear in the verse.",
+      "new": "Matthew 1:21 ties the Hebrew-derived name *Iēsous* to the Greek verb *sōzō* as a theological wordplay, not as a shared etymology.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-013",
+      "slug": "iesous",
+      "old": ", 354-355 and 433-440.",
+      "new": ".",
+      "reason": "Remove unverified physical page ranges while retaining the stable document and section references.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-010",
+      "slug": "iesous",
+      "old": "see Luther’s Small Catechism, “The Creed, Second Article,” and Large Catechism, “The Creed, Second Article,” in Robert Kolb and Timothy J. Wengert, eds., The Book of Concord: The Confessions of the Evangelical Lutheran Church (Minneapolis: Fortress Press, 2000).",
+      "new": "see Luther’s Small Catechism, Creed II 3–4, and Large Catechism, Creed II 25–33, in Robert Kolb and Timothy J. Wengert, eds., *The Book of Concord: The Confessions of the Evangelical Lutheran Church* (Minneapolis: Fortress Press, 2000).",
+      "reason": "Add the verified paragraph locators and format the selected edition title.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-011",
+      "slug": "kaine-ktisis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-012",
+      "slug": "kaine-ktisis",
+      "old": "appears about nineteen times in the New Testament.",
+      "new": "appears 19 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-013",
+      "slug": "kaine-ktisis",
+      "old": "Used about fifteen times.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-011",
+      "slug": "karpos",
+      "old": "Hebrews 12:11 — the “No discipline seems enjoyable at the time, but painful. Later on, however, it yields a harvest of righteousness and peace to those who have been trained by it.”",
+      "new": "Hebrews 12:11 — the “harvest of righteousness and peace.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-058",
+      "slug": "karpos",
+      "old": "tags: [\"fruit of the Spirit\", \"good-works\"]",
+      "new": "tags: [\"fruit-of-the-spirit\", \"good-works\"]",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-002",
+      "slug": "karpos",
+      "old": "the man who trusts in the LORD “He is like a tree planted by the waters",
+      "new": "the man who trusts in the LORD is like “a tree planted by the waters",
+      "reason": "Repair the Jeremiah 17 phrase slot.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-003",
+      "slug": "karpos",
+      "old": "*Pan klēma en emoi mē pheron karpon airei auto* — “fruit, and every branch that does bear fruit, He prunes to make it even more fruitful.”",
+      "new": "*Pan klēma en emoi mē pheron karpon airei auto* — “He cuts off every branch in Me that bears no fruit” (John 15:2, BSB).",
+      "reason": "Match the English quotation to the Greek clause.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-018",
+      "slug": "karpos",
+      "old": "appears sixty-seven times in the New Testament",
+      "new": "appears sixty-six times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-017",
+      "slug": "kenoo",
+      "old": "Paul does not preach with eloquent words “For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power.” (1 Corinthians 1:17, BSB).",
+      "new": "Paul does not preach with eloquent words, “lest the cross of Christ be emptied of its power” (1 Corinthians 1:17, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-059",
+      "slug": "kerygma",
+      "old": "translit: \"Kerygma\"",
+      "new": "translit: \"Kērygma\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-017",
+      "slug": "kerygma",
+      "old": "appears more than sixty times in the New Testament.",
+      "new": "appears 61 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-034",
+      "slug": "kerygma",
+      "old": "The Augsburg Confession Article V says it as directly as confessional language can: God instituted the ministry of the gospel and the sacraments so that “through these, as through means, he gives the Holy Spirit, who effects faith, where and when he wills, in those who hear the gospel.”",
+      "new": "Augsburg Confession V 1–2 says it directly: God instituted the ministry of teaching the gospel and administering the sacraments so that through these means He gives the Holy Spirit, who creates faith where and when God wills in those who hear the gospel.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-014",
+      "slug": "kleronomia",
+      "old": "Abraham was looking forward to “For he was looking forward to the city with foundations, whose architect and builder is God.”",
+      "new": "Abraham was looking forward to “the city with foundations, whose architect and builder is God” (Hebrews 11:10, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "CONF-011",
+      "slug": "kleronomia",
+      "old": "The Augsburg Confession Article XX (\"Concerning Faith and Good Works\") and the Formula of Concord Article XI (\"Concerning God's Eternal Foreknowledge and Election\") both develop this carefully. The believer's eternal destiny is grounded in God's gracious election, sustained through the Holy Spirit's work, and consummated at the resurrection. The believer's part is to receive what God has given through Word and Sacrament; the keeping is God's work throughout.",
+      "new": "Augsburg Confession XX and Formula of Concord, Solid Declaration XI 12–16, place good works and election inside God's gracious work in Christ. The Formula directs the believer away from speculation about God's hidden foreknowledge to Christ as revealed in the Word, through which the benefits of Christ are offered and given together with the sacraments. The believer receives rather than earns the inheritance; God's promise, not ongoing achievement, is the ground of assurance.",
+      "reason": "Tighten the election claim to what the verified confessional passage states.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-015",
+      "slug": "kleronomos",
+      "old": "The believer is “by God’s power for the salvation that is ready to be revealed in the last time.”",
+      "new": "The believer is “shielded by God’s power for the salvation that is ready to be revealed in the last time” (1 Peter 1:5, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-004",
+      "slug": "kleronomos",
+      "old": "*Aphtharton kai amianton kai amaranton* — \"imperishable, undefiled, and unfading, reserved in heaven for you, who through faith are shielded by God’s power for the salvation that is ready to be revealed in the last time.\"",
+      "new": "*Aphtharton kai amianton kai amaranton* — “imperishable, undefiled, and unfading.”",
+      "reason": "Restore the adjective phrase used by the sentence.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-004-B",
+      "slug": "kleronomos",
+      "old": "The believer’s inheritance is “and into an inheritance that is imperishable, undefiled, and unfading, reserved in heaven for you,”",
+      "new": "The believer’s inheritance is “imperishable, undefiled, and unfading”",
+      "reason": "Restore the repeated adjective phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-016",
+      "slug": "klesis",
+      "old": "Paul has been speaking of “Brothers, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead,” (v. 13).",
+      "new": "Paul has been speaking of “forgetting what is behind and straining toward what is ahead” (v. 13).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-010",
+      "slug": "klesis",
+      "old": "The verb itself occurs about 150 times; *klēsis* about ten times; *klētos* about ten times; *ekklēsia* about 110 times.",
+      "new": "In the pinned Nestle 1904 main text, the verb itself occurs 148 times, *klēsis* 11 times, *klētos* 10 times, and *ekklēsia* 114 times.",
+      "reason": "Regenerate the word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-022",
+      "slug": "koinonia",
+      "old": "The Christian is called *eis koinōnian tou huiou autou* — “into fellowship with His Son Jesus Christ our Lord, is faithful.”",
+      "new": "The Christian is called *eis koinōnian tou huiou autou* — “into fellowship with His Son Jesus Christ our Lord.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-009",
+      "slug": "krisis",
+      "old": "appears about forty-seven times in the New Testament.",
+      "new": "appears 47 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-005",
+      "slug": "leitourgia",
+      "old": "The Greek word is a compound. *Laos* or *leitos* (people, public) plus *ergon* (work) yields *leitourgia* — literally \"the work of the people\" or \"public work\" or \"public service.\"",
+      "new": "The Greek word combines an older element meaning “public” with *ergon* (“work”) and denotes a public service or service performed for the community. It should not be reverse-parsed as though it literally meant “the work of the people.”",
+      "reason": "Correct the lexical history.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-006",
+      "slug": "leitourgia",
+      "old": "*Laos* (people) — or its older Attic form *leitos* (public) — combined with *ergon* (work) yields the compound *leitourgia* — public service, the work of the people, civic service rendered for the community's benefit.",
+      "new": "An older element meaning “public” combined with *ergon* (“work”) gives the historically attested sense “public service”: civic service rendered for the community’s benefit.",
+      "reason": "Remove the reversed compound gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-007",
+      "slug": "leitourgia",
+      "old": "The corporate character is essential. *Leitourgia* is \"the work of the people\" — corporate, not just the individual believer's private devotion.",
+      "new": "The corporate character is established by the church’s gathered service in passages such as Acts 13:2, not by reverse-parsing the compound. *Leitourgia* here names public or cultic service, not merely private devotion.",
+      "reason": "Ground the theological inference in usage and text.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-008",
+      "slug": "leitourgia",
+      "old": "The *leitourgia* is \"the work of the people\" — corporate, not just individual.",
+      "new": "The New Testament’s gathered and priestly uses of *leitourgia* establish the corporate dimension; the etymology by itself does not.",
+      "reason": "Ground the pastoral claim in usage rather than etymology.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-009",
+      "slug": "leitourgia",
+      "old": "*Laos* (people) plus *ergon* (work) yields *leitourgia* — “the work of the people,” or “public service” —",
+      "new": "The word’s historical sense is “public service,” service performed for the community —",
+      "reason": "Correct the teacher application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-010",
+      "slug": "leitourgia",
+      "old": "the corporate dimension corrects — *leitourgia* is “the work of the people,” and the believer",
+      "new": "the corporate dimension corrects — the gathered New Testament uses of *leitourgia* are public and communal, and the believer",
+      "reason": "Correct the pastoral application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-016",
+      "slug": "logos",
+      "old": "shows up some 330 times in the New Testament",
+      "new": "appears 331 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-loutron",
+      "slug": "loutron",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-031",
+      "slug": "lytron",
+      "old": "*Exodus 13:13, 15* — “every firstborn donkey with a lamb, and if you do not redeem it,",
+      "new": "*Exodus 13:13, 15* — “You must redeem every firstborn donkey with a lamb, and if you do not redeem it,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-026",
+      "slug": "martyria",
+      "old": "“was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life.",
+      "new": "“That which was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FOLLOWUP-002",
+      "slug": "martyria",
+      "old": "we have seen it and testified … we have seen and heard",
+      "new": "we have seen it and testified to it … We proclaim to you what we have seen and heard",
+      "reason": "Restore the words and clause boundary of the pinned BSB text in the 1 John 1:1–3 splice.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-029",
+      "slug": "mathetes",
+      "old": "*2 Kings 6:1-7* — “of the prophets said to Elisha,",
+      "new": "*2 Kings 6:1-7* — “Now the sons of the prophets said to Elisha,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-007",
+      "slug": "mathetes",
+      "old": "appears over two hundred and fifty times in the New Testament",
+      "new": "appears 261 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-mesites",
+      "slug": "mesites",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-012",
+      "slug": "metanoia",
+      "old": "The Book of Concord, ed. Kolb and Wengert, 360.",
+      "new": "The Book of Concord, ed. Robert Kolb and Timothy J. Wengert (Fortress Press, 2000), Small Catechism IV.",
+      "reason": "Remove an unverified physical page number while retaining the stable document reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-044",
+      "slug": "metanoia",
+      "old": "In October of 1517, Martin Luther posted his Ninety-Five Theses on the door of the Castle Church in Wittenberg. The first thesis read:\n\n\"When our Lord and Master Jesus Christ said, 'Repent,' he willed the entire life of believers to be one of repentance.\"",
+      "new": "In October 1517, Martin Luther issued the Ninety-Five Theses. The first thesis argues that when Christ commanded repentance, He willed the entire life of believers to be a life of repentance.",
+      "reason": "Replace an unnamed Luther translation with a close paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-006",
+      "slug": "monogenes",
+      "old": "The Nicene Creed says that Christ is “the only-begotten Son of God, begotten of His Father before all worlds … begotten, not made; being of one substance with the Father.”",
+      "new": "The Nicene Creed confesses Christ as the only-begotten Son of God, eternally begotten of the Father, not made, and of one substance with the Father.",
+      "reason": "Use a consistent paraphrase until a single creed translation and page are physically verified.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-007",
+      "slug": "monogenes",
+      "old": "when you confess in the Creed that Christ is “the only-begotten Son of God, begotten of the Father before all worlds,”",
+      "new": "when you confess in the Nicene Creed that Christ is the only-begotten Son, eternally begotten of the Father,",
+      "reason": "Use the same paraphrase at both appearances.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-004",
+      "slug": "monogenes",
+      "old": "First, the Son is eternally begotten. The Nicene Creed confesses Christ as the only-begotten Son of God, eternally begotten of the Father, not made, and of one substance with the Father. That language was not chosen casually. The Nicene fathers chose “begotten” (*gennēthenta*) and “not made” (*ou poiēthenta*) deliberately to mark off what they meant from what the Arians meant.",
+      "new": "First, the Son is eternally begotten. The Nicene Creed confesses Christ as the only Son of God, begotten from the Father before all the ages, begotten rather than made, and of one Being with the Father (Nicene Creed 2–3). That language was not chosen casually. The Nicene fathers chose “begotten” (*gennēthenta*) and “not made” (*ou poiēthenta*) deliberately to mark off what they meant from what the Arians meant.",
+      "reason": "Align the creed summary with the verified Kolb–Wengert wording and paragraph locator.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-005",
+      "slug": "monogenes",
+      "old": "The pastoral payoff is that the Creed and the BSB can be read together with confidence. The Creed’s “begotten of the Father before all worlds” confesses the Son’s eternal relationship to the Father. The BSB's wording should be heard in its full biblical context, with the Son’s uniqueness and deity clearly in view.",
+      "new": "The pastoral payoff is that the Creed and the BSB can be read together with confidence. The Creed's confession that the Son is begotten from the Father before all the ages names His eternal relationship to the Father. The BSB's wording should be heard in its full biblical context, with the Son's uniqueness and deity clearly in view.",
+      "reason": "Use the selected creed translation consistently.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-006",
+      "slug": "monogenes",
+      "old": "For most readers, the practical takeaway is short: when you confess in the Nicene Creed that Christ is the only-begotten Son, eternally begotten of the Father, you are saying what your Bible also says, just sometimes in different words. The Bible verse and the creedal phrase are not in conflict. They are using complementary language for the same eternal reality.",
+      "new": "For most readers, the practical takeaway is short: when you confess in the Nicene Creed that Christ is the only Son, begotten from the Father before all the ages, you are saying what your Bible also says, just sometimes in different words. The Bible verse and the creedal phrase are not in conflict. They are using complementary language for the same eternal reality.",
+      "reason": "Use the selected creed translation consistently in the application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-007",
+      "slug": "monogenes",
+      "old": "For the Sunday school teacher and the small-group leader, the task is to show how the BSB's “one and only Son” belongs with the Creed’s confession of the Son as eternally begotten, not made, of one substance with the Father.",
+      "new": "For the Sunday school teacher and the small-group leader, the task is to show how the BSB's “one and only Son” belongs with the Creed's confession of the Son as begotten before all the ages, not made, and of one Being with the Father.",
+      "reason": "Use the selected creed translation consistently in the teacher application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-036",
+      "slug": "mysterion",
+      "old": "Apology XIII calls the sacraments \"rites which have the command of God and to which the promise of grace has been added,\" and explicitly notes that \"sacrament\" was the Latin equivalent of the Greek \"mystery.\"",
+      "new": "Apology XIII 3–4 describes sacraments as rites commanded by God and joined to a promise of grace, and notes the relationship between the Latin term “sacrament” and the Greek “mystery.”",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-001",
+      "slug": "mysterion",
+      "old": "Second, the mystery is delivered through means. This is where *mystērion* becomes the theological foundation for the sacraments. The Latin Vulgate's translation choice — *mysterium* and *sacramentum* — was not arbitrary; it captured a real connection between the New Testament mystery (hidden then, revealed now) and the church's practices in which Christ Himself is delivered through visible means joined to the Word. What is the Lord's Supper? The mystery — the body and blood of Christ — given through bread and wine joined to Christ's words of institution (we will treat this in [Anamnēsis](/greek/anamnesis/), [Sōma](/greek/soma/), [Haima](/greek/haima/), [Artos](/greek/artos/)). What is baptism? The mystery — death and resurrection with Christ — given through water joined to the Word ([Baptizō](/greek/baptizo/), [Paliggenesia](/greek/paliggenesia/)). The sacraments are mysteries because they deliver Christ Himself in tangible, visible form, by means He has appointed for the purpose.",
+      "new": "Second, the mystery is delivered through means. The New Testament's use of *mystērion* illuminates the sacraments, but it does not by itself define or count them. In Baptism and the Lord's Supper, Christ gives His promised grace through water, bread, and wine joined to His Word; in absolution, He gives forgiveness through the spoken Word. The certainty rests on Christ's command and promise, not on an etymological equation between *mystērion* and *sacramentum*. The mystery once hidden and now revealed is Christ, and He gives Himself through the external means He has instituted.",
+      "reason": "Distinguish New Testament mystery language from the confessional definition and enumeration of sacraments.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-002",
+      "slug": "mysterion",
+      "old": "This is what the Augsburg Confession and the Apology mean by their treatments of the sacraments. Apology XIII 3–4 describes sacraments as rites commanded by God and joined to a promise of grace, and notes the relationship between the Latin term “sacrament” and the Greek “mystery.” The Lutheran retention of two sacraments rests on the dominical institution and the visible-element-plus-Word structure. The medieval expansion to seven sacraments overextended the lexical foundation; the Lutheran retention to two is the more careful reading of what mystery actually delivers in the New Testament's actual usage. Christ is the mystery; the sacraments deliver Christ; the count is whatever Christ Himself instituted with a visible element joined to His Word.",
+      "new": "Apology XIII 3–5 supplies the careful definition: sacraments, properly speaking, are rites that have God's command and to which a promise of grace has been added. It explicitly names Baptism, the Lord's Supper, and absolution, while allowing that faithful enumerations may differ if the matters instituted in Scripture are preserved. The Apology does not derive this definition or count from the Greek word *mystērion*. The stronger connection is theological: Christ, once hidden and now revealed in the gospel, gives His promised grace through the external Word and the rites He instituted.",
+      "reason": "Correct the sacrament count and remove an attribution not present in Apology XIII.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-mythos",
+      "slug": "mythos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-orthotomeo",
+      "slug": "orthotomeo",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-paratheke",
+      "slug": "paratheke",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-045",
+      "slug": "parousia",
+      "old": "The Augsburg Confession Article XVII gives the foundational Lutheran statement: “Also taught among us is that our Lord Jesus Christ will return on the Last Day for judgment and will raise up all the dead, to give eternal life and everlasting joy to believers and the elect but to condemn ungodly people and the devil to hell and eternal punishment.”",
+      "new": "Augsburg Confession XVII 1–3 gives the foundational Lutheran statement: Christ will return on the Last Day for judgment, raise all the dead, give eternal life and everlasting joy to believers and the elect, and condemn the ungodly and the devil to hell and eternal punishment.",
+      "reason": "Paraphrase a long, unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-003",
+      "slug": "parrhesia",
+      "old": "the final clause of the entire book reads: “proclaimed the kingdom of God and taught about the Lord Jesus Christ” — *meta pasēs parrhēsias akōlytōs*.",
+      "new": "the final clause of the entire book reads: “Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ” — *meta pasēs parrhēsias akōlytōs*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-060",
+      "slug": "pater",
+      "old": "translit: \"Pater\"",
+      "new": "translit: \"Patēr\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-051",
+      "slug": "pistos-ho-logos",
+      "old": "*If we died with him, we will also live with him.*\n*If we endure, we will also reign with him.*\n*If we deny him, he will also deny us.*",
+      "new": "*If we died with Him, we will also live with Him.*\n*If we endure, we will also reign with Him.*\n*If we deny Him, He will also deny us.*",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-pistos-ho-logos",
+      "slug": "pistos-ho-logos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-029",
+      "slug": "pleroma",
+      "old": "He warns about “See to it that no one takes you captive through philosophy and empty deception, which are based on human tradition and the spiritual forces of the world rather than on Christ.” (Colossians 2:8, BSB) in the verse just before our key passage.",
+      "new": "In the verse just before the key passage, he warns: “See to it that no one takes you captive through philosophy and empty deception, which are based on human tradition and the spiritual forces of the world rather than on Christ” (Colossians 2:8, BSB).",
+      "reason": "Repair the whole-verse fallback frame.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-034",
+      "slug": "pneuma",
+      "old": "The Spirit poured out on us \"through Jesus Christ our Savior\" Again — the Spirit comes through the Son.",
+      "new": "The Spirit is poured out on us “through Jesus Christ our Savior.” Again, the Spirit comes through the Son.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-035",
+      "slug": "pneuma",
+      "old": "the Augsburg Confession states with particular clarity in Article V: God instituted the ministry of the Word and the sacraments so that \"through these, as through means, he gives the Holy Spirit, who effects faith, where and when he wills, in those who hear the gospel.\"",
+      "new": "Augsburg Confession V 1–2 states with particular clarity that God instituted the ministry of the Word and the sacraments so that through these means He gives the Holy Spirit, who creates faith where and when God wills in those who hear the gospel.",
+      "reason": "Paraphrase the repeated unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-037",
+      "slug": "presbyteros",
+      "old": "The Augsburg Confession’s principle that “it is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word” (AC VII)",
+      "new": "The principle of Augsburg Confession VII 2 that agreement in pure gospel preaching and sacramental administration is sufficient for the church’s true unity",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-003",
+      "slug": "presbyteros",
+      "old": "Ordination is a public confirmation of the call and a setting-apart for the office through prayer and the laying on of hands, not a sacramental conferring of an indelible ontological character. The Lutheran tradition has held that ordination is a salutary church order rooted in apostolic practice but not strictly a sacrament in the technical sense (because Christ has not specifically instituted it with a promised gift apart from confirming the call). The man set apart is the same kind of being as the men he serves; what distinguishes him is the call to the office, not a different metaphysical standing.",
+      "new": "Ordination is a public confirmation of the call and a setting-apart for the office through prayer and the laying on of hands, not the conferral of an indelible ontological character that turns the minister into a sacrificing priest. Apology XIII 11–13 nevertheless says Lutherans have no objection to calling ordination—and the laying on of hands—a sacrament when it is understood with reference to the ministry of the Word, because that ministry has God's command and promises. The point is the divinely instituted office and call, not a different metaphysical class of Christian.",
+      "reason": "Represent the Apology's express willingness to call ordination a sacrament in the stated sense.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-030",
+      "slug": "proselytos",
+      "old": "*Isaiah 56:3, 6-8* — “no foreigner who has joined himself to the LORD say,",
+      "new": "*Isaiah 56:3, 6-8* — “Let no foreigner who has joined himself to the LORD say,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-061",
+      "slug": "proselytos",
+      "old": "translit: \"Proselytos\"",
+      "new": "translit: \"Prosēlytos\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-032",
+      "slug": "proselytos",
+      "old": "title: \"Proselytos (προσήλυτος)\"",
+      "new": "title: \"Prosēlytos (προσήλυτος)\"",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-033",
+      "slug": "proselytos",
+      "old": "linkTitle: \"Proselytos\"",
+      "new": "linkTitle: \"Prosēlytos\"",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-034",
+      "slug": "proselytos",
+      "old": "description: \"Proselytos (προσήλυτος)",
+      "new": "description: \"Prosēlytos (προσήλυτος)",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-035",
+      "slug": "proselytos",
+      "old": "*Proselytos* (προσήλυτος)",
+      "new": "*Prosēlytos* (προσήλυτος)",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-036",
+      "slug": "proselytos",
+      "old": "*Proselytos* in the New Testament",
+      "new": "*Prosēlytos* in the New Testament",
+      "reason": "Normalize the repeated reader-visible transliteration.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-013",
+      "slug": "proseuche",
+      "old": "intercession is to be made “all people” (1 Timothy 2:1, BSB)",
+      "new": "intercession is to be made “for everyone” (1 Timothy 2:1, BSB)",
+      "reason": "Use the pinned BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-014",
+      "slug": "proseuche",
+      "old": "Used about nineteen times in the New Testament.",
+      "new": "Used 18 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-015",
+      "slug": "proseuche",
+      "old": "Used about fifteen times in the New Testament.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-028",
+      "slug": "prothesis",
+      "old": "*Matthew 12:1-8 / Mark 2:23-28 / Luke 6:1-5 (the showbread incident).* “you not read what David did when he and his companions were hungry?",
+      "new": "*Matthew 12:1-8 / Mark 2:23-28 / Luke 6:1-5 (the showbread incident).* “Have you not read what David did when he and his companions were hungry?",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-020",
+      "slug": "prothesis",
+      "old": "Used over a hundred times in the New Testament",
+      "new": "Used ninety-nine times in the pinned Nestle 1904 main text",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-001",
+      "slug": "prototokos",
+      "old": "The Pauline Christological hymn of Colossians, treating Christ as “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” (v. 15) and \"firstborn from among the dead\" (v. 18).",
+      "new": "The Pauline Christological hymn of Colossians, treating Christ as “the firstborn over all creation” (v. 15) and “the firstborn from among the dead” (v. 18).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-001",
+      "slug": "prototokos",
+      "old": "The argument of Colossians 1:15-20 unfolds in a way that settles the question of how *prōtotokos pasēs ktiseōs* should be read. After calling Christ “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him” in verse 15, Paul immediately explains in verse 16: “The Son is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him. He is before all things, and in Him all things hold together. And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence. For God was pleased to have all His fullness dwell in Him, and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.” The reason Christ is *prōtotokos* of creation is that He is the *agent* of creation. He is the One through whom and for whom all things were made. He cannot be a member of the created order; He is the One by whom the created order exists.",
+      "new": "The argument of Colossians 1:15–20 settles how *prōtotokos pasēs ktiseōs* should be read. After calling Christ “the firstborn over all creation” in verse 15, Paul explains in verse 16: “For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” Christ is the agent of creation, not a member of the created order.",
+      "reason": "Remove the duplicated Colossians material and align each quotation with its verse.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-004",
+      "slug": "rhema",
+      "old": "*Psalm 33:6, 9* — “the LORD the heavens were made, and all the stars by the breath of His mouth. … For He spoke, and it came to be; He commanded, and it stood firm.”",
+      "new": "*Psalm 33:6, 9* — “By the word of the LORD the heavens were made, and all the stars by the breath of His mouth. … For He spoke, and it came to be; He commanded, and it stood firm.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-012",
+      "slug": "sarx",
+      "old": "confidence “human credentials” (Philippians 3:3–4, BSB)",
+      "new": "“put no confidence in the flesh” (Philippians 3:3–4, BSB), including confidence in human credentials",
+      "reason": "Separate the BSB quotation from the explanatory gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-038",
+      "slug": "soma",
+      "old": "The Augsburg Confession Article X states it directly: \"Concerning the Supper of the Lord they teach that the body and blood of Christ are truly present and are distributed to those who eat the Supper of the Lord; and they disapprove of those who teach otherwise.\"",
+      "new": "Augsburg Confession X confesses that Christ’s body and blood are truly present and distributed to those who eat the Lord’s Supper.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-039",
+      "slug": "soma",
+      "old": "Christ's \"true body and blood are truly and essentially present in the Supper, distributed, and received under the bread and wine.\"",
+      "new": "Christ’s true body and blood as truly and essentially present, distributed, and received under the bread and wine (Formula of Concord, Solid Declaration VII 35)",
+      "reason": "Paraphrase an unidentified confessional translation and add a stable paragraph reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-soter",
+      "slug": "soter",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-043",
+      "slug": "sozo",
+      "old": "The name *Jesus* is the etymological seed of every saving word in the New Testament.",
+      "new": "The name *Jesus* — “YHWH saves” — announces in Hebrew what the Greek New Testament proclaims with its saving vocabulary.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-009",
+      "slug": "teleios",
+      "old": "Hebrews 12:2 names Christ as “our eyes on Jesus, the author and perfecter of our faith,",
+      "new": "Hebrews 12:2 names Christ as “the author and perfecter of our faith”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-038",
+      "slug": "thanatos",
+      "old": "This is the more common verb in the New Testament for \"to die\" or \"to be dying.\" Used hundreds of times in the gospels, Acts, and the epistles.",
+      "new": "This is the more common verb in the New Testament for “to die.” Used over a hundred times in the Gospels, Acts, and the Epistles.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-021",
+      "slug": "thanatos",
+      "old": "*Thnēskō* (θνῄσκω) — the verb \"to die.\" A relatively uncommon form in the New Testament; most appearances are in the perfect tense (*tethnēka*, \"I have died\") or the present participle (*thnēskontes*, \"those who are dying\").",
+      "new": "*Thnēskō* (θνῄσκω) — the verb “to die.” It appears nine times in the pinned Nestle 1904 main text, all in perfect forms.",
+      "reason": "State the verified count and morphology.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-040",
+      "slug": "thanatos",
+      "old": "human beings since the Fall are \"born with sin, that is, without fear of God, without trust in God, and with concupiscence.\"",
+      "new": "human beings since the Fall are born with sin, without fear of God or trust in God, and with concupiscence (Augsburg Confession II 1).",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-theopneustos",
+      "slug": "theopneustos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-006",
+      "slug": "theos",
+      "old": "*The “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God.”* 2 Corinthians 4:4 — Paul's description of Satan, “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God”",
+      "new": "*The “god of this age.”* 2 Corinthians 4:4 — Paul describes Satan as “the god of this age” who blinds the minds of unbelievers.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-007",
+      "slug": "theos",
+      "old": "after first identifying the lie as “Peter said, ‘Ananias, how is it that Satan has filled your heart to lie to the Holy Spirit",
+      "new": "after first identifying the lie as a lie “to the Holy Spirit” (Acts 5:3, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-042",
+      "slug": "theos",
+      "old": "The etymology runs back through Indo-European roots, where the reconstructed ancestor of *theos* is related distantly to Latin *deus* (god), Latin *dies* (day), and Sanskrit *dyaus* (sky-god, the source of the Greek divine name *Zeus*).",
+      "new": "The origin of *theos* is disputed; despite the resemblance, it is not the same etymological line as Latin *deus* or Sanskrit *dyaus*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-041",
+      "slug": "theos",
+      "old": "Augsburg Confession Article I opens with this: \"We unanimously hold and teach, in accordance with the decree of the Council of Nicaea, that there is one divine essence, which is called and which is truly God.\"",
+      "new": "Augsburg Confession I 1 opens by confessing, in accord with Nicaea, the one divine essence that is truly God.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-042",
+      "slug": "theos",
+      "old": "Augsburg Confession Article I continues: \"yet there are three persons, of the same essence and power, who also are coeternal, the Father, the Son, and the Holy Spirit.\"",
+      "new": "Augsburg Confession I 2 continues by confessing three coeternal persons of the same essence and power: Father, Son, and Holy Spirit.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-049",
+      "slug": "theotes",
+      "old": "The Formula of Concord Article VIII develops this at length, distinguishing three modes of the *communicatio idiomatum* — the *genus idiomaticum*, the *genus apotelesmaticum*, and the *genus maiestaticum*.",
+      "new": "Formula of Concord Article VIII develops the substance at length; later Lutheran dogmaticians summarized it under three headings — the *genus idiomaticum*, the *genus apotelesmaticum*, and the *genus maiestaticum*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-043",
+      "slug": "theotes",
+      "old": "The Augsburg Confession Article III opens with this confession: Christ is \"true God and true man… both natures, the divine and the human, inseparably united in one person, one Christ.\"",
+      "new": "Augsburg Confession III 1–2 confesses Christ as true God and true man, with the divine and human natures inseparably united in one person.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-046",
+      "slug": "theotes",
+      "old": "It anchors the Christological confession of the Council of Nicaea (\"of one substance with the Father\"). It anchors the four privative adverbs of the Council of Chalcedon (\"without confusion, without change, without division, without separation\").",
+      "new": "It anchors Nicaea’s confession that the Son shares the Father’s divine substance and Chalcedon’s confession that the two natures are united without confusion, change, division, or separation.",
+      "reason": "Use concise council paraphrases pending selection of one English creed translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FOLLOWUP-001",
+      "slug": "theotes",
+      "old": "*Against the* extra Calvinisticum*.*",
+      "new": "*Against the extra Calvinisticum.*",
+      "reason": "Repair the stray Markdown emphasis delimiter.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-001",
+      "slug": "theotes",
+      "old": "The *genus maiestaticum* (the \"majestic genus\") teaches that the divine attributes are communicated *to the human nature* of Christ — so that the human nature, in the personal union, shares in the divine majesty, omnipotence, omniscience, and omnipresence. The human nature does not become divine; it remains human. But in the union, the human nature shares in divine attributes that belong properly to the divine nature. The Lutheran tradition saw this as the necessary consequence of *theotēs sōmatikōs*: if the whole fullness of deity dwells bodily in Christ, then His body shares in what the deity has.",
+      "new": "The *genus maiestaticum* concerns the majesty communicated in the personal union. The human nature does not become divine, cease to be human, or spread through creation by a natural omnipresence. Rather, the man Christ, by virtue of the personal union, can be present where He wills and can give what is His in the Supper (Formula of Concord, Solid Declaration VIII 78–85, 92). The divine nature remains infinite and omnipresent; the two natures remain distinct and inseparably united in the one Christ.",
+      "reason": "State the Formula’s position without attributing natural omnipresence to Christ’s humanity.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-002",
+      "slug": "theotes",
+      "old": "Lutheran theology rejected this with the slogan *Logos non extra carnem* — \"the Logos is not outside the flesh.\" The Lutheran reading of Colossians 2:9 takes *pan* and *sōmatikōs* with maximal seriousness. If the WHOLE fullness dwells BODILY, there is no \"extra\" Logos floating around outside the incarnate Christ. The whole Logos is the whole Christ, in His body.",
+      "new": "Lutheran theology does not deny that the Son of God, as God, is everywhere. It denies that He is ever anywhere *without* the humanity He has assumed. In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 85). Colossians 2:9 confesses the undivided incarnate Person; it does not circumscribe the divine nature within a local body.",
+      "reason": "Remove a non-confessional slogan and preserve both divine omnipresence and the inseparable personal union.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-003",
+      "slug": "theotes",
+      "old": "The Reformed *extra Calvinisticum* protects the transcendence of the divine nature (it cannot be circumscribed by a human body). The Lutheran *theotēs sōmatikōs* protects the unity of the incarnate Person (there is one Christ, and where He is, the whole Godhead is).",
+      "new": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). The Lutheran objection protects the unity of the incarnate Person: the Son is never present apart from the humanity He has assumed.",
+      "reason": "Clarify the actual point of disagreement.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-004",
+      "slug": "theotes",
+      "old": "The Lutheran objection is that it does not take *sōmatikōs* with full weight. If the whole fullness of deity dwells in the body, then the divine nature is not “also outside” the body in the way the Reformed tradition has wanted to say. The Lutheran reading honors the *sōmatikōs* by refusing to add an “also outside.”",
+      "new": "The Lutheran objection is not to the Logos being everywhere but to a Logos who is somewhere *apart from* His flesh. An “also outside” can describe the divine nature’s infinity; it cannot mean that the Son is present where the man Christ is absent. The Lutheran reading holds divine omnipresence and the inseparable personal union together.",
+      "reason": "Correct the extra Calvinisticum formulation without changing the article’s confessional position.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-013",
+      "slug": "theotes",
+      "old": "*in him* — Christ is the place, not also somewhere else;",
+      "new": "*in him* — the fullness dwells in the incarnate Christ without circumscribing the divine nature;",
+      "reason": "Remove the last implication that the divine nature is locally confined.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-014",
+      "slug": "theotes",
+      "old": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). The Lutheran objection protects the unity of the incarnate Person: the Son is never present apart from the humanity He has assumed.",
+      "new": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). Heidelberg Catechism Q. 48 says Christ’s divinity is beyond the bounds of the humanity He assumed while remaining personally united to it. The Lutheran objection therefore does not charge the Reformed with simply separating Christ’s person; it locates the disagreement in whether and how the assumed humanity shares the divine majesty and presence. The Lutheran confession is that the Son is never present apart from the humanity He has assumed.",
+      "reason": "Represent the Reformed affirmation of the personal union and locate the narrower confessional dispute.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-015",
+      "slug": "theotes",
+      "old": "The Reformed doctrine of the Supper, by contrast, holds that Christ's body is locally in heaven (since His humanity is finite) but that the believer is united with Christ by the Spirit's work, lifting the believer to the heavenly Christ. This is internally consistent with the *extra Calvinisticum* — the divine nature is also outside the flesh, sustaining the elements and uniting the believer with Christ by spiritual means. The Lutheran doctrine, by contrast, is internally consistent with *theotēs sōmatikōs* — the body and blood are truly present in the Supper because the whole Christ is given where His body is.",
+      "new": "The Reformed doctrine of the Supper, by contrast, holds that Christ's body is locally in heaven while His omnipresent divinity remains personally united to His humanity; by the Spirit’s work, the believer is united with the heavenly Christ. The Lutheran doctrine holds that the body and blood are truly present in the Supper because the whole Christ is given where He promises to give His body and blood.",
+      "reason": "Remove the spatially ambiguous 'outside the flesh' restatement and describe both sacramental positions more precisely.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-016",
+      "slug": "theotes",
+      "old": "The two views are not minor variations on the same Christology; they are two different Christologies playing out into two different sacramental theologies.",
+      "new": "The two views are not minor variations; they are distinct accounts of Christ’s presence and the communication of divine majesty to His humanity, with different sacramental consequences.",
+      "reason": "Avoid implying that the Reformed deny the ecumenical doctrine of Christ while preserving the real disagreement.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-009",
+      "slug": "theotes",
+      "old": "In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 85).",
+      "new": "In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 82–84).",
+      "reason": "Correct the paragraph locator for the verified Luther quotation.",
+      "origin": "focused-local-review"
+    }
+  ],
+  "evidenceFiles": {
+    "FALLBACK-REVIEW.json": "eeeaec8adb35680657fd718edcf9808fac0531fddf104997e350c16de1243e88",
+    "LEMMA-FREQUENCIES.json": "fcbd844b0a4fa454fbe491ecc470a14ede74c87a55e6fb33243e27dbea92114a",
+    "FREQUENCY-REVIEW.json": "39f8c76eeb3fa801aec219484de41717287592af34594bbec2a21de3e91fd93b",
+    "CONFESSIONAL-QUOTATION-INVENTORY.json": "24616b929f077599f1d9c844b86c2bbdc207b6fda9d845f7fd43327e064adbfa",
+    "SOURCE-VERIFICATION-CHECKLIST.md": "bef4f43829b294eaedd9d3c45edb6b70527a9837b34825985b35e9c1eeb0e964",
+    "SOURCE-VERIFICATION-REPORT.md": "05887b72b9275a7996ced6add0fc451a9b2216738105b5c2abc4491c923dbda0",
+    "CORRECTIONS.json": "2da6450714ef31d0babd3a4cea7cd7b689f1cf40b0bd0e6ac2dc58d2fdb3655f"
+  },
+  "structuredCandidateFiles": {
+    "words-2026-09-12-250.candidate.json": "36a0e4031bba136f5d6ac267f45117785333dbe4f6517b53eb747d1c8ad70a09",
+    "variants.candidate.json": "21fdc6dc203f826a207ad31c52c8ffd9a0f165a2d3e324e6f774714ec230a30b",
+    "app/reader/word-studies.tsx": "4785889724bb586bfa3c790f554380bef49cd2e33d6f11f230a503309fd0beb9"
+  },
+  "wordMetadataChanges": [
+    {
+      "slug": "kerygma",
+      "field": "translit",
+      "old": "Kerygma",
+      "new": "Kērygma"
+    },
+    {
+      "slug": "pater",
+      "field": "translit",
+      "old": "Pater",
+      "new": "Patēr"
+    },
+    {
+      "slug": "proselytos",
+      "field": "translit",
+      "old": "Proselytos",
+      "new": "Prosēlytos"
+    }
+  ],
+  "comparisonChanges": [
+    {
+      "unitId": "candidate-02",
+      "field": "sourceObservation",
+      "old": "Notice how the two publishers describe it.",
+      "new": "Notice how the two Berean editions describe it.",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-02",
+      "field": "sourceObservation",
+      "old": "Those are two publishers' claims",
+      "new": "Those are claims in two Berean editions",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-03",
+      "field": "sourceObservation",
+      "old": "Both publishers point the reader",
+      "new": "Both Berean editions point the reader",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-03",
+      "field": "interpretation",
+      "old": "Both publishers cite Luke 19:10",
+      "new": "Both Berean editions cite Luke 19:10",
+      "previousApprovalInvalidated": true
+    },
+    {
+      "unitId": "candidate-21",
+      "field": "sourceObservation",
+      "old": "Neither publisher offers a cross-reference.",
+      "new": "Neither Berean edition offers a cross-reference.",
+      "previousApprovalInvalidated": true
+    }
+  ]
+}

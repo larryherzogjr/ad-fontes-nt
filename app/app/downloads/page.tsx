@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.6/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.6.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.6/Ad-Fontes-NT-Windows-x64-1.0.0-rc.6.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.7/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.7.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.7/Ad-Fontes-NT-Windows-x64-1.0.0-rc.7.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release candidate" title="Download Ad Fontes NT">
       <p>
-        Version 1.0.0-rc.6 brings the Ad Fontes NT reader and study tools to
+        Version 1.0.0-rc.7 brings the Ad Fontes NT reader and study tools to
         your desktop for offline reading. Choose the package for your computer.
         Public reading does not require an account; private account-backed notes
         remain available in the web app.

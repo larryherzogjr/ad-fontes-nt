@@ -1,0 +1,1569 @@
+{
+  "schemaVersion": 1,
+  "sourceRelease": "om-studies-2026-09-11-v7",
+  "proposedRelease": "om-studies-2026-09-12-v8",
+  "correctionCount": 202,
+  "corrections": [
+    {
+      "id": "LOCAL-014",
+      "slug": "agape",
+      "old": "“love your enemy” (Matthew 5:44, BSB)",
+      "new": "“love your enemies” (Matthew 5:44, BSB)",
+      "reason": "Use the plural BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-001",
+      "slug": "agape",
+      "old": "The verbal form occurs more than 140 times in the New Testament; the noun more than 110 times; the adjective about sixty times.",
+      "new": "In the pinned Nestle 1904 main text, the verbal form occurs 142 times, the noun 116 times, and the adjective 61 times.",
+      "reason": "Regenerate the three word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-054",
+      "slug": "agorazo",
+      "old": "See also the eventual treatment of lytron (the ransom price specifically) for the third member of the redemption / purchase / ransom vocabulary cluster.",
+      "new": "See also [Lytron](/greek/lytron/) for the ransom price specifically—the third member of the redemption, purchase, and ransom vocabulary cluster.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-024",
+      "slug": "agorazo",
+      "old": "people and nation” Some readings",
+      "new": "people and nation.” Some readings",
+      "reason": "Restore punctuation after the Revelation 5:9 quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-011",
+      "slug": "amen",
+      "old": "the Old Testament's “the faithful God” (Isaiah 65:16, BSB)",
+      "new": "the Old Testament’s “God of truth” (Isaiah 65:16, BSB)",
+      "reason": "Use the pinned BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-025",
+      "slug": "amen",
+      "old": "then you will not stand at all.’’”",
+      "new": "then you will not stand at all.’”",
+      "reason": "Remove a duplicated closing quotation mark.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-002",
+      "slug": "amen",
+      "old": "The word appears about 129 times in the New Testament.",
+      "new": "The word appears 126 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-014",
+      "slug": "anamnesis",
+      "old": "The Augsburg Confession Article X states the Lutheran position on the Supper in compressed form: \"they teach that the body and blood of Christ are truly present and are distributed to those who eat the Supper of the Lord.\"",
+      "new": "Augsburg Confession X confesses in compressed form that Christ’s body and blood are truly present and distributed to those who eat the Lord’s Supper.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-020",
+      "slug": "anastasis",
+      "old": "Hymenaeus and Philetus in 2 Timothy 2:18, who said “who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some.”",
+      "new": "Hymenaeus and Philetus in 2 Timothy 2:18, who “say that the resurrection has already occurred” (BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-008",
+      "slug": "anastasis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-009",
+      "slug": "anomia",
+      "old": "the “the man of lawlessness” the “the man of lawlessness” already at work",
+      "new": "the “man of lawlessness” to be revealed and the “mystery of lawlessness” already at work",
+      "reason": "Restore the two distinct expressions in 2 Thessalonians 2.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-010",
+      "slug": "anomia",
+      "old": "while Paul explicitly says he is “not outside the law of God but under the law of Christ”",
+      "new": "while Paul explicitly says, “I am not outside the law of God but am under the law of Christ”",
+      "reason": "Restore the BSB wording of 1 Corinthians 9:21.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-041",
+      "slug": "anthropos",
+      "old": "The word is a third-declension masculine noun;",
+      "new": "The word is a second-declension masculine noun;",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-022",
+      "slug": "anthropos",
+      "old": "its feminine form, when needed, can be supplied by *gunē* (woman) in compound or contrast, though in most New Testament usage *anthrōpos* itself functions as the generic term for human being regardless of gender.",
+      "new": "*anthrōpos* itself can function generically for a human being regardless of gender. *Gunē* (γυνή, “woman”) is a separate noun, not a feminine form of *anthrōpos*.",
+      "reason": "Correct the grammatical relationship.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-015",
+      "slug": "anthropos",
+      "old": "The Augsburg Confession Article III is direct on this: \"the Son of God became man, born of the Virgin Mary.\"",
+      "new": "Augsburg Confession III 1 is direct: the Son of God assumed human nature in the womb of the blessed Virgin Mary.",
+      "reason": "Paraphrase an unidentified confessional translation and add a stable paragraph reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-016",
+      "slug": "anthropos",
+      "old": "in the language of Article II of the Augsburg Confession, \"born with sin… without fear of God, without trust in God, and with concupiscence.\"",
+      "new": "as Augsburg Confession II 1 describes it, born with sin, without fear of God or trust in God, and with concupiscence.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-antilytron",
+      "slug": "antilytron",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-017",
+      "slug": "aphesis",
+      "old": "Luther’s Small Catechism asks: “What is the Office of the Keys? It is the special authority which Christ has given to His church on earth to forgive the sins of penitent sinners, but to refuse forgiveness to the impenitent as long as they do not repent.”",
+      "new": "Luther’s Small Catechism, Office of the Keys, teaches that Christ gives His church authority to forgive repentant sinners and to withhold forgiveness from the unrepentant while they do not repent.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-018",
+      "slug": "aphesis",
+      "old": "Luther’s Small Catechism on baptism teaches that baptism signifies “that the old Adam in us, together with all sins and evil lusts, should be drowned by daily contrition and repentance and die, and that daily a new man should come forth and arise, who shall live before God in righteousness and purity forever.”",
+      "new": "Luther’s Small Catechism, Baptism IV, teaches that Baptism signifies the daily drowning and death of the old Adam through contrition and repentance and the daily emergence of the new person who lives before God in righteousness and purity.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019",
+      "slug": "apostolos",
+      "old": "appears 132 times.",
+      "new": "appears 131 times in the pinned Nestle 1904 main text.",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019-B",
+      "slug": "apostolos",
+      "old": "Used 132 times in the New Testament",
+      "new": "Used 131 times in the pinned Nestle 1904 main text",
+      "reason": "Align the repeated cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-003",
+      "slug": "apostolos",
+      "old": "appears about eighty times in the New Testament.",
+      "new": "appears 79 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-010",
+      "slug": "arche",
+      "old": "Hebrews 12:2 (“our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.”)",
+      "new": "Hebrews 12:2 (“Jesus, the author and perfecter of our faith”)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FOLLOWUP-003",
+      "slug": "arche",
+      "old": "Hermann Sasse’s various writings on Christ and the powers, especially in Here We Stand, trans. Theodore G. Tappert (Adelaide: Lutheran Publishing House, 1979).",
+      "new": "Hermann Sasse’s various writings on Christ and the powers, especially in *Here We Stand*, trans. Theodore G. Tappert (New York: Harper & Brothers, 1938; cited Adelaide ed.: Lutheran Publishing House, 1979).",
+      "reason": "Add the original English publication data while retaining the edition actually cited.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-036",
+      "slug": "artos",
+      "old": "Paul says “this bread” (1 Corinthians 11:26–28, BSB) eight times across five verses, after the consecration, after the participation in the body.",
+      "new": "Paul continues to call it “bread” after the consecration—four times in 1 Corinthians 11:23–28, including “this bread” in verse 26.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-017",
+      "slug": "artos",
+      "old": "appears about ninety times across the four Gospels, Acts, and the Epistles",
+      "new": "appears ninety-seven times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-020",
+      "slug": "artos",
+      "old": "“Daily bread” includes “everything that has to do with the support and needs of the body, such as food, drink, clothing, shoes, house, home, fields, livestock, money, property…” and so on",
+      "new": "In the Small Catechism’s Fourth Petition, “daily bread” includes everything needed to support bodily life—food and clothing, home and livelihood, family, authorities, peace, health, and faithful neighbors",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-040",
+      "slug": "authenteo",
+      "old": "*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.",
+      "new": "In the Pastoral Epistles, *parathēkē* appears three times, *eusebeia* ten, and *epiphaneia* five.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-authenteo",
+      "slug": "authenteo",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-019",
+      "slug": "baptizo",
+      "old": "Luther's Small Catechism gives the daily application: baptism signifies \"that the old Adam in us, together with all sins and evil lusts, should be drowned by daily contrition and repentance and die, and that daily a new man should come forth and arise, who shall live before God in righteousness and purity forever.\"",
+      "new": "Luther’s Small Catechism, Baptism IV, gives the daily application: Baptism signifies the daily drowning and death of the old Adam through contrition and repentance and the daily emergence of the new person who lives before God in righteousness and purity.",
+      "reason": "Paraphrase the repeated unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-028",
+      "slug": "basileia",
+      "old": "Daniel 7:13-14 — the son of man receiving “And He was given dominion, glory, and kingship, that the people of every nation and language should serve Him.",
+      "new": "Daniel 7:13–14 — the Son of Man is “given dominion, glory, and kingship” so that the people of every nation and language should serve Him.",
+      "reason": "Restore the clause used by the argument.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-030",
+      "slug": "basileia",
+      "old": "has already been “brought into the kingdom of His beloved Son” (Colossians 1:13, BSB)",
+      "new": "has already been brought into “the kingdom of His beloved Son” (Colossians 1:13, BSB)",
+      "reason": "Keep the adapted passive outside the direct quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-004",
+      "slug": "basileia",
+      "old": "appears about 162 times in the New Testament.",
+      "new": "appears 162 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-021",
+      "slug": "basileia",
+      "old": "Luther writes that \"the kingdom of God comes indeed without our prayer, of itself; but we pray in this petition that it may come unto us also.\" And the kingdom comes \"when our heavenly Father gives us His Holy Spirit, so that by His grace we believe His holy Word and lead a godly life, here in time and hereafter in eternity.\"",
+      "new": "The Small Catechism’s Second Petition teaches that God’s kingdom comes without our prayer, yet we pray that it would come to us—through the Father’s gift of the Holy Spirit, faith in His Word, and a godly life now and in eternity.",
+      "reason": "Paraphrase an unidentified catechism translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-022",
+      "slug": "basileia",
+      "old": "the Augsburg Confession Article XVII explicitly condemns the teaching that “before the resurrection of the dead the godly shall take possession of the kingdom of the world, the ungodly being everywhere suppressed”",
+      "new": "Augsburg Confession XVII 5 rejects the teaching that the godly will take possession of a worldly kingdom before the resurrection of the dead",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-039",
+      "slug": "chara",
+      "old": "uses *chara* — \"joy\" — and *chairō* — \"to rejoice\" — sixteen times in four short chapters.",
+      "new": "uses *chara* — “joy” — and *chairō* — “to rejoice” — fourteen times in four short chapters.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-027",
+      "slug": "chara",
+      "old": "The disciples in Acts, beaten and ordered not to preach, “The apostles left the Sanhedrin, rejoicing that they had been counted worthy of suffering disgrace for the Name.”",
+      "new": "The disciples in Acts, beaten and ordered not to preach, left the Sanhedrin “rejoicing that they had been counted worthy of suffering disgrace for the Name”",
+      "reason": "Restore the phrase slot around Acts 5:41.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-005",
+      "slug": "chara",
+      "old": "Used about seventy-five times in the New Testament.",
+      "new": "Used 74 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-002",
+      "slug": "charis",
+      "old": "The Augsburg Confession Article IV states it directly: \"Our churches teach that human beings cannot be justified before God by their own powers, merits, or works. But they are justified as a gift on account of Christ through faith when they believe that they are received into grace and that their sins are forgiven on account of Christ, who by his death made satisfaction for our sins.\"",
+      "new": "Augsburg Confession IV 1–3 states that people cannot be justified before God by their own powers, merits, or works, but are justified as a gift on account of Christ through faith.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-charisma",
+      "slug": "charisma",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-023",
+      "slug": "diakonos",
+      "old": "The Augsburg Confession’s principle that “it is not necessary for the true unity of the Christian church that uniform ceremonies, instituted by human beings, be observed everywhere” (AC VII)",
+      "new": "Augsburg Confession VII 3 teaches that uniform human ceremonies are not required everywhere for the church’s true unity",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-013",
+      "slug": "diatheke",
+      "old": "When Christ speaks of the “the new covenant in My blood; do this, as often as you drink it, in remembrance of Me.” He is announcing",
+      "new": "When Christ speaks of “the new covenant in My blood” (1 Corinthians 11:25, BSB), He is announcing",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-018",
+      "slug": "didaskalia",
+      "old": "those who “some have strayed from these ways and turned aside to empty talk”",
+      "new": "those who “have strayed from these ways and turned aside to empty talk” (1 Timothy 1:6, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-037",
+      "slug": "didaskalia",
+      "old": "The Greek New Testament has a striking phrase that appears nine times in the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) and almost nowhere else. The phrase is *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The Greek adjective *hygiainō* is the standard medical term",
+      "new": "The Greek New Testament has a striking expression that appears four times in the Pastoral Epistles: *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The verb *hygiainō* occurs eight times in the Pastorals; *hygiainousa* is its participle. The verb is the standard medical term",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-005",
+      "slug": "didaskalia",
+      "old": "those who teach “spreads false teachings” (1 Timothy 6:3, BSB)",
+      "new": "those who “teach another doctrine” (1 Timothy 6:3, BSB)",
+      "reason": "Repair the subject-verb seam and quote the relevant phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-006",
+      "slug": "didaskalia",
+      "old": "words “And this is what we speak, not in words taught us by human wisdom, but in words taught by the Spirit, expressing spiritual truths in spiritual words.”",
+      "new": "words “taught by the Spirit” (1 Corinthians 2:13, BSB)",
+      "reason": "Restore the phrase gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-048",
+      "slug": "dikaioo",
+      "old": "The Apology of the Augsburg Confession spends most of Article IV defending this point against Tridentine accusations of antinomianism, and the defense holds up four hundred years later.",
+      "new": "The Apology of the Augsburg Confession spends most of Article IV answering the Roman Confutation’s charge that this teaching made good works superfluous; the defense still speaks nearly five hundred years later.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-003",
+      "slug": "dikaioo",
+      "old": "The Augsburg Confession, Article IV, states this without flinching: human beings “are justified as a gift on account of Christ, through faith, when they believe that they are received into grace and that their sins are forgiven on account of Christ.”",
+      "new": "Augsburg Confession IV 1–3 states this without flinching: human beings are justified freely for Christ’s sake through faith, apart from their own powers, merits, or works.",
+      "reason": "Replace an unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-033",
+      "slug": "dikaiosyne",
+      "old": "Righteousness is described here as “the gracious gift” (*dōrea*) and “the abundance of grace and of the gift of righteousness reign in life through the one man, Jesus Christ!”",
+      "new": "Righteousness is described here as “the gracious gift” (*dōrea*) and “the gift of righteousness.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-050",
+      "slug": "eikon",
+      "old": "The Augsburg Confession Article II describes humans as having been created with fear of God, with trust in God, and with original righteousness; original sin is described as the loss of these.",
+      "new": "The Apology, Article II, describes original righteousness as fear of God, trust in God, and knowledge of God; Augsburg Confession Article II describes original sin as the loss of that fear and trust.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-047",
+      "slug": "eirene",
+      "old": "The etymology runs from a verbal root meaning \"to bind together\" or \"to join.\" Peace, in the Greek conception, is what holds parties together",
+      "new": "The etymology of *eirēnē* is uncertain. Its broader biblical sense of wholeness and restored relation is established by its usage, especially as the Septuagint’s regular rendering of Hebrew *shalom*, not by a proposed Greek root.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-026",
+      "slug": "eirene",
+      "old": "Ephesians 2:14 — “For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility” Not just",
+      "new": "Ephesians 2:14 — “For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility.” Not just",
+      "reason": "Restore a sentence boundary after Ephesians 2:14.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-026-B",
+      "slug": "eirene",
+      "old": "*Autos gar estin hē eirēnē hēmōn* — “for He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility” Not just",
+      "new": "*Autos gar estin hē eirēnē hēmōn* — “for He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility.” Not just",
+      "reason": "Restore the repeated sentence boundary after Ephesians 2:14.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-019",
+      "slug": "ekklesia",
+      "old": "Hebrews 12:23 names “in joyful assembly, to the congregation of the firstborn, enrolled in heaven.",
+      "new": "Hebrews 12:23 names “the congregation of the firstborn, enrolled in heaven.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-007",
+      "slug": "ekklesia",
+      "old": "the bride presented “glorious church, without stain or wrinkle or any such blemish, but holy and blameless.”",
+      "new": "the bride presented “as a glorious church, without stain or wrinkle or any such blemish, but holy and blameless.”",
+      "reason": "Restore the predicate phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-008",
+      "slug": "ekklesia",
+      "old": "> “It is also taught that at all times there must be and remain one holy, Christian church. It is the assembly of all believers among whom the gospel is purely preached and the holy sacraments are administered according to the gospel.”",
+      "new": "Augsburg Confession VII 1 defines the one holy Christian church as the assembly of believers among whom the gospel is purely preached and the sacraments are administered according to the gospel.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-009",
+      "slug": "ekklesia",
+      "old": "> “Even though the Christian church is, properly speaking, the assembly of saints and those who truly believe, nevertheless, because in this life many false Christians, hypocrites, and even public sinners are mixed in with the godly, it is permissible to use the sacraments even when they are administered by ungodly priests.”",
+      "new": "Augsburg Confession VIII 1–2 says that although the church properly is the assembly of saints and true believers, hypocrites and evil persons remain mixed with it in this life; the sacraments may therefore be received even from ungodly ministers.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-010",
+      "slug": "ekklesia",
+      "old": "> “It is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word. It is not necessary for the true unity of the Christian church that uniform ceremonies, instituted by human beings, be observed everywhere.”",
+      "new": "Augsburg Confession VII 2–3 says that agreement in the pure preaching of the gospel and administration of the sacraments is sufficient for the church’s true unity; uniform human ceremonies are not required everywhere.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-008",
+      "slug": "ekporeuomai",
+      "old": "Lutherans receive the Western form of the Nicene Creed, confessing the Spirit's procession from the Father and the Son. This is the form included in the Book of Concord. It belongs with the confession that the Spirit is Lord and giver of life, worshiped and glorified with the Father and the Son.",
+      "new": "Lutherans receive the Western form of the Nicene Creed, confessing the Spirit's procession from the Father and the Son. This is the form included in the Book of Concord, where the Western words appear in brackets (Nicene Creed 7). It belongs with the confession that the Spirit is Lord and giver of life, worshiped and glorified with the Father and the Son.",
+      "reason": "Record the verified paragraph and the edition's bracketed presentation of the Western addition.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-032",
+      "slug": "eleutheria",
+      "old": "*Galatians 5:1, 13-14.* “for freedom that Christ has set us free.",
+      "new": "*Galatians 5:1, 13-14.* “It is for freedom that Christ has set us free.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "THEOL-011",
+      "slug": "eleutheria",
+      "old": "> A Christian is a perfectly free lord of all, subject to none.\n>\n> A Christian is a perfectly dutiful servant of all, subject to all.",
+      "new": "> “A Christian man is the most free lord of all, and subject to none; a Christian man is the most dutiful servant of all, and subject to every one.” — Martin Luther, *On Christian Liberty*, trans. W. A. Lambert, rev. W. A. Buchheim (1896).",
+      "reason": "Use and identify a public-domain English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-024",
+      "slug": "elpis",
+      "old": "The grammatical construction in the Greek treats “as we await the blessed hope and glorious appearance of our great God and Savior Jesus Christ” and “the glorious appearing” as appositional",
+      "new": "The grammatical construction in the Greek treats “the blessed hope” and “the glorious appearance” as appositional",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-016",
+      "slug": "elpis",
+      "old": "Lamentations 3:21-24 — “Yet I call this to mind, and therefore I have hope:”",
+      "new": "Lamentations 3:21–22 — “Yet I call this to mind, and therefore I have hope: Because of the loving devotion of the LORD we are not consumed, for His mercies never fail.”",
+      "reason": "Make the citation match the quoted verses.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-031",
+      "slug": "elpis",
+      "old": "(Lamentations 3:21-24, BSB) — hope grounded",
+      "new": "(Lamentations 3:21–22, BSB) — hope grounded",
+      "reason": "Match the citation to the quotation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-011",
+      "slug": "epiousios",
+      "old": "> “Daily bread includes everything that has to do with the support and needs of the body, such as food, drink, clothing, shoes, house, home, land, animals, money, goods, a pious spouse, pious children, pious workers, pious and faithful rulers, good government, good weather, peace, health, discipline, honor, good friends, faithful neighbors, and the like.”",
+      "new": "In his explanation of the Fourth Petition, Luther’s Small Catechism treats “daily bread” as everything needed to support bodily life: food and clothing, home and livelihood, family and authorities, weather and peace, health, reputation, friends, and faithful neighbors.",
+      "reason": "Replace a long, unidentified translation with a section-level paraphrase pending edition/page verification.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-047",
+      "slug": "epiousios",
+      "old": "The catechism poses the question: “What is meant by daily bread?” And it answers with one of the most expansive readings of any single phrase in the Lord’s Prayer:",
+      "new": "The catechism asks what daily bread means and answers with an expansive account of bodily provision:",
+      "reason": "Paraphrase the catechism prompt rather than silently mixing translations.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-epiphaneia",
+      "slug": "epiphaneia",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-004",
+      "slug": "episkopos",
+      "old": "AC XXVIII concedes that “the following jurisdiction belongs to the bishops as bishops, that is to say, to those to whom the ministry of Word and sacraments has been entrusted: to forgive sins, to reject teaching that opposes the gospel, and to exclude from the communion of the church the ungodly whose ungodliness is known”",
+      "new": "AC XXVIII 21–22 assigns bishops, as ministers of Word and Sacrament, the authority to forgive sins, reject teaching contrary to the gospel, and exercise church discipline",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-005",
+      "slug": "episkopos",
+      "old": "the Augsburg Confession’s principle that “it is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word” (AC VII)",
+      "new": "the principle of Augsburg Confession VII 2 that agreement in the pure preaching of the gospel and administration of the sacraments is sufficient for the church’s true unity",
+      "reason": "Replace an unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-008",
+      "slug": "ergon",
+      "old": "The Greek expression *kalōn ergōn proistasthai* — “This saying is trustworthy. And I want you to emphasize these things, so that those who have believed God will take care to devote themselves to good deeds. These things are excellent and profitable for the people.”",
+      "new": "The Greek expression *kalōn ergōn proistasthai* — “devote themselves to good deeds” —",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-006",
+      "slug": "ergon",
+      "old": "appears over one hundred and sixty times in the New Testament.",
+      "new": "appears 169 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-001",
+      "slug": "ergon",
+      "old": "The Augsburg Confession Article IV (Justification) articulates it: \"Likewise, they teach that men cannot be justified before God by their own strength, merits, or works, but are freely justified for Christ's sake, through faith, when they believe that they are received into favor, and that their sins are forgiven for Christ's sake, who, by His death, has made satisfaction for our sins. This faith God imputes for righteousness in His sight.\"",
+      "new": "Augsburg Confession IV 1–3 confesses that people cannot be justified before God by their own strength, merits, or works, but are justified freely for Christ’s sake through faith.",
+      "reason": "Replace a long, unidentified translation with a paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-005",
+      "slug": "ethnos",
+      "old": "Used once, at Galatians 2:14 — Peter “live[d] like a Gentile and not like a Jew” ‘If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews’” (*ethnikōs zēs*)",
+      "new": "Used once, at Galatians 2:14 — “If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?” (*ethnikōs zēs*, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-023",
+      "slug": "ethnos",
+      "old": "The etymology runs back to a Greek root meaning \"habit\" or \"custom\" (related to *ēthos* — moral character, custom, the root of English *ethics*). The original Greek conception of *ethnos* named a group united by shared customs, shared way of life, shared cultural identity. *Ethnos* was a people group with internal coherence rather than just a random aggregate. The English words *ethnic* and *ethnicity* come directly from this Greek root and preserve some of the original sense.",
+      "new": "The etymology is uncertain; proposals connecting *ethnos* with *ēthos* (“custom”) should not control the word’s definition. In usage, *ethnos* names a people or nation, and the English words *ethnic* and *ethnicity* descend from it.",
+      "reason": "Remove an uncertain derivation as the basis for meaning.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-002",
+      "slug": "eulogeo",
+      "old": "Luke specifies *eparas tas cheiras autou* — “Aaron lifted up his hands toward the people and blessed them. And having made the sin offering, the burnt offering, and the peace offering, he stepped down.”",
+      "new": "Luke specifies *eparas tas cheiras autou* — “He lifted up His hands and blessed them” (Luke 24:50, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-027",
+      "slug": "eulogeo",
+      "old": "verbal attacks framed as “the truth in love, we will in all things grow up into Christ Himself, who is the head.”",
+      "new": "verbal attacks framed as “speaking the truth in love” (Ephesians 4:15, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-045",
+      "slug": "eulogeo",
+      "old": "The Lutheran emphasis on blessing as a word that does what it says — that actually conveys what it pronounces — rests in part on this etymological foundation.",
+      "new": "The word’s make-up can illustrate blessing as good speech, but the Lutheran claim that God’s blessing actually conveys what it pronounces rests on God’s promise and biblical usage, not on etymology.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-024",
+      "slug": "eulogeo",
+      "old": "The morning prayer of Luther's Small Catechism — \"I thank Thee, my heavenly Father, through Jesus Christ, Thy dear Son, that Thou hast kept me this night from all harm and danger\" — is the believer's blessing of God for the night's preservation.",
+      "new": "Luther’s Small Catechism morning prayer thanks the heavenly Father through Jesus Christ for preservation through the night; it is the believer’s blessing of God for that gift.",
+      "reason": "Paraphrase an unidentified prayer translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-eusebeia",
+      "slug": "eusebeia",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-025",
+      "slug": "hagios",
+      "old": "because “Scripture does not teach us to invoke the saints or to seek help from them, because it sets before us the one Christ as mediator, atoning sacrifice, high priest, and intercessor.”",
+      "new": "because Augsburg Confession XXI 2–4 says Scripture directs believers to the one Christ as mediator, atoning sacrifice, high priest, and intercessor rather than teaching invocation of the saints.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-012",
+      "slug": "haima",
+      "old": "When Christ took the cup at the Last Supper and said, “saying, ‘This cup is the new covenant in My blood, which is poured out for you’”",
+      "new": "When Christ took the cup at the Last Supper and said, “‘This cup is the new covenant in My blood, which is poured out for you’”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-026",
+      "slug": "hamartia",
+      "old": "The Augsburg Confession, Article II, puts it bluntly: all human beings since Adam are born “with sin, that is, without fear of God, without trust in God, and with concupiscence.”",
+      "new": "Augsburg Confession II 1 puts it bluntly: all human beings since Adam are born with sin, without fear of God or trust in God, and with concupiscence.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-021",
+      "slug": "hiereus",
+      "old": "*Sympathēsai tais astheneiais hēmōn* — “with our weaknesses, but we have one who was tempted in every way that we are, yet was without sin.”",
+      "new": "*Sympathēsai tais astheneiais hēmōn* — “to sympathize with our weaknesses.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-008",
+      "slug": "hiereus",
+      "old": "*Thysian zōsan* — “sacrifices, holy and pleasing to God, which is your spiritual service of worship.”",
+      "new": "*Thysian zōsan* — “a living sacrifice, holy and pleasing to God” (Romans 12:1, BSB).",
+      "reason": "Match the singular Greek phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-027",
+      "slug": "hilasterion",
+      "old": "The Apology of the Augsburg Confession Article IV states it directly: “Christ … made satisfaction for our sins.”",
+      "new": "Apology IV 53 states directly that Christ made satisfaction for our sins.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-012",
+      "slug": "huiothesia",
+      "old": "James Barr, “Abbā Isn’t ‘Daddy,’.” Journal of Theological Studies 39 (1988): 28-47.",
+      "new": "James Barr, “‘Abbā Isn’t ‘Daddy’,” *The Journal of Theological Studies* 39.1 (1988): 28–47, doi:10.1093/jts/39.1.28.",
+      "reason": "Correct the bibliographic citation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-hygiaino",
+      "slug": "hygiaino",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-029",
+      "slug": "hyios",
+      "old": "The Nicene Creed states the doctrine in its sharpest form: \"begotten of the Father before all worlds, God of God, Light of Light, very God of very God, begotten not made, of one substance with the Father.\"",
+      "new": "The Nicene Creed states the doctrine in its sharpest form by confessing the Son as eternally begotten of the Father, not made, and of one substance with the Father.",
+      "reason": "Use the same creed paraphrase corpus-wide pending selection of one English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-030",
+      "slug": "hyios",
+      "old": "The Augsburg Confession Article III opens with this confession: \"the Son of God became man, born of the Virgin Mary\"",
+      "new": "Augsburg Confession III 1 confesses that the Son of God assumed human nature in the womb of the blessed Virgin Mary",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-012",
+      "slug": "hyios",
+      "old": "Second, teach the eternal generation of the Son. This needs no seminary education; the Nicene Creed states it plainly — *eternally begotten of the Father, God of God, Light of Light, true God of true God, begotten not made, of one substance with the Father*. The Father is eternally Father, the Son eternally Son; the relation is eternal and constitutive of who God is.",
+      "new": "Second, teach the eternal generation of the Son. This needs no seminary education; Nicene Creed 2–3 states it plainly: the Son is eternally from the Father, truly God, begotten rather than made, and one in Being with the Father. The Father is eternally Father, the Son eternally Son; the relation is eternal and constitutive of who God is.",
+      "reason": "Replace an unattributed liturgical-translation extract with a verified paragraph-level paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-023",
+      "slug": "hypakoe",
+      "old": "The English translations render this as “to the people, who replied, ‘All that the LORD has spoken we will do, and we will be obedient’”",
+      "new": "The BSB renders the response as “we will obey” (Exodus 24:7).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-046",
+      "slug": "hypakoe",
+      "old": "The Sunday school teacher angle is direct: teach the etymology of *hypakoē* and what it reveals about Christian obedience.",
+      "new": "The Sunday school teacher angle is direct: teach how the New Testament uses *hypakoē* — obedience that begins in hearing the Word — and use the word’s make-up as an illustration, not a proof.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-025",
+      "slug": "hyper",
+      "old": "1 John 2:2 — Christ is the propitiation “he Himself is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.”",
+      "new": "1 John 2:2 — Christ is the atoning sacrifice “for our sins, and not only for ours but also for the sins of the whole world.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-028",
+      "slug": "hyper",
+      "old": "The Apology of the Augsburg Confession Article IV — “Christ … made satisfaction for our sins” — names",
+      "new": "Apology IV 53, in saying that Christ made satisfaction for our sins, names",
+      "reason": "Paraphrase the repeated unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-031",
+      "slug": "hypostasis",
+      "old": "the Son is “of one substance” (homoousios) with the Father",
+      "new": "the Son shares the one divine substance with the Father (*homoousios*)",
+      "reason": "Use a creed paraphrase pending selection of one English translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-032",
+      "slug": "hypostasis",
+      "old": "Augsburg Confession Article I confesses the Trinity in the Nicene formula: “There is one divine essence, which is called and which is truly God, and yet there are three persons in this one divine essence, equal in power and alike eternal: God the Father, God the Son, God the Holy Spirit.”",
+      "new": "Augsburg Confession I 1–2 confesses one divine essence and three coeternal persons of equal power: Father, Son, and Holy Spirit.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-033",
+      "slug": "hypostasis",
+      "old": "Augsburg Confession Article III confesses the incarnation in the Chalcedonian formula: “In Christ the two natures, divine and human, are inseparably joined in one person; there is one Christ, true God and true man.”",
+      "new": "Augsburg Confession III 1–2 confesses the divine and human natures inseparably united in the one Christ, true God and true man.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-044",
+      "slug": "iesous",
+      "old": "Every time the New Testament says *sōzō*, the family connection to *Iēsous* is present, even when the name itself does not appear in the verse.",
+      "new": "Matthew 1:21 ties the Hebrew-derived name *Iēsous* to the Greek verb *sōzō* as a theological wordplay, not as a shared etymology.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-013",
+      "slug": "iesous",
+      "old": ", 354-355 and 433-440.",
+      "new": ".",
+      "reason": "Remove unverified physical page ranges while retaining the stable document and section references.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-010",
+      "slug": "iesous",
+      "old": "see Luther’s Small Catechism, “The Creed, Second Article,” and Large Catechism, “The Creed, Second Article,” in Robert Kolb and Timothy J. Wengert, eds., The Book of Concord: The Confessions of the Evangelical Lutheran Church (Minneapolis: Fortress Press, 2000).",
+      "new": "see Luther’s Small Catechism, Creed II 3–4, and Large Catechism, Creed II 25–33, in Robert Kolb and Timothy J. Wengert, eds., *The Book of Concord: The Confessions of the Evangelical Lutheran Church* (Minneapolis: Fortress Press, 2000).",
+      "reason": "Add the verified paragraph locators and format the selected edition title.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-011",
+      "slug": "kaine-ktisis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-012",
+      "slug": "kaine-ktisis",
+      "old": "appears about nineteen times in the New Testament.",
+      "new": "appears 19 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-013",
+      "slug": "kaine-ktisis",
+      "old": "Used about fifteen times.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-011",
+      "slug": "karpos",
+      "old": "Hebrews 12:11 — the “No discipline seems enjoyable at the time, but painful. Later on, however, it yields a harvest of righteousness and peace to those who have been trained by it.”",
+      "new": "Hebrews 12:11 — the “harvest of righteousness and peace.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-058",
+      "slug": "karpos",
+      "old": "tags: [\"fruit of the Spirit\", \"good-works\"]",
+      "new": "tags: [\"fruit-of-the-spirit\", \"good-works\"]",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-002",
+      "slug": "karpos",
+      "old": "the man who trusts in the LORD “He is like a tree planted by the waters",
+      "new": "the man who trusts in the LORD is like “a tree planted by the waters",
+      "reason": "Repair the Jeremiah 17 phrase slot.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-003",
+      "slug": "karpos",
+      "old": "*Pan klēma en emoi mē pheron karpon airei auto* — “fruit, and every branch that does bear fruit, He prunes to make it even more fruitful.”",
+      "new": "*Pan klēma en emoi mē pheron karpon airei auto* — “He cuts off every branch in Me that bears no fruit” (John 15:2, BSB).",
+      "reason": "Match the English quotation to the Greek clause.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-018",
+      "slug": "karpos",
+      "old": "appears sixty-seven times in the New Testament",
+      "new": "appears sixty-six times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-017",
+      "slug": "kenoo",
+      "old": "Paul does not preach with eloquent words “For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power.” (1 Corinthians 1:17, BSB).",
+      "new": "Paul does not preach with eloquent words, “lest the cross of Christ be emptied of its power” (1 Corinthians 1:17, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-059",
+      "slug": "kerygma",
+      "old": "translit: \"Kerygma\"",
+      "new": "translit: \"Kērygma\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-017",
+      "slug": "kerygma",
+      "old": "appears more than sixty times in the New Testament.",
+      "new": "appears 61 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-034",
+      "slug": "kerygma",
+      "old": "The Augsburg Confession Article V says it as directly as confessional language can: God instituted the ministry of the gospel and the sacraments so that “through these, as through means, he gives the Holy Spirit, who effects faith, where and when he wills, in those who hear the gospel.”",
+      "new": "Augsburg Confession V 1–2 says it directly: God instituted the ministry of teaching the gospel and administering the sacraments so that through these means He gives the Holy Spirit, who creates faith where and when God wills in those who hear the gospel.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-014",
+      "slug": "kleronomia",
+      "old": "Abraham was looking forward to “For he was looking forward to the city with foundations, whose architect and builder is God.”",
+      "new": "Abraham was looking forward to “the city with foundations, whose architect and builder is God” (Hebrews 11:10, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "CONF-011",
+      "slug": "kleronomia",
+      "old": "The Augsburg Confession Article XX (\"Concerning Faith and Good Works\") and the Formula of Concord Article XI (\"Concerning God's Eternal Foreknowledge and Election\") both develop this carefully. The believer's eternal destiny is grounded in God's gracious election, sustained through the Holy Spirit's work, and consummated at the resurrection. The believer's part is to receive what God has given through Word and Sacrament; the keeping is God's work throughout.",
+      "new": "Augsburg Confession XX and Formula of Concord, Solid Declaration XI 12–16, place good works and election inside God's gracious work in Christ. The Formula directs the believer away from speculation about God's hidden foreknowledge to Christ as revealed in the Word, through which the benefits of Christ are offered and given together with the sacraments. The believer receives rather than earns the inheritance; God's promise, not ongoing achievement, is the ground of assurance.",
+      "reason": "Tighten the election claim to what the verified confessional passage states.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-015",
+      "slug": "kleronomos",
+      "old": "The believer is “by God’s power for the salvation that is ready to be revealed in the last time.”",
+      "new": "The believer is “shielded by God’s power for the salvation that is ready to be revealed in the last time” (1 Peter 1:5, BSB).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-004",
+      "slug": "kleronomos",
+      "old": "*Aphtharton kai amianton kai amaranton* — \"imperishable, undefiled, and unfading, reserved in heaven for you, who through faith are shielded by God’s power for the salvation that is ready to be revealed in the last time.\"",
+      "new": "*Aphtharton kai amianton kai amaranton* — “imperishable, undefiled, and unfading.”",
+      "reason": "Restore the adjective phrase used by the sentence.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-004-B",
+      "slug": "kleronomos",
+      "old": "The believer’s inheritance is “and into an inheritance that is imperishable, undefiled, and unfading, reserved in heaven for you,”",
+      "new": "The believer’s inheritance is “imperishable, undefiled, and unfading”",
+      "reason": "Restore the repeated adjective phrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-016",
+      "slug": "klesis",
+      "old": "Paul has been speaking of “Brothers, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead,” (v. 13).",
+      "new": "Paul has been speaking of “forgetting what is behind and straining toward what is ahead” (v. 13).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-010",
+      "slug": "klesis",
+      "old": "The verb itself occurs about 150 times; *klēsis* about ten times; *klētos* about ten times; *ekklēsia* about 110 times.",
+      "new": "In the pinned Nestle 1904 main text, the verb itself occurs 148 times, *klēsis* 11 times, *klētos* 10 times, and *ekklēsia* 114 times.",
+      "reason": "Regenerate the word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-022",
+      "slug": "koinonia",
+      "old": "The Christian is called *eis koinōnian tou huiou autou* — “into fellowship with His Son Jesus Christ our Lord, is faithful.”",
+      "new": "The Christian is called *eis koinōnian tou huiou autou* — “into fellowship with His Son Jesus Christ our Lord.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-009",
+      "slug": "krisis",
+      "old": "appears about forty-seven times in the New Testament.",
+      "new": "appears 47 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-005",
+      "slug": "leitourgia",
+      "old": "The Greek word is a compound. *Laos* or *leitos* (people, public) plus *ergon* (work) yields *leitourgia* — literally \"the work of the people\" or \"public work\" or \"public service.\"",
+      "new": "The Greek word combines an older element meaning “public” with *ergon* (“work”) and denotes a public service or service performed for the community. It should not be reverse-parsed as though it literally meant “the work of the people.”",
+      "reason": "Correct the lexical history.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-006",
+      "slug": "leitourgia",
+      "old": "*Laos* (people) — or its older Attic form *leitos* (public) — combined with *ergon* (work) yields the compound *leitourgia* — public service, the work of the people, civic service rendered for the community's benefit.",
+      "new": "An older element meaning “public” combined with *ergon* (“work”) gives the historically attested sense “public service”: civic service rendered for the community’s benefit.",
+      "reason": "Remove the reversed compound gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-007",
+      "slug": "leitourgia",
+      "old": "The corporate character is essential. *Leitourgia* is \"the work of the people\" — corporate, not just the individual believer's private devotion.",
+      "new": "The corporate character is established by the church’s gathered service in passages such as Acts 13:2, not by reverse-parsing the compound. *Leitourgia* here names public or cultic service, not merely private devotion.",
+      "reason": "Ground the theological inference in usage and text.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-008",
+      "slug": "leitourgia",
+      "old": "The *leitourgia* is \"the work of the people\" — corporate, not just individual.",
+      "new": "The New Testament’s gathered and priestly uses of *leitourgia* establish the corporate dimension; the etymology by itself does not.",
+      "reason": "Ground the pastoral claim in usage rather than etymology.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-009",
+      "slug": "leitourgia",
+      "old": "*Laos* (people) plus *ergon* (work) yields *leitourgia* — “the work of the people,” or “public service” —",
+      "new": "The word’s historical sense is “public service,” service performed for the community —",
+      "reason": "Correct the teacher application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-010",
+      "slug": "leitourgia",
+      "old": "the corporate dimension corrects — *leitourgia* is “the work of the people,” and the believer",
+      "new": "the corporate dimension corrects — the gathered New Testament uses of *leitourgia* are public and communal, and the believer",
+      "reason": "Correct the pastoral application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-016",
+      "slug": "logos",
+      "old": "shows up some 330 times in the New Testament",
+      "new": "appears 331 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-loutron",
+      "slug": "loutron",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-031",
+      "slug": "lytron",
+      "old": "*Exodus 13:13, 15* — “every firstborn donkey with a lamb, and if you do not redeem it,",
+      "new": "*Exodus 13:13, 15* — “You must redeem every firstborn donkey with a lamb, and if you do not redeem it,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-026",
+      "slug": "martyria",
+      "old": "“was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life.",
+      "new": "“That which was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FOLLOWUP-002",
+      "slug": "martyria",
+      "old": "we have seen it and testified … we have seen and heard",
+      "new": "we have seen it and testified to it … We proclaim to you what we have seen and heard",
+      "reason": "Restore the words and clause boundary of the pinned BSB text in the 1 John 1:1–3 splice.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-029",
+      "slug": "mathetes",
+      "old": "*2 Kings 6:1-7* — “of the prophets said to Elisha,",
+      "new": "*2 Kings 6:1-7* — “Now the sons of the prophets said to Elisha,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-007",
+      "slug": "mathetes",
+      "old": "appears over two hundred and fifty times in the New Testament",
+      "new": "appears 261 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-mesites",
+      "slug": "mesites",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-012",
+      "slug": "metanoia",
+      "old": "The Book of Concord, ed. Kolb and Wengert, 360.",
+      "new": "The Book of Concord, ed. Robert Kolb and Timothy J. Wengert (Fortress Press, 2000), Small Catechism IV.",
+      "reason": "Remove an unverified physical page number while retaining the stable document reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-044",
+      "slug": "metanoia",
+      "old": "In October of 1517, Martin Luther posted his Ninety-Five Theses on the door of the Castle Church in Wittenberg. The first thesis read:\n\n\"When our Lord and Master Jesus Christ said, 'Repent,' he willed the entire life of believers to be one of repentance.\"",
+      "new": "In October 1517, Martin Luther issued the Ninety-Five Theses. The first thesis argues that when Christ commanded repentance, He willed the entire life of believers to be a life of repentance.",
+      "reason": "Replace an unnamed Luther translation with a close paraphrase.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-006",
+      "slug": "monogenes",
+      "old": "The Nicene Creed says that Christ is “the only-begotten Son of God, begotten of His Father before all worlds … begotten, not made; being of one substance with the Father.”",
+      "new": "The Nicene Creed confesses Christ as the only-begotten Son of God, eternally begotten of the Father, not made, and of one substance with the Father.",
+      "reason": "Use a consistent paraphrase until a single creed translation and page are physically verified.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-007",
+      "slug": "monogenes",
+      "old": "when you confess in the Creed that Christ is “the only-begotten Son of God, begotten of the Father before all worlds,”",
+      "new": "when you confess in the Nicene Creed that Christ is the only-begotten Son, eternally begotten of the Father,",
+      "reason": "Use the same paraphrase at both appearances.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-004",
+      "slug": "monogenes",
+      "old": "First, the Son is eternally begotten. The Nicene Creed confesses Christ as the only-begotten Son of God, eternally begotten of the Father, not made, and of one substance with the Father. That language was not chosen casually. The Nicene fathers chose “begotten” (*gennēthenta*) and “not made” (*ou poiēthenta*) deliberately to mark off what they meant from what the Arians meant.",
+      "new": "First, the Son is eternally begotten. The Nicene Creed confesses Christ as the only Son of God, begotten from the Father before all the ages, begotten rather than made, and of one Being with the Father (Nicene Creed 2–3). That language was not chosen casually. The Nicene fathers chose “begotten” (*gennēthenta*) and “not made” (*ou poiēthenta*) deliberately to mark off what they meant from what the Arians meant.",
+      "reason": "Align the creed summary with the verified Kolb–Wengert wording and paragraph locator.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-005",
+      "slug": "monogenes",
+      "old": "The pastoral payoff is that the Creed and the BSB can be read together with confidence. The Creed’s “begotten of the Father before all worlds” confesses the Son’s eternal relationship to the Father. The BSB's wording should be heard in its full biblical context, with the Son’s uniqueness and deity clearly in view.",
+      "new": "The pastoral payoff is that the Creed and the BSB can be read together with confidence. The Creed's confession that the Son is begotten from the Father before all the ages names His eternal relationship to the Father. The BSB's wording should be heard in its full biblical context, with the Son's uniqueness and deity clearly in view.",
+      "reason": "Use the selected creed translation consistently.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-006",
+      "slug": "monogenes",
+      "old": "For most readers, the practical takeaway is short: when you confess in the Nicene Creed that Christ is the only-begotten Son, eternally begotten of the Father, you are saying what your Bible also says, just sometimes in different words. The Bible verse and the creedal phrase are not in conflict. They are using complementary language for the same eternal reality.",
+      "new": "For most readers, the practical takeaway is short: when you confess in the Nicene Creed that Christ is the only Son, begotten from the Father before all the ages, you are saying what your Bible also says, just sometimes in different words. The Bible verse and the creedal phrase are not in conflict. They are using complementary language for the same eternal reality.",
+      "reason": "Use the selected creed translation consistently in the application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-007",
+      "slug": "monogenes",
+      "old": "For the Sunday school teacher and the small-group leader, the task is to show how the BSB's “one and only Son” belongs with the Creed’s confession of the Son as eternally begotten, not made, of one substance with the Father.",
+      "new": "For the Sunday school teacher and the small-group leader, the task is to show how the BSB's “one and only Son” belongs with the Creed's confession of the Son as begotten before all the ages, not made, and of one Being with the Father.",
+      "reason": "Use the selected creed translation consistently in the teacher application.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-036",
+      "slug": "mysterion",
+      "old": "Apology XIII calls the sacraments \"rites which have the command of God and to which the promise of grace has been added,\" and explicitly notes that \"sacrament\" was the Latin equivalent of the Greek \"mystery.\"",
+      "new": "Apology XIII 3–4 describes sacraments as rites commanded by God and joined to a promise of grace, and notes the relationship between the Latin term “sacrament” and the Greek “mystery.”",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-001",
+      "slug": "mysterion",
+      "old": "Second, the mystery is delivered through means. This is where *mystērion* becomes the theological foundation for the sacraments. The Latin Vulgate's translation choice — *mysterium* and *sacramentum* — was not arbitrary; it captured a real connection between the New Testament mystery (hidden then, revealed now) and the church's practices in which Christ Himself is delivered through visible means joined to the Word. What is the Lord's Supper? The mystery — the body and blood of Christ — given through bread and wine joined to Christ's words of institution (we will treat this in [Anamnēsis](/greek/anamnesis/), [Sōma](/greek/soma/), [Haima](/greek/haima/), [Artos](/greek/artos/)). What is baptism? The mystery — death and resurrection with Christ — given through water joined to the Word ([Baptizō](/greek/baptizo/), [Paliggenesia](/greek/paliggenesia/)). The sacraments are mysteries because they deliver Christ Himself in tangible, visible form, by means He has appointed for the purpose.",
+      "new": "Second, the mystery is delivered through means. The New Testament's use of *mystērion* illuminates the sacraments, but it does not by itself define or count them. In Baptism and the Lord's Supper, Christ gives His promised grace through water, bread, and wine joined to His Word; in absolution, He gives forgiveness through the spoken Word. The certainty rests on Christ's command and promise, not on an etymological equation between *mystērion* and *sacramentum*. The mystery once hidden and now revealed is Christ, and He gives Himself through the external means He has instituted.",
+      "reason": "Distinguish New Testament mystery language from the confessional definition and enumeration of sacraments.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-002",
+      "slug": "mysterion",
+      "old": "This is what the Augsburg Confession and the Apology mean by their treatments of the sacraments. Apology XIII 3–4 describes sacraments as rites commanded by God and joined to a promise of grace, and notes the relationship between the Latin term “sacrament” and the Greek “mystery.” The Lutheran retention of two sacraments rests on the dominical institution and the visible-element-plus-Word structure. The medieval expansion to seven sacraments overextended the lexical foundation; the Lutheran retention to two is the more careful reading of what mystery actually delivers in the New Testament's actual usage. Christ is the mystery; the sacraments deliver Christ; the count is whatever Christ Himself instituted with a visible element joined to His Word.",
+      "new": "Apology XIII 3–5 supplies the careful definition: sacraments, properly speaking, are rites that have God's command and to which a promise of grace has been added. It explicitly names Baptism, the Lord's Supper, and absolution, while allowing that faithful enumerations may differ if the matters instituted in Scripture are preserved. The Apology does not derive this definition or count from the Greek word *mystērion*. The stronger connection is theological: Christ, once hidden and now revealed in the gospel, gives His promised grace through the external Word and the rites He instituted.",
+      "reason": "Correct the sacrament count and remove an attribution not present in Apology XIII.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-mythos",
+      "slug": "mythos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-orthotomeo",
+      "slug": "orthotomeo",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-paratheke",
+      "slug": "paratheke",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-045",
+      "slug": "parousia",
+      "old": "The Augsburg Confession Article XVII gives the foundational Lutheran statement: “Also taught among us is that our Lord Jesus Christ will return on the Last Day for judgment and will raise up all the dead, to give eternal life and everlasting joy to believers and the elect but to condemn ungodly people and the devil to hell and eternal punishment.”",
+      "new": "Augsburg Confession XVII 1–3 gives the foundational Lutheran statement: Christ will return on the Last Day for judgment, raise all the dead, give eternal life and everlasting joy to believers and the elect, and condemn the ungodly and the devil to hell and eternal punishment.",
+      "reason": "Paraphrase a long, unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-003",
+      "slug": "parrhesia",
+      "old": "the final clause of the entire book reads: “proclaimed the kingdom of God and taught about the Lord Jesus Christ” — *meta pasēs parrhēsias akōlytōs*.",
+      "new": "the final clause of the entire book reads: “Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ” — *meta pasēs parrhēsias akōlytōs*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-060",
+      "slug": "pater",
+      "old": "translit: \"Pater\"",
+      "new": "translit: \"Patēr\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-051",
+      "slug": "pistos-ho-logos",
+      "old": "*If we died with him, we will also live with him.*\n*If we endure, we will also reign with him.*\n*If we deny him, he will also deny us.*",
+      "new": "*If we died with Him, we will also live with Him.*\n*If we endure, we will also reign with Him.*\n*If we deny Him, He will also deny us.*",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-065-pistos-ho-logos",
+      "slug": "pistos-ho-logos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-029",
+      "slug": "pleroma",
+      "old": "He warns about “See to it that no one takes you captive through philosophy and empty deception, which are based on human tradition and the spiritual forces of the world rather than on Christ.” (Colossians 2:8, BSB) in the verse just before our key passage.",
+      "new": "In the verse just before the key passage, he warns: “See to it that no one takes you captive through philosophy and empty deception, which are based on human tradition and the spiritual forces of the world rather than on Christ” (Colossians 2:8, BSB).",
+      "reason": "Repair the whole-verse fallback frame.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-034",
+      "slug": "pneuma",
+      "old": "The Spirit poured out on us \"through Jesus Christ our Savior\" Again — the Spirit comes through the Son.",
+      "new": "The Spirit is poured out on us “through Jesus Christ our Savior.” Again, the Spirit comes through the Son.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-035",
+      "slug": "pneuma",
+      "old": "the Augsburg Confession states with particular clarity in Article V: God instituted the ministry of the Word and the sacraments so that \"through these, as through means, he gives the Holy Spirit, who effects faith, where and when he wills, in those who hear the gospel.\"",
+      "new": "Augsburg Confession V 1–2 states with particular clarity that God instituted the ministry of the Word and the sacraments so that through these means He gives the Holy Spirit, who creates faith where and when God wills in those who hear the gospel.",
+      "reason": "Paraphrase the repeated unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-037",
+      "slug": "presbyteros",
+      "old": "The Augsburg Confession’s principle that “it is enough for the true unity of the Christian church that the gospel is preached harmoniously according to a pure understanding and the sacraments are administered in conformity with the divine Word” (AC VII)",
+      "new": "The principle of Augsburg Confession VII 2 that agreement in pure gospel preaching and sacramental administration is sufficient for the church’s true unity",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-003",
+      "slug": "presbyteros",
+      "old": "Ordination is a public confirmation of the call and a setting-apart for the office through prayer and the laying on of hands, not a sacramental conferring of an indelible ontological character. The Lutheran tradition has held that ordination is a salutary church order rooted in apostolic practice but not strictly a sacrament in the technical sense (because Christ has not specifically instituted it with a promised gift apart from confirming the call). The man set apart is the same kind of being as the men he serves; what distinguishes him is the call to the office, not a different metaphysical standing.",
+      "new": "Ordination is a public confirmation of the call and a setting-apart for the office through prayer and the laying on of hands, not the conferral of an indelible ontological character that turns the minister into a sacrificing priest. Apology XIII 11–13 nevertheless says Lutherans have no objection to calling ordination—and the laying on of hands—a sacrament when it is understood with reference to the ministry of the Word, because that ministry has God's command and promises. The point is the divinely instituted office and call, not a different metaphysical class of Christian.",
+      "reason": "Represent the Apology's express willingness to call ordination a sacrament in the stated sense.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-030",
+      "slug": "proselytos",
+      "old": "*Isaiah 56:3, 6-8* — “no foreigner who has joined himself to the LORD say,",
+      "new": "*Isaiah 56:3, 6-8* — “Let no foreigner who has joined himself to the LORD say,",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-061",
+      "slug": "proselytos",
+      "old": "translit: \"Proselytos\"",
+      "new": "translit: \"Prosēlytos\"",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-032",
+      "slug": "proselytos",
+      "old": "title: \"Proselytos (προσήλυτος)\"",
+      "new": "title: \"Prosēlytos (προσήλυτος)\"",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-033",
+      "slug": "proselytos",
+      "old": "linkTitle: \"Proselytos\"",
+      "new": "linkTitle: \"Prosēlytos\"",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-034",
+      "slug": "proselytos",
+      "old": "description: \"Proselytos (προσήλυτος)",
+      "new": "description: \"Prosēlytos (προσήλυτος)",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-035",
+      "slug": "proselytos",
+      "old": "*Proselytos* (προσήλυτος)",
+      "new": "*Prosēlytos* (προσήλυτος)",
+      "reason": "Normalize the reader-visible transliteration within the record.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-036",
+      "slug": "proselytos",
+      "old": "*Proselytos* in the New Testament",
+      "new": "*Prosēlytos* in the New Testament",
+      "reason": "Normalize the repeated reader-visible transliteration.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-013",
+      "slug": "proseuche",
+      "old": "intercession is to be made “all people” (1 Timothy 2:1, BSB)",
+      "new": "intercession is to be made “for everyone” (1 Timothy 2:1, BSB)",
+      "reason": "Use the pinned BSB wording.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-014",
+      "slug": "proseuche",
+      "old": "Used about nineteen times in the New Testament.",
+      "new": "Used 18 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-015",
+      "slug": "proseuche",
+      "old": "Used about fifteen times in the New Testament.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-028",
+      "slug": "prothesis",
+      "old": "*Matthew 12:1-8 / Mark 2:23-28 / Luke 6:1-5 (the showbread incident).* “you not read what David did when he and his companions were hungry?",
+      "new": "*Matthew 12:1-8 / Mark 2:23-28 / Luke 6:1-5 (the showbread incident).* “Have you not read what David did when he and his companions were hungry?",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-020",
+      "slug": "prothesis",
+      "old": "Used over a hundred times in the New Testament",
+      "new": "Used ninety-nine times in the pinned Nestle 1904 main text",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-001",
+      "slug": "prototokos",
+      "old": "The Pauline Christological hymn of Colossians, treating Christ as “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” (v. 15) and \"firstborn from among the dead\" (v. 18).",
+      "new": "The Pauline Christological hymn of Colossians, treating Christ as “the firstborn over all creation” (v. 15) and “the firstborn from among the dead” (v. 18).",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-001",
+      "slug": "prototokos",
+      "old": "The argument of Colossians 1:15-20 unfolds in a way that settles the question of how *prōtotokos pasēs ktiseōs* should be read. After calling Christ “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him” in verse 15, Paul immediately explains in verse 16: “The Son is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him. He is before all things, and in Him all things hold together. And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence. For God was pleased to have all His fullness dwell in Him, and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.” The reason Christ is *prōtotokos* of creation is that He is the *agent* of creation. He is the One through whom and for whom all things were made. He cannot be a member of the created order; He is the One by whom the created order exists.",
+      "new": "The argument of Colossians 1:15–20 settles how *prōtotokos pasēs ktiseōs* should be read. After calling Christ “the firstborn over all creation” in verse 15, Paul explains in verse 16: “For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” Christ is the agent of creation, not a member of the created order.",
+      "reason": "Remove the duplicated Colossians material and align each quotation with its verse.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-004",
+      "slug": "rhema",
+      "old": "*Psalm 33:6, 9* — “the LORD the heavens were made, and all the stars by the breath of His mouth. … For He spoke, and it came to be; He commanded, and it stood firm.”",
+      "new": "*Psalm 33:6, 9* — “By the word of the LORD the heavens were made, and all the stars by the breath of His mouth. … For He spoke, and it came to be; He commanded, and it stood firm.”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-012",
+      "slug": "sarx",
+      "old": "confidence “human credentials” (Philippians 3:3–4, BSB)",
+      "new": "“put no confidence in the flesh” (Philippians 3:3–4, BSB), including confidence in human credentials",
+      "reason": "Separate the BSB quotation from the explanatory gloss.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-038",
+      "slug": "soma",
+      "old": "The Augsburg Confession Article X states it directly: \"Concerning the Supper of the Lord they teach that the body and blood of Christ are truly present and are distributed to those who eat the Supper of the Lord; and they disapprove of those who teach otherwise.\"",
+      "new": "Augsburg Confession X confesses that Christ’s body and blood are truly present and distributed to those who eat the Lord’s Supper.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-039",
+      "slug": "soma",
+      "old": "Christ's \"true body and blood are truly and essentially present in the Supper, distributed, and received under the bread and wine.\"",
+      "new": "Christ’s true body and blood as truly and essentially present, distributed, and received under the bread and wine (Formula of Concord, Solid Declaration VII 35)",
+      "reason": "Paraphrase an unidentified confessional translation and add a stable paragraph reference.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-soter",
+      "slug": "soter",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-043",
+      "slug": "sozo",
+      "old": "The name *Jesus* is the etymological seed of every saving word in the New Testament.",
+      "new": "The name *Jesus* — “YHWH saves” — announces in Hebrew what the Greek New Testament proclaims with its saving vocabulary.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-009",
+      "slug": "teleios",
+      "old": "Hebrews 12:2 names Christ as “our eyes on Jesus, the author and perfecter of our faith,",
+      "new": "Hebrews 12:2 names Christ as “the author and perfecter of our faith”",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-038",
+      "slug": "thanatos",
+      "old": "This is the more common verb in the New Testament for \"to die\" or \"to be dying.\" Used hundreds of times in the gospels, Acts, and the epistles.",
+      "new": "This is the more common verb in the New Testament for “to die.” Used over a hundred times in the Gospels, Acts, and the Epistles.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-021",
+      "slug": "thanatos",
+      "old": "*Thnēskō* (θνῄσκω) — the verb \"to die.\" A relatively uncommon form in the New Testament; most appearances are in the perfect tense (*tethnēka*, \"I have died\") or the present participle (*thnēskontes*, \"those who are dying\").",
+      "new": "*Thnēskō* (θνῄσκω) — the verb “to die.” It appears nine times in the pinned Nestle 1904 main text, all in perfect forms.",
+      "reason": "State the verified count and morphology.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-040",
+      "slug": "thanatos",
+      "old": "human beings since the Fall are \"born with sin, that is, without fear of God, without trust in God, and with concupiscence.\"",
+      "new": "human beings since the Fall are born with sin, without fear of God or trust in God, and with concupiscence (Augsburg Confession II 1).",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-065-theopneustos",
+      "slug": "theopneustos",
+      "old": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "new": "",
+      "reason": "Remove copied false frontmatter provenance.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-006",
+      "slug": "theos",
+      "old": "*The “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God.”* 2 Corinthians 4:4 — Paul's description of Satan, “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God”",
+      "new": "*The “god of this age.”* 2 Corinthians 4:4 — Paul describes Satan as “the god of this age” who blinds the minds of unbelievers.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-007",
+      "slug": "theos",
+      "old": "after first identifying the lie as “Peter said, ‘Ananias, how is it that Satan has filled your heart to lie to the Holy Spirit",
+      "new": "after first identifying the lie as a lie “to the Holy Spirit” (Acts 5:3, BSB)",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "PASS2-042",
+      "slug": "theos",
+      "old": "The etymology runs back through Indo-European roots, where the reconstructed ancestor of *theos* is related distantly to Latin *deus* (god), Latin *dies* (day), and Sanskrit *dyaus* (sky-god, the source of the Greek divine name *Zeus*).",
+      "new": "The origin of *theos* is disputed; despite the resemblance, it is not the same etymological line as Latin *deus* or Sanskrit *dyaus*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-041",
+      "slug": "theos",
+      "old": "Augsburg Confession Article I opens with this: \"We unanimously hold and teach, in accordance with the decree of the Council of Nicaea, that there is one divine essence, which is called and which is truly God.\"",
+      "new": "Augsburg Confession I 1 opens by confessing, in accord with Nicaea, the one divine essence that is truly God.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-042",
+      "slug": "theos",
+      "old": "Augsburg Confession Article I continues: \"yet there are three persons, of the same essence and power, who also are coeternal, the Father, the Son, and the Holy Spirit.\"",
+      "new": "Augsburg Confession I 2 continues by confessing three coeternal persons of the same essence and power: Father, Son, and Holy Spirit.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-049",
+      "slug": "theotes",
+      "old": "The Formula of Concord Article VIII develops this at length, distinguishing three modes of the *communicatio idiomatum* — the *genus idiomaticum*, the *genus apotelesmaticum*, and the *genus maiestaticum*.",
+      "new": "Formula of Concord Article VIII develops the substance at length; later Lutheran dogmaticians summarized it under three headings — the *genus idiomaticum*, the *genus apotelesmaticum*, and the *genus maiestaticum*.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "SOURCE-043",
+      "slug": "theotes",
+      "old": "The Augsburg Confession Article III opens with this confession: Christ is \"true God and true man… both natures, the divine and the human, inseparably united in one person, one Christ.\"",
+      "new": "Augsburg Confession III 1–2 confesses Christ as true God and true man, with the divine and human natures inseparably united in one person.",
+      "reason": "Paraphrase an unidentified confessional translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "SOURCE-046",
+      "slug": "theotes",
+      "old": "It anchors the Christological confession of the Council of Nicaea (\"of one substance with the Father\"). It anchors the four privative adverbs of the Council of Chalcedon (\"without confusion, without change, without division, without separation\").",
+      "new": "It anchors Nicaea’s confession that the Son shares the Father’s divine substance and Chalcedon’s confession that the two natures are united without confusion, change, division, or separation.",
+      "reason": "Use concise council paraphrases pending selection of one English creed translation.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FOLLOWUP-001",
+      "slug": "theotes",
+      "old": "*Against the* extra Calvinisticum*.*",
+      "new": "*Against the extra Calvinisticum.*",
+      "reason": "Repair the stray Markdown emphasis delimiter.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-001",
+      "slug": "theotes",
+      "old": "The *genus maiestaticum* (the \"majestic genus\") teaches that the divine attributes are communicated *to the human nature* of Christ — so that the human nature, in the personal union, shares in the divine majesty, omnipotence, omniscience, and omnipresence. The human nature does not become divine; it remains human. But in the union, the human nature shares in divine attributes that belong properly to the divine nature. The Lutheran tradition saw this as the necessary consequence of *theotēs sōmatikōs*: if the whole fullness of deity dwells bodily in Christ, then His body shares in what the deity has.",
+      "new": "The *genus maiestaticum* concerns the majesty communicated in the personal union. The human nature does not become divine, cease to be human, or spread through creation by a natural omnipresence. Rather, the man Christ, by virtue of the personal union, can be present where He wills and can give what is His in the Supper (Formula of Concord, Solid Declaration VIII 78–85, 92). The divine nature remains infinite and omnipresent; the two natures remain distinct and inseparably united in the one Christ.",
+      "reason": "State the Formula’s position without attributing natural omnipresence to Christ’s humanity.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-002",
+      "slug": "theotes",
+      "old": "Lutheran theology rejected this with the slogan *Logos non extra carnem* — \"the Logos is not outside the flesh.\" The Lutheran reading of Colossians 2:9 takes *pan* and *sōmatikōs* with maximal seriousness. If the WHOLE fullness dwells BODILY, there is no \"extra\" Logos floating around outside the incarnate Christ. The whole Logos is the whole Christ, in His body.",
+      "new": "Lutheran theology does not deny that the Son of God, as God, is everywhere. It denies that He is ever anywhere *without* the humanity He has assumed. In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 85). Colossians 2:9 confesses the undivided incarnate Person; it does not circumscribe the divine nature within a local body.",
+      "reason": "Remove a non-confessional slogan and preserve both divine omnipresence and the inseparable personal union.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-003",
+      "slug": "theotes",
+      "old": "The Reformed *extra Calvinisticum* protects the transcendence of the divine nature (it cannot be circumscribed by a human body). The Lutheran *theotēs sōmatikōs* protects the unity of the incarnate Person (there is one Christ, and where He is, the whole Godhead is).",
+      "new": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). The Lutheran objection protects the unity of the incarnate Person: the Son is never present apart from the humanity He has assumed.",
+      "reason": "Clarify the actual point of disagreement.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-004",
+      "slug": "theotes",
+      "old": "The Lutheran objection is that it does not take *sōmatikōs* with full weight. If the whole fullness of deity dwells in the body, then the divine nature is not “also outside” the body in the way the Reformed tradition has wanted to say. The Lutheran reading honors the *sōmatikōs* by refusing to add an “also outside.”",
+      "new": "The Lutheran objection is not to the Logos being everywhere but to a Logos who is somewhere *apart from* His flesh. An “also outside” can describe the divine nature’s infinity; it cannot mean that the Son is present where the man Christ is absent. The Lutheran reading holds divine omnipresence and the inseparable personal union together.",
+      "reason": "Correct the extra Calvinisticum formulation without changing the article’s confessional position.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-013",
+      "slug": "theotes",
+      "old": "*in him* — Christ is the place, not also somewhere else;",
+      "new": "*in him* — the fullness dwells in the incarnate Christ without circumscribing the divine nature;",
+      "reason": "Remove the last implication that the divine nature is locally confined.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-014",
+      "slug": "theotes",
+      "old": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). The Lutheran objection protects the unity of the incarnate Person: the Son is never present apart from the humanity He has assumed.",
+      "new": "The Reformed *extra Calvinisticum* protects the integrity of the divine nature (it cannot be circumscribed by a human body). Heidelberg Catechism Q. 48 says Christ’s divinity is beyond the bounds of the humanity He assumed while remaining personally united to it. The Lutheran objection therefore does not charge the Reformed with simply separating Christ’s person; it locates the disagreement in whether and how the assumed humanity shares the divine majesty and presence. The Lutheran confession is that the Son is never present apart from the humanity He has assumed.",
+      "reason": "Represent the Reformed affirmation of the personal union and locate the narrower confessional dispute.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-015",
+      "slug": "theotes",
+      "old": "The Reformed doctrine of the Supper, by contrast, holds that Christ's body is locally in heaven (since His humanity is finite) but that the believer is united with Christ by the Spirit's work, lifting the believer to the heavenly Christ. This is internally consistent with the *extra Calvinisticum* — the divine nature is also outside the flesh, sustaining the elements and uniting the believer with Christ by spiritual means. The Lutheran doctrine, by contrast, is internally consistent with *theotēs sōmatikōs* — the body and blood are truly present in the Supper because the whole Christ is given where His body is.",
+      "new": "The Reformed doctrine of the Supper, by contrast, holds that Christ's body is locally in heaven while His omnipresent divinity remains personally united to His humanity; by the Spirit’s work, the believer is united with the heavenly Christ. The Lutheran doctrine holds that the body and blood are truly present in the Supper because the whole Christ is given where He promises to give His body and blood.",
+      "reason": "Remove the spatially ambiguous 'outside the flesh' restatement and describe both sacramental positions more precisely.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "THEOL-016",
+      "slug": "theotes",
+      "old": "The two views are not minor variations on the same Christology; they are two different Christologies playing out into two different sacramental theologies.",
+      "new": "The two views are not minor variations; they are distinct accounts of Christ’s presence and the communication of divine majesty to His humanity, with different sacramental consequences.",
+      "reason": "Avoid implying that the Reformed deny the ecumenical doctrine of Christ while preserving the real disagreement.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "CONF-009",
+      "slug": "theotes",
+      "old": "In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 85).",
+      "new": "In Luther’s words, quoted by the Formula, wherever God is placed, the humanity must be placed there too; the two do not permit themselves to be separated (Formula of Concord, Solid Declaration VIII 82–84).",
+      "reason": "Correct the paragraph locator for the verified Luther quotation.",
+      "origin": "focused-local-review"
+    }
+  ]
+}

@@ -1053,7 +1053,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <h2>Greek definitions and word studies</h2>
             <p>Short and longer definitions come from John Jeffrey Dodson’s Greek Lexicon (2010), using the pinned Biblical Humanities Unicode XML. Its original author notice dedicates the lexicon to the public domain; the repository also supplies CC0 terms. Headword and source-number agreement are required; uncertain matches remain unavailable. Definitions describe a word’s meaning range, not an automatic interpretation of a verse.</p>
             <p>{environment.wordStudyDescription}</p>
-            <p><a href="/lexical/dodson-2010-v4/manifest.json">Lexicon and word-link source records and checksums</a></p>
+            <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
               Ad Fontes NT is now in public release-candidate status. The live
@@ -1065,7 +1065,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               with their documented limitations.
             </p>
             <p>
-              Version 1.0.0-rc.6 is the current cross-platform desktop
+              Version 1.0.0-rc.7 is the current cross-platform desktop
               candidate. The macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "textReleaseId": "n1904-2026-09-05-m2-v1",
+  "analysisReleaseId": "nestle-analysis-1.3-m3-v1",
+  "unavailableVerses": [
+    "1TI.1.16",
+    "2TH.2.13"
+  ],
+  "changedClaimCount": 28,
+  "changes": [
+    {
+      "id": "FREQ-001",
+      "slug": "agape",
+      "old": "The verbal form occurs more than 140 times in the New Testament; the noun more than 110 times; the adjective about sixty times.",
+      "new": "In the pinned Nestle 1904 main text, the verbal form occurs 142 times, the noun 116 times, and the adjective 61 times.",
+      "reason": "Regenerate the three word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-002",
+      "slug": "amen",
+      "old": "The word appears about 129 times in the New Testament.",
+      "new": "The word appears 126 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-008",
+      "slug": "anastasis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019",
+      "slug": "apostolos",
+      "old": "appears 132 times.",
+      "new": "appears 131 times in the pinned Nestle 1904 main text.",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-019-B",
+      "slug": "apostolos",
+      "old": "Used 132 times in the New Testament",
+      "new": "Used 131 times in the pinned Nestle 1904 main text",
+      "reason": "Align the repeated cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-003",
+      "slug": "apostolos",
+      "old": "appears about eighty times in the New Testament.",
+      "new": "appears 79 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-036",
+      "slug": "artos",
+      "old": "Paul says “this bread” (1 Corinthians 11:26–28, BSB) eight times across five verses, after the consecration, after the participation in the body.",
+      "new": "Paul continues to call it “bread” after the consecration—four times in 1 Corinthians 11:23–28, including “this bread” in verse 26.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-017",
+      "slug": "artos",
+      "old": "appears about ninety times across the four Gospels, Acts, and the Epistles",
+      "new": "appears ninety-seven times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-040",
+      "slug": "authenteo",
+      "old": "*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.",
+      "new": "In the Pastoral Epistles, *parathēkē* appears three times, *eusebeia* ten, and *epiphaneia* five.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-004",
+      "slug": "basileia",
+      "old": "appears about 162 times in the New Testament.",
+      "new": "appears 162 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-039",
+      "slug": "chara",
+      "old": "uses *chara* — \"joy\" — and *chairō* — \"to rejoice\" — sixteen times in four short chapters.",
+      "new": "uses *chara* — “joy” — and *chairō* — “to rejoice” — fourteen times in four short chapters.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-005",
+      "slug": "chara",
+      "old": "Used about seventy-five times in the New Testament.",
+      "new": "Used 74 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-037",
+      "slug": "didaskalia",
+      "old": "The Greek New Testament has a striking phrase that appears nine times in the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) and almost nowhere else. The phrase is *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The Greek adjective *hygiainō* is the standard medical term",
+      "new": "The Greek New Testament has a striking expression that appears four times in the Pastoral Epistles: *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The verb *hygiainō* occurs eight times in the Pastorals; *hygiainousa* is its participle. The verb is the standard medical term",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "FREQ-006",
+      "slug": "ergon",
+      "old": "appears over one hundred and sixty times in the New Testament.",
+      "new": "appears 169 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-011",
+      "slug": "kaine-ktisis",
+      "old": "appears about forty-two times in the New Testament.",
+      "new": "appears 42 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-012",
+      "slug": "kaine-ktisis",
+      "old": "appears about nineteen times in the New Testament.",
+      "new": "appears 19 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-013",
+      "slug": "kaine-ktisis",
+      "old": "Used about fifteen times.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-018",
+      "slug": "karpos",
+      "old": "appears sixty-seven times in the New Testament",
+      "new": "appears sixty-six times in the pinned Nestle 1904 main text",
+      "reason": "Align the headword count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-017",
+      "slug": "kerygma",
+      "old": "appears more than sixty times in the New Testament.",
+      "new": "appears 61 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-010",
+      "slug": "klesis",
+      "old": "The verb itself occurs about 150 times; *klēsis* about ten times; *klētos* about ten times; *ekklēsia* about 110 times.",
+      "new": "In the pinned Nestle 1904 main text, the verb itself occurs 148 times, *klēsis* 11 times, *klētos* 10 times, and *ekklēsia* 114 times.",
+      "reason": "Regenerate the word-family counts from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-009",
+      "slug": "krisis",
+      "old": "appears about forty-seven times in the New Testament.",
+      "new": "appears 47 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-016",
+      "slug": "logos",
+      "old": "shows up some 330 times in the New Testament",
+      "new": "appears 331 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-007",
+      "slug": "mathetes",
+      "old": "appears over two hundred and fifty times in the New Testament",
+      "new": "appears 261 times in the pinned Nestle 1904 main text",
+      "reason": "Regenerate the headword count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-014",
+      "slug": "proseuche",
+      "old": "Used about nineteen times in the New Testament.",
+      "new": "Used 18 times in the pinned Nestle 1904 main text.",
+      "reason": "Regenerate the cognate count from the pinned analysis index.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "FREQ-015",
+      "slug": "proseuche",
+      "old": "Used about fifteen times in the New Testament.",
+      "new": "Used 15 times in the pinned Nestle 1904 main text.",
+      "reason": "Identify the edition behind the count.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "LOCAL-020",
+      "slug": "prothesis",
+      "old": "Used over a hundred times in the New Testament",
+      "new": "Used ninety-nine times in the pinned Nestle 1904 main text",
+      "reason": "Align the cognate count with the application corpus.",
+      "origin": "focused-local-review"
+    },
+    {
+      "id": "PASS2-038",
+      "slug": "thanatos",
+      "old": "This is the more common verb in the New Testament for \"to die\" or \"to be dying.\" Used hundreds of times in the gospels, Acts, and the epistles.",
+      "new": "This is the more common verb in the New Testament for “to die.” Used over a hundred times in the Gospels, Acts, and the Epistles.",
+      "origin": "claude-audit-reconciled"
+    },
+    {
+      "id": "LOCAL-021",
+      "slug": "thanatos",
+      "old": "*Thnēskō* (θνῄσκω) — the verb \"to die.\" A relatively uncommon form in the New Testament; most appearances are in the perfect tense (*tethnēka*, \"I have died\") or the present participle (*thnēskontes*, \"those who are dying\").",
+      "new": "*Thnēskō* (θνῄσκω) — the verb “to die.” It appears nine times in the pinned Nestle 1904 main text, all in perfect forms.",
+      "reason": "State the verified count and morphology.",
+      "origin": "focused-local-review"
+    }
+  ],
+  "fullLemmaTable": "LEMMA-FREQUENCIES.json"
+}

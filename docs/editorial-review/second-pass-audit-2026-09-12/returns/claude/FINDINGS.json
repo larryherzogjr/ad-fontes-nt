@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 2,
+  "auditId": "afnt-second-pass-editorial-audit-2026-09-12-return-v1",
+  "packetManifestSha256": "9b0a50e434974078125e877a6e8a703ea73eee643a2270fbc2ad55a0d23261a7",
+  "findings": [
+    {
+      "id": "PASS2-001",
+      "corpus": "om-article",
+      "recordId": "prototokos",
+      "file": "corpora/om-articles/prototokos.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The Pauline Christological hymn of Colossians, treating Christ as “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” (v. 15) and \"firstborn from among the dead\" (v. 18).",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "A phrase-level quotation (originally the title 'the firstborn of all creation') was replaced by the full BSB text of Colossians 1:15–16, so the sentence now reads 'treating Christ as “is the image…”', the quotation labelled '(v. 15)' actually contains verse 16 as well, and the same Colossians 1:15–16 text is then printed twice more in the next paragraph ('After calling Christ “is the image … for Him” in verse 15, Paul immediately explains in verse 16: “The Son is the image …”'), so verse 15 is quoted as the explanation of verse 15.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/prototokos.md",
+          "locator": "line 95",
+          "observation": "Three near-identical Colossians 1:15–16 quotations at lines 70–74; the second and third are introduced as 'in verse 15' and 'in verse 16' respectively although both contain the same two-verse text; the first is labelled '(v. 15)' but includes v. 16."
+        }
+      ],
+      "claimScope": "Colossians 1:15–16, BSB, as quoted in the article.",
+      "plausibleAlternative": "The original sentence quoted only the title 'the firstborn over all creation' (v. 15) and then quoted v. 16 alone as Paul's explanation.",
+      "suggestedMinimalCorrection": "Restore phrase-level quotations: 'treating Christ as “the firstborn over all creation” (v. 15) and “the firstborn from among the dead” (v. 18)'; in the following paragraph quote v. 15's title once and then v. 16 alone ('For in Him all things were created …'). Larry to confirm exact BSB wording.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-002",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "Luke specifies *eparas tas cheiras autou* — “Aaron lifted up his hands toward the people and blessed them. And having made the sin offering, the burnt offering, and the peace offering, he stepped down.”",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "A Greek phrase from Luke 24:50 (ἐπάρας τὰς χεῖρας αὐτοῦ, 'lifting up His hands') is glossed with the BSB text of Leviticus 9:22, which the paragraph then quotes again with its correct reference two sentences later. The gloss therefore attributes Leviticus wording to Luke and misrepresents what Luke 'specifies'.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eulogeo.md",
+          "locator": "line 121",
+          "observation": "Same Leviticus 9:22 sentence appears with its correct label later in the same paragraph ('Leviticus 9:22 — \"Aaron lifted up his hands toward the people and blessed them…\"'), proving the first quotation is misattributed."
+        }
+      ],
+      "claimScope": "Luke 24:50 (Greek phrase) vs. Leviticus 9:22 (English quotation).",
+      "plausibleAlternative": "The original text almost certainly glossed the Greek as 'lifting up His hands' (Luke 24:50, BSB).",
+      "suggestedMinimalCorrection": "Replace the misattributed quotation with the BSB rendering of the Luke 24:50 phrase (e.g., 'He lifted up His hands and blessed them'), keeping the Leviticus 9:22 quotation where it is.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-003",
+      "corpus": "om-article",
+      "recordId": "parrhesia",
+      "file": "corpora/om-articles/parrhesia.md",
+      "section": "<pre>",
+      "exactExcerpt": "the final clause of the entire book reads: “proclaimed the kingdom of God and taught about the Lord Jesus Christ” — *meta pasēs parrhēsias akōlytōs*.",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The quotation offered as 'the final clause of the entire book' omits the very words the article is about. BSB Acts 28:31 reads 'Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ' (the article itself quotes it that way in the block quotation of Acts 28:30–31 later in the same file), and the Greek given, *meta pasēs parrēsias akōlytōs*, is precisely the part that has been cut from the English.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/parrhesia.md",
+          "locator": "line 37",
+          "observation": "Block quotation later in the same article: '(Acts 28:30–31, BSB)' contains 'Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ.' The inline quotation begins at 'proclaimed', dropping 'Boldly and freely'."
+        }
+      ],
+      "claimScope": "Acts 28:31, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Quote the clause with its adverbs: 'Boldly and freely he proclaimed the kingdom of God and taught about the Lord Jesus Christ' — or quote only 'Boldly and freely' with the Greek.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-004",
+      "corpus": "om-article",
+      "recordId": "rhema",
+      "file": "corpora/om-articles/rhema.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Psalm 33:6, 9* — “the LORD the heavens were made, and all the stars by the breath of His mouth. … For He spoke, and it came to be; He commanded, and it stood firm.”",
+      "category": "scripture-reference-or-quotation",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The quotation begins mid-clause at 'the LORD the heavens were made', dropping the opening words 'By the word of' — the words that make the verse relevant to a study of *rhēma* (LXX Psalm 32:6 ῥήματι). As printed the English is ungrammatical and the citation no longer shows the point being made.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/rhema.md",
+          "locator": "line 79",
+          "observation": "Quotation opens with a lowercase 'the LORD the heavens were made'; BSB Psalm 33:6 opens 'By the word of the LORD the heavens were made'."
+        }
+      ],
+      "claimScope": "Psalm 33:6 (BSB); LXX Psalm 32:6.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Restore the opening of the verse: 'By the word of the LORD the heavens were made, and all the stars by the breath of His mouth.'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-005",
+      "corpus": "om-article",
+      "recordId": "ethnos",
+      "file": "corpora/om-articles/ethnos.md",
+      "section": "The Word",
+      "exactExcerpt": "Used once, at Galatians 2:14 — Peter “live[d] like a Gentile and not like a Jew” ‘If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews’” (*ethnikōs zēs*)",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Two renderings of Galatians 2:14 are printed back to back as if one quotation: the older adapted phrase '“live[d] like a Gentile and not like a Jew”' followed immediately by the inserted BSB sentence '‘If you, who are a Jew, live like a Gentile … live like Jews’”'. Quotation marks are unbalanced (an opening ‘ with a closing ”), and the sentence no longer parses.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/ethnos.md",
+          "locator": "line 59",
+          "observation": "Line 34: the phrase quotation and the full BSB sentence are adjacent with no connector; the paragraph has one more closing curly quote than opening (curly-quote imbalance detected by scan)."
+        }
+      ],
+      "claimScope": "Galatians 2:14, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Keep one quotation: 'Used once, at Galatians 2:14 — “If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?” (*ethnikōs zēs*) …' and delete the residual bracketed rendering.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-006",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "*The “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God.”* 2 Corinthians 4:4 — Paul's description of Satan, “the god of this age has blinded the minds of unbelievers, so they cannot see the light of the gospel of the glory of Christ, who is the image of God”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The italic run-in heading of this sense-entry (originally *The “god of this age.”*) had its short quoted phrase replaced by the whole BSB verse, producing the garbled heading '*The “the god of this age has blinded …”*' immediately followed by the same full verse quoted again in the body. The heading now duplicates the body and no longer names the sense.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 82",
+          "observation": "Line 57: italic heading contains the complete 2 Corinthians 4:4 text; the identical text recurs in the same paragraph after '2 Corinthians 4:4 — Paul's description of Satan,'."
+        }
+      ],
+      "claimScope": "2 Corinthians 4:4, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Restore the short heading (*The “god of this age.”*) and keep a single full quotation in the body.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-007",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "after first identifying the lie as “Peter said, ‘Ananias, how is it that Satan has filled your heart to lie to the Holy Spirit",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence says Peter 'first identif[ied] the lie as' and then quotes a whole verse beginning 'Peter said, ‘Ananias…’', so the lie is 'identified as' a narrative sentence rather than as 'a lie to the Holy Spirit'. The whole-verse replacement broke the predicate.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 78",
+          "observation": "Line containing 'after first identifying the lie as “Peter said,'."
+        }
+      ],
+      "claimScope": "Acts 5:3, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Quote only the object phrase: 'after first identifying the lie as a lie “to the Holy Spirit” (Acts 5:3, BSB)'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-008",
+      "corpus": "om-article",
+      "recordId": "ergon",
+      "file": "corpora/om-articles/ergon.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The Greek expression *kalōn ergōn proistasthai* — “This saying is trustworthy. And I want you to emphasize these things, so that those who have believed God will take care to devote themselves to good deeds. These things are excellent and profitable for the people.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "A Greek phrase (καλῶν ἔργων προΐστασθαι, Titus 3:8) is glossed with the entire BSB verse instead of the phrase's rendering ('to devote themselves to good deeds'), so the gloss no longer corresponds to the Greek it explains, and the same whole verse is already printed in the block quotation immediately above.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/ergon.md",
+          "locator": "line 143",
+          "observation": "The identical sentence 'This saying is trustworthy. And I want you to emphasize these things …' occurs twice within ~800 characters (block quotation of Titus 3:5–8 and the gloss)."
+        }
+      ],
+      "claimScope": "Titus 3:8, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Gloss the phrase only: 'The Greek expression *kalōn ergōn proistasthai* — “devote themselves to good deeds” — …'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-009",
+      "corpus": "om-article",
+      "recordId": "teleios",
+      "file": "corpora/om-articles/teleios.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "Hebrews 12:2 names Christ as “our eyes on Jesus, the author and perfecter of our faith,",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence 'Hebrews 12:2 names Christ as “our eyes on Jesus, the author and perfecter of our faith…”' is ungrammatical: the intended object was the title 'the author and perfecter of our faith', but the quotation now starts mid-verse at 'our eyes on Jesus'. The same defect occurs earlier in the article ('used of Christ in Hebrews 12:2 as “our eyes on Jesus, the author and perfecter of our faith…”').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/teleios.md",
+          "locator": "line 121",
+          "observation": "Two occurrences in the file of 'as “our eyes on Jesus, the author and perfecter of our faith'; BSB Hebrews 12:2 begins 'Let us fix our eyes on Jesus'."
+        }
+      ],
+      "claimScope": "Hebrews 12:2, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Quote the title only: 'names Christ as “the author and perfecter of our faith”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-010",
+      "corpus": "om-article",
+      "recordId": "arche",
+      "file": "corpora/om-articles/arche.md",
+      "section": "The Word",
+      "exactExcerpt": "Hebrews 12:2 (“our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.”)",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "In the *archēgos* entry, the parenthetical quotation of Hebrews 12:2 begins mid-verse at 'our eyes on Jesus' (BSB: 'Let us fix our eyes on Jesus'), leaving a fragment that starts with a lowercase possessive and hides the word the entry is illustrating ('author', ἀρχηγός).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/arche.md",
+          "locator": "line 53",
+          "observation": "Line 28, parenthetical quotation; compare the Hebrews 2:10 quotation immediately before it, which is a complete sentence."
+        }
+      ],
+      "claimScope": "Hebrews 12:2, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Quote the relevant clause: '(“Jesus, the author and perfecter of our faith”)'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-011",
+      "corpus": "om-article",
+      "recordId": "karpos",
+      "file": "corpora/om-articles/karpos.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "Hebrews 12:11 — the “No discipline seems enjoyable at the time, but painful. Later on, however, it yields a harvest of righteousness and peace to those who have been trained by it.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'Hebrews 12:11 — the “No discipline …”' shows a determiner ('the') stranded before a whole-verse quotation; the original evidently quoted a phrase such as 'the “harvest of righteousness and peace”'. The same paragraph group also has 'Jeremiah 17:7-8 — the man who trusts in the LORD “He is like a tree planted by the waters …”' (subject repeated inside the quotation) and '*Pan klēma en emoi mē pheron karpon airei auto* — “fruit, and every branch that does bear fruit, He prunes …”' (John 15:2 quoted from mid-clause, so the gloss does not match the Greek).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/karpos.md",
+          "locator": "line 97",
+          "observation": "Three separate mid-clause / stranded-determiner quotations in karpos.md: 'the “No discipline…', 'the man who trusts in the LORD “He is like a tree', and '— “fruit, and every branch'. Hebrews 12:11 and Jeremiah 17:8 are each quoted twice in the file within a few paragraphs."
+        }
+      ],
+      "claimScope": "Hebrews 12:11; Jeremiah 17:7–8; John 15:2 (BSB).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Restore phrase-level quotations that match the lead-in and the Greek (e.g., 'the “harvest of righteousness and peace”'; 'is like “a tree planted by the waters”'; '“He cuts off every branch in Me that bears no fruit”').",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-012",
+      "corpus": "om-article",
+      "recordId": "haima",
+      "file": "corpora/om-articles/haima.md",
+      "section": "<pre>",
+      "exactExcerpt": "When Christ took the cup at the Last Supper and said, “saying, ‘This cup is the new covenant in My blood, which is poured out for you’”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'said, “saying, ‘This cup …’”' doubles the verb of speaking: the BSB segment inserted begins with Luke's narrative 'saying', which the sentence had already supplied.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/haima.md",
+          "locator": "line 35",
+          "observation": "Line 10 of the file."
+        }
+      ],
+      "claimScope": "Luke 22:20, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Drop the inner 'saying,': 'and said, “This cup is the new covenant in My blood, which is poured out for you”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-013",
+      "corpus": "om-article",
+      "recordId": "diatheke",
+      "file": "corpora/om-articles/diatheke.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "When Christ speaks of the “the new covenant in My blood; do this, as often as you drink it, in remembrance of Me.” He is announcing",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "Doubled article 'the “the new covenant …”' and a quotation that runs past the phrase the sentence needs, then continues with 'He is announcing' after a full stop inside the quotation, leaving a sentence fragment.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/diatheke.md",
+          "locator": "line 56",
+          "observation": "Line 31 of the file."
+        }
+      ],
+      "claimScope": "1 Corinthians 11:25, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'When Christ speaks of “the new covenant in My blood” (1 Corinthians 11:25, BSB), He is announcing …'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-014",
+      "corpus": "om-article",
+      "recordId": "kleronomia",
+      "file": "corpora/om-articles/kleronomia.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "Abraham was looking forward to “For he was looking forward to the city with foundations, whose architect and builder is God.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The lead-in 'Abraham was looking forward to' is followed by a whole-verse quotation that restates the lead-in ('For he was looking forward to the city…'), so the sentence says he was looking forward to 'For he was looking forward to'.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/kleronomia.md",
+          "locator": "line 95",
+          "observation": "Line 70 of the file."
+        }
+      ],
+      "claimScope": "Hebrews 11:10, BSB (the paragraph cites Hebrews 11:8-16).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Abraham was looking forward to “the city with foundations, whose architect and builder is God” (Hebrews 11:10, BSB).'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-015",
+      "corpus": "om-article",
+      "recordId": "kleronomos",
+      "file": "corpora/om-articles/kleronomos.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The believer is “by God’s power for the salvation that is ready to be revealed in the last time.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The predicate has lost its participle: the sentence intends 'The believer is “shielded by God's power…”' (1 Peter 1:5), but the quotation now begins at 'by God's power'. A parallel seam follows later in the same section: 'The believer’s inheritance is “and into an inheritance that is imperishable, undefiled, and unfading,…”' (1 Peter 1:4), where the quotation begins with a conjunction and repeats the subject.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/kleronomos.md",
+          "locator": "line 131",
+          "observation": "Two sentences in kleronomos.md: 'The believer is “by God’s power' and 'The believer’s inheritance is “and into an inheritance'."
+        }
+      ],
+      "claimScope": "1 Peter 1:4–5, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The believer is “shielded by God’s power for the salvation that is ready to be revealed in the last time”' and 'The believer’s inheritance is “imperishable, undefiled, and unfading”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-016",
+      "corpus": "om-article",
+      "recordId": "klesis",
+      "file": "corpora/om-articles/klesis.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "Paul has been speaking of “Brothers, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead,” (v. 13).",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'Paul has been speaking of' is completed by a whole verse beginning with the vocative 'Brothers, I do not consider myself…', so the object of 'speaking of' is a sentence rather than the topic ('straining toward what is ahead') the argument needs.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/klesis.md",
+          "locator": "line 80",
+          "observation": "Line 55 of the file."
+        }
+      ],
+      "claimScope": "Philippians 3:13, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Paul has been speaking of “forgetting what is behind and straining toward what is ahead” (v. 13).'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-017",
+      "corpus": "om-article",
+      "recordId": "kenoo",
+      "file": "corpora/om-articles/kenoo.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "Paul does not preach with eloquent words “For Christ did not send me to baptize, but to preach the gospel, not with words of wisdom, lest the cross of Christ be emptied of its power.” (1 Corinthians 1:17, BSB).",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "A list item glossing the sense 'to deprive of force' runs a clause ('Paul does not preach with eloquent words') straight into a whole-verse quotation without connector or the phrase that illustrates the sense ('lest the cross of Christ be emptied of its power'), so the item reads as a run-on.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/kenoo.md",
+          "locator": "line 49",
+          "observation": "Line 24, third bullet of the Range of Meaning list."
+        }
+      ],
+      "claimScope": "1 Corinthians 1:17, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'To deprive of force or significance. Paul does not preach with eloquent words, “lest the cross of Christ be emptied of its power” (1 Corinthians 1:17, BSB).'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-018",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "file": "corpora/om-articles/didaskalia.md",
+      "section": "The Word",
+      "exactExcerpt": "those who “some have strayed from these ways and turned aside to empty talk”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'those who “some have strayed…”' stacks a relative pronoun on a quotation that begins with its own subject ('some'), so the sentence about teachers 'whose doctrine is making the church sick' no longer parses. The same sentence continues 'those who teach “spreads false teachings”' (1 Timothy 6:3), a third-person verb stranded after a plural relative clause. A second seam in the same file: '1 Corinthians 2:13 — words “And this is what we speak, not in words taught us by human wisdom…”' where the word being illustrated (*didaktos*, 'taught') is buried in a whole-verse quotation introduced by the bare noun 'words'.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/didaskalia.md",
+          "locator": "line 31",
+          "observation": "Two sentences in didaskalia.md: 'those who “some have strayed' and '— words “And this is what we speak'."
+        }
+      ],
+      "claimScope": "1 Timothy 1:6; 1 Corinthians 2:13 (BSB).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'those who “have strayed from these ways and turned aside to empty talk” (1 Timothy 1:6, BSB)'; '1 Corinthians 2:13 — words “taught us by the Spirit”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-019",
+      "corpus": "om-article",
+      "recordId": "ekklesia",
+      "file": "corpora/om-articles/ekklesia.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "Hebrews 12:23 names “in joyful assembly, to the congregation of the firstborn, enrolled in heaven.",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'Hebrews 12:23 names “in joyful assembly, …”' — the verb 'names' is completed by a prepositional fragment rather than the noun phrase (the *ekklēsia* 'of the firstborn') the entry is illustrating. Later in the file: 'the bride presented “glorious church, without stain or wrinkle…”' (Ephesians 5:27) likewise drops the article and verb the sentence needs ('presented as “a glorious church”').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/ekklesia.md",
+          "locator": "line 55",
+          "observation": "Two sentences in ekklesia.md: 'Hebrews 12:23 names “in joyful assembly' and 'the bride presented “glorious church'."
+        }
+      ],
+      "claimScope": "Hebrews 12:23; Ephesians 5:27 (BSB).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Hebrews 12:23 names “the congregation of the firstborn, enrolled in heaven”'; 'the bride presented as “a glorious church, without stain or wrinkle or any such blemish”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-020",
+      "corpus": "om-article",
+      "recordId": "anastasis",
+      "file": "corpora/om-articles/anastasis.md",
+      "section": "Where People Get It Wrong",
+      "exactExcerpt": "Hymenaeus and Philetus in 2 Timothy 2:18, who said “who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'who said “who have deviated from the truth. They say that…”' attributes to the false teachers Paul's description of them; the inserted whole-verse text begins with Paul's relative clause, not with what Hymenaeus and Philetus said.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/anastasis.md",
+          "locator": "line 186",
+          "observation": "Line 161 of the file."
+        }
+      ],
+      "claimScope": "2 Timothy 2:18, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…in 2 Timothy 2:18, who “say that the resurrection has already occurred”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-021",
+      "corpus": "om-article",
+      "recordId": "hiereus",
+      "file": "corpora/om-articles/hiereus.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Sympathēsai tais astheneiais hēmōn* — “with our weaknesses, but we have one who was tempted in every way that we are, yet was without sin.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The Greek infinitive phrase 'to sympathize with our weaknesses' is glossed by a quotation beginning at 'with our weaknesses' and continuing through the rest of the verse, so the gloss omits the verb it should render and adds material the Greek does not contain. The same section glosses *Thysian zōsan* ('a living sacrifice') as '“sacrifices, holy and pleasing to God, which is your spiritual service…”', again starting mid-clause and mismatching number (singular Greek, plural English).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hiereus.md",
+          "locator": "line 121",
+          "observation": "Two glosses in hiereus.md: '— “with our weaknesses, but we have one' (Hebrews 4:15) and '*Thysian zōsan* — “sacrifices, holy and pleasing' (Romans 12:1)."
+        }
+      ],
+      "claimScope": "Hebrews 4:15; Romans 12:1 (BSB).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Gloss the phrases: '— “to sympathize with our weaknesses”' and '— “a living sacrifice, holy and pleasing to God”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-022",
+      "corpus": "om-article",
+      "recordId": "koinonia",
+      "file": "corpora/om-articles/koinonia.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The Christian is called *eis koinōnian tou huiou autou* — “into fellowship with His Son Jesus Christ our Lord, is faithful.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The English gloss for the Greek phrase is a verse fragment that ends with the main verb of a different clause ('…our Lord, is faithful.'), producing an ungrammatical gloss ('into fellowship with His Son … is faithful').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/koinonia.md",
+          "locator": "line 72",
+          "observation": "Sentence in the 1 Corinthians 1:9 discussion."
+        }
+      ],
+      "claimScope": "1 Corinthians 1:9, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'— “into fellowship with His Son Jesus Christ our Lord”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-023",
+      "corpus": "om-article",
+      "recordId": "hypakoe",
+      "file": "corpora/om-articles/hypakoe.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "The English translations render this as “to the people, who replied, ‘All that the LORD has spoken we will do, and we will be obedient’”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The sentence is about how English versions render one Hebrew verb (*nishma‘*, 'we will hear/obey'), but the 'rendering' offered is a mid-verse BSB segment beginning 'to the people, who replied', i.e., narrative framing plus a whole clause, and only one version (BSB) is shown although 'translations' is plural.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hypakoe.md",
+          "locator": "line 69",
+          "observation": "Line in the Exodus 24:7 discussion; the same Exodus 24:7 quotation appears in full with its label in the Where You’ll Meet It section."
+        }
+      ],
+      "claimScope": "Exodus 24:7, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The BSB renders this as “we will obey” (Exodus 24:7).'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-024",
+      "corpus": "om-article",
+      "recordId": "elpis",
+      "file": "corpora/om-articles/elpis.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The grammatical construction in the Greek treats “as we await the blessed hope and glorious appearance of our great God and Savior Jesus Christ” and “the glorious appearing” as appositional",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The argument that two phrases are appositional now names as its first phrase the whole clause containing both phrases; the first item should be 'the blessed hope' (*makaria elpis*), as the preceding sentence shows. The grammatical point is therefore stated incoherently.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/elpis.md",
+          "locator": "line 139",
+          "observation": "Line 114 of the file; the preceding sentence isolates 'The \"blessed hope\" — *makaria elpis*'."
+        }
+      ],
+      "claimScope": "Titus 2:13, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…treats “the blessed hope” and “the glorious appearance” as appositional'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-025",
+      "corpus": "om-article",
+      "recordId": "hyper",
+      "file": "corpora/om-articles/hyper.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "1 John 2:2 — Christ is the propitiation “he Himself is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "'Christ is the propitiation “he Himself is the atoning sacrifice…”' restates the subject and predicate inside the quotation; the lead-in wanted only the object phrase ('for our sins … for the sins of the whole world').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hyper.md",
+          "locator": "line 108",
+          "observation": "Sentence in the *hyper pantōn* discussion."
+        }
+      ],
+      "claimScope": "1 John 2:2, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'1 John 2:2 — Christ is the atoning sacrifice “for our sins, and not only for ours but also for the sins of the whole world.”'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-026",
+      "corpus": "om-article",
+      "recordId": "martyria",
+      "file": "corpora/om-articles/martyria.md",
+      "section": "<pre>",
+      "exactExcerpt": "“was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life.",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The opening quotation of the article (1 John 1:1–3) begins mid-clause at 'was from the beginning', dropping the relative 'That which' that makes the sentence grammatical; the first sentence of the article's key passage is therefore printed as a fragment.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/martyria.md",
+          "locator": "line 31",
+          "observation": "Line 8 of the file; BSB 1 John 1:1 opens 'That which was from the beginning'."
+        }
+      ],
+      "claimScope": "1 John 1:1–3, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin the quotation at 'That which was from the beginning'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-027",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": "Where People Get It Wrong",
+      "exactExcerpt": "verbal attacks framed as “the truth in love, we will in all things grow up into Christ Himself, who is the head.”",
+      "category": "adaptation-seam",
+      "classification": "confirmed-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The idiom being criticized is 'speaking the truth in love' (Ephesians 4:15); the whole-verse replacement starts mid-phrase ('the truth in love, we will in all things grow up…'), so the quotation no longer names the slogan the sentence is about.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eulogeo.md",
+          "locator": "line 193",
+          "observation": "Line 168 of the file."
+        }
+      ],
+      "claimScope": "Ephesians 4:15, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'verbal attacks framed as “speaking the truth in love” (Ephesians 4:15, BSB)'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-028",
+      "corpus": "om-article",
+      "recordId": "prothesis",
+      "file": "corpora/om-articles/prothesis.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Matthew 12:1-8 / Mark 2:23-28 / Luke 6:1-5 (the showbread incident).* “you not read what David did when he and his companions were hungry?",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The quotation begins at 'you not read' (BSB Matthew 12:3: 'Have you not read…'), so the first sentence of the passage is printed as a fragment.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/prothesis.md",
+          "locator": "line 146",
+          "observation": "Sentence after the italic heading for the showbread incident."
+        }
+      ],
+      "claimScope": "Matthew 12:3, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin the quotation at 'Have you not read what David did…'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-029",
+      "corpus": "om-article",
+      "recordId": "mathetes",
+      "file": "corpora/om-articles/mathetes.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "*2 Kings 6:1-7* — “of the prophets said to Elisha,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The quotation starts mid-phrase ('of the prophets said to Elisha'), dropping 'Now the sons' — and 'the sons of the prophets' is the very expression the entry is using to illustrate discipleship.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mathetes.md",
+          "locator": "line 71",
+          "observation": "Old Testament background list."
+        }
+      ],
+      "claimScope": "2 Kings 6:1, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin the quotation at 'Now the sons of the prophets said to Elisha'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-030",
+      "corpus": "om-article",
+      "recordId": "proselytos",
+      "file": "corpora/om-articles/proselytos.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "*Isaiah 56:3, 6-8* — “no foreigner who has joined himself to the LORD say,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The quotation begins at 'no foreigner … say', dropping the governing 'Let' (BSB: 'Let no foreigner who has joined himself to the LORD say'), which leaves an ungrammatical opening.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/proselytos.md",
+          "locator": "line 77",
+          "observation": "Old Testament background list."
+        }
+      ],
+      "claimScope": "Isaiah 56:3, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin at 'Let no foreigner who has joined himself to the LORD say'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-031",
+      "corpus": "om-article",
+      "recordId": "lytron",
+      "file": "corpora/om-articles/lytron.md",
+      "section": "Range of Meaning",
+      "exactExcerpt": "*Exodus 13:13, 15* — “every firstborn donkey with a lamb, and if you do not redeem it,",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The quotation begins mid-clause ('every firstborn donkey with a lamb'), dropping the verb 'You must redeem' — the redemption verb the *lytron* entry is illustrating.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/lytron.md",
+          "locator": "line 73",
+          "observation": "Old Testament background list."
+        }
+      ],
+      "claimScope": "Exodus 13:13, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin at 'You must redeem every firstborn donkey with a lamb'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-032",
+      "corpus": "om-article",
+      "recordId": "eleutheria",
+      "file": "corpora/om-articles/eleutheria.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "*Galatians 5:1, 13-14.* “for freedom that Christ has set us free.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The quotation starts at 'for freedom' (BSB: 'It is for freedom that Christ has set us free'), so the keystone sentence of the entry opens as a fragment.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eleutheria.md",
+          "locator": "line 101",
+          "observation": "Where You’ll Meet It, Galatians 5 block."
+        }
+      ],
+      "claimScope": "Galatians 5:1, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Begin at 'It is for freedom that Christ has set us free.'",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-033",
+      "corpus": "om-article",
+      "recordId": "dikaiosyne",
+      "file": "corpora/om-articles/dikaiosyne.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "Righteousness is described here as “the gracious gift” (*dōrea*) and “the abundance of grace and of the gift of righteousness reign in life through the one man, Jesus Christ!”",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The second quotation is meant to be a second noun phrase parallel to 'the gracious gift' but runs on into the verb 'reign in life…', so 'righteousness is described as … reign in life' is ungrammatical.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/dikaiosyne.md",
+          "locator": "line 72",
+          "observation": "Sentence following the Romans 5:17 block quotation."
+        }
+      ],
+      "claimScope": "Romans 5:17, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…and “the gift of righteousness”'.",
+      "requiresHumanReview": true,
+      "notes": "Belongs to a systematic class produced by the BSB adaptation's 'smallest-supported-whole-verse' fallback (release manifest: fallbackCount 243): a short inline phrase-quotation was replaced by a whole verse or a verse-boundary segment, leaving the surrounding sentence ungrammatical or the quotation misaligned with the clause the sentence needs."
+    },
+    {
+      "id": "PASS2-034",
+      "corpus": "om-article",
+      "recordId": "pneuma",
+      "file": "corpora/om-articles/pneuma.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The Spirit poured out on us \"through Jesus Christ our Savior\" Again — the Spirit comes through the Son.",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Missing sentence boundary after the quotation ('…our Savior\" Again — the Spirit…'), producing a run-on that reads as if 'Again' were part of the quoted text's frame.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pneuma.md",
+          "locator": "line 88",
+          "observation": "Line 61 of the file."
+        }
+      ],
+      "claimScope": "Titus 3:6, BSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The Spirit is poured out on us “through Jesus Christ our Savior.” Again, the Spirit comes through the Son.'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-035",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": "Where People Get It Wrong",
+      "exactExcerpt": "*The* *“**bought but still our own**”* *contradiction.*",
+      "category": "presentation-affecting-meaning",
+      "classification": "presentation-defect",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Run-in italic headings of the form *The “**phrase**” misreading.* have been split into alternating italic/bold/italic runs (*The* *“**…**”* *misreading.*), which renders with inconsistent emphasis and stray spaces. The same conversion artifact occurs in 38 articles (agorazo, anomia, anthropos, apolytrosis, apostolos, chara, didaskalia, eirene, eklektos, elpis, elpizo, ergon, eulogeo, graphe, hiereus, huiothesia, hyios, hypakoe, hypomone, iesous, kaine-ktisis, karpos, laos, leitourgia, lytron, mathetes, paradosis, paraptoma, pater, planao, prautes, proselytos, proseuche, prothesis, prototokos, rhema, thanatos, theos).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "line 165",
+          "observation": "grep -c '\\*The\\* \\*“\\*\\*' over corpora/om-articles: 71 matches across 38 files."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Normalize to a single italic run-in heading, e.g., *The “bought but still our own” contradiction.*",
+      "requiresHumanReview": false,
+      "notes": "Reported once here; the other affected records are listed in COVERAGE.json with this finding id."
+    },
+    {
+      "id": "PASS2-036",
+      "corpus": "om-article",
+      "recordId": "artos",
+      "file": "corpora/om-articles/artos.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "Paul says “this bread” (1 Corinthians 11:26–28, BSB) eight times across five verses, after the consecration, after the participation in the body.",
+      "category": "scope-frequency-or-quantifier",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The frequency claim does not reconcile with its own citation or with the passage: 11:26–28 is three verses, not five; in 1 Corinthians 11:23–29 the noun 'bread' occurs four times (vv. 23, 26, 27, 28) and the phrase 'this bread' (τὸν ἄρτον τοῦτον) once, at v. 26. 'Eight times across five verses' is unsupported on any scope I can recover.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/artos.md",
+          "locator": "line 96",
+          "observation": "Internal inconsistency: '11:26–28' (three verses) vs 'across five verses'. Count checked against the Greek of 1 Corinthians 11:23–29 (Nestle/RP agree on the four occurrences of ἄρτος)."
+        }
+      ],
+      "claimScope": "Surface form 'this bread' vs lemma ἄρτος; 1 Corinthians 11:23–29; any Greek edition in the packet.",
+      "plausibleAlternative": "The author may have intended 'bread' (four times across six verses, 11:23–28) or the wider count of 'bread'/'cup' references.",
+      "suggestedMinimalCorrection": "'Paul continues to call it “bread” after the consecration — four times in 1 Corinthians 11:23–28 — …' (Larry to fix the intended count).",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-037",
+      "corpus": "om-article",
+      "recordId": "didaskalia",
+      "file": "corpora/om-articles/didaskalia.md",
+      "section": "<pre>",
+      "exactExcerpt": "The Greek New Testament has a striking phrase that appears nine times in the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) and almost nowhere else. The phrase is *hygiainousa didaskalia* — *sound* or *healthy doctrine*. The Greek adjective *hygiainō* is the standard medical term",
+      "category": "scope-frequency-or-quantifier",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Two problems in the hook. (1) The exact phrase *hygiainousa didaskalia* occurs four times (1 Timothy 1:10; 2 Timothy 4:3; Titus 1:9; 2:1); the verb ὑγιαίνω occurs eight times in the Pastorals in various collocations (also 'sound words', 'sound in faith'). 'Nine times' matches neither the phrase nor the word family, and the scope (phrase vs. verb) is not stated. (2) ὑγιαίνω is a verb, not 'the Greek adjective'; *hygiainousa* is its present participle.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/didaskalia.md",
+          "locator": "line 29",
+          "observation": "Occurrences of ὑγιαίνω in the Pastorals: 1 Tim 1:10; 6:3; 2 Tim 1:13; 4:3; Tit 1:9; 1:13; 2:1; 2:2 (eight). Exact 'sound doctrine' collocation: four."
+        }
+      ],
+      "claimScope": "Lemma ὑγιαίνω vs. the collocation 'sound doctrine'; Pastoral Epistles; Nestle 1904 / RP2018 agree.",
+      "plausibleAlternative": "Nine may have been reached by adding the adjective ὑγιής at Titus 2:8 ('sound message') to the eight verb occurrences — which would make the claim about the word family, not the phrase.",
+      "suggestedMinimalCorrection": "'…a striking expression that recurs through the Pastoral Epistles — four times as “sound doctrine,” and eight times in all for the verb *hygiainō* — and almost nowhere else. … The Greek verb *hygiainō* …'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-038",
+      "corpus": "om-article",
+      "recordId": "thanatos",
+      "file": "corpora/om-articles/thanatos.md",
+      "section": "The Word",
+      "exactExcerpt": "This is the more common verb in the New Testament for \"to die\" or \"to be dying.\" Used hundreds of times in the gospels, Acts, and the epistles.",
+      "category": "scope-frequency-or-quantifier",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "ἀποθνῄσκω occurs 111 times in the New Testament (Nestle/NA agree within one), i.e., about a hundred, not 'hundreds'. The neighbouring claim about θνῄσκω that 'most appearances are in the perfect tense (*tethnēka*) or the present participle (*thnēskontes*)' is also doubtful: the New Testament's nine occurrences of θνῄσκω are all perfect forms; no present participle of the simple verb occurs.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/thanatos.md",
+          "locator": "line 51",
+          "observation": "Article line 24 ff.; counts from the Nestle 1904 lemma index would settle both claims."
+        }
+      ],
+      "claimScope": "Lemmata ἀποθνῄσκω and θνῄσκω; New Testament; Nestle 1904.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Used over a hundred times…' and 'all of its New Testament appearances are perfect forms (*tethnēken*, “has died”)'.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-039",
+      "corpus": "om-article",
+      "recordId": "chara",
+      "file": "corpora/om-articles/chara.md",
+      "section": "<pre>",
+      "exactExcerpt": "uses *chara* — \"joy\" — and *chairō* — \"to rejoice\" — sixteen times in four short chapters.",
+      "category": "scope-frequency-or-quantifier",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "In Philippians χαρά occurs 5 times and χαίρω 9 times (14); the total reaches 16 only if the compound συγχαίρω (2:17, 18) is included, which the sentence does not say.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/chara.md",
+          "locator": "line 31",
+          "observation": "Occurrences: χαρά 1:4, 25; 2:2, 29; 4:1; χαίρω 1:18 (×2); 2:17, 18 (×2), 28; 3:1; 4:4 (×2), 10; συγχαίρω 2:17, 18."
+        }
+      ],
+      "claimScope": "Lemmata χαρά, χαίρω (and συγχαίρω); Philippians; Nestle/RP agree.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Either '…fourteen times…' or add 'together with the compound *synchairō*'.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-040",
+      "corpus": "om-article",
+      "recordId": "authenteo",
+      "file": "corpora/om-articles/authenteo.md",
+      "section": "<pre>",
+      "exactExcerpt": "*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.",
+      "category": "scope-frequency-or-quantifier",
+      "classification": "needs-human-review",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "The counts are correct for the Pastoral Epistles only (in the whole New Testament *eusebeia* is 15 and *epiphaneia* 6, as the eusebeia and parousia articles themselves state). The sentence's scope ('in this study') is implicit; a reader of the standalone article may take them as New Testament totals.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/authenteo.md",
+          "locator": "line 37",
+          "observation": "Compare eusebeia.md ('occurs fifteen times in the New Testament … ten times in three short letters') and parousia.md ('Used six times in the New Testament, five of them in the Pastoral Epistles')."
+        }
+      ],
+      "claimScope": "Pastoral Epistles vs. whole New Testament.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'In the Pastoral Epistles *parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-041",
+      "corpus": "om-article",
+      "recordId": "anthropos",
+      "file": "corpora/om-articles/anthropos.md",
+      "section": "The Word",
+      "exactExcerpt": "The word is a third-declension masculine noun;",
+      "category": "grammar-or-morphology",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "ἄνθρωπος, -ου is a second-declension masculine noun. Every other second-declension -ος headword in the corpus (logos, kosmos, kyrios, laos, christos, apostolos, thanatos, karpos, kleronomos, proselytos, mythos) is correctly labelled second declension.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/anthropos.md",
+          "locator": "line 43",
+          "observation": "Line 18; cross-record comparison with the other -ος nouns' declension statements."
+        }
+      ],
+      "claimScope": "Lemma ἄνθρωπος.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The word is a second-declension masculine noun;'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-042",
+      "corpus": "om-article",
+      "recordId": "theos",
+      "file": "corpora/om-articles/theos.md",
+      "section": "The Word",
+      "exactExcerpt": "The etymology runs back through Indo-European roots, where the reconstructed ancestor of *theos* is related distantly to Latin *deus* (god), Latin *dies* (day), and Sanskrit *dyaus* (sky-god, the source of the Greek divine name *Zeus*).",
+      "category": "lexical-method-or-etymology",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Standard etymological references (Chantraine, Beekes, Frisk) deny any connection between θεός and Latin deus / Sanskrit dyaus (*dyeu-); θεός is usually derived from *dhēs- (cf. Latin fēriae, festus). Zeus is cognate with, not 'sourced' from, Dyaus. The article hedges that etymology does not determine meaning, but the etymology stated is itself false.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theos.md",
+          "locator": "line 58",
+          "observation": "Line 33."
+        }
+      ],
+      "claimScope": "Etymology of θεός.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Delete the sentence, or replace with: 'Despite the resemblance, *theos* is not related to Latin *deus*; its origin is disputed.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-043",
+      "corpus": "om-article",
+      "recordId": "sozo",
+      "file": "corpora/om-articles/sozo.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The name *Jesus* is the etymological seed of every saving word in the New Testament.",
+      "category": "lexical-method-or-etymology",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "σῴζω, σωτήρ and σωτηρία are native Greek words from σῶς; Ἰησοῦς transliterates the Hebrew name Yehoshua/Yeshua. There is no etymological relationship; the connection is theological (Matthew 1:21), not lexical. The iesous article makes the same move ('Every time the New Testament says *sōzō*, the family connection to *Iēsous* is present').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/sozo.md",
+          "locator": "line 61",
+          "observation": "Line 36; cross-record with iesous.md ('the family connection to *Iēsous* is present')."
+        }
+      ],
+      "claimScope": "Greek σῴζω family vs. Hebrew-derived name Ἰησοῦς.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The name *Jesus* — “Yahweh saves” — announces in Hebrew what every saving word in the Greek New Testament proclaims.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-044",
+      "corpus": "om-article",
+      "recordId": "iesous",
+      "file": "corpora/om-articles/iesous.md",
+      "section": "The Word",
+      "exactExcerpt": "Every time the New Testament says *sōzō*, the family connection to *Iēsous* is present, even when the name itself does not appear in the verse.",
+      "category": "lexical-method-or-etymology",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "Presented under 'The word family in Greek', this asserts a lexical 'family connection' between a Hebrew-derived proper name and a native Greek verb. No such family exists; the link is the theological gloss of Matthew 1:21. Paired with the sozo article's 'etymological seed' sentence.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/iesous.md",
+          "locator": "line 59",
+          "observation": "Line 34; see the sozo finding."
+        }
+      ],
+      "claimScope": "σῴζω vs. Ἰησοῦς.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…the verb *sōzō* (to save), which Matthew 1:21 ties to the meaning of the name — a theological, not an etymological, link.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-045",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": "Where You’ll Meet It",
+      "exactExcerpt": "The Lutheran emphasis on blessing as a word that does what it says — that actually conveys what it pronounces — rests in part on this etymological foundation.",
+      "category": "lexical-method-or-etymology",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "A doctrinal position is said to rest on the compound's etymology (*eu* + *logos*). Earlier the article says 'Literally and exactly, *eulogeō* means to speak well' and that this sense 'remains in view throughout'. The Lutheran teaching on the efficacy of the spoken blessing rests on the biblical accounts and the Word's promise, not on morphology; the formulation treats etymology as evidence.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eulogeo.md",
+          "locator": "line 67",
+          "observation": "Line 42; compare 'Literally and exactly, *eulogeō* means *to speak well*' earlier in the file."
+        }
+      ],
+      "claimScope": "Etymology of εὐλογέω vs. attested usage.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…is illustrated by (not derived from) the word's make-up: to bless is to speak.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-046",
+      "corpus": "om-article",
+      "recordId": "hypakoe",
+      "file": "corpora/om-articles/hypakoe.md",
+      "section": "So What",
+      "exactExcerpt": "The Sunday school teacher angle is direct: teach the etymology of *hypakoē* and what it reveals about Christian obedience.",
+      "category": "lexical-method-or-etymology",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The article repeatedly derives the theology of obedience from the compound's parts ('hearing-from-under', 'to obey, etymologically … is to hear-toward'). Attested usage of ὑπακούω/ὑπακοή ('obey, answer the door') is what establishes meaning; the etymology is illustrative at most. Recommending that teachers teach 'what the etymology reveals' formalizes the root fallacy the corpus elsewhere warns against (ekklesia, hamartia, metanoia).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/hypakoe.md",
+          "locator": "line 189",
+          "observation": "So What section; compare 'Literally, *hypakoē* names a \"hearing-from-under\"' in the opening."
+        }
+      ],
+      "claimScope": "Etymology of ὑπακοή vs. attested usage.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'teach how the New Testament uses *hypakoē* — obedience that begins in hearing the Word — and mention the word's make-up as an illustration, not a proof.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-047",
+      "corpus": "om-article",
+      "recordId": "eirene",
+      "file": "corpora/om-articles/eirene.md",
+      "section": "The Word",
+      "exactExcerpt": "The etymology runs from a verbal root meaning \"to bind together\" or \"to join.\" Peace, in the Greek conception, is what holds parties together",
+      "category": "lexical-method-or-etymology",
+      "classification": "needs-human-review",
+      "severity": "S3",
+      "confidence": "medium",
+      "problem": "The origin of εἰρήνη is uncertain (the derivation from εἴρω 'to join' is a traditional guess not accepted by modern etymological dictionaries), yet the article builds 'the Greek conception' of peace on that root, and the preceding 'wholeness, completeness' language is Hebrew *shalom* transferred to the Greek word.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eirene.md",
+          "locator": "line 45",
+          "observation": "Line 20 ff."
+        }
+      ],
+      "claimScope": "Etymology of εἰρήνη.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Present the derivation as uncertain and ground the 'wholeness' sense in *shalom* and LXX usage rather than in a Greek root.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-048",
+      "corpus": "om-article",
+      "recordId": "dikaioo",
+      "file": "corpora/om-articles/dikaioo.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "The Apology of the Augsburg Confession spends most of Article IV defending this point against Tridentine accusations of antinomianism, and the defense holds up four hundred years later.",
+      "category": "historical-confessional-or-source-attribution",
+      "classification": "confirmed-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "Anachronism: the Apology (1531) answers the Roman Confutation of 1530; the Council of Trent did not convene until 1545 and its decree on justification is 1547 (as the same article correctly states elsewhere). 'Tridentine accusations' could not be the target of Apology IV. 'Four hundred years later' also undercounts (1531→2026 is ~495 years).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/dikaioo.md",
+          "locator": "line 96",
+          "observation": "Line 71; compare line 33/92 of the same file ('The Council of Trent, in its session on justification in 1547')."
+        }
+      ],
+      "claimScope": "Apology of the Augsburg Confession, Article IV (1531); Council of Trent Session VI (1547).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'…defending this point against the Roman Confutation's charge that it made good works superfluous, and the defense holds up nearly five hundred years later.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-049",
+      "corpus": "om-article",
+      "recordId": "theotes",
+      "file": "corpora/om-articles/theotes.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "The Formula of Concord Article VIII develops this at length, distinguishing three modes of the *communicatio idiomatum* — the *genus idiomaticum*, the *genus apotelesmaticum*, and the *genus maiestaticum*.",
+      "category": "historical-confessional-or-source-attribution",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "The Latin labels *genus idiomaticum / apotelesmaticum / maiestaticum* are the terminology of later Lutheran dogmaticians (systematized after Chemnitz, in the seventeenth century); Formula of Concord VIII teaches the substance but does not use or 'distinguish' these three named genera. Attributing the labels to the Formula misdescribes the source.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/theotes.md",
+          "locator": "line 113",
+          "observation": "Line 88; compare anthropos.md and hypostasis.md, which cite FC VIII for the communicatio without the genus labels."
+        }
+      ],
+      "claimScope": "Formula of Concord, Solid Declaration VIII (Kolb–Wengert).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Formula of Concord Article VIII develops this at length; later Lutheran dogmaticians summarized its teaching under three headings — the *genus idiomaticum*, …'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-050",
+      "corpus": "om-article",
+      "recordId": "eikon",
+      "file": "corpora/om-articles/eikon.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "The Augsburg Confession Article II describes humans as having been created with fear of God, with trust in God, and with original righteousness; original sin is described as the loss of these.",
+      "category": "historical-confessional-or-source-attribution",
+      "classification": "probable-error",
+      "severity": "S3",
+      "confidence": "high",
+      "problem": "AC II does not describe humanity's creation; it defines original sin as being born 'without fear of God, without trust in God, and with concupiscence'. The positive account of original righteousness (fear, trust, love of God as the image) is the Apology, Article II. The article's other AC II citations (hamartia, thanatos) quote AC II correctly as a description of the fallen state.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eikon.md",
+          "locator": "line 86",
+          "observation": "Line 61; cross-record with hamartia.md and thanatos.md quotations of AC II."
+        }
+      ],
+      "claimScope": "Augsburg Confession II vs. Apology II (Kolb–Wengert).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'The Apology, Article II, describes original righteousness as fear of God, trust in God, and the knowledge of God; the Augsburg Confession, Article II, describes original sin as the loss of that fear and trust.'",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-051",
+      "corpus": "om-article",
+      "recordId": "pistos-ho-logos",
+      "file": "corpora/om-articles/pistos-ho-logos.md",
+      "section": "The Fourth Saying, Which Breaks Its Own Pattern",
+      "exactExcerpt": "*If we died with him, we will also live with him.*\n*If we endure, we will also reign with him.*\n*If we deny him, he will also deny us.*",
+      "category": "translation-or-edition-identity",
+      "classification": "probable-error",
+      "severity": "S2",
+      "confidence": "high",
+      "problem": "The four italic lines of 2 Timothy 2:11–13 are printed without a translation label and match the NET wording verbatim (lower-case pronouns; 'If we are unfaithful, he remains faithful, since he cannot deny himself'), not the BSB ('If we died with Him … He remains faithful, for He cannot deny Himself'). In a corpus that presents itself as a BSB adaptation this is stale NET-era wording, or at least an unidentified rendering, in the article's central passage.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pistos-ho-logos.md",
+          "locator": "line 85",
+          "observation": "Lines 85–87 and 93 of the file; compare BSB 2 Timothy 2:11–13 (capitalized deity pronouns; 'for He cannot deny Himself')."
+        }
+      ],
+      "claimScope": "2 Timothy 2:11–13; translation identity (NET vs. BSB).",
+      "plausibleAlternative": "The lines could be the author's own paraphrase, but they coincide word for word with the NET.",
+      "suggestedMinimalCorrection": "Replace with the BSB wording and label it, or label the lines as the author's paraphrase.",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-052",
+      "corpus": "om-article",
+      "recordId": "ergon",
+      "file": "corpora/om-articles/ergon.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "\"Likewise, they teach that men cannot be justified before God by their own strength, merits, or",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "Augsburg Confession IV is quoted in three different English renderings across the corpus without identifying the edition: ergon.md ('men cannot be justified before God by their own strength, merits, or works' — Triglot/Tappert-style), charis.md ('human beings cannot be justified before God by their own powers, merits, or works' — Kolb–Wengert Latin), dikaioo.md ('are justified as a gift on account of Christ, through faith' — Kolb–Wengert). The author's stated convention is to cite the Kolb–Wengert edition; none of the three quotations names an edition.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/ergon.md",
+          "locator": "line 159",
+          "observation": "Compare charis.md line ~92 and dikaioo.md line ~67 with ergon.md; only iesous.md and metanoia.md give full Kolb–Wengert citations."
+        }
+      ],
+      "claimScope": "Augsburg Confession IV, translation identity.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Standardize on the Kolb–Wengert wording and add the edition once per article (or a corpus-wide note).",
+      "requiresHumanReview": true,
+      "notes": null
+    },
+    {
+      "id": "PASS2-053",
+      "corpus": "om-article",
+      "recordId": "monogenes",
+      "file": "corpora/om-articles/monogenes.md",
+      "section": "What Confessional Lutherans Hear",
+      "exactExcerpt": "The Nicene Creed says that Christ is “the only-begotten Son of God, begotten of His Father before all worlds",
+      "category": "internal-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "The same creedal clause is quoted in two different wordings in one article: 'begotten of His Father before all worlds' here and 'begotten of the Father before all worlds' in the So What section, with no indication of which hymnal/creed text is being cited.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/monogenes.md",
+          "locator": "line 76",
+          "observation": "Lines 55 and 65 of the file."
+        }
+      ],
+      "claimScope": "Nicene Creed, English text (hymnal version unspecified).",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Use one wording and, if desired, name the source (e.g., the Ambassador Hymnal or Kolb–Wengert p. 22–23).",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-054",
+      "corpus": "om-article",
+      "recordId": "agorazo",
+      "file": "corpora/om-articles/agorazo.md",
+      "section": null,
+      "exactExcerpt": "See also the eventual treatment of lytron (the ransom price specifically) for the third member of the redemption / purchase / ransom vocabulary cluster.",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Stale forward reference: the lytron article exists in this release (corpora/om-articles/lytron.md) and the other two members of the cluster are linked, but *lytron* is referred to as an 'eventual treatment' and is not linked.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/agorazo.md",
+          "locator": "line 195",
+          "observation": "Footnote [^jeg-2-105]; lytron.md present in the packet and in word-metadata.json."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'See also [Lytron](/greek/lytron/) (the ransom price specifically) …'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-055",
+      "corpus": "om-article",
+      "recordId": "bema",
+      "file": "corpora/om-articles/bema.md",
+      "section": null,
+      "exactExcerpt": "pronunciation: \"BAY-mah\"",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json gives pronunciation 'bēma' (a transliteration, not a pronunciation guide) where the article frontmatter gives 'BAY-mah'; the metadata field is inconsistent with the article and with the field's meaning.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/bema.md",
+          "locator": "line 6",
+          "observation": "corpora/word-metadata.json entry slug 'bema': \"pronunciation\": \"bēma\"."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Set the metadata pronunciation to 'BAY-mah'.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-056",
+      "corpus": "om-article",
+      "recordId": "eulogeo",
+      "file": "corpora/om-articles/eulogeo.md",
+      "section": null,
+      "exactExcerpt": "pronunciation: \"yoo-lo-GEH-oh\"",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json gives pronunciation 'eulogeō' (a transliteration) where the article gives 'yoo-lo-GEH-oh'.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/eulogeo.md",
+          "locator": "line 6",
+          "observation": "corpora/word-metadata.json entry slug 'eulogeo': \"pronunciation\": \"eulogeō\"."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Set the metadata pronunciation to 'yoo-lo-GEH-oh'.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-057",
+      "corpus": "om-article",
+      "recordId": "mesites",
+      "file": "corpora/om-articles/mesites.md",
+      "section": null,
+      "exactExcerpt": "pronunciation: \"mes-EE-tays\"",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "word-metadata.json gives 'mes-EE-tace' where the article gives 'mes-EE-tays'; the two guides differ.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/mesites.md",
+          "locator": "line 10",
+          "observation": "corpora/word-metadata.json entry slug 'mesites': \"pronunciation\": \"mes-EE-tace\"."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Align the two (either spelling).",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-058",
+      "corpus": "om-article",
+      "recordId": "karpos",
+      "file": "corpora/om-articles/karpos.md",
+      "section": null,
+      "exactExcerpt": "tags: [\"fruit of the Spirit\", \"good-works\"]",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "Tag mismatch between article frontmatter ('fruit of the Spirit') and word-metadata.json ('fruit-of-the-spirit'); every other tag in the corpus uses the hyphenated slug form.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/karpos.md",
+          "locator": "line 15",
+          "observation": "corpora/word-metadata.json entry slug 'karpos': tags ['fruit-of-the-spirit','good-works']."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Use 'fruit-of-the-spirit' in the article frontmatter.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-059",
+      "corpus": "om-article",
+      "recordId": "kerygma",
+      "file": "corpora/om-articles/kerygma.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Kerygma\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "κήρυγμα has eta in the first syllable; the corpus convention marks eta and omega with macrons (Kērygma), and the body of this article writes *kērygma*, but the frontmatter/title/linkTitle use 'Kerygma' without the macron.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/kerygma.md",
+          "locator": "line 5",
+          "observation": "Frontmatter title 'Kerygma (κήρυγμα)' vs. body forms with macron; compare kerysso.md 'Kēryssō'."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Kērygma'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-060",
+      "corpus": "om-article",
+      "recordId": "pater",
+      "file": "corpora/om-articles/pater.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Pater\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "πατήρ has eta; frontmatter/title give 'Pater' while the body uses *Patēr* (e.g., '*Patēr* applied to God appears more than 250 times').",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/pater.md",
+          "locator": "line 5",
+          "observation": "Frontmatter vs. body of pater.md."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Patēr'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-061",
+      "corpus": "om-article",
+      "recordId": "proselytos",
+      "file": "corpora/om-articles/proselytos.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Proselytos\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "προσήλυτος has eta; the transliteration omits the macron used elsewhere in the corpus (Prosēlytos).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/proselytos.md",
+          "locator": "line 5",
+          "observation": "Frontmatter of proselytos.md; compare macron usage in neighbouring entries."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Prosēlytos'",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-062",
+      "corpus": "om-article",
+      "recordId": "paliggenesia",
+      "file": "corpora/om-articles/paliggenesia.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Paliggenesia\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "γγ is transliterated 'gg' here but 'ng' elsewhere in the corpus (euangelion.md 'Euangelion', 'Anazōpyreō' etc.). Both systems exist, but the corpus does not disclose which it follows, so the two forms look like an inconsistency.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/paliggenesia.md",
+          "locator": "line 5",
+          "observation": "Compare euangelion.md translit 'Euangelion'."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Choose one convention ('Palingenesia' or 'Euaggelion') and note it.",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-063",
+      "corpus": "om-article",
+      "recordId": "suneidesis",
+      "file": "corpora/om-articles/suneidesis.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Suneidēsis\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "Upsilon is rendered 'u' here (Suneidēsis) but 'y' in every other συν-/ὑ- headword (synergeo, synthapto, hypomone, hyper, hypakoe).",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/suneidesis.md",
+          "locator": "line 5",
+          "observation": "Compare synergeo.md 'Synergeō', synthapto.md 'Synthaptō'."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "'Syneidēsis' (and slug consistency to be decided by Larry).",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-064",
+      "corpus": "om-article",
+      "recordId": "huiothesia",
+      "file": "corpora/om-articles/huiothesia.md",
+      "section": null,
+      "exactExcerpt": "translit: \"Huiothesia\"",
+      "category": "lemma-form-or-transliteration",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "υἱ- is transliterated 'Hui-' here but 'Hyi-' in hyios.md ('Hyios'); the two related headwords use different conventions for the same diphthong.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/huiothesia.md",
+          "locator": "line 5",
+          "observation": "Compare hyios.md translit 'Hyios'."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Align the two ('Hyiothesia' or 'Huios').",
+      "requiresHumanReview": false,
+      "notes": null
+    },
+    {
+      "id": "PASS2-065",
+      "corpus": "om-article",
+      "recordId": "antilytron",
+      "file": "corpora/om-articles/antilytron.md",
+      "section": null,
+      "exactExcerpt": "# Front matter reconciled against content/greek/anthropos.md per Codex, 2026-08-16.",
+      "category": "duplication-or-template-artifact",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "high",
+      "problem": "An engineering comment inside the YAML frontmatter references a different article (anthropos.md) and an internal tool; it is carried verbatim in 14 files (antilytron, authenteo, charisma, epiphaneia, eusebeia, hygiaino, loutron, mesites, mythos, orthotomeo, paratheke, pistos-ho-logos, soter, theopneustos). Harmless if the YAML parser drops comments, but it is a template artifact that misnames the record it sits in.",
+      "localEvidence": [
+        {
+          "file": "corpora/om-articles/antilytron.md",
+          "locator": "line 2",
+          "observation": "grep -l '^# Front matter reconciled' corpora/om-articles/*.md → 14 files."
+        }
+      ],
+      "claimScope": null,
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Remove the comment line from the frontmatter of the 14 files.",
+      "requiresHumanReview": false,
+      "notes": "Reported once here; the other affected records are listed in COVERAGE.json with this finding id."
+    },
+    {
+      "id": "PASS2-066",
+      "corpus": "comparison-commentary",
+      "recordId": "candidate-02",
+      "file": "corpora/comparison-commentaries/candidate-02.json",
+      "section": "significance.sourceObservation",
+      "exactExcerpt": "Notice how the two publishers describe it.",
+      "category": "cross-record-consistency",
+      "classification": "editorial-consistency",
+      "severity": "S4",
+      "confidence": "medium",
+      "problem": "BSB and MSB are described as 'the two publishers' / 'both publishers' in candidates 02, 03 and 21 ('Neither publisher offers a cross-reference'), but as 'both Berean editions' / 'both Berean footnotes' (one publishing programme) in candidates 05, 06, 09, 10, 12, 14, 15, 22, 26, 29, 30. The collection should decide whether the Berean Standard Bible and the Majority Standard Bible are one publisher or two and say so consistently.",
+      "localEvidence": [
+        {
+          "file": "corpora/comparison-commentaries/candidate-02.json",
+          "locator": "significance",
+          "observation": "Text search across corpora/comparison-commentaries for 'two publishers', 'both publishers', 'Neither publisher' vs. 'both Berean'."
+        }
+      ],
+      "claimScope": "Publisher identity of BSB and MSB.",
+      "plausibleAlternative": null,
+      "suggestedMinimalCorrection": "Use one formulation (e.g., 'the two Berean editions') throughout.",
+      "requiresHumanReview": true,
+      "notes": null
+    }
+  ]
+}

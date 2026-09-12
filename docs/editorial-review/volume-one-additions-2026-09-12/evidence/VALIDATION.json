@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "candidateManifestSha256": "28ebb36b62d8cbd4cdbc2451b98586a3f9e1f6a9e043f08f7a9c9398f2d9c958",
+  "proposedUnitCount": 9,
+  "validatedUnitIds": [
+    "candidate-31",
+    "candidate-32",
+    "candidate-33",
+    "candidate-34",
+    "candidate-35",
+    "candidate-36",
+    "candidate-37",
+    "candidate-38",
+    "candidate-39"
+  ],
+  "exactPublisherNoteCount": 22,
+  "frozenCorpusChapterCount": 63,
+  "immutableBookInputsVerified": true,
+  "sourceFilesModified": false
+}

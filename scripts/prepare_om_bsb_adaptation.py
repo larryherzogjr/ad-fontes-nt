@@ -527,6 +527,21 @@ def replace_quoted(source: str, old: str, new: str) -> tuple[str, int]:
     return source, count
 
 
+def fallback_requires_hand_adaptation(line: str, candidate: dict[str, object], old: str) -> bool:
+    """Refuse automatic whole-verse prose substitutions in phrase-sized slots.
+
+    A low-similarity quotation that contains fewer than eight words, or that is
+    embedded in a running sentence, cannot safely be expanded to a whole verse.
+    The generated candidate still records the proposed fallback for review, but
+    ``needsManualSelection`` makes validation fail until an explicit prose
+    override supplies a grammatical BSB adaptation.
+    """
+    word_count = len(re.findall(r"[A-Za-z0-9]+(?:['’][A-Za-z0-9]+)?", old))
+    prefix = line[:int(candidate['start'])].rstrip().rstrip('“"\'').rstrip()
+    introduced_as_block = not prefix or prefix.endswith((':', '—', '-'))
+    return word_count < 8 or not introduced_as_block
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--source-release', default='om-studies-2026-09-09-v3')
@@ -624,6 +639,11 @@ def main() -> None:
                 needs_manual = False
                 if whole_verse_fallback:
                     new, selected_keys, fallback_score, needs_manual = smallest_verse_fallback(old, keys, verses)
+                    needs_manual = needs_manual or fallback_requires_hand_adaptation(
+                        line,
+                        candidate,
+                        old,
+                    )
                 rendered_new = nested_quotation(new, str(candidate['outerQuote']))
                 replacements.append((int(candidate['start']), int(candidate['end']), rendered_new))
                 records.append({

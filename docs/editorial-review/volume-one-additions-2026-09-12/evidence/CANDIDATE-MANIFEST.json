@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "volume-one-additions-2026-09-12-candidate-v1",
+  "status": "unpublished-awaiting-exact-hash-approval",
+  "candidateDate": "2026-09-12",
+  "proposedUnitCount": 9,
+  "proposedUnitIds": [
+    "candidate-31",
+    "candidate-32",
+    "candidate-33",
+    "candidate-34",
+    "candidate-35",
+    "candidate-36",
+    "candidate-37",
+    "candidate-38",
+    "candidate-39"
+  ],
+  "inputs": {
+    "specSha256": "eb8dad0c41ccf70f48d5684bdb3e0ddf5d0bf7678530472b5d38adf6fc32cece",
+    "predecessorVariantsSha256": "57f469676affe81a44491d3f28ec630bee89cb40d1395abd6a76294eb3cca308",
+    "suppliedBookFiles": {
+      "epub": {
+        "filename": "Ad Fontes - Volume ONE.epub",
+        "sha256": "93854ce53f749eff51a79df2f550cf8adf88b4302ec395077f024d0498011d1a"
+      },
+      "pdf": {
+        "filename": "Ad Fontes - Volume One.pdf",
+        "sha256": "a12a2da5fc09203c2005201242079f248c67986b7dea313b0345ecf009df61a2"
+      }
+    },
+    "frozenCorpusChapters": {
+      "app/public/corpus/blb-2026-09-05-m2-v1/1TH/2.json": "fc1c71fe8461e20a1e31c99997271b9a13f20ee2ebb7e2b03d5efa43826b30b4",
+      "app/public/corpus/blb-2026-09-05-m2-v1/2PE/3.json": "9a0d02253ee8c0459437eefb58f041bcf980e1e4c071b821b5fe1e7d9f567f1c",
+      "app/public/corpus/blb-2026-09-05-m2-v1/ACT/20.json": "5db05b954cdf481adf36571babefbef20794ff1b74112fa93ca240aea6be016e",
+      "app/public/corpus/blb-2026-09-05-m2-v1/JUD/1.json": "f146998d3fef46cf2fb9914c7637df4cae7cd9b100713d12b6ba9847c3c7ae85",
+      "app/public/corpus/blb-2026-09-05-m2-v1/LUK/11.json": "e24830e91aeae58e229af67980c9bc7e04960d88c428be0c062dc90ebc4988ee",
+      "app/public/corpus/blb-2026-09-05-m2-v1/LUK/23.json": "4a2ddcd74619d0e7dafc638b95e2e955f86b23ad1e7b8f6f7df1145b6c4634cb",
+      "app/public/corpus/blb-2026-09-05-m2-v1/MAT/5.json": "d8350e0e7a3d7f77ce728d1459a3fbe006128ac5a4889c08c6bec4657c18d367",
+      "app/public/corpus/blb-2026-09-05-m2-v1/MRK/1.json": "89e42a90581365c4245d396541b865c2eab0d374b48ed55e78c2075be2f74bf1",
+      "app/public/corpus/blb-2026-09-05-m2-v1/ROM/8.json": "555684aa2ef3f3ac2f139a6a32e3652ccfb4fe8b3387ba245963336a4c97d8cb",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/1TH/2.json": "20e3e4d9fd6d6dd920725735a2060ec1523c82b75c04c55e8dda15cd592cb738",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/2PE/3.json": "bcb2b148f05cb524c86de780703f5475acbbfb6619b34535c34f30e4f410878e",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/ACT/20.json": "9386162d68d9f5e5898f572fecf365e86cb3018a3fce6b95f6970535abeeb39a",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/JUD/1.json": "b05bfa104779720c39a4a257b8abdb99c6cb48037c14d11113da3699b2a1ada0",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/LUK/11.json": "c92e6ee138e3c8d00c69f646afb7a5ebd461c996bd4e19a80b7f637505168918",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/LUK/23.json": "374af44421e6c7b104bb8332bfa10b0b44078026a933ea31b6ac43aae43d5105",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/MAT/5.json": "5bae9aa54bf592c8a260b23e0b4f5760c910042c5b953313c495c920c7447978",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/MRK/1.json": "e7f4ad9a13663588a304d6838c0fe3d4c35bc1e1225a40d10e80fc4368d50eb2",
+      "app/public/corpus/bsb-2026-09-05-m2-v1/ROM/8.json": "187dd0caba068676ebfff9b277e3b1b3ae514c6245f3dc25355ada04e28ed591",
+      "app/public/corpus/msb-2026-09-05-m2-v2/1TH/2.json": "5b0e732eda0f3aaeca1b1bf1cbab60ab27236b6fb5334bdc0d5d242f5fd858b0",
+      "app/public/corpus/msb-2026-09-05-m2-v2/2PE/3.json": "bd54540aad9b5d1d50573bbe3ff6b3b4299cef156016c75218025cec9f7300e8",
+      "app/public/corpus/msb-2026-09-05-m2-v2/ACT/20.json": "47877c28fe9f125993c8db7b27d1527735c2fa13996378db02b3c19704281e15",
+      "app/public/corpus/msb-2026-09-05-m2-v2/JUD/1.json": "a1bbc8bbfa3ae001396203fc84ea5bebd11564d84a5d05c9fef6815ae246a798",
+      "app/public/corpus/msb-2026-09-05-m2-v2/LUK/11.json": "1d2bda8cf8a93360440eb0aa5af3ffe566be52935e8dec690076adc20f900fb6",
+      "app/public/corpus/msb-2026-09-05-m2-v2/LUK/23.json": "43be56c6ff3c693f7a14a0a256705c0a29ceee9a15a0062beb357ab7fce806db",
+      "app/public/corpus/msb-2026-09-05-m2-v2/MAT/5.json": "91c6199df1d469d96e5742c14e48bdc6fb04dbd03fceecbc28e49548b1dcad6e",
+      "app/public/corpus/msb-2026-09-05-m2-v2/MRK/1.json": "3b222f10ff543b2e7282784949653a652b8681f0263dc7b1d91981e0e930d7f6",
+      "app/public/corpus/msb-2026-09-05-m2-v2/ROM/8.json": "2fbc0115dc31200f81ce480630290b32f6b0f35b306314973d7bd805db700115",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/1TH/2.json": "40e1d2a58a8ce883c469e11c8d4bc5e92993bf53d1e05b62d7d91140f5ef3599",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/2PE/3.json": "346172ed1eeb72bd963e1feec55006abd668cb4586638e8a9dc1f729bcf92e8e",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/ACT/20.json": "b3c520c5c2e7477dd833e9fe71d12ef489ae0fe9d25f6c1b53d4feb0d1ab71ee",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/JUD/1.json": "f45618f285a44a87f75a00545529a34fe075edde02151c25fe424a1d46395bc7",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/LUK/11.json": "76cbbd8861662a1a3a9a30a22d25c286d3e59d9a75e9fe11c00dfd4233053cd0",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/LUK/23.json": "be37adb48352a76fd6291df9365b31f878d27e73def3de8a2afcbc6b05b665e2",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/MAT/5.json": "04e384f3325173743db2ba5f81fc987cbbb0c416535bdaa6c8813fa51f8f04e0",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/MRK/1.json": "c8608fcd834743e93d13472b18ba84b30a9ad3f5247e1520e94e6d5527f39772",
+      "app/public/corpus/n1904-2026-09-05-m2-v1/ROM/8.json": "aa0e8aeb2ca38959756bf76a2b65f83727f57c6588aa34e9ee0db8fe7955e6b1",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/1TH/2.json": "089e68c68d52a9b99184ddab87d9ed66dfe8bd86eac8f9d96eb66291a49c9521",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/2PE/3.json": "9bf77551b87aa80c7964ba5ccb6cccc4a7044919639027d9c425f03db8b154f5",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/ACT/20.json": "2b1be1b81d278925936bf878638c048b2438ec8fe2d34ee8502466837e52c546",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/JUD/1.json": "7b8b4ceddf53b266d3d33f648927c1d5c766c2d049a683393c70b0ae4a0fdb06",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/LUK/11.json": "f2c9ea3f95f8cfa0b6b3fbe100c203a8aa8fef8102f276b5506458826e2a3705",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/LUK/23.json": "49b6e34e991a0a56ae9e1a1209bc95bb1748b392757c11f9afc9e196b166c915",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/MAT/5.json": "aeafcfa62533bb3bd191eac63fb479a09cb34d796962dc70760ec26b415a1d9f",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/MRK/1.json": "3393b1e56272a79aef281d545038e6883535d1f5799370707fd731da664693bf",
+      "app/public/corpus/rp2018-2026-09-05-m2-v1/ROM/8.json": "7159b2c4fef206173bdac8096b9db4cbfadeaf7b4300c80ea5bebfa353abe5b5",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/1TH/2.json": "c169cfd810155dc71cd55bcd6821bb328800ea8c7174b7c7f507c5655c1e7480",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/2PE/3.json": "6d61993ff8486b0d45c0a2c0a34d6da960be851a2a22fa06eb36169e0f0802d5",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/ACT/20.json": "c81a48ef92ebb844829ea2094dc39e5af69da19012836a896ca57e742aaf31f2",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/JUD/1.json": "d3387d04153c9846a1ae78159720e12386c9361806248f16da0aa315c68e9aa1",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/LUK/11.json": "11f06957de28ba44f6b2836afa9ed883ca104d8de5409a7113dde81dec9d6ed3",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/LUK/23.json": "6a1eb072cd1decd6e90592f35aa58124afe00b44a8d59a4858445b672cc3acab",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/MAT/5.json": "9110cef267203df3e59759cc59b6311324a659e1c8d7a4a6ea913c2f484ac844",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/MRK/1.json": "4240a50222065735b91f1efa9e795c206555ca8c56627cdac12e8222a17aa5be",
+      "app/public/corpus/tr-boyd-2026-09-05-m2-v1/ROM/8.json": "b6e503788543b77aa3c33a2a259b7caa8d9f8d0bee61c3f5d11bbaa753fda0b0",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/1TH/2.json": "343d0d3f13214a6b46b8b2133efc53d8f83fb9e519ed204dba525ca13d31d483",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/2PE/3.json": "eb09653195f37188801bac85555a107069171fbc5c845a4234437feb546e5c18",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/ACT/20.json": "713a404b8dc7d720a80cedcf0e9fb763f4ecfc608aa4b23d8e384ad5a82976e7",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/JUD/1.json": "4871df8ffb8e2af32f6e746884fe4447a73feae1b7f994ab9621b828913b19d0",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/LUK/11.json": "307afc0c72df424885bb5c530032fc48d2b630601521b6288682a349d7103c84",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/LUK/23.json": "19565899d5b675ed34d2ab5a46a62806086f846d423754702905b8a1cf615527",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/MAT/5.json": "9f24ebeced77198e1a27d05441ee79bb05bdd146541f4c97651a636ccb9197a1",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/MRK/1.json": "c27b1bd9adbb3d9961543343b2a0e93cd502bffc787c66d23713556e94ae8b67",
+      "app/public/corpus/ylt-2026-09-05-m2-v1/ROM/8.json": "ec47d403861cf9c371c673d402f9c967fdc9242767a894159f67df136f8bcfcc"
+    }
+  },
+  "outputs": {
+    "NEW-UNITS.json": "fc7170f9d6106ffbcae219d9879ada4daaee06a387683441b523aacfb928335d",
+    "variants.candidate.json": "ff3bf9e32280558b8bc01fda7528b973f1066a4d9dc1884df8cafaf3b3bcbe73"
+  },
+  "reviewPayloads": [
+    {
+      "unitId": "candidate-31",
+      "reviewPayloadSha256": "1105d37c10b2542327c8ae1cfa33e28e5fe3952c572b2ceb19a318b44e37d001"
+    },
+    {
+      "unitId": "candidate-32",
+      "reviewPayloadSha256": "bee63aec4d09bb17ae7710ffd7757b05b00dcfbf075d0401443bd90efddbccc5"
+    },
+    {
+      "unitId": "candidate-33",
+      "reviewPayloadSha256": "47bdbc2507497c3c2aa91a288d97f51091b061a5367932ae8096f60c5e8027cb"
+    },
+    {
+      "unitId": "candidate-34",
+      "reviewPayloadSha256": "c3ac13c223ae11b0cc33b5c979586e4f9bf7e81e4c28480edaebbea772f285ce"
+    },
+    {
+      "unitId": "candidate-35",
+      "reviewPayloadSha256": "843ef43ed30d9a6b696905ba39bb008da01ec07a6b4ce0336373cbbdc159266b"
+    },
+    {
+      "unitId": "candidate-36",
+      "reviewPayloadSha256": "a6863037ea45c372b1cdeab31315dc12054fc7cb0b564980467e64d4f43fb3f1"
+    },
+    {
+      "unitId": "candidate-37",
+      "reviewPayloadSha256": "e60581ededbe7da356490c3f50c071e55623e33de8576c2c8cc309ca0d4b7c80"
+    },
+    {
+      "unitId": "candidate-38",
+      "reviewPayloadSha256": "8420e562813fedd93919b91c757722d896ee8d9a1d8042237e50030c979dfd9a"
+    },
+    {
+      "unitId": "candidate-39",
+      "reviewPayloadSha256": "7916233269b7fb0584eadb4a310218655e192949456d2165ab83ca5ef7915d77"
+    }
+  ],
+  "scriptureChanged": false,
+  "publicEditorialSourceChanged": false,
+  "authorWebsiteChanged": false
+}

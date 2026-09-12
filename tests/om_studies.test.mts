@@ -12,8 +12,8 @@ const output = `app/public/om/${release.releaseId}`;
 const manifest = await json(`${source}/manifest.json`);
 
 test('selected release is the approved resolved-audit successor', async () => {
-  assert.equal(release.releaseId, 'om-studies-2026-09-11-v7');
-  assert.equal(manifest.predecessor, 'om-studies-2026-09-11-v6');
+  assert.equal(release.releaseId, 'om-studies-2026-09-12-v8');
+  assert.equal(manifest.predecessor, 'om-studies-2026-09-11-v7');
   assert.equal(manifest.adaptation.edition, 'BSB');
   assert.equal(manifest.adaptation.candidateManifestSha256, 'dad1b34f996eb44bc30e9641083f39b8945992f768a2b96b511f0a695647eb2d');
   assert.equal(manifest.adaptation.validatorReportSha256, 'ebf8611fdbf23710ebb61216357e92e9cc5964f6f74bd5c692717ed0df40abbd');
@@ -37,9 +37,16 @@ test('selected release is the approved resolved-audit successor', async () => {
   assert.equal(manifest.auditFollowupCorrection.unchangedArticleCount, 246);
   assert.equal(manifest.auditFollowupCorrection.scriptureChanged, false);
   assert.equal(manifest.auditFollowupCorrection.authorWebsiteChanged, false);
+  assert.equal(manifest.secondPassCorrection.candidateManifestSha256, '697d9e54fdb1df0fa8d7f04ca90da811f405366aac3c31f4bf060fc45e4a0b9e');
+  assert.equal(manifest.secondPassCorrection.replacementCount, 202);
+  assert.equal(manifest.secondPassCorrection.changedArticles.length, 91);
+  assert.equal(manifest.secondPassCorrection.unchangedArticleCount, 159);
+  assert.equal(manifest.secondPassCorrection.confessionalSourceVerificationPassed, true);
+  assert.equal(manifest.secondPassCorrection.scriptureChanged, false);
+  assert.equal(manifest.secondPassCorrection.authorWebsiteChanged, false);
   const approval = await readFile(join(source, manifest.approvalEvidence), 'utf8');
   assert.match(approval, /Reviewer: Larry Herzog Jr\./);
-  assert.match(approval, /58cab201852f955de95af4ee2a3531a4f03708e867a0183bc884651a752792d8/);
+  assert.match(approval, /697d9e54fdb1df0fa8d7f04ca90da811f405366aac3c31f4bf060fc45e4a0b9e/);
 });
 
 test('approved count and language corrections are present', async () => {
@@ -70,6 +77,19 @@ test('the five resolved audit findings use the approved wording', async () => {
   assert.doesNotMatch(hyper, /the gospel in three syllables/);
 });
 
+test('second-pass confessional corrections use the approved source-verified wording', async () => {
+  const article = async (slug: string) => await readFile(join(source, 'raw', `${slug}.md`), 'utf8');
+  const mysterion = await article('mysterion');
+  assert.match(mysterion, /explicitly names Baptism, the Lord's Supper, and absolution/);
+  assert.doesNotMatch(mysterion, /Lutheran retention of two sacraments|notes the relationship between the Latin term/);
+  const presbyteros = await article('presbyteros');
+  assert.match(presbyteros, /no objection to calling ordination—and the laying on of hands—a sacrament/);
+  assert.doesNotMatch(presbyteros, /not strictly a sacrament in the technical sense/);
+  assert.match(await article('monogenes'), /begotten from the Father before all the ages[\s\S]+Nicene Creed 2–3/);
+  assert.match(await article('theotes'), /Solid Declaration VIII 82–84/);
+  assert.match(await article('ekporeuomai'), /Western words appear in brackets \(Nicene Creed 7\)/);
+});
+
 test('all 250 approved articles reproduce exactly and cover every existing Greek word-study URL', async () => {
   const index = await json(`${output}/index.json`);
   assert.equal(index.articles.length, 250);
@@ -87,7 +107,7 @@ test('all 250 approved articles reproduce exactly and cover every existing Greek
     assert.doesNotMatch(raw, /\bNET\b/);
     assert.equal(article.markdown, /^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/.exec(raw)![1]);
   }
-  const lookup = await json('app/public/lexical/dodson-2010-v4/lookup.json');
+  const lookup = await json('app/public/lexical/dodson-2010-v5/lookup.json');
   const urls = new Set(index.articles.map((a: {url: string}) => a.url));
   for (const links of Object.values(lookup.links) as {url: string}[][]) {
     for (const link of links) assert.ok(urls.has(link.url), `Unbundled existing word link: ${link.url}`);
@@ -98,6 +118,8 @@ test('reader discloses the BSB adaptation and unchanged original website edition
   const source = await readFile('app/reader/word-studies.tsx', 'utf8');
   assert.match(source, /open here in an Ad Fontes BSB adaptation/);
   assert.match(source, /linked website preserves the original article edition/);
+  assert.match(source, /occurrence counts are NFC-normalized lemma totals/);
+  assert.match(source, /two verses with unavailable analysis are excluded/);
   assert.match(source, /Open original website edition on larryherzogjr\.com/);
 });
 
@@ -112,6 +134,6 @@ test('article Markdown preserves the real Metanoia footnote and hides editorial 
   assert.match(html, /href="#user-content-fn-jeg-1-103"/);
   assert.match(html, /id="user-content-fn-jeg-1-103"/);
   assert.match(html, /href="#user-content-fnref-jeg-1-103"/);
-  assert.match(html, /Kolb and Wengert/);
+  assert.match(html, /Robert Kolb and Timothy J\. Wengert/);
   assert.doesNotMatch(html, /APPROVED ADAPTATION|COPY APPROVED/);
 });

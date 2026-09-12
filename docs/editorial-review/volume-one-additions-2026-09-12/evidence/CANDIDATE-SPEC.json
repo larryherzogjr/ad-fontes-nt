@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "volume-one-additions-2026-09-12-candidate-v1",
+  "candidateDate": "2026-09-12",
+  "bookSources": {
+    "epub": {
+      "path": "/Users/lherzog/Downloads/Ad Fontes - Volume ONE.epub",
+      "sha256": "93854ce53f749eff51a79df2f550cf8adf88b4302ec395077f024d0498011d1a"
+    },
+    "pdf": {
+      "path": "/Users/lherzog/Downloads/Ad Fontes - Volume One.pdf",
+      "sha256": "a12a2da5fc09203c2005201242079f248c67986b7dea313b0345ecf009df61a2"
+    }
+  },
+  "units": [
+    {
+      "id": "candidate-31",
+      "reference": "Mark 1:2",
+      "title": "Isaiah the Prophet, or the Prophets? Mark 1:2",
+      "bookLocator": "chapter 4, printed page 73",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"MRK.1.note.2","body":"1:2 BYZ and TR in the prophets:"},
+        {"editionId":"MSB","noteId":"MRK.1.2.note.2","body":"1:2 CT in Isaiah the prophet:"}
+      ],
+      "sourceObservation": "The seven displayed editions divide at the opening attribution. The Berean Standard Bible, Berean Literal Bible, and Nestle 1904 read “in Isaiah the prophet.” The Majority Standard Bible, Young’s Literal Translation, Robinson–Pierpont 2018, and Boyd’s Textus Receptus read “in the prophets” [C1]. The BSB and MSB publisher notes acknowledge the reciprocal reading [C2].\n\nThe quotation that follows combines language from Malachi 3:1 and Isaiah 40:3. This comparison is limited to the attribution in Mark 1:2; a nearby difference involving “before You” is a separate textual question. The seven-edition display shows the split but does not, by itself, establish which wording is earliest.",
+      "interpretation": "“Isaiah the prophet” names the major prophet whose words dominate the second part of the composite quotation, while “the prophets” makes the composite source explicit. Either wording directs the reader into Israel’s prophetic witness and into Mark’s presentation of John preparing the Lord’s way.\n\nThe difference is a useful lesson in reading carefully: an apparent citation problem may also be a textual problem. It should not be resolved merely by changing translations or by assuming that one textual family always gives the expected wording. *Ad Fontes — Volume One* uses this passage as a worked example of that method [C3]."
+    },
+    {
+      "id": "candidate-32",
+      "reference": "Acts 20:28",
+      "title": "The Church of God—or of the Lord and God? Acts 20:28",
+      "bookLocator": "chapter 8, beginning printed page 175",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"ACT.20.note.121","body":"20:28 Tischendorf of the Lord; BYZ and PT of the Lord and God"},
+        {"editionId":"MSB","noteId":"ACT.20.28.note.301","body":"20:28 CT the church of God"}
+      ],
+      "sourceObservation": "Five displayed editions—the BSB, BLB, YLT, Nestle 1904, and Boyd’s Textus Receptus—have “the church of God” or its Greek equivalent. The MSB and Robinson–Pierpont 2018 have “the church of the Lord and God” [C1]. The BSB note also reports “of the Lord” and “of the Lord and God” alternatives, while the MSB note points to “the church of God” [C2].\n\nThis is not a simple critical-text-versus-Textus-Receptus division: Boyd’s TR agrees here with the displayed “of God” reading. The wording later in the verse about blood and “His own” raises an additional translation and interpretation question; it should not be collapsed into the church-of-God/church-of-the-Lord-and-God variant.",
+      "interpretation": "The “church of God” reading places the reference to God next to the statement about acquiring the church through blood, producing an especially compressed Christological sentence. “The church of the Lord and God” is also explicitly exalted language. Neither displayed form makes the church’s value or the overseers’ responsibility depend on a minor doctrine.\n\nThe passage therefore rewards slow comparison. The theological importance of the wording is real, but Christian teaching about Christ does not rest on this one variant. *Ad Fontes — Volume One* treats Acts 20:28 as a principal Christological case and warns against deciding such questions by slogans about one edition or family [C3]."
+    },
+    {
+      "id": "candidate-33",
+      "reference": "Romans 8:1",
+      "title": "No Condemnation: Where Does Romans 8:1 End?",
+      "bookLocator": "chapter 1; recurring in chapters 2 and 4",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"ROM.8.note.29","body":"8:1 BYZ and TR in Christ Jesus, who do not walk according to the flesh but according to the Spirit."},
+        {"editionId":"MSB","noteId":"ROM.8.1.note.53","body":"8:1 CT does not include who do not walk according to the flesh but according to the Spirit."}
+      ],
+      "sourceObservation": "The BSB, BLB, and Nestle 1904 end Romans 8:1 after “Christ Jesus.” The MSB, YLT, Robinson–Pierpont 2018, and Boyd’s Textus Receptus continue with the clause about not walking according to the flesh but according to the Spirit [C1]. The BSB and MSB notes explicitly document the longer and shorter forms [C2].\n\nThe longer clause closely resembles language that appears later in the chapter. That makes harmonization or repetition a relevant question, but the seven displayed editions alone do not identify the direction of change or settle the earliest wording.",
+      "interpretation": "In the shorter form, the declaration of no condemnation lands immediately on those who are in Christ Jesus. The longer form adds an ethical description of the people named. The difference affects the sentence’s emphasis, but it should not be used to separate justification from the Spirit-shaped life Paul develops throughout Romans 8.\n\nThe shorter wording does not make obedience irrelevant, and the longer wording should not be turned into a condition by which believers earn freedom from condemnation. *Ad Fontes — Volume One* opens with this concrete example and returns to it while discussing harmonization and the difference between a textual question and a theological system [C3]."
+    },
+    {
+      "id": "candidate-34",
+      "reference": "Jude 5",
+      "title": "Who Saved Israel from Egypt? Jude 5",
+      "bookLocator": "chapter 14, beginning printed page 399",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"JUD.1.note.1","body":"1:5 NE, WH, BYZ, and TR the Lord"},
+        {"editionId":"MSB","noteId":"JUD.1.5.note.3","body":"1:5 SBL and NA28 after Jesus"}
+      ],
+      "sourceObservation": "The BSB and BLB say that Jesus saved a people out of Egypt. The MSB, YLT, Nestle 1904, Robinson–Pierpont 2018, and Boyd’s Textus Receptus say that the Lord did so [C1]. The BSB and MSB publisher notes document the competing form, although their abbreviated edition labels are publisher claims rather than an apparatus independently reconstructed here [C2].\n\nThe displayed comparison is compact and clear: “Jesus” and “Lord” occupy the same place in the sentence. Other readings discussed in technical literature are outside this frozen seven-edition comparison.",
+      "interpretation": "“Jesus” identifies Christ explicitly as the one active in Israel’s deliverance and judgment. “The Lord” leaves the title in the sentence and requires the reader to follow Jude’s argument and wider Christology to identify its referent. The forms differ in explicitness, but both place the saving event and the later judgment under divine authority.\n\nThis is a substantial Christological variant, not a reason to claim that one reading creates a doctrine absent from the rest of the New Testament. *Ad Fontes — Volume One* uses Jude 5 as a concrete case while explaining modern genealogical method; this article confines itself to what the frozen app sources can demonstrate [C3]."
+    },
+    {
+      "id": "candidate-35",
+      "reference": "2 Peter 3:10",
+      "title": "What Happens to the Earth? 2 Peter 3:10",
+      "bookLocator": "chapters 12 and 14, especially printed pages 329 and 401–402",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"2PE.3.note.15","body":"3:10 Or will not be found. BYZ and TR will be burned up; SBL, NE, and WH will be found, i.e., will be unable to hide."},
+        {"editionId":"MSB","noteId":"2PE.3.10.note.32","body":"3:10 Some CT will be laid bare or will be exposed or will be disclosed; SBL, NE, and WH will be found, i.e., will be unable to hide."}
+      ],
+      "sourceObservation": "The final clause appears in several forms across the display. The BSB says the earth and its works “will be laid bare”; the BLB says they “will not be found”; the MSB and YLT say they “will be burned up.” Nestle 1904 has the Greek for “will be found,” while Robinson–Pierpont 2018 and Boyd’s Textus Receptus have the Greek for “will be burned up” [C1]. The BSB and MSB notes preserve several of these alternatives [C2].\n\nThis comparison mixes textual and translation decisions. In particular, an English rendering such as “laid bare” must not be treated as though it were simply the name of a displayed Greek edition. The frozen sources show the resulting forms but do not supply a full manuscript apparatus.",
+      "interpretation": "The alternatives create different immediate pictures: discovery or exposure, non-discovery, and burning. Yet the surrounding sentence in every displayed edition still announces the day of the Lord and the dissolution or passing of the heavens. The variant changes the final image without erasing the passage’s call to live before God’s coming judgment.\n\nReaders should resist building an entire account of the renewed creation from this clause alone. *Ad Fontes — Volume One* returns to 2 Peter 3:10 when discussing changing critical editions, versional evidence, and genealogical method; the diversity visible here explains why the example carries so much methodological weight [C3]."
+    },
+    {
+      "id": "candidate-36",
+      "reference": "Matthew 5:22",
+      "title": "Angry Without Cause? Matthew 5:22",
+      "bookLocator": "chapter 9, beginning printed page 211",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"MAT.5.note.26","body":"5:22 BYZ and TR include without cause."},
+        {"editionId":"MSB","noteId":"MAT.5.22.note.36","body":"5:22 CT does not include without cause."}
+      ],
+      "sourceObservation": "The BSB, BLB, and Nestle 1904 do not qualify the anger in Jesus’ warning. The MSB, YLT, Robinson–Pierpont 2018, and Boyd’s Textus Receptus include “without cause” or its Greek equivalent [C1]. The reciprocal BSB and MSB notes identify the difference [C2].\n\nOther wording in the verse—such as the terms rendered “Raca,” “council,” and “Gehenna”—raises separate translation questions. The present comparison is limited to whether the qualification on anger appears.",
+      "interpretation": "Without the qualification, Jesus’ warning strikes the reader in an unsoftened form: anger toward a brother or sister stands under judgment. With “without cause,” the sentence explicitly distinguishes causeless anger. That difference matters pastorally, but neither form licenses self-justifying rage or cancels the Sermon on the Mount’s movement from outward acts to the heart.\n\nThe shorter reading need not be made to deny every possible category of righteous anger elsewhere in Scripture, and the longer reading should not become an easy escape from Jesus’ scrutiny. *Ad Fontes — Volume One* treats this as a dominical saying whose textual form has real interpretive consequences [C3]."
+    },
+    {
+      "id": "candidate-37",
+      "reference": "Luke 11:2-4",
+      "title": "Luke’s Shorter Lord’s Prayer: Luke 11:2–4",
+      "bookLocator": "chapters 2 and 4; recurring harmonization example",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"LUK.11.note.62","body":"11:2 BYZ and TR Our Father in heaven; see Matthew 6:9."},
+        {"editionId":"BSB","noteId":"LUK.11.note.63","body":"11:2 BYZ and TR include Your will be done, on earth as it is in heaven; see Matthew 6:10."},
+        {"editionId":"BSB","noteId":"LUK.11.note.64","body":"11:4 BYZ and TR include but deliver us from the evil one; see Matthew 6:13."},
+        {"editionId":"MSB","noteId":"LUK.11.2.note.193","body":"11:2 CT ‘Father; see Matthew 6:9."},
+        {"editionId":"MSB","noteId":"LUK.11.2.note.194","body":"11:2 CT does not include Your will be done, on earth as it is in heaven; see Matthew 6:10."},
+        {"editionId":"MSB","noteId":"LUK.11.4.note.195","body":"11:4 Or from evil; CT does not include but deliver us from the evil one; see Matthew 6:13."}
+      ],
+      "sourceObservation": "Luke’s prayer is shorter in the BSB, BLB, and Nestle 1904. The MSB, YLT, Robinson–Pierpont 2018, and Boyd’s Textus Receptus include familiar expansions: “Our Father” or “in heaven,” the petition that God’s will be done on earth as in heaven, and the closing request for deliverance from evil [C1]. BSB and MSB notes identify these differences and point toward the parallel prayer in Matthew [C2].\n\nBecause several phrases vary across three verses, the unit should be read as a cluster rather than as one missing word. This article concerns expansion of Luke’s form toward Matthew’s; Matthew’s doxology is a distinct question already treated elsewhere in the app.",
+      "interpretation": "The shorter Lukan form is not a defective prayer. It preserves the same fundamental movement toward God’s name and kingdom, daily provision, forgiveness, and protection in testing. The longer form makes Luke sound more like the familiar Matthean wording used in Christian worship.\n\nParallel Gospel passages naturally invite harmonization in memory, copying, and public use. Recognizing that possibility lets readers honor each evangelist’s transmitted form without treating familiar expansions as doctrinal intrusions. *Ad Fontes — Volume One* repeatedly uses Luke 11 as a concrete harmonization example [C3]."
+    },
+    {
+      "id": "candidate-38",
+      "reference": "Luke 23:34",
+      "title": "Father, Forgive Them: The Footnote at Luke 23:34",
+      "bookLocator": "chapter 9, beginning printed page 204",
+      "presentation": "publisher-note",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"LUK.23.note.129","body":"23:34 Some manuscripts do not include Then Jesus said, “Father... what they are doing.”"},
+        {"editionId":"MSB","noteId":"LUK.23.34.note.378","body":"23:34 Some manuscripts do not include Then Jesus said, “Father... what they are doing.”"}
+      ],
+      "sourceObservation": "All seven displayed editions print Jesus’ prayer, “Father, forgive them, for they do not know what they are doing.” None of the seven directly displays an edition in which the prayer is absent [C1]. The BSB and MSB publisher notes nevertheless report that some manuscripts do not include the sentence [C2].\n\nThis is therefore a publisher-note-supported study, not a displayed-edition comparison that demonstrates the omission. The current frozen corpus cannot identify the relevant manuscripts, weigh them, or determine the earliest form.",
+      "interpretation": "The prayer vividly presents Jesus interceding for those responsible for His crucifixion. Its pastoral and liturgical importance helps explain why a textual footnote here feels weightier than many differences of spelling or word order.\n\nThe note should lead to careful study rather than panic. Luke’s wider portrait of forgiveness and Jesus’ mercy does not depend on a single sentence, while the sentence itself deserves honest textual notice. *Ad Fontes — Volume One* treats the passage as a full case study; this app entry deliberately stops where its note-limited evidence stops [C3]."
+    },
+    {
+      "id": "candidate-39",
+      "reference": "1 Thessalonians 2:7",
+      "title": "Gentle or Little Children? The Footnote at 1 Thessalonians 2:7",
+      "bookLocator": "chapter 14, beginning printed page 382",
+      "presentation": "publisher-note",
+      "noteRefs": [
+        {"editionId":"BSB","noteId":"1TH.2.note.4","body":"2:7 WH and NA we were like young children among you"},
+        {"editionId":"MSB","noteId":"1TH.2.7.note.5","body":"2:7 WH and NA we were like young children among you"}
+      ],
+      "sourceObservation": "All seven displayed editions read “gentle” or the corresponding Greek word in 1 Thessalonians 2:7. None directly prints “we were like young children among you” [C1]. The BSB and MSB publisher notes preserve that alternative and associate it with WH and NA [C2].\n\nThis is therefore another publisher-note-supported study. The displayed editions can establish their shared main-text reading and the exact note bodies, but they do not provide the manuscript data needed to reconstruct or independently verify the note’s abbreviated attribution.",
+      "interpretation": "“Gentle among you” flows directly into Paul’s image of a nursing mother caring for her own children. “Like young children among you” first describes the apostles as childlike and then moves into the nursing-mother comparison. A very small textual difference therefore changes the immediate metaphor and the sentence’s rhythm.\n\nBoth forms remain inside Paul’s larger defense of a ministry marked by humility, affection, and self-giving rather than flattery or grasping. *Ad Fontes — Volume One* uses the passage as a worked example of reasoned eclecticism; this entry presents the question without pretending that the frozen app corpus supplies a full apparatus [C3]."
+    }
+  ]
+}

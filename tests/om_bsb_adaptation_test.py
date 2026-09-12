@@ -8,6 +8,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 
 from prepare_om_bsb_adaptation import (  # noqa: E402
     expand_reference,
+    fallback_requires_hand_adaptation,
     load_bsb,
     nested_quotation,
     normalize_bsb_citation_labels,
@@ -96,6 +97,23 @@ class OmBsbAdaptation(unittest.TestCase):
             '“May the LORD give you peace.” and “Jesus said, ‘Come.’”',
         )
         self.assertEqual(count, 1)
+
+    def test_short_or_embedded_whole_verse_fallback_requires_hand_adaptation(self):
+        self.assertTrue(fallback_requires_hand_adaptation(
+            'Paul calls this “the truth” in the passage.',
+            {'start': 17},
+            'the truth',
+        ))
+        self.assertTrue(fallback_requires_hand_adaptation(
+            'Paul writes “This complete sentence has enough words to pass the length test.”',
+            {'start': 13},
+            'This complete sentence has enough words to pass the length test',
+        ))
+        self.assertFalse(fallback_requires_hand_adaptation(
+            'Paul writes: “This complete sentence has enough words to stand as a block.”',
+            {'start': 14},
+            'This complete sentence has enough words to stand as a block',
+        ))
 
 
 if __name__ == '__main__':

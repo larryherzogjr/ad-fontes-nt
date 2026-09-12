@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-09-12",
+  "purpose": "Read-only concordance between Ad Fontes - Volume One and the approved Ordinary Means comparison commentary in Ad Fontes NT",
+  "countingRule": "A case group is a textual locus or tightly related set of loci that receives either a headed treatment or repeated substantive use in the book. Mark 9:44/46 and Acts 15:20/29 are each one case group; the two distinct Romans 16 problems are separate groups.",
+  "bookSources": {
+    "epub": {
+      "filename": "Ad Fontes - Volume ONE.epub",
+      "sha256": "93854ce53f749eff51a79df2f550cf8adf88b4302ec395077f024d0498011d1a",
+      "role": "systematic text extraction and heading inventory"
+    },
+    "pdf": {
+      "filename": "Ad Fontes - Volume One.pdf",
+      "sha256": "a12a2da5fc09203c2005201242079f248c67986b7dea313b0345ecf009df61a2",
+      "pages": 468,
+      "role": "printed-page and visual verification"
+    }
+  },
+  "summary": {
+    "bookCaseGroups": 24,
+    "representedCaseGroups": 12,
+    "representedAppUnits": 13,
+    "missingCaseGroups": 12,
+    "missingSupportedByCurrentCorpus": 7,
+    "missingSupportedWithPublisherNoteLimitation": 2,
+    "missingRequiringAdditionalSource": 3
+  },
+  "caseGroups": [
+    {"reference":"ROM.8.1","bookLocator":"chapter 1, recurring in chapters 2 and 4","status":"missing-current-corpus","priority":3,"proposedId":"AFNT-V2-03","currentEvidence":"BSB, BLB and N1904 omit the closing clause; MSB, YLT, RP2018 and TR-BOYD include it; BSB and MSB carry reciprocal publisher notes."},
+    {"reference":"LUK.11.2-LUK.11.4","bookLocator":"chapters 2 and 4; recurring harmonization example","status":"missing-current-corpus","priority":7,"proposedId":"AFNT-V2-07","currentEvidence":"BSB, BLB and N1904 preserve the shorter form; MSB, YLT, RP2018 and TR-BOYD contain Matthean expansions; BSB and MSB identify the differences in publisher notes."},
+    {"reference":"MRK.1.2","bookLocator":"chapter 4, printed page 73","status":"missing-current-corpus","priority":1,"proposedId":"AFNT-V2-01","currentEvidence":"BSB, BLB and N1904 read Isaiah the prophet; MSB, YLT, RP2018 and TR-BOYD read the prophets; BSB and MSB provide reciprocal notes."},
+    {"reference":"MRK.16.9-MRK.16.20","bookLocator":"chapter 5, beginning printed page 82","status":"represented","appUnits":["candidate-11"]},
+    {"reference":"JHN.7.53-JHN.8.11","bookLocator":"chapter 6, beginning printed page 106","status":"represented","appUnits":["candidate-17"]},
+    {"reference":"1JN.5.7-1JN.5.8","bookLocator":"chapter 7, beginning printed page 130","status":"represented","appUnits":["candidate-27"]},
+    {"reference":"REV.22.19","bookLocator":"chapter 3; recurring Erasmus example","status":"represented","appUnits":["candidate-28"]},
+    {"reference":"JHN.1.18","bookLocator":"chapter 8, beginning printed page 160","status":"represented","appUnits":["candidate-15"]},
+    {"reference":"1TI.3.16","bookLocator":"chapter 8, beginning printed page 167","status":"represented","appUnits":["candidate-26"]},
+    {"reference":"ACT.20.28","bookLocator":"chapter 8, beginning printed page 175","status":"missing-current-corpus","priority":2,"proposedId":"AFNT-V2-02","currentEvidence":"BSB, BLB, YLT, N1904 and TR-BOYD read church of God; MSB and RP2018 read church of the Lord and God; BSB and MSB also preserve publisher-note alternatives."},
+    {"reference":"MAT.6.13","bookLocator":"chapter 9, beginning printed page 195","status":"represented","appUnits":["candidate-01"]},
+    {"reference":"LUK.23.34","bookLocator":"chapter 9, beginning printed page 204","status":"missing-publisher-note-limited","priority":8,"proposedId":"AFNT-V2-08","currentEvidence":"All seven displayed editions print the prayer. BSB and MSB note that some manuscripts omit it, so the omission can only be represented as a publisher-note alternative in the current corpus."},
+    {"reference":"MAT.5.22","bookLocator":"chapter 9, beginning printed page 211","status":"missing-current-corpus","priority":6,"proposedId":"AFNT-V2-06","currentEvidence":"BSB, BLB and N1904 omit without cause; MSB, YLT, RP2018 and TR-BOYD include it; BSB and MSB provide reciprocal notes."},
+    {"reference":"MRK.9.44+MRK.9.46","bookLocator":"chapter 10, beginning printed page 229","status":"represented","appUnits":["candidate-07","candidate-08"]},
+    {"reference":"LUK.17.36","bookLocator":"chapter 10, beginning printed page 234","status":"represented","appUnits":["candidate-12"]},
+    {"reference":"ACT.8.37","bookLocator":"chapter 10, beginning printed page 239","status":"represented","appUnits":["candidate-18"]},
+    {"reference":"ROM.16.24","bookLocator":"chapter 10, beginning printed page 248","status":"represented","appUnits":["candidate-23"]},
+    {"reference":"ACT.8.39","bookLocator":"chapter 11, beginning printed page 267","status":"missing-needs-source","proposedId":"AFNT-V2-S01","currentEvidence":"All seven displayed editions preserve the standard reading and none supplies the book's Codex Bezae/Old Latin expansion as a publisher note. A reviewed Western-text source is required."},
+    {"reference":"ACT.19.9","bookLocator":"chapter 11, beginning printed page 273","status":"missing-needs-source","proposedId":"AFNT-V2-S02","currentEvidence":"The current corpus exposes a smaller Tyrannus/a certain Tyrannus difference, but not the Western fifth-hour-to-tenth-hour expansion treated by the book. A reviewed Western-text source is required."},
+    {"reference":"ACT.15.20+ACT.15.29","bookLocator":"chapter 11, beginning printed page 279","status":"missing-needs-source","proposedId":"AFNT-V2-S03","currentEvidence":"All seven displayed editions preserve the fourfold decree and none supplies the book's Western ethical form as a publisher note. A reviewed Western-text source is required."},
+    {"reference":"ROM.16.25-ROM.16.27","bookLocator":"chapter 11, beginning printed page 288","status":"represented","appUnits":["candidate-24"]},
+    {"reference":"1TH.2.7","bookLocator":"chapter 14, beginning printed page 382","status":"missing-publisher-note-limited","priority":9,"proposedId":"AFNT-V2-09","currentEvidence":"All seven displayed editions read gentle. BSB and MSB note the young children reading associated with WH/NA, so that reading is available only through publisher notes in the current corpus."},
+    {"reference":"JUD.1.5","bookLocator":"chapter 14, beginning printed page 399","status":"missing-current-corpus","priority":4,"proposedId":"AFNT-V2-04","currentEvidence":"BSB and BLB read Jesus; MSB, YLT, N1904, RP2018 and TR-BOYD read Lord; BSB and MSB document the split in publisher notes."},
+    {"reference":"2PE.3.10","bookLocator":"chapters 12 and 14, especially printed pages 329 and 401-402","status":"missing-current-corpus","priority":5,"proposedId":"AFNT-V2-05","currentEvidence":"BLB reads will not be found, N1904 reads will be found, MSB/YLT/RP2018/TR-BOYD read burned up, and BSB prints laid bare with a publisher note identifying the alternatives."}
+  ]
+}

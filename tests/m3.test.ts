@@ -524,7 +524,16 @@ test('batch 4 public prose matches returned A-C plus exact approved corrections 
   }
 });
 
-test('inline commentary routes all 30 units through source mappings or explicit absent-verse notices', async () => {
+test('inline commentary routes all 39 units through source mappings or explicit absent-verse notices', async () => {
+  assert.equal(candidates.length, 39);
+  assert.deepEqual(
+    candidates.slice(30).map(unit => unit.id),
+    Array.from({ length: 9 }, (_, index) => `candidate-${31 + index}`),
+  );
+  assert.deepEqual(
+    candidates.filter(unit => unit.presentation === 'publisher-note').slice(-2).map(unit => unit.id),
+    ['candidate-38', 'candidate-39'],
+  );
   const { reviewedAt, verseAnchors } = await import('../app/lib/domain/reviewed-markers.ts');
   for (const unit of candidates) {
     for (const reading of unit.readings) {

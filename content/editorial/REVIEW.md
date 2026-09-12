@@ -1,6 +1,6 @@
 # Textual review queue
 
-**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 30 approved, 0 rejected, 30 locally published**.
+**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 39 approved, 0 rejected, 39 locally published**.
 
 `variants.json` contains exact quotations and source references from the seven local editions. Candidates include omissions, brackets, longer units, placement and numbering examples. Their spans may be narrowed during review. All 30 initial candidates are approved and locally published. The six batch-1 notes contain Larry’s adopted explanations, with explicitly approved factual clarifications for candidates 03 and 18. Candidate-18 now uses rev-3; its previous payload and approval remain in history. Its full return and AI drafting history are retained in `contributions/candidate-18.json` and the linked archival documents. No manuscript attestations were added.
 
@@ -56,3 +56,15 @@ Book-attributed accounts in 11/17/27 have individual permission with visible ind
 ## M3 acceptance
 
 Larry accepted the remaining sampled Greek review, disclosed limits and study experience on 2026-09-05. Inline markers and final engineering checks are complete; [acceptance record](../../docs/M3-Acceptance.md). This does not change any explanation payload or add manuscript evidence. All 30 initial publication hashes remain valid. M4 is next.
+
+## Volume One additions
+
+Larry approved the exact nine-study candidate manifest `28ebb36b62d8cbd4cdbc2451b98586a3f9e1f6a9e043f08f7a9c9398f2d9c958` on 2026-09-12. Candidates 31–37 are seven-edition comparisons. Candidates 38–39 are publisher-note-only studies: every displayed edition prints the prayer in Luke 23:34 and “gentle” in 1 Thessalonians 2:7, so the note-supported alternatives must never be rendered as displayed-edition absences. The complete candidate, validation, exact review payloads, source specification, and approval are preserved in [the evidence directory](../../docs/editorial-review/volume-one-additions-2026-09-12/evidence/).
+
+The nine records add no structured manuscript attestations and do not alter any frozen corpus. Their book-derived case selection and paraphrase are disclosed self-citation; the current app evidence does not independently reconstruct a manuscript apparatus. The three Western Acts cases identified by the concordance remain deferred pending a reviewed additional source.
+
+## Second-pass article correction release
+
+The reconciled second-pass audit, Larry’s two theological follow-ups, and a direct inspection of his licensed Kolb–Wengert *Book of Concord* were assembled as candidate v10. The confessional-source verification gate is complete: remaining uses are article-level paraphrases or short phrases, with a bound locator/rights ledger; no long Kolb–Wengert extract is incorporated. Verification corrected the Apology XIII sacrament enumeration and ordination nuance, standardized Nicene wording, and tightened Formula and catechism locators.
+
+Larry explicitly approved candidate manifest SHA-256 `697d9e54fdb1df0fa8d7f04ca90da811f405366aac3c31f4bf060fc45e4a0b9e` on 2026-09-12. It is locally published as immutable article release `om-studies-2026-09-12-v8`, word metadata `words-2026-09-12-250.json`, lexical release `dodson-2010-v5`, and fresh approvals for comparison units 02, 03, and 21. The reader frequency notice is selected. The approval and complete evidence remain hash-bound inside the new article release. No hosted deployment or author-website change is implied.

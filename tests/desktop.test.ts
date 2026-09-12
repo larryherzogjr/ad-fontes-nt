@@ -25,7 +25,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.6');
+  assert.equal(config.version, '1.0.0-rc.7');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -144,7 +144,7 @@ test('packaged Greek analysis, dictionary, occurrences and OM article work with 
     assert.ok(token);
     assert.equal((await getOccurrences(token.lemmaId)).hits.length, 128);
     assert.equal((await getLexicon(token.strongs))?.id, 'G3498');
-    const lookup = resolveLookup(await json('lexical/dodson-2010-v4/lookup.json'), token);
+    const lookup = resolveLookup(await json('lexical/dodson-2010-v5/lookup.json'), token);
     const bundle = await json(`om/${om.releaseId}/index.json`);
     const summary = bundle.articles.find((article: {url: string}) => lookup.links.some(link => link.url === article.url));
     assert.equal(bundle.articles.length, 250);

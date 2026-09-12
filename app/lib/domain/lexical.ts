@@ -12,10 +12,10 @@ export function resolveLookup(data: LookupBundle, token: Pick<Token, 'lemma' | '
 }
 let pending: Promise<LookupBundle> | undefined;
 export function loadLookup() {
-  return pending ||= fetch('/lexical/dodson-2010-v4/lookup.json').then(async response => {
+  return pending ||= fetch('/lexical/dodson-2010-v5/lookup.json').then(async response => {
     if (!response.ok) throw new Error('Lexicon could not be loaded.');
     const data = await response.json() as LookupBundle;
-    if (data.releaseId !== 'dodson-2010-v4' || !data.entries || !data.links) throw new Error('Lexicon release mismatch.');
+    if (data.releaseId !== 'dodson-2010-v5' || !data.entries || !data.links) throw new Error('Lexicon release mismatch.');
     return data;
   }).catch(error => { pending = undefined; throw error; });
 }

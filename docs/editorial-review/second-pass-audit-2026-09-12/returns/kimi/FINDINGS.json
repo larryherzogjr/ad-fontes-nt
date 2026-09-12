@@ -1,0 +1,757 @@
+{
+ "schemaVersion": 2,
+ "auditId": "afnt-second-pass-editorial-audit-2026-09-12-pass2-kimi",
+ "packetManifestSha256": "9b0a50e434974078125e877a6e8a703ea73eee643a2270fbc2ad55a0d23261a7",
+ "findings": [
+  {
+   "id": "PASS2-001",
+   "corpus": "om-article",
+   "recordId": "anomia",
+   "file": "corpora/om-articles/anomia.md",
+   "section": "Range of Meaning",
+   "exactExcerpt": "2 Thessalonians 2:3-8 — the “the man of lawlessness” the “the man of lawlessness” already at work.",
+   "category": "duplication-or-template-artifact",
+   "classification": "confirmed-error",
+   "severity": "S3",
+   "confidence": "high",
+   "problem": "The phrase “the “the man of lawlessness”” is duplicated verbatim twice in immediate succession. The sentence as printed is also materially garbled: in 2 Thessalonians 2 it is the “mystery of lawlessness” (v. 7) that is “already at work,” while the “man of lawlessness” (v. 3) is yet to be revealed; the duplicated string appears to have overwritten the second, distinct phrase.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/anomia.md",
+     "locator": "line 93",
+     "observation": "Duplicated string “the “the man of lawlessness” the “the man of lawlessness” already at work” appears once in the file; no other occurrence of this duplication pattern exists in the 250 articles."
+    },
+    {
+     "file": "corpora/om-articles/anomia.md",
+     "locator": "line 93, same sentence",
+     "observation": "2 Thess 2:3 speaks of the “man of lawlessness” being revealed; 2 Thess 2:7 says the “mystery of lawlessness” is already at work — the surviving sentence attributes the v. 7 predicate to the v. 3 subject."
+    }
+   ],
+   "claimScope": "single sentence in the Range of Meaning section",
+   "plausibleAlternative": "The author intended a pair of references — “the ‘man of lawlessness’” (v. 3) and “the ‘mystery of lawlessness’ already at work” (v. 7) — and a copy-paste duplication replaced the second phrase.",
+   "suggestedMinimalCorrection": "Replace the second duplicated instance so the sentence reads: 2 Thessalonians 2:3-8 — the “man of lawlessness” to be revealed, the “mystery of lawlessness” already at work.",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-002",
+   "corpus": "om-article",
+   "recordId": "didaskalia",
+   "file": "corpora/om-articles/didaskalia.md",
+   "section": null,
+   "exactExcerpt": "The Greek New Testament has a striking phrase that appears nine times in the Pastoral Epistles (1 Timothy, 2 Timothy, Titus) and almost nowhere else. The phrase is *hygiainousa didaskalia* — *sound* or *healthy doctrine*.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "confirmed-error",
+   "severity": "S2",
+   "confidence": "high",
+   "problem": "The opening hook claims the phrase *hygiainousa didaskalia* appears nine times in the Pastoral Epistles. The article's own later list gives four passages (1 Timothy 1:10; 2 Timothy 4:3; Titus 1:9; 2:1), and the pinned Nestle 1904 morphology confirms the adjective–noun pairing occurs in exactly those four verses. Even the looser counts fail: the adjective ὑγιαίνω in any Pastoral collocation occurs 8 times (1 Tim 1:10; 6:3; 2 Tim 1:13; 4:3; Titus 1:9; 1:13; 2:1; 2:2), and both words in the same verse 5 times. No defensible counting of the named phrase yields nine.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/didaskalia.md",
+     "locator": "line 29 (opening paragraph)",
+     "observation": "Claim of nine occurrences of the phrase."
+    },
+    {
+     "file": "corpora/om-articles/didaskalia.md",
+     "locator": "later section, “Sound or healthy teaching” paragraph",
+     "observation": "The article itself lists exactly four passages: “1 Timothy 1:10 (sound doctrine), 2 Timothy 4:3 (sound teaching), Titus 1:9, 2:1 (sound doctrine)” — contradicting the opening claim."
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3, morph/Nestle1904.csv",
+     "locator": "lemma ὑγιαίνω × lemma διδασκαλία, 1Tim/2Tim/Titus",
+     "observation": "Co-occurrence in the same verse: 1Tim 1:10, 6:3; 2Tim 4:3; Titus 1:9; 2:1 (5 verses); grammatical adjective–noun pairing in 4 of them (1Tim 6:3 has ὑγιαίνω modifying λόγοις)."
+    }
+   ],
+   "claimScope": "article-opening quantitative claim about the named phrase",
+   "plausibleAlternative": "The author may have meant every “sound/healthy” word-group occurrence in the Pastorals; that count is 8 (ὑγιαίνω), still not nine.",
+   "suggestedMinimalCorrection": "Change “nine times” to “four times” (1 Timothy 1:10; 2 Timothy 4:3; Titus 1:9; 2:1), matching the article's own later list.",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-003",
+   "corpus": "om-article",
+   "recordId": "authenteo",
+   "file": "corpora/om-articles/authenteo.md",
+   "section": null,
+   "exactExcerpt": "*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "probable-error",
+   "severity": "S3",
+   "confidence": "high",
+   "problem": "As written the counts read as New Testament totals, but the NT totals are παραθήκη 3, εὐσέβεια 15, ἐπιφάνεια 6. The stated numbers (3, 10, 5) are exactly the Pastoral Epistles counts — the sentence omitted its scope. Two sibling articles state the full totals explicitly, so as written this article contradicts them.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/authenteo.md",
+     "locator": "line 37",
+     "observation": "Unscoped count claims “three times … ten … five”."
+    },
+    {
+     "file": "corpora/om-articles/eusebeia.md",
+     "locator": "“The distribution is the argument” paragraph",
+     "observation": "“The noun *eusebeia* occurs fifteen times in the New Testament. Ten are in these three letters.” — confirms 15 NT / 10 Pastoral."
+    },
+    {
+     "file": "corpora/om-articles/parousia.md",
+     "locator": "related-vocabulary list, *Epiphaneia* entry",
+     "observation": "“Used six times in the New Testament, five of them in the Pastoral Epistles.” — confirms 6 NT / 5 Pastoral."
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3, morph/Nestle1904.csv",
+     "locator": "lemmas παραθήκη, εὐσέβεια, ἐπιφάνεια",
+     "observation": "NT counts 3 / 15 / 6; Pastoral counts 3 / 10 / 5 — matching the article's numbers only under a Pastoral scope."
+    }
+   ],
+   "claimScope": "single-sentence count series near the article opening",
+   "plausibleAlternative": "The sentence intended Pastoral scope throughout (this article studies 1 Timothy 2:12 vocabulary) and simply dropped the qualifier.",
+   "suggestedMinimalCorrection": "Add the scope: “*Parathēkē* appears three times, *eusebeia* ten, *epiphaneia* five — each counted within the Pastoral Epistles” (or use the NT totals 3, 15, 6).",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-004",
+   "corpus": "om-article",
+   "recordId": "prototokos",
+   "file": "corpora/om-articles/prototokos.md",
+   "section": null,
+   "exactExcerpt": "treating Christ as “is the image of the invisible God, the firstborn over all creation. For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.” (v. 15)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "confirmed-error",
+   "severity": "S3",
+   "confidence": "high",
+   "problem": "Cluster of quotation-boundary defects around Colossians 1:15–17. (a) Two adjacent quotations are grammatically broken at the seam — “treating Christ as ‘is the image…’” and “After calling Christ ‘is the image…’” — the quoted text begins with a verb phrase that cannot complete the sentence frame. (b) The quotation labeled “(v. 15)” runs through “All things were created through Him and for Him,” which is the text of verse 16. (c) The immediately following sentence attributes the same wording again to “verse 16,” repeating the same BSB text verbatim (“The Son is the image… All things were created through Him and for Him. He is before all things…”), so one block of Scripture is duplicated across two adjacent quotations with shifted verse labels.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/prototokos.md",
+     "locator": "line 95 (“Colossians 1:15-18” paragraph)",
+     "observation": "“treating Christ as “is the image … and for Him.” (v. 15)” — quotation includes v. 16 wording but is cited as v. 15; sentence grammar breaks at “as “is…”."
+    },
+    {
+     "file": "corpora/om-articles/prototokos.md",
+     "locator": "following paragraph (“The argument of Colossians 1:15-20…”)",
+     "observation": "“After calling Christ “is the image … and for Him” in verse 15, Paul immediately explains in verse 16: “The Son is the image … and for Him. He is before all things…” — repeats the identical quoted text under the verse-16 label and continues into v. 17."
+    },
+    {
+     "file": "(external verification) BSB USJ, Colossians 1 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "Col 1:15–16",
+     "observation": "“All things were created through Him and for Him” belongs to verse 16, not verse 15, in the BSB text."
+    }
+   ],
+   "claimScope": "two adjacent paragraphs quoting Colossians 1:15–17",
+   "plausibleAlternative": "An adaptation step expanded short original quotations to full-verse BSB quotations and left the original verse labels and sentence frames unchanged.",
+   "suggestedMinimalCorrection": "Reframe as: Christ “is the image of the invisible God, the firstborn over all creation” (v. 15); then quote the v. 16 text once under its own label, removing the duplicated quotation.",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-005",
+   "corpus": "om-article",
+   "recordId": "amen",
+   "file": "corpora/om-articles/amen.md",
+   "section": null,
+   "exactExcerpt": "This draws on the Old Testament’s “the faithful God” (Isaiah 65:16, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "probable-error",
+   "severity": "S2",
+   "confidence": "high",
+   "problem": "The quoted string “the faithful God” is attributed to the BSB text of Isaiah 65:16, but the BSB reads “the God of truth” (twice) in that verse — which is exactly how this same article quotes it two paragraphs earlier. The later quotation both mismatches the cited edition and contradicts the article's own earlier quotation of the same verse.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/amen.md",
+     "locator": "line 120",
+     "observation": "“the Old Testament’s “the faithful God” (Isaiah 65:16, BSB)”."
+    },
+    {
+     "file": "corpora/om-articles/amen.md",
+     "locator": "earlier paragraph, “As a title and characterization of God”",
+     "observation": "“Isaiah 65:16 speaks twice of “the God of truth” (BSB).” — the article's own correct quotation of the same verse."
+    },
+    {
+     "file": "(external verification) BSB USJ, Isaiah 65:16 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "ISA.65.16",
+     "observation": "BSB text: “…will do so by the God of truth… will swear by the God of truth.” The string “faithful God” does not occur. Caveat: verified against BSB v5.9, not the packet's pinned bsb-2026-09-05-m2-v1; wording drift is possible but unlikely here."
+    }
+   ],
+   "claimScope": "single quotation with edition attribution",
+   "plausibleAlternative": "“The faithful God” is a defensible gloss of the Hebrew “God of Amen”; the defect is presenting the gloss in quotation marks with a BSB attribution.",
+   "suggestedMinimalCorrection": "Either quote the BSB wording — the Old Testament's “God of truth” (Isaiah 65:16, BSB) — or drop the quotation marks and the “BSB” label and present “the faithful God” as a gloss.",
+   "requiresHumanReview": true,
+   "notes": "BSB wording verified against the v5.9 USJ release; re-check against the pinned bsb-2026-09-05-m2-v1 snapshot before correcting."
+  },
+  {
+   "id": "PASS2-006",
+   "corpus": "om-article",
+   "recordId": "didaskalia",
+   "file": "corpora/om-articles/didaskalia.md",
+   "section": "Where People Get It Wrong",
+   "exactExcerpt": "those who teach “spreads false teachings” (1 Timothy 6:3, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "probable-error",
+   "severity": "S3",
+   "confidence": "high",
+   "problem": "The quoted string “spreads false teachings” does not occur in the BSB text of 1 Timothy 6:3 (“If anyone teaches another doctrine and disagrees with the sound words of our Lord Jesus Christ and with godly teaching”). The sentence frame “those who teach ‘spreads false teachings’” is also ungrammatical — a finite verb phrase is quoted where a noun phrase is required — which marks this as an adaptation seam as well as a misquotation.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/didaskalia.md",
+     "locator": "“Where People Get It Wrong” section",
+     "observation": "Parallel items in the same sentence quote the BSB verbatim (“some have strayed from these ways and turned aside to empty talk” — 1 Tim 1:6; “like gangrene” — 2 Tim 2:17), so “spreads false teachings” breaks the sentence's own quotation pattern."
+    },
+    {
+     "file": "(external verification) BSB USJ, 1 Timothy 6:3 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "1TI.6.3",
+     "observation": "BSB wording is “teaches another doctrine … and with godly teaching”; no “spreads false teachings” string. Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "one item in a three-item list of quotations",
+   "plausibleAlternative": "The author compressed the sense of 1 Timothy 6:3 (and perhaps 2 Timothy 2:17) into a summary phrase and left it in quotation marks with the BSB label.",
+   "suggestedMinimalCorrection": "Quote the BSB wording — those who “teach another doctrine” (1 Timothy 6:3, BSB) — and adjust the sentence frame (“those who “teach[] another doctrine””).",
+   "requiresHumanReview": true,
+   "notes": "Same BSB version caveat as PASS2-005."
+  },
+  {
+   "id": "PASS2-007",
+   "corpus": "om-article",
+   "recordId": "sarx",
+   "file": "corpora/om-articles/sarx.md",
+   "section": "Range of Meaning",
+   "exactExcerpt": "The sphere of human achievement apart from God's gift — confidence “human credentials” (Philippians 3:3–4, BSB).",
+   "category": "scripture-reference-or-quotation",
+   "classification": "needs-human-review",
+   "severity": "S3",
+   "confidence": "medium",
+   "problem": "The string “human credentials” is set in quotation marks and labeled (Philippians 3:3–4, BSB), but those words do not occur in the BSB text of Philippians 3:3–4 (“who put no confidence in the flesh — though I myself could have such confidence…”). “Human credentials” reads as the author's interpretive gloss of “confidence in the flesh”; presented this way it attributes non-BSB wording to the BSB. The neighboring list item quotes the BSB verbatim (“my own flesh and blood,” Romans 9:3), so the pattern here implies a verbatim quotation.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/sarx.md",
+     "locator": "line 57, Range of Meaning bullet list",
+     "observation": "Quotation marks plus (Philippians 3:3–4, BSB) around “human credentials”."
+    },
+    {
+     "file": "(external verification) BSB USJ, Philippians 3:3–4 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "PHP.3.3-4",
+     "observation": "No occurrence of “credential” in the passage; the BSB phrase is “confidence in the flesh.” Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single bullet item",
+   "plausibleAlternative": "The author intended “human credentials” as an inline gloss; the quotation marks may be scare quotes rather than a quotation.",
+   "suggestedMinimalCorrection": "Remove the quotation marks (— confidence in “human credentials,” …) or use the BSB wording (“put no confidence in the flesh,” Philippians 3:3–4, BSB) with the gloss outside the quotation.",
+   "requiresHumanReview": true,
+   "notes": "Classification kept at needs-human-review because the quotation marks may be intended as gloss markers; the BSB label placement still misleads."
+  },
+  {
+   "id": "PASS2-008",
+   "corpus": "om-article",
+   "recordId": "proseuche",
+   "file": "corpora/om-articles/proseuche.md",
+   "section": "Where People Get It Wrong",
+   "exactExcerpt": "specifies that intercession is to be made “all people” (1 Timothy 2:1, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "probable-error",
+   "severity": "S3",
+   "confidence": "high",
+   "problem": "The quoted string “all people” is not the BSB wording of 1 Timothy 2:1 (“…petitions, prayers, intercessions, and thanksgiving be offered for everyone…”), and the sentence is ungrammatical as printed — “intercession is to be made ‘all people’” lacks the preposition “for.” The article quotes the same verse correctly elsewhere (“be offered for everyone—”), so this instance both misquotes the cited edition and contradicts the article itself.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/proseuche.md",
+     "locator": "line 225, “Where People Get It Wrong” section",
+     "observation": "“made “all people” (1 Timothy 2:1, BSB)” — wording and grammar both defective."
+    },
+    {
+     "file": "corpora/om-articles/proseuche.md",
+     "locator": "earlier *Proseuchē* discussion and “1 Timothy 2:1-4 (Prayer for All People)” block",
+     "observation": "The article's own quotations of 1 Timothy 2:1 read “…thanksgiving be offered for everyone—”, matching the BSB."
+    },
+    {
+     "file": "(external verification) BSB USJ, 1 Timothy 2:1 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "1TI.2.1",
+     "observation": "BSB: “be offered for everyone”; “all people” does not occur. Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single sentence",
+   "plausibleAlternative": "The author paraphrased the scope phrase (“for all people,” used earlier as a translation of *hyper pantōn anthrōpōn*) and accidentally left it in quotation marks with the BSB label.",
+   "suggestedMinimalCorrection": "intercession is to be made “for everyone” (1 Timothy 2:1, BSB) — or, without the edition label: made for all people (1 Timothy 2:1).",
+   "requiresHumanReview": true,
+   "notes": "Same BSB version caveat as PASS2-005."
+  },
+  {
+   "id": "PASS2-009",
+   "corpus": "om-article",
+   "recordId": "agape",
+   "file": "corpora/om-articles/agape.md",
+   "section": "Where People Get It Wrong",
+   "exactExcerpt": "The Christ who said “love your enemy” (Matthew 5:44, BSB) also said",
+   "category": "scripture-reference-or-quotation",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The quotation reads “love your enemy” (singular) while the BSB text of Matthew 5:44 reads “love your enemies” (plural). A one-word, number-only deviation in a quotation carrying an edition label.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/agape.md",
+     "locator": "line 116",
+     "observation": "“love your enemy” (Matthew 5:44, BSB)."
+    },
+    {
+     "file": "(external verification) BSB USJ, Matthew 5:44 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "MAT.5.44",
+     "observation": "BSB: “But I tell you, love your enemies and pray for those who persecute you.” Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single short quotation",
+   "plausibleAlternative": "The singular is the proverbial form of the saying and may have been written from memory.",
+   "suggestedMinimalCorrection": "Change to “love your enemies” (Matthew 5:44, BSB).",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-010",
+   "corpus": "om-article",
+   "recordId": "anomia",
+   "file": "corpora/om-articles/anomia.md",
+   "section": null,
+   "exactExcerpt": "Paul explicitly says he is “not outside the law of God but under the law of Christ” (1 Corinthians 9:21, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "The quotation drops the verb “am” without an ellipsis: the BSB reads “…though I am not outside the law of God but am under the law of Christ.” Presented as what Paul “explicitly says,” the quote is a word-level adaptation of the cited edition. Other BSB quotations in the corpus mark omissions with ellipses, so the unmarked elision is also inconsistent with house practice.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/anomia.md",
+     "locator": "“not outside the law of God” sentence",
+     "observation": "Quotation labeled (1 Corinthians 9:21, BSB) without ellipsis."
+    },
+    {
+     "file": "(external verification) BSB USJ, 1 Corinthians 9:21 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "1CO.9.21",
+     "observation": "BSB: “…though I am not outside the law of God but am under the law of Christ.” Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single embedded quotation",
+   "plausibleAlternative": "The writer trimmed the quote to fit the sentence frame (“he is …”) and judged the elision immaterial.",
+   "suggestedMinimalCorrection": "…he is “not outside the law of God but [is] under the law of Christ” — or add an ellipsis before “under.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-011",
+   "corpus": "om-article",
+   "recordId": "basileia",
+   "file": "corpora/om-articles/basileia.md",
+   "section": null,
+   "exactExcerpt": "has already been “brought into the kingdom of His beloved Son” (Colossians 1:13, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "The quotation drops the object “us” without an ellipsis: the BSB reads “He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son.” Same unmarked-elision pattern as PASS2-010.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/basileia.md",
+     "locator": "line 171",
+     "observation": "Quotation labeled (Colossians 1:13, BSB) without ellipsis."
+    },
+    {
+     "file": "(external verification) BSB USJ, Colossians 1:13 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "COL.1.13",
+     "observation": "BSB includes “brought us into the kingdom of His beloved Son.” Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single embedded quotation",
+   "plausibleAlternative": "The writer trimmed the quote to fit the sentence frame (“has already been …”).",
+   "suggestedMinimalCorrection": "“brought us into the kingdom of His beloved Son” — or “brought … into the kingdom of His beloved Son.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-012",
+   "corpus": "om-article",
+   "recordId": "elpis",
+   "file": "corpora/om-articles/elpis.md",
+   "section": null,
+   "exactExcerpt": "“Yet I call this to mind, and therefore I have hope: Because of the loving devotion of the LORD we are not consumed, for His mercies never fail.” (Lamentations 3:21-24, BSB)",
+   "category": "scripture-reference-or-quotation",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "The quotation covers Lamentations 3:21–22 only (“…for His mercies never fail” ends v. 22), but the citation labels it 3:21-24 and no closing ellipsis signals the omission of vv. 23–24. A reader checking the reference finds two further verses the quotation silently skips. (The article's earlier mention of the same passage has the same range label with an even shorter quotation.)",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/elpis.md",
+     "locator": "line 189",
+     "observation": "Citation “(Lamentations 3:21-24, BSB)” on a quotation that ends at the end of v. 22 without ellipsis."
+    },
+    {
+     "file": "(external verification) BSB USJ, Lamentations 3:21–24 (BSB-publishing/bsb2usfm v5.9)",
+     "locator": "LAM.3.21-24",
+     "observation": "vv. 23–24 (“They are new every morning; great is Your faithfulness. The LORD is my portion…”) are not quoted. Same pinned-version caveat as PASS2-005."
+    }
+   ],
+   "claimScope": "single block quotation citation range",
+   "plausibleAlternative": "The range label reflects the passage under discussion rather than the extent of the quotation.",
+   "suggestedMinimalCorrection": "Cite “(Lamentations 3:21–22, BSB)” or add a closing ellipsis before the parenthetical.",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-013",
+   "corpus": "om-article",
+   "recordId": "karpos",
+   "file": "corpora/om-articles/karpos.md",
+   "section": "The Word",
+   "exactExcerpt": "The word is a second-declension masculine noun and appears sixty-seven times in the New Testament.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The pinned Nestle 1904 morphology yields 66 occurrences of καρπός, not 67. The claim is stated as an exact count, not an approximation.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/karpos.md",
+     "locator": "line 47",
+     "observation": "“appears sixty-seven times” stated exactly."
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3b7d4d66132f5aa809fa223fe79762e5d, morph/Nestle1904.csv",
+     "locator": "lemma καρπός",
+     "observation": "66 tokens under lemma καρπός (NFC lemma grouping, 137,779-token index)."
+    }
+   ],
+   "claimScope": "single count claim",
+   "plausibleAlternative": "A different edition or counting convention (e.g., a TR-based count) may yield 67.",
+   "suggestedMinimalCorrection": "“appears sixty-six times” — or hedge to “about sixty-five to sixty-seven times, depending on the edition.”",
+   "requiresHumanReview": true,
+   "notes": "Edition-dependent count; human should confirm against the author's preferred counting convention."
+  },
+  {
+   "id": "PASS2-014",
+   "corpus": "om-article",
+   "recordId": "apostolos",
+   "file": "corpora/om-articles/apostolos.md",
+   "section": "The Word",
+   "exactExcerpt": "The cognate verb *apostellō* (ἀποστέλλω), \"to send forth,\" appears 132 times.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "The pinned Nestle 1904 morphology yields 131 occurrences of ἀποστέλλω; the article states 132 twice (“appears 132 times”; “Used 132 times in the New Testament”), so the number is at least internally consistent, but it disagrees with the pinned text by one.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/apostolos.md",
+     "locator": "line 39 and the *Apostellō* word-family entry",
+     "observation": "“132 times” stated in two places."
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3b7d4d66132f5aa809fa223fe79762e5d, morph/Nestle1904.csv",
+     "locator": "lemma ἀποστέλλω",
+     "observation": "131 tokens. (Note: 132 is a commonly cited count for ἀποστέλλω in TR-based tools.)"
+    }
+   ],
+   "claimScope": "two consistent count claims",
+   "plausibleAlternative": "The author counted from a Textus Receptus / Majority-based edition, where the count can differ by a variant or two.",
+   "suggestedMinimalCorrection": "“appears about 130 times” — or align to the edition used elsewhere in the project.",
+   "requiresHumanReview": true,
+   "notes": "Edition-sensitive; likely explains the off-by-one."
+  },
+  {
+   "id": "PASS2-015",
+   "corpus": "om-article",
+   "recordId": "prothesis",
+   "file": "corpora/om-articles/prothesis.md",
+   "section": null,
+   "exactExcerpt": "*Tithēmi* (τίθημι) — to place, to set, to put. The base verb. Used over a hundred times in the New Testament",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "“Over a hundred times” overshoots the pinned Nestle 1904 count of τίθημι, which is 99. The claim is hedged in form (“over a hundred”) but the hedge asserts a floor the pinned text does not reach.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/prothesis.md",
+     "locator": "line 49, word-family list",
+     "observation": "“Used over a hundred times in the New Testament.”"
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3b7d4d66132f5aa809fa223fe79762e5d, morph/Nestle1904.csv",
+     "locator": "lemma τίθημι",
+     "observation": "99 tokens. Some editions/tools report 100 (e.g., counting a variant), which would make “over a hundred” still too strong but closer."
+    }
+   ],
+   "claimScope": "single count claim in word-family list",
+   "plausibleAlternative": "A count of 100+ from a different edition or from including a variant reading.",
+   "suggestedMinimalCorrection": "“Used about a hundred times” or “nearly a hundred times.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-016",
+   "corpus": "om-article",
+   "recordId": "artos",
+   "file": "corpora/om-articles/artos.md",
+   "section": null,
+   "exactExcerpt": "In the New Testament, *artos* appears about ninety times across the four Gospels, Acts, and the Epistles.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "low",
+   "problem": "The pinned Nestle 1904 count of ἄρτος is 97; “about ninety” undershoots by 7 (about 8%). The hedge (“about”) keeps this from being flatly false, but the rounding direction is misleading — 97 rounds to “about a hundred,” not “about ninety.”",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/artos.md",
+     "locator": "line 48",
+     "observation": "“about ninety times.”"
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3b7d4d66132f5aa809fa223fe79762e5d, morph/Nestle1904.csv",
+     "locator": "lemma ἄρτος",
+     "observation": "97 tokens."
+    }
+   ],
+   "claimScope": "single hedged count claim",
+   "plausibleAlternative": "The author may have counted only a subset (e.g., excluding Revelation, where ἄρτος occurs in 6:6 and 18:13) — a scoped count could legitimately land near ninety.",
+   "suggestedMinimalCorrection": "“appears about ninety-five times” or “nearly a hundred times.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-017",
+   "corpus": "om-article",
+   "recordId": "chara",
+   "file": "corpora/om-articles/chara.md",
+   "section": null,
+   "exactExcerpt": "uses *chara* — \"joy\" — and *chairō* — \"to rejoice\" — sixteen times in four short chapters. The frequency is striking.",
+   "category": "scope-frequency-or-quantifier",
+   "classification": "needs-human-review",
+   "severity": "S4",
+   "confidence": "medium",
+   "problem": "For Philippians, the pinned Nestle 1904 morphology gives χαρά 5 times (1:4, 1:25, 2:2, 2:29, 4:1) and χαίρω 9 times (1:18 ×2, 2:17, 2:18, 2:28, 3:1, 4:4 ×2, 4:10) — 14 in total, not 16. Sixteen is reached only if the compound συγχαίρω (2:17, 2:18) is also counted, but the sentence names only *chara* and *chairō*.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/chara.md",
+     "locator": "line 31",
+     "observation": "“sixteen times in four short chapters.”"
+    },
+    {
+     "file": "(external verification) biblicalhumanities/Nestle1904 @713f28a3b7d4d66132f5aa809fa223fe79762e5d, morph/Nestle1904.csv",
+     "locator": "lemmas χαρά, χαίρω in Phil",
+     "observation": "5 + 9 = 14; the compound συγχαίρω adds 2 (2:17, 2:18) — the only route to 16."
+    }
+   ],
+   "claimScope": "single count claim about Philippians",
+   "plausibleAlternative": "The author counted the whole χαίρω word family in Philippians including the compound συγχαίρω; if so, the sentence should name the compound.",
+   "suggestedMinimalCorrection": "“fourteen times” — or “sixteen times, counting the compound *synchairō* (‘rejoice with’) at 2:17–18.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-018",
+   "corpus": "om-article",
+   "recordId": "eirene",
+   "file": "corpora/om-articles/eirene.md",
+   "section": "The Word",
+   "exactExcerpt": "The etymology runs from a verbal root meaning \"to bind together\" or \"to join.\" Peace, in the Greek conception, is what holds parties together",
+   "category": "lexical-method-or-etymology",
+   "classification": "needs-human-review",
+   "severity": "S3",
+   "confidence": "medium",
+   "problem": "The derivation of εἰρήνη from a root meaning “to bind together / to join” (i.e., εἴρω) is stated as fact, but the standard etymological references treat the etymology of εἰρήνη as uncertain (Beekes registers it as without established etymology, possibly Pre-Greek). The sentence then leverages the asserted root to supply the “Greek conception” of peace — the etymology-supplies-meaning pattern this audit is charged to flag.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/eirene.md",
+     "locator": "line 45",
+     "observation": "Unhedged etymology claim followed immediately by a meaning claim built on it (“Peace, in the Greek conception, is what holds parties together”)."
+    },
+    {
+     "file": "corpora/om-articles/eirene.md",
+     "locator": "same paragraph",
+     "observation": "No hedging language (“possibly,” “often connected with”) is present, unlike the packet's careful treatments elsewhere (e.g., hyios notes that lexicographers debate the etymology)."
+    }
+   ],
+   "claimScope": "one etymology paragraph",
+   "plausibleAlternative": "The εἴρω connection is a real, older scholarly proposal (so the claim is not invented), but it is one hypothesis and is doubted by current etymological dictionaries.",
+   "suggestedMinimalCorrection": "Hedge and detach meaning from etymology: “The etymology is uncertain; the word has traditionally been connected with εἴρω, ‘to join,’ though modern etymological dictionaries doubt the derivation. In usage, …”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-019",
+   "corpus": "om-article",
+   "recordId": "ethnos",
+   "file": "corpora/om-articles/ethnos.md",
+   "section": "The Word",
+   "exactExcerpt": "The etymology runs back to a Greek root meaning \"habit\" or \"custom\" (related to *ēthos* — moral character, custom, the root of English *ethics*). The original Greek conception of *ethnos* named a group united by shared customs",
+   "category": "lexical-method-or-etymology",
+   "classification": "needs-human-review",
+   "severity": "S3",
+   "confidence": "medium",
+   "problem": "The derivation of ἔθνος from a root meaning “habit/custom” (related to ἦθος) is stated as fact; the standard etymological references mark the etymology of ἔθνος as uncertain (a connection with ἔθω/ἦθος is a hypothesis, not a settled derivation). As in PASS2-018, the asserted root is then used to characterize “the original Greek conception” of the word.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/ethnos.md",
+     "locator": "line 47",
+     "observation": "Unhedged etymology claim followed by a meaning claim built on it."
+    },
+    {
+     "file": "corpora/om-articles/ethnos.md",
+     "locator": "same paragraph",
+     "observation": "No hedging language; contrast the packet's hedged treatments of uncertain etymologies elsewhere."
+    }
+   ],
+   "claimScope": "one etymology paragraph",
+   "plausibleAlternative": "The ἔθω/ἦθος connection is a genuine scholarly hypothesis, so the claim is defensible as one option — but not as settled fact.",
+   "suggestedMinimalCorrection": "Hedge: “The etymology is uncertain; the word is often connected with ἔθω/ἦθος (‘custom’), though the derivation is not certain.”",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-020",
+   "corpus": "om-article",
+   "recordId": "proselytos",
+   "file": "corpora/om-articles/proselytos.md",
+   "section": "The Word",
+   "exactExcerpt": "The Greek word is προσήλυτος (*prosēlytos*), pronounced in the Erasmian convention as *pros-AY-loo-tos*",
+   "category": "internal-consistency",
+   "classification": "editorial-consistency",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The Word section transliterates the headword as *prosēlytos* (macron on the e), while the rest of the article (22 occurrences) and the packet metadata (translit: “Proselytos”) use *proselytos*. The two spellings of the article's own headword coexist in one file.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/proselytos.md",
+     "locator": "line 41",
+     "observation": "“(*prosēlytos*)” in the headword sentence."
+    },
+    {
+     "file": "corpora/om-articles/proselytos.md",
+     "locator": "throughout",
+     "observation": "22 occurrences of “proselytos” without the macron elsewhere in the same file."
+    },
+    {
+     "file": "corpora/word-metadata.json",
+     "locator": "proselytos entry",
+     "observation": "translit field is “Proselytos” (no macron)."
+    }
+   ],
+   "claimScope": "headword transliteration consistency",
+   "plausibleAlternative": "An ALA-LC-strict rendering (η → ē) was applied in the intro but the packet display convention elsewhere drops it for this word.",
+   "suggestedMinimalCorrection": "Normalize the intro to *proselytos* (or adopt the macron form consistently everywhere, including metadata).",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-021",
+   "corpus": "om-article",
+   "recordId": "pater",
+   "file": "corpora/om-articles/pater.md",
+   "section": "The Word",
+   "exactExcerpt": "The Greek word is πατήρ (*patēr*), pronounced in the academic Erasmian convention as *pah-TAYR*",
+   "category": "internal-consistency",
+   "classification": "editorial-consistency",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The standard pronunciation template across the corpus is “pronounced in the Erasmian convention as …” (61 articles). Three articles deviate with one-off phrasings: pater (“in the academic Erasmian convention”), hyios (“in the Erasmian convention used here”), theos (“in the academic Erasmian convention used here”). Cosmetic but visible to a reader moving between entries.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/pater.md",
+     "locator": "line 41",
+     "observation": "“pronounced in the academic Erasmian convention as”."
+    },
+    {
+     "file": "corpora/om-articles/hyios.md",
+     "locator": "line 45",
+     "observation": "“pronounced in the Erasmian convention used here as”."
+    },
+    {
+     "file": "corpora/om-articles/theos.md",
+     "locator": "line 44",
+     "observation": "“pronounced in the academic Erasmian convention used here as”."
+    },
+    {
+     "file": "corpora/om-articles/proselytos.md",
+     "locator": "line 41 (representative of 61 files)",
+     "observation": "Standard form: “pronounced in the Erasmian convention as”."
+    }
+   ],
+   "claimScope": "headword pronunciation sentence template",
+   "plausibleAlternative": "The variants are intentional emphases; nothing doctrinal turns on them.",
+   "suggestedMinimalCorrection": "Normalize all four variants to “pronounced in the Erasmian convention as …”.",
+   "requiresHumanReview": true,
+   "notes": null
+  },
+  {
+   "id": "PASS2-022",
+   "corpus": "om-article",
+   "recordId": "mesites",
+   "file": "corpora/om-articles/mesites.md",
+   "section": "The Word",
+   "exactExcerpt": "pronounced in the Erasmian convention as *mes-EE-tays*",
+   "category": "internal-consistency",
+   "classification": "editorial-consistency",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The packet metadata's pronunciation field disagrees with the articles in three entries: mesites metadata reads “mes-EE-tace” while the article reads “mes-EE-tays” (and the corpus convention for final -ης is “-tays”/“-TAYS,” e.g., ma-thay-TAYS); bema metadata reads “bēma” and eulogeo metadata reads “eulogeō” — transliterations, not pronunciation guides, where the articles give “BAY-mah” and “yoo-lo-GEH-oh” and other entries' metadata give true pronunciation strings (e.g., “pros-AY-loo-tos”).",
+   "localEvidence": [
+    {
+     "file": "corpora/word-metadata.json",
+     "locator": "mesites entry",
+     "observation": "pronunciation: “mes-EE-tace”."
+    },
+    {
+     "file": "corpora/om-articles/mesites.md",
+     "locator": "The Word section",
+     "observation": "“*mes-EE-tays*” — conflicting with metadata."
+    },
+    {
+     "file": "corpora/word-metadata.json",
+     "locator": "bema / eulogeo entries",
+     "observation": "pronunciation fields contain “bēma” / “eulogeō” (transliteration values, inconsistent with the field's use elsewhere)."
+    },
+    {
+     "file": "corpora/om-articles/bema.md",
+     "locator": "The Word section",
+     "observation": "Article pronunciation “*BAY-mah*”."
+    },
+    {
+     "file": "corpora/om-articles/eulogeo.md",
+     "locator": "The Word section",
+     "observation": "Article pronunciation “*yoo-lo-GEH-oh*”."
+    }
+   ],
+   "claimScope": "three metadata field values",
+   "plausibleAlternative": "The metadata pronunciation field may have been filled from transliteration for bema/eulogeo and mis-keyed (“tace” for “tays”) for mesites.",
+   "suggestedMinimalCorrection": "Set metadata pronunciation to match the articles: “BAY-mah”, “yoo-lo-GEH-oh”, “mes-EE-tays”.",
+   "requiresHumanReview": true,
+   "notes": "Identity fields (greek, translit, slug, gloss, subhead) were otherwise verified consistent across all 250 records; this finding is confined to the pronunciation field of three entries."
+  },
+  {
+   "id": "PASS2-023",
+   "corpus": "om-article",
+   "recordId": "huiothesia",
+   "file": "corpora/om-articles/huiothesia.md",
+   "section": "footnotes",
+   "exactExcerpt": "James Barr, “Abbā Isn’t ‘Daddy,’.” Journal of Theological Studies 39 (1988): 28-47.",
+   "category": "internal-consistency",
+   "classification": "presentation-defect",
+   "severity": "S4",
+   "confidence": "high",
+   "problem": "The footnote citation carries doubled terminal punctuation — a comma inside the quotation marks followed by a period after them (“‘Daddy,’.”) — and drops the title's opening single quote (the JTS title is “‘Abbā Isn’t ‘Daddy’”). The journal title also lost the italics the other footnotes apply. The bibliographic data themselves (JTS 39, 1988, pp. 28–47) are correct.",
+   "localEvidence": [
+    {
+     "file": "corpora/om-articles/huiothesia.md",
+     "locator": "line 193, footnote [^jeg-2-119]",
+     "observation": "“…‘Daddy,’.” with comma-plus-period and missing opening single quote; journal name not italicized, unlike surrounding footnotes."
+    },
+    {
+     "file": "corpora/om-articles/huiothesia.md",
+     "locator": "footnote [^jeg-2-120] (adjacent)",
+     "observation": "Neighboring footnotes use consistent single terminal punctuation and italicized journal titles."
+    }
+   ],
+   "claimScope": "one footnote",
+   "plausibleAlternative": "An artifact of adapting citation styles (comma-inside-quotes convention plus an added period).",
+   "suggestedMinimalCorrection": "James Barr, “‘Abbā Isn’t ‘Daddy’,” *Journal of Theological Studies* 39 (1988): 28–47.",
+   "requiresHumanReview": true,
+   "notes": null
+  }
+ ]
+}
