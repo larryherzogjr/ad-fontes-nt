@@ -1,7 +1,7 @@
 # Ad Fontes NT 1.0.0-rc.5 resolved-audit candidate
 
 Date: 2026-09-11  
-Status: corrected cross-platform rebuild in progress; web content deployed, desktop packages not yet published
+Status: exact corrected cross-platform candidate approved; publication staged but not yet executed
 
 Larry Herzog Jr. approved exact candidate-manifest SHA-256 `58cab201852f955de95af4ee2a3531a4f03708e867a0183bc884651a752792d8`. Promotion created immutable article release `om-studies-2026-09-11-v7` and refreshed the approval record for comparison unit `candidate-18`.
 
@@ -17,4 +17,19 @@ No Scripture, corpus mapping, lexical bundle, account behavior, source website, 
 
 ## Desktop rebuild note
 
-The first signed artifacts from source commit `ee8d472ef62345b2d2833e26ffa7c83472bce144` passed platform verification but exposed stale RC4 wording on the shared offline Sources page. They and combined manifest SHA-256 `755f05ab94e72b2ff3115675c0c26e54df2474541b68122bab2bd5cb247ecd6f` are superseded before publication. The corrected rebuild must produce new platform artifacts and a new exact manifest for approval.
+The first signed artifacts from source commit `ee8d472ef62345b2d2833e26ffa7c83472bce144` passed platform verification but exposed stale RC4 wording on the shared offline Sources page. They and combined manifest SHA-256 `755f05ab94e72b2ff3115675c0c26e54df2474541b68122bab2bd5cb247ecd6f` are superseded before publication.
+
+The corrected native rebuild uses source commit `00dc789c3ffa7a9908746035d9b3c18682cac097`. The generated offline assets identify RC5 as the current cross-platform candidate and omit the stale predecessor-to-RC4 statement.
+
+## Corrected native artifacts
+
+- Apple accepted and notarized the corrected application submission `ea05aec5-7739-4a35-ba35-d837f9074c66` and DMG submission `dba8d97f-b5b4-4dae-b5b7-ba441547c2ce`. The application passes strict/deep Developer ID verification and Gatekeeper assessment as `Notarized Developer ID`; stapler validation passes for both app and DMG; the disk image verifies; the executable is arm64; and the bundle reports `1.0.0-rc.5`.
+- macOS public DMG SHA-256: `08c7848e27d80e5fb080320ddf57b2a9121013a9cc7cba9f881bcadcd25d9596`.
+- macOS updater archive SHA-256: `09096757f5d497d49c0e1532441637d2c0e132589833c0980e713eaadae60cbc`.
+- Windows GitHub run `34671491804` passed shared verification, Azure OIDC, Artifact Signing Public Trust, RFC 3161 timestamping, Authenticode verification and artifact upload. Downloaded build metadata identifies commit `00dc789c3ffa7a9908746035d9b3c18682cac097`, version `1.0.0-rc.5`, `om-studies-2026-09-11-v7`, 250 articles, Windows x64 and publisher Larry Herzog Jr.
+- Windows installer/updater SHA-256: `82f47ac80bcd1655a25757fdaa6db233388fee2d0ade5d381d4b11f03b726276`.
+- GitHub artifact ZIP digest: `sha256:9a54629ff2c586299ee828b8c282a842d48615069f9f01a2500dbec8e3534e88`.
+
+## Exact publication approval
+
+The combined immutable updater staging verifies both payloads. `stable/latest.json` SHA-256 is `0eb72f44b406d26275003ac78fabbf5c286aa2b74d3c10e50fb96bd5dcf0d286`; `SHA256SUMS` SHA-256 is `8ff29dc75899a77fafd04ec31b65862c6ee94e837860d4d10e61034f491d33b8`. Larry explicitly approved the exact manifest hash on September 12, 2026. Approval authorizes this candidate's publication, not final v1.0.
