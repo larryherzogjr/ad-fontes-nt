@@ -1,7 +1,7 @@
 # Ad Fontes NT 1.0.0-rc.8 comparison-count correction
 
 Date: 2026-09-12
-Status: exact cross-platform candidate approved; publication authorized
+Status: exact cross-platform candidate approved, published, and independently verified
 
 RC8 corrects the shared Sources-page project-status count from 30 to 39 reviewed comparison notes. It otherwise retains RC7's exact Scripture, commentary, study, lexical, account, and updater behavior.
 
@@ -29,3 +29,13 @@ RC8 corrects the shared Sources-page project-status count from 30 to 39 reviewed
 The combined immutable updater staging verifies both payloads. `stable/latest.json` SHA-256 is `ed1a865c5c1c2918e610e5dadf02a9cda5bbed476f4c54e05b0fbf1fb423453a`; `SHA256SUMS` SHA-256 is `9ffa3b3abadc9da28440afe5c2f8541a0d85d77bc07f9663b22f4c35b1906bc2`. Larry explicitly approved the exact manifest hash on September 12, 2026. Approval authorizes RC8 publication, not final v1.0.
 
 Publication order is the immutable updater payloads and stable manifest, then public DMG/EXE, then the RC8 web application. RC7 remains immutable, and `larryherzogjr.com` remains outside scope.
+
+## Publication verification
+
+The host published the exact RC8 updater payloads and manifest, both public installers, and the RC8 web application. Both containers became healthy and `/api/health` returned `{"ok":true}`; the pre-update database backup is `backups/adfontes-before-update-20260912T203911Z.dump`.
+
+Independent full HTTPS downloads of the manifest, both updater payloads, the public DMG, and the public Windows installer totalled 569,531,079 bytes and matched every approved hash. Stable metadata returned `no-store`; versioned updater payloads returned one-year immutable caching; public packages returned attachment/noindex headers and supported byte ranges. An unknown updater path returned 404 and directory listing remained forbidden with 403.
+
+Rendered live-browser checks confirmed that the Downloads page identifies RC8 and links the exact RC8 packages; the Sources page now says **39 reviewed comparison notes** and identifies RC8, lexical v5, and 250 Ordinary Means articles. A representative new Volume One unit at Luke 11:2–4 rendered its reviewed explanation, sources, per-verse commentary controls, and distinct BSB publisher notes. A representative corrected word study, *Mystērion*, opened inside the Greek explorer from 1 Timothy 3:16, reported 27 indexed occurrences under the pinned-corpus convention, and displayed the verified Apology XIII 3–5 wording that names Baptism, the Lord's Supper, and absolution without deriving that definition or count from the Greek word.
+
+RC8 is the current published release candidate. RC7 remains available as an immutable rollback artifact but is superseded by RC8's display-count correction. This approval and publication do not constitute final v1.0 acceptance.
