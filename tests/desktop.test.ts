@@ -93,6 +93,22 @@ test('desktop bundles every released file unchanged and excludes account/private
   }
 });
 
+test('the shared macOS and Windows reader bundle includes copy with reference', async () => {
+  const scripts = await readdir(join(assets, 'assets'));
+  const javascript = (
+    await Promise.all(
+      scripts
+        .filter(file => file.endsWith('.js'))
+        .map(file => readFile(join(assets, 'assets', file), 'utf8')),
+    )
+  ).join('\n');
+  assert.match(javascript, /Copy with reference/);
+  assert.match(javascript, /Copied with reference\./);
+  assert.match(javascript, /Clipboard copy was unavailable\./);
+  assert.match(javascript, /Berean Standard Bible/);
+  assert.match(javascript, /Young’s Literal Translation \(1898\)/);
+});
+
 test('all editions and search operate using only packaged files; missing data stays unavailable', async () => {
   const load = async (path: string) => json(path.slice(1));
   let chaptersChecked = 0;

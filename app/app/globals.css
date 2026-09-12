@@ -795,6 +795,8 @@ button.greek-token.chosen {
     14px/1.5 Arial,
     sans-serif;
   color: #233e49;
+  max-height: calc(100vh - 24px);
+  overflow-y: auto;
 }
 .selection-heading {
   display: flex;
@@ -819,6 +821,11 @@ button.greek-token.chosen {
 .selection-buttons button {
   font-size: 14px;
   padding: 8px 10px;
+  min-height: 44px;
+}
+.reading-selection .selection-copy-status {
+  min-height: 21px;
+  margin: 8px 0 0;
 }
 .pronunciation-help {
   display: block;

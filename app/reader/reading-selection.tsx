@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { formatPassage } from '@/lib/reading-display';
+import { formatCopyWithReference, formatPassage } from '@/lib/reading-display';
 import { resolveReference, type PassageRange } from '@/lib/domain/references';
 
 type Choice = {
@@ -9,12 +9,38 @@ type Choice = {
   x: number;
   y: number;
   focusId: string;
+  text?: string;
 };
+
+async function writeClipboard(text: string) {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Some embedded webviews expose the API but deny it; use the legacy fallback.
+    }
+  }
+  const field = document.createElement('textarea');
+  field.value = text;
+  field.readOnly = true;
+  field.setAttribute('aria-hidden', 'true');
+  field.style.position = 'fixed';
+  field.style.left = '-9999px';
+  document.body.append(field);
+  field.select();
+  // oxlint-disable-next-line typescript/no-deprecated -- Required for older embedded WebViews without Clipboard API permission.
+  const copied = document.execCommand('copy');
+  field.remove();
+  if (!copied) throw new Error('Clipboard copy was unavailable.');
+}
 /** Only annotated main-text spans can contribute passage anchors. */
 export default function ReadingSelection({
   onOpen,
   onNote,
+  editionName,
 }: {
+  editionName: string;
   onNote?: (ranges: PassageRange[]) => void;
   onOpen: (
     mode: 'compare' | 'greek',
@@ -23,6 +49,7 @@ export default function ReadingSelection({
   ) => void;
 }) {
   const [choice, setChoice] = useState<Choice | null>(null);
+  const [copyStatus, setCopyStatus] = useState('');
   const toolbar = useRef<HTMLElement>(null);
   const choiceRef = useRef(choice);
   choiceRef.current = choice;
@@ -32,10 +59,10 @@ export default function ReadingSelection({
       const width = Math.min(340, innerWidth - 24);
       return {
         x: Math.max(12, Math.min(rect.left, innerWidth - width - 12)),
-        y: Math.max(12, Math.min(rect.bottom + 8, innerHeight - 190)),
+        y: Math.max(12, Math.min(rect.bottom + 8, innerHeight - 235)),
       };
     }
-    function inspect() {
+    function inspect(focusFirstAction = false) {
       if (toolbar.current?.contains(document.activeElement)) return;
       const selection = window.getSelection();
       if (
@@ -90,11 +117,21 @@ export default function ReadingSelection({
         label: formatPassage(anchors.map(a => ({start:a, end:a}))),
         ...position(range.getBoundingClientRect()),
         focusId: spans[0].dataset.studyFocus || 'reading',
+        text: selection.toString(),
       });
+      setCopyStatus('');
+      if (focusFirstAction)
+        setTimeout(
+          () =>
+            toolbar.current
+              ?.querySelector<HTMLButtonElement>('.selection-buttons button')
+              ?.focus(),
+          0,
+        );
     }
-    function selectionChanged() {
+    function selectionChanged(event: Event) {
       clearTimeout(timer);
-      timer = setTimeout(inspect, 180);
+      timer = setTimeout(() => inspect(event.type === 'keyup'), 180);
     }
     function click(event: MouseEvent) {
       const target = event.target as Element;
@@ -116,6 +153,7 @@ export default function ReadingSelection({
         ...position(link.getBoundingClientRect()),
         focusId: link.id,
       });
+      setCopyStatus('');
       // Enter on a verse link moves directly into its study actions.
       if (event.detail === 0)
         setTimeout(
@@ -186,6 +224,26 @@ export default function ReadingSelection({
       </div>
       <p aria-live="polite">{choice.label}</p>
       <div className="selection-buttons">
+        {choice.text !== undefined && (
+          <button
+            onClick={async () => {
+              try {
+                await writeClipboard(
+                  formatCopyWithReference(
+                    choice.text!,
+                    choice.ranges,
+                    editionName,
+                  ),
+                );
+                setCopyStatus('Copied with reference.');
+              } catch {
+                setCopyStatus('Copy failed. Please try again.');
+              }
+            }}
+          >
+            Copy with reference
+          </button>
+        )}
         {onNote && <button onClick={() => { onNote(choice.ranges); setChoice(null); window.getSelection()?.removeAllRanges(); }}>My note</button>}
         <button
           onClick={() => onOpen('compare', choice.ranges, choice.focusId)}
@@ -196,6 +254,9 @@ export default function ReadingSelection({
           Explore Greek
         </button>
       </div>
+      <p className="selection-copy-status" aria-live="polite">
+        {copyStatus}
+      </p>
     </aside>
   );
 }

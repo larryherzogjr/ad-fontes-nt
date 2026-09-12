@@ -692,7 +692,11 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               </Popover>
               {explicitPassage && <button onClick={clearSelection}>Clear selection</button>}
             </div>
-            <ReadingSelection onOpen={openStudy} onNote={Notes ? setNoteSelection : undefined} />
+            <ReadingSelection
+              editionName={editionMeta.name}
+              onOpen={openStudy}
+              onNote={Notes ? setNoteSelection : undefined}
+            />
             {study && <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />}
             {chapters.map((ch) => (
               <section key={`${ch.book}.${ch.chapter}`} className="chapter">

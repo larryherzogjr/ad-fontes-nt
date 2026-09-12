@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {books,resolveReference,address,compare,expand,chapterNeighbor,chapterRange,passageUrl} from '../app/lib/domain/references.ts';
 import {createLocalAdapter,getCorpus,matchText,releaseId} from '../app/lib/domain/corpus.ts';
-import {formatReference,formatPassage,searchHighlights} from '../app/lib/reading-display.ts';
+import {formatCopyWithReference,formatReference,formatPassage,searchHighlights} from '../app/lib/reading-display.ts';
 const adapter=createLocalAdapter(async path=>JSON.parse(await readFile(new URL('../app/public'+path,import.meta.url),'utf8')));
 test('reader labels compact canonical selections without changing source numbering or input', () => {
   const ranges = [{start:'JHN.7.53',end:'JHN.7.53'}, {start:'JHN.8.1',end:'JHN.8.11'}, {start:'JHN.8.14',end:'JHN.8.14'}];
@@ -14,6 +14,16 @@ test('reader labels compact canonical selections without changing source numberi
   assert.equal(formatPassage(resolveReference('Matthew 28:20-Mark 1:1')), 'Matthew 28:20–Mark 1:1');
   assert.equal(formatReference('ROM.14.24'), 'Romans 14:24');
   assert.equal(formatReference('source-fragment!1'), 'source-fragment!1');
+});
+
+test('copy with reference preserves selected text and names the canonical passage and full edition', () => {
+  const selected = '  In the beginning\nwas the Word.  ';
+  const ranges = resolveReference('John 1:1-3');
+  assert.equal(
+    formatCopyWithReference(selected, ranges, 'Berean Standard Bible'),
+    '  In the beginning\nwas the Word.  \n\nJohn 1:1–3 — Berean Standard Bible',
+  );
+  assert.deepEqual(ranges, [{ start: 'JHN.1.1', end: 'JHN.1.3' }]);
 });
 test('search highlights preserve Scripture and match whole words versus quoted phrases', () => {
   const original = 'Grace, disgrace, and GRACE—truth.';

@@ -31,6 +31,15 @@ export function formatPassage(ranges: PassageRange[]) {
   }).join('; ');
 }
 
+/** Preserve the selected Scripture verbatim and append a human-readable source line. */
+export function formatCopyWithReference(
+  text: string,
+  ranges: PassageRange[],
+  editionName: string,
+) {
+  return `${text}\n\n${formatPassage(ranges)} — ${editionName}`;
+}
+
 /** Mirrors whole-word / quoted-phrase search while retaining every original character. */
 export function searchHighlights(text: string, query: string) {
   const q = query.trim().toLocaleLowerCase();
