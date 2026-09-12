@@ -73,6 +73,8 @@ test('public desktop download page exposes only the RC7 candidate installers', a
 test('public project status distinguishes RC7 from final v1.0', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /public release-candidate status/);
+  assert.match(reader, /39 reviewed comparison notes/);
+  assert.doesNotMatch(reader, /30 reviewed comparison notes/);
   assert.match(reader, /Version 1\.0\.0-rc\.7 is the current cross-platform desktop\s+candidate/);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);

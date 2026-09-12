@@ -1058,7 +1058,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <p>
               Ad Fontes NT is now in public release-candidate status. The live
               web reader includes all 27 New Testament books, seven named
-              editions, 30 reviewed comparison notes, Greek and interlinear
+              editions, 39 reviewed comparison notes, Greek and interlinear
               tools, the approved 250-article Ordinary Means BSB adaptation,
               and account-backed personal notes. The comparison, Greek,
               personal-note and initial resource-link milestones are accepted

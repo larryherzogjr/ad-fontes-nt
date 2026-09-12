@@ -605,3 +605,7 @@ Larry reviewed the local redesign, said “Looks great,” and explicitly reques
 - Built, Developer-ID-signed, Apple-notarized, stapled, and validated the RC7 Apple Silicon application and DMG. Built and publicly signed the RC7 Windows x64 installer through private GitHub Actions run `34713519610`; Azure public-trust signing, RFC 3161 timestamping, Authenticode verification, and artifact upload passed.
 - Combined both signed updater payloads into the exact RC7 staging set. Larry explicitly approved `stable/latest.json` SHA-256 `5e174174a0de5e8a43c471fa130f9482e10f7db5c013c0661d64587896481742`. The exact artifact identities and publication scope are recorded in [the RC7 release record](docs/V1-RC7-Unified-Audit-Release-2026-09-12.md).
 - Publication is authorized in safe order: immutable updater payloads and stable manifest, public DMG/EXE, then the RC7 web application. This is an RC publication, not final v1.0 or completion of the MVP. `larryherzogjr.com` remains outside scope.
+
+### Live status-count correction
+
+- Post-deployment browser verification found that the Sources page selected RC7, v8 articles, v5 lexical metadata, and the correct download links, but retained the pre-addition phrase “30 reviewed comparison notes.” Corrected that display count to 39 and added a regression assertion against both the new and stale wording. Desktop packages and immutable release data are unchanged.
