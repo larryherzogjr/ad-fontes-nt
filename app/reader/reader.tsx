@@ -1,9 +1,10 @@
 'use client';
 import { useEffect, useRef, useState, type ComponentType } from 'react';
+import { writeClipboard } from '@/lib/clipboard';
 import StudyPanel from './study-panel';
 import PublisherFootnote from './publisher-footnote';
 import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from '@/components/ui/popover';
-import { formatPassage, formatReference, searchHighlights } from '@/lib/reading-display';
+import { formatCopyWithReference, formatPassage, formatPassageText, formatReference, searchHighlights } from '@/lib/reading-display';
 import { relatedResources } from '@/lib/domain/resources';
 import { useReaderEnvironment } from './environment';
 import RelatedResources from './related-resources';
@@ -82,6 +83,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     [error, setError] = useState(''),
     [loading, setLoading] = useState(true),
     [size, setSize] = useState(21),
+    [selectionCopyStatus, setSelectionCopyStatus] = useState(''),
     [storageError, setStorageError] = useState('');
   const editionMeta =
     editions.find((e) => e.editionId === edition) || editions[0];
@@ -380,6 +382,22 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       }));
     } catch {}
     navigate(url);
+  }
+  async function copySelection() {
+    setSelectionCopyStatus('');
+    try {
+      const passage = await getCorpus(edition).getPassage(ranges);
+      const text = formatPassageText(passage.segments);
+      if (!text) throw new Error('No Scripture text is available for this selection.');
+      await writeClipboard(formatCopyWithReference(text, ranges, editionMeta.name));
+      setSelectionCopyStatus('Selection copied with reference.');
+    } catch (error) {
+      setSelectionCopyStatus(
+        error instanceof Error && error.message.includes('No Scripture text')
+          ? error.message
+          : 'Copy failed. Please try again.',
+      );
+    }
   }
   function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -691,6 +709,12 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 </PopoverContent>
               </Popover>
               {explicitPassage && <button onClick={clearSelection}>Clear selection</button>}
+              {explicitPassage && <button onClick={copySelection}>Copy selection</button>}
+              {explicitPassage && (
+                <output className="reader-selection-copy-status">
+                  {selectionCopyStatus}
+                </output>
+              )}
             </div>
             <ReadingSelection
               editionName={editionMeta.name}

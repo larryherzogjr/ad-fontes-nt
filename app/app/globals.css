@@ -966,6 +966,7 @@ textarea { font: inherit; color: inherit; }
 .reader-selection-status { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 12px; margin: 5px 8px 18px; }
 .reader-selection-status .reader-hint { margin: 0; }
 .reader-selection-status button { font-size: 14px; padding: 6px 10px; }
+.reader-selection-copy-status { flex-basis: 100%; min-height: 1.5em; font: 13px/1.5 Arial, sans-serif; color: var(--muted-foreground); }
 .verse-picker-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
 .verse-picker-fields label { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .verse-picker-fields select { width: 100%; }

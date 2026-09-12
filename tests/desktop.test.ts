@@ -103,6 +103,8 @@ test('the shared macOS and Windows reader bundle includes copy with reference', 
     )
   ).join('\n');
   assert.match(javascript, /Copy with reference/);
+  assert.match(javascript, /Copy selection/);
+  assert.match(javascript, /Selection copied with reference/);
   assert.match(javascript, /Copied with reference\./);
   assert.match(javascript, /Clipboard copy was unavailable\./);
   assert.match(javascript, /Berean Standard Bible/);

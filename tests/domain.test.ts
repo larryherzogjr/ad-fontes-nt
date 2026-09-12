@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {books,resolveReference,address,compare,expand,chapterNeighbor,chapterRange,passageUrl} from '../app/lib/domain/references.ts';
 import {createLocalAdapter,getCorpus,matchText,releaseId} from '../app/lib/domain/corpus.ts';
-import {formatCopyWithReference,formatReference,formatPassage,searchHighlights} from '../app/lib/reading-display.ts';
+import {formatCopyWithReference,formatPassageText,formatReference,formatPassage,searchHighlights} from '../app/lib/reading-display.ts';
 const adapter=createLocalAdapter(async path=>JSON.parse(await readFile(new URL('../app/public'+path,import.meta.url),'utf8')));
 test('reader labels compact canonical selections without changing source numbering or input', () => {
   const ranges = [{start:'JHN.7.53',end:'JHN.7.53'}, {start:'JHN.8.1',end:'JHN.8.11'}, {start:'JHN.8.14',end:'JHN.8.14'}];
@@ -24,6 +24,18 @@ test('copy with reference preserves selected text and names the canonical passag
     '  In the beginning\nwas the Word.  \n\nJohn 1:1–3 — Berean Standard Bible',
   );
   assert.deepEqual(ranges, [{ start: 'JHN.1.1', end: 'JHN.1.3' }]);
+});
+test('range-copy text contains only normalized authoritative Scripture segments', () => {
+  const text = formatPassageText([
+    { text: ' In the beginning was the Word. ' },
+    { text: ' The Word was with God. ' },
+    { text: '   ' },
+  ]);
+  assert.equal(text, 'In the beginning was the Word. The Word was with God.');
+  assert.equal(
+    formatCopyWithReference(text, resolveReference('John 1:1-2'), 'Nestle 1904 — historical critical Greek'),
+    'In the beginning was the Word. The Word was with God.\n\nJohn 1:1–2 — Nestle 1904 — historical critical Greek',
+  );
 });
 test('search highlights preserve Scripture and match whole words versus quoted phrases', () => {
   const original = 'Grace, disgrace, and GRACE—truth.';

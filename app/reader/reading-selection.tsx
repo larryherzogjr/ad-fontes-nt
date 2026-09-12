@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { writeClipboard } from '@/lib/clipboard';
 import { formatCopyWithReference, formatPassage } from '@/lib/reading-display';
 import { resolveReference, type PassageRange } from '@/lib/domain/references';
 
@@ -12,27 +13,10 @@ type Choice = {
   text?: string;
 };
 
-async function writeClipboard(text: string) {
-  if (navigator.clipboard?.writeText) {
-    try {
-      await navigator.clipboard.writeText(text);
-      return;
-    } catch {
-      // Some embedded webviews expose the API but deny it; use the legacy fallback.
-    }
-  }
-  const field = document.createElement('textarea');
-  field.value = text;
-  field.readOnly = true;
-  field.setAttribute('aria-hidden', 'true');
-  field.style.position = 'fixed';
-  field.style.left = '-9999px';
-  document.body.append(field);
-  field.select();
-  // oxlint-disable-next-line typescript/no-deprecated -- Required for older embedded WebViews without Clipboard API permission.
-  const copied = document.execCommand('copy');
-  field.remove();
-  if (!copied) throw new Error('Clipboard copy was unavailable.');
+function scriptureTextWithoutControls(range: Range) {
+  const fragment = range.cloneContents();
+  fragment.querySelectorAll('sup, button').forEach(element => element.remove());
+  return fragment.textContent || '';
 }
 /** Only annotated main-text spans can contribute passage anchors. */
 export default function ReadingSelection({
@@ -112,12 +96,17 @@ export default function ReadingSelection({
         setChoice(null);
         return;
       }
+      const text = scriptureTextWithoutControls(range);
+      if (!text.trim()) {
+        setChoice(null);
+        return;
+      }
       setChoice({
         ranges: anchors.map((a) => ({ start: a, end: a })),
         label: formatPassage(anchors.map(a => ({start:a, end:a}))),
         ...position(range.getBoundingClientRect()),
         focusId: spans[0].dataset.studyFocus || 'reading',
-        text: selection.toString(),
+        text,
       });
       setCopyStatus('');
       if (focusFirstAction)

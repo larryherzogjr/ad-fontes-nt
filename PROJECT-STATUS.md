@@ -1,5 +1,10 @@
 # Ad Fontes NT — project status
 
+## 2026-09-12 — Copy canonical range without inline verse numbers (AFNT-026 / AFNT-107)
+
+- Added “Copy selection” beside the persistent Edit/Clear controls for an explicit canonical passage. It builds the quotation from the selected edition's authoritative corpus segments—not rendered verse links or study controls—then appends the existing compact canonical passage and full edition name. The floating highlighted-text action now removes verse-number and marker controls from the selected DOM fragment before copying while retaining the selected Scripture characters.
+- Both copy paths use the shared Clipboard API/WebView fallback and report success or failure accessibly. `npm run verify:both` passed 59 Node tests, 19 Python fidelity tests, TypeScript, both production builds, all 13,371 staged offline files and six desktop tests. A production Chrome check of Nestle 1904 John 1:1–5 verified the three persistent controls, pointer and Enter activation, verse-number-free text, the full canonical/edition footer, and the corrected floating John 1:1–2 copy. At a 390×844 mobile viewport all three controls were 44px high and the page had no horizontal overflow. No corpus, source mapping, commentary, approval, account, public package, production service or `larryherzogjr.com` file changed. Native release-candidate publication remains a separate gate.
+
 ## 2026-09-12 — Copy selected Scripture with reference (AFNT-026 / AFNT-107)
 
 - Added “Copy with reference” to the existing Scripture-selection toolbar. It appears only for a genuine highlighted-text selection and copies the browser/WebView selection verbatim, followed by a blank line and the compact canonical passage plus the edition catalog’s full translation name. Verse-number study actions do not synthesize or substitute text. The primary Clipboard API has an embedded-WebView fallback and reports success or failure through a polite live status.

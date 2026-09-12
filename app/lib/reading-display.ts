@@ -40,6 +40,11 @@ export function formatCopyWithReference(
   return `${text}\n\n${formatPassage(ranges)} — ${editionName}`;
 }
 
+/** Build a readable range quotation from authoritative verse segments, never UI labels. */
+export function formatPassageText(segments: { text: string }[]) {
+  return segments.map(segment => segment.text.trim()).filter(Boolean).join(' ');
+}
+
 /** Mirrors whole-word / quoted-phrase search while retaining every original character. */
 export function searchHighlights(text: string, query: string) {
   const q = query.trim().toLocaleLowerCase();
