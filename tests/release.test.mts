@@ -56,12 +56,12 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the approved RC3 installers', async () => {
+test('public desktop download page exposes only the approved RC4 installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
   assert.match(page, /Desktop release candidate/);
-  assert.match(page, /1\.0\.0-rc\.3/);
-  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.3\.dmg/);
-  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.3\.exe/);
+  assert.match(page, /1\.0\.0-rc\.4/);
+  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.4\.dmg/);
+  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.4\.exe/);
   assert.match(page, /private account-backed notes\s+remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
@@ -70,10 +70,10 @@ test('public desktop download page exposes only the approved RC3 installers', as
   await stat('app/public/og-downloads.png');
 });
 
-test('public project status distinguishes live RC3 from final v1.0', async () => {
+test('public project status distinguishes live RC4 from final v1.0', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /public release-candidate status/);
-  assert.match(reader, /Version 1\.0\.0-rc\.3 is the approved cross-platform desktop\s+candidate/);
+  assert.match(reader, /Version 1\.0\.0-rc\.4 is the approved cross-platform desktop\s+candidate/);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);
   assert.match(reader, /explicit final release approval/);

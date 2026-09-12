@@ -1037,15 +1037,15 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               with their documented limitations.
             </p>
             <p>
-              Version 1.0.0-rc.3 is the approved cross-platform desktop
+              Version 1.0.0-rc.4 is the approved cross-platform desktop
               candidate. The macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
-              signed and has been tested on Windows 11. Both are available on
+              signed. Both are available on
               the <a href="/downloads">Downloads page</a>. Private
               account-backed notes remain available only in the web app.
             </p>
             <p>
-              Final v1.0 still requires the remaining predecessor-to-RC3
+              Final v1.0 still requires the remaining predecessor-to-RC4
               desktop update rehearsals and explicit final release approval.
               Release-candidate status is not a claim that final v1.0 is
               complete.
