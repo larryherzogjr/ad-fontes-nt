@@ -5,6 +5,8 @@ import { useStudyEdition } from './use-study-edition';
 import { formatPassage, formatReference } from '@/lib/reading-display';
 import { GreekWordButton, WordDefinition } from './word-lookup';
 import PublisherNoteLabel from './publisher-note-label';
+import EditionSummary from './edition-summary';
+import EvidencePlate from './evidence-plate';
 import {
   editions,
   getCorpus,
@@ -621,6 +623,8 @@ export default function StudyPanel({
                 <article key={v.id} id={`reviewed-${v.id}`}>
                   <h4>{v.title}</h4>
                   <p className="commentary-byline">{v.byline || v.author} commentary</p>
+                  <EditionSummary unit={v} />
+                  <EvidencePlate unitId={v.id} />
                   <h5>What the editions print</h5>
                   <CommentaryProse onSource={showSource} text={v.significance?.sourceObservation || ''} unit={v} />
                   <h5>Ordinary Means interpretation</h5>

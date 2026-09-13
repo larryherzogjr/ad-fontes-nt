@@ -1,0 +1,10 @@
+{
+  "releaseId": "csntm-2026-09-12-v1",
+  "candidateSha256": "6376169b7283a63288181286478c5cf6cfe2f5c4ce4bd4e3fb521055ab054318",
+  "supplements": [
+    {
+      "releaseId": "csntm-sinaiticus-2026-09-12-v2",
+      "candidateSha256": "6bbbd387d8faff05c2c64aba32c8b2a48e11d4ea47ad434f4beddd713a318170"
+    }
+  ]
+}

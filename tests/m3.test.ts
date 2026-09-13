@@ -1,4 +1,5 @@
 import { transliterateGreek, dictionaryReading } from '../app/lib/domain/greek-reading.ts';
+import { editionSummaryNeedsWordingPrompt, summarizeEditionReadings } from '../app/lib/domain/variant-summary.ts';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
@@ -45,6 +46,29 @@ const adapter = (id: string) => {
   return adapters.get(id)!;
 };
 const hash = (v: Variant) => createHash("sha256").update(reviewPayload(v)).digest("hex");
+test("all approved notes have complete evidence-limited edition summaries", () => {
+  assert.equal(candidates.filter(v => v.status === 'approved').length, 39);
+  for (const unit of candidates.filter(v => v.status === 'approved')) {
+    const summary = summarizeEditionReadings(unit);
+    assert.equal(summary.length, 7, unit.id);
+    assert.equal(new Set(summary.map(item => item.editionId)).size, 7, unit.id);
+    assert(summary.every(item => ['present', 'absent', 'bracketed', 'relocated', 'mixed'].includes(item.state)), unit.id);
+  }
+
+  const states = (id: string) => Object.fromEntries(
+    summarizeEditionReadings(candidates.find(unit => unit.id === id)!)
+      .map(item => [item.editionId, item.state]),
+  );
+  assert.deepEqual(states('candidate-11'), {
+    BSB: 'present', BLB: 'present', MSB: 'present', YLT: 'present',
+    N1904: 'bracketed', RP2018: 'present', 'TR-BOYD': 'present',
+  });
+  assert.deepEqual(states('candidate-27'), {
+    BSB: 'absent', BLB: 'absent', MSB: 'absent', YLT: 'bracketed',
+    N1904: 'absent', RP2018: 'absent', 'TR-BOYD': 'present',
+  });
+  assert(editionSummaryNeedsWordingPrompt(summarizeEditionReadings(candidates.find(unit => unit.id === 'candidate-26')!)));
+});
 test("editorial candidates reconcile; only content with matching approval is shipped", async () => {
   assert(candidates.length > 0);
   const reviews = await read("content/editorial/reviews.json");

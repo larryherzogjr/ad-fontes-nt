@@ -1,0 +1,751 @@
+
+<html>
+<head>
+    <title>Manuscript P61 - CSNTM</title>
+    <script id="jquery-js" src="//code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../../Scripts/Mercury/libs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../scripts/jquery.lazyload.min.js"></script>
+    <script src="../../content/lib/OpenSeadragon/openseadragon.js" type="text/javascript"></script>
+    <script src="/Scripts/en_bcv_parser.min.js" charset="UTF-8"></script>
+    <link href="/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../Content/ManuscriptGroup.css" />
+    <script src="/Scripts/jquery.tristate.js"></script>
+</head>
+<body class="showThumbs showDetails">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="fluid-container">
+        <div id="navbar" class="navbar-collapse collapse">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>
+                            <a class="navbar-brand" href="/Manuscript"><img src="/Content/Mercury/logo.png" /></a>
+                        </td>
+                        <td nowrap style="padding-right:50px;">
+                            <span style="color:black; font-size:35px;">P61</span>
+
+                            <a class="BackToMsList themedLink btn btn-info" href="/Manuscript">&lt; Return to Digital Manuscript Collection</a>
+                        </td>
+                        <td style="font-size: 12px;">
+                            Classification:	Papyrus<br />
+                            Date:	8th Century<br />
+                            Location: New York / Morgan Library & Museum<br />
+                            
+                            
+<button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#dialogManuscriptDetails">
+  More Manuscript Information...
+</button>
+
+                        </td>
+
+                        <td nowrap>
+
+<div class="btn-group btn-group-sm" data-toggle="buttons" style="margin-bottom:5px;">
+  <label class="btn btn-default">
+    <input type="checkbox" autocomplete="off" id="chkFilters"> Filters
+  </label>
+  <label class="btn btn-default active">
+    <input type="checkbox" autocomplete="off" checked id="chkThumbnails"> Thumbnails
+  </label>
+  <label class="btn btn-default active">
+    <input type="checkbox" autocomplete="off" checked id="chkDetails"> Image Details
+  </label>
+</div>
+    <a class="themedLink btn btn-info btn-sm pull-right" href="/Manuscript/View/GA_P61?PreviousViewer">Switch to <br />Previous Viewer</a>
+
+
+
+                            
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Viewing "All Images"
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+
+                  <li class="active"><a href="/manuscript/Group/GA_P61?sequence=0">All Images</a></li>
+
+              </ul>
+            </div>
+
+                        </td>
+                    </tr>
+                </table>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="dialogManuscriptDetails">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Manuscript Details</h4>
+      </div>
+      <div class="modal-body">
+
+    <div id="manuscriptHeader">
+        
+
+        <h3><a href="/manuscript/View/GA_P61">P61</a></h3>
+
+        <table class="table table-condensed">
+            <tr><td class='h'>Classification:</td>		<td>Papyrus</td></tr>
+            <tr><td class='h'>Date:</td>		        <td>8th Century</td></tr>
+            <tr><td class='h'>Location:</td>		    <td>New York / Morgan Library & Museum</td></tr>
+            <tr><td class='h'>Shelf Number:</td>		<td>P. Colt 5</td></tr>
+
+            
+                <tr><td class='h'>Content:</td>
+                    <td>Pauline</td>
+                </tr>
+            
+                <tr><td class='h'>MS Feature:</td>
+                    <td>Fragmentary</td>
+                </tr>
+            
+                <tr><td class='h'>Image Description:</td>
+                    <td>Text</td>
+                </tr>
+            
+                <tr><td class='h'>Language:</td>
+                    <td>Greek</td>
+                </tr>
+            
+                <tr><td class='h'>Image Type:</td>
+                    <td>Digital Microfilm</td>
+                </tr>
+            
+                <tr><td class='h'>Material:</td>
+                    <td>Papyrus</td>
+                </tr>
+            
+
+            <tr valign="top"><td class='h'>Description:</td>		<td>Eighth century manuscript of Paul on papyrus; 8 fragments, single column, approximately 25 lines per column. For more information and downloadable images, visit <a href "http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=351506"target="blank">the CORSAIR online catalogue</a>.</td></tr>
+        </table>
+
+            
+
+        <br />
+        
+
+        <!--
+            
+                <tr><td class='h'>Content:</td>
+                    <td>Pauline</td>
+                </tr>
+            
+                <tr><td class='h'>MS Feature:</td>
+                    <td>Fragmentary</td>
+                </tr>
+            
+                <tr><td class='h'>Image Description:</td>
+                    <td>Text</td>
+                </tr>
+            
+                <tr><td class='h'>Language:</td>
+                    <td>Greek</td>
+                </tr>
+            
+                <tr><td class='h'>Image Type:</td>
+                    <td>Digital Microfilm</td>
+                </tr>
+            
+                <tr><td class='h'>Material:</td>
+                    <td>Papyrus</td>
+                </tr>
+            
+        -->
+    </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <a name="viewer"></a>
+
+  <!--  <table cellpadding="0" cellspacing="0" width="100%"><tr valign="top"><td> -->
+    
+        <div class="Filters FiltersDetail">
+            <div class="Refine">
+                
+	                <h4>Jump to Book</h4>
+                    <select id="jumpToBook" class="form-control">
+                        <option value="">Select One</option>
+                        
+                            <option value="7005">Rom</option>
+                        
+                            <option value="7159">1Cor</option>
+                        
+                            <option value="6608">Phil</option>
+                        
+                            <option value="1990">Col</option>
+                        
+                            <option value="7457">1Thess</option>
+                        
+                            <option value="8840">Titus</option>
+                        
+                            <option value="8849">Phlm</option>
+                        
+	                </select>
+
+                    <h4>Passage Search</h4>
+                    <input type="text" id="txtPassage" style="width:120px;" value="" /><button id="buttonPassageSearch">Search</button>
+                
+            </div>
+
+            
+
+<div class="Refine">
+    
+	    <h4>MS Feature</h4>
+    
+	<ul group="8" id="refineGroup8" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg8" value="51" id="tg8_51" />
+                <label for="tg8_51">Fragmentary</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+
+<div class="Refine">
+    
+	    <h4>Image Description</h4>
+    
+	<ul group="3" id="refineGroup3" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg3" value="40" id="tg3_40" />
+                <label for="tg3_40">Text</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+
+<div class="Refine">
+    
+	    <h4>Language</h4>
+    
+	<ul group="2" id="refineGroup2" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg2" value="6" id="tg2_6" />
+                <label for="tg2_6">Greek</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+
+<div class="Refine">
+    
+	    <h4>Image Type</h4>
+    
+	<ul group="4" id="refineGroup4" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg4" value="11" id="tg4_11" />
+                <label for="tg4_11">Digital</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+
+<div class="Refine">
+    
+	    <h4>Ink</h4>
+    
+	<ul group="5" id="refineGroup5" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg5" value="32" id="tg5_32" />
+                <label for="tg5_32">Brown</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+
+<div class="Refine">
+    
+	    <h4>Material</h4>
+    
+	<ul group="7" id="refineGroup7" >
+        
+            <li>
+                <input class="tag" type="checkbox"  name="tg7" value="29" id="tg7_29" />
+                <label for="tg7_29">Papyrus</label>
+                <!--
+                
+                    <span class="count">(4)</span>
+                
+                -->
+            </li>
+        
+	</ul>
+</div>
+        </div>
+    
+    
+            <!--   </td><td width="100%"> -->
+    
+        <div class="thumbnails">
+            <div class="p onePages">
+                        <span id="divImageCount" class="text-muted"></span><span class="page tM851 t6 t11 t29 t32 t40 t51 t7466 t7559 t8226 t8227 t8228 t8230 t8231 selected">
+                        <a href="#" imageId="376634" imageName="GA_P61_0001a.JPG" manuscript="GA_P61">
+                            
+                            <img src="//images.csntm.org/IIIFServer.ashx/GA_P61/GA_P61_0001a.JPG/full/100,/0/native.jpg" />
+                            
+
+                            <span class="ImageCaption">Col 4.15</span>
+                        </a>
+                    </span></div><div class="p onePages"><span class="page tM851 t6 t11 t29 t32 t40 t51 t7159 t7457 t7458 t7538 t7539 t8084 t8086 t8087 t8234 t8235 t8236 t8237 t8238">
+                        <a href="#" imageId="376635" imageName="GA_P61_0001b.JPG" manuscript="GA_P61">
+                            
+                            <img src="//images.csntm.org/IIIFServer.ashx/GA_P61/GA_P61_0001b.JPG/full/100,/0/native.jpg" />
+                            
+
+                            <span class="ImageCaption">1Cor 1.1</span>
+                        </a>
+                    </span></div><div class="p onePages"><span class="page tM851 t6 t11 t29 t32 t40 t51 t7159 t8084 t8226 t8227 t8817 t8818 t8845 t8846 t8847 t8848">
+                        <a href="#" imageId="376636" imageName="GA_P61_0002a.JPG" manuscript="GA_P61">
+                            
+                            <img src="//images.csntm.org/IIIFServer.ashx/GA_P61/GA_P61_0002a.JPG/full/100,/0/native.jpg" />
+                            
+
+                            <span class="ImageCaption">1Cor 1.1</span>
+                        </a>
+                    </span></div><div class="p onePages"><span class="page tM851 t6 t11 t29 t32 t40 t51 t8234 t8235 t8840 t8841 t8842 t8843 t8844 t8849 t8850 t8851 t8852">
+                        <a href="#" imageId="376637" imageName="GA_P61_0002b.JPG" manuscript="GA_P61">
+                            
+                            <img src="//images.csntm.org/IIIFServer.ashx/GA_P61/GA_P61_0002b.JPG/full/100,/0/native.jpg" />
+                            
+
+                            <span class="ImageCaption">1Cor 5.10</span>
+                        </a>
+                    </span></div>
+        </div>
+
+            <style>
+            </style>
+
+        <div class="image-viewer">
+            <a id="nextPage" href="javascript:nextPage();"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            
+            <a id="prevPage" href="javascript:prevPage();"><i class="glyphicon glyphicon-chevron-left"></i></a>
+            <img id="logoOverlay" src="/Content/Images/ImageWatermark2b.jpg" />
+            <div id="imageContainer"></div>
+            <div id="divImageDetails">
+                <div id="divImageDetails1"></div>
+                <div id="divImageDetails2"></div>
+            </div>
+        </div>
+
+
+
+    <script type="text/javascript">
+        /*
+        function updateSeq() {
+            var value = "";
+
+            $(".inSeq:checked").each(function () {
+                value += "," + $(this).val();
+            })
+
+            $("#txtSeq").val(value);
+        }
+        */
+
+        var viewer = null;
+
+        function updatePanels() {
+            $("body").removeClass("showThumbs").removeClass("showDetails").removeClass("showFilters");
+
+            if ($("#chkThumbnails").is(":checked")) $("body").addClass("showThumbs");
+            if ($("#chkDetails").is(":checked")) $("body").addClass("showDetails");
+            if ($("#chkFilters").is(":checked")) $("body").addClass("showFilters");
+        }
+
+        function tristate_changed(c) {
+            var chk = $(this);
+
+            if (c === null) {
+                chk.parent().addClass("ind");
+            }
+            else {
+                chk.parent().removeClass("ind");
+            }
+        }
+
+
+        $(document).ready(function () {
+            $("#chkThumbnails").change(updatePanels);
+            $("#chkDetails").change(updatePanels);
+            $("#chkFilters").change(updatePanels);
+
+            $("#chkFilters").click();
+
+            $(".filters input.tag").tristate({
+                change: tristate_changed
+            });
+            $(".Refine input").change(search);
+            $(".thumbnails .page a").click(selectPage);
+            $("#jumpToBook").change(jumpToBook);
+
+            $(".thumbnails img.lazy").lazyload({
+                container: $(".thumbnails")
+            });
+
+            viewer = OpenSeadragon({
+                id: "imageContainer",
+                prefixUrl: "../../content/lib/OpenSeadragon/images/",
+                showNavigator:  true,
+                navigatorPosition: "BOTTOM_RIGHT",
+                //toolbar: "toolbarDiv"
+            });
+            /*
+            viewer.addHandler("full-screen", function (e) {
+                if (e.fullScreen) {
+                    $("body").addClass("seaDragonFullScreen");
+                }
+                else {
+                    $("body").removeClass("seaDragonFullScreen");
+                }
+            });
+            */
+            // Disable right click on image viewer...
+            $('.openseadragon-canvas').bind('contextmenu', function () { return false; });
+
+            search();
+
+            // Passage Search
+            $("#buttonPassageSearch").click(passageSearch);
+            var txtPassage = $("#txtPassage");
+            if (txtPassage.length > 0) {
+                txtPassage.keypress(function (evt) {
+                    if (evt.charCode === 13) {
+                        evt.preventDefault();
+                        passageSearch();
+                    }
+                });
+
+                // If a passage reference was prepopulated from the manuscript search page, 
+                // then search for it when the page loads...
+                if (txtPassage.val() != "") {
+                    passageSearch();
+                }
+            }
+        });
+        
+        function passageSearch()
+        {
+            var bcv = new bcv_parser();
+            bcv.include_apocrypha(true);
+            bcv.set_options({
+                "invalid_sequence_strategy": "include",
+                "osis_compaction_strategy": "bcv",
+                "consecutive_combination_strategy": "separate",
+                "invalid_sequence_strategy": "include",
+                "sequence_combination_strategy": "separate",
+                "passage_existence_strategy":"none"
+            });
+
+            var text = $("#txtPassage").val();
+            var osis = "";
+
+            if (typeof(text) != "undefined" && text != "") {
+                var ref = bcv.parse(text);
+                osis = ref.osis();
+            }
+
+            var manuscriptId = "851";
+            var url = "/manuscript/SearchForImageByOsis?manuscriptId=" + manuscriptId + "&osis=" + escape(osis);
+            $.get(url, function (images) {
+                if (images == null || images == "" || images.length == 0) {
+                    alert("No matching images found.");
+                } else {
+                    var a = $(".thumbnails a[imageid='" + images[0] + "']");
+                    a[0].click();
+                    a[0].scrollIntoView();
+                }
+            });
+        }
+        
+
+
+        function search() {
+            var allPages = $(".thumbnails .page");
+            
+            var q = ""; //".thumbnails .page";
+            $(".Refine li input:checked").each(function () {
+                var tagId = $(this).val();
+                q += ".t" + tagId;
+            });
+            $(".Refine li input:indeterminate").each(function () {
+                var tagId = $(this).val();
+                q += ":not(.t" + tagId + ")";
+            });
+
+            allPages.hide();
+            var pagesToShow = allPages;
+            if ( q != "" )
+                pagesToShow = allPages.filter(q);
+            pagesToShow.show();
+
+            // Select the first page...
+            pagesToShow.find("a").first().click();
+
+            UpdateImageCountLabel(pagesToShow.length);
+
+            // This forces the visible thumbnails to be loaded if they weren't loaded before...
+            $(".thumbnails img.lazy:visible").trigger("scroll");
+        }
+
+        function UpdateImageCountLabel(count)
+        {
+            var msg = count + " images found."
+            if (count == 1) {
+                msg = "1 image found.";
+            }
+            $("#divImageCount").html(msg);
+        }
+
+        function getTileImageUrl(m, imageName) {
+            var url = "//images.csntm.org/iiifserver.ashx/" + m + "/" + imageName + "/info.json";
+            return url;
+        }
+
+        var _lastPageShowedTwo = false;
+
+        function selectPage(event) {
+            var newPage = $(this);
+            var secondPage = null;
+
+            var span = newPage.parent();
+            var parent = span.parent();
+            $(".thumbnails .selected").removeClass("selected");
+            if (parent.hasClass("twoPages")) {
+                var kids = parent.find(".page a");
+                newPage = kids.first();
+                secondPage = kids.last();
+            }
+            else {
+            }
+            parent.addClass("selected");
+            parent[0].scrollIntoView();
+
+            var imageId = newPage.attr("imageId");
+            var imageName = newPage.attr("imageName");
+            var manuscript = newPage.attr("manuscript");
+            var url = getTileImageUrl(manuscript, imageName);
+
+            viewer.world.removeAll();
+            //viewer.open("");
+            //window.setTimeout("viewer.open(\"" + url + "\");", 100);
+
+            var count = viewer.world.getItemCount();
+
+            if (secondPage) {
+                var imageId2 = secondPage.attr("imageId");
+                var imageName2 = secondPage.attr("imageName");
+                var manuscript2 = secondPage.attr("manuscript");
+                var url2 = getTileImageUrl(manuscript2, imageName2);
+
+                viewer.addTiledImage({ tileSource: url ,x: -10, y: 0, width: 10});
+                viewer.addTiledImage({
+                    tileSource: url2, x: 0, y: 0, width: 10,
+                    success: function () {
+                        viewer.viewport.goHome(true);
+
+                        //cleanOldImages(count);
+                    }
+                });
+
+                //if (!_lastPageShowedTwo) {
+                //}
+
+                _lastPageShowedTwo = true;
+
+                var details = $("#divImageDetails");
+                details.css.visibility = "hidden";
+                $.get("/manuscript/ImageDetails?imageId=" + imageId + "&timer=" + (new Date()).getTime()
+                    , function (data) {
+                        $("#divImageDetails1").html(data);
+                        details.css.visibility = "visible";
+                        $("#divImageDetails1").data("imageId", imageId);
+                        UpdateImageCaptions("#divImageDetails1");
+                    });
+                $.get("/manuscript/ImageDetails?imageId=" + imageId2 + "&timer=" + (new Date()).getTime()
+                    , function (data) {
+                        $("#divImageDetails2").html(data);
+                        details.css.visibility = "visible";
+                        $("#divImageDetails2").data("imageId", imageId2);
+                        UpdateImageCaptions("#divImageDetails2");
+                    });
+            }
+            else {
+                viewer.addTiledImage({
+                    tileSource: url, x: -5, y: 0, width: 10,
+                    success: function () {
+                        viewer.viewport.goHome(true);
+                        //cleanOldImages(count);
+                    }
+                });
+                _lastPageShowedTwo = false;
+
+                var details = $("#divImageDetails");
+                details.css.visibility = "hidden";
+                $.get("/manuscript/ImageDetails?imageId=" + imageId + "&timer=" + (new Date()).getTime()
+                    , function (data) {
+                        $("#divImageDetails1").html(data);
+                        $("#divImageDetails2").html("");
+                        details.css.visibility = "visible";
+                        $("#divImageDetails1").data("imageId", imageId);
+                        UpdateImageCaptions("#divImageDetails1");
+                    });
+            }
+
+
+            /*
+            var count = viewer.world.getItemCount();
+            var start = (_lastPageShowedTwo ? 2 : 1);
+            for (var i = start; i < count; i++) {
+                viewer.world.removeItem(viewer.world.getItemAt(start));
+            }
+
+*/
+
+
+            event.preventDefault();
+            event.stopPropagation();
+
+            updateNavigationLinks();
+
+            return false;
+        }
+
+        function UpdateImageCaptions(key) {
+            var a = $(key);
+            var imageId = a.data("imageId");
+            if (imageId > 0) {
+                var caption = $(key + " p.CachedCaption").text();
+
+                var b = $("a[imageId=" + imageId + "] .ImageCaption");
+                b.text(caption);
+            }
+        }
+
+        function cleanOldImages(count) {
+            for (var i = 0; i < count; i++) {
+                viewer.world.removeItem(viewer.world.getItemAt(0));
+            }
+        }
+
+        function updateNavigationLinks() {
+            $("#nextPageOfText").hide();
+
+            if (nextPageExists())
+                $("#nextPage").show();
+            else
+                $("#nextPage").hide();
+
+            if (prevPageExists())
+                $("#prevPage").show();
+            else {
+                $("#prevPage").hide();
+                $("#nextPageOfText").show();
+            }
+        }
+
+        function jumpToBook() {
+            var selectedBookTag = $("#jumpToBook").val();
+            if (selectedBookTag != "") {
+                var page = $(".thumbnails .page.t" + selectedBookTag + " a");
+                if (page.length > 0)
+                    page[0].scrollIntoView();
+                page.click();
+                //$("#divImageCount")[0].scrollIntoView();
+            }
+        }
+
+        function expandRefine(groupId) {
+            $("#aExpand" + groupId).hide();
+            $("#refineGroup" + groupId).show(1);
+        }
+
+        function nextPageExists()
+        {
+            var a = $(".p.selected").nextAll(".p:first").find("a");
+            return ( a && a.length > 0);
+        }
+        
+        function prevPageExists()
+        {
+            var a = $(".p.selected").prevAll(".p:first").find("a");
+            return ( a && a.length > 0);
+        }
+
+        function nextPage()
+        {
+            var z = $(".p.selected").nextAll(".p:first").find("a");
+            z.click();
+        }
+        
+        function prevPage()
+        {
+            $(".p.selected").prevAll(".p:first").find("a").click()
+        }
+
+        function nextPageOfText() {
+            $(".p .t40 a").first().click();
+        }
+    </script>
+
+
+    
+        <style>.editImageTags {display:none;}</style>
+        
+    <style>
+        .login
+        {
+            float: right;
+        }
+    </style>
+    
+
+
+    </body>
+</html>

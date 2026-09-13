@@ -2,6 +2,12 @@
 
 Owner decisions recorded September 10, 2026. This is the controlling M5 readiness ledger for the public v1.0 release. It does not itself approve publication.
 
+## Acceptance resolution — 2026-09-12
+
+Larry Herzog Jr. subsequently stated, **“Those tasks in M5 HAVE all been completed to my satisfaction.”** AFNT-026–029 and the defined MVP are therefore accepted. The checklist below is retained as the pre-acceptance gate ledger; unchecked boxes no longer indicate an unaccepted milestone, and the underlying records remain authoritative about which evidence was agent-observed, user-reported, partial, or completed through a later release candidate. See [M5 and MVP acceptance](M5-Acceptance.md).
+
+This acceptance does not approve new release bytes. RC9 remains the currently published immutable release candidate while RC10 evidence-visual source changes await their separate commit, artifact and publication approvals.
+
 ## Frozen release scope
 
 - Web v1.0 may launch before signed desktop v1.0 packages. Anonymous reading remains public; private-note registration remains invitation-only through the once-only shared registration password.
@@ -23,7 +29,7 @@ Owner decisions recorded September 10, 2026. This is the controlling M5 readines
 - Public desktop downloads will have a visible download page with supported systems, checksums, release notes and limitations. Existing beta links remain available but unlisted.
 - Use a 48-hour soft launch before broader announcement.
 
-## Release gates
+## Pre-acceptance release-gate ledger
 
 - [ ] AFNT-026: keyboard, screen-reader, touch, contrast, 200% zoom, supported desktop widths, phone layout, and polytonic Greek checks completed; blocking issues resolved.
 - [ ] Performance measured cold and warm against documented representative conditions.

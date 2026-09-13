@@ -1057,16 +1057,15 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
-              Ad Fontes NT is now in public release-candidate status. The live
-              web reader includes all 27 New Testament books, seven named
-              editions, 39 reviewed comparison notes, Greek and interlinear
-              tools, the approved 250-article Ordinary Means BSB adaptation,
-              and account-backed personal notes. The comparison, Greek,
-              personal-note and initial resource-link milestones are accepted
-              with their documented limitations.
+              The defined Ad Fontes NT MVP and all five milestones are accepted
+              with their documented limitations. The live web reader includes
+              all 27 New Testament books, seven named editions, 39 reviewed
+              comparison notes, Greek and interlinear tools, the approved
+              250-article Ordinary Means BSB adaptation, and account-backed
+              personal notes.
             </p>
             <p>
-              Version 1.0.0-rc.9 is the current cross-platform desktop
+              Version 1.0.0-rc.10 is the current cross-platform desktop
               candidate. The macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on
@@ -1074,10 +1073,9 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               account-backed notes remain available only in the web app.
             </p>
             <p>
-              Final v1.0 still requires the remaining release-readiness checks
-              and explicit final release approval.
-              Release-candidate status is not a claim that final v1.0 is
-              complete.
+              MVP acceptance does not rename the release-candidate bytes to final
+              v1.0. A final-version promotion or successor release still uses
+              the separate exact-artifact review and approval workflow.
             </p>
           </section>
         )}

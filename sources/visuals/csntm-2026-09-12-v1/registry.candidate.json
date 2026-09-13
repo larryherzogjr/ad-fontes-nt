@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "csntm-2026-09-12-v1",
+  "status": "candidate",
+  "rightsDecision": {
+    "status": "accepted-project-owner-report",
+    "decidedBy": "Larry Herzog Jr.",
+    "date": "2026-09-12",
+    "scope": "Free educational Ad Fontes NT public website and offline macOS/Windows desktop redistribution only.",
+    "evidence": "PERMISSION-BASIS.md"
+  },
+  "editorialReview": {
+    "status": "pending",
+    "scope": "Exact captions, alt text, demonstrates statements, limitations, credits, locators, and asset bindings in this registry."
+  },
+  "plates": {
+    "candidate-11": {
+      "commentaryPayloadSha256": "2af1f0dd8356164039d9abb83b84dbd05d936413b6ad7bc2d9216fbbc84f18ab",
+      "title": "Codex Vaticanus at the end of Mark",
+      "passage": "Mark 16:1–8",
+      "manuscript": {
+        "name": "Codex Vaticanus",
+        "gregoryAland": "GA 03/B",
+        "date": "4th century",
+        "holdingInstitution": "Biblioteca Apostolica Vaticana",
+        "shelfmark": "Vat. gr. 1209",
+        "locator": "facsimile page 1303",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_03_0035a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "704428",
+          "sourceImageName": "GA_03_0035a.jpg",
+          "alt": "Complete monochrome facsimile page of Codex Vaticanus page 1303: Mark ends after verse 8 in the second column, with a decorated ending and the third column left blank."
+        }
+      ],
+      "caption": "Codex Vaticanus (GA 03/B), Vat. gr. 1209, facsimile page 1303. CSNTM tags this page to Mark 16:1–8. Mark ends after verse 8, and the remaining third column is blank.",
+      "demonstrates": "This one witness's facsimile page ends Mark after 16:8 and preserves the physical page context at that point.",
+      "doesNotEstablish": "It does not by itself establish Mark's original ending, the reading of another manuscript, or the distribution of endings across the manuscript tradition.",
+      "credit": "Image via the Center for the Study of New Testament Manuscripts (CSNTM); manuscript held by the Biblioteca Apostolica Vaticana, Vat. gr. 1209.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner's recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_03?OSIS=Mark.16.1",
+      "evidence": ["evidence/detail-704428.html", "evidence/GA_03-group.html", "evidence/GA_03_0035a-info.json"]
+    },
+    "candidate-17": {
+      "commentaryPayloadSha256": "01af42e437365ee025d80ca958d968d0f0cd13ad25729a82ed1172ed0893455b",
+      "title": "Codex Bezae and the woman caught in adultery",
+      "passage": "John 7:53–8:11",
+      "manuscript": {
+        "name": "Codex Bezae Cantabrigiensis",
+        "gregoryAland": "GA 05/D",
+        "date": "5th century",
+        "holdingInstitution": "Cambridge University Library",
+        "shelfmark": "MS Nn.2.41",
+        "locator": "folios 133v and 134v (Greek pages)",
+        "imageType": "CSNTM digital images"
+      },
+      "images": [
+        {
+          "asset": "derivatives/GA_05_0235-full.png",
+          "width": 1689,
+          "height": 2000,
+          "sourceImageId": "202910",
+          "sourceImageName": "GA_05_0235.jpg",
+          "alt": "Complete Greek verso page of Codex Bezae, folio 133v, containing John 7:43 through 8:4; the account begins in the lower portion of the page."
+        },
+        {
+          "asset": "derivatives/GA_05_0237-full.png",
+          "width": 1689,
+          "height": 2000,
+          "sourceImageId": "202912",
+          "sourceImageName": "GA_05_0237.jpg",
+          "alt": "Complete Greek verso page of Codex Bezae, folio 134v, containing John 8:5–17; the account continues from the top of the page."
+        }
+      ],
+      "caption": "Codex Bezae (GA 05/D), Cambridge University Library MS Nn.2.41, Greek folios 133v and 134v. CSNTM tags the pages to John 7:43–8:4 and John 8:5–17, respectively; together they include John 7:53–8:11 in this location.",
+      "demonstrates": "These two Greek pages show that this witness contains the passage between John 7:52 and 8:12.",
+      "doesNotEstablish": "They do not by themselves establish that the passage was original to John, its reading or location in another witness, or its prevalence in the broader tradition.",
+      "credit": "Cambridge University Library, MS Nn.2.41; images via CSNTM. Source images state Copyright Cambridge University Library and CC BY-NC 3.0.",
+      "reuseStatement": "Used noncommercially in Ad Fontes NT under the source-image CC BY-NC 3.0 notice and the project owner's recorded 2026-09-12 authorization for this free educational web and offline desktop distribution.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_05?OSIS=John.7.53",
+      "evidence": ["evidence/detail-202910.html", "evidence/detail-202912.html", "evidence/GA_05-group.html", "evidence/GA_05_0235-info.json", "evidence/GA_05_0237-info.json", "evidence/Cambridge-MS-Nn-2-41-IIIF.json"]
+    },
+    "candidate-26": {
+      "commentaryPayloadSha256": "0ab8b6197c4f9d10b0e3567bc6c171b87eafdb1ac68d498a29c4b2610c8d8937",
+      "title": "Codex Sinaiticus at 1 Timothy 3:16",
+      "passage": "1 Timothy 3:16",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add. 43725",
+        "locator": "local folio 294b; column 2 line 47 through column 3 line 10",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0095b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142025",
+          "sourceImageName": "GA_01_NT_0095b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus folio 294b; 1 Timothy 3:16 begins at the bottom of column two and continues at the top of column three."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add. 43725, folio 294b. CSNTM tags this page to 1 Timothy 2:12–4:16. The Codex Sinaiticus Project transcription records the first-hand reading ος ('who') at 3:16 and a later correction by corrector e to θεός ('God').",
+      "demonstrates": "The page and primary transcription permit inspection of this witness's initial reading and its recorded later correction in their page context.",
+      "doesNotEstablish": "They do not by themselves establish the autograph reading, the reading of Codex Alexandrinus or another witness, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add. 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner's recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Tim.3.16",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=47&chapter=3&lid=en&side=r&verse=16&zoomSlider=0",
+      "evidence": ["evidence/detail-142025.html", "evidence/GA_01-1Tim-group.html", "evidence/GA_01_NT_0095b-info.json", "evidence/Codex-Sinaiticus-1Tim-3-16.html", "evidence/FINAL_TRANSCRIPTION_version104.xml.zip"]
+    },
+    "candidate-27": {
+      "commentaryPayloadSha256": "0a03fac63a6facb8fcc7130dc19921a84e5dd7ba9f0db1bf7bdf028be3a8d0b0",
+      "title": "Codex Sinaiticus at 1 John 5:7–8",
+      "passage": "1 John 5:7–8",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add. 43725",
+        "locator": "local folio 324; column 1 lines 13–18",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0125a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142084",
+          "sourceImageName": "GA_01_NT_0125a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus folio 324; 1 John 5:7–8 appears in the upper half of the first column."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add. 43725, folio 324. CSNTM tags this page to 1 John 5:5–21. The Codex Sinaiticus Project transcription reads 'the three who testify: the Spirit and the water and the blood,' without the expanded Father, Word, and Holy Spirit clause.",
+      "demonstrates": "The page and primary transcription show the shorter form of 1 John 5:7–8 in this one fourth-century witness.",
+      "doesNotEstablish": "They do not by themselves establish the autograph reading, the origin or date of the expanded clause, its reading in another Greek or Latin witness, or its prevalence.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add. 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner's recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1John.5.7",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=55&chapter=5&lid=en&side=r&verse=7&zoomSlider=0",
+      "evidence": ["evidence/detail-142084.html", "evidence/GA_01-1John-group.html", "evidence/GA_01_NT_0125a-info.json", "evidence/Codex-Sinaiticus-1John-5-7.html", "evidence/FINAL_TRANSCRIPTION_version104.xml.zip"]
+    }
+  }
+}

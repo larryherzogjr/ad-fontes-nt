@@ -10,6 +10,11 @@ const destination = join(root, 'app/desktop/public');
 const editions = JSON.parse(await readFile(join(root, 'app/lib/domain/editions.json'), 'utf8'));
 const analysis = JSON.parse(await readFile(join(root, 'app/lib/domain/analysis-release.json'), 'utf8'));
 const om = JSON.parse(await readFile(join(root, 'app/lib/domain/om-release.json'), 'utf8'));
+const visuals = JSON.parse(await readFile(join(root, 'app/lib/domain/visual-release.json'), 'utf8'));
+const visualSelections = [
+  { releaseId: visuals.releaseId, candidateSha256: visuals.candidateSha256 },
+  ...(visuals.supplements ?? []),
+];
 const allowed = [
   ...editions.map((edition: { releaseId: string }) => `corpus/${edition.releaseId}`),
   `analysis/${analysis.releaseId}`,
@@ -17,6 +22,7 @@ const allowed = [
   'lexical/dodson-2010-v5',
   `om/${om.releaseId}`,
   'library',
+  ...visualSelections.map((visual: { releaseId: string }) => `visuals/${visual.releaseId}`),
 ];
 // Keep predecessor releases reproducible in the web project, but bundle only active ones.
 await rm(destination, { recursive: true, force: true });
@@ -37,6 +43,7 @@ await writeFile(join(destination, 'desktop-content.json'), JSON.stringify({
   editions: editions.map(({ editionId, releaseId }: { editionId: string; releaseId: string }) => ({ editionId, releaseId })),
   analysis: analysis.releaseId,
   lexical: 'dodson-2010-v5',
+  visuals: visualSelections,
   files,
 }, null, 2) + '\n');
 console.log(`Staged ${Object.keys(files).length} released files for offline desktop use.`);

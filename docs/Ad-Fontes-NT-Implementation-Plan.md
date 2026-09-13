@@ -202,6 +202,8 @@ Do not assert a single expected verse count across all editions. The verificatio
 | AFNT-107 | P2 | Offline reading bundles after explicit demand; public data only initially, with update/recovery behavior tested. |
 | AFNT-108 | P2 | Optional AI assistance only after editorial policy, source-grounding, labeling, and evaluation are defined; no autonomous Scripture or variant publication. |
 | AFNT-109 | P2 | Paid teacher tools or subscriptions after willingness-to-pay evidence; keep foundation and rights strategy intact. |
+| AFNT-110 | P2 | Evidence-centered visual aids for approved comparison articles: derive accessible edition summaries only from frozen variant data; add manuscript evidence plates only through a separate checksum-pinned, item-rights-cleared and editorially reviewed visual release that also works offline. |
+| AFNT-111 | P2 | Expand manuscript-evidence coverage across all 39 approved comparison articles through a preserved CSNTM passage/page inventory, direct reading verification, item-level rights and credit records, restrained witness selection, exact-hash editorial approval, and size-controlled offline derivatives. Discovery matches are never manuscript-reading claims. |
 
 Old Testament expansion is intentionally not a routine backlog ticket. It requires a new product brief for its different textual witnesses, languages, scope, and UX.
 
@@ -220,6 +222,10 @@ The user chose Google identity, a once-only shared registration password, accoun
 ## M4 acceptance — 2026-09-05
 
 Larry explicitly accepted M4 after confirming the final note export/import, persistence and live UI checks. AFNT-022–025 and the advanced AFNT-101 slice are accepted under the account-backed and initial link-only scope. See `M4-Acceptance.md`. Off-host backups remain deferred; M5 AFNT-026–029 is next. This supersedes the earlier pending resource-inventory status.
+
+## M5 and MVP acceptance — 2026-09-12
+
+Larry explicitly accepted all M5 tasks as completed to his satisfaction. AFNT-026–029 and the defined MVP are accepted with the evidence boundaries and continuing limitations recorded in `M5-Acceptance.md`. This supersedes earlier incomplete-M5 status language. It does not itself authorize a new release, rename RC9 bytes to v1.0, or include later P2 work such as AFNT-110 in a published release.
 
 ## Authorized desktop prototype — 2026-09-08
 

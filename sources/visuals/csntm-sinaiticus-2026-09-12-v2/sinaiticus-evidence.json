@@ -1,0 +1,3702 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "csntm-sinaiticus-2026-09-12-v2",
+  "status": "transcription-mapping-candidate",
+  "manuscript": {
+    "gregoryAland": "01",
+    "name": "Codex Sinaiticus",
+    "date": "fourth century",
+    "material": "parchment",
+    "holdingInstitution": "British Library",
+    "shelfmark": "Add MS 43725"
+  },
+  "sourceBoundary": "The official transcription verifies page locators and recorded readings. CSNTM supplies the corresponding facsimile image records. Neither source by itself establishes textual weight, autograph wording, or another witness's reading.",
+  "units": [
+    {
+      "unitId": "candidate-01",
+      "title": "For Thine Is the Kingdom: The End of the Lord's Prayer",
+      "ranges": [
+        {
+          "start": "MAT.6.13",
+          "end": "MAT.6.13"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.6.13",
+          "status": "present",
+          "transcriptionId": "V-B33K6V13-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-74-3v",
+              "n": "74-3v",
+              "archive": "BL",
+              "localFolio": "202b"
+            },
+            "column": {
+              "id": "S-74-3v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-74-3v-2-7",
+              "n": "7"
+            }
+          },
+          "mainTranscription": "και μη ειϲενεγκηϲ η\nμαϲ ειϲ πιραϲμο αλλα ρυϲαι ημαϲ απο του πονηρου : ‾̷‾",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141841,
+          "sourceImageName": "GA_01_NT_0003b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141841",
+          "sinaiticusPageId": "S-74-3v",
+          "localFolio": "202b"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand verse ends after ‘from the evil one’; the doxology is not present in the verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-02",
+      "title": "Why Some Bibles Have No Matthew 17:21",
+      "ranges": [
+        {
+          "start": "MAT.17.21",
+          "end": "MAT.17.21"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.17.21",
+          "status": "correction-only",
+          "transcriptionId": "V-B33K17V21-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-2v",
+              "n": "75-2v",
+              "archive": "BL",
+              "localFolio": "209b"
+            },
+            "column": {
+              "id": "S-75-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-75-2v-2-17",
+              "n": "17"
+            }
+          },
+          "mainTranscription": "",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "τουτο δε το γενοϲ ουκ εκβαλλεται ει μη εν προϲευχη κ(αι) νηϲτεια"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MAT.17.20",
+          "transcriptionId": "V-B33K17V20-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-2v",
+              "n": "75-2v",
+              "archive": "BL",
+              "localFolio": "209b"
+            },
+            "column": {
+              "id": "S-75-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-75-2v-2-6",
+              "n": "6"
+            }
+          },
+          "mainTranscription": "ο δε λε>\nγει αυτοιϲ δια τη ολιγοπιϲτιαν ϋμω αμην γαρ λεγω ϋμι εαν εχητε πιϲτιν ωϲ κοκκον ϲινα\nπεωϲ ερειτε τω ο\nρει τουτω μεταβα ενθεν εκει και με\nταβηϲεται και ου\nδεν αδυνατηϲει ϋμιν",
+          "corrections": []
+        },
+        {
+          "osis": "MAT.17.22",
+          "transcriptionId": "V-B33K17V22-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-2v",
+              "n": "75-2v",
+              "archive": "BL",
+              "localFolio": "209b"
+            },
+            "column": {
+              "id": "S-75-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-75-2v-2-17",
+              "n": "17"
+            }
+          },
+          "mainTranscription": "ϲυϲτρεφο\nμενων δε αυτω εν τη γαλειλαια ει\nπεν αυτοιϲ ο ιϲ μελ\nλει ο ϋιοϲ του ανου παραδιδοϲθαι ειϲ χειραϲ ανθρωπω",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141855,
+          "sourceImageName": "GA_01_NT_0010b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141855",
+          "sinaiticusPageId": "S-75-2v",
+          "localFolio": "209b"
+        }
+      ],
+      "proposedCaptionClaim": "The main transcription has no text for Matthew 17:21; corrector cb2 supplies the verse.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-03",
+      "title": "The Gap Between the Little Ones and the Lost Sheep",
+      "ranges": [
+        {
+          "start": "MAT.18.11",
+          "end": "MAT.18.11"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.18.11",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MAT.18.10",
+          "transcriptionId": "V-B33K18V10-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-2v",
+              "n": "75-2v",
+              "archive": "BL",
+              "localFolio": "209b"
+            },
+            "column": {
+              "id": "S-75-2v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-75-2v-4-37",
+              "n": "37"
+            }
+          },
+          "mainTranscription": "ορατε μη καταφρο\nνηϲητε ενοϲ τω μεικρων τουτω λεγω γαρ υμιν ο\nτι οι αγγελοι αυτω εν ουρανοιϲ δια παντοϲ βλεπουϲι το προϲωπον του πατροϲ μου του εν ουρανοιϲ",
+          "corrections": []
+        },
+        {
+          "osis": "MAT.18.12",
+          "transcriptionId": "V-B33K18V12-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-2v",
+              "n": "75-2v",
+              "archive": "BL",
+              "localFolio": "209b"
+            },
+            "column": {
+              "id": "S-75-2v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-75-2v-4-47",
+              "n": "47"
+            }
+          },
+          "mainTranscription": "τι υμιν δοκει εαν γε\nνηται τινι ανω εκατον προβατα και πλανηθη ε εξ αυτων ουχι α\nφιϲ τα ενενηκο\nτα εννεα πορευ\nθειϲ ζητι το πλα\nνωμενον",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "επι τα ορη"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141855,
+          "sourceImageName": "GA_01_NT_0010b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141855",
+          "sinaiticusPageId": "S-75-2v",
+          "localFolio": "209b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Matthew 18:10 to 18:12 without a Matthew 18:11 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-04",
+      "title": "Matthew 23:14 and the Woe That Moves",
+      "ranges": [
+        {
+          "start": "MAT.23.13",
+          "end": "MAT.23.14"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.23.13",
+          "status": "present",
+          "transcriptionId": "V-B33K23V13-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-6r",
+              "n": "75-6r",
+              "archive": "BL",
+              "localFolio": "213"
+            },
+            "column": {
+              "id": "S-75-6r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-75-6r-1-15",
+              "n": "15"
+            }
+          },
+          "mainTranscription": "ουαι υμιν γραμμα\nτιϲ και φαριϲαιοι ϋποκριτε οτι κλιε\nτε την βαϲιλιαν των ουρανων εμ\nπροϲθεν των αννω ϋμειϲ γαρ ουκ ιϲερ\nχεϲθε ουδε τουϲ ει\nϲερχομενουϲ α\nφιετε ειϲελθειν",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "δε"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "αννω"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ανων"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ιϲερ\nχεϲθε"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειϲερχεϲθε"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "MAT.23.14",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MAT.23.12",
+          "transcriptionId": "V-B33K23V12-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-6r",
+              "n": "75-6r",
+              "archive": "BL",
+              "localFolio": "213"
+            },
+            "column": {
+              "id": "S-75-6r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-75-6r-1-10",
+              "n": "10"
+            }
+          },
+          "mainTranscription": "οϲτιϲ δε ϋψωϲει εαυτον ταπινω\nθηϲετε και οϲτιϲ ταπινωϲει εαυτο ϋψωθηϲετε",
+          "corrections": []
+        },
+        {
+          "osis": "MAT.23.15",
+          "transcriptionId": "V-B33K23V15-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-6r",
+              "n": "75-6r",
+              "archive": "BL",
+              "localFolio": "213"
+            },
+            "column": {
+              "id": "S-75-6r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-75-6r-1-25",
+              "n": "25"
+            }
+          },
+          "mainTranscription": "ουαι ϋμιν γραμμα\nτιϲ και φαριϲαιοι ϋ\nποκριται οτι περι\nαγετε την θαλαϲϲα και την ξηραν ποι\nηϲε ενα προϲηλυ\nτον και οταν γενη\nτε ποιειτε αυτον υν γεεννηϲ διπλο\nτερον ϋμων",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141862,
+          "sourceImageName": "GA_01_NT_0014a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141862",
+          "sinaiticusPageId": "S-75-6r",
+          "localFolio": "213"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand has the kingdom-closing woe as Matthew 23:13 and no Matthew 23:14 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-05",
+      "title": "Mark 1:1 and Two Words in Brackets",
+      "ranges": [
+        {
+          "start": "MRK.1.1",
+          "end": "MRK.1.1"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.1.1",
+          "status": "present",
+          "transcriptionId": "V-B34K1V1-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-2v",
+              "n": "76-2v",
+              "archive": "BL",
+              "localFolio": "217b"
+            },
+            "column": {
+              "id": "S-76-2v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-76-2v-1-1",
+              "n": "1"
+            }
+          },
+          "mainTranscription": "αρχη του ευαγγελι\nου ιυ χυ",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ιυ χυ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ιυ χυ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "υυ θυ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141871,
+          "sourceImageName": "GA_01_NT_0018b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141871",
+          "sinaiticusPageId": "S-76-2v",
+          "localFolio": "217b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand ends Mark 1:1 with the nomina sacra for ‘Jesus Christ’; corrector S1 supplies ‘Son of God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-06",
+      "title": "Mark 7:16 and a Sentence You Have Heard Before",
+      "ranges": [
+        {
+          "start": "MRK.7.16",
+          "end": "MRK.7.16"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.7.16",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.7.15",
+          "transcriptionId": "V-B34K7V15-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-6v",
+              "n": "76-6v",
+              "archive": "BL",
+              "localFolio": "221b"
+            },
+            "column": {
+              "id": "S-76-6v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-76-6v-2-32",
+              "n": "32"
+            }
+          },
+          "mainTranscription": "ουδεν ε\nϲτιν εξωθεν του ανου ειϲπορευο\nμενον επ αυτο ο δυναται κοινω\nϲαι αυτον αλλα τα εκ του ανου εκπο\nρευομενα εϲτιν τα κοιναυντα το ανον",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ανου"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ανου"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "επ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειϲ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ανου"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ανου"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "κοιναυντα"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "κοινουντα"
+                },
+                {
+                  "type": "corr",
+                  "hand": "corr",
+                  "text": "κοινουντα"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ανον"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ανον"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "MRK.7.17",
+          "transcriptionId": "V-B34K7V17-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-6v",
+              "n": "76-6v",
+              "archive": "BL",
+              "localFolio": "221b"
+            },
+            "column": {
+              "id": "S-76-6v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-76-6v-2-42",
+              "n": "42"
+            }
+          },
+          "mainTranscription": "και οτε ειϲηλθον ειϲ τον οικον απο του οχλου επηρω\nτων αυτον οι μα\nθηται αυτου την παραβολην",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141879,
+          "sourceImageName": "GA_01_NT_0022b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141879",
+          "sinaiticusPageId": "S-76-6v",
+          "localFolio": "221b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Mark 7:15 to 7:17 without a Mark 7:16 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-07",
+      "title": "The Refrain in Mark 9 That Some Bibles Print Three Times",
+      "ranges": [
+        {
+          "start": "MRK.9.44",
+          "end": "MRK.9.44"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.9.44",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.9.43",
+          "transcriptionId": "V-B34K9V43-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-8r",
+              "n": "76-8r",
+              "archive": "BL",
+              "localFolio": "223"
+            },
+            "column": {
+              "id": "S-76-8r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-76-8r-4-24",
+              "n": "24"
+            }
+          },
+          "mainTranscription": "και εαν ϲκανδαλι\nϲη ϲε η χειρ ϲου απο\nκοψον αυτην καλο εϲτιν ϲε κυλλον ειϲελθειν ειϲ τη ζωην η ταϲ δυο χει\nραϲ εχοντα ειϲελ\nθειν ειϲ την γεεν\nναν ειϲ το πυρ το αϲβεϲτον",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ειϲελ\nθειν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "απελθειν"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ειϲ το πυρ το αϲβεϲτον"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "ειϲ το πυρ το αϲβεϲτον"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "MRK.9.45",
+          "transcriptionId": "V-B34K9V45-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-8r",
+              "n": "76-8r",
+              "archive": "BL",
+              "localFolio": "223"
+            },
+            "column": {
+              "id": "S-76-8r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-76-8r-4-34",
+              "n": "34"
+            }
+          },
+          "mainTranscription": "και εαν ο πουϲ ϲου ϲκανδαλιζει ϲε · αποκοψον αυτο · καλον εϲτιν ϲε ειϲ την ζωην ειϲελ\nθιν κυλλον · η χω\nλον · η τουϲ δυο πο\nδαϲ εχοντα · ειϲ τη γεενναν βληθη\nναι ·",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141882,
+          "sourceImageName": "GA_01_NT_0024a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141882",
+          "sinaiticusPageId": "S-76-8r",
+          "localFolio": "223"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Mark 9:43 to 9:45 without a Mark 9:44 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-08",
+      "title": "Mark 9:46, and Why the Answer Is the Same Twice",
+      "ranges": [
+        {
+          "start": "MRK.9.46",
+          "end": "MRK.9.46"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.9.46",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.9.45",
+          "transcriptionId": "V-B34K9V45-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-8r",
+              "n": "76-8r",
+              "archive": "BL",
+              "localFolio": "223"
+            },
+            "column": {
+              "id": "S-76-8r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-76-8r-4-34",
+              "n": "34"
+            }
+          },
+          "mainTranscription": "και εαν ο πουϲ ϲου ϲκανδαλιζει ϲε · αποκοψον αυτο · καλον εϲτιν ϲε ειϲ την ζωην ειϲελ\nθιν κυλλον · η χω\nλον · η τουϲ δυο πο\nδαϲ εχοντα · ειϲ τη γεενναν βληθη\nναι ·",
+          "corrections": []
+        },
+        {
+          "osis": "MRK.9.47",
+          "transcriptionId": "V-B34K9V47-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-8r",
+              "n": "76-8r",
+              "archive": "BL",
+              "localFolio": "223"
+            },
+            "column": {
+              "id": "S-76-8r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-76-8r-4-43",
+              "n": "43"
+            }
+          },
+          "mainTranscription": "και εαν ο ο\nφθαλμοϲ ϲου ϲκα\nδαλιζη ϲε εκβαλε αυτον καλον ϲε εϲτιν μονοφθαλ\nμον ειϲ την ζω\n\n κατα\n\n\n\nϲιλιαν του θυ η δυ\nο οφθαλμουϲ ε\nχοντα βληθηναι ειϲ την γεενναν",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ϲκα\nδαλιζη"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ϲκαδαλιζη"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειϲελθιν"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ζω\n\n κατα\n\n\n\nϲιλιαν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "βαϲιλιαν"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141882,
+          "sourceImageName": "GA_01_NT_0024a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141882",
+          "sinaiticusPageId": "S-76-8r",
+          "localFolio": "223"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Mark 9:45 to 9:47 without a Mark 9:46 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-09",
+      "title": "Mark 11:26 and the Warning That Is Still There",
+      "ranges": [
+        {
+          "start": "MRK.11.26",
+          "end": "MRK.11.26"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.11.26",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.11.25",
+          "transcriptionId": "V-B34K11V25-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-77-1v",
+              "n": "77-1v",
+              "archive": "BL",
+              "localFolio": "224b"
+            },
+            "column": {
+              "id": "S-77-1v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-77-1v-3-1",
+              "n": "1"
+            }
+          },
+          "mainTranscription": "και οταν ϲτητε προ\nρκϛϛϲευχομενοι αφι\nεται ει τι εχεται κατα τινοϲ ϊνα κ(αι) ο πατηρ ϋμων ο εν τοιϲ ουρανοιϲ αφη υμιν τα πα\nραπτωματα υμω",
+          "corrections": []
+        },
+        {
+          "osis": "MRK.11.27",
+          "transcriptionId": "V-B34K11V27-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-77-1v",
+              "n": "77-1v",
+              "archive": "BL",
+              "localFolio": "224b"
+            },
+            "column": {
+              "id": "S-77-1v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-77-1v-3-9",
+              "n": "9"
+            }
+          },
+          "mainTranscription": "και ερχονται παλι ϊϲ ιεροϲολυμα κ(αι) εν τω ϊερω περι\nπατουντοϲ αυτου ερχονται προϲ αυ\nτον οι αρχϊερειϲ και οι γραμματιϲ και οι πρεϲβυτεροι",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ϊϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "ειϲ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141885,
+          "sourceImageName": "GA_01_NT_0025b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141885",
+          "sinaiticusPageId": "S-77-1v",
+          "localFolio": "224b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Mark 11:25 to 11:27 without a Mark 11:26 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-10",
+      "title": "Mark 15:28 and a Prophecy Quoted Twice",
+      "ranges": [
+        {
+          "start": "MRK.15.28",
+          "end": "MRK.15.28"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.15.28",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.15.27",
+          "transcriptionId": "V-B34K15V27-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-77-4v",
+              "n": "77-4v",
+              "archive": "BL",
+              "localFolio": "227b"
+            },
+            "column": {
+              "id": "S-77-4v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-77-4v-2-11",
+              "n": "11"
+            }
+          },
+          "mainTranscription": "και ϲυν αυτω ϲταυ\nρουϲιν δυο ληϲταϲ ενα εκ δεξιων κ(αι) ενα εξ ευωνυμω αυτου",
+          "corrections": []
+        },
+        {
+          "osis": "MRK.15.29",
+          "transcriptionId": "V-B34K15V29-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-77-4v",
+              "n": "77-4v",
+              "archive": "BL",
+              "localFolio": "227b"
+            },
+            "column": {
+              "id": "S-77-4v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-77-4v-2-16",
+              "n": "16"
+            }
+          },
+          "mainTranscription": "και οι παραπορευ\nομενοι εβλαϲφη\nμουν αυτον κει\nνουντεϲ ταϲ κε\nφαλαϲ αυτων κ(αι) λεγοντεϲ · ουα · ο καταλυων τον ναον και εν τρι\nϲιν ημεραιϲ οικο\nδομων",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ουα"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "ουα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141891,
+          "sourceImageName": "GA_01_NT_0028b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141891",
+          "sinaiticusPageId": "S-77-4v",
+          "localFolio": "227b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Mark 15:27 to 15:29 without a Mark 15:28 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-11",
+      "title": "The Long Ending of Mark, and What the Brackets Mean",
+      "ranges": [
+        {
+          "start": "MRK.16.9",
+          "end": "MRK.16.20"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.16.9",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.10",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.11",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.12",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.13",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.14",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.15",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.16",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.17",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.18",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.19",
+          "status": "absent"
+        },
+        {
+          "osis": "MRK.16.20",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "MRK.16.8",
+          "transcriptionId": "V-B34K16V8-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-77-5r",
+              "n": "77-5r",
+              "archive": "BL",
+              "localFolio": "228"
+            },
+            "column": {
+              "id": "S-77-5r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-77-5r-1-44",
+              "n": "44"
+            }
+          },
+          "mainTranscription": "και εξελθουϲαι εφυγον απο > > του μνημειου · ειχεν γαρ αυταϲ τρομοϲ και εκ>\n\n\nϲταϲιϲ · και ου>\nδενι ουδεν ει>\nπον εφοβουν\nτο γαρʼ ⌇﹏",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141892,
+          "sourceImageName": "GA_01_NT_0029a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141892",
+          "sinaiticusPageId": "S-77-5r",
+          "localFolio": "228"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand Gospel of Mark ends after Mark 16:8; verses 9–20 have no verse records.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-12",
+      "title": "Luke 17:36 and a Verse the Received Text Does Not Agree On",
+      "ranges": [
+        {
+          "start": "LUK.17.36",
+          "end": "LUK.17.36"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.17.36",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "LUK.17.35",
+          "transcriptionId": "V-B35K17V35-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-2v",
+              "n": "79-2v",
+              "archive": "BL",
+              "localFolio": "241b"
+            },
+            "column": {
+              "id": "S-79-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-79-2v-2-3",
+              "n": "3"
+            }
+          },
+          "mainTranscription": "",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "A",
+                  "text": "εϲονται δυο αληθουϲαι επι το αυτο η μια παραλημφθηϲεται η δε ετερα αφεθηϲετ(αι)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "LUK.17.37",
+          "transcriptionId": "V-B35K17V37-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-2v",
+              "n": "79-2v",
+              "archive": "BL",
+              "localFolio": "241b"
+            },
+            "column": {
+              "id": "S-79-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-79-2v-2-4",
+              "n": "4"
+            }
+          },
+          "mainTranscription": "και αποκριθεντεϲ λεγουϲιν αυτω που κε ο δε ειπεν αυτοιϲ οπου το ϲω\nμα εκει και οι αε\nτοι επιϲυναχθη\nϲονται",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141919,
+          "sourceImageName": "GA_01_NT_0042b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141919",
+          "sinaiticusPageId": "S-79-2v",
+          "localFolio": "241b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Luke 17:35 to 17:37 without a Luke 17:36 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-13",
+      "title": "Luke 22:43–44: Why Your Bible Has a Footnote Here",
+      "ranges": [
+        {
+          "start": "LUK.22.43",
+          "end": "LUK.22.44"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.22.43",
+          "status": "present",
+          "transcriptionId": "V-B35K22V43-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-5v",
+              "n": "79-5v",
+              "archive": "BL",
+              "localFolio": "244b"
+            },
+            "column": {
+              "id": "S-79-5v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-79-5v-3-39",
+              "n": "39"
+            }
+          },
+          "mainTranscription": "ωφθη δε αυτω αγ\nγελοϲ απ ουρανου ενιϲχυων αυτον",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ωφθη δε αυτω αγ\nγελοϲ απ ουρανου ενιϲχυων αυτον"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "ωφθη δε αυτω αγγελοϲ απ ουρανου ενιϲχυων αυτον"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "LUK.22.44",
+          "status": "present",
+          "transcriptionId": "V-B35K22V44-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-5v",
+              "n": "79-5v",
+              "archive": "BL",
+              "localFolio": "244b"
+            },
+            "column": {
+              "id": "S-79-5v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-79-5v-3-42",
+              "n": "42"
+            }
+          },
+          "mainTranscription": "και γεναμενοϲ ε\nν αγωνια εκτενε\nϲτερον προϲηυ\nχετο και εγενετο ϊδρωϲ αυτου ωϲι θρομβοι αιματοϲ καταβαινοντοϲ ε\n\n\nπι την γην",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "και γεναμενοϲ ε\nν αγωνια εκτενε\nϲτερον προϲηυ\nχετο και εγενετο ϊδρωϲ αυτου ωϲι θρομβοι αιματοϲ καταβαινοντοϲ ε\n\n\nπι την γην"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "και γεναμενοϲ εν αγωνια εκτενεϲτερον προϲηυχετο και εγενετο ϊδρωϲ αυτου ωϲι θρομβοι αιματοϲ καταβαινοντοϲ επι την γην"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141925,
+          "sourceImageName": "GA_01_NT_0045b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141925",
+          "sinaiticusPageId": "S-79-5v",
+          "localFolio": "244b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand includes Luke 22:43–44; corrector ca marks the passage for deletion and corrector cb2 restores it.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-14",
+      "title": "Luke 23:17 and the Custom That Explains Barabbas",
+      "ranges": [
+        {
+          "start": "LUK.23.17",
+          "end": "LUK.23.17"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.23.17",
+          "status": "present",
+          "transcriptionId": "V-B35K23V17-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-6v",
+              "n": "79-6v",
+              "archive": "BL",
+              "localFolio": "245b"
+            },
+            "column": {
+              "id": "S-79-6v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-79-6v-1-14",
+              "n": "14"
+            }
+          },
+          "mainTranscription": "αναγκην δε ειχεν απολυειν αυτοιϲ κατα εορτην ινα",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ινα"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "ενα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141927,
+          "sourceImageName": "GA_01_NT_0046b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141927",
+          "sinaiticusPageId": "S-79-6v",
+          "localFolio": "245b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand includes the release-at-the-feast sentence as Luke 23:17.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-15",
+      "title": "Only Begotten God, or Only Begotten Son: John 1:18",
+      "ranges": [
+        {
+          "start": "JHN.1.18",
+          "end": "JHN.1.18"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "JHN.1.18",
+          "status": "present",
+          "transcriptionId": "V-B36K1V18-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-1r",
+              "n": "80-1r",
+              "archive": "BL",
+              "localFolio": "247"
+            },
+            "column": {
+              "id": "S-80-1r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-80-1r-2-35",
+              "n": "35"
+            }
+          },
+          "mainTranscription": "θν · ουδειϲ εωρα\nκεν πωποτε μο\nνογενηϲ θϲ ειϲ το κολπον του πα\nτροϲ εκεινοϲ εξη\nθιγηϲατο ˙",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ο"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "ο ων"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141930,
+          "sourceImageName": "GA_01_NT_0048a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141930",
+          "sinaiticusPageId": "S-80-1r",
+          "localFolio": "247"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads the nomina sacra corresponding to ‘only-begotten God’ (μονογενὴς θεός).",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-16",
+      "title": "The Angel at the Pool: John 5:3–4",
+      "ranges": [
+        {
+          "start": "JHN.5.3",
+          "end": "JHN.5.4"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "JHN.5.3",
+          "status": "present",
+          "transcriptionId": "V-B36K5V3-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-3r",
+              "n": "80-3r",
+              "archive": "BL",
+              "localFolio": "249"
+            },
+            "column": {
+              "id": "S-80-3r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-80-3r-4-34",
+              "n": "34"
+            }
+          },
+          "mainTranscription": "εν ταυταιϲ κατεκειτο πληθοϲ των αϲθενουντω τυφλων χωλων ξηρων ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "αϲθενουντω"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "αϲθενουντω"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "JHN.5.4",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "JHN.5.2",
+          "transcriptionId": "V-B36K5V2-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-3r",
+              "n": "80-3r",
+              "archive": "BL",
+              "localFolio": "249"
+            },
+            "column": {
+              "id": "S-80-3r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-80-3r-4-27",
+              "n": "27"
+            }
+          },
+          "mainTranscription": "εν\nτιν δε εν τοιϲ ϊερο\nϲολυμοιϲ προβα\nτικη κολυμβηθρα το λεγομενον ε\nβραϊϲτι βηθζαθα πεντε ϲτοαϲ ε\nχουϲα ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "εν\nτιν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "εϲτιν"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "εν τη"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "το λεγομενον"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "η επιλεγομενη"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "JHN.5.5",
+          "transcriptionId": "V-B36K5V5-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-3r",
+              "n": "80-3r",
+              "archive": "BL",
+              "localFolio": "249"
+            },
+            "column": {
+              "id": "S-80-3r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-80-3r-4-40",
+              "n": "40"
+            }
+          },
+          "mainTranscription": "ην δε τιϲ ανθρωποϲ τριακοντα και ο\nκτω ετη εχων ε τη αϲθενια αυτου ·",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141934,
+          "sourceImageName": "GA_01_NT_0050a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141934",
+          "sinaiticusPageId": "S-80-3r",
+          "localFolio": "249"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand text of John 5:3 ends with ‘withered,’ then proceeds to 5:5; the waiting clause and John 5:4 are absent.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-17",
+      "title": "The Woman Caught in Adultery: A Passage in Brackets",
+      "ranges": [
+        {
+          "start": "JHN.7.53",
+          "end": "JHN.8.11"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "JHN.7.53",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.1",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.2",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.3",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.4",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.5",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.6",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.7",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.8",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.9",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.10",
+          "status": "absent"
+        },
+        {
+          "osis": "JHN.8.11",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "JHN.7.52",
+          "transcriptionId": "V-B36K7V52-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-6r",
+              "n": "80-6r",
+              "archive": "BL",
+              "localFolio": "252"
+            },
+            "column": {
+              "id": "S-80-6r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-80-6r-1-4",
+              "n": "4"
+            }
+          },
+          "mainTranscription": "απεκριθη\nϲαν και ειπον αυτω · μη και ϲυ εκ τηϲ γαλιλαιαϲ ει · εραυ\nνηϲον και ιδε · ο\nτι προφητηϲ εκ τηϲ γαλιλαιαϲ ου\nκ εγειρεται ·",
+          "corrections": []
+        },
+        {
+          "osis": "JHN.8.12",
+          "transcriptionId": "V-B36K8V12-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-6r",
+              "n": "80-6r",
+              "archive": "BL",
+              "localFolio": "252"
+            },
+            "column": {
+              "id": "S-80-6r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-80-6r-1-11",
+              "n": "11"
+            }
+          },
+          "mainTranscription": "παλι ουν αυτοιϲ ελαλη\nϲεν ο ιϲ λεγων · ε\nγω φωϲ ειμι του κοϲμου ο ακολου\nθων εμοι · ου μη περιπατηϲη εν τη ϲκοτια αλλ εχει το φωϲ τηϲ ζωηϲ ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "παλι"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "παλι"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ιϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ιϲ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "φωϲ ειμι"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειμι το φωϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ειμι το φωϲ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "εχει"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "εξει"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141940,
+          "sourceImageName": "GA_01_NT_0053a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141940",
+          "sinaiticusPageId": "S-80-6r",
+          "localFolio": "252"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from John 7:52 to 8:12 without records for John 7:53–8:11.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-18",
+      "title": "Why Some Bibles Skip From Acts 8:36 to Acts 8:38",
+      "ranges": [
+        {
+          "start": "ACT.8.37",
+          "end": "ACT.8.37"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ACT.8.37",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "ACT.8.36",
+          "transcriptionId": "V-B51K8V36-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-87-4r",
+              "n": "87-4r",
+              "archive": "BL",
+              "localFolio": "304"
+            },
+            "column": {
+              "id": "S-87-4r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-87-4r-2-34",
+              "n": "34"
+            }
+          },
+          "mainTranscription": "ωϲ δε επορευοντο κατα την οδον ηλ\nθον επι τι υδωρ και φηϲιν ο ευνουχοϲ ϊδου ϊδωρ τι κωλυ\nει με βαπτιϲθηναι",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ϊδωρ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "υδωρ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "ACT.8.38",
+          "transcriptionId": "V-B51K8V38-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-87-4r",
+              "n": "87-4r",
+              "archive": "BL",
+              "localFolio": "304"
+            },
+            "column": {
+              "id": "S-87-4r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-87-4r-2-40",
+              "n": "40"
+            }
+          },
+          "mainTranscription": "και εκελευϲεν ϲτη\nναι το αρμα και κα\nτεβηϲαν αμφοτε\nροι ειϲ το ϋδωρ ο τε φιλιπποϲ και ο ευνουχοϲ και εβα\nπτιϲεν αυτον ·",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 142044,
+          "sourceImageName": "GA_01_NT_0105a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142044",
+          "sinaiticusPageId": "S-87-4r",
+          "localFolio": "304"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Acts 8:36 to 8:38 without an Acts 8:37 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-19",
+      "title": "Acts 15:34 and What Happened to Silas",
+      "ranges": [
+        {
+          "start": "ACT.15.34",
+          "end": "ACT.15.34"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ACT.15.34",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "ACT.15.33",
+          "transcriptionId": "V-B51K15V33-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-87-8v",
+              "n": "87-8v",
+              "archive": "BL",
+              "localFolio": "308b"
+            },
+            "column": {
+              "id": "S-87-8v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-87-8v-3-23",
+              "n": "23"
+            }
+          },
+          "mainTranscription": "ποιηϲα\nτεϲ δε χρονον απε\nλυθηϲαν μετ ειρη\nνηϲ απο των αδελ\nφων προϲ τουϲ α\nποϲτιλανταϲ εαυ\nτουϲ ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "εαυ\nτουϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "αυτουϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "corr",
+                  "text": "αυτουϲ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "ACT.15.35",
+          "transcriptionId": "V-B51K15V35-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-87-8v",
+              "n": "87-8v",
+              "archive": "BL",
+              "localFolio": "308b"
+            },
+            "column": {
+              "id": "S-87-8v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-87-8v-3-30",
+              "n": "30"
+            }
+          },
+          "mainTranscription": "παυλοϲ δε και βαρ\nναβαϲ διετριβον εν αντιοχεια δι\nδαϲκοντεϲ και ευ\nαγγελιζομενοι με\nτα και ετερων πολ\nλων τον λογον του κυ",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 142053,
+          "sourceImageName": "GA_01_NT_0109b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142053",
+          "sinaiticusPageId": "S-87-8v",
+          "localFolio": "308b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Acts 15:33 to 15:35 without an Acts 15:34 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-20",
+      "title": "Acts 24:6–8 and a Difference That Ignores the Verse Numbers",
+      "ranges": [
+        {
+          "start": "ACT.24.6",
+          "end": "ACT.24.8"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ACT.24.6",
+          "status": "present",
+          "transcriptionId": "V-B51K24V6-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-88-6r",
+              "n": "88-6r",
+              "archive": "BL",
+              "localFolio": "314"
+            },
+            "column": {
+              "id": "S-88-6r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-88-6r-4-21",
+              "n": "21"
+            }
+          },
+          "mainTranscription": "οϲ κ(αι) το ϊερον επιραϲεν βεβηλωϲαι ον και εκρατηϲαμεν",
+          "corrections": []
+        },
+        {
+          "osis": "ACT.24.7",
+          "status": "absent"
+        },
+        {
+          "osis": "ACT.24.8",
+          "status": "present",
+          "transcriptionId": "V-B51K24V8-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-88-6r",
+              "n": "88-6r",
+              "archive": "BL",
+              "localFolio": "314"
+            },
+            "column": {
+              "id": "S-88-6r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-88-6r-4-24",
+              "n": "24"
+            }
+          },
+          "mainTranscription": "πα\nρ ου δυνηϲη αυτοϲ ανακριναϲ περι παντων τουτων επιγνωναι ων η\nμειϲ κατηγορου\nμεν αυτου",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "ACT.24.5",
+          "transcriptionId": "V-B51K24V5-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-88-6r",
+              "n": "88-6r",
+              "archive": "BL",
+              "localFolio": "314"
+            },
+            "column": {
+              "id": "S-88-6r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-88-6r-4-12",
+              "n": "12"
+            }
+          },
+          "mainTranscription": "ευ\nροντεϲ γαρ τον αν\nδρα τουτον λοιμο και κινουντα ϲτα\nϲιϲ παϲι τοιϲ ϊου\nδαιοιϲ τοιϲ κατα την οικουμενη πρωτοϲτατην τε τηϲ των ναζωραι\nων ερεϲεωϲ",
+          "corrections": []
+        },
+        {
+          "osis": "ACT.24.9",
+          "transcriptionId": "V-B51K24V9-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-88-6r",
+              "n": "88-6r",
+              "archive": "BL",
+              "localFolio": "314"
+            },
+            "column": {
+              "id": "S-88-6r-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-88-6r-4-30",
+              "n": "30"
+            }
+          },
+          "mainTranscription": "ϲυνε\nπεθεντο δε και οι ϊουδαιοι φαϲκον\nτεϲ ταυτα ουτωϲ εχειν",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 142064,
+          "sourceImageName": "GA_01_NT_0115a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142064",
+          "sinaiticusPageId": "S-88-6r",
+          "localFolio": "314"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand ends Acts 24:6 after the arrest of Paul, has no 24:7 record, and resumes the shorter wording in 24:8.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-21",
+      "title": "Acts 28:29 and the Reported Reaction",
+      "ranges": [
+        {
+          "start": "ACT.28.29",
+          "end": "ACT.28.29"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ACT.28.29",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "ACT.28.28",
+          "transcriptionId": "V-B51K28V28-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-89-1r",
+              "n": "89-1r",
+              "archive": "BL",
+              "localFolio": "317"
+            },
+            "column": {
+              "id": "S-89-1r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-89-1r-2-42",
+              "n": "42"
+            }
+          },
+          "mainTranscription": "γνωϲτον ουν εϲτω ϋμιν οτι τοιϲ εθνε\nϲιν απεϲταλη του\nτο το ϲωτηριον του θυ αυτοι και ακουϲο\nται ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "του\nτο"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "ACT.28.30",
+          "transcriptionId": "V-B51K28V30-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-89-1r",
+              "n": "89-1r",
+              "archive": "BL",
+              "localFolio": "317"
+            },
+            "column": {
+              "id": "S-89-1r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-89-1r-2-47",
+              "n": "47"
+            }
+          },
+          "mainTranscription": "ενεμιναν δε διαιτιαν ολην εν ϊ\n\n\nδιω μιϲθωματι και απεδεχετο πα\nταϲ τουϲ ειϲπορευο\nμενουϲ προϲ αυτο",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ενεμιναν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "ενεμινεν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "εμινεν"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "διαιτιαν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "διετιαν"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 142070,
+          "sourceImageName": "GA_01_NT_0118a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142070",
+          "sinaiticusPageId": "S-89-1r",
+          "localFolio": "317"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Acts 28:28 to 28:30 without an Acts 28:29 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-22",
+      "title": "One Letter in Romans 5:1: Have Peace, or Let Us Have Peace",
+      "ranges": [
+        {
+          "start": "ROM.5.1",
+          "end": "ROM.5.1"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ROM.5.1",
+          "status": "present",
+          "transcriptionId": "V-B37K5V1-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-2v",
+              "n": "82-2v",
+              "archive": "BL",
+              "localFolio": "262b"
+            },
+            "column": {
+              "id": "S-82-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-82-2v-2-38",
+              "n": "38"
+            }
+          },
+          "mainTranscription": "δικαιωθεντεϲ ου εκ πιϲτεωϲ · ειρη\nνην εχωμεν προϲ τον θν δια του κυ ημων ιυ χυ ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "εχωμεν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "εχομεν"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141961,
+          "sourceImageName": "GA_01_NT_0063b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141961",
+          "sinaiticusPageId": "S-82-2v",
+          "localFolio": "262b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads ἔχωμεν (‘let us have’); corrector S1 changes it to ἔχομεν (‘we have’).",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-23",
+      "title": "Romans 16:24 and a Blessing Given Twice",
+      "ranges": [
+        {
+          "start": "ROM.16.24",
+          "end": "ROM.16.24"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ROM.16.24",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "ROM.16.23",
+          "transcriptionId": "V-B37K16V23-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-7v",
+              "n": "82-7v",
+              "archive": "BL",
+              "localFolio": "267b"
+            },
+            "column": {
+              "id": "S-82-7v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-82-7v-1-27",
+              "n": "27"
+            }
+          },
+          "mainTranscription": "αϲπαζεται υμαϲ γα\nϊοϲ ο ξενοϲ μου κ(αι) οληϲ τηϲ εκκληϲι\nαϲ αϲπαζετε υμαϲ ερα\nϲτοϲ ο οικονομοϲ τηϲ πολεωϲ και κου\nαρτοϲ ο αδελφοϲ",
+          "corrections": []
+        },
+        {
+          "osis": "ROM.16.25",
+          "transcriptionId": "V-B37K16V25-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-7v",
+              "n": "82-7v",
+              "archive": "BL",
+              "localFolio": "267b"
+            },
+            "column": {
+              "id": "S-82-7v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-82-7v-1-35",
+              "n": "35"
+            }
+          },
+          "mainTranscription": "τω δε δυναμενω ϋμαϲ ϲτηριξαι κα\nτα το ευαγγελιον μου και κυ ιυ χυ κατα αποκαλυψι μυϲτηριου χρο\nνοιϲ αιωνιοιϲ ϲεϲιγημενου",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "κυ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "το κηρυγμα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141971,
+          "sourceImageName": "GA_01_NT_0068b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141971",
+          "sinaiticusPageId": "S-82-7v",
+          "localFolio": "267b"
+        }
+      ],
+      "proposedCaptionClaim": "The transcription proceeds from Romans 16:23 to 16:25 without a Romans 16:24 verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-24",
+      "title": "Romans 16:25–27: The Same Ending in Two Places",
+      "ranges": [
+        {
+          "start": "ROM.16.25",
+          "end": "ROM.16.27"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ROM.16.25",
+          "status": "present",
+          "transcriptionId": "V-B37K16V25-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-7v",
+              "n": "82-7v",
+              "archive": "BL",
+              "localFolio": "267b"
+            },
+            "column": {
+              "id": "S-82-7v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-82-7v-1-35",
+              "n": "35"
+            }
+          },
+          "mainTranscription": "τω δε δυναμενω ϋμαϲ ϲτηριξαι κα\nτα το ευαγγελιον μου και κυ ιυ χυ κατα αποκαλυψι μυϲτηριου χρο\nνοιϲ αιωνιοιϲ ϲεϲιγημενου",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "κυ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "το κηρυγμα"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "ROM.16.26",
+          "status": "present",
+          "transcriptionId": "V-B37K16V26-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-7v",
+              "n": "82-7v",
+              "archive": "BL",
+              "localFolio": "267b"
+            },
+            "column": {
+              "id": "S-82-7v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-82-7v-1-42",
+              "n": "42"
+            }
+          },
+          "mainTranscription": "φα\nνερωθεντοϲ δε νυν δια τε γραφω προφητικων κα\nτ επιταγην του αι\nωνιου θυ ειϲ υπα\nκοην πιϲτεωϲ ειϲ παντα τα εθνη γνωριϲθεντοϲ",
+          "corrections": []
+        },
+        {
+          "osis": "ROM.16.27",
+          "status": "present",
+          "transcriptionId": "V-B37K16V27-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-7v",
+              "n": "82-7v",
+              "archive": "BL",
+              "localFolio": "267b"
+            },
+            "column": {
+              "id": "S-82-7v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-82-7v-2-3",
+              "n": "3"
+            }
+          },
+          "mainTranscription": "μονω ϲοφω θω δια ιυ χυ ω η δοξα ειϲ τουϲ αιωναϲ τω αιωνων αμην · ⌇﹏",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141971,
+          "sourceImageName": "GA_01_NT_0068b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141971",
+          "sinaiticusPageId": "S-82-7v",
+          "localFolio": "267b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand places the doxology in Romans 16:25–27 at the end of Romans.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-25",
+      "title": "Boast or Burn: One Word in 1 Corinthians 13:3",
+      "ranges": [
+        {
+          "start": "1CO.13.3",
+          "end": "1CO.13.3"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "1CO.13.3",
+          "status": "present",
+          "transcriptionId": "V-B38K13V3-38-1COR",
+          "start": {
+            "page": {
+              "id": "S-83-4r",
+              "n": "83-4r",
+              "archive": "BL",
+              "localFolio": "272"
+            },
+            "column": {
+              "id": "S-83-4r-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-83-4r-3-7",
+              "n": "7"
+            }
+          },
+          "mainTranscription": "και εαν ψωμιϲω παντα τα ϋπαρχο\nτα μου και εαν πα\nραδω το ϲωμα μου ϊνα καυχηϲωμαι αγαπην δε μη ε\nχω ουθεν ωφελου\nμαι",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141980,
+          "sourceImageName": "GA_01_NT_0073a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141980",
+          "sinaiticusPageId": "S-83-4r",
+          "localFolio": "272"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads καυχήσωμαι (‘that I may boast’), not the ‘burned’ reading.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-26",
+      "title": "God Appeared, or He Appeared: 1 Timothy 3:16",
+      "ranges": [
+        {
+          "start": "1TI.3.16",
+          "end": "1TI.3.16"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "1TI.3.16",
+          "status": "present",
+          "transcriptionId": "V-B47K3V16-47-1TIM",
+          "start": {
+            "page": {
+              "id": "S-86-2v",
+              "n": "86-2v",
+              "archive": "BL",
+              "localFolio": "294b"
+            },
+            "column": {
+              "id": "S-86-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-86-2v-2-47",
+              "n": "47"
+            }
+          },
+          "mainTranscription": "και ομολογουμε\nνωϲ μεγα εϲτιν το τηϲ ευϲεβειαϲ μυϲτηριον οϲ ε\nφανερωθη εν ϲαρ\nκι · εδικαιωθη εν πνι ωφθη αγγελοιϲ εκηρυχθη εν ε\nθνεϲιν επιϲτευ\nθη εν κοϲμω · ανελημφθη εν δοξη",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "οϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "e",
+                  "text": "θεὸϲ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142025,
+          "sourceImageName": "GA_01_NT_0095b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142025",
+          "sinaiticusPageId": "S-86-2v",
+          "localFolio": "294b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads ος (‘who’); corrector e changes it to θεός (‘God’).",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-27",
+      "title": "The Three Heavenly Witnesses: 1 John 5:7–8",
+      "ranges": [
+        {
+          "start": "1JN.5.7",
+          "end": "1JN.5.8"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "1JN.5.7",
+          "status": "present",
+          "transcriptionId": "V-B55K5V7-55-1JOHN",
+          "start": {
+            "page": {
+              "id": "S-89-8r",
+              "n": "89-8r",
+              "archive": "BL",
+              "localFolio": "324"
+            },
+            "column": {
+              "id": "S-89-8r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-89-8r-1-13",
+              "n": "13"
+            }
+          },
+          "mainTranscription": "οτι οι τρειϲ ει\nϲιν οι μαρτυρου\nτεϲ",
+          "corrections": []
+        },
+        {
+          "osis": "1JN.5.8",
+          "status": "present",
+          "transcriptionId": "V-B55K5V8-55-1JOHN",
+          "start": {
+            "page": {
+              "id": "S-89-8r",
+              "n": "89-8r",
+              "archive": "BL",
+              "localFolio": "324"
+            },
+            "column": {
+              "id": "S-89-8r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-89-8r-1-15",
+              "n": "15"
+            }
+          },
+          "mainTranscription": "το πνα και το ϋ\nδωρ και το αιμα και οι τρειϲ ειϲ το εν ειϲιν",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142084,
+          "sourceImageName": "GA_01_NT_0125a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142084",
+          "sinaiticusPageId": "S-89-8r",
+          "localFolio": "324"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand names the Spirit, water, and blood and has no heavenly-witness expansion.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-28",
+      "title": "Tree or Book: The Warning at the End of Revelation",
+      "ranges": [
+        {
+          "start": "REV.22.19",
+          "end": "REV.22.19"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "REV.22.19",
+          "status": "present",
+          "transcriptionId": "V-B59K22V19-59-REV",
+          "start": {
+            "page": {
+              "id": "S-91-1v",
+              "n": "91-1v",
+              "archive": "BL",
+              "localFolio": "333b"
+            },
+            "column": {
+              "id": "S-91-1v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-91-1v-4-43",
+              "n": "43"
+            }
+          },
+          "mainTranscription": "και αν τιϲ α\nφελη απο των λο\nγων τουτων του βιβλιου τηϲ προ\nφητιαϲ ταυτηϲ α\nφελι ο θϲ το μεροϲ αυτου απο του ξυ\nλου τηϲ ζωηϲ και εκ τηϲ πολεωϲ τηϲ αγιαϲ των γε\nγραμμενων εν τω βιβλιω τουτω",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142103,
+          "sourceImageName": "GA_01_NT_0134b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142103",
+          "sinaiticusPageId": "S-91-1v",
+          "localFolio": "333b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads ξύλου τῆς ζωῆς (‘tree of life’), not ‘book of life.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-29",
+      "title": "Why 2 Corinthians Ends at Verse 13 in Some Bibles",
+      "ranges": [
+        {
+          "start": "2CO.13.12",
+          "end": "2CO.13.14"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "2CO.13.12",
+          "status": "present",
+          "transcriptionId": "V-B39K13V12-39-2COR",
+          "start": {
+            "page": {
+              "id": "S-84-2v",
+              "n": "84-2v",
+              "archive": "BL",
+              "localFolio": "278b"
+            },
+            "column": {
+              "id": "S-84-2v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-84-2v-1-45",
+              "n": "45"
+            }
+          },
+          "mainTranscription": "αϲπαϲαϲθε αλλη\nλουϲ εν αγιω φι\nληματι αϲπαζονται ϋμαϲ οι αγιοι παντεϲ",
+          "corrections": []
+        },
+        {
+          "osis": "2CO.13.13",
+          "status": "present",
+          "transcriptionId": "V-B39K13V13-39-2COR",
+          "start": {
+            "page": {
+              "id": "S-84-2v",
+              "n": "84-2v",
+              "archive": "BL",
+              "localFolio": "278b"
+            },
+            "column": {
+              "id": "S-84-2v-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-84-2v-2-2",
+              "n": "2"
+            }
+          },
+          "mainTranscription": "η χαριϲ του κυ ιυ χυ και η αγαπη του θυ και η κοινωνι\nα του αγιου πνϲ με\nτα παντων υμων ⌇﹏",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "αμη :"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "2CO.13.14",
+          "status": "absent"
+        }
+      ],
+      "contextVerses": [
+        {
+          "osis": "2CO.13.11",
+          "transcriptionId": "V-B39K13V11-39-2COR",
+          "start": {
+            "page": {
+              "id": "S-84-2v",
+              "n": "84-2v",
+              "archive": "BL",
+              "localFolio": "278b"
+            },
+            "column": {
+              "id": "S-84-2v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-84-2v-1-37",
+              "n": "37"
+            }
+          },
+          "mainTranscription": "λοιπον αδελφοι χαιρετε καταρτιζε\nϲθαι παρακαλειϲ\nθε το αυτο φρονει\nτε ϊρηνευετε και ο θϲ τηϲ αγαπηϲ και ιρηνηϲ εϲται με\nθ υμων",
+          "corrections": []
+        }
+      ],
+      "pages": [
+        {
+          "sourceImageId": 141993,
+          "sourceImageName": "GA_01_NT_0079b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141993",
+          "sinaiticusPageId": "S-84-2v",
+          "localFolio": "278b"
+        }
+      ],
+      "proposedCaptionClaim": "The Codex Sinaiticus Project transcription assigns the greetings to 13:12 and the final blessing to 13:13; it has no 13:14 record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-30",
+      "title": "Does 3 John Have Fourteen Verses or Fifteen?",
+      "ranges": [
+        {
+          "start": "3JN.1.14",
+          "end": "3JN.1.15"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "3JN.1.14",
+          "status": "present",
+          "transcriptionId": "V-B57K1V14-57-3JOHN",
+          "start": {
+            "page": {
+              "id": "S-89-8v",
+              "n": "89-8v",
+              "archive": "BL",
+              "localFolio": "324b"
+            },
+            "column": {
+              "id": "S-89-8v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-89-8v-3-31",
+              "n": "31"
+            }
+          },
+          "mainTranscription": "ελπιζω δε ευθε\nωϲ ϊδειν ϲε και ϲτομα προϲ ϲτο\nμα λαληϲαμεν",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "λαληϲαμεν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "λαληϲομεν"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "3JN.1.15",
+          "status": "present",
+          "transcriptionId": "V-B57K1V15-57-3JOHN",
+          "start": {
+            "page": {
+              "id": "S-89-8v",
+              "n": "89-8v",
+              "archive": "BL",
+              "localFolio": "324b"
+            },
+            "column": {
+              "id": "S-89-8v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-89-8v-3-35",
+              "n": "35"
+            }
+          },
+          "mainTranscription": "ειρηνη ϲοι αϲπα\nζονται ϲε οι φιλοι αϲπαϲαι τουϲ φι\nλουϲ κατ ονο\nμα ⌇﹏",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142085,
+          "sourceImageName": "GA_01_NT_0125b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142085",
+          "sinaiticusPageId": "S-89-8v",
+          "localFolio": "324b"
+        }
+      ],
+      "proposedCaptionClaim": "The Codex Sinaiticus Project transcription divides the closing sentences between 3 John 14 and 15.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-31",
+      "title": "Isaiah the Prophet, or the Prophets? Mark 1:2",
+      "ranges": [
+        {
+          "start": "MRK.1.2",
+          "end": "MRK.1.2"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MRK.1.2",
+          "status": "present",
+          "transcriptionId": "V-B34K1V2-34-MARK",
+          "start": {
+            "page": {
+              "id": "S-76-2v",
+              "n": "76-2v",
+              "archive": "BL",
+              "localFolio": "217b"
+            },
+            "column": {
+              "id": "S-76-2v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-76-2v-1-2",
+              "n": "2"
+            }
+          },
+          "mainTranscription": "καθωϲ γε\nγραπται εν τω ηϲα\nϊα τω προφητη ϊδου εγω αποϲτε\nλω τον αγγελον μου προ προϲωπου ϲου οϲ καταϲκευαϲει την οδον ϲου",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141871,
+          "sourceImageName": "GA_01_NT_0018b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141871",
+          "sinaiticusPageId": "S-76-2v",
+          "localFolio": "217b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads ‘in Isaiah the prophet,’ not ‘in the prophets.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-32",
+      "title": "The Church of God—or of the Lord and God? Acts 20:28",
+      "ranges": [
+        {
+          "start": "ACT.20.28",
+          "end": "ACT.20.28"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ACT.20.28",
+          "status": "present",
+          "transcriptionId": "V-B51K20V28-51-ACTS",
+          "start": {
+            "page": {
+              "id": "S-88-4r",
+              "n": "88-4r",
+              "archive": "BL",
+              "localFolio": "312"
+            },
+            "column": {
+              "id": "S-88-4r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-88-4r-1-33",
+              "n": "33"
+            }
+          },
+          "mainTranscription": "προϲεχετε εαυτοιϲ και παντι τω ποι\nμνιω εν ω ϋμαϲ το πνα το αγιον εθε\nτο επιϲκοπουϲ ποι\nμενιν την εκκλη\nϲιαν του θυ ην πε\nριεποιηϲατο δια του αιματοϲ του ϊ\nδιου",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142060,
+          "sourceImageName": "GA_01_NT_0113a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142060",
+          "sinaiticusPageId": "S-88-4r",
+          "localFolio": "312"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads ‘the church of God,’ not ‘the church of the Lord and God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-33",
+      "title": "No Condemnation: Where Does Romans 8:1 End?",
+      "ranges": [
+        {
+          "start": "ROM.8.1",
+          "end": "ROM.8.1"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "ROM.8.1",
+          "status": "present",
+          "transcriptionId": "V-B37K8V1-37-ROM",
+          "start": {
+            "page": {
+              "id": "S-82-3v",
+              "n": "82-3v",
+              "archive": "BL",
+              "localFolio": "263b"
+            },
+            "column": {
+              "id": "S-82-3v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-82-3v-4-21",
+              "n": "21"
+            }
+          },
+          "mainTranscription": "ουδεν αρα νυν κα\nτακριμα τοιϲ εν χω ιυ",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "μη κατα ϲαρκα περιπατουϲιν αλλα κατα πνα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141963,
+          "sourceImageName": "GA_01_NT_0064b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141963",
+          "sinaiticusPageId": "S-82-3v",
+          "localFolio": "263b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand ends Romans 8:1 after ‘Christ Jesus’; corrector ca adds the longer walking clause.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-34",
+      "title": "Who Saved Israel from Egypt? Jude 5",
+      "ranges": [
+        {
+          "start": "JUD.1.5",
+          "end": "JUD.1.5"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "JUD.1.5",
+          "status": "present",
+          "transcriptionId": "V-B58K1V5-58-JUDE",
+          "start": {
+            "page": {
+              "id": "S-89-8v",
+              "n": "89-8v",
+              "archive": "BL",
+              "localFolio": "324b"
+            },
+            "column": {
+              "id": "S-89-8v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-89-8v-4-34",
+              "n": "34"
+            }
+          },
+          "mainTranscription": "ϋπομνηϲαι δε ϋμαϲ βουλο\nμαι ειδοταϲ ϋ\nμαϲ παντα οτι κϲ απαξ λαον εκ γηϲ αιγυπτου ϲω\nϲαϲ το δευτερον τουϲ μη πιϲτευ\nϲανταϲ απωλεϲε",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142085,
+          "sourceImageName": "GA_01_NT_0125b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142085",
+          "sinaiticusPageId": "S-89-8v",
+          "localFolio": "324b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand uses the nomen sacrum for κύριος (‘Lord’), not the explicit name ‘Jesus.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-35",
+      "title": "What Happens to the Earth? 2 Peter 3:10",
+      "ranges": [
+        {
+          "start": "2PE.3.10",
+          "end": "2PE.3.10"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "2PE.3.10",
+          "status": "present",
+          "transcriptionId": "V-B54K3V10-54-2PET",
+          "start": {
+            "page": {
+              "id": "S-89-6r",
+              "n": "89-6r",
+              "archive": "BL",
+              "localFolio": "322"
+            },
+            "column": {
+              "id": "S-89-6r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-89-6r-2-4",
+              "n": "4"
+            }
+          },
+          "mainTranscription": "ηξει δε η ημερα κυ ωϲ κλεπτηϲ εν η ουρανοι μεν ρυζηδον παρελευϲο\nται ϲτοιχεια δε καυ\nϲουμενα λυθηϲε\nται γη και τα εν αυ\nτη εργα ευρεθηϲε\nται",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142080,
+          "sourceImageName": "GA_01_NT_0123a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142080",
+          "sinaiticusPageId": "S-89-6r",
+          "localFolio": "322"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads εὑρεθήσεται (‘will be found’) of the earth and its works, not ‘will be burned up.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-36",
+      "title": "Angry Without Cause? Matthew 5:22",
+      "ranges": [
+        {
+          "start": "MAT.5.22",
+          "end": "MAT.5.22"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.5.22",
+          "status": "present",
+          "transcriptionId": "V-B33K5V22-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-74-2v",
+              "n": "74-2v",
+              "archive": "BL",
+              "localFolio": "201b"
+            },
+            "column": {
+              "id": "S-74-2v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-74-2v-4-39",
+              "n": "39"
+            }
+          },
+          "mainTranscription": "εγω δε λεγω ‾̷‾ ϋμιν οτι πᾶϲ ὁ ορ\nγιζομενοϲ τω αδελφω ἁυτου ενοχοϲ εϲτε τη κριϲει · οϲ δ αν εί\nπη τω αδελφω ἁυτου ραχα ενο\nχοϲ εϲται τω ϲυ\nνεδριω ˙ ὁϲ δʼ αν ειπη μωρε ενο\nχοϲ εϲτε ειϲ την γεενʼναν του πυ\nροϲ · ‾̷‾",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "οτι"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "εικη"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ραχα"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "ρακα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141839,
+          "sourceImageName": "GA_01_NT_0002b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141839",
+          "sinaiticusPageId": "S-74-2v",
+          "localFolio": "201b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand lacks εἰκῇ (‘without cause’); corrector cb2 supplies it.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-37",
+      "title": "Luke’s Shorter Lord’s Prayer: Luke 11:2–4",
+      "ranges": [
+        {
+          "start": "LUK.11.2",
+          "end": "LUK.11.4"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.11.2",
+          "status": "present",
+          "transcriptionId": "V-B35K11V2-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-78-5v",
+              "n": "78-5v",
+              "archive": "BL",
+              "localFolio": "236b"
+            },
+            "column": {
+              "id": "S-78-5v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-78-5v-4-17",
+              "n": "17"
+            }
+          },
+          "mainTranscription": "ειπεν δε αυτοιϲ ο\nταν προϲευχηϲθε λεγετε · πατερ αγιαϲθητω το ονομα ϲου · ελθατω η βαϲιλι\nα ϲου · γενηθητω το θελημα ϲου ωϲ εν ουρανω ουτω και επι γηϲ",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ουτω"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "τηϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "κ(αι) ρυϲαι ημαϲ απο του πονηρου"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "LUK.11.3",
+          "status": "present",
+          "transcriptionId": "V-B35K11V3-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-78-5v",
+              "n": "78-5v",
+              "archive": "BL",
+              "localFolio": "236b"
+            },
+            "column": {
+              "id": "S-78-5v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-78-5v-4-26",
+              "n": "26"
+            }
+          },
+          "mainTranscription": "τον αρτον ημων τον επιουϲιον δοϲ η\nμιν καθ ημεραν",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "το"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "osis": "LUK.11.4",
+          "status": "present",
+          "transcriptionId": "V-B35K11V4-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-78-5v",
+              "n": "78-5v",
+              "archive": "BL",
+              "localFolio": "236b"
+            },
+            "column": {
+              "id": "S-78-5v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-78-5v-4-30",
+              "n": "30"
+            }
+          },
+          "mainTranscription": "και αφεϲ ημιν ταϲ αμαρτιαϲ ημων ωϲ και αυτοι αφιε\nμεν παντι οφι\nλοντι ημιν και μη ειϲενεγκηϲ ημαϲ ειϲ πιραϲμο",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ωϲ και"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "και γαρ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "αφιε\nμεν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "αφιο̣μεν"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "αλλα ρυϲ(αι) ημαϲ απο τ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141909,
+          "sourceImageName": "GA_01_NT_0037b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141909",
+          "sinaiticusPageId": "S-78-5v",
+          "localFolio": "236b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand lacks ‘our Father in heaven’ but includes the ‘your will be done’ petition; corrector ca supplies a form of ‘deliver us from evil.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-38",
+      "title": "Father, Forgive Them: The Footnote at Luke 23:34",
+      "ranges": [
+        {
+          "start": "LUK.23.34",
+          "end": "LUK.23.34"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.23.34",
+          "status": "present",
+          "transcriptionId": "V-B35K23V34-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-6v",
+              "n": "79-6v",
+              "archive": "BL",
+              "localFolio": "245b"
+            },
+            "column": {
+              "id": "S-79-6v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-79-6v-3-10",
+              "n": "10"
+            }
+          },
+          "mainTranscription": "ο δε ιϲ ελεγεν πατερ αφεϲ αυτοιϲ ου γαρ οιδαϲιν τι ποιου\nϲιν διαμεριζομενοι δε τα ϊματια αυτου εβαλον κληρον",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "ο δε ιϲ ελεγεν πατερ αφεϲ αυτοιϲ ου γαρ οιδαϲιν τι ποιου\nϲιν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "ο δε ιϲ ελεγεν πατερ αφεϲ αυτοιϲ ου γαρ οιδαϲιν τι ποιουϲιν"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141927,
+          "sourceImageName": "GA_01_NT_0046b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141927",
+          "sinaiticusPageId": "S-79-6v",
+          "localFolio": "245b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand includes ‘Father, forgive them’; corrector ca marks the saying for deletion and corrector cb2 restores it.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-39",
+      "title": "Gentle or Little Children? The Footnote at 1 Thessalonians 2:7",
+      "ranges": [
+        {
+          "start": "1TH.2.7",
+          "end": "1TH.2.7"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "1TH.2.7",
+          "status": "present",
+          "transcriptionId": "V-B44K2V7-44-1THESS",
+          "start": {
+            "page": {
+              "id": "S-85-2v",
+              "n": "85-2v",
+              "archive": "BL",
+              "localFolio": "286v"
+            },
+            "column": {
+              "id": "S-85-2v-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-85-2v-3-22",
+              "n": "22"
+            }
+          },
+          "mainTranscription": "δυναμενοι εν βα\nρει ειναι ωϲ χυ α\nποϲτολοι αλλα εγενηθημε νηπιοι εν μεϲω ϋμων ωϲ αν τρο\nφοϲ θαλπη τα εαυ\nτηϲ τεκνα",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "νηπιοι"
+                },
+                {
+                  "type": "corr",
+                  "hand": "corr",
+                  "text": "ηπιοι"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "αν"
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "εαν"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142009,
+          "sourceImageName": "GA_01_NT_0087b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142009",
+          "sinaiticusPageId": "S-85-2v",
+          "localFolio": "286v"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads νήπιοι (‘infants/little children’); a correction changes it to ἤπιοι (‘gentle’).",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    }
+  ]
+}

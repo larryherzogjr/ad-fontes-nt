@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile, readdir } from 'node:fs/promises';
+import { readFile, readdir, stat } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { join, resolve } from 'node:path';
 import { createLocalAdapter, editions } from '../app/lib/domain/corpus.ts';
@@ -10,6 +10,11 @@ import { resolveLookup } from '../app/lib/domain/lexical.ts';
 import { desktopStartPath } from '../app/desktop/navigation.ts';
 
 const om = JSON.parse(await readFile('app/lib/domain/om-release.json', 'utf8'));
+const visuals = JSON.parse(await readFile('app/lib/domain/visual-release.json', 'utf8'));
+const visualSelections = [
+  { releaseId: visuals.releaseId, candidateSha256: visuals.candidateSha256 },
+  ...visuals.supplements,
+];
 const assets = resolve('app/desktop/dist');
 const json = async (path: string) => JSON.parse(await readFile(join(assets, path), 'utf8'));
 
@@ -25,7 +30,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.9');
+  assert.equal(config.version, '1.0.0-rc.10');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -82,7 +87,7 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.editions.length, 7);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library)\//);
+    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals)\//);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -92,12 +97,27 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(library.comparisonCount, 39);
   assert.equal(library.articleCount, 250);
   assert.equal(library.lemmaCount, 5400);
+  assert.deepEqual(manifest.visuals, visualSelections);
+  for (const visual of visualSelections) {
+    const plateRegistry = await json(`visuals/${visual.releaseId}/registry.json`);
+    assert.equal(plateRegistry.status, 'approved');
+    assert.equal(plateRegistry.editorialReview.candidateSha256, visual.candidateSha256);
+    for (const plate of Object.values(plateRegistry.plates) as any[]) for (const image of plate.images) {
+      assert.match(image.asset, new RegExp(`^/visuals/${visual.releaseId}/assets/`));
+      await stat(join(assets, image.asset.slice(1)));
+    }
+  }
+  const originalRegistry = await json(`visuals/${visuals.releaseId}/registry.json`);
+  assert.deepEqual(Object.keys(originalRegistry.plates), ['candidate-11', 'candidate-17', 'candidate-26', 'candidate-27']);
+  const supplement = await json(`visuals/${visuals.supplements[0].releaseId}/registry.json`);
+  assert.equal(Object.keys(supplement.plates).length, 39);
+  assert.equal((await readdir(join(assets, 'visuals', visuals.supplements[0].releaseId, 'assets'))).length, 33);
   for (const file of await readdir(join(assets, 'assets'))) {
     if (file.endsWith('.js')) assert.doesNotMatch(await readFile(join(assets, 'assets', file), 'utf8'), /\/api\/(account|notes)/);
   }
 });
 
-test('the shared macOS and Windows reader bundle includes copy with reference', async () => {
+test('the shared macOS and Windows reader bundle includes reader controls and edition summaries', async () => {
   const scripts = await readdir(join(assets, 'assets'));
   const javascript = (
     await Promise.all(
@@ -113,6 +133,12 @@ test('the shared macOS and Windows reader bundle includes copy with reference', 
   assert.match(javascript, /Clipboard copy was unavailable\./);
   assert.match(javascript, /Berean Standard Bible/);
   assert.match(javascript, /Young’s Literal Translation \(1898\)/);
+  assert.match(javascript, /Edition summary/);
+  assert.match(javascript, /Omits reading/);
+  assert.match(javascript, /Edition agreement is not manuscript evidence/);
+  assert.match(javascript, /Manuscript evidence plate/);
+  assert.match(javascript, /cannot establish/);
+  assert.match(javascript, /complete artifact view/);
 });
 
 test('all editions and search operate using only packaged files; missing data stays unavailable', async () => {
