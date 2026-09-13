@@ -6,7 +6,7 @@ Owner decisions recorded September 10, 2026. This is the controlling M5 readines
 
 Larry Herzog Jr. subsequently stated, **“Those tasks in M5 HAVE all been completed to my satisfaction.”** AFNT-026–029 and the defined MVP are therefore accepted. The checklist below is retained as the pre-acceptance gate ledger; unchecked boxes no longer indicate an unaccepted milestone, and the underlying records remain authoritative about which evidence was agent-observed, user-reported, partial, or completed through a later release candidate. See [M5 and MVP acceptance](M5-Acceptance.md).
 
-This acceptance did not itself approve new release bytes. RC12 was subsequently approved, published and independently verified as the current immutable release candidate. RC13 is a separately prepared successor correction; its corrected source, native artifacts and updater manifest are approved, while the artifact-pin commit, publication, deployment and independent live verification remain separate gates.
+This acceptance did not itself approve new release bytes. RC13 was subsequently approved, published and independently verified as the current immutable release candidate; RC12 remains the immutable rollback release. The separate final-v1.0 promotion and 48-hour soft-launch completion remain distinct decisions.
 
 ## Frozen release scope
 

@@ -2,7 +2,7 @@
 
 Date: 2026-09-13
 
-Status: corrected successor source and signed artifacts approved; artifact-pin publication gate prepared; RC12 remains published
+Status: corrected successor published and independently verified; RC12 remains immutable as rollback
 
 ## Scope
 
@@ -160,11 +160,52 @@ Larry approved that exact corrected manifest and the associated signed
 artifacts. This approval does not revive or authorize any superseded RC13
 artifact listed above.
 
-## Remaining gates
+## Publication approval and deployment
 
-The artifact-pin commit, publication of the corrected updater payloads and
-public installers, coordinated web deployment, and independent live
-verification remain separate gates.
+Larry approved exact artifact-pin commit
+`df52e302f54bd35fe4c80bb65598002921826281` and explicitly authorized
+publication of the corrected updater payloads, public installers and
+coordinated web application. The commit was pushed to private `main`, and the
+remote branch independently resolved to the same hash before the host
+fast-forwarded to it.
 
-Until those gates pass, the public Downloads page, stable updater manifest,
-hosted web application and published desktop packages remain RC12.
+The host verified its clean `main` checkout and every staged checksum, then
+published the immutable updater release, stable manifest and both public
+installers. It rebuilt the web application from the same commit; both
+containers became healthy and `/api/health` returned `{"ok":true}`. The
+deployment retained backup
+`backups/adfontes-before-update-20260913T113244Z.dump`.
+
+## Independent live verification
+
+- A fresh HTTPS download of `stable/latest.json` reproduced approved SHA-256
+  `ad0305581151a4b4691003f4149ea44f529b015841cf7df22e0ed101d9546eb6`,
+  identified only `1.0.0-rc.13`, carried the approved publication date and
+  release note, and returned `Cache-Control: no-store`.
+- Fresh full HTTPS downloads reproduced macOS updater SHA-256
+  `d304b88e9e44069faaddb240426dc86245b3d8fad6042fcd7b59444b6c2ff4d4`,
+  Windows updater and public-installer SHA-256
+  `075f53ebf4dbbbe46f48c96f27f83a0d4e8aa9af91d6834cb3c057dcef9b0240`,
+  and public DMG SHA-256
+  `8712ab085fb4b2221633cc69706bd3809c56dab033a447b75fc2e2b128c13201`.
+  The Windows bytes were identical at the updater and public-download URLs.
+- Versioned updater responses used `public, max-age=31536000, immutable`.
+  Installer and updater responses supplied attachment, noindex/security and
+  byte-range headers. Both release-directory listings returned 403, and an
+  unknown updater path returned 404.
+- The live Downloads page displayed RC13 and the exact versioned macOS and
+  Windows links. The Library displayed 104 textual comparisons, 250 Greek word
+  studies and 5,400 lexicon entries.
+- Starting in the Library, opening Mark 11:26 displayed both
+  `← Browse Textual Comparisons` and Close. The return link reached `/library`;
+  Close removed the panel parameters while retaining Mark 11 and its selected
+  passage. A Revelation 13:18 publisher-note comparison also displayed the
+  return link, while John 1:1 Greek exploration did not.
+- At an exact 390×844 viewport, both return and Close controls were visible and
+  the document width was exactly 390 pixels with no horizontal overflow. The
+  checked production pages reported no browser-console warning or error.
+
+RC13 is the current published web and desktop release. RC12 remains intact as
+the immutable rollback release. The first, stale-label RC13 artifacts listed
+above remain superseded and must never be published. Final v1.0 promotion and
+completion of the 48-hour soft launch remain separate gates.
