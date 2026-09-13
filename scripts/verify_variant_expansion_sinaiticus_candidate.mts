@@ -4,6 +4,12 @@ import { join } from 'node:path';
 import { reviewPayload } from '../app/lib/domain/variants.ts';
 
 const root = join('sources', 'visuals', 'csntm-sinaiticus-expansion-2026-09-13-v2');
+const promotedInputAliases = new Map([
+  [
+    'artifacts/editorial/variant-expansion-2026-09-13-candidate-v2/NEW-UNITS.json',
+    'docs/editorial-review/variant-expansion-2026-09-13/evidence/NEW-UNITS.json',
+  ],
+]);
 const sha256 = (value: string | Buffer) => createHash('sha256').update(value).digest('hex');
 const json = async (path: string) => JSON.parse(await readFile(path, 'utf8'));
 function stable(value: unknown): unknown {
@@ -31,7 +37,7 @@ const manifestCore = { ...manifest };
 delete manifestCore.candidateSha256;
 check(sha256(JSON.stringify(stable(manifestCore))) === manifest.candidateSha256, 'Candidate hash mismatch.');
 for (const [relative, expected] of Object.entries(manifest.inputs) as [string, string][])
-  check(sha256(await readFile(relative)) === expected, `Input checksum mismatch: ${relative}`);
+  check(sha256(await readFile(promotedInputAliases.get(relative) ?? relative)) === expected, `Input checksum mismatch: ${relative}`);
 for (const [relative, expected] of Object.entries(manifest.outputs) as [string, string][])
   check(sha256(await readFile(join(root, relative))) === expected, `Output checksum mismatch: ${relative}`);
 for (const [relative, expected] of Object.entries(manifest.sourceFiles) as [string, string][])
