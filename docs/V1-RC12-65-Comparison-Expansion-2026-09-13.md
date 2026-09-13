@@ -2,7 +2,7 @@
 
 Date: 2026-09-13
 
-Status: exact cross-platform candidate approved for publication preparation; RC11 remains published
+Status: published and independently verified; RC11 retained as immutable rollback
 
 ## Scope
 
@@ -67,7 +67,7 @@ version `1.0.0-rc.12`, arm64 architecture, strict/deep code signing,
 Gatekeeper acceptance and the stapled notarization tickets for both the app
 and DMG.
 
-## Exact updater approval and remaining gates
+## Exact updater approval
 
 The combined immutable staging reproduces both updater payload hashes and
 passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
@@ -77,11 +77,37 @@ passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
 Larry explicitly approved that manifest hash and its associated signed macOS
 and Windows artifacts for publication preparation.
 
-The remaining gate is approval of the exact artifact-pin commit and explicit
-publication authorization. Only then may the approved updater payloads,
-manifest and public installers be published, followed by the coordinated web
-deployment and independent HTTPS and rendered-live verification.
+Larry subsequently approved artifact-pin commit
+`eb12cd7464c1944bf23ab417e14bd70074c51694` and authorized publication of
+the exact updater payloads, manifest and public installers followed by the
+coordinated web deployment. That commit was pushed to private `main`, pulled
+cleanly on the host and used for publication.
 
-RC11 remains the current production release and immutable rollback until that
-gate and live verification pass. RC12 does not claim a separately promoted
-final-v1.0 artifact.
+## Publication and live verification
+
+- The host publisher verified every staged checksum before installing the
+  immutable updater release and stable manifest. The public-download publisher
+  separately verified the macOS DMG and Windows installer before publication.
+- The coordinated web update completed its production build, brought both
+  isolated services up healthy, returned `{"ok":true}` from `/api/health`, and
+  retained database backup
+  `deployment/backups/adfontes-before-update-20260913T081821Z.dump` (10,437
+  bytes, independently confirmed nonempty).
+- Independent full HTTPS downloads matched the approved hashes for
+  `stable/latest.json`, both versioned updater payloads and both public
+  installers. The Windows updater and public installer are byte-identical.
+- Response checks confirmed `no-store` for the stable manifest, immutable
+  caching for versioned updater bytes, attachment/noindex/security and byte
+  range headers, 403 for both release-directory listings and 404 for an
+  unknown updater object.
+- Rendered live checks confirmed the RC12 Downloads page and exact platform
+  links; Library counts of 104 textual comparisons, 250 Greek word studies and
+  5,400 lexicon entries; the exact Ephesians 1:1 `candidate-89` and Revelation
+  13:18 `candidate-104` direct-link states; all seven named edition rows; both
+  reviewed Sinaiticus claims and evidence limits; complete-page enlargement;
+  Escape dismissal and exact focus restoration; and zero browser-console
+  warnings or errors.
+
+RC12 is the current published candidate. RC11 remains available as the
+immutable rollback release. This publication does not create differently named
+final-v1.0 bytes or claim a separate final-v1.0 promotion.
