@@ -6,7 +6,11 @@ Owner decisions recorded September 10, 2026. This is the controlling M5 readines
 
 Larry Herzog Jr. subsequently stated, **“Those tasks in M5 HAVE all been completed to my satisfaction.”** AFNT-026–029 and the defined MVP are therefore accepted. The checklist below is retained as the pre-acceptance gate ledger; unchecked boxes no longer indicate an unaccepted milestone, and the underlying records remain authoritative about which evidence was agent-observed, user-reported, partial, or completed through a later release candidate. See [M5 and MVP acceptance](M5-Acceptance.md).
 
-This acceptance did not itself approve new release bytes. RC13 was subsequently approved, published and independently verified as the current immutable release candidate; RC12 remains the immutable rollback release. The separate final-v1.0 promotion and 48-hour soft-launch completion remain distinct decisions.
+This acceptance did not itself approve new release bytes. RC13 was subsequently approved, published and independently verified as an immutable release candidate. Larry later approved the exact 1.0.0 source, signed artifacts, updater manifest and artifact-pin commit and explicitly authorized coordinated publication. Final 1.0.0 was published and independently verified on September 13, 2026; RC13 is its immutable rollback release. The 48-hour soft-launch observation remains underway and distinct from publication.
+
+## Final publication resolution — 2026-09-13
+
+Ad Fontes NT 1.0.0 is the current published web and desktop release. Exact artifact, signing, publication and live-verification evidence is recorded in [the final release record](V1-Final-Release-2026-09-13.md). The 48-hour observation began at approximately `2026-09-13T13:32Z`; completion before `2026-09-15T13:32Z` and any broader announcement are not claimed.
 
 ## Frozen release scope
 
@@ -43,7 +47,7 @@ This acceptance did not itself approve new release bytes. RC13 was subsequently 
 - [ ] macOS Developer ID signing, notarization, Gatekeeper installation and updater path verified on a supported Mac.
 - [ ] Windows signing option approved and configured; signed clean install, upgrade, uninstall and updater path verified on Windows 11 x64.
 - [ ] Exact `1.0.0-rc.1` artifacts and hashes approved. No release bytes change between approval and promotion.
-- [ ] Owner approves public web v1.0 promotion and, separately, each signed desktop v1.0 package.
+- [x] Owner approves public web v1.0 promotion and, separately, each signed desktop v1.0 package.
 - [ ] Production verification and 48-hour soft-launch monitoring complete before broader announcement.
 
 ## Explicit non-blockers and deferrals

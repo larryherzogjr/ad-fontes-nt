@@ -115,5 +115,51 @@ manuscript evidence plates.”
   `159930cb4b74a542d96fd3a383454dc320e75c752de45a3eaa411a8088d209d1`.
 
 Larry approved that exact manifest and all associated signed artifacts. The
-artifact-pin commit, publication evidence and post-publication checks remain to
-be recorded. Until publication succeeds, RC13 remains the live release.
+artifact-pin commit, publication evidence and post-publication checks remained
+separate gates.
+
+## Publication and independent live verification
+
+Larry approved exact artifact-pin commit
+`b75d94d447926fbdfec8d44821f706e49d8f9292` and explicitly authorized
+publication of the approved updater payloads, public installers and coordinated
+web application. The commit was pushed to private `main`, and both the remote
+branch and the deployed host independently resolved to that exact hash. The host
+fast-forwarded a clean `main` checkout, reproduced the approved staging and
+public-DMG hashes, published the immutable updater release and public
+installers, rebuilt the web application, and reported healthy database and web
+containers plus `{"ok":true}` from `/api/health`. Deployment retained backup
+`backups/adfontes-before-update-20260913T133436Z.dump`.
+
+Independent HTTPS verification then established:
+
+- Fresh `stable/latest.json` bytes reproduced approved SHA-256
+  `3f38c09c9e5e13886f0e0c8ed666abb5341a7f7ee821b76455ec6b0d815ab141`,
+  identified only version `1.0.0`, and retained the approved publication date,
+  release note and both platform signatures. The response uses
+  `Cache-Control: no-store`.
+- Full fresh downloads reproduced macOS updater SHA-256 `34a46617…`, Windows
+  updater/installer SHA-256 `e07550f4…`, and public DMG SHA-256 `1f4043b5…`.
+  The two Windows URLs return identical bytes.
+- Versioned updater responses use one-year immutable caching. Installer and
+  updater responses supply attachment, noindex/security and byte-range
+  headers. Both release-directory listings return 403, and an unknown updater
+  path returns 404.
+- The live Downloads and Sources pages identify 1.0.0 as the current public
+  cross-platform release and expose only the exact versioned installer links.
+  The Downloads page has no horizontal overflow at 390 pixels.
+- The live Library reports 104 Textual Comparisons, 250 Greek Word Studies and
+  5,400 Greek Lexicon entries. Mark 11:26 exposes both the comparison-collection
+  return and Close actions; the former reaches `/library`, while Close removes
+  the panel and retains the passage in the reader URL. The Revelation 13:18
+  publisher-note comparison also exposes the collection return.
+- At Matthew 23:13–14 the inline manuscript field remains dark after pointer
+  interaction, the complete-artifact view opens and closes with Escape, and the
+  comparison return remains present. Checked live pages produced no browser
+  warning or error.
+
+Ad Fontes NT 1.0.0 is now the current published web and desktop release. RC13
+remains immutable as the rollback release. The 48-hour soft-launch observation
+began with publication at approximately `2026-09-13T13:32Z`; completion before
+`2026-09-15T13:32Z` is not claimed, and broader announcement remains pending
+that observation.
