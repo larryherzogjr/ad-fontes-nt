@@ -81,8 +81,13 @@ test('reader exposes accessible complete-page enlargement without remote image c
   assert.match(component, /What it cannot establish/);
   assert.match(component, /complete artifact view/);
   assert.match(component, /aria-label={`Enlarge/);
-  assert.match(component, /DialogContent/);
-  assert.match(component, /portalContainer={portalContainerRef}/);
+  assert.match(component, /createPortal\(/);
+  assert.match(component, /<dialog/);
+  assert.match(component, /showModal\(\)/);
+  assert.match(component, /onCancel=/);
+  assert.match(component, /event\.key === 'Escape'.*event\.stopPropagation\(\)/s);
+  assert.match(component, /lightboxTriggerRef\.current\?\.focus/);
+  assert.match(component, /document\.body/);
   assert.match(component, /loadRegistries/);
   assert.match(component, /uniquePlates/);
   assert.match(component, /gregoryAland.*sourceImageId/s);

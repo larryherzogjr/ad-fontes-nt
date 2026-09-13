@@ -6,7 +6,7 @@ Owner decisions recorded September 10, 2026. This is the controlling M5 readines
 
 Larry Herzog Jr. subsequently stated, **“Those tasks in M5 HAVE all been completed to my satisfaction.”** AFNT-026–029 and the defined MVP are therefore accepted. The checklist below is retained as the pre-acceptance gate ledger; unchecked boxes no longer indicate an unaccepted milestone, and the underlying records remain authoritative about which evidence was agent-observed, user-reported, partial, or completed through a later release candidate. See [M5 and MVP acceptance](M5-Acceptance.md).
 
-This acceptance does not approve new release bytes. RC9 remains the currently published immutable release candidate while RC10 evidence-visual source changes await their separate commit, artifact and publication approvals.
+This acceptance did not itself approve new release bytes. RC10 was subsequently approved, published and independently verified as the current immutable release candidate. RC11 is a separately prepared successor correction and still requires source, native-artifact, updater-manifest, publication and deployment approvals.
 
 ## Frozen release scope
 

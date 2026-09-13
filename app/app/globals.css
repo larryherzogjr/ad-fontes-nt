@@ -1165,7 +1165,13 @@ footer { padding: 22px 4vw; }
 .evidence-claims dd { margin: 2px 0 0; font-size: 14px; line-height: 1.55; }
 .reviewed-notes article > .evidence-plate :is(.evidence-credit, .evidence-reuse, .evidence-links) { margin: 8px 0 0; color: var(--muted-foreground); font-size: 12px; line-height: 1.5; }
 .evidence-plate-loading, .evidence-plate-error { padding: 12px 14px; border-left: 3px solid #819ba8; background: var(--surface); color: var(--muted-foreground); font-size: 13px; }
-.manuscript-lightbox { width: min(96vw, 1180px); max-width: min(96vw, 1180px); max-height: 94dvh; grid-template-rows: auto minmax(0, 1fr) auto; padding: 18px; border: 1px solid var(--border); background: var(--background); color: var(--foreground); box-shadow: 0 18px 60px #10212a55; }
+.manuscript-lightbox { box-sizing: border-box; position: fixed; inset: 0; width: min(96vw, 1180px); max-width: min(96vw, 1180px); height: min(94dvh, 900px); max-height: 94dvh; margin: auto; padding: 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--background); color: var(--foreground); box-shadow: 0 18px 60px #10212a55; }
+.manuscript-lightbox[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 16px; }
+.manuscript-lightbox::backdrop { background: rgb(0 0 0 / 10%); backdrop-filter: blur(2px); }
+.manuscript-lightbox-header { display: flex; flex-direction: column; gap: 8px; padding-right: 40px; }
+.manuscript-lightbox-header h2 { margin: 0; font: 500 28px/1.2 Georgia, serif; }
+.manuscript-lightbox-header p { margin: 0; color: var(--muted-foreground); font-size: 14px; }
+.manuscript-lightbox-close { position: absolute; top: 8px; right: 8px; }
 .manuscript-lightbox-image { min-height: 0; overflow: auto; overscroll-behavior: contain; background: #101719; text-align: center; }
 .manuscript-lightbox-image img { display: block; width: 100%; max-width: 100%; height: 100%; max-height: 100%; min-width: 0; min-height: 0; margin: auto; object-fit: contain; }
 .manuscript-lightbox > p { margin: 0; color: var(--muted-foreground); font-size: 12px; }
@@ -1237,7 +1243,7 @@ footer { padding: 22px 4vw; }
   .edition-summary li:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .evidence-plate { padding: 12px; }
   .evidence-image-button img { height: min(44vh, 380px); }
-  .manuscript-lightbox { width: calc(100vw - 16px); max-width: calc(100vw - 16px); max-height: calc(100dvh - 16px); padding: 12px; }
+  .manuscript-lightbox { width: calc(100vw - 16px); max-width: calc(100vw - 16px); height: calc(100dvh - 16px); max-height: calc(100dvh - 16px); padding: 12px; }
   .manuscript-lightbox-image img { min-width: 0; }
 }
 

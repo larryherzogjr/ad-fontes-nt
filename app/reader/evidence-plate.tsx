@@ -1,14 +1,9 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { useEffect, useId, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { XIcon } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import visualRelease from '@/lib/domain/visual-release.json';
 
 type PlateImage = {
@@ -79,10 +74,32 @@ function uniquePlates(plates: Plate[]) {
 }
 
 function PlateView({ unitId, plate, index, total }: { unitId: string; plate: Plate; index: number; total: number }) {
-  const portalContainerRef = useRef<HTMLElement | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
+  const lightboxRef = useRef<HTMLDialogElement | null>(null);
+  const lightboxTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const restoreLightboxFocusRef = useRef(false);
+  const lightboxTitleId = useId();
+  const lightboxDescriptionId = useId();
   const titleId = `${unitId}-evidence-title-${index}`;
+
+  useEffect(() => {
+    if (selectedImageIndex === null || !lightboxRef.current || lightboxRef.current.open) return;
+    lightboxRef.current.showModal();
+  }, [selectedImageIndex]);
+
+  useEffect(() => {
+    if (selectedImageIndex !== null || !restoreLightboxFocusRef.current) return;
+    restoreLightboxFocusRef.current = false;
+    requestAnimationFrame(() => lightboxTriggerRef.current?.focus({ preventScroll: true }));
+  }, [selectedImageIndex]);
+
+  const closeLightbox = () => {
+    if (lightboxRef.current?.open) lightboxRef.current.close();
+  };
+  const selectedImage = selectedImageIndex === null ? null : plate.images[selectedImageIndex];
+
   return (
-    <section ref={portalContainerRef} className="evidence-plate" aria-labelledby={titleId}>
+    <section className="evidence-plate" aria-labelledby={titleId}>
       <div className="evidence-plate-heading">
         <h5 id={titleId}>Manuscript evidence plate</h5>
         <span>{total === 1 ? 'One witness' : `Witness ${index + 1} of ${total}`}</span>
@@ -94,22 +111,17 @@ function PlateView({ unitId, plate, index, total }: { unitId: string; plate: Pla
       <div className="evidence-plate-gallery">
         {plate.images.map((image, imageIndex) => (
           <figure key={image.sourceImageId}>
-            <Dialog>
-              <DialogTrigger render={<button className="evidence-image-button" aria-label={`Enlarge ${plate.title}, image ${imageIndex + 1} of ${plate.images.length}`} />}>
-                <img src={image.asset} width={image.width} height={image.height} alt={image.alt} loading="lazy" />
-                <span aria-hidden="true">Enlarge</span>
-              </DialogTrigger>
-              <DialogContent className="manuscript-lightbox" portalContainer={portalContainerRef}>
-                <DialogHeader>
-                  <DialogTitle>{plate.title}</DialogTitle>
-                  <DialogDescription>{plate.manuscript.name} · {plate.manuscript.locator} · complete artifact view</DialogDescription>
-                </DialogHeader>
-                <div className="manuscript-lightbox-image">
-                  <img src={image.asset} width={image.width} height={image.height} alt={image.alt} />
-                </div>
-                <p>Use browser or system zoom for closer inspection. The full page remains visible rather than being replaced by a decorative crop.</p>
-              </DialogContent>
-            </Dialog>
+            <button
+              className="evidence-image-button"
+              aria-label={`Enlarge ${plate.title}, image ${imageIndex + 1} of ${plate.images.length}`}
+              onClick={event => {
+                lightboxTriggerRef.current = event.currentTarget;
+                setSelectedImageIndex(imageIndex);
+              }}
+            >
+              <img src={image.asset} width={image.width} height={image.height} alt={image.alt} loading="lazy" />
+              <span aria-hidden="true">Enlarge</span>
+            </button>
             <figcaption>{image.sourceImageName} · CSNTM image {image.sourceImageId}</figcaption>
           </figure>
         ))}
@@ -125,6 +137,46 @@ function PlateView({ unitId, plate, index, total }: { unitId: string; plate: Pla
         <a href={plate.sourceUrl}>CSNTM manuscript source</a>
         {plate.transcriptionUrl && <><span aria-hidden="true"> · </span><a href={plate.transcriptionUrl}>Primary transcription</a></>}
       </p>
+      {selectedImage && createPortal(
+        <dialog
+          ref={lightboxRef}
+          className="manuscript-lightbox"
+          aria-labelledby={lightboxTitleId}
+          aria-describedby={lightboxDescriptionId}
+          onKeyDown={event => {
+            if (event.key === 'Escape') event.stopPropagation();
+          }}
+          onCancel={event => {
+            event.preventDefault();
+            event.stopPropagation();
+            closeLightbox();
+          }}
+          onClose={() => {
+            restoreLightboxFocusRef.current = true;
+            setSelectedImageIndex(null);
+          }}
+        >
+          <header className="manuscript-lightbox-header">
+            <h2 id={lightboxTitleId}>{plate.title}</h2>
+            <p id={lightboxDescriptionId}>{plate.manuscript.name} · {plate.manuscript.locator} · complete artifact view</p>
+          </header>
+          <Button
+            type="button"
+            variant="ghost"
+            className="manuscript-lightbox-close"
+            size="icon-sm"
+            aria-label="Close enlarged manuscript"
+            onClick={closeLightbox}
+          >
+            <XIcon />
+          </Button>
+          <div className="manuscript-lightbox-image">
+            <img src={selectedImage.asset} width={selectedImage.width} height={selectedImage.height} alt={selectedImage.alt} />
+          </div>
+          <p>Use browser or system zoom for closer inspection. The full page remains visible rather than being replaced by a decorative crop.</p>
+        </dialog>,
+        document.body,
+      )}
     </section>
   );
 }
