@@ -73,6 +73,20 @@ test('public desktop download page exposes only the final 1.0.0 installers', asy
   await stat('app/public/og-downloads.png');
 });
 
+test('final public installer publication is pinned to the approved signed bytes', async () => {
+  const publish = await readFile('deployment/publish-public-desktop-downloads.sh', 'utf8');
+  const checksums = await readFile('deployment/public-desktop-downloads-1.0.0.sha256', 'utf8');
+  assert.match(publish, /version=1\.0\.0\n/);
+  assert.doesNotMatch(publish, /1\.0\.0-rc\./);
+  assert.match(publish, /1f4043b5f35087a086ecc01b23a335056035b4bf3e37ef979e48bc4fcdb0007e/);
+  assert.match(publish, /e07550f4721926f21a8c4ea7cfd02bcbe587a0cddb38323b74db5acec1f8f724/);
+  assert.equal(
+    checksums,
+    '1f4043b5f35087a086ecc01b23a335056035b4bf3e37ef979e48bc4fcdb0007e  Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0.dmg\n' +
+      'e07550f4721926f21a8c4ea7cfd02bcbe587a0cddb38323b74db5acec1f8f724  Ad-Fontes-NT-Windows-x64-1.0.0.exe\n',
+  );
+});
+
 test('public project status identifies the final 1.0.0 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /defined Ad Fontes NT MVP and all five milestones are accepted/);
