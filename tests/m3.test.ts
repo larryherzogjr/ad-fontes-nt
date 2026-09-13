@@ -47,7 +47,7 @@ const adapter = (id: string) => {
 };
 const hash = (v: Variant) => createHash("sha256").update(reviewPayload(v)).digest("hex");
 test("all approved notes have complete evidence-limited edition summaries", () => {
-  assert.equal(candidates.filter(v => v.status === 'approved').length, 39);
+  assert.equal(candidates.filter(v => v.status === 'approved').length, 104);
   for (const unit of candidates.filter(v => v.status === 'approved')) {
     const summary = summarizeEditionReadings(unit);
     assert.equal(summary.length, 7, unit.id);
@@ -548,16 +548,15 @@ test('batch 4 public prose matches returned A-C plus exact approved corrections 
   }
 });
 
-test('inline commentary routes all 39 units through source mappings or explicit absent-verse notices', async () => {
-  assert.equal(candidates.length, 39);
+test('inline commentary routes all 104 units through source mappings or explicit absent-verse notices', async () => {
+  assert.equal(candidates.length, 104);
   assert.deepEqual(
-    candidates.slice(30).map(unit => unit.id),
+    candidates.slice(30, 39).map(unit => unit.id),
     Array.from({ length: 9 }, (_, index) => `candidate-${31 + index}`),
   );
-  assert.deepEqual(
-    candidates.filter(unit => unit.presentation === 'publisher-note').slice(-2).map(unit => unit.id),
-    ['candidate-38', 'candidate-39'],
-  );
+  assert.deepEqual(candidates.slice(39).map(unit => unit.id), Array.from({ length: 65 }, (_, index) => `candidate-${40 + index}`));
+  assert(candidates.find(unit => unit.id === 'candidate-38')?.presentation === 'publisher-note');
+  assert(candidates.find(unit => unit.id === 'candidate-39')?.presentation === 'publisher-note');
   const { reviewedAt, verseAnchors } = await import('../app/lib/domain/reviewed-markers.ts');
   for (const unit of candidates) {
     for (const reading of unit.readings) {

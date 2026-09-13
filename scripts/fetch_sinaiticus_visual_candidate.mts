@@ -2,7 +2,8 @@ import { createHash } from 'node:crypto';
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 
-const root = join('sources', 'visuals', 'csntm-sinaiticus-2026-09-12-v2-candidate');
+const rootArgument = process.argv.find(argument => argument.startsWith('--root='));
+const root = rootArgument?.slice('--root='.length) || join('sources', 'visuals', 'csntm-sinaiticus-2026-09-12-v2-candidate');
 const priorRoot = join('sources', 'visuals', 'csntm-2026-09-12-v1', 'originals');
 const fetchMode = process.argv.includes('--fetch');
 const delay = (milliseconds: number) => new Promise(resolve => setTimeout(resolve, milliseconds));

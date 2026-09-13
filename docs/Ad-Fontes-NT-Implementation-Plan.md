@@ -204,6 +204,7 @@ Do not assert a single expected verse count across all editions. The verificatio
 | AFNT-109 | P2 | Paid teacher tools or subscriptions after willingness-to-pay evidence; keep foundation and rights strategy intact. |
 | AFNT-110 | P2 | Evidence-centered visual aids for approved comparison articles: derive accessible edition summaries only from frozen variant data; add manuscript evidence plates only through a separate checksum-pinned, item-rights-cleared and editorially reviewed visual release that also works offline. |
 | AFNT-111 | P2 | Expand manuscript-evidence coverage across all 39 approved comparison articles through a preserved CSNTM passage/page inventory, direct reading verification, item-level rights and credit records, restrained witness selection, exact-hash editorial approval, and size-controlled offline derivatives. Discovery matches are never manuscript-reading claims. |
+| AFNT-113 | P2 | Expand the 39 approved textual-comparison articles by a combined 65-unit release, preserving frozen edition evidence and separately reviewed CSNTM manuscript plates. Keep the additional ten-unit viability reserve unpublished until the owner reviews it after the 65-unit production release. |
 
 Old Testament expansion is intentionally not a routine backlog ticket. It requires a new product brief for its different textual witnesses, languages, scope, and UX.
 

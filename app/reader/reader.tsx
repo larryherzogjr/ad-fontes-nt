@@ -1059,13 +1059,13 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <p>
               The defined Ad Fontes NT MVP and all five milestones are accepted
               with their documented limitations. The live web reader includes
-              all 27 New Testament books, seven named editions, 39 reviewed
+              all 27 New Testament books, seven named editions, 104 reviewed
               comparison notes, Greek and interlinear tools, the approved
               250-article Ordinary Means BSB adaptation, and account-backed
               personal notes.
             </p>
             <p>
-              Version 1.0.0-rc.11 is the current cross-platform desktop
+              Version 1.0.0-rc.12 is the current cross-platform desktop
               candidate. The macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on

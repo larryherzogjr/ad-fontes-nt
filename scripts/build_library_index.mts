@@ -99,7 +99,7 @@ const output = {
   words,
 };
 
-if (output.comparisonCount !== 39 || output.articleCount !== 250 || output.lemmaCount !== 5400)
+if (output.comparisonCount !== 104 || output.articleCount !== 250 || output.lemmaCount !== 5400)
   throw Error(`Unexpected Library inventory: ${output.comparisonCount}/${output.articleCount}/${output.lemmaCount}.`);
 
 const destination = join(publicRoot, 'library/index.json');

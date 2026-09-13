@@ -24,6 +24,7 @@ OUTPUT = ROOT / "sources/visuals/csntm-sinaiticus-2026-09-12-v2-candidate"
 TRANSCRIPTION_ZIP = SOURCE_RELEASE / "evidence/FINAL_TRANSCRIPTION_version104.xml.zip"
 GROUP_HTML = DISCOVERY_RELEASE / "raw/groups/manuscript_Group_GA_01.html"
 VARIANTS = ROOT / "content/editorial/variants.json"
+RELEASE_ID = "csntm-sinaiticus-2026-09-12-v2"
 
 BOOKS = {
     "MAT": ("33", "MATT"),
@@ -288,7 +289,7 @@ def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     evidence = {
         "schemaVersion": 1,
-        "releaseId": "csntm-sinaiticus-2026-09-12-v2",
+        "releaseId": RELEASE_ID,
         "status": "transcription-mapping-candidate",
         "manuscript": {
             "gregoryAland": "01",

@@ -1,0 +1,11 @@
+{"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+							"scale_factors": [1,2,4,8,16],
+							"tile_height": 500,
+							"height": 5616,
+							"width": 3744,
+							"tile_width": 500,
+							"qualities": ["native"],
+							"formats": ["jpg"],
+							"@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+							"@id": "https://images.csntm.org/iiifserver.ashx/GA_01/GA_01_NT_0119b.jpg"
+							}

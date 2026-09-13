@@ -222,7 +222,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     fetch('/library/index.json', { signal: controller.signal }).then(async response => {
       if (!response.ok) throw Error('The Study Library could not be loaded.');
       const data = await response.json() as LibraryIndex;
-      if (data.schemaVersion !== 1 || data.comparisonCount !== 39 || data.articleCount !== 250 || data.lemmaCount !== 5400)
+      if (data.schemaVersion !== 1 || data.comparisonCount !== 104 || data.articleCount !== 250 || data.lemmaCount !== 5400)
         throw Error('The Study Library release is incomplete.');
       setIndex(data);
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });

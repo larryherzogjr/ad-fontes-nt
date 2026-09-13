@@ -48,7 +48,10 @@ const selections: Selection[] = [
   { releaseId: visualRelease.releaseId, candidateSha256: visualRelease.candidateSha256 },
   ...visualRelease.supplements,
 ];
-const plateIds = new Set(Array.from({ length: 39 }, (_, index) => `candidate-${String(index + 1).padStart(2, '0')}`));
+const plateIds = new Set(Array.from({ length: 104 }, (_, index) => {
+  const number = index + 1;
+  return `candidate-${number < 40 ? String(number).padStart(2, '0') : number}`;
+}));
 let registriesPromise: Promise<Registry[]> | undefined;
 function loadRegistries() {
   registriesPromise ??= Promise.all(selections.map(async selection => {

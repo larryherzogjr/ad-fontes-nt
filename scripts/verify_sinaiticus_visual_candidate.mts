@@ -30,7 +30,12 @@ const manifestCore = { ...manifest };
 delete manifestCore.candidateSha256;
 check(sha256(JSON.stringify(stable(manifestCore))) === manifest.candidateSha256, 'Candidate hash mismatch.');
 for (const [relative, expected] of Object.entries(manifest.inputs) as [string, string][]) {
-  check(sha256(await readFile(relative)) === expected, `Input checksum mismatch: ${relative}`);
+  if (relative === 'content/editorial/variants.json') {
+    const approvedPredecessor = Buffer.from(`${JSON.stringify(variants.slice(0, 39), null, 2)}\n`);
+    check(sha256(approvedPredecessor) === expected, `Approved 39-unit predecessor checksum mismatch: ${relative}`);
+  } else {
+    check(sha256(await readFile(relative)) === expected, `Input checksum mismatch: ${relative}`);
+  }
 }
 for (const [relative, expected] of Object.entries(manifest.outputs) as [string, string][]) {
   check(sha256(await readFile(join(root, relative))) === expected, `Output checksum mismatch: ${relative}`);

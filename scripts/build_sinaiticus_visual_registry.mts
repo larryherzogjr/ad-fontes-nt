@@ -3,25 +3,35 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { reviewPayload } from '../app/lib/domain/variants.ts';
 
-const root = join('sources', 'visuals', 'csntm-sinaiticus-2026-09-12-v2-candidate');
+const rootArgument = process.argv.find(argument => argument.startsWith('--root='));
+const variantsArgument = process.argv.find(argument => argument.startsWith('--variants='));
+const allowInReview = process.argv.includes('--allow-in-review');
+const root = rootArgument?.slice('--root='.length) || join('sources', 'visuals', 'csntm-sinaiticus-2026-09-12-v2-candidate');
 const evidence = JSON.parse(await readFile(join(root, 'sinaiticus-evidence.json'), 'utf8'));
-const variants = JSON.parse(await readFile('content/editorial/variants.json', 'utf8'));
+const variantsPath = variantsArgument?.slice('--variants='.length) || 'content/editorial/variants.json';
+const variants = JSON.parse(await readFile(variantsPath, 'utf8'));
 const byId = new Map(variants.map((unit: { id: string }) => [unit.id, unit]));
 const sha256 = (value: string | Buffer) => createHash('sha256').update(value).digest('hex');
 
 const names: Record<string, string> = {
   MAT: 'Matthew', MRK: 'Mark', LUK: 'Luke', JHN: 'John', ACT: 'Acts', ROM: 'Romans',
   '1CO': '1 Corinthians', '2CO': '2 Corinthians', '1TH': '1 Thessalonians', '1TI': '1 Timothy',
-  '1JN': '1 John', '3JN': '3 John', JUD: 'Jude', '2PE': '2 Peter', REV: 'Revelation',
+  GAL: 'Galatians', EPH: 'Ephesians', PHP: 'Philippians', COL: 'Colossians', '2TH': '2 Thessalonians',
+  HEB: 'Hebrews', '2TI': '2 Timothy', TIT: 'Titus', PHM: 'Philemon', JAS: 'James', '1PE': '1 Peter',
+  '1JN': '1 John', '2JN': '2 John', '3JN': '3 John', JUD: 'Jude', '2PE': '2 Peter', REV: 'Revelation',
 };
 const csntmBooks: Record<string, string> = {
   MAT: 'Matt', MRK: 'Mark', LUK: 'Luke', JHN: 'John', ACT: 'Acts', ROM: 'Rom',
   '1CO': '1Cor', '2CO': '2Cor', '1TH': '1Thess', '1TI': '1Tim', '1JN': '1John',
+  GAL: 'Gal', EPH: 'Eph', PHP: 'Phil', COL: 'Col', '2TH': '2Thess', HEB: 'Heb', '2TI': '2Tim',
+  TIT: 'Titus', PHM: 'Phlm', JAS: 'Jas', '1PE': '1Pet', '2JN': '2John',
   '3JN': '3John', JUD: 'Jude', '2PE': '2Pet', REV: 'Rev',
 };
 const transcriptionBooks: Record<string, number> = {
   MAT: 33, MRK: 34, LUK: 35, JHN: 36, ROM: 37, '1CO': 38, '2CO': 39,
-  '1TH': 44, '1TI': 47, ACT: 51, '2PE': 54, '1JN': 55, '3JN': 57, JUD: 58, REV: 59,
+  GAL: 40, EPH: 41, PHP: 42, COL: 43, '1TH': 44, '2TH': 45, HEB: 46, '1TI': 47, '2TI': 48,
+  TIT: 49, PHM: 50, ACT: 51, JAS: 52, '1PE': 53, '2PE': 54, '1JN': 55, '2JN': 56,
+  '3JN': 57, JUD: 58, REV: 59,
 };
 
 function stable(value: unknown): unknown {
@@ -62,7 +72,8 @@ function locator(unit: any) {
 const plates: Record<string, unknown> = {};
 for (const unit of evidence.units) {
   const commentary: any = byId.get(unit.unitId);
-  if (!commentary || commentary.status !== 'approved') throw new Error(`${unit.unitId} commentary is not approved.`);
+  if (!commentary || (commentary.status !== 'approved' && !(allowInReview && commentary.status === 'in-review')))
+    throw new Error(`${unit.unitId} commentary is not in the permitted review state.`);
   const passage = humanRange(unit.ranges);
   const anchor = unit.targetVerses.find((record: any) => record.status !== 'absent') ?? unit.contextVerses[0];
   const parsed = parse(anchor.osis);
@@ -109,9 +120,9 @@ const registry = {
   relationship: {
     type: 'supplement',
     preservesRelease: 'csntm-2026-09-12-v1',
-    statement: 'These 39 Sinaiticus plates supplement rather than replace the four plates in the approved v1 release.',
+    statement: `These ${evidence.units.length} Sinaiticus plates supplement rather than replace the approved evidence releases for candidates 1–39.`,
   },
-  sourceScope: 'One consistent witness baseline. The broader AFNT-111 discovery inventory remains available for later contrasting-witness selection.',
+  sourceScope: 'One consistent, primary-transcription-backed witness baseline for the proposed expansion. It is not a manuscript apparatus or a witness vote.',
   editorialReview: { status: 'pending', candidateSha256: '' },
   plates,
 };
@@ -119,13 +130,13 @@ const registryPath = join(root, 'registry.candidate.json');
 await writeFile(registryPath, `${JSON.stringify(registry, null, 2)}\n`);
 
 const report = `# Sinaiticus evidence-plate editorial review\n\n` +
-  `Date: 2026-09-12  \nBacklog: AFNT-111  \nStatus: candidate; exact-hash owner approval required\n\n` +
+  `Date: 2026-09-13  \nBacklog: AFNT-113  \nStatus: candidate; exact-hash owner approval required\n\n` +
   `## Scope and evidence boundary\n\n` +
-  `This supplement supplies a consistent, primary-transcription-backed witness baseline for all 39 approved comparisons. It uses 33 unique complete-page CSNTM facsimiles and retains the broader 147-candidate AFNT-111 discovery pool for later contrasting-witness work. A Sinaiticus plate is not an apparatus and edition agreement is not manuscript evidence. Each claim below describes this witness only.\n\n` +
-  `The five passage-index failures noted during discovery were resolved from the official transcription's folio markers and the cached complete GA 01 image inventory. No zero search result was treated as textual absence. Correction-only material is labeled separately from the first hand. Modern verse divisions are attributed to the transcription where they are the issue.\n\n` +
+  `This supplement supplies a consistent, primary-transcription-backed witness baseline for ${evidence.units.length} proposed comparisons. It uses ${new Set(evidence.units.flatMap((unit: any) => unit.pages.map((page: any) => page.sourceImageId))).size} unique complete-page CSNTM facsimiles. A Sinaiticus plate is not an apparatus and edition agreement is not manuscript evidence. Each claim below describes this witness only.\n\n` +
+  `Page locators come from the official transcription's folio markers and the cached complete GA 01 image inventory. No search result was converted into textual absence. Correction-only material is labeled separately from the first hand.\n\n` +
   `| Unit | Passage | CSNTM page | Proposed witness claim |\n|---|---|---|---|\n` +
   evidence.units.map((unit: any) => `| ${unit.unitId} | ${humanRange(unit.ranges)} | ${unit.pages.map((page: any) => `${page.sourceImageName} / ${page.sourceImageId}`).join('; ')} | ${unit.proposedCaptionClaim.replaceAll('|', '\\|')} |`).join('\n') +
-  `\n\n## Integration decision\n\nNo application files point to this candidate. Following exact-hash approval, promote it without changing bytes, extend the reader to combine this supplement with the approved v1 plates, preserve multiple plates on candidates 11, 17, 26, and 27, publish only local assets, and rerun the complete web and desktop verification.\n`;
+  `\n\n## Integration decision\n\nNo application files point to this candidate. Editorial prose and these evidence records require approval together before promotion. Publish only local assets and rerun the complete web and desktop verification after approval.\n`;
 const reportPath = join(root, 'REVIEW.md');
 await writeFile(reportPath, report);
 

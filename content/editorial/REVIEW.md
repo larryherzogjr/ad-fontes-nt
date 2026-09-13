@@ -1,6 +1,6 @@
 # Textual review queue
 
-**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 39 approved, 0 rejected, 39 locally published**.
+**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 104 approved, 0 rejected, 104 locally published**.
 
 `variants.json` contains exact quotations and source references from the seven local editions. Candidates include omissions, brackets, longer units, placement and numbering examples. Their spans may be narrowed during review. All 30 initial candidates are approved and locally published. The six batch-1 notes contain Larry’s adopted explanations, with explicitly approved factual clarifications for candidates 03 and 18. Candidate-18 now uses rev-3; its previous payload and approval remain in history. Its full return and AI drafting history are retained in `contributions/candidate-18.json` and the linked archival documents. No manuscript attestations were added.
 
@@ -68,3 +68,9 @@ The nine records add no structured manuscript attestations and do not alter any 
 The reconciled second-pass audit, Larry’s two theological follow-ups, and a direct inspection of his licensed Kolb–Wengert *Book of Concord* were assembled as candidate v10. The confessional-source verification gate is complete: remaining uses are article-level paraphrases or short phrases, with a bound locator/rights ledger; no long Kolb–Wengert extract is incorporated. Verification corrected the Apology XIII sacrament enumeration and ordination nuance, standardized Nicene wording, and tightened Formula and catechism locators.
 
 Larry explicitly approved candidate manifest SHA-256 `697d9e54fdb1df0fa8d7f04ca90da811f405366aac3c31f4bf060fc45e4a0b9e` on 2026-09-12. It is locally published as immutable article release `om-studies-2026-09-12-v8`, word metadata `words-2026-09-12-250.json`, lexical release `dodson-2010-v5`, and fresh approvals for comparison units 02, 03, and 21. The reader frequency notice is selected. The approval and complete evidence remain hash-bound inside the new article release. No hosted deployment or author-website change is implied.
+
+## Combined 65-unit expansion
+
+Larry explicitly approved editorial candidate-manifest SHA-256 `eecfd3d5e857970e6b6b6cfcb8bbc55d27b8a9365de618b7f9a97a6bebba35ee` and Sinaiticus visual candidate SHA-256 `f707f4e5d20977c833dd3410ca11f1127dd38e0f8b49212ed4028652d4ee36e4` on 2026-09-13. The exact 65 records are approved as candidates 40–104, bringing the approved collection to 104 articles. Their approval, candidate inputs, validation, prose, per-unit payload hashes, publisher notes, and manuscript claims are preserved in [the expansion evidence directory](../../docs/editorial-review/variant-expansion-2026-09-13/evidence/).
+
+The expansion adds no structured manuscript attestations to the articles. Its separate Sinaiticus visual release remains source-specific evidence and does not establish originality or a complete apparatus. The ten-unit viability reserve is not part of this approval and remains deferred until after production publication of these 65 additions.

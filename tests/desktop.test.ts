@@ -30,7 +30,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.11');
+  assert.equal(config.version, '1.0.0-rc.12');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -94,7 +94,7 @@ test('desktop bundles every released file unchanged and excludes account/private
     assert.deepEqual(bytes, await readFile(join('app/public', path)), path);
   }
   const library = await json('library/index.json');
-  assert.equal(library.comparisonCount, 39);
+  assert.equal(library.comparisonCount, 104);
   assert.equal(library.articleCount, 250);
   assert.equal(library.lemmaCount, 5400);
   assert.deepEqual(manifest.visuals, visualSelections);

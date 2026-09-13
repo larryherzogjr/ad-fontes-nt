@@ -1,0 +1,2357 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "csntm-sinaiticus-expansion-2026-09-13-v2",
+  "status": "candidate",
+  "relationship": {
+    "type": "supplement",
+    "preservesRelease": "csntm-2026-09-12-v1",
+    "statement": "These 65 Sinaiticus plates supplement rather than replace the approved evidence releases for candidates 1–39."
+  },
+  "sourceScope": "One consistent, primary-transcription-backed witness baseline for the proposed expansion. It is not a manuscript apparatus or a witness vote.",
+  "editorialReview": {
+    "status": "pending",
+    "candidateSha256": ""
+  },
+  "plates": {
+    "candidate-40": {
+      "commentaryPayloadSha256": "886b07b4a6f7f31ce1a8fdbaf3772aa80ee7a76250a8345c909bfbe9e8e4e57d",
+      "title": "Codex Sinaiticus at Matthew 1:7–10",
+      "passage": "Matthew 1:7–10",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 200; Matthew 1:7 col. 1, line 36; Matthew 1:8 col. 1, line 42; Matthew 1:9 col. 1, line 48; Matthew 1:10 col. 2, line 6",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0001a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141836",
+          "sourceImageName": "GA_01_NT_0001a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 200, containing Matthew 1:7–10 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 200; Matthew 1:7 col. 1, line 36; Matthew 1:8 col. 1, line 42; Matthew 1:9 col. 1, line 48; Matthew 1:10 col. 2, line 6. The first hand reads the names corresponding to ‘Asaph’ in Matthew 1:7–8 and ‘Amos’ in 1:10.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.1.7",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=1&lid=en&side=r&verse=7&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141836.html",
+        "evidence/iiif-info/GA_01_NT_0001a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-41": {
+      "commentaryPayloadSha256": "0e815dec2b97be2d6231e014a75c0c39e8b1de91e48984d4a5f7503d523d318b",
+      "title": "Codex Sinaiticus at Matthew 8:28",
+      "passage": "Matthew 8:28",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 203b; Matthew 8:28 col. 4, line 40",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0004b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141843",
+          "sourceImageName": "GA_01_NT_0004b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 203b, containing Matthew 8:28 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 203b; Matthew 8:28 col. 4, line 40. The first hand reads ‘Gazarenes’; corrector ca changes the place-name to ‘Gergesenes.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.8.28",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=8&lid=en&side=r&verse=28&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141843.html",
+        "evidence/iiif-info/GA_01_NT_0004b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-42": {
+      "commentaryPayloadSha256": "10be0e8d2854e9448673731f691dfc84a389e4587a57fac789ec21a071ed48b9",
+      "title": "Codex Sinaiticus at Matthew 12:47",
+      "passage": "Matthew 12:47",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 206b; Matthew 12:47 col. 2, line 30",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0007b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141849",
+          "sourceImageName": "GA_01_NT_0007b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 206b, containing Matthew 12:47 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 206b; Matthew 12:47 col. 2, line 30. The first hand has no Matthew 12:47 verse text; a later hand supplies the messenger’s report.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.12.47",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=12&lid=en&side=r&verse=47&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141849.html",
+        "evidence/iiif-info/GA_01_NT_0007b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-43": {
+      "commentaryPayloadSha256": "e5dc14509d1dbd36ab818dffdeeba89094f08e11540f00ce9f274635368081f4",
+      "title": "Codex Sinaiticus at Matthew 16:2–3",
+      "passage": "Matthew 16:2–3",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 208b; Matthew 16:2 col. 4, line 18",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0009b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141853",
+          "sourceImageName": "GA_01_NT_0009b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 208b, containing Matthew 16:2–3 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 208b; Matthew 16:2 col. 4, line 18. The first hand has only the introductory words in Matthew 16:2 and no Matthew 16:3 record, so the weather-sign saying is absent.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.16.2",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=16&lid=en&side=r&verse=2&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141853.html",
+        "evidence/iiif-info/GA_01_NT_0009b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-44": {
+      "commentaryPayloadSha256": "3bfc0ce8648ed3d46d6bf167547f185bd6afc0dd9b02930b8978061c611b81b0",
+      "title": "Codex Sinaiticus at Matthew 19:9",
+      "passage": "Matthew 19:9",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 210b; Matthew 19:9 col. 1, line 20",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0011b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141857",
+          "sourceImageName": "GA_01_NT_0011b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 210b, containing Matthew 19:9 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 210b; Matthew 19:9 col. 1, line 20. The first hand ends after the statement that the divorcing and remarrying man commits adultery; it lacks the second clause about marrying a divorced woman.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.19.9",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=19&lid=en&side=r&verse=9&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141857.html",
+        "evidence/iiif-info/GA_01_NT_0011b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-45": {
+      "commentaryPayloadSha256": "b56a646dc5becd818c0b8dcc10fae410240c0341666d19ce8e1d7025ca735266",
+      "title": "Codex Sinaiticus at Matthew 21:28–31",
+      "passage": "Matthew 21:28–31",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 211b; Matthew 21:28 col. 4, line 32; Matthew 21:29 col. 4, line 39; Matthew 21:30 col. 4, line 43; Matthew 21:31 col. 4, line 46",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0012b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141859",
+          "sourceImageName": "GA_01_NT_0012b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 211b, containing Matthew 21:28–31 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 211b; Matthew 21:28 col. 4, line 32; Matthew 21:29 col. 4, line 39; Matthew 21:30 col. 4, line 43; Matthew 21:31 col. 4, line 46. The first hand gives the refusal and later obedience to the first son and identifies the first son as the one who did the father’s will.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.21.28",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=21&lid=en&side=r&verse=28&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141859.html",
+        "evidence/iiif-info/GA_01_NT_0012b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-46": {
+      "commentaryPayloadSha256": "42e6aa740359280e181cf493b63f8335ff95aa1d8faabfe3d50db4b5df9fd219",
+      "title": "Codex Sinaiticus at Matthew 24:36",
+      "passage": "Matthew 24:36",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 214; Matthew 24:36 col. 1, line 1",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0015a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141864",
+          "sourceImageName": "GA_01_NT_0015a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 214, containing Matthew 24:36 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 214; Matthew 24:36 col. 1, line 1. The first hand includes ‘nor the Son’; corrector ca deletes the phrase and corrector cb2 restores it.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.24.36",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=24&lid=en&side=r&verse=36&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141864.html",
+        "evidence/iiif-info/GA_01_NT_0015a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-47": {
+      "commentaryPayloadSha256": "b05960da944a8445f8ffb0b6b97dadf6b28d4f8b2c307397f025dcdfb024b819",
+      "title": "Codex Sinaiticus at Matthew 27:16–17",
+      "passage": "Matthew 27:16–17",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 216; Matthew 27:16 col. 3, line 9; Matthew 27:17 col. 3, line 13",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0017a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141868",
+          "sourceImageName": "GA_01_NT_0017a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 216, containing Matthew 27:16–17 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 216; Matthew 27:16 col. 3, line 9; Matthew 27:17 col. 3, line 13. The first hand calls the prisoner Barabbas and does not prefix the name Jesus in verses 16–17.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.27.16",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=27&lid=en&side=r&verse=16&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141868.html",
+        "evidence/iiif-info/GA_01_NT_0017a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-48": {
+      "commentaryPayloadSha256": "fb5cd31e3ca1bad658b9ac9c09e69a605f9a9a6f255078851dccc91f325a7983",
+      "title": "Codex Sinaiticus at Matthew 27:49",
+      "passage": "Matthew 27:49",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 216b; Matthew 27:49 col. 2, line 48",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0017b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141869",
+          "sourceImageName": "GA_01_NT_0017b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 216b, containing Matthew 27:49 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 216b; Matthew 27:49 col. 2, line 48. The first hand includes the spear-thrust sentence and the flow of water and blood at the end of Matthew 27:49.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Matt.27.49",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=33&chapter=27&lid=en&side=r&verse=49&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141869.html",
+        "evidence/iiif-info/GA_01_NT_0017b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-49": {
+      "commentaryPayloadSha256": "3a32b1d05b1885dc883913301d6b2670d3fcafbb403d789de3463a982912050d",
+      "title": "Codex Sinaiticus at Mark 1:41",
+      "passage": "Mark 1:41",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 218; Mark 1:41 col. 1, line 29",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0019a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141872",
+          "sourceImageName": "GA_01_NT_0019a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 218, containing Mark 1:41 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 218; Mark 1:41 col. 1, line 29. The first hand describes Jesus as moved with compassion, not anger or indignation.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Mark.1.41",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=34&chapter=1&lid=en&side=r&verse=41&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141872.html",
+        "evidence/iiif-info/GA_01_NT_0019a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-50": {
+      "commentaryPayloadSha256": "87b5b9adb4f55cc388a76621a281671332bbe28087ea4dc6e6e3bbd176ed464e",
+      "title": "Codex Sinaiticus at Mark 6:11",
+      "passage": "Mark 6:11",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 220b; Mark 6:11 col. 2, line 32",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0021b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141877",
+          "sourceImageName": "GA_01_NT_0021b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 220b, containing Mark 6:11 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 220b; Mark 6:11 col. 2, line 32. The first hand ends Mark 6:11 with the dust serving as a testimony and lacks the Sodom-and-Gomorrah judgment saying.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Mark.6.11",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=34&chapter=6&lid=en&side=r&verse=11&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141877.html",
+        "evidence/iiif-info/GA_01_NT_0021b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-51": {
+      "commentaryPayloadSha256": "74c7262190ddd50fd4228ba29094bca652586ed51abcec6033601dfa01846b43",
+      "title": "Codex Sinaiticus at Mark 6:3",
+      "passage": "Mark 6:3",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 220b; Mark 6:3 col. 1, line 30",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0021b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141877",
+          "sourceImageName": "GA_01_NT_0021b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 220b, containing Mark 6:3 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 220b; Mark 6:3 col. 1, line 30. The first hand calls Jesus ‘the carpenter, the son of Mary,’ not the carpenter’s son.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Mark.6.3",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=34&chapter=6&lid=en&side=r&verse=3&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141877.html",
+        "evidence/iiif-info/GA_01_NT_0021b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-52": {
+      "commentaryPayloadSha256": "9c4f2062f689ac51a3390a087cb7a1feceabb190cac7582948029b27a2a2e3dc",
+      "title": "Codex Sinaiticus at Mark 9:29",
+      "passage": "Mark 9:29",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 223; Mark 9:29 col. 2, line 27",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0024a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141882",
+          "sourceImageName": "GA_01_NT_0024a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 223, containing Mark 9:29 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 223; Mark 9:29 col. 2, line 27. The first hand reads ‘except by prayer’; corrector cb2 adds ‘and fasting.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Mark.9.29",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=34&chapter=9&lid=en&side=r&verse=29&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141882.html",
+        "evidence/iiif-info/GA_01_NT_0024a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-53": {
+      "commentaryPayloadSha256": "5ee18d9d5e637d0e2b5108cb779723c578f17cc75ae73a86bb9037c702d06afe",
+      "title": "Codex Sinaiticus at Mark 10:24",
+      "passage": "Mark 10:24",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 223b; Mark 10:24 col. 3, line 48",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0024b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141883",
+          "sourceImageName": "GA_01_NT_0024b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 223b, containing Mark 10:24 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 223b; Mark 10:24 col. 3, line 48. The first hand states simply how difficult it is to enter God’s kingdom and lacks the qualification about trusting in riches.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Mark.10.24",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=34&chapter=10&lid=en&side=r&verse=24&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141883.html",
+        "evidence/iiif-info/GA_01_NT_0024b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-54": {
+      "commentaryPayloadSha256": "5a4535302b23e87ca2ca9fd8d258da7d9e57f1df19c7472b69c6fc976857ce60",
+      "title": "Codex Sinaiticus at Luke 2:14",
+      "passage": "Luke 2:14",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 229b; Luke 2:14 col. 1, line 2",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0030b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141895",
+          "sourceImageName": "GA_01_NT_0030b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 229b, containing Luke 2:14 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 229b; Luke 2:14 col. 1, line 2. The first hand reads the genitive form corresponding to ‘of goodwill/favor’; correctors ca and cb2 change it to the nominative form ‘goodwill.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.2.14",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=2&lid=en&side=r&verse=14&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141895.html",
+        "evidence/iiif-info/GA_01_NT_0030b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-55": {
+      "commentaryPayloadSha256": "2c28ed29829f0096db34e227398418a3654214116cf48fb440b162566d5b4344",
+      "title": "Codex Sinaiticus at Luke 2:33",
+      "passage": "Luke 2:33",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 229b; Luke 2:33 col. 3, line 18",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0030b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141895",
+          "sourceImageName": "GA_01_NT_0030b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 229b, containing Luke 2:33 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 229b; Luke 2:33 col. 3, line 18. The first hand refers to ‘his father and his mother,’ rather than naming Joseph.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.2.33",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=2&lid=en&side=r&verse=33&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141895.html",
+        "evidence/iiif-info/GA_01_NT_0030b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-56": {
+      "commentaryPayloadSha256": "cbfa94f75f427661224a5c20eb3316e5fa938cd1ab278983d5a7f6900e767dba",
+      "title": "Codex Sinaiticus at Luke 4:4",
+      "passage": "Luke 4:4",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 230b; Luke 4:4 col. 3, line 15",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0031b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141897",
+          "sourceImageName": "GA_01_NT_0031b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 230b, containing Luke 4:4 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 230b; Luke 4:4 col. 3, line 15. The first hand ends Jesus’ reply with the statement that a person does not live by bread alone and lacks the ‘every word of God’ expansion.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.4.4",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=4&lid=en&side=r&verse=4&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141897.html",
+        "evidence/iiif-info/GA_01_NT_0031b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-57": {
+      "commentaryPayloadSha256": "ec9c63ea65c1b672c8181f22181a1a5a025240b0de075891199532e9087052bf",
+      "title": "Codex Sinaiticus at Luke 9:35",
+      "passage": "Luke 9:35",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 235b; Luke 9:35 col. 2, line 28",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0036b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141907",
+          "sourceImageName": "GA_01_NT_0036b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 235b, containing Luke 9:35 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 235b; Luke 9:35 col. 2, line 28. The first hand calls Jesus ‘my Son, the Chosen One,’ not ‘my beloved Son.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.9.35",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=9&lid=en&side=r&verse=35&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141907.html",
+        "evidence/iiif-info/GA_01_NT_0036b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-58": {
+      "commentaryPayloadSha256": "35f82beb209b344da5a837bad68c7ecce15af2fbc923a9ca79bde8c4fa3fe971",
+      "title": "Codex Sinaiticus at Luke 9:55–56",
+      "passage": "Luke 9:55–56",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 236; Luke 9:55 col. 1, line 23; Luke 9:56 col. 1, line 24",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0037a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141908",
+          "sourceImageName": "GA_01_NT_0037a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 236, containing Luke 9:55–56 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 236; Luke 9:55 col. 1, line 23; Luke 9:56 col. 1, line 24. The first hand records only that Jesus rebuked the disciples and that they went to another village; it lacks the expanded sayings about their spirit and the Son of Man’s saving mission.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.9.55",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=9&lid=en&side=r&verse=55&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141908.html",
+        "evidence/iiif-info/GA_01_NT_0037a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-59": {
+      "commentaryPayloadSha256": "0b7a33a642f765991b2d545b8be32e31e16ee4410a2f10276bf40fb5cd3760eb",
+      "title": "Codex Sinaiticus at Luke 10:1",
+      "passage": "Luke 10:1",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 236; Luke 10:1 col. 2, line 19",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0037a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141908",
+          "sourceImageName": "GA_01_NT_0037a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 236, containing Luke 10:1 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 236; Luke 10:1 col. 2, line 19. The first hand gives the commissioned group as seventy, not seventy-two.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.10.1",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&lid=en&side=r&verse=1&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141908.html",
+        "evidence/iiif-info/GA_01_NT_0037a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-60": {
+      "commentaryPayloadSha256": "25a360c2e1a5098985d25d8f68ab4715d2dca882947a0821965dc26b94f66fb8",
+      "title": "Codex Sinaiticus at Luke 22:19–20",
+      "passage": "Luke 22:19–20",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 244; Luke 22:19 col. 4, line 36; Luke 22:20 col. 4, line 46",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0045a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141924",
+          "sourceImageName": "GA_01_NT_0045a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 244, containing Luke 22:19–20 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 244; Luke 22:19 col. 4, line 36; Luke 22:20 col. 4, line 46. The first hand includes the longer supper form through the remembrance command in verse 19 and the cup-and-covenant saying in verse 20.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.22.19",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=22&lid=en&side=r&verse=19&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141924.html",
+        "evidence/iiif-info/GA_01_NT_0045a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-61": {
+      "commentaryPayloadSha256": "9061cfd46773a6396b3147dec5aeed6fd62ca706d1b1cace298cbcb6362195fb",
+      "title": "Codex Sinaiticus at Luke 23:42",
+      "passage": "Luke 23:42",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 245b; Luke 23:42 col. 4, line 9",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0046b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141927",
+          "sourceImageName": "GA_01_NT_0046b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 245b, containing Luke 23:42 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 245b; Luke 23:42 col. 4, line 9. The first hand addresses Jesus by name and asks to be remembered, without adding the title ‘Lord.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.23.42",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=23&lid=en&side=r&verse=42&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141927.html",
+        "evidence/iiif-info/GA_01_NT_0046b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-62": {
+      "commentaryPayloadSha256": "b4b6d25bf62fed39e9178389cfd25912d3ecaff56c47238813b10c054f52ce9d",
+      "title": "Codex Sinaiticus at Luke 24:40",
+      "passage": "Luke 24:40",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 246b; Luke 24:40 col. 3, line 5",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0047b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141929",
+          "sourceImageName": "GA_01_NT_0047b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 246b, containing Luke 24:40 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 246b; Luke 24:40 col. 3, line 5. The first hand includes the sentence that Jesus showed the disciples his hands and feet.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Luke.24.40",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=24&lid=en&side=r&verse=40&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141929.html",
+        "evidence/iiif-info/GA_01_NT_0047b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-63": {
+      "commentaryPayloadSha256": "9a63aa605657b3c25e44def2ff1d1b5e3f8ad4b0557e476383b405ae8ff2c84a",
+      "title": "Codex Sinaiticus at John 1:34",
+      "passage": "John 1:34",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 247; John 1:34 col. 4, line 28",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0048a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141930",
+          "sourceImageName": "GA_01_NT_0048a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 247, containing John 1:34 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 247; John 1:34 col. 4, line 28. The first hand reads ‘the Chosen One of God’; corrector ca changes the title to ‘the Son of God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.1.34",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=1&lid=en&side=r&verse=34&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141930.html",
+        "evidence/iiif-info/GA_01_NT_0048a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-64": {
+      "commentaryPayloadSha256": "e9652005c19f3741ec79b4f836ad92e8b93153bfdee793b0948ed9742998a0ff",
+      "title": "Codex Sinaiticus at John 3:13",
+      "passage": "John 3:13",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 248; John 3:13 col. 3, line 29",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0049a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141932",
+          "sourceImageName": "GA_01_NT_0049a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 248, containing John 3:13 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 248; John 3:13 col. 3, line 29. The first hand ends with ‘the Son of Man’ and lacks the clause ‘who is in heaven.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.3.13",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=3&lid=en&side=r&verse=13&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141932.html",
+        "evidence/iiif-info/GA_01_NT_0049a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-65": {
+      "commentaryPayloadSha256": "4d9cacffa685ec2e37fb2027378abd12ce2e72b322dbde8f4a2cad6208a1d7df",
+      "title": "Codex Sinaiticus at John 6:69",
+      "passage": "John 6:69",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 251; John 6:69 col. 2, line 33",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0052a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141938",
+          "sourceImageName": "GA_01_NT_0052a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 251, containing John 6:69 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 251; John 6:69 col. 2, line 33. The first hand reads ‘the Holy One of God,’ not the longer Christ-and-Son title.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.6.69",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=6&lid=en&side=r&verse=69&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141938.html",
+        "evidence/iiif-info/GA_01_NT_0052a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-66": {
+      "commentaryPayloadSha256": "0ad2df9fd5dbe4ab409281eb6edbd97ad01837b47c9a4e14b12f0e5a4a790be6",
+      "title": "Codex Sinaiticus at John 7:8",
+      "passage": "John 7:8",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 251; John 7:8 col. 3, line 42",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0052a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141938",
+          "sourceImageName": "GA_01_NT_0052a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 251, containing John 7:8 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 251; John 7:8 col. 3, line 42. The first hand says ‘I am not going up to this feast,’ without the word ‘yet.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.7.8",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=7&lid=en&side=r&verse=8&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141938.html",
+        "evidence/iiif-info/GA_01_NT_0052a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-67": {
+      "commentaryPayloadSha256": "a250b3e94dfae28b9b3146681de0d2704e7ed696b4a05d2973b0fd26f45dc8be",
+      "title": "Codex Sinaiticus at John 9:35",
+      "passage": "John 9:35",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 253; John 9:35 col. 3, line 35",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0054a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141942",
+          "sourceImageName": "GA_01_NT_0054a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 253, containing John 9:35 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 253; John 9:35 col. 3, line 35. The first hand asks about belief in ‘the Son of Man,’ not ‘the Son of God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.9.35",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=9&lid=en&side=r&verse=35&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141942.html",
+        "evidence/iiif-info/GA_01_NT_0054a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-68": {
+      "commentaryPayloadSha256": "1234712c0905f08927300854ae55b0398a587bc8fd1cf8dc8f6fe7133e40fb58",
+      "title": "Codex Sinaiticus at John 10:29",
+      "passage": "John 10:29",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 253b; John 10:29 col. 3, line 40",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0054b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141943",
+          "sourceImageName": "GA_01_NT_0054b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 253b, containing John 10:29 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 253b; John 10:29 col. 3, line 40. The first hand reads, in sequence, ‘the Father,’ ‘what he has given me,’ and ‘is greater than all,’ followed by the claim that no one can snatch from the Father’s hand.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.10.29",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=10&lid=en&side=r&verse=29&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141943.html",
+        "evidence/iiif-info/GA_01_NT_0054b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-69": {
+      "commentaryPayloadSha256": "18fa7e6397d32888dc2ad10e48bccdb00541598af99aea73c29e4bacacab3b82",
+      "title": "Codex Sinaiticus at John 14:14",
+      "passage": "John 14:14",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 256; John 14:14 col. 4, line 41",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0057a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141948",
+          "sourceImageName": "GA_01_NT_0057a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 256, containing John 14:14 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 256; John 14:14 col. 4, line 41. The first hand includes the explicit object ‘me’ in ‘if you ask me anything in my name.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.14.14",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=14&lid=en&side=r&verse=14&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141948.html",
+        "evidence/iiif-info/GA_01_NT_0057a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-70": {
+      "commentaryPayloadSha256": "f4257cbe0392773c08bd1222e9915797892c00ef0aa639682e643ebb6782a358",
+      "title": "Codex Sinaiticus at John 14:17",
+      "passage": "John 14:17",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 256b; John 14:17 col. 1, line 5",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0057b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141949",
+          "sourceImageName": "GA_01_NT_0057b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 256b, containing John 14:17 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 256b; John 14:17 col. 1, line 5. The first hand uses the future form: the Spirit ‘will be in you.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=John.14.17",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=14&lid=en&side=r&verse=17&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141949.html",
+        "evidence/iiif-info/GA_01_NT_0057b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-71": {
+      "commentaryPayloadSha256": "41ae62c7f6faf4ec0770287555bf59d7fa47632070c25be4a6a9acda900d20c0",
+      "title": "Codex Sinaiticus at Acts 9:5–6",
+      "passage": "Acts 9:5–6",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 304; Acts 9:5 col. 3, line 38; Acts 9:6 col. 3, line 42",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0105a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142044",
+          "sourceImageName": "GA_01_NT_0105a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 304, containing Acts 9:5–6 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 304; Acts 9:5 col. 3, line 38; Acts 9:6 col. 3, line 42. The first hand has the shorter conversion dialogue and lacks the goads saying and the expanded question and answer.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Acts.9.5",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=51&chapter=9&lid=en&side=r&verse=5&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142044.html",
+        "evidence/iiif-info/GA_01_NT_0105a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-72": {
+      "commentaryPayloadSha256": "78ccb6bfcaa384703861aa265cb4baef36b40f1be0bacd051545cabfd86e7026",
+      "title": "Codex Sinaiticus at Acts 11:20",
+      "passage": "Acts 11:20",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 306; Acts 11:20 col. 2, line 19",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0107a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142048",
+          "sourceImageName": "GA_01_NT_0107a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 306, containing Acts 11:20 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 306; Acts 11:20 col. 2, line 19. The first hand has an anomalous form corresponding to ‘evangelists’; corrector ca supplies ‘Greeks.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Acts.11.20",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=51&chapter=11&lid=en&side=r&verse=20&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142048.html",
+        "evidence/iiif-info/GA_01_NT_0107a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-73": {
+      "commentaryPayloadSha256": "324399c84e2a716958212b32568f3b951dca6abe1b3f53d3596c6b20ac09b3d7",
+      "title": "Codex Sinaiticus at Acts 12:25",
+      "passage": "Acts 12:25",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 306b; Acts 12:25 col. 3, line 25",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0107b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142049",
+          "sourceImageName": "GA_01_NT_0107b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 306b, containing Acts 12:25 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 306b; Acts 12:25 col. 3, line 25. The first hand says Barnabas and Saul returned ‘to Jerusalem’ after completing the ministry.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Acts.12.25",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=51&chapter=12&lid=en&side=r&verse=25&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142049.html",
+        "evidence/iiif-info/GA_01_NT_0107b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-74": {
+      "commentaryPayloadSha256": "a2914c788f3052d0bf6f49fe577885e65126751595c35604ae10812d45e5e199",
+      "title": "Codex Sinaiticus at Acts 13:33",
+      "passage": "Acts 13:33",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 307; Acts 13:33 col. 4, line 13",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0108a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142050",
+          "sourceImageName": "GA_01_NT_0108a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 307, containing Acts 13:33 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 307; Acts 13:33 col. 4, line 13. The first hand identifies the quotation as written ‘in the second psalm.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Acts.13.33",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=51&chapter=13&lid=en&side=r&verse=33&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142050.html",
+        "evidence/iiif-info/GA_01_NT_0108a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-75": {
+      "commentaryPayloadSha256": "ce3dad052668b4784daac6951a1fb69322c16ee33ea2b5b89e0c29a272a0b9af",
+      "title": "Codex Sinaiticus at Acts 16:7",
+      "passage": "Acts 16:7",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 309; Acts 16:7 col. 1, line 22",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0110a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142054",
+          "sourceImageName": "GA_01_NT_0110a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 309, containing Acts 16:7 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 309; Acts 16:7 col. 1, line 22. The first hand explicitly reads ‘the Spirit of Jesus.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Acts.16.7",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=51&chapter=16&lid=en&side=r&verse=7&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142054.html",
+        "evidence/iiif-info/GA_01_NT_0110a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-76": {
+      "commentaryPayloadSha256": "d05c415c68ecaf1fcd7ad1a6d8a2f0f68f707af78b5fc8978b4d217a8392fdee",
+      "title": "Codex Sinaiticus at Romans 8:2",
+      "passage": "Romans 8:2",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 263b; Romans 8:2 col. 4, line 24",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0064b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141963",
+          "sourceImageName": "GA_01_NT_0064b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 263b, containing Romans 8:2 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 263b; Romans 8:2 col. 4, line 24. The first hand uses the second-person pronoun: the law of the Spirit of life ‘set you free.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Rom.8.2",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=37&chapter=8&lid=en&side=r&verse=2&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141963.html",
+        "evidence/iiif-info/GA_01_NT_0064b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-77": {
+      "commentaryPayloadSha256": "00f19367bf8dfa349fddb2c3d5a19afceedf763a3b10b990c67e342eb3f4f55b",
+      "title": "Codex Sinaiticus at Romans 8:28",
+      "passage": "Romans 8:28",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 264; Romans 8:28 col. 3, line 30",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0065a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141964",
+          "sourceImageName": "GA_01_NT_0065a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 264, containing Romans 8:28 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 264; Romans 8:28 col. 3, line 30. The first hand says that ‘all things work together for good’ for those who love God, without making God an explicit grammatical subject of the clause.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Rom.8.28",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=37&chapter=8&lid=en&side=r&verse=28&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141964.html",
+        "evidence/iiif-info/GA_01_NT_0065a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-78": {
+      "commentaryPayloadSha256": "f548aaab0a55ab1922c9b52233abc4112459d8a348f972a20cf068f2202f3baf",
+      "title": "Codex Sinaiticus at Romans 10:17",
+      "passage": "Romans 10:17",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 265; Romans 10:17 col. 2, line 30",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0066a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141966",
+          "sourceImageName": "GA_01_NT_0066a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 265, containing Romans 10:17 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 265; Romans 10:17 col. 2, line 30. The first hand reads ‘through the word of Christ’; corrector S1 changes Christ to God.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Rom.10.17",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=37&chapter=10&lid=en&side=r&verse=17&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141966.html",
+        "evidence/iiif-info/GA_01_NT_0066a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-79": {
+      "commentaryPayloadSha256": "3f3323c25b53a8ca51ec4c3d28331c8fb0c16885e5ee56217bc50a667a59b857",
+      "title": "Codex Sinaiticus at Romans 14:10",
+      "passage": "Romans 14:10",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 266b; Romans 14:10 col. 1, line 2",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0067b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141969",
+          "sourceImageName": "GA_01_NT_0067b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 266b, containing Romans 14:10 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 266b; Romans 14:10 col. 1, line 2. The first hand reads ‘the judgment seat of God’; corrector ca changes God to Christ.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Rom.14.10",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=37&chapter=14&lid=en&side=r&verse=10&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141969.html",
+        "evidence/iiif-info/GA_01_NT_0067b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-80": {
+      "commentaryPayloadSha256": "e4fcce334fdbde04136767bc28f86d2f0ca23ba9eec1ea6d06172212ba723165",
+      "title": "Codex Sinaiticus at 1 Corinthians 2:1",
+      "passage": "1 Corinthians 2:1",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 268; 1 Corinthians 2:1 col. 2, line 29",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0069a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141972",
+          "sourceImageName": "GA_01_NT_0069a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 268, containing 1 Corinthians 2:1 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 268; 1 Corinthians 2:1 col. 2, line 29. The first hand reads ‘the mystery of God’; corrector ca changes mystery to testimony.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.2.1",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=2&lid=en&side=r&verse=1&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141972.html",
+        "evidence/iiif-info/GA_01_NT_0069a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-81": {
+      "commentaryPayloadSha256": "8ec99fa2e6cb58133e90930e6e38df6d7c44d9d2bb7aa667153ffc75bfddcc1a",
+      "title": "Codex Sinaiticus at 1 Corinthians 6:20",
+      "passage": "1 Corinthians 6:20",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 269b; 1 Corinthians 6:20 col. 1, line 35",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0070b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141975",
+          "sourceImageName": "GA_01_NT_0070b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 269b, containing 1 Corinthians 6:20 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 269b; 1 Corinthians 6:20 col. 1, line 35. The first hand ends with the command to glorify God in the body and lacks the added spirit-and-ownership clause.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.6.20",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=6&lid=en&side=r&verse=20&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141975.html",
+        "evidence/iiif-info/GA_01_NT_0070b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-82": {
+      "commentaryPayloadSha256": "7ebda1a81b3e4a5a4f96cd874a80a69868b3ad6a4f18775d63d63b7180dadc6b",
+      "title": "Codex Sinaiticus at 1 Corinthians 10:9",
+      "passage": "1 Corinthians 10:9",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 270b; 1 Corinthians 10:9 col. 4, line 42",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0071b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141977",
+          "sourceImageName": "GA_01_NT_0071b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 270b, containing 1 Corinthians 10:9 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 270b; 1 Corinthians 10:9 col. 4, line 42. The first hand warns against testing ‘the Lord,’ not Christ.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.10.9",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=10&lid=en&side=r&verse=9&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141977.html",
+        "evidence/iiif-info/GA_01_NT_0071b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-83": {
+      "commentaryPayloadSha256": "9d5c908c32a6355d89f5f745aa75ac3b09810ea31934bdc88c903c04270bc71c",
+      "title": "Codex Sinaiticus at 1 Corinthians 11:24",
+      "passage": "1 Corinthians 11:24",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 271b; 1 Corinthians 11:24 col. 2, line 6",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0072b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141979",
+          "sourceImageName": "GA_01_NT_0072b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 271b, containing 1 Corinthians 11:24 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 271b; 1 Corinthians 11:24 col. 2, line 6. The first hand says ‘my body, which is for you’ without ‘broken’; corrector ca supplies ‘broken.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.11.24",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=11&lid=en&side=r&verse=24&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141979.html",
+        "evidence/iiif-info/GA_01_NT_0072b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-84": {
+      "commentaryPayloadSha256": "a5ebb62cfc2c76f3be4d74034467cdf82b10383425bd39b5a710c2f1cefa9041",
+      "title": "Codex Sinaiticus at 1 Corinthians 14:34–35",
+      "passage": "1 Corinthians 14:34–35",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 272b; 1 Corinthians 14:34 col. 4, line 26; 1 Corinthians 14:35 col. 4, line 32",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0073b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141981",
+          "sourceImageName": "GA_01_NT_0073b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 272b, containing 1 Corinthians 14:34–35 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 272b; 1 Corinthians 14:34 col. 4, line 26; 1 Corinthians 14:35 col. 4, line 32. The transcription places 1 Corinthians 14:34–35 directly after 14:33, not after verse 40.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.14.34",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=14&lid=en&side=r&verse=34&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141981.html",
+        "evidence/iiif-info/GA_01_NT_0073b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-85": {
+      "commentaryPayloadSha256": "3409c62eaaa64bfba45636876007aef5911f19f2581eea689ea6a04b4d98aa53",
+      "title": "Codex Sinaiticus at 1 Corinthians 15:49",
+      "passage": "1 Corinthians 15:49",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 273b; 1 Corinthians 15:49 col. 2, line 14",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0074b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141983",
+          "sourceImageName": "GA_01_NT_0074b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 273b, containing 1 Corinthians 15:49 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 273b; 1 Corinthians 15:49 col. 2, line 14. The first hand uses the exhortative form corresponding to ‘let us bear the image of the heavenly one.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.15.49",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=15&lid=en&side=r&verse=49&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141983.html",
+        "evidence/iiif-info/GA_01_NT_0074b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-86": {
+      "commentaryPayloadSha256": "50f9a07d50291dc299450b64b13a506703beb485c78f8b2905343dd9a2fbdc7a",
+      "title": "Codex Sinaiticus at 1 Corinthians 15:51",
+      "passage": "1 Corinthians 15:51",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 273b; 1 Corinthians 15:51 col. 2, line 28",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0074b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141983",
+          "sourceImageName": "GA_01_NT_0074b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 273b, containing 1 Corinthians 15:51 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 273b; 1 Corinthians 15:51 col. 2, line 28. The first hand reads ‘we shall all sleep, but we shall not all be changed.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Cor.15.51",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=38&chapter=15&lid=en&side=r&verse=51&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141983.html",
+        "evidence/iiif-info/GA_01_NT_0074b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-87": {
+      "commentaryPayloadSha256": "f821a3a8ad5a56115a40f13506ab219325e2af4bb7060d13b722b5386bf6929b",
+      "title": "Codex Sinaiticus at 2 Corinthians 1:12",
+      "passage": "2 Corinthians 1:12",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 274; 2 Corinthians 1:12 col. 4, line 40",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0075a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141984",
+          "sourceImageName": "GA_01_NT_0075a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 274, containing 2 Corinthians 1:12 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 274; 2 Corinthians 1:12 col. 4, line 40. The first hand reads ‘in holiness and sincerity’; corrector ca changes holiness to simplicity.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=2Cor.1.12",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=39&chapter=1&lid=en&side=r&verse=12&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141984.html",
+        "evidence/iiif-info/GA_01_NT_0075a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-88": {
+      "commentaryPayloadSha256": "03e8de9df42c317ab292ada8a55b6751f4b61bdf2d9ea3c8fe3905e9aa31ef9c",
+      "title": "Codex Sinaiticus at Galatians 5:19",
+      "passage": "Galatians 5:19",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 280; Galatians 5:19 col. 4, line 42",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0081a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141996",
+          "sourceImageName": "GA_01_NT_0081a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 280, containing Galatians 5:19 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 280; Galatians 5:19 col. 4, line 42. The first hand begins the list with sexual immorality and lacks a separate term for adultery; corrector ca adds it.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Gal.5.19",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=40&chapter=5&lid=en&side=r&verse=19&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141996.html",
+        "evidence/iiif-info/GA_01_NT_0081a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-89": {
+      "commentaryPayloadSha256": "426e3e2f917f982a48eb8f829bcce7084946297abd570397a3c69039e157ae2a",
+      "title": "Codex Sinaiticus at Ephesians 1:1",
+      "passage": "Ephesians 1:1",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 280b; Ephesians 1:1 col. 4, line 1",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0081b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "141997",
+          "sourceImageName": "GA_01_NT_0081b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 280b, containing Ephesians 1:1 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 280b; Ephesians 1:1 col. 4, line 1. The first hand has no destination after ‘the saints who are’; corrector ca supplies ‘in Ephesus.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Eph.1.1",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=41&chapter=1&lid=en&side=r&verse=1&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/141997.html",
+        "evidence/iiif-info/GA_01_NT_0081b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-90": {
+      "commentaryPayloadSha256": "8ceab119072d03c728e444cc69b6606d905b29fb73fa2befac2982f881a9cc70",
+      "title": "Codex Sinaiticus at Philippians 1:14",
+      "passage": "Philippians 1:14",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 283; Philippians 1:14 col. 4, line 24",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0084a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142002",
+          "sourceImageName": "GA_01_NT_0084a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 283, containing Philippians 1:14 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 283; Philippians 1:14 col. 4, line 24. The first hand explicitly reads ‘speak the word of God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Phil.1.14",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=42&chapter=1&lid=en&side=r&verse=14&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142002.html",
+        "evidence/iiif-info/GA_01_NT_0084a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-91": {
+      "commentaryPayloadSha256": "7a11ce191b538125fff6880c9d99cba95c836ec388d8f3feeda2a4e068187745",
+      "title": "Codex Sinaiticus at Colossians 2:18",
+      "passage": "Colossians 2:18",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 285b; Colossians 2:18 col. 2, line 21",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0086b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142007",
+          "sourceImageName": "GA_01_NT_0086b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 285b, containing Colossians 2:18 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 285b; Colossians 2:18 col. 2, line 21. The first hand describes the person as entering into what he has seen; corrector ca adds the negation ‘not.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Col.2.18",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=43&chapter=2&lid=en&side=r&verse=18&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142007.html",
+        "evidence/iiif-info/GA_01_NT_0086b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-92": {
+      "commentaryPayloadSha256": "52b42e5b4a590c2c372c1bc890f358373746cecba05344725e49acd1213f2107",
+      "title": "Codex Sinaiticus at 2 Thessalonians 2:13",
+      "passage": "2 Thessalonians 2:13",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 288; 2 Thessalonians 2:13 col. 4, line 18",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0089a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142012",
+          "sourceImageName": "GA_01_NT_0089a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 288, containing 2 Thessalonians 2:13 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 288; 2 Thessalonians 2:13 col. 4, line 18. The first hand reads that God chose the recipients ‘from the beginning,’ not ‘as firstfruits.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=2Thess.2.13",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=45&chapter=2&lid=en&side=r&verse=13&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142012.html",
+        "evidence/iiif-info/GA_01_NT_0089a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-93": {
+      "commentaryPayloadSha256": "27e2603adf57b6b753439896b9e28301c6ca8351852129dbe3597078bc95d93c",
+      "title": "Codex Sinaiticus at 2 Timothy 2:14",
+      "passage": "2 Timothy 2:14",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 296; 2 Timothy 2:14 col. 2, line 28",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0097a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142028",
+          "sourceImageName": "GA_01_NT_0097a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 296, containing 2 Timothy 2:14 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 296; 2 Timothy 2:14 col. 2, line 28. The first hand charges the hearers ‘before God,’ not before the Lord.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=2Tim.2.14",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=48&chapter=2&lid=en&side=r&verse=14&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142028.html",
+        "evidence/iiif-info/GA_01_NT_0097a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-94": {
+      "commentaryPayloadSha256": "ba489fcd6a0cec367d0dcf11db719b2376b5477cfe459b50d5002738b66f577c",
+      "title": "Codex Sinaiticus at Titus 2:7",
+      "passage": "Titus 2:7",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 297; Titus 2:7 col. 4, line 34",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0098a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142030",
+          "sourceImageName": "GA_01_NT_0098a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 297, containing Titus 2:7 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 297; Titus 2:7 col. 4, line 34. The first hand has the shorter sequence corresponding to integrity and dignity and lacks the additional incorruptibility term found in the longer displayed form.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Titus.2.7",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=49&chapter=2&lid=en&side=r&verse=7&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142030.html",
+        "evidence/iiif-info/GA_01_NT_0098a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-95": {
+      "commentaryPayloadSha256": "f8f92fb358a5c6f1e9611d96024d420879e47fb15a693b3db9593b61b41466a2",
+      "title": "Codex Sinaiticus at Philemon 1:6",
+      "passage": "Philemon 1:6",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 297b; Philemon 1:6 col. 4, line 25",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0098b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142031",
+          "sourceImageName": "GA_01_NT_0098b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 297b, containing Philemon 1:6 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 297b; Philemon 1:6 col. 4, line 25. The first hand reads ‘every good thing in you toward Christ’; corrector ca adds the explicit name Jesus after Christ.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Phlm.1.6",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=50&chapter=1&lid=en&side=r&verse=6&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142031.html",
+        "evidence/iiif-info/GA_01_NT_0098b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-96": {
+      "commentaryPayloadSha256": "200f89209bbe19eae2436c95daf61d5f80aec7b2019d79bc3bd1d6b324d18c56",
+      "title": "Codex Sinaiticus at Hebrews 10:34",
+      "passage": "Hebrews 10:34",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 292; Hebrews 10:34 col. 3, line 8",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0093a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142020",
+          "sourceImageName": "GA_01_NT_0093a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 292, containing Hebrews 10:34 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 292; Hebrews 10:34 col. 3, line 8. The first hand reads ‘you sympathized with my chains’ and lacks ‘in heaven’; corrector ca supplies the heavenly-location phrase.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Heb.10.34",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=46&chapter=10&lid=en&side=r&verse=34&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142020.html",
+        "evidence/iiif-info/GA_01_NT_0093a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-97": {
+      "commentaryPayloadSha256": "02c4789e352a4afb2bc8bd145e58ba46e3507e953d06da5e3967126f79626592",
+      "title": "Codex Sinaiticus at Hebrews 4:2",
+      "passage": "Hebrews 4:2",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 289b; Hebrews 4:2 col. 3, line 1",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0090b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142015",
+          "sourceImageName": "GA_01_NT_0090b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 289b, containing Hebrews 4:2 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 289b; Hebrews 4:2 col. 3, line 1. The first hand uses the singular form that describes the heard message as not mixed or united with faith.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Heb.4.2",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=46&chapter=4&lid=en&side=r&verse=2&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142015.html",
+        "evidence/iiif-info/GA_01_NT_0090b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-98": {
+      "commentaryPayloadSha256": "fd814ac66fdd57de207267196442193692606fe21bd45516324af26fb1d6d7ea",
+      "title": "Codex Sinaiticus at Hebrews 11:11",
+      "passage": "Hebrews 11:11",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 292b; Hebrews 11:11 col. 1, line 22",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0093b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142021",
+          "sourceImageName": "GA_01_NT_0093b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 292b, containing Hebrews 11:11 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 292b; Hebrews 11:11 col. 1, line 22. The first hand presents Sarah as the subject who received power for conception and lacks an explicit childbirth verb; corrector ca adds ‘she gave birth.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Heb.11.11",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=46&chapter=11&lid=en&side=r&verse=11&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142021.html",
+        "evidence/iiif-info/GA_01_NT_0093b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-99": {
+      "commentaryPayloadSha256": "9bd2ed9db382cd0a0c55e2496cc72eddd848dde2758899859527db1aef113411",
+      "title": "Codex Sinaiticus at James 4:4",
+      "passage": "James 4:4",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 318b; James 4:4 col. 2, line 5",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0119b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142073",
+          "sourceImageName": "GA_01_NT_0119b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 318b, containing James 4:4 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 318b; James 4:4 col. 2, line 5. The first hand addresses ‘adulteresses’ alone; corrector ca adds ‘adulterers and.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Jas.4.4",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=52&chapter=4&lid=en&side=r&verse=4&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142073.html",
+        "evidence/iiif-info/GA_01_NT_0119b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-100": {
+      "commentaryPayloadSha256": "fb26fa0362c7a4a1509ae047ea877e7e37562b26d2cf2b579d50c209850f42a0",
+      "title": "Codex Sinaiticus at 1 Peter 2:2",
+      "passage": "1 Peter 2:2",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 319b; 1 Peter 2:2 col. 2, line 23",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0120b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142075",
+          "sourceImageName": "GA_01_NT_0120b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 319b, containing 1 Peter 2:2 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 319b; 1 Peter 2:2 col. 2, line 23. The first hand includes the goal phrase ‘into salvation.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Pet.2.2",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=53&chapter=2&lid=en&side=r&verse=2&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142075.html",
+        "evidence/iiif-info/GA_01_NT_0120b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-101": {
+      "commentaryPayloadSha256": "6bf03cbaf8d033b280fcf267217a85cf4d173cec1375bc950b43de0458b4d373",
+      "title": "Codex Sinaiticus at 1 Peter 3:15",
+      "passage": "1 Peter 3:15",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 320; 1 Peter 3:15 col. 3, line 33",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0121a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142076",
+          "sourceImageName": "GA_01_NT_0121a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 320, containing 1 Peter 3:15 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 320; 1 Peter 3:15 col. 3, line 33. The first hand reads ‘sanctify Christ as Lord’ in the heart, not ‘the Lord God.’",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=1Pet.3.15",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=53&chapter=3&lid=en&side=r&verse=15&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142076.html",
+        "evidence/iiif-info/GA_01_NT_0121a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-102": {
+      "commentaryPayloadSha256": "c14a2764343d121b46053fde3f2b81c425087393aa8f93a778ccb4c8cda3874b",
+      "title": "Codex Sinaiticus at 2 John 1:8",
+      "passage": "2 John 1:8",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 324b; 2 John 1:8 col. 1, line 3",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0125b.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142085",
+          "sourceImageName": "GA_01_NT_0125b.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 324b, containing 2 John 1:8 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 324b; 2 John 1:8 col. 1, line 3. The first hand uses second-person forms, addressing what the recipients worked for and what they may receive.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=2John.1.8",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=56&chapter=1&lid=en&side=r&verse=8&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142085.html",
+        "evidence/iiif-info/GA_01_NT_0125b.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-103": {
+      "commentaryPayloadSha256": "f5c8acf73cbda6254b17a39478edf688fb9b860072a91af730e3772939c16554",
+      "title": "Codex Sinaiticus at Jude 1:22–23",
+      "passage": "Jude 1:22–23",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 325; Jude 1:22 col. 3, line 31; Jude 1:23 col. 3, line 33",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0126a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142086",
+          "sourceImageName": "GA_01_NT_0126a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 325, containing Jude 1:22–23 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 325; Jude 1:22 col. 3, line 31; Jude 1:23 col. 3, line 33. The first hand distinguishes three groups: some receive mercy while doubting, some are rescued from fire, and others receive mercy with fear.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Jude.1.22",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=58&chapter=1&lid=en&side=r&verse=22&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142086.html",
+        "evidence/iiif-info/GA_01_NT_0126a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    },
+    "candidate-104": {
+      "commentaryPayloadSha256": "fcb1776d0ce04bbd9791409099480aa0ce900329818c66bf7769dfcc5dbc7bad",
+      "title": "Codex Sinaiticus at Revelation 13:18",
+      "passage": "Revelation 13:18",
+      "manuscript": {
+        "name": "Codex Sinaiticus",
+        "gregoryAland": "GA 01/א",
+        "date": "4th century",
+        "holdingInstitution": "British Library",
+        "shelfmark": "Add MS 43725",
+        "locator": "local folio 330; Revelation 13:18 col. 3, line 15",
+        "imageType": "CSNTM digital facsimile"
+      },
+      "images": [
+        {
+          "asset": "originals/GA_01_NT_0131a.jpg",
+          "width": 3744,
+          "height": 5616,
+          "sourceImageId": "142096",
+          "sourceImageName": "GA_01_NT_0131a.jpg",
+          "alt": "Complete four-column facsimile page of Codex Sinaiticus, local folio 330, containing Revelation 13:18 or its immediately surrounding text."
+        }
+      ],
+      "caption": "Codex Sinaiticus (GA 01/א), British Library Add MS 43725, local folio 330; Revelation 13:18 col. 3, line 15. The first hand writes the number as six hundred sixty-six, not six hundred sixteen.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "credit": "Image via CSNTM from the J. T. and Zelma Luther Archives, A. Webb Roberts Library, Southwestern Baptist Theological Seminary; manuscript held by the British Library, Add MS 43725. Transcription verification: Codex Sinaiticus Project.",
+      "reuseStatement": "Used in Ad Fontes NT under the project owner’s recorded 2026-09-12 authorization for this free educational web and offline desktop distribution; no broader reuse is granted by Ad Fontes NT.",
+      "sourceUrl": "https://manuscripts.csntm.org/manuscript/Group/GA_01?OSIS=Rev.13.18",
+      "transcriptionUrl": "https://codexsinaiticus.org/en/manuscript.aspx?book=59&chapter=13&lid=en&side=r&verse=18&zoomSlider=0",
+      "evidence": [
+        "evidence/image-details/142096.html",
+        "evidence/iiif-info/GA_01_NT_0131a.jpg.json",
+        "sinaiticus-evidence.json"
+      ]
+    }
+  }
+}

@@ -28,10 +28,16 @@ test('visual source release is exact-hash approved and independently verifies', 
   assert.equal(approval.approvedBy, 'Larry Herzog Jr.');
   assert.equal(selection.releaseId, releaseId);
   assert.equal(selection.candidateSha256, expectedCandidate);
-  assert.deepEqual(selection.supplements, [{
-    releaseId: 'csntm-sinaiticus-2026-09-12-v2',
-    candidateSha256: '6bbbd387d8faff05c2c64aba32c8b2a48e11d4ea47ad434f4beddd713a318170',
-  }]);
+  assert.deepEqual(selection.supplements, [
+    {
+      releaseId: 'csntm-sinaiticus-2026-09-12-v2',
+      candidateSha256: '6bbbd387d8faff05c2c64aba32c8b2a48e11d4ea47ad434f4beddd713a318170',
+    },
+    {
+      releaseId: 'csntm-sinaiticus-expansion-2026-09-13-v2',
+      candidateSha256: 'f707f4e5d20977c833dd3410ca11f1127dd38e0f8b49212ed4028652d4ee36e4',
+    },
+  ]);
 });
 
 test('approved plates retain source limits and current commentary bindings', async () => {
@@ -77,6 +83,7 @@ test('reader exposes accessible complete-page enlargement without remote image c
   const dialog = await readFile('app/components/ui/dialog.tsx', 'utf8');
   const panel = await readFile('app/reader/study-panel.tsx', 'utf8');
   assert.match(component, /Manuscript evidence plate/);
+  assert.match(component, /Array\.from\(\{ length: 104 \}/);
   assert.match(component, /What this demonstrates/);
   assert.match(component, /What it cannot establish/);
   assert.match(component, /complete artifact view/);
