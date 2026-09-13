@@ -56,12 +56,13 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the RC12 candidate installers', async () => {
+test('public desktop download page exposes only the RC13 candidate installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
   assert.match(page, /Desktop release candidate/);
-  assert.match(page, /1\.0\.0-rc\.12/);
-  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.12\.dmg/);
-  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.12\.exe/);
+  assert.match(page, /1\.0\.0-rc\.13/);
+  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.13\.dmg/);
+  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.13\.exe/);
+  assert.match(page, /direct return from textual comparisons to the\s+Library/);
   assert.match(page, /private account-backed notes\s+remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
@@ -70,13 +71,13 @@ test('public desktop download page exposes only the RC12 candidate installers', 
   await stat('app/public/og-downloads.png');
 });
 
-test('public project status distinguishes RC12 from final v1.0', async () => {
+test('public project status distinguishes RC13 from final v1.0', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /defined Ad Fontes NT MVP and all five milestones are accepted/);
   assert.match(reader, /does not rename the release-candidate bytes to final/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 1\.0\.0-rc\.12 is the current cross-platform desktop\s+candidate/);
+  assert.match(reader, /Version 1\.0\.0-rc\.13 is the current cross-platform desktop\s+candidate/);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);
   assert.match(reader, /separate exact-artifact review and approval workflow/);

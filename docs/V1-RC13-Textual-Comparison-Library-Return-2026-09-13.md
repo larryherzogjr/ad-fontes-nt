@@ -2,7 +2,7 @@
 
 Date: 2026-09-13
 
-Status: prepared and locally verified; RC12 remains the current published release
+Status: corrected successor source prepared; first unpublished artifacts superseded; RC12 remains published
 
 ## Scope
 
@@ -44,12 +44,78 @@ published rollback release.
 
 ## Remaining gates
 
-This preparation does not authorize a source push, native package build,
-signing, notarization, updater-manifest change, publication or deployment. The
-next gate is owner review and approval of the exact source commit. If approved,
-macOS and Windows packages must be built from that exact source and independently
-verified before a separately approved updater manifest and coordinated web
-publication.
+Larry approved exact source commit
+`f0f100038c53ef13f011247455ad90fafab80270`. It was pushed to private `main`,
+and the remote branch independently resolved to the same hash.
+
+## Superseded first source and native artifacts
+
+- Apple application notarization submission:
+  `012728f3-6428-43a1-86d8-f25d2656c5da` (Accepted).
+- Apple DMG notarization submission:
+  `a6acb741-8f7e-4d6b-990c-6adad8562ab4` (Accepted).
+- macOS public DMG SHA-256:
+  `b58eba7f69c288cc18e779305bba13c90e258c0f264598f630226cb8f1290300`.
+- macOS updater archive SHA-256:
+  `077a4e58519d92c1dbe1fabc6c47ce762e50f751af6c59bf5219ab577b4d515b`.
+- macOS updater signature-file SHA-256:
+  `c734c34e78b0b0fc2a6f390cfbd10802d1eadf9ce3996cceaca3a7c307577031`.
+- Windows GitHub run: `34748192660`; clean shared verification, Azure OIDC,
+  Artifact Signing Public Trust, RFC 3161 timestamping, Authenticode
+  verification and artifact upload passed.
+- Windows installer/updater SHA-256:
+  `9d5076904abe4919931f2b7c1f2074d068e2789d75713437ba5a584a5e0cdc86`.
+- Windows updater signature-file SHA-256:
+  `21f58b00c0cdd9606be61d5e6f3f31e8bfed5352af76d97c408bf364b6de76ee`.
+- GitHub artifact ZIP digest:
+  `sha256:7352da98c1ccc30c4d674d48cc462c285e953b1714049e2a29ee9c425c9abf6c`.
+
+The permanent updater public key matched the release configuration. Independent
+macOS verification reproduced the three hashes, confirmed version
+`1.0.0-rc.13` and arm64 architecture, and passed strict/deep code signing,
+Gatekeeper assessment, stapler validation and DMG checksum validation. A
+read-only mount of the final DMG repeated the version, architecture, signing,
+Gatekeeper and stapled-notarization checks against the packaged application.
+
+## Superseded first updater candidate
+
+The combined immutable staging reproduces both updater payload hashes and passes
+every entry in `SHA256SUMS`. It has publication date
+`2026-09-13T09:06:02Z` and release note: “Adds a direct return from textual
+comparisons to the Library while preserving Close-to-Scripture.”
+
+- `stable/latest.json` SHA-256:
+  `a31f4ebaef6d020e59d1ba01cf0bec2dc116e6349b5a8a2643b466bddb4ba829`.
+- `SHA256SUMS` SHA-256:
+  `c813b52941a2bd4ca3413e95905a6ac2f269f5bc3dedb16bf127868150b51752`.
+
+Larry approved that exact manifest hash and its associated signed artifacts.
+During the subsequent artifact-pin review, the reader source was found to retain
+the visible sentence “Version 1.0.0-rc.12 is the current cross-platform desktop
+candidate.” The requested navigation behavior and all signed-package checks were
+correct, but publishing an RC13 package with that stale status label would be
+misleading. These first unpublished artifacts and their manifest are therefore
+explicitly superseded and must not be published.
+
+The corrected successor source identifies RC13 consistently in the in-reader
+project status and Downloads page. It requires a new exact source approval,
+clean macOS and Windows package builds, independent platform verification and a
+new exact updater-manifest approval. A later artifact-pin commit, publication,
+coordinated web deployment and independent live verification remain separate
+gates.
+
+## Corrected successor verification
+
+- `npm run verify:both` passed TypeScript checking, deterministic publication,
+  72 Node and 20 Python tests, the production web build, staging of all 13,473
+  released offline files, the desktop web build and six offline desktop tests.
+- A rendered offline-desktop check confirmed both the textual-comparison return
+  link and the exact `Version 1.0.0-rc.13 is the current cross-platform desktop
+  candidate` project-status sentence. No browser-console warning or error was
+  reported.
+- The first corrected pass exposed only a regression-test-sensitive JSX line
+  wrap in unchanged Downloads prose. Aligning that source wrap produced the
+  clean final verification run; it did not alter visible wording or behavior.
 
 Until those gates pass, the public Downloads page, stable updater manifest,
 hosted web application and published desktop packages remain RC12.
