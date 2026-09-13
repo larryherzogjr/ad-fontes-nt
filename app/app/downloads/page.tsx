@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes NT',
-  description: 'Download the Ad Fontes NT desktop release candidate for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes NT 1.0.0 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,20 +28,19 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.13/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.13.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0-rc.13/Ad-Fontes-NT-Windows-x64-1.0.0-rc.13.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0/Ad-Fontes-NT-Windows-x64-1.0.0.exe';
 
 export default function DownloadsPage() {
   return (
-    <PublicPage eyebrow="Desktop release candidate" title="Download Ad Fontes NT">
+    <PublicPage eyebrow="Desktop release" title="Download Ad Fontes NT">
       <p>
-        Version 1.0.0-rc.13 adds a direct return from textual comparisons to the
-        Library while preserving the existing Close-to-Scripture action. It also
-        brings all 104 reviewed textual comparisons, their manuscript evidence,
-        and the Ad Fontes NT reader and study tools to your desktop for offline
-        reading. Choose the package for your computer. Public reading does not
-        require an account; private account-backed notes
-        remain available in the web app.
+        Version 1.0.0 brings all 104 reviewed textual comparisons, their
+        manuscript evidence, the 250 Greek word studies, the 5,400-entry Greek
+        lexicon, and the Ad Fontes NT reader and study tools to your desktop for
+        offline reading. Choose the package for your computer. Public reading
+        does not require an account; private account-backed notes remain
+        available in the web app.
       </p>
 
       <div className="download-options">
@@ -72,10 +71,10 @@ export default function DownloadsPage() {
         On Windows, open the downloaded installer and follow its prompts.
       </p>
 
-      <h2>Release-candidate notice</h2>
+      <h2>Release notes</h2>
       <p>
-        This is the tested cross-platform candidate for the public v1.0 release.
-        The application checks for future stable updates and asks before downloading
+        This is the public 1.0.0 release for the supported systems above. The
+        application checks for future stable updates and asks before downloading
         or installing them.
       </p>
 

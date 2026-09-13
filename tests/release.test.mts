@@ -56,14 +56,16 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the RC13 candidate installers', async () => {
+test('public desktop download page exposes only the final 1.0.0 installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
-  assert.match(page, /Desktop release candidate/);
-  assert.match(page, /1\.0\.0-rc\.13/);
-  assert.match(page, /Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0-rc\.13\.dmg/);
-  assert.match(page, /Ad-Fontes-NT-Windows-x64-1\.0\.0-rc\.13\.exe/);
-  assert.match(page, /direct return from textual comparisons to the\s+Library/);
-  assert.match(page, /private account-backed notes\s+remain available in the web app/);
+  assert.match(page, /Desktop release/);
+  assert.doesNotMatch(page, /release candidate/i);
+  assert.match(page, /beta-downloads\/1\.0\.0\/Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0\.dmg/);
+  assert.match(page, /beta-downloads\/1\.0\.0\/Ad-Fontes-NT-Windows-x64-1\.0\.0\.exe/);
+  assert.match(page, /all 104 reviewed textual comparisons/);
+  assert.match(page, /250 Greek word studies/);
+  assert.match(page, /5,400-entry Greek\s+lexicon/);
+  assert.match(page, /private account-backed notes remain\s+available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
   assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20260911/);
@@ -71,15 +73,15 @@ test('public desktop download page exposes only the RC13 candidate installers', 
   await stat('app/public/og-downloads.png');
 });
 
-test('public project status distinguishes RC13 from final v1.0', async () => {
+test('public project status identifies the final 1.0.0 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /defined Ad Fontes NT MVP and all five milestones are accepted/);
-  assert.match(reader, /does not rename the release-candidate bytes to final/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 1\.0\.0-rc\.13 is the current cross-platform desktop\s+candidate/);
+  assert.match(reader, /Version 1\.0\.0 is the current cross-platform desktop release/);
+  assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);
-  assert.match(reader, /separate exact-artifact review and approval workflow/);
+  assert.match(reader, /separate exact-artifact review\s+and approval workflow/);
   assert.doesNotMatch(reader, /Pilot and release verification are next/);
 });

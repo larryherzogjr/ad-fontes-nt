@@ -1,4 +1,4 @@
-name: Windows desktop signed release candidate
+name: Windows desktop signed release
 
 on:
   workflow_dispatch:
@@ -45,7 +45,7 @@ jobs:
           if-no-files-found: error
 
   windows:
-    name: Sign and build Windows x64 release candidate
+    name: Sign and build Windows x64 release
     needs: shared-build
     runs-on: windows-2022
     timeout-minutes: 60
@@ -151,7 +151,7 @@ jobs:
           }
       - name: Build signed NSIS installer and updater payload
         run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
-      - name: Verify and collect signed release candidate
+      - name: Verify and collect signed release
         shell: pwsh
         run: |
           $bundle = 'app/desktop/src-tauri/target/release/bundle'

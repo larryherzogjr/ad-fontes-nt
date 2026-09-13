@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build, notarize and verify the Apple Silicon release candidate on a trusted Mac.
+# Build, notarize and verify the Apple Silicon release on a trusted Mac.
 set -euo pipefail
 repo=$(cd "$(dirname "$0")/.." && pwd)
 cd "$repo"

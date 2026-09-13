@@ -1065,17 +1065,16 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               personal notes.
             </p>
             <p>
-              Version 1.0.0-rc.13 is the current cross-platform desktop
-              candidate. The macOS Apple Silicon package is Developer ID signed
+              Version 1.0.0 is the current cross-platform desktop release. The
+              macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on
               the <a href="/downloads">Downloads page</a>. Private
               account-backed notes remain available only in the web app.
             </p>
             <p>
-              MVP acceptance does not rename the release-candidate bytes to final
-              v1.0. A final-version promotion or successor release still uses
-              the separate exact-artifact review and approval workflow.
+              Future releases continue to use the separate exact-artifact review
+              and approval workflow.
             </p>
           </section>
         )}

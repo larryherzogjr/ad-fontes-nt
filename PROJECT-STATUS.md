@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-13 — Final 1.0.0 release preparation authorized (AFNT-116)
+
+- Larry directed that the current release be marked `1.0.0` and authorized proceeding with the final-release workflow. This prepares new final web/macOS/Windows bytes; it does not rename RC13 artifacts or reuse their exact-hash approvals.
+- Coordinated npm, Cargo and Tauri version metadata now identifies `1.0.0`. The Downloads and in-reader project-status copy identify a public release instead of a release candidate, retain the supported macOS Apple Silicon and Windows 11 x64 boundaries, and link to versioned 1.0.0 installer paths.
+- Full preparation verification passed TypeScript checking, deterministic imports/publication, 72 Node and 20 Python tests, the production web build, all 13,473 staged offline files, the desktop web build and six offline desktop tests. Rendered web checks confirmed the final Downloads/Sources presentation and a 390-pixel Downloads layout without overflow. The offline desktop check confirmed the dark evidence-plate hover state, complete-artifact open/Escape-close behavior, the Textual Comparisons Library return link and no browser warnings or errors.
+- [The final release record](docs/V1-Final-Release-2026-09-13.md) preserves the scope and required gates. Exact source approval, signed native builds, exact combined updater-manifest approval, artifact-pin approval, publication, independent live verification, and the 48-hour soft-launch observation remain to be completed. RC13 remains the live immutable release until publication succeeds.
+
 ## 2026-09-13 — External comparison audit copy and evidence-plate hover correction (AFNT-115)
 
 - Generated a downloadable external-audit DOCX containing all 104 published Textual Comparisons in canonical New Testament order. Each record includes the exact published title and prose, seven frozen edition rows, pinned publisher notes where applicable, complete explanation sources, provenance, and its approved local Sinaiticus evidence plate. The generated review artifact remains outside Git and does not alter any approved editorial or source payload.
