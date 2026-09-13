@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: exact cross-platform candidate approved for publication preparation; not published or deployed
+Status: published and independently verified; RC9 retained as immutable rollback
 
 ## Scope
 
@@ -87,7 +87,7 @@ key-mismatch warning. A read-only mount of the final DMG independently verified
 version `1.0.0-rc.10`, arm64 architecture, strict/deep code signing, Gatekeeper
 acceptance and the stapled notarization ticket.
 
-## Exact updater approval and remaining gates
+## Exact updater approval and publication result
 
 The combined immutable staging reproduces both updater payload hashes and
 passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
@@ -97,9 +97,33 @@ passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
 Larry explicitly approved that manifest hash and its associated signed macOS
 and Windows artifacts for publication preparation.
 
-The remaining gates are review and push of the artifact-pin commit, explicit
-publication/deployment authorization, host staging, immutable updater and
-public-installer publication, coordinated web deployment, and independent live
-verification. RC9 remains the published rollback release. Final v1.0 is not
-claimed, and the current approval does not itself authorize hosted-server
-changes.
+Larry subsequently approved artifact-pin commit
+`94ad52db295cf80c3e152a5cf960504466c871e0`, then explicitly authorized
+publication of the approved updater payloads, manifest and public installers
+followed by the coordinated web deployment from that exact private `main`
+commit.
+
+The host verified the staged updater and installer bytes before publication,
+published the immutable `1.0.0-rc.10` updater release and stable manifest,
+published both public installers, and rebuilt the isolated web application.
+The deployment retained database backup
+`backups/adfontes-before-update-20260913T040101Z.dump`; both containers became
+healthy and `/api/health` returned `{"ok":true}`.
+
+Independent external verification downloaded the five live public files in
+full. Their SHA-256 values reproduced the approved manifest, macOS updater,
+Windows updater/installer, macOS DMG and public Windows installer identities
+recorded above. HTTP checks passed stable-manifest `no-store`, immutable caching
+for versioned updater payloads, attachment/noindex/security and byte-range
+headers, 403 directory-listing guards and a 404 unknown-updater-path guard. The
+host checkout independently reported exact deployed source
+`94ad52db295cf80c3e152a5cf960504466c871e0`.
+
+Rendered live checks confirmed the 39-comparison Library, RC10 Downloads and
+Sources status, representative first/multiple-witness and last/publisher-note
+articles, direct-link reload state, accessible textual edition-summary
+equivalents, locally served evidence images, captions and evidence limits,
+keyboard enlargement, Escape dismissal, trigger-focus restoration and zero
+browser-console errors. The responsive 390×844 and offline desktop cases remain
+covered by the exact-source pre-publication verification above. RC10 is current;
+RC9 remains immutable as rollback. Final v1.0 is not claimed.
