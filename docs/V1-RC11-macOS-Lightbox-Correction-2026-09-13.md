@@ -2,7 +2,7 @@
 
 Date: 2026-09-13
 
-Status: source candidate prepared locally; RC10 remains the published immutable release
+Status: exact cross-platform candidate approved for publication preparation; RC10 remains published
 
 ## Scope
 
@@ -41,19 +41,49 @@ changes. RC10 remains intact as rollback.
   all 13,412 released offline files and six desktop tests. The existing
   non-fatal desktop bundle-size warning remains.
 
-## Release gates
+## Exact source and native artifacts
 
-This record does not authorize a push, signed build, artifact publication, web
-deployment or hosted-server change. Delivery requires the established sequence:
+- Source commit: `c6c9da8b8a19e391105bc6b104e2791056daa9d9`.
+- Private `main` independently resolved to that exact commit before native
+  packaging.
+- Apple application notarization submission:
+  `108b07d8-7a36-427d-9b4d-73383b146686` (Accepted).
+- Apple DMG notarization submission:
+  `90d5a3e7-1061-431c-9257-ba9afd32174b` (Accepted).
+- macOS public DMG SHA-256:
+  `b7823dc4d4b3819770668d84485caa4b736eb022efd2b03ebdabb46f9fb489f0`.
+- macOS updater archive SHA-256:
+  `32ea4d0892089581424f78f29eec1a20f568f125c0dfa4d8029be75bcc4840dc`.
+- macOS updater signature-file SHA-256:
+  `4fd9047ce87109c04382aed504aecacae391036b9484108d44ac53c4ef8ecbd0`.
+- Windows GitHub run: `34741424552`; shared verification, Azure OIDC,
+  Artifact Signing Public Trust, RFC 3161 timestamping, Authenticode
+  verification and artifact upload passed.
+- Windows installer/updater SHA-256:
+  `98a32ae5c941b77e22468b69747dcd538330f14dcd3a6a30fee1b9b2591ac742`.
+- Windows updater signature-file SHA-256:
+  `c4433da224b3259c2c49eee8275d19459ec454469dc6557d65c3620dd47220f4`.
+- GitHub artifact ZIP digest:
+  `sha256:ed03cc8932c9c2233902167003a07ae772e2a8a31348735999a5665f5533f453`.
 
-1. exact source-commit review and approval, then fast-forward push to private
-   `main`;
-2. signed/notarized Apple Silicon and Public Trust-signed Windows builds from
-   that exact source;
-3. combined immutable staging and exact updater-manifest/artifact approval;
-4. artifact-pin source commit and approval;
-5. explicit publication and coordinated web-deployment authorization; and
-6. independent live hash, header, health, rendered and updater verification.
+The permanent updater public key matched the key embedded in the release
+configuration. A read-only mount of the final DMG independently verified
+version `1.0.0-rc.11`, arm64 architecture, strict/deep code signing, Gatekeeper
+acceptance and the stapled notarization ticket.
 
-The RC10 stable manifest, updater payloads and public installers remain
-unchanged until those gates are completed.
+## Exact updater approval and remaining gates
+
+The combined immutable staging reproduces both updater payload hashes and
+passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
+`fed9806eb3292859cd85cd6417db9bbb2139f98c592dfec4d71ab02b543fe747`;
+`SHA256SUMS` SHA-256 is
+`2d5795d075b038fdf2e9945e86d58e46052c1bdd3c3bc7f0bfacaeb759cd80af`.
+Larry explicitly approved that manifest hash and its associated signed macOS
+and Windows artifacts for publication preparation.
+
+The remaining gates are review and push of the artifact-pin commit, explicit
+publication/deployment authorization, host staging, immutable updater and
+public-installer publication, coordinated web deployment, and independent live
+verification. RC10 remains the published rollback release. Final v1.0 is not
+claimed, and the current approval does not itself authorize hosted-server
+changes.
