@@ -1125,6 +1125,7 @@ footer { padding: 22px 4vw; }
 .comparison-nav button { flex-shrink: 0; border: 0; border-bottom: 2px solid transparent; border-radius: 0; font-size: 14px; padding: 8px; background: transparent; }
 .comparison-nav button[aria-pressed=true] { border-bottom-color: var(--primary); color: var(--foreground); font-weight: 600; }
 .study-content { padding: 20px 24px 44px; }
+.study-library-return { margin: 0 0 18px; font-size: 14px; }
 .study-content > p, .study-content > .study-help { margin-top: 0; }
 .study-content > p:not(.error) { font-size: 14px; color: var(--muted-foreground); }
 .reviewed-notes { background: transparent; border: 0; padding: 0; margin: 12px 0; }

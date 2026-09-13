@@ -1,5 +1,13 @@
 # Ad Fontes NT — project status
 
+## 2026-09-13 — RC13 textual-comparison Library return prepared (AFNT-114)
+
+- Corrected the Library navigation asymmetry reported after RC12: a loaded textual comparison now exposes `← Browse Textual Comparisons` at the top of the study content and returns to the default textual-comparison collection at `/library`. The existing `Close` action remains unchanged and still returns the reader to Scripture.
+- The return link appears in ordinary edition comparisons and publisher-note comparison presentations, but not in Greek exploration. It uses an ordinary local route and therefore works in both the hosted application and the offline desktop bundle. No Scripture, approved commentary, Greek analysis, lexicon content, manuscript evidence, account, database, updater or hosting behavior changed.
+- Advanced the coordinated source/package candidate to `1.0.0-rc.13`. RC12 remains the current published web and desktop release; its public download links and immutable artifacts are unchanged until RC13 source, signed native artifacts, updater manifest and publication receive their separate approvals.
+- `npm run verify:both` passed TypeScript checking, deterministic publication, 72 Node and 20 Python tests, the production web build, staging of all 13,473 released offline files, the desktop web build and six offline desktop tests. Browser verification passed Library-to-comparison entry and return, the retained Close action, edition and publisher-note direct links, Greek-mode exclusion, Enter-key activation, an exact 390×844 viewport with both actions visible and no horizontal overflow, shared web/offline-desktop rendering, and zero console warnings or errors.
+- [The RC13 preparation record](docs/V1-RC13-Textual-Comparison-Library-Return-2026-09-13.md) defines the exact scope and remaining release gates. Nothing has been pushed, signed, published or deployed for RC13.
+
 ## 2026-09-13 — Combined 65-comparison expansion published as RC12 (AFNT-113)
 
 - Combined the requested first two expansion releases: 65 textual-comparison articles (`candidate-40`–`candidate-104`) added to the 39 predecessor articles, for 104 total. The slate covers every New Testament book not represented in the predecessor collection and leaves the separate ten-unit viability reserve outside this release for review after these 65 additions reach production.

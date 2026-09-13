@@ -598,6 +598,11 @@ export default function StudyPanel({
       )}
       {!loading && !error && mode !== 'greek' && (
         <>
+          {!!variants.length && (
+            <nav className="study-library-return" aria-label="Textual comparison collection">
+              <a href="/library">← Browse Textual Comparisons</a>
+            </nav>
+          )}
           {!noteOnly && <p>
             These are named editions, with their own wording and source
             placement. Differences in English wording alone do not establish a

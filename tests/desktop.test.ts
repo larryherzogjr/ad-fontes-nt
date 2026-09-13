@@ -30,7 +30,7 @@ test('desktop release candidate has a signed, user-controlled stable updater con
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.0.0-rc.12');
+  assert.equal(config.version, '1.0.0-rc.13');
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -139,6 +139,7 @@ test('the shared macOS and Windows reader bundle includes reader controls and ed
   assert.match(javascript, /Manuscript evidence plate/);
   assert.match(javascript, /cannot establish/);
   assert.match(javascript, /complete artifact view/);
+  assert.match(javascript, /Browse Textual Comparisons/);
 });
 
 test('all editions and search operate using only packaged files; missing data stays unavailable', async () => {

@@ -23,6 +23,14 @@ test('Library client requires the complete 104-comparison release', async () => 
   assert.doesNotMatch(client, /data\.comparisonCount !== 39/);
 });
 
+test('textual studies retain Close and link back to the comparison collection', async () => {
+  const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
+  assert.match(panel, /aria-label="Close study panel"/);
+  assert.match(panel, /aria-label="Textual comparison collection"/);
+  assert.match(panel, /<a href="\/library">← Browse Textual Comparisons<\/a>/);
+  assert.match(panel, /mode !== 'greek'/);
+});
+
 test('Library keeps publisher-note comparisons and commentary links explicit', () => {
   assert.deepEqual(
     library.comparisons.filter((unit: any) => unit.presentation === 'publisher-note').map((unit: any) => unit.id),
