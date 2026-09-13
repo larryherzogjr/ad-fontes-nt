@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: local source candidate; not pushed, signed, published or deployed
+Status: exact cross-platform candidate approved for publication preparation; not published or deployed
 
 ## Scope
 
@@ -52,18 +52,54 @@ request.
 - The non-fatal desktop JavaScript chunk-size warning remains; no new runtime
   error was observed.
 
-## Remaining release gates
+## Exact source and native artifacts
 
-1. Create and review the exact local source commit.
-2. Obtain Larry's explicit approval before pushing that commit to private
-   `main`.
-3. Build, sign, notarize and verify the macOS artifacts and build/sign/verify
-   the Windows x64 artifacts from that exact source.
-4. Combine updater payloads, generate the exact stable manifest and public
-   installer checksum set, and obtain Larry's exact-hash approval.
-5. Publish immutable updater artifacts and public installers, then deploy the
-   coordinated web update and perform live verification. RC9 remains the
-   rollback release. Final v1.0 is not claimed.
+- Source commit: `f7a875c031eb76332d6667d795186d180870fa2c`.
+- Private `main` was independently verified at that exact commit before native
+  packaging.
+- Final Apple application notarization submission:
+  `6af28511-f067-4b09-9b2d-f17ba8a01618` (Accepted).
+- Final Apple DMG notarization submission:
+  `4c37b646-054c-44c2-97ea-0c7f2291d7ba` (Accepted).
+- macOS public DMG SHA-256:
+  `e61cbba2cd751fc9956f22821496e88ae17b1084c0ba3ca7772d55ea833a55bf`.
+- macOS updater archive SHA-256:
+  `30e825dc904f438c74963c11fbf9d5f0bdbd10ca132416f3b445b8a14a8dd84a`.
+- macOS updater signature-file SHA-256:
+  `5ce63b481e83d9cd6b3c0e3489ca0ce085c7d2ad33ea53ce318a819ca3e4e3de`.
+- Windows GitHub run: `34735522835`; shared verification, Azure OIDC,
+  Artifact Signing Public Trust, RFC 3161 timestamping, application/installer
+  Authenticode verification and artifact upload passed with zero signing
+  warnings or errors.
+- Windows installer/updater SHA-256:
+  `8e625861c997ffb08cf920f2604765f84ded1c7b22bfa2e00efa7616a7e37eb4`.
+- Windows updater signature-file SHA-256:
+  `bde4f83b0da18f86f248962c4f2a6f9de91e16fd978d4c7685dadad6bea11cae`.
+- GitHub artifact ZIP digest:
+  `sha256:a5562487b9ee08eaac1d25908a56384d051e9bcf4c64a43411e56611e10be452`.
 
-No release step beyond local preparation is authorized by the visual-source
-approval alone.
+The first Mac packaging pass used a stale local `.tauri` updater key. Its app
+and DMG were accepted by Apple, but the build's key-mismatch warning excluded
+all of that pass's bytes from RC10 staging. The complete pipeline was rerun
+with the backed-up permanent key whose public half exactly matches the app
+configuration. The final artifacts and submissions listed above showed no
+key-mismatch warning. A read-only mount of the final DMG independently verified
+version `1.0.0-rc.10`, arm64 architecture, strict/deep code signing, Gatekeeper
+acceptance and the stapled notarization ticket.
+
+## Exact updater approval and remaining gates
+
+The combined immutable staging reproduces both updater payload hashes and
+passes every entry in `SHA256SUMS`. `stable/latest.json` SHA-256 is
+`c6f6ca828dd8aa5955b36ff7f66244ebf93592951b473f73efd30706d462d5cc`;
+`SHA256SUMS` SHA-256 is
+`7c30101af48acffc883573274bedc0d470f66c6b778fb37778cf54cc1360975d`.
+Larry explicitly approved that manifest hash and its associated signed macOS
+and Windows artifacts for publication preparation.
+
+The remaining gates are review and push of the artifact-pin commit, explicit
+publication/deployment authorization, host staging, immutable updater and
+public-installer publication, coordinated web deployment, and independent live
+verification. RC9 remains the published rollback release. Final v1.0 is not
+claimed, and the current approval does not itself authorize hosted-server
+changes.

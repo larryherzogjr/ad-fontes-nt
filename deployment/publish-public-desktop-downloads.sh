@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
-# Publish the approved RC9 installers behind the public /downloads page.
+# Publish the approved RC10 installers behind the public /downloads page.
 # Run interactively on the existing Ubuntu host as lherzog.
 set -euo pipefail
 cd "$(dirname "$0")"
-version=1.0.0-rc.9
+version=1.0.0-rc.10
 staging="$HOME/ad-fontes-public-download-staging/$version"
 destination="/var/www/ad-fontes-downloads/$version"
 manifest="$PWD/public-desktop-downloads-$version.sha256"
-mac_name=Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.9.dmg
-windows_name=Ad-Fontes-NT-Windows-x64-1.0.0-rc.9.exe
-windows_source=/var/www/ad-fontes-updates/releases/1.0.0-rc.9/ad-fontes-nt-1.0.0-rc.9-windows-x86_64.exe
+mac_name=Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0-rc.10.dmg
+windows_name=Ad-Fontes-NT-Windows-x64-1.0.0-rc.10.exe
+windows_source=/var/www/ad-fontes-updates/releases/1.0.0-rc.10/ad-fontes-nt-1.0.0-rc.10-windows-x86_64.exe
 
 [[ $(id -u) != 0 ]] || { echo 'Run as lherzog, not root.' >&2; exit 1; }
 [[ -z $(git status --porcelain --untracked-files=no) ]] || { echo 'Tracked host edits need review.' >&2; exit 1; }
 [[ $(git rev-parse --abbrev-ref HEAD) == main ]] || { echo 'Host checkout must be on main.' >&2; exit 1; }
 [[ -f "$staging/$mac_name" ]] || { echo 'The notarized macOS DMG is not staged.' >&2; exit 1; }
-[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == c37b4e776b148a26ec1fbfdbe2d341a6e3c928aeb18089818c947177813b2edb ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
-[[ -f "$windows_source" ]] || { echo 'The published Windows RC9 installer is missing.' >&2; exit 1; }
-[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == 9eae0909282b60049c197b2cece758d88cd335de91d34abe9af59c52ebf5a34a ]] || { echo 'Published Windows RC9 checksum mismatch.' >&2; exit 1; }
+[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == e61cbba2cd751fc9956f22821496e88ae17b1084c0ba3ca7772d55ea833a55bf ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
+[[ -f "$windows_source" ]] || { echo 'The published Windows RC10 installer is missing.' >&2; exit 1; }
+[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == 8e625861c997ffb08cf920f2604765f84ded1c7b22bfa2e00efa7616a7e37eb4 ]] || { echo 'Published Windows RC10 checksum mismatch.' >&2; exit 1; }
 
 sudo -v
 sudo test ! -e "$destination" || { echo 'Immutable public download destination already exists.' >&2; exit 1; }
