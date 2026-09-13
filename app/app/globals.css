@@ -1156,6 +1156,7 @@ footer { padding: 22px 4vw; }
 .evidence-plate-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 12px; }
 .evidence-plate-gallery figure { min-width: 0; margin: 0; }
 .evidence-image-button { position: relative; display: block; width: 100%; min-height: 0; padding: 0; overflow: hidden; border: 1px solid #9caeb4; border-radius: 6px; background: #182126; }
+.evidence-image-button:hover { background: #182126; }
 .evidence-image-button img { display: block; width: 100%; height: min(48vh, 460px); object-fit: contain; }
 .evidence-image-button span { position: absolute; right: 8px; bottom: 8px; padding: 3px 8px; border-radius: 4px; background: rgb(18 33 40 / 88%); color: white; font-size: 12px; }
 .evidence-plate-gallery figcaption { margin-top: 5px; color: var(--muted-foreground); font-size: 11px; line-height: 1.4; }

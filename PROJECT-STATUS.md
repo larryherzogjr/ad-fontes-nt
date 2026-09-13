@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-13 — External comparison audit copy and evidence-plate hover correction (AFNT-115)
+
+- Generated a downloadable external-audit DOCX containing all 104 published Textual Comparisons in canonical New Testament order. Each record includes the exact published title and prose, seven frozen edition rows, pinned publisher notes where applicable, complete explanation sources, provenance, and its approved local Sinaiticus evidence plate. The generated review artifact remains outside Git and does not alter any approved editorial or source payload.
+- Corrected the inline manuscript evidence image control so its dark `#182126` letterbox background remains dark on pointer hover. The complete-artifact lightbox and its existing keyboard/focus behavior are unchanged. Added a regression assertion for the component-specific hover rule.
+- Verification: the focused visual regression test passed, and `npm run verify:both` passed TypeScript checking, deterministic publication, 72 Node and 20 Python tests, the production web build, staging of all 13,473 released offline files, the desktop web build, and all six offline desktop tests. Rendered offline-desktop checks at Matthew 23:13–14 confirmed the hovered inline control remains `rgb(24, 33, 38)`, complete-artifact enlargement and Escape focus restoration remain intact, an exact 390×844 viewport has no horizontal overflow, and the browser console has no warnings or errors. No corpus, comparison prose, evidence registry, account/database behavior, hosted service, package version, desktop release, or deployment changed. M4 remains accepted; M5 and the MVP remain incomplete.
+
 ## 2026-09-13 — RC13 textual-comparison Library return published (AFNT-114)
 
 - Corrected the Library navigation asymmetry reported after RC12: a loaded textual comparison now exposes `← Browse Textual Comparisons` at the top of the study content and returns to the default textual-comparison collection at `/library`. The existing `Close` action remains unchanged and still returns the reader to Scripture.

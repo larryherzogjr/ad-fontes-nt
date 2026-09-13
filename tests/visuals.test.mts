@@ -80,6 +80,7 @@ test('approved plates retain source limits and current commentary bindings', asy
 
 test('reader exposes accessible complete-page enlargement without remote image code', async () => {
   const component = await readFile('app/reader/evidence-plate.tsx', 'utf8');
+  const styles = await readFile('app/app/globals.css', 'utf8');
   const dialog = await readFile('app/components/ui/dialog.tsx', 'utf8');
   const panel = await readFile('app/reader/study-panel.tsx', 'utf8');
   assert.match(component, /Manuscript evidence plate/);
@@ -99,6 +100,7 @@ test('reader exposes accessible complete-page enlargement without remote image c
   assert.match(component, /uniquePlates/);
   assert.match(component, /gregoryAland.*sourceImageId/s);
   assert.match(component, /Witness \$\{index \+ 1\} of \$\{total\}/);
+  assert.match(styles, /\.evidence-image-button:hover\s*\{\s*background:\s*#182126;\s*\}/);
   assert.match(dialog, /<DialogPortal container={portalContainer}>/);
   assert.doesNotMatch(component, /images\.csntm|manuscripts\.csntm/);
   assert.match(panel, /<EvidencePlate unitId={v\.id} \/>/);
