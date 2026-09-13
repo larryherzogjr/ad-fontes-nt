@@ -2,7 +2,7 @@
 
 Date: 2026-09-13
 
-Status: corrected successor source prepared; first unpublished artifacts superseded; RC12 remains published
+Status: corrected successor source and signed artifacts approved; artifact-pin publication gate prepared; RC12 remains published
 
 ## Scope
 
@@ -42,7 +42,7 @@ published rollback release.
   states reported no console warning or error.
 - The existing non-fatal desktop bundle-size warning remains.
 
-## Remaining gates
+## First source approval
 
 Larry approved exact source commit
 `f0f100038c53ef13f011247455ad90fafab80270`. It was pushed to private `main`,
@@ -98,11 +98,7 @@ misleading. These first unpublished artifacts and their manifest are therefore
 explicitly superseded and must not be published.
 
 The corrected successor source identifies RC13 consistently in the in-reader
-project status and Downloads page. It requires a new exact source approval,
-clean macOS and Windows package builds, independent platform verification and a
-new exact updater-manifest approval. A later artifact-pin commit, publication,
-coordinated web deployment and independent live verification remain separate
-gates.
+project status and Downloads page.
 
 ## Corrected successor verification
 
@@ -116,6 +112,59 @@ gates.
 - The first corrected pass exposed only a regression-test-sensitive JSX line
   wrap in unchanged Downloads prose. Aligning that source wrap produced the
   clean final verification run; it did not alter visible wording or behavior.
+
+Larry approved corrected successor source commit
+`d1e318ceebf09b0bfbaa6ec7469c666f15a933f4`. It was pushed to private `main`,
+and the remote branch independently resolved to the same hash.
+
+## Corrected signed native artifacts
+
+- Apple DMG notarization submission:
+  `5b7ab931-e8b9-480f-b2e4-278ffd41cc09` (Accepted).
+- macOS public DMG SHA-256:
+  `8712ab085fb4b2221633cc69706bd3809c56dab033a447b75fc2e2b128c13201`.
+- macOS updater archive SHA-256:
+  `d304b88e9e44069faaddb240426dc86245b3d8fad6042fcd7b59444b6c2ff4d4`.
+- macOS updater signature-file SHA-256:
+  `3f50a8216dcc4a29cadf94a802b30d1ba0c33ed46689912e2a0a08cffebfbf08`.
+- Windows GitHub run: `34750778343`; clean shared verification, Azure OIDC,
+  Artifact Signing Public Trust, RFC 3161 timestamping, Authenticode
+  verification and artifact upload passed at the corrected source commit.
+- Windows installer/updater SHA-256:
+  `075f53ebf4dbbbe46f48c96f27f83a0d4e8aa9af91d6834cb3c057dcef9b0240`.
+- Windows updater signature-file SHA-256:
+  `7386ee2d2ddaf260d09afedb7ec1c75da3c3288ad184540c156162314bc37ff3`.
+- GitHub artifact ZIP digest:
+  `sha256:68e853ca845c3516894d4f24a1aad1aadfb43053950aed0a04046cb1fd9beaac`.
+
+Independent macOS verification reproduced every supplied hash, confirmed the
+mounted DMG contains version `1.0.0-rc.13` and an arm64 executable, and passed
+strict/deep code signing, Notarized Developer ID Gatekeeper assessment, app and
+DMG stapler validation and DMG checksum validation. The downloaded Windows
+artifact reproduced its internal checksums, exact source commit, version,
+release ID and signing metadata.
+
+## Corrected updater candidate approval
+
+The corrected immutable staging reproduces both updater payloads and passes
+every entry in `SHA256SUMS`. It has publication date
+`2026-09-13T10:25:14Z` and release note: “Adds a direct return from textual
+comparisons to the Library while preserving Close-to-Scripture.”
+
+- `stable/latest.json` SHA-256:
+  `ad0305581151a4b4691003f4149ea44f529b015841cf7df22e0ed101d9546eb6`.
+- `SHA256SUMS` SHA-256:
+  `5b491b6497b5cd0accd2fbee960cc3f84d1d87d1c1e885b859b88fd542a916a3`.
+
+Larry approved that exact corrected manifest and the associated signed
+artifacts. This approval does not revive or authorize any superseded RC13
+artifact listed above.
+
+## Remaining gates
+
+The artifact-pin commit, publication of the corrected updater payloads and
+public installers, coordinated web deployment, and independent live
+verification remain separate gates.
 
 Until those gates pass, the public Downloads page, stable updater manifest,
 hosted web application and published desktop packages remain RC12.
