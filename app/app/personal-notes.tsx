@@ -18,10 +18,12 @@ export default function PersonalNotes({
   ranges,
   edition,
   selection,
+  onNoteRangesChange,
 }: {
   ranges: PassageRange[];
   edition: string;
   selection: PassageRange[] | null;
+  onNoteRangesChange?: (ranges: PassageRange[]) => void;
 }) {
   const panel = useRef<HTMLDetailsElement>(null);
   const editorOrigin = useRef('note-new');
@@ -59,12 +61,14 @@ export default function PersonalNotes({
   async function load() {
     const result = await api<{ schemaVersion: 1; notes: Note[] }>('/api/notes');
     setNotes(result.notes);
-    window.dispatchEvent(new Event('afnt-notes-changed'));
   }
   useEffect(() => {
     if (account?.user) void load().catch((e) => setStatus(e.message));
     else setNotes([]);
   }, [account?.user?.id]);
+  useEffect(() => {
+    onNoteRangesChange?.(notes.flatMap(note => note.ranges));
+  }, [notes]);
   useEffect(() => {
     if (!dirty) return;
     const warn = (e: BeforeUnloadEvent) => {

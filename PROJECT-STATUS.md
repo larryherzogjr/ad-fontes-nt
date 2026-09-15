@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-09-15 — UX refinements selected for production source 1.1.3 (AFNT-029 / AFNT-107)
+
+- Larry approved the local UX prototype for production except for the resizable desktop study-panel slider and saved Library views. Integrated the selected set into the production source: the combined passage/search field; recent passage and study links; Library item bookmarks; focus mode; optional first-use guidance; saved-note verse indicators; study-panel history; the existing standard/expanded panel toggle; and accessibility, contrast, reduced-motion, keyboard-focus, phone and desktop refinements.
+- Removed the rejected range slider, its stored-width preference and related styling. Removed saved Library-view state, storage, shelf and action while retaining per-item Library bookmarks. Scripture, publisher notes, approved Ordinary Means commentary, corpus mappings, account ownership and note APIs are unchanged.
+- Coordinated npm, Cargo and Tauri source metadata at `1.1.3`. The already-published 1.0.0 web and signed desktop artifacts remain unchanged until a separate reviewed build, exact-artifact approval, push and publication workflow is completed. No deployment, native packaging, updater manifest, public download, database or hosted service was changed by this source integration.
+- Verification passed after the final integration correction: `npm test` passed 74 Node groups and 20 Python tests; `npm run typecheck` and `npm run build` passed; the desktop web build staged all 13,473 released files and all six offline desktop tests passed. The first desktop check exposed a notes-API string in the shared bundle; note-indicator updates now flow through the web-only notes component, and the rebuilt desktop bundle again excludes account/private APIs. Browser checks covered the missing slider, retained standard/expanded panel toggle, missing saved-view action, retained item bookmarks, focus-mode entry/exit, Escape closure with focus return, 1280×800 desktop behavior, 390×844 reader and Library layouts without horizontal overflow, and no browser warnings or errors.
+
 ## 2026-09-13 — Final 1.0.0 release published (AFNT-116)
 
 - Larry directed that the current release be marked `1.0.0` and authorized proceeding with the final-release workflow. This prepares new final web/macOS/Windows bytes; it does not rename RC13 artifacts or reuse their exact-hash approvals.

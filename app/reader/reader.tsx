@@ -53,7 +53,7 @@ function noteContent(x: unknown, i = 0): React.ReactNode {
     <span key={i}>{c}</span>
   );
 }
-export type NotesProps = { ranges: PassageRange[]; edition: string; selection: PassageRange[] | null };
+export type NotesProps = { ranges: PassageRange[]; edition: string; selection: PassageRange[] | null; onNoteRangesChange?: (ranges: PassageRange[]) => void };
 export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> }) {
   const environment = useReaderEnvironment();
   const reviewed = useReviewedUnits();
@@ -355,21 +355,6 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     document.body.classList.toggle('reader-focus-mode', focusMode);
     return () => document.body.classList.remove('reader-focus-mode');
   }, [focusMode]);
-  useEffect(() => {
-    if (!Notes) return;
-    let active = true;
-    async function refreshNoteAnchors() {
-      try {
-        const response = await fetch('/api/notes');
-        if (!response.ok) return;
-        const data = await response.json() as { notes?: { ranges?: PassageRange[] }[] };
-        if (active) setNoteAnchors(new Set((data.notes || []).flatMap(note => (note.ranges || []).flatMap(expand))));
-      } catch { /* Note indicators are optional; the notes panel reports account errors. */ }
-    }
-    void refreshNoteAnchors();
-    window.addEventListener('afnt-notes-changed', refreshNoteAnchors);
-    return () => { active = false; window.removeEventListener('afnt-notes-changed', refreshNoteAnchors); };
-  }, [Notes]);
   const current = address(ranges[0].start),
     previous = chapterNeighbor(current.book.code, current.chapter, -1),
     last = address(ranges[ranges.length - 1].end),
@@ -963,7 +948,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 )}
               </section>
             ))}
-            {Notes && <Notes ranges={ranges} edition={edition} selection={noteSelection} />}
+            {Notes && <Notes ranges={ranges} edition={edition} selection={noteSelection} onNoteRangesChange={noteRanges => setNoteAnchors(new Set(noteRanges.flatMap(expand)))} />}
             <RelatedResources ranges={ranges} />
             <nav className="chapter-nav" aria-label="Chapter navigation">
               <button

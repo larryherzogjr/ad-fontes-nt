@@ -23,6 +23,15 @@ test('Library client requires the complete 104-comparison release', async () => 
   assert.doesNotMatch(client, /data\.comparisonCount !== 39/);
 });
 
+test('selected UX keeps item bookmarks but omits saved views and panel resizing', async () => {
+  const client = await readFile(new URL('../app/library/library.tsx', import.meta.url), 'utf8');
+  const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
+  assert.match(client, /afnt-library-bookmarks/);
+  assert.doesNotMatch(client, /afnt-library-views|Save this Library view|Saved Library views/);
+  assert.match(panel, /Expand study view/);
+  assert.doesNotMatch(panel, /input type="range"|afnt\.study-width|panelWidth/);
+});
+
 test('textual studies retain Close and link back to the comparison collection', async () => {
   const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
   assert.match(panel, /aria-label="Close study panel"/);
