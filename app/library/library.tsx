@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { books, passageUrl, type PassageRange } from '@/lib/domain/references';
 import { formatPassage } from '@/lib/reading-display';
 import { transliterateGreek } from '@/lib/domain/greek-reading';
+import { readDeviceLinks, rememberDeviceLink, writeDeviceLinks, type DeviceLink } from '@/lib/device-links';
 
 type Comparison = {
   id: string;
@@ -137,6 +138,18 @@ function Pager({ route, pages }: { route: Route; pages: number }) {
     {route.page < pages ? <a href={hrefFor(route, { page: route.page + 1 })}>Next →</a> : <span />}
   </nav>;
 }
+function LibraryShelves({ recentPassages, recentStudies, bookmarks, savedViews }: { recentPassages: DeviceLink[]; recentStudies: DeviceLink[]; bookmarks: DeviceLink[]; savedViews: DeviceLink[] }) {
+  const shelves = [
+    ['Continue reading', recentPassages.slice(0, 4)],
+    ['Recently studied', recentStudies.slice(0, 4)],
+    ['Bookmarks', bookmarks.slice(0, 6)],
+    ['Saved Library views', savedViews.slice(0, 4)],
+  ] as const;
+  if (!shelves.some(([, items]) => items.length)) return null;
+  return <section className="library-shelves" aria-label="Your recent and saved study links">
+    {shelves.filter(([, items]) => items.length).map(([title, items]) => <div key={title}><h2>{title}</h2><div>{items.map(item => <a href={item.url} key={item.url}><strong>{item.label}</strong>{item.detail && <small>{item.detail}</small>}</a>)}</div></div>)}
+  </section>;
+}
 function ArticleDetail({ index, article, route }: { index: LibraryIndex; article: Article; route: Route }) {
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [error, setError] = useState('');
@@ -220,10 +233,18 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   const [queryInput, setQueryInput] = useState('');
   const [index, setIndex] = useState<LibraryIndex | null>(null);
   const [error, setError] = useState('');
+  const [recentPassages, setRecentPassages] = useState<DeviceLink[]>([]);
+  const [recentStudies, setRecentStudies] = useState<DeviceLink[]>([]);
+  const [bookmarks, setBookmarks] = useState<DeviceLink[]>([]);
+  const [savedViews, setSavedViews] = useState<DeviceLink[]>([]);
   useEffect(() => {
     const requestedRoute = currentRoute();
     setRoute(requestedRoute);
     setQueryInput(requestedRoute.q);
+    setRecentPassages(readDeviceLinks('afnt-recent-passages'));
+    setRecentStudies(readDeviceLinks('afnt-recent-studies'));
+    setBookmarks(readDeviceLinks('afnt-library-bookmarks'));
+    setSavedViews(readDeviceLinks('afnt-library-views'));
     const controller = new AbortController();
     fetch('/library/index.json', { signal: controller.signal }).then(async response => {
       if (!response.ok) throw Error('The Study Library could not be loaded.');
@@ -249,6 +270,17 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     event.preventDefault();
     location.assign(hrefFor(route, { q: queryInput.trim(), page: 1, article: '', lemma: '' }));
   }
+  function toggleBookmark(link: Omit<DeviceLink, 'savedAt'>) {
+    const exists = bookmarks.some(item => item.url === link.url);
+    setBookmarks(exists
+      ? writeDeviceLinks('afnt-library-bookmarks', bookmarks.filter(item => item.url !== link.url))
+      : rememberDeviceLink('afnt-library-bookmarks', link, 30));
+  }
+  function saveCurrentView() {
+    const filters = [route.q && `“${route.q}”`, route.book && books.find(book => book.code === route.book)?.name, route.kind, route.category].filter(Boolean).join(' · ');
+    const names: Record<View, string> = { comparisons: 'Textual Comparisons', articles: 'Greek Word Studies', lexicon: 'Greek Lexicon' };
+    setSavedViews(rememberDeviceLink('afnt-library-views', { url: hrefFor(route, { page: 1, article: '', lemma: '' }), label: names[route.view], detail: filters || 'All results' }, 12));
+  }
   const article = index?.articles.find(item => item.slug === route.article);
   const word = index?.words.find(item => item.lemmaId === route.lemma);
   return <>
@@ -270,10 +302,12 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a className={route.view === 'articles' ? 'active' : ''} href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></a>
             <a className={route.view === 'lexicon' ? 'active' : ''} href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></a>
           </nav>
+          <div className="library-memory-actions"><button onClick={saveCurrentView}>Save this Library view</button></div>
+          <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} savedViews={savedViews} />
           <section id="library-results" tabIndex={-1}>
-            {route.view === 'comparisons' && <ComparisonList route={route} units={data.comparisons} />}
-            {route.view === 'articles' && <ArticleList route={route} articles={data.articles} />}
-            {route.view === 'lexicon' && <WordList route={route} words={data.words} />}
+            {route.view === 'comparisons' && <ComparisonList route={route} units={data.comparisons} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
+            {route.view === 'articles' && <ArticleList route={route} articles={data.articles} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
+            {route.view === 'lexicon' && <WordList route={route} words={data.words} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
           </section>
         </>}
       </>}
@@ -282,20 +316,20 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   </>;
 }
 
-function ComparisonList({ route, units }: { route: Route; units: Comparison[] }) {
+function ComparisonList({ route, units, bookmarks, onBookmark }: { route: Route; units: Comparison[]; bookmarks: DeviceLink[]; onBookmark: (link: Omit<DeviceLink, 'savedAt'>) => void }) {
   const selected = units.filter(unit => (!route.book || unit.ranges[0].start.startsWith(`${route.book}.`)) && (!route.kind || unit.presentation === route.kind));
   const pageSize = 24, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
   const visible = selected.slice((page - 1) * pageSize, page * pageSize);
   return <>
     <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Textual Comparisons</h2><p>Reviewed questions about what the seven named editions print. Publisher notes and edition readings remain identified separately.</p></div><div className="library-filters"><label>Book<select value={route.book} onChange={event => location.assign(hrefFor(route, { book: event.target.value, page: 1 }))}><option value="">All books</option>{books.map(book => <option key={book.code} value={book.code}>{book.name}</option>)}</select></label><label>Presentation<select value={route.kind} onChange={event => location.assign(hrefFor(route, { kind: event.target.value, page: 1 }))}><option value="">All comparisons</option><option value="comparison">Edition comparison</option><option value="publisher-note">Publisher-note comparison</option></select></label></div></div>
     <p className="library-result-count">{selected.length} {selected.length === 1 ? 'comparison' : 'comparisons'}</p>
-    <div className="library-card-grid">{visible.map(unit => <article className="library-card comparison-card" key={unit.id}><div className="library-card-meta"><span>{unit.presentation === 'publisher-note' ? 'Publisher-note comparison' : 'Textual comparison'}</span><strong>{formatPassage(unit.ranges)}</strong></div><h3><a href={comparisonHref(unit)}>{unit.title}</a></h3><div className="library-card-summary"><Markdown skipHtml>{unit.summary}</Markdown></div><p className="library-card-foot">Seven named editions · Ordinary Means explanation{unit.publisherNoteCount ? ` · ${unit.publisherNoteCount} pinned publisher notes` : ''}</p><a className="library-card-action" href={comparisonHref(unit)}>Open with the passage →</a></article>)}</div>
+    <div className="library-card-grid">{visible.map(unit => { const href = comparisonHref(unit), saved = bookmarks.some(item => item.url === href); return <article className="library-card comparison-card" key={unit.id}><div className="library-card-meta"><span>{unit.presentation === 'publisher-note' ? 'Publisher-note comparison' : 'Textual comparison'}</span><strong>{formatPassage(unit.ranges)}</strong></div><button className="library-bookmark" aria-pressed={saved} onClick={() => onBookmark({ url: href, label: unit.title, detail: formatPassage(unit.ranges) })}>{saved ? 'Saved' : 'Save'}</button><h3><a href={href}>{unit.title}</a></h3><div className="library-card-summary"><Markdown skipHtml>{unit.summary}</Markdown></div><p className="library-card-foot">Seven named editions · Ordinary Means explanation{unit.publisherNoteCount ? ` · ${unit.publisherNoteCount} pinned publisher notes` : ''}</p><a className="library-card-action" href={href}>Open with the passage →</a></article>; })}</div>
     {!selected.length && <p className="notice">No textual comparisons match these filters.</p>}
     <Pager route={{ ...route, page }} pages={pages} />
   </>;
 }
 
-function ArticleList({ route, articles }: { route: Route; articles: Article[] }) {
+function ArticleList({ route, articles, bookmarks, onBookmark }: { route: Route; articles: Article[]; bookmarks: DeviceLink[]; onBookmark: (link: Omit<DeviceLink, 'savedAt'>) => void }) {
   const categories = [...new Set(articles.map(article => article.category))].sort();
   const selected = articles.filter(article => !route.category || article.category === route.category);
   const pageSize = 24, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
@@ -303,20 +337,20 @@ function ArticleList({ route, articles }: { route: Route; articles: Article[] })
   return <>
     <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Greek Word Studies</h2><p>Approved, article-length studies. Scripture quotations remain part of the authored commentary and are identified as an Ad Fontes BSB adaptation.</p></div><div className="library-filters"><label>Topic category<select value={route.category} onChange={event => location.assign(hrefFor(route, { category: event.target.value, page: 1 }))}><option value="">All categories</option>{categories.map(category => <option key={category}>{category}</option>)}</select></label></div></div>
     <p className="library-result-count">{selected.length} {selected.length === 1 ? 'word study' : 'word studies'}</p>
-    <div className="library-card-grid article-grid">{visible.map(article => <article className="library-card article-card" key={article.slug}><div className="library-card-meta"><span>Greek word study</span><strong>{article.category}</strong></div><h3><a href={hrefFor(route, { article: article.slug, page: 1 })}>{article.title}</a></h3><p className="library-card-subtitle">{article.subtitle}</p><p>{article.description}</p><p className="library-card-foot">By {article.author} · Ordinary Means commentary</p><a className="library-card-action" href={hrefFor(route, { article: article.slug, page: 1 })}>Read the study →</a></article>)}</div>
+    <div className="library-card-grid article-grid">{visible.map(article => { const href = hrefFor(route, { article: article.slug, page: 1 }), saved = bookmarks.some(item => item.url === href); return <article className="library-card article-card" key={article.slug}><div className="library-card-meta"><span>Greek word study</span><strong>{article.category}</strong></div><button className="library-bookmark" aria-pressed={saved} onClick={() => onBookmark({ url: href, label: article.title, detail: article.subtitle })}>{saved ? 'Saved' : 'Save'}</button><h3><a href={href}>{article.title}</a></h3><p className="library-card-subtitle">{article.subtitle}</p><p>{article.description}</p><p className="library-card-foot">By {article.author} · Ordinary Means commentary</p><a className="library-card-action" href={href}>Read the study →</a></article>; })}</div>
     {!selected.length && <p className="notice">No Greek word studies match these filters.</p>}
     <Pager route={{ ...route, page }} pages={pages} />
   </>;
 }
 
-function WordList({ route, words }: { route: Route; words: Word[] }) {
+function WordList({ route, words, bookmarks, onBookmark }: { route: Route; words: Word[]; bookmarks: DeviceLink[]; onBookmark: (link: Omit<DeviceLink, 'savedAt'>) => void }) {
   const selected = words.filter(word => route.kind !== 'with-study' || word.articleSlugs.length > 0);
   const pageSize = 40, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
   const visible = selected.slice((page - 1) * pageSize, page * pageSize);
   return <>
     <div className="library-collection-heading"><div><p className="library-type">Dictionary and corpus data</p><h2>Greek Lexicon</h2><p>Indexed lemmas from the pinned Nestle 1904 analysis. Definitions describe possible meaning ranges; occurrence counts are edition-specific.</p></div><div className="library-filters"><label>Availability<select value={route.kind} onChange={event => location.assign(hrefFor(route, { kind: event.target.value, page: 1 }))}><option value="">All indexed lemmas</option><option value="with-study">Ordinary Means study available</option></select></label></div></div>
     <p className="library-result-count">{selected.length.toLocaleString()} indexed {selected.length === 1 ? 'lemma' : 'lemmas'}</p>
-    <div className="library-word-list">{visible.map(word => <article className="library-word-row" key={word.lemmaId}><div><h3><a lang="grc" href={hrefFor(route, { lemma: word.lemmaId, page: 1 })}>{word.lemma}</a></h3><p>{transliterateGreek(word.lemma)}</p></div><p>{word.definitions.length === 1 ? word.definitions[0].brief : word.definitions.length ? 'Multiple source-numbered dictionary entries' : 'Dodson definition unavailable'}</p><div className="library-word-stats"><strong>{word.occurrenceCount.toLocaleString()}</strong><span>{word.occurrenceCount === 1 ? 'occurrence' : 'occurrences'}</span>{word.articleSlugs.length > 0 && <span className="library-study-badge">Word study available</span>}</div></article>)}</div>
+    <div className="library-word-list">{visible.map(word => { const href = hrefFor(route, { lemma: word.lemmaId, page: 1 }), saved = bookmarks.some(item => item.url === href); return <article className="library-word-row" key={word.lemmaId}><div><h3><a lang="grc" href={href}>{word.lemma}</a></h3><p>{transliterateGreek(word.lemma)}</p></div><p>{word.definitions.length === 1 ? word.definitions[0].brief : word.definitions.length ? 'Multiple source-numbered dictionary entries' : 'Dodson definition unavailable'}</p><div className="library-word-stats"><strong>{word.occurrenceCount.toLocaleString()}</strong><span>{word.occurrenceCount === 1 ? 'occurrence' : 'occurrences'}</span>{word.articleSlugs.length > 0 && <span className="library-study-badge">Word study available</span>}<button className="library-bookmark" aria-pressed={saved} onClick={() => onBookmark({ url: href, label: word.lemma, detail: transliterateGreek(word.lemma) })}>{saved ? 'Saved' : 'Save'}</button></div></article>; })}</div>
     {!selected.length && <p className="notice">No Greek lemmas match these filters.</p>}
     <Pager route={{ ...route, page }} pages={pages} />
   </>;

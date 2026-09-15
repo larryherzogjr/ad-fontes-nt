@@ -15,6 +15,7 @@ import type { Variant } from '@/lib/domain/variants';
 import { PublisherNoteCategory, PublisherNoteDetail } from './publisher-note-label';
 import { analysisInfo } from '@/lib/domain/greek';
 import { NativeSelect } from '@/components/ui/native-select';
+import { readDeviceLinks, rememberDeviceLink, type DeviceLink } from '@/lib/device-links';
 import {
   books,
   address,
@@ -56,7 +57,6 @@ export type NotesProps = { ranges: PassageRange[]; edition: string; selection: P
 export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> }) {
   const environment = useReaderEnvironment();
   const reviewed = useReviewedUnits();
-  const [searchOpen, setSearchOpen] = useState(false);
   const [passagePickerOpen, setPassagePickerOpen] = useState(false);
   const [pendingBook, setPendingBook] = useState(address(initial.start).book);
   const [pendingChapter, setPendingChapter] = useState(1);
@@ -83,6 +83,10 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     [error, setError] = useState(''),
     [loading, setLoading] = useState(true),
     [size, setSize] = useState(21),
+    [focusMode, setFocusMode] = useState(false),
+    [showGuide, setShowGuide] = useState(false),
+    [recentPassages, setRecentPassages] = useState<DeviceLink[]>([]),
+    [noteAnchors, setNoteAnchors] = useState<Set<string>>(new Set()),
     [selectionCopyStatus, setSelectionCopyStatus] = useState(''),
     [storageError, setStorageError] = useState('');
   const editionMeta =
@@ -130,6 +134,10 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       setStorageError('Reading preferences could not be saved on this device.');
     }
   }
+  function dismissGuide() {
+    setShowGuide(false);
+    save('afnt-reader-guide-dismissed', 'true');
+  }
   function navigate(url: string) {
     try {
       sessionStorage.setItem('afnt-focus-reading', '1');
@@ -143,6 +151,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     } catch {}
     const storedSize = Number(get('afnt-text-size'));
     if (storedSize >= 18 && storedSize <= 32) setSize(storedSize);
+    setShowGuide(get('afnt-reader-guide-dismissed') !== 'true');
+    setRecentPassages(readDeviceLinks('afnt-recent-passages'));
     const saved = get('afnt-position');
     if (saved)
       try {
@@ -242,6 +252,11 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
           rs = resolveReference(`${m[1]} ${m[2]}:${verses}`);
         setRanges(rs);
         setExplicitPassage(Boolean(p || verses));
+        if (!panel) setRecentPassages(rememberDeviceLink('afnt-recent-passages', {
+          url: `${location.pathname === '/' ? `/read/${address(rs[0].start).book.code}/${address(rs[0].start).chapter}` : location.pathname}${location.search}`,
+          label: formatPassage(rs),
+          detail: editions.find(item => item.editionId === adapter.editionId)?.name || adapter.editionId,
+        }));
         selection.current = new Set(p || verses ? rs.flatMap(expand) : []);
         (p || verses
           ? adapter.getReadingChapters(rs)
@@ -336,6 +351,25 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       window.removeEventListener('scroll', scroll);
     };
   }, []);
+  useEffect(() => {
+    document.body.classList.toggle('reader-focus-mode', focusMode);
+    return () => document.body.classList.remove('reader-focus-mode');
+  }, [focusMode]);
+  useEffect(() => {
+    if (!Notes) return;
+    let active = true;
+    async function refreshNoteAnchors() {
+      try {
+        const response = await fetch('/api/notes');
+        if (!response.ok) return;
+        const data = await response.json() as { notes?: { ranges?: PassageRange[] }[] };
+        if (active) setNoteAnchors(new Set((data.notes || []).flatMap(note => (note.ranges || []).flatMap(expand))));
+      } catch { /* Note indicators are optional; the notes panel reports account errors. */ }
+    }
+    void refreshNoteAnchors();
+    window.addEventListener('afnt-notes-changed', refreshNoteAnchors);
+    return () => { active = false; window.removeEventListener('afnt-notes-changed', refreshNoteAnchors); };
+  }, [Notes]);
   const current = address(ranges[0].start),
     previous = chapterNeighbor(current.book.code, current.chapter, -1),
     last = address(ranges[ranges.length - 1].end),
@@ -425,6 +459,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     unitId?: string,
   ) {
     try {
+      if (!study) sessionStorage.removeItem('afnt-study-trail');
       if (!study || !sessionStorage.getItem('afnt-study-origin')) sessionStorage.setItem(
         'afnt-study-origin',
         JSON.stringify({
@@ -569,6 +604,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
         </div>
           <button type="submit">OK</button>
         </form>
+        {!!recentPassages.length && <div className="recent-passages"><strong>Recent passages</strong>{recentPassages.slice(0, 4).map(item => <a key={item.url} href={item.url}><span>{item.label}</span><small>{item.detail}</small></a>)}</div>}
             </PopoverContent>
           </Popover>
           <button className="chapter-step" aria-label="Next chapter" disabled={!next} onClick={() => next && goBook(next.book, next.chapter)}>→</button>
@@ -621,10 +657,9 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <option value="">All 27 books</option>{books.map(b => <option key={b.code} value={b.code}>{b.name}</option>)}
           </NativeSelect>
         </label>}
-        {mode !== 'search' && <button className="search-toggle" aria-expanded={searchOpen} aria-controls="passage-search" onClick={() => { setSearchOpen(!searchOpen); if (!searchOpen) setTimeout(() => document.getElementById('reference')?.focus(), 0); }}><span aria-hidden="true">⌕</span><span>Search</span></button>}
-        {(mode === 'search' || searchOpen) && <div className="toolbar-search">
+        <div className="toolbar-search unified-reader-search">
         <form onSubmit={submit} className="passage-form" id="passage-search">
-          <label htmlFor="reference">Passage or English text</label>
+          <label htmlFor="reference">Go to a passage or search Scripture</label>
           <div className="input-row">
             <input
               id="reference"
@@ -636,7 +671,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <button type="submit">Go</button>
           </div>
         </form>
-        </div>}
+        </div>
       </div>
       <main id="reading" ref={main} tabIndex={-1} className={study ? 'reader-layout has-study' : 'reader-layout'}>
         <div aria-live="polite">
@@ -658,6 +693,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 <button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>
                 {Notes && <button className="study-tool note-tool" onClick={() => openDisclosure('personal-notes')}><span className="tool-symbol" aria-hidden="true">□</span>My notes</button>}
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
+                <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
               </div>
               <Popover><PopoverTrigger className="settings-trigger" aria-label="Reading settings">Aa</PopoverTrigger>
                 <PopoverContent className="reader-popover" align="end"><PopoverTitle>Reading settings</PopoverTitle>
@@ -688,10 +724,12 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                   <hr />
                   <strong>{editionMeta.name}</strong><p className="study-help">{editionMeta.description}</p>
                   <div className="content-key" aria-label="Reading marker key"><p><span className="key-om">OM</span> Reviewed Ordinary Means commentary</p><p><span className="key-publisher">†</span> Publisher note</p></div>
+                  <button onClick={() => setShowGuide(true)}>Show reader guide</button>
                   <a href="/about/sources">Sources &amp; Editions</a>
                 </PopoverContent>
               </Popover>
             </div>
+            {showGuide && <aside className="reader-guide" aria-label="Reader guide"><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> for notes, comparisons, and Greek.</li><li><b>OM</b> opens reviewed Ordinary Means commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></aside>}
             <div className="reader-selection-status">
               <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Tap a verse number or select words to study them.'}</p>
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
@@ -800,6 +838,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                           >
                             {r.verse}
                           </a>
+                          {Notes && b.role !== 'publisher-heading' && b.role !== 'publisher-alternative' && verseAnchors(ch, r).some(anchor => noteAnchors.has(anchor)) && <button className="verse-note-indicator" aria-label={`Open my note for ${formatReference(r.anchor!)}`} title="My note" onClick={() => openDisclosure('personal-notes')}>●</button>}
                           <InlineReviewedMarkers units={reviewed.units} anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? [] : verseAnchors(ch, r)} idPrefix={`verse-commentary-${ch.book}-${ch.chapter}-${i}-${j}`} onOpen={openReviewed} />
                         </sup>
                       ) : r.noteId ? (

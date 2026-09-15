@@ -59,6 +59,7 @@ export default function PersonalNotes({
   async function load() {
     const result = await api<{ schemaVersion: 1; notes: Note[] }>('/api/notes');
     setNotes(result.notes);
+    window.dispatchEvent(new Event('afnt-notes-changed'));
   }
   useEffect(() => {
     if (account?.user) void load().catch((e) => setStatus(e.message));
