@@ -56,16 +56,16 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the final 1.0.0 installers', async () => {
+test('public desktop download page exposes only the approved 1.1.3 installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
   assert.match(page, /Desktop release/);
   assert.doesNotMatch(page, /release candidate/i);
-  assert.match(page, /beta-downloads\/1\.0\.0\/Ad-Fontes-NT-macOS-Apple-Silicon-1\.0\.0\.dmg/);
-  assert.match(page, /beta-downloads\/1\.0\.0\/Ad-Fontes-NT-Windows-x64-1\.0\.0\.exe/);
+  assert.match(page, /beta-downloads\/1\.1\.3\/Ad-Fontes-NT-macOS-Apple-Silicon-1\.1\.3\.dmg/);
+  assert.match(page, /beta-downloads\/1\.1\.3\/Ad-Fontes-NT-Windows-x64-1\.1\.3\.exe/);
   assert.match(page, /all 104 reviewed textual comparisons/);
   assert.match(page, /250 Greek word studies/);
   assert.match(page, /5,400-entry Greek\s+lexicon/);
-  assert.match(page, /private account-backed notes remain\s+available in the web app/);
+  assert.match(page, /private account-backed\s+notes remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
   assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20260911/);
@@ -75,24 +75,24 @@ test('public desktop download page exposes only the final 1.0.0 installers', asy
 
 test('final public installer publication is pinned to the approved signed bytes', async () => {
   const publish = await readFile('deployment/publish-public-desktop-downloads.sh', 'utf8');
-  const checksums = await readFile('deployment/public-desktop-downloads-1.0.0.sha256', 'utf8');
-  assert.match(publish, /version=1\.0\.0\n/);
+  const checksums = await readFile('deployment/public-desktop-downloads-1.1.3.sha256', 'utf8');
+  assert.match(publish, /version=1\.1\.3\n/);
   assert.doesNotMatch(publish, /1\.0\.0-rc\./);
-  assert.match(publish, /1f4043b5f35087a086ecc01b23a335056035b4bf3e37ef979e48bc4fcdb0007e/);
-  assert.match(publish, /e07550f4721926f21a8c4ea7cfd02bcbe587a0cddb38323b74db5acec1f8f724/);
+  assert.match(publish, /afc31422ff28d6d9fddaf7e1c6d4fac937ec8f32b893e78713eebdf78cdc73f7/);
+  assert.match(publish, /5a70b41a2126cce33cecabc8f39d3c0e772ad0e3253982251966e826370b757a/);
   assert.equal(
     checksums,
-    '1f4043b5f35087a086ecc01b23a335056035b4bf3e37ef979e48bc4fcdb0007e  Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0.dmg\n' +
-      'e07550f4721926f21a8c4ea7cfd02bcbe587a0cddb38323b74db5acec1f8f724  Ad-Fontes-NT-Windows-x64-1.0.0.exe\n',
+    'afc31422ff28d6d9fddaf7e1c6d4fac937ec8f32b893e78713eebdf78cdc73f7  Ad-Fontes-NT-macOS-Apple-Silicon-1.1.3.dmg\n' +
+      '5a70b41a2126cce33cecabc8f39d3c0e772ad0e3253982251966e826370b757a  Ad-Fontes-NT-Windows-x64-1.1.3.exe\n',
   );
 });
 
-test('public project status identifies the final 1.0.0 release', async () => {
+test('public project status identifies the approved 1.1.3 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /defined Ad Fontes NT MVP and all five milestones are accepted/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 1\.0\.0 is the current cross-platform desktop release/);
+  assert.match(reader, /Version 1\.1\.3 is the current cross-platform desktop release/);
   assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);

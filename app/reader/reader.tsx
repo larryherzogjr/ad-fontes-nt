@@ -1102,7 +1102,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               personal notes.
             </p>
             <p>
-              Version 1.0.0 is the current cross-platform desktop release. The
+              Version 1.1.3 is the current cross-platform desktop release. The
               macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on

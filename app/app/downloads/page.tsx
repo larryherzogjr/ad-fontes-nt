@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes NT',
-  description: 'Download Ad Fontes NT 1.0.0 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes NT 1.1.3 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,19 +28,19 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.0.0/Ad-Fontes-NT-macOS-Apple-Silicon-1.0.0.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.0.0/Ad-Fontes-NT-Windows-x64-1.0.0.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/1.1.3/Ad-Fontes-NT-macOS-Apple-Silicon-1.1.3.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.1.3/Ad-Fontes-NT-Windows-x64-1.1.3.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes NT">
       <p>
-        Version 1.0.0 brings all 104 reviewed textual comparisons, their
+        Version 1.1.3 brings all 104 reviewed textual comparisons, their
         manuscript evidence, the 250 Greek word studies, the 5,400-entry Greek
-        lexicon, and the Ad Fontes NT reader and study tools to your desktop for
-        offline reading. Choose the package for your computer. Public reading
-        does not require an account; private account-backed notes remain
-        available in the web app.
+        lexicon, and the refined Ad Fontes NT reader and study tools to your
+        desktop for offline reading. Choose the package for your computer.
+        Public reading does not require an account; private account-backed
+        notes remain available in the web app.
       </p>
 
       <div className="download-options">
@@ -73,9 +73,10 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        This is the public 1.0.0 release for the supported systems above. The
-        application checks for future stable updates and asks before downloading
-        or installing them.
+        Version 1.1.3 improves reader navigation, focus mode, study-panel
+        workflows, Library browsing, bookmarks, recent links, accessibility,
+        and responsive presentation. The application checks for future stable
+        updates and asks before downloading or installing them.
       </p>
 
       <p>
