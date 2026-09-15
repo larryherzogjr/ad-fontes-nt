@@ -198,7 +198,7 @@ export default function ReadingSelection({
       style={{ left: choice.x, top: choice.y }}
     >
       <div className="selection-heading">
-        <strong>Study selection</strong>
+        <strong>{choice.label}</strong>
         <button
           aria-label="Dismiss study selection"
           onClick={() => {
@@ -211,7 +211,6 @@ export default function ReadingSelection({
           ×
         </button>
       </div>
-      <p aria-live="polite">{choice.label}</p>
       <div className="selection-buttons">
         {choice.text !== undefined && (
           <button
@@ -230,17 +229,17 @@ export default function ReadingSelection({
               }
             }}
           >
-            Copy with reference
+            <span className="wide-label">Copy with reference</span><span className="short-label">Copy</span>
           </button>
         )}
-        {onNote && <button onClick={() => { onNote(choice.ranges); setChoice(null); window.getSelection()?.removeAllRanges(); }}>My note</button>}
+        {onNote && <button className="selection-note" onClick={() => { onNote(choice.ranges); setChoice(null); window.getSelection()?.removeAllRanges(); }}><span className="wide-label">My note</span><span className="short-label">Note</span></button>}
         <button
           onClick={() => onOpen('compare', choice.ranges, choice.focusId)}
         >
-          Compare editions
+          <span className="wide-label">Compare editions</span><span className="short-label">Compare</span>
         </button>
         <button onClick={() => onOpen('greek', choice.ranges, choice.focusId)}>
-          Explore Greek
+          <span className="wide-label">Explore Greek</span><span className="short-label">Greek</span>
         </button>
       </div>
       <p className="selection-copy-status" aria-live="polite">

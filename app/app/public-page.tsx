@@ -22,8 +22,19 @@ export default function PublicPage({
           <Link href="/library">Library</Link>
           <Link href="/about/sources">Sources &amp; Editions</Link>
           <Link href="/downloads">Downloads</Link>
-          <Link href="/account">My account</Link>
+          <Link href="/account">My notes</Link>
         </nav>
+        <details className="mobile-nav">
+          <summary>Menu</summary>
+          <nav aria-label="Mobile primary">
+            <Link href="/">Read</Link>
+            <Link href="/library">Library</Link>
+            <Link href="/about/sources">Sources &amp; Editions</Link>
+            <Link href="/downloads">Downloads</Link>
+            <Link href="/account">My notes</Link>
+            <span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+          </nav>
+        </details>
       </header>
       <main className="public-page">
         <p className="eyebrow">{eyebrow}</p>

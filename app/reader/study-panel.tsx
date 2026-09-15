@@ -590,7 +590,7 @@ export default function StudyPanel({
       {currentEdition && <span className="study-current-edition" title={currentEdition} aria-label={`Current edition: ${currentEdition}`}>{currentEdition}</span>}
       </div>}
       </div><div className="study-content">
-      {loading && <p role="status">Loading local study data…</p>}
+      {loading && <div className="study-skeleton" role="status" aria-label="Loading passage study"><span /><span /><span /><span /></div>}
       {error && (
         <p role="alert" className="error">
           {error}

@@ -512,12 +512,24 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             Sources &amp; Editions
           </a>
           <a href="/downloads">Downloads</a>
-          {Notes && <a href="/account">My account</a>}
+          {Notes && <a href="/account">My notes</a>}
         </nav>
+        <details className="mobile-nav">
+          <summary>Menu</summary>
+          <nav aria-label="Mobile primary">
+            <a className={mode === 'read' ? 'active' : ''} href={`/read/${current.book.code}/${current.chapter}`}>Read</a>
+            <a href="/library">Library</a>
+            <a href={`/about/sources?translation=${encodeURIComponent(edition)}`}>Sources &amp; Editions</a>
+            <a href="/downloads">Downloads</a>
+            {Notes && <a href="/account">My notes</a>}
+            <span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+          </nav>
+        </details>
       </header>
       <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
         {mode !== 'search' && <div className="passage-navigation">
           <button className="chapter-step" aria-label="Previous chapter" disabled={!previous} onClick={() => previous && goBook(previous.book, previous.chapter)}>←</button>
+          <span className="toolbar-label">Passage</span>
           <Popover open={passagePickerOpen} onOpenChange={togglePassagePicker}><PopoverTrigger className="passage-trigger">{current.book.name} {current.chapter} <span aria-hidden="true">⌄</span></PopoverTrigger>
             <PopoverContent className="reader-popover" align="start"><PopoverTitle>Go to a passage</PopoverTitle>
         <form onSubmit={(e) => {
@@ -609,7 +621,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <option value="">All 27 books</option>{books.map(b => <option key={b.code} value={b.code}>{b.name}</option>)}
           </NativeSelect>
         </label>}
-        {mode !== 'search' && <button className="search-toggle" aria-expanded={searchOpen} aria-controls="passage-search" onClick={() => { setSearchOpen(!searchOpen); if (!searchOpen) setTimeout(() => document.getElementById('reference')?.focus(), 0); }}>Search</button>}
+        {mode !== 'search' && <button className="search-toggle" aria-expanded={searchOpen} aria-controls="passage-search" onClick={() => { setSearchOpen(!searchOpen); if (!searchOpen) setTimeout(() => document.getElementById('reference')?.focus(), 0); }}><span aria-hidden="true">⌕</span><span>Search</span></button>}
         {(mode === 'search' || searchOpen) && <div className="toolbar-search">
         <form onSubmit={submit} className="passage-form" id="passage-search">
           <label htmlFor="reference">Passage or English text</label>
@@ -628,7 +640,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       </div>
       <main id="reading" ref={main} tabIndex={-1} className={study ? 'reader-layout has-study' : 'reader-layout'}>
         <div aria-live="polite">
-          {loading && <p className="notice">Loading local {edition} text…</p>}
+          {loading && <div className="reader-skeleton" role="status" aria-label={`Loading ${edition} Scripture`}><span /><span /><span /></div>}
           {storageError && <p className="notice">{storageError}</p>}
         </div>
         {error && (
@@ -642,10 +654,10 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
           <>
             <div className="reader-tools">
               <div className="study-actions">
-                <button id="open-compare" onClick={() => openStudy('compare')}>Compare editions</button>
-                <button id="open-greek" onClick={() => openStudy('greek')}>Explore Greek</button>
-                {Notes && <button onClick={() => openDisclosure('personal-notes')}>My notes</button>}
-                {!!relatedResources(ranges).length && <button onClick={() => openDisclosure('related-resources')}>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
+                <button className="study-tool comparison-tool" id="open-compare" onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
+                <button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>
+                {Notes && <button className="study-tool note-tool" onClick={() => openDisclosure('personal-notes')}><span className="tool-symbol" aria-hidden="true">□</span>My notes</button>}
+                {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
               </div>
               <Popover><PopoverTrigger className="settings-trigger" aria-label="Reading settings">Aa</PopoverTrigger>
                 <PopoverContent className="reader-popover" align="end"><PopoverTitle>Reading settings</PopoverTitle>
@@ -675,12 +687,13 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               </div>
                   <hr />
                   <strong>{editionMeta.name}</strong><p className="study-help">{editionMeta.description}</p>
+                  <div className="content-key" aria-label="Reading marker key"><p><span className="key-om">OM</span> Reviewed Ordinary Means commentary</p><p><span className="key-publisher">†</span> Publisher note</p></div>
                   <a href="/about/sources">Sources &amp; Editions</a>
                 </PopoverContent>
               </Popover>
             </div>
             <div className="reader-selection-status">
-              <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Select a verse number or highlight Scripture to study a passage.'}</p>
+              <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Tap a verse number or select words to study them.'}</p>
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
                 <PopoverTrigger>{explicitPassage ? 'Edit selection' : 'Select verses'}</PopoverTrigger>
                 <PopoverContent className="reader-popover verse-picker" align="start">

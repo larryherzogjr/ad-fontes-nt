@@ -108,8 +108,14 @@ function LibraryHeader({ offline }: { offline: boolean }) {
         <a className="active" href="/library">Library</a>
         <a href="/about/sources">Sources &amp; Editions</a>
         <a href="/downloads">Downloads</a>
-        {!offline && <a href="/account">My account</a>}
+        {!offline && <a href="/account">My notes</a>}
       </nav>
+      <details className="mobile-nav">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile primary">
+          <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a><a href="/downloads">Downloads</a>{!offline && <a href="/account">My notes</a>}<span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+        </nav>
+      </details>
     </header>
   </>;
 }
@@ -251,13 +257,13 @@ export default function Library({ offline = false }: { offline?: boolean }) {
       {article && index ? <ArticleDetail index={index} article={article} route={route} /> : word && index ? <WordDetail index={index} word={word} route={route} /> : <>
         <p className="eyebrow">Study Library</p>
         <h1>Browse the New Testament’s textual questions and Greek words.</h1>
-        <p className="library-intro">Textual comparisons, Ordinary Means commentary, and dictionary data remain visibly distinct while sharing one searchable Library.</p>
+        <p className="library-intro">Search reviewed textual comparisons, Ordinary Means Greek studies, and edition-specific lexicon data.</p>
         <form className="library-search" role="search" onSubmit={search}>
-          <label htmlFor="library-query">Search passages, titles, Greek words, glosses, topics, or Strong’s numbers</label>
+          <label htmlFor="library-query">Search by passage, title, Greek word, gloss, topic, or Strong’s number</label>
           <div><input id="library-query" value={queryInput} onChange={event => setQueryInput(event.target.value)} /><button>Search</button></div>
         </form>
         {error && <p role="alert" className="notice">{error}</p>}
-        {!index && !error && <p role="status">Loading the Study Library…</p>}
+        {!index && !error && <div className="library-skeleton" role="status" aria-label="Loading the Study Library"><span /><span /><span /></div>}
         {index && data && <>
           <nav className="library-tabs" aria-label="Library collections">
             <a className={route.view === 'comparisons' ? 'active' : ''} href={hrefFor(route, { view: 'comparisons', page: 1, article: '', lemma: '', category: '', kind: '' })}><strong>Textual Comparisons</strong><span>{data.comparisons.length}</span><small>Reviewed passage studies</small></a>
@@ -278,11 +284,14 @@ export default function Library({ offline = false }: { offline?: boolean }) {
 
 function ComparisonList({ route, units }: { route: Route; units: Comparison[] }) {
   const selected = units.filter(unit => (!route.book || unit.ranges[0].start.startsWith(`${route.book}.`)) && (!route.kind || unit.presentation === route.kind));
+  const pageSize = 24, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
+  const visible = selected.slice((page - 1) * pageSize, page * pageSize);
   return <>
     <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Textual Comparisons</h2><p>Reviewed questions about what the seven named editions print. Publisher notes and edition readings remain identified separately.</p></div><div className="library-filters"><label>Book<select value={route.book} onChange={event => location.assign(hrefFor(route, { book: event.target.value, page: 1 }))}><option value="">All books</option>{books.map(book => <option key={book.code} value={book.code}>{book.name}</option>)}</select></label><label>Presentation<select value={route.kind} onChange={event => location.assign(hrefFor(route, { kind: event.target.value, page: 1 }))}><option value="">All comparisons</option><option value="comparison">Edition comparison</option><option value="publisher-note">Publisher-note comparison</option></select></label></div></div>
     <p className="library-result-count">{selected.length} {selected.length === 1 ? 'comparison' : 'comparisons'}</p>
-    <div className="library-card-grid">{selected.map(unit => <article className="library-card comparison-card" key={unit.id}><div className="library-card-meta"><span>{unit.presentation === 'publisher-note' ? 'Publisher-note comparison' : 'Textual comparison'}</span><strong>{formatPassage(unit.ranges)}</strong></div><h3><a href={comparisonHref(unit)}>{unit.title}</a></h3><div className="library-card-summary"><Markdown skipHtml>{unit.summary}</Markdown></div><p className="library-card-foot">Seven named editions · Ordinary Means explanation{unit.publisherNoteCount ? ` · ${unit.publisherNoteCount} pinned publisher notes` : ''}</p><a className="library-card-action" href={comparisonHref(unit)}>Open with the passage →</a></article>)}</div>
+    <div className="library-card-grid">{visible.map(unit => <article className="library-card comparison-card" key={unit.id}><div className="library-card-meta"><span>{unit.presentation === 'publisher-note' ? 'Publisher-note comparison' : 'Textual comparison'}</span><strong>{formatPassage(unit.ranges)}</strong></div><h3><a href={comparisonHref(unit)}>{unit.title}</a></h3><div className="library-card-summary"><Markdown skipHtml>{unit.summary}</Markdown></div><p className="library-card-foot">Seven named editions · Ordinary Means explanation{unit.publisherNoteCount ? ` · ${unit.publisherNoteCount} pinned publisher notes` : ''}</p><a className="library-card-action" href={comparisonHref(unit)}>Open with the passage →</a></article>)}</div>
     {!selected.length && <p className="notice">No textual comparisons match these filters.</p>}
+    <Pager route={{ ...route, page }} pages={pages} />
   </>;
 }
 

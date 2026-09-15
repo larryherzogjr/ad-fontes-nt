@@ -86,7 +86,7 @@ export default function AccountClient() {
   return (
     <main className="account-page">
       <Link href="/">← Return to reading</Link>
-      <h1>My account</h1>
+      <h1>My notes &amp; account</h1>
       <p>Ad Fontes NT · Ordinary Means</p>
       {(error || message) && <p role="alert">{error || message}</p>}
       {!account && !error && <output>Loading account…</output>}
@@ -105,6 +105,7 @@ export default function AccountClient() {
             Your personal notes belong to this account. Open “My notes” in the
             reader to write, export or import them.
           </p>
+          <p><Link href="/">Open the reader and your notes →</Link></p>
           <button disabled={busy} onClick={() => act('logout')}>
             Sign out
           </button>
