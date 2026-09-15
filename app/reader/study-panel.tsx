@@ -95,7 +95,6 @@ export default function StudyPanel({
   const [sync, setSync] = useState(false);
   const [wide, setWide] = useState(false);
   const [desktop, setDesktop] = useState(false);
-  const [panelWidth, setPanelWidth] = useState(680);
   const [trail, setTrail] = useState<StudyTrail>({ items: [], index: -1 });
   useVerseSync(dialog, sync && desktop, `${mode}-${loading}-${wide}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
@@ -109,8 +108,6 @@ export default function StudyPanel({
     try {
       savedRows = localStorage.getItem('afnt.interlinear.rows') || '';
       setSync(localStorage.getItem('afnt.sync-verses') === 'true');
-      const savedWidth = Number(localStorage.getItem('afnt.study-width'));
-      if (savedWidth >= 460 && savedWidth <= 920) setPanelWidth(savedWidth);
     } catch { /* Reading still works when device storage is unavailable. */ }
     setRows((params.get('greekRows') ?? savedRows).split(',').filter(r => ['transliteration', 'lemma', 'strongs', 'grammar'].includes(r)));
     const current = location.pathname + location.search;
@@ -121,11 +118,6 @@ export default function StudyPanel({
       : writeStudyTrail({ items: initialItems, index: initialItems.length - 1 });
     setTrail(next);
   }, []);
-  useEffect(() => {
-    if (!desktop) return;
-    document.body.style.setProperty('--study-width', `${panelWidth}px`);
-    return () => { document.body.style.removeProperty('--study-width'); };
-  }, [desktop, panelWidth]);
   useEffect(() => {
     if (loading || error) return;
     const studyLabel = mode === 'greek' ? `Greek · ${label}` : variants[0]?.title || `${noteOnly ? 'Publisher notes' : 'Compare'} · ${label}`;
@@ -610,7 +602,7 @@ export default function StudyPanel({
         <div className="study-window-actions">
         <button disabled={trail.index <= 0} onClick={() => moveStudy(-1)} aria-label="Previous study" title="Previous study">←</button>
         <button disabled={trail.index < 0 || trail.index >= trail.items.length - 1} onClick={() => moveStudy(1)} aria-label="Next study" title="Next study">→</button>
-        <button className="study-expand" aria-label={wide ? 'Use standard study width' : 'Expand study view'} title={wide ? 'Use standard study width' : 'Expand study view'} aria-pressed={wide} onClick={() => { const nextWide = !wide, nextWidth = nextWide ? 920 : 680; setWide(nextWide); setPanelWidth(nextWidth); try { localStorage.setItem('afnt.study-width', String(nextWidth)); } catch { /* Optional device preference. */ } }}>↔</button>
+        <button className="study-expand" aria-label={wide ? 'Use standard study width' : 'Expand study view'} title={wide ? 'Use standard study width' : 'Expand study view'} aria-pressed={wide} onClick={() => setWide(!wide)}>↔</button>
         <button onClick={onClose} aria-label="Close study panel">
           Close ×
         </button>
@@ -635,10 +627,7 @@ export default function StudyPanel({
         {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && <div className="study-reading-context"><label className="study-width-control">Panel width<input type="range" min="460" max="920" step="20" value={panelWidth} onChange={event => {
-        const next = Number(event.target.value); setPanelWidth(next);
-        try { localStorage.setItem('afnt.study-width', String(next)); } catch { /* Optional device preference. */ }
-      }} /></label><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
+      {desktop && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
       }} />Sync verses</label>

@@ -138,12 +138,11 @@ function Pager({ route, pages }: { route: Route; pages: number }) {
     {route.page < pages ? <a href={hrefFor(route, { page: route.page + 1 })}>Next →</a> : <span />}
   </nav>;
 }
-function LibraryShelves({ recentPassages, recentStudies, bookmarks, savedViews }: { recentPassages: DeviceLink[]; recentStudies: DeviceLink[]; bookmarks: DeviceLink[]; savedViews: DeviceLink[] }) {
+function LibraryShelves({ recentPassages, recentStudies, bookmarks }: { recentPassages: DeviceLink[]; recentStudies: DeviceLink[]; bookmarks: DeviceLink[] }) {
   const shelves = [
     ['Continue reading', recentPassages.slice(0, 4)],
     ['Recently studied', recentStudies.slice(0, 4)],
     ['Bookmarks', bookmarks.slice(0, 6)],
-    ['Saved Library views', savedViews.slice(0, 4)],
   ] as const;
   if (!shelves.some(([, items]) => items.length)) return null;
   return <section className="library-shelves" aria-label="Your recent and saved study links">
@@ -236,7 +235,6 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   const [recentPassages, setRecentPassages] = useState<DeviceLink[]>([]);
   const [recentStudies, setRecentStudies] = useState<DeviceLink[]>([]);
   const [bookmarks, setBookmarks] = useState<DeviceLink[]>([]);
-  const [savedViews, setSavedViews] = useState<DeviceLink[]>([]);
   useEffect(() => {
     const requestedRoute = currentRoute();
     setRoute(requestedRoute);
@@ -244,7 +242,6 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     setRecentPassages(readDeviceLinks('afnt-recent-passages'));
     setRecentStudies(readDeviceLinks('afnt-recent-studies'));
     setBookmarks(readDeviceLinks('afnt-library-bookmarks'));
-    setSavedViews(readDeviceLinks('afnt-library-views'));
     const controller = new AbortController();
     fetch('/library/index.json', { signal: controller.signal }).then(async response => {
       if (!response.ok) throw Error('The Study Library could not be loaded.');
@@ -276,11 +273,6 @@ export default function Library({ offline = false }: { offline?: boolean }) {
       ? writeDeviceLinks('afnt-library-bookmarks', bookmarks.filter(item => item.url !== link.url))
       : rememberDeviceLink('afnt-library-bookmarks', link, 30));
   }
-  function saveCurrentView() {
-    const filters = [route.q && `“${route.q}”`, route.book && books.find(book => book.code === route.book)?.name, route.kind, route.category].filter(Boolean).join(' · ');
-    const names: Record<View, string> = { comparisons: 'Textual Comparisons', articles: 'Greek Word Studies', lexicon: 'Greek Lexicon' };
-    setSavedViews(rememberDeviceLink('afnt-library-views', { url: hrefFor(route, { page: 1, article: '', lemma: '' }), label: names[route.view], detail: filters || 'All results' }, 12));
-  }
   const article = index?.articles.find(item => item.slug === route.article);
   const word = index?.words.find(item => item.lemmaId === route.lemma);
   return <>
@@ -302,8 +294,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a className={route.view === 'articles' ? 'active' : ''} href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></a>
             <a className={route.view === 'lexicon' ? 'active' : ''} href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></a>
           </nav>
-          <div className="library-memory-actions"><button onClick={saveCurrentView}>Save this Library view</button></div>
-          <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} savedViews={savedViews} />
+          <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />
           <section id="library-results" tabIndex={-1}>
             {route.view === 'comparisons' && <ComparisonList route={route} units={data.comparisons} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
             {route.view === 'articles' && <ArticleList route={route} articles={data.articles} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
