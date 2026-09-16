@@ -294,6 +294,12 @@ h2 {
   background: #e4edf0;
   box-decoration-break: clone;
 }
+.scripture .selected-number a {
+  background: #e4edf0;
+  color: #173d49;
+  border-radius: 3px;
+  font-weight: 700;
+}
 .note-marker {
   font:
     14px Arial,
@@ -1387,4 +1393,5 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 }
 @media (forced-colors: active) {
   .commentary-marker, .note-marker, .verse-note-indicator, .library-card-meta span { forced-color-adjust: none; border-color: ButtonText; color: ButtonText; background: Canvas; }
+  .scripture .selected, .scripture .selected-number a { outline: 1px solid Highlight; }
 }

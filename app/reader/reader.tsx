@@ -402,6 +402,29 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     } catch {}
     navigate(url);
   }
+  function selectPassage(chosen: PassageRange[]) {
+    const url = link(chosen);
+    if (location.pathname + location.search !== url)
+      // Reader owns this in-place selection; the router's patched method would remount it and close the action menu.
+      History.prototype.pushState.call(history, history.state, '', url);
+    if (study) {
+      setStudy(null);
+      try {
+        sessionStorage.removeItem('afnt-study-origin');
+        sessionStorage.removeItem('afnt-study-trail');
+      } catch {}
+    }
+    selection.current = new Set(chosen.flatMap(expand));
+    setRanges(chosen);
+    setExplicitPassage(true);
+    setSelectionCopyStatus('');
+    setRecentPassages(rememberDeviceLink('afnt-recent-passages', {
+      url,
+      label: formatPassage(chosen),
+      detail: editionMeta.name,
+    }));
+    save('afnt-position', JSON.stringify({ url, y: window.scrollY }));
+  }
   async function copySelection() {
     setSelectionCopyStatus('');
     try {
@@ -755,6 +778,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             </div>
             <ReadingSelection
               editionName={editionMeta.name}
+              editionId={edition}
+              onSelect={selectPassage}
               onOpen={openStudy}
               onNote={Notes ? setNoteSelection : undefined}
             />
@@ -809,7 +834,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                   {ch.blocks.map((b, i) => {
                     const content = b.runs.map((r, j) =>
                       r.verse ? (
-                        <sup key={j} id={r.anchor} data-sync-anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? undefined : verseAnchors(ch, r).join(' ')}>
+                        <sup key={j} id={r.anchor} className={explicitPassage && b.role !== 'publisher-heading' && b.role !== 'publisher-alternative' && verseAnchors(ch, r).some(anchor => selection.current.has(anchor)) ? 'selected-number' : undefined} data-sync-anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? undefined : verseAnchors(ch, r).join(' ')}>
                           <a
                             id={`study-verse-${ch.book}-${ch.chapter}-${i}-${j}`}
                             aria-label={`Study ${formatReference(r.anchor!)}`}

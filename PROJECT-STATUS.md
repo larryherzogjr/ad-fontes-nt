@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-16 — Persistent in-reading passage selection (AFNT-008 / AFNT-018 / AFNT-020)
+
+- Clicking a verse number or completing a drag across Scripture now sets the reader's explicit page selection and updates its shareable passage URL. The selected verse text and numbers remain marked after the nearby study menu closes. The page-level Edit selection, Clear selection, Copy selection, Compare and Greek controls use the chosen canonical range, including joined verses.
+- Verse-number actions also include Copy with reference. A text drag still copies only the selected words through its nearby action; a verse-number click copies the full selected verse through the existing canonical passage formatter. Dismissing the action menu clears the browser's native text highlight while preserving the reader's selected passage.
+- `npm run verify:both` passed TypeScript checking, deterministic imports/publication, 74 Node tests, 20 Python tests, production web and offline desktop builds, staging of all 13,473 released files, and six offline desktop tests. Browser checks covered click, drag, menu persistence and dismissal, reload, Back, page-level Compare, Note, Enter/Escape and exact focus return, a joined 3 John verse, and a 390px layout without horizontal overflow or console warnings/errors. This is a web reader update; no corpus, editorial, account, database, or signed desktop artifact changes are included. The desktop version needs its own signed release before this reader behavior is distributed there.
+
 ## 2026-09-15 — 1.1.3 signed artifacts and updater approved (AFNT-117)
 
 - Larry approved source commit `b0552a2a7aaaccfcd9ce04b5a4e87ef0395c4f4f`, which private `main` independently resolved to before native packaging. The signed Windows workflow initially stopped at GitHub's artifact-storage quota; 28 explicitly approved temporary `verified-desktop-web*` artifacts were removed without deleting signed installer evidence. Successful retry run `34968274380` passed clean shared verification, Azure Artifact Signing Public Trust, RFC 3161 timestamping, Authenticode verification and final artifact upload from the exact source.

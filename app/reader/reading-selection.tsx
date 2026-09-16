@@ -1,7 +1,8 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { writeClipboard } from '@/lib/clipboard';
-import { formatCopyWithReference, formatPassage } from '@/lib/reading-display';
+import { formatCopyWithReference, formatPassage, formatPassageText } from '@/lib/reading-display';
+import { getCorpus } from '@/lib/domain/corpus';
 import { resolveReference, type PassageRange } from '@/lib/domain/references';
 
 type Choice = {
@@ -23,9 +24,13 @@ export default function ReadingSelection({
   onOpen,
   onNote,
   editionName,
+  editionId,
+  onSelect,
 }: {
   editionName: string;
+  editionId: string;
   onNote?: (ranges: PassageRange[]) => void;
+  onSelect: (ranges: PassageRange[]) => void;
   onOpen: (
     mode: 'compare' | 'greek',
     ranges: PassageRange[],
@@ -36,9 +41,13 @@ export default function ReadingSelection({
   const [copyStatus, setCopyStatus] = useState('');
   const toolbar = useRef<HTMLElement>(null);
   const choiceRef = useRef(choice);
+  const onSelectRef = useRef(onSelect);
   choiceRef.current = choice;
+  onSelectRef.current = onSelect;
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout>;
+    let pointerDown = false;
+    let suppressScrollUntil = 0;
     function position(rect: DOMRect) {
       const width = Math.min(340, innerWidth - 24);
       return {
@@ -101,9 +110,12 @@ export default function ReadingSelection({
         setChoice(null);
         return;
       }
+      const ranges = anchors.map(a => ({ start: a, end: a }));
+      onSelectRef.current(ranges);
+      suppressScrollUntil = performance.now() + 500;
       setChoice({
-        ranges: anchors.map((a) => ({ start: a, end: a })),
-        label: formatPassage(anchors.map(a => ({start:a, end:a}))),
+        ranges,
+        label: formatPassage(ranges),
         ...position(range.getBoundingClientRect()),
         focusId: spans[0].dataset.studyFocus || 'reading',
         text,
@@ -119,6 +131,9 @@ export default function ReadingSelection({
         );
     }
     function selectionChanged(event: Event) {
+      if (event.type === 'selectionchange' && pointerDown) return;
+      if (event.type === 'pointerup' || event.type === 'pointercancel')
+        pointerDown = false;
       clearTimeout(timer);
       timer = setTimeout(() => inspect(event.type === 'keyup'), 180);
     }
@@ -136,6 +151,8 @@ export default function ReadingSelection({
         return;
       event.preventDefault();
       const ranges = resolveReference(link.dataset.studyReference!);
+      onSelectRef.current(ranges);
+      suppressScrollUntil = performance.now() + 500;
       setChoice({
         ranges,
         label: formatPassage(ranges),
@@ -154,6 +171,7 @@ export default function ReadingSelection({
         );
     }
     function outside(event: PointerEvent) {
+      pointerDown = true;
       if (!toolbar.current?.contains(event.target as Node)) setChoice(null);
     }
     function key(event: KeyboardEvent) {
@@ -166,13 +184,16 @@ export default function ReadingSelection({
         window.getSelection()?.removeAllRanges();
       }
     }
-    function hide() {
+    function hide(event: Event) {
+      if (event.type === 'scroll' && performance.now() < suppressScrollUntil)
+        return;
       if (!toolbar.current?.contains(document.activeElement)) setChoice(null);
     }
     document.addEventListener('click', click);
     document.addEventListener('pointerdown', outside);
     document.addEventListener('selectionchange', selectionChanged);
     document.addEventListener('pointerup', selectionChanged);
+    document.addEventListener('pointercancel', selectionChanged);
     document.addEventListener('keyup', selectionChanged);
     document.addEventListener('keydown', key);
     window.addEventListener('resize', hide);
@@ -183,6 +204,7 @@ export default function ReadingSelection({
       document.removeEventListener('pointerdown', outside);
       document.removeEventListener('selectionchange', selectionChanged);
       document.removeEventListener('pointerup', selectionChanged);
+      document.removeEventListener('pointercancel', selectionChanged);
       document.removeEventListener('keyup', selectionChanged);
       document.removeEventListener('keydown', key);
       window.removeEventListener('resize', hide);
@@ -206,32 +228,29 @@ export default function ReadingSelection({
               .getElementById(choice.focusId)
               ?.focus({ preventScroll: true });
             setChoice(null);
+            window.getSelection()?.removeAllRanges();
           }}
         >
           ×
         </button>
       </div>
       <div className="selection-buttons">
-        {choice.text !== undefined && (
-          <button
-            onClick={async () => {
-              try {
-                await writeClipboard(
-                  formatCopyWithReference(
-                    choice.text!,
-                    choice.ranges,
-                    editionName,
-                  ),
-                );
-                setCopyStatus('Copied with reference.');
-              } catch {
-                setCopyStatus('Copy failed. Please try again.');
-              }
-            }}
-          >
-            <span className="wide-label">Copy with reference</span><span className="short-label">Copy</span>
-          </button>
-        )}
+        <button
+          onClick={async () => {
+            try {
+              const text = choice.text ?? formatPassageText(
+                (await getCorpus(editionId).getPassage(choice.ranges)).segments,
+              );
+              if (!text.trim()) throw new Error('No Scripture text is available.');
+              await writeClipboard(formatCopyWithReference(text, choice.ranges, editionName));
+              setCopyStatus('Copied with reference.');
+            } catch {
+              setCopyStatus('Copy failed. Please try again.');
+            }
+          }}
+        >
+          <span className="wide-label">Copy with reference</span><span className="short-label">Copy</span>
+        </button>
         {onNote && <button className="selection-note" onClick={() => { onNote(choice.ranges); setChoice(null); window.getSelection()?.removeAllRanges(); }}><span className="wide-label">My note</span><span className="short-label">Note</span></button>}
         <button
           onClick={() => onOpen('compare', choice.ranges, choice.focusId)}
