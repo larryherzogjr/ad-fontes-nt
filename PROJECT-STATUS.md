@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-16 — 1.1.4 desktop reader parity published (AFNT-008 / AFNT-018 / AFNT-020)
+
+- Larry approved the exact signed Apple Silicon and Windows 11 x64 artifacts, combined updater manifest SHA-256 `ae19a71f2e6d22d884ae093aabb742435fb2b627a641567364676398f1eee1a0`, and artifact-pin commit `6ea141a7c4f929f209a0a1b0d71c1fd1f6a4444a`. Private `main` and the clean host checkout fast-forwarded to that commit. The host published both immutable updater payloads, the stable manifest and public installers, then rebuilt the web app. Both containers reported healthy and `/api/health` returned `{"ok":true}`; pre-update backup `deployment/backups/adfontes-before-update-20260917T011130Z.dump` is nonempty.
+- Independent full HTTPS downloads reproduced all five approved file hashes. Stable metadata uses `no-store`; the versioned updater uses immutable caching; installer byte ranges and download/security headers passed; release-directory listing returns `403` and an unknown updater path `404`. The live Downloads page shows exact 1.1.4 Mac and Windows links. A live John 1 verse click selected the passage, opened the Copy/Compare/Greek menu, updated the URL and retained the selection after menu dismissal. [The release record](docs/V1.1.4-Reader-Selection-2026-09-16.md) preserves the exact hashes and verification.
+- The signed Mac and Windows bundles include the selection behavior. The signed desktop Sources status paragraph still names 1.1.3; the update control reports 1.1.4. Correct that copy in the next desktop source release. Physical Windows 11 install, upgrade and uninstall acceptance remain open. The 1.1.3 files remain immutable rollback; this release does not close other M5 or MVP work.
+
 ## 2026-09-16 — Web reader selection deployed (AFNT-008 / AFNT-018 / AFNT-020)
 
 - Larry ran the guarded host update from clean `main` at exact commit `4d165d49759c24f4c98076751bc02b993c1bbb95`. The host fast-forwarded, rebuilt the isolated application, backed up the production database to `backups/adfontes-before-update-20260917T000013Z.dump`, reported both database and web containers healthy, and returned `{"ok":true}` from the HTTPS health endpoint.
