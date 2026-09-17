@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-16 — 1.1.4 desktop reader parity prepared (AFNT-008 / AFNT-018 / AFNT-020)
+
+- Coordinated npm, Cargo and Tauri source metadata at 1.1.4 so new macOS Apple Silicon and Windows 11 x64 releases can include the persistent verse-click and text-drag selection already committed for the web reader. The currently published 1.1.3 signed packages and updater remain immutable; the public Downloads page continues to identify 1.1.3 until new signed bytes and their exact hashes pass release review.
+- `npm run verify:both` passed TypeScript checking, deterministic imports/publication, 74 Node tests, 20 Python tests, production web and offline desktop builds, staging of all 13,473 released files, and six offline desktop tests. The shared offline desktop bundle was exercised at John 1: verse-number click selected verse 1, text drag selected verses 2–3, menu dismissal retained the selected text and verse-number styling, reload retained the passage, and the browser reported no warnings or errors. See [the 1.1.4 release record](docs/V1.1.4-Reader-Selection-2026-09-16.md) for scope and publication gates.
+- Next: build and verify exact macOS and Windows signed packages, assemble the combined updater manifest, review the hashes, then publish the immutable update and both installer downloads. No new corpus, editorial, account, database or signed artifact was published by this source preparation.
+
 ## 2026-09-16 — Persistent in-reading passage selection (AFNT-008 / AFNT-018 / AFNT-020)
 
 - Clicking a verse number or completing a drag across Scripture now sets the reader's explicit page selection and updates its shareable passage URL. The selected verse text and numbers remain marked after the nearby study menu closes. The page-level Edit selection, Clear selection, Copy selection, Compare and Greek controls use the chosen canonical range, including joined verses.
