@@ -56,7 +56,7 @@ test('real absence differs from unavailable data and unsupported edition',async(
 test('cross-chapter and disjoint passage output is ordered',async()=>{const r=await adapter.getPassage(resolveReference('John 7:53-8:11'));assert.equal(r.segments.length,12);assert.equal(r.segments[0].id,'JHN.7.53');assert.equal(r.segments[11].id,'JHN.8.11');const d=await adapter.getPassage(resolveReference('Romans 3:23;Romans 5:1'));assert.deepEqual(d.segments.map(s=>s.id),['ROM.3.23','ROM.5.1']);});
 test('Scripture search: whole words, phrases, book filter, pages, empty and note exclusion',async()=>{assert(matchText('Grace and truth','grace truth'));assert(!matchText('disgrace','grace'));const r=await adapter.searchText('grace');assert(r.total>20);assert.equal(r.hits.length,20);const p=await adapter.searchText('grace','',2);assert.equal(p.page,2);assert.notEqual(p.hits[0].anchor,r.hits[0].anchor);const rom=await adapter.searchText('grace','ROM');assert(rom.hits.every(h=>h.book==='ROM'));const phrase=await adapter.searchText('"fall short of the glory of God"');assert(phrase.hits.some(h=>h.anchor==='ROM.3.23'));assert.equal((await adapter.searchText('zzzznonexistent')).total,0);assert.equal((await adapter.searchText('BYZ')).total,0);assert.equal((await adapter.searchText('')).total,0);assert.equal((await adapter.searchText('""')).total,0);});
 
-import {findSyncTarget} from '../app/lib/verse-sync.ts';
+import {findSyncTarget,isSettlingFollowerScroll} from '../app/lib/verse-sync.ts';
 test('verse synchronization respects active editions, merged mappings and missing counterparts', () => {
   const items = [
     {edition:'first', refs:['ROM.16.25'], sourceRef:'ROM.16.25'},
@@ -69,4 +69,11 @@ test('verse synchronization respects active editions, merged mappings and missin
   assert.equal(findSyncTarget(items, ['ROM.16.26'], 'first', anchors, edition), undefined);
   assert.equal(findSyncTarget(items, ['ROM.14.24'], 'second', anchors, edition), undefined);
   assert.equal(findSyncTarget(items, ['ACT.8.37'], undefined, anchors, edition), undefined);
+});
+test('verse synchronization keeps the gesture pane authoritative while its follower settles', () => {
+  assert.equal(isSettlingFollowerScroll('study', 'reader', 1500, 1200), true);
+  assert.equal(isSettlingFollowerScroll('reader', 'reader', 1500, 1200), false);
+  assert.equal(isSettlingFollowerScroll('study', 'reader', 1500, 1500), false);
+  assert.equal(isSettlingFollowerScroll('study', null, 1500, 1200), true);
+  assert.equal(isSettlingFollowerScroll('study', 'reader', 0, 1200), false);
 });

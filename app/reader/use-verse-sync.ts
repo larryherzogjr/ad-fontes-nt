@@ -1,17 +1,26 @@
 'use client';
-import { findSyncTarget } from '../lib/verse-sync';
+import {
+  findSyncTarget,
+  isSettlingFollowerScroll,
+  type VerseSyncPane,
+} from '../lib/verse-sync';
 import { useEffect, type RefObject } from 'react';
 
-// Track the follower’s resulting offset to ignore its scroll events, while
-// accepting wheel, keyboard, touch, scrollbar and accessibility scrolling.
+// Keep the pane with the most recent real input authoritative while the other
+// pane settles after programmatic scrolling. This avoids iPad momentum events
+// making the follower seize leadership and bounce both panes back and forth.
 export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enabled: boolean, revision: string) {
   useEffect(() => {
     const panel = dialog.current;
     if (!panel || !enabled) return;
-    let leader: 'reader' | 'study' | null = null;
+    let leader: VerseSyncPane | null = null;
     let activeEdition = '';
     let frame = 0;
-    const expected: {reader?: number; study?: number} = {};
+    const followerSettleMs = 500;
+    const suppressedUntil: Record<VerseSyncPane, number> = {
+      reader: 0,
+      study: 0,
+    };
     const anchors = (el: HTMLElement) => (el.dataset.syncAnchors || '').split(' ').filter(Boolean);
     const visible = (el: HTMLElement) => el.getClientRects().length > 0;
     const studyElements = () => Array.from(panel.querySelectorAll<HTMLElement>('[data-sync-edition][data-sync-anchors]')).filter(visible);
@@ -36,8 +45,11 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
         const refs = anchors(source);
         const target = findSyncTarget(left, refs, undefined, anchors, el => el.dataset.syncEdition);
         if (target) {
-          window.scrollBy({ top: target.getBoundingClientRect().top - readerLine(), behavior: 'instant' });
-          expected.reader = window.scrollY;
+          const top = target.getBoundingClientRect().top - readerLine();
+          if (Math.abs(top) >= 1) {
+            suppressedUntil.reader = performance.now() + followerSettleMs;
+            window.scrollBy({ top, behavior: 'instant' });
+          }
         }
       } else if (leader === 'reader') {
         const source = current(left, readerLine(), false);
@@ -47,8 +59,11 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
         const target = findSyncTarget(right, refs, activeEdition, anchors, el => el.dataset.syncEdition);
         // No invented counterpart for an absent or unavailable canonical verse.
         if (target) {
-          panel!.scrollBy({ top: target.getBoundingClientRect().top - studyLine(), behavior: 'instant' });
-          expected.study = panel!.scrollTop;
+          const top = target.getBoundingClientRect().top - studyLine();
+          if (Math.abs(top) >= 1) {
+            suppressedUntil.study = performance.now() + followerSettleMs;
+            panel!.scrollBy({ top, behavior: 'instant' });
+          }
         }
       }
     }
@@ -57,16 +72,17 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
       const target = event.target as Element | null;
       if (target?.closest('input, textarea, select, .greek-inspector, .word-detail')) { leader = null; return; }
       leader = target && panel!.contains(target) ? 'study' : 'reader';
-      expected[leader] = undefined;
+      suppressedUntil[leader] = 0;
+      const follower = leader === 'reader' ? 'study' : 'reader';
+      // A new gesture can begin before the old pane's momentum has finished.
+      suppressedUntil[follower] = performance.now() + followerSettleMs;
     }
     function scroll(event: Event) {
       const studyScroll = event.target === panel;
       const readerScroll = event.target === document;
       if (!studyScroll && !readerScroll) return;
-      const pane = studyScroll ? 'study' : 'reader';
-      const position = studyScroll ? panel!.scrollTop : window.scrollY;
-      if (expected[pane] !== undefined && Math.abs(position - expected[pane]!) < 1) return;
-      expected[pane] = undefined;
+      const pane: VerseSyncPane = studyScroll ? 'study' : 'reader';
+      if (isSettlingFollowerScroll(pane, leader, suppressedUntil[pane], performance.now())) return;
       leader = pane;
       if (!frame) frame = requestAnimationFrame(synchronize);
     }

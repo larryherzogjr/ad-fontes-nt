@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-19 — iPad verse-synchronization correction (AFNT-026 follow-on)
+
+- Corrected the optional desktop-width “Sync verses” behavior after Larry reported erratic, jerky scrolling in an iPad browser. The pane receiving the latest real touch, pointer, wheel or keyboard gesture now remains authoritative while programmatic follower scrolling settles; late follower events and momentum from the previously active pane cannot reverse the synchronization direction. A real gesture in either pane transfers control immediately.
+- Added focused regression coverage for follower suppression, gesture ownership, settling expiry and the no-active-leader case. Scripture anchors, edition selection, comparison content, Greek analysis and narrow-screen modal behavior are unchanged.
+- `npm run verify:both` passed TypeScript checking, 75 Node tests, 20 Python tests, the production web build, staging of all 13,473 released desktop files and six offline desktop tests. Production-browser checks at 1366×1024 covered Greek and edition-comparison scrolling led by each pane, forward/reverse movement, a stable rapid pane handoff, retained edition labels and a clean console; the 390×844 modal continued to hide synchronization and had no horizontal overflow. Physical-iPad confirmation remains pending. No deployment, signed desktop package, corpus, editorial, account or database change is included.
+
 ## 2026-09-16 — 1.1.4 desktop reader parity published (AFNT-008 / AFNT-018 / AFNT-020)
 
 - Larry approved the exact signed Apple Silicon and Windows 11 x64 artifacts, combined updater manifest SHA-256 `ae19a71f2e6d22d884ae093aabb742435fb2b627a641567364676398f1eee1a0`, and artifact-pin commit `6ea141a7c4f929f209a0a1b0d71c1fd1f6a4444a`. Private `main` and the clean host checkout fast-forwarded to that commit. The host published both immutable updater payloads, the stable manifest and public installers, then rebuilt the web app. Both containers reported healthy and `/api/health` returned `{"ok":true}`; pre-update backup `deployment/backups/adfontes-before-update-20260917T011130Z.dump` is nonempty.
