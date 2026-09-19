@@ -5,16 +5,7 @@ export function findSyncTarget<T>(items: T[], refs: string[], edition: string | 
 
 export type VerseSyncPane = 'reader' | 'study';
 
-/**
- * Programmatic scrolling can settle through several asynchronous scroll events
- * on touch browsers. Those follower events must not take leadership away from
- * the pane that received the user's most recent gesture.
- */
-export function isSettlingFollowerScroll(
-  pane: VerseSyncPane,
-  leader: VerseSyncPane | null,
-  suppressedUntil: number,
-  now: number,
-) {
-  return pane !== leader && now < suppressedUntil;
+/** A follower cannot become the leader until it receives a real input gesture. */
+export function isFollowerScroll(pane: VerseSyncPane, leader: VerseSyncPane | null) {
+  return leader !== null && pane !== leader;
 }

@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-19 — iPad verse-synchronization directional follow-up (AFNT-026 follow-on)
+
+- Larry's production iPad check confirmed that scrolling the Greek/edition pane drove the reader correctly, while scrolling the reader still made the study pane erratic. This isolated the remaining failure to delayed study-pane scroll events taking leadership after the 500 ms follower-settling window expired.
+- Replaced the settling timer with gesture-owned leadership: the pane receiving the latest real touch, pointer, wheel or supported keyboard gesture remains authoritative until the other pane receives its own real gesture. Programmatic follower scroll events can no longer take control in either direction; direct interaction still transfers control immediately.
+- `npm run verify:both` passed TypeScript checking, 75 Node tests, 20 Python tests, the production web build, staging of all 13,473 released desktop files and six offline desktop tests. Production-browser checks covered repeated left-to-right synchronization in Greek and edition comparison, right-to-left synchronization, immediate direction changes and a clean console. A second physical-iPad production check remains pending. No deployment, signed desktop package, corpus, editorial, account or database change is included.
+
 ## 2026-09-19 — iPad verse-synchronization correction (AFNT-026 follow-on)
 
 - Corrected the optional desktop-width “Sync verses” behavior after Larry reported erratic, jerky scrolling in an iPad browser. The pane receiving the latest real touch, pointer, wheel or keyboard gesture now remains authoritative while programmatic follower scrolling settles; late follower events and momentum from the previously active pane cannot reverse the synchronization direction. A real gesture in either pane transfers control immediately.
