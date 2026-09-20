@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-19 — 1.1.5 synchronized-reader desktop release prepared (AFNT-026 follow-on)
+
+- Coordinated npm, Cargo and Tauri source metadata at 1.1.5 so new macOS Apple Silicon and Windows 11 x64 packages can include the production-confirmed synchronized-reader corrections through `09cf629`. The shared implementation keeps scroll leadership with the pane receiving the real gesture and coalesces left-reader iPad touch momentum before moving the taller Greek or edition-comparison pane.
+- The currently published 1.1.4 installers and stable updater remain immutable. The public Downloads page continues to identify 1.1.4 until exact 1.1.5 native artifacts are built, signed, independently verified and approved for publication. No corpus, editorial, account, database or hosted-service change is part of this source preparation.
+- The complete shared gate passed: TypeScript, deterministic imports and publications, 76 Node tests, 20 Python tests, both production builds, 13,473 staged release files and six desktop tests. Offline desktop browser checks also passed bidirectional Greek and edition-comparison synchronization at 1280 × 800 plus a John 1:15 Greek deep link and keyboard navigation at 390 × 844, with no browser warnings or errors. Verification and exact native artifact evidence are recorded in [the 1.1.5 release record](docs/V1.1.5-Verse-Synchronization-2026-09-19.md). Next: commit and push the exact source, build both signed platforms from that commit, assemble the combined updater candidate and present its hashes for approval.
+
 ## 2026-09-19 — iPad verse-synchronization touch-momentum follow-up (AFNT-026 follow-on)
 
 - Larry's second production iPad check on `5482cdd` confirmed that right-to-left synchronization remained stable but left-to-right synchronization was still erratic. With follower leadership already locked to real gestures, the remaining asymmetry is consistent with compact reader touch momentum crossing several verses and repeatedly moving the much taller Greek or edition pane.

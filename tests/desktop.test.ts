@@ -33,10 +33,10 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '1.1.4');
+  assert.equal(config.version, '1.1.5');
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "1\.1\.4"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "1\.1\.4"/);
+  assert.match(cargoManifest, /^version = "1\.1\.5"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "1\.1\.5"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
