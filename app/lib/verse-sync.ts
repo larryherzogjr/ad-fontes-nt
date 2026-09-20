@@ -9,3 +9,8 @@ export type VerseSyncPane = 'reader' | 'study';
 export function isFollowerScroll(pane: VerseSyncPane, leader: VerseSyncPane | null) {
   return leader !== null && pane !== leader;
 }
+
+/** Touch momentum in the compact reader should settle before moving the taller study pane. */
+export function verseSyncDelay(pane: VerseSyncPane, touchDriven: boolean) {
+  return pane === 'reader' && touchDriven ? 140 : 0;
+}

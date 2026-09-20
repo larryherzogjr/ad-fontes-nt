@@ -56,7 +56,7 @@ test('real absence differs from unavailable data and unsupported edition',async(
 test('cross-chapter and disjoint passage output is ordered',async()=>{const r=await adapter.getPassage(resolveReference('John 7:53-8:11'));assert.equal(r.segments.length,12);assert.equal(r.segments[0].id,'JHN.7.53');assert.equal(r.segments[11].id,'JHN.8.11');const d=await adapter.getPassage(resolveReference('Romans 3:23;Romans 5:1'));assert.deepEqual(d.segments.map(s=>s.id),['ROM.3.23','ROM.5.1']);});
 test('Scripture search: whole words, phrases, book filter, pages, empty and note exclusion',async()=>{assert(matchText('Grace and truth','grace truth'));assert(!matchText('disgrace','grace'));const r=await adapter.searchText('grace');assert(r.total>20);assert.equal(r.hits.length,20);const p=await adapter.searchText('grace','',2);assert.equal(p.page,2);assert.notEqual(p.hits[0].anchor,r.hits[0].anchor);const rom=await adapter.searchText('grace','ROM');assert(rom.hits.every(h=>h.book==='ROM'));const phrase=await adapter.searchText('"fall short of the glory of God"');assert(phrase.hits.some(h=>h.anchor==='ROM.3.23'));assert.equal((await adapter.searchText('zzzznonexistent')).total,0);assert.equal((await adapter.searchText('BYZ')).total,0);assert.equal((await adapter.searchText('')).total,0);assert.equal((await adapter.searchText('""')).total,0);});
 
-import {findSyncTarget,isFollowerScroll} from '../app/lib/verse-sync.ts';
+import {findSyncTarget,isFollowerScroll,verseSyncDelay} from '../app/lib/verse-sync.ts';
 test('verse synchronization respects active editions, merged mappings and missing counterparts', () => {
   const items = [
     {edition:'first', refs:['ROM.16.25'], sourceRef:'ROM.16.25'},
@@ -76,4 +76,10 @@ test('verse synchronization changes leadership only after real input in the othe
   assert.equal(isFollowerScroll('reader', 'reader'), false);
   assert.equal(isFollowerScroll('study', 'study'), false);
   assert.equal(isFollowerScroll('study', null), false);
+});
+test('verse synchronization coalesces only touch-driven reader movement', () => {
+  assert.equal(verseSyncDelay('reader', true), 140);
+  assert.equal(verseSyncDelay('reader', false), 0);
+  assert.equal(verseSyncDelay('study', true), 0);
+  assert.equal(verseSyncDelay('study', false), 0);
 });

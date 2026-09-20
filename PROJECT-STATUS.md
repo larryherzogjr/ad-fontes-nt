@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-09-19 — iPad verse-synchronization touch-momentum follow-up (AFNT-026 follow-on)
+
+- Larry's second production iPad check on `5482cdd` confirmed that right-to-left synchronization remained stable but left-to-right synchronization was still erratic. With follower leadership already locked to real gestures, the remaining asymmetry is consistent with compact reader touch momentum crossing several verses and repeatedly moving the much taller Greek or edition pane.
+- Coalesced only touch-driven reader movement until 140 ms after its last scroll event, then aligns the study pane once to the settled canonical verse. Right-pane touch scrolling and reader wheel or keyboard scrolling remain immediate; canonical mappings, active edition selection and missing-counterpart behavior are unchanged.
+- `npm run verify:both` passed TypeScript checking, 76 Node tests, 20 Python tests, the production web build, staging of all 13,473 released desktop files and six offline desktop tests. Production-browser checks covered Greek and edition-comparison synchronization led by either pane, direction changes, a John 1:15 Greek deep link, keyboard focus/navigation, a 390×844 study view and a clean console. Browser automation cannot reproduce iPad touch momentum, so a physical-iPad production check remains pending. No deployment, signed desktop package, corpus, editorial, account or database change is included.
+
 ## 2026-09-19 — iPad verse-synchronization directional follow-up (AFNT-026 follow-on)
 
 - Larry's production iPad check confirmed that scrolling the Greek/edition pane drove the reader correctly, while scrolling the reader still made the study pane erratic. This isolated the remaining failure to delayed study-pane scroll events taking leadership after the 500 ms follower-settling window expired.

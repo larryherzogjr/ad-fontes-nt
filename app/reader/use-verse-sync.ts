@@ -3,6 +3,7 @@ import {
   findSyncTarget,
   isFollowerScroll,
   type VerseSyncPane,
+  verseSyncDelay,
 } from '../lib/verse-sync';
 import { useEffect, type RefObject } from 'react';
 
@@ -16,6 +17,8 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
     let leader: VerseSyncPane | null = null;
     let activeEdition = '';
     let frame = 0;
+    let settleTimer = 0;
+    let readerTouchDriven = false;
     const anchors = (el: HTMLElement) => (el.dataset.syncAnchors || '').split(' ').filter(Boolean);
     const visible = (el: HTMLElement) => el.getClientRects().length > 0;
     const studyElements = () => Array.from(panel.querySelectorAll<HTMLElement>('[data-sync-edition][data-sync-anchors]')).filter(visible);
@@ -63,8 +66,16 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
     function input(event: Event) {
       if (event instanceof KeyboardEvent && !['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(event.key)) return;
       const target = event.target as Element | null;
-      if (target?.closest('input, textarea, select, .greek-inspector, .word-detail')) { leader = null; return; }
+      cancelAnimationFrame(frame);
+      frame = 0;
+      clearTimeout(settleTimer);
+      settleTimer = 0;
+      if (target?.closest('input, textarea, select, .greek-inspector, .word-detail')) { leader = null; readerTouchDriven = false; return; }
       leader = target && panel!.contains(target) ? 'study' : 'reader';
+      readerTouchDriven = leader === 'reader' && (
+        event.type === 'touchstart' ||
+        (typeof PointerEvent !== 'undefined' && event instanceof PointerEvent && event.pointerType === 'touch')
+      );
     }
     function scroll(event: Event) {
       const studyScroll = event.target === panel;
@@ -73,12 +84,22 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
       const pane: VerseSyncPane = studyScroll ? 'study' : 'reader';
       if (isFollowerScroll(pane, leader)) return;
       leader = pane;
-      if (!frame) frame = requestAnimationFrame(synchronize);
+      const delay = verseSyncDelay(pane, readerTouchDriven);
+      if (delay) {
+        clearTimeout(settleTimer);
+        settleTimer = window.setTimeout(() => {
+          settleTimer = 0;
+          if (leader === 'reader' && !frame) frame = requestAnimationFrame(synchronize);
+        }, delay);
+      } else if (!frame) {
+        frame = requestAnimationFrame(synchronize);
+      }
     }
     for (const name of ['wheel','touchstart','pointerdown','keydown']) document.addEventListener(name, input, { capture: true, passive: true });
     document.addEventListener('scroll', scroll, true);
     return () => {
       cancelAnimationFrame(frame);
+      clearTimeout(settleTimer);
       for (const name of ['wheel','touchstart','pointerdown','keydown']) document.removeEventListener(name, input, true);
       document.removeEventListener('scroll', scroll, true);
     };
