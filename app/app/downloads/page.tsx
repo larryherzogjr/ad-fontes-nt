@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes NT',
-  description: 'Download Ad Fontes NT 1.1.4 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes NT 1.1.5 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.1.4/Ad-Fontes-NT-macOS-Apple-Silicon-1.1.4.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.1.4/Ad-Fontes-NT-Windows-x64-1.1.4.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/1.1.5/Ad-Fontes-NT-macOS-Apple-Silicon-1.1.5.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.1.5/Ad-Fontes-NT-Windows-x64-1.1.5.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes NT">
       <p>
-        Version 1.1.4 brings all 104 reviewed textual comparisons, their
+        Version 1.1.5 brings all 104 reviewed textual comparisons, their
         manuscript evidence, the 250 Greek word studies, the 5,400-entry Greek
         lexicon, and the refined Ad Fontes NT reader and study tools to your
         desktop for offline reading. Choose the package for your computer.
@@ -73,12 +73,13 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 1.1.4 keeps verses selected when you click a verse number or
-        drag across Scripture. The selected passage remains marked after the
-        nearby Copy, Compare, and Greek menu closes. This release also includes
-        the reader, study-panel, Library, bookmark, accessibility, and
-        responsive refinements from 1.1.3. The application checks for future
-        stable updates and asks before downloading or installing them.
+        Version 1.1.5 improves synchronized verse scrolling between Scripture
+        and Greek or edition-comparison panes, including smoother touch
+        momentum on iPad. It also includes the persistent passage selection
+        from 1.1.4 and the reader, study-panel, Library, bookmark,
+        accessibility, and responsive refinements from 1.1.3. The application
+        checks for future stable updates and asks before downloading or
+        installing them.
       </p>
 
       <p>
