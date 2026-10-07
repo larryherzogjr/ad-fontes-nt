@@ -11,6 +11,10 @@ app/.vinext
 deployment/backups
 
 .desktop-tools
-app/desktop
+# Retain only the native identity fixture required by production-build tests.
+app/desktop/*
+!app/desktop/src-tauri
+app/desktop/src-tauri/*
+!app/desktop/src-tauri/tauri.conf.json
 app/public/om
 artifacts/desktop
