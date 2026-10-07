@@ -13,9 +13,6 @@ COPY --from=build --chown=node:node /workspace/app/node_modules ./app/node_modul
 COPY --from=build --chown=node:node /workspace/app/dist ./app/dist
 COPY --from=build --chown=node:node /workspace/app/public ./app/public
 COPY --from=build --chown=node:node /workspace/app/package.json ./app/package.json
-COPY --from=build --chown=node:node /workspace/app/server/db.ts ./app/server/db.ts
-COPY --from=build --chown=node:node /workspace/migrations ./migrations
-COPY --from=build --chown=node:node /workspace/scripts/migrate.mts ./scripts/migrate.mts
 USER node
 EXPOSE 3000
-CMD ["sh", "-c", "node scripts/migrate.mts && cd app && npm start -- --hostname 0.0.0.0"]
+CMD ["sh", "-c", "cd app && npm start -- --hostname 0.0.0.0"]

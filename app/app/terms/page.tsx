@@ -1,44 +1,29 @@
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
-export const metadata: Metadata = { title: 'Terms · Ad Fontes NT' };
+export const metadata: Metadata = { title: 'Terms · Ad Fontes' };
 
 export default function TermsPage() {
   return (
     <PublicPage eyebrow="Public policy" title="Terms of Use">
-      <p>Effective date: September 10, 2026.</p>
+      <p>Effective date: October 7, 2026.</p>
       <p>
-        These terms govern use of Ad Fontes NT, provided by Larry Herzog Jr.,
+        These terms govern use of Ad Fontes, provided by Larry Herzog Jr.,
         publishing as Ordinary Means. By using the service or desktop application,
         you agree to these terms.
       </p>
 
       <h2>Purpose and access</h2>
       <p>
-        Ad Fontes NT is a free New Testament reading and study environment. It is
+        Ad Fontes is a free biblical reading and study environment. It is
         provided for informational, educational, personal, church, and ministry
         use. It is not professional legal, medical, financial, or pastoral care
         and is not a substitute for primary sources or qualified counsel.
       </p>
 
-      <h2>Accounts and private notes</h2>
-      <p>
-        Reading does not require an account. Private-note accounts are initially
-        available by invitation and require Google identity. You are responsible
-        for access to your Google account and for exporting notes you need to
-        preserve independently. You retain ownership of note text you create and
-        grant Ad Fontes NT only the permission needed to store, process, back up,
-        and return it to you.
-      </p>
-      <p>
-        Do not misuse the service, attempt unauthorized access, interfere with
-        its operation, or use it to violate another person’s rights. Access may
-        be limited when reasonably necessary to protect the service or others.
-      </p>
-
       <h2>Application and source materials</h2>
       <p>
-        The Ad Fontes NT application is free-to-use, all-rights-reserved software.
+        The Ad Fontes application is free-to-use, all-rights-reserved software.
         Permission to use the application does not grant permission to copy,
         modify, redistribute, reverse engineer, or commercially exploit the
         application except where applicable law expressly permits it.
@@ -55,7 +40,7 @@ export default function TermsPage() {
       <p>
         The service and applications are provided “as is” and “as available,”
         without warranties to the extent permitted by law. Features, content,
-        supported systems, or account availability may change. Desktop updates
+        supported systems, or availability may change. Desktop updates
         require user approval and an internet connection; offline reading does
         not depend on the update service.
       </p>
@@ -64,7 +49,7 @@ export default function TermsPage() {
       <p>
         To the fullest extent permitted by law, Larry Herzog Jr. and Ordinary
         Means are not liable for indirect, incidental, special, consequential, or
-        punitive damages arising from use of or inability to use Ad Fontes NT.
+        punitive damages arising from use of or inability to use Ad Fontes.
         Some jurisdictions do not allow every limitation, so applicable law may
         provide additional rights.
       </p>

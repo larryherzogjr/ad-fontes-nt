@@ -1,0 +1,60 @@
+{
+  "BSB": {
+    "releaseId": "bsb-ot-2026-10-07-candidate-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 3542,
+    "normalizedDifferences": 9772,
+    "differenceKinds": {
+      "layout-whitespace; TXT governs spaces": 9709,
+      "stray USJ vvv string absent from TXT; retain TXT": 1,
+      "extra closing-quote string in USJ; retain TXT": 50,
+      "USJ supplied-word brackets absent from TXT; retain TXT": 2,
+      "USJ enumeration ellipsis absent from TXT; retain TXT": 10
+    },
+    "structureRoles": {
+      "publisher-heading": 49,
+      "scripture-title": 118
+    }
+  },
+  "BLB": {
+    "releaseId": "blb-ot-2026-10-07-candidate-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 0,
+    "normalizedDifferences": 0,
+    "differenceKinds": {},
+    "structureRoles": {}
+  },
+  "MSB": {
+    "releaseId": "msb-ot-2026-10-07-candidate-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 3542,
+    "normalizedDifferences": 9831,
+    "differenceKinds": {
+      "layout-whitespace; TXT governs spaces": 9768,
+      "stray USJ vvv string absent from TXT; retain TXT": 1,
+      "extra closing-quote string in USJ; retain TXT": 50,
+      "USJ enumeration ellipsis absent from TXT; retain TXT": 10,
+      "USJ supplied-word brackets absent from TXT; retain TXT": 2
+    },
+    "structureRoles": {
+      "publisher-heading": 49,
+      "scripture-title": 118
+    }
+  },
+  "YLT": {
+    "releaseId": "ylt-ot-2026-10-07-candidate-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 0,
+    "normalizedDifferences": 0,
+    "differenceKinds": {},
+    "structureRoles": {}
+  }
+}

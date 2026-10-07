@@ -13,8 +13,8 @@ temporary="$export_directory/$name.tmp"
 final="$export_directory/$name"
 trap 'rm -f "$temporary"' EXIT
 umask 027
-docker compose --env-file .env -f compose.yml exec -T db pg_dump -U afnt -d adfontes -Fc > "$temporary"
-docker compose --env-file .env -f compose.yml exec -T db pg_restore --list < "$temporary" >/dev/null
+docker compose --profile legacy-data --env-file .env -f compose.yml exec -T db pg_dump -U afnt -d adfontes -Fc > "$temporary"
+docker compose --profile legacy-data --env-file .env -f compose.yml exec -T db pg_restore --list < "$temporary" >/dev/null
 chown root:"$reader_group" "$temporary"
 chmod 0640 "$temporary"
 mv "$temporary" "$final"

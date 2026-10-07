@@ -1,0 +1,12 @@
+/** Render the existing draft ledger without changing status, payloads or reviews. */
+import {readFile,writeFile} from 'node:fs/promises';
+import {classificationHash} from './publish_connection_labels.mts';
+const candidates=JSON.parse(await readFile('content/editorial/connections/candidates.json','utf8'));
+const reviews=JSON.parse(await readFile('content/editorial/connections/reviews.json','utf8'));
+if(reviews.length)throw Error('The reviewed packet is historical evidence. Prepare a successor packet instead of overwriting it.');
+let text='# NT/OT classification review — batch 1\n\nEight proposed classifications, all withheld from public bundles pending Larry Herzog Jr.’s exact-content approval. These labels describe publisher-linked passage pairs, not reconstructed quotation boundaries or claims of exclusive Greek textual dependence.\n\nDefinitions: **quotation** — expressly introduced cited words; **allusion** — proposed reuse of wording or imagery without a quotation introduction; **broader parallel** — a thematic or verbal comparison without a claim of literary dependence. Only quotation/allusion examples are proposed in this conservative first batch.\n\n';
+for(const c of candidates){const p=c.payload;text+=`## ${p.id}: ${p.kind}\n\n${p.ntRanges.map((r:any)=>r.start===r.end?r.start:r.start+'–'+r.end).join(', ')} ↔ ${p.otRanges.map((r:any)=>r.start===r.end?r.start:r.start+'–'+r.end).join(', ')}
+
+Publisher connection IDs (both directions where the exact same ranges are indexed): ${p.connectionIds.join(', ')}\n\nObservation: ${p.sourceObservation}\n\nEditorial judgment: ${p.interpretation}\n\nPublisher note: ${p.publisherNote}\n\n`;for(const e of p.evidence)text+=`> ${e.text}\n\n${e.sourceRef} · ${e.releaseId} · canonical anchors: ${e.anchors.join(', ')}\n\n`;text+=`Payload SHA-256: \`${classificationHash(p)}\`\n\n`;}
+const batch=classificationHash(candidates.map((c:any)=>c.payload));text+=`Batch payload SHA-256: \`${batch}\`\n\nComplete machine-readable ledger: [candidates.json](../content/editorial/connections/candidates.json). Status is not included in the payload hash. Approval applies to these eight exact payloads. Any content change requires a fresh decision. Draft author: Codex drafting assistant. Rights: original observations of pinned Scripture, with existing source notices retained. No review event has been recorded.\n`;
+await writeFile('docs/NT-OT-Classification-Review-2026-10-07.md',text);console.log('Batch',batch);

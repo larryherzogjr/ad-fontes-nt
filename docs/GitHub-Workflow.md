@@ -24,11 +24,11 @@ git pull --ff-only
 bash deployment/update-host.sh
 ```
 
-Pulling alone updates source files, not the running containers. The update script builds first, backs up the current database, then recreates only the Ad Fontes services and checks HTTPS health. Enter sudo credentials privately in the terminal. If Git reports conflicts or local edits, stop and reconcile; do not force-reset or clean the checkout. Nginx/TLS configuration changes need a separate reviewed installation. Migrations run when the app starts; never modify an already applied migration. Rollback across schema changes needs migration-specific review; retained local dumps are not off-host backups.
+Pulling alone updates source files, not the running containers. The update script builds first, then recreates only the Ad Fontes web service and checks HTTPS health. Following the October 7 account retirement, it does not migrate or consume the legacy database; existing database containers, volumes, private configuration and backups remain intact. Enter sudo credentials privately in the terminal. If Git reports conflicts or local edits, stop and reconcile; do not force-reset or clean the checkout. Nginx/TLS configuration changes need a separate reviewed installation. Historical migrations remain preserved; the current app starts without account migrations. Rollback across schema changes needs migration-specific review; retained local dumps are not off-host backups.
 
 ## Included and excluded
 
-Tracked: app source, lockfile, migration/deployment scripts, pinned corpus originals, provenance, reference registries and approved editorial review history. The repository is private; it is not a public redistribution decision for archival review materials.
+Tracked: app source, lockfile, historical migration/deployment files, pinned corpus originals, provenance, reference registries and approved editorial review history. The repository is private; it is not a public redistribution decision for archival review materials.
 
 Excluded: deployment/.env, all environment secret files, private keys, backups, dependencies, build output, generated public corpus/analysis/editorial bundles, and the locally supplied review-book PDF. Generated bundles are reproduced and checksum-verified from pinned inputs by `npm run import:all` / the production build. No personal notes are stored in Git; those remain in the separate PostgreSQL volume. Keep private credentials and off-host database backups separately.
 

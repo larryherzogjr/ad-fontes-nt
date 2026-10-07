@@ -1,0 +1,34 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {loadLemmaLinks,linkedOccurrences} from '../app/lib/domain/lemma-links.ts';
+import {approvedClassifications,classificationHash} from '../scripts/publish_connection_labels.mts';
+import {loadConnectionLabels} from '../app/lib/domain/connection-labels.ts';
+const original=globalThis.fetch;
+globalThis.fetch=async input=>new Response(await readFile('app/public'+input,'utf8'));
+test.after(()=>{globalThis.fetch=original;});
+test('Exact lemma concordance keeps NT and LXX coverage distinct and preserves pinned derivative',async()=>{
+ const entries=await loadLemmaLinks();assert.equal(entries.length,12994);assert.equal(entries.filter(e=>e.nt.length&&e.lxx.length).length,3182);
+ const e=entries.find(e=>e.lemma==='θεός')!;assert.ok(e.nt.length&&e.lxx.length);
+ const [nt,lxx]=await Promise.all([linkedOccurrences(e,'nt'),linkedOccurrences(e,'lxx')]);assert.ok(nt.length>0&&lxx.length>0);assert.ok(nt.every(h=>!h.tokenId.startsWith('lxx-')));assert.ok(lxx.every(h=>h.tokenId.startsWith('lxx-')));
+ const pin=JSON.parse(await readFile('sources/greek/greek-lemma-links-2026-10-07-v1/checksums.json','utf8'));
+ assert.equal(createHash('sha256').update(await readFile('app/public/analysis/greek-lemma-links-2026-10-07-v1.json')).digest('hex'),pin.outputSha256);
+ for(const item of [...e.nt,...e.lxx])assert.ok(item.count>0);
+});
+test('Connection classifications never publish assignment, drafts, rejection or stale approval',async()=>{
+ const candidates=JSON.parse(await readFile('content/editorial/connections/candidates.json','utf8'));const index=JSON.parse(await readFile('app/public/connections/bsb-testament-connections-2026-10-07-v1/index.json','utf8'));
+ assert.equal(approvedClassifications(candidates,[],index.connections).length,0);
+ const c={...candidates[0],status:'approved'},r={unitId:c.payload.id,reviewerId:'larry-herzog-jr',contentHash:classificationHash(c.payload),reviewedAt:'2026-10-07',decision:'approved'};
+ assert.equal(approvedClassifications([c],[r],index.connections).length,1);
+ assert.throws(()=>approvedClassifications([{...c,payload:{...c.payload,interpretation:'Changed'}}],[r],index.connections),/approval/);
+ assert.equal(approvedClassifications([c],[r,{...r,decision:'rejected'}],index.connections).length,0);
+ assert.throws(()=>approvedClassifications([c],[{...r,reviewerId:'someone-else'}],index.connections),/approval/);
+ const reviews=JSON.parse(await readFile('content/editorial/connections/reviews.json','utf8'));
+ const active=await loadConnectionLabels();assert.equal(active.length,289);assert.equal(active.filter(r=>r.kind==='quotation').length,288);
+ const published=JSON.parse(await readFile('app/public/connections/reviewed-labels-2026-10-07-v1/index.json','utf8')).records;assert.equal(published.length,8);
+ assert.deepEqual(published,approvedClassifications(candidates,reviews,index.connections));
+ assert.equal(published.filter(r=>r.kind==='quotation').length,7);
+ assert.equal(published.filter(r=>r.kind==='allusion').length,1);
+ for(const record of published)assert.equal(record.approval.contentHash,classificationHash(candidates.find((c:any)=>c.payload.id===record.id).payload));
+});

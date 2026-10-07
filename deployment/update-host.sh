@@ -3,16 +3,13 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 sudo -v
-compose=(sudo docker compose --env-file .env -f compose.yml)
+compose=(sudo docker compose -f compose.yml)
+[[ ! -f .env ]] || compose+=(--env-file .env)
 "${compose[@]}" config --quiet
 "${compose[@]}" build
-# Back up the existing DB before any new schema migration can run.
-umask 077
-mkdir -p backups
-file="backups/adfontes-before-update-$(date -u +%Y%m%dT%H%M%SZ).dump"
-"${compose[@]}" exec -T db pg_dump -U afnt -d adfontes -Fc > "$file.tmp"
-mv "$file.tmp" "$file"
-"${compose[@]}" up -d --wait --wait-timeout 180
+# Preserve any running legacy DB and its volume; this app no longer migrates it.
+# Do not use --remove-orphans or down -v during retirement.
+"${compose[@]}" up -d web --wait --wait-timeout 180
 curl --fail --silent --show-error --max-time 20 https://ad-fontes.app/api/health
-printf '\nAd Fontes updated. Backup: %s\n' "$file"
+printf '\nAd Fontes updated. Legacy database and backups were left intact.\n'
 # Nginx/TLS changes are deliberately not installed by routine app updates.

@@ -4,30 +4,32 @@ import { useVerseSync } from './use-verse-sync';
 import { useStudyEdition } from './use-study-edition';
 import { formatPassage, formatReference } from '@/lib/reading-display';
 import { GreekWordButton, WordDefinition } from './word-lookup';
+import LemmaExplorer from './lemma-explorer';
 import PublisherNoteLabel from './publisher-note-label';
 import EditionSummary from './edition-summary';
+import LxxUnpaired from './lxx-unpaired';
+import TestamentConnections from './testament-connections';
 import EvidencePlate from './evidence-plate';
 import {
   editions,
+  editionsFor,
   getCorpus,
   type Segment,
   type Coverage,
   type PublisherNote,
 } from '@/lib/domain/corpus';
+import { isOtBook } from '@/lib/domain/ot-release';
 import { expand, passageUrl, type PassageRange } from '@/lib/domain/references';
 import {
   analysisInfo,
   getAnalysis,
-  getOccurrences,
-  highlightOccurrences,
-  type HighlightedOccurrence,
   getLexicon,
   describeMorph,
   type AnalysisSegment,
   type Token,
-  type Occurrences,
   type LexiconEntry,
 } from '@/lib/domain/greek';
+import { describeLxxMorph, lxxRelease } from '@/lib/domain/lxx';
 import { transliterateGreek } from '@/lib/domain/greek-reading';
 import { selectStudyUnits, type Variant } from '@/lib/domain/variants';
 import { rememberDeviceLink } from '@/lib/device-links';
@@ -63,9 +65,11 @@ export default function StudyPanel({
   ranges,
   mode,
   onClose,
+  edition,
 }: {
   ranges: PassageRange[];
-  mode: 'compare' | 'greek' | 'notes';
+  mode: 'compare' | 'greek' | 'notes' | 'connections';
+  edition: string;
   onClose: () => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null),
@@ -82,13 +86,9 @@ export default function StudyPanel({
     [noteLinks, setNoteLinks] = useState<Variant[]>([]),
     [relatedNotes, setRelatedNotes] = useState<Variant[]>([]),
     [token, setToken] = useState<Token | null>(null),
-    [occurrences, setOccurrences] = useState<Occurrences | null>(null),
     [entry, setEntry] = useState<LexiconEntry | null>(null),
     [wordError, setWordError] = useState(''),
-    [wordLoading, setWordLoading] = useState(false),
-    [page, setPage] = useState(1),
-    [highlighted, setHighlighted] = useState<HighlightedOccurrence[]>([]),
-    [highlightError, setHighlightError] = useState('');
+    [wordLoading, setWordLoading] = useState(false);
   const [interlinear, setInterlinear] = useState(false);
   const [suppressWordPreviews, setSuppressWordPreviews] = useState(false);
   const [rows, setRows] = useState<string[]>([]);
@@ -96,10 +96,21 @@ export default function StudyPanel({
   const [wide, setWide] = useState(false);
   const [desktop, setDesktop] = useState(false);
   const [trail, setTrail] = useState<StudyTrail>({ items: [], index: -1 });
-  useVerseSync(dialog, sync && desktop, `${mode}-${loading}-${wide}`);
+  useVerseSync(dialog, sync && desktop && mode !== 'connections', `${mode}-${loading}-${wide}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
-  const currentEdition = useStudyEdition(dialog, desktop && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${formatPassage(ranges)}`);
+  const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${formatPassage(ranges)}`);
+  useEffect(() => {
+    const panel = dialog.current;
+    const chrome = panel?.querySelector<HTMLElement>('.study-chrome');
+    if (!panel || !chrome) return;
+    const measure = () => panel.style.setProperty('--study-chrome-height', `${chrome.getBoundingClientRect().height}px`);
+    const observer = new ResizeObserver(measure);
+    observer.observe(chrome); measure();
+    return () => observer.disconnect();
+  }, []);
   const label = formatPassage(ranges);
+  const ot = ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0]));
+  const availableEditions = editionsFor(ranges);
   useEffect(() => {
     const params = new URL(location.href).searchParams;
     setSection(params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
@@ -120,7 +131,7 @@ export default function StudyPanel({
   }, []);
   useEffect(() => {
     if (loading || error) return;
-    const studyLabel = mode === 'greek' ? `Greek · ${label}` : variants[0]?.title || `${noteOnly ? 'Publisher notes' : 'Compare'} · ${label}`;
+    const studyLabel = mode === 'connections' ? `NT/OT connections · ${label}` : mode === 'greek' ? `Greek · ${label}` : variants[0]?.title || `${noteOnly ? 'Publisher notes' : 'Compare'} · ${label}`;
     rememberDeviceLink('afnt-recent-studies', { url: location.pathname + location.search, label: studyLabel, detail: label });
   }, [loading, error, mode, noteOnly, variants, label]);
   function setGreekView(next: boolean, nextRows = rows) {
@@ -177,6 +188,7 @@ export default function StudyPanel({
     setLoading(true);
     setError('');
     async function run() {
+      if (mode === 'connections') return;
       const anchors = ranges.flatMap(expand);
       if (anchors.length > 80)
         throw Error(
@@ -184,7 +196,7 @@ export default function StudyPanel({
         );
       if (mode !== 'greek') {
         const records = await Promise.all(
-          editions.map(async (e) => {
+          availableEditions.map(async (e) => {
             const adapter = getCorpus(e.editionId);
             const [p, chapters] = await Promise.all([
               adapter.getPassage(ranges),
@@ -213,6 +225,7 @@ export default function StudyPanel({
             };
           }),
         );
+        if (ot) { const greek = await getAnalysis(ranges); if (active) setAnalysis(greek); }
         const response = await fetch('/editorial/variants.json');
         if (!response.ok)
           throw Error('Reviewed-note information could not be loaded.');
@@ -275,15 +288,10 @@ export default function StudyPanel({
     let active = true;
     setWordLoading(true);
     setWordError('');
-    setOccurrences(null);
     setEntry(null);
-    setPage(1);
-    Promise.all([getOccurrences(token.lemmaId), getLexicon(token.strongs)])
-      .then(([o, l]) => {
+    getLexicon(token.strongs)
+      .then((l) => {
         if (active) {
-          if (o.releaseId !== analysisInfo.releaseId)
-            throw Error('Occurrence release mismatch.');
-          setOccurrences(o);
           setEntry(l);
         }
       })
@@ -297,25 +305,6 @@ export default function StudyPanel({
       active = false;
     };
   }, [token]);
-  useEffect(() => {
-    let active = true;
-    setHighlighted([]);
-    setHighlightError('');
-    if (occurrences)
-      highlightOccurrences(occurrences.hits.slice((page - 1) * 20, page * 20))
-        .then((hits) => {
-          if (active) setHighlighted(hits);
-        })
-        .catch(() => {
-          if (active)
-            setHighlightError(
-              'Word highlighting could not be loaded. The source snippets remain available.',
-            );
-        });
-    return () => {
-      active = false;
-    };
-  }, [occurrences, page]);
   function choose(t: Token) {
     setToken(t);
     const u = new URL(location.href);
@@ -426,14 +415,14 @@ export default function StudyPanel({
                   </dd>
                   <dt>Functional analysis</dt>
                   <dd>
-                    {describeMorph(token.functional)}{' '}
-                    <code>{token.functional}</code>
+                    {token.analysisReleaseId ? token.functional || 'Unspecified' : describeMorph(token.functional)}{' '}
+                    {!token.analysisReleaseId && <code>{token.functional}</code>}
                   </dd>
                   <dt>Form analysis</dt>
                   <dd>
-                    {describeMorph(token.form)} <code>{token.form}</code>
+                    {token.analysisReleaseId ? describeLxxMorph(token.form) : describeMorph(token.form)} <code>{token.form}</code>
                   </dd>
-                  <dt>Berean contextual gloss</dt>
+                  <dt>{ot ? 'Septuagint lexical gloss' : 'Berean contextual gloss'}</dt>
                   <dd>
                     {token.gloss ||
                       'No verified gloss is attached to this word.'}
@@ -444,7 +433,7 @@ export default function StudyPanel({
                   word’s full meaning depends on its context.
                 </p>
                 {wordLoading && (
-                  <p role="status">Loading lexical entry and occurrences…</p>
+                  <p role="status">Loading lexical entry…</p>
                 )}
                 {!wordLoading && !wordError && (
                   <>
@@ -464,80 +453,12 @@ export default function StudyPanel({
                           'No entry is available for this source identifier.'}
                       </p>
                     </details>
-                    <h4>
-                      {occurrences?.hits.length || 0} indexed occurrences of
-                      this lemma
-                    </h4>
-                    <p className="study-help">
-                      Within the 7,940 matching Nestle 1904 source verses. Two
-                      verses are not indexed. This count is not a count across
-                      all Greek editions.
-                    </p>
-                    {highlightError && <p role="status">{highlightError}</p>}
-                    <p className="study-help">
-                      The highlighted word is the exact occurrence linked above
-                      each verse.
-                    </p>
-                    {occurrences?.hits
-                      .slice((page - 1) * 20, page * 20)
-                      .map((h) => (
-                        <p key={h.tokenId} className="occurrence">
-                          <a
-                            href={`${passageUrl([{ start: h.anchor, end: h.anchor }], 'N1904')}&panel=greek&token=${encodeURIComponent(h.tokenId)}`}
-                          >
-                            {formatReference(h.sourceRef)} · {h.surface}
-                          </a>
-                          <span lang="grc">
-                            {(() => {
-                              const match = highlighted.find(
-                                (x) => x.tokenId === h.tokenId,
-                              );
-                              return match ? (
-                                <>
-                                  {h.text.slice(0, match.start)}
-                                  <mark
-                                    className="occurrence-match"
-                                    aria-label="Matched Greek word"
-                                  >
-                                    {h.text.slice(match.start, match.end)}
-                                  </mark>
-                                  {h.text.slice(match.end)}
-                                </>
-                              ) : (
-                                h.text
-                              );
-                            })()}
-                          </span>
-                        </p>
-                      ))}
-                    {!!occurrences?.hits.length && (
-                      <nav
-                        className="chapter-nav"
-                        aria-label="Lemma occurrence pages"
-                      >
-                        <button
-                          disabled={page === 1}
-                          onClick={() => setPage(page - 1)}
-                        >
-                          Previous occurrences
-                        </button>
-                        <span>
-                          Page {page} of{' '}
-                          {Math.ceil(occurrences.hits.length / 20)}
-                        </span>
-                        <button
-                          disabled={page * 20 >= occurrences.hits.length}
-                          onClick={() => setPage(page + 1)}
-                        >
-                          Next occurrences
-                        </button>
-                      </nav>
-                    )}
+                    <LemmaExplorer key={token.id} lemma={token.lemma} initialSide={ot ? 'lxx' : 'nt'} edition={ot ? edition : 'BSB'} />
                   </>
                 )}
                 <details className="analysis-provenance">
                   <summary>Word source details</summary>
-                  <p>{token.sourceId}</p>
+                  <p>{token.sourceId}</p>{token.analysisReleaseId && <p>Upstream analysis: {token.analysisSource || "unspecified"}; confidence: {token.confidence || "unspecified"}.</p>}
                   <p>
                     Selected-form transliteration is an application reading aid
                     based on the{' '}
@@ -595,14 +516,14 @@ export default function StudyPanel({
         <div>
           <p className="eyebrow">{label}</p>
           <h2 id="study-title" ref={title} tabIndex={-1}>
-            {mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : 'Compare editions'}
+            {mode === 'connections' ? 'NT/OT Connections' : mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : variants.length ? 'Commentary and edition comparison' : 'Compare editions'}
           </h2>
 
         </div>
         <div className="study-window-actions">
         <button disabled={trail.index <= 0} onClick={() => moveStudy(-1)} aria-label="Previous study" title="Previous study">←</button>
         <button disabled={trail.index < 0 || trail.index >= trail.items.length - 1} onClick={() => moveStudy(1)} aria-label="Next study" title="Next study">→</button>
-        <button className="study-expand" aria-label={wide ? 'Use standard study width' : 'Expand study view'} title={wide ? 'Use standard study width' : 'Expand study view'} aria-pressed={wide} onClick={() => setWide(!wide)}>↔</button>
+        <button className="study-expand" aria-label={wide ? 'Use standard study width' : 'Widen comparison'} title={wide ? 'Use standard study width' : 'Widen comparison'} aria-pressed={wide} onClick={() => setWide(!wide)}>{wide ? 'Standard width' : 'Widen comparison'} ↔</button>
         <button onClick={onClose} aria-label="Close study panel">
           Close ×
         </button>
@@ -615,43 +536,41 @@ export default function StudyPanel({
         >
           Compare editions
         </button>
-        <button
+        {<button
           aria-pressed={mode === 'greek'}
           onClick={() => mode !== 'greek' && switchMode('greek')}
         >
           Explore Greek
-        </button>
+        </button>}
+        <button aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}>NT/OT Connections</button>
       </nav>}
-      {!loading && !error && mode !== 'greek' && <nav className="comparison-nav" aria-label="Comparison sections">
-        <button aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}>Explanation</button>
+      {!loading && !error && mode !== 'greek' && mode !== 'connections' && <nav className="comparison-nav" aria-label="Comparison sections">
+        <button aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}>{noteOnly ? 'Explanation' : 'Commentary and explanation'}</button>
         {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
+      {desktop && mode !== 'connections' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
       }} />Sync verses</label>
       {currentEdition && <span className="study-current-edition" title={currentEdition} aria-label={`Current edition: ${currentEdition}`}>{currentEdition}</span>}
       </div>}
       </div><div className="study-content">
+      {mode === 'connections' && <TestamentConnections ranges={ranges} edition={edition} embedded onNavigate={followStudy} />}
       {loading && <div className="study-skeleton" role="status" aria-label="Loading passage study"><span /><span /><span /><span /></div>}
       {error && (
         <p role="alert" className="error">
           {error}
         </p>
       )}
-      {!loading && !error && mode !== 'greek' && (
+      {!loading && !error && mode !== 'greek' && mode !== 'connections' && (
         <>
           {!!variants.length && (
             <nav className="study-library-return" aria-label="Textual comparison collection">
               <a href="/library">← Browse Textual Comparisons</a>
             </nav>
           )}
-          {!noteOnly && <p>
-            These are named editions, with their own wording and source
-            placement. Differences in English wording alone do not establish a
-            difference in the Greek text.
-          </p>}
+          {!noteOnly && <p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p>}
           {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><a href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</a></p>; })}
           {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
           {noteOnly && <section hidden={section !== 'explanation'} aria-label="Publisher notes for this explanation">
@@ -707,12 +626,12 @@ export default function StudyPanel({
             <a href="/about/sources">All sources, editions and coverage</a>
           </section>
           <div className="comparison-readings" hidden={section !== 'readings'}>
-          {!noteOnly && ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus'].map(
+          {!noteOnly && (ot ? ['English translations'] : ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus']).map(
             (group) => (
               <section className="comparison-group" key={group}>
                 <h3>{group}</h3>
-                {editions
-                  .filter((e) => e.group === group)
+                {availableEditions
+                  .filter((e) => ot || e.group === group)
                   .map((e) => {
                     const record = comparison.find(
                       (c) => c.editionId === e.editionId,
@@ -775,7 +694,7 @@ export default function StudyPanel({
                               {e.editionId} publisher’s notes (
                               {record.notes.length})
                             </summary>
-                            <p className="study-help">Note categories are added by Ad Fontes NT to describe the publisher’s footnotes.</p>
+                            <p className="study-help">Note categories are added by Ad Fontes to describe the publisher’s footnotes.</p>
                             {record.notes.map((n) => (
                               <div key={n.id}>
                                 <PublisherNoteLabel releaseId={record.releaseId} note={n} />
@@ -802,13 +721,15 @@ export default function StudyPanel({
                   })}
               </section>
             ),
-          )}</div>
+          )}
+          {ot && !noteOnly && <section className="comparison-group" data-study-edition="Septuagint · Rahlfs 1935"><h3>Septuagint · Rahlfs 1935</h3><p className="study-help">Greek word-token transcription; source verse numbering and correspondence may differ from English.</p><button onClick={() => switchMode('greek')}>Explore Greek / Interlinear</button>{analysis.map(s => <p key={s.sourceRef} className="comparison-scripture" data-sync-edition="lxx-rahlfs" data-sync-anchors={s.anchors.join(' ')}><small>{s.sourceLabel || s.sourceRef}</small> <span lang="grc">{s.text}</span>{s.reason && <span className="notice">{s.reason}</span>}</p>)}</section>}
+          </div>
         </>
       )}
       {!loading && !error && mode === 'greek' && (
         <>
           <div className="greek-introduction">
-            <p><strong>Nestle 1904</strong>{interlinear ? ' · Berean contextual glosses' : ' · Greek text'}</p>
+            <p><strong>{ot ? 'Septuagint · Rahlfs 1935' : 'Nestle 1904'}</strong>{interlinear ? ot ? ' · Lexical glosses' : ' · Berean contextual glosses' : ' · Greek text'}</p>
             <p className="study-help">{interlinear ? 'Greek word order; glosses are translation aids. No English word alignment.' : 'Select a word for its definition and analysis. No English word alignment.'}</p>
           </div>
           <div className="interlinear-controls">
@@ -820,7 +741,7 @@ export default function StudyPanel({
               {interlinear && <fieldset className="interlinear-options"><legend>Additional rows</legend>
                 {([['transliteration', 'Transliteration'], ['lemma', 'Lemma (standard form)'], ['strongs', 'Strong’s number'], ['grammar', 'Grammar']] as const).map(([key, label]) => <label key={key}><input type="checkbox" checked={rows.includes(key)} onChange={e => setGreekView(true, e.target.checked ? [...rows, key] : rows.filter(r => r !== key))} />{label}</label>)}
               </fieldset>}
-              <p className="study-help">Source-backed word analysis by Ulrik Sandborg-Petersen. Nestle 1904 Greek with Berean contextual glosses in Greek word order. These glosses are translation aids, not word-by-word links to BSB.</p>
+              <p className="study-help">{ot ? 'Rahlfs word-token transcription, with Open Scriptorium morphology and exactly matched Eliran Wong lexical glosses. Original word order; punctuation is not supplied. Joshua uses Vaticanus B; Judges uses Alexandrinus A; Daniel uses Old Greek. Source numbering may differ from English. Morphology includes upstream automated analysis with its confidence retained in word details. Glosses are quick lexical aids, not contextual translations or word-by-word links to English.' : 'Source-backed word analysis by Ulrik Sandborg-Petersen. Nestle 1904 Greek with Berean contextual glosses in Greek word order. These glosses are translation aids, not word-by-word links to BSB.'}</p>
             </details>
           </div>
           {!analysis.length && (
@@ -830,14 +751,15 @@ export default function StudyPanel({
             </p>
           )}
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
-          <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={editions.find(e => e.editionId === 'N1904')?.name}
+          <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={ot ? 'Septuagint · Rahlfs 1935' : editions.find(e => e.editionId === 'N1904')?.name}
             // Returning focus and reflow under a stationary pointer must not reopen previews.
             onPointerMove={() => setSuppressWordPreviews(false)}
             onKeyDown={event => { if (event.key === 'Tab') setSuppressWordPreviews(false); }}
           ><div className="greek-passages">
           {analysis.map((s) => (
-            <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition="nestle-analysis">
-              <h3>{formatReference(s.sourceRef)}</h3>
+            <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition={ot ? "lxx-rahlfs" : "nestle-analysis"}>
+              <h3>{s.sourceLabel || formatReference(s.sourceRef)}</h3>
+              {ot && s.status === 'available' && <p className="study-help">Corresponds to {s.anchors.map(formatReference).join(', ')} · {s.alignment?.method || 'source mapping'}.{s.alignment?.flag && ` Upstream mapping note: ${s.alignment.flag}. Wording may substantially differ.`}{s.glossAligned === false && ' Gloss alignment unavailable for this source verse.'}</p>}
               {s.status === 'unavailable' ? (
                 <>
                   <p lang="grc" className="comparison-scripture">
@@ -853,7 +775,7 @@ export default function StudyPanel({
                     {rows.includes('transliteration') && <span className="interlinear-extra">{transliterateGreek(t.surface)}</span>}
                     {rows.includes('lemma') && <span lang="grc" className="interlinear-extra">{t.lemma}</span>}
                     {rows.includes('strongs') && <span className="interlinear-extra">{t.strongs || 'Number unavailable'}</span>}
-                    {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${describeMorph(t.functional)}; form: ${describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
+                    {rows.includes('grammar') && <span className="interlinear-extra" title={`Function: ${t.analysisReleaseId ? t.functional : describeMorph(t.functional)}; form: ${t.analysisReleaseId ? describeLxxMorph(t.form) : describeMorph(t.form)}`}>{t.functional || '—'}{t.form !== t.functional ? ` / ${t.form || '—'}` : ''}</span>}
                   </GreekWordButton>)}
                 </div>
               ) : (
@@ -887,9 +809,11 @@ export default function StudyPanel({
           </div>
           {desktop && token && <aside className="greek-inspector">{wordDetails}</aside>}
           </div>
+          {ot && <LxxUnpaired segments={analysis} />}
+          {ot && <p><a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p>}
           <p>
-            <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
-              Analysis sources, rights and coverage
+            <a href={`/analysis/${ot ? lxxRelease : analysisInfo.releaseId}/manifest.json`}>
+              Analysis sources and coverage
             </a>
           </p>
         </>

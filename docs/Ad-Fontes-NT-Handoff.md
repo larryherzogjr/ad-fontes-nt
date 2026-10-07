@@ -1,5 +1,10 @@
 # Ad Fontes NT
 
+Current October 7 direction: forgo a standalone English OT foundation release, proceed with NT/OT connections, and retire personal notes/accounts/Google OAuth. See [the current scope and retirement record](NT-OT-Connections-2026-10-07.md). Earlier account milestones are historical.
+
+> Historical NT plan. The approved English OT scope and public Ad Fontes name/subtitle supersede its NT-only and branding constraints; see [2026-10-07 acceptance](OT-English-Acceptance-2026-10-07.md). Original milestone/content decisions remain historical evidence.
+
+
 **A New Testament study environment from Ordinary Means.**
 
 Product and engineering handoff · Version 1.0 · September 5, 2026
@@ -323,3 +328,19 @@ Before implementation freezes, resolve: deployment preference; exact source rele
 Begin with source manifests and a canonical-reference module, then ship a working BSB NT reading slice before adding textual panels. Prove translation switching with BLB/MSB/YLT and verify difficult reference mappings early. Add the three named Greek editions, editorially reviewed variants, and basic word exploration. Finish the pilot experience with local notes and passage-linked Ordinary Means resources.
 
 The handoff is the product authority for scope and terminology; the companion backlog translates it into work. Update both when a source choice or milestone changes. Readiness for implementation does not mean the proposed corpus has already been downloaded, licensed asset by asset, imported, or editorially validated.
+
+## October 7 Greek connected-study follow-on
+
+Larry authorized AFOT-008 paired NT/Septuagint reading, AFOT-009 exact cross-source lemma exploration, and AFOT-010 review-controlled connection classifications. Hebrew remains undecided and outside this release. [Implementation](Greek-Connections-Implementation-2026-10-07.md) records source boundaries and the eight-label review gate. Existing corpus/analysis and OM approvals remain unchanged; M5 pilot and coordinated release work remain pending.
+
+
+October 7 comprehensive research successor: see `LXX-Research-Implementation-2026-10-07.md` and PROJECT-STATUS AF-OT-011–014. Local research covers all 59 available pinned Greek source texts and 876 publisher-linked pairs; expanded classifications remain draft pending exact review. M5/MVP remain incomplete.
+
+
+## October 7 · expanded quotation approval
+
+Larry Herzog Jr. approved all 288 proposed quotation records in the v3 packet (user: “All approvec.”). Exact packet SHA-256 remains `0eeda81dcc72f5d95ec6a5f9bcabaa93612ccd0fc2161f31d4e2fa0f3d543574`; historical draft bytes are preserved. Per-unit exact hashes, reviewer, date and decision are recorded in `content/editorial/connections/expanded/reviews.json`. The 588 records without new quotation approval retain their prior classification status: one previously approved allusion and 587 unclassified publisher pairs.
+
+AF-OT-013 is implemented locally through `reviewed-connections-2026-10-07-v2`: 288 quotation classifications and approved fuller NT display selections. Original eight-label v1 bytes remain preserved; seven overlapping quotation labels are superseded for active display, retaining the original allusion: 289 active classified pairs (288 quotations, one allusion). The connections panel defaults to approved spans, supports persistent manual overrides, and can restore publisher anchors or approved selections. This records classification/display approval, not exclusive LXX dependence or new theological commentary.
+
+M5 pilot, package-size/performance evaluation, signed distribution and release acceptance remain outstanding; MVP is incomplete. No deployment or native signing identity change.

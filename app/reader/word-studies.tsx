@@ -25,6 +25,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
   const inheritedEnvironment = useReaderEnvironment();
   const environment = {
     ...inheritedEnvironment,
+    offline,
     WordStudyLink: EmbeddedWordStudyLink,
     readingStatus: offline ? 'Reading position and text size are saved on this computer.' : inheritedEnvironment.readingStatus,
     wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles open here in an Ad Fontes BSB adaptation, with links to the unchanged original website editions. Each article identifies its saved date. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions. Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 release n1904-2026-09-05-m2-v1. They exclude cognate lemmas, variant readings, the appended shorter ending, and two verses whose analysis is unavailable. Other editions or explicitly combined word families can produce different totals.` + (offline ? ' The included articles are available offline; original website links require internet access.' : ''),

@@ -95,10 +95,10 @@ export default function DesktopUpdateManager() {
       {expanded && (
         <div role={state === 'error' ? 'alert' : 'status'} aria-live="polite">
           {state === 'checking' && <p>Checking for updates…</p>}
-          {state === 'current' && <p>Ad Fontes NT {currentVersion} is up to date.</p>}
+          {state === 'current' && <p>Ad Fontes {currentVersion} is up to date.</p>}
           {state === 'available' && available && (
             <>
-              <p><strong>Ad Fontes NT {available.version} is available.</strong></p>
+              <p><strong>Ad Fontes {available.version} is available.</strong></p>
               {available.body && <p className="desktop-update-notes">{available.body}</p>}
               <div className="desktop-update-actions">
                 <button className="primary" type="button" onClick={() => void install()}>Download and install</button>

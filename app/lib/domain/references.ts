@@ -1,5 +1,6 @@
 import registry from './canonical-registry.json' with { type: 'json' };
-export const books = registry;
+import { otEnabled, otRegistry } from './ot-release.ts';
+export const books = otEnabled ? otRegistry : registry;
 export type Anchor = string;
 export type PassageRange = { start: Anchor; end: Anchor };
 export class ReferenceError extends Error {
@@ -13,7 +14,7 @@ export function address(anchor: string) {
   const match = /^([A-Z0-9]{3})\.(\d+)\.(\d+)$/.exec(anchor);
   if (!match)
     throw new ReferenceError(
-      'Use a New Testament reference, such as Romans 3:23.',
+      otEnabled ? 'Use a biblical reference, such as Genesis 1:1 or Romans 3:23.' : 'Use a New Testament reference, such as Romans 3:23.',
     );
   const book = books.find((b) => b.code === match[1]);
   const chapter = Number(match[2]);
@@ -26,7 +27,7 @@ export function address(anchor: string) {
     verse > book.verses[chapter - 1]
   )
     throw new ReferenceError(
-      'That chapter or verse is outside the New Testament reference registry.',
+      otEnabled ? 'That chapter or verse is outside the Bible reference registry.' : 'That chapter or verse is outside the New Testament reference registry.',
     );
   return { book, chapter, verse };
 }
@@ -86,7 +87,7 @@ function endpoint(text: string, context?: string) {
     );
   const book = bookFor(m[1]);
   if (!book)
-    throw new ReferenceError('Choose one of the 27 New Testament books.');
+    throw new ReferenceError(otEnabled ? 'Choose one of the 66 Bible books.' : 'Choose one of the 27 New Testament books.');
   const chapter = book.verses.length === 1 && !m[3] ? 1 : +m[2];
   const verse = m[3] ? +m[3] : book.verses.length === 1 ? +m[2] : 1;
   const start = `${book.code}.${chapter}.${verse}`;

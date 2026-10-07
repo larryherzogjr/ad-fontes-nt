@@ -1,0 +1,51 @@
+{
+  "editionId": "BLB",
+  "releaseId": "blb-ot-2026-10-07-v1",
+  "status": "approved English OT source/display release",
+  "scope": "39-book English Old Testament",
+  "predecessorNtRelease": "blb-2026-09-05-m2-v1",
+  "editionLabel": "Berean Literal Bible (Draft), official TXT snapshot, 2026-09-05; no publisher release number supplied.",
+  "authority": "Official blb.txt, UTF-8. Verse layout: this artifact supplies no paragraph, heading or note markup.",
+  "rights": "Berean public-domain dedication, also printed in the downloaded text.",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "artifacts": [
+    {
+      "path": "sources/blb/raw/blb.txt",
+      "url": "https://literalbible.com/blb.txt",
+      "sha256": "4db24ae985c244ba83538f5e6e39ab7f3a1d027a6ffe8b1292e503f6dcd88054",
+      "bytes": 4654213
+    }
+  ],
+  "evidence": [
+    {
+      "path": "sources/blb/evidence/publisher.html",
+      "sha256": "da66e7769676de47e3bae69cbdf5b93739166278b0ebe22363e0908025acd84d"
+    }
+  ],
+  "inventory": {
+    "releaseId": "blb-ot-2026-10-07-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 0,
+    "normalizedDifferences": 0,
+    "differenceKinds": {},
+    "structureRoles": {
+      "scripture-title": 116
+    }
+  },
+  "included": [
+    "OT Scripture",
+    "source-supplied structure and notes where available"
+  ],
+  "excluded": [
+    "Hebrew/Aramaic analysis",
+    "Septuagint",
+    "word alignment",
+    "Ordinary Means commentary"
+  ],
+  "ntGroupNotApplicableToOt": true,
+  "draftDisclosure": "Publisher early draft; supplied-word brackets retained.",
+  "approvedCandidate": "blb-ot-2026-10-07-candidate-v3",
+  "approvalDate": "2026-10-07"
+}

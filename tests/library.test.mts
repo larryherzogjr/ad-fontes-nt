@@ -28,7 +28,7 @@ test('selected UX keeps item bookmarks but omits saved views and panel resizing'
   const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
   assert.match(client, /afnt-library-bookmarks/);
   assert.doesNotMatch(client, /afnt-library-views|Save this Library view|Saved Library views/);
-  assert.match(panel, /Expand study view/);
+  assert.match(panel, /Widen comparison/);
   assert.doesNotMatch(panel, /input type="range"|afnt\.study-width|panelWidth/);
 });
 

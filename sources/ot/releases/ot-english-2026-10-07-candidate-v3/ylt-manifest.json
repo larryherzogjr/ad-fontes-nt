@@ -1,0 +1,60 @@
+{
+  "editionId": "YLT",
+  "releaseId": "ylt-ot-2026-10-07-candidate-v3",
+  "status": "engineering-verified candidate; source/display acceptance pending; not public",
+  "scope": "39-book English Old Testament",
+  "predecessorNtRelease": "ylt-2026-09-05-m2-v1",
+  "editionLabel": "YLT 1898 per eBible metadata; engylt source 2025-12-12, generated 2026-08-08; retrieved 2026-09-05.",
+  "authority": "eBible engylt USFX, independently reconciled against its verse-per-line export.",
+  "rights": "eBible identifies the Robert Young translation as Public Domain; archived copr.htm and metadata identify this transcription.",
+  "rightsUrl": "https://ebible.org/bible/details.php?id=engylt&all=1",
+  "artifacts": [
+    {
+      "path": "sources/ylt/raw/engylt_usfx.zip",
+      "url": "https://ebible.org/Scriptures/engylt_usfx.zip",
+      "sha256": "a19fd36a6c1b24ecaf249b0f874fc8123eb6ba6d3aaf24dffb7394fcf8bbecf7",
+      "bytes": 1479383
+    },
+    {
+      "path": "sources/ylt/raw/engylt_vpl.zip",
+      "url": "https://ebible.org/Scriptures/engylt_vpl.zip",
+      "sha256": "ba5028d525bc3e2723265b874345d1d78f4486f80b15ef8cfdc10b35fe999b5a",
+      "bytes": 4316734
+    }
+  ],
+  "evidence": [
+    {
+      "path": "sources/ylt/evidence/copr.htm",
+      "sha256": "bb63d72ba0ced1cebe8a6f43a1d680d3b2ec62e6790fbe2a5d4c0af724d125d5"
+    },
+    {
+      "path": "sources/ylt/evidence/details.html",
+      "sha256": "673c2e9eedfbffbc7dde9a5360feb2c338f792e3d585393e918159428a681e95"
+    },
+    {
+      "path": "sources/ylt/evidence/engyltmetadata.xml",
+      "sha256": "3c051008eb459a4a0a966b614fb3f2e265d13f4f93c7312c219725a784815202"
+    }
+  ],
+  "inventory": {
+    "releaseId": "ylt-ot-2026-10-07-candidate-v3",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 0,
+    "normalizedDifferences": 0,
+    "differenceKinds": {},
+    "structureRoles": {}
+  },
+  "included": [
+    "OT Scripture",
+    "source-supplied structure and notes where available"
+  ],
+  "excluded": [
+    "Hebrew/Aramaic analysis",
+    "Septuagint",
+    "word alignment",
+    "Ordinary Means commentary"
+  ],
+  "ntGroupNotApplicableToOt": true
+}

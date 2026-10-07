@@ -26,11 +26,12 @@ export function WordDefinition({ token, compact = false }: { token: Token; compa
     {!data ? <p role="status">{error ? 'Lexicon could not be loaded.' : 'Loading definition…'}</p> : <>
       <p>{result?.definition ? (compact ? result.definition.brief : result.definition.full) : 'No verified Dodson entry is linked to this standard form.'}</p>
       <p className="study-help">Dictionary meaning range; the passage determines the sense.</p>
+      {token.analysisReleaseId && !!result?.links.length && <p className="study-help">Existing OM Greek word studies discuss this lemma; they are not OT passage commentary.</p>}
       {result?.links.map(link => <WordStudyLink key={link.url} link={link} />)}
     </>}
   </div>;
 }
-export function GreekWordButton({ token, id, className, label, selected, suppressPreview = false, onChoose, children }: { token: Token; id: string; className: string; label: string; selected: boolean; suppressPreview?: boolean; onChoose: () => void; children: ReactNode }) {
+export function GreekWordButton({ token, id, className, label, selected, suppressPreview = false, navigation, onChoose, children }: { token: Token; id: string; className: string; label: string; selected: boolean; suppressPreview?: boolean; navigation?:{ids:string[];active:string;onActive:(id:string)=>void}; onChoose: () => void; children: ReactNode }) {
   const popupId = useId();
   const [open, setOpen] = useState(false);
   const [container, setContainer] = useState<HTMLElement | null>(null);
@@ -39,9 +40,10 @@ export function GreekWordButton({ token, id, className, label, selected, suppres
     if (nextOpen && suppressPreview) return;
     setOpen(nextOpen);
   }}>
-    <HoverCardTrigger render={<button type="button" />} id={id} className={className} aria-label={label} aria-pressed={selected} aria-describedby={open ? popupId : undefined} aria-description="Enter opens word details. Arrow Down enters the definition popup."
+    <HoverCardTrigger render={<button type="button" />} id={id} className={className} tabIndex={navigation?(navigation.active===id?0:-1):undefined} aria-label={label} aria-pressed={selected} aria-describedby={open ? popupId : undefined} aria-description={navigation?'Left and Right move between words; Home and End move to the passage ends. Enter opens word details. Arrow Down enters the definition popup.':'Enter opens word details. Arrow Down enters the definition popup.'}
       onPointerEnter={event => setContainer(event.currentTarget.closest('dialog'))}
       onFocus={event => {
+        navigation?.onActive(id);
         setContainer(event.currentTarget.closest('dialog'));
         if (suppressPreview) {
           // Skip both our immediate popup and Base UI's delayed focus popup.
@@ -52,11 +54,11 @@ export function GreekWordButton({ token, id, className, label, selected, suppres
         setOpen(true);
       }}
       onBlur={event => { if (!(event.relatedTarget instanceof Element) || !event.relatedTarget.closest('.lexicon-popup')) setOpen(false); }}
-      onKeyDown={event => { if (event.key === 'ArrowDown' && open) { event.preventDefault(); const popup = document.getElementById(popupId); (popup?.querySelector('a') || popup)?.focus(); } if (event.key === 'Escape' && open) { event.preventDefault(); event.stopPropagation(); setOpen(false); } }}
+      onKeyDown={event => { if(navigation&&['ArrowLeft','ArrowRight','Home','End'].includes(event.key)){event.preventDefault();event.preventBaseUIHandler();setOpen(false);const at=navigation.ids.indexOf(id),next=event.key==='Home'?0:event.key==='End'?navigation.ids.length-1:Math.max(0,Math.min(navigation.ids.length-1,at+(event.key==='ArrowRight'?1:-1)));navigation.onActive(navigation.ids[next]);document.getElementById(navigation.ids[next])?.focus();return;} if (event.key === 'ArrowDown' && open) { event.preventDefault(); const popup = document.getElementById(popupId); (popup?.querySelector('a') || popup)?.focus(); } if (event.key === 'Escape' && open) { event.preventDefault(); event.stopPropagation(); setOpen(false); } }}
       onClick={() => { setOpen(false); onChoose(); }}>
       {children}
     </HoverCardTrigger>
-    <HoverCardContent id={popupId} tabIndex={-1} portalContainer={container} className="lexicon-popup" onKeyDown={event => { if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); document.getElementById(id)?.focus(); setOpen(false); } }}>
+    <HoverCardContent id={popupId} tabIndex={-1} portalContainer={container} className="lexicon-popup" onKeyDown={event => { if(navigation&&['ArrowLeft','ArrowRight','Home','End'].includes(event.key)){event.preventDefault();event.preventBaseUIHandler();setOpen(false);const at=navigation.ids.indexOf(id),next=event.key==='Home'?0:event.key==='End'?navigation.ids.length-1:Math.max(0,Math.min(navigation.ids.length-1,at+(event.key==='ArrowRight'?1:-1)));navigation.onActive(navigation.ids[next]);document.getElementById(navigation.ids[next])?.focus();return;} if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); document.getElementById(id)?.focus(); setOpen(false); } }}>
       <p><strong lang="grc">{token.lemma}</strong> · {transliterateGreek(token.lemma)}</p>
       {open && <WordDefinition token={token} compact />}
     </HoverCardContent>

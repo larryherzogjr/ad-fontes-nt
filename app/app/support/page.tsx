@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
-export const metadata: Metadata = { title: 'Support · Ad Fontes NT' };
+export const metadata: Metadata = { title: 'Support · Ad Fontes' };
 
 export default function SupportPage() {
   return (
     <PublicPage eyebrow="Help and contact" title="Support">
       <p>
-        For help, corrections, privacy requests, account deletion, or responsible
+        For help, corrections, privacy requests, requests about retained legacy data, or responsible
         security reports, email <a href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</a>.
       </p>
 
@@ -15,7 +15,7 @@ export default function SupportPage() {
       <p>
         Include the passage, edition, operating system or browser, and what you
         expected to happen. Do not send passwords, authentication cookies,
-        private keys, or private note text unless it is essential to your request.
+        private keys, or private information unless it is essential to your request.
       </p>
 
       <h2>Supported desktop systems</h2>
@@ -35,12 +35,8 @@ export default function SupportPage() {
         installing an update. Reading continues to work without internet access.
       </p>
 
-      <h2>Accounts</h2>
-      <p>
-        Public reading does not require an account. Private-note accounts are
-        initially invitation-only. Use My account to sign out or permanently
-        delete your account and notes.
-      </p>
+      <h2>Access</h2>
+      <p>Reading and study tools require no account. Personal notes and Google sign-in have been retired.</p>
     </PublicPage>
   );
 }

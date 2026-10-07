@@ -14,15 +14,15 @@ export default function PublicPage({
     <>
       <header className="masthead public-masthead">
         <Link className="brand" href="/">
-          Ad Fontes NT
-          <span>A New Testament study environment from Ordinary Means.</span>
+          Ad Fontes
+          <span>A biblical study environment from Ordinary Means.</span>
         </Link>
         <nav aria-label="Primary">
           <Link href="/">Read</Link>
           <Link href="/library">Library</Link>
           <Link href="/about/sources">Sources &amp; Editions</Link>
           <Link href="/downloads">Downloads</Link>
-          <Link href="/account">My notes</Link>
+
         </nav>
         <details className="mobile-nav">
           <summary>Menu</summary>
@@ -31,8 +31,8 @@ export default function PublicPage({
             <Link href="/library">Library</Link>
             <Link href="/about/sources">Sources &amp; Editions</Link>
             <Link href="/downloads">Downloads</Link>
-            <Link href="/account">My notes</Link>
-            <span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+
+            <span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
           </nav>
         </details>
       </header>

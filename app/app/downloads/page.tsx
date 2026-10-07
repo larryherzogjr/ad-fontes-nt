@@ -4,14 +4,14 @@ import PublicPage from '../public-page';
 const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
-  title: 'Desktop downloads · Ad Fontes NT',
-  description: 'Download Ad Fontes NT 1.1.5 for macOS Apple Silicon or Windows 11 x64.',
+  title: 'Desktop downloads · Ad Fontes',
+  description: 'Download Ad Fontes 1.1.5 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
-    siteName: 'Ad Fontes NT',
-    title: 'Desktop Downloads · Ad Fontes NT',
-    description: 'Download Ad Fontes NT for macOS Apple Silicon or Windows 11 x64.',
+    siteName: 'Ad Fontes',
+    title: 'Desktop Downloads · Ad Fontes',
+    description: 'Download Ad Fontes for macOS Apple Silicon or Windows 11 x64.',
     images: [{
       url: socialImageUrl,
       width: 1730,
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Desktop Downloads · Ad Fontes NT',
-    description: 'Download Ad Fontes NT for macOS Apple Silicon or Windows 11 x64.',
+    title: 'Desktop Downloads · Ad Fontes',
+    description: 'Download Ad Fontes for macOS Apple Silicon or Windows 11 x64.',
     images: [socialImageUrl],
   },
 };
@@ -33,14 +33,13 @@ const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.1.5/Ad-Fontes-NT
 
 export default function DownloadsPage() {
   return (
-    <PublicPage eyebrow="Desktop release" title="Download Ad Fontes NT">
+    <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
         Version 1.1.5 brings all 104 reviewed textual comparisons, their
         manuscript evidence, the 250 Greek word studies, the 5,400-entry Greek
-        lexicon, and the refined Ad Fontes NT reader and study tools to your
-        desktop for offline reading. Choose the package for your computer.
-        Public reading does not require an account; private account-backed
-        notes remain available in the web app.
+        lexicon, and the refined Ad Fontes reader and study tools to your
+        desktop for offline NT reading. These existing signed packages retain the Ad Fontes NT name and do not include the new OT release. Choose the package for your computer.
+        Public reading and study tools require no account.
       </p>
 
       <div className="download-options">

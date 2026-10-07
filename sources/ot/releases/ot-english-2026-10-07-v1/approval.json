@@ -1,0 +1,20 @@
+{
+  "decision": "approved",
+  "reviewer": "Larry Herzog Jr.",
+  "date": "2026-10-07",
+  "userStatement": "1. Approved\n2. Go for it",
+  "scope": "OT English reading/comparison preview and promotion of verified corpora; public branding authorized separately. No hosted deployment or signed package publication inferred.",
+  "candidateMetadata": {
+    "blb-manifest.json": "dfa6bcbd7943d3cbc18201e52397000ca4ac76583a48d6a24b1fad5fc2ec828e",
+    "blb-source-transforms.json": "71fe995b1bd78dbde9f36254c3345001054342f6d3597e2fbfda4550c572b75d",
+    "bsb-manifest.json": "b561a49797d32b9617fa4c75dbe31f00096e70c86ee5181d23555a1a9ebf957a",
+    "candidate-inventory.json": "21b9d8b2be9d518e9720911da0433ff60237409649abaee2c83e05c0beac6f8c",
+    "implementation-checksums.json": "663195d7e6c1c7013f48617776dce353f484731e164909c526e314dddddd7b2e",
+    "msb-manifest.json": "dede53c8e0838712bfa29d84dfb38b9819f740781f0753cb64f63adfa617dfce",
+    "ot-registry.json": "3b73d9f194137a257ba4a1551c1633ec4b328555762e2e97b2f06cc243477df7",
+    "output-checksums.json": "3d6ffb79e5808c3e55bd56ccf01e0c2603b1913bd8d933a908fe64d59a5e85b9",
+    "reviewed-engineering-differences.json": "2e85e3502351e2405c618b72cc7cda8785511d340204c6e81c4d1911cbe8d1e0",
+    "whole-bible-registry.json": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c",
+    "ylt-manifest.json": "abc8282c5f1e692c51c0dcf9db1f2f27eb02b566e10a3de98fb349db00eeed2e"
+  }
+}

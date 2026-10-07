@@ -1,0 +1,73 @@
+{
+  "editionId": "BSB",
+  "releaseId": "bsb-ot-2026-10-07-candidate-v2",
+  "status": "engineering-verified candidate; source/display acceptance pending; not public",
+  "scope": "39-book English Old Testament",
+  "predecessorNtRelease": "bsb-2026-09-05-m2-v1",
+  "editionLabel": "Current, updated to 3rd Printing (publisher download listing)",
+  "authority": "Official bsb.txt supplies verbatim Scripture; official USJ supplies structure, headings and notes. Exact reviewed alignment differences retained separately.",
+  "rights": "Public-domain dedication effective April 30, 2023; all uses freely permitted, including commercial reproduction and adaptation.",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "artifacts": [
+    {
+      "path": "sources/bsb/raw/bsb_usj.zip",
+      "url": "https://bereanbible.com/bsb_usj.zip",
+      "sha256": "53acad65d590f5bc8cded3e14b37b7b02916f6a365211bcf60ea733ecd800e8f"
+    },
+    {
+      "path": "sources/bsb/raw/bsb.txt",
+      "url": "https://bereanbible.com/bsb.txt",
+      "sha256": "2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96"
+    },
+    {
+      "path": "sources/bsb/evidence/terms.html",
+      "url": "https://berean.bible/terms.htm",
+      "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d"
+    },
+    {
+      "path": "sources/bsb/evidence/downloads.html",
+      "url": "https://berean.bible/downloads.htm",
+      "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "sources/bsb/evidence/downloads.html",
+      "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca"
+    },
+    {
+      "path": "sources/bsb/evidence/terms.html",
+      "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d"
+    }
+  ],
+  "inventory": {
+    "releaseId": "bsb-ot-2026-10-07-candidate-v2",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 3542,
+    "normalizedDifferences": 1175,
+    "differenceKinds": {
+      "layout-whitespace; TXT governs spaces": 1112,
+      "stray USJ vvv string absent from TXT; retain TXT": 1,
+      "extra closing-quote string in USJ; retain TXT": 50,
+      "USJ supplied-word brackets absent from TXT; retain TXT": 2,
+      "USJ enumeration ellipsis absent from TXT; retain TXT": 10
+    },
+    "structureRoles": {
+      "publisher-heading": 49,
+      "scripture-title": 118
+    }
+  },
+  "included": [
+    "OT Scripture",
+    "source-supplied structure and notes where available"
+  ],
+  "excluded": [
+    "Hebrew/Aramaic analysis",
+    "Septuagint",
+    "word alignment",
+    "Ordinary Means commentary"
+  ],
+  "ntGroupNotApplicableToOt": true
+}

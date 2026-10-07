@@ -10,8 +10,10 @@ export const ReaderEnvironment = createContext<{
   WordStudyLink: ComponentType<{ link: WordLink }>;
   wordStudyDescription: string;
   readingStatus: string;
+  offline: boolean;
 }>({
   WordStudyLink: WebsiteWordStudyLink,
+  offline: false,
   readingStatus: 'Reading position and text size are saved on this device. The address bar is your passage link.',
   wordStudyDescription: 'Separate Ordinary Means word-study links use the public Greek Word Explorer index from larryherzogjr.com, retrieved September 6, 2026. Links open the original website and preserve its access requirements; article text is not imported.',
 });

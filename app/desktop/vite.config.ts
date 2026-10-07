@@ -12,7 +12,7 @@ export default defineConfig({
     dedupe: ['react', 'react-dom'],
   },
   css: { postcss: { plugins: [tailwindcss()] } },
-  server: { host: '127.0.0.1', port: 1420, strictPort: true, watch: { ignored: ['**/src-tauri/**'] } },
+  server: { host: '127.0.0.1', port: 1420, strictPort: true, watch: { ignored: ['**/src-tauri/**', '**/public/**', '**/dist/**'] } },
   preview: { host: '127.0.0.1', port: 1421, strictPort: true },
   build: { target: 'es2022', outDir: 'dist', emptyOutDir: true },
 });

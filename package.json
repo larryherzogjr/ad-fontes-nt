@@ -4,20 +4,24 @@
   "scripts": {
     "dev": "npm --prefix app run dev -- --host 127.0.0.1",
     "import:bsb": "python3 scripts/import_bsb.py",
-    "test": "node --test tests/domain.test.ts tests/m2.test.ts tests/m3.test.ts tests/notes.test.ts tests/resources.test.ts tests/lexical.test.ts tests/om_studies.test.mts tests/library.test.mts tests/visuals.test.mts tests/visual_discovery.test.mts tests/sinaiticus_visual_candidate.test.mts tests/release.test.mts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py && python3 tests/om_bsb_adaptation_test.py",
+    "test": "node --test tests/study_navigation.test.ts tests/expanded_connections.test.ts tests/lxx_research.test.ts tests/greek_connections.test.ts tests/domain.test.ts tests/testament_connections.test.ts tests/ot_reader.test.ts tests/lxx.test.ts tests/m2.test.ts tests/m3.test.ts tests/resources.test.ts tests/lexical.test.ts tests/om_studies.test.mts tests/library.test.mts tests/visuals.test.mts tests/visual_discovery.test.mts tests/sinaiticus_visual_candidate.test.mts tests/release.test.mts && python3 tests/fidelity_test.py && python3 tests/m2_fidelity_test.py && python3 tests/m3_fidelity_test.py && python3 tests/om_bsb_adaptation_test.py && python3 tests/ot_fidelity_test.py && python3 tests/ot_release_test.py && python3 tests/lxx_fidelity_test.py && python3 tests/lxx_research_fidelity_test.py",
     "typecheck": "npm --prefix app run typecheck",
     "build": "npm --prefix app run build",
-    "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts && node scripts/publish_visuals.mts && python3 scripts/import_lexicon.py && node scripts/import_om_studies.mts && node scripts/build_library_index.mts",
+    "import:all": "python3 scripts/import_bsb.py && python3 scripts/import_m2.py && python3 scripts/import_greek.py && node scripts/publish_variants.ts && node scripts/publish_visuals.mts && python3 scripts/import_lexicon.py && node scripts/import_om_studies.mts && node scripts/build_library_index.mts && python3 scripts/publish_ot.py && node scripts/build_testament_connections.mts && python3 scripts/lxx/import_lxx.py && python3 scripts/lxx/publish_notices.py && python3 scripts/greek/build_lemma_index.py && node scripts/publish_connection_labels.mts && python3 scripts/research/build_lxx_research.py && node scripts/research/build_connection_catalog.mts && node scripts/research/build_heading_connections_v2.mts && node scripts/research/publish_expanded_connections.mts",
     "publish:variants": "node scripts/publish_variants.ts",
     "publish:visuals": "node scripts/publish_visuals.mts",
-    "test:accounts": "node --test tests/accounts.integration.mts",
-    "migrate": "node scripts/migrate.mts",
     "desktop:dev": "node scripts/desktop.mjs dev",
     "desktop:build": "node scripts/desktop.mjs build",
     "desktop:build:web": "npm --prefix app run desktop:build:web",
     "desktop:preview": "npm --prefix app run desktop:preview",
     "test:desktop": "node --test tests/desktop.test.ts",
-    "verify:both": "npm run typecheck && npm run build && npm run desktop:build:web && npm run test:desktop"
+    "verify:both": "npm run typecheck && npm run build && npm run desktop:build:web && npm run test:desktop",
+    "prepare:ot": "python3 scripts/ot/prepare_candidates.py",
+    "test:ot": "npm run prepare:ot && python3 tests/ot_fidelity_test.py",
+    "dev:ot": "npm run import:ot && npm run dev",
+    "test:ot-reader": "node --test tests/ot_reader.test.ts",
+    "import:ot": "python3 scripts/publish_ot.py",
+    "import:lxx": "python3 scripts/lxx/import_lxx.py && python3 scripts/lxx/publish_notices.py"
   },
   "type": "module"
 }

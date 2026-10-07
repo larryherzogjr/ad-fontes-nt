@@ -66,7 +66,7 @@ test('public desktop download page exposes only the approved 1.1.5 installers', 
   assert.match(page, /all 104 reviewed textual comparisons/);
   assert.match(page, /250 Greek word studies/);
   assert.match(page, /5,400-entry Greek\s+lexicon/);
-  assert.match(page, /private account-backed\s+notes remain available in the web app/);
+  assert.doesNotMatch(page, /private account-backed\s+notes remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
   assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20260911/);
@@ -90,13 +90,13 @@ test('final public installer publication is pinned to the approved signed bytes'
 
 test('public project status identifies the approved 1.1.5 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
-  assert.match(reader, /defined Ad Fontes NT MVP and all five milestones are accepted/);
+  assert.match(reader, /defined Ad Fontes MVP and all five milestones are accepted/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
   assert.match(reader, /Version 1\.1\.5 is the current cross-platform desktop release/);
   assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
-  assert.match(reader, /Private\s+account-backed notes remain available only in the web app/);
+  assert.match(reader, /Personal notes and Google sign-in have been retired/);
   assert.match(reader, /separate exact-artifact review\s+and approval workflow/);
   assert.doesNotMatch(reader, /Pilot and release verification are next/);
 });

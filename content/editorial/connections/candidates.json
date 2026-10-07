@@ -1,0 +1,383 @@
+[
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-01",
+      "kind": "quotation",
+      "connectionIds": [
+        "227a9077ab550f39ec64dce4",
+        "494013bc4cfc6ac7f29703b0",
+        "0e0408d02d583aa3b52f5314"
+      ],
+      "ntRanges": [
+        {
+          "start": "MAT.1.23",
+          "end": "MAT.1.23"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "ISA.7.14",
+          "end": "ISA.7.14"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Matthew introduces the following words as fulfillment of what the Lord spoke through the prophet (Matthew 1:22).",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "MAT.1.22",
+          "anchors": [
+            "MAT.1.22"
+          ],
+          "text": "All this took place to fulfill what the Lord had said through the prophet:"
+        },
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "MAT.1.23",
+          "anchors": [
+            "MAT.1.23"
+          ],
+          "text": "“Behold, the virgin will be with child and will give birth to a son, and they will call Him Immanuel” (which means, “God with us”)."
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "ISA.7.14",
+          "anchors": [
+            "ISA.7.14"
+          ],
+          "text": "Therefore the Lord Himself will give you a sign: Behold, the virgin will be with child and give birth to a son, and will call Him Immanuel."
+        }
+      ],
+      "publisherNote": "1:23 Literally they will call His name Immanuel; Isaiah 7:14 (see also DSS)"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-02",
+      "kind": "quotation",
+      "connectionIds": [
+        "928a6716621ad3b280aefd40",
+        "a318106373ed26a2a0cf5156"
+      ],
+      "ntRanges": [
+        {
+          "start": "MAT.4.4",
+          "end": "MAT.4.4"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "DEU.8.3",
+          "end": "DEU.8.3"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Matthew introduces the words with “It is written.”",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "MAT.4.4",
+          "anchors": [
+            "MAT.4.4"
+          ],
+          "text": "But Jesus answered, “It is written: ‘Man shall not live on bread alone, but on every word that comes from the mouth of God.’”"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "DEU.8.3",
+          "anchors": [
+            "DEU.8.3"
+          ],
+          "text": "He humbled you, and in your hunger He gave you manna to eat, which neither you nor your fathers had known, so that you might understand that man does not live on bread alone, but on every word that comes from the mouth of the LORD."
+        }
+      ],
+      "publisherNote": "4:4 Deuteronomy 8:3"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-03",
+      "kind": "quotation",
+      "connectionIds": [
+        "1511d66bf1bcb30737759804"
+      ],
+      "ntRanges": [
+        {
+          "start": "MAT.4.7",
+          "end": "MAT.4.7"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "DEU.6.16",
+          "end": "DEU.6.16"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Matthew introduces the words with “It is also written.”",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "MAT.4.7",
+          "anchors": [
+            "MAT.4.7"
+          ],
+          "text": "Jesus replied, “It is also written: ‘Do not put the Lord your God to the test.’”"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "DEU.6.16",
+          "anchors": [
+            "DEU.6.16"
+          ],
+          "text": "Do not test the LORD your God as you tested Him at Massah."
+        }
+      ],
+      "publisherNote": "4:7 Deuteronomy 6:16"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-04",
+      "kind": "quotation",
+      "connectionIds": [
+        "ce82cfbcd838c7ede02cb97a",
+        "caf32dd819448fe2c9df4d92"
+      ],
+      "ntRanges": [
+        {
+          "start": "MAT.4.10",
+          "end": "MAT.4.10"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "DEU.6.13",
+          "end": "DEU.6.13"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Matthew introduces the words with “For it is written.”",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "MAT.4.10",
+          "anchors": [
+            "MAT.4.10"
+          ],
+          "text": "“Away from Me, Satan!” Jesus told him. “For it is written: ‘Worship the Lord your God and serve Him only.’”"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "DEU.6.13",
+          "anchors": [
+            "DEU.6.13"
+          ],
+          "text": "Fear the LORD your God, serve Him only, and take your oaths in His name."
+        }
+      ],
+      "publisherNote": "4:10 Deuteronomy 6:13"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-05",
+      "kind": "quotation",
+      "connectionIds": [
+        "8e72feb45cb8e211af7d8509"
+      ],
+      "ntRanges": [
+        {
+          "start": "HEB.1.5",
+          "end": "HEB.1.5"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "PSA.2.7",
+          "end": "PSA.2.7"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Hebrews introduces the words by asking to which angel God ever said them.",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "HEB.1.5",
+          "anchors": [
+            "HEB.1.5"
+          ],
+          "text": "For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son”?"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "PSA.2.7",
+          "anchors": [
+            "PSA.2.7"
+          ],
+          "text": "I will proclaim the decree spoken to Me by the LORD: “You are My Son; today I have become Your Father."
+        }
+      ],
+      "publisherNote": "1:5 Psalm 2:7; literally today I have begotten You"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-06",
+      "kind": "quotation",
+      "connectionIds": [
+        "acbed5d191f409eb06589d9c",
+        "491659bcafb65ab2da104d9e"
+      ],
+      "ntRanges": [
+        {
+          "start": "HEB.1.5",
+          "end": "HEB.1.5"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "2SA.7.14",
+          "end": "2SA.7.14"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Hebrews introduces this second set of words with “Or again.”",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "HEB.1.5",
+          "anchors": [
+            "HEB.1.5"
+          ],
+          "text": "For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son”?"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "2SA.7.14",
+          "anchors": [
+            "2SA.7.14"
+          ],
+          "text": "I will be his Father, and he will be My son. When he does wrong, I will discipline him with the rod of men and with the blows of the sons of men."
+        }
+      ],
+      "publisherNote": "1:5 2 Samuel 7:14; 1 Chronicles 17:13"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-07",
+      "kind": "quotation",
+      "connectionIds": [
+        "d3949b16872c284a24c19516"
+      ],
+      "ntRanges": [
+        {
+          "start": "1PE.1.16",
+          "end": "1PE.1.16"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "LEV.11.44",
+          "end": "LEV.11.45"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "1 Peter introduces the words with “for it is written.”",
+      "interpretation": "Proposed quotation classification for this publisher-linked passage pair; this does not claim identical Greek wording or exclusive dependence on this edition.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "1PE.1.16",
+          "anchors": [
+            "1PE.1.16"
+          ],
+          "text": "for it is written: “Be holy, because I am holy.”"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "LEV.11.44",
+          "anchors": [
+            "LEV.11.44"
+          ],
+          "text": "For I am the LORD your God; consecrate yourselves, therefore, and be holy, because I am holy. You must not defile yourselves by any creature that crawls along the ground."
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "LEV.11.45",
+          "anchors": [
+            "LEV.11.45"
+          ],
+          "text": "For I am the LORD, who brought you up out of the land of Egypt so that I would be your God; therefore be holy, because I am holy."
+        }
+      ],
+      "publisherNote": "1:16 Leviticus 11:44–45; Leviticus 19:2"
+    }
+  },
+  {
+    "status": "approved",
+    "payload": {
+      "id": "nt-ot-label-08",
+      "kind": "allusion",
+      "connectionIds": [
+        "66718053b43f8701e61e03b2"
+      ],
+      "ntRanges": [
+        {
+          "start": "REV.21.4",
+          "end": "REV.21.4"
+        }
+      ],
+      "otRanges": [
+        {
+          "start": "ISA.25.8",
+          "end": "ISA.25.8"
+        }
+      ],
+      "author": "Codex drafting assistant",
+      "rights": "Original draft observations of pinned Scripture; source notices retained.",
+      "sourceObservation": "Both passages associate wiping away tears with the removal of death. Revelation 21:4 does not introduce these words with a quotation formula.",
+      "interpretation": "Proposed allusion classification based on the shared images. This is editorial judgment, not an explicit quotation claim.",
+      "evidence": [
+        {
+          "releaseId": "bsb-2026-09-05-m2-v1",
+          "sourceRef": "REV.21.4",
+          "anchors": [
+            "REV.21.4"
+          ],
+          "text": "‘He will wipe away every tear from their eyes,’ and there will be no more death or mourning or crying or pain, for the former things have passed away.”"
+        },
+        {
+          "releaseId": "bsb-ot-2026-10-07-v1",
+          "sourceRef": "ISA.25.8",
+          "anchors": [
+            "ISA.25.8"
+          ],
+          "text": "He will swallow up death forever. The Lord GOD will wipe away the tears from every face and remove the disgrace of His people from the whole earth. For the LORD has spoken."
+        }
+      ],
+      "publisherNote": "21:4 Isaiah 25:8."
+    }
+  }
+]

@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { writeClipboard } from '@/lib/clipboard';
 import { formatCopyWithReference, formatPassage, formatPassageText } from '@/lib/reading-display';
+import { isOtBook } from '@/lib/domain/ot-release';
 import { getCorpus } from '@/lib/domain/corpus';
 import { resolveReference, type PassageRange } from '@/lib/domain/references';
 
@@ -22,17 +23,15 @@ function scriptureTextWithoutControls(range: Range) {
 /** Only annotated main-text spans can contribute passage anchors. */
 export default function ReadingSelection({
   onOpen,
-  onNote,
   editionName,
   editionId,
   onSelect,
 }: {
   editionName: string;
   editionId: string;
-  onNote?: (ranges: PassageRange[]) => void;
   onSelect: (ranges: PassageRange[]) => void;
   onOpen: (
-    mode: 'compare' | 'greek',
+    mode: 'compare' | 'greek' | 'connections',
     ranges: PassageRange[],
     focusId: string,
   ) => void;
@@ -251,15 +250,15 @@ export default function ReadingSelection({
         >
           <span className="wide-label">Copy with reference</span><span className="short-label">Copy</span>
         </button>
-        {onNote && <button className="selection-note" onClick={() => { onNote(choice.ranges); setChoice(null); window.getSelection()?.removeAllRanges(); }}><span className="wide-label">My note</span><span className="short-label">Note</span></button>}
         <button
           onClick={() => onOpen('compare', choice.ranges, choice.focusId)}
         >
           <span className="wide-label">Compare editions</span><span className="short-label">Compare</span>
         </button>
-        <button onClick={() => onOpen('greek', choice.ranges, choice.focusId)}>
+        {<button onClick={() => onOpen('greek', choice.ranges, choice.focusId)}>
           <span className="wide-label">Explore Greek</span><span className="short-label">Greek</span>
-        </button>
+        </button>}
+        <button className="selection-connections" onClick={() => onOpen('connections', choice.ranges, choice.focusId)}>NT/OT Connections</button>
       </div>
       <p className="selection-copy-status" aria-live="polite">
         {copyStatus}

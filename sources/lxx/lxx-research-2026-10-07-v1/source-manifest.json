@@ -1,0 +1,245 @@
+{
+  "commit": "0a23df295de5e5710724c8b6e84edf99e89348aa",
+  "repository": "https://git.sr.ht/~seth/OpenScriptorium",
+  "sourceFiles": {
+    "1-chronicles": {
+      "sha256": "e77183a6cbc4f3ef63d3207e237ca8b294ad4f94b5983599b1fc3f7ed1039d6a",
+      "compressedSha256": "9b3b50acecd16797f9a5f86c2cba07c4875fcb388e4740f7a205d65005e9d75e"
+    },
+    "1-esdras": {
+      "sha256": "24ea81425f755d853120d0edea9bcd3717e25a91ddb174fdab0c8fc9f3efcb3e",
+      "compressedSha256": "87fb1efb83ffc8e2a1d869c6cb77ce8e252c3cd5a41c3a924e3678c0c49d77ab"
+    },
+    "1-kings": {
+      "sha256": "dd0a7d3a64a6915c750dd99b506ee028bf8146a4a4d2f17ee5c3ce14fc092d7b",
+      "compressedSha256": "4f86c6cc9d7cb887562eb80355daecda819657ba73a952fd2cbc4553840009ea"
+    },
+    "1-maccabees": {
+      "sha256": "a89c5af1c74838aad604a39bc970330822c209c3311ce8613402ca6ca1da3fcb",
+      "compressedSha256": "61f780b742e54faccf2e48dce55cece7e0648604de2380d1c30090b8a5986776"
+    },
+    "1-samuel": {
+      "sha256": "8bd1346509aaa9804a92a7ebc3c0f2812cb4fb35e61f2d41c14b482e95fd70c5",
+      "compressedSha256": "5fbbaa9b098cb598c154ef3efa5b5dcbdb199edee7e85833586de76553b0ee50"
+    },
+    "2-chronicles": {
+      "sha256": "b3b52dcd2b60c9881155891a4b309cda85ad5199e980d71f7a78966b87f714de",
+      "compressedSha256": "96f2d8c18f492a2eb638f5d37ee8dba970688b335b5d741ec69edb4cef4b5f87"
+    },
+    "2-esdras": {
+      "sha256": "24177f83c16734702e6f6648887282f56188beff6da1253445fd05fe6f86a55c",
+      "compressedSha256": "fc8c96a1a4f311d6dfdd70d06a5ed02e34bc511b20215921b5cf17e030485b86"
+    },
+    "2-kings": {
+      "sha256": "cdaefb4ae43086630fff9acc31c15e29162a906f901c4abe508c30e10f2d8d19",
+      "compressedSha256": "a338ac5a6dc199a91b60b030293a34ae819c52c459b4e39f9600f37f675a7109"
+    },
+    "2-maccabees": {
+      "sha256": "516c92310f1c42fb534df956e609c21218f2ae13f419b044041c4bd358ce37c7",
+      "compressedSha256": "9544b82abfa55cfe00addde5e73208b8f2770ef431ce614e6c2ce95983b3a23b"
+    },
+    "2-samuel": {
+      "sha256": "680b221e16b413d0de812444cd427c5ed353961606941d60ff188d1de739a884",
+      "compressedSha256": "7fa12e46e3b3b37fa6c16b416e1157ef110a4bbf6e57fc6e9d4bbe8762362d50"
+    },
+    "3-maccabees": {
+      "sha256": "57d1e547412f58b55bcca291cd50bb944f312dee69ad68a14c15b3f7e577dbb4",
+      "compressedSha256": "a6ea33522d988d02ee2e4194b12654396f4c7dc27bc71c02ab1bd9eccd6e0278"
+    },
+    "4-maccabees": {
+      "sha256": "690ff255a00eb3cef5dbceac3c1a26180c828b0ddd2453267490bcea11484322",
+      "compressedSha256": "fd3e25c1999ced4c8011299854aaf9546a91c41b82c7fce1e0204e474e6c4614"
+    },
+    "amos": {
+      "sha256": "2ab673cf0da4e9f6cac8189ee52c2c02c067135121d26825867cbec65060baf1",
+      "compressedSha256": "a27aafc6e86718b7b00dcb47103a1c74a9cdffa8b0ad0052253d0954cc9451bc"
+    },
+    "baruch": {
+      "sha256": "79815eead7e72b7aeba13da4ca5eec3d0c60ac9da40c04f7b667cdc8d0da4f44",
+      "compressedSha256": "3b0ebcccb19fe7accaed33c1b8f35a243ba1a841251d1f6e215321c0c18b8711"
+    },
+    "bel-and-the-dragon-theodotion": {
+      "sha256": "a7a32901b57b1e5d351cc1c28a8533ad5503bc1bce9d5fe1c48091b67ad79fbb",
+      "compressedSha256": "8e319b8ea781554e86def90340b6316aeed9a01efb877d8d9105680b7acf216d"
+    },
+    "bel-and-the-dragon": {
+      "sha256": "c6aa2dbab7d876bf17eef5c195244f5952bf4f6c775d40db892bbcd9a2fd8d5e",
+      "compressedSha256": "47196239f5bc2d10d1a37a15470a29811f13ab3d67f11cac9d2f37b59c7af6b1"
+    },
+    "daniel-theodotion": {
+      "sha256": "d762228b344c90b862038bc6da3c22e1a600453f083dcaeda9afe34c47f7c844",
+      "compressedSha256": "64406ff9697d32ac1da3a9e7b227c81a5cb9a6a0445eaf377c0a3cf02428c515"
+    },
+    "daniel": {
+      "sha256": "e85f7d3b8dcb23800a48584141fab751eaf98087bbd73e97a651f7d202f73634",
+      "compressedSha256": "4b48eb72630240e835a700a61f849d06407b2c636e2ff508b73dc398c6ebbbaa"
+    },
+    "deuteronomy": {
+      "sha256": "4f3f3251a5182071d3482753ba9c7208d527705dee418846499134cd19aa46dc",
+      "compressedSha256": "fd332bb924c1d854cbbcd7726eb49110c5e2d881abdc904b2a3c4b25d45a0569"
+    },
+    "ecclesiastes": {
+      "sha256": "0ec029295874df2ef0d6b6742abf8cb62dc045136187eed19a73e6d9a3a1da24",
+      "compressedSha256": "fea0035d8bcee5740197cfb68c6fa2ece37217761d1f3459a4f9308492012f68"
+    },
+    "esther-greek": {
+      "sha256": "debe93c2db86a880f4753398bcf55693dc27393b8d0a6ef41930aef78e359071",
+      "compressedSha256": "2cf6bcd16fc49866dd9eccb60c7be95a3cb1c80eb78bc8e1b65ab5fb18185269"
+    },
+    "exodus": {
+      "sha256": "c5a775d14720b26c70dfcdb72c3c473ac21c33894714ebd85d03f132ebf45267",
+      "compressedSha256": "edcd886412dfdad537e75e4d87915bd3cfefdf5ffb83dbd27ccc4d3a4a4ae127"
+    },
+    "ezekiel": {
+      "sha256": "06f1b82b9c95fc5c2c1735c928cdb44299fea2f8d9b9fc68eda0e14118920a1f",
+      "compressedSha256": "c82c54b1c3029067b1f6ac6d3e443009af535c25f1ba00242e2f889ebdac9284"
+    },
+    "genesis": {
+      "sha256": "5fe6e515f018585edb59bd3aa0a9a81f22cd6a87a4d10d02723423ea9329f93c",
+      "compressedSha256": "79dd4a9d0b59508f2a7d69900c431d30d5bc17cc4f2ea8a93d467aec43bbccf3"
+    },
+    "habakkuk": {
+      "sha256": "b9152de8edb5bd52f16d6b4c307c034f57fa92540a5b80bd43c3a779740827de",
+      "compressedSha256": "214c4c21b17b9c9858f908f0d5e453dd005c869fb93d18c78c6a6ec4265ed183"
+    },
+    "haggai": {
+      "sha256": "3af627ccbb5fb24410d28a6d056706b4503a6bf763329e734aaaf91d5ddc0f6c",
+      "compressedSha256": "fb5e4dcc2d6707484b5618cee6b136ca928166ff4ccddf9e851c9b1a040bd94c"
+    },
+    "hosea": {
+      "sha256": "763cc20b7e5ed28e5fa9df6ef7d75e2fa3a0b569e8a72b1239ba07faa55eec00",
+      "compressedSha256": "a28c339de515d269ec84d4cdeef7a8e4ba7a1101cf42d7b9372998d1d9e5c5d4"
+    },
+    "isaiah": {
+      "sha256": "c60980806a91bfde385004f5bbc030268f95803503527224ba760330390bed56",
+      "compressedSha256": "f7056051b369526a22072d0aee65ed920dbcc9a5a543898292e610245ae5d650"
+    },
+    "jeremiah-lxx": {
+      "sha256": "a4a26e8cc396d3c810872cf6d0f0705de215a8580e1faea6232402c0009086e1",
+      "compressedSha256": "0bb228bcb679a4f9e3b334944df07bf2209a060aaf45d44a3447afc611d6e21a"
+    },
+    "job-lxx": {
+      "sha256": "f58e3906448a5e892da5d8b6dcc01a732284c68985d926e2d1517e6eea61e837",
+      "compressedSha256": "0d9819440ae4f9949f816e416fef22a2214c416f27b89a279ed57e617a3f155e"
+    },
+    "joel": {
+      "sha256": "4b58a84db9cb7fd55cb86dfa59ee156353f99f2f8f4204f9f56651bd3a478951",
+      "compressedSha256": "2f19b4ddbd4bb6c852058c92d57cf092a575e8085118a75b593a9a985db79585"
+    },
+    "jonah": {
+      "sha256": "39418f1e1eba39407ce3b57e6d93c6e3262ec3429d5159d2e6b622fdaa4351e0",
+      "compressedSha256": "6e8af688c9ffd819430d92c30b86cd9776411de7f88a214c8a0adcd5f4c9ae80"
+    },
+    "joshua-vaticanus-b": {
+      "sha256": "aa44e36f355bddb8a0eae163e7e7b9ad6180a5af689da1773c46510a4c5255bf",
+      "compressedSha256": "597ee1c0e0401974e59b7b0bdde89ff6db3bdbbf1ace09e28af8061aa51a501f"
+    },
+    "joshua": {
+      "sha256": "e557c47fff22f12cfe3fc88ca06f19d4cf0058e29119700360a104d4c97cafe4",
+      "compressedSha256": "157b8bfc4524762f76afd95c2dccec0df3833e3dff3eeec27c0a1c14206e89f5"
+    },
+    "judges-vaticanus-b": {
+      "sha256": "0a45def6df9ef3648d882b52de3adc8a08fab1f45ddbfb149d7871e3c278ebfa",
+      "compressedSha256": "d6fc0b2a066b021c50eb7b9196ff269259a3f2a9617475c12eb8d028d83b25a8"
+    },
+    "judges": {
+      "sha256": "837ced839fb303041a19a1132d9ea80de2a297f6db3b41ea9d8643d59db41dbc",
+      "compressedSha256": "540574f02dbd3ff4708f436f2f1e811b3e7853713e0fbba7f2ac6d64ff126817"
+    },
+    "judith": {
+      "sha256": "5287aa38c8d1f69f21dccf7ac09c1b729cdda5a950130e495216b696d715d9fd",
+      "compressedSha256": "790aed6c522b51e1804f37ddd300b54c27129ed420fda7979d14888631ae9eba"
+    },
+    "lamentations": {
+      "sha256": "246d5e7108b349d8a6bb77b950db2537bce1e5b4f47e1b6e3c6e93149eecffae",
+      "compressedSha256": "7cbb22d32a8fac23cb71baeec79d57670f8d090c8f4d201fb01d92b07f3d61d0"
+    },
+    "letter-of-jeremiah": {
+      "sha256": "b6ad7058973e5f6e86fcaf69a7e85d82107a4663bb680f7c516544d92fda66fc",
+      "compressedSha256": "4880d5ddaab662a2acf77c959d534462d3d50b6aceefabb35f93d935f3121d97"
+    },
+    "leviticus": {
+      "sha256": "1d8804b122df867eede51dee6086b1f4d36b7f43b0b11b77a6bffa6d3753a57c",
+      "compressedSha256": "38cb48321a041493fa6581984f18356aa3bc47f9b1c7e3e41da7d079764ae126"
+    },
+    "malachi": {
+      "sha256": "0077c77b19e9636a58cd07ae168c9032d7773403627ee169b712da962e7b1eb8",
+      "compressedSha256": "ba69cafa940af65fd6717f00481e73b05e50bc02d3e206e22386ce6483820ecf"
+    },
+    "micah": {
+      "sha256": "16867e697de12111501605376392a1e719443e01ca9442be1df92cab4455c263",
+      "compressedSha256": "82895afa33a68da5d96e9a2645badd7b8e1ef41fbce5bb67b517e4eb3513b9e6"
+    },
+    "nahum": {
+      "sha256": "c7f807601d0e3f96324a2d3722d87d18abae71bd877ef5c1ef70cb002f64d817",
+      "compressedSha256": "cc354d346ed1875d4fd6f12c3c9df2e3c36965b57da901a73c54567143b30d0e"
+    },
+    "numbers": {
+      "sha256": "4c9ad08ef76e632ca6a6e90e7ad81d162831a856489d5febf672ac705c30e2a9",
+      "compressedSha256": "137834f7446ba489d5c11b010e35616924931375675c0957941e22a9a22c20d2"
+    },
+    "obadiah": {
+      "sha256": "18b0b99642017122009ab3ae27c60c01e1cf7dd30b81ba165b19af4e7042363c",
+      "compressedSha256": "9a788a62d6bbac94dcdaf22e24eb24b65c9a5ce5d3df9ccce4d9c3184c5409a5"
+    },
+    "odes": {
+      "sha256": "15e94df9faed3d8e0ca0863e3958df92fffa8b6443642160bfeb19a93f03c55e",
+      "compressedSha256": "bc2cee2fec7053b83cea07cab3dd883cb5d54863b3d47e1e199c013a83f1b7a9"
+    },
+    "proverbs": {
+      "sha256": "7791907ce0c410bdb99502db909bd417d3dc26261b4959aa1f6f02033d8e5de5",
+      "compressedSha256": "6dccbd9db5daa776775feaf2bf3d33cb0efe2319aae77b5ecb826f0289fbfff7"
+    },
+    "psalms-lxx": {
+      "sha256": "a34b87a5fbe2857fb453c3bd1bcd2cb0408bb2522b409b6e44d678356ee08103",
+      "compressedSha256": "79b2e475e7397ab4ef4920013d3adea8690ef1e3d73a17ba92aaf21e7682b4d8"
+    },
+    "psalms-of-solomon": {
+      "sha256": "380d7eecb9c4f7e380f6662cdd6f4fa40e37fac99d51a60c03539853af40cd2d",
+      "compressedSha256": "6ec674dceaa74746deb4a35461b02641668decc610991e5f2a4727f143062a95"
+    },
+    "ruth": {
+      "sha256": "12a6e181fca2a04b6f073974af676a9c6a32f144062541d370d20af6c3d6e249",
+      "compressedSha256": "ebcbe6f2de19dcc76fca15e3f2456a8233d6347d96c20d5df298abd7a10af26b"
+    },
+    "sirach": {
+      "sha256": "638ba7116a5b83a3b4ab33a61bf49234187788c876d2b1d0c0ecced7e6c38671",
+      "compressedSha256": "ad4c8481270dd389e36352576ea6b3c38d66cdb89eb817b7b832cd3899f43086"
+    },
+    "song-of-solomon": {
+      "sha256": "8efc4e63e397f3fe5fb72780c760ab6934bfafafea0c61799e26abe90ecf955e",
+      "compressedSha256": "86a1ec1321f4ebf47941e4b25d3eda7b9177016368fc7bda86cd3e2685be18e9"
+    },
+    "susanna-theodotion": {
+      "sha256": "8b9ea448e3b747184a7233591f6a596d8b4ba228f9c26acf63d58e62a8914bfc",
+      "compressedSha256": "654c4b284f1bcf2dcaab59ae21e950d71bdc919c2f1aee78752292a1c014f783"
+    },
+    "susanna": {
+      "sha256": "e037b57448b4c4d93cfaa1c42c74b657998fd4068692904e68b17fe2d31a4cc7",
+      "compressedSha256": "96bc52cf52b0b3c8f5da46c2d8654992320898b4b93a8e294db2953360b47df5"
+    },
+    "tobit-sinaiticus": {
+      "sha256": "df2b80518a9a8438b50296e401517244c7711b8dc53ca2003f98ee162f5139b2",
+      "compressedSha256": "a06b6fadad448e73b94a99422c5e6927ee416bcc833553cfa094abab3cfe1907"
+    },
+    "tobit": {
+      "sha256": "a9db93bc059087940c9a81060a4df706583548841b44b9c0e74f7cfe6dcf4f6e",
+      "compressedSha256": "8928cd06a76e42fed6bc036d52c20587fea99f7a23f95e1edaa07f68b45568e3"
+    },
+    "wisdom": {
+      "sha256": "7f9d3b980434866bfa6fcf4cb6e2cd772e7956e88da7002efaa0e84378a494fa",
+      "compressedSha256": "885f336fe1a940f55f4dfe64b2edeebb24e78879b2175fe493900cdfa050b7c0"
+    },
+    "zechariah": {
+      "sha256": "9075dbcffbcbe5f2ad0f03a51e428a5804b4d49eeeea11aec470c1b1bcc0dc34",
+      "compressedSha256": "5686eddca3898f9c3b02845a1d56e49e3bdbea743c49261ce1dbd4601b75fb7c"
+    },
+    "zephaniah": {
+      "sha256": "56c9b5d8f351e938b4568e13acb2993fbaff1319852d8648af1ee66e870a216b",
+      "compressedSha256": "4f3515e8e39a050c7d57c0fb88bb5fc5911cd4e05b3aee7194682706c7884e17"
+    }
+  },
+  "parent": "lxx-rahlfs-1935-2026-10-07-v3",
+  "rightsDecision": "User authorized these resources on October 7, 2026; original notices remain in the pinned source-notices release.",
+  "selection": "All non-auto completed source JSON files, including explicitly labeled alternative and partial sources; no canonical correspondence is inferred for added files."
+}

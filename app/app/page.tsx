@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/',
-    siteName: 'Ad Fontes NT',
-    title: 'Ad Fontes NT',
-    description: 'A New Testament study environment from Ordinary Means.',
+    siteName: 'Ad Fontes',
+    title: 'Ad Fontes',
+    description: 'A biblical study environment from Ordinary Means.',
     images: [{
       url: socialImageUrl,
       width: 1730,
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ad Fontes NT',
-    description: 'A New Testament study environment from Ordinary Means.',
+    title: 'Ad Fontes',
+    description: 'A biblical study environment from Ordinary Means.',
     images: [socialImageUrl],
   },
 };

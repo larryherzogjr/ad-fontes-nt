@@ -1,0 +1,606 @@
+{
+  "releaseId": "lxx-research-2026-10-07-v1",
+  "canonicalMappingUnchanged": true,
+  "unmappedCanonicalReferences": [
+    "GEN.31.51",
+    "GEN.35.21",
+    "EXO.25.6",
+    "EXO.28.23",
+    "EXO.28.24",
+    "EXO.28.25",
+    "EXO.28.26",
+    "EXO.28.27",
+    "EXO.28.28",
+    "EXO.32.9",
+    "EXO.35.8",
+    "EXO.35.15",
+    "EXO.35.18",
+    "EXO.36.10",
+    "EXO.36.11",
+    "EXO.36.12",
+    "EXO.36.13",
+    "EXO.36.14",
+    "EXO.36.15",
+    "EXO.36.16",
+    "EXO.36.17",
+    "EXO.36.18",
+    "EXO.36.19",
+    "EXO.36.20",
+    "EXO.36.21",
+    "EXO.36.22",
+    "EXO.36.23",
+    "EXO.36.24",
+    "EXO.36.25",
+    "EXO.36.26",
+    "EXO.36.27",
+    "EXO.36.28",
+    "EXO.36.29",
+    "EXO.36.30",
+    "EXO.36.31",
+    "EXO.36.32",
+    "EXO.36.33",
+    "EXO.36.34",
+    "EXO.37.12",
+    "EXO.37.24",
+    "EXO.37.25",
+    "EXO.37.26",
+    "EXO.37.27",
+    "EXO.37.28",
+    "EXO.40.7",
+    "EXO.40.11",
+    "EXO.40.28",
+    "NUM.6.27",
+    "JOS.6.4",
+    "JOS.8.13",
+    "JOS.8.26",
+    "JOS.8.30",
+    "JOS.8.31",
+    "JOS.8.32",
+    "JOS.8.33",
+    "JOS.8.34",
+    "JOS.8.35",
+    "JOS.10.15",
+    "JOS.10.43",
+    "JOS.13.33",
+    "JOS.20.4",
+    "JOS.20.5",
+    "JOS.20.6",
+    "1SA.13.1",
+    "1SA.17.12",
+    "1SA.17.13",
+    "1SA.17.14",
+    "1SA.17.15",
+    "1SA.17.16",
+    "1SA.17.17",
+    "1SA.17.18",
+    "1SA.17.19",
+    "1SA.17.20",
+    "1SA.17.21",
+    "1SA.17.22",
+    "1SA.17.23",
+    "1SA.17.24",
+    "1SA.17.25",
+    "1SA.17.26",
+    "1SA.17.27",
+    "1SA.17.28",
+    "1SA.17.29",
+    "1SA.17.30",
+    "1SA.17.31",
+    "1SA.17.41",
+    "1SA.17.50",
+    "1SA.17.55",
+    "1SA.17.56",
+    "1SA.17.57",
+    "1SA.17.58",
+    "1SA.18.1",
+    "1SA.18.2",
+    "1SA.18.3",
+    "1SA.18.4",
+    "1SA.18.5",
+    "1SA.18.10",
+    "1SA.18.11",
+    "1SA.18.17",
+    "1SA.18.18",
+    "1SA.18.19",
+    "1SA.18.30",
+    "1SA.23.12",
+    "1KI.3.1",
+    "1KI.4.20",
+    "1KI.4.21",
+    "1KI.4.25",
+    "1KI.4.26",
+    "1KI.5.17",
+    "1KI.6.11",
+    "1KI.6.12",
+    "1KI.6.13",
+    "1KI.6.14",
+    "1KI.6.18",
+    "1KI.6.37",
+    "1KI.6.38",
+    "1KI.7.22",
+    "1KI.7.31",
+    "1KI.8.12",
+    "1KI.8.13",
+    "1KI.9.15",
+    "1KI.9.16",
+    "1KI.9.17",
+    "1KI.9.18",
+    "1KI.9.19",
+    "1KI.9.20",
+    "1KI.9.21",
+    "1KI.9.22",
+    "1KI.9.23",
+    "1KI.9.24",
+    "1KI.9.25",
+    "1KI.11.3",
+    "1KI.11.23",
+    "1KI.11.24",
+    "1KI.11.39",
+    "1KI.12.2",
+    "1KI.12.17",
+    "1KI.13.27",
+    "1KI.14.1",
+    "1KI.14.2",
+    "1KI.14.3",
+    "1KI.14.4",
+    "1KI.14.5",
+    "1KI.14.6",
+    "1KI.14.7",
+    "1KI.14.8",
+    "1KI.14.9",
+    "1KI.14.10",
+    "1KI.14.11",
+    "1KI.14.12",
+    "1KI.14.13",
+    "1KI.14.14",
+    "1KI.14.15",
+    "1KI.14.16",
+    "1KI.14.17",
+    "1KI.14.18",
+    "1KI.14.19",
+    "1KI.14.20",
+    "1KI.15.6",
+    "1KI.15.32",
+    "1KI.22.46",
+    "1KI.22.47",
+    "1KI.22.48",
+    "1KI.22.49",
+    "1CH.1.11",
+    "1CH.1.12",
+    "1CH.1.13",
+    "1CH.1.14",
+    "1CH.1.15",
+    "1CH.1.16",
+    "1CH.1.18",
+    "1CH.1.19",
+    "1CH.1.20",
+    "1CH.1.21",
+    "1CH.1.22",
+    "1CH.1.23",
+    "1CH.16.24",
+    "2CH.27.8",
+    "NEH.3.7",
+    "NEH.4.6",
+    "NEH.11.16",
+    "NEH.11.20",
+    "NEH.11.21",
+    "NEH.11.28",
+    "NEH.11.29",
+    "NEH.11.32",
+    "NEH.11.33",
+    "NEH.11.34",
+    "NEH.11.35",
+    "NEH.12.4",
+    "NEH.12.5",
+    "NEH.12.6",
+    "EST.1.1",
+    "EST.4.6",
+    "EST.9.5",
+    "EST.9.30",
+    "JOB.23.14",
+    "PSA.116.14",
+    "PRO.4.7",
+    "PRO.8.33",
+    "PRO.11.4",
+    "PRO.15.31",
+    "PRO.16.1",
+    "PRO.16.3",
+    "PRO.16.4",
+    "PRO.16.6",
+    "PRO.18.23",
+    "PRO.18.24",
+    "PRO.19.1",
+    "PRO.19.2",
+    "PRO.20.14",
+    "PRO.20.15",
+    "PRO.20.16",
+    "PRO.20.17",
+    "PRO.20.18",
+    "PRO.20.19",
+    "PRO.20.20",
+    "PRO.20.21",
+    "PRO.20.22",
+    "PRO.21.5",
+    "PRO.22.6",
+    "PRO.23.23",
+    "ISA.2.22",
+    "ISA.56.12",
+    "ISA.63.19",
+    "JER.2.1",
+    "JER.7.1",
+    "JER.7.27",
+    "JER.8.11",
+    "JER.8.12",
+    "JER.10.6",
+    "JER.10.7",
+    "JER.10.8",
+    "JER.10.10",
+    "JER.11.7",
+    "JER.17.1",
+    "JER.17.2",
+    "JER.17.3",
+    "JER.17.4",
+    "JER.25.14",
+    "JER.27.1",
+    "JER.27.7",
+    "JER.27.13",
+    "JER.27.17",
+    "JER.27.21",
+    "JER.29.16",
+    "JER.29.17",
+    "JER.29.18",
+    "JER.29.19",
+    "JER.29.20",
+    "JER.30.10",
+    "JER.30.11",
+    "JER.30.15",
+    "JER.30.22",
+    "JER.33.14",
+    "JER.33.15",
+    "JER.33.16",
+    "JER.33.17",
+    "JER.33.18",
+    "JER.33.19",
+    "JER.33.20",
+    "JER.33.21",
+    "JER.33.22",
+    "JER.33.23",
+    "JER.33.24",
+    "JER.33.25",
+    "JER.33.26",
+    "JER.39.4",
+    "JER.39.5",
+    "JER.39.6",
+    "JER.39.7",
+    "JER.39.8",
+    "JER.39.9",
+    "JER.39.10",
+    "JER.39.11",
+    "JER.39.12",
+    "JER.39.13",
+    "JER.46.1",
+    "JER.46.26",
+    "JER.48.45",
+    "JER.48.46",
+    "JER.48.47",
+    "JER.49.6",
+    "JER.51.45",
+    "JER.51.46",
+    "JER.51.47",
+    "JER.51.48",
+    "JER.52.2",
+    "JER.52.3",
+    "JER.52.15",
+    "JER.52.28",
+    "JER.52.29",
+    "JER.52.30",
+    "LAM.3.22",
+    "LAM.3.23",
+    "LAM.3.24",
+    "LAM.3.29",
+    "EZK.1.14",
+    "EZK.10.14",
+    "EZK.27.31",
+    "EZK.32.19",
+    "EZK.33.26",
+    "EZK.40.30",
+    "DAN.4.1",
+    "DAN.4.2",
+    "DAN.4.3",
+    "DAN.4.6",
+    "DAN.4.7",
+    "DAN.4.8",
+    "DAN.4.9",
+    "DAN.4.35",
+    "DAN.5.14",
+    "DAN.5.15",
+    "DAN.5.18",
+    "DAN.5.19",
+    "DAN.5.20",
+    "DAN.5.21",
+    "DAN.5.22",
+    "DAN.5.24",
+    "DAN.5.25",
+    "DAN.5.27",
+    "DAN.5.28"
+  ],
+  "unmappedCanonicalReferencesByBook": {
+    "GEN": 2,
+    "EXO": 45,
+    "NUM": 1,
+    "JOS": 15,
+    "1SA": 39,
+    "1KI": 61,
+    "1CH": 13,
+    "2CH": 1,
+    "NEH": 14,
+    "EST": 4,
+    "JOB": 1,
+    "PSA": 1,
+    "PRO": 24,
+    "ISA": 3,
+    "JER": 68,
+    "LAM": 4,
+    "EZK": 6,
+    "DAN": 19
+  },
+  "glossMismatchInventory": [
+    {
+      "sourceRef": "1-chronicles/3:17",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "1-chronicles/25:4",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "1-chronicles/25:31",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "1-esdras/5:34",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "1-esdras/8:32",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "2-chronicles/33:6",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "2-esdras/2:31",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "2-esdras/2:57",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "2-esdras/17:33",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "2-esdras/17:34",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "daniel/5:26",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "hosea/1:6",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "hosea/1:8",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "hosea/1:9",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "hosea/2:3",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "hosea/2:25",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "isaiah/19:18",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "jeremiah-lxx/7:27",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "jeremiah-lxx/26:17",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "jeremiah-lxx/31:34",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "jeremiah-lxx/48:17",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:1",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:2",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:3",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:4",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:5",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:6",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:7",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:8",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:9",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:10",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:11",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:12",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:13",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:14",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:15",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:16",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:17",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:18",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:19",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:20",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:21",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:22",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:23",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:24",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:25",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:26",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:27",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:28",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:29",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:30",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:31",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:32",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:33",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:34",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:35",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "sirach/0:36",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "susanna/1:7",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "susanna/1:10",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "susanna/1:13",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "susanna/1:44",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "susanna/1:60",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "tobit-sinaiticus/9:3",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    },
+    {
+      "sourceRef": "tobit-sinaiticus/14:8",
+      "reason": "Ordered NFC word surfaces do not exactly match the gloss source; no gloss/Strong’s alignment attached."
+    }
+  ],
+  "scope": "Missing verified correspondence is not textual absence. All source-only verses remain independently readable/searchable. Exact gloss matching has not been relaxed."
+}

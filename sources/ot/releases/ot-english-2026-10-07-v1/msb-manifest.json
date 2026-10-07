@@ -1,0 +1,68 @@
+{
+  "editionId": "MSB",
+  "releaseId": "msb-ot-2026-10-07-v1",
+  "status": "approved English OT source/display release",
+  "scope": "39-book English Old Testament",
+  "predecessorNtRelease": "msb-2026-09-05-m2-v2",
+  "editionLabel": "Official MSB TXT snapshot 2026-09-05 with publisher repository USJ v5.9 structure and notes.",
+  "authority": "Official msb.txt (Windows-1252) governs wording; MSB_usj v5.9 governs paragraphing, headings and publisher notes. All differences recorded.",
+  "rights": "Berean texts are public domain; repository LICENSING_INFO.md expressly includes USJ Bible text formats.",
+  "rightsUrl": "https://berean.bible/terms.htm",
+  "artifacts": [
+    {
+      "path": "sources/msb/raw/msb.txt",
+      "url": "https://majoritybible.com/msb.txt",
+      "sha256": "99ca452c23fb901a0f5a814b16d9a52fd61015e2e80987d9bf26dfb2ea850d24",
+      "bytes": 4299924
+    },
+    {
+      "path": "sources/msb/raw/MSB_usj-v5.9.zip",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/download/v5.9/MSB_usj.zip",
+      "sha256": "6d4e603c08ac94e6bcfec6d074aff50cf5de9d45b439268b01ca38ede0476c8c",
+      "bytes": 2329085
+    }
+  ],
+  "evidence": [
+    {
+      "path": "sources/msb/evidence/publisher.html",
+      "sha256": "9a3614b4148e155e7501cd0bbbcfa2c3e6b22c6c0d9a5a4a75f36aba51acbe08"
+    },
+    {
+      "path": "sources/msb/evidence/repository-licensing.md",
+      "sha256": "c4fa7666158df087f86887851b4b9403e3399a8563d4f40d57bbe41ffc844310"
+    }
+  ],
+  "inventory": {
+    "releaseId": "msb-ot-2026-10-07-v1",
+    "books": 39,
+    "chapters": 929,
+    "segments": 23145,
+    "notes": 3542,
+    "normalizedDifferences": 1252,
+    "differenceKinds": {
+      "layout-whitespace; TXT governs spaces": 1189,
+      "stray USJ vvv string absent from TXT; retain TXT": 1,
+      "extra closing-quote string in USJ; retain TXT": 50,
+      "USJ enumeration ellipsis absent from TXT; retain TXT": 10,
+      "USJ supplied-word brackets absent from TXT; retain TXT": 2
+    },
+    "structureRoles": {
+      "publisher-heading": 49,
+      "scripture-title": 118
+    }
+  },
+  "included": [
+    "OT Scripture",
+    "source-supplied structure and notes where available"
+  ],
+  "excluded": [
+    "Hebrew/Aramaic analysis",
+    "Septuagint",
+    "word alignment",
+    "Ordinary Means commentary"
+  ],
+  "ntGroupNotApplicableToOt": true,
+  "otDisclosure": "OT Scripture wording is identical to the pinned BSB OT; structured source remains MSB.",
+  "approvedCandidate": "msb-ot-2026-10-07-candidate-v3",
+  "approvalDate": "2026-10-07"
+}

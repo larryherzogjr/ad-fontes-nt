@@ -2,8 +2,13 @@ import { dictionaryReading } from './greek-reading.ts';
 import info from './analysis-release.json' with { type: 'json' };
 import { getCorpus, CorpusError } from './corpus.ts';
 import type { PassageRange } from './references.ts';
+import { getLxxAnalysis, getLxxOccurrences, loadLxx, lxxRelease } from './lxx.ts';
+import { isOtBook } from './ot-release.ts';
 export const analysisInfo = info;
 export type Token = {
+  analysisReleaseId?: string;
+  confidence?: string;
+  analysisSource?: string;
   id: string;
   surface: string;
   start: number;
@@ -20,6 +25,10 @@ export type Token = {
 };
 export type AnalysisSegment = {
   sourceRef: string;
+  sourceLabel?: string;
+  sourceBook?: string;
+  alignment?: { method: string; flag?: string };
+  glossAligned?: boolean;
   anchors: string[];
   text: string;
   status: 'available' | 'unavailable';
@@ -33,6 +42,10 @@ export type Occurrences = {
   hits: {
     tokenId: string;
     sourceRef: string;
+    sourceLabel?: string;
+    chapterPath?: string;
+    start?: number;
+    end?: number;
     anchor: string;
     surface: string;
     text: string;
@@ -71,6 +84,8 @@ async function load<T>(path: string): Promise<T> {
 export async function getAnalysis(
   ranges: PassageRange[],
 ): Promise<AnalysisSegment[]> {
+  if (ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0])))
+    return getLxxAnalysis(ranges);
   const corpus = getCorpus('N1904');
   if (corpus.releaseId !== info.textReleaseId)
     throw new CorpusError(
@@ -114,6 +129,7 @@ export async function getAnalysis(
   return result;
 }
 export function getOccurrences(id: string) {
+  if (id.startsWith('lxx-')) return getLxxOccurrences(id);
   if (!/^[a-f0-9]{20}$/.test(id)) throw Error('Invalid lemma identifier');
   return load<Occurrences>(`lemmas/${id}.json`);
 }
@@ -235,6 +251,14 @@ export async function highlightOccurrences(
 ): Promise<HighlightedOccurrence[]> {
   return Promise.all(
     hits.map(async (h) => {
+      if (h.tokenId.startsWith('lxx-')) {
+        if (!h.chapterPath || !/^[A-Z0-9]{3}\/\d+\.json$/.test(h.chapterPath)) throw Error('Invalid Septuagint occurrence path');
+        const chapter = await loadLxx<{segments: AnalysisSegment[]}>(h.chapterPath);
+        const segment = chapter.segments.find(s => s.sourceRef === h.sourceRef);
+        const token = segment?.tokens.find(t => t.id === h.tokenId);
+        if (!segment || segment.text !== h.text || !token || token.surface !== h.surface || segment.text.slice(token.start, token.end) !== h.surface) throw Error('Septuagint occurrence mismatch');
+        return {...h, start: token.start, end: token.end};
+      }
       const path = h.sourceRef.split('.').slice(0, 2).join('/');
       if (!/^[A-Z1-3]{3}\/\d+$/.test(path))
         throw Error('Invalid occurrence source reference');

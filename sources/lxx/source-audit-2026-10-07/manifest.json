@@ -1,0 +1,12 @@
+{
+  "status": "blocked-rights-conflict; no import or public release",
+  "repository": "https://git.sr.ht/~sethkush/lxx-morph",
+  "commit": "0a23df295de5e5710724c8b6e84edf99e89348aa",
+  "currentRepository": "https://github.com/OpenScriptorium/lxx-morph",
+  "upstreamRightsEvidence": "https://github.com/eliranwong/LXX-Rahlfs-1935",
+  "files": {
+    "evidence/lxx-morph-LICENSE-DATA": "516bed36ff27c95435449e137b4341c7c102019fe8e57225d383060f9039c033",
+    "evidence/lxx-morph-README.md": "a39670e8986a09c5da8e9679ec9252a3d1ef85471b3a024699c72cb53a7fb754",
+    "evidence/verse-pairing-README.md": "60a28475bd147e7d086ff6f6048f10f589c70bd00712c93b2f7421a0eed350b9"
+  }
+}

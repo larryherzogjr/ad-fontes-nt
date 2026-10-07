@@ -6,11 +6,11 @@ if [[ $(id -u) == 0 ]]; then
   echo 'Run as lherzog, not root; this script prompts through sudo.' >&2
   exit 1
 fi
-[[ -f .env ]] || { echo 'Missing private deployment/.env' >&2; exit 1; }
-chmod 600 .env
+[[ ! -f .env ]] || chmod 600 .env
 sudo -v
 sudo nginx -t
-compose=(sudo docker compose --env-file .env -f compose.yml)
+compose=(sudo docker compose -f compose.yml)
+[[ ! -f .env ]] || compose+=(--env-file .env)
 "${compose[@]}" config --quiet
 available=/etc/nginx/sites-available/ad-fontes.app
 enabled=/etc/nginx/sites-enabled/ad-fontes.app
@@ -45,20 +45,8 @@ if ss -ltnH '( sport = :8135 )' | grep -q .; then
   [[ -n $("${compose[@]}" ps -q web) ]] || { echo 'Port 8135 is already occupied; stop for review.' >&2; exit 1; }
 fi
 "${compose[@]}" build
-"${compose[@]}" up -d --wait --wait-timeout 180
+"${compose[@]}" up -d web --wait --wait-timeout 180
 curl --fail --silent --show-error http://127.0.0.1:8135/api/health
-printf '\nApplication and database are healthy. Rehearsing backup restoration.\n'
-umask 077
-mkdir -p backups
-backup="backups/adfontes-initial-$(date -u +%Y%m%dT%H%M%SZ).dump"
-"${compose[@]}" exec -T db pg_dump -U afnt -d adfontes -Fc > "$backup.tmp"
-mv "$backup.tmp" "$backup"
-# A new, uniquely named database in this app's container only; no existing DB is overwritten.
-restore_db="afnt_restore_$(date -u +%Y%m%d%H%M%S)_$$"
-"${compose[@]}" exec -T db createdb -U postgres "$restore_db"
-"${compose[@]}" exec -T db pg_restore -U postgres -d "$restore_db" --exit-on-error < "$backup"
-"${compose[@]}" exec -T db psql -U postgres -d "$restore_db" -v ON_ERROR_STOP=1 -c 'SELECT count(*) AS migration_count FROM afnt_migrations; SELECT count(*) AS note_count FROM afnt_notes;'
-"${compose[@]}" exec -T db dropdb -U postgres "$restore_db"
 if ! sudo test -f /etc/letsencrypt/live/ad-fontes.app/fullchain.pem; then
   sudo install -d -m 755 "$webroot"
   sudo install -m 644 "$bootstrap" "$available"
@@ -94,4 +82,4 @@ if [[ "$https_ready" != true ]]; then
   echo 'HTTPS health verification did not pass. Leave services intact for diagnosis.' >&2
   exit 1
 fi
-printf '\nAd Fontes NT is running at https://ad-fontes.app\nNext: verify real Google registration and returning sign-in.\n'
+printf '\nAd Fontes is running at https://ad-fontes.app. No account configuration is required.\n'

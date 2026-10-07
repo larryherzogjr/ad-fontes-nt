@@ -1,6 +1,11 @@
 import { address, expand, compare, type PassageRange } from './references.ts';
 import catalog from './editions.json' with { type: 'json' };
+import { otEnabled, isOtBook, otEdition } from './ot-release.ts';
 export const editions = catalog;
+export function editionsFor(ranges: PassageRange[]) {
+  return ranges.some(r => isOtBook(address(r.start).book.code) || isOtBook(address(r.end).book.code))
+    ? editions.filter(e => e.language === 'en') : editions;
+}
 export const releaseId = 'bsb-2026-09-05-m2-v1';
 export type Placement = {
   book: string;
@@ -113,9 +118,10 @@ export function createLocalAdapter(
   const releaseId = meta.releaseId;
   const cache = new Map<string, Promise<Chapter>>();
   let index: Promise<SearchHit[]> | undefined;
-  async function read<T>(path: string): Promise<T> {
+  async function read<T>(path: string, ot = false): Promise<T> {
     try {
-      return (await load(`/corpus/${releaseId}/${path}`)) as T;
+      const source = ot ? otEdition(editionId) : undefined;
+      return (await load(`${source ? '/corpus/' + source.releaseId : '/corpus/' + releaseId}/${path}`)) as T;
     } catch {
       throw new CorpusError(
         'unavailable-data',
@@ -128,14 +134,24 @@ export function createLocalAdapter(
     releaseId,
     async getChapter(book, chapter) {
       address(`${book}.${chapter}.1`);
+      const ot = otEnabled && isOtBook(book);
+      const source = ot ? otEdition(editionId) : undefined;
+      if (ot && !source) throw new CorpusError('unsupported-capability', 'This Greek edition covers the New Testament. Choose an English edition for Old Testament reading.');
+      const expectedRelease = source?.releaseId || releaseId;
       const key = `${book}/${chapter}.json`;
       if (!cache.has(key))
         cache.set(
           key,
-          read<Chapter>(key)
+          read<Chapter>(key, ot)
             .then((d) => {
+              if (ot && d.releaseId === expectedRelease && d.coverage?.length === d.segments?.length) {
+                d = { ...d, coverage: d.coverage.map(c => ({ ...c,
+                  placements: d.segments.filter(s => s.anchors.includes(c.anchor)).map(s => ({ book, chapter, segmentId: s.id, sourceRef: s.sourceRef || s.id, mappingType: s.mappingType })),
+                  evidence: 'Approved TXT/structured-source reconciliation; exact source address.',
+                })) };
+              }
               if (
-                d.releaseId !== releaseId ||
+                d.releaseId !== expectedRelease ||
                 d.book !== book ||
                 d.chapter !== chapter ||
                 !d.segments?.length ||
@@ -220,9 +236,11 @@ export function createLocalAdapter(
       const anchors = ranges.flatMap(expand);
       const chapters = await adapter.getReadingChapters(ranges);
       const wanted = new Set(anchors);
+      const releases = new Set(chapters.map(c => c.releaseId));
+      if (releases.size > 1) throw new CorpusError('unsupported-capability', 'For a quotation or comparison, choose a passage within one Testament. Chapter navigation and search cover both.');
       return {
         editionId,
-        releaseId,
+        releaseId: chapters[0]?.releaseId || releaseId,
         ranges,
         segments: [...chapters]
           .sort((a, b) =>
@@ -255,12 +273,12 @@ export function createLocalAdapter(
         );
       if (!query.trim() || !/[\p{L}\p{N}]/u.test(query))
         return { hits: [], total: 0, page: 1 };
-      index ??= read<SearchHit[]>('search.json').catch((e) => {
+      index ??= Promise.all([read<SearchHit[]>('search.json'), ...(otEnabled && otEdition(editionId) ? [read<SearchHit[]>('search.json', true)] : [])]).then(parts => otEnabled ? parts.flat().sort((a,b) => compare(a.anchor,b.anchor)) : parts.flat()).catch((e) => {
         index = undefined;
         throw e;
       });
       const hits = (await index).filter(
-        (h) => (!book || h.book === book) && matchText(h.text, query),
+        (h) => (!book || h.book === book || (book === 'OT' && isOtBook(h.book)) || (book === 'NT' && !isOtBook(h.book))) && matchText(h.text, query),
       );
       const p = Math.max(
         1,

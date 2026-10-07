@@ -1,0 +1,4546 @@
+{
+  "predecessor": "publisher-heading-connections-2026-10-07-v1",
+  "successor": "publisher-heading-connections-2026-10-07-v2",
+  "review": "Engineering/source-structure review: explicit verse marker governs opening navigation anchor. No editorial quotation extent inferred.",
+  "differences": [
+    {
+      "id": "151eb79408551735e15fa127",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/170",
+      "oldRanges": [
+        {
+          "start": "GEN.5.17",
+          "end": "GEN.5.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.5.18",
+          "end": "GEN.5.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f7be41dbded2a6e61ffdc920",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/190",
+      "oldRanges": [
+        {
+          "start": "GEN.6.12",
+          "end": "GEN.6.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.6.13",
+          "end": "GEN.6.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7d38788d6b9a430ea2ea19d5",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/368",
+      "oldRanges": [
+        {
+          "start": "GEN.14.16",
+          "end": "GEN.14.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.14.17",
+          "end": "GEN.14.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "cc7693b71737b96decb84e16",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/392",
+      "oldRanges": [
+        {
+          "start": "GEN.15.7",
+          "end": "GEN.15.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.15.8",
+          "end": "GEN.15.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4d527f34d84fd971fd48f996",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/488",
+      "oldRanges": [
+        {
+          "start": "GEN.19.23",
+          "end": "GEN.19.23"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.19.24",
+          "end": "GEN.19.24"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ff82e846fc361d097bd66503",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/518",
+      "oldRanges": [
+        {
+          "start": "GEN.21.8",
+          "end": "GEN.21.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.21.9",
+          "end": "GEN.21.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "02ed412dedd5cb93e68a50ca",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/635",
+      "oldRanges": [
+        {
+          "start": "GEN.25.18",
+          "end": "GEN.25.18"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.25.19",
+          "end": "GEN.25.19"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "634329284b5fa2a319497726",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/GEN.usj#content/978",
+      "oldRanges": [
+        {
+          "start": "GEN.37.11",
+          "end": "GEN.37.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.37.12",
+          "end": "GEN.37.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e664e46155fa2db8c159a5b8",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/19",
+      "oldRanges": [
+        {
+          "start": "EXO.1.7",
+          "end": "EXO.1.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.1.8",
+          "end": "EXO.1.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "1e9003e62e9a2f0059b85f49",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/39",
+      "oldRanges": [
+        {
+          "start": "EXO.2.10",
+          "end": "EXO.2.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.2.11",
+          "end": "EXO.2.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "037244c6df872c88b046b06b",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/410",
+      "oldRanges": [
+        {
+          "start": "EXO.16.21",
+          "end": "EXO.16.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.16.22",
+          "end": "EXO.16.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "9dd8a84ae2ab626d851c4e1c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/490",
+      "oldRanges": [
+        {
+          "start": "EXO.20.17",
+          "end": "EXO.20.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.20.18",
+          "end": "EXO.20.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "20f596859fd44fc5f445b9d8",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/494",
+      "oldRanges": [
+        {
+          "start": "EXO.20.21",
+          "end": "EXO.20.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.20.22",
+          "end": "EXO.20.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ed0859a6ce884a2514c5ca7f",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EXO.usj#content/833",
+      "oldRanges": [
+        {
+          "start": "EXO.34.9",
+          "end": "EXO.34.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.34.10",
+          "end": "EXO.34.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "8e1b53c1a218c800800a09ec",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/LEV.usj#content/335",
+      "oldRanges": [
+        {
+          "start": "LEV.19.8",
+          "end": "LEV.19.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.19.9",
+          "end": "LEV.19.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6086253914d6a22a9e5544fc",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/LEV.usj#content/370",
+      "oldRanges": [
+        {
+          "start": "LEV.20.9",
+          "end": "LEV.20.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.20.10",
+          "end": "LEV.20.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "74976aa335e3bb7be5afb74c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/LEV.usj#content/429",
+      "oldRanges": [
+        {
+          "start": "LEV.23.14",
+          "end": "LEV.23.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.23.15",
+          "end": "LEV.23.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fbf7d4e8f706e5ee489739fd",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/LEV.usj#content/467",
+      "oldRanges": [
+        {
+          "start": "LEV.24.16",
+          "end": "LEV.24.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.24.17",
+          "end": "LEV.24.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "47486edc8dc2b4c5558b5c78",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/NUM.usj#content/149",
+      "oldRanges": [
+        {
+          "start": "NUM.5.4",
+          "end": "NUM.5.4"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "NUM.5.5",
+          "end": "NUM.5.5"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e1f187405a9e688cb148c9c0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/NUM.usj#content/408",
+      "oldRanges": [
+        {
+          "start": "NUM.16.40",
+          "end": "NUM.16.40"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "NUM.16.41",
+          "end": "NUM.16.41"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5b0264e44ddc965e031c08a1",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/135",
+      "oldRanges": [
+        {
+          "start": "DEU.5.21",
+          "end": "DEU.5.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.5.22",
+          "end": "DEU.5.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3b108e54c02530d77902f996",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/185",
+      "oldRanges": [
+        {
+          "start": "DEU.9.6",
+          "end": "DEU.9.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.9.7",
+          "end": "DEU.9.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e6dfd8ccde7aa05c3ef3307b",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/298",
+      "oldRanges": [
+        {
+          "start": "DEU.15.6",
+          "end": "DEU.15.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.15.7",
+          "end": "DEU.15.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "707f639bc13ff91b1f4a86f4",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/357",
+      "oldRanges": [
+        {
+          "start": "DEU.18.8",
+          "end": "DEU.18.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.18.9",
+          "end": "DEU.18.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c46edf8367c7a17a35b4d860",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/361",
+      "oldRanges": [
+        {
+          "start": "DEU.18.14",
+          "end": "DEU.18.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.18.15",
+          "end": "DEU.18.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "37525dbac702d34fe04ad116",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/376",
+      "oldRanges": [
+        {
+          "start": "DEU.19.14",
+          "end": "DEU.19.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.19.15",
+          "end": "DEU.19.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d7d8974da446ae9485f7a6a0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/DEU.usj#content/402",
+      "oldRanges": [
+        {
+          "start": "DEU.21.17",
+          "end": "DEU.21.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.21.18",
+          "end": "DEU.21.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5c950f8999452d7e2e61f41c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/RUT.usj#content/92",
+      "oldRanges": [
+        {
+          "start": "RUT.4.17",
+          "end": "RUT.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "RUT.4.18",
+          "end": "RUT.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "deba1fa4209efd5d81f94730",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/RUT.usj#content/92",
+      "oldRanges": [
+        {
+          "start": "RUT.4.17",
+          "end": "RUT.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "RUT.4.18",
+          "end": "RUT.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3cbe47387141b1f88391a372",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/2KI.usj#content/104",
+      "oldRanges": [
+        {
+          "start": "2KI.4.7",
+          "end": "2KI.4.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.8",
+          "end": "2KI.4.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f9908440828da0f4cec08af0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/2KI.usj#content/117",
+      "oldRanges": [
+        {
+          "start": "2KI.4.17",
+          "end": "2KI.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.18",
+          "end": "2KI.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2ae1f1aafc24d8233637befc",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/2KI.usj#content/144",
+      "oldRanges": [
+        {
+          "start": "2KI.4.41",
+          "end": "2KI.4.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.42",
+          "end": "2KI.4.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b6452492f71035300cf4c8b4",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/2KI.usj#content/144",
+      "oldRanges": [
+        {
+          "start": "2KI.4.41",
+          "end": "2KI.4.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.42",
+          "end": "2KI.4.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3926336c2476d540fbf404a0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/568",
+      "oldRanges": [
+        {
+          "start": "ISA.7.9",
+          "end": "ISA.7.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.7.10",
+          "end": "ISA.7.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "43d260f12351b6247abc4308",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/1944",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7d6df5bbe7daa5330cca25a6",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/1944",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "61b4b2c07e6a64d1de477112",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/1944",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e362a22e22b9c3cf104aa979",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/2754",
+      "oldRanges": [
+        {
+          "start": "ISA.40.5",
+          "end": "ISA.40.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.40.6",
+          "end": "ISA.40.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3b13c4ece69026f00fcdec43",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/2765",
+      "oldRanges": [
+        {
+          "start": "ISA.40.8",
+          "end": "ISA.40.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.40.9",
+          "end": "ISA.40.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3adc172a43307f21ec7b3f09",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/3833",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "df25f3ad1ae86ef5b68d1bd1",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/3833",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6d8740ad53fcdc4762c49c3a",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/3833",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "10a4bd3c42a4a111746461dd",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/3833",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5c8d3bd4d456c50c792ac5c5",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4046",
+      "oldRanges": [
+        {
+          "start": "ISA.52.12",
+          "end": "ISA.52.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.52.13",
+          "end": "ISA.52.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ce82d55ac29df5ed74bb8739",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4093",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2421f998691bb5e2ed38cd3c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4093",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0704d0d110416169f8baecd3",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4093",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "1c115a2ba2bd6a21c45e7fcc",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4093",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d79b9f9d1d4531b964ddeb8b",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ISA.usj#content/4990",
+      "oldRanges": [
+        {
+          "start": "ISA.65.16",
+          "end": "ISA.65.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.65.17",
+          "end": "ISA.65.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "49dd129e2f63235bb0326cf0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/JER.usj#content/2194",
+      "oldRanges": [
+        {
+          "start": "JER.31.25",
+          "end": "JER.31.25"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JER.31.26",
+          "end": "JER.31.26"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "eece728e93c8adf681eaefd1",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EZK.usj#content/1427",
+      "oldRanges": [
+        {
+          "start": "EZK.34.10",
+          "end": "EZK.34.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.34.11",
+          "end": "EZK.34.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "9e556de528e5935554adf34c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EZK.usj#content/1465",
+      "oldRanges": [
+        {
+          "start": "EZK.36.15",
+          "end": "EZK.36.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.36.16",
+          "end": "EZK.36.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "71b2d98bff161d64ff62c191",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/EZK.usj#content/1465",
+      "oldRanges": [
+        {
+          "start": "EZK.36.15",
+          "end": "EZK.36.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.36.16",
+          "end": "EZK.36.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "36ebf035f7d3b4c3273013a6",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/HOS.usj#content/732",
+      "oldRanges": [
+        {
+          "start": "HOS.13.8",
+          "end": "HOS.13.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HOS.13.9",
+          "end": "HOS.13.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "81bb952a363ce2f9e7420566",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/JOL.usj#content/58",
+      "oldRanges": [
+        {
+          "start": "JOL.1.12",
+          "end": "JOL.1.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JOL.1.13",
+          "end": "JOL.1.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ec86e50a1911cb2f3103bb2f",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/JOL.usj#content/231",
+      "oldRanges": [
+        {
+          "start": "JOL.2.27",
+          "end": "JOL.2.27"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JOL.2.28",
+          "end": "JOL.2.28"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "eb7902e520d4d934bd851695",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/AMO.usj#content/291",
+      "oldRanges": [
+        {
+          "start": "AMO.5.3",
+          "end": "AMO.5.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.5.4",
+          "end": "AMO.5.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "bdcd4df302f0a206398c1003",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/AMO.usj#content/342",
+      "oldRanges": [
+        {
+          "start": "AMO.5.15",
+          "end": "AMO.5.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.5.16",
+          "end": "AMO.5.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e33cdd40849ea27ad8ecfa97",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/AMO.usj#content/589",
+      "oldRanges": [
+        {
+          "start": "AMO.9.10",
+          "end": "AMO.9.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.9.11",
+          "end": "AMO.9.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d9ecf0f32d46b39c932d318c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/JON.usj#content/13",
+      "oldRanges": [
+        {
+          "start": "JON.1.3",
+          "end": "JON.1.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JON.1.4",
+          "end": "JON.1.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ee03f01c4ca9325eb1f744a9",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEP.usj#content/36",
+      "oldRanges": [
+        {
+          "start": "ZEP.1.6",
+          "end": "ZEP.1.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEP.1.7",
+          "end": "ZEP.1.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5475b133d38266754ba8d97d",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEP.usj#content/36",
+      "oldRanges": [
+        {
+          "start": "ZEP.1.6",
+          "end": "ZEP.1.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEP.1.7",
+          "end": "ZEP.1.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "1a5e41f723564bc43129ce9f",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/153",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0556801eb66246bc5d66ec86",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/153",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d36a5bbff63be1f5ed43480c",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/153",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f1cd4e6d044f35bf42ec08c1",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/153",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b3ea129d3a9add1a0cc473ff",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/275",
+      "oldRanges": [
+        {
+          "start": "ZEC.11.9",
+          "end": "ZEC.11.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.11.10",
+          "end": "ZEC.11.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ba7c4ce2a7b6019f6c115ae0",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/300",
+      "oldRanges": [
+        {
+          "start": "ZEC.12.9",
+          "end": "ZEC.12.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.12.10",
+          "end": "ZEC.12.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "463f7fcf05145121d4a89600",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/311",
+      "oldRanges": [
+        {
+          "start": "ZEC.13.6",
+          "end": "ZEC.13.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.13.7",
+          "end": "ZEC.13.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d99d896931f5cb648fe7142e",
+      "sourceId": "sources/bsb/raw/bsb_usj.zip!bsb_usj/ZEC.usj#content/311",
+      "oldRanges": [
+        {
+          "start": "ZEC.13.6",
+          "end": "ZEC.13.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.13.7",
+          "end": "ZEC.13.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "51856bf64bc36d2e0ee5953f",
+      "sourceId": "bsb_usj/MAT.usj#content/67",
+      "oldRanges": [
+        {
+          "start": "MAT.1.17",
+          "end": "MAT.1.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.1.18",
+          "end": "MAT.1.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a41dd0be954f6dd6f5e09f0f",
+      "sourceId": "bsb_usj/MAT.usj#content/92",
+      "oldRanges": [
+        {
+          "start": "MAT.2.12",
+          "end": "MAT.2.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.2.13",
+          "end": "MAT.2.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "71218137dab6ca6080f58177",
+      "sourceId": "bsb_usj/MAT.usj#content/96",
+      "oldRanges": [
+        {
+          "start": "MAT.2.15",
+          "end": "MAT.2.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.2.16",
+          "end": "MAT.2.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6c9ef3347facbe2960188cba",
+      "sourceId": "bsb_usj/MAT.usj#content/143",
+      "oldRanges": [
+        {
+          "start": "MAT.4.11",
+          "end": "MAT.4.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.4.12",
+          "end": "MAT.4.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "da5b61472d7b0011519bc04f",
+      "sourceId": "bsb_usj/MAT.usj#content/167",
+      "oldRanges": [
+        {
+          "start": "MAT.5.2",
+          "end": "MAT.5.2"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.5.3",
+          "end": "MAT.5.3"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c082cb4a8a859b2b677360b7",
+      "sourceId": "bsb_usj/MAT.usj#content/198",
+      "oldRanges": [
+        {
+          "start": "MAT.5.26",
+          "end": "MAT.5.26"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.5.27",
+          "end": "MAT.5.27"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7986881be95ff366bc5752bd",
+      "sourceId": "bsb_usj/MAT.usj#content/201",
+      "oldRanges": [
+        {
+          "start": "MAT.5.30",
+          "end": "MAT.5.30"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.5.31",
+          "end": "MAT.5.31"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "748930d7ac6779d95dfa3532",
+      "sourceId": "bsb_usj/MAT.usj#content/204",
+      "oldRanges": [
+        {
+          "start": "MAT.5.32",
+          "end": "MAT.5.32"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.5.33",
+          "end": "MAT.5.33"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "62bb3ebca616046a9bf7cffd",
+      "sourceId": "bsb_usj/MAT.usj#content/207",
+      "oldRanges": [
+        {
+          "start": "MAT.5.37",
+          "end": "MAT.5.37"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.5.38",
+          "end": "MAT.5.38"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a131990c13a2a0ad93491fb7",
+      "sourceId": "bsb_usj/MAT.usj#content/299",
+      "oldRanges": [
+        {
+          "start": "MAT.8.22",
+          "end": "MAT.8.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.8.23",
+          "end": "MAT.8.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0c08fe8fbae8b48e21b93cc6",
+      "sourceId": "bsb_usj/MAT.usj#content/374",
+      "oldRanges": [
+        {
+          "start": "MAT.10.33",
+          "end": "MAT.10.33"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.10.34",
+          "end": "MAT.10.34"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4c693f7843529b442169eb71",
+      "sourceId": "bsb_usj/MAT.usj#content/383",
+      "oldRanges": [
+        {
+          "start": "MAT.10.39",
+          "end": "MAT.10.39"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.10.40",
+          "end": "MAT.10.40"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "801bf1387242c6a0946b96b1",
+      "sourceId": "bsb_usj/MAT.usj#content/392",
+      "oldRanges": [
+        {
+          "start": "MAT.11.6",
+          "end": "MAT.11.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.11.7",
+          "end": "MAT.11.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0580d76bc0d5e71ff8bf5836",
+      "sourceId": "bsb_usj/MAT.usj#content/426",
+      "oldRanges": [
+        {
+          "start": "MAT.12.14",
+          "end": "MAT.12.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.12.15",
+          "end": "MAT.12.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c875c9a62342d2fb6d857ec8",
+      "sourceId": "bsb_usj/MAT.usj#content/455",
+      "oldRanges": [
+        {
+          "start": "MAT.12.37",
+          "end": "MAT.12.37"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.12.38",
+          "end": "MAT.12.38"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d7902124ccef711a618fe60d",
+      "sourceId": "bsb_usj/MAT.usj#content/476",
+      "oldRanges": [
+        {
+          "start": "MAT.13.9",
+          "end": "MAT.13.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.13.10",
+          "end": "MAT.13.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f0379105d633935d9517a447",
+      "sourceId": "bsb_usj/MAT.usj#content/499",
+      "oldRanges": [
+        {
+          "start": "MAT.13.23",
+          "end": "MAT.13.23"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.13.24",
+          "end": "MAT.13.24"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "377f8ad2157a9ed08f408d6a",
+      "sourceId": "bsb_usj/MAT.usj#content/512",
+      "oldRanges": [
+        {
+          "start": "MAT.13.33",
+          "end": "MAT.13.33"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.13.34",
+          "end": "MAT.13.34"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "53b7290483b16066c16a9229",
+      "sourceId": "bsb_usj/MAT.usj#content/518",
+      "oldRanges": [
+        {
+          "start": "MAT.13.35",
+          "end": "MAT.13.35"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.13.36",
+          "end": "MAT.13.36"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3fb87b3257615365975fb886",
+      "sourceId": "bsb_usj/MAT.usj#content/593",
+      "oldRanges": [
+        {
+          "start": "MAT.15.28",
+          "end": "MAT.15.28"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.15.29",
+          "end": "MAT.15.29"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "45b9d6f0f04104f2a2a2df25",
+      "sourceId": "bsb_usj/MAT.usj#content/673",
+      "oldRanges": [
+        {
+          "start": "MAT.18.14",
+          "end": "MAT.18.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.18.15",
+          "end": "MAT.18.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c9bf6e43ff9471f86e524ecb",
+      "sourceId": "bsb_usj/MAT.usj#content/843",
+      "oldRanges": [
+        {
+          "start": "MAT.22.33",
+          "end": "MAT.22.33"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.22.34",
+          "end": "MAT.22.34"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "16293ad8820e95a31c226bff",
+      "sourceId": "bsb_usj/MAT.usj#content/904",
+      "oldRanges": [
+        {
+          "start": "MAT.24.35",
+          "end": "MAT.24.35"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.24.36",
+          "end": "MAT.24.36"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "1d53fa9960a98abafcb509b0",
+      "sourceId": "bsb_usj/MAT.usj#content/967",
+      "oldRanges": [
+        {
+          "start": "MAT.26.30",
+          "end": "MAT.26.30"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.26.31",
+          "end": "MAT.26.31"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "647b0cd912b72b50fd7b49a2",
+      "sourceId": "bsb_usj/MAT.usj#content/1019",
+      "oldRanges": [
+        {
+          "start": "MAT.27.2",
+          "end": "MAT.27.2"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.27.3",
+          "end": "MAT.27.3"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "bb3f0c0c472fde625d618818",
+      "sourceId": "bsb_usj/MAT.usj#content/1053",
+      "oldRanges": [
+        {
+          "start": "MAT.27.26",
+          "end": "MAT.27.26"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.27.27",
+          "end": "MAT.27.27"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3628cb0f4cab8e96840e9d18",
+      "sourceId": "bsb_usj/MAT.usj#content/1057",
+      "oldRanges": [
+        {
+          "start": "MAT.27.31",
+          "end": "MAT.27.31"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.27.32",
+          "end": "MAT.27.32"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "cf14485d03096c4e505a3f1d",
+      "sourceId": "bsb_usj/MAT.usj#content/1069",
+      "oldRanges": [
+        {
+          "start": "MAT.27.44",
+          "end": "MAT.27.44"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.27.45",
+          "end": "MAT.27.45"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "20394ede27e8d13b3e492c14",
+      "sourceId": "bsb_usj/MAT.usj#content/1077",
+      "oldRanges": [
+        {
+          "start": "MAT.27.56",
+          "end": "MAT.27.56"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MAT.27.57",
+          "end": "MAT.27.57"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "64210b9a84ec44fd66b7e90c",
+      "sourceId": "bsb_usj/MRK.usj#content/43",
+      "oldRanges": [
+        {
+          "start": "MRK.1.39",
+          "end": "MRK.1.39"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.1.40",
+          "end": "MRK.1.40"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ed670f91c8432f78222b3176",
+      "sourceId": "bsb_usj/MRK.usj#content/73",
+      "oldRanges": [
+        {
+          "start": "MRK.2.22",
+          "end": "MRK.2.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.2.23",
+          "end": "MRK.2.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "cc68e48f9b5e4f52e5e91ec3",
+      "sourceId": "bsb_usj/MRK.usj#content/116",
+      "oldRanges": [
+        {
+          "start": "MRK.4.9",
+          "end": "MRK.4.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.4.10",
+          "end": "MRK.4.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "dfda6200dbd999aad1eecb48",
+      "sourceId": "bsb_usj/MRK.usj#content/142",
+      "oldRanges": [
+        {
+          "start": "MRK.4.34",
+          "end": "MRK.4.34"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.4.35",
+          "end": "MRK.4.35"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "32a700ebc701540fc49a5d9b",
+      "sourceId": "bsb_usj/MRK.usj#content/443",
+      "oldRanges": [
+        {
+          "start": "MRK.12.27",
+          "end": "MRK.12.27"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.12.28",
+          "end": "MRK.12.28"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "433ecf90e1dbfac8eb2e6d21",
+      "sourceId": "bsb_usj/MRK.usj#content/523",
+      "oldRanges": [
+        {
+          "start": "MRK.14.26",
+          "end": "MRK.14.26"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.14.27",
+          "end": "MRK.14.27"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a830fc6abffdabb0f8b3f691",
+      "sourceId": "bsb_usj/MRK.usj#content/589",
+      "oldRanges": [
+        {
+          "start": "MRK.15.15",
+          "end": "MRK.15.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.15.16",
+          "end": "MRK.15.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "64ad82bb7ee45d8d74f56287",
+      "sourceId": "bsb_usj/MRK.usj#content/593",
+      "oldRanges": [
+        {
+          "start": "MRK.15.20",
+          "end": "MRK.15.20"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.15.21",
+          "end": "MRK.15.21"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7ccb26d61a2bcb8733a19a97",
+      "sourceId": "bsb_usj/MRK.usj#content/605",
+      "oldRanges": [
+        {
+          "start": "MRK.15.32",
+          "end": "MRK.15.32"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.15.33",
+          "end": "MRK.15.33"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4c953d5e7843b0c1812fc9a9",
+      "sourceId": "bsb_usj/MRK.usj#content/613",
+      "oldRanges": [
+        {
+          "start": "MRK.15.41",
+          "end": "MRK.15.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "MRK.15.42",
+          "end": "MRK.15.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d4fe68ca809dd018d576a7d3",
+      "sourceId": "bsb_usj/LUK.usj#content/30",
+      "oldRanges": [
+        {
+          "start": "LUK.1.45",
+          "end": "LUK.1.45"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.1.46",
+          "end": "LUK.1.46"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d508069bfb5e4c7e63e7b16c",
+      "sourceId": "bsb_usj/LUK.usj#content/168",
+      "oldRanges": [
+        {
+          "start": "LUK.3.22",
+          "end": "LUK.3.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.3.23",
+          "end": "LUK.3.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "cb23f5ec8bfca8932ebcb21d",
+      "sourceId": "bsb_usj/LUK.usj#content/220",
+      "oldRanges": [
+        {
+          "start": "LUK.4.13",
+          "end": "LUK.4.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.4.14",
+          "end": "LUK.4.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "aa1d5dff4191e3c97c6ed3de",
+      "sourceId": "bsb_usj/LUK.usj#content/223",
+      "oldRanges": [
+        {
+          "start": "LUK.4.15",
+          "end": "LUK.4.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.4.16",
+          "end": "LUK.4.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ff1b71e8c892f6297f1f8ec6",
+      "sourceId": "bsb_usj/LUK.usj#content/260",
+      "oldRanges": [
+        {
+          "start": "LUK.5.11",
+          "end": "LUK.5.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.5.12",
+          "end": "LUK.5.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a954c63aa36e078831e7a95e",
+      "sourceId": "bsb_usj/LUK.usj#content/305",
+      "oldRanges": [
+        {
+          "start": "LUK.6.19",
+          "end": "LUK.6.19"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.6.20",
+          "end": "LUK.6.20"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "655c300683a9e9f012b2e91d",
+      "sourceId": "bsb_usj/LUK.usj#content/315",
+      "oldRanges": [
+        {
+          "start": "LUK.6.23",
+          "end": "LUK.6.23"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.6.24",
+          "end": "LUK.6.24"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "93f43033e884092008099b64",
+      "sourceId": "bsb_usj/LUK.usj#content/357",
+      "oldRanges": [
+        {
+          "start": "LUK.7.23",
+          "end": "LUK.7.23"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.7.24",
+          "end": "LUK.7.24"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "11233b4b7156bc33247a80ce",
+      "sourceId": "bsb_usj/LUK.usj#content/410",
+      "oldRanges": [
+        {
+          "start": "LUK.8.21",
+          "end": "LUK.8.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.8.22",
+          "end": "LUK.8.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "220a8f94b4a4ed75e11356a0",
+      "sourceId": "bsb_usj/LUK.usj#content/572",
+      "oldRanges": [
+        {
+          "start": "LUK.11.28",
+          "end": "LUK.11.28"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.11.29",
+          "end": "LUK.11.29"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a8b84401f4eecc5ddb9adc19",
+      "sourceId": "bsb_usj/LUK.usj#content/627",
+      "oldRanges": [
+        {
+          "start": "LUK.12.48",
+          "end": "LUK.12.48"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.12.49",
+          "end": "LUK.12.49"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "8ffeaccfcc3dee38e057f331",
+      "sourceId": "bsb_usj/LUK.usj#content/641",
+      "oldRanges": [
+        {
+          "start": "LUK.13.5",
+          "end": "LUK.13.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.13.6",
+          "end": "LUK.13.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f0611c102ae46135b6d162be",
+      "sourceId": "bsb_usj/LUK.usj#content/706",
+      "oldRanges": [
+        {
+          "start": "LUK.15.10",
+          "end": "LUK.15.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.15.11",
+          "end": "LUK.15.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fd88179bf627d664f7158d3f",
+      "sourceId": "bsb_usj/LUK.usj#content/757",
+      "oldRanges": [
+        {
+          "start": "LUK.17.10",
+          "end": "LUK.17.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.17.11",
+          "end": "LUK.17.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2bb8d2fda0c984a82f1e8402",
+      "sourceId": "bsb_usj/LUK.usj#content/764",
+      "oldRanges": [
+        {
+          "start": "LUK.17.19",
+          "end": "LUK.17.19"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.17.20",
+          "end": "LUK.17.20"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ec0f3e2c3e96b31101978b60",
+      "sourceId": "bsb_usj/LUK.usj#content/832",
+      "oldRanges": [
+        {
+          "start": "LUK.19.27",
+          "end": "LUK.19.27"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.19.28",
+          "end": "LUK.19.28"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e12400349bbe93a2c396890f",
+      "sourceId": "bsb_usj/LUK.usj#content/845",
+      "oldRanges": [
+        {
+          "start": "LUK.19.40",
+          "end": "LUK.19.40"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.19.41",
+          "end": "LUK.19.41"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ceea3a78d2069fe66d6778ff",
+      "sourceId": "bsb_usj/LUK.usj#content/983",
+      "oldRanges": [
+        {
+          "start": "LUK.22.62",
+          "end": "LUK.22.62"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.22.63",
+          "end": "LUK.22.63"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c55954f5785057391a280ef0",
+      "sourceId": "bsb_usj/LUK.usj#content/1013",
+      "oldRanges": [
+        {
+          "start": "LUK.23.25",
+          "end": "LUK.23.25"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.23.26",
+          "end": "LUK.23.26"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "88fe6610019d3ca2afb036b0",
+      "sourceId": "bsb_usj/LUK.usj#content/1031",
+      "oldRanges": [
+        {
+          "start": "LUK.23.43",
+          "end": "LUK.23.43"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.23.44",
+          "end": "LUK.23.44"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "138aa2affe608f32941ce998",
+      "sourceId": "bsb_usj/LUK.usj#content/1036",
+      "oldRanges": [
+        {
+          "start": "LUK.23.49",
+          "end": "LUK.23.49"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LUK.23.50",
+          "end": "LUK.23.50"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "cbeedbf0ad778ac5ef06954e",
+      "sourceId": "bsb_usj/JHN.usj#content/15",
+      "oldRanges": [
+        {
+          "start": "JHN.1.13",
+          "end": "JHN.1.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.1.14",
+          "end": "JHN.1.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fa6ecbb33563944a1bc50405",
+      "sourceId": "bsb_usj/JHN.usj#content/20",
+      "oldRanges": [
+        {
+          "start": "JHN.1.18",
+          "end": "JHN.1.18"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.1.19",
+          "end": "JHN.1.19"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "9160af64cfce55dbf996ad4e",
+      "sourceId": "bsb_usj/JHN.usj#content/397",
+      "oldRanges": [
+        {
+          "start": "JHN.12.11",
+          "end": "JHN.12.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.12.12",
+          "end": "JHN.12.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f3c3fc80babb461edbbdda7c",
+      "sourceId": "bsb_usj/JHN.usj#content/452",
+      "oldRanges": [
+        {
+          "start": "JHN.13.17",
+          "end": "JHN.13.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.13.18",
+          "end": "JHN.13.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "62608a0ffdf599638697815f",
+      "sourceId": "bsb_usj/JHN.usj#content/603",
+      "oldRanges": [
+        {
+          "start": "JHN.19.15",
+          "end": "JHN.19.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.19.16",
+          "end": "JHN.19.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "85038310711e3a8c9b0acbaf",
+      "sourceId": "bsb_usj/JHN.usj#content/618",
+      "oldRanges": [
+        {
+          "start": "JHN.19.27",
+          "end": "JHN.19.27"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.19.28",
+          "end": "JHN.19.28"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3d9d85b566f697594857caa8",
+      "sourceId": "bsb_usj/JHN.usj#content/621",
+      "oldRanges": [
+        {
+          "start": "JHN.19.30",
+          "end": "JHN.19.30"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.19.31",
+          "end": "JHN.19.31"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3a2d92fda379186e1d44b722",
+      "sourceId": "bsb_usj/JHN.usj#content/626",
+      "oldRanges": [
+        {
+          "start": "JHN.19.37",
+          "end": "JHN.19.37"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JHN.19.38",
+          "end": "JHN.19.38"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "87865e08ee38fb9b83bcb698",
+      "sourceId": "bsb_usj/ACT.usj#content/40",
+      "oldRanges": [
+        {
+          "start": "ACT.2.13",
+          "end": "ACT.2.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.2.14",
+          "end": "ACT.2.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "22e819a95941aa158d56968c",
+      "sourceId": "bsb_usj/ACT.usj#content/40",
+      "oldRanges": [
+        {
+          "start": "ACT.2.13",
+          "end": "ACT.2.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.2.14",
+          "end": "ACT.2.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "85b9213375178dfbfec04d07",
+      "sourceId": "bsb_usj/ACT.usj#content/94",
+      "oldRanges": [
+        {
+          "start": "ACT.3.10",
+          "end": "ACT.3.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.3.11",
+          "end": "ACT.3.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5dc92ec4056e02d0cafa4a97",
+      "sourceId": "bsb_usj/ACT.usj#content/116",
+      "oldRanges": [
+        {
+          "start": "ACT.4.22",
+          "end": "ACT.4.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.4.23",
+          "end": "ACT.4.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "444436774da7238e57104f78",
+      "sourceId": "bsb_usj/ACT.usj#content/178",
+      "oldRanges": [
+        {
+          "start": "ACT.7.8",
+          "end": "ACT.7.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.9",
+          "end": "ACT.7.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fb1e76926149bb804cd94207",
+      "sourceId": "bsb_usj/ACT.usj#content/182",
+      "oldRanges": [
+        {
+          "start": "ACT.7.14",
+          "end": "ACT.7.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.15",
+          "end": "ACT.7.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2ce047465b6a7d76f77e5ca7",
+      "sourceId": "bsb_usj/ACT.usj#content/186",
+      "oldRanges": [
+        {
+          "start": "ACT.7.19",
+          "end": "ACT.7.19"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.20",
+          "end": "ACT.7.20"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7d77b7c4a980677ae6d7c82d",
+      "sourceId": "bsb_usj/ACT.usj#content/189",
+      "oldRanges": [
+        {
+          "start": "ACT.7.22",
+          "end": "ACT.7.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.23",
+          "end": "ACT.7.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d37b61310d0371a614527a81",
+      "sourceId": "bsb_usj/ACT.usj#content/194",
+      "oldRanges": [
+        {
+          "start": "ACT.7.29",
+          "end": "ACT.7.29"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.30",
+          "end": "ACT.7.30"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f450b5ba91fa663964b45f5c",
+      "sourceId": "bsb_usj/ACT.usj#content/200",
+      "oldRanges": [
+        {
+          "start": "ACT.7.38",
+          "end": "ACT.7.38"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.39",
+          "end": "ACT.7.39"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d13600bc2434d345bb1da777",
+      "sourceId": "bsb_usj/ACT.usj#content/200",
+      "oldRanges": [
+        {
+          "start": "ACT.7.38",
+          "end": "ACT.7.38"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.39",
+          "end": "ACT.7.39"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "50b17a3ed8f6c951a9955710",
+      "sourceId": "bsb_usj/ACT.usj#content/200",
+      "oldRanges": [
+        {
+          "start": "ACT.7.38",
+          "end": "ACT.7.38"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.39",
+          "end": "ACT.7.39"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ed3b7204ff561cae8325c9c3",
+      "sourceId": "bsb_usj/ACT.usj#content/212",
+      "oldRanges": [
+        {
+          "start": "ACT.7.43",
+          "end": "ACT.7.43"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.7.44",
+          "end": "ACT.7.44"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "103ae5471a8d8d00dda495d1",
+      "sourceId": "bsb_usj/ACT.usj#content/233",
+      "oldRanges": [
+        {
+          "start": "ACT.8.8",
+          "end": "ACT.8.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.8.9",
+          "end": "ACT.8.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ec0a9a8d69bd61077f40e33e",
+      "sourceId": "bsb_usj/ACT.usj#content/242",
+      "oldRanges": [
+        {
+          "start": "ACT.8.25",
+          "end": "ACT.8.25"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.8.26",
+          "end": "ACT.8.26"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f4b4a959ea06ce7d03ad53aa",
+      "sourceId": "bsb_usj/ACT.usj#content/300",
+      "oldRanges": [
+        {
+          "start": "ACT.10.8",
+          "end": "ACT.10.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.10.9",
+          "end": "ACT.10.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a775400dc6ef47ddc1889a7d",
+      "sourceId": "bsb_usj/ACT.usj#content/300",
+      "oldRanges": [
+        {
+          "start": "ACT.10.8",
+          "end": "ACT.10.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.10.9",
+          "end": "ACT.10.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2560cb335f4056bda0f39a95",
+      "sourceId": "bsb_usj/ACT.usj#content/393",
+      "oldRanges": [
+        {
+          "start": "ACT.13.41",
+          "end": "ACT.13.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.13.42",
+          "end": "ACT.13.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f248b4580abe114983dbeec7",
+      "sourceId": "bsb_usj/ACT.usj#content/422",
+      "oldRanges": [
+        {
+          "start": "ACT.15.4",
+          "end": "ACT.15.4"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.15.5",
+          "end": "ACT.15.5"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c564dbf101690917096df1cf",
+      "sourceId": "bsb_usj/ACT.usj#content/553",
+      "oldRanges": [
+        {
+          "start": "ACT.20.6",
+          "end": "ACT.20.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.20.7",
+          "end": "ACT.20.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ee8772a05c7c92f047f72b17",
+      "sourceId": "bsb_usj/ACT.usj#content/712",
+      "oldRanges": [
+        {
+          "start": "ACT.27.12",
+          "end": "ACT.27.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.27.13",
+          "end": "ACT.27.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "34388bff042ba9e79112d2fd",
+      "sourceId": "bsb_usj/ACT.usj#content/735",
+      "oldRanges": [
+        {
+          "start": "ACT.28.15",
+          "end": "ACT.28.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ACT.28.16",
+          "end": "ACT.28.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d933a24771f89ef3d1ff9ae8",
+      "sourceId": "bsb_usj/ROM.usj#content/45",
+      "oldRanges": [
+        {
+          "start": "ROM.3.8",
+          "end": "ROM.3.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.3.9",
+          "end": "ROM.3.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2716447005518dea9f5fa186",
+      "sourceId": "bsb_usj/ROM.usj#content/45",
+      "oldRanges": [
+        {
+          "start": "ROM.3.8",
+          "end": "ROM.3.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.3.9",
+          "end": "ROM.3.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ababddecc07b585bbe9c35a0",
+      "sourceId": "bsb_usj/ROM.usj#content/45",
+      "oldRanges": [
+        {
+          "start": "ROM.3.8",
+          "end": "ROM.3.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.3.9",
+          "end": "ROM.3.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "da78f7ed8e1081bf18bf7dcc",
+      "sourceId": "bsb_usj/ROM.usj#content/87",
+      "oldRanges": [
+        {
+          "start": "ROM.4.12",
+          "end": "ROM.4.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.4.13",
+          "end": "ROM.4.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d1c89a426a19b88fcda38091",
+      "sourceId": "bsb_usj/ROM.usj#content/101",
+      "oldRanges": [
+        {
+          "start": "ROM.5.11",
+          "end": "ROM.5.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.5.12",
+          "end": "ROM.5.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c228794d5c8d2497cd983ae0",
+      "sourceId": "bsb_usj/ROM.usj#content/152",
+      "oldRanges": [
+        {
+          "start": "ROM.8.34",
+          "end": "ROM.8.34"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.8.35",
+          "end": "ROM.8.35"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ef778d3723e3ba8b4460b2ad",
+      "sourceId": "bsb_usj/ROM.usj#content/162",
+      "oldRanges": [
+        {
+          "start": "ROM.9.5",
+          "end": "ROM.9.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.9.6",
+          "end": "ROM.9.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "513ead86adc9c727de9cafba",
+      "sourceId": "bsb_usj/ROM.usj#content/162",
+      "oldRanges": [
+        {
+          "start": "ROM.9.5",
+          "end": "ROM.9.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.9.6",
+          "end": "ROM.9.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0a9c69cf1559e3795f7f43a3",
+      "sourceId": "bsb_usj/ROM.usj#content/257",
+      "oldRanges": [
+        {
+          "start": "ROM.11.32",
+          "end": "ROM.11.32"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.11.33",
+          "end": "ROM.11.33"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f639c8ff9b24163d43943788",
+      "sourceId": "bsb_usj/ROM.usj#content/299",
+      "oldRanges": [
+        {
+          "start": "ROM.13.7",
+          "end": "ROM.13.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.13.8",
+          "end": "ROM.13.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "698adea029e32ecf1c630bd2",
+      "sourceId": "bsb_usj/ROM.usj#content/317",
+      "oldRanges": [
+        {
+          "start": "ROM.14.12",
+          "end": "ROM.14.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ROM.14.13",
+          "end": "ROM.14.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4a861f912e5cb9e1275dada8",
+      "sourceId": "bsb_usj/1CO.usj#content/18",
+      "oldRanges": [
+        {
+          "start": "1CO.1.9",
+          "end": "1CO.1.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1CO.1.10",
+          "end": "1CO.1.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "43674d0ecd5a99e7bee27573",
+      "sourceId": "bsb_usj/1CO.usj#content/52",
+      "oldRanges": [
+        {
+          "start": "1CO.3.9",
+          "end": "1CO.3.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1CO.3.10",
+          "end": "1CO.3.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "dad406ef4117819c8ec8b7c2",
+      "sourceId": "bsb_usj/1CO.usj#content/143",
+      "oldRanges": [
+        {
+          "start": "1CO.10.13",
+          "end": "1CO.10.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1CO.10.14",
+          "end": "1CO.10.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "010c87c30a5d9ed5818344b9",
+      "sourceId": "bsb_usj/1CO.usj#content/235",
+      "oldRanges": [
+        {
+          "start": "1CO.15.49",
+          "end": "1CO.15.49"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1CO.15.50",
+          "end": "1CO.15.50"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4c1b807ea8ee0c32a3281479",
+      "sourceId": "bsb_usj/2CO.usj#content/37",
+      "oldRanges": [
+        {
+          "start": "2CO.3.6",
+          "end": "2CO.3.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2CO.3.7",
+          "end": "2CO.3.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6c60c97c720419acba0efd2c",
+      "sourceId": "bsb_usj/GAL.usj#content/62",
+      "oldRanges": [
+        {
+          "start": "GAL.4.20",
+          "end": "GAL.4.20"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GAL.4.21",
+          "end": "GAL.4.21"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "1c5274d7298e92353e97cf5f",
+      "sourceId": "bsb_usj/GAL.usj#content/83",
+      "oldRanges": [
+        {
+          "start": "GAL.5.15",
+          "end": "GAL.5.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GAL.5.16",
+          "end": "GAL.5.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7c888fbf39c3267c70d0be33",
+      "sourceId": "bsb_usj/EPH.usj#content/36",
+      "oldRanges": [
+        {
+          "start": "EPH.2.18",
+          "end": "EPH.2.18"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EPH.2.19",
+          "end": "EPH.2.19"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "847159986f482e7a9099e1db",
+      "sourceId": "bsb_usj/EPH.usj#content/84",
+      "oldRanges": [
+        {
+          "start": "EPH.5.20",
+          "end": "EPH.5.20"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EPH.5.21",
+          "end": "EPH.5.21"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2b36d8dc1faafd61100790a4",
+      "sourceId": "bsb_usj/PHP.usj#content/34",
+      "oldRanges": [
+        {
+          "start": "PHP.2.4",
+          "end": "PHP.2.4"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "PHP.2.5",
+          "end": "PHP.2.5"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c43fce3a0fa2fa79a44316a5",
+      "sourceId": "bsb_usj/1TI.usj#content/65",
+      "oldRanges": [
+        {
+          "start": "1TI.5.2",
+          "end": "1TI.5.2"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1TI.5.3",
+          "end": "1TI.5.3"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "151d9afe3724e6cb046c3032",
+      "sourceId": "bsb_usj/1TI.usj#content/94",
+      "oldRanges": [
+        {
+          "start": "1TI.6.16",
+          "end": "1TI.6.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1TI.6.17",
+          "end": "1TI.6.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0e9b91ef9a0c89166a33d6a2",
+      "sourceId": "bsb_usj/HEB.usj#content/80",
+      "oldRanges": [
+        {
+          "start": "HEB.3.6",
+          "end": "HEB.3.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.3.7",
+          "end": "HEB.3.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5ca1e014994a1b79a3ea78da",
+      "sourceId": "bsb_usj/HEB.usj#content/172",
+      "oldRanges": [
+        {
+          "start": "HEB.8.5",
+          "end": "HEB.8.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.8.6",
+          "end": "HEB.8.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c6251351e1ab3b8bf00b8787",
+      "sourceId": "bsb_usj/HEB.usj#content/262",
+      "oldRanges": [
+        {
+          "start": "HEB.11.3",
+          "end": "HEB.11.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.11.4",
+          "end": "HEB.11.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "234e7e9a987e8d1327c15176",
+      "sourceId": "bsb_usj/HEB.usj#content/268",
+      "oldRanges": [
+        {
+          "start": "HEB.11.7",
+          "end": "HEB.11.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.11.8",
+          "end": "HEB.11.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "060fe1215495cdd85d2d87b0",
+      "sourceId": "bsb_usj/HEB.usj#content/275",
+      "oldRanges": [
+        {
+          "start": "HEB.11.19",
+          "end": "HEB.11.19"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.11.20",
+          "end": "HEB.11.20"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b20fc848a4317333c6b697e9",
+      "sourceId": "bsb_usj/HEB.usj#content/280",
+      "oldRanges": [
+        {
+          "start": "HEB.11.22",
+          "end": "HEB.11.22"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.11.23",
+          "end": "HEB.11.23"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "748ce7e28a8bc1dd8d8024d5",
+      "sourceId": "bsb_usj/HEB.usj#content/311",
+      "oldRanges": [
+        {
+          "start": "HEB.12.17",
+          "end": "HEB.12.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.12.18",
+          "end": "HEB.12.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "817f4fcff2f3b6c684c62385",
+      "sourceId": "bsb_usj/HEB.usj#content/311",
+      "oldRanges": [
+        {
+          "start": "HEB.12.17",
+          "end": "HEB.12.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HEB.12.18",
+          "end": "HEB.12.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "39e2407f313dfaadd587bed7",
+      "sourceId": "bsb_usj/JAS.usj#content/62",
+      "oldRanges": [
+        {
+          "start": "JAS.4.12",
+          "end": "JAS.4.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JAS.4.13",
+          "end": "JAS.4.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e98c57d7a9db945175c8514f",
+      "sourceId": "bsb_usj/JAS.usj#content/72",
+      "oldRanges": [
+        {
+          "start": "JAS.5.6",
+          "end": "JAS.5.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JAS.5.7",
+          "end": "JAS.5.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "afe44e8c3d177d913e8c20cf",
+      "sourceId": "bsb_usj/1PE.usj#content/25",
+      "oldRanges": [
+        {
+          "start": "1PE.1.21",
+          "end": "1PE.1.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1PE.1.22",
+          "end": "1PE.1.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fcef3f21952fe1aee35aa333",
+      "sourceId": "bsb_usj/1PE.usj#content/60",
+      "oldRanges": [
+        {
+          "start": "1PE.2.20",
+          "end": "1PE.2.20"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "1PE.2.21",
+          "end": "1PE.2.21"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2fd983edc8b459b1d7376814",
+      "sourceId": "bsb_usj/2PE.usj#content/40",
+      "oldRanges": [
+        {
+          "start": "2PE.3.7",
+          "end": "2PE.3.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2PE.3.8",
+          "end": "2PE.3.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6b58f73491123b45d5277c0c",
+      "sourceId": "bsb_usj/2PE.usj#content/40",
+      "oldRanges": [
+        {
+          "start": "2PE.3.7",
+          "end": "2PE.3.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2PE.3.8",
+          "end": "2PE.3.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4b9949d3c6d9daaf4f6419a7",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/169",
+      "oldRanges": [
+        {
+          "start": "GEN.5.17",
+          "end": "GEN.5.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.5.18",
+          "end": "GEN.5.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "0ff5fcc9e7ab7dccf71a787d",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/189",
+      "oldRanges": [
+        {
+          "start": "GEN.6.12",
+          "end": "GEN.6.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.6.13",
+          "end": "GEN.6.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7e8ec34ed80c9cd1821e0983",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/367",
+      "oldRanges": [
+        {
+          "start": "GEN.14.16",
+          "end": "GEN.14.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.14.17",
+          "end": "GEN.14.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "00d62acd1a6e5921bae517c6",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/391",
+      "oldRanges": [
+        {
+          "start": "GEN.15.7",
+          "end": "GEN.15.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.15.8",
+          "end": "GEN.15.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "16bbed8878ad0cd152621d45",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/487",
+      "oldRanges": [
+        {
+          "start": "GEN.19.23",
+          "end": "GEN.19.23"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.19.24",
+          "end": "GEN.19.24"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "57b052a8c72a18d36cd5f047",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/517",
+      "oldRanges": [
+        {
+          "start": "GEN.21.8",
+          "end": "GEN.21.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.21.9",
+          "end": "GEN.21.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4c261554bb27e1c02fe11b79",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/634",
+      "oldRanges": [
+        {
+          "start": "GEN.25.18",
+          "end": "GEN.25.18"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.25.19",
+          "end": "GEN.25.19"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4b7e2dcbf5ebe63bb48c1f7f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!GEN.usj#content/977",
+      "oldRanges": [
+        {
+          "start": "GEN.37.11",
+          "end": "GEN.37.11"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "GEN.37.12",
+          "end": "GEN.37.12"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7ad89fa01871c442a539ce6f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/18",
+      "oldRanges": [
+        {
+          "start": "EXO.1.7",
+          "end": "EXO.1.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.1.8",
+          "end": "EXO.1.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "67d2cabb9a502c968eb75474",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/38",
+      "oldRanges": [
+        {
+          "start": "EXO.2.10",
+          "end": "EXO.2.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.2.11",
+          "end": "EXO.2.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b184e94fdaa743950d865a60",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/409",
+      "oldRanges": [
+        {
+          "start": "EXO.16.21",
+          "end": "EXO.16.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.16.22",
+          "end": "EXO.16.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7ab85036cfecd291a7b33dcd",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/489",
+      "oldRanges": [
+        {
+          "start": "EXO.20.17",
+          "end": "EXO.20.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.20.18",
+          "end": "EXO.20.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4ef7dcf4cb8e41f691a5eb74",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/493",
+      "oldRanges": [
+        {
+          "start": "EXO.20.21",
+          "end": "EXO.20.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.20.22",
+          "end": "EXO.20.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "9f86fc08509eb91d34d977de",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EXO.usj#content/832",
+      "oldRanges": [
+        {
+          "start": "EXO.34.9",
+          "end": "EXO.34.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EXO.34.10",
+          "end": "EXO.34.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ac15d1c6ddddd474e7266749",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!LEV.usj#content/334",
+      "oldRanges": [
+        {
+          "start": "LEV.19.8",
+          "end": "LEV.19.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.19.9",
+          "end": "LEV.19.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "52f25c636b8e35ef69cf99a3",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!LEV.usj#content/369",
+      "oldRanges": [
+        {
+          "start": "LEV.20.9",
+          "end": "LEV.20.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.20.10",
+          "end": "LEV.20.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e5ca26cb22e3fc2957dc71ba",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!LEV.usj#content/428",
+      "oldRanges": [
+        {
+          "start": "LEV.23.14",
+          "end": "LEV.23.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.23.15",
+          "end": "LEV.23.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6dad9f8a27f9e30548cd2616",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!LEV.usj#content/466",
+      "oldRanges": [
+        {
+          "start": "LEV.24.16",
+          "end": "LEV.24.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "LEV.24.17",
+          "end": "LEV.24.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "63a79408196d53ab223dd629",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!NUM.usj#content/148",
+      "oldRanges": [
+        {
+          "start": "NUM.5.4",
+          "end": "NUM.5.4"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "NUM.5.5",
+          "end": "NUM.5.5"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b090f62656a7af709bc91e7a",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!NUM.usj#content/407",
+      "oldRanges": [
+        {
+          "start": "NUM.16.40",
+          "end": "NUM.16.40"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "NUM.16.41",
+          "end": "NUM.16.41"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6591196b6e611413cbcb227f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/134",
+      "oldRanges": [
+        {
+          "start": "DEU.5.21",
+          "end": "DEU.5.21"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.5.22",
+          "end": "DEU.5.22"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "32df72a87e80ec986de1f344",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/183",
+      "oldRanges": [
+        {
+          "start": "DEU.9.6",
+          "end": "DEU.9.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.9.7",
+          "end": "DEU.9.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3092121b045466431388fc4f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/296",
+      "oldRanges": [
+        {
+          "start": "DEU.15.6",
+          "end": "DEU.15.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.15.7",
+          "end": "DEU.15.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "c9caaa4b94384d0a8fff26a6",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/355",
+      "oldRanges": [
+        {
+          "start": "DEU.18.8",
+          "end": "DEU.18.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.18.9",
+          "end": "DEU.18.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7aaf3163ab900ec3c5094dc3",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/359",
+      "oldRanges": [
+        {
+          "start": "DEU.18.14",
+          "end": "DEU.18.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.18.15",
+          "end": "DEU.18.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "adcb63d3d75479c39fc7c35a",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/374",
+      "oldRanges": [
+        {
+          "start": "DEU.19.14",
+          "end": "DEU.19.14"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.19.15",
+          "end": "DEU.19.15"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ede44f5ca4cb50b394635630",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!DEU.usj#content/400",
+      "oldRanges": [
+        {
+          "start": "DEU.21.17",
+          "end": "DEU.21.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "DEU.21.18",
+          "end": "DEU.21.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f9951a35286f4dacc8bdb713",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!RUT.usj#content/91",
+      "oldRanges": [
+        {
+          "start": "RUT.4.17",
+          "end": "RUT.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "RUT.4.18",
+          "end": "RUT.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "63a951f30e8e036e636008db",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!RUT.usj#content/91",
+      "oldRanges": [
+        {
+          "start": "RUT.4.17",
+          "end": "RUT.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "RUT.4.18",
+          "end": "RUT.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "7ced50e49c1ccd32f32e2179",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!2KI.usj#content/103",
+      "oldRanges": [
+        {
+          "start": "2KI.4.7",
+          "end": "2KI.4.7"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.8",
+          "end": "2KI.4.8"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6ef1627305a953aa2e8067d7",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!2KI.usj#content/116",
+      "oldRanges": [
+        {
+          "start": "2KI.4.17",
+          "end": "2KI.4.17"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.18",
+          "end": "2KI.4.18"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "e4d4d9996f18a255e72da195",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!2KI.usj#content/143",
+      "oldRanges": [
+        {
+          "start": "2KI.4.41",
+          "end": "2KI.4.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.42",
+          "end": "2KI.4.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "8df03303b09def0578eb397d",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!2KI.usj#content/143",
+      "oldRanges": [
+        {
+          "start": "2KI.4.41",
+          "end": "2KI.4.41"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "2KI.4.42",
+          "end": "2KI.4.42"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "64b01d9e89d34779cc025731",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/567",
+      "oldRanges": [
+        {
+          "start": "ISA.7.9",
+          "end": "ISA.7.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.7.10",
+          "end": "ISA.7.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "188e4a24cafef205bd5bee8b",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/1939",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6905ec0b74e6dc15d07cef4b",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/1939",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "69966a6ecc6d4970839cdb33",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/1939",
+      "oldRanges": [
+        {
+          "start": "ISA.28.13",
+          "end": "ISA.28.13"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.28.14",
+          "end": "ISA.28.14"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "8420d5d81cb99bcb9a69c0fe",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/2746",
+      "oldRanges": [
+        {
+          "start": "ISA.40.5",
+          "end": "ISA.40.5"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.40.6",
+          "end": "ISA.40.6"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a443912c79c0879a88df6112",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/2757",
+      "oldRanges": [
+        {
+          "start": "ISA.40.8",
+          "end": "ISA.40.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.40.9",
+          "end": "ISA.40.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "72139ec2e846ee544f6c7b28",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/3825",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "57b712c3965a663061db65d0",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/3825",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "6b0ce06d58b9def6989c49ac",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/3825",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "97be309dc9b7926f493c8751",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/3825",
+      "oldRanges": [
+        {
+          "start": "ISA.50.3",
+          "end": "ISA.50.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.50.4",
+          "end": "ISA.50.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ffae39b3a931762d8d139b72",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4038",
+      "oldRanges": [
+        {
+          "start": "ISA.52.12",
+          "end": "ISA.52.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.52.13",
+          "end": "ISA.52.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "f609ac89c0d60ecf24521b72",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4085",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2523a98632b41eb2ba305cf3",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4085",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2f64801fb537c3644484697c",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4085",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "9e8202f327abe54faaf74099",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4085",
+      "oldRanges": [
+        {
+          "start": "ISA.53.8",
+          "end": "ISA.53.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.53.9",
+          "end": "ISA.53.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4112a8125fd59c68b31b2695",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ISA.usj#content/4981",
+      "oldRanges": [
+        {
+          "start": "ISA.65.16",
+          "end": "ISA.65.16"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ISA.65.17",
+          "end": "ISA.65.17"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fad822b46a25d3c889b74724",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!JER.usj#content/2179",
+      "oldRanges": [
+        {
+          "start": "JER.31.25",
+          "end": "JER.31.25"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JER.31.26",
+          "end": "JER.31.26"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "17919f01e627e432d3fb67a3",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EZK.usj#content/1425",
+      "oldRanges": [
+        {
+          "start": "EZK.34.10",
+          "end": "EZK.34.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.34.11",
+          "end": "EZK.34.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "4d819fb21470be317dfbb317",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EZK.usj#content/1463",
+      "oldRanges": [
+        {
+          "start": "EZK.36.15",
+          "end": "EZK.36.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.36.16",
+          "end": "EZK.36.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "39485979c4d4789cbe1b757f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!EZK.usj#content/1463",
+      "oldRanges": [
+        {
+          "start": "EZK.36.15",
+          "end": "EZK.36.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "EZK.36.16",
+          "end": "EZK.36.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "a656e5f62b0ebd42efa8f3a2",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!HOS.usj#content/731",
+      "oldRanges": [
+        {
+          "start": "HOS.13.8",
+          "end": "HOS.13.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "HOS.13.9",
+          "end": "HOS.13.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d0b4f2078bb1542e082dc09b",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!JOL.usj#content/57",
+      "oldRanges": [
+        {
+          "start": "JOL.1.12",
+          "end": "JOL.1.12"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JOL.1.13",
+          "end": "JOL.1.13"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "b93caf410539f3c148de23cb",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!JOL.usj#content/230",
+      "oldRanges": [
+        {
+          "start": "JOL.2.27",
+          "end": "JOL.2.27"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JOL.2.28",
+          "end": "JOL.2.28"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "bdef50cc5b6e2c23c18db567",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!AMO.usj#content/289",
+      "oldRanges": [
+        {
+          "start": "AMO.5.3",
+          "end": "AMO.5.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.5.4",
+          "end": "AMO.5.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "ff4a2bc3a7256853f6fc0227",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!AMO.usj#content/340",
+      "oldRanges": [
+        {
+          "start": "AMO.5.15",
+          "end": "AMO.5.15"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.5.16",
+          "end": "AMO.5.16"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "988f4e203f063f11ff1b2cf7",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!AMO.usj#content/582",
+      "oldRanges": [
+        {
+          "start": "AMO.9.10",
+          "end": "AMO.9.10"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "AMO.9.11",
+          "end": "AMO.9.11"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "2378bb7f462f1201f3db3a3c",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!JON.usj#content/12",
+      "oldRanges": [
+        {
+          "start": "JON.1.3",
+          "end": "JON.1.3"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "JON.1.4",
+          "end": "JON.1.4"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d8c286bda65510dc2960766d",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEP.usj#content/34",
+      "oldRanges": [
+        {
+          "start": "ZEP.1.6",
+          "end": "ZEP.1.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEP.1.7",
+          "end": "ZEP.1.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "5be73c1d3eab59ba44aeba86",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEP.usj#content/34",
+      "oldRanges": [
+        {
+          "start": "ZEP.1.6",
+          "end": "ZEP.1.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEP.1.7",
+          "end": "ZEP.1.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "fc6b1125f7b065e360b5f9be",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/152",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "80fbca8c1c01ab8f55d6f34f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/152",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "25c6a3f81a4edac3b552a5b5",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/152",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3d58776eb24b0adfb78b7dae",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/152",
+      "oldRanges": [
+        {
+          "start": "ZEC.9.8",
+          "end": "ZEC.9.8"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.9.9",
+          "end": "ZEC.9.9"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "47c176f8c5ac891b5102cd47",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/274",
+      "oldRanges": [
+        {
+          "start": "ZEC.11.9",
+          "end": "ZEC.11.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.11.10",
+          "end": "ZEC.11.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "3fec786a19391622450d0fb5",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/299",
+      "oldRanges": [
+        {
+          "start": "ZEC.12.9",
+          "end": "ZEC.12.9"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.12.10",
+          "end": "ZEC.12.10"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "32532407a485cce96ca06008",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/308",
+      "oldRanges": [
+        {
+          "start": "ZEC.13.6",
+          "end": "ZEC.13.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.13.7",
+          "end": "ZEC.13.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    },
+    {
+      "id": "d9bbed0a2b69e5a75e6de49f",
+      "sourceId": "sources/msb/raw/MSB_usj-v5.9.zip!ZEC.usj#content/308",
+      "oldRanges": [
+        {
+          "start": "ZEC.13.6",
+          "end": "ZEC.13.6"
+        }
+      ],
+      "newRanges": [
+        {
+          "start": "ZEC.13.7",
+          "end": "ZEC.13.7"
+        }
+      ],
+      "reason": "Use explicit verse marker after heading; preceding carried whitespace text may retain previous verse anchor."
+    }
+  ]
+}

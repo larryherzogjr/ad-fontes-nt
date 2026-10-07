@@ -1,0 +1,881 @@
+{
+  "BSB": {
+    "artifacts": [
+      {
+        "path": "sources/bsb/raw/bsb_usj.zip",
+        "sha256": "53acad65d590f5bc8cded3e14b37b7b02916f6a365211bcf60ea733ecd800e8f",
+        "matchesManifest": true
+      },
+      {
+        "path": "sources/bsb/raw/bsb.txt",
+        "sha256": "2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96",
+        "matchesManifest": true
+      },
+      {
+        "path": "sources/bsb/evidence/terms.html",
+        "sha256": "0bfae948bf43b2e1ef5284556a1426668099c72ec1f4afc755877225b6ca231d",
+        "matchesManifest": true
+      },
+      {
+        "path": "sources/bsb/evidence/downloads.html",
+        "sha256": "80af4912253884e5b64f852b3c698428651eaba2619965999e848e105306fbca",
+        "matchesManifest": true
+      }
+    ],
+    "otInventory": [
+      {
+        "book": "Genesis",
+        "chapters": 50,
+        "verseRows": 1533
+      },
+      {
+        "book": "Exodus",
+        "chapters": 40,
+        "verseRows": 1213
+      },
+      {
+        "book": "Leviticus",
+        "chapters": 27,
+        "verseRows": 859
+      },
+      {
+        "book": "Numbers",
+        "chapters": 36,
+        "verseRows": 1288
+      },
+      {
+        "book": "Deuteronomy",
+        "chapters": 34,
+        "verseRows": 959
+      },
+      {
+        "book": "Joshua",
+        "chapters": 24,
+        "verseRows": 658
+      },
+      {
+        "book": "Judges",
+        "chapters": 21,
+        "verseRows": 618
+      },
+      {
+        "book": "Ruth",
+        "chapters": 4,
+        "verseRows": 85
+      },
+      {
+        "book": "1 Samuel",
+        "chapters": 31,
+        "verseRows": 810
+      },
+      {
+        "book": "2 Samuel",
+        "chapters": 24,
+        "verseRows": 695
+      },
+      {
+        "book": "1 Kings",
+        "chapters": 22,
+        "verseRows": 816
+      },
+      {
+        "book": "2 Kings",
+        "chapters": 25,
+        "verseRows": 719
+      },
+      {
+        "book": "1 Chronicles",
+        "chapters": 29,
+        "verseRows": 942
+      },
+      {
+        "book": "2 Chronicles",
+        "chapters": 36,
+        "verseRows": 822
+      },
+      {
+        "book": "Ezra",
+        "chapters": 10,
+        "verseRows": 280
+      },
+      {
+        "book": "Nehemiah",
+        "chapters": 13,
+        "verseRows": 406
+      },
+      {
+        "book": "Esther",
+        "chapters": 10,
+        "verseRows": 167
+      },
+      {
+        "book": "Job",
+        "chapters": 42,
+        "verseRows": 1070
+      },
+      {
+        "book": "Psalm",
+        "chapters": 150,
+        "verseRows": 2461
+      },
+      {
+        "book": "Proverbs",
+        "chapters": 31,
+        "verseRows": 915
+      },
+      {
+        "book": "Ecclesiastes",
+        "chapters": 12,
+        "verseRows": 222
+      },
+      {
+        "book": "Song of Solomon",
+        "chapters": 8,
+        "verseRows": 117
+      },
+      {
+        "book": "Isaiah",
+        "chapters": 66,
+        "verseRows": 1292
+      },
+      {
+        "book": "Jeremiah",
+        "chapters": 52,
+        "verseRows": 1364
+      },
+      {
+        "book": "Lamentations",
+        "chapters": 5,
+        "verseRows": 154
+      },
+      {
+        "book": "Ezekiel",
+        "chapters": 48,
+        "verseRows": 1273
+      },
+      {
+        "book": "Daniel",
+        "chapters": 12,
+        "verseRows": 357
+      },
+      {
+        "book": "Hosea",
+        "chapters": 14,
+        "verseRows": 197
+      },
+      {
+        "book": "Joel",
+        "chapters": 3,
+        "verseRows": 73
+      },
+      {
+        "book": "Amos",
+        "chapters": 9,
+        "verseRows": 146
+      },
+      {
+        "book": "Obadiah",
+        "chapters": 1,
+        "verseRows": 21
+      },
+      {
+        "book": "Jonah",
+        "chapters": 4,
+        "verseRows": 48
+      },
+      {
+        "book": "Micah",
+        "chapters": 7,
+        "verseRows": 105
+      },
+      {
+        "book": "Nahum",
+        "chapters": 3,
+        "verseRows": 47
+      },
+      {
+        "book": "Habakkuk",
+        "chapters": 3,
+        "verseRows": 56
+      },
+      {
+        "book": "Zephaniah",
+        "chapters": 3,
+        "verseRows": 53
+      },
+      {
+        "book": "Haggai",
+        "chapters": 2,
+        "verseRows": 38
+      },
+      {
+        "book": "Zechariah",
+        "chapters": 14,
+        "verseRows": 211
+      },
+      {
+        "book": "Malachi",
+        "chapters": 4,
+        "verseRows": 55
+      }
+    ],
+    "otBooks": 39,
+    "otChapters": 929,
+    "otVerseRows": 23145,
+    "emptyOtRows": 0,
+    "usjBookFiles": 66,
+    "duplicateOtAddresses": [],
+    "internalVerseNumberGaps": []
+  },
+  "BLB": {
+    "artifacts": [
+      {
+        "path": "sources/blb/raw/blb.txt",
+        "sha256": "4db24ae985c244ba83538f5e6e39ab7f3a1d027a6ffe8b1292e503f6dcd88054",
+        "matchesManifest": true
+      }
+    ],
+    "otInventory": [
+      {
+        "book": "Genesis",
+        "chapters": 50,
+        "verseRows": 1533
+      },
+      {
+        "book": "Exodus",
+        "chapters": 40,
+        "verseRows": 1213
+      },
+      {
+        "book": "Leviticus",
+        "chapters": 27,
+        "verseRows": 859
+      },
+      {
+        "book": "Numbers",
+        "chapters": 36,
+        "verseRows": 1288
+      },
+      {
+        "book": "Deuteronomy",
+        "chapters": 34,
+        "verseRows": 959
+      },
+      {
+        "book": "Joshua",
+        "chapters": 24,
+        "verseRows": 658
+      },
+      {
+        "book": "Judges",
+        "chapters": 21,
+        "verseRows": 618
+      },
+      {
+        "book": "Ruth",
+        "chapters": 4,
+        "verseRows": 85
+      },
+      {
+        "book": "1 Samuel",
+        "chapters": 31,
+        "verseRows": 810
+      },
+      {
+        "book": "2 Samuel",
+        "chapters": 24,
+        "verseRows": 695
+      },
+      {
+        "book": "1 Kings",
+        "chapters": 22,
+        "verseRows": 816
+      },
+      {
+        "book": "2 Kings",
+        "chapters": 25,
+        "verseRows": 719
+      },
+      {
+        "book": "1 Chronicles",
+        "chapters": 29,
+        "verseRows": 942
+      },
+      {
+        "book": "2 Chronicles",
+        "chapters": 36,
+        "verseRows": 822
+      },
+      {
+        "book": "Ezra",
+        "chapters": 10,
+        "verseRows": 280
+      },
+      {
+        "book": "Nehemiah",
+        "chapters": 13,
+        "verseRows": 406
+      },
+      {
+        "book": "Esther",
+        "chapters": 10,
+        "verseRows": 167
+      },
+      {
+        "book": "Job",
+        "chapters": 42,
+        "verseRows": 1070
+      },
+      {
+        "book": "Psalm",
+        "chapters": 150,
+        "verseRows": 2461
+      },
+      {
+        "book": "Proverbs",
+        "chapters": 31,
+        "verseRows": 915
+      },
+      {
+        "book": "Ecclesiastes",
+        "chapters": 12,
+        "verseRows": 222
+      },
+      {
+        "book": "Song of Solomon",
+        "chapters": 8,
+        "verseRows": 117
+      },
+      {
+        "book": "Isaiah",
+        "chapters": 66,
+        "verseRows": 1292
+      },
+      {
+        "book": "Jeremiah",
+        "chapters": 52,
+        "verseRows": 1364
+      },
+      {
+        "book": "Lamentations",
+        "chapters": 5,
+        "verseRows": 154
+      },
+      {
+        "book": "Ezekiel",
+        "chapters": 48,
+        "verseRows": 1273
+      },
+      {
+        "book": "Daniel",
+        "chapters": 12,
+        "verseRows": 357
+      },
+      {
+        "book": "Hosea",
+        "chapters": 14,
+        "verseRows": 197
+      },
+      {
+        "book": "Joel",
+        "chapters": 3,
+        "verseRows": 73
+      },
+      {
+        "book": "Amos",
+        "chapters": 9,
+        "verseRows": 146
+      },
+      {
+        "book": "Obadiah",
+        "chapters": 1,
+        "verseRows": 21
+      },
+      {
+        "book": "Jonah",
+        "chapters": 4,
+        "verseRows": 48
+      },
+      {
+        "book": "Micah",
+        "chapters": 7,
+        "verseRows": 105
+      },
+      {
+        "book": "Nahum",
+        "chapters": 3,
+        "verseRows": 47
+      },
+      {
+        "book": "Habakkuk",
+        "chapters": 3,
+        "verseRows": 56
+      },
+      {
+        "book": "Zephaniah",
+        "chapters": 3,
+        "verseRows": 53
+      },
+      {
+        "book": "Haggai",
+        "chapters": 2,
+        "verseRows": 38
+      },
+      {
+        "book": "Zechariah",
+        "chapters": 14,
+        "verseRows": 211
+      },
+      {
+        "book": "Malachi",
+        "chapters": 4,
+        "verseRows": 55
+      }
+    ],
+    "otBooks": 39,
+    "otChapters": 929,
+    "otVerseRows": 23145,
+    "emptyOtRows": 0,
+    "duplicateOtAddresses": [],
+    "internalVerseNumberGaps": []
+  },
+  "MSB": {
+    "artifacts": [
+      {
+        "path": "sources/msb/raw/msb.txt",
+        "sha256": "99ca452c23fb901a0f5a814b16d9a52fd61015e2e80987d9bf26dfb2ea850d24",
+        "matchesManifest": true
+      },
+      {
+        "path": "sources/msb/raw/MSB_usj-v5.9.zip",
+        "sha256": "6d4e603c08ac94e6bcfec6d074aff50cf5de9d45b439268b01ca38ede0476c8c",
+        "matchesManifest": true
+      }
+    ],
+    "otInventory": [
+      {
+        "book": "Genesis",
+        "chapters": 50,
+        "verseRows": 1533
+      },
+      {
+        "book": "Exodus",
+        "chapters": 40,
+        "verseRows": 1213
+      },
+      {
+        "book": "Leviticus",
+        "chapters": 27,
+        "verseRows": 859
+      },
+      {
+        "book": "Numbers",
+        "chapters": 36,
+        "verseRows": 1288
+      },
+      {
+        "book": "Deuteronomy",
+        "chapters": 34,
+        "verseRows": 959
+      },
+      {
+        "book": "Joshua",
+        "chapters": 24,
+        "verseRows": 658
+      },
+      {
+        "book": "Judges",
+        "chapters": 21,
+        "verseRows": 618
+      },
+      {
+        "book": "Ruth",
+        "chapters": 4,
+        "verseRows": 85
+      },
+      {
+        "book": "1 Samuel",
+        "chapters": 31,
+        "verseRows": 810
+      },
+      {
+        "book": "2 Samuel",
+        "chapters": 24,
+        "verseRows": 695
+      },
+      {
+        "book": "1 Kings",
+        "chapters": 22,
+        "verseRows": 816
+      },
+      {
+        "book": "2 Kings",
+        "chapters": 25,
+        "verseRows": 719
+      },
+      {
+        "book": "1 Chronicles",
+        "chapters": 29,
+        "verseRows": 942
+      },
+      {
+        "book": "2 Chronicles",
+        "chapters": 36,
+        "verseRows": 822
+      },
+      {
+        "book": "Ezra",
+        "chapters": 10,
+        "verseRows": 280
+      },
+      {
+        "book": "Nehemiah",
+        "chapters": 13,
+        "verseRows": 406
+      },
+      {
+        "book": "Esther",
+        "chapters": 10,
+        "verseRows": 167
+      },
+      {
+        "book": "Job",
+        "chapters": 42,
+        "verseRows": 1070
+      },
+      {
+        "book": "Psalm",
+        "chapters": 150,
+        "verseRows": 2461
+      },
+      {
+        "book": "Proverbs",
+        "chapters": 31,
+        "verseRows": 915
+      },
+      {
+        "book": "Ecclesiastes",
+        "chapters": 12,
+        "verseRows": 222
+      },
+      {
+        "book": "Song of Solomon",
+        "chapters": 8,
+        "verseRows": 117
+      },
+      {
+        "book": "Isaiah",
+        "chapters": 66,
+        "verseRows": 1292
+      },
+      {
+        "book": "Jeremiah",
+        "chapters": 52,
+        "verseRows": 1364
+      },
+      {
+        "book": "Lamentations",
+        "chapters": 5,
+        "verseRows": 154
+      },
+      {
+        "book": "Ezekiel",
+        "chapters": 48,
+        "verseRows": 1273
+      },
+      {
+        "book": "Daniel",
+        "chapters": 12,
+        "verseRows": 357
+      },
+      {
+        "book": "Hosea",
+        "chapters": 14,
+        "verseRows": 197
+      },
+      {
+        "book": "Joel",
+        "chapters": 3,
+        "verseRows": 73
+      },
+      {
+        "book": "Amos",
+        "chapters": 9,
+        "verseRows": 146
+      },
+      {
+        "book": "Obadiah",
+        "chapters": 1,
+        "verseRows": 21
+      },
+      {
+        "book": "Jonah",
+        "chapters": 4,
+        "verseRows": 48
+      },
+      {
+        "book": "Micah",
+        "chapters": 7,
+        "verseRows": 105
+      },
+      {
+        "book": "Nahum",
+        "chapters": 3,
+        "verseRows": 47
+      },
+      {
+        "book": "Habakkuk",
+        "chapters": 3,
+        "verseRows": 56
+      },
+      {
+        "book": "Zephaniah",
+        "chapters": 3,
+        "verseRows": 53
+      },
+      {
+        "book": "Haggai",
+        "chapters": 2,
+        "verseRows": 38
+      },
+      {
+        "book": "Zechariah",
+        "chapters": 14,
+        "verseRows": 211
+      },
+      {
+        "book": "Malachi",
+        "chapters": 4,
+        "verseRows": 55
+      }
+    ],
+    "otBooks": 39,
+    "otChapters": 929,
+    "otVerseRows": 23145,
+    "emptyOtRows": 0,
+    "usjBookFiles": 66,
+    "duplicateOtAddresses": [],
+    "internalVerseNumberGaps": []
+  },
+  "YLT": {
+    "artifacts": [
+      {
+        "path": "sources/ylt/raw/engylt_usfx.zip",
+        "sha256": "a19fd36a6c1b24ecaf249b0f874fc8123eb6ba6d3aaf24dffb7394fcf8bbecf7",
+        "matchesManifest": true
+      },
+      {
+        "path": "sources/ylt/raw/engylt_vpl.zip",
+        "sha256": "ba5028d525bc3e2723265b874345d1d78f4486f80b15ef8cfdc10b35fe999b5a",
+        "matchesManifest": true
+      }
+    ],
+    "otInventory": [
+      {
+        "book": "GEN",
+        "chapters": 50,
+        "verseRows": 1533
+      },
+      {
+        "book": "EXO",
+        "chapters": 40,
+        "verseRows": 1213
+      },
+      {
+        "book": "LEV",
+        "chapters": 27,
+        "verseRows": 859
+      },
+      {
+        "book": "NUM",
+        "chapters": 36,
+        "verseRows": 1288
+      },
+      {
+        "book": "DEU",
+        "chapters": 34,
+        "verseRows": 959
+      },
+      {
+        "book": "JOS",
+        "chapters": 24,
+        "verseRows": 658
+      },
+      {
+        "book": "JDG",
+        "chapters": 21,
+        "verseRows": 618
+      },
+      {
+        "book": "RUT",
+        "chapters": 4,
+        "verseRows": 85
+      },
+      {
+        "book": "1SA",
+        "chapters": 31,
+        "verseRows": 810
+      },
+      {
+        "book": "2SA",
+        "chapters": 24,
+        "verseRows": 695
+      },
+      {
+        "book": "1KI",
+        "chapters": 22,
+        "verseRows": 816
+      },
+      {
+        "book": "2KI",
+        "chapters": 25,
+        "verseRows": 719
+      },
+      {
+        "book": "1CH",
+        "chapters": 29,
+        "verseRows": 942
+      },
+      {
+        "book": "2CH",
+        "chapters": 36,
+        "verseRows": 822
+      },
+      {
+        "book": "EZR",
+        "chapters": 10,
+        "verseRows": 280
+      },
+      {
+        "book": "NEH",
+        "chapters": 13,
+        "verseRows": 406
+      },
+      {
+        "book": "EST",
+        "chapters": 10,
+        "verseRows": 167
+      },
+      {
+        "book": "JOB",
+        "chapters": 42,
+        "verseRows": 1070
+      },
+      {
+        "book": "PSA",
+        "chapters": 150,
+        "verseRows": 2461
+      },
+      {
+        "book": "PRO",
+        "chapters": 31,
+        "verseRows": 915
+      },
+      {
+        "book": "ECC",
+        "chapters": 12,
+        "verseRows": 222
+      },
+      {
+        "book": "SOL",
+        "chapters": 8,
+        "verseRows": 117
+      },
+      {
+        "book": "ISA",
+        "chapters": 66,
+        "verseRows": 1292
+      },
+      {
+        "book": "JER",
+        "chapters": 52,
+        "verseRows": 1364
+      },
+      {
+        "book": "LAM",
+        "chapters": 5,
+        "verseRows": 154
+      },
+      {
+        "book": "EZE",
+        "chapters": 48,
+        "verseRows": 1273
+      },
+      {
+        "book": "DAN",
+        "chapters": 12,
+        "verseRows": 357
+      },
+      {
+        "book": "HOS",
+        "chapters": 14,
+        "verseRows": 197
+      },
+      {
+        "book": "JOE",
+        "chapters": 3,
+        "verseRows": 73
+      },
+      {
+        "book": "AMO",
+        "chapters": 9,
+        "verseRows": 146
+      },
+      {
+        "book": "OBA",
+        "chapters": 1,
+        "verseRows": 21
+      },
+      {
+        "book": "JON",
+        "chapters": 4,
+        "verseRows": 48
+      },
+      {
+        "book": "MIC",
+        "chapters": 7,
+        "verseRows": 105
+      },
+      {
+        "book": "NAH",
+        "chapters": 3,
+        "verseRows": 47
+      },
+      {
+        "book": "HAB",
+        "chapters": 3,
+        "verseRows": 56
+      },
+      {
+        "book": "ZEP",
+        "chapters": 3,
+        "verseRows": 53
+      },
+      {
+        "book": "HAG",
+        "chapters": 2,
+        "verseRows": 38
+      },
+      {
+        "book": "ZEC",
+        "chapters": 14,
+        "verseRows": 211
+      },
+      {
+        "book": "MAL",
+        "chapters": 4,
+        "verseRows": 55
+      }
+    ],
+    "otBooks": 39,
+    "otChapters": 929,
+    "otVerseRows": 23145,
+    "emptyOtRows": 0,
+    "duplicateOtAddresses": [],
+    "internalVerseNumberGaps": []
+  },
+  "bsbMsbComparison": {
+    "sameOtAddresses": true,
+    "differentOtTextRows": 0
+  }
+}

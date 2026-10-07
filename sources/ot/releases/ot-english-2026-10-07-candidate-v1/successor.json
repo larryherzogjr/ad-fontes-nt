@@ -1,0 +1,10 @@
+{
+  "status": "superseded engineering candidate; original metadata/output retained",
+  "successor": "ot-english-2026-10-07-candidate-v2",
+  "reason": "Use explicit layout separators when extracting source text across blocks; authoritative Scripture unchanged.",
+  "implementationSnapshots": {
+    "adapters.py": "0978a3b95acff52c28cf4555190ddc859b7ac6c15e1ff6d170a9da0a5b1b9d72",
+    "audit_sources.py": "040cbba24c807038c797f1d55617e823db6b0954cbe1530099b22d9d1144c253",
+    "prepare_candidates.py": "20bc17af333cb448a624a8025b279d6df01613b9a96faf736a2fd1c1b64106e5"
+  }
+}

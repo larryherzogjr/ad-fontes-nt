@@ -7,6 +7,7 @@ import { createLocalAdapter, editions } from '../app/lib/domain/corpus.ts';
 import { books } from '../app/lib/domain/references.ts';
 import { getAnalysis, getOccurrences, getLexicon } from '../app/lib/domain/greek.ts';
 import { resolveLookup } from '../app/lib/domain/lexical.ts';
+import { loadConnections } from '../app/lib/domain/testament-connections.ts';
 import { desktopStartPath } from '../app/desktop/navigation.ts';
 
 const om = JSON.parse(await readFile('app/lib/domain/om-release.json', 'utf8'));
@@ -91,9 +92,10 @@ test('desktop release has a signed, user-controlled stable updater configuration
 test('desktop bundles every released file unchanged and excludes account/private assets', async () => {
   const manifest = await json('desktop-content.json');
   assert.equal(manifest.editions.length, 7);
+  assert.equal(manifest.otEditions.length, 4);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals)\//);
+    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals|connections)\//);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -153,7 +155,7 @@ test('all editions and search operate using only packaged files; missing data st
   let chaptersChecked = 0;
   for (const edition of editions) {
     const adapter = createLocalAdapter(load, edition.editionId);
-    for (const book of books) {
+    for (const book of books.filter(b => b.order >= 39)) {
       for (let chapter = 1; chapter <= book.verses.length; chapter++) {
         assert.equal((await adapter.getChapter(book.code, chapter)).releaseId, edition.releaseId);
         chaptersChecked++;
@@ -161,6 +163,17 @@ test('all editions and search operate using only packaged files; missing data st
     }
   }
   assert.equal(chaptersChecked, 7 * 260);
+  for (const edition of editions.filter(e => e.language === 'en')) {
+    const adapter = createLocalAdapter(load, edition.editionId);
+    let otCount = 0;
+    for (const book of books.filter(b => b.order < 39)) for (let chapter=1; chapter<=book.verses.length; chapter++) {
+      assert.equal((await adapter.getChapter(book.code,chapter)).releaseId, `${edition.editionId.toLowerCase()}-ot-2026-10-07-v1`);
+      otCount++;
+    }
+    assert.equal(otCount,929);
+    assert.ok((await adapter.searchText('shepherd','OT')).hits.length);
+  }
+  assert.equal((await loadConnections(load)).connections.length, 698);
   const bsb = createLocalAdapter(load);
   assert.ok((await bsb.searchText('grace', 'EPH')).hits.some(hit => hit.anchor === 'EPH.2.8'));
   const missing = createLocalAdapter(async () => { throw Error('missing file'); });
@@ -181,6 +194,9 @@ test('packaged Greek analysis, dictionary, occurrences and OM article work with 
     assert.ok(token);
     assert.equal((await getOccurrences(token.lemmaId)).hits.length, 128);
     assert.equal((await getLexicon(token.strongs))?.id, 'G3498');
+    const otGreek = await getAnalysis([{start:'GEN.1.1',end:'GEN.1.1'}]);
+    assert.equal(otGreek[0].tokens[0].gloss,'in');
+    assert.equal((await getOccurrences(otGreek[0].tokens[4].lemmaId)).releaseId,'lxx-rahlfs-1935-2026-10-07-v3');
     const lookup = resolveLookup(await json('lexical/dodson-2010-v5/lookup.json'), token);
     const bundle = await json(`om/${om.releaseId}/index.json`);
     const summary = bundle.articles.find((article: {url: string}) => lookup.links.some(link => link.url === article.url));

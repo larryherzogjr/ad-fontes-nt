@@ -36,7 +36,7 @@ export default function PublisherFootnote({ note, edition, releaseId, units, onC
           }}>Read Ordinary Means commentary</button>;
         })}
       </div>
-      <p className="study-help">Publisher wording is preserved. Note categories are supplied by Ad Fontes NT.</p>
+      <p className="study-help">Publisher wording is preserved. Note categories are supplied by Ad Fontes.</p>
     </PopoverContent>
   </Popover>;
 }

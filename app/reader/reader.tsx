@@ -1,7 +1,10 @@
 'use client';
-import { useEffect, useRef, useState, type ComponentType } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { writeClipboard } from '@/lib/clipboard';
 import StudyPanel from './study-panel';
+import TestamentConnections from './testament-connections';
+import GreekResearch from './greek-research';
+import ConnectionCatalog from './connection-catalog';
 import PublisherFootnote from './publisher-footnote';
 import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from '@/components/ui/popover';
 import { formatCopyWithReference, formatPassage, formatPassageText, formatReference, searchHighlights } from '@/lib/reading-display';
@@ -13,6 +16,7 @@ import ReviewedMarkers, { InlineReviewedMarkers, useReviewedUnits } from './revi
 import { reviewedAt, verseAnchors } from '@/lib/domain/reviewed-markers';
 import type { Variant } from '@/lib/domain/variants';
 import { PublisherNoteCategory, PublisherNoteDetail } from './publisher-note-label';
+import { otEnabled, isOtBook, otEdition } from '@/lib/domain/ot-release';
 import { analysisInfo } from '@/lib/domain/greek';
 import { NativeSelect } from '@/components/ui/native-select';
 import { readDeviceLinks, rememberDeviceLink, type DeviceLink } from '@/lib/device-links';
@@ -53,8 +57,7 @@ function noteContent(x: unknown, i = 0): React.ReactNode {
     <span key={i}>{c}</span>
   );
 }
-export type NotesProps = { ranges: PassageRange[]; edition: string; selection: PassageRange[] | null; onNoteRangesChange?: (ranges: PassageRange[]) => void };
-export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> }) {
+export default function Reader() {
   const environment = useReaderEnvironment();
   const reviewed = useReviewedUnits();
   const [passagePickerOpen, setPassagePickerOpen] = useState(false);
@@ -63,14 +66,13 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
   const [versePickerOpen, setVersePickerOpen] = useState(false);
   const [fromVerse, setFromVerse] = useState(1);
   const [throughVerse, setThroughVerse] = useState(1);
-  const [noteSelection,setNoteSelection] = useState<PassageRange[] | null>(null);
   const openReviewed = (unit: Variant, focusId: string) => openStudy(unit.presentation === 'publisher-note' ? 'notes' : 'compare', unit.ranges, focusId, unit.id);
   const [ranges, setRanges] = useState<PassageRange[]>([initial]),
     [chapters, setChapters] = useState<Chapter[]>([]),
     [mode, setMode] = useState('read'),
     [edition, setEdition] = useState('BSB'),
     [explicitPassage, setExplicitPassage] = useState(false),
-    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | null>(null),
+    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | 'connections' | null>(null),
     [input, setInput] = useState(''),
     [query, setQuery] = useState(''),
     [filter, setFilter] = useState(''),
@@ -86,9 +88,9 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     [focusMode, setFocusMode] = useState(false),
     [showGuide, setShowGuide] = useState(false),
     [recentPassages, setRecentPassages] = useState<DeviceLink[]>([]),
-    [noteAnchors, setNoteAnchors] = useState<Set<string>>(new Set()),
     [selectionCopyStatus, setSelectionCopyStatus] = useState(''),
     [storageError, setStorageError] = useState('');
+  const otReading = ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0]));
   const editionMeta =
     editions.find((e) => e.editionId === edition) || editions[0];
   const link = (rs: PassageRange[]) => passageUrl(rs, edition);
@@ -191,7 +193,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       setResults(null);
       const url = new URL(location.href);
       const panel = url.searchParams.get('panel');
-      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' ? panel : null);
+      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' || panel === 'connections' ? panel : null);
       let adapter;
       try {
         adapter = getCorpus(url.searchParams.get('translation') || 'BSB');
@@ -201,6 +203,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
         setLoading(false);
         return;
       }
+      if (url.pathname === '/connections') {setMode('catalog');setStudy(null);setLoading(false);return;}
+      if (url.pathname === '/greek') { setMode('research');setStudy(null);setLoading(false);return; }
       if (url.pathname === '/about/sources') {
         setMode('sources');
         setLoading(false);
@@ -360,7 +364,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     last = address(ranges[ranges.length - 1].end),
     next = chapterNeighbor(last.book.code, last.chapter, 1);
   function goBook(b: string, c: number) {
-    navigate(`/read/${b}/${c}?translation=${encodeURIComponent(edition)}`);
+    navigate(`/read/${b}/${c}?translation=${encodeURIComponent(isOtBook(b) && !otEdition(edition) ? 'BSB' : edition)}`);
   }
   function togglePassagePicker(open: boolean) {
     if (open) {
@@ -461,7 +465,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     );
   }
   function openStudy(
-    mode: 'compare' | 'greek' | 'notes',
+    mode: 'compare' | 'greek' | 'notes' | 'connections',
     chosen?: PassageRange[],
     focusId?: string,
     unitId?: string,
@@ -500,7 +504,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
     try {
       sessionStorage.setItem(
         'afnt-study-return',
-        study === 'greek' ? 'open-greek' : 'open-compare',
+        study === 'connections' ? 'open-connections' : study === 'greek' ? 'open-greek' : 'open-compare',
       );
     } catch {}
     const url = new URL(location.href);
@@ -528,8 +532,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             goBook(current.book.code, current.chapter);
           }}
         >
-          Ad Fontes NT
-          <span>A New Testament study environment from Ordinary Means.</span>
+          Ad Fontes
+          <span>A biblical study environment from Ordinary Means.</span>
         </a>
         <nav aria-label="Primary">
           <a
@@ -555,7 +559,6 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             Sources &amp; Editions
           </a>
           <a href="/downloads">Downloads</a>
-          {Notes && <a href="/account">My notes</a>}
         </nav>
         <details className="mobile-nav">
           <summary>Menu</summary>
@@ -564,13 +567,14 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <a href="/library">Library</a>
             <a href={`/about/sources?translation=${encodeURIComponent(edition)}`}>Sources &amp; Editions</a>
             <a href="/downloads">Downloads</a>
-            {Notes && <a href="/account">My notes</a>}
-            <span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+            <span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
           </nav>
         </details>
       </header>
-      <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
-        {mode !== 'search' && <div className="passage-navigation">
+
+      <p className="research-entry"><a href="/greek" onClick={e=>{e.preventDefault();navigate('/greek');}}>Septuagint research · text, lemma and morphology search →</a> · <a href="/connections" onClick={e=>{e.preventDefault();navigate('/connections');}}>NT/OT connection catalog →</a></p>
+      {mode !== 'research' && mode !== 'catalog' && <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
+        {mode !== 'search' && mode !== 'research' && mode !== 'catalog' && <div className="passage-navigation">
           <button className="chapter-step" aria-label="Previous chapter" disabled={!previous} onClick={() => previous && goBook(previous.book, previous.chapter)}>←</button>
           <span className="toolbar-label">Passage</span>
           <Popover open={passagePickerOpen} onOpenChange={togglePassagePicker}><PopoverTrigger className="passage-trigger">{current.book.name} {current.chapter} <span aria-hidden="true">⌄</span></PopoverTrigger>
@@ -649,7 +653,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                   </option>
                 ))}
             </optgroup>
-            <optgroup label="Greek">
+            {mode !== 'search' && !otReading && <optgroup label="Greek">
               {editions
                 .filter((e) => e.language === 'grc')
                 .map((e) => (
@@ -657,12 +661,12 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                     {e.name}
                   </option>
                 ))}
-            </optgroup>
+            </optgroup>}
           </NativeSelect>
         </label>
         {mode === 'search' && <label className="search-book">Search within
           <NativeSelect aria-label="Search within book" value={filter} onChange={e => searchPage(1, e.target.value)}>
-            <option value="">All 27 books</option>{books.map(b => <option key={b.code} value={b.code}>{b.name}</option>)}
+            <option value="">All {books.length} books</option>{otEnabled && <><option value="OT">Old Testament</option><option value="NT">New Testament</option></>}{books.map(b => <option key={b.code} value={b.code}>{b.name}</option>)}
           </NativeSelect>
         </label>}
         <div className="toolbar-search unified-reader-search">
@@ -673,14 +677,14 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               id="reference"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Romans 3:23 or grace"
+              placeholder={otEnabled ? 'Genesis 1:1 or grace' : 'Romans 3:23 or grace'}
               autoComplete="off"
             />
             <button type="submit">Go</button>
           </div>
         </form>
         </div>
-      </div>
+      </div>}
       <main id="reading" ref={main} tabIndex={-1} className={study ? 'reader-layout has-study' : 'reader-layout'}>
         <div aria-live="polite">
           {loading && <div className="reader-skeleton" role="status" aria-label={`Loading ${edition} Scripture`}><span /><span /><span /></div>}
@@ -698,8 +702,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             <div className="reader-tools">
               <div className="study-actions">
                 <button className="study-tool comparison-tool" id="open-compare" onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
-                <button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>
-                {Notes && <button className="study-tool note-tool" onClick={() => openDisclosure('personal-notes')}><span className="tool-symbol" aria-hidden="true">□</span>My notes</button>}
+                {<button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>}
+                <button className="study-tool connections-tool" id="open-connections" onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
                 <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
               </div>
@@ -737,7 +741,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 </PopoverContent>
               </Popover>
             </div>
-            {showGuide && <aside className="reader-guide" aria-label="Reader guide"><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> for notes, comparisons, and Greek.</li><li><b>OM</b> opens reviewed Ordinary Means commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></aside>}
+            {showGuide && <aside className="reader-guide" aria-label="Reader guide"><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></aside>}
             <div className="reader-selection-status">
               <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Tap a verse number or select words to study them.'}</p>
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
@@ -781,11 +785,12 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               editionId={edition}
               onSelect={selectPassage}
               onOpen={openStudy}
-              onNote={Notes ? setNoteSelection : undefined}
             />
-            {study && <StudyPanel ranges={ranges} mode={study} onClose={closeStudy} />}
+            {study && <StudyPanel ranges={ranges} mode={study} edition={edition} onClose={closeStudy} />}
+            <TestamentConnections ranges={ranges} edition={edition} />
             {chapters.map((ch) => (
-              <section key={`${ch.book}.${ch.chapter}`} className="chapter">
+              <section key={`${ch.book}.${ch.chapter}`} className={isOtBook(ch.book) ? 'chapter ot-chapter' : 'chapter'}>
+                {isOtBook(ch.book) && <p className="ot-edition-disclosure">{edition === 'MSB' ? 'MSB uses the BSB Old Testament wording.' : edition === 'BLB' ? 'Berean Literal Bible — publisher early draft. Supplied-word brackets are retained.' : 'Old Testament English reading.'}</p>}
                 <div className="chapter-heading"><p className="edition">{editionMeta.name}</p>
                 <h1>
                   {books.find((b) => b.code === ch.book)?.name}{' '}
@@ -848,7 +853,6 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                           >
                             {r.verse}
                           </a>
-                          {Notes && b.role !== 'publisher-heading' && b.role !== 'publisher-alternative' && verseAnchors(ch, r).some(anchor => noteAnchors.has(anchor)) && <button className="verse-note-indicator" aria-label={`Open my note for ${formatReference(r.anchor!)}`} title="My note" onClick={() => openDisclosure('personal-notes')}>●</button>}
                           <InlineReviewedMarkers units={reviewed.units} anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? [] : verseAnchors(ch, r)} idPrefix={`verse-commentary-${ch.book}-${ch.chapter}-${i}-${j}`} onOpen={openReviewed} />
                         </sup>
                       ) : r.noteId ? (
@@ -893,8 +897,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                     return b.role === 'publisher-heading' ? (
                       <div
                         key={i}
-                        className={`publisher-heading ${b.marker}`}
-                        aria-label={`${edition} publisher heading or subscription`}
+                        className={`publisher-heading ${b.marker}${isOtBook(ch.book) ? ' ot-heading' : ''}`}
+                        aria-label={`${edition} publisher heading${isOtBook(ch.book) ? '' : ' or subscription'}`}
                       >
                         {content}
                       </div>
@@ -904,7 +908,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                         <p>{content}</p>
                       </div>
                     ) : (
-                      <p key={i} className={`text-block ${b.marker}`}>
+                      <p key={i} className={`text-block ${b.marker}${b.role === 'scripture-title' ? ' scripture-title' : ''}`}>
                         {content}
                       </p>
                     );
@@ -936,7 +940,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                     aria-label={`${edition} publisher notes`}
                   >
                     <h2>{edition} publisher’s notes</h2>
-                    <p className="study-help">Where shown, note categories are added by Ad Fontes NT to describe the publisher’s footnotes. Ordinary Means commentary is linked separately.</p>
+                    <p className="study-help">Where shown, note categories are added by Ad Fontes to describe the publisher’s footnotes. Ordinary Means commentary is linked separately.</p>
                     {ch.notes.map((n) => (
                       <details id={n.id} key={n.id}>
                         <summary>
@@ -973,7 +977,6 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 )}
               </section>
             ))}
-            {Notes && <Notes ranges={ranges} edition={edition} selection={noteSelection} onNoteRangesChange={noteRanges => setNoteAnchors(new Set(noteRanges.flatMap(expand)))} />}
             <RelatedResources ranges={ranges} />
             <nav className="chapter-nav" aria-label="Chapter navigation">
               <button
@@ -996,10 +999,12 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
             </p>
           </>
         )}
+        {!loading && !error && mode === 'catalog' && <ConnectionCatalog onNavigate={navigate}/>}
+        {!loading && !error && mode === 'research' && <GreekResearch onNavigate={navigate}/>}
         {!loading && !error && mode === 'search' && (
           <section className="search-results">
             <p className="eyebrow">{edition} · SCRIPTURE SEARCH</p>
-            <h1>Search the New Testament</h1>
+            <h1>{otEnabled ? 'Search the Bible' : 'Search the New Testament'}</h1>
             <p>
               Whole words, or an exact phrase in quotation marks. Publisher
               notes are excluded.
@@ -1049,6 +1054,8 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
               locally. Textual groupings help organize comparison; they do not
               imply uniform texts or word alignment.
             </p>
+            <section className="source-edition"><h3>NT/OT connections</h3><p>698 explicit cross-testament citations from pinned BSB publisher notes. Reciprocal links retain the original note and citation; they do not establish quotation extent or classify quotations, allusions or parallels. Coverage is partial.</p><a href="/connections/bsb-testament-connections-2026-10-07-v1/manifest.json">Connections source manifest</a></section>
+            {otEnabled && <p className="notice">The four English editions also include all 39 Old Testament books. BLB is a publisher draft; MSB OT wording matches BSB. The OT Greek study panel adds the Septuagint; the Greek editions below cover the New Testament. The edition groupings below describe NT comparison only.</p>}
             {editions.map((e) => (
               <section key={e.editionId} className="source-edition">
                 <h2>{e.name}</h2>
@@ -1078,16 +1085,22 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 </p>
               </section>
             ))}
+            <h2>Old Testament English sources</h2>
+            <p>English comparison reflects translation wording, not independent manuscript witnesses. Septuagint reading and interlinear are available through Explore Greek. Hebrew study is not yet available.</p>
+            {['BSB', 'BLB', 'MSB', 'YLT'].map(id => {
+              const e = otEdition(id)!;
+              return <section key={id} className="source-edition"><h3>{id === 'BLB' ? 'BLB — publisher draft' : id}</h3><p>{e.scope} · {e.releaseId}</p><p>{e.authority}</p><p>{e.rights}</p><a href={`/corpus/${e.releaseId}/manifest.json`}>OT source manifest</a></section>;
+            })}
             <h2>About this environment</h2>
             <p>
-              Ad Fontes NT is a New Testament study environment from Ordinary
+              Ad Fontes is a biblical study environment from Ordinary
               Means, with a Lutheran/confessional identity. No confessional
               background is needed to begin reading.
             </p>
             <p>
               Scripture is the main reading text. Section headings and
               publisher’s notes come from the selected edition. Ordinary Means
-              commentary, confessional sources, personal notes, and future AI
+              commentary, confessional sources, and future AI
               material are separate content categories; none is mixed into this
               Scripture text.
             </p>
@@ -1113,26 +1126,25 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
                 Analysis sources, rights, checksums and coverage
               </a>
             </p>
-            <h2>Greek definitions and word studies</h2>
+            <h2>Septuagint study</h2><p>Rahlfs 1935 Greek word-token transcription with morphology by Seth Kushniryk / Open Scriptorium and Eliran Wong lexical glosses. Joshua uses Vaticanus B; Judges uses Alexandrinus A; Daniel uses Old Greek. Source numbering is preserved separately from English references. Original token surfaces are separated by spaces; this transcription does not supply punctuation. Glosses attach only to exact ordered verse matches. Upstream automated morphology, confidence and unknown values are retained; no English word alignment is established.</p><p><a href="/analysis/lxx-rahlfs-1935-2026-10-07-v3/manifest.json">Septuagint mapping provenance and coverage</a> · <a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p><h2>Greek definitions and word studies</h2>
             <p>Short and longer definitions come from John Jeffrey Dodson’s Greek Lexicon (2010), using the pinned Biblical Humanities Unicode XML. Its original author notice dedicates the lexicon to the public domain; the repository also supplies CC0 terms. Headword and source-number agreement are required; uncertain matches remain unavailable. Definitions describe a word’s meaning range, not an automatic interpretation of a verse.</p>
             <p>{environment.wordStudyDescription}</p>
             <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
-              The defined Ad Fontes NT MVP and all five milestones are accepted
-              with their documented limitations. The live web reader includes
+              The defined Ad Fontes MVP and all five milestones are accepted
+              with their documented limitations. The original NT release includes
               all 27 New Testament books, seven named editions, 104 reviewed
               comparison notes, Greek and interlinear tools, the approved
-              250-article Ordinary Means BSB adaptation, and account-backed
-              personal notes.
+              250-article Ordinary Means BSB adaptation. Personal notes and Google sign-in have been retired.
             </p>
+            <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately; Hebrew remains undecided.</p>
             <p>
               Version 1.1.5 is the current cross-platform desktop release. The
               macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on
-              the <a href="/downloads">Downloads page</a>. Private
-              account-backed notes remain available only in the web app.
+              the <a href="/downloads">Downloads page</a>. Public study tools require no account.
             </p>
             <p>
               Future releases continue to use the separate exact-artifact review
@@ -1143,7 +1155,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
       </main>
       <footer>
         <span>Ordinary Means</span>
-        <span>Ad Fontes NT</span>
+        <span>Ad Fontes</span>
         <a href="/library">Library</a>
         <a
           href="/about/sources"
@@ -1156,7 +1168,7 @@ export default function Reader({ Notes }: { Notes?: ComponentType<NotesProps> })
         >
           Source information
         </a>
-        {Notes && <>
+        {!environment.offline && <>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
           <a href="/support">Support</a>

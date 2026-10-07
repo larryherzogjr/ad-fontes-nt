@@ -103,18 +103,18 @@ function LibraryHeader({ offline }: { offline: boolean }) {
   return <>
     <a className="skip" href="#library-results">Skip to Library results</a>
     <header className="masthead public-masthead">
-      <a className="brand" href="/">Ad Fontes NT<span>A New Testament study environment from Ordinary Means.</span></a>
+      <a className="brand" href="/">Ad Fontes<span>A biblical study environment from Ordinary Means.</span></a>
       <nav aria-label="Primary">
         <a href="/">Read</a>
         <a className="active" href="/library">Library</a>
         <a href="/about/sources">Sources &amp; Editions</a>
         <a href="/downloads">Downloads</a>
-        {!offline && <a href="/account">My notes</a>}
+
       </nav>
       <details className="mobile-nav">
         <summary>Menu</summary>
         <nav aria-label="Mobile primary">
-          <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a><a href="/downloads">Downloads</a>{!offline && <a href="/account">My notes</a>}<span className="mobile-nav-subtitle">A New Testament study environment from Ordinary Means.</span>
+          <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a><a href="/downloads">Downloads</a><span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
         </nav>
       </details>
     </header>
