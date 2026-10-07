@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
-# Publish the approved 1.1.5 installers behind the public /downloads page.
+# Publish the approved 2.0.0 installers behind the public /downloads page.
 # Run interactively on the existing Ubuntu host as lherzog.
 set -euo pipefail
 cd "$(dirname "$0")"
-version=1.1.5
+version=2.0.0
 staging="$HOME/ad-fontes-public-download-staging/$version"
 destination="/var/www/ad-fontes-downloads/$version"
 manifest="$PWD/public-desktop-downloads-$version.sha256"
-mac_name=Ad-Fontes-NT-macOS-Apple-Silicon-1.1.5.dmg
-windows_name=Ad-Fontes-NT-Windows-x64-1.1.5.exe
-windows_source=/var/www/ad-fontes-updates/releases/1.1.5/ad-fontes-nt-1.1.5-windows-x86_64.exe
+mac_name=Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg
+windows_name=Ad-Fontes-NT-Windows-x64-2.0.0.exe
+windows_source=/var/www/ad-fontes-updates/releases/2.0.0/ad-fontes-nt-2.0.0-windows-x86_64.exe
 
 [[ $(id -u) != 0 ]] || { echo 'Run as lherzog, not root.' >&2; exit 1; }
 [[ -z $(git status --porcelain --untracked-files=no) ]] || { echo 'Tracked host edits need review.' >&2; exit 1; }
 [[ $(git rev-parse --abbrev-ref HEAD) == main ]] || { echo 'Host checkout must be on main.' >&2; exit 1; }
 [[ -f "$staging/$mac_name" ]] || { echo 'The notarized macOS DMG is not staged.' >&2; exit 1; }
-[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == dd818237b5afedc829e99dacac2a54a035c0faa688baec4afb4cc456722badcb ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
-[[ -f "$windows_source" ]] || { echo 'The published Windows 1.1.5 installer is missing.' >&2; exit 1; }
-[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == 5fad6f6150fb4c8f9a62552ebe46e43a88afab4f92f80a4a65e940ecaf6641d0 ]] || { echo 'Published Windows 1.1.5 checksum mismatch.' >&2; exit 1; }
+[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == 8a238c64217e09a8a5960c18c0d30d20d1e8f56b793ea5b44904cae256cad70c ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
+[[ -f "$windows_source" ]] || { echo 'The published Windows 2.0.0 installer is missing.' >&2; exit 1; }
+[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == 1099a9b5253f4c1bcff6b37f73f2bc1b0100596b4c9f5f23e6535dc912def393 ]] || { echo 'Published Windows 2.0.0 checksum mismatch.' >&2; exit 1; }
 
 sudo -v
 sudo test ! -e "$destination" || { echo 'Immutable public download destination already exists.' >&2; exit 1; }

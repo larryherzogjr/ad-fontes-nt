@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 1.1.5 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 2.0.0 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,17 +28,20 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/1.1.5/Ad-Fontes-NT-macOS-Apple-Silicon-1.1.5.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/1.1.5/Ad-Fontes-NT-Windows-x64-1.1.5.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/2.0.0/Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.0.0/Ad-Fontes-NT-Windows-x64-2.0.0.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 1.1.5 brings all 104 reviewed textual comparisons, their
-        manuscript evidence, the 250 Greek word studies, the 5,400-entry Greek
-        lexicon, and the refined Ad Fontes reader and study tools to your
-        desktop for offline NT reading. These existing signed packages retain the Ad Fontes NT name and do not include the new OT release. Choose the package for your computer.
+        Version 2.0.0 brings whole-Bible English reading and comparison,
+        reciprocal NT/OT connections, and Septuagint reading, interlinear
+        glosses, morphology, search and cross-testament lemma exploration
+        to your desktop. It also includes all 104 reviewed textual comparisons,
+        their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
+        lexicon. Reading and these study resources work offline.
+        Choose the package for your computer.
         Public reading and study tools require no account.
       </p>
 
@@ -50,7 +53,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </a>
-          <p className="download-detail">Developer ID signed and Apple notarized</p>
+          <p className="download-detail">Developer ID signed and Apple notarized · 254 MB</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -60,7 +63,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </a>
-          <p className="download-detail">Public Trust signed by Larry Herzog Jr.</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 466 MB</p>
         </section>
       </div>
 
@@ -72,13 +75,14 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 1.1.5 improves synchronized verse scrolling between Scripture
-        and Greek or edition-comparison panes, including smoother touch
-        momentum on iPad. It also includes the persistent passage selection
-        from 1.1.4 and the reader, study-panel, Library, bookmark,
-        accessibility, and responsive refinements from 1.1.3. The application
-        checks for future stable updates and asks before downloading or
-        installing them.
+        Version 2.0.0 adds the Old Testament and Septuagint study tools,
+        reviewed NT/OT quotation displays, source-aware Greek comparisons,
+        and improved navigation and study panels. Personal notes, accounts
+        and Google sign-in have been retired. Publisher footnotes, existing
+        Ordinary Means commentary and local reading preferences remain.
+        The installed app retains the Ad Fontes NT package name and existing
+        signing identity. It checks for future stable updates and asks before
+        downloading or installing them.
       </p>
 
       <p>
