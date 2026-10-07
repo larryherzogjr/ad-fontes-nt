@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import {version as desktopVersion} from '@/package.json';
 import { writeClipboard } from '@/lib/clipboard';
 import StudyPanel from './study-panel';
 import TestamentConnections from './testament-connections';
@@ -1132,15 +1133,15 @@ export default function Reader() {
             <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>
-              The defined Ad Fontes MVP and all five milestones are accepted
-              with their documented limitations. The original NT release includes
+              The original NT milestones have historical acceptance records.
+              Whole-Bible pilot and release acceptance remain in progress. The original NT release includes
               all 27 New Testament books, seven named editions, 104 reviewed
               comparison notes, Greek and interlinear tools, the approved
               250-article Ordinary Means BSB adaptation. Personal notes and Google sign-in have been retired.
             </p>
             <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately; Hebrew remains undecided.</p>
             <p>
-              Version 1.1.5 is the current cross-platform desktop release. The
+              {environment.offline ? `This desktop build is version ${desktopVersion}. ` : <>Version 1.1.5 is the current cross-platform desktop release. </>}The
               macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on

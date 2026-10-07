@@ -90,7 +90,7 @@ test('final public installer publication is pinned to the approved signed bytes'
 
 test('public project status identifies the approved 1.1.5 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
-  assert.match(reader, /defined Ad Fontes MVP and all five milestones are accepted/);
+  assert.match(reader, /Whole-Bible pilot and release acceptance remain in progress/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
   assert.match(reader, /Version 1\.1\.5 is the current cross-platform desktop release/);
