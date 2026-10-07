@@ -61,7 +61,7 @@ export default function TestamentConnections({ranges, edition, embedded = false,
       {view!=='english' && <PairedGreek sides={displaySides||[selected.sourceRanges,selected.targetRanges]} edition={selectedEdition} onNavigate={onNavigate}/>}
       <p className="study-help">Connection classifications require an approved review record. Unclassified references remain publisher cross-references.</p>
     </section>}
-    
+
   </>;
   return embedded ? <section className="connections-panel" aria-label="Related NT/OT passages">{content}</section> : <details className="testament-connections" id="testament-connections"><summary>NT/OT connections <span>{loaded ? `(${groups.size})` : ''}</span></summary>{content}</details>;
 }
