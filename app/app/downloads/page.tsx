@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 2.1.1 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 2.1.2 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.1/Ad-Fontes-macOS-Apple-Silicon-2.1.1.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.1/Ad-Fontes-Windows-x64-2.1.1.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.2/Ad-Fontes-macOS-Apple-Silicon-2.1.2.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.2/Ad-Fontes-Windows-x64-2.1.2.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 2.1.1 includes whole-Bible English reading and comparison,
+        Version 2.1.2 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
@@ -81,11 +81,12 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 2.1.1 renames the installed app from Ad Fontes NT to Ad Fontes.
-        It keeps your reading preferences, study resources and existing signing
-        identity, along with all Study Library and passage-switching improvements
-        from 2.1.0. The app checks for stable updates and asks before downloading
-        or installing them. Personal notes and Google sign-in remain retired.
+        Version 2.1.2 restores small superscript verse numbers and publisher
+        quotation formatting in NT/OT connection citations. Ages and other
+        numbers in the text remain full-sized. It retains the Ad Fontes app name,
+        saved reading preferences and all study resources. The app checks for
+        stable updates and asks before downloading or installing them.
+        Personal notes and Google sign-in remain retired.
       </p>
 
       <p>
