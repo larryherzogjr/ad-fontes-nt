@@ -114,13 +114,13 @@ test('all 250 approved articles reproduce exactly and cover every existing Greek
   }
 });
 
-test('reader discloses the BSB adaptation and unchanged original website edition', async () => {
+test('reader links to website articles without the retired edition caveat', async () => {
   const source = await readFile('app/reader/word-studies.tsx', 'utf8');
-  assert.match(source, /open here in an Ad Fontes BSB adaptation/);
-  assert.match(source, /linked website preserves the original article edition/);
+  assert.match(source, /open here, with links to the articles on larryherzogjr\.com/);
+  assert.doesNotMatch(source, /BSB adaptation|unchanged original website|original article edition/);
   assert.match(source, /occurrence counts are NFC-normalized lemma totals/);
   assert.match(source, /two verses with unavailable analysis are excluded/);
-  assert.match(source, /Open original website edition on larryherzogjr\.com/);
+  assert.match(source, /Read on larryherzogjr\.com/);
 });
 
 test('article Markdown preserves the real Metanoia footnote and hides editorial comments', async () => {

@@ -1126,7 +1126,7 @@ export default function Reader() {
               Whole-Bible pilot and release acceptance remain in progress. The original NT release includes
               all 27 New Testament books, seven named editions, 104 reviewed
               comparison notes, Greek and interlinear tools, the approved
-              250-article Ordinary Means BSB adaptation. Personal notes and Google sign-in have been retired.
+              250-article Ordinary Means collection. Personal notes and Google sign-in have been retired.
             </p>
             <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately; Hebrew remains undecided.</p>
             <p>

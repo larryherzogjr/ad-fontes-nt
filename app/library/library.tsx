@@ -177,7 +177,7 @@ function ArticleDetail({ index, article, route }: { index: LibraryIndex; article
       <h1>{article.title}</h1>
       <p className="library-article-subtitle">{article.subtitle}</p>
       <p>By {article.author} · Saved {article.snapshotDate}</p>
-      <p className="library-provenance">Ad Fontes BSB adaptation · Commentary is distinct from Scripture and dictionary data.</p>
+      <p className="library-provenance">Commentary is distinct from Scripture and dictionary data.</p>
       {word && <p><a href={hrefFor(route, { view: 'lexicon', article: '', lemma: word.lemmaId, page: 1, category: '' })}>Explore {article.headword} in the Greek lexicon and New Testament occurrences →</a></p>}
       {error ? <p role="alert" className="notice">{error}</p> : markdown === null ? <p role="status">Loading article…</p> :
         <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {
@@ -188,7 +188,7 @@ function ArticleDetail({ index, article, route }: { index: LibraryIndex; article
             <a {...props} href={target.protocol === 'https:' ? target.href : undefined} target="_blank" rel="noopener noreferrer">{children}</a>;
         } }}>{markdown}</Markdown>}
       <p className="om-study-frequency-note">Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 ({index.textReleaseId}). Cognate lemmas, variant readings, the appended shorter ending, and two verses with unavailable analysis are excluded.</p>
-      <p><a href={article.url} target="_blank" rel="noopener noreferrer">Open original website edition on larryherzogjr.com ↗</a></p>
+      <p><a href={article.url} target="_blank" rel="noopener noreferrer">Read on larryherzogjr.com ↗</a></p>
     </article>
   </>;
 }
@@ -348,7 +348,7 @@ function ArticleList({ route, articles, bookmarks, onBookmark }: { route: Route;
   const pageSize = 24, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
   const visible = selected.slice((page - 1) * pageSize, page * pageSize);
   return <>
-    <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Greek Word Studies</h2><p>Approved, article-length studies. Scripture quotations remain part of the authored commentary and are identified as an Ad Fontes BSB adaptation.</p></div><div className="library-filters"><label>Topic category<select value={route.category} onChange={event => location.assign(hrefFor(route, { category: event.target.value, page: 1 }))}><option value="">All categories</option>{categories.map(category => <option key={category}>{category}</option>)}</select></label></div></div>
+    <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Greek Word Studies</h2><p>Approved, article-length studies. Scripture quotations remain part of the authored commentary.</p></div><div className="library-filters"><label>Topic category<select value={route.category} onChange={event => location.assign(hrefFor(route, { category: event.target.value, page: 1 }))}><option value="">All categories</option>{categories.map(category => <option key={category}>{category}</option>)}</select></label></div></div>
     <p className="library-result-count">{selected.length} {selected.length === 1 ? 'word study' : 'word studies'}</p>
     <div className="library-card-grid article-grid">{visible.map(article => { const href = hrefFor(route, { article: article.slug, page: 1 }), saved = bookmarks.some(item => item.url === href); return <article className="library-card article-card" key={article.slug}><div className="library-card-meta"><span>Greek word study</span><strong>{article.category}</strong></div><button className="library-bookmark" aria-pressed={saved} onClick={() => onBookmark({ url: href, label: article.title, detail: article.subtitle })}>{saved ? 'Saved' : 'Save'}</button><h3><a href={href}>{article.title}</a></h3><p className="library-card-subtitle">{article.subtitle}</p><p>{article.description}</p><p className="library-card-foot">By {article.author} · Ordinary Means commentary</p><a className="library-card-action" href={href}>Read the study →</a></article>; })}</div>
     {!selected.length && <p className="notice">No Greek word studies match these filters.</p>}
