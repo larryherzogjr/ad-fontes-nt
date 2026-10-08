@@ -21,5 +21,5 @@ fn main() {
             Ok(())
         })
         .run(tauri::generate_context!())
-        .expect("Unable to start Ad Fontes NT");
+        .expect("Unable to start Ad Fontes");
 }

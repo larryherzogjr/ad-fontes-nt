@@ -24,6 +24,6 @@ class Promotion(unittest.TestCase):
   union=json.loads((RELEASE/'whole-bible-registry.json').read_text());nt=json.loads((ROOT/'app/lib/domain/canonical-registry.json').read_text())
   self.assertEqual([{**b,'order':b['order']-39} for b in union[39:]],nt)
   config=json.loads((ROOT/'app/desktop/src-tauri/tauri.conf.json').read_text())
-  self.assertEqual(config['productName'],'Ad Fontes NT');self.assertEqual(config['identifier'],'app.ad-fontes.desktop')
+  self.assertEqual(config['productName'],'Ad Fontes');self.assertEqual(config['identifier'],'app.ad-fontes.desktop')
   self.assertEqual(config['plugins']['updater']['endpoints'],['https://ad-fontes.app/desktop-updates/stable/latest.json'])
 if __name__=='__main__':unittest.main()

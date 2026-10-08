@@ -34,10 +34,22 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '2.1.0');
+  assert.equal(config.version, '2.1.1');
+  assert.equal(config.productName, 'Ad Fontes');
+  assert.equal(config.app.windows[0].title, 'Ad Fontes');
+  assert.equal(config.identifier, 'app.ad-fontes.desktop');
+  const windowsBase = JSON.parse(await readFile('app/desktop/src-tauri/tauri.windows.conf.json', 'utf8'));
+  assert.equal(windowsBase.bundle.windows.nsis.template, 'windows/installer.nsi');
+  assert.equal(windowsBase.bundle.windows.nsis.installerHooks, 'windows/rename-shortcuts.nsh');
+  const installer = await readFile('app/desktop/src-tauri/windows/installer.nsi', 'utf8');
+  assert.ok(installer.includes('!define UNINSTKEY "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Ad Fontes NT"'));
+  assert.ok(installer.includes('!define MANUPRODUCTKEY "${MANUKEY}\\Ad Fontes NT"'));
+  const macDisplay = await readFile('app/desktop/src-tauri/macos/en.lproj/InfoPlist.strings', 'utf8');
+  assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
+
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "2\.1\.0"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "2\.1\.0"/);
+  assert.match(cargoManifest, /^version = "2\.1\.1"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "2\.1\.1"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -84,7 +96,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macRelease, /stapler staple "\$dmg"/);
   assert.match(macRelease, /stapler validate/);
   assert.match(macRelease, /TAURI_SIGNING_PRIVATE_KEY/);
-  assert.match(macRelease, /Ad Fontes NT_\$\{version\}_aarch64\.dmg/);
+  assert.match(macRelease, /Ad Fontes_\$\{version\}_aarch64\.dmg/);
   assert.match(macRelease, /CFBundleShortVersionString/);
   assert.doesNotMatch(macRelease, /-name '\*\.dmg' -print -quit/);
 });

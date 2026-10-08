@@ -19,9 +19,9 @@ security find-identity -v -p codesigning | grep -F -- "$APPLE_SIGNING_IDENTITY" 
 npm run verify:both
 npm run desktop:build -- --bundles app,dmg --config src-tauri/tauri.macos.release.conf.json -- --locked
 version=$(node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('app/desktop/src-tauri/tauri.conf.json', 'utf8')).version)")
-bundle='app/desktop/src-tauri/target/release/bundle/macos/Ad Fontes NT.app'
-dmg="app/desktop/src-tauri/target/release/bundle/dmg/Ad Fontes NT_${version}_aarch64.dmg"
-update='app/desktop/src-tauri/target/release/bundle/macos/Ad Fontes NT.app.tar.gz'
+bundle='app/desktop/src-tauri/target/release/bundle/macos/Ad Fontes.app'
+dmg="app/desktop/src-tauri/target/release/bundle/dmg/Ad Fontes_${version}_aarch64.dmg"
+update='app/desktop/src-tauri/target/release/bundle/macos/Ad Fontes.app.tar.gz'
 [[ -d $bundle && -f $dmg && -f $update && -f $update.sig ]] || { echo 'Expected signed release outputs are incomplete.' >&2; exit 1; }
 [[ $(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$bundle/Contents/Info.plist") == "$version" ]] || { echo 'Bundle version does not match release configuration.' >&2; exit 1; }
 codesign --verify --deep --strict --verbose=2 "$bundle"

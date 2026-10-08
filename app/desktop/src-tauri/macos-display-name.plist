@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <!-- Match the legacy updater destination so Finder uses the localized name.
+       Fresh Ad Fontes.app installs already have the requested filesystem name. -->
+  <key>CFBundleDisplayName</key><string>Ad Fontes NT</string>
+  <key>CFBundleName</key><string>Ad Fontes NT</string>
+  <key>LSHasLocalizedDisplayName</key><true/>
+  <key>CFBundleDevelopmentRegion</key><string>en</string>
+</dict></plist>
