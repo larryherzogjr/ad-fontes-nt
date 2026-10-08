@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 2.1.2 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 2.1.3 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.2/Ad-Fontes-macOS-Apple-Silicon-2.1.2.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.2/Ad-Fontes-Windows-x64-2.1.2.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.3/Ad-Fontes-macOS-Apple-Silicon-2.1.3.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.3/Ad-Fontes-Windows-x64-2.1.3.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 2.1.2 includes whole-Bible English reading and comparison,
+        Version 2.1.3 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
@@ -81,12 +81,12 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 2.1.2 restores small superscript verse numbers and publisher
-        quotation formatting in NT/OT connection citations. Ages and other
-        numbers in the text remain full-sized. It retains the Ad Fontes app name,
-        saved reading preferences and all study resources. The app checks for
-        stable updates and asks before downloading or installing them.
-        Personal notes and Google sign-in remain retired.
+        Version 2.1.3 removes the outdated edition caveat from Greek Word Explorer
+        articles and simplifies their website links. It includes the publisher
+        verse-number formatting fix from 2.1.2 and preserves saved reading
+        preferences and study resources. The app checks for stable updates and
+        asks before downloading or installing them. Personal notes and Google
+        sign-in remain retired.
       </p>
 
       <p>
