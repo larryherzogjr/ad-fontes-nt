@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 2.0.0 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 2.1.0 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/2.0.0/Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.0.0/Ad-Fontes-NT-Windows-x64-2.0.0.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.0/Ad-Fontes-NT-macOS-Apple-Silicon-2.1.0.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.0/Ad-Fontes-NT-Windows-x64-2.1.0.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 2.0.0 brings whole-Bible English reading and comparison,
+        Version 2.1.0 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         to your desktop. It also includes all 104 reviewed textual comparisons,
@@ -75,9 +75,11 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 2.0.0 adds the Old Testament and Septuagint study tools,
-        reviewed NT/OT quotation displays, source-aware Greek comparisons,
-        and improved navigation and study panels. Personal notes, accounts
+        Version 2.1.0 brings Septuagint Research and NT/OT Connections into
+        Study Library, with consistent return links and clearer search controls.
+        Choose editions in Compact or Comfortable comparisons, make an edition
+        the main reading, or swap NT/OT passages while keeping your study open.
+        Recent-study labels and phone controls are easier to read. Personal notes, accounts
         and Google sign-in have been retired. Publisher footnotes, existing
         Ordinary Means commentary and local reading preferences remain.
         The installed app retains the Ad Fontes NT package name and existing
