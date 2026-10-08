@@ -9,7 +9,7 @@ import {formatPassage,formatReference} from '@/lib/reading-display';
 import {GreekWordButton,WordDefinition} from './word-lookup';
 import {orderedGreekMatches} from '@/lib/domain/greek-comparison';
 import LemmaExplorer from './lemma-explorer';
-export default function PairedGreek({sides,edition,onNavigate}:{sides:PassageRange[][];edition:string;onNavigate?:(url:string)=>void}) {
+export default function PairedGreek({sides,edition,onNavigate,referenceOt}:{referenceOt?:boolean;sides:PassageRange[][];edition:string;onNavigate?:(url:string)=>void}) {
  const [phone,setPhone]=useState(false);
  useEffect(()=>{const media=matchMedia('(max-width: 650px)');const update=()=>setPhone(media.matches);update();media.addEventListener('change',update);return()=>media.removeEventListener('change',update);},[]);
  const [activeWords,setActiveWords]=useState<Record<number,string>>({});
@@ -17,7 +17,7 @@ export default function PairedGreek({sides,edition,onNavigate}:{sides:PassageRan
  const [results,setResults]=useState<{ranges:PassageRange[];segments:AnalysisSegment[];error?:string}[]>([]);
  useEffect(()=>{setInterlinear(new URL(location.href).searchParams.get('connectionGreekView')==='interlinear');},[]);
  const key=JSON.stringify(sides);
- useEffect(()=>{let active=true;setResults([]);setToken(null);Promise.all(sides.map(async ranges=>{try{return {ranges,segments:await getAnalysis(ranges)};}catch{return {ranges,segments:[],error:'Greek data could not be loaded for this side. This is not textual absence.'};}})).then(value=>{if(active)setResults(value.sort((a,b)=>Number(isOtBook(address(a.ranges[0].start).book.code))-Number(isOtBook(address(b.ranges[0].start).book.code))));});return()=>{active=false;};},[key]);
+ useEffect(()=>{let active=true;setResults([]);setToken(null);Promise.all(sides.map(async ranges=>{try{return {ranges,segments:await getAnalysis(ranges)};}catch{return {ranges,segments:[],error:'Greek data could not be loaded for this side. This is not textual absence.'};}})).then(value=>{if(active)setResults(value.sort((a,b)=>Number(isOtBook(address(a.ranges[0].start).book.code)!==(referenceOt??false))-Number(isOtBook(address(b.ranges[0].start).book.code)!==(referenceOt??false))));});return()=>{active=false;};},[key,referenceOt]);
  const lemmaSets=results.map(side=>new Set(side.segments.flatMap(s=>s.tokens.map(t=>t.lemma.normalize('NFC')).filter(Boolean))));
  const common=lemmaSets.length===2 ? new Set([...lemmaSets[0]].filter(lemma=>lemmaSets[1].has(lemma))) : new Set<string>();
  const flattened=results.map(r=>r.segments.flatMap(s=>s.tokens));let ordered:{left:Set<number>;right:Set<number>;count:number}|null=null,sequenceError='';if(sequence!=='off'&&flattened.length===2&&results.some(r=>r.error||r.segments.some(s=>s.status==='unavailable')))sequenceError='Ordered comparison is unavailable while either passage has missing Greek data.';else if(sequence!=='off'&&flattened.length===2){try{ordered=orderedGreekMatches(flattened[0].map(t=>sequence==='lemma'?t.lemma:t.surface),flattened[1].map(t=>sequence==='lemma'?t.lemma:t.surface));}catch(e){sequenceError=(e as Error).message;}}

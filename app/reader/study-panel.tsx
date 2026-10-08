@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { mainEditionUrl } from '@/lib/study-navigation';
 import { useVerseSync } from './use-verse-sync';
 import { useStudyEdition } from './use-study-edition';
 import { formatPassage, formatReference } from '@/lib/reading-display';
@@ -94,11 +95,13 @@ export default function StudyPanel({
   const [rows, setRows] = useState<string[]>([]);
   const [sync, setSync] = useState(false);
   const [wide, setWide] = useState(false);
+  const [compact, setCompact] = useState(true);
+  const [chosenEditions, setChosenEditions] = useState<string[] | null>(null);
   const [desktop, setDesktop] = useState(false);
   const [trail, setTrail] = useState<StudyTrail>({ items: [], index: -1 });
-  useVerseSync(dialog, sync && desktop && mode !== 'connections', `${mode}-${loading}-${wide}`);
+  useVerseSync(dialog, sync && (!compact || mode === 'greek') && desktop && mode !== 'connections', `${mode}-${loading}-${wide}-${compact}-${chosenEditions?.join(',')}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
-  const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${formatPassage(ranges)}`);
+  const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${compact}-${chosenEditions?.join(',')}-${formatPassage(ranges)}`);
   useEffect(() => {
     const panel = dialog.current;
     const chrome = panel?.querySelector<HTMLElement>('.study-chrome');
@@ -111,9 +114,29 @@ export default function StudyPanel({
   const label = formatPassage(ranges);
   const ot = ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0]));
   const availableEditions = editionsFor(ranges);
+  const comparisonIds = [...availableEditions.map(e => e.editionId), ...(ot ? ['lxx-rahlfs'] : [])];
+  const visibleEditions = chosenEditions ? [...new Set(chosenEditions)].filter(id => comparisonIds.includes(id)) : null;
+  const selectedEditions = visibleEditions?.length ? visibleEditions : comparisonIds;
+  useEffect(() => {
+    const restore = () => {
+      const params = new URL(location.href).searchParams;
+      setCompact(params.get('comparisonLayout') !== 'comfortable');
+      setChosenEditions(params.has('compareEditions') ? params.get('compareEditions')!.split(',') : null);
+    };
+    restore(); addEventListener('popstate', restore);
+    return () => removeEventListener('popstate', restore);
+  }, [label]);
+  function setComparisonDisplay(nextCompact: boolean, ids: string[]) {
+    setCompact(nextCompact); setChosenEditions(ids);
+    const url = new URL(location.href);
+    if (nextCompact) url.searchParams.delete('comparisonLayout'); else url.searchParams.set('comparisonLayout', 'comfortable');
+    if (ids.length === comparisonIds.length) url.searchParams.delete('compareEditions'); else url.searchParams.set('compareEditions', ids.join(','));
+    history.replaceState({}, '', url.pathname + url.search);
+  }
+
   useEffect(() => {
     const params = new URL(location.href).searchParams;
-    setSection(params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
+    setSection(mode !== 'notes' && params.get('comparisonSection') === 'readings' ? 'readings' : params.has('unit') || mode === 'notes' ? 'explanation' : 'readings');
     setInterlinear(params.get('greekView') === 'interlinear');
     let savedRows = '';
     try {
@@ -516,7 +539,7 @@ export default function StudyPanel({
         <div>
           <p className="eyebrow">{label}</p>
           <h2 id="study-title" ref={title} tabIndex={-1}>
-            {mode === 'connections' ? 'NT/OT Connections' : mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : variants.length ? 'Commentary and edition comparison' : 'Compare editions'}
+            {mode === 'connections' ? 'NT/OT Connections' : mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : variants.length ? <><span className="tool-label-full">Commentary and edition comparison</span><span className="tool-label-short">Commentary &amp; editions</span></> : 'Compare editions'}
           </h2>
 
         </div>
@@ -531,31 +554,34 @@ export default function StudyPanel({
       </header>
       {!noteOnly && !loading && <nav className="study-tabs" aria-label="Study tools">
         <button
-          aria-pressed={mode === 'compare'}
+          aria-label="Compare editions" aria-pressed={mode === 'compare'}
           onClick={() => mode !== 'compare' && switchMode('compare')}
         >
-          Compare editions
+          <span className="tool-label-full">Compare editions</span><span className="tool-label-short" aria-hidden="true">Compare</span>
         </button>
         {<button
-          aria-pressed={mode === 'greek'}
+          aria-label="Explore Greek" aria-pressed={mode === 'greek'}
           onClick={() => mode !== 'greek' && switchMode('greek')}
         >
-          Explore Greek
+          <span className="tool-label-full">Explore Greek</span><span className="tool-label-short" aria-hidden="true">Greek</span>
         </button>}
-        <button aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}>NT/OT Connections</button>
+        <button aria-label="NT/OT Connections" aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}><span className="tool-label-full">NT/OT Connections</span><span className="tool-label-short" aria-hidden="true">Connections</span></button>
       </nav>}
       {!loading && !error && mode !== 'greek' && mode !== 'connections' && <nav className="comparison-nav" aria-label="Comparison sections">
-        <button aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}>{noteOnly ? 'Explanation' : 'Commentary and explanation'}</button>
-        {!noteOnly && <button aria-pressed={section === 'readings'} onClick={() => showSection('readings')}>Edition readings</button>}
+        <button aria-label={noteOnly ? 'Explanation' : 'Commentary and explanation'} aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}><span className="tool-label-full">{noteOnly ? 'Explanation' : 'Commentary and explanation'}</span><span className="tool-label-short" aria-hidden="true">{noteOnly ? 'Explanation' : 'Commentary'}</span></button>
+        {!noteOnly && <button aria-label="Edition readings" aria-pressed={section === 'readings'} onClick={() => showSection('readings')}><span className="tool-label-full">Edition readings</span><span className="tool-label-short" aria-hidden="true">Readings</span></button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && mode !== 'connections' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync} onChange={event => {
+      {desktop && mode !== 'connections' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync && (!compact || mode === 'greek')} disabled={compact && mode !== 'greek'} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
       }} />Sync verses</label>
       {currentEdition && <span className="study-current-edition" title={currentEdition} aria-label={`Current edition: ${currentEdition}`}>{currentEdition}</span>}
       </div>}
       </div><div className="study-content">
+      <nav className="study-library-return" aria-label="Study Library return">
+        <a href={mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library'}>← Back to Study Library</a>
+      </nav>
       {mode === 'connections' && <TestamentConnections ranges={ranges} edition={edition} embedded onNavigate={followStudy} />}
       {loading && <div className="study-skeleton" role="status" aria-label="Loading passage study"><span /><span /><span /><span /></div>}
       {error && (
@@ -565,12 +591,7 @@ export default function StudyPanel({
       )}
       {!loading && !error && mode !== 'greek' && mode !== 'connections' && (
         <>
-          {!!variants.length && (
-            <nav className="study-library-return" aria-label="Textual comparison collection">
-              <a href="/library">← Browse Textual Comparisons</a>
-            </nav>
-          )}
-          {!noteOnly && <p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p>}
+          {!noteOnly && <details className="comparison-limits"><summary>About edition readings</summary><p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p></details>}
           {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><a href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</a></p>; })}
           {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
           {noteOnly && <section hidden={section !== 'explanation'} aria-label="Publisher notes for this explanation">
@@ -625,23 +646,35 @@ export default function StudyPanel({
             {!variants.length && <p>No reviewed explanation is available for this selection.</p>}
             <a href="/about/sources">All sources, editions and coverage</a>
           </section>
-          <div className="comparison-readings" hidden={section !== 'readings'}>
-          {!noteOnly && (ot ? ['English translations'] : ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus']).map(
+          <div hidden={section !== 'readings' || noteOnly} className="comparison-display-options">
+            <div className="study-controls" role="group" aria-label="Comparison layout">
+              <button aria-pressed={compact} onClick={() => setComparisonDisplay(true, selectedEditions)}>Compact</button>
+              <button aria-pressed={!compact} onClick={() => setComparisonDisplay(false, selectedEditions)}>Comfortable</button>
+              <span role="status">{selectedEditions.length} editions shown</span>
+            </div>
+            <details><summary>Choose editions</summary><fieldset className="edition-choices"><legend>Editions to compare</legend>
+              {[...availableEditions.map(e => ({id:e.editionId,name:e.name})), ...(ot ? [{id:'lxx-rahlfs',name:'Septuagint · Rahlfs 1935'}] : [])].map(e => <label key={e.id}><input type="checkbox" checked={selectedEditions.includes(e.id)} disabled={selectedEditions.length === 1 && selectedEditions.includes(e.id)} onChange={event => setComparisonDisplay(compact, event.target.checked ? [...selectedEditions,e.id] : selectedEditions.filter(id => id !== e.id))}/>{e.name}</label>)}
+              <button onClick={() => setComparisonDisplay(compact, comparisonIds)}>Show all editions</button>
+            </fieldset>{compact && <p className="study-help">For synchronized scrolling with the chapter, choose Comfortable.</p>}</details>
+          </div>
+          <div className={`comparison-readings${compact ? ' comparison-compact' : ''}`} hidden={section !== 'readings'}>
+          {!noteOnly && (ot ? ['English translations'] : ['Critical/Eclectic', 'Byzantine Majority', 'Textus Receptus']).filter(group => availableEditions.some(e => (ot || e.group === group) && selectedEditions.includes(e.editionId))).map(
             (group) => (
               <section className="comparison-group" key={group}>
                 <h3>{group}</h3>
                 {availableEditions
-                  .filter((e) => ot || e.group === group)
+                  .filter((e) => (ot || e.group === group) && selectedEditions.includes(e.editionId))
                   .map((e) => {
                     const record = comparison.find(
                       (c) => c.editionId === e.editionId,
                     )!;
                     return (
                       <article className="edition-reading" data-study-edition={e.name} key={e.editionId}>
-                        <h4>{e.name}</h4>
+                        <p className="compact-edition-group">{group}</p><h4>{e.name}</h4>
                         <a href={passageUrl(ranges, e.editionId)}>
                           Read in context
                         </a>
+                        <div className="study-controls"><button disabled={edition === e.editionId} onClick={() => followStudy(mainEditionUrl(ranges, e.editionId, location.href))}>{edition === e.editionId ? 'Main edition' : 'Make this the main edition'}</button></div>
                         {variants.map(v => {
                           const focus = v.readings.find(r => r.editionId === e.editionId)?.focus;
                           if (!focus) return null;
@@ -722,7 +755,7 @@ export default function StudyPanel({
               </section>
             ),
           )}
-          {ot && !noteOnly && <section className="comparison-group" data-study-edition="Septuagint · Rahlfs 1935"><h3>Septuagint · Rahlfs 1935</h3><p className="study-help">Greek word-token transcription; source verse numbering and correspondence may differ from English.</p><button onClick={() => switchMode('greek')}>Explore Greek / Interlinear</button>{analysis.map(s => <p key={s.sourceRef} className="comparison-scripture" data-sync-edition="lxx-rahlfs" data-sync-anchors={s.anchors.join(' ')}><small>{s.sourceLabel || s.sourceRef}</small> <span lang="grc">{s.text}</span>{s.reason && <span className="notice">{s.reason}</span>}</p>)}</section>}
+          {ot && !noteOnly && selectedEditions.includes('lxx-rahlfs') && <section className="comparison-group lxx-comparison" data-study-edition="Septuagint · Rahlfs 1935"><h3>Septuagint · Rahlfs 1935</h3><p className="study-help">Greek word-token transcription; source verse numbering and correspondence may differ from English.</p><button onClick={() => switchMode('greek')}>Explore Greek / Interlinear</button>{analysis.map(s => <p key={s.sourceRef} className="comparison-scripture" data-sync-edition="lxx-rahlfs" data-sync-anchors={s.anchors.join(' ')}><small>{s.sourceLabel || s.sourceRef}</small> <span lang="grc">{s.text}</span>{s.reason && <span className="notice">{s.reason}</span>}</p>)}</section>}
           </div>
         </>
       )}

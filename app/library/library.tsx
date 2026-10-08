@@ -1,11 +1,13 @@
 'use client';
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
+import GreekResearch from '@/reader/greek-research';
+import ConnectionCatalog from '@/reader/connection-catalog';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { books, passageUrl, type PassageRange } from '@/lib/domain/references';
 import { formatPassage } from '@/lib/reading-display';
 import { transliterateGreek } from '@/lib/domain/greek-reading';
-import { readDeviceLinks, rememberDeviceLink, writeDeviceLinks, type DeviceLink } from '@/lib/device-links';
+import { readDeviceLinks, rememberDeviceLink, writeDeviceLinks, type DeviceLink, presentRecentLinks } from '@/lib/device-links';
 
 type Comparison = {
   id: string;
@@ -53,7 +55,7 @@ type LibraryIndex = {
   articles: Article[];
   words: Word[];
 };
-type View = 'comparisons' | 'articles' | 'lexicon';
+type View = 'comparisons' | 'articles' | 'lexicon' | 'research' | 'connections';
 type Route = { view: View; q: string; book: string; kind: string; category: string; page: number; article: string; lemma: string };
 const emptyRoute: Route = { view: 'comparisons', q: '', book: '', kind: '', category: '', page: 1, article: '', lemma: '' };
 
@@ -62,7 +64,7 @@ function currentRoute(): Route {
   const p = new URLSearchParams(location.search);
   const requested = p.get('view');
   return {
-    view: requested === 'articles' || requested === 'lexicon' ? requested : 'comparisons',
+    view: requested === 'articles' || requested === 'lexicon' || requested === 'research' || requested === 'connections' ? requested : 'comparisons',
     q: p.get('q') || '',
     book: p.get('book') || '',
     kind: p.get('kind') || '',
@@ -80,7 +82,7 @@ function includesQuery(values: (string | number | undefined)[], query: string) {
   return !needle || folded(values.filter(value => value !== undefined).join(' ')).includes(needle);
 }
 function hrefFor(route: Route, changes: Partial<Route>) {
-  const next = { ...route, ...changes };
+  const next = { ...route, ...(changes.view && changes.view !== route.view && [route.view, changes.view].some(view => view === 'research' || view === 'connections') ? emptyRoute : {}), ...changes };
   const p = new URLSearchParams();
   if (next.view !== 'comparisons') p.set('view', next.view);
   if (next.q) p.set('q', next.q);
@@ -108,13 +110,16 @@ function LibraryHeader({ offline }: { offline: boolean }) {
         <a href="/">Read</a>
         <a className="active" href="/library">Library</a>
         <a href="/about/sources">Sources &amp; Editions</a>
-        <a href="/downloads">Downloads</a>
+
+          <a href="/downloads">Downloads</a>
 
       </nav>
       <details className="mobile-nav">
         <summary>Menu</summary>
         <nav aria-label="Mobile primary">
-          <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a><a href="/downloads">Downloads</a><span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
+          <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a>
+
+          <a href="/downloads">Downloads</a><span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
         </nav>
       </details>
     </header>
@@ -140,8 +145,8 @@ function Pager({ route, pages }: { route: Route; pages: number }) {
 }
 function LibraryShelves({ recentPassages, recentStudies, bookmarks }: { recentPassages: DeviceLink[]; recentStudies: DeviceLink[]; bookmarks: DeviceLink[] }) {
   const shelves = [
-    ['Continue reading', recentPassages.slice(0, 4)],
-    ['Recently studied', recentStudies.slice(0, 4)],
+    ['Continue reading', presentRecentLinks(recentPassages, 'passage').slice(0, 4)],
+    ['Recently studied', presentRecentLinks(recentStudies, 'study').slice(0, 4)],
     ['Bookmarks', bookmarks.slice(0, 6)],
   ] as const;
   if (!shelves.some(([, items]) => items.length)) return null;
@@ -166,7 +171,7 @@ function ArticleDetail({ index, article, route }: { index: LibraryIndex; article
   }, [index.articleReleaseId, article.slug, article.contentSha256]);
   const word = index.words.find(item => item.articleSlugs.includes(article.slug));
   return <>
-    <div className="library-return"><a href={hrefFor(route, { article: '', page: 1 })}>← Browse Greek Word Studies</a></div>
+    <div className="library-return"><a href={hrefFor(route, { article: '', page: 1 })}>← Back to Study Library</a></div>
     <article className="library-article om-study-body" id="library-results">
       <p className="library-type">Ordinary Means Greek word study</p>
       <h1>{article.title}</h1>
@@ -207,7 +212,7 @@ function WordDetail({ index, word, route }: { index: LibraryIndex; word: Word; r
   const pageSize = 30, pages = Math.max(1, Math.ceil(word.occurrenceCount / pageSize));
   const page = Math.min(route.page, pages), hits = lemma?.hits.slice((page - 1) * pageSize, page * pageSize) || [];
   return <>
-    <div className="library-return"><a href={hrefFor(route, { lemma: '', page: 1 })}>← Browse Greek Lexicon</a></div>
+    <div className="library-return"><a href={hrefFor(route, { lemma: '', page: 1 })}>← Back to Study Library</a></div>
     <section className="library-word-detail" id="library-results">
       <p className="library-type">Greek lexicon and corpus data</p>
       <h1 lang="grc">{word.lemma}</h1>
@@ -229,6 +234,18 @@ function WordDetail({ index, word, route }: { index: LibraryIndex; word: Word; r
 
 export default function Library({ offline = false }: { offline?: boolean }) {
   const [route, setRoute] = useState<Route>(emptyRoute);
+  const [locationKey, setLocationKey] = useState('');
+  function navigateCollection(href: string) {
+    const next = new URL(href, location.origin);
+    if (next.pathname !== '/library') { location.assign(href); return; }
+    history.pushState({}, '', next.pathname + next.search);
+    setRoute(currentRoute()); setQueryInput(currentRoute().q); setLocationKey(next.search);
+  }
+  useEffect(() => {
+    const restore = () => { setRoute(currentRoute()); setQueryInput(currentRoute().q); setLocationKey(location.search); };
+    addEventListener('popstate', restore);
+    return () => removeEventListener('popstate', restore);
+  }, []);
   const [queryInput, setQueryInput] = useState('');
   const [index, setIndex] = useState<LibraryIndex | null>(null);
   const [error, setError] = useState('');
@@ -252,17 +269,18 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
+  const collectionQuery = ['research', 'connections'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
       const aa = a.ranges[0].start, bb = b.ranges[0].start;
       const [ab, ac, av] = aa.split('.'), [bbk, bc, bv] = bb.split('.');
       return books.find(book => book.code === ab)!.order - books.find(book => book.code === bbk)!.order || Number(ac) - Number(bc) || Number(av) - Number(bv);
-    }).filter(unit => includesQuery([unit.title, formatPassage(unit.ranges), unit.summary, unit.searchText], route.q));
-    const articles = [...index.articles].sort((a, b) => a.transliteration.localeCompare(b.transliteration)).filter(article => includesQuery([article.title, article.headword, article.transliteration, article.gloss, article.description, article.category, article.tags.join(' ')], route.q));
-    const words = [...index.words].sort((a, b) => a.lemma.localeCompare(b.lemma, 'el')).filter(word => includesQuery([word.lemma, transliterateGreek(word.lemma), word.occurrenceCount, ...word.definitions.flatMap(definition => [definition.brief, definition.strongs])], route.q));
+    }).filter(unit => includesQuery([unit.title, formatPassage(unit.ranges), unit.summary, unit.searchText], collectionQuery));
+    const articles = [...index.articles].sort((a, b) => a.transliteration.localeCompare(b.transliteration)).filter(article => includesQuery([article.title, article.headword, article.transliteration, article.gloss, article.description, article.category, article.tags.join(' ')], collectionQuery));
+    const words = [...index.words].sort((a, b) => a.lemma.localeCompare(b.lemma, 'el')).filter(word => includesQuery([word.lemma, transliterateGreek(word.lemma), word.occurrenceCount, ...word.definitions.flatMap(definition => [definition.brief, definition.strongs])], collectionQuery));
     return { comparisons, articles, words };
-  }, [index, route.q]);
+  }, [index, collectionQuery]);
   function search(event: FormEvent) {
     event.preventDefault();
     location.assign(hrefFor(route, { q: queryInput.trim(), page: 1, article: '', lemma: '' }));
@@ -273,30 +291,34 @@ export default function Library({ offline = false }: { offline?: boolean }) {
       ? writeDeviceLinks('afnt-library-bookmarks', bookmarks.filter(item => item.url !== link.url))
       : rememberDeviceLink('afnt-library-bookmarks', link, 30));
   }
-  const article = index?.articles.find(item => item.slug === route.article);
-  const word = index?.words.find(item => item.lemmaId === route.lemma);
+  const article = route.view === 'articles' && index?.articles.find(item => item.slug === route.article);
+  const word = route.view === 'lexicon' && index?.words.find(item => item.lemmaId === route.lemma);
   return <>
     <LibraryHeader offline={offline} />
     <main className="library-page">
       {article && index ? <ArticleDetail index={index} article={article} route={route} /> : word && index ? <WordDetail index={index} word={word} route={route} /> : <>
         <p className="eyebrow">Study Library</p>
-        <h1>Browse the New Testament’s textual questions and Greek words.</h1>
-        <p className="library-intro">Search reviewed textual comparisons, Ordinary Means Greek studies, and edition-specific lexicon data.</p>
-        <form className="library-search" role="search" onSubmit={search}>
+        <h1>Explore Scripture and its study resources.</h1>
+        <p className="library-intro">Choose a collection to explore textual comparisons, Greek word studies, the Greek lexicon, Septuagint texts, or NT/OT connections.</p>
+        {!['research', 'connections'].includes(route.view) && <form className="library-search" role="search" onSubmit={search}>
           <label htmlFor="library-query">Search by passage, title, Greek word, gloss, topic, or Strong’s number</label>
           <div><input id="library-query" value={queryInput} onChange={event => setQueryInput(event.target.value)} /><button>Search</button></div>
-        </form>
+        </form>}
         {error && <p role="alert" className="notice">{error}</p>}
         {!index && !error && <div className="library-skeleton" role="status" aria-label="Loading the Study Library"><span /><span /><span /></div>}
         {index && data && <>
-          <nav className="library-tabs" aria-label="Library collections">
+          <nav className="library-tabs" aria-label="Library collections" onClick={event => { const link = (event.target as HTMLElement).closest('a'); if (link && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); navigateCollection(link.getAttribute('href')!); } }}>
             <a className={route.view === 'comparisons' ? 'active' : ''} href={hrefFor(route, { view: 'comparisons', page: 1, article: '', lemma: '', category: '', kind: '' })}><strong>Textual Comparisons</strong><span>{data.comparisons.length}</span><small>Reviewed passage studies</small></a>
             <a className={route.view === 'articles' ? 'active' : ''} href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></a>
             <a className={route.view === 'lexicon' ? 'active' : ''} href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></a>
+            <a className={route.view === 'research' ? 'active' : ''} aria-current={route.view === 'research' ? 'page' : undefined} href="/library?view=research"><strong>Septuagint Research</strong><small>Search Greek texts, lemmas and morphology</small></a>
+            <a className={route.view === 'connections' ? 'active' : ''} aria-current={route.view === 'connections' ? 'page' : undefined} href="/library?view=connections"><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
           </nav>
-          <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />
+          {!['research', 'connections'].includes(route.view) && <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />}
           <section id="library-results" tabIndex={-1}>
-            {route.view === 'comparisons' && <ComparisonList route={route} units={data.comparisons} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
+            {route.view === 'research' && <GreekResearch key={locationKey} embedded onNavigate={navigateCollection} />}
+            {route.view === 'connections' && <ConnectionCatalog embedded onNavigate={navigateCollection} />}
+            {route.view === 'comparisons' && <ComparisonList route={route} units={data.comparisons} coveredBooks={new Set(index.comparisons.flatMap(unit => unit.ranges.map(range => range.start.split('.')[0])))} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
             {route.view === 'articles' && <ArticleList route={route} articles={data.articles} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
             {route.view === 'lexicon' && <WordList route={route} words={data.words} bookmarks={bookmarks} onBookmark={toggleBookmark} />}
           </section>
@@ -307,15 +329,15 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   </>;
 }
 
-function ComparisonList({ route, units, bookmarks, onBookmark }: { route: Route; units: Comparison[]; bookmarks: DeviceLink[]; onBookmark: (link: Omit<DeviceLink, 'savedAt'>) => void }) {
+function ComparisonList({ route, units, coveredBooks, bookmarks, onBookmark }: { route: Route; units: Comparison[]; coveredBooks: Set<string>; bookmarks: DeviceLink[]; onBookmark: (link: Omit<DeviceLink, 'savedAt'>) => void }) {
   const selected = units.filter(unit => (!route.book || unit.ranges[0].start.startsWith(`${route.book}.`)) && (!route.kind || unit.presentation === route.kind));
   const pageSize = 24, pages = Math.max(1, Math.ceil(selected.length / pageSize)), page = Math.min(route.page, pages);
   const visible = selected.slice((page - 1) * pageSize, page * pageSize);
   return <>
-    <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Textual Comparisons</h2><p>Reviewed questions about what the seven named editions print. Publisher notes and edition readings remain identified separately.</p></div><div className="library-filters"><label>Book<select value={route.book} onChange={event => location.assign(hrefFor(route, { book: event.target.value, page: 1 }))}><option value="">All books</option>{books.map(book => <option key={book.code} value={book.code}>{book.name}</option>)}</select></label><label>Presentation<select value={route.kind} onChange={event => location.assign(hrefFor(route, { kind: event.target.value, page: 1 }))}><option value="">All comparisons</option><option value="comparison">Edition comparison</option><option value="publisher-note">Publisher-note comparison</option></select></label></div></div>
+    <div className="library-collection-heading"><div><p className="library-type">Ordinary Means commentary</p><h2>Textual Comparisons</h2><p>Reviewed questions about what the seven named editions print. Publisher notes and edition readings remain identified separately.</p></div><div className="library-filters"><label>Book<select value={route.book} onChange={event => location.assign(hrefFor(route, { book: event.target.value, page: 1 }))}><option value="">All covered NT books</option>{route.book && !coveredBooks.has(route.book) && <option value={route.book}>{books.find(book => book.code === route.book)?.name || route.book} · no commentary in this collection</option>}{books.filter(book => coveredBooks.has(book.code)).map(book => <option key={book.code} value={book.code}>{book.name}</option>)}</select></label><label>Presentation<select value={route.kind} onChange={event => location.assign(hrefFor(route, { kind: event.target.value, page: 1 }))}><option value="">All comparisons</option><option value="comparison">Edition comparison</option><option value="publisher-note">Publisher-note comparison</option></select></label></div></div>
     <p className="library-result-count">{selected.length} {selected.length === 1 ? 'comparison' : 'comparisons'}</p>
     <div className="library-card-grid">{visible.map(unit => { const href = comparisonHref(unit), saved = bookmarks.some(item => item.url === href); return <article className="library-card comparison-card" key={unit.id}><div className="library-card-meta"><span>{unit.presentation === 'publisher-note' ? 'Publisher-note comparison' : 'Textual comparison'}</span><strong>{formatPassage(unit.ranges)}</strong></div><button className="library-bookmark" aria-pressed={saved} onClick={() => onBookmark({ url: href, label: unit.title, detail: formatPassage(unit.ranges) })}>{saved ? 'Saved' : 'Save'}</button><h3><a href={href}>{unit.title}</a></h3><div className="library-card-summary"><Markdown skipHtml>{unit.summary}</Markdown></div><p className="library-card-foot">Seven named editions · Ordinary Means explanation{unit.publisherNoteCount ? ` · ${unit.publisherNoteCount} pinned publisher notes` : ''}</p><a className="library-card-action" href={href}>Open with the passage →</a></article>; })}</div>
-    {!selected.length && <p className="notice">No textual comparisons match these filters.</p>}
+    {!selected.length && <p className="notice">No textual comparisons match these filters. This commentary collection covers selected New Testament passages. <a href={hrefFor(route, { book: '', kind: '', q: '', page: 1 })}>Clear comparison filters</a></p>}
     <Pager route={{ ...route, page }} pages={pages} />
   </>;
 }

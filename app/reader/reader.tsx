@@ -559,6 +559,7 @@ export default function Reader() {
           >
             Sources &amp; Editions
           </a>
+
           <a href="/downloads">Downloads</a>
         </nav>
         <details className="mobile-nav">
@@ -567,13 +568,13 @@ export default function Reader() {
             <a className={mode === 'read' ? 'active' : ''} href={`/read/${current.book.code}/${current.chapter}`}>Read</a>
             <a href="/library">Library</a>
             <a href={`/about/sources?translation=${encodeURIComponent(edition)}`}>Sources &amp; Editions</a>
-            <a href="/downloads">Downloads</a>
+
+          <a href="/downloads">Downloads</a>
             <span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
           </nav>
         </details>
       </header>
 
-      <p className="research-entry"><a href="/greek" onClick={e=>{e.preventDefault();navigate('/greek');}}>Septuagint research · text, lemma and morphology search →</a> · <a href="/connections" onClick={e=>{e.preventDefault();navigate('/connections');}}>NT/OT connection catalog →</a></p>
       {mode !== 'research' && mode !== 'catalog' && <div className={`toolbar${mode === 'search' ? ' search-toolbar' : ''}`}>
         {mode !== 'search' && mode !== 'research' && mode !== 'catalog' && <div className="passage-navigation">
           <button className="chapter-step" aria-label="Previous chapter" disabled={!previous} onClick={() => previous && goBook(previous.book, previous.chapter)}>←</button>

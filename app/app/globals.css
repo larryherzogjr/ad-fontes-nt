@@ -1478,3 +1478,83 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
  .connections-panel .selection-state { margin: .65rem 0; }
  .connection-settings { margin-bottom: .5rem; }
 }
+
+/* AF-OT-018: reading-first study navigation and comparison density. */
+.masthead > nav { flex-wrap: wrap; justify-content: flex-end; gap: 8px 18px; }
+.masthead .brand { flex-shrink: 0; }
+.library-tabs { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.library-tabs small, .library-shelves a strong, .library-shelves a small,
+.toolbar-label, .toolbar-search label, .study-header .eyebrow,
+.study-tabs button, .comparison-nav button, .study-actions button,
+.reader-selection-status button, .study-window-actions .study-expand { font-size: 14px; }
+.library-shelves a strong, .library-shelves a small { white-space: normal; }
+.research-advanced, .research-help { grid-column: 1 / -1; }
+.research-advanced > .greek-research-form { padding: 12px 0; }
+.research-advanced summary, .research-help summary, .catalog-about summary,
+.comparison-display-options summary { min-height: 44px; padding-block: 10px; cursor: pointer; }
+.research-help { margin-block: 8px 16px; font-size: 14px; }
+.greek-research > h1 { margin: 8px 0 12px; }
+.greek-research > .catalog-intro { margin: 0 0 16px; }
+.edition-choices { display: grid; gap: 8px; margin-block: 8px; padding: 12px; min-width: 0; }
+.edition-choices label { display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; }
+.edition-choices input { width: 18px; height: 18px; min-height: 0; padding: 0; flex-shrink: 0; }
+.comparison-display-options { margin-bottom: 16px; }
+.comparison-display-options .study-controls { align-items: center; }
+.compact-edition-group { display: none; }
+.study-dialog .comparison-readings.comparison-compact { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%, 260px), 1fr)); gap: 16px; align-items: start; }
+.comparison-compact > .comparison-group:not(.lxx-comparison) { display: contents; }
+.comparison-compact > .comparison-group:not(.lxx-comparison) > h3 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.comparison-compact .compact-edition-group { display: block; margin: 0 0 6px; font-size: 14px; color: var(--muted-foreground); }
+.comparison-compact .edition-reading, .comparison-compact .lxx-comparison { margin: 0; padding: 14px; border: 1px solid var(--border); border-radius: 6px; min-width: 0; overflow-wrap: anywhere; }
+.comparison-compact .edition-reading h4 { margin: 0 0 8px; }
+.comparison-compact .comparison-scripture { font-size: 18px; line-height: 1.65; margin-block: 12px; }
+.comparison-compact .edition-reading > a { display: inline-block; min-height: 44px; padding-block: 10px; }
+.study-dialog .comparison-readings[hidden], .comparison-display-options[hidden] { display: none; }
+.connections-panel .connected-passages { gap: 8px; margin-top: 8px; }
+.connections-panel .connection-chooser { margin: 0; }
+.connections-panel .connection-chooser > summary { min-height: 44px; padding-block: 10px; }
+.connections-panel .selection-state { margin: 0; font-size: 14px; }
+.connections-display-controls { margin-block: 0; padding-block: 6px; border-bottom: 0; }
+.connections-panel .connection-settings { margin: 0; }
+.connection-settings > summary { min-height: 44px; padding-block: 10px; font-size: 14px; }
+@media (min-width: 651px) and (max-width: 1099px) {
+ .masthead { flex-wrap: wrap; }
+ .masthead > nav { justify-content: flex-start; }
+}
+@media (max-width: 650px) {
+ .study-tabs button, .comparison-nav button, .study-actions button,
+ .reader-selection-status button { font-size: 14px; }
+ .study-content { padding: 12px 16px 28px; }
+ .connections-panel .selection-state { margin: 0; }
+ .connections-panel .connected-passages article { padding: 12px; }
+ .greek-research { margin-top: 0; }
+ .greek-research > h1 { font-size: 30px; line-height: 1.2; }
+ .greek-research > .eyebrow { margin-bottom: 6px; }
+ .greek-research-form { gap: 10px; }
+ .library-page > h1 { font-size: 30px; }
+ .library-intro { font-size: 16px; }
+ .library-search { margin-block: 20px; }
+ .library-tabs { margin-block: 20px; }
+ .comparison-compact .comparison-scripture { font-size: 20px; }
+}
+.tool-label-short { display: none; }
+@media (max-width: 650px) {
+ .study-tabs .tool-label-full { display: none; }
+ .study-tabs .tool-label-short { display: inline; }
+}
+.comparison-limits { margin-bottom: 10px; font-size: 14px; }
+.comparison-limits > summary { min-height: 44px; padding-block: 10px; cursor: pointer; }
+@media (max-width: 650px) {
+ .comparison-nav .tool-label-full, .study-header .tool-label-full { display: none; }
+ .comparison-nav .tool-label-short, .study-header .tool-label-short { display: inline; }
+ .comparison-display-options .study-controls { gap: 6px; }
+ .comparison-display-options .study-controls span { font-size: 14px; }
+}
+
+/* Library research collections share the Library shell and result alignment. */
+.library-page #library-results > .greek-research { max-width: none; margin: 0; }
+.library-page #library-results > .greek-research > h2 { margin: 8px 0 12px; }
+@media (min-width: 1200px) {
+  .library-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .library-tabs strong { font-size: 18px; }
+}

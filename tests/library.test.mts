@@ -35,8 +35,8 @@ test('selected UX keeps item bookmarks but omits saved views and panel resizing'
 test('textual studies retain Close and link back to the comparison collection', async () => {
   const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
   assert.match(panel, /aria-label="Close study panel"/);
-  assert.match(panel, /aria-label="Textual comparison collection"/);
-  assert.match(panel, /<a href="\/library">← Browse Textual Comparisons<\/a>/);
+  assert.match(panel, /aria-label="Study Library return"/);
+  assert.match(panel, /← Back to Study Library<\/a>/);
   assert.match(panel, /mode !== 'greek'/);
 });
 
@@ -50,4 +50,35 @@ test('Library keeps publisher-note comparisons and commentary links explicit', (
   assert.equal(mysterion.category, 'Baptism and the Supper');
   assert.equal(lemma.occurrenceCount, 27);
   assert.deepEqual(lemma.articleSlugs, ['mysterion']);
+});
+
+test('recent reading presentation consolidates stale tool parameters without modifying history', async () => {
+  const { presentRecentLinks } = await import('../app/lib/device-links.ts');
+  const history = [
+    {url:'/read/HEB/8?translation=BSB&passage=HEB.8.12&connection=pair&connectionView=greek',label:'Hebrews 8:12',savedAt:2},
+    {url:'/read/HEB/8?passage=HEB.8.12&translation=BSB',label:'Hebrews 8:12',savedAt:1},
+    {url:'/read/HEB/8?translation=YLT&passage=HEB.8.12',label:'Hebrews 8:12',savedAt:0},
+  ];
+  const original = structuredClone(history);
+  const displayed = presentRecentLinks(history, 'passage');
+  assert.equal(displayed.length, 2);
+  assert.ok(!displayed[0].url.includes('connection'));
+  assert.deepEqual(history, original);
+});
+
+test('recent studies label distinct displays and consolidate equivalent commentary links', async () => {
+  const { presentRecentLinks } = await import('../app/lib/device-links.ts');
+  const base = '/read/HEB/8?translation=BSB&passage=HEB.8.12&panel=connections&connection=pair';
+  const links = [
+    {url:base+'&connectionView=greek',label:'Hebrews connection',savedAt:5},
+    {url:base+'&connectionView=english',label:'Hebrews connection',savedAt:4},
+    {url:base,label:'Hebrews connection',savedAt:3},
+    {url:base+'&connectionView=both',label:'Hebrews connection',savedAt:2},
+    {url:'/read/JHN/1?passage=JHN.1.18&panel=compare&unit=candidate-15',label:'John study',savedAt:1},
+    {url:'/read/JHN/1?panel=compare&passage=JHN.1.18',label:'John study',savedAt:0},
+  ];
+  const shown = presentRecentLinks(links, 'study');
+  assert.equal(shown.length, 4);
+  assert.deepEqual(shown.slice(0,3).map(link => link.detail), ['Connections · Greek','Connections · English','Connections · English and Greek']);
+  assert.equal(shown[0].url, links[0].url);
 });

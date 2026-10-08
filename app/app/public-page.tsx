@@ -21,6 +21,7 @@ export default function PublicPage({
           <Link href="/">Read</Link>
           <Link href="/library">Library</Link>
           <Link href="/about/sources">Sources &amp; Editions</Link>
+
           <Link href="/downloads">Downloads</Link>
 
         </nav>
@@ -30,7 +31,8 @@ export default function PublicPage({
             <Link href="/">Read</Link>
             <Link href="/library">Library</Link>
             <Link href="/about/sources">Sources &amp; Editions</Link>
-            <Link href="/downloads">Downloads</Link>
+
+          <Link href="/downloads">Downloads</Link>
 
             <span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
           </nav>

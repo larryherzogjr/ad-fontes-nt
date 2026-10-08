@@ -5,6 +5,38 @@ export type DeviceLink = {
   savedAt: number;
 };
 
+/** Present old and new history consistently without rewriting saved device data. */
+export function presentRecentLinks(links: DeviceLink[], kind: 'passage' | 'study'): DeviceLink[] {
+  const seen = new Set<string>();
+  return links.flatMap(link => {
+    let url: URL;
+    try { url = new URL(link.url, 'https://local.invalid'); } catch { return []; }
+    const params = url.searchParams;
+    if (kind === 'passage') {
+      for (const key of [...params.keys()]) {
+        if (key !== 'translation' && key !== 'passage') params.delete(key);
+      }
+    } else {
+      // A resolved study title and passage identify the same commentary even
+      // when one historical URL omits its explicit unit parameter.
+      params.delete('unit');
+      params.delete('comparisonLayout');
+      if (params.get('panel') === 'connections' && !params.has('connectionView')) params.set('connectionView', 'both');
+    }
+    params.sort();
+    const identity = `${url.pathname}?${params}|${kind === 'study' ? link.label : ''}`;
+    if (seen.has(identity)) return [];
+    seen.add(identity);
+    const view = params.get('connectionView');
+    const context = params.get('panel') === 'connections'
+      ? `Connections · ${view === 'greek' ? 'Greek' : view === 'english' ? 'English' : 'English and Greek'}`
+      : params.get('panel') === 'greek' ? 'Greek exploration'
+        : params.get('panel') === 'compare' ? `Edition comparison · ${params.get('compareEditions')?.split(',').join(' / ') || 'All editions'}`
+          : params.get('panel') === 'notes' ? 'Publisher-note study' : '';
+    return [{ ...link, ...(kind === 'passage' ? { url: url.pathname + url.search } : {}), detail: [context, link.detail].filter(Boolean).join(' · ') }];
+  });
+}
+
 export function readDeviceLinks(key: string): DeviceLink[] {
   if (typeof window === 'undefined') return [];
   try {

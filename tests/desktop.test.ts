@@ -147,7 +147,7 @@ test('the shared macOS and Windows reader bundle includes reader controls and ed
   assert.match(javascript, /Manuscript evidence plate/);
   assert.match(javascript, /cannot establish/);
   assert.match(javascript, /complete artifact view/);
-  assert.match(javascript, /Browse Textual Comparisons/);
+  assert.match(javascript, /Back to Study Library/);
 });
 
 test('all editions and search operate using only packaged files; missing data stays unavailable', async () => {
