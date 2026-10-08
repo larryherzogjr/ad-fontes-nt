@@ -34,7 +34,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '2.0.0');
+  assert.equal(config.version, '2.1.0');
   assert.equal(packageMetadata.version, config.version);
   assert.match(cargoManifest, /^version = "2\.0\.0"$/m);
   assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "2\.0\.0"/);
