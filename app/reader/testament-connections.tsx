@@ -1,4 +1,5 @@
 'use client';
+import ConnectionCitation from './connection-citation';
 import { useEffect, useState } from 'react';
 import { loadConnectionCatalog, connectionPairKey, connectionMatches, type TestamentConnection } from '@/lib/domain/testament-connections';
 import { getCorpus, editions, editionsFor, type Segment } from '@/lib/domain/corpus';
@@ -40,7 +41,7 @@ export default function TestamentConnections({ranges, edition, embedded = false,
   const selectedPair=selected?[selected.sourceRanges,selected.targetRanges].sort((a,b)=>Number(isOtBook(address(a[0].start).book.code))-Number(isOtBook(address(b[0].start).book.code))):[];
   const connectionList = <ul className="connection-list">{[...groups.values()].map(cs=>{const c=cs[0];return <li key={c.id}>
       <button aria-pressed={!!selected&&cs.some(x=>x.id===selected.id)} onClick={()=>{setSelected(c);setSelectionNotice('');if(embedded){const url=new URL(location.href);url.searchParams.set('connection',c.id);url.searchParams.delete('ntDisplay');url.searchParams.delete('otDisplay');url.searchParams.delete('display');history.replaceState({},'',url.pathname+url.search);}if(embedded)requestAnimationFrame(()=>document.querySelector<HTMLElement>('.study-dialog .connected-passages h2')?.focus());}}>{formatPassage(c.sourceRanges)} ↔ {formatPassage(c.targetRanges)} · {labels.find(l=>l.connectionIds.includes(c.id))?.kind || 'Publisher reference'}</button><small className="connection-anchor-label">Publisher {c.kind==='publisher-heading-reference'?'heading':'note'} at {formatPassage(c.sourceRanges)} · {c.sourceEdition}</small>
-      <details><summary>Publisher citation{cs.length>1?'s':''}</summary>{cs.map(item=><div key={item.id}><p>{item.publisherNote}</p><small>{item.sourceEdition} · {item.sourceRelease} · {item.noteId}</small></div>)}</details>
+      <details><summary>Publisher citation{cs.length>1?'s':''}</summary>{cs.map(item=><div key={item.id}><p><ConnectionCitation citation={item} /></p><small>{item.sourceEdition} · {item.sourceRelease} · {item.noteId}</small></div>)}</details>
     </li>;})}</ul>;
   const currentOt = isOtBook(address(ranges[0].start).book.code);
   const oppositeRanges = selected && (displaySides || [selected.sourceRanges,selected.targetRanges]).find(rs => isOtBook(address(rs[0].start).book.code) !== currentOt);

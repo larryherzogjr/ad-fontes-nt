@@ -1,4 +1,5 @@
 'use client';
+import { noteContent } from './publisher-note-content';
 import { useEffect, useRef, useState } from 'react';
 import {version as desktopVersion} from '@/package.json';
 import { writeClipboard } from '@/lib/clipboard';
@@ -44,19 +45,6 @@ function get(k: string) {
   } catch {
     return null;
   }
-}
-function noteContent(x: unknown, i = 0): React.ReactNode {
-  if (typeof x === 'string') return x;
-  if (!x || typeof x !== 'object') return null;
-  const n = x as { marker?: string; content?: unknown[] };
-  const c = n.content?.map((v, j) => noteContent(v, j));
-  return n.marker === 'fv' ? (
-    <sup key={i}>{c} </sup>
-  ) : n.marker === 'fqa' ? (
-    <i key={i}>{c}</i>
-  ) : (
-    <span key={i}>{c}</span>
-  );
 }
 export default function Reader() {
   const environment = useReaderEnvironment();

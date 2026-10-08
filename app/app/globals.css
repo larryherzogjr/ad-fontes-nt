@@ -1558,3 +1558,6 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
   .library-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .library-tabs strong { font-size: 18px; }
 }
+
+/* Preserve publisher-marked verse numbers without shrinking numerical prose. */
+.connection-citation sup { font-size: 0.7em; line-height: 0; vertical-align: super; }
