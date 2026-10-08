@@ -34,7 +34,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '2.1.1');
+  assert.equal(config.version, '2.1.2');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
