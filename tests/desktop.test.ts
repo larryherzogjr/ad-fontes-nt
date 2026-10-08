@@ -36,8 +36,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
   assert.equal(config.version, '2.1.0');
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "2\.0\.0"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "2\.0\.0"/);
+  assert.match(cargoManifest, /^version = "2\.1\.0"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "2\.1\.0"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
