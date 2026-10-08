@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
-const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
+const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       width: 1730,
       height: 909,
       type: 'image/png',
-      alt: 'Ad Fontes NT Desktop Downloads for macOS Apple Silicon and Windows 11 x64, with an open book on deep navy.',
+      alt: 'Ad Fontes Desktop Downloads for macOS Apple Silicon and Windows 11 x64, with an open book on deep navy.',
     }],
   },
   twitter: {

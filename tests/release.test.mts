@@ -69,7 +69,7 @@ test('public desktop download page exposes only the approved 2.1.1 installers', 
   assert.doesNotMatch(page, /private account-backed\s+notes remain available in the web app/);
   assert.doesNotMatch(page, /desktop-updates\/stable\/latest\.json/);
   assert.match(page, /https:\/\/ad-fontes\.app\/downloads/);
-  assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20260911/);
+  assert.match(page, /https:\/\/ad-fontes\.app\/og-downloads\.png\?v=20261008/);
   assert.match(page, /summary_large_image/);
   await stat('app/public/og-downloads.png');
 });

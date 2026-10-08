@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Reader from './reader';
 
-const socialImageUrl = 'https://ad-fontes.app/og.png?v=20260907';
+const socialImageUrl = 'https://ad-fontes.app/og.png?v=20261008';
 
 export const metadata: Metadata = {
   openGraph: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       width: 1730,
       height: 909,
       type: 'image/png',
-      alt: 'Ad Fontes NT — A New Testament study environment from Ordinary Means. Ivory lettering and an open book on deep navy.',
+      alt: 'Ad Fontes — A biblical study environment from Ordinary Means. Ivory lettering and an open book on deep navy.',
     }],
   },
   twitter: {
