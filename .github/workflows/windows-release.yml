@@ -151,13 +151,6 @@ jobs:
           }
       - name: Build signed NSIS installer and updater payload
         run: npm run desktop:build -- --bundles nsis --config ci-windows-release.json -- --locked
-      - name: Verify renamed installation and upgrade from 2.1.0
-        timeout-minutes: 15
-        shell: pwsh
-        run: |
-          $installers = @(Get-ChildItem 'app/desktop/src-tauri/target/release/bundle/nsis/*-setup.exe')
-          if ($installers.Count -ne 1) { throw 'Expected exactly one Windows installer' }
-          & deployment/test-windows-name-upgrade.ps1 -Installer $installers[0].FullName
       - name: Verify and collect signed release
         shell: pwsh
         run: |
@@ -206,6 +199,13 @@ jobs:
           path: artifacts/desktop/windows/
           retention-days: 30
           if-no-files-found: error
+      - name: Verify renamed installation and upgrade from 2.1.0
+        timeout-minutes: 15
+        shell: pwsh
+        run: |
+          $installers = @(Get-ChildItem 'app/desktop/src-tauri/target/release/bundle/nsis/*-setup.exe')
+          if ($installers.Count -ne 1) { throw 'Expected exactly one Windows installer' }
+          & deployment/test-windows-name-upgrade.ps1 -Installer $installers[0].FullName
       - name: Report build result
         shell: pwsh
         run: |

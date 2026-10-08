@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 if ($env:GITHUB_ACTIONS -ne 'true') { throw 'Run only on a disposable GitHub Actions runner.' }
 $uninstallKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Ad Fontes NT'
 $installKey = 'HKCU:\Software\ad-fontes\Ad Fontes NT'
-if (Test-Path $uninstallKey) { throw 'Runner already contains an installation; refusing to alter it.' }
+if ((Test-Path $uninstallKey) -or (Test-Path $installKey)) { throw 'Runner already contains an installation or saved install location; refusing to alter it.' }
 $legacy = Join-Path $env:RUNNER_TEMP 'ad-fontes-2.1.0-verified.exe'
 & curl.exe --fail --location --silent --show-error --retry 3 --max-time 300 --output $legacy 'https://ad-fontes.app/beta-downloads/2.1.0/Ad-Fontes-NT-Windows-x64-2.1.0.exe'
 if ($LASTEXITCODE -ne 0) { throw 'Legacy installer download failed' }
@@ -54,6 +54,10 @@ foreach ($folder in $folders) {
   if (Test-Path (Join-Path $folder 'Ad Fontes.lnk')) { throw 'Renamed shortcut remains after uninstall' }
 }
 Write-Host 'PASS: repeated upgrade and renamed shortcut/uninstall cleanup.'
+# NSIS deliberately preserves the remembered folder unless app-data removal is selected.
+# Clear only the location key this test created on the initially empty runner,
+# so the fresh-install case represents a new user rather than a reinstall.
+if (Test-Path $installKey) { Remove-Item -LiteralPath $installKey -Recurse }
 # Fresh installs get the new folder and display name, with the same stable identity.
 Install (Resolve-Path $Installer).Path @('/S')
 $fresh = (Get-Item $installKey).GetValue('')
