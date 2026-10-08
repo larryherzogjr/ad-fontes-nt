@@ -30,7 +30,7 @@ $sentinel = Join-Path $data 'rename-upgrade-test.txt'
 Set-Content $sentinel 'preserve-existing-device-data'
 Install (Resolve-Path $Installer).Path @('/S','/UPDATE')
 $after = Get-ItemProperty $uninstallKey
-if ($after.DisplayVersion -ne '2.1.2' -or $after.DisplayName -ne 'Ad Fontes') { throw 'Renamed installed entry/version mismatch' }
+if ($after.DisplayVersion -ne '2.1.3' -or $after.DisplayName -ne 'Ad Fontes') { throw 'Renamed installed entry/version mismatch' }
 if ((Get-Item $installKey).GetValue('') -ne $location) { throw 'Existing installation moved unexpectedly' }
 if (Test-Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Ad Fontes') { throw 'Duplicate uninstall entry created' }
 $wsh = New-Object -ComObject WScript.Shell
@@ -44,7 +44,7 @@ if ((Get-Content $sentinel) -ne 'preserve-existing-device-data') { throw 'Existi
 $signature = Get-AuthenticodeSignature $executable
 if ($signature.Status -ne 'Valid') { throw 'Installed executable signature invalid' }
 if ((Get-Item $executable).VersionInfo.ProductName -ne 'Ad Fontes') { throw 'Executable product name mismatch' }
-Write-Host 'PASS: 2.1.0 -> 2.1.2 upgrade preserves location/data, uses one uninstall entry, and renames both shortcuts.'
+Write-Host 'PASS: 2.1.0 -> 2.1.3 upgrade preserves location/data, uses one uninstall entry, and renames both shortcuts.'
 # Repeated updater execution must remain idempotent.
 Install (Resolve-Path $Installer).Path @('/S','/UPDATE')
 if ((Get-ItemProperty $uninstallKey).DisplayName -ne 'Ad Fontes') { throw 'Repeated upgrade failed' }
