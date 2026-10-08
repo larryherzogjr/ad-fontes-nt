@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20260911';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 2.1.0 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 2.1.1 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.0/Ad-Fontes-NT-macOS-Apple-Silicon-2.1.0.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.0/Ad-Fontes-NT-Windows-x64-2.1.0.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.1/Ad-Fontes-macOS-Apple-Silicon-2.1.1.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.1/Ad-Fontes-Windows-x64-2.1.1.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 2.1.0 includes whole-Bible English reading and comparison,
+        Version 2.1.1 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
-        to your desktop. It also includes all 104 reviewed textual comparisons,
+        on your desktop. It also includes all 104 reviewed textual comparisons,
         their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
         lexicon. Reading and these study resources work offline.
         Choose the package for your computer.
@@ -69,22 +69,23 @@ export default function DownloadsPage() {
 
       <h2>Installing</h2>
       <p>
-        On macOS, open the disk image and drag Ad Fontes NT into Applications.
+        On macOS, open the disk image and drag Ad Fontes into Applications.
         On Windows, open the downloaded installer and follow its prompts.
+      </p>
+
+      <p>
+        Already have Ad Fontes NT? Use its built-in updater to keep your existing
+        installation and saved preferences. On macOS, this also avoids adding a
+        second copy when the app’s name changes.
       </p>
 
       <h2>Release notes</h2>
       <p>
-        Version 2.1.0 brings Septuagint Research and NT/OT Connections into
-        Study Library, with consistent return links and clearer search controls.
-        Choose editions in Compact or Comfortable comparisons, make an edition
-        the main reading, or swap NT/OT passages while keeping your study open.
-        Recent-study labels and phone controls are easier to read. Personal notes, accounts
-        and Google sign-in have been retired. Publisher footnotes, existing
-        Ordinary Means commentary and local reading preferences remain.
-        The installed app retains the Ad Fontes NT package name and existing
-        signing identity. It checks for future stable updates and asks before
-        downloading or installing them.
+        Version 2.1.1 renames the installed app from Ad Fontes NT to Ad Fontes.
+        It keeps your reading preferences, study resources and existing signing
+        identity, along with all Study Library and passage-switching improvements
+        from 2.1.0. The app checks for stable updates and asks before downloading
+        or installing them. Personal notes and Google sign-in remain retired.
       </p>
 
       <p>
