@@ -4,7 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 version=2.0.0
-staging="$HOME/ad-fontes-public-download-staging/$version"
+staging="$HOME/ad-fontes-public-download-staging/$version-053ddfc"
 destination="/var/www/ad-fontes-downloads/$version"
 manifest="$PWD/public-desktop-downloads-$version.sha256"
 mac_name=Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg
@@ -15,9 +15,9 @@ windows_source=/var/www/ad-fontes-updates/releases/2.0.0/ad-fontes-nt-2.0.0-wind
 [[ -z $(git status --porcelain --untracked-files=no) ]] || { echo 'Tracked host edits need review.' >&2; exit 1; }
 [[ $(git rev-parse --abbrev-ref HEAD) == main ]] || { echo 'Host checkout must be on main.' >&2; exit 1; }
 [[ -f "$staging/$mac_name" ]] || { echo 'The notarized macOS DMG is not staged.' >&2; exit 1; }
-[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == 8a238c64217e09a8a5960c18c0d30d20d1e8f56b793ea5b44904cae256cad70c ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
+[[ $(sha256sum "$staging/$mac_name" | cut -d ' ' -f 1) == ba0ed8efb48c54bbd536fd23e4e17c9259917e3c4fdd2cfbecea41ecb528150b ]] || { echo 'Staged macOS DMG checksum mismatch.' >&2; exit 1; }
 [[ -f "$windows_source" ]] || { echo 'The published Windows 2.0.0 installer is missing.' >&2; exit 1; }
-[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == 1099a9b5253f4c1bcff6b37f73f2bc1b0100596b4c9f5f23e6535dc912def393 ]] || { echo 'Published Windows 2.0.0 checksum mismatch.' >&2; exit 1; }
+[[ $(sha256sum "$windows_source" | cut -d ' ' -f 1) == c7014040c30de0ad28b1c8736a46ba71f5b4f3a6ab9c90c72b8955b750e68984 ]] || { echo 'Published Windows 2.0.0 checksum mismatch.' >&2; exit 1; }
 
 sudo -v
 sudo test ! -e "$destination" || { echo 'Immutable public download destination already exists.' >&2; exit 1; }

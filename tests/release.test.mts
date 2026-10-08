@@ -79,12 +79,12 @@ test('final public installer publication is pinned to the approved signed bytes'
   const checksums = await readFile('deployment/public-desktop-downloads-2.0.0.sha256', 'utf8');
   assert.match(publish, /version=2\.0\.0\n/);
   assert.doesNotMatch(publish, /1\.0\.0-rc\./);
-  assert.match(publish, /8a238c64217e09a8a5960c18c0d30d20d1e8f56b793ea5b44904cae256cad70c/);
-  assert.match(publish, /1099a9b5253f4c1bcff6b37f73f2bc1b0100596b4c9f5f23e6535dc912def393/);
+  assert.match(publish, /ba0ed8efb48c54bbd536fd23e4e17c9259917e3c4fdd2cfbecea41ecb528150b/);
+  assert.match(publish, /c7014040c30de0ad28b1c8736a46ba71f5b4f3a6ab9c90c72b8955b750e68984/);
   assert.equal(
     checksums,
-    '8a238c64217e09a8a5960c18c0d30d20d1e8f56b793ea5b44904cae256cad70c  Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg\n' +
-      '1099a9b5253f4c1bcff6b37f73f2bc1b0100596b4c9f5f23e6535dc912def393  Ad-Fontes-NT-Windows-x64-2.0.0.exe\n',
+    'ba0ed8efb48c54bbd536fd23e4e17c9259917e3c4fdd2cfbecea41ecb528150b  Ad-Fontes-NT-macOS-Apple-Silicon-2.0.0.dmg\n' +
+      'c7014040c30de0ad28b1c8736a46ba71f5b4f3a6ab9c90c72b8955b750e68984  Ad-Fontes-NT-Windows-x64-2.0.0.exe\n',
   );
 });
 
