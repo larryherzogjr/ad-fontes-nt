@@ -260,3 +260,11 @@ Larry Herzog Jr. approved all 288 proposed quotation records in the v3 packet (u
 AF-OT-013 is implemented locally through `reviewed-connections-2026-10-07-v2`: 288 quotation classifications and approved fuller NT display selections. Original eight-label v1 bytes remain preserved; seven overlapping quotation labels are superseded for active display, retaining the original allusion: 289 active classified pairs (288 quotations, one allusion). The connections panel defaults to approved spans, supports persistent manual overrides, and can restore publisher anchors or approved selections. This records classification/display approval, not exclusive LXX dependence or new theological commentary.
 
 M5 pilot, package-size/performance evaluation, signed distribution and release acceptance remain outstanding; MVP is incomplete. No deployment or native signing identity change.
+
+## October 8 · Lenski commentary (AFNT-108)
+
+Larry authorizes integrating the supplied Lenski NT text on his recorded public-domain determination. Add a distinct historical-commentary collection and reader panel, immutable source/output pins, explicit passage exceptions, preserved Greek/prose and conservative chapter fallback for unresolved anchors. This is a shared web/offline feature; public deployment and signed desktop release remain separate. See `Lenski-Implementation-2026-10-08.md` for coverage, source limitations and verification. Existing Scripture/analysis/editorial releases and M5/MVP status are unchanged.
+
+## Authorized K&D chapter commentary — 2026-10-08
+
+AF-OT-021 adds the user-supplied Keil & Delitzsch OT commentary on Larry's stated public-domain determination, alongside Lenski in the shared Library/reader and offline asset bundle. Supplied chapter groups and prose are preserved; explicit related-source links address cross-group exposition. Hebrew numbering and imperfect extraction boundaries preclude a claim of precise canonical verse alignment. The initial local scope is chapter reading/search; future exact alignment needs reviewed mapping decisions. See `KD-Implementation-2026-10-08.md`. No deployment or new signed release is included; M5/MVP remain incomplete.

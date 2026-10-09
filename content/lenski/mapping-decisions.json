@@ -1,0 +1,1775 @@
+{
+  "schemaVersion": 1,
+  "description": "Engineering inspection of supplied text; not a new theological review. Zero-based paragraph locators preserve source text.",
+  "exclude": {
+    "MRK.1": [
+      37,
+      41,
+      46,
+      49
+    ],
+    "JHN.1": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "1TI.1": [
+      13,
+      14,
+      15,
+      16,
+      27,
+      28,
+      29,
+      30
+    ],
+    "ROM.5": [
+      112,
+      113,
+      114,
+      115
+    ],
+    "1CO.6": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "1CO.11": [
+      186,
+      187,
+      188
+    ],
+    "1CO.12": [
+      101,
+      102
+    ],
+    "EPH.3": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "HEB.8": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "2CO.10": [
+      11
+    ],
+    "MAT.5": [
+      122
+    ]
+  },
+  "include": {
+    "MAT.5": [
+      {
+        "paragraph": 17,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Introduction and the Theme "
+      }
+    ],
+    "MRK.1": [
+      {
+        "paragraph": 52,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Introduction "
+      }
+    ],
+    "ACT.2": [
+      {
+        "paragraph": 10,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Coming of the Holy Spirit "
+      },
+      {
+        "paragraph": 45,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Peter’s Pentecostal Sermon "
+      },
+      {
+        "paragraph": 139,
+        "start": 37,
+        "end": 37,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Effect of Peter’s Sermon "
+      },
+      {
+        "paragraph": 163,
+        "start": 42,
+        "end": 42,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The First Picture of the Mother Congregation at Jerusalem "
+      }
+    ],
+    "ACT.4": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Peter and John Before the Sanhedrin "
+      },
+      {
+        "paragraph": 58,
+        "start": 23,
+        "end": 23,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Prayer of the Apostles "
+      },
+      {
+        "paragraph": 88,
+        "start": 32,
+        "end": 32,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Second Picture of the Mother Congregation at Jerusalem "
+      }
+    ],
+    "ACT.5": [
+      {
+        "paragraph": 75,
+        "start": 26,
+        "end": 26,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Twelve Before the Sanhedrin "
+      }
+    ],
+    "ACT.7": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Stephen’s Defense "
+      },
+      {
+        "paragraph": 140,
+        "start": 54,
+        "end": 54,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Stephen Stoned "
+      }
+    ],
+    "ACT.8": [
+      {
+        "paragraph": 67,
+        "start": 26,
+        "end": 26,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Ethiopian Eunuch "
+      }
+    ],
+    "ACT.11": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Peter Justifies The Reception of The Gentiles "
+      },
+      {
+        "paragraph": 34,
+        "start": 19,
+        "end": 19,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Church at Antioch "
+      }
+    ],
+    "ACT.15": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Apostolic Convention at Jerusalem "
+      },
+      {
+        "paragraph": 110,
+        "start": 36,
+        "end": 36,
+        "prefix": "The Second Missionary Journey: Paul and Silas Reach Troas ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.18": [
+      {
+        "paragraph": 56,
+        "start": 18,
+        "end": 18,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "End of the Second and Beginning of the Third Missionary Journey "
+      }
+    ],
+    "ACT.21": [
+      {
+        "paragraph": 58,
+        "start": 17,
+        "end": 17,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul is Made a Prisoner "
+      }
+    ],
+    "ACT.22": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s Address from the Castle Stairs and Its Outcome "
+      },
+      {
+        "paragraph": 43,
+        "start": 22,
+        "end": 22,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Effect of Paul’s Address "
+      }
+    ],
+    "ACT.23": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Before the Sanhedrin and His Transfer to Caesarea "
+      }
+    ],
+    "ACT.24": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Held by Felix in Caesarea "
+      }
+    ],
+    "ACT.25": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Compelled to Appeal to Caesar "
+      },
+      {
+        "paragraph": 38,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Festus Presents Paul’s Case to Agrippa "
+      }
+    ],
+    "ACT.26": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s Address Before Agrippa "
+      }
+    ],
+    "ACT.27": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "From Caesarea to Malta "
+      }
+    ],
+    "ACT.28": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "From Malta to Rome "
+      },
+      {
+        "paragraph": 45,
+        "start": 17,
+        "end": 17,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul in Rome "
+      }
+    ],
+    "ROM.1": [
+      {
+        "paragraph": 42,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Salutation "
+      },
+      {
+        "paragraph": 117,
+        "start": 8,
+        "end": 8,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Introduction and Theme "
+      }
+    ],
+    "ROM.9": [
+      {
+        "paragraph": 82,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Mercy "
+      },
+      {
+        "paragraph": 164,
+        "start": 30,
+        "end": 30,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Gentile Faith — Jewish Unbelief "
+      }
+    ],
+    "ROM.10": [
+      {
+        "paragraph": 65,
+        "start": 16,
+        "end": 16,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Jewish Unbelief — Gentile Faith "
+      }
+    ],
+    "2CO.2": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Desire not to Come in Sorrow "
+      },
+      {
+        "paragraph": 31,
+        "start": 5,
+        "end": 5,
+        "prefix": "VI. The Case of Incest Is Closed ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 79,
+        "start": 12,
+        "end": 12,
+        "prefix": "VII. Thanks and Triumph ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.4": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Though Our Gospel Remains Veiled in Many "
+      }
+    ],
+    "GAL.3": [
+      {
+        "paragraph": 42,
+        "start": 6,
+        "end": 6,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The all-decisive case of Abraham "
+      },
+      {
+        "paragraph": 71,
+        "start": 10,
+        "end": 10,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The all-decisive exclusion of works of law "
+      },
+      {
+        "paragraph": 115,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "It certainly cannot upset or alter God’s own testament "
+      },
+      {
+        "paragraph": 180,
+        "start": 23,
+        "end": 23,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The law was only a guardsman and a paidagogos "
+      },
+      {
+        "paragraph": 163,
+        "start": 21,
+        "end": 21,
+        "prefix": "The great lack in the law: its inability to produce life ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "GAL.5": [
+      {
+        "paragraph": 1,
+        "start": 2,
+        "end": 2,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The sharp warning against accepting circumcision "
+      },
+      {
+        "paragraph": 31,
+        "start": 7,
+        "end": 7,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s final warnings and his confidence in the Galatians "
+      },
+      {
+        "paragraph": 66,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Liberty exercised by means of love "
+      },
+      {
+        "paragraph": 86,
+        "start": 16,
+        "end": 16,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Following the spirit and not the flesh "
+      }
+    ],
+    "GAL.6": [
+      {
+        "paragraph": 20,
+        "start": 6,
+        "end": 6,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Receiving and imparting spiritual excellence "
+      }
+    ],
+    "EPH.1": [
+      {
+        "paragraph": 52,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Greeting "
+      },
+      {
+        "paragraph": 67,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Doxology "
+      },
+      {
+        "paragraph": 136,
+        "start": 7,
+        "end": 7,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Second Member of the Doxology "
+      },
+      {
+        "paragraph": 176,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Third Member of the Doxology "
+      },
+      {
+        "paragraph": 191,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Prayer for Knowledge "
+      }
+    ],
+    "EPH.2": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Quickening "
+      },
+      {
+        "paragraph": 56,
+        "start": 11,
+        "end": 11,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Peace "
+      },
+      {
+        "paragraph": 108,
+        "start": 19,
+        "end": 19,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Sanctuary in the Lord "
+      }
+    ],
+    "EPH.3": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s own Great Work "
+      },
+      {
+        "paragraph": 74,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s Intercession for the Ephesians "
+      }
+    ],
+    "EPH.4": [
+      {
+        "paragraph": 5,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Admonition to Unity "
+      },
+      {
+        "paragraph": 22,
+        "start": 4,
+        "end": 4,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Unit Basis "
+      },
+      {
+        "paragraph": 40,
+        "start": 7,
+        "end": 7,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Unifying Work "
+      },
+      {
+        "paragraph": 199,
+        "start": 25,
+        "end": 25,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Admonitions not to Wrong our Neighbor "
+      }
+    ],
+    "EPH.5": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Admonition against Filthiness "
+      },
+      {
+        "paragraph": 74,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Admonition to Exercise Christian Wisdom "
+      },
+      {
+        "paragraph": 111,
+        "start": 22,
+        "end": 22,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Four Admonitions, Each for a Special Class of the Members of the Una Sancta "
+      },
+      {
+        "paragraph": 127,
+        "start": 25,
+        "end": 25,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "For Husbands "
+      }
+    ],
+    "EPH.6": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "For Children and Fathers "
+      },
+      {
+        "paragraph": 18,
+        "start": 5,
+        "end": 5,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "For Slaves and Masters "
+      },
+      {
+        "paragraph": 112,
+        "start": 21,
+        "end": 21,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Conclusion "
+      }
+    ],
+    "PHP.1": [
+      {
+        "paragraph": 25,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Sends to the Philippians Joyful Information about Himself and about Epaphroditus, Combined with Prayer and Admonition Greeting "
+      },
+      {
+        "paragraph": 37,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Tells the Philippians about his Joyful Prayers for Them "
+      },
+      {
+        "paragraph": 76,
+        "start": 9,
+        "end": 9,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul States the Contents of His Joyful Prayer for the Philippians "
+      },
+      {
+        "paragraph": 89,
+        "start": 12,
+        "end": 12,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Informs the Philippians with Joy about the Good Effects of the First Stage of his Trial "
+      },
+      {
+        "paragraph": 123,
+        "start": 19,
+        "end": 19,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Tells the Philippians of His One Desire to Magnify Christ during the Rest of his Trial "
+      },
+      {
+        "paragraph": 174,
+        "start": 27,
+        "end": 27,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Adds the Admonition That the Philippians ever Stand Fast, United and Unafraid, Against the Adversaries "
+      }
+    ],
+    "PHP.2": [
+      {
+        "paragraph": 141,
+        "start": 19,
+        "end": 19,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Tells the Philippians about Timothy’s Coming "
+      },
+      {
+        "paragraph": 163,
+        "start": 25,
+        "end": 25,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Reports to the Philippians about the Return of Epaphroditus "
+      },
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "Paul’s Second Admonition: With a Mind like Christ’s Humbly to Relinquish What is Ours by Right In the Interest of the Brethren ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 29,
+        "start": 5,
+        "end": 5,
+        "prefix": "The Example of Christ: his Self-humiliation Followed by his Exaltation ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 99,
+        "start": 12,
+        "end": 12,
+        "prefix": "Paul’s Third Admonition: That the Philippians May Be and May Act as Light Bearers ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "PHP.3": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Adds a Warning against Judaizers and Points to his own Example "
+      },
+      {
+        "paragraph": 91,
+        "start": 17,
+        "end": 17,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Impresses his Warning with a Personal Appeal and with the Resurrection Glory "
+      }
+    ],
+    "PHP.4": [
+      {
+        "paragraph": 1,
+        "start": 2,
+        "end": 2,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Little Case of Euodia and Syntyche "
+      },
+      {
+        "paragraph": 31,
+        "start": 4,
+        "end": 4,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Summarizes the Whole Christian Spirit and Life "
+      },
+      {
+        "paragraph": 65,
+        "start": 10,
+        "end": 10,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Thanks the Philippians for the Gift They Sent Him by the Hand of Epaphroditus "
+      },
+      {
+        "paragraph": 101,
+        "start": 21,
+        "end": 21,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Conclusion "
+      }
+    ],
+    "COL.1": [
+      {
+        "paragraph": 34,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul and Timothy are Happy to Know the True Christian Character of the Colossian Brethren "
+      },
+      {
+        "paragraph": 68,
+        "start": 9,
+        "end": 9,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul and Timothy also Pray and Make due Petition for the Colossian Brethren "
+      },
+      {
+        "paragraph": 104,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul and Timothy Recount for the Colossians the Glories of Christ and of His Position together with the Tremendous Effects of His Work "
+      },
+      {
+        "paragraph": 162,
+        "start": 21,
+        "end": 21,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul and Timothy Remind the Colossians of What Christ Has Done for Them through the Ministry Committed to Paul "
+      }
+    ],
+    "COL.2": [
+      {
+        "paragraph": 4,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s Deep Concern Prompts His Warning "
+      },
+      {
+        "paragraph": 40,
+        "start": 8,
+        "end": 8,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Warning against all Philosophy which Reduces what the God-man, who Is Supreme over all Principalities and Powers, has Done for our Complete Salvation "
+      },
+      {
+        "paragraph": 104,
+        "start": 16,
+        "end": 16,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Warning against Grasping the Shadow and Losing the Body, yea, the Head, Christ "
+      },
+      {
+        "paragraph": 29,
+        "start": 6,
+        "end": 6,
+        "prefix": "The Main Thing: To be Rooted and Built up in Christ ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "COL.3": [
+      {
+        "paragraph": 4,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Life that ever Looks upward to Christ "
+      },
+      {
+        "paragraph": 25,
+        "start": 5,
+        "end": 5,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Life that Breaks with all the Old Vices since the New Man Has Been Put on "
+      },
+      {
+        "paragraph": 57,
+        "start": 12,
+        "end": 12,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Life Full of Christian Virtues, Rich in the Word "
+      },
+      {
+        "paragraph": 99,
+        "start": 18,
+        "end": 18,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Christian Life for the Various Groups in the Congregation "
+      }
+    ],
+    "COL.4": [
+      {
+        "paragraph": 1,
+        "start": 2,
+        "end": 2,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Additional Features of the Christian Life "
+      },
+      {
+        "paragraph": 22,
+        "start": 7,
+        "end": 7,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Tychicus is to inform the Colossians about Paul’s affairs "
+      },
+      {
+        "paragraph": 28,
+        "start": 10,
+        "end": 10,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Salutations from Paul’s friends "
+      },
+      {
+        "paragraph": 51,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Salutations from Paul plus Two Directions "
+      }
+    ],
+    "1TH.1": [
+      {
+        "paragraph": 16,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Greeting "
+      },
+      {
+        "paragraph": 29,
+        "start": 2,
+        "end": 2,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Thanksgiving "
+      }
+    ],
+    "1TH.2": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Spirit in which Paul and Silvanus Worked in Thessalonica "
+      },
+      {
+        "paragraph": 55,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Spirit in which the Thessalonians Responded to the Work of Paul and Silvanus "
+      },
+      {
+        "paragraph": 91,
+        "start": 17,
+        "end": 17,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Vain Endeavors to Return to Thessalonica "
+      }
+    ],
+    "1TH.3": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Sending of Timothy "
+      },
+      {
+        "paragraph": 40,
+        "start": 11,
+        "end": 11,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Concluding Prayerful Wishes "
+      }
+    ],
+    "1TH.4": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Living a Clean and Respectable Life "
+      },
+      {
+        "paragraph": 59,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Instruction regarding Those who Die before the Parousia "
+      }
+    ],
+    "1TH.5": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Instruction regarding the Times and the Seasons "
+      },
+      {
+        "paragraph": 41,
+        "start": 12,
+        "end": 12,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Admonitions regarding Congregational Matters "
+      },
+      {
+        "paragraph": 79,
+        "start": 23,
+        "end": 23,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Conclusion "
+      }
+    ],
+    "2TH.1": [
+      {
+        "paragraph": 6,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Preliminary Section of the Letter Once More Gratitude to God for the State of the Thessalonians Combined with Prayer for Them "
+      },
+      {
+        "paragraph": 58,
+        "start": 11,
+        "end": 11,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Prayer "
+      }
+    ],
+    "2TH.2": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Great Apostasy and the Revelation of the Antichrist Precede the Parousia "
+      }
+    ],
+    "2TH.3": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Request for the Prayers of the Thessalonians "
+      },
+      {
+        "paragraph": 10,
+        "start": 4,
+        "end": 4,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Directions regarding Disciplining the Disorderly "
+      },
+      {
+        "paragraph": 62,
+        "start": 16,
+        "end": 16,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Conclusion "
+      }
+    ],
+    "1TI.1": [
+      {
+        "paragraph": 72,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "How Timothy Is to Deal with Those Teaching Different Doctrine "
+      }
+    ],
+    "1TI.2": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "About Prayer in the Public Services "
+      },
+      {
+        "paragraph": 43,
+        "start": 8,
+        "end": 8,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Men and Women in the Public Services "
+      }
+    ],
+    "1TI.3": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Qualifications for Offices in the Congregation "
+      }
+    ],
+    "1TI.4": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "How Timothy Is to Be Prepared to Meet the Apostasy Foretold by the Spirit "
+      }
+    ],
+    "1TI.5": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "How Timothy Is to Direct the Treatment of Certain Individual Cases and of Certain Classes of Members "
+      }
+    ],
+    "1TI.6": [
+      {
+        "paragraph": 109,
+        "start": 20,
+        "end": 20,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Conclusion "
+      }
+    ],
+    "2TI.1": [
+      {
+        "paragraph": 9,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Greeting "
+      },
+      {
+        "paragraph": 17,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s Grateful Memories "
+      },
+      {
+        "paragraph": 79,
+        "start": 12,
+        "end": 12,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "I Am Not Ashamed "
+      },
+      {
+        "paragraph": 94,
+        "start": 15,
+        "end": 15,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Onesiphorus Was Not Ashamed "
+      }
+    ],
+    "2TI.2": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Child "
+      },
+      {
+        "paragraph": 21,
+        "start": 8,
+        "end": 8,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Father "
+      },
+      {
+        "paragraph": 55,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Present Thyself as a Workman That Needs Not to Be Ashamed "
+      },
+      {
+        "paragraph": 87,
+        "start": 20,
+        "end": 20,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Distinguishing the Different Utensils in the Great House "
+      }
+    ],
+    "2TI.3": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Grievous Periods of Time Will Come "
+      },
+      {
+        "paragraph": 35,
+        "start": 10,
+        "end": 10,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Timothy’s Faithful Stand with Paul in the Past "
+      },
+      {
+        "paragraph": 50,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Timothy’s Future Stand Is to Be True to His Childhood Past "
+      }
+    ],
+    "2TI.4": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "I Am Earnestly Testifying "
+      },
+      {
+        "paragraph": 24,
+        "start": 6,
+        "end": 6,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "My Whole Life Testifies "
+      },
+      {
+        "paragraph": 50,
+        "start": 9,
+        "end": 9,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul Begs Timothy to Come "
+      },
+      {
+        "paragraph": 66,
+        "start": 14,
+        "end": 14,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Paul’s First Hearing Before the Court Leads Him to Expect the Worst "
+      },
+      {
+        "paragraph": 95,
+        "start": 19,
+        "end": 19,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Salutations "
+      }
+    ],
+    "TIT.1": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Greeting "
+      },
+      {
+        "paragraph": 26,
+        "start": 5,
+        "end": 5,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Type of Elders to Be Ordained "
+      },
+      {
+        "paragraph": 42,
+        "start": 10,
+        "end": 10,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Dangerous Errorists "
+      }
+    ],
+    "TIT.2": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Old Men "
+      },
+      {
+        "paragraph": 7,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Old and the Young Women "
+      },
+      {
+        "paragraph": 16,
+        "start": 6,
+        "end": 6,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Younger Men "
+      },
+      {
+        "paragraph": 23,
+        "start": 9,
+        "end": 9,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Slaves "
+      }
+    ],
+    "TIT.3": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "A Summary Statement of the Conduct "
+      },
+      {
+        "paragraph": 10,
+        "start": 3,
+        "end": 3,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "What We Once Were and What We Now Are "
+      },
+      {
+        "paragraph": 57,
+        "start": 12,
+        "end": 12,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Conclusion of the Letter "
+      }
+    ],
+    "HEB.11": [
+      {
+        "paragraph": 29,
+        "start": 4,
+        "end": 4,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Abel, Enoch, Noah "
+      },
+      {
+        "paragraph": 54,
+        "start": 8,
+        "end": 8,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Abraham and Sarah "
+      },
+      {
+        "paragraph": 68,
+        "start": 13,
+        "end": 13,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Patriarchs and the Heavenly City "
+      },
+      {
+        "paragraph": 83,
+        "start": 17,
+        "end": 17,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Abraham, Isaac, Jacob, Joseph "
+      },
+      {
+        "paragraph": 103,
+        "start": 23,
+        "end": 23,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Moses "
+      },
+      {
+        "paragraph": 122,
+        "start": 30,
+        "end": 30,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Jericho, Rahab "
+      },
+      {
+        "paragraph": 124,
+        "start": 32,
+        "end": 32,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Still more Heroes of Faith and Their Achievements of Faith "
+      },
+      {
+        "paragraph": 130,
+        "start": 35,
+        "end": 35,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Faith Triumphant in Suffering "
+      },
+      {
+        "paragraph": 141,
+        "start": 39,
+        "end": 39,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Summation "
+      }
+    ],
+    "1PE.5": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Elders, Examples of the Flock, v. 1–5a "
+      },
+      {
+        "paragraph": 16,
+        "start": 5,
+        "end": 5,
+        "prefix": "5a) Likewise, younger men, be in subjection to elders! This ",
+        "reason": "Subverse label 5a), with following 5b discussion before verse 6."
+      }
+    ],
+    "2PE.2": [
+      {
+        "paragraph": 27,
+        "start": 4,
+        "end": 4,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "The Terrors of the Old Testament Judgments and the Deliverance of the Righteous, v. 4–10a "
+      }
+    ],
+    "1JN.2": [
+      {
+        "paragraph": 0,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "2:"
+      },
+      {
+        "paragraph": 154,
+        "start": 29,
+        "end": 29,
+        "prefix": "The New Birth and Our Relation to God 2:29–3:10a ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "1JN.3": [
+      {
+        "paragraph": 0,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "3:"
+      }
+    ],
+    "1JN.5": [
+      {
+        "paragraph": 0,
+        "start": 1,
+        "end": 1,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "5:"
+      }
+    ],
+    "REV.22": [
+      {
+        "paragraph": 24,
+        "start": 6,
+        "end": 6,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "God’s Attestation "
+      },
+      {
+        "paragraph": 56,
+        "start": 16,
+        "end": 16,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Jesus’ Attestation "
+      },
+      {
+        "paragraph": 73,
+        "start": 20,
+        "end": 20,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "Jesus dismisses John "
+      },
+      {
+        "paragraph": 75,
+        "start": 21,
+        "end": 21,
+        "reason": "Verse label follows a merged section heading.",
+        "prefix": "John dismisses his readers "
+      }
+    ],
+    "ACT.13": [
+      {
+        "paragraph": 9,
+        "start": 1,
+        "end": 1,
+        "prefix": "The First Missionary Journey: Through the Island of Cyprus ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 57,
+        "start": 13,
+        "end": 13,
+        "prefix": "The First Missionary Journey: Pisidian Antioch ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.14": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "The First Missionary Journey: Iconium, Lystra, Derbe, and the Return ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.16": [
+      {
+        "paragraph": 32,
+        "start": 11,
+        "end": 11,
+        "prefix": "The Second Missionary Journey: Philippi ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.17": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "The Second Missionary Journey: Thessalonica and Berea ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 46,
+        "start": 16,
+        "end": 16,
+        "prefix": "The Second Missionary Journey: Athens ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.19": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "The Third Missionary Journey: Ephesus ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "ACT.20": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "The Third Missionary Journey: From Ephesus to Greece and Back to Miletus ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "1CO.7": [
+      {
+        "paragraph": 40,
+        "start": 10,
+        "end": 10,
+        "prefix": "The Married Christians, 10, 11. — ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 110,
+        "start": 25,
+        "end": 25,
+        "prefix": "The Preliminary Considerations, 25–35. — ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 177,
+        "start": 39,
+        "end": 39,
+        "prefix": "Appendix on Remarriage, 39, 40. — ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.1": [
+      {
+        "paragraph": 61,
+        "start": 3,
+        "end": 3,
+        "prefix": "Seven Chapters Greatly Comforted and Cheered, Paul Clears away the Last Difficulties and at the same Time Glorifies His Office with Its Work and Its Suffering I. Comforted for Comforting ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 122,
+        "start": 8,
+        "end": 8,
+        "prefix": "II. Deliverance and Thanksgiving ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 146,
+        "start": 12,
+        "end": 12,
+        "prefix": "III. Conscience and Sincerity ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 166,
+        "start": 15,
+        "end": 16,
+        "prefix": "IV. Yea Is Yea ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 204,
+        "start": 23,
+        "end": 23,
+        "prefix": "V. The Desire not to Come in Sorrow ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.3": [
+      {
+        "paragraph": 39,
+        "start": 7,
+        "end": 7,
+        "prefix": "X. Our Ministry Exceeds in Glory ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 68,
+        "start": 12,
+        "end": 12,
+        "prefix": "XI. Our Ministry Bestows Glory ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.6": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "XIX. Working Jointly with God ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.8": [
+      {
+        "paragraph": 32,
+        "start": 7,
+        "end": 7,
+        "prefix": "II. How the Corinthians Should Follow the Example of the Macedonians ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 75,
+        "start": 16,
+        "end": 16,
+        "prefix": "III. Sending Titus and Two Other Brethren ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.9": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "IV. The Purpose for Which the Brethren Are Sent ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 25,
+        "start": 6,
+        "end": 6,
+        "prefix": "V. The Giver Whom God Loves ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.10": [
+      {
+        "paragraph": 19,
+        "start": 1,
+        "end": 1,
+        "prefix": "I. It Is not Well to Challenge Paul’s Courage or His Weapons ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 61,
+        "start": 7,
+        "end": 7,
+        "prefix": "II. It Is well for the Corinthians to Look at what Is before Their very Eyes ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.11": [
+      {
+        "paragraph": 74,
+        "start": 16,
+        "end": 16,
+        "prefix": "II. Paul Begins His Boasting as a Fool ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 93,
+        "start": 22,
+        "end": 22,
+        "prefix": "III. The First Grand Gush of Foolish Boasting ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.12": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "IV. The Ultimate Extreme of Paul’s Foolish Boasting ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 54,
+        "start": 11,
+        "end": 11,
+        "prefix": "V. The Conclusion of Paul’s Foolish Boasting ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 67,
+        "start": 14,
+        "end": 14,
+        "prefix": "I. He Will again Be of no Expense to the Corinthians ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 86,
+        "start": 19,
+        "end": 19,
+        "prefix": "II. Paul Fears What He May Find when He Arrives in Corinth ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "2CO.13": [
+      {
+        "paragraph": 1,
+        "start": 1,
+        "end": 1,
+        "prefix": "III. Paul Warns the Corinthians regarding What He Will Do, if Necessary, when He Comes ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 37,
+        "start": 11,
+        "end": 11,
+        "prefix": "IV. The Conclusion ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "GAL.4": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "prefix": "The law marked the heir as a minor; Christ brought him to majority ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 73,
+        "start": 12,
+        "end": 12,
+        "prefix": "Personal appeal: the Galatians and Paul once and now ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      },
+      {
+        "paragraph": 125,
+        "start": 21,
+        "end": 21,
+        "prefix": "Ishmael — Isaac: bondage — freedom ",
+        "reason": "Inspected verse label merged with a punctuated section heading."
+      }
+    ],
+    "MAT.1": [
+      {
+        "paragraph": 62,
+        "start": 1,
+        "end": 1,
+        "prefix": "Matthew writes for Jewish Christians in order to establish t",
+        "reason": "Opening exposition and exact quotation of Matthew 1:1 before the verse-2 label."
+      }
+    ],
+    "GAL.1": [
+      {
+        "paragraph": 32,
+        "start": 1,
+        "end": 1,
+        "prefix": "“Paul — to the churches of Galatia — grace and peace!” The w",
+        "reason": "Greeting exposition includes the exact quotation of Galatians 1:1 before verse 2."
+      }
+    ],
+    "JHN.11": [
+      {
+        "paragraph": 2,
+        "start": 1,
+        "end": 1,
+        "prefix": "John presupposes the acquaintance of his readers with Luke 1",
+        "reason": "Exact Lazarus introduction quotation at John 11:1 before the verse-2 label."
+      }
+    ],
+    "MAT.26": [
+      {
+        "paragraph": 115,
+        "start": 47,
+        "end": 47,
+        "prefix": "47 And while he was still speaking, lo, Judas, one of the Tw",
+        "reason": "Printed label 47 lacks its closing parenthesis."
+      }
+    ],
+    "JHN.7": [
+      {
+        "paragraph": 16,
+        "start": 2,
+        "end": 2,
+        "prefix": "2)",
+        "reason": "Verse label 2) is a standalone paragraph."
+      }
+    ]
+  },
+  "canonicalOverrides": {
+    "2CO.13": [
+      {
+        "paragraph": 40,
+        "start": 12,
+        "end": 13,
+        "sourceLabel": "12",
+        "mappingNote": "Lenski groups the holy kiss and the greeting from all the saints under source verse 12; canonical verses 12–13."
+      },
+      {
+        "paragraph": 42,
+        "start": 14,
+        "end": 14,
+        "sourceLabel": "13",
+        "mappingNote": "Lenski labels the final benediction 13; canonical verse 14."
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@ import DesktopUpdateManager from './update-manager';
 import Library from '@/library/library';
 import '@/app/globals.css';
 import '@/reader/word-studies.css';
+import '@/reader/commentaries.css';
 
 const startPath = desktopStartPath(location.href);
 if (startPath !== null) history.replaceState({}, '', startPath);

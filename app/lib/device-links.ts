@@ -32,7 +32,7 @@ export function presentRecentLinks(links: DeviceLink[], kind: 'passage' | 'study
       ? `Connections · ${view === 'greek' ? 'Greek' : view === 'english' ? 'English' : 'English and Greek'}`
       : params.get('panel') === 'greek' ? 'Greek exploration'
         : params.get('panel') === 'compare' ? `Edition comparison · ${params.get('compareEditions')?.split(',').join(' / ') || 'All editions'}`
-          : params.get('panel') === 'notes' ? 'Publisher-note study' : '';
+          : params.get('panel') === 'commentary' ? 'Historical commentary' : params.get('panel') === 'notes' ? 'Publisher-note study' : '';
     return [{ ...link, ...(kind === 'passage' ? { url: url.pathname + url.search } : {}), detail: [context, link.detail].filter(Boolean).join(' · ') }];
   });
 }

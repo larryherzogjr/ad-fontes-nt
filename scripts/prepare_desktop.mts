@@ -28,6 +28,8 @@ const allowed = [
   'lexical/dodson-2010-v5',
   `om/${om.releaseId}`,
   'library',
+  'commentaries/lenski-2026-10-08-v1',
+  'commentaries/kd-2026-10-08-v1',
   'connections/bsb-testament-connections-2026-10-07-v1',
   'connections/msb-testament-connections-2026-10-07-v1',
   'connections/publisher-heading-connections-2026-10-07-v2',

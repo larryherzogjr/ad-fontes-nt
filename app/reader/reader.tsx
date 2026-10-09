@@ -61,7 +61,7 @@ export default function Reader() {
     [mode, setMode] = useState('read'),
     [edition, setEdition] = useState('BSB'),
     [explicitPassage, setExplicitPassage] = useState(false),
-    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | 'connections' | null>(null),
+    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | 'connections' | 'commentary' | null>(null),
     [input, setInput] = useState(''),
     [query, setQuery] = useState(''),
     [filter, setFilter] = useState(''),
@@ -182,7 +182,7 @@ export default function Reader() {
       setResults(null);
       const url = new URL(location.href);
       const panel = url.searchParams.get('panel');
-      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' || panel === 'connections' ? panel : null);
+      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' || panel === 'connections' || panel === 'commentary' ? panel : null);
       let adapter;
       try {
         adapter = getCorpus(url.searchParams.get('translation') || 'BSB');
@@ -454,7 +454,7 @@ export default function Reader() {
     );
   }
   function openStudy(
-    mode: 'compare' | 'greek' | 'notes' | 'connections',
+    mode: 'compare' | 'greek' | 'notes' | 'connections' | 'commentary',
     chosen?: PassageRange[],
     focusId?: string,
     unitId?: string,
@@ -493,7 +493,7 @@ export default function Reader() {
     try {
       sessionStorage.setItem(
         'afnt-study-return',
-        study === 'connections' ? 'open-connections' : study === 'greek' ? 'open-greek' : 'open-compare',
+        study === 'commentary' ? 'open-commentary' : study === 'connections' ? 'open-connections' : study === 'greek' ? 'open-greek' : 'open-compare',
       );
     } catch {}
     const url = new URL(location.href);
@@ -693,6 +693,7 @@ export default function Reader() {
               <div className="study-actions">
                 <button className="study-tool comparison-tool" id="open-compare" onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
                 {<button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>}
+                <button className="study-tool" id="open-commentary" onClick={() => openStudy('commentary')}>Commentaries</button>
                 <button className="study-tool connections-tool" id="open-connections" onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
                 <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
@@ -1044,6 +1045,7 @@ export default function Reader() {
               locally. Textual groupings help organize comparison; they do not
               imply uniform texts or word alignment.
             </p>
+            <section className="source-edition"><h3>Keil &amp; Delitzsch commentary</h3><p>C. F. Keil and F. Delitzsch, Commentary on the Old Testament (T. &amp; T. Clark, 1864–1891). Historical commentary with supplied chapter groups and source numbering preserved. Precise verse alignment is not established. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/kd-2026-10-08-v1/manifest.json">K&amp;D source manifest</a></section><section className="source-edition"><h3>Lenski commentary</h3><p>R. C. H. Lenski, The Interpretation of the New Testament. Historical commentary in a separate reader panel and Library collection. Supplied transcription with explicit passage anchors; chapter context remains available where an anchor is unresolved. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/lenski-2026-10-08-v1/manifest.json">Lenski source manifest</a></section>
             <section className="source-edition"><h3>NT/OT connections</h3><p>698 explicit cross-testament citations from pinned BSB publisher notes. Reciprocal links retain the original note and citation; they do not establish quotation extent or classify quotations, allusions or parallels. Coverage is partial.</p><a href="/connections/bsb-testament-connections-2026-10-07-v1/manifest.json">Connections source manifest</a></section>
             {otEnabled && <p className="notice">The four English editions also include all 39 Old Testament books. BLB is a publisher draft; MSB OT wording matches BSB. The OT Greek study panel adds the Septuagint; the Greek editions below cover the New Testament. The edition groupings below describe NT comparison only.</p>}
             {editions.map((e) => (

@@ -9,6 +9,7 @@ import LemmaExplorer from './lemma-explorer';
 import PublisherNoteLabel from './publisher-note-label';
 import EditionSummary from './edition-summary';
 import LxxUnpaired from './lxx-unpaired';
+import Commentaries from './commentaries';
 import TestamentConnections from './testament-connections';
 import EvidencePlate from './evidence-plate';
 import {
@@ -69,7 +70,7 @@ export default function StudyPanel({
   edition,
 }: {
   ranges: PassageRange[];
-  mode: 'compare' | 'greek' | 'notes' | 'connections';
+  mode: 'compare' | 'greek' | 'notes' | 'connections' | 'commentary';
   edition: string;
   onClose: () => void;
 }) {
@@ -99,9 +100,9 @@ export default function StudyPanel({
   const [chosenEditions, setChosenEditions] = useState<string[] | null>(null);
   const [desktop, setDesktop] = useState(false);
   const [trail, setTrail] = useState<StudyTrail>({ items: [], index: -1 });
-  useVerseSync(dialog, sync && (!compact || mode === 'greek') && desktop && mode !== 'connections', `${mode}-${loading}-${wide}-${compact}-${chosenEditions?.join(',')}`);
+  useVerseSync(dialog, sync && (!compact || mode === 'greek') && desktop && mode !== 'connections' && mode !== 'commentary', `${mode}-${loading}-${wide}-${compact}-${chosenEditions?.join(',')}`);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
-  const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${compact}-${chosenEditions?.join(',')}-${formatPassage(ranges)}`);
+  const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && mode !== 'commentary' && !loading && !error && !noteOnly && (mode === 'greek' || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${compact}-${chosenEditions?.join(',')}-${formatPassage(ranges)}`);
   useEffect(() => {
     const panel = dialog.current;
     const chrome = panel?.querySelector<HTMLElement>('.study-chrome');
@@ -154,7 +155,7 @@ export default function StudyPanel({
   }, []);
   useEffect(() => {
     if (loading || error) return;
-    const studyLabel = mode === 'connections' ? `NT/OT connections · ${label}` : mode === 'greek' ? `Greek · ${label}` : variants[0]?.title || `${noteOnly ? 'Publisher notes' : 'Compare'} · ${label}`;
+    const studyLabel = mode === 'commentary' ? `Commentary · ${label}` : mode === 'connections' ? `NT/OT connections · ${label}` : mode === 'greek' ? `Greek · ${label}` : variants[0]?.title || `${noteOnly ? 'Publisher notes' : 'Compare'} · ${label}`;
     rememberDeviceLink('afnt-recent-studies', { url: location.pathname + location.search, label: studyLabel, detail: label });
   }, [loading, error, mode, noteOnly, variants, label]);
   function setGreekView(next: boolean, nextRows = rows) {
@@ -211,7 +212,7 @@ export default function StudyPanel({
     setLoading(true);
     setError('');
     async function run() {
-      if (mode === 'connections') return;
+      if (mode === 'connections' || mode === 'commentary') return;
       const anchors = ranges.flatMap(expand);
       if (anchors.length > 80)
         throw Error(
@@ -539,7 +540,7 @@ export default function StudyPanel({
         <div>
           <p className="eyebrow">{label}</p>
           <h2 id="study-title" ref={title} tabIndex={-1}>
-            {mode === 'connections' ? 'NT/OT Connections' : mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : variants.length ? <><span className="tool-label-full">Commentary and edition comparison</span><span className="tool-label-short">Commentary &amp; editions</span></> : 'Compare editions'}
+            {mode === 'commentary' ? 'Commentaries' : mode === 'connections' ? 'NT/OT Connections' : mode === 'greek' ? 'Explore Greek' : noteOnly ? 'Publisher note study' : loading ? 'Passage study' : variants.length ? <><span className="tool-label-full">Commentary and edition comparison</span><span className="tool-label-short">Commentary &amp; editions</span></> : 'Compare editions'}
           </h2>
 
         </div>
@@ -566,13 +567,14 @@ export default function StudyPanel({
           <span className="tool-label-full">Explore Greek</span><span className="tool-label-short" aria-hidden="true">Greek</span>
         </button>}
         <button aria-label="NT/OT Connections" aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}><span className="tool-label-full">NT/OT Connections</span><span className="tool-label-short" aria-hidden="true">Connections</span></button>
+        <button aria-pressed={mode === 'commentary'} onClick={() => mode !== 'commentary' && switchMode('commentary')}>Commentaries</button>
       </nav>}
-      {!loading && !error && mode !== 'greek' && mode !== 'connections' && <nav className="comparison-nav" aria-label="Comparison sections">
+      {!loading && !error && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && <nav className="comparison-nav" aria-label="Comparison sections">
         <button aria-label={noteOnly ? 'Explanation' : 'Commentary and explanation'} aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}><span className="tool-label-full">{noteOnly ? 'Explanation' : 'Commentary and explanation'}</span><span className="tool-label-short" aria-hidden="true">{noteOnly ? 'Explanation' : 'Commentary'}</span></button>
         {!noteOnly && <button aria-label="Edition readings" aria-pressed={section === 'readings'} onClick={() => showSection('readings')}><span className="tool-label-full">Edition readings</span><span className="tool-label-short" aria-hidden="true">Readings</span></button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && mode !== 'connections' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync && (!compact || mode === 'greek')} disabled={compact && mode !== 'greek'} onChange={event => {
+      {desktop && mode !== 'connections' && mode !== 'commentary' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync && (!compact || mode === 'greek')} disabled={compact && mode !== 'greek'} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
       }} />Sync verses</label>
@@ -580,8 +582,9 @@ export default function StudyPanel({
       </div>}
       </div><div className="study-content">
       <nav className="study-library-return" aria-label="Study Library return">
-        <a href={mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library'}>← Back to Study Library</a>
+        <a href={mode === 'commentary' ? (ot ? '/library?view=commentaries&commentary=kd' : '/library?view=commentaries') : mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library'}>← Back to Study Library</a>
       </nav>
+      {mode === 'commentary' && <Commentaries ranges={ranges} />}
       {mode === 'connections' && <TestamentConnections ranges={ranges} edition={edition} embedded onNavigate={followStudy} />}
       {loading && <div className="study-skeleton" role="status" aria-label="Loading passage study"><span /><span /><span /><span /></div>}
       {error && (
@@ -589,7 +592,7 @@ export default function StudyPanel({
           {error}
         </p>
       )}
-      {!loading && !error && mode !== 'greek' && mode !== 'connections' && (
+      {!loading && !error && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && (
         <>
           {!noteOnly && <details className="comparison-limits"><summary>About edition readings</summary><p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p></details>}
           {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><a href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</a></p>; })}

@@ -1,0 +1,18 @@
+{
+  "sourceId": "lenski-supplied-2026-10-08",
+  "file": "raw/lenski-adfontes-package.zip",
+  "sha256": "d8ca510c617b5562f9e94468c2743b6976be01f261d438b6e873470b7099cebb",
+  "title": "The Interpretation of the New Testament",
+  "author": "R. C. H. Lenski",
+  "edition": "Wartburg Press / Augsburg, 1932\u20131946 (supplied Logos transcription)",
+  "rightsDecision": {
+    "date": "2026-10-08",
+    "by": "Larry Herzog Jr.",
+    "basis": "User states all Lenski NT commentaries are public domain and authorizes integration. Recorded user determination; not independent legal certification."
+  },
+  "limitations": [
+    "Supplied plain-text transcription; original typesetting, page locators and raw renderer dumps were not included.",
+    "Greek-adjacent spacing losses reported by supplier remain uncorrected.",
+    "Mapping identifies explicit source verse labels; unanchored passages remain readable at chapter level."
+  ]
+}

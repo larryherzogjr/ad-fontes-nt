@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import '@/reader/word-studies.css';
+import '@/reader/commentaries.css';
 export const metadata: Metadata = {
   title: 'Ad Fontes',
   description: 'A biblical study environment from Ordinary Means.',

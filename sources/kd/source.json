@@ -1,0 +1,20 @@
+{
+  "sourceId": "kd-supplied-2026-10-08",
+  "file": "raw/kd-adfontes-package.zip",
+  "sha256": "21d9ee4b822c14bd22a4f4124c47a18c6f0af57cf496f2570c76b6c8c124a162",
+  "title": "Commentary on the Old Testament",
+  "author": "C. F. Keil and F. Delitzsch",
+  "edition": "T. & T. Clark, Edinburgh, 1864–1891; supplied electronic transcription",
+  "rightsDecision": {
+    "date": "2026-10-08",
+    "by": "Larry Herzog Jr.",
+    "basis": "User states work is public domain and supplies it for integration; recorded user determination, not independent legal certification."
+  },
+  "provenance": "Supplier identifies Logos resource LLS:29.2.11, version 2019-08-01T22:56:47Z. Original article/TOC dumps and crosscheck evidence are not included. Supplied extraction scripts are not executed.",
+  "limitations": [
+    "Original chapter groups preserved verbatim, including introductions and duplicated joint exposition.",
+    "Source grouping does not always match canonical chapter boundaries (e.g. Leviticus 4–5, Malachi 3–4). Related own-book heading links provide access across groups.",
+    "Hebrew verse numbering is retained; precise canonical verse alignment is not established.",
+    "Supplier QA claims are not an independent transcription or theological review."
+  ]
+}

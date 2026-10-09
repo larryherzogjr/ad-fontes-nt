@@ -1,0 +1,14 @@
+.lenski-reader { display: block; }
+.lenski-reader { padding: 1.25rem; }
+.commentary-library { max-width: 78rem; margin: auto; }
+.commentary-prose { font-family: Georgia, 'Times New Roman', serif; font-size: 1.12rem; line-height: 1.8; max-width: 75ch; overflow-wrap: anywhere; margin: 1.5rem auto; }
+.commentary-prose p { margin: 0 0 1.1em; white-space: pre-wrap; }
+.commentary-chapter-heading { font-weight: bold; letter-spacing: .04em; }
+.commentary-source { margin: 1rem 0 1.5rem; max-width: 75ch; line-height: 1.6; }
+.commentary-source summary { cursor: pointer; }
+.commentary-actions, .commentary-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 1.25rem 0; }
+.commentary-controls label { display: grid; gap: .35rem; }
+.commentary-controls select { max-width: 100%; min-height: 44px; }
+.commentary-actions button { min-height: 44px; }
+.lenski-reader h4 { border-bottom: 1px solid var(--line, #d1d9dc); padding-bottom: .5rem; }
+@media (max-width: 600px) { .lenski-reader { padding: 1rem; } .commentary-prose { font-size: 1.05rem; } .commentary-controls { align-items: stretch; } }
