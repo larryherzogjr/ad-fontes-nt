@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 3.1.0 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 3.1.1 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/3.1.0/Ad-Fontes-macOS-Apple-Silicon-3.1.0.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.1.0/Ad-Fontes-Windows-x64-3.1.0.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/3.1.1/Ad-Fontes-macOS-Apple-Silicon-3.1.1.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.1.1/Ad-Fontes-Windows-x64-3.1.1.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 3.1.0 includes whole-Bible English reading and comparison,
+        Version 3.1.1 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
@@ -82,11 +82,11 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 3.1.0 introduces the Ink &amp; Brass Study Desk: an ivory
-        reading surface, navy masthead, brass accents, Georgia Scripture
-        typography, clearer active study tabs and selected verses, and more
-        deliberate spacing on desktop and phone. The existing whole-Bible
-        reading and study resources remain available offline. The app checks for stable updates and
+        Version 3.1.1 makes commentary navigation simpler: Introduction is now
+        the first option in the Lenski chapter dropdown, so you can move directly
+        from the introduction to any chapter. It includes the Ink &amp; Brass
+        Study Desk design and all existing offline study resources.
+        The app checks for stable updates and
         asks before downloading or installing them. Personal notes and Google
         sign-in remain retired.
       </p>
