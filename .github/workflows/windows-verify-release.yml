@@ -1,0 +1,72 @@
+name: Verify existing signed Windows release
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run:
+        description: Signed release workflow run containing the artifact
+        required: true
+        type: string
+      source_commit:
+        description: Expected native source commit (40-character SHA)
+        required: true
+        type: string
+      version:
+        description: Expected release version
+        required: true
+        type: string
+      installer_sha256:
+        description: Independently verified installer SHA-256
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: windows-2022
+    timeout-minutes: 20
+    env:
+      EXPECTED_VERSION: ${{ inputs.version }}
+      EXPECTED_COMMIT: ${{ inputs.source_commit }}
+      EXPECTED_SHA256: ${{ inputs.installer_sha256 }}
+      SOURCE_RUN: ${{ inputs.source_run }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Validate requested release
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if ($env:EXPECTED_VERSION -notmatch '^\d+\.\d+\.\d+$') { throw 'Invalid version' }
+          if ($env:EXPECTED_COMMIT -notmatch '^[0-9a-f]{40}$') { throw 'Invalid source commit' }
+          if ($env:EXPECTED_SHA256 -notmatch '^[0-9a-f]{64}$') { throw 'Invalid installer checksum' }
+          if ($env:SOURCE_RUN -notmatch '^\d+$') { throw 'Invalid source run' }
+          $config = Get-Content app/desktop/src-tauri/tauri.conf.json -Raw | ConvertFrom-Json
+          if ($config.version -ne $env:EXPECTED_VERSION) { throw 'Configuration version mismatch' }
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: Ad-Fontes-NT-Windows-x64-signed-${{ inputs.version }}
+          path: candidate
+          run-id: ${{ inputs.source_run }}
+          github-token: ${{ github.token }}
+      - name: Verify exact signed installer and run upgrade acceptance
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $info = Get-Content candidate/BUILD-INFO.json -Raw | ConvertFrom-Json
+          if ($info.version -ne $env:EXPECTED_VERSION -or $info.commit -ne $env:EXPECTED_COMMIT) { throw 'Native source/version mismatch' }
+          if ($info.run -ne "https://github.com/${{ github.repository }}/actions/runs/$env:SOURCE_RUN") { throw 'Native workflow mismatch' }
+          $installers = @(Get-ChildItem candidate/*-setup.exe)
+          if ($installers.Count -ne 1) { throw 'Expected exactly one installer' }
+          $installer = $installers[0]
+          $hash = (Get-FileHash $installer.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($hash -ne $env:EXPECTED_SHA256 -or $hash -ne $info.installerSha256) { throw 'Installer checksum mismatch' }
+          $sigHash = (Get-FileHash "$($installer.FullName).sig" -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($sigHash -ne $info.updaterSignatureSha256) { throw 'Updater signature checksum mismatch' }
+          if ((Get-AuthenticodeSignature $installer.FullName).Status -ne 'Valid') { throw 'Installer signature invalid' }
+          & deployment/test-windows-name-upgrade.ps1 -Installer $installer.FullName

@@ -1,6 +1,8 @@
 # Isolated GitHub runner acceptance: published 2.1.0 -> renamed signed candidate.
 param([Parameter(Mandatory=$true)][string]$Installer)
 $ErrorActionPreference = 'Stop'
+$expectedVersion = (Get-Content (Join-Path $PSScriptRoot '../app/desktop/src-tauri/tauri.conf.json') -Raw | ConvertFrom-Json).version
+if ($expectedVersion -notmatch '^\d+\.\d+\.\d+$') { throw 'Invalid release version' }
 if ($env:GITHUB_ACTIONS -ne 'true') { throw 'Run only on a disposable GitHub Actions runner.' }
 $uninstallKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Ad Fontes NT'
 $installKey = 'HKCU:\Software\ad-fontes\Ad Fontes NT'
@@ -30,7 +32,7 @@ $sentinel = Join-Path $data 'rename-upgrade-test.txt'
 Set-Content $sentinel 'preserve-existing-device-data'
 Install (Resolve-Path $Installer).Path @('/S','/UPDATE')
 $after = Get-ItemProperty $uninstallKey
-if ($after.DisplayVersion -ne '3.1.1' -or $after.DisplayName -ne 'Ad Fontes') { throw 'Renamed installed entry/version mismatch' }
+if ($after.DisplayVersion -ne $expectedVersion -or $after.DisplayName -ne 'Ad Fontes') { throw "Renamed installed entry/version mismatch: expected $expectedVersion / Ad Fontes, got $($after.DisplayVersion) / $($after.DisplayName)" }
 if ((Get-Item $installKey).GetValue('') -ne $location) { throw 'Existing installation moved unexpectedly' }
 if (Test-Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Ad Fontes') { throw 'Duplicate uninstall entry created' }
 $wsh = New-Object -ComObject WScript.Shell
@@ -44,7 +46,7 @@ if ((Get-Content $sentinel) -ne 'preserve-existing-device-data') { throw 'Existi
 $signature = Get-AuthenticodeSignature $executable
 if ($signature.Status -ne 'Valid') { throw 'Installed executable signature invalid' }
 if ((Get-Item $executable).VersionInfo.ProductName -ne 'Ad Fontes') { throw 'Executable product name mismatch' }
-Write-Host 'PASS: 2.1.0 -> 3.1.1 upgrade preserves location/data, uses one uninstall entry, and renames both shortcuts.'
+Write-Host "PASS: 2.1.0 -> $expectedVersion upgrade preserves location/data, uses one uninstall entry, and renames both shortcuts."
 # Repeated updater execution must remain idempotent.
 Install (Resolve-Path $Installer).Path @('/S','/UPDATE')
 if ((Get-ItemProperty $uninstallKey).DisplayName -ne 'Ad Fontes') { throw 'Repeated upgrade failed' }
