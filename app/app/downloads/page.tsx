@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 2.1.3 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 3.0.3 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,19 +28,20 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/2.1.3/Ad-Fontes-macOS-Apple-Silicon-2.1.3.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/2.1.3/Ad-Fontes-Windows-x64-2.1.3.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/3.0.3/Ad-Fontes-macOS-Apple-Silicon-3.0.3.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.0.3/Ad-Fontes-Windows-x64-3.0.3.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 2.1.3 includes whole-Bible English reading and comparison,
+        Version 3.0.3 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
         their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
-        lexicon. Reading and these study resources work offline.
+        lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries.
+        Reading and these study resources work offline.
         Choose the package for your computer.
         Public reading and study tools require no account.
       </p>
@@ -53,7 +54,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </a>
-          <p className="download-detail">Developer ID signed and Apple notarized · 254 MB</p>
+          <p className="download-detail">Developer ID signed and Apple notarized · 288 MB</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -63,7 +64,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </a>
-          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 466 MB</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 503 MB</p>
         </section>
       </div>
 
@@ -81,10 +82,12 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 2.1.3 removes the outdated edition caveat from Greek Word Explorer
-        articles and simplifies their website links. It includes the publisher
-        verse-number formatting fix from 2.1.2 and preserves saved reading
-        preferences and study resources. The app checks for stable updates and
+        Version 3.0.3 adds Lenski’s New Testament commentary and Keil &amp;
+        Delitzsch’s Old Testament commentary to Study Library and the reader,
+        with offline chapter browsing and book search. Lenski provides passage
+        links with chapter fallback; K&amp;D retains source chapter groupings and
+        numbering without claiming exact verse alignment. Commentary collections
+        list the Old Testament first. The app checks for stable updates and
         asks before downloading or installing them. Personal notes and Google
         sign-in remain retired.
       </p>
