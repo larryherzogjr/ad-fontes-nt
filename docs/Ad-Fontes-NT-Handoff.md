@@ -344,3 +344,9 @@ Larry Herzog Jr. approved all 288 proposed quotation records in the v3 packet (u
 AF-OT-013 is implemented locally through `reviewed-connections-2026-10-07-v2`: 288 quotation classifications and approved fuller NT display selections. Original eight-label v1 bytes remain preserved; seven overlapping quotation labels are superseded for active display, retaining the original allusion: 289 active classified pairs (288 quotations, one allusion). The connections panel defaults to approved spans, supports persistent manual overrides, and can restore publisher anchors or approved selections. This records classification/display approval, not exclusive LXX dependence or new theological commentary.
 
 M5 pilot, package-size/performance evaluation, signed distribution and release acceptance remain outstanding; MVP is incomplete. No deployment or native signing identity change.
+
+## October 9 · Full English Septuagint edition
+
+Larry requested the supplied LXX2012 EPUB as an additional edition and explicitly selected the **full edition**, including its Apocrypha. AF-LXX-022 adds edition-specific source navigation and English–Greek chapter reading contexts while preserving the canonical registry and prior releases. This supersedes earlier exclusions of an English Apocrypha navigator for this supplied source only. See [source decisions, fidelity and limitations](LXX2012-Edition-2026-10-09.md) and PROJECT-STATUS.md for verification. This is local implementation, not production/native release authorization or M5/MVP acceptance.
+
+October 9 follow-on (AF-LANG-023 / AF-HEB-024): Larry authorized full WLC Hebrew/Aramaic and Clementine Latin reading editions plus Hebrew explorer foundations, superseding the historical Hebrew non-goal. New source releases, analysis, author links and mapping limits are described in [Original languages](Original-Languages-2026-10-09.md). Website checkout inspection is read-only; no release/deployment implied.

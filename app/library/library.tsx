@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
+import HebrewExplorer from './hebrew-explorer';
 import CommentaryLibrary from './commentaries';
 import GreekResearch from '@/reader/greek-research';
 import ConnectionCatalog from '@/reader/connection-catalog';
@@ -56,7 +57,7 @@ type LibraryIndex = {
   articles: Article[];
   words: Word[];
 };
-type View = 'comparisons' | 'articles' | 'lexicon' | 'research' | 'connections' | 'commentaries';
+type View = 'comparisons' | 'articles' | 'lexicon' | 'research' | 'connections' | 'commentaries' | 'hebrew';
 type Route = { view: View; q: string; book: string; kind: string; category: string; page: number; article: string; lemma: string };
 const emptyRoute: Route = { view: 'comparisons', q: '', book: '', kind: '', category: '', page: 1, article: '', lemma: '' };
 
@@ -65,7 +66,7 @@ function currentRoute(): Route {
   const p = new URLSearchParams(location.search);
   const requested = p.get('view');
   return {
-    view: requested === 'articles' || requested === 'lexicon' || requested === 'research' || requested === 'connections' || requested === 'commentaries' ? requested : 'comparisons',
+    view: requested === 'articles' || requested === 'lexicon' || requested === 'research' || requested === 'connections' || requested === 'commentaries' || requested === 'hebrew' ? requested : 'comparisons',
     q: p.get('q') || '',
     book: p.get('book') || '',
     kind: p.get('kind') || '',
@@ -270,7 +271,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['research', 'connections', 'commentaries'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -300,8 +301,8 @@ export default function Library({ offline = false }: { offline?: boolean }) {
       {article && index ? <ArticleDetail index={index} article={article} route={route} /> : word && index ? <WordDetail index={index} word={word} route={route} /> : <>
         <p className="eyebrow">Study Library</p>
         <h1>Explore Scripture and its study resources.</h1>
-        <p className="library-intro">Choose a collection to explore textual comparisons, Greek word studies, the Greek lexicon, Septuagint texts, NT/OT connections, or historical commentaries.</p>
-        {!['research', 'connections', 'commentaries'].includes(route.view) && <form className="library-search" role="search" onSubmit={search}>
+        <p className="library-intro">Choose a collection to explore textual comparisons, Greek and Hebrew word studies, the Greek lexicon, Septuagint texts, NT/OT connections, or historical commentaries.</p>
+        {!['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <form className="library-search" role="search" onSubmit={search}>
           <label htmlFor="library-query">Search by passage, title, Greek word, gloss, topic, or Strong’s number</label>
           <div><input id="library-query" value={queryInput} onChange={event => setQueryInput(event.target.value)} /><button>Search</button></div>
         </form>}
@@ -315,9 +316,11 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a className={route.view === 'research' ? 'active' : ''} aria-current={route.view === 'research' ? 'page' : undefined} href="/library?view=research"><strong>Septuagint Research</strong><small>Search Greek texts, lemmas and morphology</small></a>
             <a className={route.view === 'connections' ? 'active' : ''} aria-current={route.view === 'connections' ? 'page' : undefined} href="/library?view=connections"><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
             <a className={route.view === 'commentaries' ? 'active' : ''} aria-current={route.view === 'commentaries' ? 'page' : undefined} href="/library?view=commentaries"><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
+            <a className={route.view === 'hebrew' ? 'active' : ''} aria-current={route.view === 'hebrew' ? 'page' : undefined} href="/library?view=hebrew"><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>
-          {!['research', 'connections', 'commentaries'].includes(route.view) && <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />}
+          {!['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />}
           <section id="library-results" tabIndex={-1}>
+            {route.view === 'hebrew' && <HebrewExplorer key={locationKey} />}
             {route.view === 'commentaries' && <CommentaryLibrary key={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'research' && <GreekResearch key={locationKey} embedded onNavigate={navigateCollection} />}
             {route.view === 'connections' && <ConnectionCatalog embedded onNavigate={navigateCollection} />}

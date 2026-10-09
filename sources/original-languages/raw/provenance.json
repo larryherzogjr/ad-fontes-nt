@@ -1,0 +1,37 @@
+{
+  "userPackage": "original-languages-handoff.zip",
+  "hebrew": "Supplied untouched openscriptures/morphhb archive; WLC 4.20 header. WLC Scripture PD; OSHB analysis CC BY 4.0; full license embedded in archive.",
+  "latin": "Supplied CVUL SQLite module; Judith/Esther/Wisdom rebuilt from saved source pages; all supplied verse strings match.",
+  "patchSources": {
+    "Vulgata_Clementina.html": {
+      "url": "https://la.wikisource.org/wiki/Vulgata_Clementina",
+      "revisionIds": [
+        "223154"
+      ],
+      "retrieved": "2026-10-09"
+    },
+    "Liber_Judith.html": {
+      "url": "https://la.wikisource.org/wiki/Vulgata_Clementina/Liber_Judith",
+      "revisionIds": [
+        "147270"
+      ],
+      "retrieved": "2026-10-09"
+    },
+    "Liber_Sapientiae.html": {
+      "url": "https://la.wikisource.org/wiki/Vulgata_Clementina/Liber_Sapientiae",
+      "revisionIds": [
+        "146815"
+      ],
+      "retrieved": "2026-10-09"
+    },
+    "Liber_Esther.html": {
+      "url": "https://la.wikisource.org/wiki/Vulgata_Clementina/Liber_Esther",
+      "revisionIds": [
+        "146787"
+      ],
+      "retrieved": "2026-10-09"
+    }
+  },
+  "articles": "Read-only inspection of user website checkout. Seven draft:false Hebrew article metadata records; external links only, no article bodies adapted or bundled. Font and OFL copied into this project.",
+  "mapping": "Pinned upstream WLC/KJV difference catalogue preserved. Title-only Psalm rows excluded from English verse matching, original map retained. Latin reading supports independent English passage selection; no inferred synchronization."
+}

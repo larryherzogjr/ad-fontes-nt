@@ -1,0 +1,143 @@
+{
+  "releaseId": "hebrew-studies-2026-10-09-v1",
+  "snapshotDate": "2026-10-09",
+  "authorization": "Larry requested in-app Hebrew article parity on October 9, 2026: Go for it. Existing published author prose is reproduced unchanged; no new editorial or scholarly approval is asserted.",
+  "articles": [
+    {
+      "slug": "tam",
+      "headword": "תָּם",
+      "transliteration": "tām",
+      "description": "complete, whole, blameless; a person of integrity",
+      "url": "https://larryherzogjr.com/hebrew/tam/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H8535"
+      ],
+      "sourceSha256": "825cb46c82fe481dcaa936f301f1b6eb69b121d31a68db9caf3345aaed53786b",
+      "title": "tām (תָּם)",
+      "subtitle": "complete, whole, blameless; a person of integrity",
+      "contentSha256": "825cb46c82fe481dcaa936f301f1b6eb69b121d31a68db9caf3345aaed53786b",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "hinnam",
+      "headword": "חִנָּם",
+      "transliteration": "ḥinnām",
+      "description": "for nothing, without cause, freely",
+      "url": "https://larryherzogjr.com/hebrew/hinnam/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H2600"
+      ],
+      "sourceSha256": "ff227a6a9dda170162ab4e07dde43ae98d12b47fbcb2eb98938443e4f871375b",
+      "title": "ḥinnām (חִנָּם)",
+      "subtitle": "for nothing, without cause, freely",
+      "contentSha256": "ff227a6a9dda170162ab4e07dde43ae98d12b47fbcb2eb98938443e4f871375b",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "ha-satan",
+      "headword": "הַשָּׂטָן",
+      "transliteration": "haśśāṭān",
+      "description": "the adversary, the accuser",
+      "url": "https://larryherzogjr.com/hebrew/ha-satan/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H7854"
+      ],
+      "sourceSha256": "0026d1a709b94efb4c793749648d412ce4e42caa7130f93ad6239d9c1e91a029",
+      "title": "haśśāṭān (הַשָּׂטָן)",
+      "subtitle": "the adversary, the accuser",
+      "contentSha256": "0026d1a709b94efb4c793749648d412ce4e42caa7130f93ad6239d9c1e91a029",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "ed",
+      "headword": "עֵד",
+      "transliteration": "ʿēd",
+      "description": "witness, one who testifies",
+      "url": "https://larryherzogjr.com/hebrew/ed/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H5707"
+      ],
+      "sourceSha256": "42e136cd987b41d040e77f8a6aa70683dc50c3fad314355eb91a181ee873aaf6",
+      "title": "ʿēd (עֵד)",
+      "subtitle": "witness, one who testifies",
+      "contentSha256": "42e136cd987b41d040e77f8a6aa70683dc50c3fad314355eb91a181ee873aaf6",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "goel",
+      "headword": "גֹּאֵל",
+      "transliteration": "gōʾēl",
+      "description": "redeemer, kinsman-redeemer, the next of kin who buys back",
+      "url": "https://larryherzogjr.com/hebrew/goel/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H1350a"
+      ],
+      "sourceSha256": "afa84361551083d936c65a8ff9c759ccbb2666ee52652ba30ecb81795cd472d3",
+      "title": "gōʾēl (גֹּאֵל)",
+      "subtitle": "redeemer, kinsman-redeemer, the next of kin who buys back",
+      "contentSha256": "afa84361551083d936c65a8ff9c759ccbb2666ee52652ba30ecb81795cd472d3",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "mokiah",
+      "headword": "מוֹכִיחַ",
+      "transliteration": "môkîaḥ",
+      "description": "arbiter, umpire, one who decides between two parties",
+      "url": "https://larryherzogjr.com/hebrew/mokiah/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H3198"
+      ],
+      "sourceSha256": "c6e72de822259e7ea52e8fc4bbbd62f37ed42b84cb76a695854dedc43bf43319",
+      "title": "môkîaḥ (מוֹכִיחַ)",
+      "subtitle": "arbiter, umpire, one who decides between two parties",
+      "contentSha256": "c6e72de822259e7ea52e8fc4bbbd62f37ed42b84cb76a695854dedc43bf43319",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    },
+    {
+      "slug": "naham",
+      "headword": "נָחַם",
+      "transliteration": "nāḥam",
+      "description": "to comfort, to console; to be sorry, to relent, to repent",
+      "url": "https://larryherzogjr.com/hebrew/naham/",
+      "author": "Larry Herzog Jr.",
+      "keys": [
+        "H5162"
+      ],
+      "sourceSha256": "8414b07c7bef4472bf4684a4005e077c2d42672de29673c75533214e5ebfc5c5",
+      "title": "nāḥam (נָחַם)",
+      "subtitle": "to comfort, to console; to be sorry, to relent, to repent",
+      "contentSha256": "8414b07c7bef4472bf4684a4005e077c2d42672de29673c75533214e5ebfc5c5",
+      "snapshotDate": "2026-10-09",
+      "collection": "hebrew-studies-2026-10-09-v1",
+      "language": "Hebrew"
+    }
+  ],
+  "outputs": {
+    "articles/tam.json": "8b8bfc40a475637552c20ace1a7e6c37ffa8a3cfc107076cbc96ecf39cf4a585",
+    "articles/hinnam.json": "4cc0f21e331a440ccc504f47b6f340d90324e45a0548f3928a62aa311248d008",
+    "articles/ha-satan.json": "fa3a03948fc158226e7dd2c9323ff635f52cf192f92c9169aba584e5b03c87d7",
+    "articles/ed.json": "3f499aefe5e687f6fdb090520679f4e81c03ba04218e06e535c25f025c4f78ae",
+    "articles/goel.json": "abe0965e8f3e5eafefcdbd92eb40c19d654c0937ba0189335a79aac1f750d76c",
+    "articles/mokiah.json": "8423f1405720009e6ec22015aaeebce12320cdfd928a1c523accbe26efaaab47",
+    "articles/naham.json": "f945c77e16af31e35869e846669fd0d924c6c9d1c11e5acc3329c51a7dd21569",
+    "index.json": "4f525ab45212e057c7673552f3bd2ad68b08c01e914a178c6d7618fcbec78d7e"
+  }
+}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { WordStudies } from '@/reader/word-studies';
 import Library from '@/library/library';
 
 export const metadata: Metadata = {
@@ -7,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function LibraryPage() {
-  return <Library />;
+  return <WordStudies><Library /></WordStudies>;
 }

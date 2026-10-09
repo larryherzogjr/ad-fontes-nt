@@ -7,9 +7,9 @@ import { ReaderEnvironment, useReaderEnvironment } from './environment';
 import omRelease from '@/lib/domain/om-release.json';
 import type { WordLink } from '@/lib/domain/lexical';
 
-type Article = { slug: string; title: string; subtitle: string; author: string; url: string; snapshotDate: string; contentSha256: string };
+type Article = { slug: string; title: string; subtitle: string; author: string; url: string; snapshotDate: string; contentSha256: string; collection?: string; language?: string };
 const { releaseId, articleCount, schemaVersion } = omRelease;
-const Studies = createContext<{ articles: Article[]; offline: boolean; open: (article: Article, trigger: HTMLElement) => void }>({ articles: [], offline: false, open: () => {} });
+const Studies = createContext<{ articles: Article[]; offline: boolean; unavailable: boolean; open: (article: Article, trigger: HTMLElement, returnLabel?: string) => void }>({ articles: [], offline: false, unavailable: false, open: () => {} });
 
 function EmbeddedWordStudyLink({ link }: { link: WordLink }) {
   const { articles, offline, open } = useContext(Studies);
@@ -19,6 +19,13 @@ function EmbeddedWordStudyLink({ link }: { link: WordLink }) {
     <a href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</a>}
     <small>Ordinary Means commentary · {article ? (offline ? 'Available offline' : 'Read here') : (offline ? 'Website · internet required' : 'Opens on larryherzogjr.com')}</small>
   </p>;
+}
+
+/** Shared in-place reader for linked published Hebrew and Greek studies. */
+export function SavedStudyLink({url,children,returnLabel='Return to Hebrew'}:{url:string;children:ReactNode;returnLabel?:string}) {
+ const {articles,open,unavailable}=useContext(Studies);
+ const article=articles.find(a=>a.url===url);
+ return article?<button className="saved-study-link" onClick={e=>open(article,e.currentTarget,returnLabel)}>{children}</button>:unavailable?<a href={url} target="_blank" rel="noopener noreferrer">{children} · Website ↗</a>:<button className="saved-study-link" disabled>Loading study…</button>;
 }
 
 export function WordStudies({ children, offline = false }: { children: ReactNode; offline?: boolean }) {
@@ -31,6 +38,8 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
     wordStudyDescription: `Greek word associations use the pinned September 6, 2026 Word Explorer index and its reviewed aliases. All ${articleCount} approved Greek articles open here, with links to the articles on larryherzogjr.com. Each article identifies its saved date. Article quotations remain part of the authored Ordinary Means commentary, separate from the Scripture editions. Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 release n1904-2026-09-05-m2-v1. They exclude cognate lemmas, variant readings, the appended shorter ending, and two verses whose analysis is unavailable. Other editions or explicitly combined word families can produce different totals.` + (offline ? ' The included articles are available offline; website links require internet access.' : ''),
   };
   const [articles, setArticles] = useState<Article[]>([]);
+  const [trail,setTrail]=useState<Article[]>([]);
+  const [returnLabel,setReturnLabel]=useState('Return to Greek');
   const [selected, setSelected] = useState<Article | null>(null);
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [error, setError] = useState(false);
@@ -40,12 +49,14 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
   const trigger = useRef<HTMLElement | null>(null);
   useEffect(() => {
     const controller = new AbortController();
-    fetch(`/om/${releaseId}/index.json`, { signal: controller.signal }).then(async response => {
-      if (!response.ok) throw Error('Unavailable');
-      const bundle = await response.json();
-      if (bundle.releaseId !== releaseId || bundle.schemaVersion !== schemaVersion || bundle.articles?.length !== articleCount) throw Error('Invalid snapshot');
-      setArticles(bundle.articles);
-    }).catch(() => { if (!controller.signal.aborted) setError(true); });
+    for (const collection of [{id:releaseId,count:articleCount},{id:'hebrew-studies-2026-10-09-v1',count:7}]) {
+      fetch(`/om/${collection.id}/index.json`,{signal:controller.signal}).then(async response=>{
+        if(!response.ok)throw Error('Unavailable');
+        const bundle=await response.json();
+        if(bundle.releaseId!==collection.id||bundle.schemaVersion!==schemaVersion||bundle.articles?.length!==collection.count)throw Error('Invalid snapshot');
+        if(!controller.signal.aborted)setArticles(previous=>[...previous.filter(a=>(a.collection||releaseId)!==collection.id),...bundle.articles]);
+      }).catch(()=>{if(!controller.signal.aborted)setError(true)});
+    }
     return () => controller.abort();
   }, []);
   useEffect(() => {
@@ -57,14 +68,14 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
     if (dialog.current && !dialog.current.open) dialog.current.showModal();
     dialog.current?.scrollTo(0, 0);
     dialog.current?.querySelector<HTMLButtonElement>('button')?.focus();
-    const cached = cache.current.get(article.slug);
+    const cached = cache.current.get(article.url);
     if (cached !== undefined) setMarkdown(cached);
-    else fetch(`/om/${releaseId}/articles/${article.slug}.json`, { signal: controller.signal }).then(async response => {
+    else fetch(`/om/${article.collection||releaseId}/articles/${article.slug}.json`, { signal: controller.signal }).then(async response => {
       if (!response.ok) throw Error('Unavailable');
       const data = await response.json();
-      if (data.releaseId !== releaseId || data.schemaVersion !== schemaVersion || data.article?.slug !== article.slug || data.article.contentSha256 !== article.contentSha256 || typeof data.article.markdown !== 'string') throw Error('Invalid article');
+      if (data.releaseId !== (article.collection||releaseId) || data.schemaVersion !== schemaVersion || data.article?.slug !== article.slug || data.article.contentSha256 !== article.contentSha256 || typeof data.article.markdown !== 'string') throw Error('Invalid article');
       if (controller.signal.aborted) return;
-      cache.current.set(article.slug, data.article.markdown);
+      cache.current.set(article.url, data.article.markdown);
       setMarkdown(data.article.markdown);
     }).catch(() => { if (!controller.signal.aborted) setArticleError(true); });
     return () => controller.abort();
@@ -77,14 +88,15 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
       target?.focus();
     });
   }
-  return <Studies.Provider value={{ articles, offline, open: (article, element) => { trigger.current = element; setSelected(article); } }}>
+  return <Studies.Provider value={{ articles, offline, unavailable:error, open: (article, element, label='Return to Greek') => { setTrail([]); setReturnLabel(label); trigger.current = element; setSelected(article); } }}>
     <ReaderEnvironment.Provider value={environment}>
       {error && <p role="alert" className="notice">The Ordinary Means article collection could not be loaded. {offline ? 'Restart the application' : 'Reload the page'} to try again. You can still open the website links.</p>}
       {children}
       {selected && createPortal(<dialog ref={dialog} className="om-study" aria-labelledby="om-study-title" onCancel={event => { event.preventDefault(); event.stopPropagation(); close(); }} onKeyDown={event => { if (event.key === 'Escape') event.stopPropagation(); }}>
-        <header className="om-study-header"><div><p>Ordinary Means commentary</p><h2 id="om-study-title">{selected.title}</h2></div><button autoFocus onClick={close}>Return to Greek</button></header>
-        <article className="om-study-body"><p className="om-study-subtitle">{selected.subtitle}</p><p>By {selected.author} · Saved {selected.snapshotDate}</p>
-          {articleError ? <p role="alert">This article could not be loaded. Return to Greek and try again, or use the website link below.</p> : markdown === null ? <p role="status">Loading article…</p> :
+        <header className="om-study-header"><div><p>Ordinary Means commentary</p><h2 id="om-study-title">{selected.title}</h2></div><button autoFocus onClick={close}>{returnLabel}</button></header>
+        <article className="om-study-body">{trail.length>0&&<p><button className="saved-study-link" onClick={()=>{setSelected(trail[trail.length-1]);setTrail(trail.slice(0,-1))}}>← Back to {trail[trail.length-1].title}</button></p>}<p className="om-study-subtitle">{selected.subtitle}</p><p>By {selected.author} · Saved {selected.snapshotDate}</p>
+          {selected.language==='Hebrew'&&<p className="om-study-frequency-note">Scripture quotations use the NET Bible, as in the published website article. Authored commentary is distinct from Scripture and OSHB analysis.</p>}
+          {articleError ? <p role="alert">This article could not be loaded. Close it and try again, or use the website link below.</p> : markdown === null ? <p role="status">Loading article…</p> :
           <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {
             if (href?.startsWith('#')) return <a {...props} href={href} onClick={event => {
               event.preventDefault();
@@ -93,9 +105,9 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
             }}>{children}</a>;
             const url = new URL(href || '', selected.url);
             const local = articles.find(article => article.url === url.href);
-            return local ? <button className="saved-study-link" onClick={() => setSelected(local)}>{children}</button> : <a {...props} href={url.protocol === 'https:' ? url.href : undefined} target="_blank" rel="noopener noreferrer">{children}</a>;
+            return local ? <button className="saved-study-link" onClick={() => {setTrail([...trail,selected]);setSelected(local)}}>{children}</button> : <a {...props} href={url.protocol === 'https:' ? url.href : undefined} target="_blank" rel="noopener noreferrer">{children}</a>;
           } }}>{markdown}</Markdown>}
-          <p className="om-study-frequency-note">Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 (n1904-2026-09-05-m2-v1). Cognate lemmas, variant readings, the appended shorter ending, and two verses with unavailable analysis are excluded.</p>
+          {selected.language!=='Hebrew'&&<p className="om-study-frequency-note">Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 (n1904-2026-09-05-m2-v1). Cognate lemmas, variant readings, the appended shorter ending, and two verses with unavailable analysis are excluded.</p>}
           <p><a href={selected.url} target="_blank" rel="noopener noreferrer">Read on larryherzogjr.com ↗</a>{offline && ' · Internet required'}</p>
         </article>
       </dialog>, document.body)}

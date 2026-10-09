@@ -268,3 +268,9 @@ Larry authorizes integrating the supplied Lenski NT text on his recorded public-
 ## Authorized K&D chapter commentary — 2026-10-08
 
 AF-OT-021 adds the user-supplied Keil & Delitzsch OT commentary on Larry's stated public-domain determination, alongside Lenski in the shared Library/reader and offline asset bundle. Supplied chapter groups and prose are preserved; explicit related-source links address cross-group exposition. Hebrew numbering and imperfect extraction boundaries preclude a claim of precise canonical verse alignment. The initial local scope is chapter reading/search; future exact alignment needs reviewed mapping decisions. See `KD-Implementation-2026-10-08.md`. No deployment or new signed release is included; M5/MVP remain incomplete.
+
+## October 9 · AF-LXX-022 authorized full English Septuagint
+
+The user selected the full supplied LXX2012 edition, including Apocrypha. The local shared reader now includes 54 source books, edition-aware navigation/search, publisher notes, and reciprocal Greek chapter contexts. Preserve independent source numbering; no canonical Apocrypha identity or English word alignment is inferred. [Implementation and source record](LXX2012-Edition-2026-10-09.md) describes immutable pins, predecessor correction, verification and remaining review/release work. Production publication and signed native versions remain separate; M5/MVP are incomplete.
+
+October 9 follow-on backlog: AF-LANG-023 adds source-numbered WLC and Clementine reading; AF-HEB-024 adds clickable WLC words, OSHB analysis/occurrences and seven existing Ordinary Means article links. Scope and continuing limits: [Original languages](Original-Languages-2026-10-09.md). No automatic Latin verse synchronization or English word alignment is claimed. Local verification precedes separately authorized publication; M5/MVP remain incomplete.

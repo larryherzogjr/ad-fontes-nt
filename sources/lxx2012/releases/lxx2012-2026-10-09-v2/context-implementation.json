@@ -1,0 +1,6 @@
+{
+  "scope": "Chapter reading context only; not verse or word equivalence",
+  "implementation": "app/lib/domain/lxx-english.ts",
+  "sha256": "40255339d67f474397df895a8fe1e24fa3c7f2325ee7627e4b92f248f7cb75a0",
+  "decision": "docs/LXX2012-Edition-2026-10-09.md"
+}

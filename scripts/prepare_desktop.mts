@@ -17,6 +17,9 @@ const visualSelections = [
   ...(visuals.supplements ?? []),
 ];
 const allowed = [
+  'om/hebrew-studies-2026-10-09-v1',
+  'corpus/lxx2012-2026-10-09-v2',
+  'corpus/original-languages-2026-10-09-v1',
   ...otEditions.map(edition => `corpus/${edition.releaseId}`),
   ...editions.map((edition: { releaseId: string }) => `corpus/${edition.releaseId}`),
   `analysis/${analysis.releaseId}`,
@@ -55,6 +58,7 @@ await writeFile(join(destination, 'desktop-content.json'), JSON.stringify({
   schemaVersion: 1,
   editions: editions.map(({ editionId, releaseId }: { editionId: string; releaseId: string }) => ({ editionId, releaseId })),
   otEditions,
+  sourceEditions: [{editionId:'LXX2012',releaseId:'lxx2012-2026-10-09-v2'}, ...['WLC','CVUL'].map(editionId=>({editionId,releaseId:'original-languages-2026-10-09-v1'}))],
   analysis: analysis.releaseId,
   lexical: 'dodson-2010-v5',
   visuals: visualSelections,

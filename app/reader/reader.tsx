@@ -6,6 +6,8 @@ import { writeClipboard } from '@/lib/clipboard';
 import StudyPanel from './study-panel';
 import TestamentConnections from './testament-connections';
 import GreekResearch from './greek-research';
+import OriginalLanguageReader from './original-language-reader';
+import EnglishSeptuagintReader from './lxx-english-reader';
 import ConnectionCatalog from './connection-catalog';
 import PublisherFootnote from './publisher-footnote';
 import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from '@/components/ui/popover';
@@ -61,7 +63,7 @@ export default function Reader() {
     [mode, setMode] = useState('read'),
     [edition, setEdition] = useState('BSB'),
     [explicitPassage, setExplicitPassage] = useState(false),
-    [study, setStudy] = useState<'compare' | 'greek' | 'notes' | 'connections' | 'commentary' | null>(null),
+    [study, setStudy] = useState<'compare' | 'greek' | 'hebrew' | 'notes' | 'connections' | 'commentary' | null>(null),
     [input, setInput] = useState(''),
     [query, setQuery] = useState(''),
     [filter, setFilter] = useState(''),
@@ -182,7 +184,9 @@ export default function Reader() {
       setResults(null);
       const url = new URL(location.href);
       const panel = url.searchParams.get('panel');
-      setStudy(panel === 'compare' || panel === 'greek' || panel === 'notes' || panel === 'connections' || panel === 'commentary' ? panel : null);
+      setStudy(panel === 'compare' || panel === 'hebrew' || panel === 'greek' || panel === 'notes' || panel === 'connections' || panel === 'commentary' ? panel : null);
+      if (['WLC','CVUL'].includes(url.searchParams.get('translation')||'')) {setMode('original-language');setStudy(null);setLoading(false);return;}
+      if (url.searchParams.get('translation') === 'LXX2012') { setMode('english-lxx'); setStudy(null); setLoading(false); return; }
       let adapter;
       try {
         adapter = getCorpus(url.searchParams.get('translation') || 'BSB');
@@ -454,7 +458,7 @@ export default function Reader() {
     );
   }
   function openStudy(
-    mode: 'compare' | 'greek' | 'notes' | 'connections' | 'commentary',
+    mode: 'compare' | 'greek' | 'hebrew' | 'notes' | 'connections' | 'commentary',
     chosen?: PassageRange[],
     focusId?: string,
     unitId?: string,
@@ -493,11 +497,12 @@ export default function Reader() {
     try {
       sessionStorage.setItem(
         'afnt-study-return',
-        study === 'commentary' ? 'open-commentary' : study === 'connections' ? 'open-connections' : study === 'greek' ? 'open-greek' : 'open-compare',
+        study === 'hebrew' ? 'open-hebrew' : study === 'commentary' ? 'open-commentary' : study === 'connections' ? 'open-connections' : study === 'greek' ? 'open-greek' : 'open-compare',
       );
     } catch {}
     const url = new URL(location.href);
     url.searchParams.delete('panel');
+    url.searchParams.delete('hebrewToken');
     url.searchParams.delete('token');
     url.searchParams.delete('unit');
     navigate(url.pathname + url.search);
@@ -507,6 +512,8 @@ export default function Reader() {
     if (disclosure) { disclosure.open = true; disclosure.querySelector('summary')?.focus(); disclosure.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
   }
   function jumpNote(id: string) { openDisclosure(id); }
+  if (mode === 'original-language') return <OriginalLanguageReader/>;
+  if (mode === 'english-lxx') return <EnglishSeptuagintReader/>;
   return (
     <>
       <a className="skip" href="#reading">
@@ -618,6 +625,8 @@ export default function Reader() {
             value={edition}
             onChange={(e) => {
               const chosen = e.target.value;
+              if (chosen === 'WLC' || chosen === 'CVUL') { navigate(`/read/${chosen === 'WLC' && !isOtBook(current.book.code) ? 'GEN' : current.book.code}/1?translation=${chosen}`); return; }
+              if (chosen === 'LXX2012') { navigate(`/read/${isOtBook(current.book.code) ? current.book.code : 'GEN'}/1?translation=LXX2012`); return; }
               if (mode === 'search')
                 navigate(
                   `/search?q=${encodeURIComponent(query)}&translation=${encodeURIComponent(chosen)}&book=${filter}`,
@@ -635,6 +644,7 @@ export default function Reader() {
             }}
           >
             <optgroup label="English">
+              <option value="LXX2012">LXX2012 · English Septuagint</option>
               {editions
                 .filter((e) => e.language === 'en')
                 .map((e) => (
@@ -643,6 +653,7 @@ export default function Reader() {
                   </option>
                 ))}
             </optgroup>
+            <optgroup label="Hebrew / Aramaic"><option value="WLC">Westminster Leningrad Codex · Hebrew / Aramaic</option></optgroup><optgroup label="Latin"><option value="CVUL">Clementine Vulgate · Latin</option></optgroup>
             {mode !== 'search' && !otReading && <optgroup label="Greek">
               {editions
                 .filter((e) => e.language === 'grc')
@@ -693,6 +704,7 @@ export default function Reader() {
               <div className="study-actions">
                 <button className="study-tool comparison-tool" id="open-compare" onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
                 {<button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>}
+                {otReading&&<button className="study-tool hebrew-tool" id="open-hebrew" onClick={()=>openStudy('hebrew')}><span className="tool-symbol" aria-hidden="true">א</span>Hebrew</button>}
                 <button className="study-tool" id="open-commentary" onClick={() => openStudy('commentary')}>Commentaries</button>
                 <button className="study-tool connections-tool" id="open-connections" onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
@@ -1041,13 +1053,15 @@ export default function Reader() {
             <p className="eyebrow">SOURCES &amp; EDITIONS</p>
             <h1>Read with a known source.</h1>
             <p>
-              All editions contain the 27 New Testament books and are stored
+              The seven New Testament editions contain all 27 NT books and are stored
               locally. Textual groupings help organize comparison; they do not
               imply uniform texts or word alignment.
             </p>
             <section className="source-edition"><h3>Keil &amp; Delitzsch commentary</h3><p>C. F. Keil and F. Delitzsch, Commentary on the Old Testament (T. &amp; T. Clark, 1864–1891). Historical commentary with supplied chapter groups and source numbering preserved. Precise verse alignment is not established. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/kd-2026-10-08-v1/manifest.json">K&amp;D source manifest</a></section><section className="source-edition"><h3>Lenski commentary</h3><p>R. C. H. Lenski, The Interpretation of the New Testament. Historical commentary in a separate reader panel and Library collection. Supplied transcription with explicit passage anchors; chapter context remains available where an anchor is unresolved. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/lenski-2026-10-08-v1/manifest.json">Lenski source manifest</a></section>
             <section className="source-edition"><h3>NT/OT connections</h3><p>698 explicit cross-testament citations from pinned BSB publisher notes. Reciprocal links retain the original note and citation; they do not establish quotation extent or classify quotations, allusions or parallels. Coverage is partial.</p><a href="/connections/bsb-testament-connections-2026-10-07-v1/manifest.json">Connections source manifest</a></section>
             {otEnabled && <p className="notice">The four English editions also include all 39 Old Testament books. BLB is a publisher draft; MSB OT wording matches BSB. The OT Greek study panel adds the Septuagint; the Greek editions below cover the New Testament. The edition groupings below describe NT comparison only.</p>}
+            <section className="source-edition"><h2>Hebrew and Latin editions</h2><p>Read the Westminster Leningrad Codex with OSHB word analysis, or the 73-book Clementine Vulgate with source numbering retained. Hebrew Scripture is public domain; OSHB analysis is attributed under CC BY 4.0.</p><p><a href="/read/GEN/1?translation=WLC">Read Hebrew / Aramaic →</a> · <a href="/read/GEN/1?translation=CVUL">Read Latin →</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section>
+            <section className="source-edition"><h2>LXX2012 · English Septuagint</h2><p>The complete supplied English edition: 54 books, including the Apocrypha and Psalm 151. Brenton’s translation updated by Michael Paul Johnson, with the EPUB’s public-domain notice, publisher notes and source numbering retained. Separate from the seven NT editions and Berean texts.</p><a href="/read/GEN/1?translation=LXX2012">Read the English Septuagint and view its source notice →</a></section>
             {editions.map((e) => (
               <section key={e.editionId} className="source-edition">
                 <h2>{e.name}</h2>

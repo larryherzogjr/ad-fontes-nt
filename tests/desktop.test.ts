@@ -224,3 +224,36 @@ test('packaged Greek analysis, dictionary, occurrences and OM article work with 
     assert.match(article.markdown, /COPY APPROVED/);
   } finally { globalThis.fetch = original; }
 });
+
+test('desktop bundles the full English Septuagint and Apocrypha offline', async () => {
+  const inventory = await json('desktop-content.json');
+  assert.ok(inventory.sourceEditions.some((e: {editionId:string;releaseId:string}) => e.editionId === 'LXX2012' && e.releaseId === 'lxx2012-2026-10-09-v2'));
+  const base = 'corpus/lxx2012-2026-10-09-v2';
+  const manifest = await json(`${base}/manifest.json`);
+  assert.equal(manifest.books.length, 54);
+  for (const b of manifest.books) {
+    const book = await json(`${base}/books/${b.code}.json`);
+    assert.equal(book.chapters.flatMap((c: {verses:unknown[]}) => c.verses).length, b.verses);
+  }
+  assert.equal((await json(`${base}/search.json`)).verses.length, 28326);
+  assert.match((await json(`${base}/notice.json`)).text, /Public Domain/);
+});
+
+test('desktop includes Hebrew, Latin, analysis, author links and Hebrew font offline', async()=>{
+ const inventory=await json('desktop-content.json');
+ for(const editionId of ['WLC','CVUL'])assert.ok(inventory.sourceEditions.some((e:{editionId:string})=>e.editionId===editionId));
+ const base='corpus/original-languages-2026-10-09-v1';
+ assert.equal((await json(`${base}/WLC/manifest.json`)).verseCount,23213);
+ assert.equal((await json(`${base}/CVUL/manifest.json`)).verseCount,35810);
+ assert.equal((await json(`${base}/hebrew-index.json`)).articles.length,7);
+ const job=await json(`${base}/analysis/JOB/1.json`);assert.ok(job.verses[0].tokens.some((t:{keys:string[]})=>t.keys.includes('H8535')));
+ assert.ok(inventory.files[`${base}/fonts/noto-serif-hebrew.woff2`]);
+});
+
+test('desktop includes all seven Hebrew studies for in-app offline reading',async()=>{
+ const fs=await import('node:fs/promises');
+ const base='app/desktop/public/om/hebrew-studies-2026-10-09-v1';
+ const index=JSON.parse(await fs.readFile(`${base}/index.json`,'utf8'));
+ assert.equal(index.articles.length,7);
+ for(const a of index.articles){const article=JSON.parse(await fs.readFile(`${base}/articles/${a.slug}.json`,'utf8'));assert.ok(article.article.markdown.includes('## What It Means'));assert.equal(article.article.contentSha256,a.contentSha256)}
+});

@@ -1667,3 +1667,74 @@ button.interlinear-word.chosen, button.interlinear-word:hover, .greek-token-text
   .scripture .selected-number a, .study-tabs button[aria-pressed='true'], .masthead > nav a.active { outline: 2px solid Highlight; }
   .reader-selection-status { border-left-color: Highlight; }
 }
+
+/* LXX2012 uses the shared reader styles with independent source numbering. */
+.lxx-reader.with-greek { max-width: 1440px; }
+.lxx-english-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem; }
+.lxx-english-columns.single { display: block; }
+.lxx-english-columns > * { min-width: 0; }
+.lxx-verse-number { margin-right: .45em; font-family: system-ui, sans-serif; }
+.lxx-verse-number sup { font-size: .65em; }
+.lxx-publisher-notes { font: .9rem/1.6 Arial, sans-serif; margin-bottom: 1rem; }
+.lxx-publisher-notes p { font-family: inherit; font-size: 1rem; }
+.lxx-source-verse:focus { outline: 2px solid var(--ring, #32667a); outline-offset: 4px; }
+.lxx-greek-context { border-left: 1px solid var(--border); padding-left: 1.5rem; }
+.lxx-greek-context h2 { margin: 0; }
+#lxx-source { margin-top: 2rem; overflow-wrap: anywhere; }
+@media (max-width: 700px) { .lxx-english-columns { grid-template-columns: minmax(0, 1fr); } .lxx-greek-context { border-left: 0; border-top: 1px solid var(--border); padding: 1rem 0 0; } }
+
+/* Original-language reading shares the main reader's controls and text column. */
+@font-face { font-family: 'Noto Serif Hebrew'; src: url('/corpus/original-languages-2026-10-09-v1/fonts/noto-serif-hebrew.woff2') format('woff2'); font-display: swap; }
+.hebrew-text, .hebrew-scripture { font-family: 'Noto Serif Hebrew', serif; }
+.hebrew-text { unicode-bidi: isolate; }
+.hebrew-scripture { line-height: 2.3; text-align: right; }
+.hebrew-scripture sup { margin-inline-end: .65rem; }
+.hebrew-scripture button.hebrew-word { display:inline; background:transparent; color:inherit; border:0; border-radius:3px; padding:0 .06em; font:inherit; line-height:inherit; min-height:0; cursor:pointer; }
+.hebrew-scripture button.hebrew-word:hover, .hebrew-scripture button.hebrew-word[aria-pressed=true] { background:var(--highlight, #e4d7ae); color:var(--ink); }
+.hebrew-scripture button.hebrew-word:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.original-reader.with-study { max-width:1440px; }
+.original-columns { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:2rem; }
+.original-columns.single { display:block; }
+.original-columns > * { min-width:0; }
+.original-study { border-left:1px solid var(--border); padding-left:1.5rem; overflow-wrap:anywhere; }
+.original-study section + section { margin-top:2rem; border-top:1px solid var(--border); padding-top:1rem; }
+.original-study dd { margin-left:0; }
+.source-notes { font:1rem/1.6 Arial,sans-serif; margin: .75rem 0 1.5rem; text-align:left; }
+.source-verse:focus { outline:2px solid var(--accent); outline-offset:5px; }
+.hebrew-study-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1rem; margin:1rem 0 2rem; }
+.hebrew-study-cards article { padding:1rem; border:1px solid var(--border); border-radius:8px; }
+.hebrew-study-cards h4 { margin-top:0; }
+.hebrew-study-cards p { margin:.75rem 0; }
+.hebrew-lemma-list { list-style:none; padding:0; }
+.hebrew-lemma-list li { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.75rem; border-bottom:1px solid var(--border); padding:.7rem 0; }
+.hebrew-occurrences li { padding:.5rem 0; }
+.hebrew-explorer .hebrew-text { font-size:1.35rem; }
+@media(max-width:700px) { .original-columns { grid-template-columns:1fr; }.original-study { border-left:0; border-top:1px solid var(--border);padding:1rem 0 0; }.hebrew-study-cards { grid-template-columns:1fr; } }
+.original-study h3.hebrew-text { font-size:2rem; line-height:1.8; margin:.75rem 0; }
+#hebrew-word-details:focus { outline:none; }
+@media(min-width:701px) { .original-study { align-self:start; position:sticky; top:1rem; max-height:calc(100vh - 2rem); overflow-y:auto; padding-right:.5rem; } }
+@media(max-width:700px) { .original-study.with-word { grid-row:1; border-top:0; border-bottom:1px solid var(--border); padding-bottom:1rem; } #hebrew-word-details { scroll-margin-top:180px; } }
+body.reader-focus-mode .original-study { display:none; }
+body.reader-focus-mode .original-columns { display:block; }
+
+.hebrew-occurrence-context { line-height: 2; font-size: 1.35rem; overflow-wrap: anywhere; }
+.hebrew-occurrences > li { margin-block: 1.25rem; }
+
+.hebrew-passage-text { font-size: 1.65rem; line-height: 2.2; }
+.hebrew-analysis-words { display: flex; flex-wrap: wrap; gap: .6rem; align-items: flex-start; }
+.hebrew-analysis-words .interlinear-word { font-size: 1.45rem; }
+.hebrew-passage .word-detail { overflow-wrap: anywhere; }
+@media(max-width:1099px){ .hebrew-passage .greek-workspace.has-word { display:flex; flex-direction:column; } .hebrew-inspector { order:-1; width:100%; } }
+@media(min-width:1100px){
+ .study-tabs:has([aria-label='Explore Hebrew']) .tool-label-full { display:none; }
+ .study-tabs:has([aria-label='Explore Hebrew']) .tool-label-short { display:inline; }
+}
+
+@media(min-width:1100px){
+ body.source-hebrew-open .toolbar, body.source-hebrew-open .reader-layout { width:48vw; margin-left:0; }
+ body.source-hebrew-open .toolbar { flex-wrap:wrap; }
+ body.source-hebrew-open .original-columns, body.source-hebrew-open .lxx-english-columns { display:block; }
+ body.source-hebrew-open .reader-tools { flex-wrap:wrap; }
+}
+.source-hebrew-dialog { --study-chrome-height: 200px; }
+.source-hebrew-dialog select { margin-left:.5rem; }

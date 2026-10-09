@@ -31,7 +31,7 @@ export default function ReadingSelection({
   editionId: string;
   onSelect: (ranges: PassageRange[]) => void;
   onOpen: (
-    mode: 'compare' | 'greek' | 'connections' | 'commentary',
+    mode: 'compare' | 'greek' | 'hebrew' | 'connections' | 'commentary',
     ranges: PassageRange[],
     focusId: string,
   ) => void;
@@ -258,6 +258,7 @@ export default function ReadingSelection({
         {<button onClick={() => onOpen('greek', choice.ranges, choice.focusId)}>
           <span className="wide-label">Explore Greek</span><span className="short-label">Greek</span>
         </button>}
+        {choice.ranges.every(r=>isOtBook(r.start.split('.')[0])&&isOtBook(r.end.split('.')[0]))&&<button onClick={()=>onOpen('hebrew',choice.ranges,choice.focusId)}>Hebrew</button>}
         <button onClick={() => onOpen('commentary', choice.ranges, choice.focusId)}>Commentaries</button>
         <button className="selection-connections" onClick={() => onOpen('connections', choice.ranges, choice.focusId)}>NT/OT Connections</button>
       </div>
