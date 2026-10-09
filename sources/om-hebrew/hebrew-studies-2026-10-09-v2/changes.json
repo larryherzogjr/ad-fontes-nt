@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "tam",
+    "before": "> There was a man in the land of Uz whose name was Job. And that man was pure and upright, one who feared God and turned away from evil. (Job 1:1)",
+    "after": "> There was a man in the land of Uz whose name was Job. And this man was blameless and upright, fearing God and shunning evil. (Job 1:1, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "tam",
+    "before": "> When the days of their feasting were finished, Job would send for them and sanctify them; he would get up early in the morning and offer burnt offerings according to the number of them all. For Job thought, \"Perhaps my children have sinned and cursed God in their hearts.\" (1:5)",
+    "after": "> And when the days of feasting were over, Job would send for his children to purify them, rising early in the morning to offer burnt offerings for all of them. For Job thought, “Perhaps my children have sinned and cursed God in their hearts.” This was Job’s regular practice. (Job 1:5, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "hinnam",
+    "before": "> Is it for nothing that Job fears God? (Job 1:9)",
+    "after": "> Satan answered the LORD, “Does Job fear God for nothing? (Job 1:9, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ha-satan",
+    "before": "> All right then, everything he has is in your power. Only do not extend your hand against the man himself! (1:12)",
+    "after": "> “Very well,” said the LORD to Satan. “Everything he has is in your hands, but you must not lay a hand on the man himself.” Then Satan went out from the presence of the LORD. (Job 1:12, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ed",
+    "before": "> You have seized me, and it has become a witness; my leanness has risen up against me and testifies against me. (Job 16:8)",
+    "after": "> You have bound me, and it has become a witness; my frailty rises up and testifies against me. (Job 16:8, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ed",
+    "before": "> O earth, do not cover my blood, nor let there be a secret place for my cry. Even now my witness is in heaven; my advocate is on high. (16:18-19)",
+    "after": "> O earth, do not cover my blood; may my cry for help never be laid to rest. Even now my witness is in heaven, and my advocate is on high. (Job 16:18–19, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "goel",
+    "before": "> As for me, I know that my Redeemer lives, and that as the last he will stand upon the earth. And after my skin has been destroyed, yet in my flesh I will see God, whom I will see for myself, and whom my own eyes will behold, and not another. (Job 19:25-27)",
+    "after": "> But I know that my Redeemer lives, and in the end He will stand upon the earth. Even after my skin has been destroyed, yet in my flesh I will see God. I will see Him for myself; my eyes will behold Him, and not as a stranger. How my heart yearns within me! (Job 19:25–27, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "mokiah",
+    "before": "> Nor is there an arbiter between us, who might lay his hand on us both. (Job 9:33)",
+    "after": "> Nor is there a mediator between us, to lay his hand upon us both. (Job 9:33, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "naham",
+    "before": "> I have heard many things like these before. What miserable comforters are you all! (16:2)",
+    "after": "> “I have heard many things like these; miserable comforters are you all. (Job 16:2, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "naham",
+    "before": "> Therefore I despise myself, and I repent in dust and ashes! (42:6)",
+    "after": "> Therefore I despise myself, and I repent in dust and ashes.” (Job 42:6, BSB)",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "tam",
+    "before": "usually translated \"a quiet man\" or \"an even-tempered man.\" The bride in the Song of Songs calls her beloved \"my perfect one,\" using the same root (Song 5:2).",
+    "after": "translated \"a quiet man\" in the BSB. Song of Songs uses \"my flawless one,\" from the same root (Song 5:2).",
+    "reason": "Align translation examples with BSB and its speaker context"
+  },
+  {
+    "slug": "tam",
+    "before": "The NET translates *tām* as \"pure.\" Many translations say \"blameless.\"",
+    "after": "The BSB translates *tām* as \"blameless.\"",
+    "reason": "Explain the selected translation"
+  },
+  {
+    "slug": "tam",
+    "before": "still holds firmly to his integrity",
+    "after": "still retains his integrity",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "tam",
+    "before": "Are you still holding firmly to your integrity? Curse God, and die!",
+    "after": "Do you still retain your integrity? Curse God and die!",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "hinnam",
+    "before": "Job still holds firmly to his integrity, \"so that you stirred me up to destroy him without reason\" (2:3). The NET translates *ḥinnām* \"for nothing\" in 1:9 and \"without reason\" in 2:3.",
+    "after": "Job still retains his integrity, \"even though you incited Me against him to ruin him without cause\" (2:3). The BSB translates *ḥinnām* \"for nothing\" in 1:9 and \"without cause\" in 2:3.",
+    "reason": "Align the explanation of the repeated Hebrew word with BSB"
+  },
+  {
+    "slug": "hinnam",
+    "before": "The Lord gives, and the Lord takes away. May the name of the Lord be blessed!",
+    "after": "The LORD gave, and the LORD has taken away. Blessed be the name of the LORD.",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "hinnam",
+    "before": "- The NET's translator notes on Job 1:9 and 2:3 are worth reading side by side.\n",
+    "after": "",
+    "reason": "Remove NET notes recommendation; retain the existing passage reading suggestions"
+  },
+  {
+    "slug": "ha-satan",
+    "before": "stands in Balaam's road \"as an adversary\" (Numbers 22:22).",
+    "after": "stands in Balaam's road \"to oppose him\" (Numbers 22:22).",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ha-satan",
+    "before": "but I have prayed for you",
+    "after": "But I have prayed for you",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ha-satan",
+    "before": "The Lord gives, and the Lord takes away",
+    "after": "The LORD gave, and the LORD has taken away",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ed",
+    "before": "My intercessor is my friend as my eyes pour out tears to God; and he contends with God on behalf of man as a man pleads for his friend",
+    "after": "My friends are my scoffers as my eyes pour out tears to God.",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "ed",
+    "before": "God.\" (16:20-21).",
+    "after": "God. Oh, that a man might plead with God as he pleads with his neighbor!\" (16:20-21).",
+    "reason": "Preserve both verses using BSB, including its different reading of verse 20"
+  },
+  {
+    "slug": "goel",
+    "before": "My kinsmen have failed me; my friends have forgotten me",
+    "after": "My kinsmen have failed me, and my friends have forgotten me",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "goel",
+    "before": "The NET's \"as the last\" translates *ʾaḥărôn*.",
+    "after": "The BSB renders the phrase containing *ʾaḥărôn* as \"in the end.\"",
+    "reason": "Explain the BSB rendering rather than attribute another translation to BSB"
+  },
+  {
+    "slug": "goel",
+    "before": "with \"my own eyes.\"",
+    "after": "with \"my eyes.\"",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "goel",
+    "before": "The NET's rendering is defensible and widely held.",
+    "after": "The BSB retains \"in my flesh.\"",
+    "reason": "State the BSB reading without transferring an evaluation of NET"
+  },
+  {
+    "slug": "goel",
+    "before": "- The NET's translator notes on Job 19:25-27 lay out the textual questions carefully and are worth reading slowly.\n",
+    "after": "",
+    "reason": "Remove NET notes recommendation; retain existing reading suggestions"
+  },
+  {
+    "slug": "mokiah",
+    "before": "that they may decide between the two of us",
+    "after": "that they may judge between the two of us",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "mokiah",
+    "before": "Later he longs for someone who \"contends with God on behalf of man as a man pleads for his friend\" (16:21).",
+    "after": "Later he longs for someone to plead his case: \"Oh, that a man might plead with God as he pleads with his neighbor!\" (16:21).",
+    "reason": "Align quotation and its lead-in with BSB"
+  },
+  {
+    "slug": "naham",
+    "before": "\"to show sympathy for him and to console him\" (Job 2:11). Console is *nāḥam*.",
+    "after": "\"to go and sympathize with Job and comfort him\" (Job 2:11). Comfort is *nāḥam*.",
+    "reason": "Align the gloss explanation with BSB"
+  },
+  {
+    "slug": "naham",
+    "before": "the NET supplies \"myself,\"",
+    "after": "the BSB supplies \"myself,\"",
+    "reason": "BSB also supplies this object"
+  },
+  {
+    "slug": "naham",
+    "before": "The NET's rendering is well supported. ",
+    "after": "",
+    "reason": "Remove the NET-specific evaluation; retain authored translation discussion"
+  },
+  {
+    "slug": "naham",
+    "before": "I have declared without understanding things too wonderful for me to know",
+    "after": "Surely I spoke of things I did not understand, things too wonderful for me to know.",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "naham",
+    "before": "- The NET's translator notes on Job 42:6 lay out the interpretive options clearly.\n",
+    "after": "",
+    "reason": "Remove NET notes recommendation; retain existing reading suggestions"
+  },
+  {
+    "slug": "tam",
+    "before": "describes a sacrificial animal \"without blemish\" (Exodus 12:5).",
+    "after": "describes a sacrificial animal as \"unblemished\" (Exodus 12:5).",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "naham",
+    "before": "Isaiah's great opening: \"Comfort, comfort my people,\"",
+    "after": "Isaiah's great opening: \"Comfort, comfort My people,\"",
+    "reason": "Use pinned BSB wording"
+  },
+  {
+    "slug": "naham",
+    "before": "Isaiah's \"Comfort, comfort my people\"",
+    "after": "Isaiah's \"Comfort, comfort My people\"",
+    "reason": "Use pinned BSB wording"
+  }
+]

@@ -30,14 +30,17 @@ test('Hebrew explorer return links preserve reader selections and reject externa
  assert.equal(hebrewExplorerReturn('//evil.test/library?view=hebrew'),'');
 });
 
-test('seven Hebrew articles reproduce author bytes and resolve related Greek studies offline',async()=>{
+test('seven BSB Hebrew adaptations preserve source pins and resolve related Greek studies offline',async()=>{
  const {createHash}=await import('node:crypto');
- const base='sources/om-hebrew/hebrew-studies-2026-10-09-v1';const manifest=JSON.parse(await readFile(`${base}/manifest.json`,'utf8'));
+ const base='sources/om-hebrew/hebrew-studies-2026-10-09-v2';const manifest=JSON.parse(await readFile(`${base}/manifest.json`,'utf8'));
  const greekRelease=JSON.parse(await readFile('app/lib/domain/om-release.json','utf8'));
  const greek=JSON.parse(await readFile(`app/public/om/${greekRelease.releaseId}/index.json`,'utf8'));
  assert.equal(manifest.articles.length,7);
  for(const article of manifest.articles){
-  const raw=await readFile(`${base}/raw/${article.slug}.md`,'utf8');assert.equal(createHash('sha256').update(raw).digest('hex'),article.contentSha256);
+  const raw=await readFile(`${base}/adapted/${article.slug}.md`,'utf8');assert.equal(createHash('sha256').update(raw).digest('hex'),article.contentSha256);
+  const original=await readFile(`sources/om-hebrew/${manifest.predecessor}/raw/${article.slug}.md`);
+  assert.equal(createHash('sha256').update(original).digest('hex'),article.sourceSha256);
+  assert.doesNotMatch(raw,/\bNET\b/);
   const output=JSON.parse(await readFile(`app/public/om/${manifest.releaseId}/articles/${article.slug}.json`,'utf8'));
   assert.equal(output.article.markdown,raw.split('---').slice(2).join('---').replace(/^[\r\n]+/,''));
   for(const link of output.article.markdown.matchAll(/\]\((\/greek\/[^)]+)\)/g))assert.ok(greek.articles.some((a:{url:string})=>a.url===`https://larryherzogjr.com${link[1]}`),link[1]);
@@ -59,4 +62,24 @@ test('independent source chapters do not claim alignment to Latin or LXX2012',as
  const data=await hebrewSourceChapter('JOB',1);assert.equal(data.verses.length,22);assert.ok(data.verses.every(v=>v.anchors.length===0));
  await assert.rejects(hebrewSourceChapter('JOL',5));
  assert.equal(hebrewReturn('/read/JOB/1?translation=BSB&panel=hebrew&hebrewToken=18aPd'),'/read/JOB/1?translation=BSB&panel=hebrew&hebrewToken=18aPd');
+});
+
+
+test('Hebrew study quotations and excerpts match the pinned BSB authority',async()=>{
+ const {createHash}=await import('node:crypto');
+ const base='sources/om-hebrew/hebrew-studies-2026-10-09-v2';
+ const manifest=JSON.parse(await readFile(`${base}/manifest.json`,'utf8'));
+ const source=await readFile(manifest.bsbSource.path);
+ assert.equal(createHash('sha256').update(source).digest('hex'),manifest.bsbSource.sha256);
+ const verses=new Map(source.toString('utf8').split(/\r?\n/).filter(l=>l.includes('\t')).map(l=>{const i=l.indexOf('\t');return [l.slice(0,i),l.slice(i+1).trim()]}));
+ const quotes=JSON.parse(await readFile(`${base}/quotations.json`,'utf8'));
+ for(const q of quotes){
+  const text=Array.from({length:q.end-q.start+1},(_,i)=>verses.get(`${q.book} ${q.chapter}:${q.start+i}`)).join(' ');
+  assert.ok(text.includes(q.text),`${q.slug}: ${q.book} ${q.chapter}:${q.start}`);
+  const article=JSON.parse(await readFile(`app/public/om/${manifest.releaseId}/articles/${q.slug}.json`,'utf8'));
+  assert.ok(article.article.markdown.includes(q.text));
+ }
+ const ed=JSON.parse(await readFile(`app/public/om/${manifest.releaseId}/articles/ed.json`,'utf8')).article.markdown;
+ assert.match(ed,/My friends are my scoffers/);
+ assert.doesNotMatch(ed,/My intercessor is my friend/);
 });

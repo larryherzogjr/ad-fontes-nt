@@ -34,7 +34,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '3.5.1');
+  assert.equal(config.version, '3.5.2');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -252,8 +252,8 @@ test('desktop includes Hebrew, Latin, analysis, author links and Hebrew font off
 
 test('desktop includes all seven Hebrew studies for in-app offline reading',async()=>{
  const fs=await import('node:fs/promises');
- const base='app/desktop/public/om/hebrew-studies-2026-10-09-v1';
+ const base='app/desktop/public/om/hebrew-studies-2026-10-09-v2';
  const index=JSON.parse(await fs.readFile(`${base}/index.json`,'utf8'));
  assert.equal(index.articles.length,7);
- for(const a of index.articles){const article=JSON.parse(await fs.readFile(`${base}/articles/${a.slug}.json`,'utf8'));assert.ok(article.article.markdown.includes('## What It Means'));assert.equal(article.article.contentSha256,a.contentSha256)}
+ for(const a of index.articles){const article=JSON.parse(await fs.readFile(`${base}/articles/${a.slug}.json`,'utf8'));assert.ok(article.article.markdown.includes('## What It Means'));assert.doesNotMatch(article.article.markdown,/\bNET\b/);assert.equal(article.article.contentSha256,a.contentSha256)}
 });

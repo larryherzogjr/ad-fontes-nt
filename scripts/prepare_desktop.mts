@@ -17,7 +17,7 @@ const visualSelections = [
   ...(visuals.supplements ?? []),
 ];
 const allowed = [
-  'om/hebrew-studies-2026-10-09-v1',
+  'om/hebrew-studies-2026-10-09-v2',
   'corpus/lxx2012-2026-10-09-v2',
   'corpus/original-languages-2026-10-09-v1',
   ...otEditions.map(edition => `corpus/${edition.releaseId}`),
