@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 3.1.1 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 3.5.1 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/3.1.1/Ad-Fontes-macOS-Apple-Silicon-3.1.1.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.1.1/Ad-Fontes-Windows-x64-3.1.1.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/3.5.1/Ad-Fontes-macOS-Apple-Silicon-3.5.1.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.5.1/Ad-Fontes-Windows-x64-3.5.1.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 3.1.1 includes whole-Bible English reading and comparison,
+        Version 3.5.1 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
@@ -43,7 +43,7 @@ export default function DownloadsPage() {
         lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries.
         Reading and these study resources work offline.
         Choose the package for your computer.
-        Public reading and study tools require no account.
+        Freely available. Public reading and study tools require no account.
       </p>
 
       <div className="download-options">
@@ -54,7 +54,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </a>
-          <p className="download-detail">Developer ID signed and Apple notarized · 288 MB</p>
+          <p className="download-detail">Developer ID signed and Apple notarized · 312 MB</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -64,7 +64,7 @@ export default function DownloadsPage() {
           <a className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </a>
-          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 503 MB</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 525 MB</p>
         </section>
       </div>
 
@@ -82,10 +82,15 @@ export default function DownloadsPage() {
 
       <h2>Release notes</h2>
       <p>
-        Version 3.1.1 makes commentary navigation simpler: Introduction is now
-        the first option in the Lenski chapter dropdown, so you can move directly
-        from the introduction to any chapter. It includes the Ink &amp; Brass
-        Study Desk design and all existing offline study resources.
+        Version 3.5.1 adds the full LXX2012 English Septuagint, including the
+        Apocrypha, the Westminster Leningrad Codex Hebrew/Aramaic text, and the
+        Clementine Latin Vulgate. Explore Hebrew word analysis, lemma occurrences,
+        and seven offline Hebrew word studies. Open Hebrew beside Greek in the
+        Old Testament study pane, with supported passage mapping and verse sync.
+        Shared reading controls, simpler commentary chapter dropdowns, and
+        consistent Connections tabs improve navigation throughout the study library.
+        It includes the Ink &amp; Brass Study Desk design and all existing
+        offline study resources.
         The app checks for stable updates and
         asks before downloading or installing them. Personal notes and Google
         sign-in remain retired.

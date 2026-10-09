@@ -1151,3 +1151,13 @@ Final AF-HEB-026 validation passed: 120 Node/application tests, 44 Python/source
 ### October 9 · Consistent Connections tab label (AF-UI-027)
 
 At Larry's request, the shared study tab now says “Connections” in both OT and NT views, including its accessible label. Browser-verified Job and James study tabs. This is a label-only edit; no corpus, navigation or release changes. Local preview updated; not deployed.
+
+### October 9 · Coordinated 3.5.1 release (AF-REL-028)
+
+Larry authorized web and desktop release 3.5.1 of the approved English Septuagint/Apocrypha, WLC Hebrew/Aramaic, Clementine Latin, Hebrew Explorer and in-app studies, OT Hebrew study pane, commentary navigation and Connections-label work. Native source is `8c0d4fda4f8a42b0f0ab5dfa53287834f948c4b4`; existing signing/package/updater identities and historical source releases are preserved. Public installer metadata follows the frozen native artifacts.
+
+Validation passed 120 application tests, 44 Python/source checks, typecheck, production web/offline builds, nine desktop checks and four publication tests. Mac is signed/notarized, exact DMG/updater verified, and native Job/Hebrew word/article smoke review passed. Windows signed build and independent artifact/signature checks passed; stale 3.1.1 assertions were corrected, with exact-artifact upgrade verification in workflow `37985955459`. No native rebuild is needed for that test-only correction. Both updater payloads and the combined manifest are privately host-staged with matching checksums; Mac public installer staging also matches. Production checkout remains clean on main at `83d8d2b`, and immutable 3.5.1 destinations remain unused.
+
+Release evidence, hashes and limitations: [3.5.1 release record](docs/V3.5.1-Desktop-Release-2026-10-09.md). Next: successful Windows acceptance result, final publication commit, Larry's own-terminal host sudo command under AGENTS.md, then independent live verification. No live 3.5.1 claim yet. Reviewed Latin/LXX2012-to-Hebrew verse crosswalks, richer sourced Hebrew lexical data, stable-channel update rehearsal, physical Windows acceptance and broader M5/MVP acceptance remain outstanding. User website directory remains unchanged.
+
+AF-REL-028 final preparation: exact-installer Windows verification `37985955459` succeeded, including legacy-name upgrade/data preservation, repeated upgrade/uninstall cleanup and fresh install/uninstall. Final publication compilation and host checksum checks passed. Web, Mac and Windows 3.5.1 are prepared for the guarded own-terminal sudo publication; independent live verification follows Larry's output.
