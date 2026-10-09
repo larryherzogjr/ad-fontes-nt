@@ -1,16 +1,24 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 :root {
-  --background: #fcfcfa;
-  --foreground: #202b32;
-  --primary: #214e63;
-  --border: #cbd2d4;
-  --input: #abb8be;
-  --ring: #156784;
-  --muted-foreground: #53656e;
+  --background: #faf7ef;
+  --foreground: #202f38;
+  --primary: #254f63;
+  --border: #d3d6d1;
+  --input: #9ca9ae;
+  --ring: #254f63;
+  --muted-foreground: #59656d;
   --radius-md: 6px;
-  --surface: #f2f5f4;
-  --accent-soft: #e5eeef;
+  --surface: #eff1ed;
+  --accent-soft: #eee4c9;
+  --ink: #142c3b;
+  --ink-foreground: #faf7ef;
+  --brass: #b99a59;
+  --control: #fffdf7;
+  --muted: #eff1ed;
+  --accent: #254f63;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --font-reading: Georgia, 'Times New Roman', 'Palatino Linotype', serif;
   color-scheme: light;
 }
 * {
@@ -20,7 +28,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, 'Helvetica Neue', sans-serif;
+  font-family: var(--font-ui);
   font-size: 16px;
   line-height: 1.6;
 }
@@ -1561,3 +1569,101 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 
 /* Preserve publisher-marked verse numbers without shrinking numerical prose. */
 .connection-citation sup { font-size: 0.7em; line-height: 0; vertical-align: super; }
+
+/* AFNT-005 / AFNT-026 / AFNT-029: Ink & Brass, Study Desk.
+   Shared by web and offline desktop; no remote font dependency. */
+button, input, select, textarea { color: var(--foreground); background-color: var(--control); }
+button { color: var(--primary); }
+button:hover { background-color: var(--surface); }
+label, .eyebrow, .type-size output { color: var(--muted-foreground); }
+input[type='checkbox'], input[type='radio'] { accent-color: var(--ink); }
+:is(h1, h2, .scripture, .comparison-scripture) { font-family: var(--font-reading); }
+.masthead { background: var(--ink); color: var(--ink-foreground); border-top: 4px solid var(--brass); border-bottom: 0; padding-block: 18px 16px; }
+.brand { color: var(--ink-foreground); font-size: 1.875rem; }
+.brand span { color: var(--ink-foreground); opacity: .85; font-family: var(--font-ui); }
+.masthead > nav a { color: var(--ink-foreground); min-height: 44px; display: inline-flex; align-items: center; }
+.masthead > nav a.active { border-bottom: 3px solid var(--brass); font-weight: 600; }
+.masthead > nav a:hover { text-decoration: underline; }
+.masthead :is(a, summary):focus-visible { outline-color: var(--brass); }
+.toolbar { border-bottom-color: var(--border); padding-block: 10px; gap: 10px 14px; }
+.input-row button, button.primary, .library-search button { background: var(--ink); border-color: var(--ink); color: var(--ink-foreground); }
+.reader-layout { max-width: 800px; padding-top: 24px; }
+.reader-tools { gap: 12px; align-items: center; }
+.study-actions { gap: 4px; flex-wrap: wrap; }
+.study-actions button, .reader-selection-status button { min-height: 44px; }
+.reader-selection-status { margin: 10px 0 20px; padding-left: 12px; border-left: 3px solid var(--brass); }
+.reader-selection-status .reader-hint { color: var(--foreground); font-size: .875rem; }
+.reader-selection-copy-status:empty { display: none; }
+.testament-connections { margin-block: 12px; padding: 12px; border-color: var(--border); }
+.chapter-heading { margin: 24px 0; }
+.chapter-heading h1 { font-size: 2.5rem; }
+.chapter-heading .edition { font-size: .875rem; line-height: 1.6; margin-bottom: 10px; }
+.scripture { line-height: 1.8; }
+.text-block { margin-bottom: 1em; }
+.publisher-heading { color: var(--primary); }
+.scripture .selected { background: var(--accent-soft); color: var(--foreground); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.scripture sup a { color: var(--muted-foreground); border-radius: 3px; }
+.scripture .selected-number a { background: var(--ink); color: var(--ink-foreground); box-shadow: inset 0 -2px var(--brass); font-weight: 600; min-width: 24px; padding: 3px 5px; text-align: center; }
+.search-match { background: var(--accent-soft); }
+.study-dialog { background: var(--surface); border-color: var(--border); }
+.study-chrome { background: var(--surface); padding: 20px 24px 0; }
+.study-header h2 { font-size: 1.5rem; line-height: 1.3; }
+.study-header .eyebrow { font-size: .875rem; letter-spacing: .06em; }
+.study-content { padding: 24px 24px 40px; }
+.study-tabs { gap: 0; border: 1px solid var(--border); border-radius: 5px; margin-block: 16px 12px; padding: 0; }
+.study-tabs button { flex: 1 1 auto; min-height: 44px; border: 0; border-radius: 0; background: transparent; color: var(--primary); padding: 10px 12px; font-weight: 500; }
+.study-tabs button:first-child { border-radius: 4px 0 0 4px; }
+.study-tabs button:last-child { border-radius: 0 4px 4px 0; }
+.study-tabs button[aria-pressed='true'] { color: var(--ink-foreground); background: var(--ink); box-shadow: inset 0 -3px var(--brass); font-weight: 600; }
+.study-tabs button:hover:not([aria-pressed='true']) { background: var(--accent-soft); }
+.study-tabs button:focus-visible { outline-offset: -4px; }
+.study-tabs button[aria-pressed='true']:focus-visible { outline-color: var(--brass); }
+.comparison-nav { gap: 4px; }
+.comparison-nav button { color: var(--muted-foreground); min-height: 44px; }
+.comparison-nav button[aria-pressed='true'] { border-bottom: 3px solid var(--brass); color: var(--ink); }
+.comparison-scripture { font-size: 1.1875rem; line-height: 1.7; }
+.edition-reading { padding-block: 16px 20px; }
+.comparison-group > h3 { border-bottom-color: var(--border); }
+.comparison-compact .edition-reading, .comparison-compact .lxx-comparison { background: var(--background); }
+.word-detail { background: var(--background); }
+button.interlinear-word.chosen, button.interlinear-word:hover, .greek-token-text button.chosen { background: var(--accent-soft); }
+.connections-display-controls { background: var(--surface); }
+.connected-passages article { background: var(--background); }
+.connected-verse-marker { color: var(--muted-foreground); }
+.library-tabs a { background: var(--control); }
+.library-tabs a.active { border-color: var(--ink); background: var(--accent-soft); box-shadow: inset 0 -3px var(--brass); }
+.library-shelves > div { background: var(--surface); }
+@media (min-width: 1100px) {
+  body:has(.reader-layout.has-study) .masthead { padding-block: 16px 14px; }
+  .reader-layout.has-study { padding-inline: clamp(24px, 2.5vw, 44px); }
+  .toolbar:has(+ .has-study) { padding-inline: clamp(24px, 2.5vw, 44px); }
+}
+@media (max-width: 650px) {
+  .masthead { padding: 10px 16px; }
+  .brand { font-size: 1.5rem; }
+  .mobile-nav summary { color: var(--ink-foreground); }
+  .mobile-nav nav { background: var(--background); color: var(--foreground); }
+  .mobile-nav nav a { color: var(--primary); }
+  .mobile-nav nav a.active { background: var(--accent-soft); box-shadow: inset 3px 0 var(--brass); }
+  .mobile-nav nav a:focus-visible { outline-color: var(--ring); }
+  .toolbar { padding: 8px 12px; gap: 4px 8px; }
+  .reader-layout { padding: 16px 20px 40px; }
+  .reader-tools { align-items: start; gap: 6px; }
+  .study-actions { gap: 2px; flex-wrap: nowrap; }
+  .study-actions button { padding-inline: 6px; }
+  .chapter-heading { margin: 16px 0 20px; }
+  .chapter-heading h1 { font-size: 2.125rem; }
+  .reader-selection-status { margin: 8px 0 16px; padding-left: 10px; }
+  .study-chrome { padding: 14px 16px 0; }
+  .study-header h2 { font-size: 1.25rem; }
+  .study-tabs { overflow: visible; flex-wrap: wrap; margin-block: 12px 8px; }
+  .study-tabs button { flex: 1 1 calc(50% - 1px); padding-inline: 6px; white-space: normal; border-radius: 0; }
+  .study-tabs button:first-child { border-radius: 4px 0 0 0; }
+  .study-tabs button:last-child { border-radius: 0 0 4px 0; }
+  .study-content { padding: 18px 16px 32px; }
+  .comparison-nav button { padding-inline: 6px; }
+}
+@media (forced-colors: active) {
+  .scripture .selected-number a, .study-tabs button[aria-pressed='true'], .masthead > nav a.active { outline: 2px solid Highlight; }
+  .reader-selection-status { border-left-color: Highlight; }
+}

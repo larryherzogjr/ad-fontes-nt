@@ -34,7 +34,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '3.0.3');
+  assert.equal(config.version, '3.1.0');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -48,8 +48,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "3\.0\.3"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "3\.0\.3"/);
+  assert.match(cargoManifest, /^version = "3\.1\.0"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "3\.1\.0"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
