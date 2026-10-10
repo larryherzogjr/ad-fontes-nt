@@ -5,7 +5,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 3.5.2 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 3.6.0 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/3.5.2/Ad-Fontes-macOS-Apple-Silicon-3.5.2.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.5.2/Ad-Fontes-Windows-x64-3.5.2.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/3.6.0/Ad-Fontes-macOS-Apple-Silicon-3.6.0.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/3.6.0/Ad-Fontes-Windows-x64-3.6.0.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 3.5.2 includes whole-Bible English reading and comparison,
+        Version 3.6.0 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 104 reviewed textual comparisons,
@@ -81,9 +81,9 @@ export default function DownloadsPage() {
       </p>
 
       <h2>Release notes</h2>
-      <p>Version 3.5.2 updates all seven Hebrew word studies to Berean Standard Bible (BSB) quotations, aligns their translation explanations, and removes superseded translation notices and reading recommendations.</p>
+      <p>Version 3.6.0 brings consistent Greek, Hebrew and English comparison panes, automatic Hebrew chapter selection, and optional synchronization by verse number where recorded passage mappings are unavailable. Approximate number matching is clearly distinguished from mapped verse synchronization.</p>
       <p>
-        Version 3.5.2 includes the full LXX2012 English Septuagint, including the
+        Version 3.6.0 includes the full LXX2012 English Septuagint, including the
         Apocrypha, the Westminster Leningrad Codex Hebrew/Aramaic text, and the
         Clementine Latin Vulgate. Explore Hebrew word analysis, lemma occurrences,
         and seven offline Hebrew word studies. Open Hebrew beside Greek in the

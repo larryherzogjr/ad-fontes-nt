@@ -56,15 +56,15 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the approved 3.5.2 installers', async () => {
+test('public desktop download page exposes only the approved 3.6.0 installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
   assert.match(page, /Desktop release/);
   assert.doesNotMatch(page, /release candidate/i);
-  assert.match(page, /beta-downloads\/3\.5\.2\/Ad-Fontes-macOS-Apple-Silicon-3\.5\.2\.dmg/);
-  assert.match(page, /beta-downloads\/3\.5\.2\/Ad-Fontes-Windows-x64-3\.5\.2\.exe/);
-  assert.match(page, /Version 3\.5\.2 includes whole-Bible English reading and comparison/);
+  assert.match(page, /beta-downloads\/3\.6\.0\/Ad-Fontes-macOS-Apple-Silicon-3\.6\.0\.dmg/);
+  assert.match(page, /beta-downloads\/3\.6\.0\/Ad-Fontes-Windows-x64-3\.6\.0\.exe/);
+  assert.match(page, /Version 3\.6\.0 includes whole-Bible English reading and comparison/);
   assert.match(page, /all 104 reviewed textual comparisons/);
-  assert.match(page, /Version 3\.5\.2 includes the full LXX2012 English Septuagint/);
+  assert.match(page, /Version 3\.6\.0 includes the full LXX2012 English Septuagint/);
   assert.match(page, /250 Greek word studies/);
   assert.match(page, /5,400-entry Greek\s+lexicon/);
   assert.doesNotMatch(page, /private account-backed\s+notes remain available in the web app/);
@@ -77,24 +77,24 @@ test('public desktop download page exposes only the approved 3.5.2 installers', 
 
 test('final public installer publication is pinned to the approved signed bytes', async () => {
   const publish = await readFile('deployment/publish-public-desktop-downloads.sh', 'utf8');
-  const checksums = await readFile('deployment/public-desktop-downloads-3.5.2.sha256', 'utf8');
-  assert.match(publish, /version=3\.5\.2\n/);
+  const checksums = await readFile('deployment/public-desktop-downloads-3.6.0.sha256', 'utf8');
+  assert.match(publish, /version=3\.6\.0\n/);
   assert.doesNotMatch(publish, /1\.0\.0-rc\./);
-  assert.match(publish, /9df98e06fe63aec317076b23dd138f5f8a4548c51793ad6cd5c66b165fc66ff6/);
-  assert.match(publish, /b84ca287daace92a041f918bd26bdcc84c9ba104ad6a648c0b5fd75bbd64df88/);
+  assert.match(publish, /9658248003e748ec7e9c81db9ed3e3fc26a1bef9829883e99721f3a944008fc4/);
+  assert.match(publish, /e8ce03033a459c797820fbf396cbb3575fb7ec402b2e6a46f1e90756b9fc9a7d/);
   assert.equal(
     checksums,
-    '9df98e06fe63aec317076b23dd138f5f8a4548c51793ad6cd5c66b165fc66ff6  Ad-Fontes-macOS-Apple-Silicon-3.5.2.dmg\n' +
-      'b84ca287daace92a041f918bd26bdcc84c9ba104ad6a648c0b5fd75bbd64df88  Ad-Fontes-Windows-x64-3.5.2.exe\n',
+    '9658248003e748ec7e9c81db9ed3e3fc26a1bef9829883e99721f3a944008fc4  Ad-Fontes-macOS-Apple-Silicon-3.6.0.dmg\n' +
+      'e8ce03033a459c797820fbf396cbb3575fb7ec402b2e6a46f1e90756b9fc9a7d  Ad-Fontes-Windows-x64-3.6.0.exe\n',
   );
 });
 
-test('public project status identifies the approved 3.5.2 release', async () => {
+test('public project status identifies the approved 3.6.0 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /Whole-Bible pilot and release acceptance remain in progress/);
   assert.match(reader, /104 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 3\.5\.2 is the current cross-platform desktop release/);
+  assert.match(reader, /Version 3\.6\.0 is the current cross-platform desktop release/);
   assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Personal notes and Google sign-in have been retired/);

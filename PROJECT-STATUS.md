@@ -1215,3 +1215,5 @@ AF-UI-034 validation complete: typecheck and full web build passed, including 12
 ## 3.6.0 release preparation — October 9
 
 User authorized web and desktop publication of AF-UI-031–034 as 3.6.0. Version configuration updated; fresh validation, signed native builds and publication pending. Production remains 3.5.2. See `docs/V3.6.0-Desktop-Release-2026-10-09.md`. Unrelated one-off graphics excluded. M5/MVP remain incomplete.
+
+3.6.0 release candidates are verified: fresh web/offline validation passes, macOS app and DMG signed/notarized/stapled with exact installer/updater checks, and Windows workflow 38023228789 passes signing and installation/legacy-upgrade verification. Public metadata pins the frozen artifacts. Combined private host staging is prepared for required own-terminal sudo publication; live 3.6.0 verification remains pending. See the 3.6.0 release record for hashes and evidence. M5/MVP and physical-device/stable-updater acceptance remain incomplete.
