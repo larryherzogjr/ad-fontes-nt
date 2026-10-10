@@ -83,3 +83,16 @@ test('verse synchronization coalesces only touch-driven reader movement', () => 
   assert.equal(verseSyncDelay('study', true), 0);
   assert.equal(verseSyncDelay('study', false), 0);
 });
+
+// Approximate labels stay separate from recorded mapping identities.
+test('same-number sync handles merged labels and never substitutes a nearby number', () => {
+  const items = [
+    {edition:'Greek', numbers:['1:2','1:3'], mapped:['JOB.1.4']},
+    {edition:'Hebrew', numbers:['1:2'], mapped:['JOB.1.2']},
+  ];
+  assert.equal(findSyncTarget(items,['1:3'],'Greek',v=>v.numbers,v=>v.edition),items[0]);
+  assert.equal(findSyncTarget(items,['1:4'],'Greek',v=>v.numbers,v=>v.edition),undefined);
+  assert.equal(findSyncTarget(items,['2:2'],'Greek',v=>v.numbers,v=>v.edition),undefined);
+  assert.equal(findSyncTarget(items,['JOB.1.4'],'Greek',v=>v.mapped,v=>v.edition),items[0]);
+  assert.equal(findSyncTarget(items,['1:2'],'Greek',v=>v.mapped,v=>v.edition),undefined);
+});

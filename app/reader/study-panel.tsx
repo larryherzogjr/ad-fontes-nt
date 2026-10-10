@@ -1,5 +1,11 @@
 'use client';
 import HebrewPassage from './hebrew-passage';
+import { books } from '@/lib/domain/references';
+import { sourceManifest } from '@/lib/domain/original-languages';
+import { sourceGreekStudy } from '@/lib/source-study';
+import { sourceVerseUrl } from '@/lib/domain/lxx-research';
+export type SourceStudyContext = { code: string; chapter: number; label: string; greek: boolean; comparison?: import('react').ReactNode; syncAvailable?: boolean; revision?: string };
+
 import { useEffect, useRef, useState } from 'react';
 import { mainEditionUrl } from '@/lib/study-navigation';
 import { useVerseSync } from './use-verse-sync';
@@ -69,8 +75,10 @@ export default function StudyPanel({
   mode,
   onClose,
   edition,
+  source,
 }: {
   ranges: PassageRange[];
+  source?: SourceStudyContext;
   mode: 'compare' | 'greek' | 'hebrew' | 'notes' | 'connections' | 'commentary';
   edition: string;
   onClose: () => void;
@@ -97,11 +105,40 @@ export default function StudyPanel({
   const [rows, setRows] = useState<string[]>([]);
   const [sync, setSync] = useState(false);
   const [wide, setWide] = useState(false);
+  const [hebrewChapter, setHebrewChapter] = useState(() => Number(new URLSearchParams(typeof location === 'undefined' ? '' : location.search).get('hebrewChapter')) || 0);
+  const [hebrewChapters, setHebrewChapters] = useState<number[]>([]);
+  const [hebrewError, setHebrewError] = useState('');
+  const [hebrewChaptersLoading, setHebrewChaptersLoading] = useState(true);
+  useEffect(() => {
+    if (!source || mode !== 'hebrew') return;
+    let active = true;
+    setHebrewChaptersLoading(true);
+    setHebrewError('');
+    sourceManifest('WLC').then(m => {
+      if (!active) return;
+      const chapters = m.books.find(b => b.code === source.code)?.chapters || [];
+      setHebrewChapters(chapters);
+      const requested = new URLSearchParams(location.search).get('hebrewChapter');
+      const chapter = requested === null ? source.chapter : Number(requested);
+      setHebrewChapter(chapters.includes(chapter) ? chapter : 0);
+    }).catch(e => { if (active) setHebrewError(e.message); })
+      .finally(() => { if (active) setHebrewChaptersLoading(false); });
+    return () => { active = false; };
+  }, [source?.code, source?.chapter, mode]);
+  function changeHebrewChapter(chapter: number) {
+    setHebrewChapter(chapter);
+    const url = new URL(location.href);
+    url.searchParams.set('hebrewChapter', String(chapter));
+    url.searchParams.delete('hebrewToken');
+    history.replaceState({}, '', url.pathname + url.search);
+  }
+
   const [compact, setCompact] = useState(true);
   const [chosenEditions, setChosenEditions] = useState<string[] | null>(null);
   const [desktop, setDesktop] = useState(false);
   const [trail, setTrail] = useState<StudyTrail>({ items: [], index: -1 });
-  useVerseSync(dialog, sync && (!compact || (mode === 'greek' || mode === 'hebrew')) && desktop && mode !== 'connections' && mode !== 'commentary', `${mode}-${loading}-${wide}-${compact}-${chosenEditions?.join(',')}`);
+  const numberSync = !!source && !source.syncAvailable;
+  const syncMissing = useVerseSync(dialog, sync && (source?.comparison != null || !compact || (mode === 'greek' || mode === 'hebrew')) && desktop && mode !== 'connections' && mode !== 'commentary', `${mode}-${loading}-${wide}-${compact}-${chosenEditions?.join(',')}-${source?.revision}-${hebrewChapter}`, numberSync);
   const [section, setSection] = useState<'explanation' | 'readings' | 'sources'>('readings');
   const currentEdition = useStudyEdition(dialog, desktop && mode !== 'connections' && mode !== 'commentary' && !loading && !error && !noteOnly && ((mode === 'greek' || mode === 'hebrew') || section === 'readings'), `${mode}-${section}-${wide}-${sync}-${compact}-${chosenEditions?.join(',')}-${formatPassage(ranges)}`);
   useEffect(() => {
@@ -113,8 +150,8 @@ export default function StudyPanel({
     observer.observe(chrome); measure();
     return () => observer.disconnect();
   }, []);
-  const label = formatPassage(ranges);
-  const ot = ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0]));
+  const label = source?.label || formatPassage(ranges);
+  const ot = !!source || ranges.some(r => isOtBook(r.start.split('.')[0]) || isOtBook(r.end.split('.')[0]));
   const availableEditions = editionsFor(ranges);
   const comparisonIds = [...availableEditions.map(e => e.editionId), ...(ot ? ['lxx-rahlfs'] : [])];
   const visibleEditions = chosenEditions ? [...new Set(chosenEditions)].filter(id => comparisonIds.includes(id)) : null;
@@ -213,7 +250,7 @@ export default function StudyPanel({
     setLoading(true);
     setError('');
     async function run() {
-      if (mode === 'connections' || mode === 'commentary' || mode === 'hebrew') return;
+      if (mode === 'connections' || mode === 'commentary' || mode === 'hebrew' || (source && mode === 'compare')) return;
       const anchors = ranges.flatMap(expand);
       if (anchors.length > 80)
         throw Error(
@@ -279,7 +316,7 @@ export default function StudyPanel({
           setRelatedNotes(data.units.filter(v => matching.some(m => m.relatedUnits?.includes(v.id))));
         }
       } else {
-        const data = await getAnalysis(ranges);
+        const data = source ? await sourceGreekStudy(source.code, source.chapter) : await getAnalysis(ranges);
         if (active) {
           setAnalysis(data);
           const id = new URL(location.href).searchParams.get('token');
@@ -304,7 +341,7 @@ export default function StudyPanel({
     return () => {
       active = false;
     };
-  }, [mode, ranges]);
+  }, [mode, ranges, source?.code, source?.chapter]);
   useEffect(() => {
     if (!token) return;
     wordHeading.current?.focus({ preventScroll: true });
@@ -339,6 +376,7 @@ export default function StudyPanel({
   function switchMode(next: string) {
     const u = new URL(location.href);
     u.searchParams.set('panel', next);
+    if (source) u.searchParams.delete('parallel');
     u.searchParams.delete('token');
     u.searchParams.delete('hebrewToken');
     u.searchParams.delete('unit');
@@ -373,6 +411,7 @@ export default function StudyPanel({
       event.clientY > bounds.bottom
     );
   }
+  const mainGreekReference = analysis.find(s => s.sourceRef.includes('/') && s.tokens.some(t => t.id === token?.id))?.sourceRef || analysis.find(s => s.sourceRef.includes('/'))?.sourceRef;
   const wordDetails = (
           <section
             className="word-detail"
@@ -514,7 +553,7 @@ export default function StudyPanel({
   return (
     <dialog
       ref={dialog}
-      className={`study-dialog${wide ? ' study-dialog-wide' : ''}${sync ? ' verses-synced' : ''}`}
+      className={`study-dialog${source ? ' source-study-dialog' : ''}${wide ? ' study-dialog-wide' : ''}${sync ? ' verses-synced' : ''}`}
       onKeyDown={e => { if (e.key === 'Escape' && desktop && !e.defaultPrevented) { e.preventDefault(); onClose(); } }}
       aria-labelledby="study-title"
       onPointerDown={(e) => {
@@ -556,38 +595,52 @@ export default function StudyPanel({
         </div>
       </header>
       {!noteOnly && !loading && <nav className="study-tabs" aria-label="Study tools">
-        <button
+        {(!source || source.comparison != null) && <button
           aria-label="Compare editions" aria-pressed={mode === 'compare'}
           onClick={() => mode !== 'compare' && switchMode('compare')}
         >
           <span className="tool-label-full">Compare editions</span><span className="tool-label-short" aria-hidden="true">Compare</span>
-        </button>
-        {<button
+        </button>}
+        {(!source || source.greek) && <button
           aria-label="Explore Greek" aria-pressed={mode === 'greek'}
           onClick={() => mode !== 'greek' && switchMode('greek')}
         >
           <span className="tool-label-full">Explore Greek</span><span className="tool-label-short" aria-hidden="true">Greek</span>
         </button>}
-        {ot&&<button aria-label="Explore Hebrew" aria-pressed={mode==='hebrew'} onClick={()=>mode!=='hebrew'&&switchMode('hebrew')}><span className="tool-label-full">Explore Hebrew</span><span className="tool-label-short" aria-hidden="true">Hebrew</span></button>}
-        <button aria-label="Connections" aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}>Connections</button>
-        <button aria-pressed={mode === 'commentary'} onClick={() => mode !== 'commentary' && switchMode('commentary')}>Commentaries</button>
+        {(source ? source.comparison == null && books.slice(0,39).some(b => b.code === source.code) : ot)&&<button aria-label="Explore Hebrew" aria-pressed={mode==='hebrew'} onClick={()=>mode!=='hebrew'&&switchMode('hebrew')}><span className="tool-label-full">Explore Hebrew</span><span className="tool-label-short" aria-hidden="true">Hebrew</span></button>}
+        {!source && <><button aria-label="Connections" aria-pressed={mode === 'connections'} onClick={() => mode !== 'connections' && switchMode('connections')}>Connections</button>
+        <button aria-pressed={mode === 'commentary'} onClick={() => mode !== 'commentary' && switchMode('commentary')}>Commentaries</button></>}
       </nav>}
-      {!loading && !error && mode !== 'hebrew' && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && <nav className="comparison-nav" aria-label="Comparison sections">
+      {!source && !loading && !error && mode !== 'hebrew' && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && <nav className="comparison-nav" aria-label="Comparison sections">
         <button aria-label={noteOnly ? 'Explanation' : 'Commentary and explanation'} aria-pressed={section === 'explanation'} onClick={() => showSection('explanation')}><span className="tool-label-full">{noteOnly ? 'Explanation' : 'Commentary and explanation'}</span><span className="tool-label-short" aria-hidden="true">{noteOnly ? 'Explanation' : 'Commentary'}</span></button>
         {!noteOnly && <button aria-label="Edition readings" aria-pressed={section === 'readings'} onClick={() => showSection('readings')}><span className="tool-label-full">Edition readings</span><span className="tool-label-short" aria-hidden="true">Readings</span></button>}
         <button aria-pressed={section === 'sources'} onClick={() => showSection('sources')}>Sources</button>
       </nav>}
-      {desktop && mode !== 'connections' && mode !== 'commentary' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync && (!compact || mode === 'greek' || mode === 'hebrew')} disabled={compact && mode !== 'greek' && mode !== 'hebrew'} onChange={event => {
+      {!source && desktop && mode !== 'connections' && mode !== 'commentary' && <div className="study-reading-context"><label className="sync-verses"><input type="checkbox" checked={sync && (!compact || mode === 'greek' || mode === 'hebrew')} disabled={compact && mode !== 'greek' && mode !== 'hebrew'} onChange={event => {
         setSync(event.target.checked);
         try { localStorage.setItem('afnt.sync-verses', String(event.target.checked)); } catch { /* Optional device preference. */ }
       }} />Sync verses</label>
       {currentEdition && <span className="study-current-edition" title={currentEdition} aria-label={`Current edition: ${currentEdition}`}>{currentEdition}</span>}
       </div>}
+      {source && <div className="study-reading-context source-context-controls">
+        {desktop && <label className="sync-verses"><input type="checkbox" checked={sync} aria-describedby="source-sync-help" onChange={event => {setSync(event.target.checked);try {localStorage.setItem('afnt.sync-verses',String(event.target.checked));} catch {}}}/>{numberSync ? 'Sync by verse number' : 'Sync verses'}</label>}
+        {mode === 'hebrew' && <label>Hebrew chapter · {books.find(b => b.code === source.code)?.name || source.code}{' '}
+          <select aria-label="Hebrew chapter" value={hebrewChapter} onChange={e => changeHebrewChapter(Number(e.target.value))}>
+            <option value={0}>Choose a chapter</option>{hebrewChapters.map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+        </label>}
+        <p id="source-sync-help" className="study-help">{source.syncAvailable ? 'Sync follows the recorded Hebrew-to-English verse mappings; unmapped passages remain independent.' : `${mode === 'hebrew' ? 'Hebrew opens at the same chapter number when available; use the selector to change it.' : mode === 'compare' ? 'Choose an English passage independently.' : 'Greek chapter context from a separate edition.'} Sync by verse number matches chapter and verse labels only. Numbering may differ; this is an approximate reading aid, not a verified passage correspondence.`}</p>
+        {syncMissing && <p role="status" className="study-help">{syncMissing}</p>}
+      </div>}
       </div><div className="study-content">
       <nav className="study-library-return" aria-label="Study Library return">
         <a href={mode === 'hebrew' ? '/library?view=hebrew' : mode === 'commentary' ? (ot ? '/library?view=commentaries&commentary=kd' : '/library?view=commentaries') : mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library'}>← Back to Study Library</a>
       </nav>
-      {mode === 'hebrew' && <HebrewPassage ranges={ranges} />}
+      {source?.comparison}
+      {mode === 'hebrew' && (source ? <>
+        {hebrewError && <p role="alert">{hebrewError}</p>}
+        {hebrewChaptersLoading ? <p role="status">Loading Hebrew chapter…</p> : hebrewChapter > 0 ? <HebrewPassage ranges={ranges} source={{code: source.code, chapter: hebrewChapter}} /> : <p>The requested chapter is unavailable in Hebrew. Choose another chapter to read beside your current edition.</p>}
+      </> : <HebrewPassage ranges={ranges} />)}
       {mode === 'commentary' && <Commentaries ranges={ranges} />}
       {mode === 'connections' && <TestamentConnections ranges={ranges} edition={edition} embedded onNavigate={followStudy} />}
       {loading && <div className="study-skeleton" role="status" aria-label="Loading passage study"><span /><span /><span /><span /></div>}
@@ -596,7 +649,7 @@ export default function StudyPanel({
           {error}
         </p>
       )}
-      {!loading && !error && mode !== 'hebrew' && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && (
+      {!source && !loading && !error && mode !== 'hebrew' && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && (
         <>
           {!noteOnly && <details className="comparison-limits"><summary>About edition readings</summary><p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p></details>}
           {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><a href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</a></p>; })}
@@ -781,15 +834,15 @@ export default function StudyPanel({
               {interlinear && <fieldset className="interlinear-options"><legend>Additional rows</legend>
                 {([['transliteration', 'Transliteration'], ['lemma', 'Lemma (standard form)'], ['strongs', 'Strong’s number'], ['grammar', 'Grammar']] as const).map(([key, label]) => <label key={key}><input type="checkbox" checked={rows.includes(key)} onChange={e => setGreekView(true, e.target.checked ? [...rows, key] : rows.filter(r => r !== key))} />{label}</label>)}
               </fieldset>}
-              <p className="study-help">{ot ? 'Rahlfs word-token transcription, with Open Scriptorium morphology and exactly matched Eliran Wong lexical glosses. Original word order; punctuation is not supplied. Joshua uses Vaticanus B; Judges uses Alexandrinus A; Daniel uses Old Greek. Source numbering may differ from English. Morphology includes upstream automated analysis with its confidence retained in word details. Glosses are quick lexical aids, not contextual translations or word-by-word links to English.' : 'Source-backed word analysis by Ulrik Sandborg-Petersen. Nestle 1904 Greek with Berean contextual glosses in Greek word order. These glosses are translation aids, not word-by-word links to BSB.'}</p>
+              <p className="study-help">{ot ? 'Rahlfs word-token transcription, with Open Scriptorium morphology and exactly matched Eliran Wong lexical glosses. Original word order; punctuation is not supplied. Source texts and alternatives retain their own labels and numbering, which may differ from English. Morphology includes upstream automated analysis with its confidence retained in word details. Glosses are quick lexical aids, not contextual translations or word-by-word links to English.' : 'Source-backed word analysis by Ulrik Sandborg-Petersen. Nestle 1904 Greek with Berean contextual glosses in Greek word order. These glosses are translation aids, not word-by-word links to BSB.'}</p>
             </details>
           </div>
           {!analysis.length && (
             <p className="notice">
-              This canonical passage has no main-text segment in Nestle 1904.
-              Use Compare editions for its edition-specific coverage.
+              No Greek analysis is available for this selection. This does not mean the text is absent.
             </p>
           )}
+          {mainGreekReference && ot && <p><a href={sourceVerseUrl(mainGreekReference)}>Open Greek as the main view →</a></p>}
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
           <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={ot ? 'Septuagint · Rahlfs 1935' : editions.find(e => e.editionId === 'N1904')?.name}
             // Returning focus and reflow under a stationary pointer must not reopen previews.
@@ -797,9 +850,9 @@ export default function StudyPanel({
             onKeyDown={event => { if (event.key === 'Tab') setSuppressWordPreviews(false); }}
           ><div className="greek-passages">
           {analysis.map((s) => (
-            <section key={s.sourceRef} className="greek-verse" data-sync-anchors={s.anchors.join(' ')} data-sync-edition={ot ? "lxx-rahlfs" : "nestle-analysis"}>
+            <section key={s.sourceRef} className="greek-verse" data-sync-numbers={source ? s.sourceRef.split('/').at(-1) : undefined} data-sync-anchors={s.anchors.join(' ')} data-sync-edition={ot ? "lxx-rahlfs" : "nestle-analysis"}>
               <h3>{s.sourceLabel || formatReference(s.sourceRef)}</h3>
-              {ot && s.status === 'available' && <p className="study-help">Corresponds to {s.anchors.map(formatReference).join(', ')} · {s.alignment?.method || 'source mapping'}.{s.alignment?.flag && ` Upstream mapping note: ${s.alignment.flag}. Wording may substantially differ.`}{s.glossAligned === false && ' Gloss alignment unavailable for this source verse.'}</p>}
+              {!source && ot && s.status === 'available' && <p className="study-help">Corresponds to {s.anchors.map(formatReference).join(', ')} · {s.alignment?.method || 'source mapping'}.{s.alignment?.flag && ` Upstream mapping note: ${s.alignment.flag}. Wording may substantially differ.`}{s.glossAligned === false && ' Gloss alignment unavailable for this source verse.'}</p>}
               {s.status === 'unavailable' ? (
                 <>
                   <p lang="grc" className="comparison-scripture">
@@ -849,7 +902,7 @@ export default function StudyPanel({
           </div>
           {desktop && token && <aside className="greek-inspector">{wordDetails}</aside>}
           </div>
-          {ot && <LxxUnpaired segments={analysis} />}
+          {!source && ot && <LxxUnpaired segments={analysis} />}
           {ot && <p><a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p>}
           <p>
             <a href={`/analysis/${ot ? lxxRelease : analysisInfo.releaseId}/manifest.json`}>

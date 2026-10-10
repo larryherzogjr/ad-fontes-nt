@@ -5,13 +5,15 @@ import {
   type VerseSyncPane,
   verseSyncDelay,
 } from '../lib/verse-sync';
-import { useEffect, type RefObject } from 'react';
+import { useEffect, useState, type RefObject } from 'react';
 
 // Keep the pane with the most recent real input authoritative until a real
 // gesture occurs in the other pane. Scroll events caused by synchronizing the
 // follower must never seize leadership and bounce both panes back and forth.
-export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enabled: boolean, revision: string) {
+export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enabled: boolean, revision: string, byNumber = false) {
+  const [missing, setMissing] = useState('');
   useEffect(() => {
+    setMissing('');
     const panel = dialog.current;
     if (!panel || !enabled) return;
     let leader: VerseSyncPane | null = null;
@@ -19,10 +21,11 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
     let frame = 0;
     let settleTimer = 0;
     let readerTouchDriven = false;
-    const anchors = (el: HTMLElement) => (el.dataset.syncAnchors || '').split(' ').filter(Boolean);
+    const anchors = (el: HTMLElement) => ((byNumber ? el.dataset.syncNumbers : el.dataset.syncAnchors) || '').split(' ').filter(Boolean);
     const visible = (el: HTMLElement) => el.getClientRects().length > 0;
-    const studyElements = () => Array.from(panel.querySelectorAll<HTMLElement>('[data-sync-edition][data-sync-anchors]')).filter(visible);
-    const readerElements = () => Array.from(document.querySelectorAll<HTMLElement>('.scripture [data-sync-anchors]')).filter(visible);
+    const attribute = byNumber ? 'data-sync-numbers' : 'data-sync-anchors';
+    const studyElements = () => Array.from(panel.querySelectorAll<HTMLElement>(`[data-sync-edition][${attribute}]`)).filter(visible);
+    const readerElements = () => Array.from(document.querySelectorAll<HTMLElement>(`.scripture [${attribute}]`)).filter(visible);
     const readerLine = () => (document.querySelector('.toolbar')?.getBoundingClientRect().bottom || 0) + 24;
     const studyLine = () => (panel.querySelector('.study-chrome')?.getBoundingClientRect().bottom || 0) + 24;
     function current(elements: HTMLElement[], line: number, bounded: boolean) {
@@ -42,6 +45,7 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
         activeEdition = source.dataset.syncEdition || '';
         const refs = anchors(source);
         const target = findSyncTarget(left, refs, undefined, anchors, el => el.dataset.syncEdition);
+        setMissing(!target && byNumber && refs.length ? `No matching verse number (${refs.join(', ')}) in the other pane. Its position is unchanged.` : '');
         if (target) {
           const top = target.getBoundingClientRect().top - readerLine();
           if (Math.abs(top) >= 1) {
@@ -55,6 +59,7 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
         const refs = anchors(source);
         const target = findSyncTarget(right, refs, activeEdition, anchors, el => el.dataset.syncEdition);
         // No invented counterpart for an absent or unavailable canonical verse.
+        setMissing(!target && byNumber && refs.length ? `No matching verse number (${refs.join(', ')}) in the other pane. Its position is unchanged.` : '');
         if (target) {
           const top = target.getBoundingClientRect().top - studyLine();
           if (Math.abs(top) >= 1) {
@@ -103,5 +108,6 @@ export function useVerseSync(dialog: RefObject<HTMLDialogElement | null>, enable
       for (const name of ['wheel','touchstart','pointerdown','keydown']) document.removeEventListener(name, input, true);
       document.removeEventListener('scroll', scroll, true);
     };
-  }, [dialog, enabled, revision]);
+  }, [dialog, enabled, revision, byNumber]);
+  return missing;
 }

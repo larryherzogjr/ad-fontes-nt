@@ -28,3 +28,15 @@ test('Apocrypha search and source deep links remain independent of canonical ver
  assert.equal(englishLxxUrl('PSA',151,7),'/read/PSA/151?translation=LXX2012&verses=7');
  assert.deepEqual(await searchEnglishLxx(' '),[]);
 });
+
+// These views must use exact source analysis even when English and Greek numbering differ.
+test('source study uses interactive source tokens for OT, additions and Apocrypha',async()=>{
+ const {sourceGreekStudy}=await import('../app/lib/source-study.ts');
+ for(const [code,ch,first] of [['JOB',1,'job-lxx/1:1'],['NEH',1,'2-esdras/11:1'],['S3Y',1,'daniel-theodotion/3:24'],['TOB',1,'tobit/1:1']] as const){
+  const verses=await sourceGreekStudy(code,ch);assert.equal(verses[0].sourceRef,first);
+  assert.ok(verses.some(v=>v.tokens.length));
+  for(const v of verses)for(const t of v.tokens)assert.equal(v.text.slice(t.start,t.end),t.surface);
+ }
+ await assert.rejects(sourceGreekStudy('JHN',1),/unavailable/);
+ await assert.rejects(sourceGreekStudy('JOB',999),/unavailable/);
+});

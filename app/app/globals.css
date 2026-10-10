@@ -1730,11 +1730,8 @@ body.reader-focus-mode .original-columns { display:block; }
  .study-tabs:has([aria-label='Explore Hebrew']) .tool-label-short { display:inline; }
 }
 
-@media(min-width:1100px){
- body.source-hebrew-open .toolbar, body.source-hebrew-open .reader-layout { width:48vw; margin-left:0; }
- body.source-hebrew-open .toolbar { flex-wrap:wrap; }
- body.source-hebrew-open .original-columns, body.source-hebrew-open .lxx-english-columns { display:block; }
- body.source-hebrew-open .reader-tools { flex-wrap:wrap; }
-}
-.source-hebrew-dialog { --study-chrome-height: 200px; }
-.source-hebrew-dialog select { margin-left:.5rem; }
+
+
+.source-context-controls { display: block; }
+.source-context-controls select { min-height: 44px; margin-left: .5rem; padding: .4rem; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: inherit; }
+.source-context-controls .study-help { margin: .5rem 0 0; }
