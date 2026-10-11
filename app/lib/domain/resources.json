@@ -99,47 +99,6 @@
     "sourceSha256": "c17154e6eb4e5e451194a109d4eb358d7f4db13bad82357eeccc14dfe5ea8e2c"
   },
   {
-    "id": "why-textual-criticism-matters",
-    "title": "You've Been Doing Textual Criticism for Years",
-    "kind": "Ad Fontes lesson",
-    "url": "https://larryherzogjr.com/ad-fontes/why-textual-criticism-matters/",
-    "books": [],
-    "references": [
-      "Romans 8:1",
-      "Romans 8:4",
-      "Mark 16:8",
-      "John 7:53",
-      "1 John 5:7"
-    ],
-    "source": "content/ad-fontes/why-textual-criticism-matters.md",
-    "sourceSha256": "86f60c60a81b64ff2fe977e0497e730865e6a62ad73eccff109d11a92e823615"
-  },
-  {
-    "id": "mark-16-and-confidence",
-    "title": "Confident on Better Grounds",
-    "kind": "Ad Fontes lesson",
-    "url": "https://larryherzogjr.com/ad-fontes/mark-16-and-confidence/",
-    "books": [],
-    "references": [
-      "Mark 16:8",
-      "Mark 16:9–20"
-    ],
-    "source": "content/ad-fontes/mark-16-and-confidence.md",
-    "sourceSha256": "c1ef40ab03c57f29f2e8fbd02f96bbad47108914dabcc6dcfe227b9e4193be62"
-  },
-  {
-    "id": "luther-erasmus-ad-fontes",
-    "title": "The Reformers Were Textual Critics",
-    "kind": "Ad Fontes lesson",
-    "url": "https://larryherzogjr.com/ad-fontes/luther-erasmus-ad-fontes/",
-    "books": [],
-    "references": [
-      "Revelation 22:19"
-    ],
-    "source": "content/ad-fontes/luther-erasmus-ad-fontes.md",
-    "sourceSha256": "6e59ca81b3e272d9367dadab7564c3de85341520574579823077573bd922ba42"
-  },
-  {
     "id": "the-leaven-was-a-teaching",
     "title": "The Leaven Was a Teaching",
     "kind": "Essay",
@@ -157,5 +116,174 @@
     ],
     "source": "content/essays/the-leaven-was-a-teaching.md",
     "sourceSha256": "96815b97b33f9c7d8892a204c259d2da178207b41b0ded5d6f3636ef6cba3e58"
+  },
+  {
+    "id": "for-nothing-job",
+    "title": "For Nothing",
+    "kind": "Free study",
+    "url": "https://larryherzogjr.com/books/for-nothing-job/",
+    "books": [
+      "JOB"
+    ],
+    "references": [],
+    "source": "content/books/for-nothing-job.md",
+    "sourceSha256": "cadfa680302879aec0f4066c85362fa102ecf214df56fe179ce7d31bb61e6740"
+  },
+  {
+    "id": "genesis-online-study",
+    "title": "Genesis",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/genesis/",
+    "books": [
+      "GEN"
+    ],
+    "references": [],
+    "source": "content/genesis/_index.md",
+    "sourceSha256": "62bb70e11fb401189ce14014d9ec04e2df44791221785b43719b27ae69ef6b95"
+  },
+  {
+    "id": "psalms-online-study",
+    "title": "Psalms",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/psalms/",
+    "books": [
+      "PSA"
+    ],
+    "references": [],
+    "source": "content/psalms/_index.md",
+    "sourceSha256": "ba47a87446b38f1812b18bb545db3bca7b71f219d79ff5930ff7235876b5d489"
+  },
+  {
+    "id": "isaiah-online-study",
+    "title": "Isaiah",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/isaiah/",
+    "books": [
+      "ISA"
+    ],
+    "references": [],
+    "source": "content/isaiah/_index.md",
+    "sourceSha256": "b03d1d5073fc30e8514f0f750b2faadb295f130a430d3e5cacca26dadf0ada65"
+  },
+  {
+    "id": "the-twelve-online-study",
+    "title": "The Twelve",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/the-twelve/",
+    "books": [
+      "HOS",
+      "JOL",
+      "AMO",
+      "OBA",
+      "JON",
+      "MIC",
+      "NAM",
+      "HAB",
+      "ZEP",
+      "HAG",
+      "ZEC",
+      "MAL"
+    ],
+    "references": [],
+    "source": "content/the-twelve/_index.md",
+    "sourceSha256": "3e0be9c800455d206fc3ccfae2979354f30add2e9b900961721b8c51787d4dfd"
+  },
+  {
+    "id": "in-christ-online-study",
+    "title": "In Christ",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/in-christ/",
+    "books": [
+      "EPH"
+    ],
+    "references": [],
+    "source": "content/in-christ/_index.md",
+    "sourceSha256": "70535444670b861a6cfef98db799c6f444b389657db3d189205d6add656519f6"
+  },
+  {
+    "id": "to-live-is-christ-online-study",
+    "title": "To Live Is Christ",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/to-live-is-christ/",
+    "books": [
+      "PHP"
+    ],
+    "references": [],
+    "source": "content/to-live-is-christ/_index.md",
+    "sourceSha256": "e5983db40ca3668d51137e35c7b813ab9c07cf11fcc8e741c6a4a7d19ae8e522"
+  },
+  {
+    "id": "christ-in-you-online-study",
+    "title": "Christ in You",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/christ-in-you/",
+    "books": [
+      "COL"
+    ],
+    "references": [],
+    "source": "content/christ-in-you/_index.md",
+    "sourceSha256": "f7541fa0c4e7f4126eb65f71820a9dee353c4c0c295eb74608bb37af9a036b9a"
+  },
+  {
+    "id": "brother-in-christ-online-study",
+    "title": "Brother in Christ",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/brother-in-christ/",
+    "books": [
+      "PHM"
+    ],
+    "references": [],
+    "source": "content/brother-in-christ/_index.md",
+    "sourceSha256": "07f680f1253e15bcc5f220d024e6b2297bdb8c29bb086bd4434456a6d5e77836"
+  },
+  {
+    "id": "epistle-of-straw-online-study",
+    "title": "Epistle of Straw?",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/epistle-of-straw/",
+    "books": [
+      "JAS"
+    ],
+    "references": [],
+    "source": "content/epistle-of-straw/_index.md",
+    "sourceSha256": "ebb6f8fb825179d4106fa4315081a9efb44fc135c1201f107ea75bfe43c8cb32"
+  },
+  {
+    "id": "strangers-and-exiles-online-study",
+    "title": "Strangers and Exiles",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/strangers-and-exiles/",
+    "books": [
+      "1PE"
+    ],
+    "references": [],
+    "source": "content/strangers-and-exiles/_index.md",
+    "sourceSha256": "526e1025d93c0dd206900b0082a4ad8ce00ad2e23c195f69e8085bc220d3f18a"
+  },
+  {
+    "id": "that-you-may-know-online-study",
+    "title": "That You May Know",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/that-you-may-know/",
+    "books": [
+      "1JN",
+      "2JN",
+      "3JN"
+    ],
+    "references": [],
+    "source": "content/that-you-may-know/_index.md",
+    "sourceSha256": "ec63da26a9bff7340503e899e8ac7aef19ad3c7b6f4147ee7a8bd94cdfec6ced"
+  },
+  {
+    "id": "something-better-online-study",
+    "title": "Something Better",
+    "kind": "Online Bible study",
+    "url": "https://larryherzogjr.com/something-better/",
+    "books": [
+      "HEB"
+    ],
+    "references": [],
+    "source": "content/something-better/_index.md",
+    "sourceSha256": "031b50f3ac50a79c55dd399d7c0d8c3ee953d880d4757f20db875f4c029accca"
   }
 ]

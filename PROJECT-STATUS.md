@@ -1219,3 +1219,27 @@ User authorized web and desktop publication of AF-UI-031–034 as 3.6.0. Version
 3.6.0 release candidates are verified: fresh web/offline validation passes, macOS app and DMG signed/notarized/stapled with exact installer/updater checks, and Windows workflow 38023228789 passes signing and installation/legacy-upgrade verification. Public metadata pins the frozen artifacts. Combined private host staging is prepared for required own-terminal sudo publication; live 3.6.0 verification remains pending. See the 3.6.0 release record for hashes and evidence. M5/MVP and physical-device/stable-updater acceptance remain incomplete.
 
 3.6.0 production publication verified: Larry’s guarded host deployment at 3b9afd5 succeeded. Independent live checks confirm healthy web, Downloads 3.6.0, exact stable manifest and all four installer/updater hashes. Browser confirms automatic Hebrew Job 1 and the approximate verse-number sync control without captured console errors. Evidence is in `artifacts/desktop/production-3.6.0/`; see the release record. Web and signed Mac/Windows 3.6.0 are live. M5/MVP and prior physical-device/updater acceptance remain incomplete.
+
+
+## 2026-10-11 — Complete website study links (AFNT-024/025 follow-on)
+
+Larry requested all downloadable and online Bible studies from his public studies catalog in the existing related-resource disclosure. All nine downloadable studies and both online courses are represented: retained eight NT studies; added For Nothing for Job, Genesis for Genesis, and the Ad Fontes online NT textual-criticism course across all 27 NT books. Existing passage-specific lessons and essay remain. New titles/URLs/coverage are supported by the public catalog and read-only website source, with source hashes recorded in the resource metadata. See docs/M4-Resource-Links.md for provenance and the Job live-fetch limitation. No study prose, draft marketing copy, PDFs or corpus assets are imported.
+
+Validation: npm test passed (124 Node tests and 44 Python tests); npm run typecheck passed. Browser review confirmed Job and Genesis deep links, Enter-operated disclosure, target=_blank, retained John study plus online course, keyboard next-chapter navigation to John 2, and 320px Genesis/John layouts without horizontal overflow. npm run build passed. No deployment, Git push or signed installer publication; the shared web/desktop resource catalog changes locally. M5/MVP remain incomplete. Next: release through the documented workflow when requested.
+
+
+## 2026-10-11 — Additional supplied online study links (AFNT-024/025)
+
+Corrected the initial incomplete online catalog with eleven destinations supplied by Larry: Psalms, Isaiah, The Twelve, In Christ, To Live Is Christ, Christ in You, Brother in Christ, Epistle of Straw?, Strangers and Exiles, That You May Know and Something Better. Canonical book coverage follows his explicit list and the local website's published source metadata, including all twelve minor prophets and 1–3 John. Source hashes are pinned; no prose/PDF/corpus changes. The catalog now includes nine downloadable studies and thirteen online courses, with 26 total resources including existing lessons/essay. See docs/M4-Resource-Links.md for live-fetch limitations and superseding completeness note.
+
+Validation: npm test passed (125 Node tests and 44 Python tests); npm run typecheck passed. Browser checks passed Hosea/The Twelve, 3 John/That You May Know at 320px without overflow, and James/Epistle of Straw?, including Enter disclosure and exact new-tab URLs. npm run build passed. Local shared web/desktop code only; no deployment, push or signed installers. M5/MVP remain incomplete. Next: the documented release workflow when requested.
+
+
+## 2026-10-11 — Remove Ad Fontes course backlinks (AFNT-024/025)
+
+At Larry's direction, removed the general Ad Fontes online course link and three legacy passage-specific lesson links: the app supplements that course and does not need backlinks. The broad course entry previously appeared in every NT chapter; it was not an exhaustive cited-passage index. Nine downloadable studies, twelve online book studies and the existing essay remain (22 resources). Historical catalog inventories remain documented, superseded by this decision. No corpus or study prose changes. Validation: npm test passed (126 Node and 44 Python tests), typecheck passed. Browser checks confirmed Ephesians retains In Christ, Mark 16 has no course resource disclosure, keyboard opening works, and 320px Ephesians has no overflow. npm run build passed. Local only; no deployment, push or installer release. M5/MVP remain incomplete.
+
+
+## 2026-10-11 — 3.6.1 release preparation (AFNT-024/025)
+
+Larry authorized web and both desktop apps as 3.6.1. Updated native/application versions while preserving identity and dependency pins. Includes the verified study-link catalog and course backlink removal. Production remains 3.6.0 until exact signed artifacts, private staging and guarded own-terminal host publication succeed. See docs/V3.6.1-Desktop-Release-2026-10-11.md. Release validation/signing pending. M5/MVP remain incomplete.
