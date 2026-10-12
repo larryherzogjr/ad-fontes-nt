@@ -39,6 +39,11 @@ for (const selected of selections) {
     if (!unit || unit.status !== 'approved' || sha256(reviewPayload(unit)) !== plate.commentaryPayloadSha256) {
       throw new Error(`${unitId} visual plate has a stale commentary binding.`);
     }
+    // Approval changes presentation status, not the preserved candidate's rights scope.
+    if (plate.reuseStatement?.includes('This candidate has no publication approval and grants no broader image reuse.'))
+      plate.reuseStatement = plate.reuseStatement.replace(
+        'This candidate has no publication approval and grants no broader image reuse.',
+        'No broader image reuse is granted.');
     for (const image of plate.images) {
       if (/^[a-z]+:/i.test(image.asset) || image.asset.startsWith('/') || image.asset.split('/').includes('..')) throw new Error(`${unitId} has a non-local image path.`);
       const sourceAsset = image.asset;

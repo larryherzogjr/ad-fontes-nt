@@ -38,7 +38,7 @@ export default function DownloadsPage() {
         Version 3.6.1 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
-        on your desktop. It also includes all 104 reviewed textual comparisons,
+        on your desktop. It also includes all 110 reviewed textual comparisons,
         their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
         lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries.
         Reading and these study resources work offline.

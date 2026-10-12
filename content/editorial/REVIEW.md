@@ -1,6 +1,6 @@
 # Textual review queue
 
-**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 104 approved, 0 rejected, 104 locally published**.
+**Reviewer: Larry Herzog Jr.** Assignment was supplied by the user. It is not approval of any explanation. Current queue: **0 draft candidates, 0 in review, 110 approved, 0 rejected, 110 locally published**.
 
 `variants.json` contains exact quotations and source references from the seven local editions. Candidates include omissions, brackets, longer units, placement and numbering examples. Their spans may be narrowed during review. All 30 initial candidates are approved and locally published. The six batch-1 notes contain Larry’s adopted explanations, with explicitly approved factual clarifications for candidates 03 and 18. Candidate-18 now uses rev-3; its previous payload and approval remain in history. Its full return and AI drafting history are retained in `contributions/candidate-18.json` and the linked archival documents. No manuscript attestations were added.
 
@@ -78,3 +78,13 @@ The expansion adds no structured manuscript attestations to the articles. Its se
 ## NT/OT connection classification queue — October 7
 
 A separate queue at `connections/candidates.json` contains eight approved quotation/allusion records; `connections/reviews.json` records Larry’s October 7 exact-content approvals. They are not part of the 104 approved variant explanations. [Complete review packet](../../docs/NT-OT-Classification-Review-2026-10-07.md) includes exact Scripture evidence and content hashes. `node scripts/publish_connection_labels.mts` excludes all candidates until exact-content approval, approved status and source validation pass. Larry subsequently replied “All approved.” to the complete eight-record packet. All eight are locally published with unchanged payloads. Reviewer assignment and feature authorization alone remain insufficient for future records.
+
+## Six additional comparisons — October 11
+
+Larry requested preparation of six newly proposed topics. A separate, unpublished [review packet](../../docs/editorial-review/variant-additions-2026-10-11/README.md) contains candidates 105–110: Matthew 20:16, Luke 24:51, John 1:28, Colossians 1:14, Hebrews 2:9 and Revelation 1:5. Six articles and six Sinaiticus plates are ready for exact-content review/adoption. The public queue remains 104 approved and published, with no new approval ledger entries; the six drafts reside outside variants.json and public bundles. Proposed Larry/Ordinary Means attribution requires adoption of the AI-origin drafts.
+
+Hebrews uses an explicitly cited historical Origen discussion because all seven local editions and the Sinaiticus plate support grace and no local publisher note supplies the alternative. Luke retains exact Nestle double brackets with present whole-verse coverage and a separately described manuscript correction. The historical reserve has a recorded count of ten but no recovered named slate; it remains unresolved rather than replaced with invented topics. Exact editorial and visual identities and verification are in the linked handoff.
+
+### Six-addition approval and 3.6.2 integration
+
+Larry replied “All approved” and explicitly requested integration and coordinated web/Mac/Windows release 3.6.2 on October 11. The exact [approval record](../../docs/editorial-review/variant-additions-2026-10-11/APPROVAL.md) binds the six-article manifest and six-plate visual candidate. Six per-unit matching reviews were added with date-only precision; only status changed in the exact approved article payloads. The queue now has 110 approved/published articles. The 104-record predecessor and review bytes remain preserved. The visual candidate is copied without byte changes into its immutable selected successor, with a separate exact approval record. The publisher projects current approval status and removes the obsolete draft-status sentence from the displayed reuse statement while preserving its project-limited rights scope. Historical draft packets remain unchanged. The unnamed reserve remains unresolved.

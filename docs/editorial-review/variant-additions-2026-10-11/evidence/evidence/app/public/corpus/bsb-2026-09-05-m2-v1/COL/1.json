@@ -1,0 +1,2040 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/8",
+      "runs": [
+        {
+          "text": "Greetings from Paul and Timothy",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/9",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Philippians 1:1–2",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Philemon 1:1–3",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/10",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "COL.1.1",
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        },
+        {
+          "text": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,",
+          "anchor": "COL.1.1",
+          "marks": [],
+          "originalText": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,",
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/11",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.1",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "COL.1.2",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "text": "To the saints and faithful brothers in Christ at Colossae:",
+          "anchor": "COL.1.2",
+          "marks": [],
+          "originalText": "To the saints and faithful brothers in Christ at Colossae:",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/12",
+      "runs": [
+        {
+          "text": " Grace and peace to you from God our Father.",
+          "anchor": "COL.1.2",
+          "marks": [],
+          "originalText": "Grace and peace to you from God our Father.",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "noteId": "COL.1.note.1",
+          "anchor": "COL.1.2",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/13",
+      "runs": [
+        {
+          "text": "Thanksgiving and Prayer",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/14",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "1 Corinthians 1:4–9",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Philippians 1:3–11",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/15",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "COL.1.3",
+          "anchors": [
+            "COL.1.3"
+          ],
+          "sourceAnchor": "COL.1.3"
+        },
+        {
+          "text": "We always thank God, the Father of our Lord Jesus Christ, when we pray for you,",
+          "anchor": "COL.1.3",
+          "marks": [],
+          "originalText": "We always thank God, the Father of our Lord Jesus Christ, when we pray for you, ",
+          "anchors": [
+            "COL.1.3"
+          ],
+          "sourceAnchor": "COL.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "COL.1.4",
+          "anchors": [
+            "COL.1.4"
+          ],
+          "sourceAnchor": "COL.1.4"
+        },
+        {
+          "text": "because we have heard about your faith in Christ Jesus and your love for all the saints—",
+          "anchor": "COL.1.4",
+          "marks": [],
+          "originalText": "because we have heard about your faith in Christ Jesus and your love for all the saints — ",
+          "anchors": [
+            "COL.1.4"
+          ],
+          "sourceAnchor": "COL.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "COL.1.5",
+          "anchors": [
+            "COL.1.5"
+          ],
+          "sourceAnchor": "COL.1.5"
+        },
+        {
+          "text": "the faith and love proceeding from the hope stored up for you in heaven, of which you have already heard in the word of truth, the gospel",
+          "anchor": "COL.1.5",
+          "marks": [],
+          "originalText": "the faith and love proceeding from the hope stored up for you in heaven, of which you have already heard in the word of truth, the gospel ",
+          "anchors": [
+            "COL.1.5"
+          ],
+          "sourceAnchor": "COL.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "COL.1.6",
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        },
+        {
+          "text": "that has come to you.",
+          "anchor": "COL.1.6",
+          "marks": [],
+          "originalText": "that has come to you.",
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/16",
+      "runs": [
+        {
+          "text": " All over the world this gospel is bearing fruit and growing, just as it has been doing among you since the day you heard it and truly understood the grace of God.",
+          "anchor": "COL.1.6",
+          "marks": [],
+          "originalText": "All over the world this gospel is bearing fruit and growing, just as it has been doing among you since the day you heard it and truly understood the grace of God. ",
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "COL.1.7",
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "text": "You learned it from Epaphras, our beloved fellow servant, who is a faithful minister of Christ on our",
+          "anchor": "COL.1.7",
+          "marks": [],
+          "originalText": "You learned it from Epaphras, our beloved fellow servant, who is a faithful minister of Christ on our",
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "noteId": "COL.1.note.2",
+          "anchor": "COL.1.7",
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "text": " behalf,",
+          "anchor": "COL.1.7",
+          "marks": [],
+          "originalText": " behalf, ",
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "COL.1.8",
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        },
+        {
+          "text": "and who also informed us of your love in the Spirit.",
+          "anchor": "COL.1.8",
+          "marks": [],
+          "originalText": "and who also informed us of your love in the Spirit.",
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/17",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "COL.1.9",
+          "anchors": [
+            "COL.1.9"
+          ],
+          "sourceAnchor": "COL.1.9"
+        },
+        {
+          "text": "For this reason, since the day we heard about you, we have not stopped praying for you and asking God to fill you with the knowledge of His will in all spiritual wisdom and understanding,",
+          "anchor": "COL.1.9",
+          "marks": [],
+          "originalText": "For this reason, since the day we heard about you, we have not stopped praying for you and asking God to fill you with the knowledge of His will in all spiritual wisdom and understanding, ",
+          "anchors": [
+            "COL.1.9"
+          ],
+          "sourceAnchor": "COL.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "COL.1.10",
+          "anchors": [
+            "COL.1.10"
+          ],
+          "sourceAnchor": "COL.1.10"
+        },
+        {
+          "text": "so that you may walk in a manner worthy of the Lord and may please Him in every way: bearing fruit in every good work, growing in the knowledge of God,",
+          "anchor": "COL.1.10",
+          "marks": [],
+          "originalText": "so that you may walk in a manner worthy of the Lord and may please Him in every way: bearing fruit in every good work, growing in the knowledge of God, ",
+          "anchors": [
+            "COL.1.10"
+          ],
+          "sourceAnchor": "COL.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "COL.1.11",
+          "anchors": [
+            "COL.1.11"
+          ],
+          "sourceAnchor": "COL.1.11"
+        },
+        {
+          "text": "being strengthened with all power according to His glorious might so that you may have full endurance and patience, and joyfully",
+          "anchor": "COL.1.11",
+          "marks": [],
+          "originalText": "being strengthened with all power according to His glorious might so that you may have full endurance and patience, and joyfully ",
+          "anchors": [
+            "COL.1.11"
+          ],
+          "sourceAnchor": "COL.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "COL.1.12",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "text": "giving thanks to the Father, who has qualified you",
+          "anchor": "COL.1.12",
+          "marks": [],
+          "originalText": "giving thanks to the Father, who has qualified you",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "noteId": "COL.1.note.3",
+          "anchor": "COL.1.12",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "text": " to share in the inheritance of the saints in the light.",
+          "anchor": "COL.1.12",
+          "marks": [],
+          "originalText": " to share in the inheritance of the saints in the light.",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/18",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "COL.1.13",
+          "anchors": [
+            "COL.1.13"
+          ],
+          "sourceAnchor": "COL.1.13"
+        },
+        {
+          "text": "He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son,",
+          "anchor": "COL.1.13",
+          "marks": [],
+          "originalText": "He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son, ",
+          "anchors": [
+            "COL.1.13"
+          ],
+          "sourceAnchor": "COL.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "COL.1.14",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "text": "in whom we have redemption,",
+          "anchor": "COL.1.14",
+          "marks": [],
+          "originalText": "in whom we have redemption,",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "noteId": "COL.1.note.4",
+          "anchor": "COL.1.14",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "text": " the forgiveness of sins.",
+          "anchor": "COL.1.14",
+          "marks": [],
+          "originalText": " the forgiveness of sins.",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/19",
+      "runs": [
+        {
+          "text": "The Supremacy of the Son",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/20",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Hebrews 1:1–14",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/21",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "COL.1.15",
+          "anchors": [
+            "COL.1.15"
+          ],
+          "sourceAnchor": "COL.1.15"
+        },
+        {
+          "text": "The Son is the image of the invisible God, the firstborn over all creation.",
+          "anchor": "COL.1.15",
+          "marks": [],
+          "originalText": "The Son is the image of the invisible God, the firstborn over all creation. ",
+          "anchors": [
+            "COL.1.15"
+          ],
+          "sourceAnchor": "COL.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "COL.1.16",
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        },
+        {
+          "text": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.",
+          "anchor": "COL.1.16",
+          "marks": [],
+          "originalText": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.",
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/22",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.16",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "COL.1.17",
+          "anchors": [
+            "COL.1.17"
+          ],
+          "sourceAnchor": "COL.1.17"
+        },
+        {
+          "text": "He is before all things, and in Him all things hold together.",
+          "anchor": "COL.1.17",
+          "marks": [],
+          "originalText": "He is before all things, and in Him all things hold together. ",
+          "anchors": [
+            "COL.1.17"
+          ],
+          "sourceAnchor": "COL.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "COL.1.18",
+          "anchors": [
+            "COL.1.18"
+          ],
+          "sourceAnchor": "COL.1.18"
+        },
+        {
+          "text": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence.",
+          "anchor": "COL.1.18",
+          "marks": [],
+          "originalText": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence. ",
+          "anchors": [
+            "COL.1.18"
+          ],
+          "sourceAnchor": "COL.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "COL.1.19",
+          "anchors": [
+            "COL.1.19"
+          ],
+          "sourceAnchor": "COL.1.19"
+        },
+        {
+          "text": "For God was pleased to have all His fullness dwell in Him,",
+          "anchor": "COL.1.19",
+          "marks": [],
+          "originalText": "For God was pleased to have all His fullness dwell in Him, ",
+          "anchors": [
+            "COL.1.19"
+          ],
+          "sourceAnchor": "COL.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "COL.1.20",
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        },
+        {
+          "text": "and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.",
+          "anchor": "COL.1.20",
+          "marks": [],
+          "originalText": "and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.",
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/23",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "COL.1.21",
+          "anchors": [
+            "COL.1.21"
+          ],
+          "sourceAnchor": "COL.1.21"
+        },
+        {
+          "text": "Once you were alienated from God and were hostile in your minds, engaging in evil deeds.",
+          "anchor": "COL.1.21",
+          "marks": [],
+          "originalText": "Once you were alienated  from God and were hostile in your minds, engaging in evil deeds. ",
+          "anchors": [
+            "COL.1.21"
+          ],
+          "sourceAnchor": "COL.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "COL.1.22",
+          "anchors": [
+            "COL.1.22"
+          ],
+          "sourceAnchor": "COL.1.22"
+        },
+        {
+          "text": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence—",
+          "anchor": "COL.1.22",
+          "marks": [],
+          "originalText": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence — ",
+          "anchors": [
+            "COL.1.22"
+          ],
+          "sourceAnchor": "COL.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "COL.1.23",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "text": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature",
+          "anchor": "COL.1.23",
+          "marks": [],
+          "originalText": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "noteId": "COL.1.note.5",
+          "anchor": "COL.1.23",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "text": " under heaven, and of which I, Paul, have become a servant.",
+          "anchor": "COL.1.23",
+          "marks": [],
+          "originalText": " under heaven, and of which I, Paul, have become a servant.",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/24",
+      "runs": [
+        {
+          "text": "Paul’s Suffering for the Church",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/COL.usj#content/25",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "2 Corinthians 11:16–33",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/26",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.23",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "COL.1.24",
+          "anchors": [
+            "COL.1.24"
+          ],
+          "sourceAnchor": "COL.1.24"
+        },
+        {
+          "text": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church.",
+          "anchor": "COL.1.24",
+          "marks": [],
+          "originalText": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church. ",
+          "anchors": [
+            "COL.1.24"
+          ],
+          "sourceAnchor": "COL.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "COL.1.25",
+          "anchors": [
+            "COL.1.25"
+          ],
+          "sourceAnchor": "COL.1.25"
+        },
+        {
+          "text": "I became its servant by the commission God gave me to fully proclaim to you the word of God,",
+          "anchor": "COL.1.25",
+          "marks": [],
+          "originalText": "I became its servant by the commission God gave me to fully proclaim to you the word of God, ",
+          "anchors": [
+            "COL.1.25"
+          ],
+          "sourceAnchor": "COL.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "COL.1.26",
+          "anchors": [
+            "COL.1.26"
+          ],
+          "sourceAnchor": "COL.1.26"
+        },
+        {
+          "text": "the mystery that was hidden for ages and generations but is now revealed to His saints.",
+          "anchor": "COL.1.26",
+          "marks": [],
+          "originalText": "the mystery that was hidden for ages and generations but is now revealed to His saints. ",
+          "anchors": [
+            "COL.1.26"
+          ],
+          "sourceAnchor": "COL.1.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "COL.1.27",
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        },
+        {
+          "text": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory.",
+          "anchor": "COL.1.27",
+          "marks": [],
+          "originalText": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory.",
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/COL.usj#content/27",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "COL.1.27",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "COL.1.28",
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "text": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect",
+          "anchor": "COL.1.28",
+          "marks": [],
+          "originalText": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect",
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "noteId": "COL.1.note.6",
+          "anchor": "COL.1.28",
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "text": " in Christ.",
+          "anchor": "COL.1.28",
+          "marks": [],
+          "originalText": " in Christ. ",
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "COL.1.29",
+          "anchors": [
+            "COL.1.29"
+          ],
+          "sourceAnchor": "COL.1.29"
+        },
+        {
+          "text": "To this end I also labor, striving with all His energy working powerfully within me.",
+          "anchor": "COL.1.29",
+          "marks": [],
+          "originalText": "To this end I also labor, striving with all His energy working powerfully within me.",
+          "anchors": [
+            "COL.1.29"
+          ],
+          "sourceAnchor": "COL.1.29"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "COL.1.1",
+      "sourceId": "bsb_usj/COL.usj#content/10/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "COL.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,",
+      "originalStructuredText": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother,\n ",
+      "sourceRef": "COL.1.1"
+    },
+    {
+      "id": "COL.1.2",
+      "sourceId": "bsb_usj/COL.usj#content/11/content/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "COL.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "To the saints and faithful brothers in Christ at Colossae: Grace and peace to you from God our Father.",
+      "originalStructuredText": "To the saints and faithful brothers in Christ at Colossae:\nGrace and peace to you from God our Father.\n ",
+      "sourceRef": "COL.1.2"
+    },
+    {
+      "id": "COL.1.3",
+      "sourceId": "bsb_usj/COL.usj#content/15/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "COL.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "We always thank God, the Father of our Lord Jesus Christ, when we pray for you,",
+      "originalStructuredText": "We always thank God, the Father of our Lord Jesus Christ, when we pray for you, ",
+      "sourceRef": "COL.1.3"
+    },
+    {
+      "id": "COL.1.4",
+      "sourceId": "bsb_usj/COL.usj#content/15/content/3",
+      "sourceLabel": "4",
+      "anchors": [
+        "COL.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "because we have heard about your faith in Christ Jesus and your love for all the saints—",
+      "originalStructuredText": "because we have heard about your faith in Christ Jesus and your love for all the saints — ",
+      "sourceRef": "COL.1.4"
+    },
+    {
+      "id": "COL.1.5",
+      "sourceId": "bsb_usj/COL.usj#content/15/content/5",
+      "sourceLabel": "5",
+      "anchors": [
+        "COL.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "the faith and love proceeding from the hope stored up for you in heaven, of which you have already heard in the word of truth, the gospel",
+      "originalStructuredText": "the faith and love proceeding from the hope stored up for you in heaven, of which you have already heard in the word of truth, the gospel ",
+      "sourceRef": "COL.1.5"
+    },
+    {
+      "id": "COL.1.6",
+      "sourceId": "bsb_usj/COL.usj#content/15/content/7",
+      "sourceLabel": "6",
+      "anchors": [
+        "COL.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "that has come to you. All over the world this gospel is bearing fruit and growing, just as it has been doing among you since the day you heard it and truly understood the grace of God.",
+      "originalStructuredText": "that has come to you.\nAll over the world this gospel is bearing fruit and growing, just as it has been doing among you since the day you heard it and truly understood the grace of God. ",
+      "sourceRef": "COL.1.6"
+    },
+    {
+      "id": "COL.1.7",
+      "sourceId": "bsb_usj/COL.usj#content/16/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "COL.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "You learned it from Epaphras, our beloved fellow servant, who is a faithful minister of Christ on our behalf,",
+      "originalStructuredText": "You learned it from Epaphras, our beloved fellow servant, who is a faithful minister of Christ on our behalf, ",
+      "sourceRef": "COL.1.7"
+    },
+    {
+      "id": "COL.1.8",
+      "sourceId": "bsb_usj/COL.usj#content/16/content/5",
+      "sourceLabel": "8",
+      "anchors": [
+        "COL.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "and who also informed us of your love in the Spirit.",
+      "originalStructuredText": "and who also informed us of your love in the Spirit.\n ",
+      "sourceRef": "COL.1.8"
+    },
+    {
+      "id": "COL.1.9",
+      "sourceId": "bsb_usj/COL.usj#content/17/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "COL.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "For this reason, since the day we heard about you, we have not stopped praying for you and asking God to fill you with the knowledge of His will in all spiritual wisdom and understanding,",
+      "originalStructuredText": "For this reason, since the day we heard about you, we have not stopped praying for you and asking God to fill you with the knowledge of His will in all spiritual wisdom and understanding, ",
+      "sourceRef": "COL.1.9"
+    },
+    {
+      "id": "COL.1.10",
+      "sourceId": "bsb_usj/COL.usj#content/17/content/3",
+      "sourceLabel": "10",
+      "anchors": [
+        "COL.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "so that you may walk in a manner worthy of the Lord and may please Him in every way: bearing fruit in every good work, growing in the knowledge of God,",
+      "originalStructuredText": "so that you may walk in a manner worthy of the Lord and may please Him in every way: bearing fruit in every good work, growing in the knowledge of God, ",
+      "sourceRef": "COL.1.10"
+    },
+    {
+      "id": "COL.1.11",
+      "sourceId": "bsb_usj/COL.usj#content/17/content/5",
+      "sourceLabel": "11",
+      "anchors": [
+        "COL.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "being strengthened with all power according to His glorious might so that you may have full endurance and patience, and joyfully",
+      "originalStructuredText": "being strengthened with all power according to His glorious might so that you may have full endurance and patience, and joyfully ",
+      "sourceRef": "COL.1.11"
+    },
+    {
+      "id": "COL.1.12",
+      "sourceId": "bsb_usj/COL.usj#content/17/content/7",
+      "sourceLabel": "12",
+      "anchors": [
+        "COL.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "giving thanks to the Father, who has qualified you to share in the inheritance of the saints in the light.",
+      "originalStructuredText": "giving thanks to the Father, who has qualified you to share in the inheritance of the saints in the light.\n ",
+      "sourceRef": "COL.1.12"
+    },
+    {
+      "id": "COL.1.13",
+      "sourceId": "bsb_usj/COL.usj#content/18/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "COL.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son,",
+      "originalStructuredText": "He has rescued us from the dominion of darkness and brought us into the kingdom of His beloved Son, ",
+      "sourceRef": "COL.1.13"
+    },
+    {
+      "id": "COL.1.14",
+      "sourceId": "bsb_usj/COL.usj#content/18/content/3",
+      "sourceLabel": "14",
+      "anchors": [
+        "COL.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "in whom we have redemption, the forgiveness of sins.",
+      "originalStructuredText": "in whom we have redemption, the forgiveness of sins.\n ",
+      "sourceRef": "COL.1.14"
+    },
+    {
+      "id": "COL.1.15",
+      "sourceId": "bsb_usj/COL.usj#content/21/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "COL.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "The Son is the image of the invisible God, the firstborn over all creation.",
+      "originalStructuredText": "The Son is the image of the invisible God, the firstborn over all creation. ",
+      "sourceRef": "COL.1.15"
+    },
+    {
+      "id": "COL.1.16",
+      "sourceId": "bsb_usj/COL.usj#content/21/content/3",
+      "sourceLabel": "16",
+      "anchors": [
+        "COL.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.",
+      "originalStructuredText": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.\n ",
+      "sourceRef": "COL.1.16"
+    },
+    {
+      "id": "COL.1.17",
+      "sourceId": "bsb_usj/COL.usj#content/22/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "COL.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "He is before all things, and in Him all things hold together.",
+      "originalStructuredText": "He is before all things, and in Him all things hold together. ",
+      "sourceRef": "COL.1.17"
+    },
+    {
+      "id": "COL.1.18",
+      "sourceId": "bsb_usj/COL.usj#content/22/content/3",
+      "sourceLabel": "18",
+      "anchors": [
+        "COL.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence.",
+      "originalStructuredText": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have preeminence. ",
+      "sourceRef": "COL.1.18"
+    },
+    {
+      "id": "COL.1.19",
+      "sourceId": "bsb_usj/COL.usj#content/22/content/5",
+      "sourceLabel": "19",
+      "anchors": [
+        "COL.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "For God was pleased to have all His fullness dwell in Him,",
+      "originalStructuredText": "For God was pleased to have all His fullness dwell in Him, ",
+      "sourceRef": "COL.1.19"
+    },
+    {
+      "id": "COL.1.20",
+      "sourceId": "bsb_usj/COL.usj#content/22/content/7",
+      "sourceLabel": "20",
+      "anchors": [
+        "COL.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.",
+      "originalStructuredText": "and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross.\n ",
+      "sourceRef": "COL.1.20"
+    },
+    {
+      "id": "COL.1.21",
+      "sourceId": "bsb_usj/COL.usj#content/23/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "COL.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "Once you were alienated from God and were hostile in your minds, engaging in evil deeds.",
+      "originalStructuredText": "Once you were alienated  from God and were hostile in your minds, engaging in evil deeds. ",
+      "sourceRef": "COL.1.21"
+    },
+    {
+      "id": "COL.1.22",
+      "sourceId": "bsb_usj/COL.usj#content/23/content/3",
+      "sourceLabel": "22",
+      "anchors": [
+        "COL.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence—",
+      "originalStructuredText": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence — ",
+      "sourceRef": "COL.1.22"
+    },
+    {
+      "id": "COL.1.23",
+      "sourceId": "bsb_usj/COL.usj#content/23/content/5",
+      "sourceLabel": "23",
+      "anchors": [
+        "COL.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature under heaven, and of which I, Paul, have become a servant.",
+      "originalStructuredText": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature under heaven, and of which I, Paul, have become a servant.\n ",
+      "sourceRef": "COL.1.23"
+    },
+    {
+      "id": "COL.1.24",
+      "sourceId": "bsb_usj/COL.usj#content/26/content/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "COL.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church.",
+      "originalStructuredText": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church. ",
+      "sourceRef": "COL.1.24"
+    },
+    {
+      "id": "COL.1.25",
+      "sourceId": "bsb_usj/COL.usj#content/26/content/3",
+      "sourceLabel": "25",
+      "anchors": [
+        "COL.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "I became its servant by the commission God gave me to fully proclaim to you the word of God,",
+      "originalStructuredText": "I became its servant by the commission God gave me to fully proclaim to you the word of God, ",
+      "sourceRef": "COL.1.25"
+    },
+    {
+      "id": "COL.1.26",
+      "sourceId": "bsb_usj/COL.usj#content/26/content/5",
+      "sourceLabel": "26",
+      "anchors": [
+        "COL.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "the mystery that was hidden for ages and generations but is now revealed to His saints.",
+      "originalStructuredText": "the mystery that was hidden for ages and generations but is now revealed to His saints. ",
+      "sourceRef": "COL.1.26"
+    },
+    {
+      "id": "COL.1.27",
+      "sourceId": "bsb_usj/COL.usj#content/26/content/7",
+      "sourceLabel": "27",
+      "anchors": [
+        "COL.1.27"
+      ],
+      "mappingType": "exact",
+      "text": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory.",
+      "originalStructuredText": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory.\n ",
+      "sourceRef": "COL.1.27"
+    },
+    {
+      "id": "COL.1.28",
+      "sourceId": "bsb_usj/COL.usj#content/27/content/1",
+      "sourceLabel": "28",
+      "anchors": [
+        "COL.1.28"
+      ],
+      "mappingType": "exact",
+      "text": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect in Christ.",
+      "originalStructuredText": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect in Christ. ",
+      "sourceRef": "COL.1.28"
+    },
+    {
+      "id": "COL.1.29",
+      "sourceId": "bsb_usj/COL.usj#content/27/content/5",
+      "sourceLabel": "29",
+      "anchors": [
+        "COL.1.29"
+      ],
+      "mappingType": "exact",
+      "text": "To this end I also labor, striving with all His energy working powerfully within me.",
+      "originalStructuredText": "To this end I also labor, striving with all His energy working powerfully within me.",
+      "sourceRef": "COL.1.29"
+    }
+  ],
+  "notes": [
+    {
+      "id": "COL.1.note.1",
+      "anchor": "COL.1.2",
+      "sourceId": "bsb_usj/COL.usj#content/12/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:2 BYZ and TR God our Father and the Lord Jesus Christ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "God our Father and the Lord Jesus Christ"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "COL.1.note.2",
+      "anchor": "COL.1.7",
+      "sourceId": "bsb_usj/COL.usj#content/16/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:7 NE, NA, BYZ, and TR your",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:7 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NE, NA, BYZ, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "your"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "COL.1.note.3",
+      "anchor": "COL.1.12",
+      "sourceId": "bsb_usj/COL.usj#content/17/content/9",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:12 BYZ and TR us",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:12 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "BYZ and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "us"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "COL.1.note.4",
+      "anchor": "COL.1.14",
+      "sourceId": "bsb_usj/COL.usj#content/18/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:14 TR redemption through His blood,",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:14 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "redemption through His blood,"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "COL.1.note.5",
+      "anchor": "COL.1.23",
+      "sourceId": "bsb_usj/COL.usj#content/23/content/7",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:23 Or in all creation",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:23 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in all creation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "COL.1.note.6",
+      "anchor": "COL.1.28",
+      "sourceId": "bsb_usj/COL.usj#content/27/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:28 Or fully mature",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:28 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "fully mature"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "COL.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.1",
+          "sourceRef": "COL.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.1"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.2",
+          "sourceRef": "COL.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.3",
+          "sourceRef": "COL.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.4",
+          "sourceRef": "COL.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.5",
+          "sourceRef": "COL.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.6",
+          "sourceRef": "COL.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.2"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.7",
+          "sourceRef": "COL.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.8",
+          "sourceRef": "COL.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.9",
+          "sourceRef": "COL.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.10",
+          "sourceRef": "COL.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.11",
+          "sourceRef": "COL.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.3"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.12",
+          "sourceRef": "COL.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.13",
+          "sourceRef": "COL.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.4"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.14",
+          "sourceRef": "COL.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.15",
+          "sourceRef": "COL.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.16",
+          "sourceRef": "COL.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.17",
+          "sourceRef": "COL.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.18",
+          "sourceRef": "COL.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.19",
+          "sourceRef": "COL.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.20",
+          "sourceRef": "COL.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.21",
+          "sourceRef": "COL.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.22",
+          "sourceRef": "COL.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.5"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.23",
+          "sourceRef": "COL.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.24",
+          "sourceRef": "COL.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.25",
+          "sourceRef": "COL.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.26",
+          "sourceRef": "COL.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.27",
+          "sourceRef": "COL.1.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "COL.1.note.6"
+      ],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.28",
+          "sourceRef": "COL.1.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.29",
+          "sourceRef": "COL.1.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

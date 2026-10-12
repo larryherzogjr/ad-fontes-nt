@@ -31,3 +31,21 @@ test('approved 65-unit Sinaiticus expansion verifies offline', async () => {
   assert.match(registry.plates['candidate-42'].caption, /later hand supplies/);
   assert.match(registry.plates['candidate-104'].caption, /six hundred sixty-six/);
 });
+
+test('six approved additions preserve exact evidence and publish all six plates', async () => {
+  const { stdout } = await exec(process.execPath, ['scripts/verify_variant_additions_candidate.mts']);
+  assert.match(stdout, /"publishedArticles": 110/);
+  const path = 'app/public/visuals/csntm-sinaiticus-additions-2026-10-11-v2';
+  const registry = JSON.parse(await readFile(`${path}/registry.json`, 'utf8'));
+  assert.equal(registry.status, 'approved');
+  assert.equal(registry.editorialReview.candidateSha256, 'acc44841ea168a7f05e7453ab22615d7584e7941081c4c7f01d39f72ec75eead');
+  assert.equal(Object.keys(registry.plates).length, 6);
+  assert.equal((await readdir(`${path}/assets`)).length, 6);
+  assert.match(registry.plates['candidate-106'].caption, /corrector ca/);
+  assert.match(registry.plates['candidate-107'].caption, /βηθαραβα/);
+  assert.match(registry.plates['candidate-109'].caption, /does not supply the apart-from-God alternative/);
+  for (const plate of Object.values(registry.plates) as any[]) {
+    assert.doesNotMatch(plate.reuseStatement, /no publication approval/);
+    assert.match(plate.reuseStatement, /No broader image reuse is granted/);
+  }
+});

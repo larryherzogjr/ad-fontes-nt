@@ -1,0 +1,1855 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MAT.20.1",
+          "anchors": [
+            "MAT.20.1"
+          ],
+          "sourceAnchor": "MAT.20.1"
+        },
+        {
+          "text": "'For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,\n",
+          "anchor": "MAT.20.1",
+          "marks": [],
+          "anchors": [
+            "MAT.20.1"
+          ],
+          "sourceAnchor": "MAT.20.1"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.1",
+          "marks": [],
+          "anchors": [
+            "MAT.20.1"
+          ],
+          "sourceAnchor": "MAT.20.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.20.2",
+          "anchors": [
+            "MAT.20.2"
+          ],
+          "sourceAnchor": "MAT.20.2"
+        },
+        {
+          "text": "and having agreed with the workmen for a denary a day, he sent them into his vineyard.\n",
+          "anchor": "MAT.20.2",
+          "marks": [],
+          "anchors": [
+            "MAT.20.2"
+          ],
+          "sourceAnchor": "MAT.20.2"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.2",
+          "marks": [],
+          "anchors": [
+            "MAT.20.2"
+          ],
+          "sourceAnchor": "MAT.20.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.20.3",
+          "anchors": [
+            "MAT.20.3"
+          ],
+          "sourceAnchor": "MAT.20.3"
+        },
+        {
+          "text": "'And having gone forth about the third hour, he saw others standing in the market-place idle,\n",
+          "anchor": "MAT.20.3",
+          "marks": [],
+          "anchors": [
+            "MAT.20.3"
+          ],
+          "sourceAnchor": "MAT.20.3"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.3",
+          "marks": [],
+          "anchors": [
+            "MAT.20.3"
+          ],
+          "sourceAnchor": "MAT.20.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.20.4",
+          "anchors": [
+            "MAT.20.4"
+          ],
+          "sourceAnchor": "MAT.20.4"
+        },
+        {
+          "text": "and to these he said, Go ye — also ye — to the vineyard, and whatever may be righteous I will give you;\n",
+          "anchor": "MAT.20.4",
+          "marks": [],
+          "anchors": [
+            "MAT.20.4"
+          ],
+          "sourceAnchor": "MAT.20.4"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.4",
+          "marks": [],
+          "anchors": [
+            "MAT.20.4"
+          ],
+          "sourceAnchor": "MAT.20.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.20.5",
+          "anchors": [
+            "MAT.20.5"
+          ],
+          "sourceAnchor": "MAT.20.5"
+        },
+        {
+          "text": "and they went away. 'Again, having gone forth about the sixth and the ninth hour, he did in like manner.\n",
+          "anchor": "MAT.20.5",
+          "marks": [],
+          "anchors": [
+            "MAT.20.5"
+          ],
+          "sourceAnchor": "MAT.20.5"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.5",
+          "marks": [],
+          "anchors": [
+            "MAT.20.5"
+          ],
+          "sourceAnchor": "MAT.20.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.20.6",
+          "anchors": [
+            "MAT.20.6"
+          ],
+          "sourceAnchor": "MAT.20.6"
+        },
+        {
+          "text": "And about the eleventh hour, having gone forth, he found others standing idle, and saith to them, Why here have ye stood all the day idle?\n",
+          "anchor": "MAT.20.6",
+          "marks": [],
+          "anchors": [
+            "MAT.20.6"
+          ],
+          "sourceAnchor": "MAT.20.6"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.6",
+          "marks": [],
+          "anchors": [
+            "MAT.20.6"
+          ],
+          "sourceAnchor": "MAT.20.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.20.7",
+          "anchors": [
+            "MAT.20.7"
+          ],
+          "sourceAnchor": "MAT.20.7"
+        },
+        {
+          "text": "they say to him, Because no one did hire us; he saith to them, Go ye — ye also — to the vineyard, and whatever may be righteous ye shall receive.\n",
+          "anchor": "MAT.20.7",
+          "marks": [],
+          "anchors": [
+            "MAT.20.7"
+          ],
+          "sourceAnchor": "MAT.20.7"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.7",
+          "marks": [],
+          "anchors": [
+            "MAT.20.7"
+          ],
+          "sourceAnchor": "MAT.20.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.20.8",
+          "anchors": [
+            "MAT.20.8"
+          ],
+          "sourceAnchor": "MAT.20.8"
+        },
+        {
+          "text": "'And evening having come, the lord of the vineyard saith to his steward, Call the workmen, and pay them the reward, having begun from the last — unto the first.\n",
+          "anchor": "MAT.20.8",
+          "marks": [],
+          "anchors": [
+            "MAT.20.8"
+          ],
+          "sourceAnchor": "MAT.20.8"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.8",
+          "marks": [],
+          "anchors": [
+            "MAT.20.8"
+          ],
+          "sourceAnchor": "MAT.20.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.20.9",
+          "anchors": [
+            "MAT.20.9"
+          ],
+          "sourceAnchor": "MAT.20.9"
+        },
+        {
+          "text": "And they of about the eleventh hour having come, did receive each a denary.\n",
+          "anchor": "MAT.20.9",
+          "marks": [],
+          "anchors": [
+            "MAT.20.9"
+          ],
+          "sourceAnchor": "MAT.20.9"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.9",
+          "marks": [],
+          "anchors": [
+            "MAT.20.9"
+          ],
+          "sourceAnchor": "MAT.20.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.20.10",
+          "anchors": [
+            "MAT.20.10"
+          ],
+          "sourceAnchor": "MAT.20.10"
+        },
+        {
+          "text": "'And the first having come, did suppose that they shall receive more, and they received, they also, each a denary,\n",
+          "anchor": "MAT.20.10",
+          "marks": [],
+          "anchors": [
+            "MAT.20.10"
+          ],
+          "sourceAnchor": "MAT.20.10"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.10",
+          "marks": [],
+          "anchors": [
+            "MAT.20.10"
+          ],
+          "sourceAnchor": "MAT.20.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.20.11",
+          "anchors": [
+            "MAT.20.11"
+          ],
+          "sourceAnchor": "MAT.20.11"
+        },
+        {
+          "text": "and having received [it], they were murmuring against the householder, saying,\n",
+          "anchor": "MAT.20.11",
+          "marks": [],
+          "anchors": [
+            "MAT.20.11"
+          ],
+          "sourceAnchor": "MAT.20.11"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.11",
+          "marks": [],
+          "anchors": [
+            "MAT.20.11"
+          ],
+          "sourceAnchor": "MAT.20.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.20.12",
+          "anchors": [
+            "MAT.20.12"
+          ],
+          "sourceAnchor": "MAT.20.12"
+        },
+        {
+          "text": "that These, the last, wrought one hour, and thou didst make them equal to us, who were bearing the burden of the day — and the heat.\n",
+          "anchor": "MAT.20.12",
+          "marks": [],
+          "anchors": [
+            "MAT.20.12"
+          ],
+          "sourceAnchor": "MAT.20.12"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.12",
+          "marks": [],
+          "anchors": [
+            "MAT.20.12"
+          ],
+          "sourceAnchor": "MAT.20.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.20.13",
+          "anchors": [
+            "MAT.20.13"
+          ],
+          "sourceAnchor": "MAT.20.13"
+        },
+        {
+          "text": "'And he answering said to one of them, Comrade, I do no unrighteousness to thee; for a denary didst not thou agree with me?\n",
+          "anchor": "MAT.20.13",
+          "marks": [],
+          "anchors": [
+            "MAT.20.13"
+          ],
+          "sourceAnchor": "MAT.20.13"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.13",
+          "marks": [],
+          "anchors": [
+            "MAT.20.13"
+          ],
+          "sourceAnchor": "MAT.20.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.20.14",
+          "anchors": [
+            "MAT.20.14"
+          ],
+          "sourceAnchor": "MAT.20.14"
+        },
+        {
+          "text": "take that which is thine, and go; and I will to give to this, the last, also as to thee;\n",
+          "anchor": "MAT.20.14",
+          "marks": [],
+          "anchors": [
+            "MAT.20.14"
+          ],
+          "sourceAnchor": "MAT.20.14"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.14",
+          "marks": [],
+          "anchors": [
+            "MAT.20.14"
+          ],
+          "sourceAnchor": "MAT.20.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.20.15",
+          "anchors": [
+            "MAT.20.15"
+          ],
+          "sourceAnchor": "MAT.20.15"
+        },
+        {
+          "text": "is it not lawful to me to do what I will in mine own? is thine eye evil because I am good?\n",
+          "anchor": "MAT.20.15",
+          "marks": [],
+          "anchors": [
+            "MAT.20.15"
+          ],
+          "sourceAnchor": "MAT.20.15"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.15",
+          "marks": [],
+          "anchors": [
+            "MAT.20.15"
+          ],
+          "sourceAnchor": "MAT.20.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.20.16",
+          "anchors": [
+            "MAT.20.16"
+          ],
+          "sourceAnchor": "MAT.20.16"
+        },
+        {
+          "text": "So the last shall be first, and the first last, for many are called, and few chosen.'\n",
+          "anchor": "MAT.20.16",
+          "marks": [],
+          "anchors": [
+            "MAT.20.16"
+          ],
+          "sourceAnchor": "MAT.20.16"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.16",
+          "marks": [],
+          "anchors": [
+            "MAT.20.16"
+          ],
+          "sourceAnchor": "MAT.20.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.20.17",
+          "anchors": [
+            "MAT.20.17"
+          ],
+          "sourceAnchor": "MAT.20.17"
+        },
+        {
+          "text": "And Jesus going up to Jerusalem, took the twelve disciples by themselves in the way, and said to them,\n",
+          "anchor": "MAT.20.17",
+          "marks": [],
+          "anchors": [
+            "MAT.20.17"
+          ],
+          "sourceAnchor": "MAT.20.17"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.17",
+          "marks": [],
+          "anchors": [
+            "MAT.20.17"
+          ],
+          "sourceAnchor": "MAT.20.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.20.18",
+          "anchors": [
+            "MAT.20.18"
+          ],
+          "sourceAnchor": "MAT.20.18"
+        },
+        {
+          "text": "'Lo, we go up to Jerusalem, and the Son of Man shall be delivered to the chief priests and scribes,\n",
+          "anchor": "MAT.20.18",
+          "marks": [],
+          "anchors": [
+            "MAT.20.18"
+          ],
+          "sourceAnchor": "MAT.20.18"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.18",
+          "marks": [],
+          "anchors": [
+            "MAT.20.18"
+          ],
+          "sourceAnchor": "MAT.20.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.20.19",
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        },
+        {
+          "text": "and they shall condemn him to death, and shall deliver him to the nations to mock, and to scourge, and to crucify, and the third day he will rise again.'\n",
+          "anchor": "MAT.20.19",
+          "marks": [],
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.19",
+          "marks": [],
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.20.20",
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "text": "Then came near to him the mother of the sons of Zebedee, with her sons, bowing and asking something from him,\n",
+          "anchor": "MAT.20.20",
+          "marks": [],
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.20",
+          "marks": [],
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.20.21",
+          "anchors": [
+            "MAT.20.21"
+          ],
+          "sourceAnchor": "MAT.20.21"
+        },
+        {
+          "text": "and he said to her, 'What wilt thou?' She saith to him, 'Say, that they may sit — these my two sons — one on thy right hand, and one on the left, in thy reign.'\n",
+          "anchor": "MAT.20.21",
+          "marks": [],
+          "anchors": [
+            "MAT.20.21"
+          ],
+          "sourceAnchor": "MAT.20.21"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.21",
+          "marks": [],
+          "anchors": [
+            "MAT.20.21"
+          ],
+          "sourceAnchor": "MAT.20.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.20.22",
+          "anchors": [
+            "MAT.20.22"
+          ],
+          "sourceAnchor": "MAT.20.22"
+        },
+        {
+          "text": "And Jesus answering said, 'Ye have not known what ye ask for yourselves; are ye able to drink of the cup that I am about to drink? and with the baptism that I am baptized with, to be baptized?' They say to him, 'We are able.'\n",
+          "anchor": "MAT.20.22",
+          "marks": [],
+          "anchors": [
+            "MAT.20.22"
+          ],
+          "sourceAnchor": "MAT.20.22"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.22",
+          "marks": [],
+          "anchors": [
+            "MAT.20.22"
+          ],
+          "sourceAnchor": "MAT.20.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.20.23",
+          "anchors": [
+            "MAT.20.23"
+          ],
+          "sourceAnchor": "MAT.20.23"
+        },
+        {
+          "text": "And he saith to them, 'Of my cup indeed ye shall drink, and with the baptism that I am baptized with ye shall be baptized; but to sit on my right hand and on my left is not mine to give, but — to those for whom it hath been prepared by my father.'\n",
+          "anchor": "MAT.20.23",
+          "marks": [],
+          "anchors": [
+            "MAT.20.23"
+          ],
+          "sourceAnchor": "MAT.20.23"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.23",
+          "marks": [],
+          "anchors": [
+            "MAT.20.23"
+          ],
+          "sourceAnchor": "MAT.20.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.20.24",
+          "anchors": [
+            "MAT.20.24"
+          ],
+          "sourceAnchor": "MAT.20.24"
+        },
+        {
+          "text": "And the ten having heard, were much displeased with the two brothers,\n",
+          "anchor": "MAT.20.24",
+          "marks": [],
+          "anchors": [
+            "MAT.20.24"
+          ],
+          "sourceAnchor": "MAT.20.24"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.24",
+          "marks": [],
+          "anchors": [
+            "MAT.20.24"
+          ],
+          "sourceAnchor": "MAT.20.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.20.25",
+          "anchors": [
+            "MAT.20.25"
+          ],
+          "sourceAnchor": "MAT.20.25"
+        },
+        {
+          "text": "and Jesus having called them near, said, 'Ye have known that the rulers of the nations do exercise lordship over them, and those great do exercise authority over them,\n",
+          "anchor": "MAT.20.25",
+          "marks": [],
+          "anchors": [
+            "MAT.20.25"
+          ],
+          "sourceAnchor": "MAT.20.25"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.25",
+          "marks": [],
+          "anchors": [
+            "MAT.20.25"
+          ],
+          "sourceAnchor": "MAT.20.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.20.26",
+          "anchors": [
+            "MAT.20.26"
+          ],
+          "sourceAnchor": "MAT.20.26"
+        },
+        {
+          "text": "but not so shall it be among you, but whoever may will among you to become great, let him be your ministrant;\n",
+          "anchor": "MAT.20.26",
+          "marks": [],
+          "anchors": [
+            "MAT.20.26"
+          ],
+          "sourceAnchor": "MAT.20.26"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.26",
+          "marks": [],
+          "anchors": [
+            "MAT.20.26"
+          ],
+          "sourceAnchor": "MAT.20.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.20.27",
+          "anchors": [
+            "MAT.20.27"
+          ],
+          "sourceAnchor": "MAT.20.27"
+        },
+        {
+          "text": "and whoever may will among you to be first, let him be your servant;\n",
+          "anchor": "MAT.20.27",
+          "marks": [],
+          "anchors": [
+            "MAT.20.27"
+          ],
+          "sourceAnchor": "MAT.20.27"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.27",
+          "marks": [],
+          "anchors": [
+            "MAT.20.27"
+          ],
+          "sourceAnchor": "MAT.20.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.20.28",
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        },
+        {
+          "text": "even as the Son of Man did not come to be ministered to, but to minister, and to give his life a ransom for many.'\n",
+          "anchor": "MAT.20.28",
+          "marks": [],
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.28",
+          "marks": [],
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MAT.20.29",
+          "anchors": [
+            "MAT.20.29"
+          ],
+          "sourceAnchor": "MAT.20.29"
+        },
+        {
+          "text": "And they going forth from Jericho, there followed him a great multitude,\n",
+          "anchor": "MAT.20.29",
+          "marks": [],
+          "anchors": [
+            "MAT.20.29"
+          ],
+          "sourceAnchor": "MAT.20.29"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.29",
+          "marks": [],
+          "anchors": [
+            "MAT.20.29"
+          ],
+          "sourceAnchor": "MAT.20.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.20.30",
+          "anchors": [
+            "MAT.20.30"
+          ],
+          "sourceAnchor": "MAT.20.30"
+        },
+        {
+          "text": "and lo, two blind men sitting by the way, having heard that Jesus doth pass by, cried, saying, 'Deal kindly with us, sir — Son of David.'\n",
+          "anchor": "MAT.20.30",
+          "marks": [],
+          "anchors": [
+            "MAT.20.30"
+          ],
+          "sourceAnchor": "MAT.20.30"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.30",
+          "marks": [],
+          "anchors": [
+            "MAT.20.30"
+          ],
+          "sourceAnchor": "MAT.20.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.20.31",
+          "anchors": [
+            "MAT.20.31"
+          ],
+          "sourceAnchor": "MAT.20.31"
+        },
+        {
+          "text": "And the multitude charged them that they might be silent, and they cried out the more, saying, 'Deal kindly with us sir — Son of David.'\n",
+          "anchor": "MAT.20.31",
+          "marks": [],
+          "anchors": [
+            "MAT.20.31"
+          ],
+          "sourceAnchor": "MAT.20.31"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.31",
+          "marks": [],
+          "anchors": [
+            "MAT.20.31"
+          ],
+          "sourceAnchor": "MAT.20.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.20.32",
+          "anchors": [
+            "MAT.20.32"
+          ],
+          "sourceAnchor": "MAT.20.32"
+        },
+        {
+          "text": "And having stood, Jesus called them, and said, 'What will ye [that] I may do to you?'\n",
+          "anchor": "MAT.20.32",
+          "marks": [],
+          "anchors": [
+            "MAT.20.32"
+          ],
+          "sourceAnchor": "MAT.20.32"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.32",
+          "marks": [],
+          "anchors": [
+            "MAT.20.32"
+          ],
+          "sourceAnchor": "MAT.20.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.20.33",
+          "anchors": [
+            "MAT.20.33"
+          ],
+          "sourceAnchor": "MAT.20.33"
+        },
+        {
+          "text": "they say to him, 'Sir, that our eyes may be opened;'\n",
+          "anchor": "MAT.20.33",
+          "marks": [],
+          "anchors": [
+            "MAT.20.33"
+          ],
+          "sourceAnchor": "MAT.20.33"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.33",
+          "marks": [],
+          "anchors": [
+            "MAT.20.33"
+          ],
+          "sourceAnchor": "MAT.20.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.20.34",
+          "anchors": [
+            "MAT.20.34"
+          ],
+          "sourceAnchor": "MAT.20.34"
+        },
+        {
+          "text": "and having been moved with compassion, Jesus touched their eyes, and immediately their eyes received sight, and they followed him.\n",
+          "anchor": "MAT.20.34",
+          "marks": [],
+          "anchors": [
+            "MAT.20.34"
+          ],
+          "sourceAnchor": "MAT.20.34"
+        },
+        {
+          "text": "\n",
+          "anchor": "MAT.20.34",
+          "marks": [],
+          "anchors": [
+            "MAT.20.34"
+          ],
+          "sourceAnchor": "MAT.20.34"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.20.1",
+      "sourceRef": "MAT.20.1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[0]",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.20.1"
+      ],
+      "mappingType": "exact",
+      "text": "'For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,",
+      "originalText": "'For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,\n\n"
+    },
+    {
+      "id": "MAT.20.2",
+      "sourceRef": "MAT.20.2",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[2]",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.20.2"
+      ],
+      "mappingType": "exact",
+      "text": "and having agreed with the workmen for a denary a day, he sent them into his vineyard.",
+      "originalText": "and having agreed with the workmen for a denary a day, he sent them into his vineyard.\n\n"
+    },
+    {
+      "id": "MAT.20.3",
+      "sourceRef": "MAT.20.3",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[4]",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.20.3"
+      ],
+      "mappingType": "exact",
+      "text": "'And having gone forth about the third hour, he saw others standing in the market-place idle,",
+      "originalText": "'And having gone forth about the third hour, he saw others standing in the market-place idle,\n\n"
+    },
+    {
+      "id": "MAT.20.4",
+      "sourceRef": "MAT.20.4",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[6]",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.20.4"
+      ],
+      "mappingType": "exact",
+      "text": "and to these he said, Go ye — also ye — to the vineyard, and whatever may be righteous I will give you;",
+      "originalText": "and to these he said, Go ye — also ye — to the vineyard, and whatever may be righteous I will give you;\n\n"
+    },
+    {
+      "id": "MAT.20.5",
+      "sourceRef": "MAT.20.5",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[8]",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.20.5"
+      ],
+      "mappingType": "exact",
+      "text": "and they went away. 'Again, having gone forth about the sixth and the ninth hour, he did in like manner.",
+      "originalText": "and they went away. 'Again, having gone forth about the sixth and the ninth hour, he did in like manner.\n\n"
+    },
+    {
+      "id": "MAT.20.6",
+      "sourceRef": "MAT.20.6",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[10]",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.20.6"
+      ],
+      "mappingType": "exact",
+      "text": "And about the eleventh hour, having gone forth, he found others standing idle, and saith to them, Why here have ye stood all the day idle?",
+      "originalText": "And about the eleventh hour, having gone forth, he found others standing idle, and saith to them, Why here have ye stood all the day idle?\n\n"
+    },
+    {
+      "id": "MAT.20.7",
+      "sourceRef": "MAT.20.7",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[12]",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.20.7"
+      ],
+      "mappingType": "exact",
+      "text": "they say to him, Because no one did hire us; he saith to them, Go ye — ye also — to the vineyard, and whatever may be righteous ye shall receive.",
+      "originalText": "they say to him, Because no one did hire us; he saith to them, Go ye — ye also — to the vineyard, and whatever may be righteous ye shall receive.\n\n"
+    },
+    {
+      "id": "MAT.20.8",
+      "sourceRef": "MAT.20.8",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[14]",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.20.8"
+      ],
+      "mappingType": "exact",
+      "text": "'And evening having come, the lord of the vineyard saith to his steward, Call the workmen, and pay them the reward, having begun from the last — unto the first.",
+      "originalText": "'And evening having come, the lord of the vineyard saith to his steward, Call the workmen, and pay them the reward, having begun from the last — unto the first.\n\n"
+    },
+    {
+      "id": "MAT.20.9",
+      "sourceRef": "MAT.20.9",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[16]",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.20.9"
+      ],
+      "mappingType": "exact",
+      "text": "And they of about the eleventh hour having come, did receive each a denary.",
+      "originalText": "And they of about the eleventh hour having come, did receive each a denary.\n\n"
+    },
+    {
+      "id": "MAT.20.10",
+      "sourceRef": "MAT.20.10",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[18]",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.20.10"
+      ],
+      "mappingType": "exact",
+      "text": "'And the first having come, did suppose that they shall receive more, and they received, they also, each a denary,",
+      "originalText": "'And the first having come, did suppose that they shall receive more, and they received, they also, each a denary,\n\n"
+    },
+    {
+      "id": "MAT.20.11",
+      "sourceRef": "MAT.20.11",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[20]",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.20.11"
+      ],
+      "mappingType": "exact",
+      "text": "and having received [it], they were murmuring against the householder, saying,",
+      "originalText": "and having received [it], they were murmuring against the householder, saying,\n\n"
+    },
+    {
+      "id": "MAT.20.12",
+      "sourceRef": "MAT.20.12",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[22]",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.20.12"
+      ],
+      "mappingType": "exact",
+      "text": "that These, the last, wrought one hour, and thou didst make them equal to us, who were bearing the burden of the day — and the heat.",
+      "originalText": "that These, the last, wrought one hour, and thou didst make them equal to us, who were bearing the burden of the day — and the heat.\n\n"
+    },
+    {
+      "id": "MAT.20.13",
+      "sourceRef": "MAT.20.13",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[24]",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.20.13"
+      ],
+      "mappingType": "exact",
+      "text": "'And he answering said to one of them, Comrade, I do no unrighteousness to thee; for a denary didst not thou agree with me?",
+      "originalText": "'And he answering said to one of them, Comrade, I do no unrighteousness to thee; for a denary didst not thou agree with me?\n\n"
+    },
+    {
+      "id": "MAT.20.14",
+      "sourceRef": "MAT.20.14",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[26]",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.20.14"
+      ],
+      "mappingType": "exact",
+      "text": "take that which is thine, and go; and I will to give to this, the last, also as to thee;",
+      "originalText": "take that which is thine, and go; and I will to give to this, the last, also as to thee;\n\n"
+    },
+    {
+      "id": "MAT.20.15",
+      "sourceRef": "MAT.20.15",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[28]",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.20.15"
+      ],
+      "mappingType": "exact",
+      "text": "is it not lawful to me to do what I will in mine own? is thine eye evil because I am good?",
+      "originalText": "is it not lawful to me to do what I will in mine own? is thine eye evil because I am good?\n\n"
+    },
+    {
+      "id": "MAT.20.16",
+      "sourceRef": "MAT.20.16",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[30]",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.20.16"
+      ],
+      "mappingType": "exact",
+      "text": "So the last shall be first, and the first last, for many are called, and few chosen.'",
+      "originalText": "So the last shall be first, and the first last, for many are called, and few chosen.'\n\n"
+    },
+    {
+      "id": "MAT.20.17",
+      "sourceRef": "MAT.20.17",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[32]",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.20.17"
+      ],
+      "mappingType": "exact",
+      "text": "And Jesus going up to Jerusalem, took the twelve disciples by themselves in the way, and said to them,",
+      "originalText": "And Jesus going up to Jerusalem, took the twelve disciples by themselves in the way, and said to them,\n\n"
+    },
+    {
+      "id": "MAT.20.18",
+      "sourceRef": "MAT.20.18",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[34]",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.20.18"
+      ],
+      "mappingType": "exact",
+      "text": "'Lo, we go up to Jerusalem, and the Son of Man shall be delivered to the chief priests and scribes,",
+      "originalText": "'Lo, we go up to Jerusalem, and the Son of Man shall be delivered to the chief priests and scribes,\n\n"
+    },
+    {
+      "id": "MAT.20.19",
+      "sourceRef": "MAT.20.19",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[36]",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.20.19"
+      ],
+      "mappingType": "exact",
+      "text": "and they shall condemn him to death, and shall deliver him to the nations to mock, and to scourge, and to crucify, and the third day he will rise again.'",
+      "originalText": "and they shall condemn him to death, and shall deliver him to the nations to mock, and to scourge, and to crucify, and the third day he will rise again.'\n\n"
+    },
+    {
+      "id": "MAT.20.20",
+      "sourceRef": "MAT.20.20",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[38]",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.20.20"
+      ],
+      "mappingType": "exact",
+      "text": "Then came near to him the mother of the sons of Zebedee, with her sons, bowing and asking something from him,",
+      "originalText": "Then came near to him the mother of the sons of Zebedee, with her sons, bowing and asking something from him,\n\n"
+    },
+    {
+      "id": "MAT.20.21",
+      "sourceRef": "MAT.20.21",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[40]",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.20.21"
+      ],
+      "mappingType": "exact",
+      "text": "and he said to her, 'What wilt thou?' She saith to him, 'Say, that they may sit — these my two sons — one on thy right hand, and one on the left, in thy reign.'",
+      "originalText": "and he said to her, 'What wilt thou?' She saith to him, 'Say, that they may sit — these my two sons — one on thy right hand, and one on the left, in thy reign.'\n\n"
+    },
+    {
+      "id": "MAT.20.22",
+      "sourceRef": "MAT.20.22",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[42]",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.20.22"
+      ],
+      "mappingType": "exact",
+      "text": "And Jesus answering said, 'Ye have not known what ye ask for yourselves; are ye able to drink of the cup that I am about to drink? and with the baptism that I am baptized with, to be baptized?' They say to him, 'We are able.'",
+      "originalText": "And Jesus answering said, 'Ye have not known what ye ask for yourselves; are ye able to drink of the cup that I am about to drink? and with the baptism that I am baptized with, to be baptized?' They say to him, 'We are able.'\n\n"
+    },
+    {
+      "id": "MAT.20.23",
+      "sourceRef": "MAT.20.23",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[44]",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.20.23"
+      ],
+      "mappingType": "exact",
+      "text": "And he saith to them, 'Of my cup indeed ye shall drink, and with the baptism that I am baptized with ye shall be baptized; but to sit on my right hand and on my left is not mine to give, but — to those for whom it hath been prepared by my father.'",
+      "originalText": "And he saith to them, 'Of my cup indeed ye shall drink, and with the baptism that I am baptized with ye shall be baptized; but to sit on my right hand and on my left is not mine to give, but — to those for whom it hath been prepared by my father.'\n\n"
+    },
+    {
+      "id": "MAT.20.24",
+      "sourceRef": "MAT.20.24",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[46]",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.20.24"
+      ],
+      "mappingType": "exact",
+      "text": "And the ten having heard, were much displeased with the two brothers,",
+      "originalText": "And the ten having heard, were much displeased with the two brothers,\n\n"
+    },
+    {
+      "id": "MAT.20.25",
+      "sourceRef": "MAT.20.25",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[48]",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.20.25"
+      ],
+      "mappingType": "exact",
+      "text": "and Jesus having called them near, said, 'Ye have known that the rulers of the nations do exercise lordship over them, and those great do exercise authority over them,",
+      "originalText": "and Jesus having called them near, said, 'Ye have known that the rulers of the nations do exercise lordship over them, and those great do exercise authority over them,\n\n"
+    },
+    {
+      "id": "MAT.20.26",
+      "sourceRef": "MAT.20.26",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[50]",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.20.26"
+      ],
+      "mappingType": "exact",
+      "text": "but not so shall it be among you, but whoever may will among you to become great, let him be your ministrant;",
+      "originalText": "but not so shall it be among you, but whoever may will among you to become great, let him be your ministrant;\n\n"
+    },
+    {
+      "id": "MAT.20.27",
+      "sourceRef": "MAT.20.27",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[52]",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.20.27"
+      ],
+      "mappingType": "exact",
+      "text": "and whoever may will among you to be first, let him be your servant;",
+      "originalText": "and whoever may will among you to be first, let him be your servant;\n\n"
+    },
+    {
+      "id": "MAT.20.28",
+      "sourceRef": "MAT.20.28",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[54]",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.20.28"
+      ],
+      "mappingType": "exact",
+      "text": "even as the Son of Man did not come to be ministered to, but to minister, and to give his life a ransom for many.'",
+      "originalText": "even as the Son of Man did not come to be ministered to, but to minister, and to give his life a ransom for many.'\n\n"
+    },
+    {
+      "id": "MAT.20.29",
+      "sourceRef": "MAT.20.29",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[56]",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.20.29"
+      ],
+      "mappingType": "exact",
+      "text": "And they going forth from Jericho, there followed him a great multitude,",
+      "originalText": "And they going forth from Jericho, there followed him a great multitude,\n\n"
+    },
+    {
+      "id": "MAT.20.30",
+      "sourceRef": "MAT.20.30",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[58]",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.20.30"
+      ],
+      "mappingType": "exact",
+      "text": "and lo, two blind men sitting by the way, having heard that Jesus doth pass by, cried, saying, 'Deal kindly with us, sir — Son of David.'",
+      "originalText": "and lo, two blind men sitting by the way, having heard that Jesus doth pass by, cried, saying, 'Deal kindly with us, sir — Son of David.'\n\n"
+    },
+    {
+      "id": "MAT.20.31",
+      "sourceRef": "MAT.20.31",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[60]",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.20.31"
+      ],
+      "mappingType": "exact",
+      "text": "And the multitude charged them that they might be silent, and they cried out the more, saying, 'Deal kindly with us sir — Son of David.'",
+      "originalText": "And the multitude charged them that they might be silent, and they cried out the more, saying, 'Deal kindly with us sir — Son of David.'\n\n"
+    },
+    {
+      "id": "MAT.20.32",
+      "sourceRef": "MAT.20.32",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[62]",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.20.32"
+      ],
+      "mappingType": "exact",
+      "text": "And having stood, Jesus called them, and said, 'What will ye [that] I may do to you?'",
+      "originalText": "And having stood, Jesus called them, and said, 'What will ye [that] I may do to you?'\n\n"
+    },
+    {
+      "id": "MAT.20.33",
+      "sourceRef": "MAT.20.33",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[64]",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.20.33"
+      ],
+      "mappingType": "exact",
+      "text": "they say to him, 'Sir, that our eyes may be opened;'",
+      "originalText": "they say to him, 'Sir, that our eyes may be opened;'\n\n"
+    },
+    {
+      "id": "MAT.20.34",
+      "sourceRef": "MAT.20.34",
+      "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[66]",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.20.34"
+      ],
+      "mappingType": "exact",
+      "text": "and having been moved with compassion, Jesus touched their eyes, and immediately their eyes received sight, and they followed him.",
+      "originalText": "and having been moved with compassion, Jesus touched their eyes, and immediately their eyes received sight, and they followed him.\n\n"
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MAT.20.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.1",
+          "sourceRef": "MAT.20.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.2",
+          "sourceRef": "MAT.20.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.3",
+          "sourceRef": "MAT.20.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.4",
+          "sourceRef": "MAT.20.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.5",
+          "sourceRef": "MAT.20.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.6",
+          "sourceRef": "MAT.20.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.7",
+          "sourceRef": "MAT.20.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.8",
+          "sourceRef": "MAT.20.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.9",
+          "sourceRef": "MAT.20.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.10",
+          "sourceRef": "MAT.20.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.11",
+          "sourceRef": "MAT.20.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.12",
+          "sourceRef": "MAT.20.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.13",
+          "sourceRef": "MAT.20.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.14",
+          "sourceRef": "MAT.20.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.15",
+          "sourceRef": "MAT.20.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.16",
+          "sourceRef": "MAT.20.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.17",
+          "sourceRef": "MAT.20.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.18",
+          "sourceRef": "MAT.20.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.19",
+          "sourceRef": "MAT.20.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.20",
+          "sourceRef": "MAT.20.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.21",
+          "sourceRef": "MAT.20.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.22",
+          "sourceRef": "MAT.20.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.23",
+          "sourceRef": "MAT.20.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.24",
+          "sourceRef": "MAT.20.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.25",
+          "sourceRef": "MAT.20.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.26",
+          "sourceRef": "MAT.20.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.27",
+          "sourceRef": "MAT.20.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.28",
+          "sourceRef": "MAT.20.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.29",
+          "sourceRef": "MAT.20.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.30",
+          "sourceRef": "MAT.20.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.31",
+          "sourceRef": "MAT.20.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.32",
+          "sourceRef": "MAT.20.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.33",
+          "sourceRef": "MAT.20.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.34",
+          "sourceRef": "MAT.20.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "ylt-2026-09-05-m2-v1"
+}

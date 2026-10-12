@@ -37,6 +37,10 @@ test('visual source release is exact-hash approved and independently verifies', 
       releaseId: 'csntm-sinaiticus-expansion-2026-09-13-v2',
       candidateSha256: 'f707f4e5d20977c833dd3410ca11f1127dd38e0f8b49212ed4028652d4ee36e4',
     },
+    {
+      releaseId: 'csntm-sinaiticus-additions-2026-10-11-v2',
+      candidateSha256: 'acc44841ea168a7f05e7453ab22615d7584e7941081c4c7f01d39f72ec75eead',
+    },
   ]);
 });
 
@@ -84,7 +88,7 @@ test('reader exposes accessible complete-page enlargement without remote image c
   const dialog = await readFile('app/components/ui/dialog.tsx', 'utf8');
   const panel = await readFile('app/reader/study-panel.tsx', 'utf8');
   assert.match(component, /Manuscript evidence plate/);
-  assert.match(component, /Array\.from\(\{ length: 104 \}/);
+  assert.match(component, /Array\.from\(\{ length: 110 \}/);
   assert.match(component, /What this demonstrates/);
   assert.match(component, /What it cannot establish/);
   assert.match(component, /complete artifact view/);

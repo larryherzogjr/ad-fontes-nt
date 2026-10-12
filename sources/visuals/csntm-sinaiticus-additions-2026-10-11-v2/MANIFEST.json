@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "csntm-sinaiticus-additions-2026-10-11-v2",
+  "status": "candidate",
+  "inputs": {
+    "sources/visuals/csntm-2026-09-12-v1/evidence/FINAL_TRANSCRIPTION_version104.xml.zip": "0c956b4dbf5dca53342f4862f9917850fd33151ffe05fee3b97e3fd9d36ec828",
+    "sources/visuals/csntm-discovery-2026-09-12-v1-candidate/raw/groups/manuscript_Group_GA_01.html": "38442602d35664cba51341a9e9bd24904a8d4adccb0ca05907995c1b51c7deac",
+    "artifacts/editorial/variant-additions-2026-10-11-candidate-v2/NEW-UNITS.json": "e65d5f2fa56757612e16f1adadbb7d7b257727e2a039b0c86a6a7ac0898ed0c4",
+    "sources/visuals/csntm-2026-09-12-v1/MANIFEST.json": "fd1e79ea7373ff904132a3040846ce04617b4e5f0e583bd26ef1dbe7148fd810",
+    "sources/visuals/csntm-2026-09-12-v1/APPROVAL.json": "16cbb93a252d66cdc1d3a7d5177e9da5e17174735465d86967bf25db0ce81471",
+    "sources/visuals/csntm-discovery-2026-09-12-v1-candidate/PAGE-MANIFEST.json": "e0fabc631941219aaf4f82f91c153e5c53c2e1875896206c065b0ad5d485e2ee",
+    "docs/editorial-review/variant-additions-2026-10-11/SLATE.json": "ecf4afa712e5cd5e80884abb68e8fad6a36bfc31ef777b3b9a62d11ad64a7f65",
+    "scripts/prepare_variant_additions_sinaiticus.py": "d0f1eba2c57c1f5ae2f1f85f4f3079f033b5f38541a6bff64e48ba6267fb36f9",
+    "scripts/prepare_sinaiticus_visual_candidate.py": "cc163f28290044912b748f92e6f14bf560f575c1b65b09456765b2466b383751",
+    "scripts/build_variant_additions_review.mts": "274c27020a9c3e88ca445cafd4d66cb4eda5c30d0b83f45690fba49adf5ed9ca",
+    "sources/visuals/csntm-sinaiticus-expansion-2026-09-13-v2/PERMISSION-BASIS.md": "dd61878c72cee2e8b424b13d3abe7ea56a41cc58666b4ad3bf9ad94eceee0319"
+  },
+  "outputs": {
+    "sinaiticus-evidence.json": "e63964b014c2c0e2b582c87688ea5c62926964f16ad351abd91547197c32ce4b",
+    "registry.candidate.json": "2a2bc7cdd120b94c6cd0c7675b4c41ef88ea7916b711fe763eeb0dea9bacdad5",
+    "README.md": "04414a118e3eafead67dfb1452214fe8a6185f6e78dc5d391b8c4ce91361e59a",
+    "PERMISSION-BASIS.md": "1627e222f44619d91f6c5de7d48020c9c52f553cb25d6a9a0a93a8c3dea75d8f",
+    "REVIEW.md": "f57801ef2c3082a22e2fc147b1a5d3ece627a55fe9e01be19a58d50e5ac6207d"
+  },
+  "candidateSha256": "acc44841ea168a7f05e7453ab22615d7584e7941081c4c7f01d39f72ec75eead",
+  "sourceFiles": {
+    "originals/GA_01_NT_0012a.jpg": "70b7bf0e9651171b846265c3605fd77e44b8358be62ce77f396dcb60d700e271",
+    "evidence/image-details/141858.html": "c8aa6485247588d8eaf72c3796bd2088027a38a986933cc8cabdce64fca850ab",
+    "evidence/iiif-info/GA_01_NT_0012a.jpg.json": "8e8ad224158c3b05cca172e971dcc0dc2fde03a1c9f8875258c4ffcaeb3fc4f5",
+    "originals/GA_01_NT_0047b.jpg": "17942f371adea2131d8af4b2cc0a7d1054dfb98c7228e58812639acfd5545a26",
+    "evidence/image-details/141929.html": "49e6332c62dd1b0d1fe1bb8c47c6b72d99e337f44c41bdda44b836babc2cb161",
+    "evidence/iiif-info/GA_01_NT_0047b.jpg.json": "7d0dc5983e6e791a7bdeac7cd8ae426a1ff7ca4df1a1dae83820f8506c94f596",
+    "originals/GA_01_NT_0048a.jpg": "3d0a1bfe9862d84b6b2ebf7aee39f348d5e57156d5b724e1cebb905f195f7fb3",
+    "evidence/image-details/141930.html": "9406f22beb5573303025304076955b6722eadb919e0cd72e7da5be0f6047ca51",
+    "evidence/iiif-info/GA_01_NT_0048a.jpg.json": "06ffa814a2f8e8e9007ff2554f5ebe8f7855d97a65f36c1aa58836c2cae59ad1",
+    "originals/GA_01_NT_0086a.jpg": "6e0822349e0059e4818fc7ccad4cee0fdfe8a24f86a18a0e74e45d204355793c",
+    "evidence/image-details/142006.html": "448fcd89674699c866f24298d97c6c696ccc26a6ff3bc721fc3b91e8cee621d8",
+    "evidence/iiif-info/GA_01_NT_0086a.jpg.json": "6ffb4d59e2cad6e8ea45fcdc0a04f1853332eb2c24da1121718aab87b4eff580",
+    "originals/GA_01_NT_0090a.jpg": "427757ddbe55cda155dca9658d819acf0471995ab1ec8e50ec0cb5b41d36c03e",
+    "evidence/image-details/142014.html": "bc02683e49f78851a0981f73abad4b68d654ac24ab20cbd10968c52a6d6180c5",
+    "evidence/iiif-info/GA_01_NT_0090a.jpg.json": "d663d9056c3c8e1bec1f6bc4c381d39246595a1e1fa7bae3aefad54ef4f2c69c",
+    "originals/GA_01_NT_0126b.jpg": "74ffd76b53c84e26d543aaa121037b7b4241d097e611159524a95508f4197351",
+    "evidence/image-details/142087.html": "20ba3751e6d86436d9ccf2ce85aabbedb4963930e83925ccc1b40d669e77997e",
+    "evidence/iiif-info/GA_01_NT_0126b.jpg.json": "8e1022f3b9c4fa5f22602e5273f888c6e78ff8f6179bbd85f6fa864e1d5a188b"
+  }
+}

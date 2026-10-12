@@ -48,7 +48,7 @@ const selections: Selection[] = [
   { releaseId: visualRelease.releaseId, candidateSha256: visualRelease.candidateSha256 },
   ...visualRelease.supplements,
 ];
-const plateIds = new Set(Array.from({ length: 104 }, (_, index) => {
+const plateIds = new Set(Array.from({ length: 110 }, (_, index) => {
   const number = index + 1;
   return `candidate-${number < 40 ? String(number).padStart(2, '0') : number}`;
 }));

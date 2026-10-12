@@ -1,0 +1,3053 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "REV.usj#content/7",
+      "runs": [
+        {
+          "text": "Prologue",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "REV.usj#content/8",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Daniel 12:1–13",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/9",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "REV.1.1",
+          "anchors": [
+            "REV.1.1"
+          ],
+          "sourceAnchor": "REV.1.1"
+        },
+        {
+          "text": "This is the",
+          "anchor": "REV.1.1",
+          "marks": [],
+          "originalText": "This is the ",
+          "anchors": [
+            "REV.1.1"
+          ],
+          "sourceAnchor": "REV.1.1"
+        },
+        {
+          "text": " revelation of Jesus Christ, which God gave Him to show His servants what must soon",
+          "anchor": "REV.1.1",
+          "marks": [],
+          "originalText": " revelation of Jesus Christ, which God gave Him to show His servants what must soon",
+          "anchors": [
+            "REV.1.1"
+          ],
+          "sourceAnchor": "REV.1.1"
+        },
+        {
+          "noteId": "REV.1.1.note.1",
+          "anchor": "REV.1.1",
+          "anchors": [
+            "REV.1.1"
+          ],
+          "sourceAnchor": "REV.1.1"
+        },
+        {
+          "text": " come to pass. He made it known by sending His angel to His servant John,",
+          "anchor": "REV.1.1",
+          "marks": [],
+          "originalText": " come to pass. He made it known by sending His angel to His servant John, ",
+          "anchors": [
+            "REV.1.1"
+          ],
+          "sourceAnchor": "REV.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "REV.1.2",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        },
+        {
+          "text": "who testifies to everything he saw.",
+          "anchor": "REV.1.2",
+          "marks": [],
+          "originalText": "who testifies to everything he saw.",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        },
+        {
+          "noteId": "REV.1.2.note.2",
+          "anchor": "REV.1.2",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        },
+        {
+          "text": " This is",
+          "anchor": "REV.1.2",
+          "marks": [],
+          "originalText": "This is",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        },
+        {
+          "text": " the word of God and the testimony of Jesus Christ.",
+          "anchor": "REV.1.2",
+          "marks": [],
+          "originalText": " the word of God and the testimony of Jesus Christ.",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/10",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.2",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.2"
+          ],
+          "sourceAnchor": "REV.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "REV.1.3",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "Blessed ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "Blessed ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "is",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": " the ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " the ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "one who",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "one who",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": " reads aloud",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " reads aloud",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "noteId": "REV.1.3.note.3",
+          "anchor": "REV.1.3",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": " the words of ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " the words of ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "this",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "this",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": " prophecy, and ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " prophecy, and ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "blessed are ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "blessed are ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "those who hear and obey what is written in it, because the time ",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " those who hear and obey what is written in it, because the time ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": "is",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": "is",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "text": " near.",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " near.",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "REV.usj#content/11",
+      "runs": [
+        {
+          "text": "John Greets the Seven Churches",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/12",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.3"
+          ],
+          "sourceAnchor": "REV.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "REV.1.4",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "text": "John,",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": "John,",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/13",
+      "runs": [
+        {
+          "text": " To the seven churches in ",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": "To the seven churches in ",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "text": "the province of",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": "the province of",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "text": " Asia:",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": " Asia:",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "noteId": "REV.1.4.note.4",
+          "anchor": "REV.1.4",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/14",
+      "runs": [
+        {
+          "text": " Grace and peace to you from God who",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": "Grace and peace to you from God who",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "noteId": "REV.1.4.note.5",
+          "anchor": "REV.1.4",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "text": " is and was and is to come, and from the seven spirits",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": " is and was and is to come, and from the seven spirits",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "noteId": "REV.1.4.note.6",
+          "anchor": "REV.1.4",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "text": " before His throne,",
+          "anchor": "REV.1.4",
+          "marks": [],
+          "originalText": " before His throne, ",
+          "anchors": [
+            "REV.1.4"
+          ],
+          "sourceAnchor": "REV.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "REV.1.5",
+          "anchors": [
+            "REV.1.5"
+          ],
+          "sourceAnchor": "REV.1.5"
+        },
+        {
+          "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth.",
+          "anchor": "REV.1.5",
+          "marks": [],
+          "originalText": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth.",
+          "anchors": [
+            "REV.1.5"
+          ],
+          "sourceAnchor": "REV.1.5"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/15",
+      "runs": [
+        {
+          "text": " To Him who loves us and has washed",
+          "anchor": "REV.1.5",
+          "marks": [],
+          "originalText": "To Him who loves us and has washed",
+          "anchors": [
+            "REV.1.5"
+          ],
+          "sourceAnchor": "REV.1.5"
+        },
+        {
+          "noteId": "REV.1.5.note.7",
+          "anchor": "REV.1.5",
+          "anchors": [
+            "REV.1.5"
+          ],
+          "sourceAnchor": "REV.1.5"
+        },
+        {
+          "text": " us from our sins by His blood,",
+          "anchor": "REV.1.5",
+          "marks": [],
+          "originalText": " us from our sins by His blood, ",
+          "anchors": [
+            "REV.1.5"
+          ],
+          "sourceAnchor": "REV.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "REV.1.6",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": "who",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": "who",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": " has made us ",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " has made us ",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": "to be",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": "to be",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": " a kingdom, priests to His God and Father—to Him ",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " a kingdom, priests to His God and Father — to Him ",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": "be",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": "be",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": " the glory and power forever ",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " the glory and power forever ",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": "and",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": " ever!",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " ever!",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "noteId": "REV.1.6.note.8",
+          "anchor": "REV.1.6",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "text": " Amen.",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " Amen.",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/16",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.6"
+          ],
+          "sourceAnchor": "REV.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "REV.1.7",
+          "anchors": [
+            "REV.1.7"
+          ],
+          "sourceAnchor": "REV.1.7"
+        },
+        {
+          "text": "Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen.",
+          "anchor": "REV.1.7",
+          "marks": [],
+          "originalText": "Behold, He is coming with the clouds, and every eye will see Him — even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen.",
+          "anchors": [
+            "REV.1.7"
+          ],
+          "sourceAnchor": "REV.1.7"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/17",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.7",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.7"
+          ],
+          "sourceAnchor": "REV.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "REV.1.8",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "text": "“I am the Alpha and the Omega,",
+          "anchor": "REV.1.8",
+          "marks": [],
+          "originalText": "“I am the Alpha and the Omega,",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "noteId": "REV.1.8.note.9",
+          "anchor": "REV.1.8",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "text": "” says ",
+          "anchor": "REV.1.8",
+          "marks": [],
+          "originalText": "” says ",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.8",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "text": " Lord God, who is and was and is to come—the Almighty.",
+          "anchor": "REV.1.8",
+          "marks": [],
+          "originalText": " Lord God, who is and was and is to come — the Almighty.",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "REV.usj#content/18",
+      "runs": [
+        {
+          "text": "John’s Vision on Patmos",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/19",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.8"
+          ],
+          "sourceAnchor": "REV.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "REV.1.9",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "text": "I, John, your brother and partner in the tribulation and kingdom and perseverance ",
+          "anchor": "REV.1.9",
+          "marks": [],
+          "originalText": "I, John, your brother and partner in the tribulation and kingdom and perseverance ",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "text": "that are",
+          "anchor": "REV.1.9",
+          "marks": [],
+          "originalText": "that are",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "text": " in Jesus, was on the island of Patmos because of the word of God and ",
+          "anchor": "REV.1.9",
+          "marks": [],
+          "originalText": " in Jesus, was on the island of Patmos because of the word of God and ",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "text": "my",
+          "anchor": "REV.1.9",
+          "marks": [],
+          "originalText": "my",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "text": " testimony about Jesus Christ.",
+          "anchor": "REV.1.9",
+          "marks": [],
+          "originalText": " testimony about Jesus Christ.",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "noteId": "REV.1.9.note.10",
+          "anchor": "REV.1.9",
+          "anchors": [
+            "REV.1.9"
+          ],
+          "sourceAnchor": "REV.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "REV.1.10",
+          "anchors": [
+            "REV.1.10"
+          ],
+          "sourceAnchor": "REV.1.10"
+        },
+        {
+          "text": "On the Lord’s day I was in ",
+          "anchor": "REV.1.10",
+          "marks": [],
+          "originalText": "On the Lord’s day I was in ",
+          "anchors": [
+            "REV.1.10"
+          ],
+          "sourceAnchor": "REV.1.10"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.10",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.10"
+          ],
+          "sourceAnchor": "REV.1.10"
+        },
+        {
+          "text": " Spirit, and I heard behind me a loud voice like a trumpet,",
+          "anchor": "REV.1.10",
+          "marks": [],
+          "originalText": " Spirit, and I heard behind me a loud voice like a trumpet, ",
+          "anchors": [
+            "REV.1.10"
+          ],
+          "sourceAnchor": "REV.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "REV.1.11",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "text": "saying,",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": "saying,",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "noteId": "REV.1.11.note.11",
+          "anchor": "REV.1.11",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "text": " “Write on a scroll what you see and send ",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": "“Write on a scroll what you see and send ",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "text": "it",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": "it",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "text": " to the seven churches:",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": " to the seven churches:",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "noteId": "REV.1.11.note.12",
+          "anchor": "REV.1.11",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "text": " to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": " to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/20",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.11"
+          ],
+          "sourceAnchor": "REV.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "REV.1.12",
+          "anchors": [
+            "REV.1.12"
+          ],
+          "sourceAnchor": "REV.1.12"
+        },
+        {
+          "text": "And there I turned",
+          "anchor": "REV.1.12",
+          "marks": [],
+          "originalText": "And there I turned",
+          "anchors": [
+            "REV.1.12"
+          ],
+          "sourceAnchor": "REV.1.12"
+        },
+        {
+          "noteId": "REV.1.12.note.13",
+          "anchor": "REV.1.12",
+          "anchors": [
+            "REV.1.12"
+          ],
+          "sourceAnchor": "REV.1.12"
+        },
+        {
+          "text": " to see the voice that was speaking with me. And having turned, I saw seven golden lampstands,",
+          "anchor": "REV.1.12",
+          "marks": [],
+          "originalText": " to see the voice that was speaking with me. And having turned, I saw seven golden lampstands, ",
+          "anchors": [
+            "REV.1.12"
+          ],
+          "sourceAnchor": "REV.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "REV.1.13",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": "and among the seven",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": "and among the seven",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "noteId": "REV.1.13.note.14",
+          "anchor": "REV.1.13",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": " lampstands ",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": " lampstands ",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": "was One",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": "was One",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": " like ",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": " like ",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": " Son of Man,",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": " Son of Man,",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "noteId": "REV.1.13.note.15",
+          "anchor": "REV.1.13",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": " dressed in a long robe, with a golden sash around ",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": " dressed in a long robe, with a golden sash around ",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": "His",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": "His",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "text": " chest.",
+          "anchor": "REV.1.13",
+          "marks": [],
+          "originalText": " chest. ",
+          "anchors": [
+            "REV.1.13"
+          ],
+          "sourceAnchor": "REV.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "REV.1.14",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "text": "The hair of His head ",
+          "anchor": "REV.1.14",
+          "marks": [],
+          "originalText": "The hair of His head ",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "text": "was",
+          "anchor": "REV.1.14",
+          "marks": [],
+          "originalText": "was",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "text": " white like wool, as white as snow, and His eyes ",
+          "anchor": "REV.1.14",
+          "marks": [],
+          "originalText": " white like wool, as white as snow, and His eyes ",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "text": "were",
+          "anchor": "REV.1.14",
+          "marks": [],
+          "originalText": "were",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "text": " like a blazing fire.",
+          "anchor": "REV.1.14",
+          "marks": [],
+          "originalText": " like a blazing fire. ",
+          "anchors": [
+            "REV.1.14"
+          ],
+          "sourceAnchor": "REV.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "REV.1.15",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": "His feet ",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": "His feet ",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": "were",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": "were",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": " like polished bronze refined in a furnace, and His voice ",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": " like polished bronze refined in a furnace, and His voice ",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": "was",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": "was",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": " like ",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": " like ",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "text": " roar of many waters.",
+          "anchor": "REV.1.15",
+          "marks": [],
+          "originalText": " roar of many waters. ",
+          "anchors": [
+            "REV.1.15"
+          ],
+          "sourceAnchor": "REV.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "REV.1.16",
+          "anchors": [
+            "REV.1.16"
+          ],
+          "sourceAnchor": "REV.1.16"
+        },
+        {
+          "text": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face ",
+          "anchor": "REV.1.16",
+          "marks": [],
+          "originalText": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face ",
+          "anchors": [
+            "REV.1.16"
+          ],
+          "sourceAnchor": "REV.1.16"
+        },
+        {
+          "text": "was",
+          "anchor": "REV.1.16",
+          "marks": [],
+          "originalText": "was",
+          "anchors": [
+            "REV.1.16"
+          ],
+          "sourceAnchor": "REV.1.16"
+        },
+        {
+          "text": " like the sun shining at its brightest.",
+          "anchor": "REV.1.16",
+          "marks": [],
+          "originalText": " like the sun shining at its brightest.",
+          "anchors": [
+            "REV.1.16"
+          ],
+          "sourceAnchor": "REV.1.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/21",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.16",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.16"
+          ],
+          "sourceAnchor": "REV.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "REV.1.17",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": "When I saw Him, I fell at His feet like a dead ",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "When I saw Him, I fell at His feet like a dead ",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": "man",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "man",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": ". ",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": ". ",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": "But",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "But",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": " He placed His right hand on me ",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": " He placed His right hand on me ",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": "and",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": " said,",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": " said,",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "noteId": "REV.1.17.note.16",
+          "anchor": "REV.1.17",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": " “",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "“",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": "Do",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": "Do",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "text": " not be afraid. I am the First and the Last,",
+          "anchor": "REV.1.17",
+          "marks": [],
+          "originalText": " not be afraid. I am the First and the Last, ",
+          "anchors": [
+            "REV.1.17"
+          ],
+          "sourceAnchor": "REV.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "REV.1.18",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": "the Living ",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": "the Living ",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": "One",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": "One",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": ". I was dead, and behold, ",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": ". I was dead, and behold, ",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": "now",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": "now",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": " I am alive forever ",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": " I am alive forever ",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": "and",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": "and",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": " ever. Amen.",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": " ever. Amen.",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "noteId": "REV.1.18.note.17",
+          "anchor": "REV.1.18",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "text": " And I hold the keys of Death and of Hades.",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": " And I hold the keys of Death and of Hades.",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "noteId": "REV.1.18.note.18",
+          "anchor": "REV.1.18",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "REV.usj#content/22",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "REV.1.18",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "REV.1.18"
+          ],
+          "sourceAnchor": "REV.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "REV.1.19",
+          "anchors": [
+            "REV.1.19"
+          ],
+          "sourceAnchor": "REV.1.19"
+        },
+        {
+          "text": "Therefore",
+          "anchor": "REV.1.19",
+          "marks": [],
+          "originalText": "Therefore",
+          "anchors": [
+            "REV.1.19"
+          ],
+          "sourceAnchor": "REV.1.19"
+        },
+        {
+          "noteId": "REV.1.19.note.19",
+          "anchor": "REV.1.19",
+          "anchors": [
+            "REV.1.19"
+          ],
+          "sourceAnchor": "REV.1.19"
+        },
+        {
+          "text": " write down the things you have seen, the things that are, and the things that will happen after this.",
+          "anchor": "REV.1.19",
+          "marks": [],
+          "originalText": " write down the things you have seen, the things that are, and the things that will happen after this. ",
+          "anchors": [
+            "REV.1.19"
+          ],
+          "sourceAnchor": "REV.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "REV.1.20",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": "This is",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": "This is",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": " the mystery of the seven stars you saw in My right hand and of the seven golden lampstands:",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": " the mystery of the seven stars you saw in My right hand and of the seven golden lampstands:",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "noteId": "REV.1.20.note.20",
+          "anchor": "REV.1.20",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": " The seven stars are ",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": " The seven stars are ",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": " angels of the seven churches, and the seven lampstands are ",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": " angels of the seven churches, and the seven lampstands are ",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": "the",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": "the",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        },
+        {
+          "text": " seven churches.",
+          "anchor": "REV.1.20",
+          "marks": [],
+          "originalText": " seven churches.’’",
+          "anchors": [
+            "REV.1.20"
+          ],
+          "sourceAnchor": "REV.1.20"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "REV.1.1",
+      "sourceRef": "REV.1.1",
+      "sourceId": "REV.usj#content/9/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "REV.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "This is the revelation of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John,",
+      "originalText": "This is the revelation of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John,",
+      "originalStructuredText": "This is the  revelation of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John, ",
+      "textSourceId": "msb.txt#line=30702"
+    },
+    {
+      "id": "REV.1.2",
+      "sourceRef": "REV.1.2",
+      "sourceId": "REV.usj#content/9/content/6",
+      "sourceLabel": "2",
+      "anchors": [
+        "REV.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "who testifies to everything he saw. This is the word of God and the testimony of Jesus Christ.",
+      "originalText": "who testifies to everything he saw. This is the word of God and the testimony of Jesus Christ.",
+      "originalStructuredText": "who testifies to everything he saw.This is the word of God and the testimony of Jesus Christ.\n ",
+      "textSourceId": "msb.txt#line=30703"
+    },
+    {
+      "id": "REV.1.3",
+      "sourceRef": "REV.1.3",
+      "sourceId": "REV.usj#content/10/content/1",
+      "sourceLabel": "3",
+      "anchors": [
+        "REV.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near.",
+      "originalText": "Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near.",
+      "originalStructuredText": "Blessed is the one who reads aloud the words of this prophecy, and blessed are  those who hear and obey what is written in it, because the time is near.\n ",
+      "textSourceId": "msb.txt#line=30704"
+    },
+    {
+      "id": "REV.1.4",
+      "sourceRef": "REV.1.4",
+      "sourceId": "REV.usj#content/12/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "REV.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "John, To the seven churches in the province of Asia: Grace and peace to you from God who is and was and is to come, and from the seven spirits before His throne,",
+      "originalText": "John, To the seven churches in the province of Asia: Grace and peace to you from God who is and was and is to come, and from the seven spirits before His throne,",
+      "originalStructuredText": "John,\nTo the seven churches in the province of Asia:\nGrace and peace to you from God who is and was and is to come, and from the seven spirits before His throne, ",
+      "textSourceId": "msb.txt#line=30705"
+    },
+    {
+      "id": "REV.1.5",
+      "sourceRef": "REV.1.5",
+      "sourceId": "REV.usj#content/14/content/5",
+      "sourceLabel": "5",
+      "anchors": [
+        "REV.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has washed us from our sins by His blood,",
+      "originalText": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has washed us from our sins by His blood,",
+      "originalStructuredText": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth.\nTo Him who loves us and has washed us from our sins by His blood, ",
+      "textSourceId": "msb.txt#line=30706"
+    },
+    {
+      "id": "REV.1.6",
+      "sourceRef": "REV.1.6",
+      "sourceId": "REV.usj#content/15/content/3",
+      "sourceLabel": "6",
+      "anchors": [
+        "REV.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "who has made us to be a kingdom, priests to His God and Father—to Him be the glory and power forever and ever! Amen.",
+      "originalText": "who has made us to be a kingdom, priests to His God and Father—to Him be the glory and power forever and ever! Amen.",
+      "originalStructuredText": "who has made us to be a kingdom, priests to His God and Father — to Him be the glory and power forever and ever! Amen.\n ",
+      "textSourceId": "msb.txt#line=30707"
+    },
+    {
+      "id": "REV.1.7",
+      "sourceRef": "REV.1.7",
+      "sourceId": "REV.usj#content/16/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "REV.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen.",
+      "originalText": "Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen.",
+      "originalStructuredText": "Behold, He is coming with the clouds, and every eye will see Him — even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen.\n ",
+      "textSourceId": "msb.txt#line=30708"
+    },
+    {
+      "id": "REV.1.8",
+      "sourceRef": "REV.1.8",
+      "sourceId": "REV.usj#content/17/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "REV.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "“I am the Alpha and the Omega,” says the Lord God, who is and was and is to come—the Almighty.",
+      "originalText": "“I am the Alpha and the Omega,” says the Lord God, who is and was and is to come—the Almighty.",
+      "originalStructuredText": "“I am the Alpha and the Omega,” says the Lord God, who is and was and is to come — the Almighty.\n ",
+      "textSourceId": "msb.txt#line=30709"
+    },
+    {
+      "id": "REV.1.9",
+      "sourceRef": "REV.1.9",
+      "sourceId": "REV.usj#content/19/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "REV.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "I, John, your brother and partner in the tribulation and kingdom and perseverance that are in Jesus, was on the island of Patmos because of the word of God and my testimony about Jesus Christ.",
+      "originalText": "I, John, your brother and partner in the tribulation and kingdom and perseverance that are in Jesus, was on the island of Patmos because of the word of God and my testimony about Jesus Christ.",
+      "originalStructuredText": "I, John, your brother and partner in the tribulation and kingdom and perseverance that are in Jesus, was on the island of Patmos because of the word of God and my testimony about Jesus Christ.",
+      "textSourceId": "msb.txt#line=30710"
+    },
+    {
+      "id": "REV.1.10",
+      "sourceRef": "REV.1.10",
+      "sourceId": "REV.usj#content/19/content/8",
+      "sourceLabel": "10",
+      "anchors": [
+        "REV.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "On the Lord’s day I was in the Spirit, and I heard behind me a loud voice like a trumpet,",
+      "originalText": "On the Lord’s day I was in the Spirit, and I heard behind me a loud voice like a trumpet,",
+      "originalStructuredText": "On the Lord’s day I was in the Spirit, and I heard behind me a loud voice like a trumpet, ",
+      "textSourceId": "msb.txt#line=30711"
+    },
+    {
+      "id": "REV.1.11",
+      "sourceRef": "REV.1.11",
+      "sourceId": "REV.usj#content/19/content/12",
+      "sourceLabel": "11",
+      "anchors": [
+        "REV.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "saying, “Write on a scroll what you see and send it to the seven churches: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”",
+      "originalText": "saying, “Write on a scroll what you see and send it to the seven churches: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”",
+      "originalStructuredText": "saying,“Write on a scroll what you see and send it to the seven churches: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”\n ",
+      "textSourceId": "msb.txt#line=30712"
+    },
+    {
+      "id": "REV.1.12",
+      "sourceRef": "REV.1.12",
+      "sourceId": "REV.usj#content/20/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "REV.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "And there I turned to see the voice that was speaking with me. And having turned, I saw seven golden lampstands,",
+      "originalText": "And there I turned to see the voice that was speaking with me. And having turned, I saw seven golden lampstands,",
+      "originalStructuredText": "And there I turned to see the voice that was speaking with me. And having turned, I saw seven golden lampstands, ",
+      "textSourceId": "msb.txt#line=30713"
+    },
+    {
+      "id": "REV.1.13",
+      "sourceRef": "REV.1.13",
+      "sourceId": "REV.usj#content/20/content/5",
+      "sourceLabel": "13",
+      "anchors": [
+        "REV.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "and among the seven lampstands was One like the Son of Man, dressed in a long robe, with a golden sash around His chest.",
+      "originalText": "and among the seven lampstands was One like the Son of Man, dressed in a long robe, with a golden sash around His chest.",
+      "originalStructuredText": "and among the seven lampstands was One like the Son of Man, dressed in a long robe, with a golden sash around His chest. ",
+      "textSourceId": "msb.txt#line=30714"
+    },
+    {
+      "id": "REV.1.14",
+      "sourceRef": "REV.1.14",
+      "sourceId": "REV.usj#content/20/content/17",
+      "sourceLabel": "14",
+      "anchors": [
+        "REV.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "The hair of His head was white like wool, as white as snow, and His eyes were like a blazing fire.",
+      "originalText": "The hair of His head was white like wool, as white as snow, and His eyes were like a blazing fire.",
+      "originalStructuredText": "The hair of His head was white like wool, as white as snow, and His eyes were like a blazing fire. ",
+      "textSourceId": "msb.txt#line=30715"
+    },
+    {
+      "id": "REV.1.15",
+      "sourceRef": "REV.1.15",
+      "sourceId": "REV.usj#content/20/content/23",
+      "sourceLabel": "15",
+      "anchors": [
+        "REV.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "His feet were like polished bronze refined in a furnace, and His voice was like the roar of many waters.",
+      "originalText": "His feet were like polished bronze refined in a furnace, and His voice was like the roar of many waters.",
+      "originalStructuredText": "His feet were like polished bronze refined in a furnace, and His voice was like the roar of many waters. ",
+      "textSourceId": "msb.txt#line=30716"
+    },
+    {
+      "id": "REV.1.16",
+      "sourceRef": "REV.1.16",
+      "sourceId": "REV.usj#content/20/content/31",
+      "sourceLabel": "16",
+      "anchors": [
+        "REV.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face was like the sun shining at its brightest.",
+      "originalText": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face was like the sun shining at its brightest.",
+      "originalStructuredText": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face was like the sun shining at its brightest.\n ",
+      "textSourceId": "msb.txt#line=30717"
+    },
+    {
+      "id": "REV.1.17",
+      "sourceRef": "REV.1.17",
+      "sourceId": "REV.usj#content/21/content/1",
+      "sourceLabel": "17",
+      "anchors": [
+        "REV.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said, “Do not be afraid. I am the First and the Last,",
+      "originalText": "When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said, “Do not be afraid. I am the First and the Last,",
+      "originalStructuredText": "When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said,“Do not be afraid. I am the First and the Last, ",
+      "textSourceId": "msb.txt#line=30718"
+    },
+    {
+      "id": "REV.1.18",
+      "sourceRef": "REV.1.18",
+      "sourceId": "REV.usj#content/21/content/10/content/3",
+      "sourceLabel": "18",
+      "anchors": [
+        "REV.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "the Living One. I was dead, and behold, now I am alive forever and ever. Amen. And I hold the keys of Death and of Hades.",
+      "originalText": "the Living One. I was dead, and behold, now I am alive forever and ever. Amen. And I hold the keys of Death and of Hades.",
+      "originalStructuredText": "the Living One. I was dead, and behold, now I am alive forever and ever. Amen. And I hold the keys of Death and of Hades.\n ",
+      "textSourceId": "msb.txt#line=30719"
+    },
+    {
+      "id": "REV.1.19",
+      "sourceRef": "REV.1.19",
+      "sourceId": "REV.usj#content/22/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "REV.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore write down the things you have seen, the things that are, and the things that will happen after this.",
+      "originalText": "Therefore write down the things you have seen, the things that are, and the things that will happen after this.",
+      "originalStructuredText": "Therefore write down the things you have seen, the things that are, and the things that will happen after this. ",
+      "textSourceId": "msb.txt#line=30720"
+    },
+    {
+      "id": "REV.1.20",
+      "sourceRef": "REV.1.20",
+      "sourceId": "REV.usj#content/22/content/2/content/3",
+      "sourceLabel": "20",
+      "anchors": [
+        "REV.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.",
+      "originalText": "This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.",
+      "originalStructuredText": "This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.’’",
+      "textSourceId": "msb.txt#line=30721"
+    }
+  ],
+  "notes": [
+    {
+      "id": "REV.1.1.note.1",
+      "anchor": "REV.1.1",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/9/content/4",
+      "body": "1:1 Or suddenly or quickly",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:1 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "suddenly "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "quickly"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.2.note.2",
+      "anchor": "REV.1.2",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/9/content/8",
+      "body": "1:2 ALT and F35 saw, what is now, and what must take place after this.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:2 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ALT and F35 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "saw, what is now, and what must take place after this."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.3.note.3",
+      "anchor": "REV.1.3",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/10/content/7",
+      "body": "1:3 Or who reads",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:3 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "who reads"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.4.note.4",
+      "anchor": "REV.1.4",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/13/content/3",
+      "body": "1:4 Literally in Asia; Asia was a Roman province in what is now western Turkey. ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Literally "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in Asia"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; Asia was a Roman province in what is now western Turkey. "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.4.note.5",
+      "anchor": "REV.1.4",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/14/content/1",
+      "body": "1:4 ALT, F35, CT, and TR from Him who",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ALT, F35, CT, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "from Him who"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.4.note.6",
+      "anchor": "REV.1.4",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/14/content/3",
+      "body": "1:4 Or the sevenfold Spirit",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the sevenfold Spirit"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.5.note.7",
+      "anchor": "REV.1.5",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/15/content/1",
+      "body": "1:5 CT has released",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:5 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "has released"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.6.note.8",
+      "anchor": "REV.1.6",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/15/content/12",
+      "body": "1:6 WH does not include and ever.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:6 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "WH does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "and ever"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.8.note.9",
+      "anchor": "REV.1.8",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/17/content/3",
+      "body": "1:8 TR includes the Beginning and the End.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:8 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR includes "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the Beginning and the End"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.9.note.10",
+      "anchor": "REV.1.9",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/19/content/7",
+      "body": "1:9 CT about Jesus",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:9 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "about Jesus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.11.note.11",
+      "anchor": "REV.1.11",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/19/content/14",
+      "body": "1:11 TR saying, “I am the Alpha and the Omega, the First and the Last,” and, ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "saying, “I am the Alpha and the Omega, the First and the Last,” and, "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.11.note.12",
+      "anchor": "REV.1.11",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/19/content/15/content/3",
+      "body": "1:11 TR includes in Asia.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:11 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR includes "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "in Asia"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.12.note.13",
+      "anchor": "REV.1.12",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/20/content/3",
+      "body": "1:12 ALT, CT, and TR Then I turned",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:12 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ALT, CT, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Then I turned"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.13.note.14",
+      "anchor": "REV.1.13",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/20/content/7",
+      "body": "1:13 NA, SBL, and WH do not include seven.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:13 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "NA, SBL, and WH do not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "seven"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.13.note.15",
+      "anchor": "REV.1.13",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/20/content/13",
+      "body": "1:13 Or one like a son of man; see Daniel 7:13.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:13 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "one like a son of man"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; see ",
+              {
+                "type": "ref",
+                "loc": "DAN 7:13",
+                "content": [
+                  "Daniel 7:13"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.17.note.16",
+      "anchor": "REV.1.17",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/21/content/9",
+      "body": "1:17 TR said to me ",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:17 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "said to me "
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.18.note.17",
+      "anchor": "REV.1.18",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/21/content/10/content/11",
+      "body": "1:18 CT and GOC do not include Amen.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:18 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "CT and GOC do not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Amen"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.18.note.18",
+      "anchor": "REV.1.18",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/21/content/10/content/13",
+      "body": "1:18 TR of Hades and of Death",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:18 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "of Hades and of Death"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.19.note.19",
+      "anchor": "REV.1.19",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/22/content/2/content/1",
+      "body": "1:19 TR does not include Therefore.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:19 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "TR does not include "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "Therefore"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REV.1.20.note.20",
+      "anchor": "REV.1.20",
+      "type": "publisher-note",
+      "sourceId": "REV.usj#content/22/content/2/content/6",
+      "body": "1:20 ALT, F35, and TR lampstands that you saw",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "ALT, F35, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "lampstands that you saw"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "REV.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.1.note.1"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.1",
+          "sourceRef": "REV.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.2.note.2"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.2",
+          "sourceRef": "REV.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.3.note.3"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.3",
+          "sourceRef": "REV.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.4.note.4",
+        "REV.1.4.note.5",
+        "REV.1.4.note.6"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.4",
+          "sourceRef": "REV.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.5.note.7"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.5",
+          "sourceRef": "REV.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.6.note.8"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.6",
+          "sourceRef": "REV.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.7",
+          "sourceRef": "REV.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.8.note.9"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.8",
+          "sourceRef": "REV.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.9.note.10"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.9",
+          "sourceRef": "REV.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.10",
+          "sourceRef": "REV.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.11.note.11",
+        "REV.1.11.note.12"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.11",
+          "sourceRef": "REV.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.12.note.13"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.12",
+          "sourceRef": "REV.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.13.note.14",
+        "REV.1.13.note.15"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.13",
+          "sourceRef": "REV.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.14",
+          "sourceRef": "REV.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.15",
+          "sourceRef": "REV.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.16",
+          "sourceRef": "REV.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.17.note.16"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.17",
+          "sourceRef": "REV.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.18.note.17",
+        "REV.1.18.note.18"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.18",
+          "sourceRef": "REV.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.19.note.19"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.19",
+          "sourceRef": "REV.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "REV.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "REV.1.20.note.20"
+      ],
+      "placements": [
+        {
+          "book": "REV",
+          "chapter": 1,
+          "segmentId": "REV.1.20",
+          "sourceRef": "REV.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "msb-2026-09-05-m2-v2"
+}

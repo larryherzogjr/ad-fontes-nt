@@ -1,0 +1,1585 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "COL.1.1",
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        },
+        {
+          "text": "Paul, an apostle of Jesus Christ through the will of God, and Timotheus the brother,\n",
+          "anchor": "COL.1.1",
+          "marks": [],
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.1",
+          "marks": [],
+          "anchors": [
+            "COL.1.1"
+          ],
+          "sourceAnchor": "COL.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "COL.1.2",
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "text": "to the saints in Colossae, and to the faithful brethren in Christ: Grace to you, and peace from God our Father, and the Lord Jesus Christ!\n",
+          "anchor": "COL.1.2",
+          "marks": [],
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.2",
+          "marks": [],
+          "anchors": [
+            "COL.1.2"
+          ],
+          "sourceAnchor": "COL.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "COL.1.3",
+          "anchors": [
+            "COL.1.3"
+          ],
+          "sourceAnchor": "COL.1.3"
+        },
+        {
+          "text": "We give thanks to the God and Father of our Lord Jesus Christ, always praying for you,\n",
+          "anchor": "COL.1.3",
+          "marks": [],
+          "anchors": [
+            "COL.1.3"
+          ],
+          "sourceAnchor": "COL.1.3"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.3",
+          "marks": [],
+          "anchors": [
+            "COL.1.3"
+          ],
+          "sourceAnchor": "COL.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "COL.1.4",
+          "anchors": [
+            "COL.1.4"
+          ],
+          "sourceAnchor": "COL.1.4"
+        },
+        {
+          "text": "having heard of your faith in Christ Jesus, and of the love that [is] to all the saints,\n",
+          "anchor": "COL.1.4",
+          "marks": [],
+          "anchors": [
+            "COL.1.4"
+          ],
+          "sourceAnchor": "COL.1.4"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.4",
+          "marks": [],
+          "anchors": [
+            "COL.1.4"
+          ],
+          "sourceAnchor": "COL.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "COL.1.5",
+          "anchors": [
+            "COL.1.5"
+          ],
+          "sourceAnchor": "COL.1.5"
+        },
+        {
+          "text": "because of the hope that is laid up for you in the heavens, which ye heard of before in the word of the truth of the good news,\n",
+          "anchor": "COL.1.5",
+          "marks": [],
+          "anchors": [
+            "COL.1.5"
+          ],
+          "sourceAnchor": "COL.1.5"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.5",
+          "marks": [],
+          "anchors": [
+            "COL.1.5"
+          ],
+          "sourceAnchor": "COL.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "COL.1.6",
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        },
+        {
+          "text": "which is present to you, as also in all the world, and is bearing fruit, as also in you, from the day in which ye heard, and knew the grace of God in truth;\n",
+          "anchor": "COL.1.6",
+          "marks": [],
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.6",
+          "marks": [],
+          "anchors": [
+            "COL.1.6"
+          ],
+          "sourceAnchor": "COL.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "COL.1.7",
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "text": "as ye also learned from Epaphras, our beloved fellow-servant, who is for you a faithful ministrant of the Christ,\n",
+          "anchor": "COL.1.7",
+          "marks": [],
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.7",
+          "marks": [],
+          "anchors": [
+            "COL.1.7"
+          ],
+          "sourceAnchor": "COL.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "COL.1.8",
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        },
+        {
+          "text": "who also did declare to us your love in the Spirit.\n",
+          "anchor": "COL.1.8",
+          "marks": [],
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.8",
+          "marks": [],
+          "anchors": [
+            "COL.1.8"
+          ],
+          "sourceAnchor": "COL.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "COL.1.9",
+          "anchors": [
+            "COL.1.9"
+          ],
+          "sourceAnchor": "COL.1.9"
+        },
+        {
+          "text": "Because of this, we also, from the day in which we heard, do not cease praying for you, and asking that ye may be filled with the full knowledge of His will in all wisdom and spiritual understanding,\n",
+          "anchor": "COL.1.9",
+          "marks": [],
+          "anchors": [
+            "COL.1.9"
+          ],
+          "sourceAnchor": "COL.1.9"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.9",
+          "marks": [],
+          "anchors": [
+            "COL.1.9"
+          ],
+          "sourceAnchor": "COL.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "COL.1.10",
+          "anchors": [
+            "COL.1.10"
+          ],
+          "sourceAnchor": "COL.1.10"
+        },
+        {
+          "text": "to your walking worthily of the Lord to all pleasing, in every good work being fruitful, and increasing to the knowledge of God,\n",
+          "anchor": "COL.1.10",
+          "marks": [],
+          "anchors": [
+            "COL.1.10"
+          ],
+          "sourceAnchor": "COL.1.10"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.10",
+          "marks": [],
+          "anchors": [
+            "COL.1.10"
+          ],
+          "sourceAnchor": "COL.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "COL.1.11",
+          "anchors": [
+            "COL.1.11"
+          ],
+          "sourceAnchor": "COL.1.11"
+        },
+        {
+          "text": "in all might being made mighty according to the power of His glory, to all endurance and long-suffering with joy.\n",
+          "anchor": "COL.1.11",
+          "marks": [],
+          "anchors": [
+            "COL.1.11"
+          ],
+          "sourceAnchor": "COL.1.11"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.11",
+          "marks": [],
+          "anchors": [
+            "COL.1.11"
+          ],
+          "sourceAnchor": "COL.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "COL.1.12",
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "text": "Giving thanks to the Father who did make us meet for the participation of the inheritance of the saints in the light,\n",
+          "anchor": "COL.1.12",
+          "marks": [],
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.12",
+          "marks": [],
+          "anchors": [
+            "COL.1.12"
+          ],
+          "sourceAnchor": "COL.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "COL.1.13",
+          "anchors": [
+            "COL.1.13"
+          ],
+          "sourceAnchor": "COL.1.13"
+        },
+        {
+          "text": "who did rescue us out of the authority of the darkness, and did translate [us] into the reign of the Son of His love,\n",
+          "anchor": "COL.1.13",
+          "marks": [],
+          "anchors": [
+            "COL.1.13"
+          ],
+          "sourceAnchor": "COL.1.13"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.13",
+          "marks": [],
+          "anchors": [
+            "COL.1.13"
+          ],
+          "sourceAnchor": "COL.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "COL.1.14",
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "text": "in whom we have the redemption through his blood, the forgiveness of the sins,\n",
+          "anchor": "COL.1.14",
+          "marks": [],
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.14",
+          "marks": [],
+          "anchors": [
+            "COL.1.14"
+          ],
+          "sourceAnchor": "COL.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "COL.1.15",
+          "anchors": [
+            "COL.1.15"
+          ],
+          "sourceAnchor": "COL.1.15"
+        },
+        {
+          "text": "who is the image of the invisible God, first-born of all creation,\n",
+          "anchor": "COL.1.15",
+          "marks": [],
+          "anchors": [
+            "COL.1.15"
+          ],
+          "sourceAnchor": "COL.1.15"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.15",
+          "marks": [],
+          "anchors": [
+            "COL.1.15"
+          ],
+          "sourceAnchor": "COL.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "COL.1.16",
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        },
+        {
+          "text": "because in him were the all things created, those in the heavens, and those upon the earth, those visible, and those invisible, whether thrones, whether lordships, whether principalities, whether authorities; all things through him, and for him, have been created,\n",
+          "anchor": "COL.1.16",
+          "marks": [],
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.16",
+          "marks": [],
+          "anchors": [
+            "COL.1.16"
+          ],
+          "sourceAnchor": "COL.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "COL.1.17",
+          "anchors": [
+            "COL.1.17"
+          ],
+          "sourceAnchor": "COL.1.17"
+        },
+        {
+          "text": "and himself is before all, and the all things in him have consisted.\n",
+          "anchor": "COL.1.17",
+          "marks": [],
+          "anchors": [
+            "COL.1.17"
+          ],
+          "sourceAnchor": "COL.1.17"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.17",
+          "marks": [],
+          "anchors": [
+            "COL.1.17"
+          ],
+          "sourceAnchor": "COL.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "COL.1.18",
+          "anchors": [
+            "COL.1.18"
+          ],
+          "sourceAnchor": "COL.1.18"
+        },
+        {
+          "text": "And himself is the head of the body — the assembly — who is a beginning, a first-born out of the dead, that he might become in all [things] — himself — first,\n",
+          "anchor": "COL.1.18",
+          "marks": [],
+          "anchors": [
+            "COL.1.18"
+          ],
+          "sourceAnchor": "COL.1.18"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.18",
+          "marks": [],
+          "anchors": [
+            "COL.1.18"
+          ],
+          "sourceAnchor": "COL.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "COL.1.19",
+          "anchors": [
+            "COL.1.19"
+          ],
+          "sourceAnchor": "COL.1.19"
+        },
+        {
+          "text": "because in him it did please all the fulness to tabernacle,\n",
+          "anchor": "COL.1.19",
+          "marks": [],
+          "anchors": [
+            "COL.1.19"
+          ],
+          "sourceAnchor": "COL.1.19"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.19",
+          "marks": [],
+          "anchors": [
+            "COL.1.19"
+          ],
+          "sourceAnchor": "COL.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "COL.1.20",
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        },
+        {
+          "text": "and through him to reconcile the all things to himself — having made peace through the blood of his cross — through him, whether the things upon the earth, whether the things in the heavens.\n",
+          "anchor": "COL.1.20",
+          "marks": [],
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.20",
+          "marks": [],
+          "anchors": [
+            "COL.1.20"
+          ],
+          "sourceAnchor": "COL.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "COL.1.21",
+          "anchors": [
+            "COL.1.21"
+          ],
+          "sourceAnchor": "COL.1.21"
+        },
+        {
+          "text": "And you — once being alienated, and enemies in the mind, in the evil works, yet now did he reconcile,\n",
+          "anchor": "COL.1.21",
+          "marks": [],
+          "anchors": [
+            "COL.1.21"
+          ],
+          "sourceAnchor": "COL.1.21"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.21",
+          "marks": [],
+          "anchors": [
+            "COL.1.21"
+          ],
+          "sourceAnchor": "COL.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "COL.1.22",
+          "anchors": [
+            "COL.1.22"
+          ],
+          "sourceAnchor": "COL.1.22"
+        },
+        {
+          "text": "in the body of his flesh through the death, to present you holy, and unblemished, and unblameable before himself,\n",
+          "anchor": "COL.1.22",
+          "marks": [],
+          "anchors": [
+            "COL.1.22"
+          ],
+          "sourceAnchor": "COL.1.22"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.22",
+          "marks": [],
+          "anchors": [
+            "COL.1.22"
+          ],
+          "sourceAnchor": "COL.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "COL.1.23",
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "text": "if also ye remain in the faith, being founded and settled, and not moved away from the hope of the good news, which ye heard, which was preached in all the creation that [is] under the heaven, of which I became — I Paul — a ministrant.\n",
+          "anchor": "COL.1.23",
+          "marks": [],
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.23",
+          "marks": [],
+          "anchors": [
+            "COL.1.23"
+          ],
+          "sourceAnchor": "COL.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "COL.1.24",
+          "anchors": [
+            "COL.1.24"
+          ],
+          "sourceAnchor": "COL.1.24"
+        },
+        {
+          "text": "I now rejoice in my sufferings for you, and do fill up the things lacking of the tribulations of the Christ in my flesh for his body, which is the assembly,\n",
+          "anchor": "COL.1.24",
+          "marks": [],
+          "anchors": [
+            "COL.1.24"
+          ],
+          "sourceAnchor": "COL.1.24"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.24",
+          "marks": [],
+          "anchors": [
+            "COL.1.24"
+          ],
+          "sourceAnchor": "COL.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "COL.1.25",
+          "anchors": [
+            "COL.1.25"
+          ],
+          "sourceAnchor": "COL.1.25"
+        },
+        {
+          "text": "of which I — I did become a ministrant according to the dispensation of God, that was given to me for you, to fulfil the word of God,\n",
+          "anchor": "COL.1.25",
+          "marks": [],
+          "anchors": [
+            "COL.1.25"
+          ],
+          "sourceAnchor": "COL.1.25"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.25",
+          "marks": [],
+          "anchors": [
+            "COL.1.25"
+          ],
+          "sourceAnchor": "COL.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "COL.1.26",
+          "anchors": [
+            "COL.1.26"
+          ],
+          "sourceAnchor": "COL.1.26"
+        },
+        {
+          "text": "the secret that hath been hid from the ages and from the generations, but now was manifested to his saints,\n",
+          "anchor": "COL.1.26",
+          "marks": [],
+          "anchors": [
+            "COL.1.26"
+          ],
+          "sourceAnchor": "COL.1.26"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.26",
+          "marks": [],
+          "anchors": [
+            "COL.1.26"
+          ],
+          "sourceAnchor": "COL.1.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "COL.1.27",
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        },
+        {
+          "text": "to whom God did will to make known what [is] the riches of the glory of this secret among the nations — which is Christ in you, the hope of the glory,\n",
+          "anchor": "COL.1.27",
+          "marks": [],
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.27",
+          "marks": [],
+          "anchors": [
+            "COL.1.27"
+          ],
+          "sourceAnchor": "COL.1.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "COL.1.28",
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "text": "whom we proclaim, warning every man, and teaching every man, in all wisdom, that we may present every man perfect in Christ Jesus,\n",
+          "anchor": "COL.1.28",
+          "marks": [],
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.28",
+          "marks": [],
+          "anchors": [
+            "COL.1.28"
+          ],
+          "sourceAnchor": "COL.1.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "COL.1.29",
+          "anchors": [
+            "COL.1.29"
+          ],
+          "sourceAnchor": "COL.1.29"
+        },
+        {
+          "text": "for which also I labour, striving according to his working that is working in me in power.\n",
+          "anchor": "COL.1.29",
+          "marks": [],
+          "anchors": [
+            "COL.1.29"
+          ],
+          "sourceAnchor": "COL.1.29"
+        },
+        {
+          "text": "\n",
+          "anchor": "COL.1.29",
+          "marks": [],
+          "anchors": [
+            "COL.1.29"
+          ],
+          "sourceAnchor": "COL.1.29"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "COL.1.1",
+      "sourceRef": "COL.1.1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[0]",
+      "sourceLabel": "1",
+      "anchors": [
+        "COL.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "Paul, an apostle of Jesus Christ through the will of God, and Timotheus the brother,",
+      "originalText": "Paul, an apostle of Jesus Christ through the will of God, and Timotheus the brother,\n\n"
+    },
+    {
+      "id": "COL.1.2",
+      "sourceRef": "COL.1.2",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[2]",
+      "sourceLabel": "2",
+      "anchors": [
+        "COL.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "to the saints in Colossae, and to the faithful brethren in Christ: Grace to you, and peace from God our Father, and the Lord Jesus Christ!",
+      "originalText": "to the saints in Colossae, and to the faithful brethren in Christ: Grace to you, and peace from God our Father, and the Lord Jesus Christ!\n\n"
+    },
+    {
+      "id": "COL.1.3",
+      "sourceRef": "COL.1.3",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[4]",
+      "sourceLabel": "3",
+      "anchors": [
+        "COL.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "We give thanks to the God and Father of our Lord Jesus Christ, always praying for you,",
+      "originalText": "We give thanks to the God and Father of our Lord Jesus Christ, always praying for you,\n\n"
+    },
+    {
+      "id": "COL.1.4",
+      "sourceRef": "COL.1.4",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[6]",
+      "sourceLabel": "4",
+      "anchors": [
+        "COL.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "having heard of your faith in Christ Jesus, and of the love that [is] to all the saints,",
+      "originalText": "having heard of your faith in Christ Jesus, and of the love that [is] to all the saints,\n\n"
+    },
+    {
+      "id": "COL.1.5",
+      "sourceRef": "COL.1.5",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[8]",
+      "sourceLabel": "5",
+      "anchors": [
+        "COL.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "because of the hope that is laid up for you in the heavens, which ye heard of before in the word of the truth of the good news,",
+      "originalText": "because of the hope that is laid up for you in the heavens, which ye heard of before in the word of the truth of the good news,\n\n"
+    },
+    {
+      "id": "COL.1.6",
+      "sourceRef": "COL.1.6",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[10]",
+      "sourceLabel": "6",
+      "anchors": [
+        "COL.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "which is present to you, as also in all the world, and is bearing fruit, as also in you, from the day in which ye heard, and knew the grace of God in truth;",
+      "originalText": "which is present to you, as also in all the world, and is bearing fruit, as also in you, from the day in which ye heard, and knew the grace of God in truth;\n\n"
+    },
+    {
+      "id": "COL.1.7",
+      "sourceRef": "COL.1.7",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[12]",
+      "sourceLabel": "7",
+      "anchors": [
+        "COL.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "as ye also learned from Epaphras, our beloved fellow-servant, who is for you a faithful ministrant of the Christ,",
+      "originalText": "as ye also learned from Epaphras, our beloved fellow-servant, who is for you a faithful ministrant of the Christ,\n\n"
+    },
+    {
+      "id": "COL.1.8",
+      "sourceRef": "COL.1.8",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[14]",
+      "sourceLabel": "8",
+      "anchors": [
+        "COL.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "who also did declare to us your love in the Spirit.",
+      "originalText": "who also did declare to us your love in the Spirit.\n\n"
+    },
+    {
+      "id": "COL.1.9",
+      "sourceRef": "COL.1.9",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[16]",
+      "sourceLabel": "9",
+      "anchors": [
+        "COL.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "Because of this, we also, from the day in which we heard, do not cease praying for you, and asking that ye may be filled with the full knowledge of His will in all wisdom and spiritual understanding,",
+      "originalText": "Because of this, we also, from the day in which we heard, do not cease praying for you, and asking that ye may be filled with the full knowledge of His will in all wisdom and spiritual understanding,\n\n"
+    },
+    {
+      "id": "COL.1.10",
+      "sourceRef": "COL.1.10",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[18]",
+      "sourceLabel": "10",
+      "anchors": [
+        "COL.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "to your walking worthily of the Lord to all pleasing, in every good work being fruitful, and increasing to the knowledge of God,",
+      "originalText": "to your walking worthily of the Lord to all pleasing, in every good work being fruitful, and increasing to the knowledge of God,\n\n"
+    },
+    {
+      "id": "COL.1.11",
+      "sourceRef": "COL.1.11",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[20]",
+      "sourceLabel": "11",
+      "anchors": [
+        "COL.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "in all might being made mighty according to the power of His glory, to all endurance and long-suffering with joy.",
+      "originalText": "in all might being made mighty according to the power of His glory, to all endurance and long-suffering with joy.\n\n"
+    },
+    {
+      "id": "COL.1.12",
+      "sourceRef": "COL.1.12",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[22]",
+      "sourceLabel": "12",
+      "anchors": [
+        "COL.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "Giving thanks to the Father who did make us meet for the participation of the inheritance of the saints in the light,",
+      "originalText": "Giving thanks to the Father who did make us meet for the participation of the inheritance of the saints in the light,\n\n"
+    },
+    {
+      "id": "COL.1.13",
+      "sourceRef": "COL.1.13",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[24]",
+      "sourceLabel": "13",
+      "anchors": [
+        "COL.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "who did rescue us out of the authority of the darkness, and did translate [us] into the reign of the Son of His love,",
+      "originalText": "who did rescue us out of the authority of the darkness, and did translate [us] into the reign of the Son of His love,\n\n"
+    },
+    {
+      "id": "COL.1.14",
+      "sourceRef": "COL.1.14",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[26]",
+      "sourceLabel": "14",
+      "anchors": [
+        "COL.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "in whom we have the redemption through his blood, the forgiveness of the sins,",
+      "originalText": "in whom we have the redemption through his blood, the forgiveness of the sins,\n\n"
+    },
+    {
+      "id": "COL.1.15",
+      "sourceRef": "COL.1.15",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[28]",
+      "sourceLabel": "15",
+      "anchors": [
+        "COL.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "who is the image of the invisible God, first-born of all creation,",
+      "originalText": "who is the image of the invisible God, first-born of all creation,\n\n"
+    },
+    {
+      "id": "COL.1.16",
+      "sourceRef": "COL.1.16",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[30]",
+      "sourceLabel": "16",
+      "anchors": [
+        "COL.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "because in him were the all things created, those in the heavens, and those upon the earth, those visible, and those invisible, whether thrones, whether lordships, whether principalities, whether authorities; all things through him, and for him, have been created,",
+      "originalText": "because in him were the all things created, those in the heavens, and those upon the earth, those visible, and those invisible, whether thrones, whether lordships, whether principalities, whether authorities; all things through him, and for him, have been created,\n\n"
+    },
+    {
+      "id": "COL.1.17",
+      "sourceRef": "COL.1.17",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[32]",
+      "sourceLabel": "17",
+      "anchors": [
+        "COL.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "and himself is before all, and the all things in him have consisted.",
+      "originalText": "and himself is before all, and the all things in him have consisted.\n\n"
+    },
+    {
+      "id": "COL.1.18",
+      "sourceRef": "COL.1.18",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[34]",
+      "sourceLabel": "18",
+      "anchors": [
+        "COL.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "And himself is the head of the body — the assembly — who is a beginning, a first-born out of the dead, that he might become in all [things] — himself — first,",
+      "originalText": "And himself is the head of the body — the assembly — who is a beginning, a first-born out of the dead, that he might become in all [things] — himself — first,\n\n"
+    },
+    {
+      "id": "COL.1.19",
+      "sourceRef": "COL.1.19",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[36]",
+      "sourceLabel": "19",
+      "anchors": [
+        "COL.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "because in him it did please all the fulness to tabernacle,",
+      "originalText": "because in him it did please all the fulness to tabernacle,\n\n"
+    },
+    {
+      "id": "COL.1.20",
+      "sourceRef": "COL.1.20",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[38]",
+      "sourceLabel": "20",
+      "anchors": [
+        "COL.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "and through him to reconcile the all things to himself — having made peace through the blood of his cross — through him, whether the things upon the earth, whether the things in the heavens.",
+      "originalText": "and through him to reconcile the all things to himself — having made peace through the blood of his cross — through him, whether the things upon the earth, whether the things in the heavens.\n\n"
+    },
+    {
+      "id": "COL.1.21",
+      "sourceRef": "COL.1.21",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[40]",
+      "sourceLabel": "21",
+      "anchors": [
+        "COL.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "And you — once being alienated, and enemies in the mind, in the evil works, yet now did he reconcile,",
+      "originalText": "And you — once being alienated, and enemies in the mind, in the evil works, yet now did he reconcile,\n\n"
+    },
+    {
+      "id": "COL.1.22",
+      "sourceRef": "COL.1.22",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[42]",
+      "sourceLabel": "22",
+      "anchors": [
+        "COL.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "in the body of his flesh through the death, to present you holy, and unblemished, and unblameable before himself,",
+      "originalText": "in the body of his flesh through the death, to present you holy, and unblemished, and unblameable before himself,\n\n"
+    },
+    {
+      "id": "COL.1.23",
+      "sourceRef": "COL.1.23",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[44]",
+      "sourceLabel": "23",
+      "anchors": [
+        "COL.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "if also ye remain in the faith, being founded and settled, and not moved away from the hope of the good news, which ye heard, which was preached in all the creation that [is] under the heaven, of which I became — I Paul — a ministrant.",
+      "originalText": "if also ye remain in the faith, being founded and settled, and not moved away from the hope of the good news, which ye heard, which was preached in all the creation that [is] under the heaven, of which I became — I Paul — a ministrant.\n\n"
+    },
+    {
+      "id": "COL.1.24",
+      "sourceRef": "COL.1.24",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[46]",
+      "sourceLabel": "24",
+      "anchors": [
+        "COL.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "I now rejoice in my sufferings for you, and do fill up the things lacking of the tribulations of the Christ in my flesh for his body, which is the assembly,",
+      "originalText": "I now rejoice in my sufferings for you, and do fill up the things lacking of the tribulations of the Christ in my flesh for his body, which is the assembly,\n\n"
+    },
+    {
+      "id": "COL.1.25",
+      "sourceRef": "COL.1.25",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[48]",
+      "sourceLabel": "25",
+      "anchors": [
+        "COL.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "of which I — I did become a ministrant according to the dispensation of God, that was given to me for you, to fulfil the word of God,",
+      "originalText": "of which I — I did become a ministrant according to the dispensation of God, that was given to me for you, to fulfil the word of God,\n\n"
+    },
+    {
+      "id": "COL.1.26",
+      "sourceRef": "COL.1.26",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[50]",
+      "sourceLabel": "26",
+      "anchors": [
+        "COL.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "the secret that hath been hid from the ages and from the generations, but now was manifested to his saints,",
+      "originalText": "the secret that hath been hid from the ages and from the generations, but now was manifested to his saints,\n\n"
+    },
+    {
+      "id": "COL.1.27",
+      "sourceRef": "COL.1.27",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[52]",
+      "sourceLabel": "27",
+      "anchors": [
+        "COL.1.27"
+      ],
+      "mappingType": "exact",
+      "text": "to whom God did will to make known what [is] the riches of the glory of this secret among the nations — which is Christ in you, the hope of the glory,",
+      "originalText": "to whom God did will to make known what [is] the riches of the glory of this secret among the nations — which is Christ in you, the hope of the glory,\n\n"
+    },
+    {
+      "id": "COL.1.28",
+      "sourceRef": "COL.1.28",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[54]",
+      "sourceLabel": "28",
+      "anchors": [
+        "COL.1.28"
+      ],
+      "mappingType": "exact",
+      "text": "whom we proclaim, warning every man, and teaching every man, in all wisdom, that we may present every man perfect in Christ Jesus,",
+      "originalText": "whom we proclaim, warning every man, and teaching every man, in all wisdom, that we may present every man perfect in Christ Jesus,\n\n"
+    },
+    {
+      "id": "COL.1.29",
+      "sourceRef": "COL.1.29",
+      "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[56]",
+      "sourceLabel": "29",
+      "anchors": [
+        "COL.1.29"
+      ],
+      "mappingType": "exact",
+      "text": "for which also I labour, striving according to his working that is working in me in power.",
+      "originalText": "for which also I labour, striving according to his working that is working in me in power.\n\n"
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "COL.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.1",
+          "sourceRef": "COL.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.2",
+          "sourceRef": "COL.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.3",
+          "sourceRef": "COL.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.4",
+          "sourceRef": "COL.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.5",
+          "sourceRef": "COL.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.6",
+          "sourceRef": "COL.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.7",
+          "sourceRef": "COL.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.8",
+          "sourceRef": "COL.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.9",
+          "sourceRef": "COL.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.10",
+          "sourceRef": "COL.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.11",
+          "sourceRef": "COL.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.12",
+          "sourceRef": "COL.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.13",
+          "sourceRef": "COL.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.14",
+          "sourceRef": "COL.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.15",
+          "sourceRef": "COL.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.16",
+          "sourceRef": "COL.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.17",
+          "sourceRef": "COL.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.18",
+          "sourceRef": "COL.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.19",
+          "sourceRef": "COL.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.20",
+          "sourceRef": "COL.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.21",
+          "sourceRef": "COL.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.22",
+          "sourceRef": "COL.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.23",
+          "sourceRef": "COL.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.24",
+          "sourceRef": "COL.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.25",
+          "sourceRef": "COL.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.26",
+          "sourceRef": "COL.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.27",
+          "sourceRef": "COL.1.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.28",
+          "sourceRef": "COL.1.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "COL.1.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "COL",
+          "chapter": 1,
+          "segmentId": "COL.1.29",
+          "sourceRef": "COL.1.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "ylt-2026-09-05-m2-v1"
+}

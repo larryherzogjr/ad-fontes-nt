@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "candidate-105",
+    "title": "Many Called, Few Chosen? The Ending of Matthew 20:16",
+    "ranges": [
+      {
+        "start": "MAT.20.16",
+        "end": "MAT.20.16"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 55,
+            "text": "So the last will be first, and the first will be last.”"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 50,
+            "text": "Thus the last will be first, and the first, last.”"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 96,
+            "text": "So the last will be first, and the first will be last. For many are called, but few are chosen.”"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 85,
+            "text": "So the last shall be first, and the first last, for many are called, and few chosen.'"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 54,
+            "text": "Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι καὶ οἱ πρῶτοι ἔσχατοι."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 100,
+            "text": "Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι, καὶ οἱ πρῶτοι ἔσχατοι· πολλοὶ γάρ εἰσιν κλητοί, ὀλίγοι δὲ ἐκλεκτοί."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "MAT.20.16",
+            "start": 0,
+            "end": 99,
+            "text": "Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι, καὶ οἱ πρῶτοι ἔσχατοι· πολλοὶ γάρ εἰσι κλητοί, ὀλίγοι δὲ ἐκλεκτοί."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/MAT.usj#content/731/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=23812",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "MAT.usj#content/733/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"MAT\"]/p[45]/v[30]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Matthew-ap.xhtml#body/205/15",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/MAT.csv#row=665",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"MAT\"]/p[287]/v[141]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "The shorter form ends with the reversal of first and last. BSB, the BLB publisher draft and Nestle 1904 stop there. MSB, Young’s Literal Translation, Robinson–Pierpont 2018 and Boyd’s Textus Receptus compilation continue with the saying about many being called and few being chosen. The difference is the presence of a closing clause, not a missing verse: every displayed edition contains Matthew 20:16 [C1].\n\nThe BSB note identifies the longer wording with BYZ and TR; the MSB note identifies its omission with CT. Those are the publishers’ abbreviated descriptions. The seven named edition rows let the reader check the actual wording without treating those groups as interchangeable manuscripts [C2].\n\nIn the pinned Sinaiticus transcription, the first-hand verse ends with the first becoming last. The additional called-and-chosen saying is not in this verse record. That establishes this witness’s recorded wording, not the origin of the shorter or longer form [C3].",
+      "interpretation": "The shorter ending keeps the reader’s attention on the laborers’ reversal and the landowner’s generosity. The longer ending adds a further distinction between calling and choosing. It therefore changes how the parable’s closing words lead into reflection, even though both forms retain the reversal itself.\n\nThe same called-and-chosen saying appears in Matthew 22:14 in all seven frozen editions [C1]. Readers should distinguish its presence there from the question of whether it also closes Matthew 20. Similarity between passages is a reason to compare their contexts; it does not, by itself, prove that a particular scribe copied one ending into the other.\n\nFor teaching, read the whole laborers’ parable before turning to the additional clause. A teacher can acknowledge the different endings without making the shorter edition deny election or allowing one sentence to replace the parable’s treatment of the landowner’s generosity. This draft makes no judgment about which ending Matthew originally wrote."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "publisherNotes": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "noteId": "MAT.20.note.126",
+        "body": "20:16 BYZ and TR include For many are called, but few are chosen."
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "noteId": "MAT.20.16.note.273",
+        "body": "20:16 CT does not include For many are called, but few are chosen."
+      }
+    ],
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "Matthew 20:16; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "Matthew 20:16; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "Matthew 20:16; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "Matthew 20:16; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "Matthew 20:16; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "Matthew 20:16; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "Matthew 20:16; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "Matthew 20:16; Matthew 22:14. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C2",
+        "label": "Pinned publisher notes",
+        "locator": "BSB MAT.20.note.126; MSB MAT.20.16.note.273"
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "Matthew 20:16; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      }
+    ]
+  },
+  {
+    "id": "candidate-106",
+    "title": "Carried Up into Heaven: The Double Brackets in Luke 24:51",
+    "ranges": [
+      {
+        "start": "LUK.24.51",
+        "end": "LUK.24.51"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 72,
+            "text": "While He was blessing them, He left them and was carried up into heaven."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 108,
+            "text": "And it came to pass, in His blessing them, [that] He was separated from them and was carried up into heaven."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 72,
+            "text": "While He was blessing them, He left them and was carried up into heaven."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 99,
+            "text": "and it came to pass, in his blessing them, he was parted from them, and was borne up to the heaven;"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 91,
+            "text": "καὶ ἐγένετο ἐν τῷ εὐλογεῖν αὐτὸν αὐτοὺς διέστη ἀπ’ αὐτῶν [[καὶ ἀνεφέρετο εἰς τὸν οὐρανόν]]."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 89,
+            "text": "Καὶ ἐγένετο ἐν τῷ εὐλογεῖν αὐτὸν αὐτούς, διέστη ἀπ’ αὐτῶν, καὶ ἀνεφέρετο εἰς τὸν οὐρανόν."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "LUK.24.51",
+            "start": 0,
+            "end": 89,
+            "text": "Καὶ ἐγένετο ἐν τῷ εὐλογεῖν αὐτὸν αὐτούς, διέστη ἀπ᾿ αὐτῶν, καὶ ἀνεφέρετο εἰς τὸν οὐρανόν."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/LUK.usj#content/1070/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=26046",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "LUK.usj#content/1071/content/7",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"LUK\"]/p[53]/v[100]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Luke-ap.xhtml#body/242/0/1",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/LUK.csv#row=1149",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"LUK\"]/p[382]/v[15]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "Every displayed edition prints the clause describing Jesus being carried up into heaven. Nestle 1904 places that clause inside a pair of double square brackets; the other six editions print it without those editorial markers. The BLB’s separate brackets around an English supplied word earlier in the sentence are a different convention. Nestle’s marked clause must not be presented as a whole-verse omission or as an absent clause in its main text [C1].\n\nThe pinned Codex Sinaiticus Project transcription supplies a separate witness-level comparison. Its first-hand verse ends after Jesus parts from the disciples. A correction attributed to hand ca adds the ascension clause. The transcription preserves the addition as a correction rather than folding it into the first hand [C3].\n\nThis is a directly visible editorial-bracketing study supported by a particular manuscript’s recorded correction. There is no BSB or MSB publisher note at this anchor in the frozen releases. Neither an edition’s brackets nor this one manuscript’s history supplies a complete apparatus.",
+      "interpretation": "With the clause, Luke’s Gospel explicitly describes the ascension at this point in its closing scene. Without it, the verse describes Jesus’ departure while blessing the disciples. That is a meaningful difference in what the particular sentence says.\n\nThe surrounding verses still describe the blessing, the disciples’ return to Jerusalem and their worshipful response. Acts 1:9–11 supplies a separate, explicit ascension account in all seven frozen editions [C1]. That neighboring evidence helps readers avoid turning a question about the wording of Luke 24:51 into the claim that an entire edition lacks the ascension. It does not settle the original wording of Luke’s Gospel.\n\nRead Nestle’s printed clause and its markers together: the words are there, and the editorial qualification is there too. The Sinaiticus evidence then illustrates why first-hand text and later corrections must be described separately. This comparison does not assign motives to the corrector or endorse an originality judgment."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "Luke 24:51; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "Luke 24:51; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "Luke 24:51; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "Luke 24:51; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "Luke 24:51; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "Luke 24:51; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "Luke 24:51; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "Luke 24:51; Luke 24:50-53; Acts 1:9-11. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "Luke 24:51; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      }
+    ]
+  },
+  {
+    "id": "candidate-107",
+    "title": "Bethany or Bethabara? Where John Was Baptizing",
+    "ranges": [
+      {
+        "start": "JHN.1.28",
+        "end": "JHN.1.28"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 73,
+            "text": "All this happened at Bethany beyond the Jordan, where John was baptizing."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 81,
+            "text": "These things came to pass in Bethany beyond the Jordan, where John was baptizing."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 73,
+            "text": "All this happened at Bethany beyond the Jordan, where John was baptizing."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 84,
+            "text": "These things came to pass in Bethabara, beyond the Jordan, where John was baptizing,"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 71,
+            "text": "Ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν ὁ Ἰωάνης βαπτίζων."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 70,
+            "text": "Ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν Ἰωάννης βαπτίζων."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "JHN.1.28",
+            "start": 0,
+            "end": 71,
+            "text": "Ταῦτα ἐν Βηθαβαρᾶ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν Ἰωάννης βαπτίζων."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/JHN.usj#content/33/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=26076",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "JHN.usj#content/32/content/1",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[54]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/John-ap.xhtml#body/5/0/10",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/JOH.csv#row=29",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"JHN\"]/p[13]/v[74]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "BSB, the BLB publisher draft and MSB name Bethany beyond the Jordan. Young’s Literal Translation names Bethabara. Among the displayed Greek editions, Nestle 1904 and Robinson–Pierpont 2018 have Βηθανίᾳ, while Boyd’s Textus Receptus compilation has Βηθαβαρᾶ. The difference changes the named location; it is not merely a different English translation of one shared Greek place name [C1].\n\nThe pinned MSB note separately reports F35 Bithabara and TR Bethabara. Those note-supported labels are retained exactly; F35 is not one of the seven displayed editions [C2]. This is also a useful case in which the selected Byzantine Greek edition agrees with Nestle against the selected TR compilation.\n\nThe Sinaiticus transcription records βηθανια in the first hand and βηθαραβα in a correction attributed to cb2. The correction’s exact spelling is preserved in the evidence rather than silently rearranged to match the displayed TR form. A common topical comparison does not make those spellings byte-identical [C3].",
+      "interpretation": "The narrative still locates John’s baptism beyond the Jordan in both displayed forms. The variant concerns the name attached to that location. Readers consulting a map should therefore check which edition supplies the label rather than assuming that every Bible names the place identically.\n\nThe edition split also warns against reducing all differences to a single critical-versus-Byzantine divide. Robinson–Pierpont and MSB agree with the Bethany reading here, while Boyd and Young print Bethabara. Young is not a translation of this selected Boyd compilation, so their agreement does not establish a direct relationship between the two frozen sources.\n\nThe Sinaiticus correction adds a concrete illustration of the distinction between a manuscript’s first hand and a later reader’s intervention. The preserved transcription does not identify a motive for the change. This article makes no archaeological identification, locates no modern baptism site, and does not decide which place name John originally wrote."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "publisherNotes": [
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "noteId": "JHN.1.28.note.10",
+        "body": "1:28 F35 Bithabara; TR Bethabara"
+      }
+    ],
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "John 1:28; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "John 1:28; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "John 1:28; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "John 1:28; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "John 1:28; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "John 1:28; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "John 1:28; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "John 1:28. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C2",
+        "label": "Pinned publisher notes",
+        "locator": "MSB JHN.1.28.note.10"
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "John 1:28; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      }
+    ]
+  },
+  {
+    "id": "candidate-108",
+    "title": "Redemption—Through His Blood? Colossians 1:14",
+    "ranges": [
+      {
+        "start": "COL.1.14",
+        "end": "COL.1.14"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 52,
+            "text": "in whom we have redemption, the forgiveness of sins."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 52,
+            "text": "in whom we have redemption, the forgiveness of sins."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 52,
+            "text": "in whom we have redemption, the forgiveness of sins."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 78,
+            "text": "in whom we have the redemption through his blood, the forgiveness of the sins,"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 53,
+            "text": "ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν, τὴν ἄφεσιν τῶν ἁμαρτιῶν·"
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 53,
+            "text": "ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν, τὴν ἄφεσιν τῶν ἁμαρτιῶν·"
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "COL.1.14",
+            "start": 0,
+            "end": 75,
+            "text": "ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν διὰ τοῦ αἵματος αὐτοῦ, τὴν ἄφεσιν τῶν ἁμαρτιῶν·"
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/COL.usj#content/18/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=29483",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "COL.usj#content/17/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"COL\"]/p[7]/v[26]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Colossians-ap.xhtml#body/4/0/13",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/COL.csv#row=15",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"COL\"]/p[11]/v[109]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "BSB, the BLB publisher draft and MSB read redemption followed by the forgiveness of sins, without the intervening phrase through His blood. Young’s Literal Translation includes that phrase. Nestle 1904 and Robinson–Pierpont 2018 lack διὰ τοῦ αἵματος αὐτοῦ here; Boyd’s Textus Receptus compilation includes it. Every displayed edition prints the verse and its redemption-and-forgiveness statement [C1].\n\nThe BSB note reports the TR wording. The MSB note identifies TR, ALT and F35 as including the phrase. ALT and F35 remain publisher-reported sources, not additional displayed edition rows [C2]. In particular, this is not a uniform split between critical and Byzantine editions: the selected Robinson–Pierpont text agrees with Nestle on the shorter wording.\n\nThe first-hand Sinaiticus verse record has redemption followed by forgiveness and contains no intervening blood phrase. That is evidence for this witness at this location, not a claim about all Byzantine or TR witnesses [C3].",
+      "interpretation": "The longer form makes the connection between redemption and Christ’s blood explicit within this sentence. The shorter form states redemption and forgiveness without that additional phrase. Its wording should be read as it stands rather than completed silently from a familiar parallel.\n\nEphesians 1:7 contains the corresponding blood phrase in all seven frozen editions [C1]. Comparing the two passages helps distinguish a textual question at Colossians 1:14 from a claim that a Bible edition suppresses redemption through Christ’s blood generally. The parallel can inform discussion of how similar passages are transmitted, but similarity alone does not establish the direction of a change or a scribe’s intention.\n\nFor readers, the practical task is small and precise: notice where the extra phrase occurs, then read the surrounding account of the Son and his saving work. The edition rows establish the difference at this verse. They do not settle its original wording by a vote of translations."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "publisherNotes": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "noteId": "COL.1.note.4",
+        "body": "1:14 TR redemption through His blood,"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "noteId": "COL.1.14.note.9",
+        "body": "1:14 TR, ALT, and F35 include through His blood."
+      }
+    ],
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "Colossians 1:14; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "Colossians 1:14; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "Colossians 1:14; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "Colossians 1:14; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "Colossians 1:14; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "Colossians 1:14; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "Colossians 1:14; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "Colossians 1:14; Ephesians 1:7. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C2",
+        "label": "Pinned publisher notes",
+        "locator": "BSB COL.1.note.4; MSB COL.1.14.note.9"
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "Colossians 1:14; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      }
+    ]
+  },
+  {
+    "id": "candidate-109",
+    "title": "By God’s Grace—or Apart from God? Hebrews 2:9",
+    "ranges": [
+      {
+        "start": "HEB.2.9",
+        "end": "HEB.2.9"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 185,
+            "text": "But we see Jesus, who was made a little lower than the angels, now crowned with glory and honor because He suffered death, so that by the grace of God He might taste death for everyone."
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 218,
+            "text": "But we see Jesus, the One having been made a little less than the angels, because of the suffering of death, having been crowned with glory and with honor, so that by the grace of God He might taste death for everyone."
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 185,
+            "text": "But we see Jesus, who was made a little lower than the angels, now crowned with glory and honor because He suffered death, so that by the grace of God He might taste death for everyone."
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 216,
+            "text": "and him who was made some little less than messengers we see — Jesus — because of the suffering of the death, with glory and honour having been crowned, that by the grace of God for every one he might taste of death."
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 159,
+            "text": "τὸν δὲ βραχύ τι παρ’ ἀγγέλους ἠλαττωμένον βλέπομεν Ἰησοῦν διὰ τὸ πάθημα τοῦ θανάτου δόξῃ καὶ τιμῇ ἐστεφανωμένον, ὅπως χάριτι Θεοῦ ὑπὲρ παντὸς γεύσηται θανάτου."
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 160,
+            "text": "Τὸν δὲ βραχύ τι παρ’ ἀγγέλους ἠλαττωμένον βλέπομεν Ἰησοῦν, διὰ τὸ πάθημα τοῦ θανάτου δόξῃ καὶ τιμῇ ἐστεφανωμένον, ὅπως χάριτι θεοῦ ὑπὲρ παντὸς γεύσηται θανάτου."
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "HEB.2.9",
+            "start": 0,
+            "end": 160,
+            "text": "Τὸν δὲ βραχύ τι παρ᾿ ἀγγέλους ἠλαττωμένον βλέπομεν Ἰησοῦν, διὰ τὸ πάθημα τοῦ θανάτου δόξῃ καὶ τιμῇ ἐστεφανωμένον, ὅπως χάριτι Θεοῦ ὑπὲρ παντὸς γεύσηται θανάτου."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/HEB.usj#content/61/content/1",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=29990",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "HEB.usj#content/60/content/2",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"HEB\"]/p[9]/v[16]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Hebrews-ap.xhtml#body/40/3",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/HEB.csv#row=24",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"HEB\"]/p[65]/v[20]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "All seven displayed editions read by the grace of God or its Greek equivalent χάριτι θεοῦ. The frozen BSB and MSB chapters contain no publisher note at Hebrews 2:9 supplying the apart-from-God alternative. This is therefore an externally supported textual discussion, not a disagreement demonstrated by the seven main-text rows and not a publisher-note-only study [C1].\n\nOrigen’s Commentary on John, Book I, section 40, provides a primary historical discussion in the English translation by Allan Menzies reproduced by New Advent. It discusses the wording without God and explicitly notes copies of Hebrews containing the grace wording. The draft paraphrases that discussion; it does not import Origen’s quotation as an eighth Scripture edition or infer the text of a surviving manuscript from his report [C4].\n\nThe pinned Sinaiticus transcription reads χαριτι followed by the abbreviation for God. It supports the grace reading in this witness and supplies no evidence for apart from God [C3]. No structured attestation for another manuscript is claimed.",
+      "interpretation": "By the grace of God connects Jesus’ tasting death with God’s gracious action. The alternative changes that connection and requires an account of how the phrase relates to the rest of the sentence. Origen’s discussion relates the wording to the scope of those for whom Christ dies; citing that discussion does not endorse his wider interpretation [C4].\n\nReaders should begin with the actual displayed text and the surrounding movement from Psalm 8 to Jesus’ suffering and glory [C1]. A patristic author’s discussion can preserve evidence of a textual question beyond the app’s edition set, but it cannot be counted as a new app edition or as proof of the reading of a manuscript we have not examined.\n\nThis article leaves the competing reading’s origin and final interpretation unresolved. It neither asserts a rupture within the Trinity nor assigns a doctrinal motive to a copyist. Its purpose is to identify the question honestly while keeping the local edition evidence, the historical report and editorial judgment distinct."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "comparisonNotice": "All seven displayed editions read by the grace of God. The alternative is discussed in Origen’s Commentary on John, Book I, section 40, in the cited historical English translation; it is not printed or supplied in a publisher note by any displayed edition. The Sinaiticus plate supports the grace reading only.",
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "Hebrews 2:9; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "Hebrews 2:9; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "Hebrews 2:9; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "Hebrews 2:9; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "Hebrews 2:9; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "Hebrews 2:9; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "Hebrews 2:9; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "Hebrews 2:9; Hebrews 2:5-10. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "Hebrews 2:9; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      },
+      {
+        "id": "C4",
+        "label": "Origen, Commentary on John, Book I, section 40",
+        "locator": "Allan Menzies translation, Ante-Nicene Fathers, vol. 9 (1896), as reproduced by New Advent. Paragraph beginning “Such great things”; Hebrews wording discussed in this paragraph. Saved HTML and source metadata are checksum-bound. Historical report inspected in English; Greek critical edition and surviving manuscript apparatus not independently collated.",
+        "url": "https://www.newadvent.org/fathers/101501.htm"
+      }
+    ]
+  },
+  {
+    "id": "candidate-110",
+    "title": "Freed Us or Washed Us? Revelation 1:5",
+    "ranges": [
+      {
+        "start": "REV.1.5",
+        "end": "REV.1.5"
+      }
+    ],
+    "status": "in-review",
+    "assignedReviewerId": "larry-herzog-jr",
+    "contentType": "Ordinary Means commentary",
+    "readings": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 182,
+            "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has released us from our sins by His blood,"
+          }
+        ]
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 178,
+            "text": "and from Jesus Christ, the faithful witness, the firstborn of the dead, and the ruler of the kings of the earth. To the One loving us and releasing us from our sins in His blood—"
+          }
+        ]
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 180,
+            "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has washed us from our sins by His blood,"
+          }
+        ]
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 186,
+            "text": "and from Jesus Christ, the faithful witness, the first-born out of the dead, and the ruler of the kings of the earth; to him who did love us, and did bathe us from our sins in his blood,"
+          }
+        ]
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 174,
+            "text": "καὶ ἀπὸ Ἰησοῦ Χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος τῶν νεκρῶν καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπῶντι ἡμᾶς καὶ λύσαντι ἡμᾶς ἐκ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ,"
+          }
+        ]
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 178,
+            "text": "καὶ ἀπὸ Ἰησοῦ χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος τῶν νεκρῶν, καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπῶντι ἡμᾶς, καὶ λούσαντι ἡμᾶς ἀπὸ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ·"
+          }
+        ]
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "state": "present",
+        "spans": [
+          {
+            "segmentId": "REV.1.5",
+            "start": 0,
+            "end": 183,
+            "text": "καὶ ἀπὸ Ἰησοῦ Χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος ἐκ τῶν νεκρῶν, καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπήσαντι ἡμᾶς, καὶ λούσαντι ἡμᾶς ἀπὸ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ·"
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "editionId": "BSB",
+        "releaseId": "bsb-2026-09-05-m2-v1",
+        "sourceId": "bsb_usj/REV.usj#content/15/content/3",
+        "url": "https://berean.bible/"
+      },
+      {
+        "editionId": "BLB",
+        "releaseId": "blb-2026-09-05-m2-v1",
+        "sourceId": "blb.txt#line=30706",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "sourceId": "REV.usj#content/14/content/5",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "editionId": "YLT",
+        "releaseId": "ylt-2026-09-05-m2-v1",
+        "sourceId": "engylt_usfx.xml#book[@id=\"REV\"]/p[7]/v[8]",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "editionId": "N1904",
+        "releaseId": "n1904-2026-09-05-m2-v1",
+        "sourceId": "xhtml/Revelation-ap.xhtml#body/6/0/1",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "editionId": "RP2018",
+        "releaseId": "rp2018-2026-09-05-m2-v1",
+        "sourceId": "csv-unicode/ccat/no-variants/REV.csv#row=6",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "editionId": "TR-BOYD",
+        "releaseId": "tr-boyd-2026-09-05-m2-v1",
+        "sourceId": "grctr_usfx.xml#book[@id=\"REV\"]/p[10]/v[35]",
+        "url": "https://ebible.org/grctr/"
+      }
+    ],
+    "attestations": [],
+    "significance": {
+      "sourceObservation": "BSB says Christ has released us from our sins; the BLB publisher draft uses releasing. MSB has washed, and Young’s Literal Translation uses bathe. The displayed Greek editions show the underlying difference: Nestle 1904 has λύσαντι, while Robinson–Pierpont 2018 and Boyd’s Textus Receptus compilation have λούσαντι. The extra omicron distinguishes the two verb forms; the full verse also contains other wording differences, which should not be folded into this verb comparison [C1].\n\nThe pinned MSB note reports that CT has released. The manuscript groups behind that abbreviation are not reconstructed here. These are named edition readings and a retained publisher report, not a tally of independent witnesses [C2].\n\nThe Sinaiticus first-hand transcription contains λυϲαντι, corresponding to the release verb. Its exact unaccented transcription and lunate sigma are preserved in the evidence. This plate documents that one witness and does not independently verify support claimed for other manuscripts [C3].",
+      "interpretation": "The release wording presents rescue from sins; the washing wording presents cleansing from them. Both displayed forms connect Christ’s action with his blood. The imagery changes, so a teacher should notice the difference rather than treating released and washed as interchangeable English synonyms for one Greek word.\n\nRevelation 7:14 separately uses the imagery of washing robes in the Lamb’s blood in all seven frozen editions [C1]. That context can help explain why cleansing language is familiar in this book, but it does not prove that a scribe imported it into Revelation 1:5. The similarity of the two Greek forms likewise permits discussion of the textual question without establishing a particular copying event.\n\nThe choice of imagery matters to close reading, while the saving action of Christ remains explicit in both displayed forms. This article makes no originality judgment and does not manufacture a story about why the wording changed. Its evidence consists of the edition split, the publisher’s note and the separately identified Sinaiticus reading."
+    },
+    "author": "Larry Herzog Jr.",
+    "byline": "Ordinary Means",
+    "rights": "cleared",
+    "provenance": "OpenAI Codex drafted this unpublished candidate from frozen local editions, pinned publisher notes and the sources identified below. Larry Herzog Jr. / Ordinary Means is proposed attribution upon explicit adoption, not a claim of prior authorship or approval. Original draft prose; source quotations remain identified and source-specific. No manuscript apparatus, originality judgment, copying motive or unexamined witness support is inferred. Publication requires exact-content editorial and visual approval.",
+    "publisherNotes": [
+      {
+        "editionId": "MSB",
+        "releaseId": "msb-2026-09-05-m2-v2",
+        "noteId": "REV.1.5.note.7",
+        "body": "1:5 CT has released"
+      }
+    ],
+    "explanationSources": [
+      {
+        "id": "S1",
+        "label": "Berean Standard Bible",
+        "locator": "Revelation 1:5; frozen release bsb-2026-09-05-m2-v1.",
+        "url": "https://berean.bible/"
+      },
+      {
+        "id": "S2",
+        "label": "Berean Literal Bible — publisher draft",
+        "locator": "Revelation 1:5; frozen release blb-2026-09-05-m2-v1.",
+        "url": "https://literalbible.com/"
+      },
+      {
+        "id": "S3",
+        "label": "Majority Standard Bible",
+        "locator": "Revelation 1:5; frozen release msb-2026-09-05-m2-v2.",
+        "url": "https://majoritybible.com/"
+      },
+      {
+        "id": "S4",
+        "label": "Young’s Literal Translation (1898)",
+        "locator": "Revelation 1:5; frozen release ylt-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/engylt/"
+      },
+      {
+        "id": "S5",
+        "label": "Nestle 1904 — historical critical Greek",
+        "locator": "Revelation 1:5; frozen release n1904-2026-09-05-m2-v1.",
+        "url": "https://github.com/biblicalhumanities/Nestle1904"
+      },
+      {
+        "id": "S6",
+        "label": "Robinson–Pierpont 2018",
+        "locator": "Revelation 1:5; frozen release rp2018-2026-09-05-m2-v1.",
+        "url": "https://github.com/byztxt/byzantine-majority-text"
+      },
+      {
+        "id": "S7",
+        "label": "Textus Receptus — Boyd compilation (2022)",
+        "locator": "Revelation 1:5; frozen release tr-boyd-2026-09-05-m2-v1.",
+        "url": "https://ebible.org/grctr/"
+      },
+      {
+        "id": "C1",
+        "label": "Frozen seven-edition Scripture snapshots",
+        "locator": "Revelation 1:5; Revelation 7:14. Complete chapter JSON inputs are checksum-bound in CANDIDATE-MANIFEST.json."
+      },
+      {
+        "id": "C2",
+        "label": "Pinned publisher notes",
+        "locator": "MSB REV.1.5.note.7"
+      },
+      {
+        "id": "C3",
+        "label": "Codex Sinaiticus Project electronic transcription, version 1.04",
+        "locator": "Revelation 1:5; exact verse, first-hand and correction records in the separate sinaiticus-evidence.json candidate. Page images are separate evidence; this is not a complete apparatus.",
+        "url": "https://codexsinaiticus.org/"
+      }
+    ]
+  }
+]

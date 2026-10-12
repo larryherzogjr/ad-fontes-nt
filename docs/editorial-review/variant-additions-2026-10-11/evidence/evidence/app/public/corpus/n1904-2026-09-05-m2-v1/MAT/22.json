@@ -1,0 +1,2282 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MAT.22.1",
+          "anchors": [
+            "MAT.22.1"
+          ],
+          "sourceAnchor": "MAT.22.1"
+        },
+        {
+          "text": " Καὶ ἀποκριθεὶς ὁ Ἰησοῦς\n  πάλιν εἶπεν ἐν παραβολαῖς αὐτοῖς λέγων ",
+          "anchor": "MAT.22.1",
+          "marks": [],
+          "anchors": [
+            "MAT.22.1"
+          ],
+          "sourceAnchor": "MAT.22.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.22.2",
+          "anchors": [
+            "MAT.22.2"
+          ],
+          "sourceAnchor": "MAT.22.2"
+        },
+        {
+          "text": "\n  Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ βασιλεῖ, ὅστις ἐποίησεν\n  γάμους τῷ υἱῷ αὐτοῦ. ",
+          "anchor": "MAT.22.2",
+          "marks": [],
+          "anchors": [
+            "MAT.22.2"
+          ],
+          "sourceAnchor": "MAT.22.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.22.3",
+          "anchors": [
+            "MAT.22.3"
+          ],
+          "sourceAnchor": "MAT.22.3"
+        },
+        {
+          "text": " καὶ ἀπέστειλεν\n  τοὺς δούλους αὐτοῦ καλέσαι τοὺς κεκλημένους εἰς τοὺς γάμους, καὶ\n  οὐκ ἤθελον ἐλθεῖν. ",
+          "anchor": "MAT.22.3",
+          "marks": [],
+          "anchors": [
+            "MAT.22.3"
+          ],
+          "sourceAnchor": "MAT.22.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.22.4",
+          "anchors": [
+            "MAT.22.4"
+          ],
+          "sourceAnchor": "MAT.22.4"
+        },
+        {
+          "text": " πάλιν ἀπέστειλεν\n  ἄλλους δούλους λέγων Εἴπατε τοῖς κεκλημένοις Ἰδοὺ τὸ ἄριστόν μου\n  ἡτοίμακα, οἱ ταῦροί μου καὶ τὰ σιτιστὰ τεθυμένα, καὶ πάντα\n  ἕτοιμα· δεῦτε εἰς τοὺς γάμους. ",
+          "anchor": "MAT.22.4",
+          "marks": [],
+          "anchors": [
+            "MAT.22.4"
+          ],
+          "sourceAnchor": "MAT.22.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.22.5",
+          "anchors": [
+            "MAT.22.5"
+          ],
+          "sourceAnchor": "MAT.22.5"
+        },
+        {
+          "text": " οἱ δὲ\n  ἀμελήσαντες ἀπῆλθον, ὃς μὲν εἰς τὸν ἴδιον ἀγρόν, ὃς δὲ ἐπὶ τὴν\n  ἐμπορίαν αὐτοῦ· ",
+          "anchor": "MAT.22.5",
+          "marks": [],
+          "anchors": [
+            "MAT.22.5"
+          ],
+          "sourceAnchor": "MAT.22.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.22.6",
+          "anchors": [
+            "MAT.22.6"
+          ],
+          "sourceAnchor": "MAT.22.6"
+        },
+        {
+          "text": " οἱ δὲ λοιποὶ\n  κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.\n  ",
+          "anchor": "MAT.22.6",
+          "marks": [],
+          "anchors": [
+            "MAT.22.6"
+          ],
+          "sourceAnchor": "MAT.22.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.22.7",
+          "anchors": [
+            "MAT.22.7"
+          ],
+          "sourceAnchor": "MAT.22.7"
+        },
+        {
+          "text": " ὁ δὲ βασιλεὺς ὠργίσθη, καὶ πέμψας τὰ\n  στρατεύματα αὐτοῦ ἀπώλεσεν τοὺς φονεῖς ἐκείνους καὶ τὴν πόλιν\n  αὐτῶν ἐνέπρησεν. ",
+          "anchor": "MAT.22.7",
+          "marks": [],
+          "anchors": [
+            "MAT.22.7"
+          ],
+          "sourceAnchor": "MAT.22.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.22.8",
+          "anchors": [
+            "MAT.22.8"
+          ],
+          "sourceAnchor": "MAT.22.8"
+        },
+        {
+          "text": " τότε λέγει τοῖς\n  δούλοις αὐτοῦ Ὁ μὲν γάμος ἕτοιμός ἐστιν, οἱ δὲ κεκλημένοι οὐκ\n  ἦσαν ἄξιοι· ",
+          "anchor": "MAT.22.8",
+          "marks": [],
+          "anchors": [
+            "MAT.22.8"
+          ],
+          "sourceAnchor": "MAT.22.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.22.9",
+          "anchors": [
+            "MAT.22.9"
+          ],
+          "sourceAnchor": "MAT.22.9"
+        },
+        {
+          "text": " πορεύεσθε οὖν ἐπὶ τὰς\n  διεξόδους τῶν ὁδῶν, καὶ ὅσους ἐὰν εὕρητε καλέσατε εἰς τοὺς\n  γάμους. ",
+          "anchor": "MAT.22.9",
+          "marks": [],
+          "anchors": [
+            "MAT.22.9"
+          ],
+          "sourceAnchor": "MAT.22.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.22.10",
+          "anchors": [
+            "MAT.22.10"
+          ],
+          "sourceAnchor": "MAT.22.10"
+        },
+        {
+          "text": " καὶ ἐξελθόντες οἱ δοῦλοι\n  ἐκεῖνοι εἰς τὰς ὁδοὺς συνήγαγον πάντας οὓς εὗρον, πονηρούς τε καὶ\n  ἀγαθούς· καὶ ἐπλήσθη ὁ νυμφὼν ἀνακειμένων. ",
+          "anchor": "MAT.22.10",
+          "marks": [],
+          "anchors": [
+            "MAT.22.10"
+          ],
+          "sourceAnchor": "MAT.22.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.22.11",
+          "anchors": [
+            "MAT.22.11"
+          ],
+          "sourceAnchor": "MAT.22.11"
+        },
+        {
+          "text": " εἰσελθὼν δὲ ὁ βασιλεὺς θεάσασθαι τοὺς ἀνακειμένους\n  εἶδεν ἐκεῖ ἄνθρωπον οὐκ ἐνδεδυμένον ἔνδυμα γάμου· ",
+          "anchor": "MAT.22.11",
+          "marks": [],
+          "anchors": [
+            "MAT.22.11"
+          ],
+          "sourceAnchor": "MAT.22.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.22.12",
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        },
+        {
+          "text": " καὶ λέγει αὐτῷ Ἑταῖρε, πῶς εἰσῆλθες ὧδε μὴ ἔχων\n  ἔνδυμα γάμου; ὁ δὲ ἐφιμώθη. ",
+          "anchor": "MAT.22.12",
+          "marks": [],
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.22.13",
+          "anchors": [
+            "MAT.22.13"
+          ],
+          "sourceAnchor": "MAT.22.13"
+        },
+        {
+          "text": " τότε ὁ\n  βασιλεὺς εἶπεν τοῖς διακόνοις Δήσαντες αὐτοῦ πόδας καὶ χεῖρας\n  ἐκβάλετε αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον· ἐκεῖ ἔσται ὁ κλαυθμὸς\n  καὶ ὁ βρυγμὸς τῶν ὀδόντων. ",
+          "anchor": "MAT.22.13",
+          "marks": [],
+          "anchors": [
+            "MAT.22.13"
+          ],
+          "sourceAnchor": "MAT.22.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.22.14",
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        },
+        {
+          "text": " Πολλοὶ γάρ\n  εἰσιν κλητοὶ, ὀλίγοι δὲ ἐκλεκτοί.",
+          "anchor": "MAT.22.14",
+          "marks": [],
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.22.14",
+          "marks": [],
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.22.15",
+          "anchors": [
+            "MAT.22.15"
+          ],
+          "sourceAnchor": "MAT.22.15"
+        },
+        {
+          "text": " Τότε\n  πορευθέντες οἱ Φαρισαῖοι συμβούλιον ἔλαβον ὅπως αὐτὸν\n  παγιδεύσωσιν ἐν λόγῳ. ",
+          "anchor": "MAT.22.15",
+          "marks": [],
+          "anchors": [
+            "MAT.22.15"
+          ],
+          "sourceAnchor": "MAT.22.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.22.16",
+          "anchors": [
+            "MAT.22.16"
+          ],
+          "sourceAnchor": "MAT.22.16"
+        },
+        {
+          "text": " καὶ\n  ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρῳδιανῶν λέγοντας\n  Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ τὴν ὁδὸν τοῦ Θεοῦ ἐν ἀληθείᾳ\n  διδάσκεις, καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς\n  πρόσωπον ἀνθρώπων· ",
+          "anchor": "MAT.22.16",
+          "marks": [],
+          "anchors": [
+            "MAT.22.16"
+          ],
+          "sourceAnchor": "MAT.22.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.22.17",
+          "anchors": [
+            "MAT.22.17"
+          ],
+          "sourceAnchor": "MAT.22.17"
+        },
+        {
+          "text": " εἰπὸν οὖν ἡμῖν, τί\n  σοι δοκεῖ; ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ; ",
+          "anchor": "MAT.22.17",
+          "marks": [],
+          "anchors": [
+            "MAT.22.17"
+          ],
+          "sourceAnchor": "MAT.22.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.22.18",
+          "anchors": [
+            "MAT.22.18"
+          ],
+          "sourceAnchor": "MAT.22.18"
+        },
+        {
+          "text": " γνοὺς δὲ ὁ Ἰησοῦς τὴν πονηρίαν αὐτῶν εἶπεν Τί με\n  πειράζετε, ὑποκριταί; ",
+          "anchor": "MAT.22.18",
+          "marks": [],
+          "anchors": [
+            "MAT.22.18"
+          ],
+          "sourceAnchor": "MAT.22.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.22.19",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        },
+        {
+          "text": " ἐπιδείξατέ μοι\n  τὸ νόμισμα τοῦ κήνσου. οἱ δὲ προσήνεγκαν αὐτῷ δηνάριον.\n  ",
+          "anchor": "MAT.22.19",
+          "marks": [],
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.22.20",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "text": " καὶ λέγει αὐτοῖς Τίνος ἡ εἰκὼν αὕτη\n  καὶ ἡ ἐπιγραφή; ",
+          "anchor": "MAT.22.20",
+          "marks": [],
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.22.21",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        },
+        {
+          "text": " λέγουσιν· Καίσαρος.\n  τότε λέγει αὐτοῖς Ἀπόδοτε οὖν τὰ Καίσαρος Καίσαρι καὶ τὰ τοῦ Θεοῦ\n  τῷ Θεῷ. ",
+          "anchor": "MAT.22.21",
+          "marks": [],
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.22.22",
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        },
+        {
+          "text": " καὶ ἀκούσαντες ἐθαύμασαν, καὶ\n  ἀφέντες αὐτὸν ἀπῆλθαν.",
+          "anchor": "MAT.22.22",
+          "marks": [],
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.22.22",
+          "marks": [],
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.22.23",
+          "anchors": [
+            "MAT.22.23"
+          ],
+          "sourceAnchor": "MAT.22.23"
+        },
+        {
+          "text": " Ἐν ἐκείνῃ τῇ\n  ἡμέρᾳ προσῆλθον αὐτῷ Σαδδουκαῖοι, λέγοντες μὴ εἶναι ἀνάστασιν,\n  καὶ ἐπηρώτησαν αὐτὸν ",
+          "anchor": "MAT.22.23",
+          "marks": [],
+          "anchors": [
+            "MAT.22.23"
+          ],
+          "sourceAnchor": "MAT.22.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.22.24",
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "text": " λέγοντες\n  Διδάσκαλε, Μωϋσῆς εἶπεν ",
+          "anchor": "MAT.22.24",
+          "marks": [],
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "text": "Ἐάν τις ἀποθάνῃ μὴ ἔχων\n  τέκνα, ἐπιγαμβρεύσει ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ καὶ\n  ἀναστήσει σπέρμα τῷ ἀδελφῷ αὐτοῦ",
+          "anchor": "MAT.22.24",
+          "marks": [],
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "text": ". ",
+          "anchor": "MAT.22.24",
+          "marks": [],
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.22.25",
+          "anchors": [
+            "MAT.22.25"
+          ],
+          "sourceAnchor": "MAT.22.25"
+        },
+        {
+          "text": " ἦσαν δὲ παρ’ ἡμῖν ἑπτὰ ἀδελφοί· καὶ ὁ πρῶτος γήμας\n  ἐτελεύτησεν, καὶ μὴ ἔχων σπέρμα ἀφῆκεν τὴν γυναῖκα αὐτοῦ τῷ\n  ἀδελφῷ αὐτοῦ· ",
+          "anchor": "MAT.22.25",
+          "marks": [],
+          "anchors": [
+            "MAT.22.25"
+          ],
+          "sourceAnchor": "MAT.22.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.22.26",
+          "anchors": [
+            "MAT.22.26"
+          ],
+          "sourceAnchor": "MAT.22.26"
+        },
+        {
+          "text": " ὁμοίως καὶ ὁ δεύτερος\n  καὶ ὁ τρίτος, ἕως τῶν ἑπτά· ",
+          "anchor": "MAT.22.26",
+          "marks": [],
+          "anchors": [
+            "MAT.22.26"
+          ],
+          "sourceAnchor": "MAT.22.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.22.27",
+          "anchors": [
+            "MAT.22.27"
+          ],
+          "sourceAnchor": "MAT.22.27"
+        },
+        {
+          "text": " ὕστερον δὲ\n  πάντων ἀπέθανεν ἡ γυνή. ",
+          "anchor": "MAT.22.27",
+          "marks": [],
+          "anchors": [
+            "MAT.22.27"
+          ],
+          "sourceAnchor": "MAT.22.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.22.28",
+          "anchors": [
+            "MAT.22.28"
+          ],
+          "sourceAnchor": "MAT.22.28"
+        },
+        {
+          "text": " ἐν τῇ\n  ἀναστάσει οὖν τίνος τῶν ἑπτὰ ἔσται γυνή; πάντες γὰρ ἔσχον αὐτήν.\n  ",
+          "anchor": "MAT.22.28",
+          "marks": [],
+          "anchors": [
+            "MAT.22.28"
+          ],
+          "sourceAnchor": "MAT.22.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MAT.22.29",
+          "anchors": [
+            "MAT.22.29"
+          ],
+          "sourceAnchor": "MAT.22.29"
+        },
+        {
+          "text": " ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς\n  Πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ Θεοῦ.\n  ",
+          "anchor": "MAT.22.29",
+          "marks": [],
+          "anchors": [
+            "MAT.22.29"
+          ],
+          "sourceAnchor": "MAT.22.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.22.30",
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "text": " ἐν γὰρ τῇ ἀναστάσει οὔτε γαμοῦσιν οὔτε\n  γαμίζονται, ἀλλ’ ὡς ἄγγελοι ἐν τῷ οὐρανῷ εἰσιν. ",
+          "anchor": "MAT.22.30",
+          "marks": [],
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.22.31",
+          "anchors": [
+            "MAT.22.31"
+          ],
+          "sourceAnchor": "MAT.22.31"
+        },
+        {
+          "text": " περὶ δὲ τῆς ἀναστάσεως τῶν νεκρῶν οὐκ ἀνέγνωτε τὸ\n  ῥηθὲν ὑμῖν ὑπὸ τοῦ Θεοῦ λέγοντος ",
+          "anchor": "MAT.22.31",
+          "marks": [],
+          "anchors": [
+            "MAT.22.31"
+          ],
+          "sourceAnchor": "MAT.22.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.22.32",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "text": "\n  ",
+          "anchor": "MAT.22.32",
+          "marks": [],
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "text": "Ἐγώ εἰμι ὁ Θεὸς Ἀβραὰμ καὶ ὁ Θεὸς Ἰσαὰκ καὶ ὁ\n  Θεὸς Ἰακώβ;",
+          "anchor": "MAT.22.32",
+          "marks": [],
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "text": " οὐκ ἔστιν ὁ Θεὸς νεκρῶν ἀλλὰ ζώντων.\n  ",
+          "anchor": "MAT.22.32",
+          "marks": [],
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.22.33",
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        },
+        {
+          "text": " καὶ ἀκούσαντες οἱ ὄχλοι ἐξεπλήσσοντο\n  ἐπὶ τῇ διδαχῇ αὐτοῦ.",
+          "anchor": "MAT.22.33",
+          "marks": [],
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.22.33",
+          "marks": [],
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.22.34",
+          "anchors": [
+            "MAT.22.34"
+          ],
+          "sourceAnchor": "MAT.22.34"
+        },
+        {
+          "text": " Οἱ δὲ\n  Φαρισαῖοι ἀκούσαντες ὅτι ἐφίμωσεν τοὺς Σαδδουκαίους, συνήχθησαν\n  ἐπὶ τὸ αὐτό, ",
+          "anchor": "MAT.22.34",
+          "marks": [],
+          "anchors": [
+            "MAT.22.34"
+          ],
+          "sourceAnchor": "MAT.22.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MAT.22.35",
+          "anchors": [
+            "MAT.22.35"
+          ],
+          "sourceAnchor": "MAT.22.35"
+        },
+        {
+          "text": " καὶ ἐπηρώτησεν εἷς ἐξ\n  αὐτῶν νομικὸς πειράζων αὐτόν ",
+          "anchor": "MAT.22.35",
+          "marks": [],
+          "anchors": [
+            "MAT.22.35"
+          ],
+          "sourceAnchor": "MAT.22.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MAT.22.36",
+          "anchors": [
+            "MAT.22.36"
+          ],
+          "sourceAnchor": "MAT.22.36"
+        },
+        {
+          "text": "\n  Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ; ",
+          "anchor": "MAT.22.36",
+          "marks": [],
+          "anchors": [
+            "MAT.22.36"
+          ],
+          "sourceAnchor": "MAT.22.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MAT.22.37",
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "text": " ὁ δὲ ἔφη αὐτῷ ",
+          "anchor": "MAT.22.37",
+          "marks": [],
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "text": "Ἀγαπήσεις κύριον\n  τὸν Θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου καὶ ἐν ὅλῃ τῇ ψυχῇ σου καὶ ἐν\n  ὅλῃ τῇ διανοίᾳ σου",
+          "anchor": "MAT.22.37",
+          "marks": [],
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "text": ". ",
+          "anchor": "MAT.22.37",
+          "marks": [],
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MAT.22.38",
+          "anchors": [
+            "MAT.22.38"
+          ],
+          "sourceAnchor": "MAT.22.38"
+        },
+        {
+          "text": " αὕτη ἐστὶν\n  ἡ μεγάλη καὶ πρώτη ἐντολή. ",
+          "anchor": "MAT.22.38",
+          "marks": [],
+          "anchors": [
+            "MAT.22.38"
+          ],
+          "sourceAnchor": "MAT.22.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MAT.22.39",
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "text": " δευτέρα\n  ὁμοία αὐτῇ ",
+          "anchor": "MAT.22.39",
+          "marks": [],
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "text": "Ἀγαπήσεις τὸν πλησίον σου ὡς\n  σεαυτόν",
+          "anchor": "MAT.22.39",
+          "marks": [],
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "text": ". ",
+          "anchor": "MAT.22.39",
+          "marks": [],
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "MAT.22.40",
+          "anchors": [
+            "MAT.22.40"
+          ],
+          "sourceAnchor": "MAT.22.40"
+        },
+        {
+          "text": " ἐν ταύταις ταῖς δυσὶν\n  ἐντολαῖς ὅλος ὁ νόμος κρέμαται καὶ οἱ προφῆται. ",
+          "anchor": "MAT.22.40",
+          "marks": [],
+          "anchors": [
+            "MAT.22.40"
+          ],
+          "sourceAnchor": "MAT.22.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "MAT.22.41",
+          "anchors": [
+            "MAT.22.41"
+          ],
+          "sourceAnchor": "MAT.22.41"
+        },
+        {
+          "text": " Συνηγμένων δὲ τῶν Φαρισαίων ἐπηρώτησεν αὐτοὺς ὁ\n  Ἰησοῦς ",
+          "anchor": "MAT.22.41",
+          "marks": [],
+          "anchors": [
+            "MAT.22.41"
+          ],
+          "sourceAnchor": "MAT.22.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "MAT.22.42",
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        },
+        {
+          "text": " λέγων Τί ὑμῖν δοκεῖ περὶ τοῦ\n  Χριστοῦ; τίνος υἱός ἐστιν; λέγουσιν αὐτῷ Τοῦ Δαυείδ. ",
+          "anchor": "MAT.22.42",
+          "marks": [],
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "MAT.22.43",
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        },
+        {
+          "text": " λέγει αὐτοῖς Πῶς οὖν Δαυεὶδ ἐν Πνεύματι καλεῖ\n  αὐτὸν Κύριον λέγων",
+          "anchor": "MAT.22.43",
+          "marks": [],
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/237",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.22.43",
+          "marks": [],
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "MAT.22.44",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "text": " ",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "text": "Εἶπεν Κύριος τῷ Κυρίῳ μου Κάθου ἐκ δεξιῶν\n  μου",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/238",
+      "runs": [
+        {
+          "text": " ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν\n  ποδῶν",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/239",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "text": " σου;",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/240",
+      "runs": [
+        {
+          "verse": "45",
+          "anchor": "MAT.22.45",
+          "anchors": [
+            "MAT.22.45"
+          ],
+          "sourceAnchor": "MAT.22.45"
+        },
+        {
+          "text": " εἰ οὖν Δαυεὶδ καλεῖ\n  αὐτὸν Κύριον, πῶς υἱὸς αὐτοῦ ἐστιν; ",
+          "anchor": "MAT.22.45",
+          "marks": [],
+          "anchors": [
+            "MAT.22.45"
+          ],
+          "sourceAnchor": "MAT.22.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "MAT.22.46",
+          "anchors": [
+            "MAT.22.46"
+          ],
+          "sourceAnchor": "MAT.22.46"
+        },
+        {
+          "text": "\n  καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέν τις ἀπ’\n  ἐκείνης τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι.",
+          "anchor": "MAT.22.46",
+          "marks": [],
+          "anchors": [
+            "MAT.22.46"
+          ],
+          "sourceAnchor": "MAT.22.46"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.22.1",
+      "sourceRef": "MAT.22.1",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/0",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.22.1"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἀποκριθεὶς ὁ Ἰησοῦς πάλιν εἶπεν ἐν παραβολαῖς αὐτοῖς λέγων",
+      "originalText": " Καὶ ἀποκριθεὶς ὁ Ἰησοῦς\n  πάλιν εἶπεν ἐν παραβολαῖς αὐτοῖς λέγων "
+    },
+    {
+      "id": "MAT.22.2",
+      "sourceRef": "MAT.22.2",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.22.2"
+      ],
+      "mappingType": "exact",
+      "text": "Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ βασιλεῖ, ὅστις ἐποίησεν γάμους τῷ υἱῷ αὐτοῦ.",
+      "originalText": "\n  Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ βασιλεῖ, ὅστις ἐποίησεν\n  γάμους τῷ υἱῷ αὐτοῦ. "
+    },
+    {
+      "id": "MAT.22.3",
+      "sourceRef": "MAT.22.3",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/2",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.22.3"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἀπέστειλεν τοὺς δούλους αὐτοῦ καλέσαι τοὺς κεκλημένους εἰς τοὺς γάμους, καὶ οὐκ ἤθελον ἐλθεῖν.",
+      "originalText": " καὶ ἀπέστειλεν\n  τοὺς δούλους αὐτοῦ καλέσαι τοὺς κεκλημένους εἰς τοὺς γάμους, καὶ\n  οὐκ ἤθελον ἐλθεῖν. "
+    },
+    {
+      "id": "MAT.22.4",
+      "sourceRef": "MAT.22.4",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/3",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.22.4"
+      ],
+      "mappingType": "exact",
+      "text": "πάλιν ἀπέστειλεν ἄλλους δούλους λέγων Εἴπατε τοῖς κεκλημένοις Ἰδοὺ τὸ ἄριστόν μου ἡτοίμακα, οἱ ταῦροί μου καὶ τὰ σιτιστὰ τεθυμένα, καὶ πάντα ἕτοιμα· δεῦτε εἰς τοὺς γάμους.",
+      "originalText": " πάλιν ἀπέστειλεν\n  ἄλλους δούλους λέγων Εἴπατε τοῖς κεκλημένοις Ἰδοὺ τὸ ἄριστόν μου\n  ἡτοίμακα, οἱ ταῦροί μου καὶ τὰ σιτιστὰ τεθυμένα, καὶ πάντα\n  ἕτοιμα· δεῦτε εἰς τοὺς γάμους. "
+    },
+    {
+      "id": "MAT.22.5",
+      "sourceRef": "MAT.22.5",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/4",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.22.5"
+      ],
+      "mappingType": "exact",
+      "text": "οἱ δὲ ἀμελήσαντες ἀπῆλθον, ὃς μὲν εἰς τὸν ἴδιον ἀγρόν, ὃς δὲ ἐπὶ τὴν ἐμπορίαν αὐτοῦ·",
+      "originalText": " οἱ δὲ\n  ἀμελήσαντες ἀπῆλθον, ὃς μὲν εἰς τὸν ἴδιον ἀγρόν, ὃς δὲ ἐπὶ τὴν\n  ἐμπορίαν αὐτοῦ· "
+    },
+    {
+      "id": "MAT.22.6",
+      "sourceRef": "MAT.22.6",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/5",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.22.6"
+      ],
+      "mappingType": "exact",
+      "text": "οἱ δὲ λοιποὶ κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.",
+      "originalText": " οἱ δὲ λοιποὶ\n  κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.\n  "
+    },
+    {
+      "id": "MAT.22.7",
+      "sourceRef": "MAT.22.7",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/6",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.22.7"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ βασιλεὺς ὠργίσθη, καὶ πέμψας τὰ στρατεύματα αὐτοῦ ἀπώλεσεν τοὺς φονεῖς ἐκείνους καὶ τὴν πόλιν αὐτῶν ἐνέπρησεν.",
+      "originalText": " ὁ δὲ βασιλεὺς ὠργίσθη, καὶ πέμψας τὰ\n  στρατεύματα αὐτοῦ ἀπώλεσεν τοὺς φονεῖς ἐκείνους καὶ τὴν πόλιν\n  αὐτῶν ἐνέπρησεν. "
+    },
+    {
+      "id": "MAT.22.8",
+      "sourceRef": "MAT.22.8",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/7",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.22.8"
+      ],
+      "mappingType": "exact",
+      "text": "τότε λέγει τοῖς δούλοις αὐτοῦ Ὁ μὲν γάμος ἕτοιμός ἐστιν, οἱ δὲ κεκλημένοι οὐκ ἦσαν ἄξιοι·",
+      "originalText": " τότε λέγει τοῖς\n  δούλοις αὐτοῦ Ὁ μὲν γάμος ἕτοιμός ἐστιν, οἱ δὲ κεκλημένοι οὐκ\n  ἦσαν ἄξιοι· "
+    },
+    {
+      "id": "MAT.22.9",
+      "sourceRef": "MAT.22.9",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/8",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.22.9"
+      ],
+      "mappingType": "exact",
+      "text": "πορεύεσθε οὖν ἐπὶ τὰς διεξόδους τῶν ὁδῶν, καὶ ὅσους ἐὰν εὕρητε καλέσατε εἰς τοὺς γάμους.",
+      "originalText": " πορεύεσθε οὖν ἐπὶ τὰς\n  διεξόδους τῶν ὁδῶν, καὶ ὅσους ἐὰν εὕρητε καλέσατε εἰς τοὺς\n  γάμους. "
+    },
+    {
+      "id": "MAT.22.10",
+      "sourceRef": "MAT.22.10",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/9",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.22.10"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐξελθόντες οἱ δοῦλοι ἐκεῖνοι εἰς τὰς ὁδοὺς συνήγαγον πάντας οὓς εὗρον, πονηρούς τε καὶ ἀγαθούς· καὶ ἐπλήσθη ὁ νυμφὼν ἀνακειμένων.",
+      "originalText": " καὶ ἐξελθόντες οἱ δοῦλοι\n  ἐκεῖνοι εἰς τὰς ὁδοὺς συνήγαγον πάντας οὓς εὗρον, πονηρούς τε καὶ\n  ἀγαθούς· καὶ ἐπλήσθη ὁ νυμφὼν ἀνακειμένων. "
+    },
+    {
+      "id": "MAT.22.11",
+      "sourceRef": "MAT.22.11",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/10",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.22.11"
+      ],
+      "mappingType": "exact",
+      "text": "εἰσελθὼν δὲ ὁ βασιλεὺς θεάσασθαι τοὺς ἀνακειμένους εἶδεν ἐκεῖ ἄνθρωπον οὐκ ἐνδεδυμένον ἔνδυμα γάμου·",
+      "originalText": " εἰσελθὼν δὲ ὁ βασιλεὺς θεάσασθαι τοὺς ἀνακειμένους\n  εἶδεν ἐκεῖ ἄνθρωπον οὐκ ἐνδεδυμένον ἔνδυμα γάμου· "
+    },
+    {
+      "id": "MAT.22.12",
+      "sourceRef": "MAT.22.12",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/11",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.22.12"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ λέγει αὐτῷ Ἑταῖρε, πῶς εἰσῆλθες ὧδε μὴ ἔχων ἔνδυμα γάμου; ὁ δὲ ἐφιμώθη.",
+      "originalText": " καὶ λέγει αὐτῷ Ἑταῖρε, πῶς εἰσῆλθες ὧδε μὴ ἔχων\n  ἔνδυμα γάμου; ὁ δὲ ἐφιμώθη. "
+    },
+    {
+      "id": "MAT.22.13",
+      "sourceRef": "MAT.22.13",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/12",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.22.13"
+      ],
+      "mappingType": "exact",
+      "text": "τότε ὁ βασιλεὺς εἶπεν τοῖς διακόνοις Δήσαντες αὐτοῦ πόδας καὶ χεῖρας ἐκβάλετε αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "originalText": " τότε ὁ\n  βασιλεὺς εἶπεν τοῖς διακόνοις Δήσαντες αὐτοῦ πόδας καὶ χεῖρας\n  ἐκβάλετε αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον· ἐκεῖ ἔσται ὁ κλαυθμὸς\n  καὶ ὁ βρυγμὸς τῶν ὀδόντων. "
+    },
+    {
+      "id": "MAT.22.14",
+      "sourceRef": "MAT.22.14",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/233/13",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.22.14"
+      ],
+      "mappingType": "exact",
+      "text": "Πολλοὶ γάρ εἰσιν κλητοὶ, ὀλίγοι δὲ ἐκλεκτοί.",
+      "originalText": " Πολλοὶ γάρ\n  εἰσιν κλητοὶ, ὀλίγοι δὲ ἐκλεκτοί.\n "
+    },
+    {
+      "id": "MAT.22.15",
+      "sourceRef": "MAT.22.15",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/0",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.22.15"
+      ],
+      "mappingType": "exact",
+      "text": "Τότε πορευθέντες οἱ Φαρισαῖοι συμβούλιον ἔλαβον ὅπως αὐτὸν παγιδεύσωσιν ἐν λόγῳ.",
+      "originalText": " Τότε\n  πορευθέντες οἱ Φαρισαῖοι συμβούλιον ἔλαβον ὅπως αὐτὸν\n  παγιδεύσωσιν ἐν λόγῳ. "
+    },
+    {
+      "id": "MAT.22.16",
+      "sourceRef": "MAT.22.16",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/1",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.22.16"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρῳδιανῶν λέγοντας Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ τὴν ὁδὸν τοῦ Θεοῦ ἐν ἀληθείᾳ διδάσκεις, καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων·",
+      "originalText": " καὶ\n  ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρῳδιανῶν λέγοντας\n  Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ τὴν ὁδὸν τοῦ Θεοῦ ἐν ἀληθείᾳ\n  διδάσκεις, καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς\n  πρόσωπον ἀνθρώπων· "
+    },
+    {
+      "id": "MAT.22.17",
+      "sourceRef": "MAT.22.17",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/2",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.22.17"
+      ],
+      "mappingType": "exact",
+      "text": "εἰπὸν οὖν ἡμῖν, τί σοι δοκεῖ; ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ;",
+      "originalText": " εἰπὸν οὖν ἡμῖν, τί\n  σοι δοκεῖ; ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ; "
+    },
+    {
+      "id": "MAT.22.18",
+      "sourceRef": "MAT.22.18",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/3",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.22.18"
+      ],
+      "mappingType": "exact",
+      "text": "γνοὺς δὲ ὁ Ἰησοῦς τὴν πονηρίαν αὐτῶν εἶπεν Τί με πειράζετε, ὑποκριταί;",
+      "originalText": " γνοὺς δὲ ὁ Ἰησοῦς τὴν πονηρίαν αὐτῶν εἶπεν Τί με\n  πειράζετε, ὑποκριταί; "
+    },
+    {
+      "id": "MAT.22.19",
+      "sourceRef": "MAT.22.19",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/4",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.22.19"
+      ],
+      "mappingType": "exact",
+      "text": "ἐπιδείξατέ μοι τὸ νόμισμα τοῦ κήνσου. οἱ δὲ προσήνεγκαν αὐτῷ δηνάριον.",
+      "originalText": " ἐπιδείξατέ μοι\n  τὸ νόμισμα τοῦ κήνσου. οἱ δὲ προσήνεγκαν αὐτῷ δηνάριον.\n  "
+    },
+    {
+      "id": "MAT.22.20",
+      "sourceRef": "MAT.22.20",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/5",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.22.20"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ λέγει αὐτοῖς Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή;",
+      "originalText": " καὶ λέγει αὐτοῖς Τίνος ἡ εἰκὼν αὕτη\n  καὶ ἡ ἐπιγραφή; "
+    },
+    {
+      "id": "MAT.22.21",
+      "sourceRef": "MAT.22.21",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/6",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.22.21"
+      ],
+      "mappingType": "exact",
+      "text": "λέγουσιν· Καίσαρος. τότε λέγει αὐτοῖς Ἀπόδοτε οὖν τὰ Καίσαρος Καίσαρι καὶ τὰ τοῦ Θεοῦ τῷ Θεῷ.",
+      "originalText": " λέγουσιν· Καίσαρος.\n  τότε λέγει αὐτοῖς Ἀπόδοτε οὖν τὰ Καίσαρος Καίσαρι καὶ τὰ τοῦ Θεοῦ\n  τῷ Θεῷ. "
+    },
+    {
+      "id": "MAT.22.22",
+      "sourceRef": "MAT.22.22",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/234/0/7",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.22.22"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἀκούσαντες ἐθαύμασαν, καὶ ἀφέντες αὐτὸν ἀπῆλθαν.",
+      "originalText": " καὶ ἀκούσαντες ἐθαύμασαν, καὶ\n  ἀφέντες αὐτὸν ἀπῆλθαν.\n "
+    },
+    {
+      "id": "MAT.22.23",
+      "sourceRef": "MAT.22.23",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/0",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.22.23"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐν ἐκείνῃ τῇ ἡμέρᾳ προσῆλθον αὐτῷ Σαδδουκαῖοι, λέγοντες μὴ εἶναι ἀνάστασιν, καὶ ἐπηρώτησαν αὐτὸν",
+      "originalText": " Ἐν ἐκείνῃ τῇ\n  ἡμέρᾳ προσῆλθον αὐτῷ Σαδδουκαῖοι, λέγοντες μὴ εἶναι ἀνάστασιν,\n  καὶ ἐπηρώτησαν αὐτὸν "
+    },
+    {
+      "id": "MAT.22.24",
+      "sourceRef": "MAT.22.24",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/1",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.22.24"
+      ],
+      "mappingType": "exact",
+      "text": "λέγοντες Διδάσκαλε, Μωϋσῆς εἶπεν Ἐάν τις ἀποθάνῃ μὴ ἔχων τέκνα, ἐπιγαμβρεύσει ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ καὶ ἀναστήσει σπέρμα τῷ ἀδελφῷ αὐτοῦ.",
+      "originalText": " λέγοντες\n  Διδάσκαλε, Μωϋσῆς εἶπεν Ἐάν τις ἀποθάνῃ μὴ ἔχων\n  τέκνα, ἐπιγαμβρεύσει ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ καὶ\n  ἀναστήσει σπέρμα τῷ ἀδελφῷ αὐτοῦ. "
+    },
+    {
+      "id": "MAT.22.25",
+      "sourceRef": "MAT.22.25",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/3",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.22.25"
+      ],
+      "mappingType": "exact",
+      "text": "ἦσαν δὲ παρ’ ἡμῖν ἑπτὰ ἀδελφοί· καὶ ὁ πρῶτος γήμας ἐτελεύτησεν, καὶ μὴ ἔχων σπέρμα ἀφῆκεν τὴν γυναῖκα αὐτοῦ τῷ ἀδελφῷ αὐτοῦ·",
+      "originalText": " ἦσαν δὲ παρ’ ἡμῖν ἑπτὰ ἀδελφοί· καὶ ὁ πρῶτος γήμας\n  ἐτελεύτησεν, καὶ μὴ ἔχων σπέρμα ἀφῆκεν τὴν γυναῖκα αὐτοῦ τῷ\n  ἀδελφῷ αὐτοῦ· "
+    },
+    {
+      "id": "MAT.22.26",
+      "sourceRef": "MAT.22.26",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/4",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.22.26"
+      ],
+      "mappingType": "exact",
+      "text": "ὁμοίως καὶ ὁ δεύτερος καὶ ὁ τρίτος, ἕως τῶν ἑπτά·",
+      "originalText": " ὁμοίως καὶ ὁ δεύτερος\n  καὶ ὁ τρίτος, ἕως τῶν ἑπτά· "
+    },
+    {
+      "id": "MAT.22.27",
+      "sourceRef": "MAT.22.27",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/5",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.22.27"
+      ],
+      "mappingType": "exact",
+      "text": "ὕστερον δὲ πάντων ἀπέθανεν ἡ γυνή.",
+      "originalText": " ὕστερον δὲ\n  πάντων ἀπέθανεν ἡ γυνή. "
+    },
+    {
+      "id": "MAT.22.28",
+      "sourceRef": "MAT.22.28",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/6",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.22.28"
+      ],
+      "mappingType": "exact",
+      "text": "ἐν τῇ ἀναστάσει οὖν τίνος τῶν ἑπτὰ ἔσται γυνή; πάντες γὰρ ἔσχον αὐτήν.",
+      "originalText": " ἐν τῇ\n  ἀναστάσει οὖν τίνος τῶν ἑπτὰ ἔσται γυνή; πάντες γὰρ ἔσχον αὐτήν.\n  "
+    },
+    {
+      "id": "MAT.22.29",
+      "sourceRef": "MAT.22.29",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/7",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.22.29"
+      ],
+      "mappingType": "exact",
+      "text": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς Πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ Θεοῦ.",
+      "originalText": " ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς\n  Πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ Θεοῦ.\n  "
+    },
+    {
+      "id": "MAT.22.30",
+      "sourceRef": "MAT.22.30",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/8",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.22.30"
+      ],
+      "mappingType": "exact",
+      "text": "ἐν γὰρ τῇ ἀναστάσει οὔτε γαμοῦσιν οὔτε γαμίζονται, ἀλλ’ ὡς ἄγγελοι ἐν τῷ οὐρανῷ εἰσιν.",
+      "originalText": " ἐν γὰρ τῇ ἀναστάσει οὔτε γαμοῦσιν οὔτε\n  γαμίζονται, ἀλλ’ ὡς ἄγγελοι ἐν τῷ οὐρανῷ εἰσιν. "
+    },
+    {
+      "id": "MAT.22.31",
+      "sourceRef": "MAT.22.31",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/9",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.22.31"
+      ],
+      "mappingType": "exact",
+      "text": "περὶ δὲ τῆς ἀναστάσεως τῶν νεκρῶν οὐκ ἀνέγνωτε τὸ ῥηθὲν ὑμῖν ὑπὸ τοῦ Θεοῦ λέγοντος",
+      "originalText": " περὶ δὲ τῆς ἀναστάσεως τῶν νεκρῶν οὐκ ἀνέγνωτε τὸ\n  ῥηθὲν ὑμῖν ὑπὸ τοῦ Θεοῦ λέγοντος "
+    },
+    {
+      "id": "MAT.22.32",
+      "sourceRef": "MAT.22.32",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/10",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.22.32"
+      ],
+      "mappingType": "exact",
+      "text": "Ἐγώ εἰμι ὁ Θεὸς Ἀβραὰμ καὶ ὁ Θεὸς Ἰσαὰκ καὶ ὁ Θεὸς Ἰακώβ; οὐκ ἔστιν ὁ Θεὸς νεκρῶν ἀλλὰ ζώντων.",
+      "originalText": "\n  Ἐγώ εἰμι ὁ Θεὸς Ἀβραὰμ καὶ ὁ Θεὸς Ἰσαὰκ καὶ ὁ\n  Θεὸς Ἰακώβ; οὐκ ἔστιν ὁ Θεὸς νεκρῶν ἀλλὰ ζώντων.\n  "
+    },
+    {
+      "id": "MAT.22.33",
+      "sourceRef": "MAT.22.33",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/235/0/12",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.22.33"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἀκούσαντες οἱ ὄχλοι ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ.",
+      "originalText": " καὶ ἀκούσαντες οἱ ὄχλοι ἐξεπλήσσοντο\n  ἐπὶ τῇ διδαχῇ αὐτοῦ.\n "
+    },
+    {
+      "id": "MAT.22.34",
+      "sourceRef": "MAT.22.34",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/0",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.22.34"
+      ],
+      "mappingType": "exact",
+      "text": "Οἱ δὲ Φαρισαῖοι ἀκούσαντες ὅτι ἐφίμωσεν τοὺς Σαδδουκαίους, συνήχθησαν ἐπὶ τὸ αὐτό,",
+      "originalText": " Οἱ δὲ\n  Φαρισαῖοι ἀκούσαντες ὅτι ἐφίμωσεν τοὺς Σαδδουκαίους, συνήχθησαν\n  ἐπὶ τὸ αὐτό, "
+    },
+    {
+      "id": "MAT.22.35",
+      "sourceRef": "MAT.22.35",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/1",
+      "sourceLabel": "35",
+      "anchors": [
+        "MAT.22.35"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐπηρώτησεν εἷς ἐξ αὐτῶν νομικὸς πειράζων αὐτόν",
+      "originalText": " καὶ ἐπηρώτησεν εἷς ἐξ\n  αὐτῶν νομικὸς πειράζων αὐτόν "
+    },
+    {
+      "id": "MAT.22.36",
+      "sourceRef": "MAT.22.36",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/2",
+      "sourceLabel": "36",
+      "anchors": [
+        "MAT.22.36"
+      ],
+      "mappingType": "exact",
+      "text": "Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ;",
+      "originalText": "\n  Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ; "
+    },
+    {
+      "id": "MAT.22.37",
+      "sourceRef": "MAT.22.37",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/3",
+      "sourceLabel": "37",
+      "anchors": [
+        "MAT.22.37"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ ἔφη αὐτῷ Ἀγαπήσεις κύριον τὸν Θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου καὶ ἐν ὅλῃ τῇ ψυχῇ σου καὶ ἐν ὅλῃ τῇ διανοίᾳ σου.",
+      "originalText": " ὁ δὲ ἔφη αὐτῷ Ἀγαπήσεις κύριον\n  τὸν Θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου καὶ ἐν ὅλῃ τῇ ψυχῇ σου καὶ ἐν\n  ὅλῃ τῇ διανοίᾳ σου. "
+    },
+    {
+      "id": "MAT.22.38",
+      "sourceRef": "MAT.22.38",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/5",
+      "sourceLabel": "38",
+      "anchors": [
+        "MAT.22.38"
+      ],
+      "mappingType": "exact",
+      "text": "αὕτη ἐστὶν ἡ μεγάλη καὶ πρώτη ἐντολή.",
+      "originalText": " αὕτη ἐστὶν\n  ἡ μεγάλη καὶ πρώτη ἐντολή. "
+    },
+    {
+      "id": "MAT.22.39",
+      "sourceRef": "MAT.22.39",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/6",
+      "sourceLabel": "39",
+      "anchors": [
+        "MAT.22.39"
+      ],
+      "mappingType": "exact",
+      "text": "δευτέρα ὁμοία αὐτῇ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.",
+      "originalText": " δευτέρα\n  ὁμοία αὐτῇ Ἀγαπήσεις τὸν πλησίον σου ὡς\n  σεαυτόν. "
+    },
+    {
+      "id": "MAT.22.40",
+      "sourceRef": "MAT.22.40",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/8",
+      "sourceLabel": "40",
+      "anchors": [
+        "MAT.22.40"
+      ],
+      "mappingType": "exact",
+      "text": "ἐν ταύταις ταῖς δυσὶν ἐντολαῖς ὅλος ὁ νόμος κρέμαται καὶ οἱ προφῆται.",
+      "originalText": " ἐν ταύταις ταῖς δυσὶν\n  ἐντολαῖς ὅλος ὁ νόμος κρέμαται καὶ οἱ προφῆται. "
+    },
+    {
+      "id": "MAT.22.41",
+      "sourceRef": "MAT.22.41",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/9",
+      "sourceLabel": "41",
+      "anchors": [
+        "MAT.22.41"
+      ],
+      "mappingType": "exact",
+      "text": "Συνηγμένων δὲ τῶν Φαρισαίων ἐπηρώτησεν αὐτοὺς ὁ Ἰησοῦς",
+      "originalText": " Συνηγμένων δὲ τῶν Φαρισαίων ἐπηρώτησεν αὐτοὺς ὁ\n  Ἰησοῦς "
+    },
+    {
+      "id": "MAT.22.42",
+      "sourceRef": "MAT.22.42",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/10",
+      "sourceLabel": "42",
+      "anchors": [
+        "MAT.22.42"
+      ],
+      "mappingType": "exact",
+      "text": "λέγων Τί ὑμῖν δοκεῖ περὶ τοῦ Χριστοῦ; τίνος υἱός ἐστιν; λέγουσιν αὐτῷ Τοῦ Δαυείδ.",
+      "originalText": " λέγων Τί ὑμῖν δοκεῖ περὶ τοῦ\n  Χριστοῦ; τίνος υἱός ἐστιν; λέγουσιν αὐτῷ Τοῦ Δαυείδ. "
+    },
+    {
+      "id": "MAT.22.43",
+      "sourceRef": "MAT.22.43",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/236/0/11",
+      "sourceLabel": "43",
+      "anchors": [
+        "MAT.22.43"
+      ],
+      "mappingType": "exact",
+      "text": "λέγει αὐτοῖς Πῶς οὖν Δαυεὶδ ἐν Πνεύματι καλεῖ αὐτὸν Κύριον λέγων",
+      "originalText": " λέγει αὐτοῖς Πῶς οὖν Δαυεὶδ ἐν Πνεύματι καλεῖ\n  αὐτὸν Κύριον λέγων\n "
+    },
+    {
+      "id": "MAT.22.44",
+      "sourceRef": "MAT.22.44",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/237/0/0",
+      "sourceLabel": "44",
+      "anchors": [
+        "MAT.22.44"
+      ],
+      "mappingType": "exact",
+      "text": "Εἶπεν Κύριος τῷ Κυρίῳ μου Κάθου ἐκ δεξιῶν μου ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου;",
+      "originalText": " Εἶπεν Κύριος τῷ Κυρίῳ μου Κάθου ἐκ δεξιῶν\n  μου\n ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν\n  ποδῶν\n  σου;\n"
+    },
+    {
+      "id": "MAT.22.45",
+      "sourceRef": "MAT.22.45",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/240/0",
+      "sourceLabel": "45",
+      "anchors": [
+        "MAT.22.45"
+      ],
+      "mappingType": "exact",
+      "text": "εἰ οὖν Δαυεὶδ καλεῖ αὐτὸν Κύριον, πῶς υἱὸς αὐτοῦ ἐστιν;",
+      "originalText": " εἰ οὖν Δαυεὶδ καλεῖ\n  αὐτὸν Κύριον, πῶς υἱὸς αὐτοῦ ἐστιν; "
+    },
+    {
+      "id": "MAT.22.46",
+      "sourceRef": "MAT.22.46",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/240/1",
+      "sourceLabel": "46",
+      "anchors": [
+        "MAT.22.46"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέν τις ἀπ’ ἐκείνης τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι.",
+      "originalText": "\n  καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέν τις ἀπ’\n  ἐκείνης τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι."
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MAT.22.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.1",
+          "sourceRef": "MAT.22.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.2",
+          "sourceRef": "MAT.22.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.3",
+          "sourceRef": "MAT.22.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.4",
+          "sourceRef": "MAT.22.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.5",
+          "sourceRef": "MAT.22.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.6",
+          "sourceRef": "MAT.22.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.7",
+          "sourceRef": "MAT.22.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.8",
+          "sourceRef": "MAT.22.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.9",
+          "sourceRef": "MAT.22.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.10",
+          "sourceRef": "MAT.22.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.11",
+          "sourceRef": "MAT.22.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.12",
+          "sourceRef": "MAT.22.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.13",
+          "sourceRef": "MAT.22.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.14",
+          "sourceRef": "MAT.22.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.15",
+          "sourceRef": "MAT.22.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.16",
+          "sourceRef": "MAT.22.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.17",
+          "sourceRef": "MAT.22.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.18",
+          "sourceRef": "MAT.22.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.19",
+          "sourceRef": "MAT.22.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.20",
+          "sourceRef": "MAT.22.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.21",
+          "sourceRef": "MAT.22.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.22",
+          "sourceRef": "MAT.22.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.23",
+          "sourceRef": "MAT.22.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.24",
+          "sourceRef": "MAT.22.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.25",
+          "sourceRef": "MAT.22.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.26",
+          "sourceRef": "MAT.22.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.27",
+          "sourceRef": "MAT.22.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.28",
+          "sourceRef": "MAT.22.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.29",
+          "sourceRef": "MAT.22.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.30",
+          "sourceRef": "MAT.22.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.31",
+          "sourceRef": "MAT.22.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.32",
+          "sourceRef": "MAT.22.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.33",
+          "sourceRef": "MAT.22.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.34",
+          "sourceRef": "MAT.22.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.35",
+          "sourceRef": "MAT.22.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.36",
+          "sourceRef": "MAT.22.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.37",
+          "sourceRef": "MAT.22.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.38",
+          "sourceRef": "MAT.22.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.39",
+          "sourceRef": "MAT.22.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.40",
+          "sourceRef": "MAT.22.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.41",
+          "sourceRef": "MAT.22.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.42",
+          "sourceRef": "MAT.22.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.43",
+          "sourceRef": "MAT.22.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.44",
+          "sourceRef": "MAT.22.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.45",
+          "sourceRef": "MAT.22.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.46",
+          "sourceRef": "MAT.22.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "n1904-2026-09-05-m2-v1"
+}

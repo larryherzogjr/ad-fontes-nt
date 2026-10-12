@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "csntm-sinaiticus-additions-2026-10-11-v2",
+  "status": "transcription-mapping-candidate",
+  "manuscript": {
+    "gregoryAland": "01",
+    "name": "Codex Sinaiticus",
+    "date": "fourth century",
+    "material": "parchment",
+    "holdingInstitution": "British Library",
+    "shelfmark": "Add MS 43725"
+  },
+  "sourceBoundary": "The official transcription verifies page locators and recorded readings. CSNTM supplies the corresponding facsimile image records. Neither source by itself establishes textual weight, autograph wording, or another witness's reading.",
+  "units": [
+    {
+      "unitId": "candidate-105",
+      "title": "Many Called, Few Chosen? The Ending of Matthew 20:16",
+      "ranges": [
+        {
+          "start": "MAT.20.16",
+          "end": "MAT.20.16"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "MAT.20.16",
+          "status": "present",
+          "transcriptionId": "V-B33K20V16-33-MATT",
+          "start": {
+            "page": {
+              "id": "S-75-4r",
+              "n": "75-4r",
+              "archive": "BL",
+              "localFolio": "211"
+            },
+            "column": {
+              "id": "S-75-4r-2",
+              "n": "2"
+            },
+            "line": {
+              "id": "S-75-4r-2-12",
+              "n": "12"
+            }
+          },
+          "mainTranscription": "ουτωϲ εϲον\nτε οι εϲχατοι πρω\nτοι και οι πρωτοι εϲχατοι",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141858,
+          "sourceImageName": "GA_01_NT_0012a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141858",
+          "sinaiticusPageId": "S-75-4r",
+          "localFolio": "211"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand verse ends with the reversal of first and last; the additional saying about many called and few chosen is not in the verse record.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-106",
+      "title": "Carried Up into Heaven: The Double Brackets in Luke 24:51",
+      "ranges": [
+        {
+          "start": "LUK.24.51",
+          "end": "LUK.24.51"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "LUK.24.51",
+          "status": "present",
+          "transcriptionId": "V-B35K24V51-35-LUKE",
+          "start": {
+            "page": {
+              "id": "S-79-7v",
+              "n": "79-7v",
+              "archive": "BL",
+              "localFolio": "246b"
+            },
+            "column": {
+              "id": "S-79-7v-4",
+              "n": "4"
+            },
+            "line": {
+              "id": "S-79-7v-4-13",
+              "n": "13"
+            }
+          },
+          "mainTranscription": "και εγενετο εν τω ευλογιν αυτο αυτουϲ διεϲτη απ αυτων",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "κ(αι) ανεφερετο ειϲ τον ουνον"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141929,
+          "sourceImageName": "GA_01_NT_0047b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141929",
+          "sinaiticusPageId": "S-79-7v",
+          "localFolio": "246b"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand verse ends after Jesus parts from the disciples; corrector ca supplies the clause describing his being carried up into heaven.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-107",
+      "title": "Bethany or Bethabara? Where John Was Baptizing",
+      "ranges": [
+        {
+          "start": "JHN.1.28",
+          "end": "JHN.1.28"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "JHN.1.28",
+          "status": "present",
+          "transcriptionId": "V-B36K1V28-36-JOHN",
+          "start": {
+            "page": {
+              "id": "S-80-1r",
+              "n": "80-1r",
+              "archive": "BL",
+              "localFolio": "247"
+            },
+            "column": {
+              "id": "S-80-1r-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-80-1r-3-38",
+              "n": "38"
+            }
+          },
+          "mainTranscription": "ταυτα εγενετο εν βηθανια περαν του ιορδανου ποταμου : οπου ην ο ϊωαν\nνηϲ βαπτιζων ·",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "βηθανια"
+                },
+                {
+                  "type": "corr",
+                  "hand": "cb2",
+                  "text": "βηθαραβα"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 141930,
+          "sourceImageName": "GA_01_NT_0048a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=141930",
+          "sinaiticusPageId": "S-80-1r",
+          "localFolio": "247"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads βηθανια (Bethany); corrector cb2 changes the name to βηθαραβα. The correction's exact spelling is preserved rather than normalized to the displayed TR form.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-108",
+      "title": "Redemption—Through His Blood? Colossians 1:14",
+      "ranges": [
+        {
+          "start": "COL.1.14",
+          "end": "COL.1.14"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "COL.1.14",
+          "status": "present",
+          "transcriptionId": "V-B43K1V14-43-COL",
+          "start": {
+            "page": {
+              "id": "S-85-1r",
+              "n": "85-1r",
+              "archive": "BL",
+              "localFolio": "285"
+            },
+            "column": {
+              "id": "S-85-1r-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-85-1r-1-36",
+              "n": "36"
+            }
+          },
+          "mainTranscription": "εν ω εχο\nμεν την απολυ\nτρωϲιν την αφε\nϲιν των αμαρτι\nων",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142006,
+          "sourceImageName": "GA_01_NT_0086a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142006",
+          "sinaiticusPageId": "S-85-1r",
+          "localFolio": "285"
+        }
+      ],
+      "proposedCaptionClaim": "The first-hand verse has redemption followed by forgiveness of sins, without an intervening phrase about his blood.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-109",
+      "title": "By God’s Grace—or Apart from God? Hebrews 2:9",
+      "ranges": [
+        {
+          "start": "HEB.2.9",
+          "end": "HEB.2.9"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "HEB.2.9",
+          "status": "present",
+          "transcriptionId": "V-B46K2V9-46-HEB",
+          "start": {
+            "page": {
+              "id": "S-85-5r",
+              "n": "85-5r",
+              "archive": "BL",
+              "localFolio": "289"
+            },
+            "column": {
+              "id": "S-85-5r-3",
+              "n": "3"
+            },
+            "line": {
+              "id": "S-85-5r-3-6",
+              "n": "6"
+            }
+          },
+          "mainTranscription": "τον δε βραχυ τι παρ αγ\nγελουϲ ηλαττωμενο βλεπομεν ιν δια το παθημα του θανα\nτου δοξη και τιμη εϲτεφανωμενον οπωϲ χαριτι θυ ϋ\nπερ παντοϲ γευϲη\nται θανατου",
+          "corrections": []
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142014,
+          "sourceImageName": "GA_01_NT_0090a.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142014",
+          "sinaiticusPageId": "S-85-5r",
+          "localFolio": "289"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads χαριτι followed by the nomen sacrum for God, corresponding to 'by the grace of God'; it does not supply the apart-from-God alternative.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    },
+    {
+      "unitId": "candidate-110",
+      "title": "Freed Us or Washed Us? Revelation 1:5",
+      "ranges": [
+        {
+          "start": "REV.1.5",
+          "end": "REV.1.5"
+        }
+      ],
+      "targetVerses": [
+        {
+          "osis": "REV.1.5",
+          "status": "present",
+          "transcriptionId": "V-B59K1V5-59-REV",
+          "start": {
+            "page": {
+              "id": "S-90-1v",
+              "n": "90-1v",
+              "archive": "BL",
+              "localFolio": "325b"
+            },
+            "column": {
+              "id": "S-90-1v-1",
+              "n": "1"
+            },
+            "line": {
+              "id": "S-90-1v-1-31",
+              "n": "31"
+            }
+          },
+          "mainTranscription": "και α\nπο ιυ χυ ο μαρτυϲ ο πιϲτοϲ ο πρωτοτοκοϲ τω νεκρων και ο αρχω των βαϲειλειων τηϲ γηϲ αγαπωντι ημαϲ και λυϲαντι εκ των αμαρτιων ημων εν τω αιμα\nτι αυτου",
+          "corrections": [
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "μαρτυϲ"
+                },
+                {
+                  "type": "corr",
+                  "hand": "d",
+                  "text": "μάρτυϲ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "βαϲειλειων"
+                },
+                {
+                  "type": "corr",
+                  "hand": "S1",
+                  "text": "βαϲειλεων"
+                },
+                {
+                  "type": "corr",
+                  "hand": "corr",
+                  "text": "βαϲειλεων"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "τω"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": ""
+                },
+                {
+                  "type": "corr",
+                  "hand": "ca",
+                  "text": "ημαϲ"
+                }
+              ]
+            },
+            {
+              "readings": [
+                {
+                  "type": "main-corr",
+                  "hand": "",
+                  "text": "αιμα\nτι"
+                },
+                {
+                  "type": "corr",
+                  "hand": "d",
+                  "text": "αίματι"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextVerses": [],
+      "pages": [
+        {
+          "sourceImageId": 142087,
+          "sourceImageName": "GA_01_NT_0126b.jpg",
+          "sourceDetailsUrl": "https://manuscripts.csntm.org/manuscript/ImageDetails?imageId=142087",
+          "sinaiticusPageId": "S-90-1v",
+          "localFolio": "325b"
+        }
+      ],
+      "proposedCaptionClaim": "The first hand reads λυϲαντι, corresponding to 'released/freed', rather than the washing verb.",
+      "demonstrates": "The facsimile page and official transcription permit inspection of this witness's reading and recorded corrections in their page context.",
+      "doesNotEstablish": "This single witness does not by itself establish the autograph reading, the reading of any other manuscript, or the relative weight of the alternatives.",
+      "readingReviewStatus": "primary-transcription-verified-candidate",
+      "plateDecision": "proposed"
+    }
+  ]
+}

@@ -1,0 +1,1261 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "EPH.1.1",
+          "anchors": [
+            "EPH.1.1"
+          ],
+          "sourceAnchor": "EPH.1.1"
+        },
+        {
+          "text": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:\n",
+          "anchor": "EPH.1.1",
+          "marks": [],
+          "anchors": [
+            "EPH.1.1"
+          ],
+          "sourceAnchor": "EPH.1.1"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.1",
+          "marks": [],
+          "anchors": [
+            "EPH.1.1"
+          ],
+          "sourceAnchor": "EPH.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "EPH.1.2",
+          "anchors": [
+            "EPH.1.2"
+          ],
+          "sourceAnchor": "EPH.1.2"
+        },
+        {
+          "text": "Grace to you, and peace from God our Father, and the Lord Jesus Christ!\n",
+          "anchor": "EPH.1.2",
+          "marks": [],
+          "anchors": [
+            "EPH.1.2"
+          ],
+          "sourceAnchor": "EPH.1.2"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.2",
+          "marks": [],
+          "anchors": [
+            "EPH.1.2"
+          ],
+          "sourceAnchor": "EPH.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "EPH.1.3",
+          "anchors": [
+            "EPH.1.3"
+          ],
+          "sourceAnchor": "EPH.1.3"
+        },
+        {
+          "text": "Blessed [is] the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,\n",
+          "anchor": "EPH.1.3",
+          "marks": [],
+          "anchors": [
+            "EPH.1.3"
+          ],
+          "sourceAnchor": "EPH.1.3"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.3",
+          "marks": [],
+          "anchors": [
+            "EPH.1.3"
+          ],
+          "sourceAnchor": "EPH.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "EPH.1.4",
+          "anchors": [
+            "EPH.1.4"
+          ],
+          "sourceAnchor": "EPH.1.4"
+        },
+        {
+          "text": "according as He did choose us in him before the foundation of the world, for our being holy and unblemished before Him, in love,\n",
+          "anchor": "EPH.1.4",
+          "marks": [],
+          "anchors": [
+            "EPH.1.4"
+          ],
+          "sourceAnchor": "EPH.1.4"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.4",
+          "marks": [],
+          "anchors": [
+            "EPH.1.4"
+          ],
+          "sourceAnchor": "EPH.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "EPH.1.5",
+          "anchors": [
+            "EPH.1.5"
+          ],
+          "sourceAnchor": "EPH.1.5"
+        },
+        {
+          "text": "having foreordained us to the adoption of sons through Jesus Christ to Himself, according to the good pleasure of His will,\n",
+          "anchor": "EPH.1.5",
+          "marks": [],
+          "anchors": [
+            "EPH.1.5"
+          ],
+          "sourceAnchor": "EPH.1.5"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.5",
+          "marks": [],
+          "anchors": [
+            "EPH.1.5"
+          ],
+          "sourceAnchor": "EPH.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "EPH.1.6",
+          "anchors": [
+            "EPH.1.6"
+          ],
+          "sourceAnchor": "EPH.1.6"
+        },
+        {
+          "text": "to the praise of the glory of His grace, in which He did make us accepted in the beloved,\n",
+          "anchor": "EPH.1.6",
+          "marks": [],
+          "anchors": [
+            "EPH.1.6"
+          ],
+          "sourceAnchor": "EPH.1.6"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.6",
+          "marks": [],
+          "anchors": [
+            "EPH.1.6"
+          ],
+          "sourceAnchor": "EPH.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "EPH.1.7",
+          "anchors": [
+            "EPH.1.7"
+          ],
+          "sourceAnchor": "EPH.1.7"
+        },
+        {
+          "text": "in whom we have the redemption through his blood, the remission of the trespasses, according to the riches of His grace,\n",
+          "anchor": "EPH.1.7",
+          "marks": [],
+          "anchors": [
+            "EPH.1.7"
+          ],
+          "sourceAnchor": "EPH.1.7"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.7",
+          "marks": [],
+          "anchors": [
+            "EPH.1.7"
+          ],
+          "sourceAnchor": "EPH.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "EPH.1.8",
+          "anchors": [
+            "EPH.1.8"
+          ],
+          "sourceAnchor": "EPH.1.8"
+        },
+        {
+          "text": "in which He did abound toward us in all wisdom and prudence,\n",
+          "anchor": "EPH.1.8",
+          "marks": [],
+          "anchors": [
+            "EPH.1.8"
+          ],
+          "sourceAnchor": "EPH.1.8"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.8",
+          "marks": [],
+          "anchors": [
+            "EPH.1.8"
+          ],
+          "sourceAnchor": "EPH.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "EPH.1.9",
+          "anchors": [
+            "EPH.1.9"
+          ],
+          "sourceAnchor": "EPH.1.9"
+        },
+        {
+          "text": "having made known to us the secret of His will, according to His good pleasure, that He purposed in Himself,\n",
+          "anchor": "EPH.1.9",
+          "marks": [],
+          "anchors": [
+            "EPH.1.9"
+          ],
+          "sourceAnchor": "EPH.1.9"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.9",
+          "marks": [],
+          "anchors": [
+            "EPH.1.9"
+          ],
+          "sourceAnchor": "EPH.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "EPH.1.10",
+          "anchors": [
+            "EPH.1.10"
+          ],
+          "sourceAnchor": "EPH.1.10"
+        },
+        {
+          "text": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth — in him;\n",
+          "anchor": "EPH.1.10",
+          "marks": [],
+          "anchors": [
+            "EPH.1.10"
+          ],
+          "sourceAnchor": "EPH.1.10"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.10",
+          "marks": [],
+          "anchors": [
+            "EPH.1.10"
+          ],
+          "sourceAnchor": "EPH.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "EPH.1.11",
+          "anchors": [
+            "EPH.1.11"
+          ],
+          "sourceAnchor": "EPH.1.11"
+        },
+        {
+          "text": "in whom also we did obtain an inheritance, being foreordained according to the purpose of Him who the all things is working according to the counsel of His will,\n",
+          "anchor": "EPH.1.11",
+          "marks": [],
+          "anchors": [
+            "EPH.1.11"
+          ],
+          "sourceAnchor": "EPH.1.11"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.11",
+          "marks": [],
+          "anchors": [
+            "EPH.1.11"
+          ],
+          "sourceAnchor": "EPH.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "EPH.1.12",
+          "anchors": [
+            "EPH.1.12"
+          ],
+          "sourceAnchor": "EPH.1.12"
+        },
+        {
+          "text": "for our being to the praise of His glory, [even] those who did first hope in the Christ,\n",
+          "anchor": "EPH.1.12",
+          "marks": [],
+          "anchors": [
+            "EPH.1.12"
+          ],
+          "sourceAnchor": "EPH.1.12"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.12",
+          "marks": [],
+          "anchors": [
+            "EPH.1.12"
+          ],
+          "sourceAnchor": "EPH.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "EPH.1.13",
+          "anchors": [
+            "EPH.1.13"
+          ],
+          "sourceAnchor": "EPH.1.13"
+        },
+        {
+          "text": "in whom ye also, having heard the word of the truth — the good news of your salvation — in whom also having believed, ye were sealed with the Holy Spirit of the promise,\n",
+          "anchor": "EPH.1.13",
+          "marks": [],
+          "anchors": [
+            "EPH.1.13"
+          ],
+          "sourceAnchor": "EPH.1.13"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.13",
+          "marks": [],
+          "anchors": [
+            "EPH.1.13"
+          ],
+          "sourceAnchor": "EPH.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "EPH.1.14",
+          "anchors": [
+            "EPH.1.14"
+          ],
+          "sourceAnchor": "EPH.1.14"
+        },
+        {
+          "text": "which is an earnest of our inheritance, to the redemption of the acquired possession, to the praise of His glory.\n",
+          "anchor": "EPH.1.14",
+          "marks": [],
+          "anchors": [
+            "EPH.1.14"
+          ],
+          "sourceAnchor": "EPH.1.14"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.14",
+          "marks": [],
+          "anchors": [
+            "EPH.1.14"
+          ],
+          "sourceAnchor": "EPH.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "EPH.1.15",
+          "anchors": [
+            "EPH.1.15"
+          ],
+          "sourceAnchor": "EPH.1.15"
+        },
+        {
+          "text": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,\n",
+          "anchor": "EPH.1.15",
+          "marks": [],
+          "anchors": [
+            "EPH.1.15"
+          ],
+          "sourceAnchor": "EPH.1.15"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.15",
+          "marks": [],
+          "anchors": [
+            "EPH.1.15"
+          ],
+          "sourceAnchor": "EPH.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "EPH.1.16",
+          "anchors": [
+            "EPH.1.16"
+          ],
+          "sourceAnchor": "EPH.1.16"
+        },
+        {
+          "text": "do not cease giving thanks for you, making mention of you in my prayers,\n",
+          "anchor": "EPH.1.16",
+          "marks": [],
+          "anchors": [
+            "EPH.1.16"
+          ],
+          "sourceAnchor": "EPH.1.16"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.16",
+          "marks": [],
+          "anchors": [
+            "EPH.1.16"
+          ],
+          "sourceAnchor": "EPH.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "EPH.1.17",
+          "anchors": [
+            "EPH.1.17"
+          ],
+          "sourceAnchor": "EPH.1.17"
+        },
+        {
+          "text": "that the God of our Lord Jesus Christ, the Father of the glory, may give to you a spirit of wisdom and revelation in the recognition of him,\n",
+          "anchor": "EPH.1.17",
+          "marks": [],
+          "anchors": [
+            "EPH.1.17"
+          ],
+          "sourceAnchor": "EPH.1.17"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.17",
+          "marks": [],
+          "anchors": [
+            "EPH.1.17"
+          ],
+          "sourceAnchor": "EPH.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "EPH.1.18",
+          "anchors": [
+            "EPH.1.18"
+          ],
+          "sourceAnchor": "EPH.1.18"
+        },
+        {
+          "text": "the eyes of your understanding being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,\n",
+          "anchor": "EPH.1.18",
+          "marks": [],
+          "anchors": [
+            "EPH.1.18"
+          ],
+          "sourceAnchor": "EPH.1.18"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.18",
+          "marks": [],
+          "anchors": [
+            "EPH.1.18"
+          ],
+          "sourceAnchor": "EPH.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "EPH.1.19",
+          "anchors": [
+            "EPH.1.19"
+          ],
+          "sourceAnchor": "EPH.1.19"
+        },
+        {
+          "text": "and what the exceeding greatness of His power to us who are believing, according to the working of the power of His might,\n",
+          "anchor": "EPH.1.19",
+          "marks": [],
+          "anchors": [
+            "EPH.1.19"
+          ],
+          "sourceAnchor": "EPH.1.19"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.19",
+          "marks": [],
+          "anchors": [
+            "EPH.1.19"
+          ],
+          "sourceAnchor": "EPH.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "EPH.1.20",
+          "anchors": [
+            "EPH.1.20"
+          ],
+          "sourceAnchor": "EPH.1.20"
+        },
+        {
+          "text": "which He wrought in the Christ, having raised him out of the dead, and did set [him] at His right hand in the heavenly [places],\n",
+          "anchor": "EPH.1.20",
+          "marks": [],
+          "anchors": [
+            "EPH.1.20"
+          ],
+          "sourceAnchor": "EPH.1.20"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.20",
+          "marks": [],
+          "anchors": [
+            "EPH.1.20"
+          ],
+          "sourceAnchor": "EPH.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "EPH.1.21",
+          "anchors": [
+            "EPH.1.21"
+          ],
+          "sourceAnchor": "EPH.1.21"
+        },
+        {
+          "text": "far above all principality, and authority, and might, and lordship, and every name named, not only in this age, but also in the coming one;\n",
+          "anchor": "EPH.1.21",
+          "marks": [],
+          "anchors": [
+            "EPH.1.21"
+          ],
+          "sourceAnchor": "EPH.1.21"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.21",
+          "marks": [],
+          "anchors": [
+            "EPH.1.21"
+          ],
+          "sourceAnchor": "EPH.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "EPH.1.22",
+          "anchors": [
+            "EPH.1.22"
+          ],
+          "sourceAnchor": "EPH.1.22"
+        },
+        {
+          "text": "and all things He did put under his feet, and did give him — head over all things to the assembly,\n",
+          "anchor": "EPH.1.22",
+          "marks": [],
+          "anchors": [
+            "EPH.1.22"
+          ],
+          "sourceAnchor": "EPH.1.22"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.22",
+          "marks": [],
+          "anchors": [
+            "EPH.1.22"
+          ],
+          "sourceAnchor": "EPH.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "EPH.1.23",
+          "anchors": [
+            "EPH.1.23"
+          ],
+          "sourceAnchor": "EPH.1.23"
+        },
+        {
+          "text": "which is his body, the fulness of Him who is filling the all in all,\n",
+          "anchor": "EPH.1.23",
+          "marks": [],
+          "anchors": [
+            "EPH.1.23"
+          ],
+          "sourceAnchor": "EPH.1.23"
+        },
+        {
+          "text": "\n",
+          "anchor": "EPH.1.23",
+          "marks": [],
+          "anchors": [
+            "EPH.1.23"
+          ],
+          "sourceAnchor": "EPH.1.23"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "EPH.1.1",
+      "sourceRef": "EPH.1.1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[0]",
+      "sourceLabel": "1",
+      "anchors": [
+        "EPH.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:",
+      "originalText": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:\n\n"
+    },
+    {
+      "id": "EPH.1.2",
+      "sourceRef": "EPH.1.2",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[2]",
+      "sourceLabel": "2",
+      "anchors": [
+        "EPH.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "Grace to you, and peace from God our Father, and the Lord Jesus Christ!",
+      "originalText": "Grace to you, and peace from God our Father, and the Lord Jesus Christ!\n\n"
+    },
+    {
+      "id": "EPH.1.3",
+      "sourceRef": "EPH.1.3",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[4]",
+      "sourceLabel": "3",
+      "anchors": [
+        "EPH.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "Blessed [is] the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,",
+      "originalText": "Blessed [is] the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,\n\n"
+    },
+    {
+      "id": "EPH.1.4",
+      "sourceRef": "EPH.1.4",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[6]",
+      "sourceLabel": "4",
+      "anchors": [
+        "EPH.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "according as He did choose us in him before the foundation of the world, for our being holy and unblemished before Him, in love,",
+      "originalText": "according as He did choose us in him before the foundation of the world, for our being holy and unblemished before Him, in love,\n\n"
+    },
+    {
+      "id": "EPH.1.5",
+      "sourceRef": "EPH.1.5",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[8]",
+      "sourceLabel": "5",
+      "anchors": [
+        "EPH.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "having foreordained us to the adoption of sons through Jesus Christ to Himself, according to the good pleasure of His will,",
+      "originalText": "having foreordained us to the adoption of sons through Jesus Christ to Himself, according to the good pleasure of His will,\n\n"
+    },
+    {
+      "id": "EPH.1.6",
+      "sourceRef": "EPH.1.6",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[10]",
+      "sourceLabel": "6",
+      "anchors": [
+        "EPH.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "to the praise of the glory of His grace, in which He did make us accepted in the beloved,",
+      "originalText": "to the praise of the glory of His grace, in which He did make us accepted in the beloved,\n\n"
+    },
+    {
+      "id": "EPH.1.7",
+      "sourceRef": "EPH.1.7",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[12]",
+      "sourceLabel": "7",
+      "anchors": [
+        "EPH.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "in whom we have the redemption through his blood, the remission of the trespasses, according to the riches of His grace,",
+      "originalText": "in whom we have the redemption through his blood, the remission of the trespasses, according to the riches of His grace,\n\n"
+    },
+    {
+      "id": "EPH.1.8",
+      "sourceRef": "EPH.1.8",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[14]",
+      "sourceLabel": "8",
+      "anchors": [
+        "EPH.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "in which He did abound toward us in all wisdom and prudence,",
+      "originalText": "in which He did abound toward us in all wisdom and prudence,\n\n"
+    },
+    {
+      "id": "EPH.1.9",
+      "sourceRef": "EPH.1.9",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[16]",
+      "sourceLabel": "9",
+      "anchors": [
+        "EPH.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "having made known to us the secret of His will, according to His good pleasure, that He purposed in Himself,",
+      "originalText": "having made known to us the secret of His will, according to His good pleasure, that He purposed in Himself,\n\n"
+    },
+    {
+      "id": "EPH.1.10",
+      "sourceRef": "EPH.1.10",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[18]",
+      "sourceLabel": "10",
+      "anchors": [
+        "EPH.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth — in him;",
+      "originalText": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth — in him;\n\n"
+    },
+    {
+      "id": "EPH.1.11",
+      "sourceRef": "EPH.1.11",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[20]",
+      "sourceLabel": "11",
+      "anchors": [
+        "EPH.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "in whom also we did obtain an inheritance, being foreordained according to the purpose of Him who the all things is working according to the counsel of His will,",
+      "originalText": "in whom also we did obtain an inheritance, being foreordained according to the purpose of Him who the all things is working according to the counsel of His will,\n\n"
+    },
+    {
+      "id": "EPH.1.12",
+      "sourceRef": "EPH.1.12",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[22]",
+      "sourceLabel": "12",
+      "anchors": [
+        "EPH.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "for our being to the praise of His glory, [even] those who did first hope in the Christ,",
+      "originalText": "for our being to the praise of His glory, [even] those who did first hope in the Christ,\n\n"
+    },
+    {
+      "id": "EPH.1.13",
+      "sourceRef": "EPH.1.13",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[24]",
+      "sourceLabel": "13",
+      "anchors": [
+        "EPH.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "in whom ye also, having heard the word of the truth — the good news of your salvation — in whom also having believed, ye were sealed with the Holy Spirit of the promise,",
+      "originalText": "in whom ye also, having heard the word of the truth — the good news of your salvation — in whom also having believed, ye were sealed with the Holy Spirit of the promise,\n\n"
+    },
+    {
+      "id": "EPH.1.14",
+      "sourceRef": "EPH.1.14",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[26]",
+      "sourceLabel": "14",
+      "anchors": [
+        "EPH.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "which is an earnest of our inheritance, to the redemption of the acquired possession, to the praise of His glory.",
+      "originalText": "which is an earnest of our inheritance, to the redemption of the acquired possession, to the praise of His glory.\n\n"
+    },
+    {
+      "id": "EPH.1.15",
+      "sourceRef": "EPH.1.15",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[28]",
+      "sourceLabel": "15",
+      "anchors": [
+        "EPH.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,",
+      "originalText": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,\n\n"
+    },
+    {
+      "id": "EPH.1.16",
+      "sourceRef": "EPH.1.16",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[30]",
+      "sourceLabel": "16",
+      "anchors": [
+        "EPH.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "do not cease giving thanks for you, making mention of you in my prayers,",
+      "originalText": "do not cease giving thanks for you, making mention of you in my prayers,\n\n"
+    },
+    {
+      "id": "EPH.1.17",
+      "sourceRef": "EPH.1.17",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[32]",
+      "sourceLabel": "17",
+      "anchors": [
+        "EPH.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "that the God of our Lord Jesus Christ, the Father of the glory, may give to you a spirit of wisdom and revelation in the recognition of him,",
+      "originalText": "that the God of our Lord Jesus Christ, the Father of the glory, may give to you a spirit of wisdom and revelation in the recognition of him,\n\n"
+    },
+    {
+      "id": "EPH.1.18",
+      "sourceRef": "EPH.1.18",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[34]",
+      "sourceLabel": "18",
+      "anchors": [
+        "EPH.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "the eyes of your understanding being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,",
+      "originalText": "the eyes of your understanding being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,\n\n"
+    },
+    {
+      "id": "EPH.1.19",
+      "sourceRef": "EPH.1.19",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[36]",
+      "sourceLabel": "19",
+      "anchors": [
+        "EPH.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "and what the exceeding greatness of His power to us who are believing, according to the working of the power of His might,",
+      "originalText": "and what the exceeding greatness of His power to us who are believing, according to the working of the power of His might,\n\n"
+    },
+    {
+      "id": "EPH.1.20",
+      "sourceRef": "EPH.1.20",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[38]",
+      "sourceLabel": "20",
+      "anchors": [
+        "EPH.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "which He wrought in the Christ, having raised him out of the dead, and did set [him] at His right hand in the heavenly [places],",
+      "originalText": "which He wrought in the Christ, having raised him out of the dead, and did set [him] at His right hand in the heavenly [places],\n\n"
+    },
+    {
+      "id": "EPH.1.21",
+      "sourceRef": "EPH.1.21",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[40]",
+      "sourceLabel": "21",
+      "anchors": [
+        "EPH.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "far above all principality, and authority, and might, and lordship, and every name named, not only in this age, but also in the coming one;",
+      "originalText": "far above all principality, and authority, and might, and lordship, and every name named, not only in this age, but also in the coming one;\n\n"
+    },
+    {
+      "id": "EPH.1.22",
+      "sourceRef": "EPH.1.22",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[42]",
+      "sourceLabel": "22",
+      "anchors": [
+        "EPH.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "and all things He did put under his feet, and did give him — head over all things to the assembly,",
+      "originalText": "and all things He did put under his feet, and did give him — head over all things to the assembly,\n\n"
+    },
+    {
+      "id": "EPH.1.23",
+      "sourceRef": "EPH.1.23",
+      "sourceId": "engylt_usfx.xml#book[@id=\"EPH\"]/p[7]/v[44]",
+      "sourceLabel": "23",
+      "anchors": [
+        "EPH.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "which is his body, the fulness of Him who is filling the all in all,",
+      "originalText": "which is his body, the fulness of Him who is filling the all in all,\n\n"
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "EPH.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.1",
+          "sourceRef": "EPH.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.2",
+          "sourceRef": "EPH.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.3",
+          "sourceRef": "EPH.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.4",
+          "sourceRef": "EPH.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.5",
+          "sourceRef": "EPH.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.6",
+          "sourceRef": "EPH.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.7",
+          "sourceRef": "EPH.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.8",
+          "sourceRef": "EPH.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.9",
+          "sourceRef": "EPH.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.10",
+          "sourceRef": "EPH.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.11",
+          "sourceRef": "EPH.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.12",
+          "sourceRef": "EPH.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.13",
+          "sourceRef": "EPH.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.14",
+          "sourceRef": "EPH.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.15",
+          "sourceRef": "EPH.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.16",
+          "sourceRef": "EPH.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.17",
+          "sourceRef": "EPH.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.18",
+          "sourceRef": "EPH.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.19",
+          "sourceRef": "EPH.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.20",
+          "sourceRef": "EPH.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.21",
+          "sourceRef": "EPH.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.22",
+          "sourceRef": "EPH.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "EPH.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "EPH",
+          "chapter": 1,
+          "segmentId": "EPH.1.23",
+          "sourceRef": "EPH.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "ylt-2026-09-05-m2-v1"
+}

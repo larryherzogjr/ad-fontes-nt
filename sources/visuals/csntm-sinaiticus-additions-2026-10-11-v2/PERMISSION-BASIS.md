@@ -1,0 +1,3 @@
+# Permission basis — October 11, 2026
+
+This private six-page review candidate uses the owner-reported project decision preserved in sources/visuals/csntm-sinaiticus-expansion-2026-09-13-v2/PERMISSION-BASIS.md and the original September 12 rights record. The selected applicable CSNTM images are intended only for the free educational Ad Fontes website and offline desktop distribution, with full institutional/source credits. No general commercial licence, sublicence, new correspondence or independently inspected private permission is claimed. The specific captions, readings and assets are still candidates awaiting owner review.

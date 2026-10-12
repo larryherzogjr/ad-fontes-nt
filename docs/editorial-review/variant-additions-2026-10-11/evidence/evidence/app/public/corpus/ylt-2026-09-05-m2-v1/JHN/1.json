@@ -1,0 +1,2773 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "JHN.1.1",
+          "anchors": [
+            "JHN.1.1"
+          ],
+          "sourceAnchor": "JHN.1.1"
+        },
+        {
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God;\n",
+          "anchor": "JHN.1.1",
+          "marks": [],
+          "anchors": [
+            "JHN.1.1"
+          ],
+          "sourceAnchor": "JHN.1.1"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.1",
+          "marks": [],
+          "anchors": [
+            "JHN.1.1"
+          ],
+          "sourceAnchor": "JHN.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "JHN.1.2",
+          "anchors": [
+            "JHN.1.2"
+          ],
+          "sourceAnchor": "JHN.1.2"
+        },
+        {
+          "text": "this one was in the beginning with God;\n",
+          "anchor": "JHN.1.2",
+          "marks": [],
+          "anchors": [
+            "JHN.1.2"
+          ],
+          "sourceAnchor": "JHN.1.2"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.2",
+          "marks": [],
+          "anchors": [
+            "JHN.1.2"
+          ],
+          "sourceAnchor": "JHN.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "JHN.1.3",
+          "anchors": [
+            "JHN.1.3"
+          ],
+          "sourceAnchor": "JHN.1.3"
+        },
+        {
+          "text": "all things through him did happen, and without him happened not even one thing that hath happened.\n",
+          "anchor": "JHN.1.3",
+          "marks": [],
+          "anchors": [
+            "JHN.1.3"
+          ],
+          "sourceAnchor": "JHN.1.3"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.3",
+          "marks": [],
+          "anchors": [
+            "JHN.1.3"
+          ],
+          "sourceAnchor": "JHN.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "JHN.1.4",
+          "anchors": [
+            "JHN.1.4"
+          ],
+          "sourceAnchor": "JHN.1.4"
+        },
+        {
+          "text": "In him was life, and the life was the light of men,\n",
+          "anchor": "JHN.1.4",
+          "marks": [],
+          "anchors": [
+            "JHN.1.4"
+          ],
+          "sourceAnchor": "JHN.1.4"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.4",
+          "marks": [],
+          "anchors": [
+            "JHN.1.4"
+          ],
+          "sourceAnchor": "JHN.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "JHN.1.5",
+          "anchors": [
+            "JHN.1.5"
+          ],
+          "sourceAnchor": "JHN.1.5"
+        },
+        {
+          "text": "and the light in the darkness did shine, and the darkness did not perceive it.\n",
+          "anchor": "JHN.1.5",
+          "marks": [],
+          "anchors": [
+            "JHN.1.5"
+          ],
+          "sourceAnchor": "JHN.1.5"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.5",
+          "marks": [],
+          "anchors": [
+            "JHN.1.5"
+          ],
+          "sourceAnchor": "JHN.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "JHN.1.6",
+          "anchors": [
+            "JHN.1.6"
+          ],
+          "sourceAnchor": "JHN.1.6"
+        },
+        {
+          "text": "There came a man — having been sent from God — whose name [is] John,\n",
+          "anchor": "JHN.1.6",
+          "marks": [],
+          "anchors": [
+            "JHN.1.6"
+          ],
+          "sourceAnchor": "JHN.1.6"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.6",
+          "marks": [],
+          "anchors": [
+            "JHN.1.6"
+          ],
+          "sourceAnchor": "JHN.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "JHN.1.7",
+          "anchors": [
+            "JHN.1.7"
+          ],
+          "sourceAnchor": "JHN.1.7"
+        },
+        {
+          "text": "this one came for testimony, that he might testify about the Light, that all might believe through him;\n",
+          "anchor": "JHN.1.7",
+          "marks": [],
+          "anchors": [
+            "JHN.1.7"
+          ],
+          "sourceAnchor": "JHN.1.7"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.7",
+          "marks": [],
+          "anchors": [
+            "JHN.1.7"
+          ],
+          "sourceAnchor": "JHN.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "JHN.1.8",
+          "anchors": [
+            "JHN.1.8"
+          ],
+          "sourceAnchor": "JHN.1.8"
+        },
+        {
+          "text": "that one was not the Light, but — that he might testify about the Light.\n",
+          "anchor": "JHN.1.8",
+          "marks": [],
+          "anchors": [
+            "JHN.1.8"
+          ],
+          "sourceAnchor": "JHN.1.8"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.8",
+          "marks": [],
+          "anchors": [
+            "JHN.1.8"
+          ],
+          "sourceAnchor": "JHN.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "JHN.1.9",
+          "anchors": [
+            "JHN.1.9"
+          ],
+          "sourceAnchor": "JHN.1.9"
+        },
+        {
+          "text": "He was the true Light, which doth enlighten every man, coming to the world;\n",
+          "anchor": "JHN.1.9",
+          "marks": [],
+          "anchors": [
+            "JHN.1.9"
+          ],
+          "sourceAnchor": "JHN.1.9"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.9",
+          "marks": [],
+          "anchors": [
+            "JHN.1.9"
+          ],
+          "sourceAnchor": "JHN.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "JHN.1.10",
+          "anchors": [
+            "JHN.1.10"
+          ],
+          "sourceAnchor": "JHN.1.10"
+        },
+        {
+          "text": "in the world he was, and the world through him was made, and the world did not know him:\n",
+          "anchor": "JHN.1.10",
+          "marks": [],
+          "anchors": [
+            "JHN.1.10"
+          ],
+          "sourceAnchor": "JHN.1.10"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.10",
+          "marks": [],
+          "anchors": [
+            "JHN.1.10"
+          ],
+          "sourceAnchor": "JHN.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "JHN.1.11",
+          "anchors": [
+            "JHN.1.11"
+          ],
+          "sourceAnchor": "JHN.1.11"
+        },
+        {
+          "text": "to his own things he came, and his own people did not receive him;\n",
+          "anchor": "JHN.1.11",
+          "marks": [],
+          "anchors": [
+            "JHN.1.11"
+          ],
+          "sourceAnchor": "JHN.1.11"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.11",
+          "marks": [],
+          "anchors": [
+            "JHN.1.11"
+          ],
+          "sourceAnchor": "JHN.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "JHN.1.12",
+          "anchors": [
+            "JHN.1.12"
+          ],
+          "sourceAnchor": "JHN.1.12"
+        },
+        {
+          "text": "but as many as did receive him to them he gave authority to become sons of God — to those believing in his name,\n",
+          "anchor": "JHN.1.12",
+          "marks": [],
+          "anchors": [
+            "JHN.1.12"
+          ],
+          "sourceAnchor": "JHN.1.12"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.12",
+          "marks": [],
+          "anchors": [
+            "JHN.1.12"
+          ],
+          "sourceAnchor": "JHN.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "JHN.1.13",
+          "anchors": [
+            "JHN.1.13"
+          ],
+          "sourceAnchor": "JHN.1.13"
+        },
+        {
+          "text": "who — not of blood nor of a will of flesh, nor of a will of man but — of God were begotten.\n",
+          "anchor": "JHN.1.13",
+          "marks": [],
+          "anchors": [
+            "JHN.1.13"
+          ],
+          "sourceAnchor": "JHN.1.13"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.13",
+          "marks": [],
+          "anchors": [
+            "JHN.1.13"
+          ],
+          "sourceAnchor": "JHN.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "JHN.1.14",
+          "anchors": [
+            "JHN.1.14"
+          ],
+          "sourceAnchor": "JHN.1.14"
+        },
+        {
+          "text": "And the Word became flesh, and did tabernacle among us, and we beheld his glory, glory as of an only begotten of a father, full of grace and truth.\n",
+          "anchor": "JHN.1.14",
+          "marks": [],
+          "anchors": [
+            "JHN.1.14"
+          ],
+          "sourceAnchor": "JHN.1.14"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.14",
+          "marks": [],
+          "anchors": [
+            "JHN.1.14"
+          ],
+          "sourceAnchor": "JHN.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "JHN.1.15",
+          "anchors": [
+            "JHN.1.15"
+          ],
+          "sourceAnchor": "JHN.1.15"
+        },
+        {
+          "text": "John doth testify concerning him, and hath cried, saying, 'This was he of whom I said, He who after me is coming, hath come before me, for he was before me;'\n",
+          "anchor": "JHN.1.15",
+          "marks": [],
+          "anchors": [
+            "JHN.1.15"
+          ],
+          "sourceAnchor": "JHN.1.15"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.15",
+          "marks": [],
+          "anchors": [
+            "JHN.1.15"
+          ],
+          "sourceAnchor": "JHN.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "JHN.1.16",
+          "anchors": [
+            "JHN.1.16"
+          ],
+          "sourceAnchor": "JHN.1.16"
+        },
+        {
+          "text": "and out of his fulness did we all receive, and grace over-against grace;\n",
+          "anchor": "JHN.1.16",
+          "marks": [],
+          "anchors": [
+            "JHN.1.16"
+          ],
+          "sourceAnchor": "JHN.1.16"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.16",
+          "marks": [],
+          "anchors": [
+            "JHN.1.16"
+          ],
+          "sourceAnchor": "JHN.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "JHN.1.17",
+          "anchors": [
+            "JHN.1.17"
+          ],
+          "sourceAnchor": "JHN.1.17"
+        },
+        {
+          "text": "for the law through Moses was given, the grace and the truth through Jesus Christ did come;\n",
+          "anchor": "JHN.1.17",
+          "marks": [],
+          "anchors": [
+            "JHN.1.17"
+          ],
+          "sourceAnchor": "JHN.1.17"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.17",
+          "marks": [],
+          "anchors": [
+            "JHN.1.17"
+          ],
+          "sourceAnchor": "JHN.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "JHN.1.18",
+          "anchors": [
+            "JHN.1.18"
+          ],
+          "sourceAnchor": "JHN.1.18"
+        },
+        {
+          "text": "God no one hath ever seen; the only begotten Son, who is on the bosom of the Father — he did declare.\n",
+          "anchor": "JHN.1.18",
+          "marks": [],
+          "anchors": [
+            "JHN.1.18"
+          ],
+          "sourceAnchor": "JHN.1.18"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.18",
+          "marks": [],
+          "anchors": [
+            "JHN.1.18"
+          ],
+          "sourceAnchor": "JHN.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "JHN.1.19",
+          "anchors": [
+            "JHN.1.19"
+          ],
+          "sourceAnchor": "JHN.1.19"
+        },
+        {
+          "text": "And this is the testimony of John, when the Jews sent out of Jerusalem priests and Levites, that they might question him, 'Who art thou?'\n",
+          "anchor": "JHN.1.19",
+          "marks": [],
+          "anchors": [
+            "JHN.1.19"
+          ],
+          "sourceAnchor": "JHN.1.19"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.19",
+          "marks": [],
+          "anchors": [
+            "JHN.1.19"
+          ],
+          "sourceAnchor": "JHN.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "JHN.1.20",
+          "anchors": [
+            "JHN.1.20"
+          ],
+          "sourceAnchor": "JHN.1.20"
+        },
+        {
+          "text": "and he confessed and did not deny, and confessed — 'I am not the Christ.'\n",
+          "anchor": "JHN.1.20",
+          "marks": [],
+          "anchors": [
+            "JHN.1.20"
+          ],
+          "sourceAnchor": "JHN.1.20"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.20",
+          "marks": [],
+          "anchors": [
+            "JHN.1.20"
+          ],
+          "sourceAnchor": "JHN.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "JHN.1.21",
+          "anchors": [
+            "JHN.1.21"
+          ],
+          "sourceAnchor": "JHN.1.21"
+        },
+        {
+          "text": "And they questioned him, 'What then? Elijah art thou?' and he saith, 'I am not.' — 'The prophet art thou?' and he answered, 'No.'\n",
+          "anchor": "JHN.1.21",
+          "marks": [],
+          "anchors": [
+            "JHN.1.21"
+          ],
+          "sourceAnchor": "JHN.1.21"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.21",
+          "marks": [],
+          "anchors": [
+            "JHN.1.21"
+          ],
+          "sourceAnchor": "JHN.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "JHN.1.22",
+          "anchors": [
+            "JHN.1.22"
+          ],
+          "sourceAnchor": "JHN.1.22"
+        },
+        {
+          "text": "They said then to him, 'Who art thou, that we may give an answer to those sending us? what dost thou say concerning thyself?'\n",
+          "anchor": "JHN.1.22",
+          "marks": [],
+          "anchors": [
+            "JHN.1.22"
+          ],
+          "sourceAnchor": "JHN.1.22"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.22",
+          "marks": [],
+          "anchors": [
+            "JHN.1.22"
+          ],
+          "sourceAnchor": "JHN.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "JHN.1.23",
+          "anchors": [
+            "JHN.1.23"
+          ],
+          "sourceAnchor": "JHN.1.23"
+        },
+        {
+          "text": "He said, 'I [am] a voice of one crying in the wilderness: Make straight the way of the Lord, as said Isaiah the prophet.'\n",
+          "anchor": "JHN.1.23",
+          "marks": [],
+          "anchors": [
+            "JHN.1.23"
+          ],
+          "sourceAnchor": "JHN.1.23"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.23",
+          "marks": [],
+          "anchors": [
+            "JHN.1.23"
+          ],
+          "sourceAnchor": "JHN.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "JHN.1.24",
+          "anchors": [
+            "JHN.1.24"
+          ],
+          "sourceAnchor": "JHN.1.24"
+        },
+        {
+          "text": "And those sent were of the Pharisees,\n",
+          "anchor": "JHN.1.24",
+          "marks": [],
+          "anchors": [
+            "JHN.1.24"
+          ],
+          "sourceAnchor": "JHN.1.24"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.24",
+          "marks": [],
+          "anchors": [
+            "JHN.1.24"
+          ],
+          "sourceAnchor": "JHN.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "JHN.1.25",
+          "anchors": [
+            "JHN.1.25"
+          ],
+          "sourceAnchor": "JHN.1.25"
+        },
+        {
+          "text": "and they questioned him and said to him, 'Why, then, dost thou baptize, if thou art not the Christ, nor Elijah, nor the prophet?'\n",
+          "anchor": "JHN.1.25",
+          "marks": [],
+          "anchors": [
+            "JHN.1.25"
+          ],
+          "sourceAnchor": "JHN.1.25"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.25",
+          "marks": [],
+          "anchors": [
+            "JHN.1.25"
+          ],
+          "sourceAnchor": "JHN.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "JHN.1.26",
+          "anchors": [
+            "JHN.1.26"
+          ],
+          "sourceAnchor": "JHN.1.26"
+        },
+        {
+          "text": "John answered them, saying, 'I baptize with water, but in midst of you he hath stood whom ye have not known, this one it is who is coming after me, who hath been before me,\n",
+          "anchor": "JHN.1.26",
+          "marks": [],
+          "anchors": [
+            "JHN.1.26"
+          ],
+          "sourceAnchor": "JHN.1.26"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.26",
+          "marks": [],
+          "anchors": [
+            "JHN.1.26"
+          ],
+          "sourceAnchor": "JHN.1.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "JHN.1.27",
+          "anchors": [
+            "JHN.1.27"
+          ],
+          "sourceAnchor": "JHN.1.27"
+        },
+        {
+          "text": "of whom I am not worthy that I may loose the cord of his sandal.'\n",
+          "anchor": "JHN.1.27",
+          "marks": [],
+          "anchors": [
+            "JHN.1.27"
+          ],
+          "sourceAnchor": "JHN.1.27"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.27",
+          "marks": [],
+          "anchors": [
+            "JHN.1.27"
+          ],
+          "sourceAnchor": "JHN.1.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "JHN.1.28",
+          "anchors": [
+            "JHN.1.28"
+          ],
+          "sourceAnchor": "JHN.1.28"
+        },
+        {
+          "text": "These things came to pass in Bethabara, beyond the Jordan, where John was baptizing,\n",
+          "anchor": "JHN.1.28",
+          "marks": [],
+          "anchors": [
+            "JHN.1.28"
+          ],
+          "sourceAnchor": "JHN.1.28"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.28",
+          "marks": [],
+          "anchors": [
+            "JHN.1.28"
+          ],
+          "sourceAnchor": "JHN.1.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "JHN.1.29",
+          "anchors": [
+            "JHN.1.29"
+          ],
+          "sourceAnchor": "JHN.1.29"
+        },
+        {
+          "text": "on the morrow John seeth Jesus coming unto him, and saith, 'Lo, the Lamb of God, who is taking away the sin of the world;\n",
+          "anchor": "JHN.1.29",
+          "marks": [],
+          "anchors": [
+            "JHN.1.29"
+          ],
+          "sourceAnchor": "JHN.1.29"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.29",
+          "marks": [],
+          "anchors": [
+            "JHN.1.29"
+          ],
+          "sourceAnchor": "JHN.1.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "JHN.1.30",
+          "anchors": [
+            "JHN.1.30"
+          ],
+          "sourceAnchor": "JHN.1.30"
+        },
+        {
+          "text": "this is he concerning whom I said, After me doth come a man, who hath come before me, because he was before me:\n",
+          "anchor": "JHN.1.30",
+          "marks": [],
+          "anchors": [
+            "JHN.1.30"
+          ],
+          "sourceAnchor": "JHN.1.30"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.30",
+          "marks": [],
+          "anchors": [
+            "JHN.1.30"
+          ],
+          "sourceAnchor": "JHN.1.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "JHN.1.31",
+          "anchors": [
+            "JHN.1.31"
+          ],
+          "sourceAnchor": "JHN.1.31"
+        },
+        {
+          "text": "and I knew him not, but, that he might be manifested to Israel, because of this I came with the water baptizing.\n",
+          "anchor": "JHN.1.31",
+          "marks": [],
+          "anchors": [
+            "JHN.1.31"
+          ],
+          "sourceAnchor": "JHN.1.31"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.31",
+          "marks": [],
+          "anchors": [
+            "JHN.1.31"
+          ],
+          "sourceAnchor": "JHN.1.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "JHN.1.32",
+          "anchors": [
+            "JHN.1.32"
+          ],
+          "sourceAnchor": "JHN.1.32"
+        },
+        {
+          "text": "And John testified, saying — 'I have seen the Spirit coming down, as a dove, out of heaven, and it remained on him;\n",
+          "anchor": "JHN.1.32",
+          "marks": [],
+          "anchors": [
+            "JHN.1.32"
+          ],
+          "sourceAnchor": "JHN.1.32"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.32",
+          "marks": [],
+          "anchors": [
+            "JHN.1.32"
+          ],
+          "sourceAnchor": "JHN.1.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "JHN.1.33",
+          "anchors": [
+            "JHN.1.33"
+          ],
+          "sourceAnchor": "JHN.1.33"
+        },
+        {
+          "text": "and I did not know him, but he who sent me to baptize with water, He said to me, On whomsoever thou mayest see the Spirit coming down, and remaining on him, this is he who is baptizing with the Holy Spirit;\n",
+          "anchor": "JHN.1.33",
+          "marks": [],
+          "anchors": [
+            "JHN.1.33"
+          ],
+          "sourceAnchor": "JHN.1.33"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.33",
+          "marks": [],
+          "anchors": [
+            "JHN.1.33"
+          ],
+          "sourceAnchor": "JHN.1.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "JHN.1.34",
+          "anchors": [
+            "JHN.1.34"
+          ],
+          "sourceAnchor": "JHN.1.34"
+        },
+        {
+          "text": "and I have seen, and have testified, that this is the Son of God.'\n",
+          "anchor": "JHN.1.34",
+          "marks": [],
+          "anchors": [
+            "JHN.1.34"
+          ],
+          "sourceAnchor": "JHN.1.34"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.34",
+          "marks": [],
+          "anchors": [
+            "JHN.1.34"
+          ],
+          "sourceAnchor": "JHN.1.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "JHN.1.35",
+          "anchors": [
+            "JHN.1.35"
+          ],
+          "sourceAnchor": "JHN.1.35"
+        },
+        {
+          "text": "On the morrow, again, John was standing, and two of his disciples,\n",
+          "anchor": "JHN.1.35",
+          "marks": [],
+          "anchors": [
+            "JHN.1.35"
+          ],
+          "sourceAnchor": "JHN.1.35"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.35",
+          "marks": [],
+          "anchors": [
+            "JHN.1.35"
+          ],
+          "sourceAnchor": "JHN.1.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "JHN.1.36",
+          "anchors": [
+            "JHN.1.36"
+          ],
+          "sourceAnchor": "JHN.1.36"
+        },
+        {
+          "text": "and having looked on Jesus walking, he saith, 'Lo, the Lamb of God;'\n",
+          "anchor": "JHN.1.36",
+          "marks": [],
+          "anchors": [
+            "JHN.1.36"
+          ],
+          "sourceAnchor": "JHN.1.36"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.36",
+          "marks": [],
+          "anchors": [
+            "JHN.1.36"
+          ],
+          "sourceAnchor": "JHN.1.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "JHN.1.37",
+          "anchors": [
+            "JHN.1.37"
+          ],
+          "sourceAnchor": "JHN.1.37"
+        },
+        {
+          "text": "and the two disciples heard him speaking, and they followed Jesus.\n",
+          "anchor": "JHN.1.37",
+          "marks": [],
+          "anchors": [
+            "JHN.1.37"
+          ],
+          "sourceAnchor": "JHN.1.37"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.37",
+          "marks": [],
+          "anchors": [
+            "JHN.1.37"
+          ],
+          "sourceAnchor": "JHN.1.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "JHN.1.38",
+          "anchors": [
+            "JHN.1.38"
+          ],
+          "sourceAnchor": "JHN.1.38"
+        },
+        {
+          "text": "And Jesus having turned, and having beheld them following, saith to them, 'What seek ye?' and they said to them, 'Rabbi, (which is, being interpreted, Teacher,) where remainest thou?'\n",
+          "anchor": "JHN.1.38",
+          "marks": [],
+          "anchors": [
+            "JHN.1.38"
+          ],
+          "sourceAnchor": "JHN.1.38"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.38",
+          "marks": [],
+          "anchors": [
+            "JHN.1.38"
+          ],
+          "sourceAnchor": "JHN.1.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "JHN.1.39",
+          "anchors": [
+            "JHN.1.39"
+          ],
+          "sourceAnchor": "JHN.1.39"
+        },
+        {
+          "text": "He saith to them, 'Come and see;' they came, and saw where he doth remain, and with him they remained that day and the hour was about the tenth.\n",
+          "anchor": "JHN.1.39",
+          "marks": [],
+          "anchors": [
+            "JHN.1.39"
+          ],
+          "sourceAnchor": "JHN.1.39"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.39",
+          "marks": [],
+          "anchors": [
+            "JHN.1.39"
+          ],
+          "sourceAnchor": "JHN.1.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "JHN.1.40",
+          "anchors": [
+            "JHN.1.40"
+          ],
+          "sourceAnchor": "JHN.1.40"
+        },
+        {
+          "text": "Andrew, the brother of Simon Peter, was one of the two who heard from John, and followed him;\n",
+          "anchor": "JHN.1.40",
+          "marks": [],
+          "anchors": [
+            "JHN.1.40"
+          ],
+          "sourceAnchor": "JHN.1.40"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.40",
+          "marks": [],
+          "anchors": [
+            "JHN.1.40"
+          ],
+          "sourceAnchor": "JHN.1.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "JHN.1.41",
+          "anchors": [
+            "JHN.1.41"
+          ],
+          "sourceAnchor": "JHN.1.41"
+        },
+        {
+          "text": "this one doth first find his own brother Simon, and saith to him, 'We have found the Messiah,' (which is, being interpreted, The Anointed,)\n",
+          "anchor": "JHN.1.41",
+          "marks": [],
+          "anchors": [
+            "JHN.1.41"
+          ],
+          "sourceAnchor": "JHN.1.41"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.41",
+          "marks": [],
+          "anchors": [
+            "JHN.1.41"
+          ],
+          "sourceAnchor": "JHN.1.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "JHN.1.42",
+          "anchors": [
+            "JHN.1.42"
+          ],
+          "sourceAnchor": "JHN.1.42"
+        },
+        {
+          "text": "and he brought him unto Jesus: and having looked upon him, Jesus saith, 'Thou art Simon, the son of Jonas, thou shalt be called Cephas,' (which is interpreted, A rock.)\n",
+          "anchor": "JHN.1.42",
+          "marks": [],
+          "anchors": [
+            "JHN.1.42"
+          ],
+          "sourceAnchor": "JHN.1.42"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.42",
+          "marks": [],
+          "anchors": [
+            "JHN.1.42"
+          ],
+          "sourceAnchor": "JHN.1.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "JHN.1.43",
+          "anchors": [
+            "JHN.1.43"
+          ],
+          "sourceAnchor": "JHN.1.43"
+        },
+        {
+          "text": "On the morrow, he willed to go forth to Galilee, and he findeth Philip, and saith to him, 'Be following me.'\n",
+          "anchor": "JHN.1.43",
+          "marks": [],
+          "anchors": [
+            "JHN.1.43"
+          ],
+          "sourceAnchor": "JHN.1.43"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.43",
+          "marks": [],
+          "anchors": [
+            "JHN.1.43"
+          ],
+          "sourceAnchor": "JHN.1.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "JHN.1.44",
+          "anchors": [
+            "JHN.1.44"
+          ],
+          "sourceAnchor": "JHN.1.44"
+        },
+        {
+          "text": "And Philip was from Bethsaida, of the city of Andrew and Peter;\n",
+          "anchor": "JHN.1.44",
+          "marks": [],
+          "anchors": [
+            "JHN.1.44"
+          ],
+          "sourceAnchor": "JHN.1.44"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.44",
+          "marks": [],
+          "anchors": [
+            "JHN.1.44"
+          ],
+          "sourceAnchor": "JHN.1.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "JHN.1.45",
+          "anchors": [
+            "JHN.1.45"
+          ],
+          "sourceAnchor": "JHN.1.45"
+        },
+        {
+          "text": "Philip findeth Nathanael, and saith to him, 'Him of whom Moses wrote in the Law, and the prophets, we have found, Jesus the son of Joseph, who [is] from Nazareth;'\n",
+          "anchor": "JHN.1.45",
+          "marks": [],
+          "anchors": [
+            "JHN.1.45"
+          ],
+          "sourceAnchor": "JHN.1.45"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.45",
+          "marks": [],
+          "anchors": [
+            "JHN.1.45"
+          ],
+          "sourceAnchor": "JHN.1.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "JHN.1.46",
+          "anchors": [
+            "JHN.1.46"
+          ],
+          "sourceAnchor": "JHN.1.46"
+        },
+        {
+          "text": "and Nathanael said to him, 'Out of Nazareth is any good thing able to be?' Philip said to him, 'Come and see.'\n",
+          "anchor": "JHN.1.46",
+          "marks": [],
+          "anchors": [
+            "JHN.1.46"
+          ],
+          "sourceAnchor": "JHN.1.46"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.46",
+          "marks": [],
+          "anchors": [
+            "JHN.1.46"
+          ],
+          "sourceAnchor": "JHN.1.46"
+        },
+        {
+          "verse": "47",
+          "anchor": "JHN.1.47",
+          "anchors": [
+            "JHN.1.47"
+          ],
+          "sourceAnchor": "JHN.1.47"
+        },
+        {
+          "text": "Jesus saw Nathanael coming unto him, and he saith concerning him, 'Lo, truly an Israelite, in whom guile is not;'\n",
+          "anchor": "JHN.1.47",
+          "marks": [],
+          "anchors": [
+            "JHN.1.47"
+          ],
+          "sourceAnchor": "JHN.1.47"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.47",
+          "marks": [],
+          "anchors": [
+            "JHN.1.47"
+          ],
+          "sourceAnchor": "JHN.1.47"
+        },
+        {
+          "verse": "48",
+          "anchor": "JHN.1.48",
+          "anchors": [
+            "JHN.1.48"
+          ],
+          "sourceAnchor": "JHN.1.48"
+        },
+        {
+          "text": "Nathanael saith to him, 'Whence me dost thou know?' Jesus answered and said to him, 'Before Philip's calling thee — thou being under the fig-tree — I saw thee.'\n",
+          "anchor": "JHN.1.48",
+          "marks": [],
+          "anchors": [
+            "JHN.1.48"
+          ],
+          "sourceAnchor": "JHN.1.48"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.48",
+          "marks": [],
+          "anchors": [
+            "JHN.1.48"
+          ],
+          "sourceAnchor": "JHN.1.48"
+        },
+        {
+          "verse": "49",
+          "anchor": "JHN.1.49",
+          "anchors": [
+            "JHN.1.49"
+          ],
+          "sourceAnchor": "JHN.1.49"
+        },
+        {
+          "text": "Nathanael answered and saith to him, 'Rabbi, thou art the Son of God, thou art the king of Israel.'\n",
+          "anchor": "JHN.1.49",
+          "marks": [],
+          "anchors": [
+            "JHN.1.49"
+          ],
+          "sourceAnchor": "JHN.1.49"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.49",
+          "marks": [],
+          "anchors": [
+            "JHN.1.49"
+          ],
+          "sourceAnchor": "JHN.1.49"
+        },
+        {
+          "verse": "50",
+          "anchor": "JHN.1.50",
+          "anchors": [
+            "JHN.1.50"
+          ],
+          "sourceAnchor": "JHN.1.50"
+        },
+        {
+          "text": "Jesus answered and said to him, 'Because I said to thee, I saw thee under the fig-tree, thou dost believe; greater things than these thou shalt see;'\n",
+          "anchor": "JHN.1.50",
+          "marks": [],
+          "anchors": [
+            "JHN.1.50"
+          ],
+          "sourceAnchor": "JHN.1.50"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.50",
+          "marks": [],
+          "anchors": [
+            "JHN.1.50"
+          ],
+          "sourceAnchor": "JHN.1.50"
+        },
+        {
+          "verse": "51",
+          "anchor": "JHN.1.51",
+          "anchors": [
+            "JHN.1.51"
+          ],
+          "sourceAnchor": "JHN.1.51"
+        },
+        {
+          "text": "and he saith to him, 'Verily, verily, I say to you, henceforth ye shall see the heaven opened, and the messengers of God going up and coming down upon the Son of Man.'\n",
+          "anchor": "JHN.1.51",
+          "marks": [],
+          "anchors": [
+            "JHN.1.51"
+          ],
+          "sourceAnchor": "JHN.1.51"
+        },
+        {
+          "text": "\n",
+          "anchor": "JHN.1.51",
+          "marks": [],
+          "anchors": [
+            "JHN.1.51"
+          ],
+          "sourceAnchor": "JHN.1.51"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "JHN.1.1",
+      "sourceRef": "JHN.1.1",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[0]",
+      "sourceLabel": "1",
+      "anchors": [
+        "JHN.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God;",
+      "originalText": "In the beginning was the Word, and the Word was with God, and the Word was God;\n\n"
+    },
+    {
+      "id": "JHN.1.2",
+      "sourceRef": "JHN.1.2",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[2]",
+      "sourceLabel": "2",
+      "anchors": [
+        "JHN.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "this one was in the beginning with God;",
+      "originalText": "this one was in the beginning with God;\n\n"
+    },
+    {
+      "id": "JHN.1.3",
+      "sourceRef": "JHN.1.3",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[4]",
+      "sourceLabel": "3",
+      "anchors": [
+        "JHN.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "all things through him did happen, and without him happened not even one thing that hath happened.",
+      "originalText": "all things through him did happen, and without him happened not even one thing that hath happened.\n\n"
+    },
+    {
+      "id": "JHN.1.4",
+      "sourceRef": "JHN.1.4",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[6]",
+      "sourceLabel": "4",
+      "anchors": [
+        "JHN.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "In him was life, and the life was the light of men,",
+      "originalText": "In him was life, and the life was the light of men,\n\n"
+    },
+    {
+      "id": "JHN.1.5",
+      "sourceRef": "JHN.1.5",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[8]",
+      "sourceLabel": "5",
+      "anchors": [
+        "JHN.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "and the light in the darkness did shine, and the darkness did not perceive it.",
+      "originalText": "and the light in the darkness did shine, and the darkness did not perceive it.\n\n"
+    },
+    {
+      "id": "JHN.1.6",
+      "sourceRef": "JHN.1.6",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[10]",
+      "sourceLabel": "6",
+      "anchors": [
+        "JHN.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "There came a man — having been sent from God — whose name [is] John,",
+      "originalText": "There came a man — having been sent from God — whose name [is] John,\n\n"
+    },
+    {
+      "id": "JHN.1.7",
+      "sourceRef": "JHN.1.7",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[12]",
+      "sourceLabel": "7",
+      "anchors": [
+        "JHN.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "this one came for testimony, that he might testify about the Light, that all might believe through him;",
+      "originalText": "this one came for testimony, that he might testify about the Light, that all might believe through him;\n\n"
+    },
+    {
+      "id": "JHN.1.8",
+      "sourceRef": "JHN.1.8",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[14]",
+      "sourceLabel": "8",
+      "anchors": [
+        "JHN.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "that one was not the Light, but — that he might testify about the Light.",
+      "originalText": "that one was not the Light, but — that he might testify about the Light.\n\n"
+    },
+    {
+      "id": "JHN.1.9",
+      "sourceRef": "JHN.1.9",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[16]",
+      "sourceLabel": "9",
+      "anchors": [
+        "JHN.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "He was the true Light, which doth enlighten every man, coming to the world;",
+      "originalText": "He was the true Light, which doth enlighten every man, coming to the world;\n\n"
+    },
+    {
+      "id": "JHN.1.10",
+      "sourceRef": "JHN.1.10",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[18]",
+      "sourceLabel": "10",
+      "anchors": [
+        "JHN.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "in the world he was, and the world through him was made, and the world did not know him:",
+      "originalText": "in the world he was, and the world through him was made, and the world did not know him:\n\n"
+    },
+    {
+      "id": "JHN.1.11",
+      "sourceRef": "JHN.1.11",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[20]",
+      "sourceLabel": "11",
+      "anchors": [
+        "JHN.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "to his own things he came, and his own people did not receive him;",
+      "originalText": "to his own things he came, and his own people did not receive him;\n\n"
+    },
+    {
+      "id": "JHN.1.12",
+      "sourceRef": "JHN.1.12",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[22]",
+      "sourceLabel": "12",
+      "anchors": [
+        "JHN.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "but as many as did receive him to them he gave authority to become sons of God — to those believing in his name,",
+      "originalText": "but as many as did receive him to them he gave authority to become sons of God — to those believing in his name,\n\n"
+    },
+    {
+      "id": "JHN.1.13",
+      "sourceRef": "JHN.1.13",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[24]",
+      "sourceLabel": "13",
+      "anchors": [
+        "JHN.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "who — not of blood nor of a will of flesh, nor of a will of man but — of God were begotten.",
+      "originalText": "who — not of blood nor of a will of flesh, nor of a will of man but — of God were begotten.\n\n"
+    },
+    {
+      "id": "JHN.1.14",
+      "sourceRef": "JHN.1.14",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[26]",
+      "sourceLabel": "14",
+      "anchors": [
+        "JHN.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "And the Word became flesh, and did tabernacle among us, and we beheld his glory, glory as of an only begotten of a father, full of grace and truth.",
+      "originalText": "And the Word became flesh, and did tabernacle among us, and we beheld his glory, glory as of an only begotten of a father, full of grace and truth.\n\n"
+    },
+    {
+      "id": "JHN.1.15",
+      "sourceRef": "JHN.1.15",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[28]",
+      "sourceLabel": "15",
+      "anchors": [
+        "JHN.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "John doth testify concerning him, and hath cried, saying, 'This was he of whom I said, He who after me is coming, hath come before me, for he was before me;'",
+      "originalText": "John doth testify concerning him, and hath cried, saying, 'This was he of whom I said, He who after me is coming, hath come before me, for he was before me;'\n\n"
+    },
+    {
+      "id": "JHN.1.16",
+      "sourceRef": "JHN.1.16",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[30]",
+      "sourceLabel": "16",
+      "anchors": [
+        "JHN.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "and out of his fulness did we all receive, and grace over-against grace;",
+      "originalText": "and out of his fulness did we all receive, and grace over-against grace;\n\n"
+    },
+    {
+      "id": "JHN.1.17",
+      "sourceRef": "JHN.1.17",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[32]",
+      "sourceLabel": "17",
+      "anchors": [
+        "JHN.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "for the law through Moses was given, the grace and the truth through Jesus Christ did come;",
+      "originalText": "for the law through Moses was given, the grace and the truth through Jesus Christ did come;\n\n"
+    },
+    {
+      "id": "JHN.1.18",
+      "sourceRef": "JHN.1.18",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[34]",
+      "sourceLabel": "18",
+      "anchors": [
+        "JHN.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "God no one hath ever seen; the only begotten Son, who is on the bosom of the Father — he did declare.",
+      "originalText": "God no one hath ever seen; the only begotten Son, who is on the bosom of the Father — he did declare.\n\n"
+    },
+    {
+      "id": "JHN.1.19",
+      "sourceRef": "JHN.1.19",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[36]",
+      "sourceLabel": "19",
+      "anchors": [
+        "JHN.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "And this is the testimony of John, when the Jews sent out of Jerusalem priests and Levites, that they might question him, 'Who art thou?'",
+      "originalText": "And this is the testimony of John, when the Jews sent out of Jerusalem priests and Levites, that they might question him, 'Who art thou?'\n\n"
+    },
+    {
+      "id": "JHN.1.20",
+      "sourceRef": "JHN.1.20",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[38]",
+      "sourceLabel": "20",
+      "anchors": [
+        "JHN.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "and he confessed and did not deny, and confessed — 'I am not the Christ.'",
+      "originalText": "and he confessed and did not deny, and confessed — 'I am not the Christ.'\n\n"
+    },
+    {
+      "id": "JHN.1.21",
+      "sourceRef": "JHN.1.21",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[40]",
+      "sourceLabel": "21",
+      "anchors": [
+        "JHN.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "And they questioned him, 'What then? Elijah art thou?' and he saith, 'I am not.' — 'The prophet art thou?' and he answered, 'No.'",
+      "originalText": "And they questioned him, 'What then? Elijah art thou?' and he saith, 'I am not.' — 'The prophet art thou?' and he answered, 'No.'\n\n"
+    },
+    {
+      "id": "JHN.1.22",
+      "sourceRef": "JHN.1.22",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[42]",
+      "sourceLabel": "22",
+      "anchors": [
+        "JHN.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "They said then to him, 'Who art thou, that we may give an answer to those sending us? what dost thou say concerning thyself?'",
+      "originalText": "They said then to him, 'Who art thou, that we may give an answer to those sending us? what dost thou say concerning thyself?'\n\n"
+    },
+    {
+      "id": "JHN.1.23",
+      "sourceRef": "JHN.1.23",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[44]",
+      "sourceLabel": "23",
+      "anchors": [
+        "JHN.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "He said, 'I [am] a voice of one crying in the wilderness: Make straight the way of the Lord, as said Isaiah the prophet.'",
+      "originalText": "He said, 'I [am] a voice of one crying in the wilderness: Make straight the way of the Lord, as said Isaiah the prophet.'\n\n"
+    },
+    {
+      "id": "JHN.1.24",
+      "sourceRef": "JHN.1.24",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[46]",
+      "sourceLabel": "24",
+      "anchors": [
+        "JHN.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "And those sent were of the Pharisees,",
+      "originalText": "And those sent were of the Pharisees,\n\n"
+    },
+    {
+      "id": "JHN.1.25",
+      "sourceRef": "JHN.1.25",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[48]",
+      "sourceLabel": "25",
+      "anchors": [
+        "JHN.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "and they questioned him and said to him, 'Why, then, dost thou baptize, if thou art not the Christ, nor Elijah, nor the prophet?'",
+      "originalText": "and they questioned him and said to him, 'Why, then, dost thou baptize, if thou art not the Christ, nor Elijah, nor the prophet?'\n\n"
+    },
+    {
+      "id": "JHN.1.26",
+      "sourceRef": "JHN.1.26",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[50]",
+      "sourceLabel": "26",
+      "anchors": [
+        "JHN.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "John answered them, saying, 'I baptize with water, but in midst of you he hath stood whom ye have not known, this one it is who is coming after me, who hath been before me,",
+      "originalText": "John answered them, saying, 'I baptize with water, but in midst of you he hath stood whom ye have not known, this one it is who is coming after me, who hath been before me,\n\n"
+    },
+    {
+      "id": "JHN.1.27",
+      "sourceRef": "JHN.1.27",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[52]",
+      "sourceLabel": "27",
+      "anchors": [
+        "JHN.1.27"
+      ],
+      "mappingType": "exact",
+      "text": "of whom I am not worthy that I may loose the cord of his sandal.'",
+      "originalText": "of whom I am not worthy that I may loose the cord of his sandal.'\n\n"
+    },
+    {
+      "id": "JHN.1.28",
+      "sourceRef": "JHN.1.28",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[54]",
+      "sourceLabel": "28",
+      "anchors": [
+        "JHN.1.28"
+      ],
+      "mappingType": "exact",
+      "text": "These things came to pass in Bethabara, beyond the Jordan, where John was baptizing,",
+      "originalText": "These things came to pass in Bethabara, beyond the Jordan, where John was baptizing,\n\n"
+    },
+    {
+      "id": "JHN.1.29",
+      "sourceRef": "JHN.1.29",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[56]",
+      "sourceLabel": "29",
+      "anchors": [
+        "JHN.1.29"
+      ],
+      "mappingType": "exact",
+      "text": "on the morrow John seeth Jesus coming unto him, and saith, 'Lo, the Lamb of God, who is taking away the sin of the world;",
+      "originalText": "on the morrow John seeth Jesus coming unto him, and saith, 'Lo, the Lamb of God, who is taking away the sin of the world;\n\n"
+    },
+    {
+      "id": "JHN.1.30",
+      "sourceRef": "JHN.1.30",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[58]",
+      "sourceLabel": "30",
+      "anchors": [
+        "JHN.1.30"
+      ],
+      "mappingType": "exact",
+      "text": "this is he concerning whom I said, After me doth come a man, who hath come before me, because he was before me:",
+      "originalText": "this is he concerning whom I said, After me doth come a man, who hath come before me, because he was before me:\n\n"
+    },
+    {
+      "id": "JHN.1.31",
+      "sourceRef": "JHN.1.31",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[60]",
+      "sourceLabel": "31",
+      "anchors": [
+        "JHN.1.31"
+      ],
+      "mappingType": "exact",
+      "text": "and I knew him not, but, that he might be manifested to Israel, because of this I came with the water baptizing.",
+      "originalText": "and I knew him not, but, that he might be manifested to Israel, because of this I came with the water baptizing.\n\n"
+    },
+    {
+      "id": "JHN.1.32",
+      "sourceRef": "JHN.1.32",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[62]",
+      "sourceLabel": "32",
+      "anchors": [
+        "JHN.1.32"
+      ],
+      "mappingType": "exact",
+      "text": "And John testified, saying — 'I have seen the Spirit coming down, as a dove, out of heaven, and it remained on him;",
+      "originalText": "And John testified, saying — 'I have seen the Spirit coming down, as a dove, out of heaven, and it remained on him;\n\n"
+    },
+    {
+      "id": "JHN.1.33",
+      "sourceRef": "JHN.1.33",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[64]",
+      "sourceLabel": "33",
+      "anchors": [
+        "JHN.1.33"
+      ],
+      "mappingType": "exact",
+      "text": "and I did not know him, but he who sent me to baptize with water, He said to me, On whomsoever thou mayest see the Spirit coming down, and remaining on him, this is he who is baptizing with the Holy Spirit;",
+      "originalText": "and I did not know him, but he who sent me to baptize with water, He said to me, On whomsoever thou mayest see the Spirit coming down, and remaining on him, this is he who is baptizing with the Holy Spirit;\n\n"
+    },
+    {
+      "id": "JHN.1.34",
+      "sourceRef": "JHN.1.34",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[66]",
+      "sourceLabel": "34",
+      "anchors": [
+        "JHN.1.34"
+      ],
+      "mappingType": "exact",
+      "text": "and I have seen, and have testified, that this is the Son of God.'",
+      "originalText": "and I have seen, and have testified, that this is the Son of God.'\n\n"
+    },
+    {
+      "id": "JHN.1.35",
+      "sourceRef": "JHN.1.35",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[68]",
+      "sourceLabel": "35",
+      "anchors": [
+        "JHN.1.35"
+      ],
+      "mappingType": "exact",
+      "text": "On the morrow, again, John was standing, and two of his disciples,",
+      "originalText": "On the morrow, again, John was standing, and two of his disciples,\n\n"
+    },
+    {
+      "id": "JHN.1.36",
+      "sourceRef": "JHN.1.36",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[70]",
+      "sourceLabel": "36",
+      "anchors": [
+        "JHN.1.36"
+      ],
+      "mappingType": "exact",
+      "text": "and having looked on Jesus walking, he saith, 'Lo, the Lamb of God;'",
+      "originalText": "and having looked on Jesus walking, he saith, 'Lo, the Lamb of God;'\n\n"
+    },
+    {
+      "id": "JHN.1.37",
+      "sourceRef": "JHN.1.37",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[72]",
+      "sourceLabel": "37",
+      "anchors": [
+        "JHN.1.37"
+      ],
+      "mappingType": "exact",
+      "text": "and the two disciples heard him speaking, and they followed Jesus.",
+      "originalText": "and the two disciples heard him speaking, and they followed Jesus.\n\n"
+    },
+    {
+      "id": "JHN.1.38",
+      "sourceRef": "JHN.1.38",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[74]",
+      "sourceLabel": "38",
+      "anchors": [
+        "JHN.1.38"
+      ],
+      "mappingType": "exact",
+      "text": "And Jesus having turned, and having beheld them following, saith to them, 'What seek ye?' and they said to them, 'Rabbi, (which is, being interpreted, Teacher,) where remainest thou?'",
+      "originalText": "And Jesus having turned, and having beheld them following, saith to them, 'What seek ye?' and they said to them, 'Rabbi, (which is, being interpreted, Teacher,) where remainest thou?'\n\n"
+    },
+    {
+      "id": "JHN.1.39",
+      "sourceRef": "JHN.1.39",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[76]",
+      "sourceLabel": "39",
+      "anchors": [
+        "JHN.1.39"
+      ],
+      "mappingType": "exact",
+      "text": "He saith to them, 'Come and see;' they came, and saw where he doth remain, and with him they remained that day and the hour was about the tenth.",
+      "originalText": "He saith to them, 'Come and see;' they came, and saw where he doth remain, and with him they remained that day and the hour was about the tenth.\n\n"
+    },
+    {
+      "id": "JHN.1.40",
+      "sourceRef": "JHN.1.40",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[78]",
+      "sourceLabel": "40",
+      "anchors": [
+        "JHN.1.40"
+      ],
+      "mappingType": "exact",
+      "text": "Andrew, the brother of Simon Peter, was one of the two who heard from John, and followed him;",
+      "originalText": "Andrew, the brother of Simon Peter, was one of the two who heard from John, and followed him;\n\n"
+    },
+    {
+      "id": "JHN.1.41",
+      "sourceRef": "JHN.1.41",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[80]",
+      "sourceLabel": "41",
+      "anchors": [
+        "JHN.1.41"
+      ],
+      "mappingType": "exact",
+      "text": "this one doth first find his own brother Simon, and saith to him, 'We have found the Messiah,' (which is, being interpreted, The Anointed,)",
+      "originalText": "this one doth first find his own brother Simon, and saith to him, 'We have found the Messiah,' (which is, being interpreted, The Anointed,)\n\n"
+    },
+    {
+      "id": "JHN.1.42",
+      "sourceRef": "JHN.1.42",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[82]",
+      "sourceLabel": "42",
+      "anchors": [
+        "JHN.1.42"
+      ],
+      "mappingType": "exact",
+      "text": "and he brought him unto Jesus: and having looked upon him, Jesus saith, 'Thou art Simon, the son of Jonas, thou shalt be called Cephas,' (which is interpreted, A rock.)",
+      "originalText": "and he brought him unto Jesus: and having looked upon him, Jesus saith, 'Thou art Simon, the son of Jonas, thou shalt be called Cephas,' (which is interpreted, A rock.)\n\n"
+    },
+    {
+      "id": "JHN.1.43",
+      "sourceRef": "JHN.1.43",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[84]",
+      "sourceLabel": "43",
+      "anchors": [
+        "JHN.1.43"
+      ],
+      "mappingType": "exact",
+      "text": "On the morrow, he willed to go forth to Galilee, and he findeth Philip, and saith to him, 'Be following me.'",
+      "originalText": "On the morrow, he willed to go forth to Galilee, and he findeth Philip, and saith to him, 'Be following me.'\n\n"
+    },
+    {
+      "id": "JHN.1.44",
+      "sourceRef": "JHN.1.44",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[86]",
+      "sourceLabel": "44",
+      "anchors": [
+        "JHN.1.44"
+      ],
+      "mappingType": "exact",
+      "text": "And Philip was from Bethsaida, of the city of Andrew and Peter;",
+      "originalText": "And Philip was from Bethsaida, of the city of Andrew and Peter;\n\n"
+    },
+    {
+      "id": "JHN.1.45",
+      "sourceRef": "JHN.1.45",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[88]",
+      "sourceLabel": "45",
+      "anchors": [
+        "JHN.1.45"
+      ],
+      "mappingType": "exact",
+      "text": "Philip findeth Nathanael, and saith to him, 'Him of whom Moses wrote in the Law, and the prophets, we have found, Jesus the son of Joseph, who [is] from Nazareth;'",
+      "originalText": "Philip findeth Nathanael, and saith to him, 'Him of whom Moses wrote in the Law, and the prophets, we have found, Jesus the son of Joseph, who [is] from Nazareth;'\n\n"
+    },
+    {
+      "id": "JHN.1.46",
+      "sourceRef": "JHN.1.46",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[90]",
+      "sourceLabel": "46",
+      "anchors": [
+        "JHN.1.46"
+      ],
+      "mappingType": "exact",
+      "text": "and Nathanael said to him, 'Out of Nazareth is any good thing able to be?' Philip said to him, 'Come and see.'",
+      "originalText": "and Nathanael said to him, 'Out of Nazareth is any good thing able to be?' Philip said to him, 'Come and see.'\n\n"
+    },
+    {
+      "id": "JHN.1.47",
+      "sourceRef": "JHN.1.47",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[92]",
+      "sourceLabel": "47",
+      "anchors": [
+        "JHN.1.47"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus saw Nathanael coming unto him, and he saith concerning him, 'Lo, truly an Israelite, in whom guile is not;'",
+      "originalText": "Jesus saw Nathanael coming unto him, and he saith concerning him, 'Lo, truly an Israelite, in whom guile is not;'\n\n"
+    },
+    {
+      "id": "JHN.1.48",
+      "sourceRef": "JHN.1.48",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[94]",
+      "sourceLabel": "48",
+      "anchors": [
+        "JHN.1.48"
+      ],
+      "mappingType": "exact",
+      "text": "Nathanael saith to him, 'Whence me dost thou know?' Jesus answered and said to him, 'Before Philip's calling thee — thou being under the fig-tree — I saw thee.'",
+      "originalText": "Nathanael saith to him, 'Whence me dost thou know?' Jesus answered and said to him, 'Before Philip's calling thee — thou being under the fig-tree — I saw thee.'\n\n"
+    },
+    {
+      "id": "JHN.1.49",
+      "sourceRef": "JHN.1.49",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[96]",
+      "sourceLabel": "49",
+      "anchors": [
+        "JHN.1.49"
+      ],
+      "mappingType": "exact",
+      "text": "Nathanael answered and saith to him, 'Rabbi, thou art the Son of God, thou art the king of Israel.'",
+      "originalText": "Nathanael answered and saith to him, 'Rabbi, thou art the Son of God, thou art the king of Israel.'\n\n"
+    },
+    {
+      "id": "JHN.1.50",
+      "sourceRef": "JHN.1.50",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[98]",
+      "sourceLabel": "50",
+      "anchors": [
+        "JHN.1.50"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus answered and said to him, 'Because I said to thee, I saw thee under the fig-tree, thou dost believe; greater things than these thou shalt see;'",
+      "originalText": "Jesus answered and said to him, 'Because I said to thee, I saw thee under the fig-tree, thou dost believe; greater things than these thou shalt see;'\n\n"
+    },
+    {
+      "id": "JHN.1.51",
+      "sourceRef": "JHN.1.51",
+      "sourceId": "engylt_usfx.xml#book[@id=\"JHN\"]/p[7]/v[100]",
+      "sourceLabel": "51",
+      "anchors": [
+        "JHN.1.51"
+      ],
+      "mappingType": "exact",
+      "text": "and he saith to him, 'Verily, verily, I say to you, henceforth ye shall see the heaven opened, and the messengers of God going up and coming down upon the Son of Man.'",
+      "originalText": "and he saith to him, 'Verily, verily, I say to you, henceforth ye shall see the heaven opened, and the messengers of God going up and coming down upon the Son of Man.'\n\n"
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "JHN.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.1",
+          "sourceRef": "JHN.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.2",
+          "sourceRef": "JHN.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.3",
+          "sourceRef": "JHN.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.4",
+          "sourceRef": "JHN.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.5",
+          "sourceRef": "JHN.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.6",
+          "sourceRef": "JHN.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.7",
+          "sourceRef": "JHN.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.8",
+          "sourceRef": "JHN.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.9",
+          "sourceRef": "JHN.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.10",
+          "sourceRef": "JHN.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.11",
+          "sourceRef": "JHN.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.12",
+          "sourceRef": "JHN.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.13",
+          "sourceRef": "JHN.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.14",
+          "sourceRef": "JHN.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.15",
+          "sourceRef": "JHN.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.16",
+          "sourceRef": "JHN.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.17",
+          "sourceRef": "JHN.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.18",
+          "sourceRef": "JHN.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.19",
+          "sourceRef": "JHN.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.20",
+          "sourceRef": "JHN.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.21",
+          "sourceRef": "JHN.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.22",
+          "sourceRef": "JHN.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.23",
+          "sourceRef": "JHN.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.24",
+          "sourceRef": "JHN.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.25",
+          "sourceRef": "JHN.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.26",
+          "sourceRef": "JHN.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.27",
+          "sourceRef": "JHN.1.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.28",
+          "sourceRef": "JHN.1.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.29",
+          "sourceRef": "JHN.1.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.30",
+          "sourceRef": "JHN.1.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.31",
+          "sourceRef": "JHN.1.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.32",
+          "sourceRef": "JHN.1.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.33",
+          "sourceRef": "JHN.1.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.34",
+          "sourceRef": "JHN.1.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.35",
+          "sourceRef": "JHN.1.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.36",
+          "sourceRef": "JHN.1.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.37",
+          "sourceRef": "JHN.1.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.38",
+          "sourceRef": "JHN.1.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.39",
+          "sourceRef": "JHN.1.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.40",
+          "sourceRef": "JHN.1.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.41",
+          "sourceRef": "JHN.1.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.42",
+          "sourceRef": "JHN.1.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.43",
+          "sourceRef": "JHN.1.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.44",
+          "sourceRef": "JHN.1.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.45",
+          "sourceRef": "JHN.1.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.46",
+          "sourceRef": "JHN.1.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.47",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.47",
+          "sourceRef": "JHN.1.47",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.48",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.48",
+          "sourceRef": "JHN.1.48",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.49",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.49",
+          "sourceRef": "JHN.1.49",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.50",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.50",
+          "sourceRef": "JHN.1.50",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "JHN.1.51",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "JHN",
+          "chapter": 1,
+          "segmentId": "JHN.1.51",
+          "sourceRef": "JHN.1.51",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "ylt-2026-09-05-m2-v1"
+}

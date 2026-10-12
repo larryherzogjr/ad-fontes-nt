@@ -1,0 +1,1875 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/ACT.usj#content/8",
+      "runs": [
+        {
+          "text": "Prologue",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/ACT.usj#content/9",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 1:1–4",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/10",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "ACT.1.1",
+          "anchors": [
+            "ACT.1.1"
+          ],
+          "sourceAnchor": "ACT.1.1"
+        },
+        {
+          "text": "In my first book, O Theophilus, I wrote about all that Jesus began to do and to teach,",
+          "anchor": "ACT.1.1",
+          "marks": [],
+          "originalText": "In my first book, O Theophilus, I wrote about all that Jesus began to do and to teach, ",
+          "anchors": [
+            "ACT.1.1"
+          ],
+          "sourceAnchor": "ACT.1.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "ACT.1.2",
+          "anchors": [
+            "ACT.1.2"
+          ],
+          "sourceAnchor": "ACT.1.2"
+        },
+        {
+          "text": "until the day He was taken up to heaven, after giving instructions through the Holy Spirit to the apostles He had chosen.",
+          "anchor": "ACT.1.2",
+          "marks": [],
+          "originalText": "until the day He was taken up to heaven, after giving instructions through the Holy Spirit to the apostles He had chosen. ",
+          "anchors": [
+            "ACT.1.2"
+          ],
+          "sourceAnchor": "ACT.1.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "ACT.1.3",
+          "anchors": [
+            "ACT.1.3"
+          ],
+          "sourceAnchor": "ACT.1.3"
+        },
+        {
+          "text": "After His suffering, He presented Himself to them with many convincing proofs that He was alive. He appeared to them over a span of forty days and spoke about the kingdom of God.",
+          "anchor": "ACT.1.3",
+          "marks": [],
+          "originalText": "After His suffering, He presented Himself to them with many convincing proofs that He was alive. He appeared to them over a span of forty days and spoke about the kingdom of God.",
+          "anchors": [
+            "ACT.1.3"
+          ],
+          "sourceAnchor": "ACT.1.3"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/11",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.3"
+          ],
+          "sourceAnchor": "ACT.1.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "ACT.1.4",
+          "anchors": [
+            "ACT.1.4"
+          ],
+          "sourceAnchor": "ACT.1.4"
+        },
+        {
+          "text": "And while they were gathered together,",
+          "anchor": "ACT.1.4",
+          "marks": [],
+          "originalText": "And while they were gathered together,",
+          "anchors": [
+            "ACT.1.4"
+          ],
+          "sourceAnchor": "ACT.1.4"
+        },
+        {
+          "noteId": "ACT.1.note.1",
+          "anchor": "ACT.1.4",
+          "anchors": [
+            "ACT.1.4"
+          ],
+          "sourceAnchor": "ACT.1.4"
+        },
+        {
+          "text": " He commanded them: ",
+          "anchor": "ACT.1.4",
+          "marks": [],
+          "originalText": " He commanded them: ",
+          "anchors": [
+            "ACT.1.4"
+          ],
+          "sourceAnchor": "ACT.1.4"
+        },
+        {
+          "text": "“Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss.",
+          "anchor": "ACT.1.4",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss. ",
+          "anchors": [
+            "ACT.1.4"
+          ],
+          "sourceAnchor": "ACT.1.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "ACT.1.5",
+          "anchors": [
+            "ACT.1.5"
+          ],
+          "sourceAnchor": "ACT.1.5"
+        },
+        {
+          "text": "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.",
+          "anchor": "ACT.1.5",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.",
+          "anchors": [
+            "ACT.1.5"
+          ],
+          "sourceAnchor": "ACT.1.5"
+        },
+        {
+          "noteId": "ACT.1.note.2",
+          "anchor": "ACT.1.5",
+          "anchors": [
+            "ACT.1.5"
+          ],
+          "sourceAnchor": "ACT.1.5"
+        },
+        {
+          "text": "”",
+          "anchor": "ACT.1.5",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "”",
+          "anchors": [
+            "ACT.1.5"
+          ],
+          "sourceAnchor": "ACT.1.5"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/ACT.usj#content/12",
+      "runs": [
+        {
+          "text": "The Ascension",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/ACT.usj#content/13",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 16:19–20",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 24:50–53",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/14",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.5",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.5"
+          ],
+          "sourceAnchor": "ACT.1.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "ACT.1.6",
+          "anchors": [
+            "ACT.1.6"
+          ],
+          "sourceAnchor": "ACT.1.6"
+        },
+        {
+          "text": "So when they came together, they asked Him, “Lord, will You at this time restore the kingdom to Israel?”",
+          "anchor": "ACT.1.6",
+          "marks": [],
+          "originalText": "So when they came together, they asked Him, “Lord, will You at this time restore the kingdom to Israel?”",
+          "anchors": [
+            "ACT.1.6"
+          ],
+          "sourceAnchor": "ACT.1.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/15",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.6"
+          ],
+          "sourceAnchor": "ACT.1.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "ACT.1.7",
+          "anchors": [
+            "ACT.1.7"
+          ],
+          "sourceAnchor": "ACT.1.7"
+        },
+        {
+          "text": "Jesus replied, ",
+          "anchor": "ACT.1.7",
+          "marks": [],
+          "originalText": "Jesus replied, ",
+          "anchors": [
+            "ACT.1.7"
+          ],
+          "sourceAnchor": "ACT.1.7"
+        },
+        {
+          "text": "“It is not for you to know times or seasons that the Father has fixed by His own authority.",
+          "anchor": "ACT.1.7",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“It is not for you to know times or seasons that the Father has fixed by His own authority. ",
+          "anchors": [
+            "ACT.1.7"
+          ],
+          "sourceAnchor": "ACT.1.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "ACT.1.8",
+          "anchors": [
+            "ACT.1.8"
+          ],
+          "sourceAnchor": "ACT.1.8"
+        },
+        {
+          "text": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”",
+          "anchor": "ACT.1.8",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”",
+          "anchors": [
+            "ACT.1.8"
+          ],
+          "sourceAnchor": "ACT.1.8"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/16",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.8",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.8"
+          ],
+          "sourceAnchor": "ACT.1.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "ACT.1.9",
+          "anchors": [
+            "ACT.1.9"
+          ],
+          "sourceAnchor": "ACT.1.9"
+        },
+        {
+          "text": "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight.",
+          "anchor": "ACT.1.9",
+          "marks": [],
+          "originalText": "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight. ",
+          "anchors": [
+            "ACT.1.9"
+          ],
+          "sourceAnchor": "ACT.1.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "ACT.1.10",
+          "anchors": [
+            "ACT.1.10"
+          ],
+          "sourceAnchor": "ACT.1.10"
+        },
+        {
+          "text": "They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them.",
+          "anchor": "ACT.1.10",
+          "marks": [],
+          "originalText": "They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them. ",
+          "anchors": [
+            "ACT.1.10"
+          ],
+          "sourceAnchor": "ACT.1.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "ACT.1.11",
+          "anchors": [
+            "ACT.1.11"
+          ],
+          "sourceAnchor": "ACT.1.11"
+        },
+        {
+          "text": "“Men of Galilee,” they said, “why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.”",
+          "anchor": "ACT.1.11",
+          "marks": [],
+          "originalText": "“Men of Galilee,” they said, “why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.”",
+          "anchors": [
+            "ACT.1.11"
+          ],
+          "sourceAnchor": "ACT.1.11"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/ACT.usj#content/17",
+      "runs": [
+        {
+          "text": "Matthias Replaces Judas",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/18",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.11",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.11"
+          ],
+          "sourceAnchor": "ACT.1.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "ACT.1.12",
+          "anchors": [
+            "ACT.1.12"
+          ],
+          "sourceAnchor": "ACT.1.12"
+        },
+        {
+          "text": "Then they returned to Jerusalem from the Mount of Olives, which is near the city, a Sabbath day’s journey away.",
+          "anchor": "ACT.1.12",
+          "marks": [],
+          "originalText": "Then they returned to Jerusalem from the Mount of Olives, which is near the city, a Sabbath day’s journey away.",
+          "anchors": [
+            "ACT.1.12"
+          ],
+          "sourceAnchor": "ACT.1.12"
+        },
+        {
+          "noteId": "ACT.1.note.3",
+          "anchor": "ACT.1.12",
+          "anchors": [
+            "ACT.1.12"
+          ],
+          "sourceAnchor": "ACT.1.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "ACT.1.13",
+          "anchors": [
+            "ACT.1.13"
+          ],
+          "sourceAnchor": "ACT.1.13"
+        },
+        {
+          "text": "When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James.",
+          "anchor": "ACT.1.13",
+          "marks": [],
+          "originalText": "When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James. ",
+          "anchors": [
+            "ACT.1.13"
+          ],
+          "sourceAnchor": "ACT.1.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "ACT.1.14",
+          "anchors": [
+            "ACT.1.14"
+          ],
+          "sourceAnchor": "ACT.1.14"
+        },
+        {
+          "text": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.",
+          "anchor": "ACT.1.14",
+          "marks": [],
+          "originalText": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.",
+          "anchors": [
+            "ACT.1.14"
+          ],
+          "sourceAnchor": "ACT.1.14"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/19",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.14"
+          ],
+          "sourceAnchor": "ACT.1.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "ACT.1.15",
+          "anchors": [
+            "ACT.1.15"
+          ],
+          "sourceAnchor": "ACT.1.15"
+        },
+        {
+          "text": "In those days Peter stood up among the brothers (a gathering of about a hundred and twenty) and said,",
+          "anchor": "ACT.1.15",
+          "marks": [],
+          "originalText": "In those days Peter stood up among the brothers ( a gathering of about a hundred and twenty ) and said, ",
+          "anchors": [
+            "ACT.1.15"
+          ],
+          "sourceAnchor": "ACT.1.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "ACT.1.16",
+          "anchors": [
+            "ACT.1.16"
+          ],
+          "sourceAnchor": "ACT.1.16"
+        },
+        {
+          "text": "“Brothers, the Scripture had to be fulfilled that the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus.",
+          "anchor": "ACT.1.16",
+          "marks": [],
+          "originalText": "“Brothers, the Scripture had to be fulfilled that the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus. ",
+          "anchors": [
+            "ACT.1.16"
+          ],
+          "sourceAnchor": "ACT.1.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "ACT.1.17",
+          "anchors": [
+            "ACT.1.17"
+          ],
+          "sourceAnchor": "ACT.1.17"
+        },
+        {
+          "text": "He was one of our number and shared in this ministry.”",
+          "anchor": "ACT.1.17",
+          "marks": [],
+          "originalText": "He was one of our number and shared in this ministry.”",
+          "anchors": [
+            "ACT.1.17"
+          ],
+          "sourceAnchor": "ACT.1.17"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/20",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.17",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.17"
+          ],
+          "sourceAnchor": "ACT.1.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "ACT.1.18",
+          "anchors": [
+            "ACT.1.18"
+          ],
+          "sourceAnchor": "ACT.1.18"
+        },
+        {
+          "text": "(Now with the reward for his wickedness Judas bought a field; there he fell headlong and burst open in the middle, and all his intestines spilled out.",
+          "anchor": "ACT.1.18",
+          "marks": [],
+          "originalText": "(Now with the reward for his wickedness Judas bought a field; there he fell headlong and burst open in the middle, and all his intestines spilled out. ",
+          "anchors": [
+            "ACT.1.18"
+          ],
+          "sourceAnchor": "ACT.1.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "ACT.1.19",
+          "anchors": [
+            "ACT.1.19"
+          ],
+          "sourceAnchor": "ACT.1.19"
+        },
+        {
+          "text": "This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)",
+          "anchor": "ACT.1.19",
+          "marks": [],
+          "originalText": "This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)",
+          "anchors": [
+            "ACT.1.19"
+          ],
+          "sourceAnchor": "ACT.1.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/21",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.19",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.19"
+          ],
+          "sourceAnchor": "ACT.1.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "ACT.1.20",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        },
+        {
+          "text": "“For it is written in the book of Psalms:",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": "“For it is written in the book of Psalms:",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/22",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/23",
+      "runs": [
+        {
+          "text": " ‘May his place be deserted;",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": "‘May his place be deserted;",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/24",
+      "runs": [
+        {
+          "text": " let there be no one to dwell in it,’",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": "let there be no one to dwell in it,’",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        },
+        {
+          "noteId": "ACT.1.note.4",
+          "anchor": "ACT.1.20",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/25",
+      "runs": [
+        {
+          "text": " and,",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": "and,",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/26",
+      "runs": []
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/27",
+      "runs": [
+        {
+          "text": " ‘May another take his position.’",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": "‘May another take his position.’",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        },
+        {
+          "noteId": "ACT.1.note.5",
+          "anchor": "ACT.1.20",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/28",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.20"
+          ],
+          "sourceAnchor": "ACT.1.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "ACT.1.21",
+          "anchors": [
+            "ACT.1.21"
+          ],
+          "sourceAnchor": "ACT.1.21"
+        },
+        {
+          "text": "Therefore it is necessary to choose one of the men who have accompanied us the whole time the Lord Jesus went in and out among us,",
+          "anchor": "ACT.1.21",
+          "marks": [],
+          "originalText": "Therefore it is necessary to choose one of the men who have accompanied us the whole time the Lord Jesus went in and out among us, ",
+          "anchors": [
+            "ACT.1.21"
+          ],
+          "sourceAnchor": "ACT.1.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "ACT.1.22",
+          "anchors": [
+            "ACT.1.22"
+          ],
+          "sourceAnchor": "ACT.1.22"
+        },
+        {
+          "text": "beginning from John’s baptism until the day Jesus was taken up from us. For one of these must become a witness with us of His resurrection.”",
+          "anchor": "ACT.1.22",
+          "marks": [],
+          "originalText": "beginning from John’s baptism until the day Jesus was taken up from us. For one of these must become a witness with us of His resurrection.”",
+          "anchors": [
+            "ACT.1.22"
+          ],
+          "sourceAnchor": "ACT.1.22"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/29",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.22",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.22"
+          ],
+          "sourceAnchor": "ACT.1.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "ACT.1.23",
+          "anchors": [
+            "ACT.1.23"
+          ],
+          "sourceAnchor": "ACT.1.23"
+        },
+        {
+          "text": "So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias.",
+          "anchor": "ACT.1.23",
+          "marks": [],
+          "originalText": "So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias. ",
+          "anchors": [
+            "ACT.1.23"
+          ],
+          "sourceAnchor": "ACT.1.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "ACT.1.24",
+          "anchors": [
+            "ACT.1.24"
+          ],
+          "sourceAnchor": "ACT.1.24"
+        },
+        {
+          "text": "And they prayed, “Lord, You know everyone’s heart. Show us which of these two You have chosen",
+          "anchor": "ACT.1.24",
+          "marks": [],
+          "originalText": "And they prayed, “Lord, You know everyone’s heart. Show us which of these two You have chosen ",
+          "anchors": [
+            "ACT.1.24"
+          ],
+          "sourceAnchor": "ACT.1.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "ACT.1.25",
+          "anchors": [
+            "ACT.1.25"
+          ],
+          "sourceAnchor": "ACT.1.25"
+        },
+        {
+          "text": "to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.”",
+          "anchor": "ACT.1.25",
+          "marks": [],
+          "originalText": "to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.”",
+          "anchors": [
+            "ACT.1.25"
+          ],
+          "sourceAnchor": "ACT.1.25"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/ACT.usj#content/30",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "ACT.1.25",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "ACT.1.25"
+          ],
+          "sourceAnchor": "ACT.1.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "ACT.1.26",
+          "anchors": [
+            "ACT.1.26"
+          ],
+          "sourceAnchor": "ACT.1.26"
+        },
+        {
+          "text": "Then they cast lots, and the lot fell to Matthias. So he was added to the eleven apostles.",
+          "anchor": "ACT.1.26",
+          "marks": [],
+          "originalText": "Then they cast lots, and the lot fell to Matthias. So he was added to the eleven apostles.",
+          "anchors": [
+            "ACT.1.26"
+          ],
+          "sourceAnchor": "ACT.1.26"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "ACT.1.1",
+      "sourceId": "bsb_usj/ACT.usj#content/10/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "ACT.1.1"
+      ],
+      "mappingType": "exact",
+      "text": "In my first book, O Theophilus, I wrote about all that Jesus began to do and to teach,",
+      "originalStructuredText": "In my first book, O Theophilus, I wrote about all that Jesus began to do and to teach, ",
+      "sourceRef": "ACT.1.1"
+    },
+    {
+      "id": "ACT.1.2",
+      "sourceId": "bsb_usj/ACT.usj#content/10/content/3",
+      "sourceLabel": "2",
+      "anchors": [
+        "ACT.1.2"
+      ],
+      "mappingType": "exact",
+      "text": "until the day He was taken up to heaven, after giving instructions through the Holy Spirit to the apostles He had chosen.",
+      "originalStructuredText": "until the day He was taken up to heaven, after giving instructions through the Holy Spirit to the apostles He had chosen. ",
+      "sourceRef": "ACT.1.2"
+    },
+    {
+      "id": "ACT.1.3",
+      "sourceId": "bsb_usj/ACT.usj#content/10/content/5",
+      "sourceLabel": "3",
+      "anchors": [
+        "ACT.1.3"
+      ],
+      "mappingType": "exact",
+      "text": "After His suffering, He presented Himself to them with many convincing proofs that He was alive. He appeared to them over a span of forty days and spoke about the kingdom of God.",
+      "originalStructuredText": "After His suffering, He presented Himself to them with many convincing proofs that He was alive. He appeared to them over a span of forty days and spoke about the kingdom of God.\n ",
+      "sourceRef": "ACT.1.3"
+    },
+    {
+      "id": "ACT.1.4",
+      "sourceId": "bsb_usj/ACT.usj#content/11/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "ACT.1.4"
+      ],
+      "mappingType": "exact",
+      "text": "And while they were gathered together, He commanded them: “Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss.",
+      "originalStructuredText": "And while they were gathered together, He commanded them: “Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss. ",
+      "sourceRef": "ACT.1.4"
+    },
+    {
+      "id": "ACT.1.5",
+      "sourceId": "bsb_usj/ACT.usj#content/11/content/5/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "ACT.1.5"
+      ],
+      "mappingType": "exact",
+      "text": "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.”",
+      "originalStructuredText": "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.”\n ",
+      "sourceRef": "ACT.1.5"
+    },
+    {
+      "id": "ACT.1.6",
+      "sourceId": "bsb_usj/ACT.usj#content/14/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "ACT.1.6"
+      ],
+      "mappingType": "exact",
+      "text": "So when they came together, they asked Him, “Lord, will You at this time restore the kingdom to Israel?”",
+      "originalStructuredText": "So when they came together, they asked Him, “Lord, will You at this time restore the kingdom to Israel?”\n ",
+      "sourceRef": "ACT.1.6"
+    },
+    {
+      "id": "ACT.1.7",
+      "sourceId": "bsb_usj/ACT.usj#content/15/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "ACT.1.7"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus replied, “It is not for you to know times or seasons that the Father has fixed by His own authority.",
+      "originalStructuredText": "Jesus replied, “It is not for you to know times or seasons that the Father has fixed by His own authority. ",
+      "sourceRef": "ACT.1.7"
+    },
+    {
+      "id": "ACT.1.8",
+      "sourceId": "bsb_usj/ACT.usj#content/15/content/3/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "ACT.1.8"
+      ],
+      "mappingType": "exact",
+      "text": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”",
+      "originalStructuredText": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”\n ",
+      "sourceRef": "ACT.1.8"
+    },
+    {
+      "id": "ACT.1.9",
+      "sourceId": "bsb_usj/ACT.usj#content/16/content/1",
+      "sourceLabel": "9",
+      "anchors": [
+        "ACT.1.9"
+      ],
+      "mappingType": "exact",
+      "text": "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight.",
+      "originalStructuredText": "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight. ",
+      "sourceRef": "ACT.1.9"
+    },
+    {
+      "id": "ACT.1.10",
+      "sourceId": "bsb_usj/ACT.usj#content/16/content/3",
+      "sourceLabel": "10",
+      "anchors": [
+        "ACT.1.10"
+      ],
+      "mappingType": "exact",
+      "text": "They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them.",
+      "originalStructuredText": "They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them. ",
+      "sourceRef": "ACT.1.10"
+    },
+    {
+      "id": "ACT.1.11",
+      "sourceId": "bsb_usj/ACT.usj#content/16/content/5",
+      "sourceLabel": "11",
+      "anchors": [
+        "ACT.1.11"
+      ],
+      "mappingType": "exact",
+      "text": "“Men of Galilee,” they said, “why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.”",
+      "originalStructuredText": "“Men of Galilee,” they said, “why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.”\n ",
+      "sourceRef": "ACT.1.11"
+    },
+    {
+      "id": "ACT.1.12",
+      "sourceId": "bsb_usj/ACT.usj#content/18/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "ACT.1.12"
+      ],
+      "mappingType": "exact",
+      "text": "Then they returned to Jerusalem from the Mount of Olives, which is near the city, a Sabbath day’s journey away.",
+      "originalStructuredText": "Then they returned to Jerusalem from the Mount of Olives, which is near the city, a Sabbath day’s journey away.",
+      "sourceRef": "ACT.1.12"
+    },
+    {
+      "id": "ACT.1.13",
+      "sourceId": "bsb_usj/ACT.usj#content/18/content/4",
+      "sourceLabel": "13",
+      "anchors": [
+        "ACT.1.13"
+      ],
+      "mappingType": "exact",
+      "text": "When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James.",
+      "originalStructuredText": "When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James. ",
+      "sourceRef": "ACT.1.13"
+    },
+    {
+      "id": "ACT.1.14",
+      "sourceId": "bsb_usj/ACT.usj#content/18/content/6",
+      "sourceLabel": "14",
+      "anchors": [
+        "ACT.1.14"
+      ],
+      "mappingType": "exact",
+      "text": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.",
+      "originalStructuredText": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.\n ",
+      "sourceRef": "ACT.1.14"
+    },
+    {
+      "id": "ACT.1.15",
+      "sourceId": "bsb_usj/ACT.usj#content/19/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "ACT.1.15"
+      ],
+      "mappingType": "exact",
+      "text": "In those days Peter stood up among the brothers (a gathering of about a hundred and twenty) and said,",
+      "originalStructuredText": "In those days Peter stood up among the brothers ( a gathering of about a hundred and twenty ) and said, ",
+      "sourceRef": "ACT.1.15"
+    },
+    {
+      "id": "ACT.1.16",
+      "sourceId": "bsb_usj/ACT.usj#content/19/content/3",
+      "sourceLabel": "16",
+      "anchors": [
+        "ACT.1.16"
+      ],
+      "mappingType": "exact",
+      "text": "“Brothers, the Scripture had to be fulfilled that the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus.",
+      "originalStructuredText": "“Brothers, the Scripture had to be fulfilled that the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus. ",
+      "sourceRef": "ACT.1.16"
+    },
+    {
+      "id": "ACT.1.17",
+      "sourceId": "bsb_usj/ACT.usj#content/19/content/5",
+      "sourceLabel": "17",
+      "anchors": [
+        "ACT.1.17"
+      ],
+      "mappingType": "exact",
+      "text": "He was one of our number and shared in this ministry.”",
+      "originalStructuredText": "He was one of our number and shared in this ministry.”\n ",
+      "sourceRef": "ACT.1.17"
+    },
+    {
+      "id": "ACT.1.18",
+      "sourceId": "bsb_usj/ACT.usj#content/20/content/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "ACT.1.18"
+      ],
+      "mappingType": "exact",
+      "text": "(Now with the reward for his wickedness Judas bought a field; there he fell headlong and burst open in the middle, and all his intestines spilled out.",
+      "originalStructuredText": "(Now with the reward for his wickedness Judas bought a field; there he fell headlong and burst open in the middle, and all his intestines spilled out. ",
+      "sourceRef": "ACT.1.18"
+    },
+    {
+      "id": "ACT.1.19",
+      "sourceId": "bsb_usj/ACT.usj#content/20/content/3",
+      "sourceLabel": "19",
+      "anchors": [
+        "ACT.1.19"
+      ],
+      "mappingType": "exact",
+      "text": "This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)",
+      "originalStructuredText": "This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)\n ",
+      "sourceRef": "ACT.1.19"
+    },
+    {
+      "id": "ACT.1.20",
+      "sourceId": "bsb_usj/ACT.usj#content/21/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "ACT.1.20"
+      ],
+      "mappingType": "exact",
+      "text": "“For it is written in the book of Psalms: ‘May his place be deserted; let there be no one to dwell in it,’ and, ‘May another take his position.’",
+      "originalStructuredText": "“For it is written in the book of Psalms:\n\n‘May his place be deserted;\nlet there be no one to dwell in it,’\nand,\n\n‘May another take his position.’\n ",
+      "sourceRef": "ACT.1.20"
+    },
+    {
+      "id": "ACT.1.21",
+      "sourceId": "bsb_usj/ACT.usj#content/28/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "ACT.1.21"
+      ],
+      "mappingType": "exact",
+      "text": "Therefore it is necessary to choose one of the men who have accompanied us the whole time the Lord Jesus went in and out among us,",
+      "originalStructuredText": "Therefore it is necessary to choose one of the men who have accompanied us the whole time the Lord Jesus went in and out among us, ",
+      "sourceRef": "ACT.1.21"
+    },
+    {
+      "id": "ACT.1.22",
+      "sourceId": "bsb_usj/ACT.usj#content/28/content/3",
+      "sourceLabel": "22",
+      "anchors": [
+        "ACT.1.22"
+      ],
+      "mappingType": "exact",
+      "text": "beginning from John’s baptism until the day Jesus was taken up from us. For one of these must become a witness with us of His resurrection.”",
+      "originalStructuredText": "beginning from John’s baptism until the day Jesus was taken up from us. For one of these must become a witness with us of His resurrection.”\n ",
+      "sourceRef": "ACT.1.22"
+    },
+    {
+      "id": "ACT.1.23",
+      "sourceId": "bsb_usj/ACT.usj#content/29/content/1",
+      "sourceLabel": "23",
+      "anchors": [
+        "ACT.1.23"
+      ],
+      "mappingType": "exact",
+      "text": "So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias.",
+      "originalStructuredText": "So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias. ",
+      "sourceRef": "ACT.1.23"
+    },
+    {
+      "id": "ACT.1.24",
+      "sourceId": "bsb_usj/ACT.usj#content/29/content/3",
+      "sourceLabel": "24",
+      "anchors": [
+        "ACT.1.24"
+      ],
+      "mappingType": "exact",
+      "text": "And they prayed, “Lord, You know everyone’s heart. Show us which of these two You have chosen",
+      "originalStructuredText": "And they prayed, “Lord, You know everyone’s heart. Show us which of these two You have chosen ",
+      "sourceRef": "ACT.1.24"
+    },
+    {
+      "id": "ACT.1.25",
+      "sourceId": "bsb_usj/ACT.usj#content/29/content/5",
+      "sourceLabel": "25",
+      "anchors": [
+        "ACT.1.25"
+      ],
+      "mappingType": "exact",
+      "text": "to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.”",
+      "originalStructuredText": "to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.”\n ",
+      "sourceRef": "ACT.1.25"
+    },
+    {
+      "id": "ACT.1.26",
+      "sourceId": "bsb_usj/ACT.usj#content/30/content/1",
+      "sourceLabel": "26",
+      "anchors": [
+        "ACT.1.26"
+      ],
+      "mappingType": "exact",
+      "text": "Then they cast lots, and the lot fell to Matthias. So he was added to the eleven apostles.",
+      "originalStructuredText": "Then they cast lots, and the lot fell to Matthias. So he was added to the eleven apostles.",
+      "sourceRef": "ACT.1.26"
+    }
+  ],
+  "notes": [
+    {
+      "id": "ACT.1.note.1",
+      "anchor": "ACT.1.4",
+      "sourceId": "bsb_usj/ACT.usj#content/11/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:4 Or eating together",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:4 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "eating together"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACT.1.note.2",
+      "anchor": "ACT.1.5",
+      "sourceId": "bsb_usj/ACT.usj#content/11/content/5/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:5 Or For John baptized in water, but in a few days you will be baptized in the Holy Spirit; cited in Acts 11:16",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:5 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "Or "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "For John baptized in water, but in a few days you will be baptized in the Holy Spirit"
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "; cited in ",
+              {
+                "type": "ref",
+                "loc": "ACT 11:16",
+                "content": [
+                  "Acts 11:16"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACT.1.note.3",
+      "anchor": "ACT.1.12",
+      "sourceId": "bsb_usj/ACT.usj#content/18/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:12 A Sabbath day’s journey is 2,000 cubits (approximately 3,000 feet or 914.4 meters)",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:12 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "A Sabbath day’s journey "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "is 2,000 cubits (approximately 3,000 feet or 914.4 meters)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACT.1.note.4",
+      "anchor": "ACT.1.20",
+      "sourceId": "bsb_usj/ACT.usj#content/24/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:20 Psalm 69:25",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "PSA 69:25",
+                "content": [
+                  "Psalm 69:25"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACT.1.note.5",
+      "anchor": "ACT.1.20",
+      "sourceId": "bsb_usj/ACT.usj#content/27/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "1:20 Psalm 109:8",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "1:20 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "PSA 109:8",
+                "content": [
+                  "Psalm 109:8"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "ACT.1.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.1",
+          "sourceRef": "ACT.1.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.2",
+          "sourceRef": "ACT.1.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.3",
+          "sourceRef": "ACT.1.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ACT.1.note.1"
+      ],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.4",
+          "sourceRef": "ACT.1.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ACT.1.note.2"
+      ],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.5",
+          "sourceRef": "ACT.1.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.6",
+          "sourceRef": "ACT.1.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.7",
+          "sourceRef": "ACT.1.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.8",
+          "sourceRef": "ACT.1.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.9",
+          "sourceRef": "ACT.1.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.10",
+          "sourceRef": "ACT.1.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.11",
+          "sourceRef": "ACT.1.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ACT.1.note.3"
+      ],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.12",
+          "sourceRef": "ACT.1.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.13",
+          "sourceRef": "ACT.1.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.14",
+          "sourceRef": "ACT.1.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.15",
+          "sourceRef": "ACT.1.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.16",
+          "sourceRef": "ACT.1.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.17",
+          "sourceRef": "ACT.1.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.18",
+          "sourceRef": "ACT.1.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.19",
+          "sourceRef": "ACT.1.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "ACT.1.note.4",
+        "ACT.1.note.5"
+      ],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.20",
+          "sourceRef": "ACT.1.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.21",
+          "sourceRef": "ACT.1.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.22",
+          "sourceRef": "ACT.1.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.23",
+          "sourceRef": "ACT.1.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.24",
+          "sourceRef": "ACT.1.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.25",
+          "sourceRef": "ACT.1.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "ACT.1.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "ACT",
+          "chapter": 1,
+          "segmentId": "ACT.1.26",
+          "sourceRef": "ACT.1.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

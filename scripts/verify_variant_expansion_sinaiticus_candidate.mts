@@ -43,7 +43,7 @@ for (const [relative, expected] of Object.entries(manifest.outputs) as [string, 
 for (const [relative, expected] of Object.entries(manifest.sourceFiles) as [string, string][])
   check(sha256(await readFile(join(root, relative))) === expected, `Source checksum mismatch: ${relative}`);
 
-check(evidence.units.length === 65 && Object.keys(registry.plates).length === 65 && units.length === 104, 'Expected 65 evidence units, plates, and 104 total commentary units.');
+check(evidence.units.length === 65 && Object.keys(registry.plates).length === 65 && units.length >= 104, 'Expected 65 evidence units, plates, and the preserved 104-unit commentary predecessor.');
 check(registry.status === 'candidate' && registry.editorialReview.status === 'pending', 'Evidence candidate must remain unapproved.');
 const ids = evidence.units.map((unit: any) => unit.unitId);
 check(ids.every((id: string, index: number) => id === `candidate-${40 + index}`), 'Expansion unit identity mismatch.');

@@ -34,7 +34,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '3.6.1');
+  assert.equal(config.version, '3.6.2');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -114,7 +114,7 @@ test('desktop bundles every released file unchanged and excludes account/private
     assert.deepEqual(bytes, await readFile(join('app/public', path)), path);
   }
   const library = await json('library/index.json');
-  assert.equal(library.comparisonCount, 104);
+  assert.equal(library.comparisonCount, 110);
   assert.equal(library.articleCount, 250);
   assert.equal(library.lemmaCount, 5400);
   assert.deepEqual(manifest.visuals, visualSelections);

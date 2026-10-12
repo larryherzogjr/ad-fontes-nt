@@ -6,10 +6,10 @@ const library = JSON.parse(await readFile(new URL('../app/public/library/index.j
 
 test('Library index contains only the released inventories', () => {
   assert.equal(library.schemaVersion, 1);
-  assert.equal(library.comparisonCount, 104);
+  assert.equal(library.comparisonCount, 110);
   assert.equal(library.articleCount, 250);
   assert.equal(library.lemmaCount, 5400);
-  assert.equal(library.comparisons.length, 104);
+  assert.equal(library.comparisons.length, 110);
   assert.equal(library.articles.length, 250);
   assert.equal(library.words.length, 5400);
   assert.ok(library.comparisons.every((unit: any) => unit.id && unit.title && unit.ranges.length));
@@ -17,9 +17,9 @@ test('Library index contains only the released inventories', () => {
   assert.ok(library.words.every((word: any) => word.lemmaId && word.lemma && word.occurrenceCount > 0));
 });
 
-test('Library client requires the complete 104-comparison release', async () => {
+test('Library client requires the complete 110-comparison release', async () => {
   const client = await readFile(new URL('../app/library/library.tsx', import.meta.url), 'utf8');
-  assert.match(client, /data\.comparisonCount !== 104/);
+  assert.match(client, /data\.comparisonCount !== 110/);
   assert.doesNotMatch(client, /data\.comparisonCount !== 39/);
 });
 

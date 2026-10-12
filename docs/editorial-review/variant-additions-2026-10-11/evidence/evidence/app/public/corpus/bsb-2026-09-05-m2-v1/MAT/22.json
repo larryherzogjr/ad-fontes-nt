@@ -1,0 +1,3368 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "releaseId": "bsb-2026-09-05-m2-v1",
+  "blocks": [
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/817",
+      "runs": [
+        {
+          "text": "The Parable of the Banquet",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/818",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 14:15–24",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/819",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "verse": "1",
+          "anchor": "MAT.22.1",
+          "anchors": [
+            "MAT.22.1"
+          ],
+          "sourceAnchor": "MAT.22.1"
+        },
+        {
+          "text": "Once again, Jesus spoke to them in parables:",
+          "anchor": "MAT.22.1",
+          "marks": [],
+          "originalText": "Once again, Jesus spoke to them in parables: ",
+          "anchors": [
+            "MAT.22.1"
+          ],
+          "sourceAnchor": "MAT.22.1"
+        },
+        {
+          "text": "",
+          "anchor": "MAT.22.1",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.1"
+          ],
+          "sourceAnchor": "MAT.22.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.22.2",
+          "anchors": [
+            "MAT.22.2"
+          ],
+          "sourceAnchor": "MAT.22.2"
+        },
+        {
+          "text": "“The kingdom of heaven is like a king who prepared a wedding banquet for his son.",
+          "anchor": "MAT.22.2",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“The kingdom of heaven is like a king who prepared a wedding banquet for his son. ",
+          "anchors": [
+            "MAT.22.2"
+          ],
+          "sourceAnchor": "MAT.22.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.22.3",
+          "anchors": [
+            "MAT.22.3"
+          ],
+          "sourceAnchor": "MAT.22.3"
+        },
+        {
+          "text": "He sent his servants to call those he had invited to the banquet, but they refused to come.",
+          "anchor": "MAT.22.3",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "He sent his servants to call those he had invited to the banquet, but they refused to come.",
+          "anchors": [
+            "MAT.22.3"
+          ],
+          "sourceAnchor": "MAT.22.3"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/820",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.3",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.3"
+          ],
+          "sourceAnchor": "MAT.22.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.22.4",
+          "anchors": [
+            "MAT.22.4"
+          ],
+          "sourceAnchor": "MAT.22.4"
+        },
+        {
+          "text": "Again, he sent other servants and said, ‘Tell those who have been invited that I have prepared my dinner. My oxen and fattened cattle have been killed, and everything is ready. Come to the wedding banquet.’",
+          "anchor": "MAT.22.4",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Again, he sent other servants and said, ‘Tell those who have been invited that I have prepared my dinner. My oxen and fattened cattle have been killed, and everything is ready. Come to the wedding banquet.’",
+          "anchors": [
+            "MAT.22.4"
+          ],
+          "sourceAnchor": "MAT.22.4"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/821",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.4",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.4"
+          ],
+          "sourceAnchor": "MAT.22.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.22.5",
+          "anchors": [
+            "MAT.22.5"
+          ],
+          "sourceAnchor": "MAT.22.5"
+        },
+        {
+          "text": "But they paid no attention and went away, one to his field, another to his business.",
+          "anchor": "MAT.22.5",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But they paid no attention and went away, one to his field, another to his business. ",
+          "anchors": [
+            "MAT.22.5"
+          ],
+          "sourceAnchor": "MAT.22.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.22.6",
+          "anchors": [
+            "MAT.22.6"
+          ],
+          "sourceAnchor": "MAT.22.6"
+        },
+        {
+          "text": "The rest seized his servants, mistreated them, and killed them.",
+          "anchor": "MAT.22.6",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "The rest seized his servants, mistreated them, and killed them.",
+          "anchors": [
+            "MAT.22.6"
+          ],
+          "sourceAnchor": "MAT.22.6"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/822",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.6",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.6"
+          ],
+          "sourceAnchor": "MAT.22.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.22.7",
+          "anchors": [
+            "MAT.22.7"
+          ],
+          "sourceAnchor": "MAT.22.7"
+        },
+        {
+          "text": "The king was enraged, and he sent his troops to destroy those murderers and burn their city.",
+          "anchor": "MAT.22.7",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "The king was enraged, and he sent his troops to destroy those murderers and burn their city. ",
+          "anchors": [
+            "MAT.22.7"
+          ],
+          "sourceAnchor": "MAT.22.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.22.8",
+          "anchors": [
+            "MAT.22.8"
+          ],
+          "sourceAnchor": "MAT.22.8"
+        },
+        {
+          "text": "Then he said to his servants, ‘The wedding banquet is ready, but those I invited were not worthy.",
+          "anchor": "MAT.22.8",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Then he said to his servants, ‘The wedding banquet is ready, but those I invited were not worthy. ",
+          "anchors": [
+            "MAT.22.8"
+          ],
+          "sourceAnchor": "MAT.22.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.22.9",
+          "anchors": [
+            "MAT.22.9"
+          ],
+          "sourceAnchor": "MAT.22.9"
+        },
+        {
+          "text": "Go therefore to the crossroads and invite to the banquet as many as you can find.’",
+          "anchor": "MAT.22.9",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Go therefore to the crossroads and invite to the banquet as many as you can find.’",
+          "anchors": [
+            "MAT.22.9"
+          ],
+          "sourceAnchor": "MAT.22.9"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/823",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.9",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.9"
+          ],
+          "sourceAnchor": "MAT.22.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.22.10",
+          "anchors": [
+            "MAT.22.10"
+          ],
+          "sourceAnchor": "MAT.22.10"
+        },
+        {
+          "text": "So the servants went out into the streets and gathered everyone they could find, both evil and good, and the wedding hall was filled with guests.",
+          "anchor": "MAT.22.10",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "So the servants went out into the streets and gathered everyone they could find, both evil and good, and the wedding hall was filled with guests.",
+          "anchors": [
+            "MAT.22.10"
+          ],
+          "sourceAnchor": "MAT.22.10"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/824",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.10",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.10"
+          ],
+          "sourceAnchor": "MAT.22.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.22.11",
+          "anchors": [
+            "MAT.22.11"
+          ],
+          "sourceAnchor": "MAT.22.11"
+        },
+        {
+          "text": "But when the king came in to see the guests, he spotted a man who was not dressed in wedding clothes.",
+          "anchor": "MAT.22.11",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But when the king came in to see the guests, he spotted a man who was not dressed in wedding clothes. ",
+          "anchors": [
+            "MAT.22.11"
+          ],
+          "sourceAnchor": "MAT.22.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.22.12",
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        },
+        {
+          "text": "‘Friend,’ he asked, ‘how did you get in here without wedding clothes?’",
+          "anchor": "MAT.22.12",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "‘Friend,’ he asked, ‘how did you get in here without wedding clothes?’",
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/825",
+      "runs": [
+        {
+          "text": " But the man was speechless.",
+          "anchor": "MAT.22.12",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But the man was speechless.",
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/826",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.12",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.12"
+          ],
+          "sourceAnchor": "MAT.22.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.22.13",
+          "anchors": [
+            "MAT.22.13"
+          ],
+          "sourceAnchor": "MAT.22.13"
+        },
+        {
+          "text": "Then the king told the servants, ‘Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’",
+          "anchor": "MAT.22.13",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Then the king told the servants, ‘Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’",
+          "anchors": [
+            "MAT.22.13"
+          ],
+          "sourceAnchor": "MAT.22.13"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/827",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.13",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.13"
+          ],
+          "sourceAnchor": "MAT.22.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.22.14",
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        },
+        {
+          "text": "For many are called, but few are chosen.”",
+          "anchor": "MAT.22.14",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "For many are called, but few are chosen.”",
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/828",
+      "runs": [
+        {
+          "text": "Paying Taxes to Caesar",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/829",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 12:13–17",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 20:19–26",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/830",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.14",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.14"
+          ],
+          "sourceAnchor": "MAT.22.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.22.15",
+          "anchors": [
+            "MAT.22.15"
+          ],
+          "sourceAnchor": "MAT.22.15"
+        },
+        {
+          "text": "Then the Pharisees went out and conspired to trap Jesus in His words.",
+          "anchor": "MAT.22.15",
+          "marks": [],
+          "originalText": "Then the Pharisees went out and conspired to trap Jesus in His words. ",
+          "anchors": [
+            "MAT.22.15"
+          ],
+          "sourceAnchor": "MAT.22.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.22.16",
+          "anchors": [
+            "MAT.22.16"
+          ],
+          "sourceAnchor": "MAT.22.16"
+        },
+        {
+          "text": "They sent their disciples to Him along with the Herodians. “Teacher,” they said, “we know that You are honest and that You teach the way of God in accordance with the truth. You seek favor from no one, because You pay no attention to external appearance.",
+          "anchor": "MAT.22.16",
+          "marks": [],
+          "originalText": "They sent their disciples to Him along with the Herodians. “Teacher,” they said, “we know that You are honest and that You teach the way of God in accordance with the truth. You seek favor from no one, because You pay no attention to external appearance. ",
+          "anchors": [
+            "MAT.22.16"
+          ],
+          "sourceAnchor": "MAT.22.16"
+        },
+        {
+          "verse": "17",
+          "anchor": "MAT.22.17",
+          "anchors": [
+            "MAT.22.17"
+          ],
+          "sourceAnchor": "MAT.22.17"
+        },
+        {
+          "text": "So tell us what You think: Is it lawful to pay taxes to Caesar or not?”",
+          "anchor": "MAT.22.17",
+          "marks": [],
+          "originalText": "So tell us what You think: Is it lawful to pay taxes to Caesar or not?”",
+          "anchors": [
+            "MAT.22.17"
+          ],
+          "sourceAnchor": "MAT.22.17"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/831",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.17",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.17"
+          ],
+          "sourceAnchor": "MAT.22.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.22.18",
+          "anchors": [
+            "MAT.22.18"
+          ],
+          "sourceAnchor": "MAT.22.18"
+        },
+        {
+          "text": "But Jesus knew their evil intent and said, ",
+          "anchor": "MAT.22.18",
+          "marks": [],
+          "originalText": "But Jesus knew their evil intent and said, ",
+          "anchors": [
+            "MAT.22.18"
+          ],
+          "sourceAnchor": "MAT.22.18"
+        },
+        {
+          "text": "“You hypocrites, why are you testing Me?",
+          "anchor": "MAT.22.18",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“You hypocrites, why are you testing Me? ",
+          "anchors": [
+            "MAT.22.18"
+          ],
+          "sourceAnchor": "MAT.22.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.22.19",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        },
+        {
+          "text": "Show Me the coin used for the tax.”",
+          "anchor": "MAT.22.19",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "Show Me the coin used for the tax.”",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/832",
+      "runs": [
+        {
+          "text": " And they brought Him a denarius.",
+          "anchor": "MAT.22.19",
+          "marks": [],
+          "originalText": "And they brought Him a denarius.",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        },
+        {
+          "noteId": "MAT.22.note.141",
+          "anchor": "MAT.22.19",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/833",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.19",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.19"
+          ],
+          "sourceAnchor": "MAT.22.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.22.20",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "text": "“Whose image is this,”",
+          "anchor": "MAT.22.20",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Whose image is this,”",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "text": " He asked, ",
+          "anchor": "MAT.22.20",
+          "marks": [],
+          "originalText": " He asked, ",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "text": "“and whose inscription?”",
+          "anchor": "MAT.22.20",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“and whose inscription?”",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/834",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.20",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.20"
+          ],
+          "sourceAnchor": "MAT.22.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.22.21",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        },
+        {
+          "text": "“Caesar’s,” they answered.",
+          "anchor": "MAT.22.21",
+          "marks": [],
+          "originalText": "“Caesar’s,” they answered.",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/835",
+      "runs": [
+        {
+          "text": " So Jesus told them, ",
+          "anchor": "MAT.22.21",
+          "marks": [],
+          "originalText": "So Jesus told them, ",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        },
+        {
+          "text": "“Give to Caesar what is Caesar’s, and to God what is God’s.”",
+          "anchor": "MAT.22.21",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Give to Caesar what is Caesar’s, and to God what is God’s.”",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/836",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.21",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.21"
+          ],
+          "sourceAnchor": "MAT.22.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.22.22",
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        },
+        {
+          "text": "And when they heard this, they were amazed. So they left Him and went away.",
+          "anchor": "MAT.22.22",
+          "marks": [],
+          "originalText": "And when they heard this, they were amazed. So they left Him and went away.",
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/837",
+      "runs": [
+        {
+          "text": "The Sadducees and the Resurrection",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/838",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 12:18–27",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 20:27–40",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/839",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.22",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.22"
+          ],
+          "sourceAnchor": "MAT.22.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.22.23",
+          "anchors": [
+            "MAT.22.23"
+          ],
+          "sourceAnchor": "MAT.22.23"
+        },
+        {
+          "text": "That same day the Sadducees, who say there is no resurrection, came to Jesus and questioned Him.",
+          "anchor": "MAT.22.23",
+          "marks": [],
+          "originalText": "That same day the Sadducees, who say there is no resurrection, came to Jesus and questioned Him. ",
+          "anchors": [
+            "MAT.22.23"
+          ],
+          "sourceAnchor": "MAT.22.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.22.24",
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "text": "“Teacher,” they said, “Moses declared that if a man dies without having children, his brother is to marry the widow and raise up offspring for him.",
+          "anchor": "MAT.22.24",
+          "marks": [],
+          "originalText": "“Teacher,” they said, “Moses declared that if a man dies without having children, his brother is to marry the widow and raise up offspring for him.",
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "noteId": "MAT.22.note.142",
+          "anchor": "MAT.22.24",
+          "anchors": [
+            "MAT.22.24"
+          ],
+          "sourceAnchor": "MAT.22.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.22.25",
+          "anchors": [
+            "MAT.22.25"
+          ],
+          "sourceAnchor": "MAT.22.25"
+        },
+        {
+          "text": "Now there were seven brothers among us. The first one married and died without having children. So he left his wife to his brother.",
+          "anchor": "MAT.22.25",
+          "marks": [],
+          "originalText": "Now there were seven brothers among us. The first one married and died without having children. So he left his wife to his brother. ",
+          "anchors": [
+            "MAT.22.25"
+          ],
+          "sourceAnchor": "MAT.22.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.22.26",
+          "anchors": [
+            "MAT.22.26"
+          ],
+          "sourceAnchor": "MAT.22.26"
+        },
+        {
+          "text": "The same thing happened to the second and third brothers, down to the seventh.",
+          "anchor": "MAT.22.26",
+          "marks": [],
+          "originalText": "The same thing happened to the second and third brothers, down to the seventh. ",
+          "anchors": [
+            "MAT.22.26"
+          ],
+          "sourceAnchor": "MAT.22.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.22.27",
+          "anchors": [
+            "MAT.22.27"
+          ],
+          "sourceAnchor": "MAT.22.27"
+        },
+        {
+          "text": "And last of all, the woman died.",
+          "anchor": "MAT.22.27",
+          "marks": [],
+          "originalText": "And last of all, the woman died. ",
+          "anchors": [
+            "MAT.22.27"
+          ],
+          "sourceAnchor": "MAT.22.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.22.28",
+          "anchors": [
+            "MAT.22.28"
+          ],
+          "sourceAnchor": "MAT.22.28"
+        },
+        {
+          "text": "In the resurrection, then, whose wife will she be of the seven? For all of them were married to her.”",
+          "anchor": "MAT.22.28",
+          "marks": [],
+          "originalText": "In the resurrection, then, whose wife will she be of the seven? For all of them were married to her.”",
+          "anchors": [
+            "MAT.22.28"
+          ],
+          "sourceAnchor": "MAT.22.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/840",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.28",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.28"
+          ],
+          "sourceAnchor": "MAT.22.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MAT.22.29",
+          "anchors": [
+            "MAT.22.29"
+          ],
+          "sourceAnchor": "MAT.22.29"
+        },
+        {
+          "text": "Jesus answered, ",
+          "anchor": "MAT.22.29",
+          "marks": [],
+          "originalText": "Jesus answered, ",
+          "anchors": [
+            "MAT.22.29"
+          ],
+          "sourceAnchor": "MAT.22.29"
+        },
+        {
+          "text": "“You are mistaken because you do not know the Scriptures or the power of God.",
+          "anchor": "MAT.22.29",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“You are mistaken because you do not know the Scriptures or the power of God. ",
+          "anchors": [
+            "MAT.22.29"
+          ],
+          "sourceAnchor": "MAT.22.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.22.30",
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "text": "In the resurrection, people will neither marry nor be given in marriage. Instead, they will be like the angels",
+          "anchor": "MAT.22.30",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "In the resurrection, people will neither marry nor be given in marriage. Instead, they will be like the angels",
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "noteId": "MAT.22.note.143",
+          "anchor": "MAT.22.30",
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "text": " in heaven.",
+          "anchor": "MAT.22.30",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " in heaven. ",
+          "anchors": [
+            "MAT.22.30"
+          ],
+          "sourceAnchor": "MAT.22.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.22.31",
+          "anchors": [
+            "MAT.22.31"
+          ],
+          "sourceAnchor": "MAT.22.31"
+        },
+        {
+          "text": "But concerning the resurrection of the dead, have you not read what God said to you:",
+          "anchor": "MAT.22.31",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "But concerning the resurrection of the dead, have you not read what God said to you: ",
+          "anchors": [
+            "MAT.22.31"
+          ],
+          "sourceAnchor": "MAT.22.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.22.32",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "text": "‘I am the God of Abraham, the God of Isaac, and the God of Jacob’",
+          "anchor": "MAT.22.32",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "‘I am the God of Abraham, the God of Isaac, and the God of Jacob’",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "noteId": "MAT.22.note.144",
+          "anchor": "MAT.22.32",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "text": "? He is not the God of the dead, but of the living.”",
+          "anchor": "MAT.22.32",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "? He is not the God of the dead, but of the living.”",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/841",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.32",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.32"
+          ],
+          "sourceAnchor": "MAT.22.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.22.33",
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        },
+        {
+          "text": "When the crowds heard this, they were astonished at His teaching.",
+          "anchor": "MAT.22.33",
+          "marks": [],
+          "originalText": "When the crowds heard this, they were astonished at His teaching.",
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/842",
+      "runs": [
+        {
+          "text": "The Greatest Commandment",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/843",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Deuteronomy 6:1–19",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 12:28–34",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/844",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.33",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.33"
+          ],
+          "sourceAnchor": "MAT.22.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.22.34",
+          "anchors": [
+            "MAT.22.34"
+          ],
+          "sourceAnchor": "MAT.22.34"
+        },
+        {
+          "text": "And when the Pharisees heard that Jesus had silenced the Sadducees, they themselves gathered together.",
+          "anchor": "MAT.22.34",
+          "marks": [],
+          "originalText": "And when the Pharisees heard that Jesus had silenced the Sadducees, they themselves gathered together. ",
+          "anchors": [
+            "MAT.22.34"
+          ],
+          "sourceAnchor": "MAT.22.34"
+        },
+        {
+          "verse": "35",
+          "anchor": "MAT.22.35",
+          "anchors": [
+            "MAT.22.35"
+          ],
+          "sourceAnchor": "MAT.22.35"
+        },
+        {
+          "text": "One of them, an expert in the law, tested Him with a question:",
+          "anchor": "MAT.22.35",
+          "marks": [],
+          "originalText": "One of them, an expert in the law, tested Him with a question: ",
+          "anchors": [
+            "MAT.22.35"
+          ],
+          "sourceAnchor": "MAT.22.35"
+        },
+        {
+          "verse": "36",
+          "anchor": "MAT.22.36",
+          "anchors": [
+            "MAT.22.36"
+          ],
+          "sourceAnchor": "MAT.22.36"
+        },
+        {
+          "text": "“Teacher, which commandment is the greatest in the Law?”",
+          "anchor": "MAT.22.36",
+          "marks": [],
+          "originalText": "“Teacher, which commandment is the greatest in the Law?”",
+          "anchors": [
+            "MAT.22.36"
+          ],
+          "sourceAnchor": "MAT.22.36"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/845",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.36",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.36"
+          ],
+          "sourceAnchor": "MAT.22.36"
+        },
+        {
+          "verse": "37",
+          "anchor": "MAT.22.37",
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "text": "Jesus declared, ",
+          "anchor": "MAT.22.37",
+          "marks": [],
+          "originalText": "Jesus declared, ",
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "text": "“‘Love the Lord your God with all your heart and with all your soul and with all your mind.’",
+          "anchor": "MAT.22.37",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“‘Love the Lord your God with all your heart and with all your soul and with all your mind.’",
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "noteId": "MAT.22.note.145",
+          "anchor": "MAT.22.37",
+          "anchors": [
+            "MAT.22.37"
+          ],
+          "sourceAnchor": "MAT.22.37"
+        },
+        {
+          "verse": "38",
+          "anchor": "MAT.22.38",
+          "anchors": [
+            "MAT.22.38"
+          ],
+          "sourceAnchor": "MAT.22.38"
+        },
+        {
+          "text": "This is the first and greatest commandment.",
+          "anchor": "MAT.22.38",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "This is the first and greatest commandment. ",
+          "anchors": [
+            "MAT.22.38"
+          ],
+          "sourceAnchor": "MAT.22.38"
+        },
+        {
+          "verse": "39",
+          "anchor": "MAT.22.39",
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "text": "And the second is like it: ‘Love your neighbor as yourself.’",
+          "anchor": "MAT.22.39",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "And the second is like it: ‘Love your neighbor as yourself.’",
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "noteId": "MAT.22.note.146",
+          "anchor": "MAT.22.39",
+          "anchors": [
+            "MAT.22.39"
+          ],
+          "sourceAnchor": "MAT.22.39"
+        },
+        {
+          "verse": "40",
+          "anchor": "MAT.22.40",
+          "anchors": [
+            "MAT.22.40"
+          ],
+          "sourceAnchor": "MAT.22.40"
+        },
+        {
+          "text": "All the Law and the Prophets hang on these two commandments.”",
+          "anchor": "MAT.22.40",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "All the Law and the Prophets hang on these two commandments.”",
+          "anchors": [
+            "MAT.22.40"
+          ],
+          "sourceAnchor": "MAT.22.40"
+        }
+      ]
+    },
+    {
+      "marker": "s1",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/846",
+      "runs": [
+        {
+          "text": "Whose Son Is the Christ?",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "r",
+      "role": "publisher-heading",
+      "sourceId": "bsb_usj/MAT.usj#content/847",
+      "runs": [
+        {
+          "text": "(",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Mark 12:35–37",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": "; ",
+          "anchor": null,
+          "marks": []
+        },
+        {
+          "text": "Luke 20:41–44",
+          "anchor": null,
+          "marks": [
+            "ref"
+          ]
+        },
+        {
+          "text": ")",
+          "anchor": null,
+          "marks": []
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/848",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.40",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.40"
+          ],
+          "sourceAnchor": "MAT.22.40"
+        },
+        {
+          "verse": "41",
+          "anchor": "MAT.22.41",
+          "anchors": [
+            "MAT.22.41"
+          ],
+          "sourceAnchor": "MAT.22.41"
+        },
+        {
+          "text": "While the Pharisees were assembled, Jesus questioned them:",
+          "anchor": "MAT.22.41",
+          "marks": [],
+          "originalText": "While the Pharisees were assembled, Jesus questioned them: ",
+          "anchors": [
+            "MAT.22.41"
+          ],
+          "sourceAnchor": "MAT.22.41"
+        },
+        {
+          "text": "",
+          "anchor": "MAT.22.41",
+          "marks": [
+            "wj"
+          ],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.41"
+          ],
+          "sourceAnchor": "MAT.22.41"
+        },
+        {
+          "verse": "42",
+          "anchor": "MAT.22.42",
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        },
+        {
+          "text": "“What do you think about the Christ? Whose son is He?”",
+          "anchor": "MAT.22.42",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“What do you think about the Christ? Whose son is He?”",
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/849",
+      "runs": [
+        {
+          "text": " “David’s,” they answered.",
+          "anchor": "MAT.22.42",
+          "marks": [],
+          "originalText": "“David’s,” they answered.",
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/850",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.42",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.42"
+          ],
+          "sourceAnchor": "MAT.22.42"
+        },
+        {
+          "verse": "43",
+          "anchor": "MAT.22.43",
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        },
+        {
+          "text": "Jesus said to them, ",
+          "anchor": "MAT.22.43",
+          "marks": [],
+          "originalText": "Jesus said to them, ",
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        },
+        {
+          "text": "“How then does David in the Spirit call Him ‘Lord’? For he says:",
+          "anchor": "MAT.22.43",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“How then does David in the Spirit call Him ‘Lord’? For he says:",
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/851",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.43",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.43"
+          ],
+          "sourceAnchor": "MAT.22.43"
+        },
+        {
+          "verse": "44",
+          "anchor": "MAT.22.44",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "text": "‘The Lord said to my Lord,",
+          "anchor": "MAT.22.44",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "‘The Lord said to my Lord,",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/852",
+      "runs": [
+        {
+          "text": " “Sit at My right hand",
+          "anchor": "MAT.22.44",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "“Sit at My right hand",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "q1",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/853",
+      "runs": [
+        {
+          "text": " until I put Your enemies",
+          "anchor": "MAT.22.44",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "until I put Your enemies",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "q2",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/854",
+      "runs": [
+        {
+          "text": " under Your feet.”’",
+          "anchor": "MAT.22.44",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "under Your feet.”’",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "noteId": "MAT.22.note.147",
+          "anchor": "MAT.22.44",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/855",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.44",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.44"
+          ],
+          "sourceAnchor": "MAT.22.44"
+        },
+        {
+          "verse": "45",
+          "anchor": "MAT.22.45",
+          "anchors": [
+            "MAT.22.45"
+          ],
+          "sourceAnchor": "MAT.22.45"
+        },
+        {
+          "text": "So if David calls Him ‘Lord,’ how can He be David’s son?”",
+          "anchor": "MAT.22.45",
+          "marks": [
+            "wj"
+          ],
+          "originalText": "So if David calls Him ‘Lord,’ how can He be David’s son?”",
+          "anchors": [
+            "MAT.22.45"
+          ],
+          "sourceAnchor": "MAT.22.45"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "bsb_usj/MAT.usj#content/856",
+      "runs": [
+        {
+          "text": "",
+          "anchor": "MAT.22.45",
+          "marks": [],
+          "originalText": " ",
+          "anchors": [
+            "MAT.22.45"
+          ],
+          "sourceAnchor": "MAT.22.45"
+        },
+        {
+          "verse": "46",
+          "anchor": "MAT.22.46",
+          "anchors": [
+            "MAT.22.46"
+          ],
+          "sourceAnchor": "MAT.22.46"
+        },
+        {
+          "text": "No one was able to answer a word, and from that day on no one dared to question Him any further.",
+          "anchor": "MAT.22.46",
+          "marks": [],
+          "originalText": "No one was able to answer a word, and from that day on no one dared to question Him any further.",
+          "anchors": [
+            "MAT.22.46"
+          ],
+          "sourceAnchor": "MAT.22.46"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.22.1",
+      "sourceId": "bsb_usj/MAT.usj#content/819/content/1",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.22.1"
+      ],
+      "mappingType": "exact",
+      "text": "Once again, Jesus spoke to them in parables:",
+      "originalStructuredText": "Once again, Jesus spoke to them in parables:  ",
+      "sourceRef": "MAT.22.1"
+    },
+    {
+      "id": "MAT.22.2",
+      "sourceId": "bsb_usj/MAT.usj#content/819/content/3/content/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.22.2"
+      ],
+      "mappingType": "exact",
+      "text": "“The kingdom of heaven is like a king who prepared a wedding banquet for his son.",
+      "originalStructuredText": "“The kingdom of heaven is like a king who prepared a wedding banquet for his son. ",
+      "sourceRef": "MAT.22.2"
+    },
+    {
+      "id": "MAT.22.3",
+      "sourceId": "bsb_usj/MAT.usj#content/819/content/3/content/3",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.22.3"
+      ],
+      "mappingType": "exact",
+      "text": "He sent his servants to call those he had invited to the banquet, but they refused to come.",
+      "originalStructuredText": "He sent his servants to call those he had invited to the banquet, but they refused to come.\n ",
+      "sourceRef": "MAT.22.3"
+    },
+    {
+      "id": "MAT.22.4",
+      "sourceId": "bsb_usj/MAT.usj#content/820/content/1",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.22.4"
+      ],
+      "mappingType": "exact",
+      "text": "Again, he sent other servants and said, ‘Tell those who have been invited that I have prepared my dinner. My oxen and fattened cattle have been killed, and everything is ready. Come to the wedding banquet.’",
+      "originalStructuredText": "Again, he sent other servants and said, ‘Tell those who have been invited that I have prepared my dinner. My oxen and fattened cattle have been killed, and everything is ready. Come to the wedding banquet.’\n ",
+      "sourceRef": "MAT.22.4"
+    },
+    {
+      "id": "MAT.22.5",
+      "sourceId": "bsb_usj/MAT.usj#content/821/content/1",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.22.5"
+      ],
+      "mappingType": "exact",
+      "text": "But they paid no attention and went away, one to his field, another to his business.",
+      "originalStructuredText": "But they paid no attention and went away, one to his field, another to his business. ",
+      "sourceRef": "MAT.22.5"
+    },
+    {
+      "id": "MAT.22.6",
+      "sourceId": "bsb_usj/MAT.usj#content/821/content/2/content/1",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.22.6"
+      ],
+      "mappingType": "exact",
+      "text": "The rest seized his servants, mistreated them, and killed them.",
+      "originalStructuredText": "The rest seized his servants, mistreated them, and killed them.\n ",
+      "sourceRef": "MAT.22.6"
+    },
+    {
+      "id": "MAT.22.7",
+      "sourceId": "bsb_usj/MAT.usj#content/822/content/1",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.22.7"
+      ],
+      "mappingType": "exact",
+      "text": "The king was enraged, and he sent his troops to destroy those murderers and burn their city.",
+      "originalStructuredText": "The king was enraged, and he sent his troops to destroy those murderers and burn their city. ",
+      "sourceRef": "MAT.22.7"
+    },
+    {
+      "id": "MAT.22.8",
+      "sourceId": "bsb_usj/MAT.usj#content/822/content/2/content/1",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.22.8"
+      ],
+      "mappingType": "exact",
+      "text": "Then he said to his servants, ‘The wedding banquet is ready, but those I invited were not worthy.",
+      "originalStructuredText": "Then he said to his servants, ‘The wedding banquet is ready, but those I invited were not worthy. ",
+      "sourceRef": "MAT.22.8"
+    },
+    {
+      "id": "MAT.22.9",
+      "sourceId": "bsb_usj/MAT.usj#content/822/content/2/content/3",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.22.9"
+      ],
+      "mappingType": "exact",
+      "text": "Go therefore to the crossroads and invite to the banquet as many as you can find.’",
+      "originalStructuredText": "Go therefore to the crossroads and invite to the banquet as many as you can find.’\n ",
+      "sourceRef": "MAT.22.9"
+    },
+    {
+      "id": "MAT.22.10",
+      "sourceId": "bsb_usj/MAT.usj#content/823/content/1",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.22.10"
+      ],
+      "mappingType": "exact",
+      "text": "So the servants went out into the streets and gathered everyone they could find, both evil and good, and the wedding hall was filled with guests.",
+      "originalStructuredText": "So the servants went out into the streets and gathered everyone they could find, both evil and good, and the wedding hall was filled with guests.\n ",
+      "sourceRef": "MAT.22.10"
+    },
+    {
+      "id": "MAT.22.11",
+      "sourceId": "bsb_usj/MAT.usj#content/824/content/1",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.22.11"
+      ],
+      "mappingType": "exact",
+      "text": "But when the king came in to see the guests, he spotted a man who was not dressed in wedding clothes.",
+      "originalStructuredText": "But when the king came in to see the guests, he spotted a man who was not dressed in wedding clothes. ",
+      "sourceRef": "MAT.22.11"
+    },
+    {
+      "id": "MAT.22.12",
+      "sourceId": "bsb_usj/MAT.usj#content/824/content/2/content/1",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.22.12"
+      ],
+      "mappingType": "exact",
+      "text": "‘Friend,’ he asked, ‘how did you get in here without wedding clothes?’ But the man was speechless.",
+      "originalStructuredText": "‘Friend,’ he asked, ‘how did you get in here without wedding clothes?’\nBut the man was speechless.\n ",
+      "sourceRef": "MAT.22.12"
+    },
+    {
+      "id": "MAT.22.13",
+      "sourceId": "bsb_usj/MAT.usj#content/826/content/1",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.22.13"
+      ],
+      "mappingType": "exact",
+      "text": "Then the king told the servants, ‘Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’",
+      "originalStructuredText": "Then the king told the servants, ‘Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’\n ",
+      "sourceRef": "MAT.22.13"
+    },
+    {
+      "id": "MAT.22.14",
+      "sourceId": "bsb_usj/MAT.usj#content/827/content/1",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.22.14"
+      ],
+      "mappingType": "exact",
+      "text": "For many are called, but few are chosen.”",
+      "originalStructuredText": "For many are called, but few are chosen.”\n ",
+      "sourceRef": "MAT.22.14"
+    },
+    {
+      "id": "MAT.22.15",
+      "sourceId": "bsb_usj/MAT.usj#content/830/content/1",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.22.15"
+      ],
+      "mappingType": "exact",
+      "text": "Then the Pharisees went out and conspired to trap Jesus in His words.",
+      "originalStructuredText": "Then the Pharisees went out and conspired to trap Jesus in His words. ",
+      "sourceRef": "MAT.22.15"
+    },
+    {
+      "id": "MAT.22.16",
+      "sourceId": "bsb_usj/MAT.usj#content/830/content/3",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.22.16"
+      ],
+      "mappingType": "exact",
+      "text": "They sent their disciples to Him along with the Herodians. “Teacher,” they said, “we know that You are honest and that You teach the way of God in accordance with the truth. You seek favor from no one, because You pay no attention to external appearance.",
+      "originalStructuredText": "They sent their disciples to Him along with the Herodians. “Teacher,” they said, “we know that You are honest and that You teach the way of God in accordance with the truth. You seek favor from no one, because You pay no attention to external appearance. ",
+      "sourceRef": "MAT.22.16"
+    },
+    {
+      "id": "MAT.22.17",
+      "sourceId": "bsb_usj/MAT.usj#content/830/content/5",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.22.17"
+      ],
+      "mappingType": "exact",
+      "text": "So tell us what You think: Is it lawful to pay taxes to Caesar or not?”",
+      "originalStructuredText": "So tell us what You think: Is it lawful to pay taxes to Caesar or not?”\n ",
+      "sourceRef": "MAT.22.17"
+    },
+    {
+      "id": "MAT.22.18",
+      "sourceId": "bsb_usj/MAT.usj#content/831/content/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.22.18"
+      ],
+      "mappingType": "exact",
+      "text": "But Jesus knew their evil intent and said, “You hypocrites, why are you testing Me?",
+      "originalStructuredText": "But Jesus knew their evil intent and said, “You hypocrites, why are you testing Me? ",
+      "sourceRef": "MAT.22.18"
+    },
+    {
+      "id": "MAT.22.19",
+      "sourceId": "bsb_usj/MAT.usj#content/831/content/3/content/1",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.22.19"
+      ],
+      "mappingType": "exact",
+      "text": "Show Me the coin used for the tax.” And they brought Him a denarius.",
+      "originalStructuredText": "Show Me the coin used for the tax.”\nAnd they brought Him a denarius.\n ",
+      "sourceRef": "MAT.22.19"
+    },
+    {
+      "id": "MAT.22.20",
+      "sourceId": "bsb_usj/MAT.usj#content/833/content/0/content/1",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.22.20"
+      ],
+      "mappingType": "exact",
+      "text": "“Whose image is this,” He asked, “and whose inscription?”",
+      "originalStructuredText": "“Whose image is this,” He asked, “and whose inscription?”\n ",
+      "sourceRef": "MAT.22.20"
+    },
+    {
+      "id": "MAT.22.21",
+      "sourceId": "bsb_usj/MAT.usj#content/834/content/1",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.22.21"
+      ],
+      "mappingType": "exact",
+      "text": "“Caesar’s,” they answered. So Jesus told them, “Give to Caesar what is Caesar’s, and to God what is God’s.”",
+      "originalStructuredText": "“Caesar’s,” they answered.\nSo Jesus told them, “Give to Caesar what is Caesar’s, and to God what is God’s.”\n ",
+      "sourceRef": "MAT.22.21"
+    },
+    {
+      "id": "MAT.22.22",
+      "sourceId": "bsb_usj/MAT.usj#content/836/content/1",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.22.22"
+      ],
+      "mappingType": "exact",
+      "text": "And when they heard this, they were amazed. So they left Him and went away.",
+      "originalStructuredText": "And when they heard this, they were amazed. So they left Him and went away.\n ",
+      "sourceRef": "MAT.22.22"
+    },
+    {
+      "id": "MAT.22.23",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/1",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.22.23"
+      ],
+      "mappingType": "exact",
+      "text": "That same day the Sadducees, who say there is no resurrection, came to Jesus and questioned Him.",
+      "originalStructuredText": "That same day the Sadducees, who say there is no resurrection, came to Jesus and questioned Him. ",
+      "sourceRef": "MAT.22.23"
+    },
+    {
+      "id": "MAT.22.24",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/3",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.22.24"
+      ],
+      "mappingType": "exact",
+      "text": "“Teacher,” they said, “Moses declared that if a man dies without having children, his brother is to marry the widow and raise up offspring for him.",
+      "originalStructuredText": "“Teacher,” they said, “Moses declared that if a man dies without having children, his brother is to marry the widow and raise up offspring for him.",
+      "sourceRef": "MAT.22.24"
+    },
+    {
+      "id": "MAT.22.25",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/6",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.22.25"
+      ],
+      "mappingType": "exact",
+      "text": "Now there were seven brothers among us. The first one married and died without having children. So he left his wife to his brother.",
+      "originalStructuredText": "Now there were seven brothers among us. The first one married and died without having children. So he left his wife to his brother. ",
+      "sourceRef": "MAT.22.25"
+    },
+    {
+      "id": "MAT.22.26",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/8",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.22.26"
+      ],
+      "mappingType": "exact",
+      "text": "The same thing happened to the second and third brothers, down to the seventh.",
+      "originalStructuredText": "The same thing happened to the second and third brothers, down to the seventh. ",
+      "sourceRef": "MAT.22.26"
+    },
+    {
+      "id": "MAT.22.27",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/10",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.22.27"
+      ],
+      "mappingType": "exact",
+      "text": "And last of all, the woman died.",
+      "originalStructuredText": "And last of all, the woman died. ",
+      "sourceRef": "MAT.22.27"
+    },
+    {
+      "id": "MAT.22.28",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/12",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.22.28"
+      ],
+      "mappingType": "exact",
+      "text": "In the resurrection, then, whose wife will she be of the seven? For all of them were married to her.”",
+      "originalStructuredText": "In the resurrection, then, whose wife will she be of the seven? For all of them were married to her.”\n ",
+      "sourceRef": "MAT.22.28"
+    },
+    {
+      "id": "MAT.22.29",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/1",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.22.29"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus answered, “You are mistaken because you do not know the Scriptures or the power of God.",
+      "originalStructuredText": "Jesus answered, “You are mistaken because you do not know the Scriptures or the power of God. ",
+      "sourceRef": "MAT.22.29"
+    },
+    {
+      "id": "MAT.22.30",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/3/content/1",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.22.30"
+      ],
+      "mappingType": "exact",
+      "text": "In the resurrection, people will neither marry nor be given in marriage. Instead, they will be like the angels in heaven.",
+      "originalStructuredText": "In the resurrection, people will neither marry nor be given in marriage. Instead, they will be like the angels in heaven. ",
+      "sourceRef": "MAT.22.30"
+    },
+    {
+      "id": "MAT.22.31",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/3/content/5",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.22.31"
+      ],
+      "mappingType": "exact",
+      "text": "But concerning the resurrection of the dead, have you not read what God said to you:",
+      "originalStructuredText": "But concerning the resurrection of the dead, have you not read what God said to you: ",
+      "sourceRef": "MAT.22.31"
+    },
+    {
+      "id": "MAT.22.32",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/3/content/7",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.22.32"
+      ],
+      "mappingType": "exact",
+      "text": "‘I am the God of Abraham, the God of Isaac, and the God of Jacob’? He is not the God of the dead, but of the living.”",
+      "originalStructuredText": "‘I am the God of Abraham, the God of Isaac, and the God of Jacob’? He is not the God of the dead, but of the living.”\n ",
+      "sourceRef": "MAT.22.32"
+    },
+    {
+      "id": "MAT.22.33",
+      "sourceId": "bsb_usj/MAT.usj#content/841/content/1",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.22.33"
+      ],
+      "mappingType": "exact",
+      "text": "When the crowds heard this, they were astonished at His teaching.",
+      "originalStructuredText": "When the crowds heard this, they were astonished at His teaching.\n ",
+      "sourceRef": "MAT.22.33"
+    },
+    {
+      "id": "MAT.22.34",
+      "sourceId": "bsb_usj/MAT.usj#content/844/content/1",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.22.34"
+      ],
+      "mappingType": "exact",
+      "text": "And when the Pharisees heard that Jesus had silenced the Sadducees, they themselves gathered together.",
+      "originalStructuredText": "And when the Pharisees heard that Jesus had silenced the Sadducees, they themselves gathered together. ",
+      "sourceRef": "MAT.22.34"
+    },
+    {
+      "id": "MAT.22.35",
+      "sourceId": "bsb_usj/MAT.usj#content/844/content/3",
+      "sourceLabel": "35",
+      "anchors": [
+        "MAT.22.35"
+      ],
+      "mappingType": "exact",
+      "text": "One of them, an expert in the law, tested Him with a question:",
+      "originalStructuredText": "One of them, an expert in the law, tested Him with a question: ",
+      "sourceRef": "MAT.22.35"
+    },
+    {
+      "id": "MAT.22.36",
+      "sourceId": "bsb_usj/MAT.usj#content/844/content/5",
+      "sourceLabel": "36",
+      "anchors": [
+        "MAT.22.36"
+      ],
+      "mappingType": "exact",
+      "text": "“Teacher, which commandment is the greatest in the Law?”",
+      "originalStructuredText": "“Teacher, which commandment is the greatest in the Law?”\n ",
+      "sourceRef": "MAT.22.36"
+    },
+    {
+      "id": "MAT.22.37",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/1",
+      "sourceLabel": "37",
+      "anchors": [
+        "MAT.22.37"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus declared, “‘Love the Lord your God with all your heart and with all your soul and with all your mind.’",
+      "originalStructuredText": "Jesus declared, “‘Love the Lord your God with all your heart and with all your soul and with all your mind.’",
+      "sourceRef": "MAT.22.37"
+    },
+    {
+      "id": "MAT.22.38",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/3/content/2",
+      "sourceLabel": "38",
+      "anchors": [
+        "MAT.22.38"
+      ],
+      "mappingType": "exact",
+      "text": "This is the first and greatest commandment.",
+      "originalStructuredText": "This is the first and greatest commandment. ",
+      "sourceRef": "MAT.22.38"
+    },
+    {
+      "id": "MAT.22.39",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/3/content/4",
+      "sourceLabel": "39",
+      "anchors": [
+        "MAT.22.39"
+      ],
+      "mappingType": "exact",
+      "text": "And the second is like it: ‘Love your neighbor as yourself.’",
+      "originalStructuredText": "And the second is like it: ‘Love your neighbor as yourself.’",
+      "sourceRef": "MAT.22.39"
+    },
+    {
+      "id": "MAT.22.40",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/3/content/7",
+      "sourceLabel": "40",
+      "anchors": [
+        "MAT.22.40"
+      ],
+      "mappingType": "exact",
+      "text": "All the Law and the Prophets hang on these two commandments.”",
+      "originalStructuredText": "All the Law and the Prophets hang on these two commandments.”\n ",
+      "sourceRef": "MAT.22.40"
+    },
+    {
+      "id": "MAT.22.41",
+      "sourceId": "bsb_usj/MAT.usj#content/848/content/1",
+      "sourceLabel": "41",
+      "anchors": [
+        "MAT.22.41"
+      ],
+      "mappingType": "exact",
+      "text": "While the Pharisees were assembled, Jesus questioned them:",
+      "originalStructuredText": "While the Pharisees were assembled, Jesus questioned them:  ",
+      "sourceRef": "MAT.22.41"
+    },
+    {
+      "id": "MAT.22.42",
+      "sourceId": "bsb_usj/MAT.usj#content/848/content/3/content/1",
+      "sourceLabel": "42",
+      "anchors": [
+        "MAT.22.42"
+      ],
+      "mappingType": "exact",
+      "text": "“What do you think about the Christ? Whose son is He?” “David’s,” they answered.",
+      "originalStructuredText": "“What do you think about the Christ? Whose son is He?”\n“David’s,” they answered.\n ",
+      "sourceRef": "MAT.22.42"
+    },
+    {
+      "id": "MAT.22.43",
+      "sourceId": "bsb_usj/MAT.usj#content/850/content/1",
+      "sourceLabel": "43",
+      "anchors": [
+        "MAT.22.43"
+      ],
+      "mappingType": "exact",
+      "text": "Jesus said to them, “How then does David in the Spirit call Him ‘Lord’? For he says:",
+      "originalStructuredText": "Jesus said to them, “How then does David in the Spirit call Him ‘Lord’? For he says:\n ",
+      "sourceRef": "MAT.22.43"
+    },
+    {
+      "id": "MAT.22.44",
+      "sourceId": "bsb_usj/MAT.usj#content/851/content/1",
+      "sourceLabel": "44",
+      "anchors": [
+        "MAT.22.44"
+      ],
+      "mappingType": "exact",
+      "text": "‘The Lord said to my Lord, “Sit at My right hand until I put Your enemies under Your feet.”’",
+      "originalStructuredText": "‘The Lord said to my Lord,\n“Sit at My right hand\nuntil I put Your enemies\nunder Your feet.”’\n ",
+      "sourceRef": "MAT.22.44"
+    },
+    {
+      "id": "MAT.22.45",
+      "sourceId": "bsb_usj/MAT.usj#content/855/content/1",
+      "sourceLabel": "45",
+      "anchors": [
+        "MAT.22.45"
+      ],
+      "mappingType": "exact",
+      "text": "So if David calls Him ‘Lord,’ how can He be David’s son?”",
+      "originalStructuredText": "So if David calls Him ‘Lord,’ how can He be David’s son?”\n ",
+      "sourceRef": "MAT.22.45"
+    },
+    {
+      "id": "MAT.22.46",
+      "sourceId": "bsb_usj/MAT.usj#content/856/content/1",
+      "sourceLabel": "46",
+      "anchors": [
+        "MAT.22.46"
+      ],
+      "mappingType": "exact",
+      "text": "No one was able to answer a word, and from that day on no one dared to question Him any further.",
+      "originalStructuredText": "No one was able to answer a word, and from that day on no one dared to question Him any further.",
+      "sourceRef": "MAT.22.46"
+    }
+  ],
+  "notes": [
+    {
+      "id": "MAT.22.note.141",
+      "anchor": "MAT.22.19",
+      "sourceId": "bsb_usj/MAT.usj#content/832/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:19 A denarius was customarily a day’s wage for a laborer; see Matthew 20:2.",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:19 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "A denarius was customarily a day’s wage for a laborer; see ",
+              {
+                "type": "ref",
+                "loc": "MAT 20:2",
+                "content": [
+                  "Matthew 20:2"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.142",
+      "anchor": "MAT.22.24",
+      "sourceId": "bsb_usj/MAT.usj#content/839/content/5",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:24 Deuteronomy 25:5",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:24 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "DEU 25:5",
+                "content": [
+                  "Deuteronomy 25:5"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.143",
+      "anchor": "MAT.22.30",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/3/content/3",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:30 SBL, BYZ, and TR the angels of God",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:30 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              "SBL, BYZ, and TR "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "fqa",
+            "content": [
+              "the angels of God"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.144",
+      "anchor": "MAT.22.32",
+      "sourceId": "bsb_usj/MAT.usj#content/840/content/3/content/9",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:32 Exodus 3:6",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:32 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "EXO 3:6",
+                "content": [
+                  "Exodus 3:6"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.145",
+      "anchor": "MAT.22.37",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/3/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:37 Deuteronomy 6:5",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:37 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "DEU 6:5",
+                "content": [
+                  "Deuteronomy 6:5"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.146",
+      "anchor": "MAT.22.39",
+      "sourceId": "bsb_usj/MAT.usj#content/845/content/3/content/6",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:39 Leviticus 19:18",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:39 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "LEV 19:18",
+                "content": [
+                  "Leviticus 19:18"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "MAT.22.note.147",
+      "anchor": "MAT.22.44",
+      "sourceId": "bsb_usj/MAT.usj#content/854/content/0/content/1",
+      "type": "publisher-note",
+      "marker": "f",
+      "body": "22:44 Psalm 110:1",
+      "original": {
+        "type": "note",
+        "marker": "f",
+        "caller": "+",
+        "content": [
+          {
+            "type": "char",
+            "marker": "fr",
+            "content": [
+              "22:44 "
+            ]
+          },
+          {
+            "type": "char",
+            "marker": "ft",
+            "content": [
+              {
+                "type": "ref",
+                "loc": "PSA 110:1",
+                "content": [
+                  "Psalm 110:1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "anchor": "MAT.22.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.1",
+          "sourceRef": "MAT.22.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.2",
+          "sourceRef": "MAT.22.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.3",
+          "sourceRef": "MAT.22.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.4",
+          "sourceRef": "MAT.22.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.5",
+          "sourceRef": "MAT.22.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.6",
+          "sourceRef": "MAT.22.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.7",
+          "sourceRef": "MAT.22.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.8",
+          "sourceRef": "MAT.22.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.9",
+          "sourceRef": "MAT.22.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.10",
+          "sourceRef": "MAT.22.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.11",
+          "sourceRef": "MAT.22.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.12",
+          "sourceRef": "MAT.22.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.13",
+          "sourceRef": "MAT.22.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.14",
+          "sourceRef": "MAT.22.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.15",
+          "sourceRef": "MAT.22.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.16",
+          "sourceRef": "MAT.22.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.17",
+          "sourceRef": "MAT.22.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.18",
+          "sourceRef": "MAT.22.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.141"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.19",
+          "sourceRef": "MAT.22.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.20",
+          "sourceRef": "MAT.22.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.21",
+          "sourceRef": "MAT.22.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.22",
+          "sourceRef": "MAT.22.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.23",
+          "sourceRef": "MAT.22.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.142"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.24",
+          "sourceRef": "MAT.22.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.25",
+          "sourceRef": "MAT.22.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.26",
+          "sourceRef": "MAT.22.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.27",
+          "sourceRef": "MAT.22.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.28",
+          "sourceRef": "MAT.22.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.29",
+          "sourceRef": "MAT.22.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.143"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.30",
+          "sourceRef": "MAT.22.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.31",
+          "sourceRef": "MAT.22.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.144"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.32",
+          "sourceRef": "MAT.22.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.33",
+          "sourceRef": "MAT.22.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.34",
+          "sourceRef": "MAT.22.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.35",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.35",
+          "sourceRef": "MAT.22.35",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.36",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.36",
+          "sourceRef": "MAT.22.36",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.37",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.145"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.37",
+          "sourceRef": "MAT.22.37",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.38",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.38",
+          "sourceRef": "MAT.22.38",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.39",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.146"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.39",
+          "sourceRef": "MAT.22.39",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.40",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.40",
+          "sourceRef": "MAT.22.40",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.41",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.41",
+          "sourceRef": "MAT.22.41",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.42",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.42",
+          "sourceRef": "MAT.22.42",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.43",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.43",
+          "sourceRef": "MAT.22.43",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.44",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [
+        "MAT.22.note.147"
+      ],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.44",
+          "sourceRef": "MAT.22.44",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.45",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.45",
+          "sourceRef": "MAT.22.45",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.22.46",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 22,
+          "segmentId": "MAT.22.46",
+          "sourceRef": "MAT.22.46",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ]
+}

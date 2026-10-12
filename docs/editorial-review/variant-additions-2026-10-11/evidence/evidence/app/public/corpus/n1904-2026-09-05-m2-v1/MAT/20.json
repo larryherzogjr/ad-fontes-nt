@@ -1,0 +1,1606 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "blocks": [
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205",
+      "runs": [
+        {
+          "verse": "1",
+          "anchor": "MAT.20.1",
+          "anchors": [
+            "MAT.20.1"
+          ],
+          "sourceAnchor": "MAT.20.1"
+        },
+        {
+          "text": " Ὁμοία γάρ ἐστιν ἡ\n  βασιλεία τῶν οὐρανῶν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐξῆλθεν ἅμα πρωῒ\n  μισθώσασθαι ἐργάτας εἰς τὸν ἀμπελῶνα αὐτοῦ. ",
+          "anchor": "MAT.20.1",
+          "marks": [],
+          "anchors": [
+            "MAT.20.1"
+          ],
+          "sourceAnchor": "MAT.20.1"
+        },
+        {
+          "verse": "2",
+          "anchor": "MAT.20.2",
+          "anchors": [
+            "MAT.20.2"
+          ],
+          "sourceAnchor": "MAT.20.2"
+        },
+        {
+          "text": " συμφωνήσας δὲ μετὰ τῶν ἐργατῶν ἐκ δηναρίου τὴν\n  ἡμέραν ἀπέστειλεν αὐτοὺς εἰς τὸν ἀμπελῶνα αὐτοῦ. ",
+          "anchor": "MAT.20.2",
+          "marks": [],
+          "anchors": [
+            "MAT.20.2"
+          ],
+          "sourceAnchor": "MAT.20.2"
+        },
+        {
+          "verse": "3",
+          "anchor": "MAT.20.3",
+          "anchors": [
+            "MAT.20.3"
+          ],
+          "sourceAnchor": "MAT.20.3"
+        },
+        {
+          "text": " καὶ ἐξελθὼν περὶ τρίτην ὥραν εἶδεν ἄλλους ἑστῶτας\n  ἐν τῇ ἀγορᾷ ἀργούς, ",
+          "anchor": "MAT.20.3",
+          "marks": [],
+          "anchors": [
+            "MAT.20.3"
+          ],
+          "sourceAnchor": "MAT.20.3"
+        },
+        {
+          "verse": "4",
+          "anchor": "MAT.20.4",
+          "anchors": [
+            "MAT.20.4"
+          ],
+          "sourceAnchor": "MAT.20.4"
+        },
+        {
+          "text": " καὶ ἐκείνοις εἶπεν\n  Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα, καὶ ὃ ἐὰν ᾖ δίκαιον δώσω\n  ὑμῖν. ",
+          "anchor": "MAT.20.4",
+          "marks": [],
+          "anchors": [
+            "MAT.20.4"
+          ],
+          "sourceAnchor": "MAT.20.4"
+        },
+        {
+          "verse": "5",
+          "anchor": "MAT.20.5",
+          "anchors": [
+            "MAT.20.5"
+          ],
+          "sourceAnchor": "MAT.20.5"
+        },
+        {
+          "text": " οἱ δὲ ἀπῆλθον. πάλιν δὲ ἐξελθὼν\n  περὶ ἕκτην καὶ ἐνάτην ὥραν ἐποίησεν ὡσαύτως. ",
+          "anchor": "MAT.20.5",
+          "marks": [],
+          "anchors": [
+            "MAT.20.5"
+          ],
+          "sourceAnchor": "MAT.20.5"
+        },
+        {
+          "verse": "6",
+          "anchor": "MAT.20.6",
+          "anchors": [
+            "MAT.20.6"
+          ],
+          "sourceAnchor": "MAT.20.6"
+        },
+        {
+          "text": " περὶ δὲ τὴν ἑνδεκάτην ἐξελθὼν εὗρεν ἄλλους ἑστῶτας,\n  καὶ λέγει αὐτοῖς Τί ὧδε ἑστήκατε ὅλην τὴν ἡμέραν ἀργοί;\n  ",
+          "anchor": "MAT.20.6",
+          "marks": [],
+          "anchors": [
+            "MAT.20.6"
+          ],
+          "sourceAnchor": "MAT.20.6"
+        },
+        {
+          "verse": "7",
+          "anchor": "MAT.20.7",
+          "anchors": [
+            "MAT.20.7"
+          ],
+          "sourceAnchor": "MAT.20.7"
+        },
+        {
+          "text": " λέγουσιν αὐτῷ Ὅτι οὐδεὶς ἡμᾶς\n  ἐμισθώσατο. λέγει αὐτοῖς Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα.\n  ",
+          "anchor": "MAT.20.7",
+          "marks": [],
+          "anchors": [
+            "MAT.20.7"
+          ],
+          "sourceAnchor": "MAT.20.7"
+        },
+        {
+          "verse": "8",
+          "anchor": "MAT.20.8",
+          "anchors": [
+            "MAT.20.8"
+          ],
+          "sourceAnchor": "MAT.20.8"
+        },
+        {
+          "text": " ὀψίας δὲ γενομένης λέγει ὁ κύριος τοῦ\n  ἀμπελῶνος τῷ ἐπιτρόπῳ αὐτοῦ Κάλεσον τοὺς ἐργάτας καὶ ἀπόδος τὸν\n  μισθόν, ἀρξάμενος ἀπὸ τῶν ἐσχάτων ἕως τῶν πρώτων. ",
+          "anchor": "MAT.20.8",
+          "marks": [],
+          "anchors": [
+            "MAT.20.8"
+          ],
+          "sourceAnchor": "MAT.20.8"
+        },
+        {
+          "verse": "9",
+          "anchor": "MAT.20.9",
+          "anchors": [
+            "MAT.20.9"
+          ],
+          "sourceAnchor": "MAT.20.9"
+        },
+        {
+          "text": " ἐλθόντες δὲ οἱ περὶ τὴν ἑνδεκάτην ὥραν ἔλαβον ἀνὰ\n  δηνάριον. ",
+          "anchor": "MAT.20.9",
+          "marks": [],
+          "anchors": [
+            "MAT.20.9"
+          ],
+          "sourceAnchor": "MAT.20.9"
+        },
+        {
+          "verse": "10",
+          "anchor": "MAT.20.10",
+          "anchors": [
+            "MAT.20.10"
+          ],
+          "sourceAnchor": "MAT.20.10"
+        },
+        {
+          "text": " καὶ ἐλθόντες οἱ πρῶτοι\n  ἐνόμισαν ὅτι πλεῖον λήμψονται· καὶ ἔλαβον τὸ ἀνὰ δηνάριον καὶ\n  αὐτοί. ",
+          "anchor": "MAT.20.10",
+          "marks": [],
+          "anchors": [
+            "MAT.20.10"
+          ],
+          "sourceAnchor": "MAT.20.10"
+        },
+        {
+          "verse": "11",
+          "anchor": "MAT.20.11",
+          "anchors": [
+            "MAT.20.11"
+          ],
+          "sourceAnchor": "MAT.20.11"
+        },
+        {
+          "text": " λαβόντες δὲ ἐγόγγυζον κατὰ τοῦ\n  οἰκοδεσπότου ",
+          "anchor": "MAT.20.11",
+          "marks": [],
+          "anchors": [
+            "MAT.20.11"
+          ],
+          "sourceAnchor": "MAT.20.11"
+        },
+        {
+          "verse": "12",
+          "anchor": "MAT.20.12",
+          "anchors": [
+            "MAT.20.12"
+          ],
+          "sourceAnchor": "MAT.20.12"
+        },
+        {
+          "text": " λέγοντες Οὗτοι οἱ ἔσχατοι\n  μίαν ὥραν ἐποίησαν, καὶ ἴσους αὐτοὺς ἡμῖν ἐποίησας τοῖς βαστάσασι\n  τὸ βάρος τῆς ἡμέρας καὶ τὸν καύσωνα. ",
+          "anchor": "MAT.20.12",
+          "marks": [],
+          "anchors": [
+            "MAT.20.12"
+          ],
+          "sourceAnchor": "MAT.20.12"
+        },
+        {
+          "verse": "13",
+          "anchor": "MAT.20.13",
+          "anchors": [
+            "MAT.20.13"
+          ],
+          "sourceAnchor": "MAT.20.13"
+        },
+        {
+          "text": " ὁ\n  δὲ ἀποκριθεὶς ἑνὶ αὐτῶν εἶπεν Ἑταῖρε, οὐκ ἀδικῶ σε· οὐχὶ δηναρίου\n  συνεφώνησάς μοι; ",
+          "anchor": "MAT.20.13",
+          "marks": [],
+          "anchors": [
+            "MAT.20.13"
+          ],
+          "sourceAnchor": "MAT.20.13"
+        },
+        {
+          "verse": "14",
+          "anchor": "MAT.20.14",
+          "anchors": [
+            "MAT.20.14"
+          ],
+          "sourceAnchor": "MAT.20.14"
+        },
+        {
+          "text": " ἆρον τὸ σὸν καὶ\n  ὕπαγε· θέλω δὲ τούτῳ τῷ ἐσχάτῳ δοῦναι ὡς καὶ σοί· ",
+          "anchor": "MAT.20.14",
+          "marks": [],
+          "anchors": [
+            "MAT.20.14"
+          ],
+          "sourceAnchor": "MAT.20.14"
+        },
+        {
+          "verse": "15",
+          "anchor": "MAT.20.15",
+          "anchors": [
+            "MAT.20.15"
+          ],
+          "sourceAnchor": "MAT.20.15"
+        },
+        {
+          "text": " οὐκ ἔξεστίν μοι ὃ θέλω ποιῆσαι ἐν τοῖς ἐμοῖς; ἢ ὁ\n  ὀφθαλμός σου πονηρός ἐστιν ὅτι ἐγὼ ἀγαθός εἰμι; ",
+          "anchor": "MAT.20.15",
+          "marks": [],
+          "anchors": [
+            "MAT.20.15"
+          ],
+          "sourceAnchor": "MAT.20.15"
+        },
+        {
+          "verse": "16",
+          "anchor": "MAT.20.16",
+          "anchors": [
+            "MAT.20.16"
+          ],
+          "sourceAnchor": "MAT.20.16"
+        },
+        {
+          "text": " Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι καὶ οἱ πρῶτοι\n  ἔσχατοι.",
+          "anchor": "MAT.20.16",
+          "marks": [],
+          "anchors": [
+            "MAT.20.16"
+          ],
+          "sourceAnchor": "MAT.20.16"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/207",
+      "runs": [
+        {
+          "verse": "17",
+          "anchor": "MAT.20.17",
+          "anchors": [
+            "MAT.20.17"
+          ],
+          "sourceAnchor": "MAT.20.17"
+        },
+        {
+          "text": " Μέλλων δὲ ἀναβαίνειν Ἰησοῦς εἰς Ἱεροσόλυμα παρέλαβεν\n  τοὺς δώδεκα κατ’ ἰδίαν, καὶ ἐν τῇ ὁδῷ εἶπεν αὐτοῖς ",
+          "anchor": "MAT.20.17",
+          "marks": [],
+          "anchors": [
+            "MAT.20.17"
+          ],
+          "sourceAnchor": "MAT.20.17"
+        },
+        {
+          "verse": "18",
+          "anchor": "MAT.20.18",
+          "anchors": [
+            "MAT.20.18"
+          ],
+          "sourceAnchor": "MAT.20.18"
+        },
+        {
+          "text": " Ἰδοὺ ἀναβαίνομεν εἰς Ἱεροσόλυμα, καὶ ὁ Υἱὸς τοῦ\n  ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσιν καὶ γραμματεῦσιν, καὶ\n  κατακρινοῦσιν αὐτὸν εἰς θάνατον, ",
+          "anchor": "MAT.20.18",
+          "marks": [],
+          "anchors": [
+            "MAT.20.18"
+          ],
+          "sourceAnchor": "MAT.20.18"
+        },
+        {
+          "verse": "19",
+          "anchor": "MAT.20.19",
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        },
+        {
+          "text": " καὶ\n  παραδώσουσιν αὐτὸν τοῖς ἔθνεσιν εἰς τὸ ἐμπαῖξαι καὶ μαστιγῶσαι\n  καὶ σταυρῶσαι, καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερθήσεται.",
+          "anchor": "MAT.20.19",
+          "marks": [],
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.20.19",
+          "marks": [],
+          "anchors": [
+            "MAT.20.19"
+          ],
+          "sourceAnchor": "MAT.20.19"
+        },
+        {
+          "verse": "20",
+          "anchor": "MAT.20.20",
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "text": " Τότε\n  προσῆλθεν αὐτῷ ἡ μήτηρ τῶν υἱῶν Ζεβεδαίου μετὰ τῶν υἱῶν αὐτῆς\n  προσκυνοῦσα καὶ αἰτοῦσά τι ",
+          "anchor": "MAT.20.20",
+          "marks": [],
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "text": "ἀ",
+          "anchor": "MAT.20.20",
+          "marks": [],
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "text": "π’ αὐτοῦ.\n  ",
+          "anchor": "MAT.20.20",
+          "marks": [],
+          "anchors": [
+            "MAT.20.20"
+          ],
+          "sourceAnchor": "MAT.20.20"
+        },
+        {
+          "verse": "21",
+          "anchor": "MAT.20.21",
+          "anchors": [
+            "MAT.20.21"
+          ],
+          "sourceAnchor": "MAT.20.21"
+        },
+        {
+          "text": " ὁ δὲ εἶπεν αὐτῇ Τί θέλεις; λέγει αὐτῷ\n  Εἰπὲ ἵνα καθίσωσιν οὗτοι οἱ δύο υἱοί μου εἷς ἐκ δεξιῶν καὶ εἷς ἐξ\n  εὐωνύμων σου ἐν τῇ βασιλείᾳ σου. ",
+          "anchor": "MAT.20.21",
+          "marks": [],
+          "anchors": [
+            "MAT.20.21"
+          ],
+          "sourceAnchor": "MAT.20.21"
+        },
+        {
+          "verse": "22",
+          "anchor": "MAT.20.22",
+          "anchors": [
+            "MAT.20.22"
+          ],
+          "sourceAnchor": "MAT.20.22"
+        },
+        {
+          "text": "\n  ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν Οὐκ οἴδατε τί αἰτεῖσθε. δύνασθε\n  πιεῖν τὸ ποτήριον ὃ ἐγὼ μέλλω πίνειν; λέγουσιν αὐτῷ Δυνάμεθα.\n  ",
+          "anchor": "MAT.20.22",
+          "marks": [],
+          "anchors": [
+            "MAT.20.22"
+          ],
+          "sourceAnchor": "MAT.20.22"
+        },
+        {
+          "verse": "23",
+          "anchor": "MAT.20.23",
+          "anchors": [
+            "MAT.20.23"
+          ],
+          "sourceAnchor": "MAT.20.23"
+        },
+        {
+          "text": " λέγει αὐτοῖς Τὸ μὲν ποτήριόν μου\n  πίεσθε, τὸ δὲ καθίσαι ἐκ δεξιῶν μου καὶ ἐξ εὐωνύμων οὐκ ἔστιν\n  ἐμὸν τοῦτο δοῦναι, ἀλλ’ οἷς ἡτοίμασται ὑπὸ τοῦ Πατρός μου.\n  ",
+          "anchor": "MAT.20.23",
+          "marks": [],
+          "anchors": [
+            "MAT.20.23"
+          ],
+          "sourceAnchor": "MAT.20.23"
+        },
+        {
+          "verse": "24",
+          "anchor": "MAT.20.24",
+          "anchors": [
+            "MAT.20.24"
+          ],
+          "sourceAnchor": "MAT.20.24"
+        },
+        {
+          "text": " καὶ ἀκούσαντες οἱ δέκα ἠγανάκτησαν\n  περὶ τῶν δύο ἀδελφῶν. ",
+          "anchor": "MAT.20.24",
+          "marks": [],
+          "anchors": [
+            "MAT.20.24"
+          ],
+          "sourceAnchor": "MAT.20.24"
+        },
+        {
+          "verse": "25",
+          "anchor": "MAT.20.25",
+          "anchors": [
+            "MAT.20.25"
+          ],
+          "sourceAnchor": "MAT.20.25"
+        },
+        {
+          "text": " ὁ δὲ Ἰησοῦς\n  προσκαλεσάμενος αὐτοὺς εἶπεν Οἴδατε ὅτι οἱ ἄρχοντες τῶν ἐθνῶν\n  κατακυριεύουσιν αὐτῶν καὶ οἱ μεγάλοι κατεξουσιάζουσιν αὐτῶν.\n  ",
+          "anchor": "MAT.20.25",
+          "marks": [],
+          "anchors": [
+            "MAT.20.25"
+          ],
+          "sourceAnchor": "MAT.20.25"
+        },
+        {
+          "verse": "26",
+          "anchor": "MAT.20.26",
+          "anchors": [
+            "MAT.20.26"
+          ],
+          "sourceAnchor": "MAT.20.26"
+        },
+        {
+          "text": " οὐχ οὕτως ἐστὶν ἐν ὑμῖν· ἀλλ’ ὃς ἐὰν\n  θέλῃ ἐν ὑμῖν μέγας γενέσθαι, ἔσται ὑμῶν διάκονος, ",
+          "anchor": "MAT.20.26",
+          "marks": [],
+          "anchors": [
+            "MAT.20.26"
+          ],
+          "sourceAnchor": "MAT.20.26"
+        },
+        {
+          "verse": "27",
+          "anchor": "MAT.20.27",
+          "anchors": [
+            "MAT.20.27"
+          ],
+          "sourceAnchor": "MAT.20.27"
+        },
+        {
+          "text": " καὶ ὃς ἂν θέλῃ ἐν ὑμῖν εἶναι πρῶτος, ἔσται ὑμῶν\n  δοῦλος· ",
+          "anchor": "MAT.20.27",
+          "marks": [],
+          "anchors": [
+            "MAT.20.27"
+          ],
+          "sourceAnchor": "MAT.20.27"
+        },
+        {
+          "verse": "28",
+          "anchor": "MAT.20.28",
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        },
+        {
+          "text": " ὥσπερ ὁ Υἱὸς τοῦ ἀνθρώπου οὐκ\n  ἦλθεν διακονηθῆναι, ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ\n  λύτρον ἀντὶ πολλῶν.",
+          "anchor": "MAT.20.28",
+          "marks": [],
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        }
+      ]
+    },
+    {
+      "marker": "p",
+      "role": "scripture",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209",
+      "runs": [
+        {
+          "text": " ",
+          "anchor": "MAT.20.28",
+          "marks": [],
+          "anchors": [
+            "MAT.20.28"
+          ],
+          "sourceAnchor": "MAT.20.28"
+        },
+        {
+          "verse": "29",
+          "anchor": "MAT.20.29",
+          "anchors": [
+            "MAT.20.29"
+          ],
+          "sourceAnchor": "MAT.20.29"
+        },
+        {
+          "text": " Καὶ\n  ἐκπορευομένων αὐτῶν ἀπὸ Ἱερειχὼ ἠκολούθησεν αὐτῷ ὄχλος πολύς.\n  ",
+          "anchor": "MAT.20.29",
+          "marks": [],
+          "anchors": [
+            "MAT.20.29"
+          ],
+          "sourceAnchor": "MAT.20.29"
+        },
+        {
+          "verse": "30",
+          "anchor": "MAT.20.30",
+          "anchors": [
+            "MAT.20.30"
+          ],
+          "sourceAnchor": "MAT.20.30"
+        },
+        {
+          "text": " καὶ ἰδοὺ δύο τυφλοὶ καθήμενοι παρὰ τὴν\n  ὁδόν, ἀκούσαντες ὅτι Ἰησοῦς παράγει, ἔκραξαν λέγοντες Κύριε,\n  ἐλέησον ἡμᾶς, υἱὸς Δαυείδ. ",
+          "anchor": "MAT.20.30",
+          "marks": [],
+          "anchors": [
+            "MAT.20.30"
+          ],
+          "sourceAnchor": "MAT.20.30"
+        },
+        {
+          "verse": "31",
+          "anchor": "MAT.20.31",
+          "anchors": [
+            "MAT.20.31"
+          ],
+          "sourceAnchor": "MAT.20.31"
+        },
+        {
+          "text": " ὁ δὲ ὄχλος\n  ἐπετίμησεν αὐτοῖς ἵνα σιωπήσωσιν· οἱ δὲ μεῖζον ἔκραξαν λέγοντες\n  Κύριε, ἐλέησον ἡμᾶς, υἱὸς Δαυείδ. ",
+          "anchor": "MAT.20.31",
+          "marks": [],
+          "anchors": [
+            "MAT.20.31"
+          ],
+          "sourceAnchor": "MAT.20.31"
+        },
+        {
+          "verse": "32",
+          "anchor": "MAT.20.32",
+          "anchors": [
+            "MAT.20.32"
+          ],
+          "sourceAnchor": "MAT.20.32"
+        },
+        {
+          "text": " καὶ\n  στὰς ὁ Ἰησοῦς ἐφώνησεν αὐτοὺς καὶ εἶπεν Τί θέλετε ποιήσω ὑμῖν;\n  ",
+          "anchor": "MAT.20.32",
+          "marks": [],
+          "anchors": [
+            "MAT.20.32"
+          ],
+          "sourceAnchor": "MAT.20.32"
+        },
+        {
+          "verse": "33",
+          "anchor": "MAT.20.33",
+          "anchors": [
+            "MAT.20.33"
+          ],
+          "sourceAnchor": "MAT.20.33"
+        },
+        {
+          "text": " λέγουσιν αὐτῷ Κύριε, ἵνα ἀνοιγῶσιν οἱ\n  ὀφθαλμοὶ ἡμῶν. ",
+          "anchor": "MAT.20.33",
+          "marks": [],
+          "anchors": [
+            "MAT.20.33"
+          ],
+          "sourceAnchor": "MAT.20.33"
+        },
+        {
+          "verse": "34",
+          "anchor": "MAT.20.34",
+          "anchors": [
+            "MAT.20.34"
+          ],
+          "sourceAnchor": "MAT.20.34"
+        },
+        {
+          "text": " σπλαγχνισθεὶς δὲ ὁ\n  Ἰησοῦς ἥψατο τῶν ὀμμάτων αὐτῶν, καὶ εὐθέως ἀνέβλεψαν καὶ\n  ἠκολούθησαν αὐτῷ.",
+          "anchor": "MAT.20.34",
+          "marks": [],
+          "anchors": [
+            "MAT.20.34"
+          ],
+          "sourceAnchor": "MAT.20.34"
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "MAT.20.1",
+      "sourceRef": "MAT.20.1",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/0",
+      "sourceLabel": "1",
+      "anchors": [
+        "MAT.20.1"
+      ],
+      "mappingType": "exact",
+      "text": "Ὁμοία γάρ ἐστιν ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐξῆλθεν ἅμα πρωῒ μισθώσασθαι ἐργάτας εἰς τὸν ἀμπελῶνα αὐτοῦ.",
+      "originalText": " Ὁμοία γάρ ἐστιν ἡ\n  βασιλεία τῶν οὐρανῶν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐξῆλθεν ἅμα πρωῒ\n  μισθώσασθαι ἐργάτας εἰς τὸν ἀμπελῶνα αὐτοῦ. "
+    },
+    {
+      "id": "MAT.20.2",
+      "sourceRef": "MAT.20.2",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/1",
+      "sourceLabel": "2",
+      "anchors": [
+        "MAT.20.2"
+      ],
+      "mappingType": "exact",
+      "text": "συμφωνήσας δὲ μετὰ τῶν ἐργατῶν ἐκ δηναρίου τὴν ἡμέραν ἀπέστειλεν αὐτοὺς εἰς τὸν ἀμπελῶνα αὐτοῦ.",
+      "originalText": " συμφωνήσας δὲ μετὰ τῶν ἐργατῶν ἐκ δηναρίου τὴν\n  ἡμέραν ἀπέστειλεν αὐτοὺς εἰς τὸν ἀμπελῶνα αὐτοῦ. "
+    },
+    {
+      "id": "MAT.20.3",
+      "sourceRef": "MAT.20.3",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/2",
+      "sourceLabel": "3",
+      "anchors": [
+        "MAT.20.3"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐξελθὼν περὶ τρίτην ὥραν εἶδεν ἄλλους ἑστῶτας ἐν τῇ ἀγορᾷ ἀργούς,",
+      "originalText": " καὶ ἐξελθὼν περὶ τρίτην ὥραν εἶδεν ἄλλους ἑστῶτας\n  ἐν τῇ ἀγορᾷ ἀργούς, "
+    },
+    {
+      "id": "MAT.20.4",
+      "sourceRef": "MAT.20.4",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/3",
+      "sourceLabel": "4",
+      "anchors": [
+        "MAT.20.4"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐκείνοις εἶπεν Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα, καὶ ὃ ἐὰν ᾖ δίκαιον δώσω ὑμῖν.",
+      "originalText": " καὶ ἐκείνοις εἶπεν\n  Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα, καὶ ὃ ἐὰν ᾖ δίκαιον δώσω\n  ὑμῖν. "
+    },
+    {
+      "id": "MAT.20.5",
+      "sourceRef": "MAT.20.5",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/4",
+      "sourceLabel": "5",
+      "anchors": [
+        "MAT.20.5"
+      ],
+      "mappingType": "exact",
+      "text": "οἱ δὲ ἀπῆλθον. πάλιν δὲ ἐξελθὼν περὶ ἕκτην καὶ ἐνάτην ὥραν ἐποίησεν ὡσαύτως.",
+      "originalText": " οἱ δὲ ἀπῆλθον. πάλιν δὲ ἐξελθὼν\n  περὶ ἕκτην καὶ ἐνάτην ὥραν ἐποίησεν ὡσαύτως. "
+    },
+    {
+      "id": "MAT.20.6",
+      "sourceRef": "MAT.20.6",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/5",
+      "sourceLabel": "6",
+      "anchors": [
+        "MAT.20.6"
+      ],
+      "mappingType": "exact",
+      "text": "περὶ δὲ τὴν ἑνδεκάτην ἐξελθὼν εὗρεν ἄλλους ἑστῶτας, καὶ λέγει αὐτοῖς Τί ὧδε ἑστήκατε ὅλην τὴν ἡμέραν ἀργοί;",
+      "originalText": " περὶ δὲ τὴν ἑνδεκάτην ἐξελθὼν εὗρεν ἄλλους ἑστῶτας,\n  καὶ λέγει αὐτοῖς Τί ὧδε ἑστήκατε ὅλην τὴν ἡμέραν ἀργοί;\n  "
+    },
+    {
+      "id": "MAT.20.7",
+      "sourceRef": "MAT.20.7",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/6",
+      "sourceLabel": "7",
+      "anchors": [
+        "MAT.20.7"
+      ],
+      "mappingType": "exact",
+      "text": "λέγουσιν αὐτῷ Ὅτι οὐδεὶς ἡμᾶς ἐμισθώσατο. λέγει αὐτοῖς Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα.",
+      "originalText": " λέγουσιν αὐτῷ Ὅτι οὐδεὶς ἡμᾶς\n  ἐμισθώσατο. λέγει αὐτοῖς Ὑπάγετε καὶ ὑμεῖς εἰς τὸν ἀμπελῶνα.\n  "
+    },
+    {
+      "id": "MAT.20.8",
+      "sourceRef": "MAT.20.8",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/7",
+      "sourceLabel": "8",
+      "anchors": [
+        "MAT.20.8"
+      ],
+      "mappingType": "exact",
+      "text": "ὀψίας δὲ γενομένης λέγει ὁ κύριος τοῦ ἀμπελῶνος τῷ ἐπιτρόπῳ αὐτοῦ Κάλεσον τοὺς ἐργάτας καὶ ἀπόδος τὸν μισθόν, ἀρξάμενος ἀπὸ τῶν ἐσχάτων ἕως τῶν πρώτων.",
+      "originalText": " ὀψίας δὲ γενομένης λέγει ὁ κύριος τοῦ\n  ἀμπελῶνος τῷ ἐπιτρόπῳ αὐτοῦ Κάλεσον τοὺς ἐργάτας καὶ ἀπόδος τὸν\n  μισθόν, ἀρξάμενος ἀπὸ τῶν ἐσχάτων ἕως τῶν πρώτων. "
+    },
+    {
+      "id": "MAT.20.9",
+      "sourceRef": "MAT.20.9",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/8",
+      "sourceLabel": "9",
+      "anchors": [
+        "MAT.20.9"
+      ],
+      "mappingType": "exact",
+      "text": "ἐλθόντες δὲ οἱ περὶ τὴν ἑνδεκάτην ὥραν ἔλαβον ἀνὰ δηνάριον.",
+      "originalText": " ἐλθόντες δὲ οἱ περὶ τὴν ἑνδεκάτην ὥραν ἔλαβον ἀνὰ\n  δηνάριον. "
+    },
+    {
+      "id": "MAT.20.10",
+      "sourceRef": "MAT.20.10",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/9",
+      "sourceLabel": "10",
+      "anchors": [
+        "MAT.20.10"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἐλθόντες οἱ πρῶτοι ἐνόμισαν ὅτι πλεῖον λήμψονται· καὶ ἔλαβον τὸ ἀνὰ δηνάριον καὶ αὐτοί.",
+      "originalText": " καὶ ἐλθόντες οἱ πρῶτοι\n  ἐνόμισαν ὅτι πλεῖον λήμψονται· καὶ ἔλαβον τὸ ἀνὰ δηνάριον καὶ\n  αὐτοί. "
+    },
+    {
+      "id": "MAT.20.11",
+      "sourceRef": "MAT.20.11",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/10",
+      "sourceLabel": "11",
+      "anchors": [
+        "MAT.20.11"
+      ],
+      "mappingType": "exact",
+      "text": "λαβόντες δὲ ἐγόγγυζον κατὰ τοῦ οἰκοδεσπότου",
+      "originalText": " λαβόντες δὲ ἐγόγγυζον κατὰ τοῦ\n  οἰκοδεσπότου "
+    },
+    {
+      "id": "MAT.20.12",
+      "sourceRef": "MAT.20.12",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/11",
+      "sourceLabel": "12",
+      "anchors": [
+        "MAT.20.12"
+      ],
+      "mappingType": "exact",
+      "text": "λέγοντες Οὗτοι οἱ ἔσχατοι μίαν ὥραν ἐποίησαν, καὶ ἴσους αὐτοὺς ἡμῖν ἐποίησας τοῖς βαστάσασι τὸ βάρος τῆς ἡμέρας καὶ τὸν καύσωνα.",
+      "originalText": " λέγοντες Οὗτοι οἱ ἔσχατοι\n  μίαν ὥραν ἐποίησαν, καὶ ἴσους αὐτοὺς ἡμῖν ἐποίησας τοῖς βαστάσασι\n  τὸ βάρος τῆς ἡμέρας καὶ τὸν καύσωνα. "
+    },
+    {
+      "id": "MAT.20.13",
+      "sourceRef": "MAT.20.13",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/12",
+      "sourceLabel": "13",
+      "anchors": [
+        "MAT.20.13"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ ἀποκριθεὶς ἑνὶ αὐτῶν εἶπεν Ἑταῖρε, οὐκ ἀδικῶ σε· οὐχὶ δηναρίου συνεφώνησάς μοι;",
+      "originalText": " ὁ\n  δὲ ἀποκριθεὶς ἑνὶ αὐτῶν εἶπεν Ἑταῖρε, οὐκ ἀδικῶ σε· οὐχὶ δηναρίου\n  συνεφώνησάς μοι; "
+    },
+    {
+      "id": "MAT.20.14",
+      "sourceRef": "MAT.20.14",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/13",
+      "sourceLabel": "14",
+      "anchors": [
+        "MAT.20.14"
+      ],
+      "mappingType": "exact",
+      "text": "ἆρον τὸ σὸν καὶ ὕπαγε· θέλω δὲ τούτῳ τῷ ἐσχάτῳ δοῦναι ὡς καὶ σοί·",
+      "originalText": " ἆρον τὸ σὸν καὶ\n  ὕπαγε· θέλω δὲ τούτῳ τῷ ἐσχάτῳ δοῦναι ὡς καὶ σοί· "
+    },
+    {
+      "id": "MAT.20.15",
+      "sourceRef": "MAT.20.15",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/14",
+      "sourceLabel": "15",
+      "anchors": [
+        "MAT.20.15"
+      ],
+      "mappingType": "exact",
+      "text": "οὐκ ἔξεστίν μοι ὃ θέλω ποιῆσαι ἐν τοῖς ἐμοῖς; ἢ ὁ ὀφθαλμός σου πονηρός ἐστιν ὅτι ἐγὼ ἀγαθός εἰμι;",
+      "originalText": " οὐκ ἔξεστίν μοι ὃ θέλω ποιῆσαι ἐν τοῖς ἐμοῖς; ἢ ὁ\n  ὀφθαλμός σου πονηρός ἐστιν ὅτι ἐγὼ ἀγαθός εἰμι; "
+    },
+    {
+      "id": "MAT.20.16",
+      "sourceRef": "MAT.20.16",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/205/15",
+      "sourceLabel": "16",
+      "anchors": [
+        "MAT.20.16"
+      ],
+      "mappingType": "exact",
+      "text": "Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι καὶ οἱ πρῶτοι ἔσχατοι.",
+      "originalText": " Οὕτως ἔσονται οἱ ἔσχατοι πρῶτοι καὶ οἱ πρῶτοι\n  ἔσχατοι.\n"
+    },
+    {
+      "id": "MAT.20.17",
+      "sourceRef": "MAT.20.17",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/207/0",
+      "sourceLabel": "17",
+      "anchors": [
+        "MAT.20.17"
+      ],
+      "mappingType": "exact",
+      "text": "Μέλλων δὲ ἀναβαίνειν Ἰησοῦς εἰς Ἱεροσόλυμα παρέλαβεν τοὺς δώδεκα κατ’ ἰδίαν, καὶ ἐν τῇ ὁδῷ εἶπεν αὐτοῖς",
+      "originalText": " Μέλλων δὲ ἀναβαίνειν Ἰησοῦς εἰς Ἱεροσόλυμα παρέλαβεν\n  τοὺς δώδεκα κατ’ ἰδίαν, καὶ ἐν τῇ ὁδῷ εἶπεν αὐτοῖς "
+    },
+    {
+      "id": "MAT.20.18",
+      "sourceRef": "MAT.20.18",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/207/1",
+      "sourceLabel": "18",
+      "anchors": [
+        "MAT.20.18"
+      ],
+      "mappingType": "exact",
+      "text": "Ἰδοὺ ἀναβαίνομεν εἰς Ἱεροσόλυμα, καὶ ὁ Υἱὸς τοῦ ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσιν καὶ γραμματεῦσιν, καὶ κατακρινοῦσιν αὐτὸν εἰς θάνατον,",
+      "originalText": " Ἰδοὺ ἀναβαίνομεν εἰς Ἱεροσόλυμα, καὶ ὁ Υἱὸς τοῦ\n  ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσιν καὶ γραμματεῦσιν, καὶ\n  κατακρινοῦσιν αὐτὸν εἰς θάνατον, "
+    },
+    {
+      "id": "MAT.20.19",
+      "sourceRef": "MAT.20.19",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/207/2",
+      "sourceLabel": "19",
+      "anchors": [
+        "MAT.20.19"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ παραδώσουσιν αὐτὸν τοῖς ἔθνεσιν εἰς τὸ ἐμπαῖξαι καὶ μαστιγῶσαι καὶ σταυρῶσαι, καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερθήσεται.",
+      "originalText": " καὶ\n  παραδώσουσιν αὐτὸν τοῖς ἔθνεσιν εἰς τὸ ἐμπαῖξαι καὶ μαστιγῶσαι\n  καὶ σταυρῶσαι, καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερθήσεται.\n "
+    },
+    {
+      "id": "MAT.20.20",
+      "sourceRef": "MAT.20.20",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/0",
+      "sourceLabel": "20",
+      "anchors": [
+        "MAT.20.20"
+      ],
+      "mappingType": "exact",
+      "text": "Τότε προσῆλθεν αὐτῷ ἡ μήτηρ τῶν υἱῶν Ζεβεδαίου μετὰ τῶν υἱῶν αὐτῆς προσκυνοῦσα καὶ αἰτοῦσά τι ἀπ’ αὐτοῦ.",
+      "originalText": " Τότε\n  προσῆλθεν αὐτῷ ἡ μήτηρ τῶν υἱῶν Ζεβεδαίου μετὰ τῶν υἱῶν αὐτῆς\n  προσκυνοῦσα καὶ αἰτοῦσά τι ἀπ’ αὐτοῦ.\n  "
+    },
+    {
+      "id": "MAT.20.21",
+      "sourceRef": "MAT.20.21",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/2",
+      "sourceLabel": "21",
+      "anchors": [
+        "MAT.20.21"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ εἶπεν αὐτῇ Τί θέλεις; λέγει αὐτῷ Εἰπὲ ἵνα καθίσωσιν οὗτοι οἱ δύο υἱοί μου εἷς ἐκ δεξιῶν καὶ εἷς ἐξ εὐωνύμων σου ἐν τῇ βασιλείᾳ σου.",
+      "originalText": " ὁ δὲ εἶπεν αὐτῇ Τί θέλεις; λέγει αὐτῷ\n  Εἰπὲ ἵνα καθίσωσιν οὗτοι οἱ δύο υἱοί μου εἷς ἐκ δεξιῶν καὶ εἷς ἐξ\n  εὐωνύμων σου ἐν τῇ βασιλείᾳ σου. "
+    },
+    {
+      "id": "MAT.20.22",
+      "sourceRef": "MAT.20.22",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/3",
+      "sourceLabel": "22",
+      "anchors": [
+        "MAT.20.22"
+      ],
+      "mappingType": "exact",
+      "text": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν Οὐκ οἴδατε τί αἰτεῖσθε. δύνασθε πιεῖν τὸ ποτήριον ὃ ἐγὼ μέλλω πίνειν; λέγουσιν αὐτῷ Δυνάμεθα.",
+      "originalText": "\n  ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν Οὐκ οἴδατε τί αἰτεῖσθε. δύνασθε\n  πιεῖν τὸ ποτήριον ὃ ἐγὼ μέλλω πίνειν; λέγουσιν αὐτῷ Δυνάμεθα.\n  "
+    },
+    {
+      "id": "MAT.20.23",
+      "sourceRef": "MAT.20.23",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/4",
+      "sourceLabel": "23",
+      "anchors": [
+        "MAT.20.23"
+      ],
+      "mappingType": "exact",
+      "text": "λέγει αὐτοῖς Τὸ μὲν ποτήριόν μου πίεσθε, τὸ δὲ καθίσαι ἐκ δεξιῶν μου καὶ ἐξ εὐωνύμων οὐκ ἔστιν ἐμὸν τοῦτο δοῦναι, ἀλλ’ οἷς ἡτοίμασται ὑπὸ τοῦ Πατρός μου.",
+      "originalText": " λέγει αὐτοῖς Τὸ μὲν ποτήριόν μου\n  πίεσθε, τὸ δὲ καθίσαι ἐκ δεξιῶν μου καὶ ἐξ εὐωνύμων οὐκ ἔστιν\n  ἐμὸν τοῦτο δοῦναι, ἀλλ’ οἷς ἡτοίμασται ὑπὸ τοῦ Πατρός μου.\n  "
+    },
+    {
+      "id": "MAT.20.24",
+      "sourceRef": "MAT.20.24",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/5",
+      "sourceLabel": "24",
+      "anchors": [
+        "MAT.20.24"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἀκούσαντες οἱ δέκα ἠγανάκτησαν περὶ τῶν δύο ἀδελφῶν.",
+      "originalText": " καὶ ἀκούσαντες οἱ δέκα ἠγανάκτησαν\n  περὶ τῶν δύο ἀδελφῶν. "
+    },
+    {
+      "id": "MAT.20.25",
+      "sourceRef": "MAT.20.25",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/6",
+      "sourceLabel": "25",
+      "anchors": [
+        "MAT.20.25"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ Ἰησοῦς προσκαλεσάμενος αὐτοὺς εἶπεν Οἴδατε ὅτι οἱ ἄρχοντες τῶν ἐθνῶν κατακυριεύουσιν αὐτῶν καὶ οἱ μεγάλοι κατεξουσιάζουσιν αὐτῶν.",
+      "originalText": " ὁ δὲ Ἰησοῦς\n  προσκαλεσάμενος αὐτοὺς εἶπεν Οἴδατε ὅτι οἱ ἄρχοντες τῶν ἐθνῶν\n  κατακυριεύουσιν αὐτῶν καὶ οἱ μεγάλοι κατεξουσιάζουσιν αὐτῶν.\n  "
+    },
+    {
+      "id": "MAT.20.26",
+      "sourceRef": "MAT.20.26",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/7",
+      "sourceLabel": "26",
+      "anchors": [
+        "MAT.20.26"
+      ],
+      "mappingType": "exact",
+      "text": "οὐχ οὕτως ἐστὶν ἐν ὑμῖν· ἀλλ’ ὃς ἐὰν θέλῃ ἐν ὑμῖν μέγας γενέσθαι, ἔσται ὑμῶν διάκονος,",
+      "originalText": " οὐχ οὕτως ἐστὶν ἐν ὑμῖν· ἀλλ’ ὃς ἐὰν\n  θέλῃ ἐν ὑμῖν μέγας γενέσθαι, ἔσται ὑμῶν διάκονος, "
+    },
+    {
+      "id": "MAT.20.27",
+      "sourceRef": "MAT.20.27",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/8",
+      "sourceLabel": "27",
+      "anchors": [
+        "MAT.20.27"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ὃς ἂν θέλῃ ἐν ὑμῖν εἶναι πρῶτος, ἔσται ὑμῶν δοῦλος·",
+      "originalText": " καὶ ὃς ἂν θέλῃ ἐν ὑμῖν εἶναι πρῶτος, ἔσται ὑμῶν\n  δοῦλος· "
+    },
+    {
+      "id": "MAT.20.28",
+      "sourceRef": "MAT.20.28",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/208/0/9",
+      "sourceLabel": "28",
+      "anchors": [
+        "MAT.20.28"
+      ],
+      "mappingType": "exact",
+      "text": "ὥσπερ ὁ Υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθεν διακονηθῆναι, ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.",
+      "originalText": " ὥσπερ ὁ Υἱὸς τοῦ ἀνθρώπου οὐκ\n  ἦλθεν διακονηθῆναι, ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ\n  λύτρον ἀντὶ πολλῶν.\n "
+    },
+    {
+      "id": "MAT.20.29",
+      "sourceRef": "MAT.20.29",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/0",
+      "sourceLabel": "29",
+      "anchors": [
+        "MAT.20.29"
+      ],
+      "mappingType": "exact",
+      "text": "Καὶ ἐκπορευομένων αὐτῶν ἀπὸ Ἱερειχὼ ἠκολούθησεν αὐτῷ ὄχλος πολύς.",
+      "originalText": " Καὶ\n  ἐκπορευομένων αὐτῶν ἀπὸ Ἱερειχὼ ἠκολούθησεν αὐτῷ ὄχλος πολύς.\n  "
+    },
+    {
+      "id": "MAT.20.30",
+      "sourceRef": "MAT.20.30",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/1",
+      "sourceLabel": "30",
+      "anchors": [
+        "MAT.20.30"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ ἰδοὺ δύο τυφλοὶ καθήμενοι παρὰ τὴν ὁδόν, ἀκούσαντες ὅτι Ἰησοῦς παράγει, ἔκραξαν λέγοντες Κύριε, ἐλέησον ἡμᾶς, υἱὸς Δαυείδ.",
+      "originalText": " καὶ ἰδοὺ δύο τυφλοὶ καθήμενοι παρὰ τὴν\n  ὁδόν, ἀκούσαντες ὅτι Ἰησοῦς παράγει, ἔκραξαν λέγοντες Κύριε,\n  ἐλέησον ἡμᾶς, υἱὸς Δαυείδ. "
+    },
+    {
+      "id": "MAT.20.31",
+      "sourceRef": "MAT.20.31",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/2",
+      "sourceLabel": "31",
+      "anchors": [
+        "MAT.20.31"
+      ],
+      "mappingType": "exact",
+      "text": "ὁ δὲ ὄχλος ἐπετίμησεν αὐτοῖς ἵνα σιωπήσωσιν· οἱ δὲ μεῖζον ἔκραξαν λέγοντες Κύριε, ἐλέησον ἡμᾶς, υἱὸς Δαυείδ.",
+      "originalText": " ὁ δὲ ὄχλος\n  ἐπετίμησεν αὐτοῖς ἵνα σιωπήσωσιν· οἱ δὲ μεῖζον ἔκραξαν λέγοντες\n  Κύριε, ἐλέησον ἡμᾶς, υἱὸς Δαυείδ. "
+    },
+    {
+      "id": "MAT.20.32",
+      "sourceRef": "MAT.20.32",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/3",
+      "sourceLabel": "32",
+      "anchors": [
+        "MAT.20.32"
+      ],
+      "mappingType": "exact",
+      "text": "καὶ στὰς ὁ Ἰησοῦς ἐφώνησεν αὐτοὺς καὶ εἶπεν Τί θέλετε ποιήσω ὑμῖν;",
+      "originalText": " καὶ\n  στὰς ὁ Ἰησοῦς ἐφώνησεν αὐτοὺς καὶ εἶπεν Τί θέλετε ποιήσω ὑμῖν;\n  "
+    },
+    {
+      "id": "MAT.20.33",
+      "sourceRef": "MAT.20.33",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/4",
+      "sourceLabel": "33",
+      "anchors": [
+        "MAT.20.33"
+      ],
+      "mappingType": "exact",
+      "text": "λέγουσιν αὐτῷ Κύριε, ἵνα ἀνοιγῶσιν οἱ ὀφθαλμοὶ ἡμῶν.",
+      "originalText": " λέγουσιν αὐτῷ Κύριε, ἵνα ἀνοιγῶσιν οἱ\n  ὀφθαλμοὶ ἡμῶν. "
+    },
+    {
+      "id": "MAT.20.34",
+      "sourceRef": "MAT.20.34",
+      "sourceId": "xhtml/Matthew-ap.xhtml#body/209/0/5",
+      "sourceLabel": "34",
+      "anchors": [
+        "MAT.20.34"
+      ],
+      "mappingType": "exact",
+      "text": "σπλαγχνισθεὶς δὲ ὁ Ἰησοῦς ἥψατο τῶν ὀμμάτων αὐτῶν, καὶ εὐθέως ἀνέβλεψαν καὶ ἠκολούθησαν αὐτῷ.",
+      "originalText": " σπλαγχνισθεὶς δὲ ὁ\n  Ἰησοῦς ἥψατο τῶν ὀμμάτων αὐτῶν, καὶ εὐθέως ἀνέβλεψαν καὶ\n  ἠκολούθησαν αὐτῷ."
+    }
+  ],
+  "notes": [],
+  "coverage": [
+    {
+      "anchor": "MAT.20.1",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.1",
+          "sourceRef": "MAT.20.1",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.2",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.2",
+          "sourceRef": "MAT.20.2",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.3",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.3",
+          "sourceRef": "MAT.20.3",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.4",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.4",
+          "sourceRef": "MAT.20.4",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.5",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.5",
+          "sourceRef": "MAT.20.5",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.6",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.6",
+          "sourceRef": "MAT.20.6",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.7",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.7",
+          "sourceRef": "MAT.20.7",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.8",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.8",
+          "sourceRef": "MAT.20.8",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.9",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.9",
+          "sourceRef": "MAT.20.9",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.10",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.10",
+          "sourceRef": "MAT.20.10",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.11",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.11",
+          "sourceRef": "MAT.20.11",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.12",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.12",
+          "sourceRef": "MAT.20.12",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.13",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.13",
+          "sourceRef": "MAT.20.13",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.14",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.14",
+          "sourceRef": "MAT.20.14",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.15",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.15",
+          "sourceRef": "MAT.20.15",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.16",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.16",
+          "sourceRef": "MAT.20.16",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.17",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.17",
+          "sourceRef": "MAT.20.17",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.18",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.18",
+          "sourceRef": "MAT.20.18",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.19",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.19",
+          "sourceRef": "MAT.20.19",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.20",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.20",
+          "sourceRef": "MAT.20.20",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.21",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.21",
+          "sourceRef": "MAT.20.21",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.22",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.22",
+          "sourceRef": "MAT.20.22",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.23",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.23",
+          "sourceRef": "MAT.20.23",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.24",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.24",
+          "sourceRef": "MAT.20.24",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.25",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.25",
+          "sourceRef": "MAT.20.25",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.26",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.26",
+          "sourceRef": "MAT.20.26",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.27",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.27",
+          "sourceRef": "MAT.20.27",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.28",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.28",
+          "sourceRef": "MAT.20.28",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.29",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.29",
+          "sourceRef": "MAT.20.29",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.30",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.30",
+          "sourceRef": "MAT.20.30",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.31",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.31",
+          "sourceRef": "MAT.20.31",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.32",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.32",
+          "sourceRef": "MAT.20.32",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.33",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.33",
+          "sourceRef": "MAT.20.33",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    },
+    {
+      "anchor": "MAT.20.34",
+      "dataState": "available",
+      "textState": "present",
+      "publisherNoteIds": [],
+      "placements": [
+        {
+          "book": "MAT",
+          "chapter": 20,
+          "segmentId": "MAT.20.34",
+          "sourceRef": "MAT.20.34",
+          "mappingType": "exact"
+        }
+      ],
+      "evidence": "Source inventory and explicit mappings in the release manifest."
+    }
+  ],
+  "releaseId": "n1904-2026-09-05-m2-v1"
+}

@@ -7,3 +7,7 @@ content/editorial/** -text
 *.ico -text
 *.zip -text
 *.pdf -text
+# Preserve the exact approved review snapshots, including upstream whitespace.
+docs/editorial-review/variant-additions-2026-10-11/evidence/** -text -whitespace
+docs/editorial-review/variant-additions-2026-10-11/external/** -text -whitespace
+sources/visuals/csntm-sinaiticus-additions-2026-10-11-v2/** -whitespace

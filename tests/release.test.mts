@@ -63,7 +63,7 @@ test('public desktop download page exposes only the approved 3.6.1 installers', 
   assert.match(page, /beta-downloads\/3\.6\.1\/Ad-Fontes-macOS-Apple-Silicon-3\.6\.1\.dmg/);
   assert.match(page, /beta-downloads\/3\.6\.1\/Ad-Fontes-Windows-x64-3\.6\.1\.exe/);
   assert.match(page, /Version 3\.6\.1 includes whole-Bible English reading and comparison/);
-  assert.match(page, /all 104 reviewed textual comparisons/);
+  assert.match(page, /all 110 reviewed textual comparisons/);
   assert.match(page, /Version 3\.6\.0 includes the full LXX2012 English Septuagint/);
   assert.match(page, /250 Greek word studies/);
   assert.match(page, /5,400-entry Greek\s+lexicon/);
@@ -89,12 +89,12 @@ test('final public installer publication is pinned to the approved signed bytes'
   );
 });
 
-test('public project status identifies the approved 3.6.1 release', async () => {
+test('public project status identifies the authorized 3.6.2 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /Whole-Bible pilot and release acceptance remain in progress/);
-  assert.match(reader, /104 reviewed\s+comparison notes/);
+  assert.match(reader, /110 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 3\.6\.1 is the current cross-platform desktop release/);
+  assert.match(reader, /Version 3\.6\.2 is the current cross-platform desktop release/);
   assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Personal notes and Google sign-in have been retired/);
