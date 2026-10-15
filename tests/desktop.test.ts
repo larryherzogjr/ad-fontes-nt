@@ -22,8 +22,8 @@ const assets = resolve('app/desktop/dist');
 const json = async (path: string) => JSON.parse(await readFile(join(assets, path), 'utf8'));
 
 test('offline desktop includes every pinned Library search shard and the shared worker',async()=>{
- const base='library/search/library-search-2026-10-14-v1';
- const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-14-v1/manifest.json','utf8'));
+ const base='library/search/library-search-2026-10-14-v2';
+ const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-14-v2/manifest.json','utf8'));
  assert.deepEqual(await json(`${base}/manifest.json`),pin);
  for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
  assert.ok((await readdir(join(assets,'assets'))).some(name=>/^search\.worker-.+\.js$/.test(name)));

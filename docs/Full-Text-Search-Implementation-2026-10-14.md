@@ -41,3 +41,12 @@ Suggested checks for Larry:
 5. Select K&D and Genesis, then search `faith`; confirm the source-group labels are clear.
 
 Next: Larry's local review and any corrections, then separately authorized release preparation. No hosted service, legacy account data, private configuration, supplied source archive, approved editorial payload or signing/updater identity was modified.
+
+
+## 4.0.0 cross-platform derivative correction
+
+The first clean GitHub build rejected the v1 search bytes. Local Homebrew Node 26 links zlib 1.2.12 and emits gzip OS byte 19; the pinned official Node 24.18.0 links zlib 1.3.1-e00f703 and reproducing the same decoded Greek metadata does not reproduce its gzip bytes. Thus the initial local-only compressed-byte pins were environment dependent. This is a packaging reproduction failure, not evidence of changed study prose. Workflow 38659959387 failed before native Windows packaging; no artifact from it is publishable.
+
+Successor `library-search-2026-10-14-v2` uses the already locked MIT fflate 0.7.5 implementation as an explicitly pinned development dependency, pure-JavaScript gzip level 9 with zero timestamp and a fixed OS header. The implementation bytes are included in the derivative manifest. Code-point term ordering and explicit ASCII book/numeric chapter ordering remove host collation dependencies. The v1 manifest remains unchanged and its original builder/tokenizer are preserved in its evidence directory. Generated v1 assets are excluded from the active public/offline bundle.
+
+All 1,451 source hashes and all five collection counts remain identical (1,556 resources / 73,903 blocks). All 234 decompressed JSON payloads compare deeply equal after only normalizing their release ID; postings, document/block ordering, exact prose, context URLs and matching behavior are unchanged. No corpus/editorial/source approval is replaced. New manifest SHA-256: `70017093d90f97ccedd89edbc9d99663c18bd43b52de59bcbc24ab8f56c10a1d`. Local Node 26 and official Node 24 reproduction and clean CI verification are required before publication.

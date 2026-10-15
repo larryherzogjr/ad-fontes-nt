@@ -1151,14 +1151,14 @@ export default function Reader() {
             <h2>Project status</h2>
             <p>
               The original NT milestones have historical acceptance records.
-              Whole-Bible pilot and release acceptance remain in progress. The original NT release includes
+              The current release and MVP were accepted on October 14, 2026. The original NT release includes
               all 27 New Testament books, seven named editions, 110 reviewed
               comparison notes, Greek and interlinear tools, the approved
               250-article Ordinary Means collection. Personal notes and Google sign-in have been retired.
             </p>
-            <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately; Hebrew remains undecided.</p>
+            <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately. Hebrew word analysis, lemma exploration and the included Hebrew word studies are available.</p>
             <p>
-              {environment.offline ? `This desktop build is version ${desktopVersion}. ` : <>Version 3.6.2 is the current cross-platform desktop release. </>}The
+              {environment.offline ? `This desktop build is version ${desktopVersion}. ` : <>Version 4.0.0 is the current cross-platform desktop release. </>}The
               macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on

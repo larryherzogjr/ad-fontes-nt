@@ -1,7 +1,7 @@
 /** Derive search only from active public projections. Never scan raw/draft directories. */
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { gzipSync } from 'node:zlib';
+import { gzipSync } from '../app/node_modules/fflate/esm/browser.js';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { unified } from '../app/node_modules/unified/index.js';
@@ -15,7 +15,7 @@ const pinPath=join(root,'content/library-search',searchRelease,'manifest.json');
 const pin=await readFile(pinPath,'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
 const sha=(bytes: string|Uint8Array)=>createHash('sha256').update(bytes).digest('hex');
 async function read(path:string) { const bytes=await readFile(join(pub,path));inputs[path]=sha(bytes);return JSON.parse(bytes.toString()); }
-async function output(path:string,value:unknown) { const bytes=gzipSync(JSON.stringify(value)+'\n',{level:9});files[path]=sha(bytes);await mkdir(join(destination,path,'..'),{recursive:true});await writeFile(join(destination,path),bytes); }
+async function output(path:string,value:unknown) { const bytes=gzipSync(Buffer.from(JSON.stringify(value)+'\n'),{level:9,mtime:0});files[path]=sha(bytes);await mkdir(join(destination,path,'..'),{recursive:true});await writeFile(join(destination,path),bytes); }
 function plain(node:any):string { if(node.type==='html')return '';if(typeof node.value==='string')return node.value;if(node.type==='break')return '\n';return (node.children||[]).map(plain).join(['list','listItem','blockquote'].includes(node.type)?'\n':''); }
 function markdownBlocks(markdown:string):SearchBlock[] { const tree=unified().use(remarkParse).parse(markdown);return tree.children.filter((n:any)=>!['html','definition'].includes(n.type)).map((node:any)=>({text:plain(node),markdown:markdown.slice(node.position.start.offset,node.position.end.offset)})).filter(b=>b.text.trim()); }
 await rm(destination,{recursive:true,force:true});await mkdir(destination,{recursive:true});
@@ -31,7 +31,7 @@ async function collection(id:string, populate:(add:(doc:Omit<SearchDoc,'blocks'|
  await populate(add);
  const postingShards=Array.from({length:32},(_,bucket)=>`terms/${id}-${bucket}.bin`);
  const buckets=Array.from({length:32},()=>({} as Record<string,string>));
- for(const [word,positions] of [...tokens].sort(([a],[b])=>a.localeCompare(b,'en')))buckets[tokenBucket(word)][word]=encodePostings(positions);
+ for(const [word,positions] of [...tokens].sort(([a],[b])=>a<b?-1:a>b?1:0))buckets[tokenBucket(word)][word]=encodePostings(positions);
  for(let bucket=0;bucket<32;bucket++)await output(postingShards[bucket],{schemaVersion:1,releaseId:searchRelease,collection:id,bucket,postings:buckets[bucket]});
  const index:SearchIndex={schemaVersion:1,releaseId:searchRelease,collection:id,documents,blocks,postings:{},postingShards};
  await output(`${id}.bin`,index);for(const [path,documents] of shards)await output(path,{schemaVersion:1,releaseId:searchRelease,documents});
@@ -54,13 +54,13 @@ await collection('comparisons',async add=>{
 for(const [id,release,author] of [['lenski','lenski-2026-10-08-v1','R. C. H. Lenski'],['kd','kd-2026-10-08-v1','C. F. Keil and F. Delitzsch']] as const) {
  await collection(id,async add=>{
   const manifest=await read(`commentaries/${release}/manifest.json`);
-  for(const path of Object.keys(manifest.files).filter(p=>/^chapters\/.+\.json$/.test(p)).sort((a,b)=>a.localeCompare(b,'en',{numeric:true}))) {
+  for(const path of Object.keys(manifest.files).filter(p=>/^chapters\/.+\.json$/.test(p)).sort((a,b)=>a.split('/')[1]<b.split('/')[1]?-1:a.split('/')[1]>b.split('/')[1]?1:parseInt(a.split('/')[2])-parseInt(b.split('/')[2]))) {
    const full=`commentaries/${release}/${path}`,chapter=await read(full);if(inputs[full]!==manifest.files[path]||chapter.releaseId!==release)throw Error('Commentary projection hash mismatch');
    add({id:`${id}:${chapter.book}:${chapter.chapter}`,title:`${chapter.name} · ${id==='kd'?'source chapter group':'chapter'} ${chapter.chapter}`,author,release,book:chapter.book,sourceUrl:`/library?view=commentaries&commentary=${id}&commentaryBook=${chapter.book}&commentaryChapter=${chapter.chapter}`,shard:`text/${id}-${chapter.book}.bin`,notice:id==='kd'?'Historical commentary. Source chapter groups may span adjacent chapters; source Hebrew verse numbering is retained. No precise canonical verse alignment is implied.':'Historical Lutheran commentary. Quotations are Lenski’s source text, distinct from the selected Scripture edition and Ordinary Means commentary. Original print page references are unavailable.'},chapter.paragraphs.map((text:string)=>({text})));
   }
  });
 }
-const implementation:Record<string,string>={};for(const path of ['scripts/build_library_search.mts','app/lib/domain/library-search.ts'])implementation[path]=sha(await readFile(join(root,path)));
+const implementation:Record<string,string>={};for(const path of ['scripts/build_library_search.mts','app/lib/domain/library-search.ts','app/node_modules/fflate/esm/browser.js'])implementation[path]=sha(await readFile(join(root,path)));
 const manifest={schemaVersion:1,releaseId:searchRelease,inputs,implementation,files,counts};
 if(pin&&JSON.stringify(pin)!==JSON.stringify(manifest))throw Error('Library search differs from its pinned derivative. Prepare a documented successor release; do not overwrite the pin.');
 await writeFile(join(destination,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');

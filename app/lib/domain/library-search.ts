@@ -1,5 +1,5 @@
 /** Shared, deterministic word/phrase matching. Display always uses original text. */
-export const searchRelease = 'library-search-2026-10-14-v1';
+export const searchRelease = 'library-search-2026-10-14-v2';
 export const searchBase = `/library/search/${searchRelease}`;
 export const collectionLabels: Record<string, string> = { greek: 'Ordinary Means Greek studies', hebrew: 'Ordinary Means Hebrew studies', comparisons: 'Textual comparisons', lenski: 'Lenski', kd: 'Keil & Delitzsch' };
 export type Token = { value: string; start: number; end: number };
