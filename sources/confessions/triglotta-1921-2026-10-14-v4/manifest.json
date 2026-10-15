@@ -1,0 +1,56 @@
+{
+  "releaseId": "triglotta-1921-2026-10-14-v4",
+  "primaryProjectionSha256": "41d5f51e5a398913e01bb74fb7f445e13c47ef45e0ffb84794eb5858bdab2770",
+  "archiveSha256": "299a81a9c5c7c1bb6a325651e9d2c83adf5e88d83d839a673ab0e3fe7cd9c12c",
+  "sourceManifestSha256": "02f1ed592931f184b5bb1e60a626674796e000fdaaa5e0f474136d3ab7f3a7e1",
+  "implementationSha256": "c6fe6dcaff53d389c0221329505eb678245b396a295c223a10f5e01425ed267a",
+  "referenceParserSha256": "c84364a25a6a10e89fd066423ddd63bb8b9ea88f7e359cc5d365f64aa9a94765",
+  "registrySha256": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c",
+  "outputSha256": "8e64439579317fabf338073523216841df9bbc7d9e8ac4f6767aff312f816414",
+  "documents": 9,
+  "sections": 130,
+  "blocks": 4431,
+  "paragraphs": 4123,
+  "headings": 308,
+  "citations": 1333,
+  "connectedParagraphs": 792,
+  "unresolved": [
+    {
+      "paragraph": "pp:treatise:71",
+      "text": "2 John 1",
+      "offset": 414,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:preface:7",
+      "text": "Acts 15, 1-29",
+      "offset": 324,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:preface:7",
+      "text": "1 Cor. 15, 12",
+      "offset": 383,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-I:7",
+      "text": "Rom. 5, 12",
+      "offset": 278,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-I:7",
+      "text": "1 John 3, 7",
+      "offset": 290,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-IV:17",
+      "text": "Philemon 14",
+      "offset": 146,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    }
+  ],
+  "scope": "English primary BookOfConcord.org snapshots, supplementing the supplied archive and restoring omitted headings/statements. Source order and printed labels retained; exact normalized archive paragraph IDs retained where available. Explicit book-qualified chapter/verse citations and comma/and lists. Source paragraph numbers unchanged; ordinal IDs disambiguate duplicate/missing numbers. f/ff records opening references only. Unqualified shorthand, thematic links and translations are not inferred. Latin/German remain source evidence outside public bundles."
+}

@@ -1,0 +1,53 @@
+{
+  "releaseId": "triglotta-1921-2026-10-14-v3",
+  "archiveSha256": "299a81a9c5c7c1bb6a325651e9d2c83adf5e88d83d839a673ab0e3fe7cd9c12c",
+  "sourceManifestSha256": "02f1ed592931f184b5bb1e60a626674796e000fdaaa5e0f474136d3ab7f3a7e1",
+  "implementationSha256": "17be2eb86f8fd3e6ed1d5377e803bc3320623776ed47deffd1468a4af76be9cf",
+  "referenceParserSha256": "c84364a25a6a10e89fd066423ddd63bb8b9ea88f7e359cc5d365f64aa9a94765",
+  "registrySha256": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c",
+  "outputSha256": "40cad2d440da586673db503fa60fef9ad576cacddb94a53f97774c1e730c0bd9",
+  "documents": 9,
+  "sections": 130,
+  "paragraphs": 4145,
+  "citations": 1333,
+  "connectedParagraphs": 793,
+  "unresolved": [
+    {
+      "paragraph": "pp:treatise:71",
+      "text": "2 John 1",
+      "offset": 414,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:preface:7",
+      "text": "Acts 15, 1-29",
+      "offset": 324,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:preface:7",
+      "text": "1 Cor. 15, 12",
+      "offset": 383,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-I:7",
+      "text": "Rom. 5, 12",
+      "offset": 278,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-I:7",
+      "text": "1 John 3, 7",
+      "offset": 290,
+      "reason": "Comma notation without an explicit chapter/verse separator is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:art-IV:17",
+      "text": "Philemon 14",
+      "offset": 146,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    }
+  ],
+  "scope": "English supplied Triglotta transcription only. Explicit book-qualified chapter/verse citations and comma/and lists. Source paragraph numbers unchanged; ordinal IDs disambiguate duplicate/missing numbers. f/ff records opening references only. Unqualified shorthand, thematic links and translations are not inferred. Latin/German remain source evidence outside public bundles."
+}

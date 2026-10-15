@@ -7,6 +7,8 @@ import { createLocalAdapter, editions } from '../app/lib/domain/corpus.ts';
 import { books } from '../app/lib/domain/references.ts';
 import { getAnalysis, getOccurrences, getLexicon } from '../app/lib/domain/greek.ts';
 import { resolveLookup } from '../app/lib/domain/lexical.ts';
+import { loadConfessions } from '../app/lib/domain/confessions.ts';
+import { loadGospelParallels } from '../app/lib/domain/gospel-parallels.ts';
 import { loadConnections } from '../app/lib/domain/testament-connections.ts';
 import { desktopStartPath } from '../app/desktop/navigation.ts';
 
@@ -18,6 +20,14 @@ const visualSelections = [
 ];
 const assets = resolve('app/desktop/dist');
 const json = async (path: string) => JSON.parse(await readFile(join(assets, path), 'utf8'));
+
+test('offline desktop includes every pinned Library search shard and the shared worker',async()=>{
+ const base='library/search/library-search-2026-10-14-v1';
+ const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-14-v1/manifest.json','utf8'));
+ assert.deepEqual(await json(`${base}/manifest.json`),pin);
+ for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
+ assert.ok((await readdir(join(assets,'assets'))).some(name=>/^search\.worker-.+\.js$/.test(name)));
+});
 
 test('fresh native origins normalize to the reader root without losing requested state', () => {
   assert.equal(desktopStartPath('tauri://localhost'), '/');
@@ -34,7 +44,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '3.6.2');
+  assert.equal(config.version, '4.0.0');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -48,8 +58,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "3\.6\.2"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "3\.6\.2"/);
+  assert.match(cargoManifest, /^version = "4\.0\.0"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.0\.0"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -57,6 +67,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.deepEqual(config.plugins.updater.endpoints, ['https://ad-fontes.app/desktop-updates/stable/latest.json']);
   assert.ok(capability.permissions.includes('updater:default'));
   assert.ok(capability.permissions.includes('process:allow-restart'));
+  assert.ok(capability.permissions.includes('core:webview:allow-print'));
   assert.ok(!capability.permissions.includes('process:default'));
   const source = await readFile('app/desktop/update-manager.tsx', 'utf8');
   assert.match(source, /24 \* 60 \* 60 \* 1000/);
@@ -107,7 +118,7 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.otEditions.length, 4);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries)\//);
+    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\//);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -256,4 +267,23 @@ test('desktop includes all seven Hebrew studies for in-app offline reading',asyn
  const index=JSON.parse(await fs.readFile(`${base}/index.json`,'utf8'));
  assert.equal(index.articles.length,7);
  for(const a of index.articles){const article=JSON.parse(await fs.readFile(`${base}/articles/${a.slug}.json`,'utf8'));assert.ok(article.article.markdown.includes('## What It Means'));assert.doesNotMatch(article.article.markdown,/\bNET\b/);assert.equal(article.article.contentSha256,a.contentSha256)}
+});
+
+test('offline desktop retains the complete checksum-verified Gospel parallel index',async()=>{
+ const index=await loadGospelParallels(path=>readFile(join(assets,path),'utf8'));
+ assert.equal(index.records.length,361);
+});
+
+test('offline desktop includes only the verified English confessional projection',async()=>{
+ const index=await loadConfessions(path=>readFile(join(assets,path),'utf8'));assert.equal(index.paragraphs.length,4431);
+ const text=JSON.stringify(index);assert.ok(!text.includes('la_alignment')&&!text.includes('de_text'));
+ assert.deepEqual(await readdir(join(assets,'confessions')),['triglotta-1921-2026-10-14-v4']);
+});
+
+
+test('offline Library bundles the dated lectionary and keeps original Word files out of distributable assets',async()=>{
+ const scripts=await readdir(join(assets,'assets'));let found=false;
+ for(const file of scripts.filter(file=>file.endsWith('.js'))){const text=await readFile(join(assets,'assets',file),'utf8');if(text.includes('lcms-calendars-2026-10-14-v3')&&text.includes('2026-27-three-year-series-b-calendar-word'))found=true;}
+ assert.ok(found,'Pinned dated calendar data must be bundled with the shared Library');
+ const inventory=await json('desktop-content.json');assert.ok(!Object.keys(inventory.files).some(path=>path.endsWith('.docx')||path.startsWith('sources/')));
 });

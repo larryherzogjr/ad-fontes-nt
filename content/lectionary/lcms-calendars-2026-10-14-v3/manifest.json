@@ -1,0 +1,52 @@
+{
+  "releaseId": "lcms-calendars-2026-10-14-v3",
+  "inputs": {
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/acquisition.json": "ac84be2ddf7787dcd61fecc66bfcc9db8cced1eb9e84ecd6f3d26a9eff616cc9",
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/rows.json": "25a5097b0cf6a5d76c694a39b2515beb7952c022339ce63c3cf7d95ad6918e53",
+    "scripts/lectionary/extract.py": "4bc4a875080501dccfa40497d89306929f072293ae113180a1a99546fc41e9f6",
+    "scripts/build_lectionary.mts": "f70e1beca8404bb7d181094f9b0faef6ebbf441caeb681d1e21eeb6975112f47",
+    "app/lib/domain/lectionary-references.ts": "c2e7fcd8cb6ef8394ec7191c7ccec2a8b1bafbd1a171f0d8e70c3d7b73cf730a",
+    "sources/ot/releases/ot-english-2026-10-07-v1/whole-bible-registry.json": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c"
+  },
+  "outputSha256": "b6f79d1cf9098f4fab586e4e29d4f9c796388acc36b26b6a28b5278addc30e16",
+  "observanceCount": 431,
+  "unresolved": [
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:30",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    }
+  ],
+  "scope": "Factual dates, observance names, and appointed Scripture references from six pinned LCMS calendars. Successor preview rows are excluded. Parenthesized extents are optional; partial verses open complete canonical verses with disclosure. Unnamed canticles are unresolved. No prayers, summaries, liturgical prose or source Bible wording is reproduced."
+}

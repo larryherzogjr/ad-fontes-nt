@@ -1,0 +1,1024 @@
+{
+  "releaseId": "lcms-calendars-2026-10-14-v1",
+  "inputs": {
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/acquisition.json": "ac84be2ddf7787dcd61fecc66bfcc9db8cced1eb9e84ecd6f3d26a9eff616cc9",
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/rows.json": "25a5097b0cf6a5d76c694a39b2515beb7952c022339ce63c3cf7d95ad6918e53",
+    "scripts/lectionary/extract.py": "4bc4a875080501dccfa40497d89306929f072293ae113180a1a99546fc41e9f6",
+    "scripts/build_lectionary.mts": "7e2a50e07c9f26c166b999f2e8e8496330429d607c11a0b5e2576293a04e11b4",
+    "app/lib/domain/lectionary-references.ts": "db2b7664092a0610053d0cc0115f697236ee248f5c565f455f0ffc00c3ece650",
+    "sources/ot/releases/ot-english-2026-10-07-v1/whole-bible-registry.json": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c"
+  },
+  "outputSha256": "e0e400832df9f2144eadd4da32fd20218e2ca5832daac5f6f003091c053f81d1",
+  "observanceCount": 431,
+  "unresolved": [
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:1",
+      "role": "Epistle",
+      "label": "Rom. 13:(8–10) 11–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14)15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:11",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:22",
+      "role": "First Reading",
+      "label": "Ex. 24:8–18",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:26",
+      "role": "First Reading",
+      "label": "Ex. 17:1–7",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 24:3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:32",
+      "role": "First Reading",
+      "label": "Ex. 14:10–15:1",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:44",
+      "role": "First Reading",
+      "label": "Ex. 19:2–8",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:48",
+      "role": "Psalm",
+      "label": "Psalm 65:(1–8) 9–13",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:67",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:1",
+      "role": "Epistle",
+      "label": "Rom. 13:(8–10) 11–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14)15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:8",
+      "role": "First Reading",
+      "label": "Ex. 40:17–21, 34–38",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:10",
+      "role": "Gospel",
+      "label": "Luke 2:(22–32) 33–40",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:11",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:17",
+      "role": "First Reading",
+      "label": "Ex. 33:12–23",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:19",
+      "role": "First Reading",
+      "label": "Ex. 34:29–35",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:19",
+      "role": "First Reading",
+      "label": "Ex. 3:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:20",
+      "role": "First Reading",
+      "label": "Ex. 17:1–7",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:23",
+      "role": "Gospel",
+      "label": "Matt. 6:(1–6) 16–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:26",
+      "role": "First Reading",
+      "label": "Ex. 8:16–24",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:27",
+      "role": "First Reading",
+      "label": "Ex. 16:2–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:28",
+      "role": "Gospel",
+      "label": "John 8:(42–45) 46–59",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 12:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 24:3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:32",
+      "role": "First Reading",
+      "label": "Ex. 14:10–15:1",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:48",
+      "role": "First Reading",
+      "label": "Ex. 20:1–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:48",
+      "role": "Epistle",
+      "label": "Rom. 6:(1–2) 3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:48",
+      "role": "Gospel",
+      "label": "Matt. 5:(17–19) 20–26",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:55",
+      "role": "First Reading",
+      "label": "2 Chron. 28:8–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:61",
+      "role": "Epistle",
+      "label": "1 Cor. 1:(1–3) 4–9",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:67",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:69",
+      "role": "First Reading",
+      "label": "Is. 51:9–16",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14) 15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:11",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:20",
+      "role": "First Reading",
+      "label": "Ex. 34:29–35",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:24",
+      "role": "First Reading",
+      "label": "Ex. 20:1–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:26",
+      "role": "Gospel",
+      "label": "Mark 10:(32–34) 35–45",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:28",
+      "role": "First Reading",
+      "label": "Ex. 24:3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 15:1–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:30",
+      "role": "Psalm",
+      "label": "Psalm 118: 15–29",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:48",
+      "role": "Psalm",
+      "label": "Psalm 85: (1–7) 8–13",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:52",
+      "role": "First Reading",
+      "label": "Ex. 16:2–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:54",
+      "role": "Gospel",
+      "label": "Luke 1:(39–45) 46–55",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:58",
+      "role": "Psalm",
+      "label": "Psalm 119: 129–136",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:59",
+      "role": "Gospel",
+      "label": "Mark 7:(24–30) 31–37",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:62",
+      "role": "Epistle",
+      "label": "James 5:(1–12) 13–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:69",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:1",
+      "role": "Epistle",
+      "label": "Rom. 13:(8–10) 11–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14)15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:8",
+      "role": "First Reading",
+      "label": "Ex. 40:17–21, 34–38",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:9",
+      "role": "Gospel",
+      "label": "Luke 2:(22–32) 33–40",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:11",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:17",
+      "role": "First Reading",
+      "label": "Ex. 34:29–35",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:17",
+      "role": "First Reading",
+      "label": "Ex. 3:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:18",
+      "role": "First Reading",
+      "label": "Ex. 17:1–7",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:21",
+      "role": "Gospel",
+      "label": "Matt. 6:(1–6) 16–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:24",
+      "role": "First Reading",
+      "label": "Ex. 8:16–24",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:25",
+      "role": "First Reading",
+      "label": "Ex. 16:2–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:26",
+      "role": "Gospel",
+      "label": "John 8:(42–45) 46–59",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:28",
+      "role": "First Reading",
+      "label": "Ex. 12:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:28",
+      "role": "First Reading",
+      "label": "Ex. 24:3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 14:10–15:1",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:30",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:47",
+      "role": "First Reading",
+      "label": "Ex. 20:1–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:47",
+      "role": "Epistle",
+      "label": "Rom. 6:(1–2) 3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:47",
+      "role": "Gospel",
+      "label": "Matt. 5:(17–19) 20–26",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:54",
+      "role": "Gospel",
+      "label": "Luke 1:(39–45) 46–55",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:56",
+      "role": "First Reading",
+      "label": "2 Chron. 28:8–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:62",
+      "role": "Epistle",
+      "label": "1 Cor. 1:(1–3) 4–9",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:69",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:71",
+      "role": "First Reading",
+      "label": "Ex. 32:1–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14)15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:9",
+      "role": "First Reading",
+      "label": "Ex. 13:1–3a, 11–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:10",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:16",
+      "role": "Psalm",
+      "label": "Psalm 19:(1–6) 7–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:19",
+      "role": "Epistle",
+      "label": "1 Cor. 15:(1–11) 12–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:22",
+      "role": "Gospel",
+      "label": "Matt. 6:(1–6) 16–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:27",
+      "role": "Epistle",
+      "label": "Phil. 3:(4b–7) 8–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:29",
+      "role": "First Reading",
+      "label": "Ex. 12:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:34",
+      "role": "Epistle",
+      "label": "Rev. 5:(1–7) 8–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:47",
+      "role": "Psalm",
+      "label": "Psalm 27:(1–6) 7–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:48",
+      "role": "First Reading",
+      "label": "Gen. 18:(17–19) 20–33",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:56",
+      "role": "Epistle",
+      "label": "1 Tim. 1:(5–11) 12–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:66",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:68",
+      "role": "First Reading",
+      "label": "Ex. 3:1–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-three-year-series-c-calendar-word:69",
+      "role": "Epistle",
+      "label": "2 Thess. 3:(1–5) 6–13",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:1",
+      "role": "Epistle",
+      "label": "Rom. 13:(8–10) 11–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:7",
+      "role": "Gospel",
+      "label": "Luke 2:(1–14)15–20",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:8",
+      "role": "First Reading",
+      "label": "Ex. 40:17–21, 34–38",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:9",
+      "role": "Gospel",
+      "label": "Luke 2:(22–32) 33–40",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:10",
+      "role": "First Reading",
+      "label": "Isaiah 30:(8–14) 15–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:16",
+      "role": "First Reading",
+      "label": "Ex. 33:12–23",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:19",
+      "role": "First Reading",
+      "label": "Ex. 34:29–35",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:19",
+      "role": "First Reading",
+      "label": "Ex. 3:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:20",
+      "role": "First Reading",
+      "label": "Ex. 17:1–7",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:23",
+      "role": "Gospel",
+      "label": "Matt. 6:(1–6) 16–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:26",
+      "role": "First Reading",
+      "label": "Ex. 8:16–24",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:27",
+      "role": "First Reading",
+      "label": "Ex. 16:2–21",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:28",
+      "role": "Gospel",
+      "label": "John 8:(42–45) 46–59",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 12:1–14",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:30",
+      "role": "First Reading",
+      "label": "Ex. 24:3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:32",
+      "role": "First Reading",
+      "label": "Ex. 14:10–15:1",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:49",
+      "role": "First Reading",
+      "label": "Ex. 20:1–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:49",
+      "role": "Epistle",
+      "label": "Rom. 6:(1–2) 3–11",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:49",
+      "role": "Gospel",
+      "label": "Matt. 5:(17–19) 20–26",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:57",
+      "role": "First Reading",
+      "label": "2 Chron. 28:8–15",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar reference is not in the Bible registry."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:64",
+      "role": "Epistle",
+      "label": "1 Cor. 1:(1–3) 4–9",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:67",
+      "role": "First Reading",
+      "label": "Rev. 7:(2–8) 9–17",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    }
+  ],
+  "scope": "Factual dates, observance names, and appointed Scripture references from six pinned LCMS calendars. Successor preview rows are excluded. Parenthesized extents are optional; partial verses open complete canonical verses with disclosure. Unnamed canticles are unresolved. No prayers, summaries, liturgical prose or source Bible wording is reproduced."
+}

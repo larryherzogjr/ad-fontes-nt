@@ -1,0 +1,79 @@
+{
+  "releaseId": "lcms-calendars-2026-10-14-v2",
+  "inputs": {
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/acquisition.json": "ac84be2ddf7787dcd61fecc66bfcc9db8cced1eb9e84ecd6f3d26a9eff616cc9",
+    "sources/lectionary/lcms-calendars-2026-10-14-v1/rows.json": "25a5097b0cf6a5d76c694a39b2515beb7952c022339ce63c3cf7d95ad6918e53",
+    "scripts/lectionary/extract.py": "4bc4a875080501dccfa40497d89306929f072293ae113180a1a99546fc41e9f6",
+    "scripts/build_lectionary.mts": "bf9a0749d9160a9009d33d2cedfc08bceafe56f7b74cb291606148469a46a3c6",
+    "app/lib/domain/lectionary-references.ts": "56f6eebcba053e6b4733f0d33932f80f7ee64b34f027ba20d2c97fff077e1d4e",
+    "sources/ot/releases/ot-english-2026-10-07-v1/whole-bible-registry.json": "cdcdc3a2665398b0b7892e1cc09502bac4ba8ded25967c7d46de544c89c6a75c"
+  },
+  "outputSha256": "9cb8a55118805d3f8cfac00b010ebb42b80afdf8cb5124e9f85ba11878d1cc03",
+  "observanceCount": 431,
+  "unresolved": [
+    {
+      "id": "2025-26-three-year-series-a-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2025-26-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:30",
+      "role": "Psalm",
+      "label": "Psalm 118: 15–29",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:48",
+      "role": "Psalm",
+      "label": "Psalm 85: (1–7) 8–13",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-three-year-series-b-calendar-word:58",
+      "role": "Psalm",
+      "label": "Psalm 119: 129–136",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "Unresolved reference notation."
+    },
+    {
+      "id": "2026-27-one-year-series-calendar-word:30",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    },
+    {
+      "id": "2024-25-one-year-series-calendar-word:32",
+      "role": "Psalm",
+      "label": "The Song of Moses and Israel",
+      "ranges": [],
+      "extendedRanges": [],
+      "partialVerses": false,
+      "unresolved": "The calendar does not give a numeric Scripture reference."
+    }
+  ],
+  "scope": "Factual dates, observance names, and appointed Scripture references from six pinned LCMS calendars. Successor preview rows are excluded. Parenthesized extents are optional; partial verses open complete canonical verses with disclosure. Unnamed canticles are unresolved. No prayers, summaries, liturgical prose or source Bible wording is reproduced."
+}

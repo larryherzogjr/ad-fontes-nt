@@ -17,6 +17,8 @@ const visualSelections = [
   ...(visuals.supplements ?? []),
 ];
 const allowed = [
+  'confessions/triglotta-1921-2026-10-14-v4',
+  'gospel-parallels/bsb-gospel-parallels-2026-10-14-v1',
   'om/hebrew-studies-2026-10-09-v2',
   'corpus/lxx2012-2026-10-09-v2',
   'corpus/original-languages-2026-10-09-v1',

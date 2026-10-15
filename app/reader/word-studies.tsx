@@ -95,6 +95,7 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
       {selected && createPortal(<dialog ref={dialog} className="om-study" aria-labelledby="om-study-title" onCancel={event => { event.preventDefault(); event.stopPropagation(); close(); }} onKeyDown={event => { if (event.key === 'Escape') event.stopPropagation(); }}>
         <header className="om-study-header"><div><p>Ordinary Means commentary</p><h2 id="om-study-title">{selected.title}</h2></div><button autoFocus onClick={close}>{returnLabel}</button></header>
         <article className="om-study-body">{trail.length>0&&<p><button className="saved-study-link" onClick={()=>{setSelected(trail[trail.length-1]);setTrail(trail.slice(0,-1))}}>← Back to {trail[trail.length-1].title}</button></p>}<p className="om-study-subtitle">{selected.subtitle}</p><p>By {selected.author} · Saved {selected.snapshotDate}</p>
+
           {selected.language==='Hebrew'&&<p className="om-study-frequency-note">Scripture quotations use the Berean Standard Bible (BSB). Authored commentary is distinct from Scripture and OSHB analysis.</p>}
           {articleError ? <p role="alert">This article could not be loaded. Close it and try again, or use the website link below.</p> : markdown === null ? <p role="status">Loading article…</p> :
           <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {

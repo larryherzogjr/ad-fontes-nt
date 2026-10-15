@@ -1,0 +1,145 @@
+{
+ "bundle": "Book of Concord (Triglot Concordia, 1921)",
+ "source": "Triglot Concordia: The Symbolical Books of the Evangelical Lutheran Church (St. Louis: Concordia Publishing House, 1921) \u2014 public domain",
+ "english_column": "bookofconcord.org transcription of the 1921 Triglotta English column",
+ "latin_german_columns": "Northwestern Publishing House 1996/1997 electronic editions (ConcordiaTriglotta_Latin / _German), cleaned",
+ "language": "en+la+de",
+ "documents": [
+  {
+   "code": "creeds",
+   "sections": 3,
+   "paragraphs_en": 13,
+   "sections_la_number_aligned": 0,
+   "sections_de_number_aligned": 0,
+   "paragraphs_la_joined": 0,
+   "paragraphs_de_joined": 0,
+   "files": {
+    "json": "json/creeds.json",
+    "text_en": "text/creeds.txt",
+    "text_la": "latin/creeds.txt",
+    "text_de": "german/creeds.txt"
+   }
+  },
+  {
+   "code": "ac",
+   "sections": 30,
+   "paragraphs_en": 455,
+   "sections_la_number_aligned": 20,
+   "sections_de_number_aligned": 14,
+   "paragraphs_la_joined": 132,
+   "paragraphs_de_joined": 55,
+   "files": {
+    "json": "json/ac.json",
+    "text_en": "text/ac.txt",
+    "text_la": "latin/ac.txt",
+    "text_de": "german/ac.txt"
+   }
+  },
+  {
+   "code": "apology",
+   "sections": 26,
+   "paragraphs_en": 1203,
+   "sections_la_number_aligned": 16,
+   "sections_de_number_aligned": 7,
+   "paragraphs_la_joined": 397,
+   "paragraphs_de_joined": 226,
+   "files": {
+    "json": "json/apology.json",
+    "text_en": "text/apology.txt",
+    "text_la": "latin/apology.txt",
+    "text_de": "german/apology.txt"
+   }
+  },
+  {
+   "code": "sa",
+   "sections": 27,
+   "paragraphs_en": 373,
+   "sections_la_number_aligned": 8,
+   "sections_de_number_aligned": 10,
+   "paragraphs_la_joined": 75,
+   "paragraphs_de_joined": 41,
+   "files": {
+    "json": "json/sa.json",
+    "text_en": "text/sa.txt",
+    "text_la": "latin/sa.txt",
+    "text_de": "german/sa.txt"
+   }
+  },
+  {
+   "code": "pp",
+   "sections": 1,
+   "paragraphs_en": 129,
+   "sections_la_number_aligned": 0,
+   "sections_de_number_aligned": 0,
+   "paragraphs_la_joined": 0,
+   "paragraphs_de_joined": 0,
+   "files": {
+    "json": "json/pp.json",
+    "text_en": "text/pp.txt",
+    "text_la": "latin/pp.txt",
+    "text_de": "german/pp.txt"
+   }
+  },
+  {
+   "code": "sc",
+   "sections": 10,
+   "paragraphs_en": 224,
+   "sections_la_number_aligned": 0,
+   "sections_de_number_aligned": 0,
+   "paragraphs_la_joined": 0,
+   "paragraphs_de_joined": 0,
+   "files": {
+    "json": "json/sc.json",
+    "text_en": "text/sc.txt",
+    "text_la": "latin/sc.txt",
+    "text_de": "german/sc.txt"
+   }
+  },
+  {
+   "code": "lc",
+   "sections": 6,
+   "paragraphs_en": 740,
+   "sections_la_number_aligned": 1,
+   "sections_de_number_aligned": 0,
+   "paragraphs_la_joined": 89,
+   "paragraphs_de_joined": 0,
+   "files": {
+    "json": "json/lc.json",
+    "text_en": "text/lc.txt",
+    "text_la": "latin/lc.txt",
+    "text_de": "german/lc.txt"
+   }
+  },
+  {
+   "code": "epitome",
+   "sections": 13,
+   "paragraphs_en": 269,
+   "sections_la_number_aligned": 5,
+   "sections_de_number_aligned": 7,
+   "paragraphs_la_joined": 66,
+   "paragraphs_de_joined": 120,
+   "files": {
+    "json": "json/epitome.json",
+    "text_en": "text/epitome.txt",
+    "text_la": "latin/epitome.txt",
+    "text_de": "german/epitome.txt"
+   }
+  },
+  {
+   "code": "fc-sd",
+   "sections": 14,
+   "paragraphs_en": 739,
+   "sections_la_number_aligned": 2,
+   "sections_de_number_aligned": 8,
+   "paragraphs_la_joined": 37,
+   "paragraphs_de_joined": 255,
+   "files": {
+    "json": "json/fc-sd.json",
+    "text_en": "text/fc-sd.txt",
+    "text_la": "latin/fc-sd.txt",
+    "text_de": "german/fc-sd.txt"
+   }
+  }
+ ],
+ "total_paragraphs_en": 4145
+}

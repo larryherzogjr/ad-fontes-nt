@@ -1,0 +1,41 @@
+{
+  "releaseId": "triglotta-1921-2026-10-14-v1",
+  "archiveSha256": "299a81a9c5c7c1bb6a325651e9d2c83adf5e88d83d839a673ab0e3fe7cd9c12c",
+  "sourceManifestSha256": "02f1ed592931f184b5bb1e60a626674796e000fdaaa5e0f474136d3ab7f3a7e1",
+  "implementationSha256": "ce1954c86eb049c733ced86fb9a5e59ef4ab6ee1c85f7c34508047e6fa80101c",
+  "referenceParserSha256": "faededd4b96c50a700fee9066662db3a76e6423ea072f4121aa2bb6f330dbbc1",
+  "registrySha256": "9cc3b1bde71e549971d344c11adeb2fba410d95836f091a7bebf9a40b51df9ad",
+  "outputSha256": "368ea043c458678991c8036d42cbb71c0b6f4bb50f6622d32ab6a2e64d250011",
+  "documents": 9,
+  "sections": 130,
+  "paragraphs": 4145,
+  "citations": 1335,
+  "connectedParagraphs": 795,
+  "unresolved": [
+    {
+      "paragraph": "pp:treatise:71",
+      "text": "2 John 1",
+      "offset": 414,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    },
+    {
+      "paragraph": "fc-sd:preface:7",
+      "text": "Acts 15, 1-29",
+      "offset": 324,
+      "reason": "Unknown chapter."
+    },
+    {
+      "paragraph": "fc-sd:art-I:7",
+      "text": "1 John 3, 7",
+      "offset": 290,
+      "reason": "That chapter or verse is outside the Bible reference registry."
+    },
+    {
+      "paragraph": "fc-sd:art-IV:17",
+      "text": "Philemon 14",
+      "offset": 146,
+      "reason": "Single-chapter citation without a colon is ambiguous."
+    }
+  ],
+  "scope": "English supplied Triglotta transcription only. Explicit book-qualified chapter/verse citations and comma/and lists. Source paragraph numbers unchanged; ordinal IDs disambiguate duplicate/missing numbers. f/ff records opening references only. Unqualified shorthand, thematic links and translations are not inferred. Latin/German remain source evidence outside public bundles."
+}

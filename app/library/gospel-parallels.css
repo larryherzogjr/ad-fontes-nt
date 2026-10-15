@@ -1,0 +1,11 @@
+.gospel-parallels .greek-research-form {align-items:end; margin:1.2rem 0;}
+.gospel-parallels input {width:100%; min-width:0;}
+.parallel-detail {border:1px solid var(--border,#d9d8d0); border-radius:8px; padding:1.2rem; margin:1.5rem 0; scroll-margin-top:1rem;}
+.parallel-accounts {display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr)); gap:1.5rem; margin:1.2rem 0;}
+.parallel-accounts article {min-width:0; overflow-wrap:anywhere;}
+.parallel-accounts h4 {font-size:1.15rem; margin-bottom:.4rem;}
+.parallel-verse {color:var(--muted-foreground,#607580); font-size:.75em;}
+.parallel-list {display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr)); gap:1rem; margin:1.5rem 0;}
+.parallel-list article {border:1px solid var(--border,#d9d8d0); border-radius:8px; padding:1.2rem; min-width:0;}
+.parallel-list h3 {margin-top:0;}
+@media(max-width:600px){.gospel-parallels .greek-research-form {display:flex; flex-direction:column; align-items:stretch;} .parallel-detail {padding:.8rem;} }

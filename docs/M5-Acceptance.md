@@ -1,5 +1,7 @@
 # M5 and MVP acceptance — 2026-09-12
 
+Current October 14 acceptance supersedes later incomplete-M5/MVP and pending current-release sign-off wording. See [current release acceptance](Current-Release-Acceptance-2026-10-14.md). The account-backed scope below is historical and was superseded by the October 7 retirement decision.
+
 **M5 — pilot and release is accepted, and the defined Ad Fontes NT MVP is accepted as complete.** This records product-owner acceptance of the milestone scope; it does not by itself authorize a new commit, push, deployment, final-version promotion, or publication of work prepared after RC9.
 
 ## Product-owner decision

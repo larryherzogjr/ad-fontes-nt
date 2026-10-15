@@ -1,6 +1,11 @@
 'use client';
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
 import HebrewExplorer from './hebrew-explorer';
+import FullTextSearch from './full-text-search';
+import StudyPackets from './study-packets';
+import Confessions from './confessions';
+import Lectionary from './lectionary';
+import GospelParallels from './gospel-parallels';
 import CommentaryLibrary from './commentaries';
 import GreekResearch from '@/reader/greek-research';
 import ConnectionCatalog from '@/reader/connection-catalog';
@@ -57,7 +62,7 @@ type LibraryIndex = {
   articles: Article[];
   words: Word[];
 };
-type View = 'comparisons' | 'articles' | 'lexicon' | 'research' | 'connections' | 'commentaries' | 'hebrew';
+type View = 'lectionary' | 'confessions' | 'parallels' | 'packets' | 'fulltext' | 'comparisons' | 'articles' | 'lexicon' | 'research' | 'connections' | 'commentaries' | 'hebrew';
 type Route = { view: View; q: string; book: string; kind: string; category: string; page: number; article: string; lemma: string };
 const emptyRoute: Route = { view: 'comparisons', q: '', book: '', kind: '', category: '', page: 1, article: '', lemma: '' };
 
@@ -66,7 +71,7 @@ function currentRoute(): Route {
   const p = new URLSearchParams(location.search);
   const requested = p.get('view');
   return {
-    view: requested === 'articles' || requested === 'lexicon' || requested === 'research' || requested === 'connections' || requested === 'commentaries' || requested === 'hebrew' ? requested : 'comparisons',
+    view: requested === 'lectionary' || requested === 'confessions' || requested === 'parallels' || requested === 'packets' || requested === 'fulltext' || requested === 'articles' || requested === 'lexicon' || requested === 'research' || requested === 'connections' || requested === 'commentaries' || requested === 'hebrew' ? requested : 'comparisons',
     q: p.get('q') || '',
     book: p.get('book') || '',
     kind: p.get('kind') || '',
@@ -84,7 +89,7 @@ function includesQuery(values: (string | number | undefined)[], query: string) {
   return !needle || folded(values.filter(value => value !== undefined).join(' ')).includes(needle);
 }
 function hrefFor(route: Route, changes: Partial<Route>) {
-  const next = { ...route, ...(changes.view && changes.view !== route.view && [route.view, changes.view].some(view => view === 'research' || view === 'connections') ? emptyRoute : {}), ...changes };
+  const next = { ...route, ...(changes.view && changes.view !== route.view && [route.view, changes.view].some(view => view === 'lectionary' || view === 'confessions' || view === 'parallels' || view === 'packets' || view === 'fulltext' || view === 'research' || view === 'connections') ? emptyRoute : {}), ...changes };
   const p = new URLSearchParams();
   if (next.view !== 'comparisons') p.set('view', next.view);
   if (next.q) p.set('q', next.q);
@@ -180,6 +185,7 @@ function ArticleDetail({ index, article, route }: { index: LibraryIndex; article
       <p className="library-article-subtitle">{article.subtitle}</p>
       <p>By {article.author} · Saved {article.snapshotDate}</p>
       <p className="library-provenance">Commentary is distinct from Scripture and dictionary data.</p>
+
       {word && <p><a href={hrefFor(route, { view: 'lexicon', article: '', lemma: word.lemmaId, page: 1, category: '' })}>Explore {article.headword} in the Greek lexicon and New Testament occurrences →</a></p>}
       {error ? <p role="alert" className="notice">{error}</p> : markdown === null ? <p role="status">Loading article…</p> :
         <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {
@@ -257,6 +263,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   useEffect(() => {
     const requestedRoute = currentRoute();
     setRoute(requestedRoute);
+    setLocationKey(location.search);
     setQueryInput(requestedRoute.q);
     setRecentPassages(readDeviceLinks('afnt-recent-passages'));
     setRecentStudies(readDeviceLinks('afnt-recent-studies'));
@@ -271,7 +278,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -301,8 +308,8 @@ export default function Library({ offline = false }: { offline?: boolean }) {
       {article && index ? <ArticleDetail index={index} article={article} route={route} /> : word && index ? <WordDetail index={index} word={word} route={route} /> : <>
         <p className="eyebrow">Study Library</p>
         <h1>Explore Scripture and its study resources.</h1>
-        <p className="library-intro">Choose a collection to explore textual comparisons, Greek and Hebrew word studies, the Greek lexicon, Septuagint texts, NT/OT connections, or historical commentaries.</p>
-        {!['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <form className="library-search" role="search" onSubmit={search}>
+        <p className="library-intro">Choose a collection to explore textual comparisons, Greek and Hebrew word studies, the Greek lexicon, Septuagint texts, NT/OT connections, Gospel parallels, historical commentaries, confessional documents, or lectionary readings.</p>
+        {!['lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <form className="library-search" role="search" onSubmit={search}>
           <label htmlFor="library-query">Search by passage, title, Greek word, gloss, topic, or Strong’s number</label>
           <div><input id="library-query" value={queryInput} onChange={event => setQueryInput(event.target.value)} /><button>Search</button></div>
         </form>}
@@ -310,16 +317,26 @@ export default function Library({ offline = false }: { offline?: boolean }) {
         {!index && !error && <div className="library-skeleton" role="status" aria-label="Loading the Study Library"><span /><span /><span /></div>}
         {index && data && <>
           <nav className="library-tabs" aria-label="Library collections" onClick={event => { const link = (event.target as HTMLElement).closest('a'); if (link && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); navigateCollection(link.getAttribute('href')!); } }}>
+            <a className={route.view === 'lectionary' ? 'active' : ''} aria-current={route.view === 'lectionary' ? 'page' : undefined} href="/library?view=lectionary"><strong>Lectionary</strong><small>Sunday readings and study packets</small></a>
+            <a className={route.view === 'packets' ? 'active' : ''} aria-current={route.view === 'packets' ? 'page' : undefined} href="/library?view=packets"><strong>Study Packets</strong><small>Assemble, preview and print</small></a>
+            <a className={route.view === 'fulltext' ? 'active' : ''} aria-current={route.view === 'fulltext' ? 'page' : undefined} href="/library?view=fulltext"><strong>Search the Library</strong><small>Full text across studies and commentaries</small></a>
             <a className={route.view === 'comparisons' ? 'active' : ''} href={hrefFor(route, { view: 'comparisons', page: 1, article: '', lemma: '', category: '', kind: '' })}><strong>Textual Comparisons</strong><span>{data.comparisons.length}</span><small>Reviewed passage studies</small></a>
             <a className={route.view === 'articles' ? 'active' : ''} href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></a>
             <a className={route.view === 'lexicon' ? 'active' : ''} href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></a>
             <a className={route.view === 'research' ? 'active' : ''} aria-current={route.view === 'research' ? 'page' : undefined} href="/library?view=research"><strong>Septuagint Research</strong><small>Search Greek texts, lemmas and morphology</small></a>
+            <a className={route.view === 'parallels' ? 'active' : ''} aria-current={route.view === 'parallels' ? 'page' : undefined} href="/library?view=parallels"><strong>Gospel Parallels</strong><small>Read related Gospel accounts together</small></a>
             <a className={route.view === 'connections' ? 'active' : ''} aria-current={route.view === 'connections' ? 'page' : undefined} href="/library?view=connections"><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
+            <a className={route.view === 'confessions' ? 'active' : ''} aria-current={route.view === 'confessions' ? 'page' : undefined} href="/library?view=confessions"><strong>Confessional Connections</strong><small>Book of Concord · Scripture citations and documents</small></a>
             <a className={route.view === 'commentaries' ? 'active' : ''} aria-current={route.view === 'commentaries' ? 'page' : undefined} href="/library?view=commentaries"><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
             <a className={route.view === 'hebrew' ? 'active' : ''} aria-current={route.view === 'hebrew' ? 'page' : undefined} href="/library?view=hebrew"><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>
-          {!['research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />}
+          {!['lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) && <LibraryShelves recentPassages={recentPassages} recentStudies={recentStudies} bookmarks={bookmarks} />}
           <section id="library-results" tabIndex={-1}>
+            {route.view === 'lectionary' && <Lectionary locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'confessions' && <Confessions locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'parallels' && <GospelParallels locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'packets' && <StudyPackets locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'fulltext' && <FullTextSearch locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'hebrew' && <HebrewExplorer key={locationKey} />}
             {route.view === 'commentaries' && <CommentaryLibrary key={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'research' && <GreekResearch key={locationKey} embedded onNavigate={navigateCollection} />}

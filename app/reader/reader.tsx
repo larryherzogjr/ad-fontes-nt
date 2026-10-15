@@ -1,4 +1,6 @@
 'use client';
+import {confessionRelease} from '@/lib/domain/confessions';
+import {gospelParallelsUrl,gospelBooks} from '@/lib/domain/gospel-parallels';
 import { noteContent } from './publisher-note-content';
 import { useEffect, useRef, useState } from 'react';
 import {version as desktopVersion} from '@/package.json';
@@ -11,6 +13,7 @@ import EnglishSeptuagintReader from './lxx-english-reader';
 import ConnectionCatalog from './connection-catalog';
 import PublisherFootnote from './publisher-footnote';
 import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from '@/components/ui/popover';
+import { packetUrl } from '@/lib/domain/study-packet';
 import { formatCopyWithReference, formatPassage, formatPassageText, formatReference, searchHighlights } from '@/lib/reading-display';
 import { relatedResources } from '@/lib/domain/resources';
 import { useReaderEnvironment } from './environment';
@@ -183,6 +186,10 @@ export default function Reader() {
       setChapters([]);
       setResults(null);
       const url = new URL(location.href);
+      if(url.searchParams.get('panel')==='lectionary'){
+        url.searchParams.delete('panel');for(const key of ['lectionarySeries','lectionaryYear','lectionaryPage','lectionaryObservance'])url.searchParams.delete(key);
+        history.replaceState({},'',url.pathname+url.search+url.hash);
+      }
       const panel = url.searchParams.get('panel');
       setStudy(panel === 'compare' || panel === 'hebrew' || panel === 'greek' || panel === 'notes' || panel === 'connections' || panel === 'commentary' ? panel : null);
       if (['WLC','CVUL'].includes(url.searchParams.get('translation')||'')) {setMode('original-language');setStudy(null);setLoading(false);return;}
@@ -502,6 +509,7 @@ export default function Reader() {
     } catch {}
     const url = new URL(location.href);
     url.searchParams.delete('panel');
+    for(const key of ['lectionarySeries','lectionaryYear','lectionaryPage','lectionaryObservance'])url.searchParams.delete(key);
     url.searchParams.delete('hebrewToken');
     url.searchParams.delete('token');
     url.searchParams.delete('unit');
@@ -707,6 +715,7 @@ export default function Reader() {
                 {otReading&&<button className="study-tool hebrew-tool" id="open-hebrew" onClick={()=>openStudy('hebrew')}><span className="tool-symbol" aria-hidden="true">א</span>Hebrew</button>}
                 <button className="study-tool" id="open-commentary" onClick={() => openStudy('commentary')}>Commentaries</button>
                 <button className="study-tool connections-tool" id="open-connections" onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
+                {ranges.some(r=>gospelBooks.includes(r.start.split('.')[0]))&&<a className="study-tool" href={gospelParallelsUrl(ranges,edition)}>Gospel parallels</a>}
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
                 <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
               </div>
@@ -746,6 +755,8 @@ export default function Reader() {
             </div>
             {showGuide && <aside className="reader-guide" aria-label="Reader guide"><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></aside>}
             <div className="reader-selection-status">
+              <a href={packetUrl(ranges,edition)}>Create study packet</a>
+
               <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Tap a verse number or select words to study them.'}</p>
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
                 <PopoverTrigger>{explicitPassage ? 'Edit selection' : 'Select verses'}</PopoverTrigger>
@@ -1110,6 +1121,7 @@ export default function Reader() {
               material are separate content categories; none is mixed into this
               Scripture text.
             </p>
+            <h2>Book of Concord · Confessional sources</h2><p>The included English Triglot Concordia (1921), translated by F. Bente and W. H. T. Dau, contains nine supplied confessional documents. Its quotations and source numbering are kept distinct from Scripture and Ordinary Means commentary. Explicit Scripture citations support partial navigation; no thematic connection is generated. Latin/German source files and their unverified paragraph joins are not included.</p><p><a href="https://bookofconcord.org/sitepages/">Publisher public-domain statement</a> · <a href="https://bookofconcord.org/about-the-translation/">Translation details</a> · <a href={`/confessions/${confessionRelease}/manifest.json`}>Confessional source pins and matching limits</a> · <a href="/library?view=confessions">Read confessional documents</a></p>
             <h2>Greek word analysis</h2>
             <p>
               Nestle 1904 morphology and lemmas by Ulrik Sandborg-Petersen, v1.3

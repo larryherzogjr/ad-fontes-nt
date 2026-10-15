@@ -1,5 +1,7 @@
 # Ad Fontes NT
 
+Current October 14 decision: Larry accepts the current release and closes M5/MVP and outstanding current-release acceptance reminders. [Acceptance record](Current-Release-Acceptance-2026-10-14.md). Historical incomplete wording below is superseded. Full-text Library search exploration is next (AF-SEARCH-001).
+
 Current October 7 direction: forgo a standalone English OT foundation release, proceed with NT/OT connections, and retire personal notes/accounts/Google OAuth. See [the current scope and retirement record](NT-OT-Connections-2026-10-07.md). Earlier account milestones are historical.
 
 > Historical NT plan. The approved English OT scope and public Ad Fontes name/subtitle supersede its NT-only and branding constraints; see [2026-10-07 acceptance](OT-English-Acceptance-2026-10-07.md). Original milestone/content decisions remain historical evidence.

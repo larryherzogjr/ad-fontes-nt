@@ -1,0 +1,10 @@
+{
+  "acquisitionSha256": "62dcfbd3814d4f07da38ac0c56587e542faf532414bb07bfbe6587b110c221a4",
+  "htmlParserSha256": "9be59c987af1c035bc3e15193059e55b1a12b7192e269fbfe1d88342daf5910a",
+  "sectionBlocksSha256": "5608dc91a5c0e2bf8e10702b87a29a3a25575acb82eaee670c64d9f6c63e9d3e",
+  "sections": 130,
+  "blocks": 4431,
+  "paragraphs": 4123,
+  "headings": 308,
+  "reviewedDifferences": "Retain all primary main-content headings and paragraph segments in source order; exclude navigation and anchor display numbers from prose. Restore omitted Small Catechism statements and source rubrics. Primary numeric labels supersede archive-derived numbering; matched archive paragraph IDs remain where text-normalized correspondence is exact. One embedded margin number 202 in archive Apology IVb entry 203 is absent from primary prose and retained as its separate source marker. Original archive and v1-v3 outputs stay unchanged."
+}

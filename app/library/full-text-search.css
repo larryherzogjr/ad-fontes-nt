@@ -1,0 +1,17 @@
+.fulltext-search { min-width: 0; }
+.fulltext-search mark { background: var(--search-match-background, #e6cd79); color: #202020; border-radius: 2px; }
+.fulltext-results { display: grid; gap: 1.25rem; margin: 1.5rem 0; }
+.fulltext-results .library-card { min-width: 0; overflow-wrap: anywhere; }
+.fulltext-results details { margin-top: 1rem; }
+.fulltext-results details > div { border-top: 1px solid var(--border, #8885); padding: 0.75rem 0; }
+.fulltext-filters { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0; }
+.fulltext-filters label { display: grid; gap: 0.35rem; max-width: 100%; }
+.fulltext-filters select { max-width: 100%; }
+.fulltext-context { max-width: 76ch; margin: auto; overflow-wrap: anywhere; }
+.fulltext-context .fulltext-target { outline: 2px solid var(--accent, #987239); outline-offset: 6px; border-radius: 2px; scroll-margin-top: 7rem; }
+.fulltext-context article p { white-space: pre-wrap; }
+.fulltext-context blockquote { margin-inline: 1rem; }
+.fulltext-context table { display: block; overflow-x: auto; }
+.fulltext-context-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin-bottom: 1rem; padding: 0.5rem; position: sticky; top: 1rem; z-index: 2; background: var(--control); border: 1px solid var(--border, #8885); border-radius: 8px; }
+.fulltext-context-actions a { min-width: 0; }
+@media(max-width: 480px) { .fulltext-filters { display: grid; } .fulltext-filters select { width: 100%; } .fulltext-context .fulltext-target { outline-offset: 2px; } }

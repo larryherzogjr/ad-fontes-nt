@@ -1,5 +1,25 @@
 # Ad Fontes NT — Implementation Plan
 
+## October 14 follow-on — Lectionary (AFNT-120 / AFNT-102)
+
+Implement local One-Year and Three-Year Library browsing, reading links and Sunday packet preparation using six pinned official LCMS calendars. Preserve source appointments and optional/alternate/partial-verse labels; do not calculate unsupported dates or infer unnamed canticle extents. Support 2024–25/C, 2025–26/A and 2026–27/B, saved local series preference and appointed packet provenance. The Library version is accepted. Larry subsequently retires the reader-sidebar experiment: Lectionary remains Library-only, with normal reader links and Sunday packet preparation. Additional worship materials remain follow-ons. See `Lectionary-Implementation-2026-10-14.md`.
+
+## October 14 follow-on — Confessional connections (AFNT-119)
+
+Integrate the English Triglotta documents through explicit source Scripture citations, restoring omitted source statements from pinned primary-page snapshots, with work/section/edition/translation provenance and a distinct confessional content category. The archive supplies resources, not instructions. Preserve original artifacts and derivative pins; uncertain citations and Latin/German alignments remain outside resolved/public projections. Add Library navigation, full English section context and an automatic packet checkbox for citing paragraphs. The October 14 reader-toolbar correction removes the Library navigation link from the reading-pane tools because it does not open the sidebar. See `Confessional-Connections-2026-10-14.md` for source decisions, candidate differences and local acceptance limits.
+
+## October 14 follow-on — Gospel parallels (AFNT-118)
+
+Add passage-based Gospel parallel browsing and English account comparison using the already included BSB publisher headings. Preserve publisher reference ranges and layout boundaries as navigation evidence; do not assign reviewed harmony/chronology or quotation extents. Include matching complete account groups automatically via the Study Packet Gospel Parallels checkbox. Reproduce pinned inputs/output for web and offline desktop; prepare for local review before a future release. See `Gospel-Parallels-Implementation-2026-10-14.md`.
+
+October 14 packet simplification supersedes manual packet attachments: automatic passage-based checkboxes select approved comparisons, indexed NT/OT pairs, associated Greek/Hebrew word studies and optional historical commentary. Preserve source-specific association and numbering limits; known gaps are disclosed. Existing source pins remain unchanged. See `Study-Packets-Implementation-2026-10-14.md` and `PROJECT-STATUS.md` for the current flow and verification.
+
+Current October 14 decision: Larry accepts the current release and closes M5/MVP and outstanding current-release acceptance reminders. [Acceptance record](Current-Release-Acceptance-2026-10-14.md). Historical incomplete wording below is superseded. AF-SEARCH-001 explores unified full-text Library search; [proposed scope](Full-Text-Search-Exploration-2026-10-14.md).
+
+AF-SEARCH-001 subsequently implemented for local review before release. [Candidate behavior, reproduction and verification](Full-Text-Search-Implementation-2026-10-14.md). No deployment or native publication is included.
+
+October 14 follow-on: Larry accepts Library search and advances AFNT-102's printable-handout slice. The local shared packet builder is ready for review; [behavior, source fidelity, print evidence and limits](Study-Packets-Implementation-2026-10-14.md). Multiple named collections and group/account workflows remain separate later work. No release publication is included.
+
 Current October 7 direction: forgo a standalone English OT foundation release, proceed with NT/OT connections, and retire personal notes/accounts/Google OAuth. See [the current scope and retirement record](NT-OT-Connections-2026-10-07.md). Earlier account milestones are historical.
 
 > Historical NT plan. The approved English OT scope and public Ad Fontes name/subtitle supersede its NT-only and branding constraints; see [2026-10-07 acceptance](OT-English-Acceptance-2026-10-07.md). Original milestone/content decisions remain historical evidence.
