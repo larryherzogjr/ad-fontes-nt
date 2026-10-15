@@ -1,8 +1,12 @@
-## 4.2.0 production release — October 15, 2026
-
-Larry approved all local updates and authorized commit, push and production publication for web and desktop as 4.2.0. Scope: AF-UI-008–016 and AF-UI-035–038. Release preparation and verification are tracked in [the 4.2.0 release record](docs/V4.2.0-Desktop-Release-2026-10-15.md). Signed artifact builds, frozen checksums, private staging and guarded host publication remain pending; existing production remains 4.1.3. Immutable sources, native identities and retired-account decisions are preserved.
-
 # Ad Fontes NT — project status
+
+## 2026-10-15 — 4.2.0 verified release prepared for production publication
+
+Larry approved all local updates and authorized commit, push and production publication as 4.2.0 for web and desktop. Scope: AF-UI-008–016 and AF-UI-035–038. Native source `090939c80cfc5a390e935e214eefa50face3bd61` is pushed to main. Fresh typecheck, production web build, 185 application / 50 Python-source tests, offline build (61,469 files) and 16 desktop checks pass; final publication tests (4) and shell syntax pass. Final web metadata was rebuilt and browser-checked with exact 4.2.0 URLs and 365 MB Mac / 578 MB Windows sizes.
+
+Both signed native artifacts are frozen and privately staged. Mac app and DMG notarizations, mounted/extracted package verification and fresh signed native UI smoke checks pass. Windows workflow 38719403603 passes Authenticode, 2.1.0 → 4.2.0 upgrade preserving data/location, repeated upgrade/shortcut cleanup, and fresh install/uninstall. These runner results do not imply physical Windows/device acceptance. Both updater signatures and host staging checksums independently verify; combined manifest SHA-256 `e8bd1cb9a28fe663e30b8d96a62e219a2555e3dea74831b6d4ec73a9df43ceee`. Immutable sources, native identities and retired-account decisions are preserved.
+
+The remaining step is the guarded own-terminal host sudo publication, followed by independent live HTTPS/browser verification. Production is still 4.1.3; no public 4.2.0 installer/updater or web deployment is claimed yet. Details and limitations: [4.2.0 release record](docs/V4.2.0-Desktop-Release-2026-10-15.md). Local command: `bash /Users/lherzog/Documents/Codex/ad-fonts-nt/artifacts/desktop/deploy-4.2.0.sh`. Existing release acceptance remains closed; this entry supersedes local-review next steps below.
 
 ## 2026-10-15 — Evergreen and brass refresh ready locally (AF-UI-035–038)
 
