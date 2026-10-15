@@ -1,8 +1,10 @@
 # Ad Fontes NT — project status
 
-## 2026-10-15 — 4.3.0 release authorized and in preparation
+## 2026-10-15 — 4.3.0 signed, verified and staged; final host handoff pending
 
-Larry accepts Historical Writings and authorizes web and desktop 4.3.0, including the approved unreleased Ordinary Means imprint placements (AF-LIB-001–003 / AF-UI-039). App/native versions are 4.3.0; fresh shared verification, signed Mac/Windows builds, exact artifact checks and private staging precede publication. Public Downloads stays on verified 4.2.0 files until the new signed bytes are frozen. No unimported archive or draft manuscript asset enters runtime bundles. Identities, source pins, current-release acceptance and private/legacy data remain unchanged. [Release record](docs/V4.3.0-Desktop-Release-2026-10-15.md).
+Larry accepts Historical Writings and authorizes web and desktop **4.3.0**, including the approved unreleased Ordinary Means imprint placements (AF-LIB-001–003 / AF-UI-039). Native source `a7d84f12c0dfbb44d4c5ee440daa98dbaaa68566` is committed and pushed. Both signed offline apps are frozen and verified: Mac Developer ID/notarization/mounted-installer/extracted-updater and native reading smoke pass; Windows Public Trust/Authenticode, preserved-data upgrade, repeated update and fresh install/uninstall pass. Fresh shared verification passes (192 application / 50 source / 18 desktop tests), as do clean Linux CI and final Node 22 web typecheck/build. [Release record, hashes, browser checks and limitations](docs/V4.3.0-Desktop-Release-2026-10-15.md).
+
+Final web metadata and installer pins name the exact verified 4.3.0 bytes: Mac 733 MB, Windows 950 MB. Both complete updater payloads, combined manifest and Mac installer are privately staged and independently hash-verified on the host. Manifest SHA-256 `f494d52478e263fc294e7a24aa1fd56a6ba664076faa70efcdf8ef633e162f46`. Next: Larry runs the guarded own-terminal command for host sudo; then independent production verification. Web, public downloads and stable updater remain **4.2.0** until that step. No unimported archive or draft manuscript asset enters runtime bundles; identities, frozen source pins, closed acceptance and private/legacy data remain preserved. Earlier preparation entries below are historical and superseded by this authorized release.
 
 ## 2026-10-15 — Toronto Edersheim replacement prepared and verified (AF-LIB-003)
 
