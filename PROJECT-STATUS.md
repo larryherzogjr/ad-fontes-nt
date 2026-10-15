@@ -1,5 +1,13 @@
 # Ad Fontes NT — project status
 
+## 2026-10-15 — 4.1.3 live and independently verified
+
+Larry ran the prepared own-terminal publication at `eef32f92e7ea07e299ad3d9fe451722562814676`. His output confirms signed Mac/Windows updater and public installer publication, a successful Node 22 production Docker build, a healthy web container and public health response. Legacy database/backups remain preserved. Independent read-only SSH confirms tracked-clean main at that commit; no additional sudo or deployment was performed during verification.
+
+Independent HTTPS checks confirm healthy web, Downloads 4.1.3 with both exact installer URLs and 364 MB/577 MB sizes, and the byte-identical stable manifest (`291dea01e1777d64c8f1fecfd2b66091f6b391520e2789bc0b66fece3bbcd902`). All four complete public files were streamed and SHA-256 checked against the frozen release: Mac updater `16418af414c45d1f3cf0f1b3bef8d3588063e80864650350063c084f97356abe`, Mac DMG `2446911146b187eb7c354b400f1ae7dba7f827731ac36bc4d94968677f9ea3f8`, Windows updater/public installer `138890cc7ad90e87841617ebf5a6b9a84cf02bf8a7b570ff4a3580bca6b51988`.
+
+Live browser checks confirm H1254a Strong’s/base-number and exact abridged-BDB entries, Abbott-Smith’s agapē entry and historical frequency/source labels, occurrence navigation into the selected Greek reader word, the promoted chapter heading and sidebar close behavior. Browser warning/error logs are empty. Evidence: `artifacts/desktop/production-4.1.3/`. Web, macOS Apple Silicon / Windows x64 downloads and the stable updater are live as 4.1.3. Earlier native signing/notarization/automated Windows upgrade results and native/device limitations remain the recorded evidence. Existing release/MVP acceptance stays closed. Only verification documentation changes after the deployed commit; no application rebuild is needed.
+
 ## 2026-10-14 — 4.1.3 signed release prepared; host publication pending
 
 Larry accepts Hebrew Strong’s/BDB (AF-HEB-027), Abbott-Smith Greek (AF-GRK-028) and all seven visual polish updates (AF-UI-001–007), and explicitly directs commit, push and production publication for web and desktop as 4.1.3. Native source `322115f26ad7636499bd89b907ab891dac9ba283` is pushed to main. Existing branding, package/signing/updater identities and source/search/editorial pins are preserved. Unrelated archives, graphics, output and manuscript candidates remain excluded.
