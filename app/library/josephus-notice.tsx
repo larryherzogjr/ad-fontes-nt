@@ -1,0 +1,4 @@
+import AppLink from '@/components/app-link';
+import {historicalBase} from '@/lib/domain/historical-library';
+/** The distributor's access notice accompanies displayed Josephus source text. */
+export default function JosephusNotice(){return <p className="study-help">This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the <AppLink href={`${historicalBase}/notices.txt`}>Project Gutenberg License</AppLink> included with this eBook or online at <AppLink href="https://www.gutenberg.org">www.gutenberg.org</AppLink>. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.</p>;}

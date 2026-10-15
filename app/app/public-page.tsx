@@ -1,3 +1,4 @@
+import { OrdinaryMeansImprint } from '@/components/ordinary-means-imprint';
 import type { ReactNode } from 'react';
 import Link from 'next/link';
 
@@ -44,7 +45,7 @@ export default function PublicPage({
         {children}
       </main>
       <footer className="public-footer">
-        <span>Larry Herzog Jr., publishing as Ordinary Means</span>
+        <OrdinaryMeansImprint />
         <nav aria-label="Policies and support">
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>

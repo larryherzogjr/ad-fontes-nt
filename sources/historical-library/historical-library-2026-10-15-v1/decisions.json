@@ -1,0 +1,147 @@
+{
+  "works": [
+    {
+      "id": "walther",
+      "title": "The Proper Distinction Between Law and Gospel",
+      "author": "C. F. W. Walther",
+      "translator": "W. H. T. Dau",
+      "edition": "Dau translation · Internet Archive identifies the 1929 Concordia edition",
+      "category": "Historical theology",
+      "description": "Thirty-nine evening lectures, with front matter and introduction.",
+      "notice": "Historical theology · Unproofread scan OCR. Spelling and lineation are retained; running headers and standalone page numbers are omitted. Lecture boundaries follow dated openers. Printed indexes are not included.",
+      "sourceUrl": "https://archive.org/details/Walther_ProperDisctinctionLawGospel1929",
+      "rights": "Historical 1929 translation; U.S. term assessment and source metadata are recorded in the release evidence.",
+      "inputs": [
+        {
+          "path": "raw/walther.txt",
+          "mode": "walther"
+        }
+      ],
+      "expectedSections": 40
+    },
+    {
+      "id": "krauth",
+      "title": "The Conservative Reformation and Its Theology",
+      "author": "Charles Porterfield Krauth",
+      "translator": "",
+      "edition": "Philadelphia: J. B. Lippincott & Co., 1872",
+      "category": "Historical theology",
+      "description": "Fourteen articles on the Reformation and Lutheran theology, with front matter.",
+      "notice": "Historical theology · Unproofread OCR contains garbled words and interleaved marginal notes and footnotes. Check the linked scan before quoting. Printed general index is omitted.",
+      "sourceUrl": "https://archive.org/details/conservativerefo00krau",
+      "rights": "Internet Archive identifies this historical edition as not in copyright in the United States.",
+      "inputs": [
+        {
+          "path": "supplied/krauth-conservative-reformation/json/krauth-conservative-reformation.json",
+          "mode": "krauth"
+        }
+      ],
+      "expectedSections": 15
+    },
+    {
+      "id": "josephus-life",
+      "title": "The Life of Flavius Josephus",
+      "author": "Flavius Josephus",
+      "translator": "William Whiston",
+      "edition": "Whiston translation · Project Gutenberg digital text",
+      "category": "Historical background",
+      "description": "Historical reading with source divisions, introductory material and separate translator notes.",
+      "notice": "Historical background · Whiston’s translation and notes retain their historical wording. Source sections are independent of Bible references. Front matter, contents and translator footnotes are preserved.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2846",
+      "rights": "Distributor identifies the text as public domain in the United States. Project Gutenberg notices accompany this collection.",
+      "inputs": [
+        {
+          "path": "raw/2846.txt",
+          "mode": "josephus",
+          "gutenbergId": 2846
+        }
+      ],
+      "expectedSections": 78
+    },
+    {
+      "id": "josephus-antiquities",
+      "title": "Antiquities of the Jews",
+      "author": "Flavius Josephus",
+      "translator": "William Whiston",
+      "edition": "Whiston translation · Project Gutenberg digital text",
+      "category": "Historical background",
+      "description": "Historical reading with source divisions, introductory material and separate translator notes.",
+      "notice": "Historical background · Whiston’s translation and notes retain their historical wording. Source sections are independent of Bible references. Front matter, contents and translator footnotes are preserved.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2848",
+      "rights": "Distributor identifies the text as public domain in the United States. Project Gutenberg notices accompany this collection.",
+      "inputs": [
+        {
+          "path": "raw/2848.txt",
+          "mode": "josephus",
+          "gutenbergId": 2848
+        }
+      ],
+      "expectedSections": 300
+    },
+    {
+      "id": "josephus-apion",
+      "title": "Against Apion",
+      "author": "Flavius Josephus",
+      "translator": "William Whiston",
+      "edition": "Whiston translation · Project Gutenberg digital text",
+      "category": "Historical background",
+      "description": "Historical reading with source divisions, introductory material and separate translator notes.",
+      "notice": "Historical background · Whiston’s translation and notes retain their historical wording. Source sections are independent of Bible references. Front matter, contents and translator footnotes are preserved.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2849",
+      "rights": "Distributor identifies the text as public domain in the United States. Project Gutenberg notices accompany this collection.",
+      "inputs": [
+        {
+          "path": "raw/2849.txt",
+          "mode": "josephus",
+          "gutenbergId": 2849
+        }
+      ],
+      "expectedSections": 82
+    },
+    {
+      "id": "josephus-wars",
+      "title": "The Wars of the Jews",
+      "author": "Flavius Josephus",
+      "translator": "William Whiston",
+      "edition": "Whiston translation · Project Gutenberg digital text",
+      "category": "Historical background",
+      "description": "Historical reading with source divisions, introductory material and separate translator notes.",
+      "notice": "Historical background · Whiston’s translation and notes retain their historical wording. Source sections are independent of Bible references. Front matter, contents and translator footnotes are preserved.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2850",
+      "rights": "Distributor identifies the text as public domain in the United States. Project Gutenberg notices accompany this collection.",
+      "inputs": [
+        {
+          "path": "raw/2850.txt",
+          "mode": "josephus",
+          "gutenbergId": 2850
+        }
+      ],
+      "expectedSections": 127
+    },
+    {
+      "id": "edersheim",
+      "title": "The Life and Times of Jesus the Messiah",
+      "author": "Alfred Edersheim",
+      "translator": "",
+      "edition": "CCEL digital text · Eerdmans 1953 print source; work first published 1883",
+      "category": "Historical background",
+      "description": "Five books, appendices, historical prefaces and printed indexes.",
+      "notice": "Historical background · CCEL reports this text proofread and corrected, but Hebrew text has not been entered. Historical source notes are marked inline. Verify quotations against the original; source indexes do not establish app passage links.",
+      "sourceUrl": "https://ccel.org/ccel/edersheim/lifetimes.html",
+      "rights": "The source XML marks this historical text Public Domain. CCEL attribution and its separate distributor-policy evidence are retained.",
+      "inputs": [
+        {
+          "path": "raw/edersheim.xml",
+          "mode": "edersheim-xml"
+        }
+      ],
+      "expectedSections": 129
+    }
+  ],
+  "notices": [
+    {
+      "input": "evidence/notices.txt",
+      "output": "notices.txt"
+    }
+  ]
+}

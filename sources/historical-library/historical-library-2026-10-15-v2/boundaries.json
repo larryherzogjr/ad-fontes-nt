@@ -1,0 +1,1181 @@
+{
+  "sourceVolumes": {
+    "1": {
+      "sha256": "c2ad52e17aca09f254c0100d50223fbf710dcc1d0d07b02cf0d809be2f97fc0d",
+      "lineCount": 43724
+    },
+    "2": {
+      "sha256": "8de082cba6043bc316fd959afb512e3da9d12424f21cc5c4f8c5c58b1f1e318e",
+      "lineCount": 56537
+    }
+  },
+  "offsetConvention": "one-based inclusive physical source lines; units and exclusions partition every source line exactly once",
+  "units": [
+    {
+      "key": "volume-1-half-title",
+      "label": "Volume I — half title",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 7,
+      "endLine": 12
+    },
+    {
+      "key": "volume-1-publisher-works",
+      "label": "Volume I — works by Alfred Edersheim",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 13,
+      "endLine": 48
+    },
+    {
+      "key": "volume-1-title",
+      "label": "Volume I — title and edition",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 49,
+      "endLine": 93
+    },
+    {
+      "key": "dedication",
+      "label": "Dedication",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 94,
+      "endLine": 108
+    },
+    {
+      "key": "preface-second-third-editions",
+      "label": "Preface to the second and third editions",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 109,
+      "endLine": 283
+    },
+    {
+      "key": "preface-first-edition",
+      "label": "Preface to the first edition",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 284,
+      "endLine": 683
+    },
+    {
+      "key": "authorities",
+      "label": "List of authorities",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 684,
+      "endLine": 1647
+    },
+    {
+      "key": "rabbinic-abbreviations",
+      "label": "List of abbreviations used in reference to Rabbinic writings",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 1648,
+      "endLine": 2043
+    },
+    {
+      "key": "volume-1-contents",
+      "label": "Contents of the first volume",
+      "group": "Front matter",
+      "volume": 1,
+      "startLine": 2044,
+      "endLine": 2326
+    },
+    {
+      "key": "book-1-opening",
+      "label": "Book 1 — opening",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 2327,
+      "endLine": 2343
+    },
+    {
+      "key": "book-1-chapter-1",
+      "label": "Book 1, Chapter 1",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 2344,
+      "endLine": 3208
+    },
+    {
+      "key": "book-1-chapter-2",
+      "label": "Book 1, Chapter 2",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 3209,
+      "endLine": 4007
+    },
+    {
+      "key": "book-1-chapter-3",
+      "label": "Book 1, Chapter 3",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 4008,
+      "endLine": 4472
+    },
+    {
+      "key": "book-1-chapter-4",
+      "label": "Book 1, Chapter 4",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 4473,
+      "endLine": 5661
+    },
+    {
+      "key": "book-1-chapter-5",
+      "label": "Book 1, Chapter 5",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 5662,
+      "endLine": 6449
+    },
+    {
+      "key": "book-1-chapter-6",
+      "label": "Book 1, Chapter 6",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 6450,
+      "endLine": 7180
+    },
+    {
+      "key": "book-1-chapter-7",
+      "label": "Book 1, Chapter 7",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 7181,
+      "endLine": 7671
+    },
+    {
+      "key": "book-1-chapter-8",
+      "label": "Book 1, Chapter 8",
+      "group": "Book 1",
+      "volume": 1,
+      "startLine": 7672,
+      "endLine": 8666
+    },
+    {
+      "key": "book-2-opening",
+      "label": "Book 2 — opening",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 8667,
+      "endLine": 8685
+    },
+    {
+      "key": "book-2-chapter-1",
+      "label": "Book 2, Chapter 1",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 8686,
+      "endLine": 9272
+    },
+    {
+      "key": "book-2-chapter-2",
+      "label": "Book 2, Chapter 2",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 9273,
+      "endLine": 9910
+    },
+    {
+      "key": "book-2-chapter-3",
+      "label": "Book 2, Chapter 3",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 9911,
+      "endLine": 10524
+    },
+    {
+      "key": "book-2-chapter-4",
+      "label": "Book 2, Chapter 4",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 10525,
+      "endLine": 11601
+    },
+    {
+      "key": "book-2-chapter-5",
+      "label": "Book 2, Chapter 5",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 11602,
+      "endLine": 13063
+    },
+    {
+      "key": "book-2-chapter-6",
+      "label": "Book 2, Chapter 6",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 13064,
+      "endLine": 13779
+    },
+    {
+      "key": "book-2-chapter-7",
+      "label": "Book 2, Chapter 7",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 13780,
+      "endLine": 14418
+    },
+    {
+      "key": "book-2-chapter-8",
+      "label": "Book 2, Chapter 8",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 14419,
+      "endLine": 15389
+    },
+    {
+      "key": "book-2-chapter-9",
+      "label": "Book 2, Chapter 9",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 15390,
+      "endLine": 16497
+    },
+    {
+      "key": "book-2-chapter-10",
+      "label": "Book 2, Chapter 10",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 16498,
+      "endLine": 17698
+    },
+    {
+      "key": "book-2-chapter-11",
+      "label": "Book 2, Chapter 11",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 17699,
+      "endLine": 19121
+    },
+    {
+      "key": "book-2-chapter-12",
+      "label": "Book 2, Chapter 12",
+      "group": "Book 2",
+      "volume": 1,
+      "startLine": 19122,
+      "endLine": 19910
+    },
+    {
+      "key": "book-3-opening",
+      "label": "Book 3 — opening",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 19911,
+      "endLine": 19935
+    },
+    {
+      "key": "book-3-chapter-1",
+      "label": "Book 3, Chapter 1",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 19936,
+      "endLine": 20805
+    },
+    {
+      "key": "book-3-chapter-2",
+      "label": "Book 3, Chapter 2",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 20806,
+      "endLine": 22640
+    },
+    {
+      "key": "book-3-chapter-3",
+      "label": "Book 3, Chapter 3",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 22641,
+      "endLine": 23497
+    },
+    {
+      "key": "book-3-chapter-4",
+      "label": "Book 3, Chapter 4",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 23498,
+      "endLine": 24324
+    },
+    {
+      "key": "book-3-chapter-5",
+      "label": "Book 3, Chapter 5",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 24325,
+      "endLine": 25012
+    },
+    {
+      "key": "book-3-chapter-6",
+      "label": "Book 3, Chapter 6",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 25013,
+      "endLine": 25716
+    },
+    {
+      "key": "book-3-chapter-7",
+      "label": "Book 3, Chapter 7",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 25717,
+      "endLine": 26689
+    },
+    {
+      "key": "book-3-chapter-8",
+      "label": "Book 3, Chapter 8",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 26690,
+      "endLine": 27626
+    },
+    {
+      "key": "book-3-chapter-9",
+      "label": "Book 3, Chapter 9",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 27627,
+      "endLine": 28078
+    },
+    {
+      "key": "book-3-chapter-10",
+      "label": "Book 3, Chapter 10",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 28079,
+      "endLine": 29354
+    },
+    {
+      "key": "book-3-chapter-11",
+      "label": "Book 3, Chapter 11",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 29355,
+      "endLine": 29874
+    },
+    {
+      "key": "book-3-chapter-12",
+      "label": "Book 3, Chapter 12",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 29875,
+      "endLine": 30479
+    },
+    {
+      "key": "book-3-chapter-13",
+      "label": "Book 3, Chapter 13",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 30480,
+      "endLine": 30812
+    },
+    {
+      "key": "book-3-chapter-14",
+      "label": "Book 3, Chapter 14",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 30813,
+      "endLine": 31409
+    },
+    {
+      "key": "book-3-chapter-15",
+      "label": "Book 3, Chapter 15",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 31410,
+      "endLine": 31986
+    },
+    {
+      "key": "book-3-chapter-16",
+      "label": "Book 3, Chapter 16",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 31987,
+      "endLine": 32448
+    },
+    {
+      "key": "book-3-chapter-17",
+      "label": "Book 3, Chapter 17",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 32449,
+      "endLine": 33609
+    },
+    {
+      "key": "book-3-chapter-18",
+      "label": "Book 3, Chapter 18",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 33610,
+      "endLine": 34626
+    },
+    {
+      "key": "book-3-chapter-19",
+      "label": "Book 3, Chapter 19",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 34627,
+      "endLine": 35199
+    },
+    {
+      "key": "book-3-chapter-20",
+      "label": "Book 3, Chapter 20",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 35200,
+      "endLine": 35729
+    },
+    {
+      "key": "book-3-chapter-21",
+      "label": "Book 3, Chapter 21",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 35730,
+      "endLine": 36268
+    },
+    {
+      "key": "book-3-chapter-22",
+      "label": "Book 3, Chapter 22",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 36269,
+      "endLine": 36819
+    },
+    {
+      "key": "book-3-chapter-23",
+      "label": "Book 3, Chapter 23",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 36820,
+      "endLine": 38111
+    },
+    {
+      "key": "book-3-chapter-24",
+      "label": "Book 3, Chapter 24",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 38112,
+      "endLine": 38373
+    },
+    {
+      "key": "book-3-chapter-25",
+      "label": "Book 3, Chapter 25",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 38481,
+      "endLine": 38989
+    },
+    {
+      "key": "book-3-chapter-26",
+      "label": "Book 3, Chapter 26",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 38990,
+      "endLine": 40149
+    },
+    {
+      "key": "book-3-chapter-27",
+      "label": "Book 3, Chapter 27",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 40150,
+      "endLine": 41352
+    },
+    {
+      "key": "book-3-chapter-28",
+      "label": "Book 3, Chapter 28",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 41353,
+      "endLine": 42527
+    },
+    {
+      "key": "book-3-chapter-29",
+      "label": "Book 3, Chapter 29",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 42528,
+      "endLine": 43105
+    },
+    {
+      "key": "book-3-chapter-30",
+      "label": "Book 3, Chapter 30",
+      "group": "Book 3",
+      "volume": 1,
+      "startLine": 43106,
+      "endLine": 43608
+    },
+    {
+      "key": "volume-1-corrections",
+      "label": "Explanatory notes and corrections for the first volume",
+      "group": "Back matter",
+      "volume": 1,
+      "startLine": 43609,
+      "endLine": 43701
+    },
+    {
+      "key": "volume-2-half-title",
+      "label": "Volume II — half title",
+      "group": "Front matter",
+      "volume": 2,
+      "startLine": 25,
+      "endLine": 29
+    },
+    {
+      "key": "volume-2-publisher-works",
+      "label": "Volume II — works by Alfred Edersheim",
+      "group": "Front matter",
+      "volume": 2,
+      "startLine": 30,
+      "endLine": 65
+    },
+    {
+      "key": "volume-2-title",
+      "label": "Volume II — title and edition",
+      "group": "Front matter",
+      "volume": 2,
+      "startLine": 66,
+      "endLine": 102
+    },
+    {
+      "key": "volume-2-contents",
+      "label": "Contents of the second volume",
+      "group": "Front matter",
+      "volume": 2,
+      "startLine": 103,
+      "endLine": 493
+    },
+    {
+      "key": "book-3-opening-continued",
+      "label": "Book 3 — opening (continued in volume II)",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 494,
+      "endLine": 506
+    },
+    {
+      "key": "book-3-chapter-31",
+      "label": "Book 3, Chapter 31",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 507,
+      "endLine": 1889
+    },
+    {
+      "key": "book-3-chapter-32",
+      "label": "Book 3, Chapter 32",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 1890,
+      "endLine": 2580
+    },
+    {
+      "key": "book-3-chapter-33",
+      "label": "Book 3, Chapter 33",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 2581,
+      "endLine": 2934
+    },
+    {
+      "key": "book-3-chapter-34",
+      "label": "Book 3, Chapter 34",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 2935,
+      "endLine": 3400
+    },
+    {
+      "key": "book-3-chapter-35",
+      "label": "Book 3, Chapter 35",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 3401,
+      "endLine": 4123
+    },
+    {
+      "key": "book-3-chapter-36",
+      "label": "Book 3, Chapter 36",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 4124,
+      "endLine": 4648
+    },
+    {
+      "key": "book-3-chapter-37",
+      "label": "Book 3, Chapter 37",
+      "group": "Book 3",
+      "volume": 2,
+      "startLine": 4649,
+      "endLine": 5638
+    },
+    {
+      "key": "book-4-opening",
+      "label": "Book 4 — opening",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 5639,
+      "endLine": 5659
+    },
+    {
+      "key": "book-4-chapter-1",
+      "label": "Book 4, Chapter 1",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 5660,
+      "endLine": 6312
+    },
+    {
+      "key": "book-4-chapter-2",
+      "label": "Book 4, Chapter 2",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 6313,
+      "endLine": 6731
+    },
+    {
+      "key": "book-4-chapter-3",
+      "label": "Book 4, Chapter 3",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 6732,
+      "endLine": 7725
+    },
+    {
+      "key": "book-4-chapter-4",
+      "label": "Book 4, Chapter 4",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 7726,
+      "endLine": 8223
+    },
+    {
+      "key": "book-4-chapter-5",
+      "label": "Book 4, Chapter 5",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 8224,
+      "endLine": 9004
+    },
+    {
+      "key": "book-4-chapter-6",
+      "label": "Book 4, Chapter 6",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 9005,
+      "endLine": 9489
+    },
+    {
+      "key": "book-4-chapter-7",
+      "label": "Book 4, Chapter 7",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 9490,
+      "endLine": 9973
+    },
+    {
+      "key": "book-4-chapter-8",
+      "label": "Book 4, Chapter 8",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 9974,
+      "endLine": 10893
+    },
+    {
+      "key": "book-4-chapter-9",
+      "label": "Book 4, Chapter 9",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 10894,
+      "endLine": 11556
+    },
+    {
+      "key": "book-4-chapter-10",
+      "label": "Book 4, Chapter 10",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 11557,
+      "endLine": 11910
+    },
+    {
+      "key": "book-4-chapter-11",
+      "label": "Book 4, Chapter 11",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 11911,
+      "endLine": 12402
+    },
+    {
+      "key": "book-4-chapter-12",
+      "label": "Book 4, Chapter 12",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 12403,
+      "endLine": 13007
+    },
+    {
+      "key": "book-4-chapter-13",
+      "label": "Book 4, Chapter 13",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 13008,
+      "endLine": 13747
+    },
+    {
+      "key": "book-4-chapter-14",
+      "label": "Book 4, Chapter 14",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 13748,
+      "endLine": 14181
+    },
+    {
+      "key": "book-4-chapter-15",
+      "label": "Book 4, Chapter 15",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 14182,
+      "endLine": 14727
+    },
+    {
+      "key": "book-4-chapter-16",
+      "label": "Book 4, Chapter 16",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 14728,
+      "endLine": 15231
+    },
+    {
+      "key": "book-4-chapter-17",
+      "label": "Book 4, Chapter 17",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 15232,
+      "endLine": 15958
+    },
+    {
+      "key": "book-4-chapter-18",
+      "label": "Book 4, Chapter 18",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 15959,
+      "endLine": 17294
+    },
+    {
+      "key": "book-4-chapter-19",
+      "label": "Book 4, Chapter 19",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 17295,
+      "endLine": 18114
+    },
+    {
+      "key": "book-4-chapter-20",
+      "label": "Book 4, Chapter 20",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 18115,
+      "endLine": 18703
+    },
+    {
+      "key": "book-4-chapter-21",
+      "label": "Book 4, Chapter 21",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 18704,
+      "endLine": 19829
+    },
+    {
+      "key": "book-4-chapter-22",
+      "label": "Book 4, Chapter 22",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 19830,
+      "endLine": 20560
+    },
+    {
+      "key": "book-4-chapter-23",
+      "label": "Book 4, Chapter 23",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 20561,
+      "endLine": 21244
+    },
+    {
+      "key": "book-4-chapter-24",
+      "label": "Book 4, Chapter 24",
+      "group": "Book 4",
+      "volume": 2,
+      "startLine": 21245,
+      "endLine": 21933
+    },
+    {
+      "key": "book-5-opening",
+      "label": "Book 5 — opening",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 21934,
+      "endLine": 21971
+    },
+    {
+      "key": "book-5-chapter-1",
+      "label": "Book 5, Chapter 1",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 21972,
+      "endLine": 22651
+    },
+    {
+      "key": "book-5-chapter-2",
+      "label": "Book 5, Chapter 2",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 22652,
+      "endLine": 22994
+    },
+    {
+      "key": "book-5-chapter-3",
+      "label": "Book 5, Chapter 3",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 22995,
+      "endLine": 23970
+    },
+    {
+      "key": "book-5-chapter-4",
+      "label": "Book 5, Chapter 4",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 23971,
+      "endLine": 25199
+    },
+    {
+      "key": "book-5-chapter-5",
+      "label": "Book 5, Chapter 5",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 25200,
+      "endLine": 26133
+    },
+    {
+      "key": "book-5-chapter-6",
+      "label": "Book 5, Chapter 6",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 26134,
+      "endLine": 27772
+    },
+    {
+      "key": "book-5-chapter-7",
+      "label": "Book 5, Chapter 7",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 27773,
+      "endLine": 28524
+    },
+    {
+      "key": "book-5-chapter-8",
+      "label": "Book 5, Chapter 8",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 28525,
+      "endLine": 29158
+    },
+    {
+      "key": "book-5-chapter-9",
+      "label": "Book 5, Chapter 9",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 29159,
+      "endLine": 29783
+    },
+    {
+      "key": "book-5-chapter-10",
+      "label": "Book 5, Chapter 10",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 29784,
+      "endLine": 31076
+    },
+    {
+      "key": "book-5-chapter-11",
+      "label": "Book 5, Chapter 11",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 31077,
+      "endLine": 32244
+    },
+    {
+      "key": "book-5-chapter-12",
+      "label": "Book 5, Chapter 12",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 32245,
+      "endLine": 33007
+    },
+    {
+      "key": "book-5-chapter-13",
+      "label": "Book 5, Chapter 13",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 33008,
+      "endLine": 34184
+    },
+    {
+      "key": "book-5-chapter-14",
+      "label": "Book 5, Chapter 14",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 34185,
+      "endLine": 35261
+    },
+    {
+      "key": "book-5-chapter-15",
+      "label": "Book 5, Chapter 15",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 35262,
+      "endLine": 37877
+    },
+    {
+      "key": "book-5-chapter-16",
+      "label": "Book 5, Chapter 16",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 37878,
+      "endLine": 38454
+    },
+    {
+      "key": "book-5-chapter-17",
+      "label": "Book 5, Chapter 17",
+      "group": "Book 5",
+      "volume": 2,
+      "startLine": 38455,
+      "endLine": 39789
+    },
+    {
+      "key": "appendices-opening",
+      "label": "Appendices — opening",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 39790,
+      "endLine": 39795
+    },
+    {
+      "key": "appendix-1",
+      "label": "Appendix 1",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 39796,
+      "endLine": 40024
+    },
+    {
+      "key": "appendix-2",
+      "label": "Appendix 2",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 40025,
+      "endLine": 40398
+    },
+    {
+      "key": "appendix-3",
+      "label": "Appendix 3",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 40399,
+      "endLine": 40519
+    },
+    {
+      "key": "appendix-4",
+      "label": "Appendix 4",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 40520,
+      "endLine": 41566
+    },
+    {
+      "key": "appendix-5",
+      "label": "Appendix 5",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 41567,
+      "endLine": 42808
+    },
+    {
+      "key": "appendix-6",
+      "label": "Appendix 6",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 42809,
+      "endLine": 43115
+    },
+    {
+      "key": "appendix-7",
+      "label": "Appendix 7",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 43116,
+      "endLine": 43202
+    },
+    {
+      "key": "appendix-8",
+      "label": "Appendix 8",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 43203,
+      "endLine": 43478
+    },
+    {
+      "key": "appendix-9",
+      "label": "Appendix 9",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 43479,
+      "endLine": 45652
+    },
+    {
+      "key": "appendix-10",
+      "label": "Appendix 10",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 45653,
+      "endLine": 45757
+    },
+    {
+      "key": "appendix-11",
+      "label": "Appendix 11",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 45758,
+      "endLine": 45806
+    },
+    {
+      "key": "appendix-12",
+      "label": "Appendix 12",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 45807,
+      "endLine": 46001
+    },
+    {
+      "key": "appendix-13",
+      "label": "Appendix 13",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 46002,
+      "endLine": 47031
+    },
+    {
+      "key": "appendix-14",
+      "label": "Appendix 14",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 47032,
+      "endLine": 47182
+    },
+    {
+      "key": "appendix-15",
+      "label": "Appendix 15",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 47183,
+      "endLine": 47317
+    },
+    {
+      "key": "appendix-16",
+      "label": "Appendix 16",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 47318,
+      "endLine": 47704
+    },
+    {
+      "key": "appendix-17",
+      "label": "Appendix 17",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 47705,
+      "endLine": 48354
+    },
+    {
+      "key": "appendix-18",
+      "label": "Appendix 18",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 48355,
+      "endLine": 48551
+    },
+    {
+      "key": "appendix-19",
+      "label": "Appendix 19",
+      "group": "Appendices",
+      "volume": 2,
+      "startLine": 48552,
+      "endLine": 48850
+    },
+    {
+      "key": "index-subjects",
+      "label": "Index I — subjects",
+      "group": "Back matter",
+      "volume": 2,
+      "startLine": 48851,
+      "endLine": 51400
+    },
+    {
+      "key": "index-gospel-passages",
+      "label": "Index II — passages from the four Gospels",
+      "group": "Back matter",
+      "volume": 2,
+      "startLine": 51401,
+      "endLine": 56384
+    },
+    {
+      "key": "volume-2-corrections",
+      "label": "Explanatory notes and corrections for the second volume",
+      "group": "Back matter",
+      "volume": 2,
+      "startLine": 56385,
+      "endLine": 56484
+    }
+  ],
+  "exclusions": [
+    {
+      "volume": 1,
+      "startLine": 1,
+      "endLine": 6,
+      "reason": "Library collection ownership matter"
+    },
+    {
+      "volume": 1,
+      "startLine": 38374,
+      "endLine": 38480,
+      "reason": "Duplicate scan/OCR of printed pp606–607; second occurrence is retained"
+    },
+    {
+      "volume": 1,
+      "startLine": 43702,
+      "endLine": 43724,
+      "reason": "Library card pocket matter"
+    },
+    {
+      "volume": 2,
+      "startLine": 1,
+      "endLine": 24,
+      "reason": "Library ownership and modern scan funding/front matter"
+    },
+    {
+      "volume": 2,
+      "startLine": 56485,
+      "endLine": 56537,
+      "reason": "Garbled library card/pocket matter"
+    }
+  ],
+  "notes": [
+    "Chapter labels are navigational metadata; body OCR is unchanged.",
+    "The Toronto edition contains Appendix XIII at volume2 lines46002–47031. The prior CCEL catalog reportedly omitted XIII; XIX is also present. This is an edition/catalog difference, not a missing source-body inference.",
+    "Original publisher title matter is retained, including All rights reserved; library accession artifacts intermixed on the title pages remain in raw OCR.",
+    "No page-level OCR reading-order repairs are implied."
+  ]
+}

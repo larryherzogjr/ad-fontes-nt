@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "edersheim-1899-2026-10-15-candidate",
+  "status": "source-research-only; outside public bundles",
+  "title": "The Life and Times of Jesus the Messiah",
+  "author": "Alfred Edersheim",
+  "edition": "Eighth edition, revised; New York: Longmans, Green, and Co., 1899; two volumes",
+  "library": "Robarts - University of Toronto",
+  "digitizationSponsor": "MSN",
+  "independentOf": "CCEL digital transcription",
+  "rightsEvidence": "Both Internet Archive metadata records identify NOT_IN_COPYRIGHT; Commons copy of volume II bears Public Domain Mark 1.0. These identify historical scanned text, not modern web-page prose or a blanket worldwide rights guarantee.",
+  "files": {
+    "volume-1-metadata.json": {
+      "url": "https://archive.org/metadata/lifetimesofjesus01ederuoft",
+      "retrieved": "2026-10-15",
+      "bytes": 136086,
+      "sha256": "8e0e06cfdd53cc721875f505e0b91146496cfd9ce78feac719c234520efb760e"
+    },
+    "volume-2-metadata.json": {
+      "url": "https://archive.org/metadata/8edlifetimesofje02ederuoft",
+      "retrieved": "2026-10-15",
+      "bytes": 154235,
+      "sha256": "ca1ef82aa1a48dfc23bb3b408df3043fbedac6de8cc1035913b3fa1b40ab0d0c"
+    },
+    "volume-1.txt": {
+      "url": "https://archive.org/download/lifetimesofjesus01ederuoft/lifetimesofjesus01ederuoft_djvu.txt",
+      "retrieved": "2026-10-15",
+      "bytes": 2416354,
+      "sha256": "c2ad52e17aca09f254c0100d50223fbf710dcc1d0d07b02cf0d809be2f97fc0d"
+    },
+    "volume-2.txt": {
+      "url": "https://archive.org/download/8edlifetimesofje02ederuoft/8edlifetimesofje02ederuoft_djvu.txt",
+      "retrieved": "2026-10-15",
+      "bytes": 2925583,
+      "sha256": "8de082cba6043bc316fd959afb512e3da9d12424f21cc5c4f8c5c58b1f1e318e"
+    },
+    "commons-volume-2-rights.html": {
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:The_life_and_times_of_Jesus_the_Messiah_(IA_8edlifetimesofje02ederuoft).pdf&oldid=1233503532",
+      "retrieved": "2026-10-15",
+      "bytes": 110928,
+      "sha256": "352fb80ad934d7dcd3b03454f72fbd7184e015ece420cfccf83183f4480015a6"
+    },
+    "public-domain-mark.html": {
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "retrieved": "2026-10-15",
+      "bytes": 31377,
+      "sha256": "28b3199d4df73c35c3593b1b42b41300fdfbd9a22ca851fd18e1c87a506f43ff"
+    }
+  },
+  "limitations": [
+    "OCR is not ready for publication: distorted English, running headers, footnote/marginal-note layout, and roman-numeral errors.",
+    "Raw OCR contains no Greek or Hebrew Unicode letters; foreign-language passages need checking or fresh OCR against scan images.",
+    "This is a different print edition from the CCEL 1953 basis; compare all books, prefaces, appendices, indexes and explanatory notes/corrections before replacement.",
+    "Contents include Appendix XIX and end-of-volume explanatory notes/corrections; do not constrain to the previous 18-appendix projection.",
+    "Original PDFs are available in the recorded upstream metadata but have not been downloaded or fully page-audited in this research turn.",
+    "Current app/search release pins remain unchanged; do not relabel or reuse CCEL text as this scan transcription."
+  ]
+}

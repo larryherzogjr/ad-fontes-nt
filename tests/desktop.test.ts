@@ -11,6 +11,7 @@ import { loadConfessions } from '../app/lib/domain/confessions.ts';
 import { loadGospelParallels } from '../app/lib/domain/gospel-parallels.ts';
 import { loadConnections } from '../app/lib/domain/testament-connections.ts';
 import { desktopStartPath } from '../app/desktop/navigation.ts';
+import {historicalBase,historicalRelease,loadHistoricalCatalog,loadHistoricalSection,loadHistoricalScan} from '../app/lib/domain/historical-library.ts';
 
 const om = JSON.parse(await readFile('app/lib/domain/om-release.json', 'utf8'));
 const visuals = JSON.parse(await readFile('app/lib/domain/visual-release.json', 'utf8'));
@@ -22,11 +23,23 @@ const assets = resolve('app/desktop/dist');
 const json = async (path: string) => JSON.parse(await readFile(join(assets, path), 'utf8'));
 
 test('offline desktop includes every pinned Library search shard and the shared worker',async()=>{
- const base='library/search/library-search-2026-10-14-v2';
- const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-14-v2/manifest.json','utf8'));
+ const base='library/search/library-search-2026-10-15-v4';
+ const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-15-v4/manifest.json','utf8'));
  assert.deepEqual(await json(`${base}/manifest.json`),pin);
  for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
  assert.ok((await readdir(join(assets,'assets'))).some(name=>/^search\.worker-.+\.js$/.test(name)));
+});
+
+test('historical writings and notices are complete offline and readers require no remote source',async()=>{
+ const base=historicalBase.slice(1),pin=JSON.parse(await readFile(`content/historical-library/${historicalRelease}/manifest.json`,'utf8'));
+ for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
+ assert.equal((await readdir(join(assets,'library/search'))).includes('library-search-2026-10-14-v2'),false,'Only the active search release is packaged');
+ assert.deepEqual(await readdir(join(assets,'library/historical')),[historicalRelease]);
+ const saved=globalThis.fetch;
+ try{globalThis.fetch=async(input)=>{const path=String(input);assert.ok(path.startsWith(historicalBase+'/'),'Remote source access is forbidden');return new Response(await readFile(join(assets,path.slice(1))));};
+  const catalog=await loadHistoricalCatalog();assert.equal(catalog.works.length,7);const work=catalog.works.find(w=>w.id==='walther')!;assert.match((await loadHistoricalSection(work,work.sections[2])).paragraphs.join('\n\n'),/^\(September 19, 1884\.\)/);
+  const ed=catalog.works.find(w=>w.id==='edersheim')!,reading=await loadHistoricalSection(ed,ed.sections.find(s=>s.id==='appendix-13')!);assert.ok((await loadHistoricalScan(reading.pages![0])).size>1000);
+ }finally{globalThis.fetch=saved;}
 });
 
 test('fresh native origins normalize to the reader root without losing requested state', () => {
@@ -44,7 +57,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.2.0');
+  assert.equal(config.version, '4.3.0');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -58,8 +71,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "4\.2\.0"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.2\.0"/);
+  assert.match(cargoManifest, /^version = "4\.3\.0"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.3\.0"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -118,7 +131,7 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.otEditions.length, 4);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(?:(?:corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\/|fonts\/ad-fontes-ui-v1\/)/);
+    assert.match(path, /^(?:(?:corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\/|fonts\/ad-fontes-ui-v1\/|branding\/ordinary-means-imprint-v1\/)/);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -319,4 +332,13 @@ test('offline desktop includes exact local UI fonts, licenses and provenance', a
   assert.equal(actual,pin.sha256,name);
   assert.equal(inventory.files[`${base}/${name}`],pin.sha256);
  }
+});
+
+
+test('offline desktop includes only the approved publisher imprint assets unchanged', async () => {
+ const base='branding/ordinary-means-imprint-v1';
+ const manifest=await json(`${base}/manifest.json`);
+ const inventory=await json('desktop-content.json');
+ assert.deepEqual(Object.keys(inventory.files).filter(path=>path.startsWith('branding/')).sort(), ['manifest.json','ordinary-means-imprint.png','ordinary-means-imprint-tagline.png'].map(name=>`${base}/${name}`).sort());
+ for(const [name,pin] of Object.entries(manifest.files) as [string,{sha256:string}][])assert.equal(createHash('sha256').update(await readFile(join(assets,base,name))).digest('hex'),pin.sha256);
 });

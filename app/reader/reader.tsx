@@ -1,4 +1,5 @@
 'use client';
+import { OrdinaryMeansImprint, OrdinaryMeansPublisher } from '@/components/ordinary-means-imprint';
 import AppLink from '@/components/app-link';
 import {confessionRelease} from '@/lib/domain/confessions';
 import {gospelParallelsUrl,gospelBooks} from '@/lib/domain/gospel-parallels';
@@ -1073,7 +1074,7 @@ export default function Reader() {
               locally. Textual groupings help organize comparison; they do not
               imply uniform texts or word alignment.
             </p>
-            <section className="source-edition"><h3>Keil &amp; Delitzsch commentary</h3><p>C. F. Keil and F. Delitzsch, Commentary on the Old Testament (T. &amp; T. Clark, 1864–1891). Historical commentary with supplied chapter groups and source numbering preserved. Precise verse alignment is not established. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/kd-2026-10-08-v1/manifest.json">K&amp;D source manifest</a></section><section className="source-edition"><h3>Lenski commentary</h3><p>R. C. H. Lenski, The Interpretation of the New Testament. Historical commentary in a separate reader panel and Library collection. Supplied transcription with explicit passage anchors; chapter context remains available where an anchor is unresolved. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/lenski-2026-10-08-v1/manifest.json">Lenski source manifest</a></section>
+            <section className="source-edition"><h3>Historical Writings</h3><p>Walther’s Law and Gospel (Dau translation), Krauth’s Conservative Reformation, Josephus (Whiston translation) and Edersheim’s Life and Times. Historical theology and background retain author, translator and source divisions, separate from Scripture and Ordinary Means commentary. Walther and Krauth are unproofread OCR; Edersheim’s 1899 Toronto edition pairs printed pages with unproofread searchable OCR. Greek, Hebrew and footnotes should be read from the scans. Read each work’s transcription details before quoting.</p><a href="/library?view=historical">Browse historical writings</a> · <a href="/library/historical/historical-library-2026-10-15-v2/notices.txt">Source and distributor notices</a></section><section className="source-edition"><h3>Keil &amp; Delitzsch commentary</h3><p>C. F. Keil and F. Delitzsch, Commentary on the Old Testament (T. &amp; T. Clark, 1864–1891). Historical commentary with supplied chapter groups and source numbering preserved. Precise verse alignment is not established. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/kd-2026-10-08-v1/manifest.json">K&amp;D source manifest</a></section><section className="source-edition"><h3>Lenski commentary</h3><p>R. C. H. Lenski, The Interpretation of the New Testament. Historical commentary in a separate reader panel and Library collection. Supplied transcription with explicit passage anchors; chapter context remains available where an anchor is unresolved. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/lenski-2026-10-08-v1/manifest.json">Lenski source manifest</a></section>
             <section className="source-edition"><h3>NT/OT connections</h3><p>698 explicit cross-testament citations from pinned BSB publisher notes. Reciprocal links retain the original note and citation; they do not establish quotation extent or classify quotations, allusions or parallels. Coverage is partial.</p><a href="/connections/bsb-testament-connections-2026-10-07-v1/manifest.json">Connections source manifest</a></section>
             {otEnabled && <p className="notice">The four English editions also include all 39 Old Testament books. BLB is a publisher draft; MSB OT wording matches BSB. The OT Greek study panel adds the Septuagint; the Greek editions below cover the New Testament. The edition groupings below describe NT comparison only.</p>}
             <section className="source-edition"><h3>Hebrew dictionaries</h3><p>Strong’s Hebrew Dictionary (1890) and Brown–Driver–Briggs (1906), through the Open Scriptures Hebrew Bible Project. BDB is an abridged transcription, still in progress. Electronic texts and lexical mappings are attributed under CC BY 4.0; historical dictionary text is public domain. Definitions describe possible meanings, not contextual English word alignment.</p><p><a href="/lexical/hebrew-lexicon-2026-10-14-v1/NOTICE.txt">Dictionary attribution and coverage</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section><section className="source-edition"><h2>Hebrew and Latin editions</h2><p>Read the Westminster Leningrad Codex with OSHB word analysis, or the 73-book Clementine Vulgate with source numbering retained. Hebrew Scripture is public domain; OSHB analysis is attributed under CC BY 4.0.</p><p><a href="/read/GEN/1?translation=WLC">Read Hebrew / Aramaic →</a> · <a href="/read/GEN/1?translation=CVUL">Read Latin →</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section>
@@ -1154,6 +1155,7 @@ export default function Reader() {
             <p>{environment.wordStudyDescription}</p>
             <p>Deeper Greek dictionary entries come from G. Abbott-Smith’s <cite>A Manual Greek Lexicon of the New Testament</cite>, first edition (1922), using the public-domain Abbott-Smith project XML transcription. Headword matching preserves accents and source-number distinctions. Historical frequency notes are separate from current corpus counts. <a href="/lexical/abbott-smith-1922-2026-10-14-v1/NOTICE.txt">Abbott-Smith sources and coverage</a>.</p>
             <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
+            <OrdinaryMeansPublisher />
             <h2>Project status</h2>
             <p>
               The original NT milestones have historical acceptance records.
@@ -1178,8 +1180,7 @@ export default function Reader() {
         )}
       </main>
       <footer>
-        <span>Ordinary Means</span>
-        <span>Ad Fontes</span>
+        <OrdinaryMeansImprint />
         <a href="/library">Library</a>
         <a
           href="/about/sources"

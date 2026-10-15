@@ -1870,3 +1870,18 @@ body.reader-focus-mode .chapter-resource-area { display: none !important; }
 @media(forced-colors:active) {
  .hebrew-occurrence-context mark { background: Highlight; color: HighlightText; outline: 1px solid Highlight; }
 }
+
+/* Publisher imprints remain secondary to Ad Fontes and the reading content. */
+.publisher-imprint { display: flex; flex-direction: column; align-items: flex-start; gap: .65rem; max-width: 100%; }
+.publisher-imprint img { display: block; width: 190px; max-width: 100%; height: auto; }
+.publisher-imprint > span { font-size: .75rem; line-height: 1.5; }
+footer:has(> .publisher-imprint) { align-items: center; flex-wrap: wrap; }
+footer:has(> .publisher-imprint) > a { align-self: center; }
+.publisher-panel { margin: 1.5rem 0 2rem; padding: 1.5rem; background: var(--ink); color: var(--ink-foreground); border-radius: 6px; }
+.publisher-panel img { display: block; width: 320px; max-width: 100%; height: auto; }
+.sources .publisher-panel p { margin: 1rem 0 0; font-family: var(--font-ui); font-size: .875rem; line-height: 1.5; }
+@media (max-width: 650px) {
+ footer:has(> .publisher-imprint) { align-items: flex-start; gap: 1rem; }
+ footer:has(> .publisher-imprint) > a { align-self: flex-start; }
+ .publisher-panel { padding: 1.25rem; }
+}

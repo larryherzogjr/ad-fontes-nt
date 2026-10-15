@@ -1,0 +1,78 @@
+{
+ "bundle": "ad-fontes-pd-library",
+ "prepared_for": "Ad Fontes (https://ad-fontes.app)",
+ "prepared": "2026-10-15",
+ "license_note": "All resources are public domain in the US. Walther (1929) US copyright expired end of 2024. Sources: Internet Archive OCR, CCEL transcriptions, CrossWire SWORD, eBible-derived texts. Logos resources were NOT used (EULA); clean-room public-domain sources only.",
+ "resources": {
+  "asv": {
+   "title": "American Standard Version (1901)",
+   "books": 66,
+   "chapters": 1189,
+   "verses": 31102
+  },
+  "brenton-lxx": {
+   "title": "Brenton, The Septuagint with Apocrypha (1844)",
+   "books": 52,
+   "verses": 27622
+  },
+  "church-fathers": {
+   "title": "Ante-Nicene + Nicene & Post-Nicene Fathers (Coxe footnotes stripped; Pseudo-Clementines and Apostolic Constitutions excluded)",
+   "anf": {
+    "volumes": 9,
+    "works": 276
+   },
+   "npnf1": {
+    "volumes": 14,
+    "works": 909
+   },
+   "npnf2": {
+    "volumes": 14,
+    "works": 981
+   },
+   "total_volumes": 37,
+   "total_works": 2166
+  },
+  "josephus": {
+   "title": "Josephus, Complete Works (Whiston)",
+   "works": 4,
+   "chapters": 517
+  },
+  "eusebius-and-apostolic-fathers": {
+   "title": "Eusebius, Church History (McGiffert) + Apostolic Fathers",
+   "eusebius_books": 11,
+   "apostolic_fathers_works": 27
+  },
+  "edersheim-life-and-times": {
+   "title": "Edersheim, Life and Times of Jesus the Messiah (1883)",
+   "books": 6
+  },
+  "isbe-1915": {
+   "title": "International Standard Bible Encyclopedia (1915)",
+   "volumes": 5,
+   "articles": 9867
+  },
+  "tsk": {
+   "title": "Treasury of Scripture Knowledge",
+   "books": 66,
+   "entries": 31153
+  },
+  "bengel-gnomon": {
+   "title": "Bengel, Gnomon of the New Testament",
+   "nt_books": 28,
+   "characters": 6624330,
+   "uncertain_boundaries": 18
+  },
+  "walther-law-and-gospel": {
+   "title": "Walther, The Proper Distinction Between Law and Gospel (Dau trans., 1929)",
+   "lectures": 39
+  },
+  "krauth-conservative-reformation": {
+   "title": "Krauth, The Conservative Reformation and Its Theology (1872)",
+   "sections": 14
+  }
+ },
+ "excluded": {
+  "lutheran-cyclopedia": "Jacobs & Haas, The Lutheran Cyclopedia (1899) \u2014 dropped: only available scan too damaged for reliable automated extraction"
+ },
+ "see": "README.md for schema notes and OCR caveats"
+}

@@ -6,7 +6,7 @@ import {libraryRoute,libraryHref,emptyLibraryRoute} from '../app/lib/library-rou
 test('all Library destinations explicitly select a clean collection',()=>{
  assert.equal(collectionDestination('comparisons'),'/library?view=comparisons');
  assert.equal(collectionDestination('overview'),'/library?view=overview');
- assert.equal(new Set(libraryCollections.map(c=>c.id)).size,12);
+ assert.equal(new Set(libraryCollections.map(c=>c.id)).size,13);
  for(const collection of libraryCollections){
   const u=new URL(collectionDestination(collection.id),'https://local');
   assert.equal(u.pathname,'/library');assert.deepEqual([...u.searchParams.keys()],['view']);

@@ -1,0 +1,113 @@
+{
+  "archive": "ad-fontes-pd-library-handoff.zip",
+  "archiveSha256": "5b32cbc00a3ac8d8c2427a27af0858e66a690ed608aefa321e6fdf50ff667bf3",
+  "received": "2026-10-15",
+  "files": {
+    "supplied/walther-law-and-gospel/json/walther-law-and-gospel.json": "3d7697fa42a99a9a69b69055622166f3049cf534a4c1621eb00d03d807d5c6a9",
+    "supplied/walther-law-and-gospel/index.json": "c39bf9ab73fe27446796169ef70f223878bd86928be0caa26eb079c26af58fe9",
+    "supplied/README.md": "121dd9ddb87163257c4e01266633f82c8d51426d67eacd3d408d7d981fb593f4",
+    "supplied/josephus/json/antiquities-of-the-jews.json": "97479ca1d9e97c1da90952f9cf7a34c6bf0b204f2f60df701fbc16fba43b3711",
+    "supplied/josephus/json/the-life-of-flavius-josephus.json": "25467b1ecb3e293d3acd6a3155b428ecef3ced831ece29c5d64249fe1a7a4043",
+    "supplied/josephus/json/against-apion.json": "bd355222c305452acec808185c2bf3e60cc8509c75882020b1a7fe90ac6711f1",
+    "supplied/josephus/json/the-wars-of-the-jews.json": "9801b453d7ebef0eac242d4b2261a89fca33d865159885c68fd629b9254a25d2",
+    "supplied/josephus/index.json": "039ef1dd0fb24c506a457d3885447a85dc4d024e2a514ae483fc0f92b19299c5",
+    "supplied/_build/build_krauth_cyc.py": "35d651b3bbd53b2d2fb254a37e5ed99cf5371e8ca16e58fd7c6dc14081fa98dd",
+    "supplied/_build/build_walther.py": "ab3cce762912c3c77daa136a3907112a45fc7081aa88d7397aeaaefcd4220e9e",
+    "supplied/_build/build_edersheim.py": "739518f30d213bb7a69c9bfc23f3965ea3ffec006aab1b83ecb4872dbe49a1b3",
+    "supplied/_build/build_josephus.py": "0003e15be5dece38daecb4a967627f09951cb534f19fb89a03d00a358d4d7e6d",
+    "supplied/_build/build_fathers.py": "b81b62825ef177ddbcc9ea692590cecab6be9d332e0cc875cd187d15ab89820b",
+    "supplied/edersheim-life-and-times/json/vol-5-the-cross-and-the-crown.json": "dd9b79341829bfbdda31854d5a3c5104bf12ecf1fb6455d47b8eda9666ae426b",
+    "supplied/edersheim-life-and-times/json/vol-1-the-preparation-for-the-gospel.json": "7943db15ed1dfff6e26c7ff6cb86e2cd0d37b65d8ee221f4b3104bc5ed95e52d",
+    "supplied/edersheim-life-and-times/json/appendices.json": "08ff9867e727b6ab2043714c35daabb338535ff63d63494c0bf531e72dbc925c",
+    "supplied/edersheim-life-and-times/json/vol-3-the-ascent-from-the-river-jordan-to-the-mount-of-transfiguration.json": "4d28760bfa57a12ed7b9790fa6189ebb5eb7c9d2c3addf854071318c66f0ddb3",
+    "supplied/edersheim-life-and-times/json/vol-2-from-the-manger-in-bethlehem-to-the-baptism-in-jordan.json": "fc19a10b08fc3ae1d6a53c135819a8efe7b58a4525e4bc66046755cd75359563",
+    "supplied/edersheim-life-and-times/json/vol-4-the-descent-from-the-mount-of-transfiguration-into-the-valley-of-humiliation-and-death.json": "c1030fceaa558af157bc199d6a69f96e24ab854890b6e939e26f896d1a3f2066",
+    "supplied/edersheim-life-and-times/index.json": "ac2bfe7ceb5aee9409b89a017b258acd306aa8a26315aa2919c2f23d68e870e8",
+    "supplied/manifest.json": "9e4123aac77f372d9fb6fbcd4a3eccfdef4ea35f38ef6948e04b5352948fc878",
+    "supplied/krauth-conservative-reformation/json/krauth-conservative-reformation.json": "c70b6bf65f38fbe9b912bf998cd15ecbe1887e9591b4b690fde644b268998529",
+    "supplied/krauth-conservative-reformation/index.json": "36d255dc27d06bc3e8107ffa1eb5489da3ad07e4339b9c60b1998232fd1351b9",
+    "raw/2846.txt": "7c4408526f781f67bf2c6a0af43e0b207d6aaeddb1051636b3cb4186d02c2894",
+    "raw/2848.txt": "bb2e32da8ba3adc109b7694e6a8f2f11570462af2bedd55798da70b754c6e440",
+    "raw/2849.txt": "b6791c018b1033eaf74e49303b071c53f674f392c51b97bc60ec9f7ab68f91d8",
+    "raw/2850.txt": "9a72663aefa6b22bb4398d5f878bb027c6b6de839e7cbe744a34240505fd8d20",
+    "raw/edersheim.xml": "aa20f33d57f0f1d780886840c2d1ac523bb7004e9ff7f7f23a536c5c56150334",
+    "raw/krauth.txt": "a1a6f62866125de028ffb7b87181087fe713eb9ecc648e3dc9e14e1028e48627",
+    "raw/walther.txt": "37cfe60982a65f51d1bf28e5cde0bce1caf2ee494c782941d11394054d6041a0",
+    "evidence/krauth-meta.json": "32c4ef404851ce04642e7fd5485eca82bd5b12a0660c65aa1a8094124369133a",
+    "evidence/walther-meta.json": "fe265d076eb313d1d80dd8500ab697d51cbd45eadee7337f4ec8040437f7a2bd",
+    "evidence/ccel-copyright.html": "b41674b53d028e57c6d85d91b9cf12da86bae59508955981d544f2ef53c64d71",
+    "evidence/notices.txt": "4cb551b21a6b34b5f2256d3e52bf1f871890f30e9f90be7b13007207caafe7d7"
+  },
+  "acquisitions": [
+    {
+      "url": "https://www.gutenberg.org/ebooks/2846.txt.utf-8",
+      "bytes": 168495,
+      "sha256": "7c4408526f781f67bf2c6a0af43e0b207d6aaeddb1051636b3cb4186d02c2894",
+      "file": "raw/2846.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/2848.txt.utf-8",
+      "bytes": 3067150,
+      "sha256": "bb2e32da8ba3adc109b7694e6a8f2f11570462af2bedd55798da70b754c6e440",
+      "file": "raw/2848.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/2849.txt.utf-8",
+      "bytes": 253776,
+      "sha256": "b6791c018b1033eaf74e49303b071c53f674f392c51b97bc60ec9f7ab68f91d8",
+      "file": "raw/2849.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/2850.txt.utf-8",
+      "bytes": 1342785,
+      "sha256": "9a72663aefa6b22bb4398d5f878bb027c6b6de839e7cbe744a34240505fd8d20",
+      "file": "raw/2850.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://ccel.org/ccel/edersheim/lifetimes.xml",
+      "bytes": 6684281,
+      "sha256": "aa20f33d57f0f1d780886840c2d1ac523bb7004e9ff7f7f23a536c5c56150334",
+      "file": "raw/edersheim.xml",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://archive.org/download/conservativerefo00krau/conservativerefo00krau_djvu.txt",
+      "bytes": 2300381,
+      "sha256": "a1a6f62866125de028ffb7b87181087fe713eb9ecc648e3dc9e14e1028e48627",
+      "file": "raw/krauth.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://archive.org/download/Walther_ProperDisctinctionLawGospel1929/Walther-Proper%20Disctinction%20Law%20Gospel%201929_djvu.txt",
+      "bytes": 1165804,
+      "sha256": "37cfe60982a65f51d1bf28e5cde0bce1caf2ee494c782941d11394054d6041a0",
+      "file": "raw/walther.txt",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://archive.org/metadata/conservativerefo00krau",
+      "bytes": 157175,
+      "sha256": "32c4ef404851ce04642e7fd5485eca82bd5b12a0660c65aa1a8094124369133a",
+      "file": "evidence/krauth-meta.json",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://archive.org/metadata/Walther_ProperDisctinctionLawGospel1929",
+      "bytes": 22541,
+      "sha256": "fe265d076eb313d1d80dd8500ab697d51cbd45eadee7337f4ec8040437f7a2bd",
+      "file": "evidence/walther-meta.json",
+      "retrieved": "2026-10-15"
+    },
+    {
+      "url": "https://ccel.org/about/copyright.html",
+      "bytes": 14299,
+      "sha256": "b41674b53d028e57c6d85d91b9cf12da86bae59508955981d544f2ef53c64d71",
+      "file": "evidence/ccel-copyright.html",
+      "retrieved": "2026-10-15"
+    }
+  ]
+}

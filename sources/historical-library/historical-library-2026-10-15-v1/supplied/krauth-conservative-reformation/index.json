@@ -1,0 +1,29 @@
+{
+ "resource": "Krauth, The Conservative Reformation and Its Theology",
+ "source": "Internet Archive OCR of the 1872 Philadelphia edition (J. B. Lippincott & Co.); public domain",
+ "schema": "json/krauth-conservative-reformation.json -> {code, author, work, edition, front_matter, sections: [{n, heading, text}]}",
+ "sections": 14,
+ "section_chars": [
+  45757,
+  150915,
+  49777,
+  112570,
+  87300,
+  160727,
+  134208,
+  58963,
+  222021,
+  140119,
+  147136,
+  178869,
+  207343,
+  172330
+ ],
+ "front_matter_chars": 24887,
+ "notes": [
+  "Articles I-VIII cover the Conservative Reformation itself; IX-XIV are the Specific Theology (Original Sin, Person of Christ, Baptism, and the Lord's Supper in three printed articles: Thetically Stated p.585, Antithesis p.664, Objections p.755).",
+  "Each opener was validated against the printed page folio at the bottom of its chapter-opener page and the printed TOC.",
+  "Page-bottom footnotes remain inline at their page positions; the printed general index at the back was dropped (references only).",
+  "Known OCR noise: occasional garbled words, two-column marginal notes interleaved mid-paragraph."
+ ]
+}

@@ -1,4 +1,5 @@
 'use client';
+import { OrdinaryMeansImprint } from '@/components/ordinary-means-imprint';
 import {CalendarDays,NotebookPen,Search,Columns2,BookOpen,BookA,Languages,BookSearch,Link2,Columns3,ScrollText,LibraryBig} from 'lucide-react';
 import AppLink from '@/components/app-link';
 import AbbottSmith from '@/reader/abbott-smith';
@@ -12,6 +13,7 @@ import Confessions from './confessions';
 import Lectionary from './lectionary';
 import GospelParallels from './gospel-parallels';
 import CommentaryLibrary from './commentaries';
+import HistoricalWritings from './historical-writings';
 import GreekResearch from '@/reader/greek-research';
 import ConnectionCatalog from '@/reader/connection-catalog';
 import Markdown from 'react-markdown';
@@ -112,7 +114,7 @@ function LibraryHeader({ offline }: { offline: boolean }) {
 }
 function LibraryFooter({ offline }: { offline: boolean }) {
   return <footer className="public-footer">
-    <span>Larry Herzog Jr., publishing as Ordinary Means</span>
+    <OrdinaryMeansImprint />
     <nav aria-label="Policies and support">
       <a href="/about/sources">Sources</a>
       {!offline && <><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/support">Support</a></>}
@@ -259,7 +261,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['historical', 'lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -310,7 +312,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
           {route.view==='overview'&&<nav className="library-tabs" aria-label="Library collections" onClick={event => { const link = (event.target as HTMLElement).closest('a'); if (link && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); switchCollection(link.getAttribute('href')!); } }}>
             <a href="/library?view=lectionary"><div className="library-card-decoration" aria-hidden="true"><CalendarDays strokeWidth={1.5} focusable="false"/></div><strong>Lectionary</strong><small>Sunday readings and study packets</small></a>
             <a href="/library?view=packets"><div className="library-card-decoration" aria-hidden="true"><NotebookPen strokeWidth={1.5} focusable="false"/></div><strong>Study Packets</strong><small>Assemble, preview and print</small></a>
-            <a href="/library?view=fulltext"><div className="library-card-decoration" aria-hidden="true"><Search strokeWidth={1.5} focusable="false"/></div><strong>Search resource text</strong><small>Full text across studies and commentaries</small></a>
+            <a href="/library?view=fulltext"><div className="library-card-decoration" aria-hidden="true"><Search strokeWidth={1.5} focusable="false"/></div><strong>Search resource text</strong><small>Full text across studies, commentaries and historical writings</small></a>
             <AppLink href={hrefFor(route, { view: 'comparisons', page: 1, article: '', lemma: '', category: '', kind: '' })}><div className="library-card-decoration" aria-hidden="true"><Columns2 strokeWidth={1.5} focusable="false"/></div><strong>Textual Comparisons</strong><span>{data.comparisons.length}</span><small>Reviewed passage studies</small></AppLink>
             <AppLink href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><div className="library-card-decoration" aria-hidden="true"><BookOpen strokeWidth={1.5} focusable="false"/></div><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></AppLink>
             <AppLink href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><div className="library-card-decoration" aria-hidden="true"><BookA strokeWidth={1.5} focusable="false"/></div><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></AppLink>
@@ -318,6 +320,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a href="/library?view=parallels"><div className="library-card-decoration" aria-hidden="true"><Columns3 strokeWidth={1.5} focusable="false"/></div><strong>Gospel Parallels</strong><small>Read related Gospel accounts together</small></a>
             <a href="/library?view=connections"><div className="library-card-decoration" aria-hidden="true"><Link2 strokeWidth={1.5} focusable="false"/></div><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
             <a href="/library?view=confessions"><div className="library-card-decoration" aria-hidden="true"><ScrollText strokeWidth={1.5} focusable="false"/></div><strong>Confessional Connections</strong><small>Book of Concord · Scripture citations and documents</small></a>
+            <a href="/library?view=historical"><div className="library-card-decoration" aria-hidden="true"><BookOpen strokeWidth={1.5} focusable="false"/></div><strong>Historical Writings</strong><small>Walther · Krauth · Josephus · Edersheim</small></a>
             <a href="/library?view=commentaries"><div className="library-card-decoration" aria-hidden="true"><LibraryBig strokeWidth={1.5} focusable="false"/></div><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
             <a href="/library?view=hebrew"><div className="library-card-decoration" aria-hidden="true"><Languages strokeWidth={1.5} focusable="false"/></div><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>}
@@ -328,6 +331,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             {route.view === 'packets' && <StudyPackets locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'fulltext' && <FullTextSearch locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'hebrew' && <HebrewExplorer key={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'historical' && <HistoricalWritings locationKey={locationKey} onNavigate={navigateCollection} bookmarks={bookmarks} onBookmark={toggleBookmark} onRead={link=>setRecentStudies(rememberDeviceLink('afnt-recent-studies',link))} />}
             {route.view === 'commentaries' && <CommentaryLibrary key={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'research' && <GreekResearch key={locationKey} embedded onNavigate={navigateCollection} />}
             {route.view === 'connections' && <ConnectionCatalog embedded onNavigate={navigateCollection} />}
