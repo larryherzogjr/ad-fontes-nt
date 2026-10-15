@@ -1,4 +1,5 @@
 'use client';
+import AbbottSmith from './abbott-smith';
 import { useEffect, useId, useState, type ReactNode } from 'react';
 import { HoverCard, HoverCardTrigger, HoverCardContent } from '@/components/ui/hover-card';
 import { loadLookup, resolveLookup, type LookupBundle } from '@/lib/domain/lexical';
@@ -29,6 +30,7 @@ export function WordDefinition({ token, compact = false }: { token: Token; compa
       {token.analysisReleaseId && !!result?.links.length && <p className="study-help">Existing OM Greek word studies discuss this lemma; they are not OT passage commentary.</p>}
       {result?.links.map(link => <WordStudyLink key={link.url} link={link} />)}
     </>}
+    {!compact && <AbbottSmith key={token.id} lemma={token.lemma} strongs={token.strongs} />}
   </div>;
 }
 export function GreekWordButton({ token, id, className, label, selected, suppressPreview = false, navigation, onChoose, children }: { token: Token; id: string; className: string; label: string; selected: boolean; suppressPreview?: boolean; navigation?:{ids:string[];active:string;onActive:(id:string)=>void}; onChoose: () => void; children: ReactNode }) {

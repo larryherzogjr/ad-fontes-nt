@@ -31,6 +31,8 @@ const allowed = [
   'analysis/lxx-research-2026-10-07-v1',
   'editorial/variants.json',
   'lexical/dodson-2010-v5',
+  'lexical/hebrew-lexicon-2026-10-14-v1',
+  'lexical/abbott-smith-1922-2026-10-14-v1',
   `om/${om.releaseId}`,
   'library',
   'commentaries/lenski-2026-10-08-v1',

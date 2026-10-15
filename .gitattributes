@@ -11,3 +11,6 @@ content/editorial/** -text
 docs/editorial-review/variant-additions-2026-10-11/evidence/** -text -whitespace
 docs/editorial-review/variant-additions-2026-10-11/external/** -text -whitespace
 sources/visuals/csntm-sinaiticus-additions-2026-10-11-v2/** -whitespace
+# Newly supplied dictionary snapshots retain exact original layout whitespace.
+sources/abbott-smith/raw/** -whitespace
+sources/hebrew-lexicon/raw/** -whitespace

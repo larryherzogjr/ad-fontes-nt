@@ -44,7 +44,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.0.0');
+  assert.equal(config.version, '4.1.3');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -58,8 +58,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "4\.0\.0"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.0\.0"/);
+  assert.match(cargoManifest, /^version = "4\.1\.3"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.1\.3"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -286,4 +286,23 @@ test('offline Library bundles the dated lectionary and keeps original Word files
  for(const file of scripts.filter(file=>file.endsWith('.js'))){const text=await readFile(join(assets,'assets',file),'utf8');if(text.includes('lcms-calendars-2026-10-14-v3')&&text.includes('2026-27-three-year-series-b-calendar-word'))found=true;}
  assert.ok(found,'Pinned dated calendar data must be bundled with the shared Library');
  const inventory=await json('desktop-content.json');assert.ok(!Object.keys(inventory.files).some(path=>path.endsWith('.docx')||path.startsWith('sources/')));
+});
+
+test('offline staging includes Hebrew dictionaries with retained attribution and exact homograph entries',async()=>{
+ const base='lexical/hebrew-lexicon-2026-10-14-v1';
+ const idx=await json(`${base}/index.json`);
+ assert.equal(idx.entries.length,9255);
+ assert.notEqual(idx.entries.find((e:{key:string})=>e.key==='H1254a').bdb,idx.entries.find((e:{key:string})=>e.key==='H1254b').bdb);
+ assert.equal((await json(`${base}/strongs/H1254.json`)).id,'H1254');
+ assert.equal((await json(`${base}/bdb/b.cw.aa.json`)).id,'b.cw.aa');
+});
+
+test('offline desktop retains all Abbott-Smith XML entries and historical source notices',async()=>{
+ const base='lexical/abbott-smith-1922-2026-10-14-v1';const idx=await json(`${base}/index.json`);
+ assert.equal(idx.entryCount,6153);
+ const ref=idx.headwords['λόγος'][0];const shard=await json(`${base}/entries/${ref.shard}.json`);
+ assert.equal(shard.entries[ref.id].sourceKey,'λόγος|G3056');assert.deepEqual(shard.entries[ref.id].historicalNtCounts,['330']);
+ assert.match(await readFile(join(assets,base,'NOTICE.txt'),'utf8'),/public domain/);
+ const pins=JSON.parse(await readFile('sources/abbott-smith/releases/abbott-smith-1922-2026-10-14-v1/outputs.json','utf8'));
+ for(const [file,hash] of Object.entries(pins))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
 });

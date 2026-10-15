@@ -11,6 +11,7 @@
   --radius-md: 6px;
   --surface: #eff1ed;
   --accent-soft: #eee4c9;
+  --passage-selection: #f3efe3;
   --ink: #142c3b;
   --ink-foreground: #faf7ef;
   --brass: #b99a59;
@@ -75,7 +76,8 @@ label {
 }
 /* Keep keyboard focus legible without framing controls or the reading pane. */
 :root :is(button, a, summary):focus-visible {
-  outline: none;
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -997,10 +999,10 @@ textarea { font: inherit; color: inherit; }
 .study-actions button { border: 0; padding: 6px 8px; font-size: 14px; background: transparent; }
 .study-actions button:hover { background: var(--accent-soft); }
 .study-tool { display: inline-flex; align-items: center; gap: 6px; }
-.tool-symbol { display: inline-grid; place-items: center; width: 24px; height: 24px; border: 1px solid #94aab3; border-radius: 5px; color: #315b6e; font: 700 12px/1 Georgia, serif; }
-.greek-tool .tool-symbol { border-radius: 50%; color: #67562c; border-color: #b7aa84; font-size: 16px; }
-.resource-tool .tool-symbol { color: #754f46; border-color: #baa29b; }
-.settings-trigger { border: 0; flex-shrink: 0; font-family: Georgia, serif; padding: 6px 10px; }
+.tool-symbol { display: inline-grid; place-items: center; width: 22px; height: 22px; border: 0; border-radius: 3px; color: var(--primary); font: 700 12px/1 Georgia, serif; }
+.greek-tool .tool-symbol, .hebrew-tool .tool-symbol { font-size: 17px; }
+
+.settings-trigger { border: 0; flex-shrink: 0; font-family: var(--font-ui); padding: 6px 10px; background: transparent; min-height: 44px; font-size: 14px; }
 .count { font-size: 12px; color: var(--muted-foreground); background: var(--accent-soft); border-radius: 12px; padding: 2px 7px; margin-left: 3px; }
 .reader-hint { margin: 5px 8px 18px; font: 13px/1.5 Arial, sans-serif; color: var(--muted-foreground); }
 .reader-selection-status { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 12px; margin: 5px 8px 18px; }
@@ -1011,7 +1013,7 @@ textarea { font: inherit; color: inherit; }
 .content-key p { display: flex; align-items: center; gap: 8px; }
 .key-om, .key-publisher { display: inline-grid; place-items: center; flex: 0 0 28px; min-height: 24px; border: 1px solid #819ba8; border-radius: 4px; color: #315568; font-size: 11px; font-weight: 700; }
 .key-publisher { border-radius: 50%; color: #6c5731; border-color: #b7a77f; font-size: 14px; }
-.reader-guide { margin: 8px 0 18px; padding: 14px 16px; border: 1px solid #aebfc5; border-left: 4px solid var(--primary); border-radius: 7px; background: var(--surface); font: 14px/1.55 Arial, sans-serif; }
+.reader-guide { margin: 0 0 8px; padding: 0; border: 0; background: transparent; font: 14px/1.55 var(--font-ui); }
 .reader-guide > div { display: flex; align-items: center; justify-content: space-between; }
 .reader-guide button { min-width: 38px; min-height: 38px; border: 0; background: transparent; font-size: 20px; }
 .reader-guide ol { display: grid; gap: 5px; margin: 8px 0 0; padding-left: 20px; }
@@ -1083,7 +1085,7 @@ footer { padding: 22px 4vw; }
   .publisher-heading { margin-top: 18px; }
   .search-results h1 { font-size: 30px; }
   .related-resources { scroll-margin-top: 145px; }
-  .reader-guide { padding: 12px; }
+  .reader-guide { padding: 0; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 
@@ -1103,12 +1105,12 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 .library-search > div { display: flex; gap: 8px; margin-top: 6px; }
 .library-search button { color: white; background: var(--primary); min-width: 92px; }
 .library-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0 36px; }
-.library-tabs a { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; min-height: 112px; padding: 18px; color: var(--foreground); text-decoration: none; border: 1px solid var(--border); border-radius: 7px; background: white; }
+.library-tabs a { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; min-height: 132px; align-content: start; grid-template-rows: auto 1fr; padding: 20px; color: var(--foreground); text-decoration: none; border: 1px solid var(--border); border-radius: 7px; background: white; }
 .library-tabs a:hover { background: var(--surface); }
-.library-tabs a.active { border: 2px solid var(--primary); padding: 17px; background: var(--accent-soft); }
+.library-tabs a.active { border-color: var(--primary); background: var(--surface); }
 .library-tabs strong { font-family: Georgia, serif; font-size: 20px; font-weight: normal; }
-.library-tabs span { color: var(--primary); font-weight: bold; }
-.library-tabs small { grid-column: 1 / -1; color: var(--muted-foreground); }
+.library-tabs span { color: var(--muted-foreground); font: 600 12px/1.7 var(--font-ui); align-self: start; background: var(--surface); padding: 2px 8px; border-radius: 12px; }
+.library-tabs small { grid-column: 1 / -1; color: var(--muted-foreground); align-self: end; margin-top: 8px; }
 .library-shelves { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 0 0 34px; }
 .library-shelves > div { min-width: 0; padding: 14px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); }
 .library-shelves h2 { margin: 0 0 8px; font: 17px/1.3 Georgia, serif; }
@@ -1490,7 +1492,7 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 /* AF-OT-018: reading-first study navigation and comparison density. */
 .masthead > nav { flex-wrap: wrap; justify-content: flex-end; gap: 8px 18px; }
 .masthead .brand { flex-shrink: 0; }
-.library-tabs { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.library-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .library-tabs small, .library-shelves a strong, .library-shelves a small,
 .toolbar-label, .toolbar-search label, .study-header .eyebrow,
 .study-tabs button, .comparison-nav button, .study-actions button,
@@ -1563,7 +1565,7 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 .library-page #library-results > .greek-research { max-width: none; margin: 0; }
 .library-page #library-results > .greek-research > h2 { margin: 8px 0 12px; }
 @media (min-width: 1200px) {
-  .library-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .library-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .library-tabs strong { font-size: 18px; }
 }
 
@@ -1591,26 +1593,26 @@ input[type='checkbox'], input[type='radio'] { accent-color: var(--ink); }
 .reader-tools { gap: 12px; align-items: center; }
 .study-actions { gap: 4px; flex-wrap: wrap; }
 .study-actions button, .reader-selection-status button { min-height: 44px; }
-.reader-selection-status { margin: 10px 0 20px; padding-left: 12px; border-left: 3px solid var(--brass); }
+.reader-selection-status { margin: 6px 0 12px; padding: 0; border: 0; gap: 6px 12px; }
 .reader-selection-status .reader-hint { color: var(--foreground); font-size: .875rem; }
 .reader-selection-copy-status:empty { display: none; }
-.testament-connections { margin-block: 12px; padding: 12px; border-color: var(--border); }
+.testament-connections { margin-block: 8px 16px; padding: 0; border: 0; background: transparent; }
 .chapter-heading { margin: 24px 0; }
 .chapter-heading h1 { font-size: 2.5rem; }
 .chapter-heading .edition { font-size: .875rem; line-height: 1.6; margin-bottom: 10px; }
 .scripture { line-height: 1.8; }
 .text-block { margin-bottom: 1em; }
 .publisher-heading { color: var(--primary); }
-.scripture .selected { background: var(--accent-soft); color: var(--foreground); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.scripture .selected { background: var(--passage-selection); color: var(--foreground); box-shadow: inset 0 -1px #b99a5970; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .scripture sup a { color: var(--muted-foreground); border-radius: 3px; }
-.scripture .selected-number a { background: var(--ink); color: var(--ink-foreground); box-shadow: inset 0 -2px var(--brass); font-weight: 600; min-width: 24px; padding: 3px 5px; text-align: center; }
+.scripture .selected-number a { background: transparent; color: var(--ink); box-shadow: inset 0 -2px var(--brass); font-weight: 700; min-width: 18px; padding: 0; text-align: center; }
 .search-match { background: var(--accent-soft); }
 .study-dialog { background: var(--surface); border-color: var(--border); }
 .study-chrome { background: var(--surface); padding: 20px 24px 0; }
 .study-header h2 { font-size: 1.5rem; line-height: 1.3; }
 .study-header .eyebrow { font-size: .875rem; letter-spacing: .06em; }
 .study-content { padding: 24px 24px 40px; }
-.study-tabs { gap: 0; border: 1px solid var(--border); border-radius: 5px; margin-block: 16px 12px; padding: 0; }
+.study-tabs { gap: 4px; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; margin-block: 12px; padding: 0 0 8px; }
 .study-tabs button { flex: 1 1 auto; min-height: 44px; border: 0; border-radius: 0; background: transparent; color: var(--primary); padding: 10px 12px; font-weight: 500; }
 .study-tabs button:first-child { border-radius: 4px 0 0 4px; }
 .study-tabs button:last-child { border-radius: 0 4px 4px 0; }
@@ -1624,8 +1626,8 @@ input[type='checkbox'], input[type='radio'] { accent-color: var(--ink); }
 .comparison-scripture { font-size: 1.1875rem; line-height: 1.7; }
 .edition-reading { padding-block: 16px 20px; }
 .comparison-group > h3 { border-bottom-color: var(--border); }
-.comparison-compact .edition-reading, .comparison-compact .lxx-comparison { background: var(--background); }
-.word-detail { background: var(--background); }
+.comparison-compact .edition-reading, .comparison-compact .lxx-comparison { background: transparent; border: 0; border-top: 1px solid var(--border); border-radius: 0; }
+.word-detail { background: transparent; border: 0; border-inline-start: 1px solid var(--border); border-radius: 0; }
 button.interlinear-word.chosen, button.interlinear-word:hover, .greek-token-text button.chosen { background: var(--accent-soft); }
 .connections-display-controls { background: var(--surface); }
 .connected-passages article { background: var(--background); }
@@ -1735,3 +1737,58 @@ body.reader-focus-mode .original-columns { display:block; }
 .source-context-controls { display: block; }
 .source-context-controls select { min-height: 44px; margin-left: .5rem; padding: .4rem; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: inherit; }
 .source-context-controls .study-help { margin: .5rem 0 0; }
+
+/* Historical Hebrew dictionaries within the existing study surfaces. */
+.hebrew-dictionary { margin-block: 1.5rem; padding-block: .75rem; border-block: 1px solid var(--border, #d7d8d3); min-width: 0; overflow-wrap: anywhere; }
+.hebrew-dictionary-entry { margin-block: 1rem; }
+.hebrew-dictionary-entry details { margin-block: .75rem; padding: .65rem; border: 1px solid var(--border, #d7d8d3); border-radius: .4rem; }
+.hebrew-dictionary summary { cursor: pointer; line-height: 1.5; }
+.hebrew-dictionary summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.hebrew-dictionary-body { line-height: 1.75; }
+.hebrew-dictionary dd { margin-inline-start: 0; margin-block-end: .75rem; }
+.hebrew-lemma-list li > p { flex-basis: 100%; margin: 0; overflow-wrap: anywhere; }
+
+.abbott-smith { margin-block: 1rem; padding: .8rem; border: 1px solid var(--border); border-radius: .4rem; min-width: 0; overflow-wrap: anywhere; }
+.abbott-smith > summary { cursor: pointer; line-height: 1.5; }
+.abbott-smith > summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.abbott-smith-content { line-height: 1.7; min-width: 0; }
+.abbott-smith-content section + section { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+
+/* AF-UI-001–007: restrained navigation and shared quiet controls. */
+.reader-passage-heading { margin: 0 0 14px; }
+.reader-passage-heading .edition { margin-bottom: 2px; }
+.reader-tools .study-tool { min-height: 44px; border-radius: 4px; text-decoration: none; padding: 8px; font-size: 14px; }
+.reader-tools .study-tool[aria-pressed="true"] { background: var(--ink); color: var(--ink-foreground); }
+.reader-tools .study-tool[aria-pressed="true"] .tool-symbol { color: inherit; }
+.reader-tools .settings-trigger { align-self: start; }
+.reader-guide > summary { display: list-item; cursor: pointer; min-height: 44px; padding-block: 10px; color: var(--primary); }
+.reader-guide[open] { padding-bottom: 10px; }
+.reader-selection-status > a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+.library-collection-nav { display: flex; align-items: end; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 18px; }
+.library-collection-nav label { flex: 1; max-width: 360px; min-width: min(100%,220px); }
+.library-collection-nav select { width: 100%; display: block; margin-top: 4px; }
+.library-collection-nav > a { display: inline-flex; align-items: center; min-height: 44px; }
+.library-page .collection-page-title { font-size: 2rem; margin-block: 12px; }
+.library-page:not(.library-overview) > .library-search { margin-block: 12px 22px; }
+.library-history { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border); }
+.library-history > summary { min-height: 44px; cursor: pointer; padding-block: 10px; }
+.library-history .library-shelves { margin-top: 12px; }
+.library-page :is(.hebrew-explorer,.fulltext-search) > h2 { margin-top: 8px; }
+.hebrew-dictionary { border: 0; border-top: 1px solid var(--border); }
+.hebrew-dictionary-entry details { border: 0; border-top: 1px solid var(--border); border-radius: 0; padding-inline: 0; }
+.abbott-smith { border: 0; border-top: 1px solid var(--border); border-radius: 0; padding-inline: 0; }
+@media (max-width:1000px) { .library-tabs { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width:600px) {
+ .library-tabs { grid-template-columns: minmax(0,1fr); }
+ .library-page { padding-top: 18px; }
+ .library-collection-nav { margin-bottom: 12px; }
+ .reader-passage-heading h1 { font-size: 2rem; }
+ .reader-tools { align-items: start; gap: 4px; }
+ .reader-tools .settings-trigger > span:last-child { display: none; }
+ .reader-selection-status .reader-hint { flex-basis: 100%; }
+}
+@media (forced-colors:active) {
+ .scripture .selected { background: Highlight; color: HighlightText; box-shadow: none; }
+ .scripture .selected-number a { outline: 1px solid Highlight; }
+ .word-detail, .abbott-smith, .hebrew-dictionary-entry details { border-color: CanvasText; }
+}

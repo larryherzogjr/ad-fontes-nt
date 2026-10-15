@@ -1,0 +1,8 @@
+{
+  "handoffArchive": "deep-lexicon-handoff.zip",
+  "handoffSha256": "355dace6341e0cd4e26b92be7d1f061330cb4d5225f2f2a1661b7d7385c5a238",
+  "sourceArchiveMember": "deep-lexicon/sources/abbott-smith-tei.zip",
+  "sourceArchiveSha256": "647faca7a04896a75f5d3da89129e63c664ddb1e4b754eb6b46b5c8b31cbc55f",
+  "source": "https://github.com/translatable-exegetical-tools/Abbott-Smith",
+  "selection": "Exact XML and README from supplied snapshot. No moving upstream fetch, scanned PDF, editor code, Tischendorf text or handoff flattened JSON imported."
+}

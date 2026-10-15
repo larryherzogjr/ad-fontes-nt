@@ -1,0 +1,27 @@
+{
+ "bundle": "Deep Greek & Hebrew lexicon layer (Abbott-Smith 1922, BDB 1906, Strong's 1890, Tischendorf GNT)",
+ "greek": {
+  "strongs_greek_entries": 5624,
+  "abbott_smith_entries": 6143,
+  "nt_books": 27,
+  "nt_verses": 7939,
+  "nt_tokens": 137711,
+  "forms": 19090
+ },
+ "hebrew": {
+  "bdb_entries": 11845,
+  "lexicon_ids": 10221,
+  "strongs_keys": 8681
+ },
+ "licenses": {
+  "public_domain": [
+   "Strong's dictionaries (1890)",
+   "Abbott-Smith (1922)",
+   "BDB (1906)",
+   "Tischendorf 8th ed. text + analysis"
+  ],
+  "cc_by_4": [
+   "Open Scriptures Hebrew Bible HebrewLexicon (lexical index, BDB XML)"
+  ]
+ }
+}

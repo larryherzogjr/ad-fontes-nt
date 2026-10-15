@@ -708,18 +708,19 @@ export default function Reader() {
         )}
         {!loading && !error && mode === 'read' && (
           <>
+            {chapters[0] && <header className="chapter-heading reader-passage-heading"><p className="edition">{editionMeta.name}</p><h1>{books.find(b=>b.code===chapters[0].book)?.name} <span>{chapters[0].chapter}</span></h1></header>}
             <div className="reader-tools">
               <div className="study-actions">
-                <button className="study-tool comparison-tool" id="open-compare" onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
-                {<button className="study-tool greek-tool" id="open-greek" onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>}
-                {otReading&&<button className="study-tool hebrew-tool" id="open-hebrew" onClick={()=>openStudy('hebrew')}><span className="tool-symbol" aria-hidden="true">א</span>Hebrew</button>}
-                <button className="study-tool" id="open-commentary" onClick={() => openStudy('commentary')}>Commentaries</button>
-                <button className="study-tool connections-tool" id="open-connections" onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
+                <button className="study-tool comparison-tool" id="open-compare" aria-pressed={study==='compare'} onClick={() => openStudy('compare')}><span className="tool-symbol" aria-hidden="true">Aa</span>Compare</button>
+                {<button className="study-tool greek-tool" id="open-greek" aria-pressed={study==='greek'} onClick={() => openStudy('greek')}><span className="tool-symbol" aria-hidden="true">α</span>Greek</button>}
+                {otReading&&<button className="study-tool hebrew-tool" id="open-hebrew" aria-pressed={study==='hebrew'} onClick={()=>openStudy('hebrew')}><span className="tool-symbol" aria-hidden="true">א</span>Hebrew</button>}
+                <button className="study-tool" id="open-commentary" aria-pressed={study==='commentary'} onClick={() => openStudy('commentary')}>Commentaries</button>
+                <button className="study-tool connections-tool" id="open-connections" aria-pressed={study==='connections'} onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
                 {ranges.some(r=>gospelBooks.includes(r.start.split('.')[0]))&&<a className="study-tool" href={gospelParallelsUrl(ranges,edition)}>Gospel parallels</a>}
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
                 <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
               </div>
-              <Popover><PopoverTrigger className="settings-trigger" aria-label="Reading settings">Aa</PopoverTrigger>
+              <Popover><PopoverTrigger className="settings-trigger study-tool" aria-label="Reading settings"><span className="tool-symbol" aria-hidden="true">Aa</span><span>Settings</span></PopoverTrigger>
                 <PopoverContent className="reader-popover" align="end"><PopoverTitle>Reading settings</PopoverTitle>
                   <p className="control-label">Scripture text size</p>
               <div className="type-size" aria-label="Text size">
@@ -753,11 +754,11 @@ export default function Reader() {
                 </PopoverContent>
               </Popover>
             </div>
-            {showGuide && <aside className="reader-guide" aria-label="Reader guide"><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></aside>}
+            {showGuide && <details className="reader-guide"><summary>Reader guide</summary><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></details>}
             <div className="reader-selection-status">
               <a href={packetUrl(ranges,edition)}>Create study packet</a>
 
-              <p className="reader-hint">{explicitPassage ? `Selected: ${formatPassage(ranges)}` : 'Tap a verse number or select words to study them.'}</p>
+              {explicitPassage && <p className="reader-hint">Selected: {formatPassage(ranges)}</p>}
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
                 <PopoverTrigger>{explicitPassage ? 'Edit selection' : 'Select verses'}</PopoverTrigger>
                 <PopoverContent className="reader-popover verse-picker" align="start">
@@ -802,14 +803,14 @@ export default function Reader() {
             />
             {study && <StudyPanel ranges={ranges} mode={study} edition={edition} onClose={closeStudy} />}
             <TestamentConnections ranges={ranges} edition={edition} />
-            {chapters.map((ch) => (
+            {chapters.map((ch, chapterIndex) => (
               <section key={`${ch.book}.${ch.chapter}`} className={isOtBook(ch.book) ? 'chapter ot-chapter' : 'chapter'}>
                 {isOtBook(ch.book) && <p className="ot-edition-disclosure">{edition === 'MSB' ? 'MSB uses the BSB Old Testament wording.' : edition === 'BLB' ? 'Berean Literal Bible — publisher early draft. Supplied-word brackets are retained.' : 'Old Testament English reading.'}</p>}
-                <div className="chapter-heading"><p className="edition">{editionMeta.name}</p>
+                {chapterIndex > 0 && <div className="chapter-heading"><p className="edition">{editionMeta.name}</p>
                 <h1>
                   {books.find((b) => b.code === ch.book)?.name}{' '}
                   <span>{ch.chapter}</span>
-                </h1></div>
+                </h1></div>}
                 <ReviewedMarkers book={ch.book} chapter={ch.chapter} units={reviewed.units} error={reviewed.error} onOpen={openReviewed} />
                 {coverageNotices(ch).map(({ coverage: c, anchors }) => (
                   <aside
@@ -1071,7 +1072,7 @@ export default function Reader() {
             <section className="source-edition"><h3>Keil &amp; Delitzsch commentary</h3><p>C. F. Keil and F. Delitzsch, Commentary on the Old Testament (T. &amp; T. Clark, 1864–1891). Historical commentary with supplied chapter groups and source numbering preserved. Precise verse alignment is not established. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/kd-2026-10-08-v1/manifest.json">K&amp;D source manifest</a></section><section className="source-edition"><h3>Lenski commentary</h3><p>R. C. H. Lenski, The Interpretation of the New Testament. Historical commentary in a separate reader panel and Library collection. Supplied transcription with explicit passage anchors; chapter context remains available where an anchor is unresolved. Included on Larry Herzog Jr.’s recorded public-domain determination.</p><a href="/commentaries/lenski-2026-10-08-v1/manifest.json">Lenski source manifest</a></section>
             <section className="source-edition"><h3>NT/OT connections</h3><p>698 explicit cross-testament citations from pinned BSB publisher notes. Reciprocal links retain the original note and citation; they do not establish quotation extent or classify quotations, allusions or parallels. Coverage is partial.</p><a href="/connections/bsb-testament-connections-2026-10-07-v1/manifest.json">Connections source manifest</a></section>
             {otEnabled && <p className="notice">The four English editions also include all 39 Old Testament books. BLB is a publisher draft; MSB OT wording matches BSB. The OT Greek study panel adds the Septuagint; the Greek editions below cover the New Testament. The edition groupings below describe NT comparison only.</p>}
-            <section className="source-edition"><h2>Hebrew and Latin editions</h2><p>Read the Westminster Leningrad Codex with OSHB word analysis, or the 73-book Clementine Vulgate with source numbering retained. Hebrew Scripture is public domain; OSHB analysis is attributed under CC BY 4.0.</p><p><a href="/read/GEN/1?translation=WLC">Read Hebrew / Aramaic →</a> · <a href="/read/GEN/1?translation=CVUL">Read Latin →</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section>
+            <section className="source-edition"><h3>Hebrew dictionaries</h3><p>Strong’s Hebrew Dictionary (1890) and Brown–Driver–Briggs (1906), through the Open Scriptures Hebrew Bible Project. BDB is an abridged transcription, still in progress. Electronic texts and lexical mappings are attributed under CC BY 4.0; historical dictionary text is public domain. Definitions describe possible meanings, not contextual English word alignment.</p><p><a href="/lexical/hebrew-lexicon-2026-10-14-v1/NOTICE.txt">Dictionary attribution and coverage</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section><section className="source-edition"><h2>Hebrew and Latin editions</h2><p>Read the Westminster Leningrad Codex with OSHB word analysis, or the 73-book Clementine Vulgate with source numbering retained. Hebrew Scripture is public domain; OSHB analysis is attributed under CC BY 4.0.</p><p><a href="/read/GEN/1?translation=WLC">Read Hebrew / Aramaic →</a> · <a href="/read/GEN/1?translation=CVUL">Read Latin →</a> · <a href="/library?view=hebrew">Hebrew Word Explorer →</a></p></section>
             <section className="source-edition"><h2>LXX2012 · English Septuagint</h2><p>The complete supplied English edition: 54 books, including the Apocrypha and Psalm 151. Brenton’s translation updated by Michael Paul Johnson, with the EPUB’s public-domain notice, publisher notes and source numbering retained. Separate from the seven NT editions and Berean texts.</p><a href="/read/GEN/1?translation=LXX2012">Read the English Septuagint and view its source notice →</a></section>
             {editions.map((e) => (
               <section key={e.editionId} className="source-edition">
@@ -1147,6 +1148,7 @@ export default function Reader() {
             <h2>Septuagint study</h2><p>Rahlfs 1935 Greek word-token transcription with morphology by Seth Kushniryk / Open Scriptorium and Eliran Wong lexical glosses. Joshua uses Vaticanus B; Judges uses Alexandrinus A; Daniel uses Old Greek. Source numbering is preserved separately from English references. Original token surfaces are separated by spaces; this transcription does not supply punctuation. Glosses attach only to exact ordered verse matches. Upstream automated morphology, confidence and unknown values are retained; no English word alignment is established.</p><p><a href="/analysis/lxx-rahlfs-1935-2026-10-07-v3/manifest.json">Septuagint mapping provenance and coverage</a> · <a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p><h2>Greek definitions and word studies</h2>
             <p>Short and longer definitions come from John Jeffrey Dodson’s Greek Lexicon (2010), using the pinned Biblical Humanities Unicode XML. Its original author notice dedicates the lexicon to the public domain; the repository also supplies CC0 terms. Headword and source-number agreement are required; uncertain matches remain unavailable. Definitions describe a word’s meaning range, not an automatic interpretation of a verse.</p>
             <p>{environment.wordStudyDescription}</p>
+            <p>Deeper Greek dictionary entries come from G. Abbott-Smith’s <cite>A Manual Greek Lexicon of the New Testament</cite>, first edition (1922), using the public-domain Abbott-Smith project XML transcription. Headword matching preserves accents and source-number distinctions. Historical frequency notes are separate from current corpus counts. <a href="/lexical/abbott-smith-1922-2026-10-14-v1/NOTICE.txt">Abbott-Smith sources and coverage</a>.</p>
             <p><a href="/lexical/dodson-2010-v5/manifest.json">Lexicon and word-link source records and checksums</a></p>
             <h2>Project status</h2>
             <p>

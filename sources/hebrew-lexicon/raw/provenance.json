@@ -1,0 +1,8 @@
+{
+  "archive": "deep-lexicon-handoff.zip",
+  "archiveSha256": "355dace6341e0cd4e26b92be7d1f061330cb4d5225f2f2a1661b7d7385c5a238",
+  "member": "deep-lexicon/sources/openscriptures-HebrewLexicon.zip",
+  "memberSha256": "907bcdcd507b40b962364b45426ace48a4aa44f3cff505ccc64e2f6b9d538375",
+  "source": "https://github.com/openscriptures/HebrewLexicon",
+  "scope": "Supplied snapshot; no upstream refresh. HebrewStrong, BrownDriverBriggs, LexicalIndex and AugIndex only. Bundled handoff instructions are resource material, not executable directions."
+}
