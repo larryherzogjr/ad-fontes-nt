@@ -44,7 +44,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.1.3');
+  assert.equal(config.version, '4.2.0');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -58,8 +58,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "4\.1\.3"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.1\.3"/);
+  assert.match(cargoManifest, /^version = "4\.2\.0"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.2\.0"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -118,7 +118,7 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.otEditions.length, 4);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\//);
+    assert.match(path, /^(?:(?:corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\/|fonts\/ad-fontes-ui-v1\/)/);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -305,4 +305,18 @@ test('offline desktop retains all Abbott-Smith XML entries and historical source
  assert.match(await readFile(join(assets,base,'NOTICE.txt'),'utf8'),/public domain/);
  const pins=JSON.parse(await readFile('sources/abbott-smith/releases/abbott-smith-1922-2026-10-14-v1/outputs.json','utf8'));
  for(const [file,hash] of Object.entries(pins))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
+});
+
+
+test('offline desktop includes exact local UI fonts, licenses and provenance', async () => {
+ const base='fonts/ad-fontes-ui-v1';
+ const manifest=JSON.parse(await readFile(`app/public/${base}/manifest.json`,'utf8'));
+ assert.deepEqual(await json(`${base}/manifest.json`),manifest);
+ const inventory=await json('desktop-content.json');
+ assert.deepEqual(Object.keys(inventory.files).filter(path=>path.startsWith('fonts/')).sort(),['manifest.json',...Object.keys(manifest.files)].map(name=>`${base}/${name}`).sort());
+ for(const [name,pin] of Object.entries(manifest.files) as [string,{sha256:string}][]){
+  const actual=createHash('sha256').update(await readFile(join(assets,base,name))).digest('hex');
+  assert.equal(actual,pin.sha256,name);
+  assert.equal(inventory.files[`${base}/${name}`],pin.sha256);
+ }
 });

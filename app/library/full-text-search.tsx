@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import { useEffect, useRef, useState, type MouseEvent } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -33,9 +34,9 @@ function SearchResource({id,block,query,onReturn}:{id:string;block:number;query:
  useEffect(()=>{if(data&&target.current){highlightElement(target.current,query);target.current.focus({preventScroll:true});target.current.scrollIntoView({block:'center'});}},[data,query]);
  return <section className="fulltext-context"><nav className="fulltext-context-actions" aria-label="Search match actions"><button onClick={onReturn}>← Back to search results</button></nav>{error?<p role="alert">{error}</p>:!data?<p role="status">Loading resource context…</p>:<>
   <p className="library-type">{collectionLabels[data.doc.collection]}</p><h2>{data.doc.title}</h2><p>By {data.doc.author}</p><p className="notice">{data.doc.notice}</p>
-  <p><a href={data.doc.sourceUrl} {...(data.doc.sourceUrl.startsWith('https:')?{target:'_blank',rel:'noopener noreferrer'}:{})}>Open {data.doc.sourceUrl.startsWith('https:')?'author’s website':'standard resource viewer'} →</a></p>
+  <p><AppLink href={data.doc.sourceUrl} {...(data.doc.sourceUrl.startsWith('https:')?{target:'_blank',rel:'noopener noreferrer'}:{})}>Open {data.doc.sourceUrl.startsWith('https:')?'author’s website':'standard resource viewer'} →</AppLink></p>
   <article className="om-study-body" aria-label="Resource context">{data.blocks.map((b,i)=>i===0?<div key={i} ref={block===0?target:undefined} tabIndex={block===0?-1:undefined} className={block===0?'fulltext-target':undefined}><h3>{data.doc.title}</h3></div>:<div key={i} ref={block===i?target:undefined} tabIndex={block===i?-1:undefined} className={block===i?'fulltext-target':undefined}>
-   {b.markdown?<Markdown skipHtml remarkPlugins={[remarkGfm]} components={{img:({alt})=><span>{alt}</span>,a:({href,children})=>{const url=href?new URL(href,'https://larryherzogjr.com'):null;return <a href={url?.protocol==='https:'?url.href:undefined} target="_blank" rel="noopener noreferrer">{children}</a>;}}}>{b.markdown}</Markdown>:<p>{b.text}</p>}
+   {b.markdown?<Markdown skipHtml remarkPlugins={[remarkGfm]} components={{img:({alt})=><span>{alt}</span>,a:({href,children})=>{const url=href?new URL(href,'https://larryherzogjr.com'):null;return <AppLink href={url?.protocol==='https:'?url.href:undefined} target="_blank" rel="noopener noreferrer">{children}</AppLink>;}}}>{b.markdown}</Markdown>:<p>{b.text}</p>}
   </div>)}</article><p className="library-source-note">Source release: {data.doc.release}. Search formatting is derived from the published resource; source wording is preserved.</p><button onClick={onReturn}>← Back to search results</button>
  </>}</section>;
 }
@@ -65,9 +66,9 @@ export default function FullTextSearch({locationKey,onNavigate}:{locationKey:str
   {error&&<p role="alert" className="notice">{error} No complete result count is available.</p>}{loading&&<p role="status">Searching the Library…</p>}
   {!query&&!loading&&<p>Try a term that appears inside a study, or search both historical commentaries at once.</p>}
   {result&&<div ref={resultRegion}><p role="status">{result.total.toLocaleString()} matching resources · Page {result.page} of {result.pages}</p>{!result.total&&<p>No included resources match this search. Try fewer words or a different collection.</p>}
-   <div className="fulltext-results">{result.results.map(r=><article className="library-card" key={r.doc.id}><p className="library-type">{collectionLabels[r.doc.collection]} · {r.doc.author}</p><h3><a href={destination(r.doc.id,r.matches[0])} onClick={open}>{r.doc.title}</a></h3><p className="study-help">{r.matches.length} matching {r.matches.length===1?'block':'blocks'}</p>
-    <p><Highlight text={r.excerpts[0].text} query={query}/></p><a data-search-target={`${r.doc.id}:${r.matches[0]}`} href={destination(r.doc.id,r.matches[0])} onClick={open}>Open in context →</a>
-    {r.excerpts.length>1&&<details><summary>More matching excerpts</summary>{r.excerpts.slice(1).map(x=><div key={x.block}><p><Highlight text={x.text} query={query}/></p><a href={destination(r.doc.id,x.block)} onClick={open}>Open this match →</a></div>)}{r.matches.length>5&&<p>Showing the first five matching blocks. Open the resource to read its full context.</p>}</details>}
+   <div className="fulltext-results">{result.results.map(r=><article className="library-card" key={r.doc.id}><p className="library-type">{collectionLabels[r.doc.collection]} · {r.doc.author}</p><h3><AppLink href={destination(r.doc.id,r.matches[0])} onClick={open}>{r.doc.title}</AppLink></h3><p className="study-help">{r.matches.length} matching {r.matches.length===1?'block':'blocks'}</p>
+    <p><Highlight text={r.excerpts[0].text} query={query}/></p><AppLink data-search-target={`${r.doc.id}:${r.matches[0]}`} href={destination(r.doc.id,r.matches[0])} onClick={open}>Open in context →</AppLink>
+    {r.excerpts.length>1&&<details><summary>More matching excerpts</summary>{r.excerpts.slice(1).map(x=><div key={x.block}><p><Highlight text={x.text} query={query}/></p><AppLink href={destination(r.doc.id,x.block)} onClick={open}>Open this match →</AppLink></div>)}{r.matches.length>5&&<p>Showing the first five matching blocks. Open the resource to read its full context.</p>}</details>}
    </article>)}</div>
    <nav className="library-pager" aria-label="Library search pages"><button disabled={result.page<=1} onClick={()=>navigate({page:String(result.page-1)})}>← Previous</button><span>Page {result.page} of {result.pages}</span><button disabled={result.page>=result.pages} onClick={()=>navigate({page:String(result.page+1)})}>Next →</button></nav>
   </div>}

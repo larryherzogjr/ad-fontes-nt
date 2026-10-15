@@ -1,4 +1,70 @@
+## 4.2.0 production release — October 15, 2026
+
+Larry approved all local updates and authorized commit, push and production publication for web and desktop as 4.2.0. Scope: AF-UI-008–016 and AF-UI-035–038. Release preparation and verification are tracked in [the 4.2.0 release record](docs/V4.2.0-Desktop-Release-2026-10-15.md). Signed artifact builds, frozen checksums, private staging and guarded host publication remain pending; existing production remains 4.1.3. Immutable sources, native identities and retired-account decisions are preserved.
+
 # Ad Fontes NT — project status
+
+## 2026-10-15 — Evergreen and brass refresh ready locally (AF-UI-035–038)
+
+All four selected packages are implemented on the existing AF-UI-008–016 local baseline: shared evergreen/ivory/brass/sage palette, pinned local Source Serif 4 and Source Sans 3 interface fonts, decorative icon/rule treatment on all twelve existing Library cards, and the shorter introduction. Georgia Scripture and protected Greek/Hebrew/mixed-source typography remain intact. No new settings, theme switch, icons/identity replacement, account restoration or source-content changes. Existing Library routing, full-page Hebrew studies, external-link behavior, compact phone tools and matching reader disclosures remain.
+
+Fonts: Source Serif 4.005 regular/semibold and Source Sans 3.052 variable 200–900; 384,236 bytes total, with original OFL licenses, exact commits/URLs/versions/checksums under `app/public/fonts/ad-fontes-ui-v1/`. Latin-only CSS ranges exclude Greek/Hebrew; whole mixed-source paragraphs retain the prior stack. Exact transliteration cmap sample is verified. Desktop staging explicitly includes the six font/license/manifest files; the inventory test permits only this precise new font folder and checks exact names/bytes. Native CSP, package/signing/updater identity and version 4.1.3 are unchanged.
+
+Verification passes: typecheck; full web build with prebuild `npm test` (185 application / 50 Python-source checks); final web frontend rebuild after presentation refinements; offline staging/build (61,469 files), final offline frontend rebuild and all 16 desktop tests. Focused UI-font test passes after tightening file inventory. Finished web/offline browsers confirm both local UI fonts, all 12 cards and pinned Noto loading, with no captured final warnings/errors. Source search manifest remains `70017093d90f97ccedd89edbc9d99663c18bd43b52de59bcbc24ab8f56c10a1d`.
+
+Matched before/after captured Greek/Hebrew source text/font/line-height records are identical; English Scripture remains Georgia at normal and maximum app size. Reviewed Library at 1440/1024/900/390/320px, keyboard focus, selections/copy, footnotes, focus mode, chapter navigation, four/five-tool phone layouts, Greek main/interlinear/paired/research/Abbott-Smith, WLC/Hebrew pane/homographs/long Aramaic, historical and authored prose, search/context/history/legacy links, public/mobile chrome and packet DOM/export typography. Contrast passes for checked text, essential input boundaries and light/dark focus. No new signed-native/device, OS contrast/forced-colors, native 200% zoom, forced font-failure or system-print-dialog pass is claimed. Details, exact limits and provenance: [implementation note](docs/Evergreen-Brass-Implementation-2026-10-15.md). Review evidence: `artifacts/review/evergreen-brass/`.
+
+Ready at http://localhost:3034/library and http://localhost:3034/read/MAT/6?translation=BSB . No commit/push, deployment, native installer publication or version bump. Current-release acceptance stays closed. Next: Larry reviews this complete local enhancement before separately authorizing release.
+
+## 2026-10-15 — Evergreen and brass refresh selected for handoff (AF-UI-035–038)
+
+Larry selects the evergreen-and-brass visual direction and requests a detailed implementation handoff for the other Codex conversation, explicitly keeping Georgia for Scripture and preserving Greek/Hebrew typography. The [evergreen and brass handoff](docs/Evergreen-Brass-Visual-Refresh-Handoff-2026-10-15.md) includes both reviewed concept images, concrete palette/font roles, all twelve Library cards, shorter overview copy, code boundaries, offline font staging, and acceptance checks. It supersedes the earlier navy/system-interface-font restriction while retaining the completed layout and usability work.
+
+AF-UI-035 covers the shared palette; AF-UI-036 separates locally bundled Source Serif 4/Source Sans 3 interface roles from protected Scripture and language fonts; AF-UI-037 applies the collection-card treatment; AF-UI-038 covers overview copy and application consistency. Ordinary Library entry remains the actual overview with “Browse all collections” selected. Existing Hebrew full-page studies, external-link behavior, compact phone controls, and matching reader resource rows remain intact.
+
+Documentation and reference images only in this turn; implementation is pending in the receiving conversation. No app code, font asset, source/search pin, version, host service, or signed artifact changed, and no new application test/build result is claimed. Next: implement all four packages on the latest working baseline, verify web/offline typography and behavior, and prepare local review evidence. Current-release acceptance stays closed; release publication requires the applicable explicit authorization.
+
+## 2026-10-15 — Matching reader resource disclosures (AF-UI-016)
+
+NT/OT connections now follows OM commentary: hide the row after a successful zero-match load, and use the same regular label, rounded count badge and 44px target when matches exist. Loading and data errors remain explicit; the row count reflects distinct available passage pairs rather than a temporarily empty classification filter. Sidebar empty states remain intact. No connection matching/source/approval changes.
+
+Validation: typecheck and web build pass with all 184 application and 50 Python/source checks. Browser tests cover Job 7:12–21 (empty row hidden), Malachi 1 (badge 4 and Enter disclosure), Matthew 6 (connections 4 / OM commentary 1, matching computed styles), Matthew 7 (empty resource area hidden), 1440/390/320px widths, 44px phone targets and no horizontal overflow. Fresh production-mode local preview also confirms both badges, with no captured browser warnings/errors. [Details](docs/Reader-Resource-Rows-2026-10-15.md); screenshot: `artifacts/review/reader-resource-rows/matthew-6.png`.
+
+Ready for local web review at port 3034. Prior AF-UI-008–015 work remains preserved; version stays 4.1.3. No commit, push, deployment or installed-desktop update. This small presentation follow-up was not rebuilt as a new offline/native artifact. Next: Larry’s local review.
+
+## 2026-10-15 — External links consistently open separately (AF-UI-015)
+
+Larry requested a complete external-link sweep after the confessional “Original transcription” link replaced the study page. All dynamic/external JSX anchors now use a shared link component that applies a new-tab target plus noopener/noreferrer to absolute web URLs and email/telephone handlers. This includes source/rights/manuscript links, resources, rendered Markdown, confessions, calendars, downloads and packet previews/exported HTML. Internal routes and fragment navigation retain their existing behavior. Native HTTPS websites continue through the existing system-browser opener; native permissions and identity remain unchanged.
+
+Validation passes: typecheck; web build with 184 application and 50 Python/source tests; offline frontend build with 61,463 staged files; all 15 desktop tests. Three new regression tests cover URL classification, actual rendered HTML and a TypeScript AST scan for bypassing anchors. Real clicks in web and built offline previews open the Apostles’ Creed source in a separate tab while retaining Library context. Sources, Greek/Hebrew studies, installers and nine packet-export-fragment links have correct targets; internal Greek return remains same-tab. Final captured web/offline warnings/errors: none. Automated download-event capture was unavailable; the exact rendered DOM used by HTML export was audited instead. Evidence and limits: [External link sweep](docs/External-Link-Sweep-2026-10-15.md), `artifacts/review/external-links/`.
+
+Local review ready at port 3034, including preceding AF-UI-008–014 changes. No commit, push, production deployment, signed native build or version bump; version remains 4.1.3. Next: Larry’s local review.
+
+## 2026-10-15 — Hebrew Library studies use full pages (AF-UI-014)
+
+Larry reported that Greek Library studies open as pages while Hebrew studies open as dialogs. Hebrew Explorer “Read study” now opens a full Library article page with a contextual return. Search, pagination, source key and Scripture return survive; return restores scroll and link focus when storage is available. Direct links, reload, browser Back and keyboard activation work. Reader/sidebar study dialogs stay intact. Pinned Hebrew article bytes, hashes, approvals and source bundles are unchanged.
+
+Validation passes: typecheck; web build with 181 application and 50 Python/source tests; offline frontend build with 61,463 staged files; all 15 desktop tests. Browser checks cover web and built offline card → article → return, reload, query/page retention, selected H8535/Scripture context, Greek full-page regression, reader study dialog, missing-study recovery and 320/390px without horizontal overflow. Captured final browser warnings/errors: none. Evidence: `artifacts/review/hebrew-library-pages/`; details: [Hebrew Library study pages](docs/Hebrew-Library-Study-Pages-2026-10-15.md).
+
+Ready locally at port 3034 with AF-UI-008–013 preserved. No commit, push, production deployment or signed native build; version remains 4.1.3. Next: Larry’s local review.
+
+## 2026-10-15 — All six follow-up polish items ready locally (AF-UI-008–013)
+
+Larry explicitly confirms “Implement all six locally.” Implemented two-column phone study tools, tighter packet/selection/guide controls and a shared chapter-resource area, prominent exact Hebrew source-form identity, bounded dictionary prose with conservative sense styling, consistent “Search resource text” naming and muted exact Hebrew occurrence marks, plus the actual overview as ordinary Library entry. October 15 supersedes the first pass’s bare-Library comparisons default; new comparison URLs explicitly select the collection, while old filtered comparison links and detail/history/context returns remain supported. The existing receiving-handoff/status work is preserved below.
+
+Passed typecheck and full web build with `npm test` in prebuild (180 application / 50 Python-source tests), offline frontend staging (61,463 files), and all 15 desktop checks. Focused route/sense tests pass; final web checks were refreshed after the safe overview fallback refinement. Browser review covers desktop/medium/390px/320px, all twelve collections, default/global entry and legacy/detail/history routes, full-text result/context restoration, Hebrew homographs/missing BDB/long Aramaic forms, multiple Greek entries, compact/comfortable/wide panels, keyboard closure/focus, guide recovery, selections/copy, multi-chapter reading and maximum app text. Final captured browser logs are clean. Native zoom, OS forced colors and new native/device/signed-installer tests are not claimed.
+
+At matched 390×844, 21px text and guide-enabled/collapsed reader state, first Scripture moves 620.39 → 547.80px (about 73px higher); compact comparison Scripture moves 748.79 → 628.79px (120px higher). Four tools now occupy two rows with 44px targets. Before/after images, measurements, route evidence and logs are in `artifacts/review/visual-polish-follow-up/`. [Implementation, compatibility and limits](docs/Visual-Polish-Follow-Up-Implementation-2026-10-15.md).
+
+Review http://localhost:3034/library and http://localhost:3034/read/2CO/13?translation=BSB . The local production preview is refreshed; temporary QA servers are stopped and viewport overrides reset. No version change, commit/push, deployment or native publication. Existing branding, native identities, corpus/editorial/language/search pins, retired accounts and accepted current release remain intact. Next: Larry reviews the complete local pass before any separately authorized release.
+
+## 2026-10-15 — Follow-up visual polish and default Library overview requested (AF-UI-008–013)
+
+Larry requests all five improvements from the second visual review: compact phone study navigation, tighter reader controls above Scripture, stronger Hebrew detail hierarchy, more readable expanded dictionary prose, and consistent full-text naming plus muted Hebrew occurrence highlights. He also directs “Browse all collections” as the default when entering the Study Library, retaining the adjacent “Browse collections” link when a specific collection is selected.
+
+The new entry decision supersedes the first polish handoff’s requirement that plain `/library` open Textual Comparisons. Ordinary entry should show the actual overview; explicit collection/detail links and history remain intact, new comparison links use an explicit view, and older filtered comparison URLs retain compatible behavior. Full scope, acceptance criteria, code map and web/offline checks are in [the October 15 follow-up handoff](docs/Visual-Polish-Follow-Up-Handoff-2026-10-15.md).
+
+Documentation only in this conversation; no follow-up app implementation, build, publication or version change is claimed. Next: the receiving conversation implements all AF-UI-008–013 on the completed 4.1.3 baseline and prepares local review evidence. Existing language/source/search pins and current-release acceptance remain preserved.
 
 ## 2026-10-15 — 4.1.3 live and independently verified
 

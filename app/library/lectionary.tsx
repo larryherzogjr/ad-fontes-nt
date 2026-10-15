@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import {useEffect,useState} from 'react';
 import {editions} from '../lib/domain/corpus';
 import {passageUrl} from '../lib/domain/references';
@@ -33,10 +34,10 @@ export default function Lectionary({locationKey,onNavigate}:{locationKey:string;
    <article className="lectionary-observance"><p className="eyebrow">{seriesLabel(o)} · {o.season}</p><h3>{o.title}</h3><p>{new Date(`${o.date}T12:00:00`).toLocaleDateString(undefined,{weekday:'long',year:'numeric',month:'long',day:'numeric'})}{/observed/i.test(o.dateLabel)&&' · observed date'}</p>
    <label className="lectionary-optional"><input type="checkbox" checked={extended} onChange={e=>navigate({extended:e.target.checked})}/>Include parenthesized optional verses</label>
    <div className="lectionary-readings">{o.readings.map((r,i)=>{const choice=r.choices[choices[i]||0],ranges=choice&&(extended?choice.extendedRanges:choice.ranges);return <section key={r.role}><h4>{r.role}</h4><p>{r.text}</p>{r.choices.length>1&&<label>Choose {r.role.toLowerCase()}<select value={choices[i]||0} onChange={e=>navigate({choices:o.readings.map((_,j)=>j===i?+e.target.value:(choices[j]||0))})}>{r.choices.map((c,j)=><option value={j} key={j}>{c.label}</option>)}</select></label>}
-    {choice?.unresolved?<p className="study-help">This title has no resolved numeric Scripture reference. Choose a linked alternative to include this reading in a packet.</p>:ranges?.length?<><p className="study-help">{extended?'Reading with optional verses':'Selected reading'}: {formatPassage(ranges)}</p>{choice.partialVerses&&<p className="study-help">The appointment names part of a verse. Reading and packets retain the complete verse.</p>}<a href={passageUrl(ranges,edition)}>Read {r.role.toLowerCase()} →</a></>:<p role="alert">Choose an available reading.</p>}</section>;})}</div>
-   {packetLink?<a className="lectionary-packet" href={packetLink} onClick={e=>{if(!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();onNavigate(packetLink);}}}>Create this Sunday’s study packet →</a>:<p role="alert">{packetError}</p>}
+    {choice?.unresolved?<p className="study-help">This title has no resolved numeric Scripture reference. Choose a linked alternative to include this reading in a packet.</p>:ranges?.length?<><p className="study-help">{extended?'Reading with optional verses':'Selected reading'}: {formatPassage(ranges)}</p>{choice.partialVerses&&<p className="study-help">The appointment names part of a verse. Reading and packets retain the complete verse.</p>}<AppLink href={passageUrl(ranges,edition)}>Read {r.role.toLowerCase()} →</AppLink></>:<p role="alert">Choose an available reading.</p>}</section>;})}</div>
+   {packetLink?<AppLink className="lectionary-packet" href={packetLink} onClick={e=>{if(!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();onNavigate(packetLink);}}}>Create this Sunday’s study packet →</AppLink>:<p role="alert">{packetError}</p>}
    <p className="study-help">The packet starts with these readings and your saved related-material choices. You can preview, print, or save it in Study Packets.</p>
-   <p className="lectionary-source">Calendar references: LCMS Commission on Worship · {o.churchYear} · <a href={o.sourceUrl} target="_blank" rel="noreferrer">Official calendar</a>. Scripture is read from your chosen Ad Fontes edition.</p></article>
+   <p className="lectionary-source">Calendar references: LCMS Commission on Worship · {o.churchYear} · <AppLink href={o.sourceUrl} target="_blank" rel="noreferrer">Official calendar</AppLink>. Scripture is read from your chosen Ad Fontes edition.</p></article>
   </>}
   <p className="study-help">Bundled One-Year and Three-Year calendars: 2024–25 (C), 2025–26 (A), and 2026–27 (B). Alternative observances follow the published calendar. Congregational transfers are not calculated.</p>
  </div>;

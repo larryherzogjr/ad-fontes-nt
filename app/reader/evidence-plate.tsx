@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 
 import { useEffect, useId, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -137,8 +138,8 @@ function PlateView({ unitId, plate, index, total }: { unitId: string; plate: Pla
       <p className="evidence-credit">{plate.credit}</p>
       <p className="evidence-reuse">{plate.reuseStatement}</p>
       <p className="evidence-links">
-        <a href={plate.sourceUrl}>CSNTM manuscript source</a>
-        {plate.transcriptionUrl && <><span aria-hidden="true"> · </span><a href={plate.transcriptionUrl}>Primary transcription</a></>}
+        <AppLink href={plate.sourceUrl}>CSNTM manuscript source</AppLink>
+        {plate.transcriptionUrl && <><span aria-hidden="true"> · </span><AppLink href={plate.transcriptionUrl}>Primary transcription</AppLink></>}
       </p>
       {selectedImage && createPortal(
         <dialog

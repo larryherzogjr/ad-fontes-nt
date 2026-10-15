@@ -32,3 +32,10 @@ test('failed entry requests are retryable rather than treated as unmatched headw
  try{await assert.rejects(abbottEntries('χάρις','5485'),/could not be loaded/);await assert.rejects(abbottEntries('χάρις','5485'),/could not be loaded/);assert.ok(calls>=2)}finally{globalThis.fetch=previous}
  assert.equal((await abbottEntries('χάρις','5485'))[0].sourceKey,'χάρις|G5485');
 });
+
+test('dictionary sense styling recognizes only explicit markers without modifying source text',async()=>{
+ const {dictionaryParagraphClass}=await import('../app/lib/dictionary-presentation.ts');
+ for(const text of ['1. Of men’s love:', '2. Of divine love;', '12. Another sense'])assert.equal(dictionaryParagraphClass(text),'dictionary-sense');
+ for(const text of ['(a) to one another, Jo 13:35;', '(b) to God.'])assert.equal(dictionaryParagraphClass(text),'dictionary-subpoint');
+ for(const text of ['Ro 5:8.','1904. Historical text','1 be created','1.2 nested citation','(cf. source)',' 1. Ambiguous indentation'])assert.equal(dictionaryParagraphClass(text),undefined,text);
+});

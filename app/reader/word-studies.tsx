@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import Markdown from 'react-markdown';
@@ -16,7 +17,7 @@ function EmbeddedWordStudyLink({ link }: { link: WordLink }) {
   const article = articles.find(article => article.url === link.url);
   return <p className="word-study-link">{article ?
     <button className="saved-study-link" onClick={event => open(article, event.currentTarget)}>Read Larry’s word study: {link.title}</button> :
-    <a href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</a>}
+    <AppLink href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</AppLink>}
     <small>Ordinary Means commentary · {article ? (offline ? 'Available offline' : 'Read here') : (offline ? 'Website · internet required' : 'Opens on larryherzogjr.com')}</small>
   </p>;
 }
@@ -25,7 +26,7 @@ function EmbeddedWordStudyLink({ link }: { link: WordLink }) {
 export function SavedStudyLink({url,children,returnLabel='Return to Hebrew'}:{url:string;children:ReactNode;returnLabel?:string}) {
  const {articles,open,unavailable}=useContext(Studies);
  const article=articles.find(a=>a.url===url);
- return article?<button className="saved-study-link" onClick={e=>open(article,e.currentTarget,returnLabel)}>{children}</button>:unavailable?<a href={url} target="_blank" rel="noopener noreferrer">{children} · Website ↗</a>:<button className="saved-study-link" disabled>Loading study…</button>;
+ return article?<button className="saved-study-link" onClick={e=>open(article,e.currentTarget,returnLabel)}>{children}</button>:unavailable?<AppLink href={url} target="_blank" rel="noopener noreferrer">{children} · Website ↗</AppLink>:<button className="saved-study-link" disabled>Loading study…</button>;
 }
 
 export function WordStudies({ children, offline = false }: { children: ReactNode; offline?: boolean }) {
@@ -99,17 +100,17 @@ export function WordStudies({ children, offline = false }: { children: ReactNode
           {selected.language==='Hebrew'&&<p className="om-study-frequency-note">Scripture quotations use the Berean Standard Bible (BSB). Authored commentary is distinct from Scripture and OSHB analysis.</p>}
           {articleError ? <p role="alert">This article could not be loaded. Close it and try again, or use the website link below.</p> : markdown === null ? <p role="status">Loading article…</p> :
           <Markdown skipHtml remarkPlugins={[remarkGfm]} components={{ a: ({ href, children, node: _node, ...props }) => {
-            if (href?.startsWith('#')) return <a {...props} href={href} onClick={event => {
+            if (href?.startsWith('#')) return <AppLink {...props} href={href} onClick={event => {
               event.preventDefault();
               const target = document.getElementById(decodeURIComponent(href.slice(1)));
               if (target && dialog.current?.contains(target)) { target.scrollIntoView({ block: 'center' }); target.tabIndex = -1; target.focus({ preventScroll: true }); }
-            }}>{children}</a>;
+            }}>{children}</AppLink>;
             const url = new URL(href || '', selected.url);
             const local = articles.find(article => article.url === url.href);
-            return local ? <button className="saved-study-link" onClick={() => {setTrail([...trail,selected]);setSelected(local)}}>{children}</button> : <a {...props} href={url.protocol === 'https:' ? url.href : undefined} target="_blank" rel="noopener noreferrer">{children}</a>;
+            return local ? <button className="saved-study-link" onClick={() => {setTrail([...trail,selected]);setSelected(local)}}>{children}</button> : <AppLink {...props} href={url.protocol === 'https:' ? url.href : undefined} target="_blank" rel="noopener noreferrer">{children}</AppLink>;
           } }}>{markdown}</Markdown>}
           {selected.language!=='Hebrew'&&<p className="om-study-frequency-note">Unless individually labeled otherwise, occurrence counts are NFC-normalized lemma totals from the main reading of pinned Nestle 1904 (n1904-2026-09-05-m2-v1). Cognate lemmas, variant readings, the appended shorter ending, and two verses with unavailable analysis are excluded.</p>}
-          <p><a href={selected.url} target="_blank" rel="noopener noreferrer">Read on larryherzogjr.com ↗</a>{offline && ' · Internet required'}</p>
+          <p><AppLink href={selected.url} target="_blank" rel="noopener noreferrer">Read on larryherzogjr.com ↗</AppLink>{offline && ' · Internet required'}</p>
         </article>
       </dialog>, document.body)}
     </ReaderEnvironment.Provider>

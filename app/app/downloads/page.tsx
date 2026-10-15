@@ -1,3 +1,4 @@
+import AppLink from '@/components/app-link';
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
@@ -51,9 +52,9 @@ export default function DownloadsPage() {
           <p className="eyebrow">Apple Silicon</p>
           <h2 id="download-macos">macOS</h2>
           <p>For macOS Sonoma 14 or newer on a Mac with an Apple chip.</p>
-          <a className="download-button" href={macDownload}>
+          <AppLink className="download-button" href={macDownload}>
             Download for macOS (.dmg)
-          </a>
+          </AppLink>
           <p className="download-detail">Developer ID signed and Apple notarized · 364 MB</p>
         </section>
 
@@ -61,9 +62,9 @@ export default function DownloadsPage() {
           <p className="eyebrow">x64</p>
           <h2 id="download-windows">Windows 11</h2>
           <p>For Windows 11 on a computer with an x64 processor.</p>
-          <a className="download-button" href={windowsDownload}>
+          <AppLink className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
-          </a>
+          </AppLink>
           <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 577 MB</p>
         </section>
       </div>
@@ -103,7 +104,7 @@ export default function DownloadsPage() {
 
       <p>
         Need help? Visit <a href="/support">Support</a> or email{' '}
-        <a href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</a>.
+        <AppLink href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</AppLink>.
       </p>
     </PublicPage>
   );

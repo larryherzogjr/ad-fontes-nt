@@ -10,5 +10,5 @@ export const libraryCollections=[
 export function collectionDestination(id:string){
  if(id==='overview')return '/library?view=overview';
  if(!libraryCollections.some(c=>c.id===id))throw Error('Unknown Library collection.');
- return id==='comparisons'?'/library':`/library?view=${id}`;
+ return `/library?view=${id}`;
 }

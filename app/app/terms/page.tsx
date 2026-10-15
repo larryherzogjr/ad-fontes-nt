@@ -1,3 +1,4 @@
+import AppLink from '@/components/app-link';
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
@@ -58,7 +59,7 @@ export default function TermsPage() {
       <p>
         These terms are governed by the laws of North Dakota and applicable
         United States federal law, without regard to conflict-of-law principles.
-        Questions may be sent to <a href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</a>.
+        Questions may be sent to <AppLink href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</AppLink>.
       </p>
     </PublicPage>
   );

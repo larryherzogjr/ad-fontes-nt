@@ -1,3 +1,4 @@
+import AppLink from '@/components/app-link';
 import { relatedResources } from '@/lib/domain/resources';
 import type { PassageRange } from '@/lib/domain/references';
 
@@ -11,9 +12,9 @@ export default function RelatedResources({ ranges }: { ranges: PassageRange[] })
       <ul>
         {matches.map(resource => (
           <li key={resource.id}>
-            <a href={resource.url} target="_blank" rel="noopener noreferrer">
+            <AppLink href={resource.url} target="_blank" rel="noopener noreferrer">
               {resource.title}<span className="sr-only"> (opens in a new tab)</span>
-            </a>
+            </AppLink>
             <span className="resource-kind">{resource.kind}</span>
           </li>
         ))}

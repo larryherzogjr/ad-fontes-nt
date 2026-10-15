@@ -36,7 +36,7 @@ test('textual studies retain Close and link back to the comparison collection', 
   const panel = await readFile(new URL('../app/reader/study-panel.tsx', import.meta.url), 'utf8');
   assert.match(panel, /aria-label="Close study panel"/);
   assert.match(panel, /aria-label="Study Library return"/);
-  assert.match(panel, /← Back to Study Library<\/a>/);
+  assert.match(panel, /← Back to Study Library<\/(?:a|AppLink)>/);
   assert.match(panel, /mode !== 'greek'/);
 });
 

@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import { useState } from 'react';
 import { loadLxx } from '@/lib/domain/lxx';
 import type { AnalysisSegment } from '@/lib/domain/greek';
@@ -12,6 +13,6 @@ export default function LxxUnpaired({segments}: {segments: AnalysisSegment[]}) {
     {error && <p role="status">{error}</p>}
     {!data && !error && <p role="status">Loading source verses…</p>}
     {data && !data.some(s => slugs.has(s.sourceRef.split('/')[0])) && <p>No unpaired source verses are recorded for these books.</p>}
-    {data?.filter(s => slugs.has(s.sourceRef.split('/')[0])).map(s => <p key={s.sourceRef} className="comparison-scripture"><small><a href={`/greek?verse=${encodeURIComponent(s.sourceRef)}`}>{s.sourceLabel} · explore this source verse</a></small> <span lang="grc">{s.text}</span></p>)}
+    {data?.filter(s => slugs.has(s.sourceRef.split('/')[0])).map(s => <p key={s.sourceRef} className="comparison-scripture"><small><AppLink href={`/greek?verse=${encodeURIComponent(s.sourceRef)}`}>{s.sourceLabel} · explore this source verse</AppLink></small> <span lang="grc">{s.text}</span></p>)}
   </details>;
 }

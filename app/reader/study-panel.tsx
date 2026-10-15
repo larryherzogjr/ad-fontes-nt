@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import HebrewPassage from './hebrew-passage';
 import { books } from '@/lib/domain/references';
 import { sourceManifest } from '@/lib/domain/original-languages';
@@ -64,7 +65,7 @@ function writeStudyTrail(value: StudyTrail) {
 }
 function CommentaryProse({ text, unit, onSource }: { text: string; unit: Variant; onSource: (id: string) => void }) {
   return <>{text.split('\n\n').map((paragraph, i) => <p key={i}>{paragraph.split(/(\[[SC]\d+(?:,\s*[SC]\d+)*\]|\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, j) => {
-    if (part.startsWith('[')) return <span key={j}>[{part.slice(1, -1).split(/,\s*/).map((id, n) => <span key={id}>{n > 0 && ', '}<a href={`#${unit.id}-source-${id}`} onClick={(event) => { event.preventDefault(); onSource(`${unit.id}-source-${id}`); }}>{id}</a></span>)}]</span>;
+    if (part.startsWith('[')) return <span key={j}>[{part.slice(1, -1).split(/,\s*/).map((id, n) => <span key={id}>{n > 0 && ', '}<AppLink href={`#${unit.id}-source-${id}`} onClick={(event) => { event.preventDefault(); onSource(`${unit.id}-source-${id}`); }}>{id}</AppLink></span>)}]</span>;
     if (part.startsWith('**') && part.endsWith('**')) return <strong key={j}>{part.slice(2, -2)}</strong>;
     if (part.startsWith('*') && part.endsWith('*')) return <em key={j}>{part.slice(1, -1)}</em>;
     return part;
@@ -527,9 +528,9 @@ export default function StudyPanel({
                   <p>
                     Selected-form transliteration is an application reading aid
                     based on the{' '}
-                    <a href="https://www.loc.gov/catdir/cpso/romanization/greek.pdf">
+                    <AppLink href="https://www.loc.gov/catdir/cpso/romanization/greek.pdf">
                       ALA-LC Greek letter table
-                    </a>
+                    </AppLink>
                     ; it omits accents and iota subscript, preserves marked
                     rough breathings, and does not infer missing breathings. It
                     is not phonetic notation.
@@ -634,7 +635,7 @@ export default function StudyPanel({
       </div>}
       </div><div className="study-content">
       <nav className="study-library-return" aria-label="Study Library return">
-        <a href={mode === 'hebrew' ? '/library?view=hebrew' : mode === 'commentary' ? (ot ? '/library?view=commentaries&commentary=kd' : '/library?view=commentaries') : mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library'}>← Back to Study Library</a>
+        <AppLink href={mode === 'hebrew' ? '/library?view=hebrew' : mode === 'commentary' ? (ot ? '/library?view=commentaries&commentary=kd' : '/library?view=commentaries') : mode === 'connections' ? '/library?view=connections' : mode === 'greek' ? (ot ? '/library?view=research' : '/library?view=lexicon') : '/library?view=comparisons'}>← Back to Study Library</AppLink>
       </nav>
       {source?.comparison}
       {mode === 'hebrew' && (source ? <>
@@ -652,7 +653,7 @@ export default function StudyPanel({
       {!source && !loading && !error && mode !== 'hebrew' && mode !== 'greek' && mode !== 'connections' && mode !== 'commentary' && (
         <>
           {!noteOnly && <details className="comparison-limits"><summary>About edition readings</summary><p>{ot ? 'Compare English translation wording. MSB uses the BSB OT wording; BLB remains a publisher draft. English wording differences alone do not establish a difference in the underlying Hebrew or Aramaic text.' : 'These are named editions, with their own wording and source placement. Differences in English wording alone do not establish a difference in the Greek text.'}</p></details>}
-          {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><a href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</a></p>; })}
+          {noteLinks.map(v => { const href = `${passageUrl(v.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=notes&unit=${v.id}`; return <p key={v.id}><AppLink href={href} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); followStudy(href); }}>Publisher note study · {v.title}</AppLink></p>; })}
           {!noteOnly && variants.filter(v => v.comparisonNotice).map(v => <p className="notice" key={v.id}>{v.comparisonNotice}</p>)}
           {noteOnly && <section hidden={section !== 'explanation'} aria-label="Publisher notes for this explanation">
             <h3>Publisher notes</h3>
@@ -681,12 +682,12 @@ export default function StudyPanel({
                   {!!v.relatedUnits?.length && <nav aria-label={`Related explanations for ${v.title}`}>
                     <h5>Related explanation</h5>
                     {relatedNotes.filter(other => v.relatedUnits?.includes(other.id)).map(other => <p key={other.id}>
-                      <a href={`${passageUrl(other.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=${other.presentation === 'publisher-note' ? 'notes' : 'compare'}&unit=${encodeURIComponent(other.id)}`} onClick={event => {
+                      <AppLink href={`${passageUrl(other.ranges, new URL(location.href).searchParams.get('translation') || 'BSB')}&panel=${other.presentation === 'publisher-note' ? 'notes' : 'compare'}&unit=${encodeURIComponent(other.id)}`} onClick={event => {
                         if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
                         event.preventDefault(); followStudy(new URL(event.currentTarget.href).pathname + new URL(event.currentTarget.href).search);
                       }}>
                         {formatPassage(other.ranges)} · {other.title}
-                      </a>
+                      </AppLink>
                     </p>)}
                   </nav>}
                 </article>
@@ -699,9 +700,9 @@ export default function StudyPanel({
               <summary>{v.title}</summary>
               <h4>Sources for this explanation</h4>
               <ul>{v.explanationSources?.map(c => <li key={c.id} id={`${v.id}-source-${c.id}`} tabIndex={-1}>
-                <strong>{c.id}</strong> · {c.url ? <a href={c.url}>{c.label}</a> : c.label}. {c.locator}
+                <strong>{c.id}</strong> · {c.url ? <AppLink href={c.url}>{c.label}</AppLink> : c.label}. {c.locator}
               </li>)}</ul>
-              <div className="source-links">{v.citations.map((c,i) => <a key={i} href={c.url}>{c.editionId} source</a>)}</div>
+              <div className="source-links">{v.citations.map((c,i) => <AppLink key={i} href={c.url}>{c.editionId} source</AppLink>)}</div>
             </details>)}
             {!variants.length && <p>No reviewed explanation is available for this selection.</p>}
             <a href="/about/sources">All sources, editions and coverage</a>
@@ -731,9 +732,9 @@ export default function StudyPanel({
                     return (
                       <article className="edition-reading" data-study-edition={e.name} key={e.editionId}>
                         <p className="compact-edition-group">{group}</p><h4>{e.name}</h4>
-                        <a href={passageUrl(ranges, e.editionId)}>
+                        <AppLink href={passageUrl(ranges, e.editionId)}>
                           Read in context
-                        </a>
+                        </AppLink>
                         <div className="study-controls"><button disabled={edition === e.editionId} onClick={() => followStudy(mainEditionUrl(ranges, e.editionId, location.href))}>{edition === e.editionId ? 'Main edition' : 'Make this the main edition'}</button></div>
                         {variants.map(v => {
                           const focus = v.readings.find(r => r.editionId === e.editionId)?.focus;
@@ -842,7 +843,7 @@ export default function StudyPanel({
               No Greek analysis is available for this selection. This does not mean the text is absent.
             </p>
           )}
-          {mainGreekReference && ot && <p><a href={sourceVerseUrl(mainGreekReference)}>Open Greek as the main view →</a></p>}
+          {mainGreekReference && ot && <p><AppLink href={sourceVerseUrl(mainGreekReference)}>Open Greek as the main view →</AppLink></p>}
           {wordError && !token && <p role="alert" className="error">{wordError}</p>}
           <div className={`greek-workspace${token ? ' has-word' : ''}`} data-study-edition={ot ? 'Septuagint · Rahlfs 1935' : editions.find(e => e.editionId === 'N1904')?.name}
             // Returning focus and reflow under a stationary pointer must not reopen previews.
@@ -905,9 +906,9 @@ export default function StudyPanel({
           {!source && ot && <LxxUnpaired segments={analysis} />}
           {ot && <p><a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p>}
           <p>
-            <a href={`/analysis/${ot ? lxxRelease : analysisInfo.releaseId}/manifest.json`}>
+            <AppLink href={`/analysis/${ot ? lxxRelease : analysisInfo.releaseId}/manifest.json`}>
               Analysis sources and coverage
-            </a>
+            </AppLink>
           </p>
         </>
       )}

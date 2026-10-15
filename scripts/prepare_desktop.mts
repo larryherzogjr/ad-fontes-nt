@@ -17,6 +17,7 @@ const visualSelections = [
   ...(visuals.supplements ?? []),
 ];
 const allowed = [
+  'fonts/ad-fontes-ui-v1',
   'confessions/triglotta-1921-2026-10-14-v4',
   'gospel-parallels/bsb-gospel-parallels-2026-10-14-v1',
   'om/hebrew-studies-2026-10-09-v2',

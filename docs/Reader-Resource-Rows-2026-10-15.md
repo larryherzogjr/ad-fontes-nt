@@ -1,0 +1,9 @@
+# Consistent reader resource rows — October 15, 2026
+
+AF-UI-016 addresses Larry’s Job 7, Matthew 6–7 and Malachi 1 screenshots. NT/OT connections now follows the Ordinary Means commentary disclosure: no row for a successfully loaded passage with zero connections; regular primary-colored label and the existing rounded `.count` badge when matches exist. Both disclosure summaries share their base font, line height, padding and 44px minimum height. The earlier compact chapter resource area remains in place.
+
+The badge counts distinct available publisher connection pairs for the selected passage/range. It does not collapse to zero when an open list’s classification filter has no results. Matching, source anchors, reviewed labels and source numbering are unchanged. Catalog loading uses a status message; catalog failure uses a visible alert, rather than appearing as a zero count. The embedded sidebar panel retains its explicit empty state and filtering behavior. OM commentary behavior is unchanged.
+
+Browser checks: Job 7:12–21 has no empty row; Malachi 1 displays badge 4 and opens with Enter; Matthew 6 displays both connections 4 and OM commentary 1 with identical computed font, color and badge background; Matthew 7 has no resource rows and its empty area is `display:none`. Checked 1440px, 390px and 320px widths, no horizontal overflow; both 390px disclosure targets are 44px tall. Evidence: `artifacts/review/reader-resource-rows/`.
+
+Local review only, still version 4.1.3; all preceding local work is preserved. Typecheck and the web build pass with all 184 application and 50 Python/source checks. The refreshed production-mode preview confirms both badges with no captured warnings/errors. No new offline/native artifact was built for this presentation follow-up. No source content, release pins, signing identities, production deployment or signed native build changes.

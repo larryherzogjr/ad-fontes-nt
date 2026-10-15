@@ -1,4 +1,5 @@
 'use client';
+import AppLink from '@/components/app-link';
 import {confessionRelease} from '@/lib/domain/confessions';
 import {gospelParallelsUrl,gospelBooks} from '@/lib/domain/gospel-parallels';
 import { noteContent } from './publisher-note-content';
@@ -540,7 +541,7 @@ export default function Reader() {
           <span>A biblical study environment from Ordinary Means.</span>
         </a>
         <nav aria-label="Primary">
-          <a
+          <AppLink
             className={mode === 'read' ? 'active' : ''}
             href={`/read/${current.book.code}/${current.chapter}`}
             onClick={(e) => {
@@ -549,7 +550,7 @@ export default function Reader() {
             }}
           >
             Read
-          </a>
+          </AppLink>
           <a href="/library">Library</a>
           <a
             href="/about/sources"
@@ -568,9 +569,9 @@ export default function Reader() {
         <details className="mobile-nav">
           <summary>Menu</summary>
           <nav aria-label="Mobile primary">
-            <a className={mode === 'read' ? 'active' : ''} href={`/read/${current.book.code}/${current.chapter}`}>Read</a>
+            <AppLink className={mode === 'read' ? 'active' : ''} href={`/read/${current.book.code}/${current.chapter}`}>Read</AppLink>
             <a href="/library">Library</a>
-            <a href={`/about/sources?translation=${encodeURIComponent(edition)}`}>Sources &amp; Editions</a>
+            <AppLink href={`/about/sources?translation=${encodeURIComponent(edition)}`}>Sources &amp; Editions</AppLink>
 
           <a href="/downloads">Downloads</a>
             <span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
@@ -621,7 +622,7 @@ export default function Reader() {
         </div>
           <button type="submit">OK</button>
         </form>
-        {!!recentPassages.length && <div className="recent-passages"><strong>Recent passages</strong>{recentPassages.slice(0, 4).map(item => <a key={item.url} href={item.url}><span>{item.label}</span><small>{item.detail}</small></a>)}</div>}
+        {!!recentPassages.length && <div className="recent-passages"><strong>Recent passages</strong>{recentPassages.slice(0, 4).map(item => <AppLink key={item.url} href={item.url}><span>{item.label}</span><small>{item.detail}</small></AppLink>)}</div>}
             </PopoverContent>
           </Popover>
           <button className="chapter-step" aria-label="Next chapter" disabled={!next} onClick={() => next && goBook(next.book, next.chapter)}>→</button>
@@ -716,7 +717,7 @@ export default function Reader() {
                 {otReading&&<button className="study-tool hebrew-tool" id="open-hebrew" aria-pressed={study==='hebrew'} onClick={()=>openStudy('hebrew')}><span className="tool-symbol" aria-hidden="true">א</span>Hebrew</button>}
                 <button className="study-tool" id="open-commentary" aria-pressed={study==='commentary'} onClick={() => openStudy('commentary')}>Commentaries</button>
                 <button className="study-tool connections-tool" id="open-connections" aria-pressed={study==='connections'} onClick={() => openStudy('connections')}><span className="tool-symbol" aria-hidden="true">↔</span>NT/OT Connections</button>
-                {ranges.some(r=>gospelBooks.includes(r.start.split('.')[0]))&&<a className="study-tool" href={gospelParallelsUrl(ranges,edition)}>Gospel parallels</a>}
+                {ranges.some(r=>gospelBooks.includes(r.start.split('.')[0]))&&<AppLink className="study-tool" href={gospelParallelsUrl(ranges,edition)}>Gospel parallels</AppLink>}
                 {!!relatedResources(ranges).length && <button className="study-tool resource-tool" onClick={() => openDisclosure('related-resources')}><span className="tool-symbol" aria-hidden="true">↗</span>Resources <span className="count">{relatedResources(ranges).length}</span></button>}
                 <button className="study-tool focus-tool" aria-pressed={focusMode} onClick={() => setFocusMode(!focusMode)}><span className="tool-symbol" aria-hidden="true">◫</span>{focusMode ? 'Exit focus' : 'Focus'}</button>
               </div>
@@ -754,9 +755,9 @@ export default function Reader() {
                 </PopoverContent>
               </Popover>
             </div>
-            {showGuide && <details className="reader-guide"><summary>Reader guide</summary><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></details>}
+
             <div className="reader-selection-status">
-              <a href={packetUrl(ranges,edition)}>Create study packet</a>
+              <AppLink href={packetUrl(ranges,edition)}>Create study packet</AppLink>
 
               {explicitPassage && <p className="reader-hint">Selected: {formatPassage(ranges)}</p>}
               <Popover open={versePickerOpen} onOpenChange={toggleVersePicker}>
@@ -794,6 +795,7 @@ export default function Reader() {
                   {selectionCopyStatus}
                 </output>
               )}
+              {showGuide && <details className="reader-guide"><summary>Reader guide</summary><div><strong>Three ways to study</strong><button aria-label="Dismiss reader guide" onClick={dismissGuide}>×</button></div><ol><li><b>Choose a verse number</b> {'for comparisons, Greek and NT/OT connections.'}</li><li><b>OM</b> opens reviewed Ordinary Means {otEnabled ? 'NT ' : ''}commentary.</li><li><b>†</b> opens a note supplied by the selected edition’s publisher.</li></ol></details>}
             </div>
             <ReadingSelection
               editionName={editionMeta.name}
@@ -802,7 +804,6 @@ export default function Reader() {
               onOpen={openStudy}
             />
             {study && <StudyPanel ranges={ranges} mode={study} edition={edition} onClose={closeStudy} />}
-            <TestamentConnections ranges={ranges} edition={edition} />
             {chapters.map((ch, chapterIndex) => (
               <section key={`${ch.book}.${ch.chapter}`} className={isOtBook(ch.book) ? 'chapter ot-chapter' : 'chapter'}>
                 {isOtBook(ch.book) && <p className="ot-edition-disclosure">{edition === 'MSB' ? 'MSB uses the BSB Old Testament wording.' : edition === 'BLB' ? 'Berean Literal Bible — publisher early draft. Supplied-word brackets are retained.' : 'Old Testament English reading.'}</p>}
@@ -811,7 +812,10 @@ export default function Reader() {
                   {books.find((b) => b.code === ch.book)?.name}{' '}
                   <span>{ch.chapter}</span>
                 </h1></div>}
-                <ReviewedMarkers book={ch.book} chapter={ch.chapter} units={reviewed.units} error={reviewed.error} onOpen={openReviewed} />
+                <div className="chapter-resource-area">
+                  {chapterIndex === 0 && <TestamentConnections ranges={ranges} edition={edition} />}
+                  <ReviewedMarkers book={ch.book} chapter={ch.chapter} units={reviewed.units} error={reviewed.error} onOpen={openReviewed} />
+                </div>
                 {coverageNotices(ch).map(({ coverage: c, anchors }) => (
                   <aside
                     key={formatReference(c.anchor)}
@@ -855,7 +859,7 @@ export default function Reader() {
                     const content = b.runs.map((r, j) =>
                       r.verse ? (
                         <sup key={j} id={r.anchor} className={explicitPassage && b.role !== 'publisher-heading' && b.role !== 'publisher-alternative' && verseAnchors(ch, r).some(anchor => selection.current.has(anchor)) ? 'selected-number' : undefined} data-sync-anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? undefined : verseAnchors(ch, r).join(' ')}>
-                          <a
+                          <AppLink
                             id={`study-verse-${ch.book}-${ch.chapter}-${i}-${j}`}
                             aria-label={`Study ${formatReference(r.anchor!)}`}
                             data-study-reference={
@@ -867,7 +871,7 @@ export default function Reader() {
                             href={verseLink(ch, r.anchor!, r.sourceAnchor)}
                           >
                             {r.verse}
-                          </a>
+                          </AppLink>
                           <InlineReviewedMarkers units={reviewed.units} anchors={b.role === 'publisher-heading' || b.role === 'publisher-alternative' ? [] : verseAnchors(ch, r)} idPrefix={`verse-commentary-${ch.book}-${ch.chapter}-${i}-${j}`} onOpen={openReviewed} />
                         </sup>
                       ) : r.noteId ? (
@@ -1029,7 +1033,7 @@ export default function Reader() {
             </p>
             {results?.hits.map((h) => (
               <article key={h.anchor}>
-                <a
+                <AppLink
                   href={link([{ start: h.anchor, end: h.anchor }])}
                   onClick={(e) => {
                     e.preventDefault();
@@ -1038,7 +1042,7 @@ export default function Reader() {
                 >
                   {books.find((b) => b.code === h.book)?.name}{' '}
                   {h.anchor.split('.').slice(1).join(':')}
-                </a>
+                </AppLink>
                 <p>{searchHighlights(h.text, query).map((part, i) => part.match ? <mark key={i} className="search-match">{part.text}</mark> : part.text)}</p>
               </article>
             ))}
@@ -1095,11 +1099,11 @@ export default function Reader() {
                 </dl>
                 <p>{e.rights}</p>
                 <p>
-                  <a href={e.url}>Source publisher or repository</a> ·{' '}
-                  <a href={e.rightsUrl}>Rights evidence</a> ·{' '}
-                  <a href={`/corpus/${e.releaseId}/manifest.json`}>
+                  <AppLink href={e.url}>Source publisher or repository</AppLink> ·{' '}
+                  <AppLink href={e.rightsUrl}>Rights evidence</AppLink> ·{' '}
+                  <AppLink href={`/corpus/${e.releaseId}/manifest.json`}>
                     Manifest and checksums
-                  </a>
+                  </AppLink>
                 </p>
               </section>
             ))}
@@ -1107,7 +1111,7 @@ export default function Reader() {
             <p>English comparison reflects translation wording, not independent manuscript witnesses. Septuagint reading and interlinear are available through Explore Greek. Hebrew study is not yet available.</p>
             {['BSB', 'BLB', 'MSB', 'YLT'].map(id => {
               const e = otEdition(id)!;
-              return <section key={id} className="source-edition"><h3>{id === 'BLB' ? 'BLB — publisher draft' : id}</h3><p>{e.scope} · {e.releaseId}</p><p>{e.authority}</p><p>{e.rights}</p><a href={`/corpus/${e.releaseId}/manifest.json`}>OT source manifest</a></section>;
+              return <section key={id} className="source-edition"><h3>{id === 'BLB' ? 'BLB — publisher draft' : id}</h3><p>{e.scope} · {e.releaseId}</p><p>{e.authority}</p><p>{e.rights}</p><AppLink href={`/corpus/${e.releaseId}/manifest.json`}>OT source manifest</AppLink></section>;
             })}
             <h2>About this environment</h2>
             <p>
@@ -1122,7 +1126,7 @@ export default function Reader() {
               material are separate content categories; none is mixed into this
               Scripture text.
             </p>
-            <h2>Book of Concord · Confessional sources</h2><p>The included English Triglot Concordia (1921), translated by F. Bente and W. H. T. Dau, contains nine supplied confessional documents. Its quotations and source numbering are kept distinct from Scripture and Ordinary Means commentary. Explicit Scripture citations support partial navigation; no thematic connection is generated. Latin/German source files and their unverified paragraph joins are not included.</p><p><a href="https://bookofconcord.org/sitepages/">Publisher public-domain statement</a> · <a href="https://bookofconcord.org/about-the-translation/">Translation details</a> · <a href={`/confessions/${confessionRelease}/manifest.json`}>Confessional source pins and matching limits</a> · <a href="/library?view=confessions">Read confessional documents</a></p>
+            <h2>Book of Concord · Confessional sources</h2><p>The included English Triglot Concordia (1921), translated by F. Bente and W. H. T. Dau, contains nine supplied confessional documents. Its quotations and source numbering are kept distinct from Scripture and Ordinary Means commentary. Explicit Scripture citations support partial navigation; no thematic connection is generated. Latin/German source files and their unverified paragraph joins are not included.</p><p><AppLink href="https://bookofconcord.org/sitepages/">Publisher public-domain statement</AppLink> · <AppLink href="https://bookofconcord.org/about-the-translation/">Translation details</AppLink> · <AppLink href={`/confessions/${confessionRelease}/manifest.json`}>Confessional source pins and matching limits</AppLink> · <a href="/library?view=confessions">Read confessional documents</a></p>
             <h2>Greek word analysis</h2>
             <p>
               Nestle 1904 morphology and lemmas by Ulrik Sandborg-Petersen, v1.3
@@ -1141,9 +1145,9 @@ export default function Reader() {
               artifact. No English word alignment is assumed.
             </p>
             <p>
-              <a href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
+              <AppLink href={`/analysis/${analysisInfo.releaseId}/manifest.json`}>
                 Analysis sources, rights, checksums and coverage
-              </a>
+              </AppLink>
             </p>
             <h2>Septuagint study</h2><p>Rahlfs 1935 Greek word-token transcription with morphology by Seth Kushniryk / Open Scriptorium and Eliran Wong lexical glosses. Joshua uses Vaticanus B; Judges uses Alexandrinus A; Daniel uses Old Greek. Source numbering is preserved separately from English references. Original token surfaces are separated by spaces; this transcription does not supply punctuation. Glosses attach only to exact ordered verse matches. Upstream automated morphology, confidence and unknown values are retained; no English word alignment is established.</p><p><a href="/analysis/lxx-rahlfs-1935-2026-10-07-v3/manifest.json">Septuagint mapping provenance and coverage</a> · <a href="/analysis/lxx-source-notices-2026-10-07-v1.json">Original source notices and attribution</a></p><h2>Greek definitions and word studies</h2>
             <p>Short and longer definitions come from John Jeffrey Dodson’s Greek Lexicon (2010), using the pinned Biblical Humanities Unicode XML. Its original author notice dedicates the lexicon to the public domain; the repository also supplies CC0 terms. Headword and source-number agreement are required; uncertain matches remain unavailable. Definitions describe a word’s meaning range, not an automatic interpretation of a verse.</p>

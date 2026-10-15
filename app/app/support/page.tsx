@@ -1,3 +1,4 @@
+import AppLink from '@/components/app-link';
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
 
@@ -8,7 +9,7 @@ export default function SupportPage() {
     <PublicPage eyebrow="Help and contact" title="Support">
       <p>
         For help, corrections, privacy requests, requests about retained legacy data, or responsible
-        security reports, email <a href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</a>.
+        security reports, email <AppLink href="mailto:larry@larryherzogjr.com">larry@larryherzogjr.com</AppLink>.
       </p>
 
       <h2>When reporting a problem</h2>

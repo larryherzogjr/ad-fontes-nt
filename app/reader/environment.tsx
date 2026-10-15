@@ -1,9 +1,10 @@
 'use client';
+import AppLink from '@/components/app-link';
 import { createContext, useContext, type ComponentType } from 'react';
 import type { WordLink } from '@/lib/domain/lexical';
 
 export function WebsiteWordStudyLink({ link }: { link: WordLink }) {
-  return <p className="word-study-link"><a href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</a><small>Ordinary Means commentary{link.access !== 'free' ? ' · Website access requirements apply' : ''} · opens in a new tab</small></p>;
+  return <p className="word-study-link"><AppLink href={link.url} target="_blank" rel="noopener noreferrer">Read Larry’s word study: {link.title} ↗</AppLink><small>Ordinary Means commentary{link.access !== 'free' ? ' · Website access requirements apply' : ''} · opens in a new tab</small></p>;
 }
 
 export const ReaderEnvironment = createContext<{

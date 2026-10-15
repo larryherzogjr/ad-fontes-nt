@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "ad-fontes-ui-v1",
+  "license": "SIL Open Font License 1.1",
+  "files": {
+    "SourceSerif4-Regular.otf.woff2": {
+      "bytes": 107408,
+      "sha256": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402"
+    },
+    "SourceSerif4-Semibold.otf.woff2": {
+      "bytes": 112092,
+      "sha256": "7eff2d2fde32c42992e723eb24dcc6dc5b640ef0da97ce373cd38e0604202e30"
+    },
+    "source-serif-LICENSE.md": {
+      "bytes": 4491,
+      "sha256": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/80d3f8894c09c937bebfa9011247d2e1c79fd6f4/LICENSE.md"
+    },
+    "SourceSans3VF-Upright.otf.woff2": {
+      "bytes": 164736,
+      "sha256": "f9e4eac0e8f8ffdae91cf6eff3962b96e81417cba5c728bc1c89efe9510e7653"
+    },
+    "source-sans-LICENSE.md": {
+      "bytes": 4486,
+      "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/87b37a2daaed80fcb8e8ccb0085c4d72ddade12e/LICENSE.md"
+    }
+  },
+  "faces": [
+    {
+      "file": "SourceSerif4-Regular.otf.woff2",
+      "upstream": "https://github.com/adobe-fonts/source-serif",
+      "commit": "80d3f8894c09c937bebfa9011247d2e1c79fd6f4",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/80d3f8894c09c937bebfa9011247d2e1c79fd6f4/WOFF2/OTF/SourceSerif4-Regular.otf.woff2",
+      "version": [
+        "Version 4.005;hotconv 1.1.0;makeotfexe 2.6.0"
+      ],
+      "axes": {},
+      "weight": 400,
+      "family": "Source Serif 4",
+      "protectedScriptsExcludedByCss": true
+    },
+    {
+      "file": "SourceSerif4-Semibold.otf.woff2",
+      "upstream": "https://github.com/adobe-fonts/source-serif",
+      "commit": "80d3f8894c09c937bebfa9011247d2e1c79fd6f4",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/80d3f8894c09c937bebfa9011247d2e1c79fd6f4/WOFF2/OTF/SourceSerif4-Semibold.otf.woff2",
+      "version": [
+        "Version 4.005;hotconv 1.1.0;makeotfexe 2.6.0"
+      ],
+      "axes": {},
+      "weight": 600,
+      "family": "Source Serif 4 Semibold",
+      "protectedScriptsExcludedByCss": true
+    },
+    {
+      "file": "SourceSans3VF-Upright.otf.woff2",
+      "upstream": "https://github.com/adobe-fonts/source-sans",
+      "commit": "87b37a2daaed80fcb8e8ccb0085c4d72ddade12e",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/87b37a2daaed80fcb8e8ccb0085c4d72ddade12e/WOFF2/VF/SourceSans3VF-Upright.otf.woff2",
+      "version": [
+        "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0"
+      ],
+      "axes": {
+        "wght": [
+          200.0,
+          200.0,
+          900.0
+        ]
+      },
+      "weight": 200,
+      "family": "SourceSans3VF",
+      "protectedScriptsExcludedByCss": true
+    }
+  ],
+  "fontBytes": 384236,
+  "cssUnicodeRange": "U+0000-02FF,U+0300-036F,U+1D00-1DBF,U+1E00-1EFF,U+2000-206F,U+2070-209F,U+20A0-20CF,U+2100-214F,U+2C60-2C7F,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB06",
+  "coverageVerification": {
+    "method": "fontTools getBestCmap; original font bytes retained",
+    "sample": "ĀāĒēĪīŌōŪūḤḥṢṣṬṭʿʾ",
+    "sampleMissingGlyphs": [],
+    "excludedBlocks": [
+      "Greek and Coptic U+0370–03FF",
+      "Hebrew U+0590–05FF",
+      "Greek Extended U+1F00–1FFF"
+    ]
+  }
+}
