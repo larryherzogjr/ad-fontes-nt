@@ -20,6 +20,8 @@ Frozen Mac artifacts: `artifacts/desktop/evaluation/mac/signed-4.3.4-73c4cff/`. 
 
 Actual frozen signed-app smoke passes: separate evaluation title/menu, both BoC editions' Small Catechism text and cross-edition navigation, Concordia volume catalog, quoted phrase search (271 matching Concordia sections), Greek excerpt/source context, Escape return, and unpaired update refusal with website pairing guidance. Only the candidate app is quit. Screenshot: `artifacts/review/evaluation-2026-10-16/signed-mac-context.png`. No live pairing/update delivery or Windows result is inferred.
 
+All three Mac delivery files are privately staged at `~/ad-fontes-evaluation/private/evaluation/incoming/mac/4.3.4-73c4cff/`, outside the served download directory. Independent host SHA-256 checks match every frozen local artifact. Public production remains on `2b56fbf` with healthy responses; no evaluation Nginx site/TLS deployment has occurred.
+
 Prepared private frontend archive: `private/evaluation/build-input/4.3.4-73c4cff/evaluation-web.tar.gz`, SHA-256 `d6180eb7d3d13aca367ebfd9878215f6145d2198452d2b1febfed6e4538cacdf`. It has not been uploaded to GitHub. The private publication preparer still refuses missing Windows/exact-artifact verification evidence; no publication metadata has been generated.
 
 ## Pending
