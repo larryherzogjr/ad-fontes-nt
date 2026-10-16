@@ -1,0 +1,206 @@
+name: Windows evaluation signed release
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_sha:
+        description: Exact reviewed evaluation source commit
+        required: true
+        type: string
+      input_release:
+        description: Private draft release tag containing encrypted evaluation-web.enc
+        required: true
+        type: string
+      archive_sha256:
+        description: SHA-256 of the verified plaintext frontend archive
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: windows-evaluation-signed-release
+  cancel-in-progress: false
+
+jobs:
+  windows:
+    if: github.ref == 'refs/heads/main'
+    runs-on: windows-2022
+    timeout-minutes: 60
+    env:
+      AF_EDITION: evaluation
+      CARGO_TERM_COLOR: always
+      AZURE_ARTIFACT_SIGNING_ENDPOINT: https://cus.codesigning.azure.net
+      AZURE_ARTIFACT_SIGNING_ACCOUNT: adfontesntsigning
+      AZURE_ARTIFACT_SIGNING_CERTIFICATE_PROFILE: AdFontesNTRelease
+      TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+      TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+    steps:
+      - name: Validate release inputs
+        shell: pwsh
+        env:
+          SOURCE_SHA: ${{ inputs.source_sha }}
+          INPUT_RELEASE: ${{ inputs.input_release }}
+          ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
+        run: |
+          if ($env:SOURCE_SHA -cnotmatch '^[a-f0-9]{40}$') { throw 'Exact source commit required' }
+          if ($env:ARCHIVE_SHA256 -cnotmatch '^[a-f0-9]{64}$') { throw 'Exact archive hash required' }
+          if ($env:INPUT_RELEASE -cnotmatch '^evaluation-build-input-[a-zA-Z0-9-]+$') { throw 'Evaluation build input tag required' }
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.source_sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.18.0'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm --prefix app ci
+      - name: Install pinned Rust toolchain
+        run: |
+          rustup toolchain install 1.94.0 --profile minimal
+          rustup default 1.94.0
+      - name: Retrieve and verify private frontend
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVALUATION_BUILD_KEY: ${{ secrets.EVALUATION_BUILD_KEY }}
+          INPUT_RELEASE: ${{ inputs.input_release }}
+          ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
+        run: |
+          New-Item -ItemType Directory -Force prepared | Out-Null
+          gh release view $env:INPUT_RELEASE --json isDraft --jq '.isDraft' | Tee-Object -Variable draft
+          if ($LASTEXITCODE -ne 0 -or $draft -ne 'true') { throw 'Only private draft build inputs are allowed' }
+          gh release download $env:INPUT_RELEASE --pattern evaluation-web.enc --dir prepared
+          if ($LASTEXITCODE -ne 0) { throw 'Private input download failed' }
+          node scripts/evaluation/build_transport.mjs decrypt prepared/evaluation-web.enc prepared/evaluation-web.tar.gz $env:ARCHIVE_SHA256
+          if ($LASTEXITCODE -ne 0) { throw 'Private input authentication failed' }
+          New-Item -ItemType Directory -Force app/desktop/evaluation-dist | Out-Null
+          tar -xzf prepared/evaluation-web.tar.gz -C app/desktop/evaluation-dist
+          if ($LASTEXITCODE -ne 0) { throw 'Private frontend extraction failed' }
+          node scripts/evaluation/verify_frontend.mts
+          if ($LASTEXITCODE -ne 0) { throw 'Private frontend verification failed' }
+          npm run test:evaluation
+          if ($LASTEXITCODE -ne 0) { throw 'Evaluation security checks failed' }
+      - name: Sign in to Azure with GitHub OIDC
+        uses: azure/login@a641126d1b8aa4d1fa005f4f92df94a3a4c4c906 # v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Prepare pinned Artifact Signing client tools
+        timeout-minutes: 5
+        shell: pwsh
+        run: |
+          $root = Join-Path $env:RUNNER_TEMP 'ad-fontes-signing-tools'
+          $sdkPackage = Join-Path $root 'Microsoft.Windows.SDK.BuildTools.10.0.28000.2705.nupkg'
+          $clientPackage = Join-Path $root 'Microsoft.ArtifactSigning.Client.1.0.128.nupkg'
+          New-Item -ItemType Directory -Force $root | Out-Null
+          Write-Host 'Downloading pinned Microsoft signing packages.'
+          & curl.exe --fail --location --silent --show-error --retry 3 --max-time 120 `
+            --output $sdkPackage `
+            'https://api.nuget.org/v3-flatcontainer/microsoft.windows.sdk.buildtools/10.0.28000.2705/microsoft.windows.sdk.buildtools.10.0.28000.2705.nupkg'
+          if ($LASTEXITCODE -ne 0) { throw 'Windows SDK Build Tools download failed' }
+          & curl.exe --fail --location --silent --show-error --retry 3 --max-time 120 `
+            --output $clientPackage `
+            'https://api.nuget.org/v3-flatcontainer/microsoft.artifactsigning.client/1.0.128/microsoft.artifactsigning.client.1.0.128.nupkg'
+          if ($LASTEXITCODE -ne 0) { throw 'Artifact Signing client download failed' }
+          $sdkHash = (Get-FileHash $sdkPackage -Algorithm SHA256).Hash.ToLowerInvariant()
+          $clientHash = (Get-FileHash $clientPackage -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($sdkHash -ne '8bfdfb6ca2633f531cf80b5fa22512ba61a394d7988f0970db83baadc67929ed') {
+            throw "Windows SDK Build Tools checksum mismatch: $sdkHash"
+          }
+          if ($clientHash -ne '74bd7d27e6ce1051409c38d9b46bc8df0400ecd643d51ffbf2ac00869061e40b') {
+            throw "Artifact Signing client checksum mismatch: $clientHash"
+          }
+          $sdkRoot = Join-Path $root 'sdk'
+          $clientRoot = Join-Path $root 'client'
+          New-Item -ItemType Directory -Force -Path $sdkRoot, $clientRoot | Out-Null
+          Copy-Item $sdkPackage "$sdkPackage.zip"
+          Copy-Item $clientPackage "$clientPackage.zip"
+          Expand-Archive -LiteralPath "$sdkPackage.zip" -DestinationPath $sdkRoot
+          Expand-Archive -LiteralPath "$clientPackage.zip" -DestinationPath $clientRoot
+          $signTool = Join-Path $sdkRoot 'bin\10.0.28000.0\x64\signtool.exe'
+          $dlib = Join-Path $clientRoot 'bin\x64\Azure.CodeSigning.Dlib.dll'
+          if (-not (Test-Path -LiteralPath $signTool)) { throw 'Pinned x64 SignTool is missing' }
+          if (-not (Test-Path -LiteralPath $dlib)) { throw 'Pinned x64 Artifact Signing dlib is missing' }
+          if (-not (dotnet --list-runtimes | Select-String '^Microsoft.NETCore.App 8\.')) {
+            throw '.NET 8 runtime required by Artifact Signing is missing'
+          }
+          "AZURE_ARTIFACT_SIGNING_SIGNTOOL=$signTool" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "AZURE_ARTIFACT_SIGNING_DLIB=$dlib" | Out-File -FilePath $env:GITHUB_ENV -Append
+          $signingScript = (Resolve-Path 'app/desktop/src-tauri/windows_artifact_sign.ps1').Path
+          $wrapper = Join-Path $env:RUNNER_TEMP 'ad-fontes-artifact-sign.cmd'
+          @"
+          @"C:\Program Files\PowerShell\7\pwsh.exe" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "$signingScript" %*
+          "@ | Set-Content -LiteralPath $wrapper -Encoding ascii
+          $env:RUNNER_TEMP | Out-File -FilePath $env:GITHUB_PATH -Append
+          Write-Host 'Pinned Artifact Signing toolchain is ready.'
+      - name: Verify Artifact Signing service
+        timeout-minutes: 5
+        shell: pwsh
+        run: |
+          $preflight = Join-Path $env:RUNNER_TEMP 'ad-fontes-artifact-signing-preflight.exe'
+          Copy-Item "$env:SystemRoot/System32/where.exe" $preflight
+          try {
+            & app/desktop/src-tauri/windows_artifact_sign.ps1 $preflight
+            if ($LASTEXITCODE -ne 0) { throw "Artifact Signing preflight failed with exit code $LASTEXITCODE" }
+          } finally {
+            Remove-Item -LiteralPath $preflight -Force -ErrorAction SilentlyContinue
+          }
+      - name: Build signed evaluation NSIS installer and updater
+        run: node scripts/desktop.mjs build --config src-tauri/tauri.evaluation.conf.json --config src-tauri/tauri.evaluation.windows.conf.json --config ci-windows-release.json --bundles nsis -- --locked
+      - name: Verify evaluation installation isolation
+        shell: pwsh
+        run: |
+          $installers = @(Get-ChildItem 'app/desktop/src-tauri/target/release/bundle/nsis/*-setup.exe')
+          if ($installers.Count -ne 1) { throw 'Expected exactly one evaluation installer' }
+          & deployment/evaluation/test-windows-isolation.ps1 -Installer $installers[0].FullName
+      - name: Verify and collect signed evaluation artifacts
+        shell: pwsh
+        env:
+          SOURCE_SHA: ${{ inputs.source_sha }}
+          ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
+        run: |
+          $installers = @(Get-ChildItem 'app/desktop/src-tauri/target/release/bundle/nsis/*-setup.exe')
+          if ($installers.Count -ne 1) { throw 'Expected exactly one evaluation installer' }
+          $installer = $installers[0].FullName
+          $signature = "$installer.sig"
+          if (-not (Test-Path $signature)) { throw 'Updater signature missing' }
+          & $env:AZURE_ARTIFACT_SIGNING_SIGNTOOL verify /pa /all /v $installer
+          if ($LASTEXITCODE -ne 0) { throw 'Installer signature verification failed' }
+          $output = 'artifacts/desktop/evaluation-windows'
+          New-Item -ItemType Directory -Force $output | Out-Null
+          Copy-Item $installer $output
+          Copy-Item $signature $output
+          $config = Get-Content app/desktop/src-tauri/tauri.evaluation.conf.json | ConvertFrom-Json
+          @{
+            edition = 'evaluation'
+            identifier = $config.identifier
+            version = $config.version
+            commit = $env:SOURCE_SHA
+            workflowCommit = '${{ github.sha }}'
+            run = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+            resourceReleaseId = 'evaluation-resources-2026-10-16-v1'
+            frontendArchiveSha256 = $env:ARCHIVE_SHA256
+            windowsAuthenticodeVerified = $true
+            installIsolationVerified = $true
+            installerSha256 = (Get-FileHash $installer -Algorithm SHA256).Hash.ToLowerInvariant()
+            updaterSignatureSha256 = (Get-FileHash $signature -Algorithm SHA256).Hash.ToLowerInvariant()
+          } | ConvertTo-Json | Set-Content "$output/BUILD-INFO.json" -Encoding utf8
+          Get-ChildItem $output -File | Sort-Object Name | ForEach-Object {
+            "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)"
+          } | Set-Content "$output/SHA256SUMS.txt" -Encoding utf8
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: Ad-Fontes-Evaluation-Windows-x64-signed
+          path: artifacts/desktop/evaluation-windows/
+          retention-days: 7
+          if-no-files-found: error
+      - name: Remove private build inputs
+        if: always()
+        shell: pwsh
+        run: |
+          Remove-Item prepared,app/desktop/evaluation-dist -Recurse -Force -ErrorAction SilentlyContinue
