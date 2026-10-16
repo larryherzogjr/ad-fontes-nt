@@ -6,7 +6,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 4.3.3 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 4.3.4 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -29,19 +29,20 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.3/Ad-Fontes-macOS-Apple-Silicon-4.3.3.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.3/Ad-Fontes-Windows-x64-4.3.3.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.4/Ad-Fontes-macOS-Apple-Silicon-4.3.4.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.4/Ad-Fontes-Windows-x64-4.3.4.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 4.3.3 includes whole-Bible English reading and comparison,
+        Version 4.3.4 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 110 reviewed textual comparisons,
         their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
-        lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries.
+        lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries
+        and the ISBE (1915) and Lutheran Cyclopedia (1899) encyclopedias.
         Reading and these study resources work offline.
         Choose the package for your computer.
         Freely available. Public reading and study tools require no account.
@@ -55,7 +56,7 @@ export default function DownloadsPage() {
           <AppLink className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </AppLink>
-          <p className="download-detail">Developer ID signed and Apple notarized · 365 MB</p>
+          <p className="download-detail">Developer ID signed and Apple notarized · 406 MB</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -65,7 +66,7 @@ export default function DownloadsPage() {
           <AppLink className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </AppLink>
-          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 578 MB</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 619 MB</p>
         </section>
       </div>
 
@@ -82,6 +83,7 @@ export default function DownloadsPage() {
       </p>
 
       <h2>Release notes</h2>
+      <p>Version 4.3.4 adds the Encyclopedias Library collection: ISBE (1915) and The Lutheran Cyclopedia (1899), with 11,468 articles, both front-matter readings, A–Z and heading browsing, full article pages, source cross-references, bookmarks, full-text search and offline access. Historical wording and source distinctions are preserved.</p>
       <p>Version 4.3.3 removes Confessional Connections and the Book of Concord resources, including their reader, search, Study Packet option and offline content. Old links return to the Library, and saved packets still work. The desktop website-navigation fix is included.</p>
       <p>Version 4.3.2 fixes desktop website navigation. Downloads, Privacy, Terms and Support open their public page in your system browser while your study stays open in the app. Reading, Library and Sources remain available locally.</p>
       <p>Version 4.3.1 retires the Historical Writings collection and its Walther, Krauth, Josephus and Edersheim materials from browsing, search and offline packages. The remaining twelve Library collections and Ordinary Means imprints continue to be included.</p>

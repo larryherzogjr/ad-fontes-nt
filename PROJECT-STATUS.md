@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — 4.3.4 signed, verified and privately staged (AF-LIB-005)
+
+Larry's authorized **4.3.4** encyclopedia release is prepared from pushed native source `e537c8179ee2de10f057d225d6b09e1c87e40008`. Fresh local Node 24 and clean Linux CI verification pass (189 application / 51 source / 20 desktop checks; 73,035 offline assets). Mac signing/notarization, mounted/extracted artifact/signature checks and actual native encyclopedia/search/keyboard smoke pass. Windows workflow 38944358942 passes signing, legacy upgrade, repeated update and fresh install/uninstall. Final Node 22 website typecheck/build and final browser/download/320px checks pass. [Exact artifacts, evidence and limitations](docs/V4.3.4-Desktop-Release-2026-10-16.md).
+
+Both signed apps and the combined updater are privately staged and host-hash-verified. Manifest SHA-256 `022fd376de966d2a87dc77584dec961ff41c1fe19c5f8c7c88f3ffa225c030ed`. Final download metadata and public checksums are ready for main. Next: Larry's guarded own-terminal sudo command required by AGENTS.md, then independent live verification. Stable production remains **4.3.3** until execution. Earlier preparation entries are historical. Source/search/editorial predecessor pins, native/signing identities, retired collections, closed acceptance and private/legacy data remain preserved.
+
 ## 2026-10-16 — 4.3.4 release authorized (AF-LIB-005)
 
 Larry accepts the encyclopedia candidate and authorizes commit, push and release to the website and signed Mac/Windows apps as **4.3.4**. Shared/native versions advance while preserving source/search predecessor pins, package/signing/updater identities, retired collections and private/legacy data. The reviewed v2 encyclopedia/v7 search projection is selected for publication. [Release preparation and exact-artifact record](docs/V4.3.4-Desktop-Release-2026-10-16.md).
