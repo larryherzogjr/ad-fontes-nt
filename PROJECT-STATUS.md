@@ -1,5 +1,12 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — 4.3.3 signed, verified and privately staged (AFNT-119 / AFNT-102 / AF-UI-040)
+
+Larry’s authorized **4.3.3** release is prepared from pushed native source `17d863e9d5a4139892d4403e535f71b24a00c431`: Confessional Connections/Book of Concord retirement plus the desktop Downloads fix. Eleven Library collections remain. Fresh Node 24 local and clean Linux CI verification pass (184 application / 50 source / 19 desktop checks; 61,470 offline assets). Mac signing/notarization, mounted/extracted artifact/signature checks and actual native Library/packet/Downloads smoke pass. Windows workflow 38879022490 passes signing, legacy upgrade, repeated update and fresh install/uninstall. Final Node 22 web typecheck/build and final browser checks pass. [Exact hashes, evidence and limitations](docs/V4.3.3-Desktop-Release-2026-10-16.md).
+
+Both signed apps and combined updater are privately staged and host-hash-verified. Manifest SHA-256 `1f89fbf89d230d49181c2ef02a8657307d428fb2562b42fb1d88c228e4cd91ee`. Final publication metadata/pins are ready for main; next is the guarded own-terminal sudo command required by AGENTS.md, followed by independent live verification. Stable production remains **4.3.2** until execution. Published predecessor bytes, corpus/search/editorial pins, native/signing identities, closed acceptance and private/legacy data remain unchanged. Earlier preparation entries are historical.
+
+
 ## 2026-10-16 — 4.3.3 release authorized (AFNT-119 / AFNT-102 / AF-UI-040)
 
 Larry authorizes commit, push and production web plus signed Mac/Windows release **4.3.3**. Includes full retirement of Confessional Connections/Book of Concord resources and the desktop Downloads website-navigation fix. Shared/native versions advance with identities and dependency/source/search/editorial pins preserved. Earlier signed 4.3.2 bytes remain immutable. See [4.3.3 release record](docs/V4.3.3-Desktop-Release-2026-10-16.md).
