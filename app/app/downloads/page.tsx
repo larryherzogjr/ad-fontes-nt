@@ -6,7 +6,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 4.3.0 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 4.3.1 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.0/Ad-Fontes-macOS-Apple-Silicon-4.3.0.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.0/Ad-Fontes-Windows-x64-4.3.0.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.1/Ad-Fontes-macOS-Apple-Silicon-4.3.1.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.1/Ad-Fontes-Windows-x64-4.3.1.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 4.3.0 includes whole-Bible English reading and comparison,
+        Version 4.3.1 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 110 reviewed textual comparisons,
@@ -55,7 +55,7 @@ export default function DownloadsPage() {
           <AppLink className="download-button" href={macDownload}>
             Download for macOS (.dmg)
           </AppLink>
-          <p className="download-detail">Developer ID signed and Apple notarized · 733 MB</p>
+          <p className="download-detail">Developer ID signed and Apple notarized · 365 MB</p>
         </section>
 
         <section className="download-option" aria-labelledby="download-windows">
@@ -65,7 +65,7 @@ export default function DownloadsPage() {
           <AppLink className="download-button" href={windowsDownload}>
             Download for Windows (.exe)
           </AppLink>
-          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 950 MB</p>
+          <p className="download-detail">Public Trust signed by Larry Herzog Jr. · 578 MB</p>
         </section>
       </div>
 
@@ -82,6 +82,7 @@ export default function DownloadsPage() {
       </p>
 
       <h2>Release notes</h2>
+      <p>Version 4.3.1 retires the Historical Writings collection and its Walther, Krauth, Josephus and Edersheim materials from browsing, search and offline packages. The remaining twelve Library collections and Ordinary Means imprints continue to be included.</p>
       <p>Version 4.3.0 added Historical Writings and Ordinary Means imprints. The Historical Writings collection was retired in 4.3.1.</p>
       <p>Version 4.2.0 introduces an evergreen and brass design with locally bundled interface fonts, clearer Library browsing, full-page Hebrew studies, external links that keep your study open, and consistent reader resource counts. Scripture and source-language typography are preserved. These updates are included offline in the desktop apps.</p>
       <p>Version 4.1.3 adds Hebrew Strong’s and abridged BDB dictionaries to the Hebrew Explorer and reader sidebar, plus Abbott-Smith in the Greek Explorer and sidebar. A clearer passage heading, quieter reading controls, compact Library collection navigation and distinct search labels make study easier. The included dictionaries and updated study tools work offline.</p>
