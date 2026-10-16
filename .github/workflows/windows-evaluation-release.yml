@@ -193,14 +193,25 @@ jobs:
           Get-ChildItem $output -File | Sort-Object Name | ForEach-Object {
             "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)"
           } | Set-Content "$output/SHA256SUMS.txt" -Encoding utf8
+      - name: Encrypt signed evaluation output before artifact upload
+        shell: pwsh
+        env:
+          EVALUATION_BUILD_KEY: ${{ secrets.EVALUATION_BUILD_KEY }}
+        run: |
+          tar -czf prepared/evaluation-windows.tar.gz -C artifacts/desktop/evaluation-windows .
+          if ($LASTEXITCODE -ne 0) { throw 'Output packaging failed' }
+          New-Item -ItemType Directory -Force artifacts/desktop/evaluation-delivery | Out-Null
+          node scripts/evaluation/build_transport.mjs encrypt prepared/evaluation-windows.tar.gz artifacts/desktop/evaluation-delivery/evaluation-windows.enc | Tee-Object -Variable outputHash
+          if ($LASTEXITCODE -ne 0) { throw 'Output encryption failed' }
+          $outputHash | Set-Content artifacts/desktop/evaluation-delivery/archive.sha256 -Encoding ascii
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
-          name: Ad-Fontes-Evaluation-Windows-x64-signed
-          path: artifacts/desktop/evaluation-windows/
+          name: Ad-Fontes-Evaluation-Windows-x64-encrypted
+          path: artifacts/desktop/evaluation-delivery/
           retention-days: 7
           if-no-files-found: error
       - name: Remove private build inputs
         if: always()
         shell: pwsh
         run: |
-          Remove-Item prepared,app/desktop/evaluation-dist -Recurse -Force -ErrorAction SilentlyContinue
+          Remove-Item prepared,app/desktop/evaluation-dist,artifacts/desktop/evaluation-windows -Recurse -Force -ErrorAction SilentlyContinue
