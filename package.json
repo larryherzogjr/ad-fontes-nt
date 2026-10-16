@@ -21,7 +21,15 @@
     "dev:ot": "npm run import:ot && npm run dev",
     "test:ot-reader": "node --test tests/ot_reader.test.ts",
     "import:ot": "python3 scripts/publish_ot.py",
-    "import:lxx": "python3 scripts/lxx/import_lxx.py && python3 scripts/lxx/publish_notices.py"
+    "import:lxx": "python3 scripts/lxx/import_lxx.py && python3 scripts/lxx/publish_notices.py",
+    "evaluation:import": "node scripts/evaluation/run.mjs import",
+    "evaluation:dev": "node scripts/evaluation/run.mjs dev",
+    "evaluation:build": "node scripts/evaluation/run.mjs build",
+    "evaluation:desktop:web": "node scripts/evaluation/run.mjs desktop-web",
+    "evaluation:desktop:preview": "node scripts/evaluation/run.mjs desktop-preview",
+    "evaluation:desktop:build": "node scripts/evaluation/run.mjs desktop-build",
+    "test:evaluation": "node --test tests/evaluation.test.ts",
+    "test:evaluation:desktop": "node --test tests/evaluation_desktop.test.ts"
   },
   "type": "module"
 }

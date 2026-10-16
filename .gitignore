@@ -40,3 +40,9 @@ app/public/gospel-parallels/
 
 app/public/confessions/
 book-of-concord-handoff.zip
+
+# Restricted evaluation source, generated content, sessions and packages
+/private/
+/adfontes-confessional-package.zip
+app/desktop/evaluation-dist/
+app/desktop/evaluation-public/

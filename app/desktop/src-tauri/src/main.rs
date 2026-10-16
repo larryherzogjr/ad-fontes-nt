@@ -1,7 +1,10 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+mod evaluation;
+
 fn main() {
     tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![evaluation::evaluation_pair, evaluation::evaluation_update_session, evaluation::evaluation_disconnect])
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_process::init())
         .plugin(tauri_plugin_updater::Builder::new().build())

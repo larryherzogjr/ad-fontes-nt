@@ -5,10 +5,12 @@ import { defineConfig } from 'vite';
 
 // Public Scripture corpora are reproduced offline before builds.
 export default defineConfig({
+  define: { __AF_EVALUATION__: JSON.stringify(process.env.AF_EDITION === 'evaluation') },
+  ssr: { external: ['google-auth-library'] },
   css: { postcss: { plugins: [tailwindcss()] } },
   // Reproducing immutable assets must not trigger thousands of RSC reloads.
   server: { watch: {
-    ignored: ['**/public/analysis/**', '**/public/corpus/**', '**/public/om/**', '**/public/lexical/**', '**/public/library/**', '**/public/visuals/**', '**/public/connections/**', '**/desktop/dist/**', '**/desktop/public/**', '**/app/dist/**'],
+    ignored: ['**/public/analysis/**', '**/public/corpus/**', '**/public/om/**', '**/public/lexical/**', '**/public/library/**', '**/public/visuals/**', '**/public/connections/**', '**/desktop/dist/**', '**/desktop/public/**', '**/desktop/evaluation-dist/**', '**/desktop/evaluation-public/**', '**/app/dist/**'],
     ...(process.env.CODEX_SANDBOX === 'seatbelt' ? { useFsEvents: false, usePolling: true } : {}),
   } },
   plugins: [vinext(), sites()],

@@ -1,4 +1,6 @@
 'use client';
+import { evaluationEdition } from '@/evaluation/config';
+import EvaluationResources from '@/evaluation/resource-library';
 import AppLink from '@/components/app-link';
 import { useEffect, useState, type FormEvent } from 'react';
 import { books, passageUrl } from '@/lib/domain/references';
@@ -8,7 +10,7 @@ import { CommentaryParagraphs, LenskiSource, RelatedCommentary } from '@/reader/
 
 type SearchRow = { chapter: number; paragraph: number; verse: number | null; intro: boolean; text: string };
 const fold = (s: string) => s.normalize('NFD').replace(/\p{M}/gu,'').toLocaleLowerCase();
-export default function CommentaryLibrary({ onNavigate }: { onNavigate: (url: string) => void }) {
+function HistoricalCommentaryLibrary({ onNavigate }: { onNavigate: (url: string) => void }) {
   const params = new URLSearchParams(typeof location === 'undefined' ? '' : location.search);
   const kd = params.get('commentary') === 'kd' || isOtBook(params.get('commentaryBook') || '');
   const collection = kd ? commentaryCollections.kd : commentaryCollections.lenski;
@@ -43,4 +45,9 @@ export default function CommentaryLibrary({ onNavigate }: { onNavigate: (url: st
       </>}
     </>}
   </div>;
+}
+
+export default function CommentaryLibrary({onNavigate}:{onNavigate:(url:string)=>void}){
+ const concordia=typeof location!=='undefined'&&new URLSearchParams(location.search).get('commentary')==='concordia';
+ return <>{evaluationEdition&&<nav className="commentary-actions" aria-label="Publisher commentaries"><AppLink href="/library?view=commentaries&commentary=concordia">Concordia Commentaries</AppLink><AppLink href="/library?view=commentaries">Historical commentaries</AppLink></nav>}{evaluationEdition&&concordia?<EvaluationResources category="concordia" locationKey={location.search} onNavigate={onNavigate}/>:<HistoricalCommentaryLibrary onNavigate={onNavigate}/>}</>;
 }

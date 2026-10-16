@@ -6,7 +6,8 @@ import { join } from 'node:path';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const source = join(root, 'app/public');
-const destination = join(root, 'app/desktop/public');
+const evaluation = process.env.AF_EDITION === 'evaluation';
+const destination = join(root, evaluation ? 'app/desktop/evaluation-public' : 'app/desktop/public');
 const editions = JSON.parse(await readFile(join(root, 'app/lib/domain/editions.json'), 'utf8'));
 const otEditions = ['bsb','blb','msb','ylt'].map(ed => ({ editionId: ed.toUpperCase(), releaseId: `${ed}-ot-2026-10-07-v1` }));
 const analysis = JSON.parse(await readFile(join(root, 'app/lib/domain/analysis-release.json'), 'utf8'));
@@ -51,6 +52,7 @@ await mkdir(destination, { recursive: true });
 for (const path of allowed) await cp(join(source, path), join(destination, path), { recursive: true, errorOnExist: true });
 for (const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3','library-search-2026-10-15-v4','library-search-2026-10-15-v5','library-search-2026-10-16-v6']) await rm(join(destination,'library/search',release), {recursive:true,force:true});
 await rm(join(destination,'library/historical'), {recursive:true,force:true});
+if (evaluation) await cp(join(root, 'private/evaluation/content/evaluation-resources-2026-10-16-v1'), join(destination, 'evaluation-content/evaluation-resources-2026-10-16-v1'), {recursive:true, errorOnExist:true});
 const files: Record<string, string> = {};
 async function inventory(directory: string, prefix = '') {
   for (const item of await readdir(directory, { withFileTypes: true })) {

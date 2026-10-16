@@ -1,4 +1,6 @@
 'use client';
+import { evaluationEdition } from '@/evaluation/config';
+import EvaluationPassageCommentary from '@/evaluation/passage-commentary';
 import AppLink from '@/components/app-link';
 import { useEffect, useState } from 'react';
 import { type PassageRange } from '@/lib/domain/references';
@@ -11,7 +13,7 @@ export function LenskiSource({ kd = false }: { kd?: boolean }) {
 export function CommentaryParagraphs({ chapter, from = 0, to = chapter.paragraphs.length }: { chapter: CommentaryChapter; from?: number; to?: number }) {
   return <div className="commentary-prose">{chapter.paragraphs.slice(from, to).map((p, i) => <p id={`lenski-${chapter.book}-${chapter.chapter}-p-${from+i}`} key={from+i} className={/^CHAPTER \d+$/.test(p) ? 'commentary-chapter-heading' : undefined}>{p}</p>)}</div>;
 }
-export default function Commentaries({ ranges }: { ranges: PassageRange[] }) {
+function HistoricalCommentaries({ ranges }: { ranges: PassageRange[] }) {
   const selection = commentaryChapters(ranges, true), key = JSON.stringify(selection);
   const [chapters, setChapters] = useState<CommentaryChapter[]>([]), [error, setError] = useState(''), [loading, setLoading] = useState(true);
   const [whole, setWhole] = useState<Record<string, boolean>>({});
@@ -39,4 +41,9 @@ export default function Commentaries({ ranges }: { ranges: PassageRange[] }) {
 export function RelatedCommentary({chapter}: {chapter: CommentaryChapter}) {
   if (!chapter.relatedSections?.length) return null;
   return <details className="commentary-source"><summary>Related source sections stored in other chapter groups ({chapter.relatedSections.length})</summary><p>These links follow the commentary’s printed headings. Source numbering may differ from the selected Bible.</p><ul>{chapter.relatedSections.map(s=><li key={`${s.chapter}.${s.paragraph}`}><AppLink href={commentaryLibraryUrl(chapter.book,s.chapter,'chapter',s.paragraph)}>{s.label} · Open in group {s.chapter}</AppLink><p>{s.excerpt}…</p></li>)}</ul></details>;
+}
+
+export default function Commentaries({ranges}:{ranges:PassageRange[]}){
+ const [publisher,setPublisher]=useState(false);
+ return <>{evaluationEdition&&<label>Commentary collection<select value={publisher?'concordia':'historical'} onChange={e=>setPublisher(e.target.value==='concordia')}><option value="historical">Lenski / Keil &amp; Delitzsch</option><option value="concordia">Concordia Commentaries · evaluation</option></select></label>}{evaluationEdition&&publisher?<EvaluationPassageCommentary ranges={ranges}/>:<HistoricalCommentaries ranges={ranges}/>}</>;
 }

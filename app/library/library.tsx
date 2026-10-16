@@ -1,4 +1,6 @@
 'use client';
+import { evaluationEdition } from '@/evaluation/config';
+import EvaluationResources from '@/evaluation/resource-library';
 import { OrdinaryMeansImprint } from '@/components/ordinary-means-imprint';
 import {CalendarDays,NotebookPen,Search,Columns2,BookOpen,BookA,Languages,BookSearch,Link2,Columns3,LibraryBig} from 'lucide-react';
 import AppLink from '@/components/app-link';
@@ -97,7 +99,7 @@ function LibraryHeader({ offline }: { offline: boolean }) {
         <a className="active" href="/library">Library</a>
         <a href="/about/sources">Sources &amp; Editions</a>
 
-          <a href="/downloads">Downloads</a>
+          <a href="/downloads">Downloads</a>{evaluationEdition && <a href="/evaluation">Evaluation access</a>}
 
       </nav>
       <details className="mobile-nav">
@@ -105,7 +107,7 @@ function LibraryHeader({ offline }: { offline: boolean }) {
         <nav aria-label="Mobile primary">
           <a href="/">Read</a><a className="active" href="/library">Library</a><a href="/about/sources">Sources &amp; Editions</a>
 
-          <a href="/downloads">Downloads</a><span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
+          <a href="/downloads">Downloads</a>{evaluationEdition && <a href="/evaluation">Evaluation access</a>}<span className="mobile-nav-subtitle">A biblical study environment from Ordinary Means.</span>
         </nav>
       </details>
     </header>
@@ -117,7 +119,7 @@ function LibraryFooter({ offline }: { offline: boolean }) {
     <nav aria-label="Policies and support">
       <a href="/about/sources">Sources</a>
       {!offline && <><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/support">Support</a></>}
-      <a href="/downloads">Downloads</a>
+      <a href="/downloads">Downloads</a>{evaluationEdition && <a href="/evaluation">Evaluation access</a>}
     </nav>
   </footer>;
 }
@@ -261,7 +263,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['encyclopedias', 'lectionary', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['confessional', 'encyclopedias', 'lectionary', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -320,7 +322,8 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a href="/library?view=parallels"><div className="library-card-decoration" aria-hidden="true"><Columns3 strokeWidth={1.5} focusable="false"/></div><strong>Gospel Parallels</strong><small>Read related Gospel accounts together</small></a>
             <a href="/library?view=connections"><div className="library-card-decoration" aria-hidden="true"><Link2 strokeWidth={1.5} focusable="false"/></div><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
             <a href="/library?view=encyclopedias"><div className="library-card-decoration" aria-hidden="true"><BookA strokeWidth={1.5} focusable="false"/></div><strong>Encyclopedias</strong><small>ISBE 1915 · Lutheran Cyclopedia 1899</small></a>
-            <a href="/library?view=commentaries"><div className="library-card-decoration" aria-hidden="true"><LibraryBig strokeWidth={1.5} focusable="false"/></div><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
+            <a href="/library?view=commentaries"><div className="library-card-decoration" aria-hidden="true"><LibraryBig strokeWidth={1.5} focusable="false"/></div><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski{evaluationEdition ? ' · Concordia' : ''}</small></a>
+            {evaluationEdition && <a href="/library?view=confessional"><div className="library-card-decoration" aria-hidden="true"><BookOpen strokeWidth={1.5}/></div><strong>Confessional Resources</strong><small>Book of Concord · Luther’s Works</small></a>}
             <a href="/library?view=hebrew"><div className="library-card-decoration" aria-hidden="true"><Languages strokeWidth={1.5} focusable="false"/></div><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>}
           <section id="library-results" tabIndex={-1}>
@@ -328,8 +331,9 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             {route.view === 'parallels' && <GospelParallels locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'packets' && <StudyPackets locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'encyclopedias' && <Encyclopedias locationKey={locationKey} onNavigate={navigateCollection} onDeviceLinksChange={refreshDeviceLinks} />}
-            {route.view === 'fulltext' && <FullTextSearch locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'fulltext' && <>{evaluationEdition&&<nav className="commentary-actions" aria-label="Resource search scope"><AppLink href="/library?view=fulltext">Public resource text</AppLink><AppLink href="/library?view=fulltext&scope=evaluation">Evaluation resource text</AppLink></nav>}{evaluationEdition&&new URLSearchParams(locationKey).get('scope')==='evaluation'?<EvaluationResources category="all" locationKey={locationKey} onNavigate={navigateCollection}/>:<FullTextSearch locationKey={locationKey} onNavigate={navigateCollection}/>}</>}
             {route.view === 'hebrew' && <HebrewExplorer key={locationKey} onNavigate={navigateCollection} />}
+            {evaluationEdition && route.view === 'confessional' && <EvaluationResources key={'confessional'} category="confessional" locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'commentaries' && <CommentaryLibrary key={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'research' && <GreekResearch key={locationKey} embedded onNavigate={navigateCollection} />}
             {route.view === 'connections' && <ConnectionCatalog embedded onNavigate={navigateCollection} />}

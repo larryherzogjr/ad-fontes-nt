@@ -1,3 +1,5 @@
+import { evaluationEdition } from '@/evaluation/config';
+import EvaluationPortal from '@/evaluation/portal';
 import AppLink from '@/components/app-link';
 import type { Metadata } from 'next';
 import PublicPage from '../public-page';
@@ -33,6 +35,7 @@ const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.4/Ad-Fontes-macOS-
 const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.4/Ad-Fontes-Windows-x64-4.3.4.exe';
 
 export default function DownloadsPage() {
+  if(evaluationEdition)return <EvaluationPortal/>;
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>

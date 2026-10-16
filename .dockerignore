@@ -18,3 +18,8 @@ app/desktop/src-tauri/*
 !app/desktop/src-tauri/tauri.conf.json
 app/public/om
 artifacts/desktop
+
+private
+adfontes-confessional-package.zip
+output
+*.zip

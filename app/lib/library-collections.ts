@@ -1,3 +1,4 @@
+import { evaluationEdition } from '../evaluation/config.ts';
 /** Collection switching deliberately starts with clean, compatible state. */
 export const libraryCollections=[
  {id:'comparisons',label:'Textual Comparisons'}, {id:'articles',label:'Greek Word Studies'},
@@ -6,6 +7,7 @@ export const libraryCollections=[
  {id:'parallels',label:'Gospel Parallels'}, {id:'commentaries',label:'Commentaries'},
  {id:'lectionary',label:'Lectionary'}, {id:'encyclopedias',label:'Encyclopedias'},
  {id:'packets',label:'Study Packets'}, {id:'fulltext',label:'Search resource text'},
+ ...(evaluationEdition ? [{id:'confessional' as const,label:'Confessional Resources'}] : []),
 ] as const;
 export function collectionDestination(id:string){
  if(id==='overview')return '/library?view=overview';

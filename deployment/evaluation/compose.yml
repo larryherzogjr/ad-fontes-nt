@@ -1,0 +1,30 @@
+name: ad-fontes-evaluation
+services:
+  web:
+    build:
+      context: ../..
+      dockerfile: deployment/evaluation/Dockerfile
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      AF_EDITION: evaluation
+      EVALUATION_ORIGIN: https://eval.ad-fontes.app
+      EVALUATION_ADMIN_EMAILS: larry.herzog@gmail.com
+      EVALUATION_DATABASE: /var/lib/ad-fontes-evaluation/access.sqlite
+      EVALUATION_CONTENT_DIR: /evaluation-content/evaluation-resources-2026-10-16-v1
+      EVALUATION_DOWNLOAD_DIR: /evaluation-downloads
+    ports: ['127.0.0.1:8136:3000']
+    volumes:
+      - evaluation-access:/var/lib/ad-fontes-evaluation
+      - ../../private/evaluation/content:/evaluation-content:ro
+      - ../../private/evaluation/downloads:/evaluation-downloads:ro
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+volumes:
+  evaluation-access:

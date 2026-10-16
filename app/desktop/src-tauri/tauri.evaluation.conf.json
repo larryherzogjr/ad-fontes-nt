@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Ad Fontes Evaluation",
+  "identifier": "app.ad-fontes.evaluation",
+  "build": {
+    "frontendDist": "../evaluation-dist",
+    "beforeBuildCommand": "npm --prefix .. run desktop:build:web && npm --prefix ../.. run test:evaluation:desktop"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "create": false,
+        "title": "Ad Fontes \u00b7 Private evaluation",
+        "width": 1280,
+        "height": 900,
+        "minWidth": 360,
+        "minHeight": 600
+      }
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://eval.ad-fontes.app/api/evaluation/updates/latest.json"
+      ]
+    }
+  },
+  "version": "4.3.4"
+}

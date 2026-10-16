@@ -1,0 +1,9 @@
+{
+  "releaseId": "evaluation-resources-2026-10-16-v1",
+  "sha256": {
+    "scripts/evaluation/import_resources.py": "c4bda4625cda91937113914b366c9bc73a8b8deb70449ceb9b02814b10e5f8e7",
+    "scripts/evaluation/build_search.mts": "d72fe2da3506fae07ec5111d32b64379b4ef8fa2ec406ed69900da5fc56f6536",
+    "app/lib/domain/library-search.ts": "dd5b6119a64d005fbd05c41dbfefcc62e3e36b095d182ff156964c80bb5d031a",
+    "app/node_modules/fflate/esm/browser.js": "fb4ee0d3205c9bc25aa8d06fbc48d1f223ea9a3f3424f9c5733d47db9f3d760e"
+  }
+}

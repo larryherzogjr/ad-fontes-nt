@@ -1,3 +1,4 @@
+import {evaluationEdition,evaluationOrigin} from '@/evaluation/config';
 import { createRoot } from 'react-dom/client';
 import { isTauri } from '@tauri-apps/api/core';
 import { openUrl } from '@tauri-apps/plugin-opener';
@@ -10,6 +11,7 @@ import '@/app/globals.css';
 import '@/reader/word-studies.css';
 import '@/reader/commentaries.css';
 
+if(evaluationEdition) document.documentElement.dataset.evaluationOffline='true';
 const startPath = desktopStartPath(location.href);
 if (startPath !== null) history.replaceState({}, '', startPath);
 
@@ -18,7 +20,9 @@ if (startPath !== null) history.replaceState({}, '', startPath);
 document.addEventListener('click', event => {
   const anchor = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href]') : null;
   if (!anchor) return;
-  const url = new URL(desktopWebsiteUrl(anchor.href, location.href) ?? anchor.href);
+  const localUrl=new URL(anchor.href);
+  const evalPortal=evaluationEdition&&localUrl.origin===location.origin&&['/evaluation','/downloads'].includes(localUrl.pathname);
+  const url = new URL(evalPortal?evaluationOrigin+'/evaluation':desktopWebsiteUrl(anchor.href, location.href) ?? anchor.href);
   if (url.origin === location.origin) return;
   event.preventDefault();
   event.stopPropagation();

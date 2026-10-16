@@ -45,10 +45,12 @@ test('invalid releases and corrupt canonical references report unavailable data'
   }
   await assert.rejects(loadConnections(async()=>{throw Error('missing');}),/missing/);
 });
-test('retired account routes and database/OAuth dependencies are absent from active app/runtime', async () => {
-  for(const path of ['app/app/account','app/app/api/account','app/app/api/notes','app/server','app/app/personal-notes.tsx'])await assert.rejects(access(path));
+test('public notes/accounts remain retired while evaluation authentication is isolated', async () => {
+  for(const path of ['app/app/account','app/app/api/account','app/app/api/notes','app/server/accounts.ts','app/server/db.ts','app/server/notes.ts','app/app/personal-notes.tsx'])await assert.rejects(access(path));
   const pkg=JSON.parse(await readFile('app/package.json','utf8'));
-  for(const dep of ['pg','google-auth-library'])assert.equal(dep in pkg.dependencies,false);
+  assert.equal('pg' in pkg.dependencies,false);
+  assert.equal(pkg.dependencies['google-auth-library'],'11.0.2');
+  const evaluation=await readFile('app/server/evaluation/access.ts','utf8');assert.match(evaluation,/process.env.AF_EDITION==='evaluation'/);
   const web=(await readFile('deployment/compose.yml','utf8')).split('  web:')[1];
   assert.doesNotMatch(web,/DATABASE_URL|GOOGLE_|REGISTRATION|depends_on/);
   assert.doesNotMatch(await readFile('deployment/Dockerfile','utf8'),/migrate|migrations|google-auth-library/);

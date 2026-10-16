@@ -1,0 +1,10 @@
+{
+  "bundle": {
+    "windows": {
+      "nsis": {
+        "template": null,
+        "installerHooks": null
+      }
+    }
+  }
+}
