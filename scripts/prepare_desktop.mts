@@ -50,7 +50,8 @@ const allowed = [
 await rm(destination, { recursive: true, force: true });
 await mkdir(destination, { recursive: true });
 for (const path of allowed) await cp(join(source, path), join(destination, path), { recursive: true, errorOnExist: true });
-for (const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3']) await rm(join(destination,'library/search',release), {recursive:true,force:true});
+for (const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3','library-search-2026-10-15-v4']) await rm(join(destination,'library/search',release), {recursive:true,force:true});
+await rm(join(destination,'library/historical'), {recursive:true,force:true});
 const files: Record<string, string> = {};
 async function inventory(directory: string, prefix = '') {
   for (const item of await readdir(directory, { withFileTypes: true })) {

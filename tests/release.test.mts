@@ -89,12 +89,12 @@ test('final public installer publication is pinned to the approved signed bytes'
   );
 });
 
-test('public project status identifies the authorized 4.3.0 release', async () => {
+test('public project status identifies the authorized 4.3.1 release', async () => {
   const reader = await readFile('app/reader/reader.tsx', 'utf8');
   assert.match(reader, /The current release and MVP were accepted on October 14, 2026/);
   assert.match(reader, /110 reviewed\s+comparison notes/);
   assert.doesNotMatch(reader, /30 reviewed comparison notes/);
-  assert.match(reader, /Version 4\.3\.0 is the current cross-platform desktop release/);
+  assert.match(reader, /Version 4\.3\.1 is the current cross-platform desktop release/);
   assert.doesNotMatch(reader, /Version 1\.0\.0-rc\./);
   assert.match(reader, /href="\/downloads"/);
   assert.match(reader, /Personal notes and Google sign-in have been retired/);

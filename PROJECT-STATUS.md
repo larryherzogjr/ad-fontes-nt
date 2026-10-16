@@ -1,5 +1,13 @@
 # Ad Fontes NT — project status
 
+## 2026-10-15 — Historical Writings retired; 4.3.1 authorized (AF-LIB-004)
+
+Larry reports completing 4.3.0, then explicitly requests removing Historical Writings and all Walther, Krauth, Josephus and Edersheim materials from the tool and releasing **4.3.1** to web and desktop. Independent preflight confirms healthy 4.3.0 web/Downloads/exact updater manifest and a tracked-clean host at `8388b7000b880f4d4b0b4b875b5faf54da01f223`. This supersedes the prior pending-publication and library-addition direction.
+
+The Library now has twelve collections. Historical readers, notices, author filters and scan/text assets are removed from active web/offline bundles; builds exclude their predecessor search projections. Old deep links show the overview, and retired saved/recent links are hidden without deleting device records. Retained search has 1,556 resources / 73,903 blocks / 234 derivatives, with all 1,451 retained inputs and decoded payloads unchanged. Successor v5 manifest SHA-256 `7f8e03a9561e7ab1cab7ab7ae92a780a57111960cb361f19827fdfaf44377178`. Original source/release evidence remains outside public assets. Other study resources and imprints remain included. [Release record and verification](docs/V4.3.1-Desktop-Release-2026-10-15.md).
+
+Next: finish fresh checks and signed 4.3.1 artifacts, privately stage verified bytes, commit/push final publication metadata and hand off host sudo for Larry's own terminal. Production remains 4.3.0 during preparation. Existing acceptance, native identities, Scripture/editorial pins and private/legacy data remain unchanged.
+
 ## 2026-10-15 — 4.3.0 signed, verified and staged; final host handoff pending
 
 Larry accepts Historical Writings and authorizes web and desktop **4.3.0**, including the approved unreleased Ordinary Means imprint placements (AF-LIB-001–003 / AF-UI-039). Native source `a7d84f12c0dfbb44d4c5ee440daa98dbaaa68566` is committed and pushed. Both signed offline apps are frozen and verified: Mac Developer ID/notarization/mounted-installer/extracted-updater and native reading smoke pass; Windows Public Trust/Authenticode, preserved-data upgrade, repeated update and fresh install/uninstall pass. Fresh shared verification passes (192 application / 50 source / 18 desktop tests), as do clean Linux CI and final Node 22 web typecheck/build. [Release record, hashes, browser checks and limitations](docs/V4.3.0-Desktop-Release-2026-10-15.md).

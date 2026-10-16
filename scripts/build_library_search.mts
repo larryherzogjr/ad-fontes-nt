@@ -6,7 +6,6 @@ import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { unified } from '../app/node_modules/unified/index.js';
 import remarkParse from '../app/node_modules/remark-parse/index.js';
-import { historicalBase, historicalRelease } from '../app/lib/domain/historical-library.ts';
 import { passageUrl } from '../app/lib/domain/references.ts';
 import { tokenize, encodePostings, tokenBucket, searchRelease, type SearchBlock, type SearchDoc, type SearchIndex } from '../app/lib/domain/library-search.ts';
 
@@ -61,21 +60,12 @@ for(const [id,release,author] of [['lenski','lenski-2026-10-08-v1','R. C. H. Len
   }
  });
 }
-const historical=await read(`${historicalBase.slice(1)}/catalog.json`);
-const historicalManifest=await read(`${historicalBase.slice(1)}/manifest.json`);
-if(historical.releaseId!==historicalRelease||historicalManifest.releaseId!==historicalRelease||historical.works.length!==7)throw Error('Historical Library inventory mismatch');
-for(const id of ['walther','krauth','josephus','edersheim'])await collection(id,async add=>{
- for(const work of historical.works.filter((w:any)=>id==='josephus'?w.id.startsWith('josephus-'):w.id===id))for(const meta of work.sections){
-  const path=`${historicalBase.slice(1)}/${meta.path}`,section=await read(path);
-  if(inputs[path]!==historicalManifest.files[meta.path]||inputs[path]!==meta.sha256||section.releaseId!==historicalRelease||section.work!==work.id||section.id!==meta.id)throw Error('Historical Library source hash mismatch');
-  add({id:`${id}:${work.id}:${meta.id}`,title:`${work.title} · ${meta.group} · ${meta.label}`,author:work.author+(work.translator?` · trans. ${work.translator}`:''),release:historicalRelease,book:'',sourceUrl:`/library?view=historical&work=${work.id}&section=${meta.id}`,shard:`text/${id}-${work.id}.bin`,notice:`${work.edition}. ${work.notice}`},section.paragraphs.map((text:string,i:number)=>({text,...(section.paragraphPageIds?{scanPage:section.paragraphPageIds[i]}:{})})));
- }
-});
-const implementation:Record<string,string>={};for(const path of ['scripts/build_library_search.mts','app/lib/domain/library-search.ts','app/lib/domain/historical-library.ts','app/node_modules/fflate/esm/browser.js'])implementation[path]=sha(await readFile(join(root,path)));
+const implementation:Record<string,string>={};for(const path of ['scripts/build_library_search.mts','app/lib/domain/library-search.ts','app/node_modules/fflate/esm/browser.js'])implementation[path]=sha(await readFile(join(root,path)));
 const manifest={schemaVersion:1,releaseId:searchRelease,inputs,implementation,files,counts};
 if(pin&&JSON.stringify(pin)!==JSON.stringify(manifest))throw Error('Library search differs from its pinned derivative. Prepare a documented successor release; do not overwrite the pin.');
 await writeFile(join(destination,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');
 console.log(`Library search: ${Object.values(counts).reduce((n,c)=>n+c.documents,0)} resources; ${Object.values(counts).reduce((n,c)=>n+c.blocks,0)} blocks; ${Object.keys(files).length} pinned derivatives.`);
 
-// The superseded search contains the replaced digital edition; retain its pins, not public bytes.
-await rm(join(pub,'library/search/library-search-2026-10-15-v3'),{recursive:true,force:true});
+// Retired source projections must not remain directly reachable in web builds.
+await rm(join(pub,'library/historical'),{recursive:true,force:true});
+for(const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3','library-search-2026-10-15-v4'])await rm(join(pub,'library/search',release),{recursive:true,force:true});

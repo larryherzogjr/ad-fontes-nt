@@ -41,8 +41,7 @@ export default function DownloadsPage() {
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 110 reviewed textual comparisons,
         their manuscript evidence, 250 Greek word studies and the 5,400-entry Greek
-        lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries. Historical Writings adds Walther, Krauth, Josephus
-        and Edersheim, with author search and printed Toronto pages for Edersheim.
+        lexicon, plus Lenski and Keil &amp; Delitzsch historical commentaries.
         Reading and these study resources work offline.
         Choose the package for your computer.
         Freely available. Public reading and study tools require no account.
@@ -83,7 +82,7 @@ export default function DownloadsPage() {
       </p>
 
       <h2>Release notes</h2>
-      <p>Version 4.3.0 adds Historical Writings: Walther’s Law and Gospel (Dau translation), Krauth’s Conservative Reformation, four Josephus works (Whiston translation), and Edersheim’s Life and Times from independent Toronto 1899 scans. Browse seven works and 783 readings, search all four authors, and read Edersheim’s printed pages with zoom and searchable OCR. All 19 appendices are included. OCR remains unproofread; consult the scans before quoting. Approved Ordinary Means imprints appear in footers, Sources &amp; Editions and printable Study Packets. These resources work offline.</p>
+      <p>Version 4.3.0 added Historical Writings and Ordinary Means imprints. The Historical Writings collection was retired in 4.3.1.</p>
       <p>Version 4.2.0 introduces an evergreen and brass design with locally bundled interface fonts, clearer Library browsing, full-page Hebrew studies, external links that keep your study open, and consistent reader resource counts. Scripture and source-language typography are preserved. These updates are included offline in the desktop apps.</p>
       <p>Version 4.1.3 adds Hebrew Strong’s and abridged BDB dictionaries to the Hebrew Explorer and reader sidebar, plus Abbott-Smith in the Greek Explorer and sidebar. A clearer passage heading, quieter reading controls, compact Library collection navigation and distinct search labels make study easier. The included dictionaries and updated study tools work offline.</p>
       <p>Version 4.0.0 adds full-text Library search, printable Study Packets with automatic related material, Gospel parallels, and Book of Concord Confessional Connections. One-Year and Three-Year lectionaries stay in the Study Library, with reading links and Sunday study packets. These included resources work offline.</p>

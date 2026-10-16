@@ -6,7 +6,7 @@ import {libraryRoute,libraryHref,emptyLibraryRoute} from '../app/lib/library-rou
 test('all Library destinations explicitly select a clean collection',()=>{
  assert.equal(collectionDestination('comparisons'),'/library?view=comparisons');
  assert.equal(collectionDestination('overview'),'/library?view=overview');
- assert.equal(new Set(libraryCollections.map(c=>c.id)).size,13);
+ assert.equal(new Set(libraryCollections.map(c=>c.id)).size,12);
  for(const collection of libraryCollections){
   const u=new URL(collectionDestination(collection.id),'https://local');
   assert.equal(u.pathname,'/library');assert.deepEqual([...u.searchParams.keys()],['view']);
@@ -15,7 +15,7 @@ test('all Library destinations explicitly select a clean collection',()=>{
  assert.throws(()=>collectionDestination('missing'),/Unknown/);
 });
 test('ordinary Library entry and unknown views show the actual overview',()=>{
- for(const search of ['', '?view=overview','?unrelated=x','?view=missing','?view=missing&q=grace','?page=nope'])assert.deepEqual(libraryRoute(search),emptyLibraryRoute,search);
+ for(const search of ['', '?view=overview','?unrelated=x','?view=missing','?view=missing&q=grace','?view=historical&work=edersheim&section=s0065&scan=v2-p0104','?page=nope'])assert.deepEqual(libraryRoute(search),emptyLibraryRoute,search);
 });
 test('legacy comparison filters retain their destination and state',()=>{
  for(const search of ['?q=grace','?book=2CO','?kind=publisher-note','?page=2'])assert.equal(libraryRoute(search).view,'comparisons',search);

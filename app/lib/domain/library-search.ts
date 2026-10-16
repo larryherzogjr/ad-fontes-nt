@@ -1,7 +1,7 @@
 /** Shared, deterministic word/phrase matching. Display always uses original text. */
-export const searchRelease = 'library-search-2026-10-15-v4';
+export const searchRelease = 'library-search-2026-10-15-v5';
 export const searchBase = `/library/search/${searchRelease}`;
-export const collectionLabels: Record<string, string> = { greek: 'Ordinary Means Greek studies', hebrew: 'Ordinary Means Hebrew studies', comparisons: 'Textual comparisons', lenski: 'Lenski', kd: 'Keil & Delitzsch', walther: 'Walther · Law and Gospel', krauth: 'Krauth · Conservative Reformation', josephus: 'Josephus · Whiston translation', edersheim: 'Edersheim · Life and Times' };
+export const collectionLabels: Record<string, string> = { greek: 'Ordinary Means Greek studies', hebrew: 'Ordinary Means Hebrew studies', comparisons: 'Textual comparisons', lenski: 'Lenski', kd: 'Keil & Delitzsch' };
 export type Token = { value: string; start: number; end: number };
 export function tokenize(text: string): Token[] {
   return [...text.matchAll(/[\p{L}\p{N}][\p{L}\p{N}\p{M}]*/gu)].map(m => ({ value: m[0].normalize('NFD').replace(/\p{M}/gu, '').toLowerCase(), start: m.index!, end: m.index! + m[0].length }));
@@ -29,7 +29,7 @@ export type SearchDoc = { id: string; collection: string; title: string; author:
 export type SearchIndex = { schemaVersion: 1; releaseId: string; collection: string; documents: SearchDoc[]; blocks: [number,number][]; postings: Record<string,string>; postingShards?: string[] };
 export type PostingShard = { schemaVersion: 1; releaseId: string; collection: string; bucket: number; postings: Record<string,string> };
 export function tokenBucket(word:string):number { let hash=2166136261;for(const char of word){hash=Math.imul(hash^char.codePointAt(0)!,16777619);}return (hash>>>0)%32; }
-export type SearchBlock = { text: string; markdown?: string; scanPage?: string };
+export type SearchBlock = { text: string; markdown?: string };
 export type TextShard = { schemaVersion: 1; releaseId: string; documents: Record<string,SearchBlock[]> };
 export type SearchGroup = { doc: SearchDoc; matches: number[]; score: number };
 export type SearchManifest = { schemaVersion: 1; releaseId: string; inputs: Record<string,string>; implementation: Record<string,string>; files: Record<string,string>; counts: Record<string,{documents:number;blocks:number}> };

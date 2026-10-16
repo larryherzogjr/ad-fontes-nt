@@ -5,10 +5,18 @@ export type DeviceLink = {
   savedAt: number;
 };
 
+/** Retired Library links are hidden without deleting saved device records. */
+export function availableDeviceLinks(links: DeviceLink[]): DeviceLink[] {
+  return links.filter(link => {
+    try { const url = new URL(link.url, 'https://local.invalid'); return !(url.pathname === '/library' && (url.searchParams.get('view') === 'historical' || ['walther','krauth','josephus','edersheim'].includes(url.searchParams.get('collection') || '') || /^(walther|krauth|josephus|edersheim):/.test(url.searchParams.get('resource') || ''))); }
+    catch { return false; }
+  });
+}
+
 /** Present old and new history consistently without rewriting saved device data. */
 export function presentRecentLinks(links: DeviceLink[], kind: 'passage' | 'study'): DeviceLink[] {
   const seen = new Set<string>();
-  return links.flatMap(link => {
+  return availableDeviceLinks(links).flatMap(link => {
     let url: URL;
     try { url = new URL(link.url, 'https://local.invalid'); } catch { return []; }
     const params = url.searchParams;

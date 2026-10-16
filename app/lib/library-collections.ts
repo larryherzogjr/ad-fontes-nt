@@ -4,7 +4,7 @@ export const libraryCollections=[
  {id:'lexicon',label:'Greek Lexicon'}, {id:'hebrew',label:'Hebrew Word Explorer'},
  {id:'research',label:'Septuagint Research'}, {id:'connections',label:'NT/OT Connections'},
  {id:'parallels',label:'Gospel Parallels'}, {id:'commentaries',label:'Commentaries'},
- {id:'confessions',label:'Confessional Connections'}, {id:'historical',label:'Historical Writings'}, {id:'lectionary',label:'Lectionary'},
+ {id:'confessions',label:'Confessional Connections'}, {id:'lectionary',label:'Lectionary'},
  {id:'packets',label:'Study Packets'}, {id:'fulltext',label:'Search resource text'},
 ] as const;
 export function collectionDestination(id:string){

@@ -6,7 +6,6 @@ import remarkGfm from 'remark-gfm';
 import { books } from '../lib/domain/references';
 import { checkedJson, collectionLabels, loadSearchManifest, matchRanges, parseQuery, searchRelease, type SearchBlock, type SearchDoc, type SearchGroup, type SearchIndex, type TextShard } from '../lib/domain/library-search';
 import './full-text-search.css';
-import JosephusNotice from './josephus-notice';
 
 type Result = SearchGroup & { excerpts: {block:number;text:string}[] };
 type Response = { id:number;error?:string;results:Result[];counts:Record<string,number>;total:number;page:number;pages:number };
@@ -35,8 +34,7 @@ function SearchResource({id,block,query,onReturn}:{id:string;block:number;query:
  useEffect(()=>{if(data&&target.current){highlightElement(target.current,query);target.current.focus({preventScroll:true});target.current.scrollIntoView({block:'center'});}},[data,query]);
  return <section className="fulltext-context"><nav className="fulltext-context-actions" aria-label="Search match actions"><button onClick={onReturn}>← Back to search results</button></nav>{error?<p role="alert">{error}</p>:!data?<p role="status">Loading resource context…</p>:<>
   <p className="library-type">{collectionLabels[data.doc.collection]}</p><h2>{data.doc.title}</h2><p>By {data.doc.author}</p><p className="notice">{data.doc.notice}</p>
-  {data.doc.collection==='josephus'&&<JosephusNotice/>}
-  <p><AppLink href={data.doc.sourceUrl+(data.blocks[block]?.scanPage?`&scan=${encodeURIComponent(data.blocks[block].scanPage!)}`:'')} {...(data.doc.sourceUrl.startsWith('https:')?{target:'_blank',rel:'noopener noreferrer'}:{})}>Open {data.doc.sourceUrl.startsWith('https:')?'author’s website':data.blocks[block]?.scanPage?'matching printed page':'standard resource viewer'} →</AppLink></p>
+  <p><AppLink href={data.doc.sourceUrl} {...(data.doc.sourceUrl.startsWith('https:')?{target:'_blank',rel:'noopener noreferrer'}:{})}>Open {data.doc.sourceUrl.startsWith('https:')?'author’s website':'standard resource viewer'} →</AppLink></p>
   <article className="om-study-body" aria-label="Resource context">{data.blocks.map((b,i)=>i===0?<div key={i} ref={block===0?target:undefined} tabIndex={block===0?-1:undefined} className={block===0?'fulltext-target':undefined}><h3>{data.doc.title}</h3></div>:<div key={i} ref={block===i?target:undefined} tabIndex={block===i?-1:undefined} className={block===i?'fulltext-target':undefined}>
    {b.markdown?<Markdown skipHtml remarkPlugins={[remarkGfm]} components={{img:({alt})=><span>{alt}</span>,a:({href,children})=>{const url=href?new URL(href,'https://larryherzogjr.com'):null;return <AppLink href={url?.protocol==='https:'?url.href:undefined} target="_blank" rel="noopener noreferrer">{children}</AppLink>;}}}>{b.markdown}</Markdown>:<p>{b.text}</p>}
   </div>)}</article><p className="library-source-note">Source release: {data.doc.release}. Search formatting is derived from the published resource; source wording is preserved.</p><button onClick={onReturn}>← Back to search results</button>
@@ -59,14 +57,14 @@ export default function FullTextSearch({locationKey,onNavigate}:{locationKey:str
  function destination(id:string,match:number){const p=new URLSearchParams(params);p.set('view','fulltext');p.set('resource',id);p.set('match',String(match));return `/library?${p}`;}
  function open(e:MouseEvent<HTMLAnchorElement>) {if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();try{sessionStorage.setItem(`af-search-scroll:${resultUrl}`,String(scrollY));sessionStorage.setItem(`af-search-focus:${resultUrl}`,e.currentTarget.dataset.searchTarget||'');}catch{}onNavigate(e.currentTarget.getAttribute('href')!);}
  return <div className="fulltext-search">{resource?<SearchResource key={`${resource}:${block}`} id={resource} block={block} query={query} onReturn={()=>onNavigate(resultUrl)}/>:<>
-  <h2>Search resource text</h2><p>Search the included studies, historical commentaries and historical writings. Scripture search remains available in the reader.</p>
+  <h2>Search resource text</h2><p>Search the included studies and historical commentaries. Scripture search remains available in the reader.</p>
   <form className="library-search" role="search" onSubmit={e=>{e.preventDefault();navigate({q:input.trim(),page:''});}}><label htmlFor="fulltext-query">Search resource text · Words or a quoted phrase</label><div><input id="fulltext-query" value={input} onChange={e=>setInput(e.target.value)} maxLength={250} placeholder={'baptism forgiveness or "forgiveness of sins"'} aria-describedby="fulltext-help"/><button>Search</button></div></form>
   <p id="fulltext-help" className="study-help">All words must occur in the same paragraph or block. Quotation marks require consecutive words. Matches ignore case and accents; no synonyms are added.</p>
   <div className="library-filters fulltext-filters"><label>Collection<select value={collection} onChange={e=>navigate({collection:e.target.value,page:''})}><option value="">All collections{result?` (${Object.values(result.counts).reduce((a,b)=>a+b,0)})`:''}</option>{Object.entries(collectionLabels).map(([id,label])=><option key={id} value={id}>{label}{result?` (${result.counts[id]||0})`:''}</option>)}</select></label>
    <label>Source book<select value={book} onChange={e=>navigate({searchBook:e.target.value,page:''})}><option value="">All books and resources</option>{books.map(b=><option key={b.code} value={b.code}>{b.name}</option>)}</select></label></div>
-  {book&&<p className="study-help">Book filtering uses recorded commentary chapter groups and textual-comparison anchors. Word studies and historical writings have no assigned Bible-book coverage and are excluded.</p>}
+  {book&&<p className="study-help">Book filtering uses recorded commentary chapter groups and textual-comparison anchors. Word studies have no assigned Bible-book coverage and are excluded.</p>}
   {error&&<p role="alert" className="notice">{error} No complete result count is available.</p>}{loading&&<p role="status">Searching the Library…</p>}
-  {!query&&!loading&&<p>Try a term that appears inside a study, or search across historical authors.</p>}
+  {!query&&!loading&&<p>Try a term that appears inside a study, or search across commentaries.</p>}
   {result&&<div ref={resultRegion}><p role="status">{result.total.toLocaleString()} matching resources · Page {result.page} of {result.pages}</p>{!result.total&&<p>No included resources match this search. Try fewer words or a different collection.</p>}
    <div className="fulltext-results">{result.results.map(r=><article className="library-card" key={r.doc.id}><p className="library-type">{collectionLabels[r.doc.collection]} · {r.doc.author}</p><h3><AppLink href={destination(r.doc.id,r.matches[0])} onClick={open}>{r.doc.title}</AppLink></h3><p className="study-help">{r.matches.length} matching {r.matches.length===1?'block':'blocks'}</p>
     <p><Highlight text={r.excerpts[0].text} query={query}/></p><AppLink data-search-target={`${r.doc.id}:${r.matches[0]}`} href={destination(r.doc.id,r.matches[0])} onClick={open}>Open in context →</AppLink>
