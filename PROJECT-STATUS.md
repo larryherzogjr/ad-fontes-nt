@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — 4.3.4 published and independently verified (AF-LIB-005)
+
+Larry executes the guarded own-terminal deployment and authorizes live verification. Production is **4.3.4**, on tracked-clean publication commit `2b56fbfec51e22957562c2cb207b10b3f468c7d1`; health is OK. The stable Mac/Windows updater manifest matches the locally verified signed release exactly. All four complete public installer/updater downloads independently match their frozen SHA-256 hashes. Active encyclopedia v2/search v7 manifests match local pins; checked retired historical/confessional assets and historical search projections return 404. Live browser encyclopedia/article/full-text/context/keyboard/Downloads smoke passes, with no captured warnings/errors. [Release evidence and limitations](docs/V4.3.4-Desktop-Release-2026-10-16.md).
+
+AF-LIB-005 first-phase integration and authorized 4.3.4 publication are complete. Preserved source coverage limits and any later enhancements remain separate work; current-release/MVP acceptance stays closed. Earlier preparation/handoff entries are historical. This closing documentation update changes no published app code and needs no new deployment.
+
 ## 2026-10-16 — 4.3.4 signed, verified and privately staged (AF-LIB-005)
 
 Larry's authorized **4.3.4** encyclopedia release is prepared from pushed native source `e537c8179ee2de10f057d225d6b09e1c87e40008`. Fresh local Node 24 and clean Linux CI verification pass (189 application / 51 source / 20 desktop checks; 73,035 offline assets). Mac signing/notarization, mounted/extracted artifact/signature checks and actual native encyclopedia/search/keyboard smoke pass. Windows workflow 38944358942 passes signing, legacy upgrade, repeated update and fresh install/uninstall. Final Node 22 website typecheck/build and final browser/download/320px checks pass. [Exact artifacts, evidence and limitations](docs/V4.3.4-Desktop-Release-2026-10-16.md).
