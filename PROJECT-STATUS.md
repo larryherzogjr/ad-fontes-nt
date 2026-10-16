@@ -1,5 +1,9 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — Private evaluation deployment and signed releases authorized (AF-EVAL-001–003)
+
+Larry confirms the Google callback, approves the prepared configuration and authorizes eval.ad-fontes.app hosting/Nginx plus signed Mac and Windows evaluation apps. Deployment uses a separate checkout/service/database/port and private content/download mounts; public 4.3.4 remains independent. Release preparation is in progress; no live evaluation deployment or signed evaluation installer is claimed yet. Host sudo requires Larry's complete own-terminal command under AGENTS.md. Windows inputs will travel encrypted through the private repository's draft build-input release; the existing main-bound Azure signing federation stays unchanged.
+
 ## 2026-10-16 — Private evaluation edition implementation (AF-EVAL-001–003)
 
 Larry authorizes implementing the complete supplied internal-testing bundle after released 4.3.4, with Google sign-in, manual admission after confirming the tester's active Logos subscription covers the resources, gated website/download/update delivery and offline desktop reading. Selected origin **eval.ad-fontes.app**, bootstrap administrator **larry.herzog@gmail.com**. This supersedes OAuth retirement only in an isolated evaluation edition; public notes/accounts and legacy data remain retired/preserved. Implementation is committed/pushed as **bea2622** on **codex/private-evaluation**, based on 28488ce; public main/hosting/released artifacts are unchanged. [Implementation, source pins, security boundaries, commands and release prerequisites](docs/Private-Evaluation-Implementation-2026-10-16.md).

@@ -8,7 +8,7 @@ cd "$repo"
 git diff --quiet && git diff --cached --quiet || { echo 'Review/commit checkout changes before installation.' >&2; exit 2; }
 [[ -s deployment/evaluation/.env ]] || { echo 'Create the NEW evaluation env file with only its dedicated/reused Ad Fontes Google client values.' >&2; exit 2; }
 [[ -d private/evaluation/content/evaluation-resources-2026-10-16-v1 ]] || { echo 'Transfer the verified restricted content privately before installation.' >&2; exit 2; }
-node scripts/evaluation/verify_payloads.mts
+python3 scripts/evaluation/verify_payloads.py
 mkdir -p private/evaluation/downloads
 sudo docker compose --env-file deployment/evaluation/.env -f deployment/evaluation/compose.yml config --quiet
 conf=/etc/nginx/sites-available/ad-fontes-evaluation
