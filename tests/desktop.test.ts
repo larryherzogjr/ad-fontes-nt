@@ -7,7 +7,6 @@ import { createLocalAdapter, editions } from '../app/lib/domain/corpus.ts';
 import { books } from '../app/lib/domain/references.ts';
 import { getAnalysis, getOccurrences, getLexicon } from '../app/lib/domain/greek.ts';
 import { resolveLookup } from '../app/lib/domain/lexical.ts';
-import { loadConfessions } from '../app/lib/domain/confessions.ts';
 import { loadGospelParallels } from '../app/lib/domain/gospel-parallels.ts';
 import { loadConnections } from '../app/lib/domain/testament-connections.ts';
 import { desktopStartPath, desktopWebsiteUrl } from '../app/desktop/navigation.ts';
@@ -60,7 +59,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.3.2');
+  assert.equal(config.version, '4.3.3');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -134,7 +133,7 @@ test('desktop bundles every released file unchanged and excludes account/private
   assert.equal(manifest.otEditions.length, 4);
   assert.ok(Object.keys(manifest.files).length > 13000);
   for (const [path, expected] of Object.entries(manifest.files)) {
-    assert.match(path, /^(?:(?:corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels|confessions)\/|fonts\/ad-fontes-ui-v1\/|branding\/ordinary-means-imprint-v1\/)/);
+    assert.match(path, /^(?:(?:corpus|analysis|editorial|lexical|om|library|visuals|connections|commentaries|gospel-parallels)\/|fonts\/ad-fontes-ui-v1\/|branding\/ordinary-means-imprint-v1\/)/);
     assert.doesNotMatch(path, /(^|\/)(\.env|raw|evidence|server|api|account|backups)(\/|$)/);
     const bytes = await readFile(join(assets, path));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, path);
@@ -290,10 +289,9 @@ test('offline desktop retains the complete checksum-verified Gospel parallel ind
  assert.equal(index.records.length,361);
 });
 
-test('offline desktop includes only the verified English confessional projection',async()=>{
- const index=await loadConfessions(path=>readFile(join(assets,path),'utf8'));assert.equal(index.paragraphs.length,4431);
- const text=JSON.stringify(index);assert.ok(!text.includes('la_alignment')&&!text.includes('de_text'));
- assert.deepEqual(await readdir(join(assets,'confessions')),['triglotta-1921-2026-10-14-v4']);
+test('offline desktop excludes retired Book of Concord assets',async()=>{
+ await assert.rejects(stat(join(assets,'confessions')), {code:'ENOENT'});
+ const inventory=await json('desktop-content.json');assert.ok(Object.keys(inventory.files).every(p=>!p.startsWith('confessions/')));
 });
 
 

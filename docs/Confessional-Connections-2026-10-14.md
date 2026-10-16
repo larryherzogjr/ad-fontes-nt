@@ -1,5 +1,7 @@
 # Confessional connections — October 14, 2026 (AFNT-119 / AFNT-102)
 
+Superseded by Larry’s [October 16 removal decision](Confessional-Connections-Retirement-2026-10-16.md). The implementation descriptions below are historical.
+
 ## Superseding primary-source audit — v4
 
 During browser review, the Small Catechism archive was found to omit Commandment, Creed and Lord’s Prayer statement blocks while retaining their explanations. It also repeats overview/article passages in the Smalcald Articles. The archive is therefore preserved as resource evidence, not accepted as a complete English reading authority. After a standard browser User-Agent yielded successful direct requests, 141 fixed primary pages were acquired once, including rights/translation pages. Builds never fetch them again.

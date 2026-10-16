@@ -1,5 +1,19 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — 4.3.3 release authorized (AFNT-119 / AFNT-102 / AF-UI-040)
+
+Larry authorizes commit, push and production web plus signed Mac/Windows release **4.3.3**. Includes full retirement of Confessional Connections/Book of Concord resources and the desktop Downloads website-navigation fix. Shared/native versions advance with identities and dependency/source/search/editorial pins preserved. Earlier signed 4.3.2 bytes remain immutable. See [4.3.3 release record](docs/V4.3.3-Desktop-Release-2026-10-16.md).
+
+Pre-bump removal verification passed (184 application / 50 source / 19 desktop checks; 61,470 offline assets), including browser old-link/packet/Sources/keyboard/phone checks. Fresh release verification, signing and private staging are in progress. Public installer metadata remains pinned to verified 4.3.2 artifacts until exact 4.3.3 bytes are frozen. Host sudo publication requires Larry’s own-terminal command per AGENTS.md. No production update is claimed. Current-release/MVP acceptance remains closed.
+
+
+## 2026-10-16 — Remove Confessional Connections (AFNT-119 / AFNT-102)
+
+Larry requests removing the Confessional Connections section and its Book of Concord resources. Shared source now removes its reader/search, Library destination, packet inclusion and Sources section; old links fall back to the eleven-collection overview. Saved packets ignore the retired checkbox, while device history/bookmarks remain stored and retired links are hidden. Normal imports remove all generated confessional web assets; the offline allowlist excludes them. Source evidence and historical pins remain preserved outside public bundles, and the existing general Library search pins/approved authored materials are unchanged. See [retirement record](docs/Confessional-Connections-Retirement-2026-10-16.md).
+
+Full `verify:both` passes: 184 application / 50 source / 19 desktop checks, typecheck, web and offline builds (61,470 assets). Production-preview browser review confirms old-link fallback, packet building, keyboard navigation, Sources removal and 320px without overflow; the retired index returns 404. This change is local shared source only. Frozen/signed/staged 4.3.2 installers and their deployment command do not contain this later removal and remain unchanged. No version, push, native publication or live deployment has been performed for this request. Next: include the verified removal in a newly packaged release. Current-release/MVP acceptance remains closed.
+
+
 ## 2026-10-16 — 4.3.2 signed, verified and privately staged (AF-UI-040)
 
 The desktop website-navigation correction is authorized for **4.3.2** and native source `c592832fe22c23604f88bc63a8f61047e93296ea` is pushed. Fresh shared verification passes (188 application / 50 source / 19 desktop tests; 61,472 offline assets), as do clean Linux CI, signed Mac notarization/mounted-installer/extracted-updater/signatures, Windows signing and upgrade/repeated-update/fresh-install checks, and final Node 22 web typecheck/build. Actual signed 4.3.2 Mac clicks from the reader and Library open Firefox’s public Downloads page while preserving the native passage/selection and Library without the invalid-reading error. [Release record, exact hashes, evidence and limitations](docs/V4.3.2-Desktop-Release-2026-10-15.md).

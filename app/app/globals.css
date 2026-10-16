@@ -1577,7 +1577,7 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 .library-page > h1, .collection-page-title, .public-page > h1,
 .chapter-heading h1, .chapter > h1,
 .study-header h2, .hebrew-explorer > h2, .greek-research > h1,
-.lectionary-browser > h2, .confessions > h2, .gospel-parallels > h2,
+.lectionary-browser > h2, .gospel-parallels > h2,
 .study-packet-builder > h2, .commentary-library > h1, .sources > h1,
 .library-page #library-results > section > h2 {
  font-family: var(--font-title); font-weight: 400;
@@ -1592,7 +1592,6 @@ body.reader-focus-mode .focus-tool { border: 1px solid var(--border); background
 .dictionary-body, .hebrew-dictionary-entry, .word-definition, .paired-greek-text,
 .library-word-detail, .fulltext-context article, .hebrew-lemma-list p,
 .fulltext-results .library-card > p:not([class]), .fulltext-results details > div > p,
-.confession-context article > p, .confession-results article > p:not([class]),
 .greek-research article p[lang="grc"] {
  font-family: var(--font-ui-legacy);
 }

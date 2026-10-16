@@ -8,7 +8,7 @@ export type DeviceLink = {
 /** Retired Library links are hidden without deleting saved device records. */
 export function availableDeviceLinks(links: DeviceLink[]): DeviceLink[] {
   return links.filter(link => {
-    try { const url = new URL(link.url, 'https://local.invalid'); return !(url.pathname === '/library' && (url.searchParams.get('view') === 'historical' || ['walther','krauth','josephus','edersheim'].includes(url.searchParams.get('collection') || '') || /^(walther|krauth|josephus|edersheim):/.test(url.searchParams.get('resource') || ''))); }
+    try { const url = new URL(link.url, 'https://local.invalid'); return !(url.pathname === '/library' && (['historical','confessions'].includes(url.searchParams.get('view') || '') || ['walther','krauth','josephus','edersheim'].includes(url.searchParams.get('collection') || '') || /^(walther|krauth|josephus|edersheim):/.test(url.searchParams.get('resource') || ''))); }
     catch { return false; }
   });
 }

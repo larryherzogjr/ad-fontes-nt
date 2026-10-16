@@ -1,6 +1,6 @@
 'use client';
 import { OrdinaryMeansImprint } from '@/components/ordinary-means-imprint';
-import {CalendarDays,NotebookPen,Search,Columns2,BookOpen,BookA,Languages,BookSearch,Link2,Columns3,ScrollText,LibraryBig} from 'lucide-react';
+import {CalendarDays,NotebookPen,Search,Columns2,BookOpen,BookA,Languages,BookSearch,Link2,Columns3,LibraryBig} from 'lucide-react';
 import AppLink from '@/components/app-link';
 import AbbottSmith from '@/reader/abbott-smith';
 import {libraryRoute,libraryHref,emptyLibraryRoute,type LibraryRoute} from '@/lib/library-routing';
@@ -9,7 +9,6 @@ import { useEffect, useMemo, useState, type FormEvent } from 'react';
 import HebrewExplorer from './hebrew-explorer';
 import FullTextSearch from './full-text-search';
 import StudyPackets from './study-packets';
-import Confessions from './confessions';
 import Lectionary from './lectionary';
 import GospelParallels from './gospel-parallels';
 import CommentaryLibrary from './commentaries';
@@ -260,7 +259,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['lectionary', 'confessions', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['lectionary', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -318,13 +317,11 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             <a href="/library?view=research"><div className="library-card-decoration" aria-hidden="true"><BookSearch strokeWidth={1.5} focusable="false"/></div><strong>Septuagint Research</strong><small>Search Greek texts, lemmas and morphology</small></a>
             <a href="/library?view=parallels"><div className="library-card-decoration" aria-hidden="true"><Columns3 strokeWidth={1.5} focusable="false"/></div><strong>Gospel Parallels</strong><small>Read related Gospel accounts together</small></a>
             <a href="/library?view=connections"><div className="library-card-decoration" aria-hidden="true"><Link2 strokeWidth={1.5} focusable="false"/></div><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
-            <a href="/library?view=confessions"><div className="library-card-decoration" aria-hidden="true"><ScrollText strokeWidth={1.5} focusable="false"/></div><strong>Confessional Connections</strong><small>Book of Concord · Scripture citations and documents</small></a>
             <a href="/library?view=commentaries"><div className="library-card-decoration" aria-hidden="true"><LibraryBig strokeWidth={1.5} focusable="false"/></div><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
             <a href="/library?view=hebrew"><div className="library-card-decoration" aria-hidden="true"><Languages strokeWidth={1.5} focusable="false"/></div><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>}
           <section id="library-results" tabIndex={-1}>
             {route.view === 'lectionary' && <Lectionary locationKey={locationKey} onNavigate={navigateCollection} />}
-            {route.view === 'confessions' && <Confessions locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'parallels' && <GospelParallels locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'packets' && <StudyPackets locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'fulltext' && <FullTextSearch locationKey={locationKey} onNavigate={navigateCollection} />}

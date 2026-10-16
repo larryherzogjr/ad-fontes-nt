@@ -11,15 +11,14 @@ import {getAnalysis} from './greek.ts';
 import {loadLookup,resolveLookup} from './lexical.ts';
 import {hebrewPassage,originalData,type HebrewIndex} from './original-languages.ts';
 import {loadGospelParallels,parallelMatches,parallelAccounts,parallelGroups,type GospelParallel} from './gospel-parallels.ts';
-import {loadConfessions,confessionalGroups,matchingConfessions,confessionLocation,type ConfessionalParagraph,type ConfessionalWork,type ConfessionalSection} from './confessions.ts';
 import {selectedLectionary,sameLectionaryRanges,type LectionarySelection} from './lectionary.ts';
 import omRelease from './om-release.json' with {type:'json'};
 
 export const packetStorageKey = 'af-study-packet-v2';
 export const legacyPacketStorageKey = 'af-study-packet-v1';
 export type PacketExcerpt = { resource: string; block: number };
-export type PacketOptions = { title:string; reference:string; editionIds:string[]; explanations:boolean; relatedConnections:boolean; relatedParallels:boolean; relatedConfessions:boolean; relatedGreek:boolean; relatedHebrew:boolean; publisherNotes:boolean; resourceLinks:boolean; writingSpace:boolean; relatedCommentary:boolean; lectionary?:LectionarySelection };
-export const defaultPacket:PacketOptions = {title:'Study packet',reference:'John 3:16–21',editionIds:['BSB'],explanations:true,relatedConnections:false,relatedParallels:false,relatedConfessions:false,relatedGreek:false,relatedHebrew:false,publisherNotes:true,resourceLinks:true,writingSpace:false,relatedCommentary:false};
+export type PacketOptions = { title:string; reference:string; editionIds:string[]; explanations:boolean; relatedConnections:boolean; relatedParallels:boolean; relatedGreek:boolean; relatedHebrew:boolean; publisherNotes:boolean; resourceLinks:boolean; writingSpace:boolean; relatedCommentary:boolean; lectionary?:LectionarySelection };
+export const defaultPacket:PacketOptions = {title:'Study packet',reference:'John 3:16–21',editionIds:['BSB'],explanations:true,relatedConnections:false,relatedParallels:false,relatedGreek:false,relatedHebrew:false,publisherNotes:true,resourceLinks:true,writingSpace:false,relatedCommentary:false};
 export function packetRanges(reference: string, verseLimit=120): PassageRange[] {
  if(reference.length>1500)throw Error('Use a shorter passage reference.');
  const ranges=resolveReference(reference);if(ranges.length>12||ranges.flatMap(expand).length>verseLimit)throw Error(`Choose up to 12 ranges and ${verseLimit} verses for one packet.`);
@@ -32,14 +31,14 @@ export function validatePacket(options: PacketOptions): PassageRange[] {
  const ranges=packetRanges(options.reference,options.lectionary?400:120);if(options.lectionary&&!sameLectionaryRanges(ranges,options.lectionary))throw Error('The Scripture selection differs from the appointed readings. Start a custom packet to change the passages.');
  const available=editionsFor(ranges);
  if(!Array.isArray(options.editionIds)||!options.editionIds.length||options.editionIds.length>7||new Set(options.editionIds).size!==options.editionIds.length||options.editionIds.some(id=>!available.some(e=>e.editionId===id)))throw Error('Choose at least one available edition. Greek NT editions require an NT-only packet.');
- for(const key of ['explanations','relatedConnections','relatedParallels','relatedConfessions','relatedGreek','relatedHebrew','publisherNotes','resourceLinks','writingSpace','relatedCommentary'] as const)if(typeof options[key]!=='boolean')throw Error('Invalid packet option.');
+ for(const key of ['explanations','relatedConnections','relatedParallels','relatedGreek','relatedHebrew','publisherNotes','resourceLinks','writingSpace','relatedCommentary'] as const)if(typeof options[key]!=='boolean')throw Error('Invalid packet option.');
  if(options.relatedCommentary)packetCommentarySelections(ranges);
  return ranges;
 }
 export function readPacket(value:string|null):PacketOptions {
  if(!value)return {...defaultPacket,editionIds:[...defaultPacket.editionIds]};
  const parsed=JSON.parse(value);if(![1,2].includes(parsed.schemaVersion)||!parsed.options)throw Error('This saved packet configuration is not supported.');
- const options={relatedConnections:false,relatedParallels:false,relatedConfessions:false,relatedGreek:false,relatedHebrew:false,relatedCommentary:false,...parsed.options};validatePacket(options);
+ const options={relatedConnections:false,relatedParallels:false,relatedGreek:false,relatedHebrew:false,relatedCommentary:false,...parsed.options};validatePacket(options);
  return {...Object.fromEntries(Object.keys(defaultPacket).map(key=>[key,options[key]])),...(options.lectionary?{lectionary:options.lectionary}:{})} as PacketOptions;
 }
 export function packetUrl(ranges: PassageRange[],editionId='BSB') {
@@ -53,8 +52,7 @@ export type LoadedStudy = {id:string;doc:SearchDoc;markdown:string;matches?:stri
 export type PacketCommentary = {doc:SearchDoc;paragraphs:SearchBlock[]};
 export type LoadedConnection = {id:string;citations:TestamentConnection[];label?:ConnectionLabel;ntRanges:PassageRange[];otRanges:PassageRange[];readings:PacketReading[]};
 export type LoadedParallel = {id:string;citations:GospelParallel[];readings:PacketReading[]};
-export type PacketConfession={paragraph:ConfessionalParagraph;work:ConfessionalWork;section:ConfessionalSection; locations:{paragraph:ConfessionalParagraph;work:ConfessionalWork;section:ConfessionalSection}[]};
-export type Packet = { options:PacketOptions; ranges:PassageRange[]; readings:PacketReading[]; units:Variant[]; resources:ReturnType<typeof relatedResources>; studies:LoadedStudy[]; connections:LoadedConnection[]; parallels:LoadedParallel[]; confessions:PacketConfession[]; commentary:PacketCommentary[]; matchingNotes:string[] };
+export type Packet = { options:PacketOptions; ranges:PassageRange[]; readings:PacketReading[]; units:Variant[]; resources:ReturnType<typeof relatedResources>; studies:LoadedStudy[]; connections:LoadedConnection[]; parallels:LoadedParallel[]; commentary:PacketCommentary[]; matchingNotes:string[] };
 export function packetCommentarySelections(ranges:PassageRange[]){
  const selections=commentaryChapters(ranges,true).map(c=>{const collection=commentaryForBook(c.book);return {id:`${collection.id}:${c.book}:${c.chapter}`,title:`${address(`${c.book}.${c.chapter}.1`).book.name} · ${collection.id==='kd'?'K&D source chapter group':'Lenski chapter'} ${c.chapter}`,collection:collection.id};});
  if(selections.length>20)throw Error('Choose passages covering up to 20 commentary chapter groups.');
@@ -165,9 +163,6 @@ export async function loadPacketParallels(ranges:PassageRange[],editionIds:strin
  const ids=english.length?english:['BSB'];
  return Promise.all(groups.map(async citations=>({id:citations[0].id,citations,readings:await Promise.all(parallelAccounts(citations[0]).flatMap(range=>ids.map(id=>loadPacketReading(range,id))))})));
 }
-export async function loadPacketConfessions(ranges:PassageRange[]):Promise<PacketConfession[]>{
- const index=await loadConfessions();return confessionalGroups(matchingConfessions(index,ranges)).map(group=>({paragraph:group[0],...confessionLocation(index,group[0]),locations:group.map(paragraph=>({paragraph,...confessionLocation(index,paragraph)}))}));
-}
 export async function buildPacket(options:PacketOptions,signal?:AbortSignal):Promise<Packet>{
  const ranges=validatePacket(options);
  const units=options.explanations?overlappingUnits(await loadPacketComparisons(),ranges):[];
@@ -175,10 +170,9 @@ export async function buildPacket(options:PacketOptions,signal?:AbortSignal):Pro
  const {studies,notes}=await relatedPacketStudies(ranges,options,signal);
  const ids=options.relatedConnections?relatedPacketConnectionIds((await loadConnectionCatalog()).connections,ranges):[];
  const connections=await loadPacketConnections(ids,options.editionIds),commentary=options.relatedCommentary?await loadPacketCommentary(ranges,signal):[];
- const confessions=options.relatedConfessions?await loadPacketConfessions(ranges):[];
  const parallels=options.relatedParallels?await loadPacketParallels(ranges,options.editionIds):[];
  if(signal?.aborted)throw new DOMException('Cancelled','AbortError');
- return {options:{...options,editionIds:[...options.editionIds]},ranges,readings,units,resources:options.resourceLinks?relatedResources(ranges):[],studies,connections,parallels,confessions,commentary,matchingNotes:notes};
+ return {options:{...options,editionIds:[...options.editionIds]},ranges,readings,units,resources:options.resourceLinks?relatedResources(ranges):[],studies,connections,parallels,commentary,matchingNotes:notes};
 }
 export function publicResourceUrl(path:string) {return path.startsWith('/')?`https://ad-fontes.app${path}`:path;}
 export function readingLabel(reading:PacketReading) {return `${formatPassage([reading.range])} · ${reading.name}`;}

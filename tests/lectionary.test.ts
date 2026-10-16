@@ -50,7 +50,7 @@ test('alternate appointments choose one reading, while a Palm Sunday packet reta
 test('Sunday packet state round trips, preserves preferences and validates appointments with a scoped larger limit',()=>{
  const o=observanceFor('three-year','2026-03-29')!,selection={id:o.id,choices:[0,0,0,0],extended:true},chosen=selectedLectionary(selection);
  assert.ok(chosen.ranges.flatMap(expand).length>120);
- const options={...defaultPacket,reference:formatPassage(chosen.ranges),lectionary:selection,relatedConfessions:true};assert.deepEqual(validatePacket(options),chosen.ranges);
+ const options={...defaultPacket,reference:formatPassage(chosen.ranges),lectionary:selection,relatedParallels:true};assert.deepEqual(validatePacket(options),chosen.ranges);
  assert.throws(()=>validatePacket({...options,lectionary:undefined}),/120/);
  assert.deepEqual(readPacket(JSON.stringify({schemaVersion:2,options})),options);
  const url=new URL(lectionaryPacketUrl(selection,'YLT'),'http://local');assert.equal(url.searchParams.get('packetEdition'),'YLT');assert.deepEqual(lectionarySelectionFromParams(url.searchParams),selection);

@@ -1,7 +1,6 @@
 'use client';
 import { OrdinaryMeansImprint, OrdinaryMeansPublisher } from '@/components/ordinary-means-imprint';
 import AppLink from '@/components/app-link';
-import {confessionRelease} from '@/lib/domain/confessions';
 import {gospelParallelsUrl,gospelBooks} from '@/lib/domain/gospel-parallels';
 import { noteContent } from './publisher-note-content';
 import { useEffect, useRef, useState } from 'react';
@@ -1123,11 +1122,10 @@ export default function Reader() {
             <p>
               Scripture is the main reading text. Section headings and
               publisher’s notes come from the selected edition. Ordinary Means
-              commentary, confessional sources, and future AI
+              commentary and future AI
               material are separate content categories; none is mixed into this
               Scripture text.
             </p>
-            <h2>Book of Concord · Confessional sources</h2><p>The included English Triglot Concordia (1921), translated by F. Bente and W. H. T. Dau, contains nine supplied confessional documents. Its quotations and source numbering are kept distinct from Scripture and Ordinary Means commentary. Explicit Scripture citations support partial navigation; no thematic connection is generated. Latin/German source files and their unverified paragraph joins are not included.</p><p><AppLink href="https://bookofconcord.org/sitepages/">Publisher public-domain statement</AppLink> · <AppLink href="https://bookofconcord.org/about-the-translation/">Translation details</AppLink> · <AppLink href={`/confessions/${confessionRelease}/manifest.json`}>Confessional source pins and matching limits</AppLink> · <a href="/library?view=confessions">Read confessional documents</a></p>
             <h2>Greek word analysis</h2>
             <p>
               Nestle 1904 morphology and lemmas by Ulrik Sandborg-Petersen, v1.3
@@ -1166,7 +1164,7 @@ export default function Reader() {
             </p>
             <p>The approved English OT release adds all 39 Old Testament books for reading, search and comparison. Septuagint reading/interlinear and reciprocal publisher-supplied NT/OT connections are available. The Greek source research workspace adds text, lemma and morphology search, source-only verses and alternative texts. Reviewed connection labels are published separately. Hebrew word analysis, lemma exploration and the included Hebrew word studies are available.</p>
             <p>
-              {environment.offline ? `This desktop build is version ${desktopVersion}. ` : <>Version 4.3.2 is the current cross-platform desktop release. </>}The
+              {environment.offline ? `This desktop build is version ${desktopVersion}. ` : <>Version 4.3.3 is the current cross-platform desktop release. </>}The
               macOS Apple Silicon package is Developer ID signed
               and Apple notarized; the Windows 11 x64 package is Public Trust
               signed. Both are available on
