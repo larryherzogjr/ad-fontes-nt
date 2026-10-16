@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       input_release:
-        description: Private draft release tag containing encrypted evaluation-web.enc
+        description: Temporary prerelease tag containing encrypted evaluation-web.enc
         required: true
         type: string
       archive_sha256:
@@ -71,8 +71,8 @@ jobs:
           ARCHIVE_SHA256: ${{ inputs.archive_sha256 }}
         run: |
           New-Item -ItemType Directory -Force prepared | Out-Null
-          gh release view $env:INPUT_RELEASE --json isDraft --jq '.isDraft' | Tee-Object -Variable draft
-          if ($LASTEXITCODE -ne 0 -or $draft -ne 'true') { throw 'Only private draft build inputs are allowed' }
+          $release = gh release view $env:INPUT_RELEASE --json isDraft,isPrerelease | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0 -or $release.isDraft -or -not $release.isPrerelease) { throw 'Temporary encrypted build-input prerelease required' }
           gh release download $env:INPUT_RELEASE --pattern evaluation-web.enc --dir prepared
           if ($LASTEXITCODE -ne 0) { throw 'Private input download failed' }
           node scripts/evaluation/build_transport.mjs decrypt prepared/evaluation-web.enc prepared/evaluation-web.tar.gz $env:ARCHIVE_SHA256
