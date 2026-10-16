@@ -6,7 +6,7 @@ const socialImageUrl = 'https://ad-fontes.app/og-downloads.png?v=20261008';
 
 export const metadata: Metadata = {
   title: 'Desktop downloads · Ad Fontes',
-  description: 'Download Ad Fontes 4.3.1 for macOS Apple Silicon or Windows 11 x64.',
+  description: 'Download Ad Fontes 4.3.2 for macOS Apple Silicon or Windows 11 x64.',
   openGraph: {
     type: 'website',
     url: 'https://ad-fontes.app/downloads',
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   },
 };
 
-const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.1/Ad-Fontes-macOS-Apple-Silicon-4.3.1.dmg';
-const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.1/Ad-Fontes-Windows-x64-4.3.1.exe';
+const macDownload = 'https://ad-fontes.app/beta-downloads/4.3.2/Ad-Fontes-macOS-Apple-Silicon-4.3.2.dmg';
+const windowsDownload = 'https://ad-fontes.app/beta-downloads/4.3.2/Ad-Fontes-Windows-x64-4.3.2.exe';
 
 export default function DownloadsPage() {
   return (
     <PublicPage eyebrow="Desktop release" title="Download Ad Fontes">
       <p>
-        Version 4.3.1 includes whole-Bible English reading and comparison,
+        Version 4.3.2 includes whole-Bible English reading and comparison,
         reciprocal NT/OT connections, and Septuagint reading, interlinear
         glosses, morphology, search and cross-testament lemma exploration
         on your desktop. It also includes all 110 reviewed textual comparisons,
@@ -82,6 +82,7 @@ export default function DownloadsPage() {
       </p>
 
       <h2>Release notes</h2>
+      <p>Version 4.3.2 fixes desktop website navigation. Downloads, Privacy, Terms and Support open their public page in your system browser while your study stays open in the app. Reading, Library and Sources remain available locally.</p>
       <p>Version 4.3.1 retires the Historical Writings collection and its Walther, Krauth, Josephus and Edersheim materials from browsing, search and offline packages. The remaining twelve Library collections and Ordinary Means imprints continue to be included.</p>
       <p>Version 4.3.0 added Historical Writings and Ordinary Means imprints. The Historical Writings collection was retired in 4.3.1.</p>
       <p>Version 4.2.0 introduces an evergreen and brass design with locally bundled interface fonts, clearer Library browsing, full-page Hebrew studies, external links that keep your study open, and consistent reader resource counts. Scripture and source-language typography are preserved. These updates are included offline in the desktop apps.</p>

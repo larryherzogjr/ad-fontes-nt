@@ -56,13 +56,13 @@ test('desktop update manifest is versioned, signed, HTTPS-only and immutable', a
   }
 });
 
-test('public desktop download page exposes only the approved 4.3.1 installers', async () => {
+test('public desktop download page exposes only the approved 4.3.2 installers', async () => {
   const page = await readFile('app/app/downloads/page.tsx', 'utf8');
   assert.match(page, /Desktop release/);
   assert.doesNotMatch(page, /release candidate/i);
-  assert.match(page, /beta-downloads\/4\.3\.1\/Ad-Fontes-macOS-Apple-Silicon-4\.3\.1\.dmg/);
-  assert.match(page, /beta-downloads\/4\.3\.1\/Ad-Fontes-Windows-x64-4\.3\.1\.exe/);
-  assert.match(page, /Version 4\.3\.1 includes whole-Bible English reading and comparison/);
+  assert.match(page, /beta-downloads\/4\.3\.2\/Ad-Fontes-macOS-Apple-Silicon-4\.3\.2\.dmg/);
+  assert.match(page, /beta-downloads\/4\.3\.2\/Ad-Fontes-Windows-x64-4\.3\.2\.exe/);
+  assert.match(page, /Version 4\.3\.2 includes whole-Bible English reading and comparison/);
   assert.match(page, /all 110 reviewed textual comparisons/);
   assert.match(page, /Version 3\.6\.0 includes the full LXX2012 English Septuagint/);
   assert.match(page, /250 Greek word studies/);
@@ -77,15 +77,15 @@ test('public desktop download page exposes only the approved 4.3.1 installers', 
 
 test('final public installer publication is pinned to the approved signed bytes', async () => {
   const publish = await readFile('deployment/publish-public-desktop-downloads.sh', 'utf8');
-  const checksums = await readFile('deployment/public-desktop-downloads-4.3.1.sha256', 'utf8');
-  assert.match(publish, /version=4\.3\.1\n/);
+  const checksums = await readFile('deployment/public-desktop-downloads-4.3.2.sha256', 'utf8');
+  assert.match(publish, /version=4\.3\.2\n/);
   assert.doesNotMatch(publish, /1\.0\.0-rc\./);
-  assert.match(publish, /39ca195c9f566590a0bba1111a27b42292c6363343b1427c0d7718ea3c75b0da/);
-  assert.match(publish, /f58bfd3ed82cee4f70309956e5432f36088d88d7289e67b1495b1befeb88b982/);
+  assert.match(publish, /a579ea73c7c2b417d9efd63ae75e360a55488c9f6de2d1514ece4c0382e4d588/);
+  assert.match(publish, /0e18f3e6c86d79bcc2c66a3e6ce302ffe15289f54974032731d81c9b7d37f4aa/);
   assert.equal(
     checksums,
-    '39ca195c9f566590a0bba1111a27b42292c6363343b1427c0d7718ea3c75b0da  Ad-Fontes-macOS-Apple-Silicon-4.3.1.dmg\n' +
-      'f58bfd3ed82cee4f70309956e5432f36088d88d7289e67b1495b1befeb88b982  Ad-Fontes-Windows-x64-4.3.1.exe\n',
+    'a579ea73c7c2b417d9efd63ae75e360a55488c9f6de2d1514ece4c0382e4d588  Ad-Fontes-macOS-Apple-Silicon-4.3.2.dmg\n' +
+      '0e18f3e6c86d79bcc2c66a3e6ce302ffe15289f54974032731d81c9b7d37f4aa  Ad-Fontes-Windows-x64-4.3.2.exe\n',
   );
 });
 

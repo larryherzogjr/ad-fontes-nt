@@ -1,5 +1,11 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — 4.3.2 signed, verified and privately staged (AF-UI-040)
+
+The desktop website-navigation correction is authorized for **4.3.2** and native source `c592832fe22c23604f88bc63a8f61047e93296ea` is pushed. Fresh shared verification passes (188 application / 50 source / 19 desktop tests; 61,472 offline assets), as do clean Linux CI, signed Mac notarization/mounted-installer/extracted-updater/signatures, Windows signing and upgrade/repeated-update/fresh-install checks, and final Node 22 web typecheck/build. Actual signed 4.3.2 Mac clicks from the reader and Library open Firefox’s public Downloads page while preserving the native passage/selection and Library without the invalid-reading error. [Release record, exact hashes, evidence and limitations](docs/V4.3.2-Desktop-Release-2026-10-15.md).
+
+Both signed apps, final download metadata and combined updater are prepared and privately staged/hash-verified. Installers: **365 MB Mac / 578 MB Windows**. Manifest SHA-256 `f26594cfa427ce9ef9a54d9c8ecd49df88294234acc328a88f14dab8fe187bf0`. Next: final publication commit/push and Larry’s guarded own-terminal host-sudo command, then independent live verification. Production remains **4.3.1** until execution. Corpus/search/editorial pins, native/signing identity and private/legacy data remain unchanged. Historical Writings remains retired. Earlier preparation entries below are historical.
+
 ## 2026-10-15 — Desktop website-navigation fix authorized for 4.3.2 (AF-UI-040)
 
 Larry authorizes releasing the tested Downloads navigation correction as **4.3.2**. Local Downloads, Privacy, Terms and Support links will open their public HTTPS page through the existing system-browser opener, preserving the current local study. Native-origin regressions and actual pointer/keyboard preview clicks pass. Full pre-release verification already passes (188 application / 50 source / 19 desktop tests); package/source-release labels now move to 4.3.2 for fresh verification and signing. [Release record](docs/V4.3.2-Desktop-Release-2026-10-15.md).
