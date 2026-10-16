@@ -3,7 +3,7 @@ import { isTauri } from '@tauri-apps/api/core';
 import { openUrl } from '@tauri-apps/plugin-opener';
 import Reader from '@/reader/reader';
 import { WordStudies } from '@/reader/word-studies';
-import { desktopStartPath } from './navigation';
+import { desktopStartPath, desktopWebsiteUrl } from './navigation';
 import DesktopUpdateManager from './update-manager';
 import Library from '@/library/library';
 import '@/app/globals.css';
@@ -18,7 +18,7 @@ if (startPath !== null) history.replaceState({}, '', startPath);
 document.addEventListener('click', event => {
   const anchor = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href]') : null;
   if (!anchor) return;
-  const url = new URL(anchor.href);
+  const url = new URL(desktopWebsiteUrl(anchor.href, location.href) ?? anchor.href);
   if (url.origin === location.origin) return;
   event.preventDefault();
   event.stopPropagation();

@@ -10,7 +10,7 @@ import { resolveLookup } from '../app/lib/domain/lexical.ts';
 import { loadConfessions } from '../app/lib/domain/confessions.ts';
 import { loadGospelParallels } from '../app/lib/domain/gospel-parallels.ts';
 import { loadConnections } from '../app/lib/domain/testament-connections.ts';
-import { desktopStartPath } from '../app/desktop/navigation.ts';
+import { desktopStartPath, desktopWebsiteUrl } from '../app/desktop/navigation.ts';
 
 const om = JSON.parse(await readFile('app/lib/domain/om-release.json', 'utf8'));
 const visuals = JSON.parse(await readFile('app/lib/domain/visual-release.json', 'utf8'));
@@ -43,6 +43,16 @@ test('fresh native origins normalize to the reader root without losing requested
   assert.equal(desktopStartPath('http://127.0.0.1:1421/'), null);
 });
 
+test('desktop website-only links open their public HTTPS page across native origins', () => {
+  for (const base of ['tauri://localhost/library', 'http://tauri.localhost/read/JHN/1', 'http://127.0.0.1:1421/library']) {
+    for (const page of ['downloads', 'privacy', 'terms', 'support']) {
+      assert.equal(desktopWebsiteUrl(`/${page}?from=app#details`, base), `https://ad-fontes.app/${page}?from=app#details`);
+      assert.equal(desktopWebsiteUrl(new URL(`/${page}/`, base).href, base), `https://ad-fontes.app/${page}/`);
+    }
+    for (const path of ['/', '/read/JHN/1?translation=BSB', '/library?view=fulltext', '/about/sources', '/library/search/release/manifest.json', '#reading', 'https://example.org/downloads']) assert.equal(desktopWebsiteUrl(path,base),null,path);
+  }
+});
+
 test('desktop release has a signed, user-controlled stable updater configuration', async () => {
   const config = JSON.parse(await readFile('app/desktop/src-tauri/tauri.conf.json', 'utf8'));
   const packageMetadata = JSON.parse(await readFile('app/package.json', 'utf8'));
@@ -50,7 +60,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.3.1');
+  assert.equal(config.version, '4.3.2');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -64,8 +74,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "4\.3\.1"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.3\.1"/);
+  assert.match(cargoManifest, /^version = "4\.3\.2"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.3\.2"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);

@@ -1,5 +1,17 @@
 # Ad Fontes NT — project status
 
+## 2026-10-15 — Desktop website-navigation fix authorized for 4.3.2 (AF-UI-040)
+
+Larry authorizes releasing the tested Downloads navigation correction as **4.3.2**. Local Downloads, Privacy, Terms and Support links will open their public HTTPS page through the existing system-browser opener, preserving the current local study. Native-origin regressions and actual pointer/keyboard preview clicks pass. Full pre-release verification already passes (188 application / 50 source / 19 desktop tests); package/source-release labels now move to 4.3.2 for fresh verification and signing. [Release record](docs/V4.3.2-Desktop-Release-2026-10-15.md).
+
+Production 4.3.1 is independently verified. Next: push the exact native source, reproduce checks in clean CI, build/verify signed Mac and Windows artifacts, privately stage and pin exact bytes, then hand off the guarded host-sudo command for Larry's own terminal. Published 4.3.1 bytes, corpus/search/editorial pins, native/signing identities and private/legacy data remain unchanged.
+
+## 2026-10-15 — Desktop Downloads routing correction prepared (AF-UI-040)
+
+Larry reports an invalid-reading error after clicking Downloads in desktop 4.3.1. A local navigation fix sends website-only Downloads/Privacy/Terms/Support URLs through the existing system-browser opener, preserving the current study and local reading/Library/Sources routes. Native-origin regression tests, full verification (188 application / 50 source / 19 desktop tests), typecheck and web/offline builds pass. Actual pointer/keyboard preview checks open the public page while preserving Library/Sources, including the phone-width footer link. [Implementation and verification](docs/Desktop-Website-Navigation-2026-10-15.md). Published installers are unchanged; delivery requires a new desktop release.
+
+Independent production verification confirms **4.3.1 is live** at `a38c38d802c98009e76a119f285ad8088c9001e4`: healthy web, exact updater manifest, all four complete signed downloads hash-verified, active v5 search and retired historical catalog/scan/search URLs returning 404. Historical Writings removal is deployed. [Production record](docs/V4.3.1-Desktop-Release-2026-10-15.md). Earlier pending-deployment entries below are historical and superseded by this verification.
+
 ## 2026-10-15 — Historical Writings retired; 4.3.1 signed and staged (AF-LIB-004)
 
 Larry reports completing 4.3.0, then explicitly requests removing Historical Writings and all Walther, Krauth, Josephus and Edersheim materials and releasing **4.3.1** to web and desktop. The removal is committed/pushed at native source `5876fe1a6dc10143fa90ccce49527ae776652dfc`. The Library has twelve collections; historical readers, source notices, author filters and scan/text payloads are excluded from web/offline bundles. Old deep links show the overview, and retired saved/recent links are hidden without deleting device records. Original source/release evidence remains outside app assets; other resources and Ordinary Means imprints remain included.
