@@ -2,7 +2,7 @@
 
 ## 2026-10-16 — Private evaluation deployment and signed releases authorized (AF-EVAL-001–003)
 
-Larry confirms the Google callback, approves the prepared configuration and authorizes eval.ad-fontes.app hosting/Nginx plus signed Mac and Windows evaluation apps. Deployment uses a separate checkout/service/database/port and private content/download mounts; public 4.3.4 remains independent. Release preparation is in progress; no live evaluation deployment or signed evaluation installer is claimed yet. Host sudo requires Larry's complete own-terminal command under AGENTS.md. Windows inputs will travel encrypted through the private repository's draft build-input release; the existing main-bound Azure signing federation stays unchanged.
+Larry confirms the Google callback, approves the prepared configuration and authorizes eval.ad-fontes.app hosting/Nginx plus signed Mac and Windows evaluation apps. Deployment uses a separate checkout/service/database/port and private content/download mounts; public 4.3.4 remains independent. The signed/notarized Mac evaluation installer and updater now pass signature, mounted/extracted identity and actual offline native smoke checks. The complete evaluation web build, typecheck and 189 application / 51 source / four evaluation groups pass. Host content is staged/hash-verified; live deployment and Windows signing remain pending. [Exact artifacts and handoff](docs/Private-Evaluation-Release-2026-10-16.md). Host sudo requires Larry's complete own-terminal command under AGENTS.md. Windows inputs will travel encrypted through the private repository's draft build-input release; the existing main-bound Azure signing federation stays unchanged.
 
 ## 2026-10-16 — Private evaluation edition implementation (AF-EVAL-001–003)
 

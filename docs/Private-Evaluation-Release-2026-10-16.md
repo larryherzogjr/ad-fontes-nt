@@ -1,0 +1,27 @@
+# Private evaluation 4.3.4 release preparation — October 16, 2026
+
+AF-EVAL-001–003. Larry confirms the Google callback and approves the prepared isolated configuration, eval.ad-fontes.app hosting/Nginx, and signed Mac/Windows evaluation publication. This release is independent of public 4.3.4. Initial evaluation version: 4.3.4; identifier app.ad-fontes.evaluation; Mac product Ad Fontes Evaluation. Source/resource limitations remain in [the implementation record](Private-Evaluation-Implementation-2026-10-16.md).
+
+## Verified preparation
+
+Native source commit `73c4cff3d77b70f2fe2b25c16c4266eb59d46a4e` is pushed on codex/private-evaluation. Fresh official Node 24 typecheck, 189 application checks, 51 Python/source checks and four evaluation security/source-heading groups pass. The complete evaluation offline inventory (75,937 payloads), restricted pins and frontend allowlist pass verification before native packaging. The authenticated CI transport passes an encrypt/decrypt round trip and rejects changed ciphertext. The complete evaluation production website build also passes on official Node 24, including the same 189 application / 51 Python-source checks. Compose configuration passes. Local Docker image execution is unavailable because its daemon is stopped; the own-terminal host script performs the actual image build.
+
+A separate tracked-clean host checkout at ~/ad-fontes-evaluation uses the existing repository-specific read-only deploy key. Its dedicated env contains only the explicitly approved Google client fields, mode 0600. All 2,901 restricted payload hashes and the search manifest match the tracked pins using the host's existing Python. Restricted text is outside Git, public assets and the Docker build context. Public health remains OK. No sudo or live service change has been executed by the agent.
+
+## Deployment and signing boundaries
+
+Larry receives the complete own-terminal deployment command required by AGENTS.md. The script builds/starts only the new ad-fontes-evaluation Compose project on loopback 8136, issues the evaluation certificate, and installs only the dedicated evaluation Nginx site. The public checkout, Compose service, stable updater, legacy databases/volumes and signing identities remain separate.
+
+Azure federation is intentionally bound to main. The proposed evaluation Windows workflow would launch on main, check out the exact evaluation commit, retrieve an AES-256-GCM encrypted frontend from a private draft release, authenticate/decrypt and verify its full inventory, run evaluation security checks, and use the existing Azure/updater signing credentials. It would verify side-by-side installation/update/uninstall against a hash-pinned public installer and return signed artifacts only as private CI output. Automatic approval review rejected publishing this new main workflow because it adds persistent CI access to signing/OIDC secrets; the exact action has been submitted to Larry for explicit approval. No workaround, broadened federation or main change has been executed.
+
+Mac packaging uses the existing Developer ID and Apple notarization credentials, evaluation/platform overlays, existing minimum macOS 14 overlay and compiler-dependency-only strip override. Its frontend is the verified isolated evaluation-dist. Both Apple notarizations are accepted: app `7930d779-3dd2-4cf5-aa35-2463649c1a69`, DMG `b8811b69-b3cf-41d7-bb3f-63ae790b15be`. Strict/deep codesign, Gatekeeper, app/DMG staple validation, read-only mounted DMG, separately extracted updater app, exact executable comparisons and both updater signature components pass. Mounted installer identifier is `app.ad-fontes.evaluation`; the existing installed public 4.3.3 app identifier/executable remain unchanged.
+
+Frozen Mac artifacts: `artifacts/desktop/evaluation/mac/signed-4.3.4-73c4cff/`. DMG SHA-256 `6cebb9a96d7f04b20248231750747c0d749d55da1afe1a9eaaa53ffde3a00bdc` (511,851,043 bytes); updater SHA-256 `1e8a53da9d802cc402681c5fb0fbe229f31816eb0d4cc2c01c645feebb319a70` (507,810,180 bytes); signature SHA-256 `f256496d886a15921bcf4abdf747854cdfc0ca28ea673dde9648b66246d36f1e`.
+
+Actual frozen signed-app smoke passes: separate evaluation title/menu, both BoC editions' Small Catechism text and cross-edition navigation, Concordia volume catalog, quoted phrase search (271 matching Concordia sections), Greek excerpt/source context, Escape return, and unpaired update refusal with website pairing guidance. Only the candidate app is quit. Screenshot: `artifacts/review/evaluation-2026-10-16/signed-mac-context.png`. No live pairing/update delivery or Windows result is inferred.
+
+Prepared private frontend archive: `private/evaluation/build-input/4.3.4-73c4cff/evaluation-web.tar.gz`, SHA-256 `d6180eb7d3d13aca367ebfd9878215f6145d2198452d2b1febfed6e4538cacdf`. It has not been uploaded to GitHub. The private publication preparer still refuses missing Windows/exact-artifact verification evidence; no publication metadata has been generated.
+
+## Pending
+
+Host own-terminal execution and live HTTPS/OAuth verification; workflow approval and Windows signed build; combined exact-artifact verification and protected installer/updater publication. Manual Logos eligibility confirmation remains an administrator action before granting access, including Larry's own initial grant. Delivered offline resources cannot be recalled by revocation. No new physical Windows 11 or Intel Mac acceptance is claimed.
