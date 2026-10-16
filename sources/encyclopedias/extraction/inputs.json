@@ -1,0 +1,22 @@
+{
+  "isbe-articles.jsonl": {
+    "bytes": 109282356,
+    "sha256": "e15155331957d1d8850ff08dac33827d7e1b88304b6d9c32c20b9f9e9e0c5179",
+    "gzipSha256": "3e1afa46c3ef571d76ac91319d02130b614807ebab1b9bb00a14587d51ecd62b"
+  },
+  "lc-articles.jsonl": {
+    "bytes": 7822513,
+    "sha256": "fe765dd18e910f446bd4bbb5c69d3785e65b19d89f20f1ddcfec06267a65e13f",
+    "gzipSha256": "bdbce110ad2dd9c1ae5a5f528b275929cb13dea5ca69d737ac0f5ef3382af4a7"
+  },
+  "toc-isbe.jsonl": {
+    "bytes": 2660483,
+    "sha256": "d6b4aa3bba328f455a56f33958aa7e65e3cfe9cefb9aadd68ac72e092b8d8ad6",
+    "gzipSha256": "8a6821fec2ddbb8f92e4cd991da1119286b52caa3bfc340f6e81af57da804e37"
+  },
+  "toc-lc.jsonl": {
+    "bytes": 284207,
+    "sha256": "c1c9f68ace179e98b7d09b38285099b2a25910b0bb3aab75de3e8561b77c510a",
+    "gzipSha256": "26def73aceb7170dbcba1c6f4adbab657b3e1500fea68ed13d4621f0afc71197"
+  }
+}

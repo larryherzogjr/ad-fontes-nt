@@ -9,11 +9,11 @@ const digest=(b:Uint8Array)=>createHash('sha256').update(b).digest('hex');
 test('retired writings have no public payload, search collections or active importer',async()=>{
  await assert.rejects(stat('app/public/library/historical'),{code:'ENOENT'});
  assert.deepEqual(await readdir('app/public/library/search'),[searchRelease]);
- assert.deepEqual(Object.keys(collectionLabels),['greek','hebrew','comparisons','lenski','kd']);
+ assert.deepEqual(Object.keys(collectionLabels),['greek','hebrew','comparisons','lenski','kd','isbe','lutheran']);
  const pkg=JSON.parse(await readFile('package.json','utf8'));assert.doesNotMatch(pkg.scripts['import:all'],/import_historical_library/);
  const manifest=JSON.parse(await readFile(`content/library-search/${searchRelease}/manifest.json`,'utf8'));
  const previous=JSON.parse(await readFile('content/library-search/library-search-2026-10-14-v2/manifest.json','utf8'));
- assert.deepEqual(manifest.inputs,previous.inputs);assert.deepEqual(manifest.counts,previous.counts);
+ for(const [path,hash] of Object.entries(previous.inputs))assert.equal(manifest.inputs[path],hash,path);for(const [id,count] of Object.entries(previous.counts))assert.deepEqual(manifest.counts[id],count,id);assert.ok(Object.keys(manifest.inputs).every(path=>!path.startsWith('library/historical/')));
  // Every retained decoded search payload is identical after normalizing only the derivative ID.
  for(const path of Object.keys(previous.files)){
   const bytes=await readFile(`app/public/library/search/${searchRelease}/${path}`);

@@ -1,7 +1,7 @@
 /** Shared, deterministic word/phrase matching. Display always uses original text. */
-export const searchRelease = 'library-search-2026-10-15-v5';
+export const searchRelease = 'library-search-2026-10-16-v7';
 export const searchBase = `/library/search/${searchRelease}`;
-export const collectionLabels: Record<string, string> = { greek: 'Ordinary Means Greek studies', hebrew: 'Ordinary Means Hebrew studies', comparisons: 'Textual comparisons', lenski: 'Lenski', kd: 'Keil & Delitzsch' };
+export const collectionLabels: Record<string, string> = { greek: 'Ordinary Means Greek studies', hebrew: 'Ordinary Means Hebrew studies', comparisons: 'Textual comparisons', lenski: 'Lenski', kd: 'Keil & Delitzsch', isbe: 'ISBE (1915)', lutheran: 'Lutheran Cyclopedia (1899)' };
 export type Token = { value: string; start: number; end: number };
 export function tokenize(text: string): Token[] {
   return [...text.matchAll(/[\p{L}\p{N}][\p{L}\p{N}\p{M}]*/gu)].map(m => ({ value: m[0].normalize('NFD').replace(/\p{M}/gu, '').toLowerCase(), start: m.index!, end: m.index! + m[0].length }));

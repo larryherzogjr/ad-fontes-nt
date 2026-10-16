@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "encyclopedias-2026-10-16-v2",
+  "file": "raw/encyclopedias-adfontes-package.zip",
+  "sha256": "7b79616088929d354eebc26a29309be308e9206c0848587a832e59b60414bb23",
+  "decision": "Larry authorized local integration of both supplied historical encyclopedias on 2026-10-16. Local review only; no publication authorization inferred.",
+  "rightsEvidence": "Supplied handoff asserts public-domain status; original publication/title/copyright notices are preserved in front matter. No worldwide clearance or rights in a modern publisher layer are independently certified.",
+  "evidenceLimit": "Original article-chain and TOC JSONL logs were recovered from the local preparation folder referenced by the supplied builder. Exact raw bytes are preserved in gzip wrappers under extraction/. Chains, TOC offsets, article text and front matter are independently reproduced; no fresh account/network extraction or print-scan comparison is claimed.",
+  "extractionEvidence": "extraction/audit.json"
+}

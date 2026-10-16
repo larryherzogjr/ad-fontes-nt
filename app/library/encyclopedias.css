@@ -1,0 +1,10 @@
+.encyclopedias { min-width: 0; }
+.encyclopedias h1 { overflow-wrap: anywhere; }
+.encyclopedias .library-article { max-width: 74ch; }
+.encyclopedias .library-article p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.encyclopedias .library-card h2 { font-size: 1.15rem; }
+.encyclopedias .library-card p, .encyclopedia-related { overflow-wrap: anywhere; }
+.encyclopedia-alphabet { display: flex; flex-wrap: wrap; gap: .35rem; margin: 1.25rem 0; }
+.encyclopedia-alphabet button { min-width: 2.5rem; min-height: 2.75rem; }
+.encyclopedia-alphabet button[aria-pressed="true"] { font-weight: 700; text-decoration: underline; text-underline-offset: .25em; }
+.encyclopedias select { max-width: 100%; }

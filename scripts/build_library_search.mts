@@ -60,6 +60,21 @@ for(const [id,release,author] of [['lenski','lenski-2026-10-08-v1','R. C. H. Len
   }
  });
 }
+const encyclopediaRelease='encyclopedias-2026-10-16-v2';
+const encyclopediaRoot=`library/encyclopedias/${encyclopediaRelease}`;
+const encyclopediaPin=JSON.parse(await readFile(join(root,'content/encyclopedias',encyclopediaRelease,'manifest.json'),'utf8'));
+const encyclopediaIndex=await read(`${encyclopediaRoot}/index.json`);
+if(inputs[`${encyclopediaRoot}/index.json`]!==encyclopediaPin.files['index.json'])throw Error('Encyclopedia catalog hash mismatch');
+for(const work of encyclopediaIndex.works) {
+ await collection(work.id,async add=>{
+  for(const entry of work.entries) {
+   const path=`articles/${work.id}/${entry.id}.json`,full=`${encyclopediaRoot}/${path}`,article=await read(full);
+   if(inputs[full]!==entry.sha256||inputs[full]!==encyclopediaPin.files[path]||article.releaseId!==encyclopediaRelease)throw Error('Encyclopedia article hash mismatch');
+   const bucket=entry.id.slice(0,1).toLowerCase();
+   add({id:`${work.id}:${entry.id}`,title:entry.label,author:work.editors,release:encyclopediaRelease,book:'',sourceUrl:`/library?view=encyclopedias&work=${work.id}&entry=${entry.id}`,shard:`text/${work.id}-${bucket}.bin`,notice:`Historical reference · ${work.title} (${work.year}). Exact supplied prose and author signatures retained. Text only; illustrations omitted. Cite by article heading and edition. Distinct from Scripture and Ordinary Means commentary.`},article.paragraphs.map((text:string)=>({text})));
+  }
+ });
+}
 const implementation:Record<string,string>={};for(const path of ['scripts/build_library_search.mts','app/lib/domain/library-search.ts','app/node_modules/fflate/esm/browser.js'])implementation[path]=sha(await readFile(join(root,path)));
 const manifest={schemaVersion:1,releaseId:searchRelease,inputs,implementation,files,counts};
 if(pin&&JSON.stringify(pin)!==JSON.stringify(manifest))throw Error('Library search differs from its pinned derivative. Prepare a documented successor release; do not overwrite the pin.');
@@ -68,4 +83,4 @@ console.log(`Library search: ${Object.values(counts).reduce((n,c)=>n+c.documents
 
 // Retired source projections must not remain directly reachable in web builds.
 await rm(join(pub,'library/historical'),{recursive:true,force:true});
-for(const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3','library-search-2026-10-15-v4'])await rm(join(pub,'library/search',release),{recursive:true,force:true});
+for(const release of ['library-search-2026-10-14-v1','library-search-2026-10-14-v2','library-search-2026-10-15-v3','library-search-2026-10-15-v4','library-search-2026-10-15-v5','library-search-2026-10-16-v6'])await rm(join(pub,'library/search',release),{recursive:true,force:true});

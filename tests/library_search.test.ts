@@ -6,7 +6,8 @@ import { gunzipSync } from 'node:zlib';
 import { tokenize, parseQuery, textMatches, matchRanges, encodePostings, decodePostings, queryIndex, searchRelease, checkedJson, type SearchIndex } from '../app/lib/domain/library-search.ts';
 const base=new URL(`../app/public/library/search/${searchRelease}/`,import.meta.url);
 const manifest=JSON.parse(await readFile(new URL('manifest.json',base),'utf8'));
-const load=async(path:string)=>{const bytes=await readFile(new URL(path,base));const obj=JSON.parse(path.endsWith('.bin')?gunzipSync(bytes).toString():bytes.toString());if(obj.postingShards)for(const shard of obj.postingShards){Object.assign(obj.postings,(await load(shard)).postings);}return obj;};
+const cache=new Map<string,any>();
+const load=async(path:string)=>{if(cache.has(path))return cache.get(path);const bytes=await readFile(new URL(path,base));const obj=JSON.parse(path.endsWith('.bin')?gunzipSync(bytes).toString():bytes.toString());if(obj.postingShards)for(const shard of obj.postingShards){Object.assign(obj.postings,(await load(shard)).postings);}cache.set(path,obj);return obj;};
 
 test('search words, quoted phrases, punctuation and original Unicode offsets',()=>{
  assert.deepEqual(parseQuery('baptism "forgiveness of sins"'),[['baptism'],['forgiveness','of','sins']]);
@@ -30,8 +31,8 @@ test('search indexes contain all and only active published inventories and exact
  const pin=JSON.parse(await readFile(new URL(`../content/library-search/${searchRelease}/manifest.json`,import.meta.url),'utf8'));assert.deepEqual(manifest,pin);
  for(const [path,hash] of Object.entries(manifest.implementation)){assert.equal(createHash('sha256').update(await readFile(new URL(`../${path}`,import.meta.url))).digest('hex'),hash,path);}
  for(const [path,hash] of Object.entries(manifest.inputs)){assert.equal(createHash('sha256').update(await readFile(new URL(`../app/public/${path}`,import.meta.url))).digest('hex'),hash,path);}
- assert.equal(manifest.counts.greek.documents,250);assert.equal(manifest.counts.hebrew.documents,7);assert.equal(manifest.counts.comparisons.documents,110);assert.equal(manifest.counts.lenski.documents,260);assert.equal(manifest.counts.kd.documents,929);
- assert.ok(Object.keys(manifest.inputs).every(p=>!p.includes('candidate')&&!p.includes('draft')&&!p.includes('sources/')));
+ assert.equal(manifest.counts.greek.documents,250);assert.equal(manifest.counts.hebrew.documents,7);assert.equal(manifest.counts.comparisons.documents,110);assert.equal(manifest.counts.lenski.documents,260);assert.equal(manifest.counts.kd.documents,929);assert.equal(manifest.counts.isbe.documents,9348);assert.equal(manifest.counts.lutheran.documents,2122);
+ assert.ok(Object.keys(manifest.inputs).every(p=>!p.split('/').slice(0,-1).some(segment=>segment.includes('candidate')||segment.includes('draft')||segment==='sources')));
  assert.ok(Object.keys(manifest.inputs).filter(p=>p.startsWith('om/om-studies')).every(p=>p.includes('om-studies-2026-09-12-v8')));
  for(const [path,hash] of Object.entries(manifest.files)){const data=await readFile(new URL(path,base));assert.equal(createHash('sha256').update(data).digest('hex'),hash,path);}
  for(const collection of ['lenski','kd']){const index=await load(`${collection}.bin`);for(const doc of index.documents){const shard=await load(doc.shard);const source=JSON.parse(await readFile(new URL(`../app/public/commentaries/${doc.release}/chapters/${doc.book}/${doc.id.split(':')[2]}.json`,import.meta.url),'utf8'));assert.deepEqual(shard.documents[doc.id].slice(1).map((b:any)=>b.text),source.paragraphs,doc.id);}}
@@ -46,4 +47,34 @@ test('missing or corrupted data fails explicitly instead of yielding empty resul
  try{globalThis.fetch=async()=>new Response('missing',{status:404});await assert.rejects(checkedJson('missing.json','x'),/could not be loaded/);
  globalThis.fetch=async()=>new Response('{}');await assert.rejects(checkedJson('corrupt.json','0'.repeat(64)),/does not match/);
  }finally{globalThis.fetch=original;}
+});
+
+
+test('both encyclopedia inventories are searchable with exact paragraph context and source labels',async()=>{
+ for(const id of ['isbe','lutheran']) {
+  const index=await load(`${id}.bin`);
+  assert.equal(index.documents.length,id==='isbe'?9348:2122);
+  assert.ok(queryIndex(index,'baptism').length>0);
+  assert.equal(queryIndex(index,'baptism','ROM').length,0);
+  for(const doc of index.documents) {
+   const text=await load(doc.shard);
+   const article=JSON.parse(await readFile(new URL(`../app/public/library/encyclopedias/${doc.release}/articles/${id}/${doc.id.slice(id.length+1)}.json`,import.meta.url),'utf8'));
+   assert.deepEqual(text.documents[doc.id].slice(1).map((b:any)=>b.text),article.paragraphs,doc.id);
+  }
+ }
+ const i=await load('lutheran.bin');
+ assert.ok(queryIndex(i,'"standing or a falling church"').some(g=>g.doc.id==='lutheran:justification'));
+ assert.equal(i.documents.filter((d:any)=>d.title.startsWith('Predestination · source entry')).length,3);
+});
+
+
+test('encyclopedia successor preserves every predecessor search input and original collection count',async()=>{
+ const old=JSON.parse(await readFile(new URL('../content/library-search/library-search-2026-10-15-v5/manifest.json',import.meta.url),'utf8'));
+ for(const [path,hash] of Object.entries(old.inputs))assert.equal(manifest.inputs[path],hash,path);
+ for(const [id,count] of Object.entries(old.counts))assert.deepEqual(manifest.counts[id],count,id);
+ for(const file of ['build_library_search.mts','library-search.ts']) {
+  const data=await readFile(new URL(`../content/library-search/library-search-2026-10-15-v5/evidence/${file}`,import.meta.url));
+  const original=Object.entries(old.implementation).find(([p])=>p.endsWith('/'+file))!;
+  assert.equal(createHash('sha256').update(data).digest('hex'),original[1]);
+ }
 });

@@ -21,8 +21,8 @@ const assets = resolve('app/desktop/dist');
 const json = async (path: string) => JSON.parse(await readFile(join(assets, path), 'utf8'));
 
 test('offline desktop includes every pinned Library search shard and the shared worker',async()=>{
- const base='library/search/library-search-2026-10-15-v5';
- const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-15-v5/manifest.json','utf8'));
+ const base='library/search/library-search-2026-10-16-v7';
+ const pin=JSON.parse(await readFile('content/library-search/library-search-2026-10-16-v7/manifest.json','utf8'));
  assert.deepEqual(await json(`${base}/manifest.json`),pin);
  for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
  assert.ok((await readdir(join(assets,'assets'))).some(name=>/^search\.worker-.+\.js$/.test(name)));
@@ -30,7 +30,7 @@ test('offline desktop includes every pinned Library search shard and the shared 
 
 test('offline desktop excludes all retired writings and predecessor search projections',async()=>{
  await assert.rejects(stat(join(assets,'library/historical')), {code:'ENOENT'});
- assert.deepEqual(await readdir(join(assets,'library/search')),['library-search-2026-10-15-v5']);
+ assert.deepEqual(await readdir(join(assets,'library/search')),['library-search-2026-10-16-v7']);
  const inventory=await json('desktop-content.json');assert.ok(Object.keys(inventory.files).every(p=>!p.startsWith('library/historical/')));
 });
 
@@ -59,7 +59,7 @@ test('desktop release has a signed, user-controlled stable updater configuration
   const cargoLock = await readFile('app/desktop/src-tauri/Cargo.lock', 'utf8');
   const capability = JSON.parse(await readFile('app/desktop/src-tauri/capabilities/default.json', 'utf8'));
   const publicKey = (await readFile('deployment/desktop-updater-public.txt', 'utf8')).trim();
-  assert.equal(config.version, '4.3.3');
+  assert.equal(config.version, '4.3.4');
   assert.equal(config.productName, 'Ad Fontes');
   assert.equal(config.app.windows[0].title, 'Ad Fontes');
   assert.equal(config.identifier, 'app.ad-fontes.desktop');
@@ -73,8 +73,8 @@ test('desktop release has a signed, user-controlled stable updater configuration
   assert.match(macDisplay, /"CFBundleDisplayName" = "Ad Fontes"/);
 
   assert.equal(packageMetadata.version, config.version);
-  assert.match(cargoManifest, /^version = "4\.3\.3"$/m);
-  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.3\.3"/);
+  assert.match(cargoManifest, /^version = "4\.3\.4"$/m);
+  assert.match(cargoLock, /name = "ad-fontes-nt-desktop"\nversion = "4\.3\.4"/);
   assert.equal(config.bundle.createUpdaterArtifacts, true);
   const unsignedWindowsConfig = JSON.parse(await readFile('app/desktop/ci-no-frontend-build.json', 'utf8'));
   assert.equal(unsignedWindowsConfig.bundle.createUpdaterArtifacts, false);
@@ -342,4 +342,14 @@ test('offline desktop includes only the approved publisher imprint assets unchan
  const inventory=await json('desktop-content.json');
  assert.deepEqual(Object.keys(inventory.files).filter(path=>path.startsWith('branding/')).sort(), ['manifest.json','ordinary-means-imprint.png','ordinary-means-imprint-tagline.png'].map(name=>`${base}/${name}`).sort());
  for(const [name,pin] of Object.entries(manifest.files) as [string,{sha256:string}][])assert.equal(createHash('sha256').update(await readFile(join(assets,base,name))).digest('hex'),pin.sha256);
+});
+
+
+test('offline encyclopedia catalog and every article match the source projection pin',async()=>{
+ const base='library/encyclopedias/encyclopedias-2026-10-16-v2';
+ const pin=JSON.parse(await readFile('content/encyclopedias/encyclopedias-2026-10-16-v2/manifest.json','utf8'));
+ assert.deepEqual(await json(`${base}/manifest.json`),pin);
+ for(const [file,hash] of Object.entries(pin.files))assert.equal(createHash('sha256').update(await readFile(join(assets,base,file))).digest('hex'),hash,file);
+ const index=await json(`${base}/index.json`);assert.deepEqual(index.works.map((w:any)=>w.entries.length),[9348,2122]);
+ const inv=await json('desktop-content.json');assert.ok(!Object.keys(inv.files).some(p=>/encyclopedias.*\.(zip|py|txt)$/.test(p)));
 });

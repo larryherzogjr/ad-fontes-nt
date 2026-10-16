@@ -5,9 +5,10 @@ import AppLink from '@/components/app-link';
 import AbbottSmith from '@/reader/abbott-smith';
 import {libraryRoute,libraryHref,emptyLibraryRoute,type LibraryRoute} from '@/lib/library-routing';
 import {libraryCollections,collectionDestination} from '@/lib/library-collections';
-import { useEffect, useMemo, useState, type FormEvent } from 'react';
+import { useCallback, useEffect, useMemo, useState, type FormEvent } from 'react';
 import HebrewExplorer from './hebrew-explorer';
 import FullTextSearch from './full-text-search';
+import Encyclopedias from './encyclopedias';
 import StudyPackets from './study-packets';
 import Lectionary from './lectionary';
 import GospelParallels from './gospel-parallels';
@@ -240,6 +241,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
   const [recentPassages, setRecentPassages] = useState<DeviceLink[]>([]);
   const [recentStudies, setRecentStudies] = useState<DeviceLink[]>([]);
   const [bookmarks, setBookmarks] = useState<DeviceLink[]>([]);
+  const refreshDeviceLinks = useCallback(() => { setRecentStudies(readDeviceLinks('afnt-recent-studies')); setBookmarks(readDeviceLinks('afnt-library-bookmarks')); }, []);
   useEffect(() => {
     const requestedRoute = currentRoute();
     setRoute(requestedRoute);
@@ -259,7 +261,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
     }).catch(reason => { if (!controller.signal.aborted) setError(reason.message); });
     return () => controller.abort();
   }, []);
-  const collectionQuery = ['lectionary', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
+  const collectionQuery = ['encyclopedias', 'lectionary', 'parallels', 'packets', 'fulltext', 'research', 'connections', 'commentaries', 'hebrew'].includes(route.view) ? '' : route.q;
   const data = useMemo(() => {
     if (!index) return null;
     const comparisons = [...index.comparisons].sort((a, b) => {
@@ -310,13 +312,14 @@ export default function Library({ offline = false }: { offline?: boolean }) {
           {route.view==='overview'&&<nav className="library-tabs" aria-label="Library collections" onClick={event => { const link = (event.target as HTMLElement).closest('a'); if (link && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); switchCollection(link.getAttribute('href')!); } }}>
             <a href="/library?view=lectionary"><div className="library-card-decoration" aria-hidden="true"><CalendarDays strokeWidth={1.5} focusable="false"/></div><strong>Lectionary</strong><small>Sunday readings and study packets</small></a>
             <a href="/library?view=packets"><div className="library-card-decoration" aria-hidden="true"><NotebookPen strokeWidth={1.5} focusable="false"/></div><strong>Study Packets</strong><small>Assemble, preview and print</small></a>
-            <a href="/library?view=fulltext"><div className="library-card-decoration" aria-hidden="true"><Search strokeWidth={1.5} focusable="false"/></div><strong>Search resource text</strong><small>Full text across studies and commentaries</small></a>
+            <a href="/library?view=fulltext"><div className="library-card-decoration" aria-hidden="true"><Search strokeWidth={1.5} focusable="false"/></div><strong>Search resource text</strong><small>Full text across studies, commentaries and encyclopedias</small></a>
             <AppLink href={hrefFor(route, { view: 'comparisons', page: 1, article: '', lemma: '', category: '', kind: '' })}><div className="library-card-decoration" aria-hidden="true"><Columns2 strokeWidth={1.5} focusable="false"/></div><strong>Textual Comparisons</strong><span>{data.comparisons.length}</span><small>Reviewed passage studies</small></AppLink>
             <AppLink href={hrefFor(route, { view: 'articles', page: 1, article: '', lemma: '', book: '', kind: '' })}><div className="library-card-decoration" aria-hidden="true"><BookOpen strokeWidth={1.5} focusable="false"/></div><strong>Greek Word Studies</strong><span>{data.articles.length}</span><small>Ordinary Means commentary</small></AppLink>
             <AppLink href={hrefFor(route, { view: 'lexicon', page: 1, article: '', lemma: '', book: '', kind: '', category: '' })}><div className="library-card-decoration" aria-hidden="true"><BookA strokeWidth={1.5} focusable="false"/></div><strong>Greek Lexicon</strong><span>{data.words.length.toLocaleString()}</span><small>Dictionary and corpus data</small></AppLink>
             <a href="/library?view=research"><div className="library-card-decoration" aria-hidden="true"><BookSearch strokeWidth={1.5} focusable="false"/></div><strong>Septuagint Research</strong><small>Search Greek texts, lemmas and morphology</small></a>
             <a href="/library?view=parallels"><div className="library-card-decoration" aria-hidden="true"><Columns3 strokeWidth={1.5} focusable="false"/></div><strong>Gospel Parallels</strong><small>Read related Gospel accounts together</small></a>
             <a href="/library?view=connections"><div className="library-card-decoration" aria-hidden="true"><Link2 strokeWidth={1.5} focusable="false"/></div><strong>NT/OT Connections</strong><small>Browse publisher links and reviewed classifications</small></a>
+            <a href="/library?view=encyclopedias"><div className="library-card-decoration" aria-hidden="true"><BookA strokeWidth={1.5} focusable="false"/></div><strong>Encyclopedias</strong><small>ISBE 1915 · Lutheran Cyclopedia 1899</small></a>
             <a href="/library?view=commentaries"><div className="library-card-decoration" aria-hidden="true"><LibraryBig strokeWidth={1.5} focusable="false"/></div><strong>Commentaries</strong><small>Keil &amp; Delitzsch · Lenski</small></a>
             <a href="/library?view=hebrew"><div className="library-card-decoration" aria-hidden="true"><Languages strokeWidth={1.5} focusable="false"/></div><strong>Hebrew Word Explorer</strong><small>Source words, morphology and Ordinary Means studies</small></a>
           </nav>}
@@ -324,6 +327,7 @@ export default function Library({ offline = false }: { offline?: boolean }) {
             {route.view === 'lectionary' && <Lectionary locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'parallels' && <GospelParallels locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'packets' && <StudyPackets locationKey={locationKey} onNavigate={navigateCollection} />}
+            {route.view === 'encyclopedias' && <Encyclopedias locationKey={locationKey} onNavigate={navigateCollection} onDeviceLinksChange={refreshDeviceLinks} />}
             {route.view === 'fulltext' && <FullTextSearch locationKey={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'hebrew' && <HebrewExplorer key={locationKey} onNavigate={navigateCollection} />}
             {route.view === 'commentaries' && <CommentaryLibrary key={locationKey} onNavigate={navigateCollection} />}
