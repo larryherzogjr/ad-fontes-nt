@@ -1,5 +1,19 @@
 # Ad Fontes NT — project status
 
+## 2026-10-16 — Private evaluation site and signed apps published (AF-EVAL-001–003)
+
+The dedicated evaluation site is live at https://eval.ad-fontes.app. Real Google login succeeds; Larry explicitly confirms Logos eligibility and authorizes his normal-UI admission. Both signed 4.3.4 evaluation installers are published behind admission: notarized macOS Apple Silicon and Azure-signed Windows x64. Private two-platform updater metadata is published with independent payload/trusted-comment signature verification. Source remains frozen at 73c4cff; public production stays separate and healthy at 2b56fbf.
+
+Host publication verifies every payload size/hash before the index changes. The admitted portal shows both exact installer hashes; anonymous content/installers/updater are 403, private static paths/public evaluation API are 404. Mac native reading smoke and Windows disposable install/reinstall/uninstall isolation pass. A final browser download check stalls and supplies no transfer result; actual native pairing/future-version delivery and physical Windows 11/Intel Mac acceptance are not claimed. The portal provides pairing guidance. [Release evidence, hashes and limitations](docs/Private-Evaluation-Release-2026-10-16.md).
+
+The repository is confirmed PUBLIC; only explicitly approved authenticated ciphertext passed through GitHub. Temporary input releases/tags, output artifact and transport secret are removed, local transport key deleted, and release-control worktree archived. Source/private content, verified signed files, legacy data and existing signing credentials are preserved. Follow-up: Larry’s real-device evaluation and additional testers’ explicit eligibility confirmation before grants. Earlier preparation/pending entries below are historical; current-release/MVP acceptance remains closed.
+
+## 2026-10-16 — Evaluation Google login and live resource access verified (AF-EVAL-001–003)
+
+The owner corrects the saved redirect from the retired account path to /api/evaluation/callback. Real Google sign-in completes; administrator role is recognized while resource admission stays pending. After explicit owner eligibility confirmation and grant authorization, the normal admin UI grants access. Live protected Luther text, Concordia search (271 quoted-phrase sections), Greek context/highlights, Escape return and 390px reading pass. Anonymous resource/updater requests remain denied. No legacy identity/database or authentication bypass is used.
+
+Windows run 38967937464 passes exact encrypted-frontend verification, four evaluation security groups, Azure login and Artifact Signing preflight, and is compiling the native installer. Its workflow is c285ed4; common native source remains 73c4cff. Earlier transport/test-setup failures produced no candidate binaries. Signed Windows artifact verification, two-platform protected publication and transient encrypted-CI cleanup remain next.
+
 ## 2026-10-16 — Evaluation hosting live; encrypted Windows signing authorized (AF-EVAL-001–003)
 
 Larry executes the dedicated host command: isolated image/service/database, evaluation Nginx site and automatically renewing TLS certificate install successfully. Independent HTTPS health succeeds; anonymous private content/updater requests return 403, direct private static paths return 404, and portal security headers are present. Public production remains healthy. Actual Google sign-in currently returns redirect_uri_mismatch for the intended callback; the exact existing client ID/URI are sent to Larry for correction. No identity or eligibility bypass is used.
